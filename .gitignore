@@ -1,0 +1,9 @@
+# Local Obsidian state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# Operating system and editor files
+.DS_Store
+*.swp
