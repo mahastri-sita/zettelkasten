@@ -7,3 +7,6 @@
 # Operating system and editor files
 .DS_Store
 *.swp
+
+# Unverified raw data
+ssn202403_kor_mig.dbf

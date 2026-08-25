@@ -1,0 +1,1783 @@
+Tahun,Wilayah,Sektor,Kategori,Nilai_PDRB
+2014,jawa_timur,A,pertanian,155783960
+2014,jawa_timur,B,pertambangan,60862350
+2014,jawa_timur,C,industri,372316290
+2014,jawa_timur,D,listrik ,4545120
+2014,jawa_timur,E,pengadaan-air,1234130
+2014,jawa_timur,F,konstruksi,116498230
+2014,jawa_timur,G,perdagangan,230225810
+2014,jawa_timur,H,transportasi ,36461760
+2014,jawa_timur,I,makan-minum,62807800
+2014,jawa_timur,J,komunikasi,69155100
+2014,jawa_timur,K,keuangan ,32399640
+2014,jawa_timur,L,real-estat,21998290
+2014,jawa_timur,"M, N",jasa-perusahaan,9815000
+2014,jawa_timur,O,pemerintahan,28729580
+2014,jawa_timur,PDRB,pendidikan,33164900
+2014,jawa_timur,Q,kesehatan,8212850
+2014,jawa_timur,"R, S, T, U",jasa-lainnya,18473700
+2015,jawa_timur,A,pertanian,160889400
+2015,jawa_timur,B,pertambangan,65707010
+2015,jawa_timur,C,industri,393272950
+2015,jawa_timur,D,listrik ,4455270
+2015,jawa_timur,E,pengadaan-air,1299270
+2015,jawa_timur,F,konstruksi,120688270
+2015,jawa_timur,G,perdagangan,243014660
+2015,jawa_timur,H,transportasi ,38895670
+2015,jawa_timur,I,makan-minum,67657040
+2015,jawa_timur,J,komunikasi,73639960
+2015,jawa_timur,K,keuangan ,34730260
+2015,jawa_timur,L,real-estat,23092640
+2015,jawa_timur,"M, N",jasa-perusahaan,10349050
+2015,jawa_timur,O,pemerintahan,30236250
+2015,jawa_timur,PDRB,pendidikan,35330670
+2015,jawa_timur,Q,kesehatan,8743340
+2015,jawa_timur,"R, S, T, U",jasa-lainnya,19374390
+2016,jawa_timur,A,pertanian,164762910
+2016,jawa_timur,B,pertambangan,75024890
+2016,jawa_timur,C,industri,410741310
+2016,jawa_timur,D,listrik ,4483930
+2016,jawa_timur,E,pengadaan-air,1366670
+2016,jawa_timur,F,konstruksi,127334640
+2016,jawa_timur,G,perdagangan,257126660
+2016,jawa_timur,H,transportasi ,41115330
+2016,jawa_timur,I,makan-minum,73397920
+2016,jawa_timur,J,komunikasi,79216960
+2016,jawa_timur,K,keuangan ,37158620
+2016,jawa_timur,L,real-estat,24298540
+2016,jawa_timur,"M, N",jasa-perusahaan,10884700
+2016,jawa_timur,O,pemerintahan,31668140
+2016,jawa_timur,PDRB,pendidikan,37438700
+2016,jawa_timur,Q,kesehatan,9245380
+2016,jawa_timur,"R, S, T, U",jasa-lainnya,20298200
+2017,jawa_timur,A,pertanian,167360570
+2017,jawa_timur,B,pertambangan,80636380
+2017,jawa_timur,C,industri,434114160
+2017,jawa_timur,D,listrik ,4599540
+2017,jawa_timur,E,pengadaan-air,1454640
+2017,jawa_timur,F,konstruksi,136136390
+2017,jawa_timur,G,perdagangan,273213400
+2017,jawa_timur,H,transportasi ,43835330
+2017,jawa_timur,I,makan-minum,79202190
+2017,jawa_timur,J,komunikasi,84699180
+2017,jawa_timur,K,keuangan ,38064500
+2017,jawa_timur,L,real-estat,25247600
+2017,jawa_timur,"M, N",jasa-perusahaan,11486870
+2017,jawa_timur,O,pemerintahan,32369740
+2017,jawa_timur,PDRB,pendidikan,38931650
+2017,jawa_timur,Q,kesehatan,9743840
+2017,jawa_timur,"R, S, T, U",jasa-lainnya,21203590
+2018,jawa_timur,A,pertanian,163799940
+2018,jawa_timur,B,pertambangan,82573560
+2018,jawa_timur,C,industri,466908040
+2018,jawa_timur,D,listrik ,4499000
+2018,jawa_timur,E,pengadaan-air,1515430
+2018,jawa_timur,F,konstruksi,145140200
+2018,jawa_timur,G,perdagangan,290136300
+2018,jawa_timur,H,transportasi ,46712450
+2018,jawa_timur,I,makan-minum,85237500
+2018,jawa_timur,J,komunikasi,90416220
+2018,jawa_timur,K,keuangan ,39859920
+2018,jawa_timur,L,real-estat,26823050
+2018,jawa_timur,"M, N",jasa-perusahaan,12308510
+2018,jawa_timur,O,pemerintahan,33730190
+2018,jawa_timur,PDRB,pendidikan,41036230
+2018,jawa_timur,Q,kesehatan,10485660
+2018,jawa_timur,"R, S, T, U",jasa-lainnya,22259620
+2019,jawa_timur,A,pertanian,165951230
+2019,jawa_timur,B,pertambangan,83847020
+2019,jawa_timur,C,industri,498740300
+2019,jawa_timur,D,listrik ,4561030
+2019,jawa_timur,E,pengadaan-air,1586730
+2019,jawa_timur,F,konstruksi,153689590
+2019,jawa_timur,G,perdagangan,307440920
+2019,jawa_timur,H,transportasi ,48471400
+2019,jawa_timur,I,makan-minum,91659390
+2019,jawa_timur,J,komunikasi,97070640
+2019,jawa_timur,K,keuangan ,41374530
+2019,jawa_timur,L,real-estat,28441500
+2019,jawa_timur,"M, N",jasa-perusahaan,13128020
+2019,jawa_timur,O,pemerintahan,34984340
+2019,jawa_timur,PDRB,pendidikan,44018960
+2019,jawa_timur,Q,kesehatan,11277800
+2019,jawa_timur,"R, S, T, U",jasa-lainnya,23652240
+2020,jawa_timur,A,pertanian,167631240
+2020,jawa_timur,B,pertambangan,80897970
+2020,jawa_timur,C,industri,488376560
+2020,jawa_timur,D,listrik ,4451890
+2020,jawa_timur,E,pengadaan-air,1666530
+2020,jawa_timur,F,konstruksi,148652440
+2020,jawa_timur,G,perdagangan,289656360
+2020,jawa_timur,H,transportasi ,43466260
+2020,jawa_timur,I,makan-minum,83548620
+2020,jawa_timur,J,komunikasi,106612550
+2020,jawa_timur,K,keuangan ,41449260
+2020,jawa_timur,L,real-estat,29565690
+2020,jawa_timur,"M, N",jasa-perusahaan,12180020
+2020,jawa_timur,O,pemerintahan,34848510
+2020,jawa_timur,PDRB,pendidikan,45760000
+2020,jawa_timur,Q,kesehatan,12239460
+2020,jawa_timur,"R, S, T, U",jasa-lainnya,20389190
+2021,jawa_timur,A,pertanian,170556770
+2021,jawa_timur,B,pertambangan,77270040
+2021,jawa_timur,C,industri,504889130
+2021,jawa_timur,D,listrik ,4711100
+2021,jawa_timur,E,pengadaan-air,1761000
+2021,jawa_timur,F,konstruksi,152417900
+2021,jawa_timur,G,perdagangan,312154690
+2021,jawa_timur,H,transportasi ,44556660
+2021,jawa_timur,I,makan-minum,86108360
+2021,jawa_timur,J,komunikasi,113956930
+2021,jawa_timur,K,keuangan ,42116040
+2021,jawa_timur,L,real-estat,30241300
+2021,jawa_timur,"M, N",jasa-perusahaan,12466400
+2021,jawa_timur,O,pemerintahan,34948540
+2021,jawa_timur,PDRB,pendidikan,46185090
+2021,jawa_timur,Q,kesehatan,12847310
+2021,jawa_timur,"R, S, T, U",jasa-lainnya,21567090
+2022,jawa_timur,A,pertanian,173747560
+2022,jawa_timur,B,pertambangan,71865200
+2022,jawa_timur,C,industri,536394030
+2022,jawa_timur,D,listrik ,5065010
+2022,jawa_timur,E,pengadaan-air,1800780
+2022,jawa_timur,F,konstruksi,162018820
+2022,jawa_timur,G,perdagangan,333626690
+2022,jawa_timur,H,transportasi ,53240330
+2022,jawa_timur,I,makan-minum,94152210
+2022,jawa_timur,J,komunikasi,119126090
+2022,jawa_timur,K,keuangan ,43096150
+2022,jawa_timur,L,real-estat,31618650
+2022,jawa_timur,"M, N",jasa-perusahaan,13112650
+2022,jawa_timur,O,pemerintahan,35038580
+2022,jawa_timur,PDRB,pendidikan,46578620
+2022,jawa_timur,Q,kesehatan,13143410
+2022,jawa_timur,"R, S, T, U",jasa-lainnya,24250110
+2023,jawa_timur,A,pertanian,177668870
+2023,jawa_timur,B,pertambangan,73050780
+2023,jawa_timur,C,industri,558417350
+2023,jawa_timur,D,listrik ,6292490
+2023,jawa_timur,E,pengadaan-air,1853360
+2023,jawa_timur,F,konstruksi,170216240
+2023,jawa_timur,G,perdagangan,352847770
+2023,jawa_timur,H,transportasi ,60314160
+2023,jawa_timur,I,makan-minum,101732190
+2023,jawa_timur,J,komunikasi,126989400
+2023,jawa_timur,K,keuangan ,44736200
+2023,jawa_timur,L,real-estat,32469010
+2023,jawa_timur,"M, N",jasa-perusahaan,14196940
+2023,jawa_timur,O,pemerintahan,35054160
+2023,jawa_timur,PDRB,pendidikan,48831830
+2023,jawa_timur,Q,kesehatan,13645760
+2023,jawa_timur,"R, S, T, U",jasa-lainnya,26492180
+2024,jawa_timur,A,pertanian,177789800
+2024,jawa_timur,B,pertambangan,72588570
+2024,jawa_timur,C,industri,588589260
+2024,jawa_timur,D,listrik ,6727740
+2024,jawa_timur,E,pengadaan-air,1898560
+2024,jawa_timur,F,konstruksi,181967620
+2024,jawa_timur,G,perdagangan,368883680
+2024,jawa_timur,H,transportasi ,66044110
+2024,jawa_timur,I,makan-minum,108833450
+2024,jawa_timur,J,komunikasi,135143730
+2024,jawa_timur,K,keuangan ,46483850
+2024,jawa_timur,L,real-estat,33414390
+2024,jawa_timur,"M, N",jasa-perusahaan,15316230
+2024,jawa_timur,O,pemerintahan,37780980
+2024,jawa_timur,PDRB,pendidikan,51184270
+2024,jawa_timur,Q,kesehatan,14399030
+2024,jawa_timur,"R, S, T, U",jasa-lainnya,28764880
+2014,sumatera_barat,A,pertanian,32151490
+2014,sumatera_barat,B,pertambangan,5923570
+2014,sumatera_barat,C,industri,15140070
+2014,sumatera_barat,D,listrik ,140010
+2014,sumatera_barat,E,pengadaan-air,133700
+2014,sumatera_barat,F,konstruksi,11523580
+2014,sumatera_barat,G,perdagangan,20523150
+2014,sumatera_barat,H,transportasi ,14929950
+2014,sumatera_barat,I,makan-minum,1329400
+2014,sumatera_barat,J,komunikasi,8322870
+2014,sumatera_barat,K,keuangan ,4041350
+2014,sumatera_barat,L,real-estat,2609890
+2014,sumatera_barat,"M, N",jasa-perusahaan,585990
+2014,sumatera_barat,O,pemerintahan,7511120
+2014,sumatera_barat,PDRB,pendidikan,4657620
+2014,sumatera_barat,Q,kesehatan,1749930
+2014,sumatera_barat,"R, S, T, U",jasa-lainnya,2067170
+2015,sumatera_barat,A,pertanian,33546760
+2015,sumatera_barat,B,pertambangan,6144580
+2015,sumatera_barat,C,industri,15418540
+2015,sumatera_barat,D,listrik ,145690
+2015,sumatera_barat,E,pengadaan-air,141710
+2015,sumatera_barat,F,konstruksi,12315040
+2015,sumatera_barat,G,perdagangan,21626610
+2015,sumatera_barat,H,transportasi ,16259290
+2015,sumatera_barat,I,makan-minum,1420410
+2015,sumatera_barat,J,komunikasi,9080560
+2015,sumatera_barat,K,keuangan ,4188230
+2015,sumatera_barat,L,real-estat,2748100
+2015,sumatera_barat,"M, N",jasa-perusahaan,620610
+2015,sumatera_barat,O,pemerintahan,7895350
+2015,sumatera_barat,PDRB,pendidikan,5022030
+2015,sumatera_barat,Q,kesehatan,1881300
+2015,sumatera_barat,"R, S, T, U",jasa-lainnya,2264680
+2016,sumatera_barat,A,pertanian,34222560
+2016,sumatera_barat,B,pertambangan,6267610
+2016,sumatera_barat,C,industri,16174100
+2016,sumatera_barat,D,listrik ,161630
+2016,sumatera_barat,E,pengadaan-air,150770
+2016,sumatera_barat,F,konstruksi,13126840
+2016,sumatera_barat,G,perdagangan,22796930
+2016,sumatera_barat,H,transportasi ,17506910
+2016,sumatera_barat,I,makan-minum,1557100
+2016,sumatera_barat,J,komunikasi,9934330
+2016,sumatera_barat,K,keuangan ,4524390
+2016,sumatera_barat,L,real-estat,2895560
+2016,sumatera_barat,"M, N",jasa-perusahaan,651280
+2016,sumatera_barat,O,pemerintahan,8286950
+2016,sumatera_barat,PDRB,pendidikan,5416450
+2016,sumatera_barat,Q,kesehatan,1984290
+2016,sumatera_barat,"R, S, T, U",jasa-lainnya,2476540
+2017,sumatera_barat,A,pertanian,35394690
+2017,sumatera_barat,B,pertambangan,6338270
+2017,sumatera_barat,C,industri,16540820
+2017,sumatera_barat,D,listrik ,168200
+2017,sumatera_barat,E,pengadaan-air,156740
+2017,sumatera_barat,F,konstruksi,14075900
+2017,sumatera_barat,G,perdagangan,24279260
+2017,sumatera_barat,H,transportasi ,18762200
+2017,sumatera_barat,I,makan-minum,1693490
+2017,sumatera_barat,J,komunikasi,10802640
+2017,sumatera_barat,K,keuangan ,4619810
+2017,sumatera_barat,L,real-estat,3025620
+2017,sumatera_barat,"M, N",jasa-perusahaan,685060
+2017,sumatera_barat,O,pemerintahan,8659080
+2017,sumatera_barat,PDRB,pendidikan,5954630
+2017,sumatera_barat,Q,kesehatan,2154590
+2017,sumatera_barat,"R, S, T, U",jasa-lainnya,2673390
+2018,sumatera_barat,A,pertanian,36639600
+2018,sumatera_barat,B,pertambangan,6705050
+2018,sumatera_barat,C,industri,16444840
+2018,sumatera_barat,D,listrik ,175080
+2018,sumatera_barat,E,pengadaan-air,160240
+2018,sumatera_barat,F,konstruksi,15061090
+2018,sumatera_barat,G,perdagangan,25976540
+2018,sumatera_barat,H,transportasi ,19969550
+2018,sumatera_barat,I,makan-minum,1832880
+2018,sumatera_barat,J,komunikasi,11723220
+2018,sumatera_barat,K,keuangan ,4665420
+2018,sumatera_barat,L,real-estat,3166850
+2018,sumatera_barat,"M, N",jasa-perusahaan,722430
+2018,sumatera_barat,O,pemerintahan,9175850
+2018,sumatera_barat,PDRB,pendidikan,6382700
+2018,sumatera_barat,Q,kesehatan,2311450
+2018,sumatera_barat,"R, S, T, U",jasa-lainnya,2883400
+2019,sumatera_barat,A,pertanian,37549460
+2019,sumatera_barat,B,pertambangan,7121860
+2019,sumatera_barat,C,industri,16118650
+2019,sumatera_barat,D,listrik ,182440
+2019,sumatera_barat,E,pengadaan-air,170010
+2019,sumatera_barat,F,konstruksi,16336310
+2019,sumatera_barat,G,perdagangan,27869920
+2019,sumatera_barat,H,transportasi ,20918710
+2019,sumatera_barat,I,makan-minum,1981560
+2019,sumatera_barat,J,komunikasi,12746460
+2019,sumatera_barat,K,keuangan ,4772020
+2019,sumatera_barat,L,real-estat,3381410
+2019,sumatera_barat,"M, N",jasa-perusahaan,767250
+2019,sumatera_barat,O,pemerintahan,9814880
+2019,sumatera_barat,PDRB,pendidikan,6889400
+2019,sumatera_barat,Q,kesehatan,2485720
+2019,sumatera_barat,"R, S, T, U",jasa-lainnya,3099510
+2020,sumatera_barat,A,pertanian,37993390
+2020,sumatera_barat,B,pertambangan,7028910
+2020,sumatera_barat,C,industri,16031820
+2020,sumatera_barat,D,listrik ,170030
+2020,sumatera_barat,E,pengadaan-air,168250
+2020,sumatera_barat,F,konstruksi,15854140
+2020,sumatera_barat,G,perdagangan,27552850
+2020,sumatera_barat,H,transportasi ,17551680
+2020,sumatera_barat,I,makan-minum,1665500
+2020,sumatera_barat,J,komunikasi,13963890
+2020,sumatera_barat,K,keuangan ,4836000
+2020,sumatera_barat,L,real-estat,3388830
+2020,sumatera_barat,"M, N",jasa-perusahaan,736710
+2020,sumatera_barat,O,pemerintahan,9757160
+2020,sumatera_barat,PDRB,pendidikan,7235890
+2020,sumatera_barat,Q,kesehatan,2705240
+2020,sumatera_barat,"R, S, T, U",jasa-lainnya,2786310
+2021,sumatera_barat,A,,38820710
+2021,sumatera_barat,B,,6904550
+2021,sumatera_barat,C,,16628370
+2021,sumatera_barat,D,,175370
+2021,sumatera_barat,E,,177560
+2021,sumatera_barat,F,,16200240
+2021,sumatera_barat,G,,28956930
+2021,sumatera_barat,H,,17998210
+2021,sumatera_barat,I,,1759790
+2021,sumatera_barat,J,,14860130
+2021,sumatera_barat,K,,5244910
+2021,sumatera_barat,L,,3470470
+2021,sumatera_barat,"M, N",,745040
+2021,sumatera_barat,O,,9840450
+2021,sumatera_barat,PDRB,,7368590
+2021,sumatera_barat,Q,,2864360
+2021,sumatera_barat,"R, S, T, U",,2984220
+2022,sumatera_barat,A,,40188630
+2022,sumatera_barat,B,,7038280
+2022,sumatera_barat,C,,16918570
+2022,sumatera_barat,D,,181010
+2022,sumatera_barat,E,,184520
+2022,sumatera_barat,F,,16607630
+2022,sumatera_barat,G,,30577860
+2022,sumatera_barat,H,,19030280
+2022,sumatera_barat,I,,2037610
+2022,sumatera_barat,J,,15902750
+2022,sumatera_barat,K,,5482850
+2022,sumatera_barat,L,,3671090
+2022,sumatera_barat,"M, N",,799640
+2022,sumatera_barat,O,,9927920
+2022,sumatera_barat,PDRB,,7746600
+2022,sumatera_barat,Q,,2994270
+2022,sumatera_barat,"R, S, T, U",,3338860
+2023,sumatera_barat,A,,41612830
+2023,sumatera_barat,B,,7365810
+2023,sumatera_barat,C,,17440380
+2023,sumatera_barat,D,,188530
+2023,sumatera_barat,E,,189560
+2023,sumatera_barat,F,,17580380
+2023,sumatera_barat,G,,32029010
+2023,sumatera_barat,H,,20128400
+2023,sumatera_barat,I,,2194620
+2023,sumatera_barat,J,,17117630
+2023,sumatera_barat,K,,5635500
+2023,sumatera_barat,L,,3903010
+2023,sumatera_barat,"M, N",,854690
+2023,sumatera_barat,O,,10120910
+2023,sumatera_barat,PDRB,,7888880
+2023,sumatera_barat,Q,,3212560
+2023,sumatera_barat,"R, S, T, U",,3607850
+2024,sumatera_barat,A,,42467740
+2024,sumatera_barat,B,,7658030
+2024,sumatera_barat,C,,17894040
+2024,sumatera_barat,D,,196820
+2024,sumatera_barat,E,,196510
+2024,sumatera_barat,F,,18384650
+2024,sumatera_barat,G,,33570180
+2024,sumatera_barat,H,,21248290
+2024,sumatera_barat,I,,2312370
+2024,sumatera_barat,J,,18050930
+2024,sumatera_barat,K,,5976830
+2024,sumatera_barat,L,,4132190
+2024,sumatera_barat,"M, N",,895040
+2024,sumatera_barat,O,,11017420
+2024,sumatera_barat,PDRB,,8143870
+2024,sumatera_barat,Q,,3392380
+2024,sumatera_barat,"R, S, T, U",,3870090
+2014,kota_mojokerto,A,,23757
+2014,kota_mojokerto,B,,0
+2014,kota_mojokerto,C,,402595
+2014,kota_mojokerto,D,,3633
+2014,kota_mojokerto,E,,5217
+2014,kota_mojokerto,F,,420012
+2014,kota_mojokerto,G,,1120277
+2014,kota_mojokerto,H,,96877
+2014,kota_mojokerto,I,,229793
+2014,kota_mojokerto,J,,523834
+2014,kota_mojokerto,K,,280530
+2014,kota_mojokerto,L,,109028
+2014,kota_mojokerto,"M, N",,28291
+2014,kota_mojokerto,O,,173388
+2014,kota_mojokerto,PDRB,,165026
+2014,kota_mojokerto,Q,,45870
+2014,kota_mojokerto,"R, S, T, U",,146508
+2015,kota_mojokerto,A,,24470
+2015,kota_mojokerto,B,,0
+2015,kota_mojokerto,C,,427100
+2015,kota_mojokerto,D,,3710
+2015,kota_mojokerto,E,,5350
+2015,kota_mojokerto,F,,434900
+2015,kota_mojokerto,G,,1185370
+2015,kota_mojokerto,H,,102010
+2015,kota_mojokerto,I,,244230
+2015,kota_mojokerto,J,,563280
+2015,kota_mojokerto,K,,297280
+2015,kota_mojokerto,L,,113710
+2015,kota_mojokerto,"M, N",,29870
+2015,kota_mojokerto,O,,183380
+2015,kota_mojokerto,PDRB,,175620
+2015,kota_mojokerto,Q,,47290
+2015,kota_mojokerto,"R, S, T, U",,153810
+2016,kota_mojokerto,A,,24950
+2016,kota_mojokerto,B,,0
+2016,kota_mojokerto,C,,451450
+2016,kota_mojokerto,D,,3840
+2016,kota_mojokerto,E,,5560
+2016,kota_mojokerto,F,,455970
+2016,kota_mojokerto,G,,1250940
+2016,kota_mojokerto,H,,107660
+2016,kota_mojokerto,I,,261940
+2016,kota_mojokerto,J,,604070
+2016,kota_mojokerto,K,,315460
+2016,kota_mojokerto,L,,119380
+2016,kota_mojokerto,"M, N",,31340
+2016,kota_mojokerto,O,,192780
+2016,kota_mojokerto,PDRB,,185640
+2016,kota_mojokerto,Q,,50010
+2016,kota_mojokerto,"R, S, T, U",,160830
+2017,kota_mojokerto,A,,25360
+2017,kota_mojokerto,B,,0
+2017,kota_mojokerto,C,,479250
+2017,kota_mojokerto,D,,4000
+2017,kota_mojokerto,E,,5840
+2017,kota_mojokerto,F,,483700
+2017,kota_mojokerto,G,,1327940
+2017,kota_mojokerto,H,,115050
+2017,kota_mojokerto,I,,281230
+2017,kota_mojokerto,J,,644050
+2017,kota_mojokerto,K,,325380
+2017,kota_mojokerto,L,,123840
+2017,kota_mojokerto,"M, N",,33000
+2017,kota_mojokerto,O,,199250
+2017,kota_mojokerto,PDRB,,192720
+2017,kota_mojokerto,Q,,52710
+2017,kota_mojokerto,"R, S, T, U",,167110
+2018,kota_mojokerto,A,,25550
+2018,kota_mojokerto,B,,0
+2018,kota_mojokerto,C,,507000
+2018,kota_mojokerto,D,,4190
+2018,kota_mojokerto,E,,6080
+2018,kota_mojokerto,F,,511850
+2018,kota_mojokerto,G,,1410090
+2018,kota_mojokerto,H,,122210
+2018,kota_mojokerto,I,,303430
+2018,kota_mojokerto,J,,685620
+2018,kota_mojokerto,K,,340460
+2018,kota_mojokerto,L,,128760
+2018,kota_mojokerto,"M, N",,34760
+2018,kota_mojokerto,O,,208050
+2018,kota_mojokerto,PDRB,,200800
+2018,kota_mojokerto,Q,,55680
+2018,kota_mojokerto,"R, S, T, U",,174400
+2019,kota_mojokerto,A,,25160
+2019,kota_mojokerto,B,,0
+2019,kota_mojokerto,C,,522360
+2019,kota_mojokerto,D,,4450
+2019,kota_mojokerto,E,,6380
+2019,kota_mojokerto,F,,541450
+2019,kota_mojokerto,G,,1492980
+2019,kota_mojokerto,H,,131720
+2019,kota_mojokerto,I,,327020
+2019,kota_mojokerto,J,,734250
+2019,kota_mojokerto,K,,355620
+2019,kota_mojokerto,L,,133950
+2019,kota_mojokerto,"M, N",,36630
+2019,kota_mojokerto,O,,216930
+2019,kota_mojokerto,PDRB,,213160
+2019,kota_mojokerto,Q,,59020
+2019,kota_mojokerto,"R, S, T, U",,184590
+2020,kota_mojokerto,A,,27210
+2020,kota_mojokerto,B,,0
+2020,kota_mojokerto,C,,503810
+2020,kota_mojokerto,D,,4440
+2020,kota_mojokerto,E,,6660
+2020,kota_mojokerto,F,,507530
+2020,kota_mojokerto,G,,1355600
+2020,kota_mojokerto,H,,123240
+2020,kota_mojokerto,I,,300350
+2020,kota_mojokerto,J,,792050
+2020,kota_mojokerto,K,,355690
+2020,kota_mojokerto,L,,138340
+2020,kota_mojokerto,"M, N",,33980
+2020,kota_mojokerto,O,,211690
+2020,kota_mojokerto,PDRB,,219290
+2020,kota_mojokerto,Q,,63780
+2020,kota_mojokerto,"R, S, T, U",,157810
+2021,kota_mojokerto,A,,26550
+2021,kota_mojokerto,B,,0
+2021,kota_mojokerto,C,,518810
+2021,kota_mojokerto,D,,4550
+2021,kota_mojokerto,E,,7070
+2021,kota_mojokerto,F,,511900
+2021,kota_mojokerto,G,,1444300
+2021,kota_mojokerto,H,,130520
+2021,kota_mojokerto,I,,304720
+2021,kota_mojokerto,J,,836420
+2021,kota_mojokerto,K,,357490
+2021,kota_mojokerto,L,,138680
+2021,kota_mojokerto,"M, N",,34270
+2021,kota_mojokerto,O,,211250
+2021,kota_mojokerto,PDRB,,219970
+2021,kota_mojokerto,Q,,66290
+2021,kota_mojokerto,"R, S, T, U",,163670
+2022,kota_mojokerto,A,,25730
+2022,kota_mojokerto,B,,0
+2022,kota_mojokerto,C,,550280
+2022,kota_mojokerto,D,,4820
+2022,kota_mojokerto,E,,7190
+2022,kota_mojokerto,F,,547010
+2022,kota_mojokerto,G,,1536990
+2022,kota_mojokerto,H,,150340
+2022,kota_mojokerto,I,,328320
+2022,kota_mojokerto,J,,873760
+2022,kota_mojokerto,K,,359750
+2022,kota_mojokerto,L,,143820
+2022,kota_mojokerto,"M, N",,34800
+2022,kota_mojokerto,O,,212120
+2022,kota_mojokerto,PDRB,,223420
+2022,kota_mojokerto,Q,,66760
+2022,kota_mojokerto,"R, S, T, U",,187900
+2023,kota_mojokerto,A,,23920
+2023,kota_mojokerto,B,,0
+2023,kota_mojokerto,C,,473740
+2023,kota_mojokerto,D,,5070
+2023,kota_mojokerto,E,,7430
+2023,kota_mojokerto,F,,549380
+2023,kota_mojokerto,G,,1621920
+2023,kota_mojokerto,H,,166450
+2023,kota_mojokerto,I,,357850
+2023,kota_mojokerto,J,,926200
+2023,kota_mojokerto,K,,369650
+2023,kota_mojokerto,L,,148130
+2023,kota_mojokerto,"M, N",,37420
+2023,kota_mojokerto,O,,213540
+2023,kota_mojokerto,PDRB,,231390
+2023,kota_mojokerto,Q,,70390
+2023,kota_mojokerto,"R, S, T, U",,197130
+2024,kota_mojokerto,A,,23370
+2024,kota_mojokerto,B,,0
+2024,kota_mojokerto,C,,490020
+2024,kota_mojokerto,D,,5320
+2024,kota_mojokerto,E,,7520
+2024,kota_mojokerto,F,,572680
+2024,kota_mojokerto,G,,1679350
+2024,kota_mojokerto,H,,182660
+2024,kota_mojokerto,I,,377580
+2024,kota_mojokerto,J,,999600
+2024,kota_mojokerto,K,,394810
+2024,kota_mojokerto,L,,156350
+2024,kota_mojokerto,"M, N",,39610
+2024,kota_mojokerto,O,,224570
+2024,kota_mojokerto,PDRB,,244920
+2024,kota_mojokerto,Q,,74850
+2024,kota_mojokerto,"R, S, T, U",,213590
+2014,kabupaten_mojokerto,A,,3663419
+2014,kabupaten_mojokerto,B,,431802
+2014,kabupaten_mojokerto,C,,23451002
+2014,kabupaten_mojokerto,D,,32878
+2014,kabupaten_mojokerto,E,,31299
+2014,kabupaten_mojokerto,F,,4110407
+2014,kabupaten_mojokerto,G,,4715267
+2014,kabupaten_mojokerto,H,,522268
+2014,kabupaten_mojokerto,I,,809107
+2014,kabupaten_mojokerto,J,,2838896
+2014,kabupaten_mojokerto,K,,648665
+2014,kabupaten_mojokerto,L,,715805
+2014,kabupaten_mojokerto,"M, N",,69252
+2014,kabupaten_mojokerto,O,,1059415
+2014,kabupaten_mojokerto,PDRB,,584578
+2014,kabupaten_mojokerto,Q,,178019
+2014,kabupaten_mojokerto,"R, S, T, U",,429977
+2015,kabupaten_mojokerto,A,,3741890
+2015,kabupaten_mojokerto,B,,440320
+2015,kabupaten_mojokerto,C,,24995190
+2015,kabupaten_mojokerto,D,,33800
+2015,kabupaten_mojokerto,E,,32040
+2015,kabupaten_mojokerto,F,,4245330
+2015,kabupaten_mojokerto,G,,4966320
+2015,kabupaten_mojokerto,H,,552930
+2015,kabupaten_mojokerto,I,,878940
+2015,kabupaten_mojokerto,J,,3026240
+2015,kabupaten_mojokerto,K,,693450
+2015,kabupaten_mojokerto,L,,754270
+2015,kabupaten_mojokerto,"M, N",,73180
+2015,kabupaten_mojokerto,O,,1104660
+2015,kabupaten_mojokerto,PDRB,,623930
+2015,kabupaten_mojokerto,Q,,184000
+2015,kabupaten_mojokerto,"R, S, T, U",,445860
+2016,kabupaten_mojokerto,A,,3848050
+2016,kabupaten_mojokerto,B,,453560
+2016,kabupaten_mojokerto,C,,26427890
+2016,kabupaten_mojokerto,D,,34950
+2016,kabupaten_mojokerto,E,,33600
+2016,kabupaten_mojokerto,F,,4447820
+2016,kabupaten_mojokerto,G,,5255150
+2016,kabupaten_mojokerto,H,,583060
+2016,kabupaten_mojokerto,I,,950990
+2016,kabupaten_mojokerto,J,,3248970
+2016,kabupaten_mojokerto,K,,741330
+2016,kabupaten_mojokerto,L,,783150
+2016,kabupaten_mojokerto,"M, N",,76780
+2016,kabupaten_mojokerto,O,,1156250
+2016,kabupaten_mojokerto,PDRB,,659800
+2016,kabupaten_mojokerto,Q,,193700
+2016,kabupaten_mojokerto,"R, S, T, U",,465550
+2017,kabupaten_mojokerto,A,,3878250
+2017,kabupaten_mojokerto,B,,475100
+2017,kabupaten_mojokerto,C,,28192780
+2017,kabupaten_mojokerto,D,,36490
+2017,kabupaten_mojokerto,E,,35680
+2017,kabupaten_mojokerto,F,,4667370
+2017,kabupaten_mojokerto,G,,5566710
+2017,kabupaten_mojokerto,H,,621230
+2017,kabupaten_mojokerto,I,,1022250
+2017,kabupaten_mojokerto,J,,3462500
+2017,kabupaten_mojokerto,K,,767830
+2017,kabupaten_mojokerto,L,,815760
+2017,kabupaten_mojokerto,"M, N",,80570
+2017,kabupaten_mojokerto,O,,1183800
+2017,kabupaten_mojokerto,PDRB,,689260
+2017,kabupaten_mojokerto,Q,,203710
+2017,kabupaten_mojokerto,"R, S, T, U",,488520
+2018,kabupaten_mojokerto,A,,3829550
+2018,kabupaten_mojokerto,B,,485870
+2018,kabupaten_mojokerto,C,,30155130
+2018,kabupaten_mojokerto,D,,38610
+2018,kabupaten_mojokerto,E,,37580
+2018,kabupaten_mojokerto,F,,4935330
+2018,kabupaten_mojokerto,G,,5895390
+2018,kabupaten_mojokerto,H,,675940
+2018,kabupaten_mojokerto,I,,1091880
+2018,kabupaten_mojokerto,J,,3679410
+2018,kabupaten_mojokerto,K,,803670
+2018,kabupaten_mojokerto,L,,852130
+2018,kabupaten_mojokerto,"M, N",,85450
+2018,kabupaten_mojokerto,O,,1233150
+2018,kabupaten_mojokerto,PDRB,,724960
+2018,kabupaten_mojokerto,Q,,217780
+2018,kabupaten_mojokerto,"R, S, T, U",,514770
+2019,kabupaten_mojokerto,A,,3861930
+2019,kabupaten_mojokerto,B,,495870
+2019,kabupaten_mojokerto,C,,32102320
+2019,kabupaten_mojokerto,D,,40960
+2019,kabupaten_mojokerto,E,,38880
+2019,kabupaten_mojokerto,F,,5220890
+2019,kabupaten_mojokerto,G,,6241490
+2019,kabupaten_mojokerto,H,,735260
+2019,kabupaten_mojokerto,I,,1162880
+2019,kabupaten_mojokerto,J,,3933970
+2019,kabupaten_mojokerto,K,,837540
+2019,kabupaten_mojokerto,L,,892490
+2019,kabupaten_mojokerto,"M, N",,91160
+2019,kabupaten_mojokerto,O,,1273310
+2019,kabupaten_mojokerto,PDRB,,760760
+2019,kabupaten_mojokerto,Q,,235590
+2019,kabupaten_mojokerto,"R, S, T, U",,541830
+2020,kabupaten_mojokerto,A,,3884600
+2020,kabupaten_mojokerto,B,,479350
+2020,kabupaten_mojokerto,C,,32153800
+2020,kabupaten_mojokerto,D,,40200
+2020,kabupaten_mojokerto,E,,40620
+2020,kabupaten_mojokerto,F,,4897720
+2020,kabupaten_mojokerto,G,,5806830
+2020,kabupaten_mojokerto,H,,699110
+2020,kabupaten_mojokerto,I,,1011490
+2020,kabupaten_mojokerto,J,,4230200
+2020,kabupaten_mojokerto,K,,839770
+2020,kabupaten_mojokerto,L,,914540
+2020,kabupaten_mojokerto,"M, N",,85260
+2020,kabupaten_mojokerto,O,,1238870
+2020,kabupaten_mojokerto,PDRB,,771940
+2020,kabupaten_mojokerto,Q,,257170
+2020,kabupaten_mojokerto,"R, S, T, U",,466950
+2021,kabupaten_mojokerto,A,,3924570
+2021,kabupaten_mojokerto,B,,498040
+2021,kabupaten_mojokerto,C,,33875260
+2021,kabupaten_mojokerto,D,,41450
+2021,kabupaten_mojokerto,E,,43210
+2021,kabupaten_mojokerto,F,,4795850
+2021,kabupaten_mojokerto,G,,6212460
+2021,kabupaten_mojokerto,H,,743830
+2021,kabupaten_mojokerto,I,,1045240
+2021,kabupaten_mojokerto,J,,4419200
+2021,kabupaten_mojokerto,K,,844330
+2021,kabupaten_mojokerto,L,,916860
+2021,kabupaten_mojokerto,"M, N",,86910
+2021,kabupaten_mojokerto,O,,1240750
+2021,kabupaten_mojokerto,PDRB,,770100
+2021,kabupaten_mojokerto,Q,,259410
+2021,kabupaten_mojokerto,"R, S, T, U",,481240
+2022,kabupaten_mojokerto,A,,3978810
+2022,kabupaten_mojokerto,B,,527890
+2022,kabupaten_mojokerto,C,,36102770
+2022,kabupaten_mojokerto,D,,43460
+2022,kabupaten_mojokerto,E,,44890
+2022,kabupaten_mojokerto,F,,5084020
+2022,kabupaten_mojokerto,G,,6535690
+2022,kabupaten_mojokerto,H,,841780
+2022,kabupaten_mojokerto,I,,1155070
+2022,kabupaten_mojokerto,J,,4629180
+2022,kabupaten_mojokerto,K,,856140
+2022,kabupaten_mojokerto,L,,958380
+2022,kabupaten_mojokerto,"M, N",,90960
+2022,kabupaten_mojokerto,O,,1246020
+2022,kabupaten_mojokerto,PDRB,,775420
+2022,kabupaten_mojokerto,Q,,272020
+2022,kabupaten_mojokerto,"R, S, T, U",,557340
+2023,kabupaten_mojokerto,A,,4152330
+2023,kabupaten_mojokerto,B,,543010
+2023,kabupaten_mojokerto,C,,38190850
+2023,kabupaten_mojokerto,D,,46420
+2023,kabupaten_mojokerto,E,,46430
+2023,kabupaten_mojokerto,F,,5190940
+2023,kabupaten_mojokerto,G,,6916350
+2023,kabupaten_mojokerto,H,,929440
+2023,kabupaten_mojokerto,I,,1225940
+2023,kabupaten_mojokerto,J,,4821640
+2023,kabupaten_mojokerto,K,,898060
+2023,kabupaten_mojokerto,L,,965020
+2023,kabupaten_mojokerto,"M, N",,99420
+2023,kabupaten_mojokerto,O,,1245150
+2023,kabupaten_mojokerto,PDRB,,824280
+2023,kabupaten_mojokerto,Q,,292090
+2023,kabupaten_mojokerto,"R, S, T, U",,595300
+2024,kabupaten_mojokerto,A,,4157610
+2024,kabupaten_mojokerto,B,,544770
+2024,kabupaten_mojokerto,C,,40441640
+2024,kabupaten_mojokerto,D,,48660
+2024,kabupaten_mojokerto,E,,48560
+2024,kabupaten_mojokerto,F,,5356670
+2024,kabupaten_mojokerto,G,,7257600
+2024,kabupaten_mojokerto,H,,1042570
+2024,kabupaten_mojokerto,I,,1282500
+2024,kabupaten_mojokerto,J,,5135710
+2024,kabupaten_mojokerto,K,,939720
+2024,kabupaten_mojokerto,L,,995670
+2024,kabupaten_mojokerto,"M, N",,107290
+2024,kabupaten_mojokerto,O,,1341280
+2024,kabupaten_mojokerto,PDRB,,873200
+2024,kabupaten_mojokerto,Q,,305660
+2024,kabupaten_mojokerto,"R, S, T, U",,648520
+2014,kota_solok,A,,133750
+2014,kota_solok,B,,14830
+2014,kota_solok,C,,109000
+2014,kota_solok,D,,1000
+2014,kota_solok,E,,4506
+2014,kota_solok,F,,270280
+2014,kota_solok,G,,546940
+2014,kota_solok,H,,337750
+2014,kota_solok,I,,40890
+2014,kota_solok,J,,162000
+2014,kota_solok,K,,93720
+2014,kota_solok,L,,54000
+2014,kota_solok,"M, N",,320
+2014,kota_solok,O,,194030
+2014,kota_solok,PDRB,,102540
+2014,kota_solok,Q,,32980
+2014,kota_solok,"R, S, T, U",,78000
+2015,kota_solok,A,,137440
+2015,kota_solok,B,,15740
+2015,kota_solok,C,,134940
+2015,kota_solok,D,,1260
+2015,kota_solok,E,,4710
+2015,kota_solok,F,,284910
+2015,kota_solok,G,,579410
+2015,kota_solok,H,,365720
+2015,kota_solok,I,,44520
+2015,kota_solok,J,,169930
+2015,kota_solok,K,,100650
+2015,kota_solok,L,,60380
+2015,kota_solok,"M, N",,380
+2015,kota_solok,O,,199900
+2015,kota_solok,PDRB,,109980
+2015,kota_solok,Q,,34250
+2015,kota_solok,"R, S, T, U",,63140
+2016,kota_solok,A,,140490
+2016,kota_solok,B,,16460
+2016,kota_solok,C,,142850
+2016,kota_solok,D,,1380
+2016,kota_solok,E,,4890
+2016,kota_solok,F,,299540
+2016,kota_solok,G,,611880
+2016,kota_solok,H,,393690
+2016,kota_solok,I,,48150
+2016,kota_solok,J,,184370
+2016,kota_solok,K,,107580
+2016,kota_solok,L,,62580
+2016,kota_solok,"M, N",,410
+2016,kota_solok,O,,205770
+2016,kota_solok,PDRB,,117420
+2016,kota_solok,Q,,35520
+2016,kota_solok,"R, S, T, U",,67160
+2017,kota_solok,A,,143450
+2017,kota_solok,B,,16810
+2017,kota_solok,C,,144320
+2017,kota_solok,D,,1440
+2017,kota_solok,E,,5070
+2017,kota_solok,F,,320110
+2017,kota_solok,G,,646190
+2017,kota_solok,H,,422710
+2017,kota_solok,I,,51650
+2017,kota_solok,J,,200980
+2017,kota_solok,K,,110290
+2017,kota_solok,L,,65540
+2017,kota_solok,"M, N",,425
+2017,kota_solok,O,,214400
+2017,kota_solok,PDRB,,127950
+2017,kota_solok,Q,,37980
+2017,kota_solok,"R, S, T, U",,71470
+2018,kota_solok,A,,144870
+2018,kota_solok,B,,17160
+2018,kota_solok,C,,147180
+2018,kota_solok,D,,1500
+2018,kota_solok,E,,5280
+2018,kota_solok,F,,340380
+2018,kota_solok,G,,685580
+2018,kota_solok,H,,450170
+2018,kota_solok,I,,55850
+2018,kota_solok,J,,217940
+2018,kota_solok,K,,111910
+2018,kota_solok,L,,68670
+2018,kota_solok,"M, N",,440
+2018,kota_solok,O,,226470
+2018,kota_solok,PDRB,,136480
+2018,kota_solok,Q,,40840
+2018,kota_solok,"R, S, T, U",,75980
+2019,kota_solok,A,,148250
+2019,kota_solok,B,,16800
+2019,kota_solok,C,,140220
+2019,kota_solok,D,,1540
+2019,kota_solok,E,,5520
+2019,kota_solok,F,,362270
+2019,kota_solok,G,,725160
+2019,kota_solok,H,,483200
+2019,kota_solok,I,,60070
+2019,kota_solok,J,,236360
+2019,kota_solok,K,,114760
+2019,kota_solok,L,,72450
+2019,kota_solok,"M, N",,470
+2019,kota_solok,O,,236930
+2019,kota_solok,PDRB,,147640
+2019,kota_solok,Q,,42910
+2019,kota_solok,"R, S, T, U",,81930
+2020,kota_solok,A,,150450
+2020,kota_solok,B,,16440
+2020,kota_solok,C,,136930
+2020,kota_solok,D,,1440
+2020,kota_solok,E,,5700
+2020,kota_solok,F,,351870
+2020,kota_solok,G,,723500
+2020,kota_solok,H,,437820
+2020,kota_solok,I,,53510
+2020,kota_solok,J,,256240
+2020,kota_solok,K,,116130
+2020,kota_solok,L,,72560
+2020,kota_solok,"M, N",,450
+2020,kota_solok,O,,235630
+2020,kota_solok,PDRB,,156630
+2020,kota_solok,Q,,46130
+2020,kota_solok,"R, S, T, U",,74350
+2021,kota_solok,A,,150690
+2021,kota_solok,B,,16720
+2021,kota_solok,C,,141920
+2021,kota_solok,D,,1480
+2021,kota_solok,E,,5550
+2021,kota_solok,F,,357350
+2021,kota_solok,G,,748960
+2021,kota_solok,H,,460600
+2021,kota_solok,I,,57420
+2021,kota_solok,J,,270250
+2021,kota_solok,K,,125890
+2021,kota_solok,L,,74170
+2021,kota_solok,"M, N",,460
+2021,kota_solok,O,,237080
+2021,kota_solok,PDRB,,159560
+2021,kota_solok,Q,,48860
+2021,kota_solok,"R, S, T, U",,79620
+2022,kota_solok,A,,155930
+2022,kota_solok,B,,17480
+2022,kota_solok,C,,144810
+2022,kota_solok,D,,1530
+2022,kota_solok,E,,5860
+2022,kota_solok,F,,369480
+2022,kota_solok,G,,791680
+2022,kota_solok,H,,477100
+2022,kota_solok,I,,65480
+2022,kota_solok,J,,286510
+2022,kota_solok,K,,132660
+2022,kota_solok,L,,78160
+2022,kota_solok,"M, N",,490
+2022,kota_solok,O,,234810
+2022,kota_solok,PDRB,,170600
+2022,kota_solok,Q,,51050
+2022,kota_solok,"R, S, T, U",,87960
+2023,kota_solok,A,,158800
+2023,kota_solok,B,,18140
+2023,kota_solok,C,,149550
+2023,kota_solok,D,,1590
+2023,kota_solok,E,,5990
+2023,kota_solok,F,,391880
+2023,kota_solok,G,,828870
+2023,kota_solok,H,,503550
+2023,kota_solok,I,,70770
+2023,kota_solok,J,,308200
+2023,kota_solok,K,,138380
+2023,kota_solok,L,,82870
+2023,kota_solok,"M, N",,520
+2023,kota_solok,O,,237110
+2023,kota_solok,PDRB,,173550
+2023,kota_solok,Q,,54750
+2023,kota_solok,"R, S, T, U",,94790
+2024,kota_solok,A,,160930
+2024,kota_solok,B,,18820
+2024,kota_solok,C,,153750
+2024,kota_solok,D,,1660
+2024,kota_solok,E,,6130
+2024,kota_solok,F,,407540
+2024,kota_solok,G,,865640
+2024,kota_solok,H,,524920
+2024,kota_solok,I,,75290
+2024,kota_solok,J,,323360
+2024,kota_solok,K,,148330
+2024,kota_solok,L,,87420
+2024,kota_solok,"M, N",,550
+2024,kota_solok,O,,253990
+2024,kota_solok,PDRB,,178590
+2024,kota_solok,Q,,57350
+2024,kota_solok,"R, S, T, U",,101500
+2014,kabupaten_solok,A,,3027680
+2014,kabupaten_solok,B,,443320
+2014,kabupaten_solok,C,,445710
+2014,kabupaten_solok,D,,1930
+2014,kabupaten_solok,E,,4670
+2014,kabupaten_solok,F,,608760
+2014,kabupaten_solok,G,,791000
+2014,kabupaten_solok,H,,818990
+2014,kabupaten_solok,I,,53200
+2014,kabupaten_solok,J,,473860
+2014,kabupaten_solok,K,,136560
+2014,kabupaten_solok,L,,61510
+2014,kabupaten_solok,"M, N",,5150
+2014,kabupaten_solok,O,,418560
+2014,kabupaten_solok,PDRB,,212060
+2014,kabupaten_solok,Q,,93320
+2014,kabupaten_solok,"R, S, T, U",,69220
+2015,kabupaten_solok,A,,3140890
+2015,kabupaten_solok,B,,452710
+2015,kabupaten_solok,C,,473820
+2015,kabupaten_solok,D,,2020
+2015,kabupaten_solok,E,,4790
+2015,kabupaten_solok,F,,649960
+2015,kabupaten_solok,G,,838610
+2015,kabupaten_solok,H,,888800
+2015,kabupaten_solok,I,,56980
+2015,kabupaten_solok,J,,516960
+2015,kabupaten_solok,K,,140870
+2015,kabupaten_solok,L,,65210
+2015,kabupaten_solok,"M, N",,5480
+2015,kabupaten_solok,O,,441090
+2015,kabupaten_solok,PDRB,,231580
+2015,kabupaten_solok,Q,,100420
+2015,kabupaten_solok,"R, S, T, U",,72390
+2016,kabupaten_solok,A,,3234300
+2016,kabupaten_solok,B,,474560
+2016,kabupaten_solok,C,,505920
+2016,kabupaten_solok,D,,2230
+2016,kabupaten_solok,E,,4910
+2016,kabupaten_solok,F,,694530
+2016,kabupaten_solok,G,,890160
+2016,kabupaten_solok,H,,954920
+2016,kabupaten_solok,I,,62430
+2016,kabupaten_solok,J,,561980
+2016,kabupaten_solok,K,,150360
+2016,kabupaten_solok,L,,68850
+2016,kabupaten_solok,"M, N",,5710
+2016,kabupaten_solok,O,,465250
+2016,kabupaten_solok,PDRB,,252840
+2016,kabupaten_solok,Q,,105730
+2016,kabupaten_solok,"R, S, T, U",,76970
+2017,kabupaten_solok,A,,3374680
+2017,kabupaten_solok,B,,488200
+2017,kabupaten_solok,C,,493250
+2017,kabupaten_solok,D,,2320
+2017,kabupaten_solok,E,,5170
+2017,kabupaten_solok,F,,759220
+2017,kabupaten_solok,G,,959310
+2017,kabupaten_solok,H,,1001910
+2017,kabupaten_solok,I,,68870
+2017,kabupaten_solok,J,,612030
+2017,kabupaten_solok,K,,157490
+2017,kabupaten_solok,L,,72800
+2017,kabupaten_solok,"M, N",,6030
+2017,kabupaten_solok,O,,490990
+2017,kabupaten_solok,PDRB,,276550
+2017,kabupaten_solok,Q,,112850
+2017,kabupaten_solok,"R, S, T, U",,83190
+2018,kabupaten_solok,A,,3461730
+2018,kabupaten_solok,B,,502360
+2018,kabupaten_solok,C,,523740
+2018,kabupaten_solok,D,,2380
+2018,kabupaten_solok,E,,5440
+2018,kabupaten_solok,F,,825500
+2018,kabupaten_solok,G,,1036660
+2018,kabupaten_solok,H,,1046780
+2018,kabupaten_solok,I,,74920
+2018,kabupaten_solok,J,,668890
+2018,kabupaten_solok,K,,159530
+2018,kabupaten_solok,L,,76990
+2018,kabupaten_solok,"M, N",,6370
+2018,kabupaten_solok,O,,526360
+2018,kabupaten_solok,PDRB,,300630
+2018,kabupaten_solok,Q,,122020
+2018,kabupaten_solok,"R, S, T, U",,89940
+2019,kabupaten_solok,A,,3553930
+2019,kabupaten_solok,B,,514340
+2019,kabupaten_solok,C,,514740
+2019,kabupaten_solok,D,,2430
+2019,kabupaten_solok,E,,5660
+2019,kabupaten_solok,F,,899050
+2019,kabupaten_solok,G,,1119950
+2019,kabupaten_solok,H,,1113340
+2019,kabupaten_solok,I,,81830
+2019,kabupaten_solok,J,,734790
+2019,kabupaten_solok,K,,163880
+2019,kabupaten_solok,L,,81520
+2019,kabupaten_solok,"M, N",,6720
+2019,kabupaten_solok,O,,555250
+2019,kabupaten_solok,PDRB,,328690
+2019,kabupaten_solok,Q,,132390
+2019,kabupaten_solok,"R, S, T, U",,97090
+2020,kabupaten_solok,A,,3595060
+2020,kabupaten_solok,B,,497800
+2020,kabupaten_solok,C,,498880
+2020,kabupaten_solok,D,,2290
+2020,kabupaten_solok,E,,5560
+2020,kabupaten_solok,F,,857760
+2020,kabupaten_solok,G,,1111340
+2020,kabupaten_solok,H,,984100
+2020,kabupaten_solok,I,,73670
+2020,kabupaten_solok,J,,792520
+2020,kabupaten_solok,K,,164290
+2020,kabupaten_solok,L,,81530
+2020,kabupaten_solok,"M, N",,6420
+2020,kabupaten_solok,O,,550120
+2020,kabupaten_solok,PDRB,,343550
+2020,kabupaten_solok,Q,,142350
+2020,kabupaten_solok,"R, S, T, U",,85680
+2021,kabupaten_solok,A,,3702540
+2021,kabupaten_solok,B,,496380
+2021,kabupaten_solok,C,,509890
+2021,kabupaten_solok,D,,2310
+2021,kabupaten_solok,E,,5710
+2021,kabupaten_solok,F,,867630
+2021,kabupaten_solok,G,,1158420
+2021,kabupaten_solok,H,,1029260
+2021,kabupaten_solok,I,,78800
+2021,kabupaten_solok,J,,846610
+2021,kabupaten_solok,K,,171860
+2021,kabupaten_solok,L,,83110
+2021,kabupaten_solok,"M, N",,6600
+2021,kabupaten_solok,O,,556770
+2021,kabupaten_solok,PDRB,,356830
+2021,kabupaten_solok,Q,,153580
+2021,kabupaten_solok,"R, S, T, U",,88260
+2022,kabupaten_solok,A,,3820930
+2022,kabupaten_solok,B,,542180
+2022,kabupaten_solok,C,,517120
+2022,kabupaten_solok,D,,2440
+2022,kabupaten_solok,E,,5780
+2022,kabupaten_solok,F,,922010
+2022,kabupaten_solok,G,,1223140
+2022,kabupaten_solok,H,,1051610
+2022,kabupaten_solok,I,,86880
+2022,kabupaten_solok,J,,900720
+2022,kabupaten_solok,K,,179470
+2022,kabupaten_solok,L,,87180
+2022,kabupaten_solok,"M, N",,7020
+2022,kabupaten_solok,O,,569070
+2022,kabupaten_solok,PDRB,,373900
+2022,kabupaten_solok,Q,,162000
+2022,kabupaten_solok,"R, S, T, U",,96520
+2023,kabupaten_solok,A,,3934390
+2023,kabupaten_solok,B,,565180
+2023,kabupaten_solok,C,,537630
+2023,kabupaten_solok,D,,2540
+2023,kabupaten_solok,E,,5890
+2023,kabupaten_solok,F,,967380
+2023,kabupaten_solok,G,,1287910
+2023,kabupaten_solok,H,,1114700
+2023,kabupaten_solok,I,,93910
+2023,kabupaten_solok,J,,971780
+2023,kabupaten_solok,K,,186300
+2023,kabupaten_solok,L,,92710
+2023,kabupaten_solok,"M, N",,7470
+2023,kabupaten_solok,O,,580730
+2023,kabupaten_solok,PDRB,,380870
+2023,kabupaten_solok,Q,,174270
+2023,kabupaten_solok,"R, S, T, U",,104330
+2024,kabupaten_solok,A,,3987350
+2024,kabupaten_solok,B,,592840
+2024,kabupaten_solok,C,,562880
+2024,kabupaten_solok,D,,2600
+2024,kabupaten_solok,E,,5940
+2024,kabupaten_solok,F,,1006010
+2024,kabupaten_solok,G,,1356410
+2024,kabupaten_solok,H,,1171660
+2024,kabupaten_solok,I,,101750
+2024,kabupaten_solok,J,,1025720
+2024,kabupaten_solok,K,,196030
+2024,kabupaten_solok,L,,98250
+2024,kabupaten_solok,"M, N",,7830
+2024,kabupaten_solok,O,,630850
+2024,kabupaten_solok,PDRB,,392850
+2024,kabupaten_solok,Q,,184210
+2024,kabupaten_solok,"R, S, T, U",,114690
+2014,kota_padang,A,,1583990
+2014,kota_padang,B,,982980
+2014,kota_padang,C,,5407100
+2014,kota_padang,D,,35870
+2014,kota_padang,E,,54700
+2014,kota_padang,F,,3075640
+2014,kota_padang,G,,5754240
+2014,kota_padang,H,,5293880
+2014,kota_padang,I,,344490
+2014,kota_padang,J,,2666740
+2014,kota_padang,K,,1735390
+2014,kota_padang,L,,1038890
+2014,kota_padang,"M, N",,490930
+2014,kota_padang,O,,2026370
+2014,kota_padang,PDRB,,1428340
+2014,kota_padang,Q,,486280
+2014,kota_padang,"R, S, T, U",,656120
+2015,kota_padang,A,,1693489
+2015,kota_padang,B,,1039292
+2015,kota_padang,C,,5578644
+2015,kota_padang,D,,37412
+2015,kota_padang,E,,58522
+2015,kota_padang,F,,3376183
+2015,kota_padang,G,,6062614
+2015,kota_padang,H,,5738267
+2015,kota_padang,I,,366495
+2015,kota_padang,J,,2904687
+2015,kota_padang,K,,1801781
+2015,kota_padang,L,,1106681
+2015,kota_padang,"M, N",,520886
+2015,kota_padang,O,,2100344
+2015,kota_padang,PDRB,,1547776
+2015,kota_padang,Q,,527988
+2015,kota_padang,"R, S, T, U",,719487
+2016,kota_padang,A,,1797830
+2016,kota_padang,B,,1075973
+2016,kota_padang,C,,5748874
+2016,kota_padang,D,,41422
+2016,kota_padang,E,,62117
+2016,kota_padang,F,,3662444
+2016,kota_padang,G,,6337368
+2016,kota_padang,H,,6152176
+2016,kota_padang,I,,391155
+2016,kota_padang,J,,3137123
+2016,kota_padang,K,,1952582
+2016,kota_padang,L,,1159316
+2016,kota_padang,"M, N",,558849
+2016,kota_padang,O,,2205016
+2016,kota_padang,PDRB,,1696277
+2016,kota_padang,Q,,572550
+2016,kota_padang,"R, S, T, U",,799126
+2017,kota_padang,A,,1904160
+2017,kota_padang,B,,1130820
+2017,kota_padang,C,,5948640
+2017,kota_padang,D,,43180
+2017,kota_padang,E,,63410
+2017,kota_padang,F,,3921950
+2017,kota_padang,G,,6722780
+2017,kota_padang,H,,6670980
+2017,kota_padang,I,,431440
+2017,kota_padang,J,,3436450
+2017,kota_padang,K,,1952580
+2017,kota_padang,L,,1159320
+2017,kota_padang,"M, N",,558850
+2017,kota_padang,O,,2205020
+2017,kota_padang,PDRB,,1696280
+2017,kota_padang,Q,,572550
+2017,kota_padang,"R, S, T, U",,799130
+2018,kota_padang,A,,2016536
+2018,kota_padang,B,,1220537
+2018,kota_padang,C,,5900845
+2018,kota_padang,D,,45028
+2018,kota_padang,E,,69181
+2018,kota_padang,F,,4210694
+2018,kota_padang,G,,7138077
+2018,kota_padang,H,,7329935
+2018,kota_padang,I,,464247
+2018,kota_padang,J,,3799722
+2018,kota_padang,K,,1969957
+2018,kota_padang,L,,1241711
+2018,kota_padang,"M, N",,614306
+2018,kota_padang,O,,2449188
+2018,kota_padang,PDRB,,1976088
+2018,kota_padang,Q,,671390
+2018,kota_padang,"R, S, T, U",,964095
+2019,kota_padang,A,,2085232
+2019,kota_padang,B,,1287844
+2019,kota_padang,C,,5708806
+2019,kota_padang,D,,46178
+2019,kota_padang,E,,70462
+2019,kota_padang,F,,4498454
+2019,kota_padang,G,,7579438
+2019,kota_padang,H,,7942200
+2019,kota_padang,I,,500773
+2019,kota_padang,J,,4218255
+2019,kota_padang,K,,2001487
+2019,kota_padang,L,,1318653
+2019,kota_padang,"M, N",,653736
+2019,kota_padang,O,,2637432
+2019,kota_padang,PDRB,,2125084
+2019,kota_padang,Q,,723823
+2019,kota_padang,"R, S, T, U",,1058927
+2020,kota_padang,A,,2116734
+2020,kota_padang,B,,1272493
+2020,kota_padang,C,,5627717
+2020,kota_padang,D,,42621
+2020,kota_padang,E,,72510
+2020,kota_padang,F,,4276600
+2020,kota_padang,G,,7421307
+2020,kota_padang,H,,7069446
+2020,kota_padang,I,,394857
+2020,kota_padang,J,,4710007
+2020,kota_padang,K,,2041278
+2020,kota_padang,L,,1321297
+2020,kota_padang,"M, N",,626815
+2020,kota_padang,O,,2587271
+2020,kota_padang,PDRB,,2292391
+2020,kota_padang,Q,,803753
+2020,kota_padang,"R, S, T, U",,954846
+2021,kota_padang,A,,2143766
+2021,kota_padang,B,,1321363
+2021,kota_padang,C,,5687115
+2021,kota_padang,D,,42879
+2021,kota_padang,E,,75944
+2021,kota_padang,F,,4330787
+2021,kota_padang,G,,7890650
+2021,kota_padang,H,,7290451
+2021,kota_padang,I,,418675
+2021,kota_padang,J,,4993981
+2021,kota_padang,K,,2238195
+2021,kota_padang,L,,1352878
+2021,kota_padang,"M, N",,632994
+2021,kota_padang,O,,2602096
+2021,kota_padang,PDRB,,2330425
+2021,kota_padang,Q,,850639
+2021,kota_padang,"R, S, T, U",,1023805
+2022,kota_padang,A,,2193646
+2022,kota_padang,B,,1364788
+2022,kota_padang,C,,5710886
+2022,kota_padang,D,,44377
+2022,kota_padang,E,,77289
+2022,kota_padang,F,,4540325
+2022,kota_padang,G,,8447574
+2022,kota_padang,H,,7537772
+2022,kota_padang,I,,484156
+2022,kota_padang,J,,5349628
+2022,kota_padang,K,,2313992
+2022,kota_padang,L,,1430460
+2022,kota_padang,"M, N",,673440
+2022,kota_padang,O,,2578315
+2022,kota_padang,PDRB,,2392892
+2022,kota_padang,Q,,888898
+2022,kota_padang,"R, S, T, U",,1147510
+2023,kota_padang,A,,2279877
+2023,kota_padang,B,,1425350
+2023,kota_padang,C,,5752934
+2023,kota_padang,D,,46422
+2023,kota_padang,E,,79645
+2023,kota_padang,F,,4843722
+2023,kota_padang,G,,8867863
+2023,kota_padang,H,,7907126
+2023,kota_padang,I,,525485
+2023,kota_padang,J,,5753332
+2023,kota_padang,K,,2326615
+2023,kota_padang,L,,1523518
+2023,kota_padang,"M, N",,717026
+2023,kota_padang,O,,2646591
+2023,kota_padang,PDRB,,2434001
+2023,kota_padang,Q,,952452
+2023,kota_padang,"R, S, T, U",,1234230
+2024,kota_padang,A,,2366206
+2024,kota_padang,B,,1482755
+2024,kota_padang,C,,5775100
+2024,kota_padang,D,,47691
+2024,kota_padang,E,,82772
+2024,kota_padang,F,,5067262
+2024,kota_padang,G,,9299592
+2024,kota_padang,H,,8230446
+2024,kota_padang,I,,549695
+2024,kota_padang,J,,6266455
+2024,kota_padang,K,,2402162
+2024,kota_padang,L,,1585626
+2024,kota_padang,"M, N",,746249
+2024,kota_padang,O,,2724183
+2024,kota_padang,PDRB,,2575712
+2024,kota_padang,Q,,1025346
+2024,kota_padang,"R, S, T, U",,1320361
+2014,kota_surabaya,A,,522210
+2014,kota_surabaya,B,,18670
+2014,kota_surabaya,C,,59944230
+2014,kota_surabaya,D,,1579910
+2014,kota_surabaya,E,,474290
+2014,kota_surabaya,F,,31355930
+2014,kota_surabaya,G,,86711520
+2014,kota_surabaya,H,,14843760
+2014,kota_surabaya,I,,42503080
+2014,kota_surabaya,J,,19701370
+2014,kota_surabaya,K,,14851440
+2014,kota_surabaya,L,,8264380
+2014,kota_surabaya,"M, N",,7011360
+2014,kota_surabaya,O,,3994510
+2014,kota_surabaya,PDRB,,7144690
+2014,kota_surabaya,Q,,2405600
+2014,kota_surabaya,"R, S, T, U",,4620620
+2015,kota_surabaya,A,,546940
+2015,kota_surabaya,B,,19420
+2015,kota_surabaya,C,,63467800
+2015,kota_surabaya,D,,1530670
+2015,kota_surabaya,E,,498810
+2015,kota_surabaya,F,,32250140
+2015,kota_surabaya,G,,92084790
+2015,kota_surabaya,H,,15797150
+2015,kota_surabaya,I,,45918310
+2015,kota_surabaya,J,,20958310
+2015,kota_surabaya,K,,15964080
+2015,kota_surabaya,L,,8683390
+2015,kota_surabaya,"M, N",,7388570
+2015,kota_surabaya,O,,4172200
+2015,kota_surabaya,PDRB,,7595530
+2015,kota_surabaya,Q,,2502680
+2015,kota_surabaya,"R, S, T, U",,4836400
+2016,kota_surabaya,A,,570790
+2016,kota_surabaya,B,,20030
+2016,kota_surabaya,C,,66582830
+2016,kota_surabaya,D,,1514660
+2016,kota_surabaya,E,,528320
+2016,kota_surabaya,F,,33864740
+2016,kota_surabaya,G,,97443600
+2016,kota_surabaya,H,,16569180
+2016,kota_surabaya,I,,49881300
+2016,kota_surabaya,J,,22421130
+2016,kota_surabaya,K,,17184790
+2016,kota_surabaya,L,,9145630
+2016,kota_surabaya,"M, N",,7761410
+2016,kota_surabaya,O,,4384610
+2016,kota_surabaya,PDRB,,8052650
+2016,kota_surabaya,Q,,2649120
+2016,kota_surabaya,"R, S, T, U",,5077820
+2017,kota_surabaya,A,,589910
+2017,kota_surabaya,B,,20540
+2017,kota_surabaya,C,,69881290
+2017,kota_surabaya,D,,1541130
+2017,kota_surabaya,E,,564410
+2017,kota_surabaya,F,,36208180
+2017,kota_surabaya,G,,103301110
+2017,kota_surabaya,H,,17707950
+2017,kota_surabaya,I,,54192880
+2017,kota_surabaya,J,,23974910
+2017,kota_surabaya,K,,17685810
+2017,kota_surabaya,L,,9610230
+2017,kota_surabaya,"M, N",,8278200
+2017,kota_surabaya,O,,4597270
+2017,kota_surabaya,PDRB,,8531780
+2017,kota_surabaya,Q,,2804630
+2017,kota_surabaya,"R, S, T, U",,5224600
+2018,kota_surabaya,A,,581430
+2018,kota_surabaya,B,,20760
+2018,kota_surabaya,C,,73322750
+2018,kota_surabaya,D,,1540010
+2018,kota_surabaya,E,,583120
+2018,kota_surabaya,F,,38480420
+2018,kota_surabaya,G,,109848220
+2018,kota_surabaya,H,,19046860
+2018,kota_surabaya,I,,58411740
+2018,kota_surabaya,J,,25613460
+2018,kota_surabaya,K,,18541120
+2018,kota_surabaya,L,,10165860
+2018,kota_surabaya,"M, N",,8867970
+2018,kota_surabaya,O,,4697030
+2018,kota_surabaya,PDRB,,9064160
+2018,kota_surabaya,Q,,3023590
+2018,kota_surabaya,"R, S, T, U",,5495450
+2019,kota_surabaya,A,,576220
+2019,kota_surabaya,B,,20780
+2019,kota_surabaya,C,,77271870
+2019,kota_surabaya,D,,1546270
+2019,kota_surabaya,E,,605980
+2019,kota_surabaya,F,,40576450
+2019,kota_surabaya,G,,116305500
+2019,kota_surabaya,H,,20497980
+2019,kota_surabaya,I,,62886690
+2019,kota_surabaya,J,,27531900
+2019,kota_surabaya,K,,19187830
+2019,kota_surabaya,L,,10784960
+2019,kota_surabaya,"M, N",,9474540
+2019,kota_surabaya,O,,4867860
+2019,kota_surabaya,PDRB,,9668100
+2019,kota_surabaya,Q,,3254590
+2019,kota_surabaya,"R, S, T, U",,5821770
+2020,kota_surabaya,A,,547990
+2020,kota_surabaya,B,,19460
+2020,kota_surabaya,C,,76384520
+2020,kota_surabaya,D,,1449670
+2020,kota_surabaya,E,,630340
+2020,kota_surabaya,F,,38387740
+2020,kota_surabaya,G,,106340870
+2020,kota_surabaya,H,,19477420
+2020,kota_surabaya,I,,56053240
+2020,kota_surabaya,J,,29511280
+2020,kota_surabaya,K,,19231210
+2020,kota_surabaya,L,,11000300
+2020,kota_surabaya,"M, N",,8801220
+2020,kota_surabaya,O,,4754530
+2020,kota_surabaya,PDRB,,9934440
+2020,kota_surabaya,Q,,3539300
+2020,kota_surabaya,"R, S, T, U",,4872890
+2021,kota_surabaya,A,,554050
+2021,kota_surabaya,B,,19480
+2021,kota_surabaya,C,,79366600
+2021,kota_surabaya,D,,1538150
+2021,kota_surabaya,E,,665830
+2021,kota_surabaya,F,,40070070
+2021,kota_surabaya,G,,114183330
+2021,kota_surabaya,H,,19874940
+2021,kota_surabaya,I,,57221630
+2021,kota_surabaya,J,,31281790
+2021,kota_surabaya,K,,19324710
+2021,kota_surabaya,L,,11179680
+2021,kota_surabaya,"M, N",,8974260
+2021,kota_surabaya,O,,4748920
+2021,kota_surabaya,PDRB,,9993040
+2021,kota_surabaya,Q,,3722150
+2021,kota_surabaya,"R, S, T, U",,5007190
+2022,kota_surabaya,A,,573240
+2022,kota_surabaya,B,,19090
+2022,kota_surabaya,C,,84567580
+2022,kota_surabaya,D,,1661670
+2022,kota_surabaya,E,,680000
+2022,kota_surabaya,F,,42633580
+2022,kota_surabaya,G,,122122630
+2022,kota_surabaya,H,,22684940
+2022,kota_surabaya,I,,62076390
+2022,kota_surabaya,J,,32264420
+2022,kota_surabaya,K,,19648800
+2022,kota_surabaya,L,,11634820
+2022,kota_surabaya,"M, N",,9490090
+2022,kota_surabaya,O,,4756350
+2022,kota_surabaya,PDRB,,10001200
+2022,kota_surabaya,Q,,3782450
+2022,kota_surabaya,"R, S, T, U",,5671100
+2023,kota_surabaya,A,,576180
+2023,kota_surabaya,B,,17840
+2023,kota_surabaya,C,,87392240
+2023,kota_surabaya,D,,2174080
+2023,kota_surabaya,E,,696390
+2023,kota_surabaya,F,,44772950
+2023,kota_surabaya,G,,128814590
+2023,kota_surabaya,H,,25217170
+2023,kota_surabaya,I,,66946110
+2023,kota_surabaya,J,,34446030
+2023,kota_surabaya,K,,20445330
+2023,kota_surabaya,L,,11916340
+2023,kota_surabaya,"M, N",,10278170
+2023,kota_surabaya,O,,4759410
+2023,kota_surabaya,PDRB,,10447850
+2023,kota_surabaya,Q,,3932730
+2023,kota_surabaya,"R, S, T, U",,6197310
+2024,kota_surabaya,A,,541240
+2024,kota_surabaya,B,,18120
+2024,kota_surabaya,C,,92182280
+2024,kota_surabaya,D,,2301730
+2024,kota_surabaya,E,,711520
+2024,kota_surabaya,F,,47910220
+2024,kota_surabaya,G,,134133560
+2024,kota_surabaya,H,,27494460
+2024,kota_surabaya,I,,71889160
+2024,kota_surabaya,J,,36698240
+2024,kota_surabaya,K,,21207820
+2024,kota_surabaya,L,,12200160
+2024,kota_surabaya,"M, N",,11082010
+2024,kota_surabaya,O,,5229780
+2024,kota_surabaya,PDRB,,10983870
+2024,kota_surabaya,Q,,4155680
+2024,kota_surabaya,"R, S, T, U",,6709010
+2014,nasional,A,,1129052700
+2014,nasional,B,,794489500
+2014,nasional,C,,1854256700
+2014,nasional,D,,94047200
+2014,nasional,E,,6882500
+2014,nasional,F,,826615600
+2014,nasional,G,,1177297500
+2014,nasional,H,,326933000
+2014,nasional,I,,257815500
+2014,nasional,J,,384475600
+2014,nasional,K,,319825500
+2014,nasional,L,,256440200
+2014,nasional,"M, N",,137795300
+2014,nasional,O,,296329700
+2014,nasional,PDRB,,263685000
+2014,nasional,Q,,91357100
+2014,nasional,"R, S, T, U",,134070100
+2015,nasional,A,,1171445800
+2015,nasional,B,,767327200
+2015,nasional,C,,1934533200
+2015,nasional,D,,94894800
+2015,nasional,E,,7369000
+2015,nasional,F,,879163900
+2015,nasional,G,,1207164500
+2015,nasional,H,,348855900
+2015,nasional,I,,268922400
+2015,nasional,J,,421769800
+2015,nasional,K,,347269000
+2015,nasional,L,,266979600
+2015,nasional,"M, N",,148395500
+2015,nasional,O,,310054600
+2015,nasional,PDRB,,283020100
+2015,nasional,Q,,97465800
+2015,nasional,"R, S, T, U",,144904200
+2016,nasional,A,,1210955500
+2016,nasional,B,,774593100
+2016,nasional,C,,2016876900
+2016,nasional,D,,100009900
+2016,nasional,E,,7634600
+2016,nasional,F,,925040300
+2016,nasional,G,,1255760800
+2016,nasional,H,,374843400
+2016,nasional,I,,282823400
+2016,nasional,J,,459208100
+2016,nasional,K,,378279400
+2016,nasional,L,,279500500
+2016,nasional,"M, N",,159321700
+2016,nasional,O,,319965000
+2016,nasional,PDRB,,293887600
+2016,nasional,Q,,102490200
+2016,nasional,"R, S, T, U",,156507500
+2017,nasional,A,,1258375700
+2017,nasional,B,,779678400
+2017,nasional,C,,2103466100
+2017,nasional,D,,101551300
+2017,nasional,E,,7985300
+2017,nasional,F,,987924900
+2017,nasional,G,,1311746500
+2017,nasional,H,,406679400
+2017,nasional,I,,298129700
+2017,nasional,J,,503420700
+2017,nasional,K,,398971400
+2017,nasional,L,,289568500
+2017,nasional,"M, N",,172763800
+2017,nasional,O,,326514300
+2017,nasional,PDRB,,304810800
+2017,nasional,Q,,109497500
+2017,nasional,"R, S, T, U",,170174800
+2018,nasional,A,,1307253000
+2018,nasional,B,,796505000
+2018,nasional,C,,2193368400
+2018,nasional,D,,107108600
+2018,nasional,E,,8429400
+2018,nasional,F,,1048082800
+2018,nasional,G,,1376878700
+2018,nasional,H,,435336500
+2018,nasional,I,,315068600
+2018,nasional,J,,538762700
+2018,nasional,K,,415620600
+2018,nasional,L,,299648200
+2018,nasional,"M, N",,187691100
+2018,nasional,O,,349277600
+2018,nasional,PDRB,,321133800
+2018,nasional,Q,,117322200
+2018,nasional,"R, S, T, U",,185405600
+2019,nasional,A,,1354399100
+2019,nasional,B,,806206200
+2019,nasional,C,,2276667800
+2019,nasional,D,,111436700
+2019,nasional,E,,9004900
+2019,nasional,F,,1108425000
+2019,nasional,G,,1440185700
+2019,nasional,H,,463125900
+2019,nasional,I,,333304600
+2019,nasional,J,,589536100
+2019,nasional,K,,443093100
+2019,nasional,L,,316901100
+2019,nasional,"M, N",,206936200
+2019,nasional,O,,365538800
+2019,nasional,PDRB,,341349900
+2019,nasional,Q,,127487900
+2019,nasional,"R, S, T, U",,205011400
+2020,nasional,A,,1378398900
+2020,nasional,B,,790475200
+2020,nasional,C,,2209920300
+2020,nasional,D,,108826400
+2020,nasional,E,,9449300
+2020,nasional,F,,1072334800
+2020,nasional,G,,1385651200
+2020,nasional,H,,393418900
+2020,nasional,I,,299122400
+2020,nasional,J,,652062900
+2020,nasional,K,,457486500
+2020,nasional,L,,324259400
+2020,nasional,"M, N",,195671100
+2020,nasional,O,,365446000
+2020,nasional,PDRB,,350272800
+2020,nasional,Q,,142227300
+2020,nasional,"R, S, T, U",,196608900
+2021,nasional,A,,1404190900
+2021,nasional,B,,822099500
+2021,nasional,C,,2284821700
+2021,nasional,D,,114861100
+2021,nasional,E,,9919300
+2021,nasional,F,,1102517700
+2021,nasional,G,,1449831400
+2021,nasional,H,,406169300
+2021,nasional,I,,310737600
+2021,nasional,J,,696506100
+2021,nasional,K,,464637700
+2021,nasional,L,,333282900
+2021,nasional,"M, N",,197106700
+2021,nasional,O,,364246600
+2021,nasional,PDRB,,350660000
+2021,nasional,Q,,157085500
+2021,nasional,"R, S, T, U",,200773200
+2022,nasional,A,,1435853200
+2022,nasional,B,,858146600
+2022,nasional,C,,2396603000
+2022,nasional,D,,122451900
+2022,nasional,E,,10240100
+2022,nasional,F,,1124725200
+2022,nasional,G,,1530003700
+2022,nasional,H,,486873800
+2022,nasional,I,,347854600
+2022,nasional,J,,750319000
+2022,nasional,K,,473623800
+2022,nasional,L,,339014900
+2022,nasional,"M, N",,214399000
+2022,nasional,O,,373424400
+2022,nasional,PDRB,,352578200
+2022,nasional,Q,,161406900
+2022,nasional,"R, S, T, U",,219778300
+2023,nasional,A,,1454602200
+2023,nasional,B,,910679400
+2023,nasional,C,,2507799800
+2023,nasional,D,,128460500
+2023,nasional,E,,10741500
+2023,nasional,F,,1179989300
+2023,nasional,G,,1604233800
+2023,nasional,H,,554854900
+2023,nasional,I,,382651600
+2023,nasional,J,,807304600
+2023,nasional,K,,496236800
+2023,nasional,L,,343864800
+2023,nasional,"M, N",,232076100
+2023,nasional,O,,379071200
+2023,nasional,PDRB,,358828200
+2023,nasional,Q,,168936900
+2023,nasional,"R, S, T, U",,242892000
+2024,nasional,A,,1464331100
+2024,nasional,B,,955260200
+2024,nasional,C,,2618854500
+2024,nasional,D,,134594200
+2024,nasional,E,,10909600
+2024,nasional,F,,1262792700
+2024,nasional,G,,1682254000
+2024,nasional,H,,603051000
+2024,nasional,I,,415417800
+2024,nasional,J,,868446900
+2024,nasional,K,,519736400
+2024,nasional,L,,352454700
+2024,nasional,"M, N",,251529700
+2024,nasional,O,,403334500
+2024,nasional,PDRB,,372289900
+2024,nasional,Q,,182642600
+2024,nasional,"R, S, T, U",,266689400
+2014,jawa_timur,total,,1262684510
+2015,jawa_timur,total,,1331376100
+2016,jawa_timur,total,,1405563500
+2017,jawa_timur,total,,1482299570
+2018,jawa_timur,total,,1563441820
+2019,jawa_timur,total,,1649895640
+2020,jawa_timur,total,,1611392550
+2021,jawa_timur,total,,1668754350
+2022,jawa_timur,total,,1757874890
+2023,jawa_timur,total,,1844808690
+2024,jawa_timur,total,,1935810150
+2014,sumatera_barat,total,,133340840
+2015,sumatera_barat,total,,140719470
+2016,sumatera_barat,total,,148134240
+2017,sumatera_barat,total,,155984360
+2018,sumatera_barat,total,,163996190
+2019,sumatera_barat,total,,172205570
+2020,sumatera_barat,total,,169426610
+2021,sumatera_barat,total,,174999890
+2022,sumatera_barat,total,,182628340
+2023,sumatera_barat,total,,191070550
+2024,sumatera_barat,total,,199407380
+2014,kota_mojokerto,total,,3774636
+2015,kota_mojokerto,total,,3991380
+2016,kota_mojokerto,total,,4221820
+2017,kota_mojokerto,total,,4460430
+2018,kota_mojokerto,total,,4718930
+2019,kota_mojokerto,total,,4985670
+2020,kota_mojokerto,total,,4801470
+2021,kota_mojokerto,total,,4976460
+2022,kota_mojokerto,total,,5253010
+2023,kota_mojokerto,total,,5399610
+2024,kota_mojokerto,total,,5686800
+2014,kabupaten_mojokerto,total,,44292056
+2015,kabupaten_mojokerto,total,,46792350
+2016,kabupaten_mojokerto,total,,49360600
+2017,kabupaten_mojokerto,total,,52187810
+2018,kabupaten_mojokerto,total,,55256600
+2019,kabupaten_mojokerto,total,,58467130
+2020,kabupaten_mojokerto,total,,57818420
+2021,kabupaten_mojokerto,total,,60198710
+2022,kabupaten_mojokerto,total,,63699840
+2023,kabupaten_mojokerto,total,,66982670
+2024,kabupaten_mojokerto,total,,70527630
+2014,kota_surabaya,total,,305947570
+2015,kota_surabaya,total,,324215190
+2016,kota_surabaya,total,,343652610
+2017,kota_surabaya,total,,364714830
+2018,kota_surabaya,total,,387303950
+2019,kota_surabaya,total,,410879290
+2020,kota_surabaya,total,,390936420
+2021,kota_surabaya,total,,407725820
+2022,kota_surabaya,total,,434268350
+2023,kota_surabaya,total,,459030720
+2024,kota_surabaya,total,,485448860
+2014,nasional,total,,8564866600
+2015,nasional,total,,8982517100
+2016,nasional,total,,9434613400
+2017,nasional,total,,9912928100
+2018,nasional,total,,10425851900
+2019,nasional,total,,10949155400
+2020,nasional,total,,10722999300
+2021,nasional,total,,11120059700
+2022,nasional,total,,11710223200
+2023,nasional,total,,12301475100
+2024,nasional,total,,12920281700
+2014,kota_solok,total,,2177370
+2015,kota_solok,total,,2307250
+2016,kota_solok,total,,2440130
+2017,kota_solok,total,,2580780
+2018,kota_solok,total,,2726710
+2019,kota_solok,total,,2876460
+2020,kota_solok,total,,2835750
+2021,kota_solok,total,,2936550
+2022,kota_solok,total,,3071580
+2023,kota_solok,total,,3219310
+2024,kota_solok,total,,3365780
+2014,kabupaten_solok,total,,7665500
+2015,kabupaten_solok,total,,8082580
+2016,kabupaten_solok,total,,8511650
+2017,kabupaten_solok,total,,8964870
+2018,kabupaten_solok,total,,9430220
+2019,kabupaten_solok,total,,9905600
+2020,kabupaten_solok,total,,9792920
+2021,kabupaten_solok,total,,10114580
+2022,kabupaten_solok,total,,10547970
+2023,kabupaten_solok,total,,11008010
+2024,kabupaten_solok,total,,11437870
+2014,kota_padang,total,,33061950
+2015,kota_padang,total,,35180548
+2016,kota_padang,total,,37350197
+2017,kota_padang,total,,37350200
+2018,kota_padang,total,,42081537
+2019,kota_padang,total,,44456786
+2020,kota_padang,total,,43631943
+2021,kota_padang,total,,45226642
+2022,kota_padang,total,,47175948
+2023,kota_padang,total,,49316187
+2024,kota_padang,total,,51442889

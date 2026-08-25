@@ -1,0 +1,3071 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Atlas Masalah, Mazhab, dan Sumber Keilmuan Urban Planning — Interaktif</title>
+  <style>
+    :root {
+      --paper: #e9eff0;
+      --sheet: #f8faf9;
+      --ink: #15313a;
+      --muted: #5d7076;
+      --line: #a9b9bd;
+      --line-soft: #d2dcde;
+      --tech: #d85d36;
+      --spatial: #198b84;
+      --institutional: #3e6fbd;
+      --political: #7e5ba6;
+      --deliberative: #b4557d;
+      --signal: #e2a829;
+      --white: #ffffff;
+      --display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --body: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      --shadow: 0 22px 60px rgba(23, 49, 58, 0.10);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--body);
+      background-color: var(--paper);
+      background-image:
+        linear-gradient(rgba(21, 49, 58, 0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(21, 49, 58, 0.045) 1px, transparent 1px),
+        linear-gradient(rgba(21, 49, 58, 0.075) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(21, 49, 58, 0.075) 1px, transparent 1px);
+      background-size: 24px 24px, 24px 24px, 120px 120px, 120px 120px;
+      line-height: 1.55;
+    }
+
+    button,
+    a {
+      font: inherit;
+    }
+
+    button {
+      color: inherit;
+    }
+
+    button:focus-visible,
+    a:focus-visible,
+    select:focus-visible,
+    [tabindex="0"]:focus-visible {
+      outline: 3px solid var(--signal);
+      outline-offset: 3px;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 1000;
+      top: 12px;
+      left: 12px;
+      padding: 9px 13px;
+      color: var(--white);
+      background: var(--ink);
+      transform: translateY(-160%);
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .page-shell {
+      width: min(1480px, calc(100% - 44px));
+      margin: 0 auto;
+    }
+
+    .masthead {
+      position: relative;
+      margin: 30px auto 24px;
+      overflow: hidden;
+      background: var(--sheet);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .masthead::before {
+      content: "";
+      display: block;
+      height: 7px;
+      background: linear-gradient(90deg,
+        var(--tech) 0 25%,
+        var(--institutional) 25% 50%,
+        var(--spatial) 50% 75%,
+        var(--political) 75% 100%);
+    }
+
+    .masthead-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.55fr);
+      gap: 56px;
+      padding: 54px 58px 48px;
+    }
+
+    .eyebrow,
+    .section-kicker,
+    .folio-label,
+    .detail-label,
+    .axis-note {
+      margin: 0;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 13px 0 22px;
+      font-family: var(--display);
+      font-size: clamp(3rem, 6.3vw, 6.4rem);
+      font-weight: 500;
+      letter-spacing: -0.055em;
+      line-height: 0.91;
+      text-wrap: balance;
+    }
+
+    .hero-lead {
+      max-width: 710px;
+      margin: 0;
+      color: #40585f;
+      font-size: clamp(1rem, 1.4vw, 1.24rem);
+    }
+
+    .hero-side {
+      align-self: end;
+      border-left: 1px solid var(--line);
+      padding-left: 26px;
+    }
+
+    .axis-card {
+      padding: 13px 0;
+      border-top: 1px solid var(--line-soft);
+    }
+
+    .axis-card:last-child {
+      border-bottom: 1px solid var(--line-soft);
+    }
+
+    .axis-card strong {
+      display: block;
+      margin: 4px 0 2px;
+      font-family: var(--display);
+      font-size: 1.12rem;
+      font-weight: 600;
+    }
+
+    .axis-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+
+    .section-nav {
+      display: flex;
+      gap: 4px;
+      padding: 0 58px 24px;
+    }
+
+    .section-nav a {
+      padding: 7px 12px;
+      color: var(--ink);
+      border-bottom: 2px solid transparent;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .section-nav a:hover {
+      border-bottom-color: var(--ink);
+    }
+
+    main {
+      display: grid;
+      gap: 24px;
+      padding-bottom: 48px;
+    }
+
+    .sheet {
+      min-width: 0;
+      overflow: hidden;
+      background: var(--sheet);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(240px, 0.62fr);
+      gap: 48px;
+      align-items: end;
+      padding: 34px 38px 26px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .masthead-inner > *,
+    .section-head > *,
+    .plot-layout > *,
+    .flow-layout > *,
+    .source-layout > * {
+      min-width: 0;
+    }
+
+    h2 {
+      margin: 6px 0 0;
+      font-family: var(--display);
+      font-size: clamp(2rem, 4.2vw, 4.1rem);
+      font-weight: 500;
+      letter-spacing: -0.04em;
+      line-height: 1;
+    }
+
+    .section-intro {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .plot-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 310px;
+      min-height: 690px;
+    }
+
+    .plot-scroller,
+    .flow-scroller {
+      min-width: 0;
+      overflow-x: auto;
+      scrollbar-color: var(--line) transparent;
+    }
+
+    .quadrant-svg,
+    .flow-svg {
+      display: block;
+      width: 100%;
+      min-width: 760px;
+      height: auto;
+    }
+
+    .plot-aside {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      padding: 30px 28px;
+      border-left: 1px solid var(--line);
+      background: #f0f4f4;
+    }
+
+    .detail-block {
+      min-height: 170px;
+    }
+
+    .detail-block h3,
+    .flow-detail h3 {
+      margin: 8px 0 7px;
+      font-family: var(--display);
+      font-size: 1.6rem;
+      line-height: 1.08;
+    }
+
+    .detail-meta {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.76rem;
+    }
+
+    .detail-copy {
+      margin: 0;
+      color: #435a61;
+      font-size: 0.9rem;
+    }
+
+    .quadrant-key {
+      display: grid;
+      gap: 10px;
+      margin-top: auto;
+    }
+
+    .key-row {
+      display: grid;
+      grid-template-columns: 12px 1fr auto;
+      gap: 10px;
+      align-items: center;
+      padding-top: 9px;
+      border-top: 1px solid var(--line-soft);
+      font-size: 0.8rem;
+    }
+
+    .key-swatch,
+    .control-swatch {
+      width: 9px;
+      height: 9px;
+      background: var(--key-color);
+    }
+
+    .key-count {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+    }
+
+    .section-tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 18px 38px;
+      border-bottom: 1px solid var(--line);
+      background: #f1f5f5;
+    }
+
+    .filter-button,
+    .utility-button {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      min-height: 37px;
+      padding: 8px 12px;
+      cursor: pointer;
+      border: 1px solid var(--line);
+      border-radius: 0;
+      background: var(--sheet);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    .filter-button:hover,
+    .utility-button:hover,
+    .filter-button[aria-pressed="true"],
+    .utility-button[aria-pressed="true"] {
+      border-color: var(--ink);
+      box-shadow: inset 0 -3px 0 var(--active-color, var(--ink));
+    }
+
+    .utility-button {
+      margin-left: auto;
+    }
+
+    .flow-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 310px;
+      min-height: 720px;
+    }
+
+    .flow-detail {
+      padding: 30px 28px;
+      border-left: 1px solid var(--line);
+      background: #f0f4f4;
+    }
+
+    .flow-bars {
+      display: grid;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .flow-bar-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 5px 10px;
+      align-items: end;
+      font-size: 0.78rem;
+    }
+
+    .flow-bar-row strong {
+      font-family: var(--mono);
+      font-size: 0.76rem;
+    }
+
+    .flow-bar-track {
+      grid-column: 1 / -1;
+      height: 5px;
+      background: var(--line-soft);
+    }
+
+    .flow-bar-fill {
+      display: block;
+      height: 100%;
+      width: var(--bar-width);
+      background: var(--bar-color);
+    }
+
+    .matrix-wrap {
+      overflow-x: auto;
+    }
+
+    .matrix-table {
+      width: 100%;
+      min-width: 960px;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    .matrix-table th,
+    .matrix-table td {
+      border-right: 1px solid var(--line-soft);
+      border-bottom: 1px solid var(--line-soft);
+    }
+
+    .matrix-table th {
+      padding: 15px 14px;
+      text-align: left;
+      vertical-align: bottom;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.02em;
+    }
+
+    .matrix-table th:first-child {
+      width: 35%;
+      padding-left: 38px;
+    }
+
+    .matrix-table td:first-child {
+      padding: 14px 18px 14px 38px;
+      font-family: var(--display);
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .matrix-cell {
+      position: relative;
+      height: 62px;
+      padding: 0;
+      transition: opacity 160ms ease, outline-color 160ms ease;
+    }
+
+    .matrix-cell button {
+      position: relative;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: 0;
+      background: var(--cell-bg);
+      font-family: var(--mono);
+      font-size: 0.95rem;
+      font-weight: 800;
+    }
+
+    .matrix-cell button::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 4px;
+      background: var(--cell-color);
+      transform: scaleX(var(--cell-scale));
+      transform-origin: left;
+    }
+
+    .matrix-row.is-muted,
+    .matrix-cell.is-muted {
+      opacity: 0.24;
+    }
+
+    .matrix-cell.is-active button {
+      outline: 3px solid var(--ink);
+      outline-offset: -3px;
+    }
+
+    .matrix-total td {
+      padding: 13px 14px;
+      background: #e3eaeb;
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      font-weight: 800;
+    }
+
+    .matrix-total td:first-child {
+      padding-left: 38px;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+    }
+
+    .matrix-note {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 20px 38px 26px;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .matrix-note p {
+      max-width: 760px;
+      margin: 0;
+    }
+
+    .matrix-note strong {
+      color: var(--ink);
+    }
+
+    .source-tools {
+      display: grid;
+      grid-template-columns: minmax(260px, 440px) max-content max-content minmax(0, 1fr);
+      gap: 12px 16px;
+      align-items: end;
+      padding: 16px 38px 18px;
+      border-bottom: 1px solid var(--line);
+      background: #f1f5f5;
+    }
+
+    .source-control {
+      display: grid;
+      gap: 5px;
+    }
+
+    .source-control span {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .source-select {
+      width: 100%;
+      min-height: 39px;
+      padding: 8px 36px 8px 11px;
+      color: var(--ink);
+      border: 1px solid var(--line);
+      border-radius: 0;
+      background: var(--sheet);
+      font-family: var(--body);
+      font-size: 0.82rem;
+    }
+
+    .source-up,
+    .source-more {
+      margin-left: 0;
+    }
+
+    .source-up:disabled,
+    .source-more:disabled {
+      cursor: not-allowed;
+      opacity: 0.42;
+    }
+
+    .source-key {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px 13px;
+      justify-content: flex-end;
+      padding-bottom: 2px;
+    }
+
+    .source-key-item {
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.66rem;
+      white-space: nowrap;
+    }
+
+    .source-key-swatch {
+      width: 9px;
+      height: 9px;
+      background: var(--source-color);
+    }
+
+    .source-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(330px, 380px);
+      min-height: 660px;
+    }
+
+    .source-map {
+      min-width: 0;
+      padding: 22px 24px 26px;
+    }
+
+    .source-breadcrumb {
+      min-height: 22px;
+      margin: 0 0 9px;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.02em;
+    }
+
+    .source-plot {
+      width: 100%;
+      min-height: 600px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background-color: #f4f7f6;
+      background-image:
+        linear-gradient(rgba(21, 49, 58, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(21, 49, 58, 0.035) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+
+    .source-plot svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .source-detail {
+      display: flex;
+      flex-direction: column;
+      padding: 30px 28px;
+      border-left: 1px solid var(--line);
+      background: #f0f4f4;
+    }
+
+    .source-bibliography {
+      margin-top: 24px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .source-bibliography-head {
+      display: flex;
+      gap: 12px;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    .source-bibliography h4 {
+      margin: 0;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    .source-list-status {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.66rem;
+      text-align: right;
+    }
+
+    .source-list {
+      display: grid;
+      gap: 13px;
+      max-height: min(52vh, 34rem);
+      margin: 13px 0 0;
+      padding: 0 5px 2px 1.35rem;
+      overflow: auto;
+      scrollbar-gutter: stable;
+    }
+
+    .source-list li {
+      padding-left: 2px;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.68rem;
+    }
+
+    .source-list a {
+      color: var(--ink);
+      font-family: var(--body);
+      font-size: 0.8rem;
+      font-weight: 650;
+      line-height: 1.38;
+      text-decoration-color: var(--line);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .source-list a:hover,
+    .source-list a:focus-visible {
+      text-decoration-color: var(--signal);
+      text-decoration-thickness: 2px;
+    }
+
+    .source-list-coverage {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-family: var(--body);
+      font-size: 0.72rem;
+      line-height: 1.35;
+    }
+
+    .source-tier {
+      display: inline-block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.59rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .source-detail h3 {
+      margin: 8px 0 7px;
+      font-family: var(--display);
+      font-size: 1.65rem;
+      line-height: 1.08;
+    }
+
+    .source-link {
+      align-self: flex-start;
+      margin-top: 18px;
+      padding-bottom: 2px;
+      color: var(--ink);
+      border-bottom: 2px solid var(--signal);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .source-reading-guide {
+      display: grid;
+      gap: 9px;
+      margin-top: 24px;
+      padding-top: 26px;
+    }
+
+    .source-reading-guide p {
+      margin: 0;
+      padding-top: 9px;
+      color: var(--muted);
+      border-top: 1px solid var(--line-soft);
+      font-size: 0.78rem;
+    }
+
+    .source-reading-guide strong {
+      color: var(--ink);
+    }
+
+    .treemap-node {
+      cursor: pointer;
+    }
+
+    .treemap-node rect {
+      stroke: var(--sheet);
+      stroke-width: 2px;
+      vector-effect: non-scaling-stroke;
+      transition: stroke 120ms ease, fill-opacity 120ms ease;
+    }
+
+    .treemap-node:hover rect,
+    .treemap-node:focus-visible rect {
+      stroke: var(--ink);
+      stroke-width: 2.5px;
+    }
+
+    .treemap-node.is-selected rect {
+      stroke: var(--signal);
+      stroke-width: 4px;
+    }
+
+    .treemap-node text {
+      fill: var(--ink);
+      pointer-events: none;
+    }
+
+    .treemap-parent-label {
+      font-family: var(--mono);
+      font-weight: 800;
+      letter-spacing: 0.01em;
+    }
+
+    .treemap-leaf-label {
+      font-family: var(--body);
+      font-weight: 650;
+    }
+
+    .source-error {
+      margin: 0;
+      padding: 24px;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .page-note {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 28px;
+      padding: 28px 38px;
+      color: #425b62;
+      background: var(--ink);
+    }
+
+    .page-note .folio-label {
+      color: #b9c8cb;
+    }
+
+    .page-note p {
+      max-width: 930px;
+      margin: 0;
+      color: #e1e9ea;
+      font-size: 0.88rem;
+    }
+
+    .tooltip {
+      position: fixed;
+      z-index: 100;
+      max-width: 270px;
+      padding: 10px 12px;
+      color: var(--white);
+      background: rgba(15, 40, 48, 0.96);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      box-shadow: 0 9px 28px rgba(15, 40, 48, 0.24);
+      pointer-events: none;
+      opacity: 0;
+      transform: translateY(5px);
+      transition: opacity 100ms ease, transform 100ms ease;
+    }
+
+    .tooltip.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .tooltip strong,
+    .tooltip span {
+      display: block;
+    }
+
+    .tooltip strong {
+      font-family: var(--display);
+      font-size: 1rem;
+    }
+
+    .tooltip span {
+      margin-top: 2px;
+      color: #c8d6d8;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+    }
+
+    .svg-grid {
+      stroke: #bcc9cc;
+      stroke-width: 1;
+      stroke-dasharray: 2 7;
+    }
+
+    .svg-axis {
+      stroke: var(--ink);
+      stroke-width: 2;
+    }
+
+    .svg-frame {
+      fill: none;
+      stroke: var(--ink);
+      stroke-width: 1.4;
+    }
+
+    .svg-tick,
+    .svg-axis-title,
+    .svg-quadrant-code,
+    .svg-node-number,
+    .flow-caption,
+    .flow-percent {
+      font-family: var(--mono);
+    }
+
+    .svg-tick {
+      fill: var(--muted);
+      font-size: 11px;
+    }
+
+    .svg-axis-title {
+      fill: var(--ink);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    .svg-quadrant-code {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+    }
+
+    .svg-quadrant-name {
+      font-family: var(--display);
+      font-size: 21px;
+      font-weight: 600;
+    }
+
+    .issue-group {
+      cursor: pointer;
+    }
+
+    .issue-stem {
+      stroke: var(--ink);
+      stroke-width: 1;
+      opacity: 0.45;
+    }
+
+    .issue-ring {
+      fill: var(--sheet);
+      stroke: var(--ink);
+      stroke-width: 1.5;
+      transition: transform 150ms ease, stroke-width 150ms ease;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    .issue-core {
+      transition: transform 150ms ease;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    .issue-group:hover .issue-ring,
+    .issue-group.is-active .issue-ring,
+    .issue-group:focus-visible .issue-ring {
+      stroke-width: 3;
+      transform: scale(1.2);
+    }
+
+    .issue-label {
+      fill: var(--ink);
+      font-family: var(--body);
+      font-size: 12px;
+      font-weight: 650;
+      paint-order: stroke;
+      stroke: rgba(248, 250, 249, 0.9);
+      stroke-width: 4px;
+      stroke-linejoin: round;
+    }
+
+    .flow-link {
+      fill: none;
+      mix-blend-mode: multiply;
+      transition: opacity 150ms ease, stroke-width 150ms ease;
+    }
+
+    .flow-link-hit {
+      fill: none;
+      stroke: transparent;
+      stroke-width: 18;
+      cursor: pointer;
+    }
+
+    .school-node,
+    .class-node {
+      cursor: pointer;
+      transition: opacity 150ms ease;
+    }
+
+    .school-node rect,
+    .class-node rect {
+      fill: var(--sheet);
+      stroke: var(--line);
+      stroke-width: 1.2;
+    }
+
+    .school-node:hover rect,
+    .school-node.is-active rect,
+    .class-node:hover rect,
+    .class-node.is-active rect {
+      stroke: var(--ink);
+      stroke-width: 2.5;
+    }
+
+    .school-index,
+    .class-code {
+      fill: var(--muted);
+      font-family: var(--mono);
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .school-name,
+    .class-name {
+      fill: var(--ink);
+      font-family: var(--body);
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    .class-name {
+      font-family: var(--display);
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .flow-caption {
+      fill: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+
+    .flow-percent {
+      fill: var(--ink);
+      font-size: 11px;
+      font-weight: 800;
+      paint-order: stroke;
+      stroke: var(--sheet);
+      stroke-width: 5px;
+    }
+
+    .is-svg-muted {
+      opacity: 0.17 !important;
+    }
+
+    @media (max-width: 980px) {
+      .masthead-inner,
+      .section-head {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+
+      .hero-side {
+        border-top: 1px solid var(--line);
+        border-left: 0;
+        padding-top: 18px;
+        padding-left: 0;
+      }
+
+      .plot-layout,
+      .flow-layout,
+      .source-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .plot-aside,
+      .flow-detail,
+      .source-detail {
+        border-top: 1px solid var(--line);
+        border-left: 0;
+      }
+
+      .plot-aside {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .flow-layout {
+        min-height: 0;
+      }
+
+      .source-tools {
+        grid-template-columns: minmax(240px, 1fr) max-content max-content;
+      }
+
+      .source-key {
+        grid-column: 1 / -1;
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .page-shell {
+        width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
+      }
+
+      .masthead {
+        margin-top: 10px;
+      }
+
+      .masthead-inner {
+        padding: 34px 22px 30px;
+      }
+
+      h1 {
+        font-size: clamp(2.65rem, 12vw, 3.25rem);
+        text-wrap: wrap;
+      }
+
+      h2 {
+        font-size: clamp(2rem, 10vw, 2.65rem);
+        overflow-wrap: break-word;
+        text-wrap: balance;
+      }
+
+      .hero-lead,
+      .section-intro {
+        overflow-wrap: break-word;
+      }
+
+      .section-nav {
+        overflow-x: auto;
+        padding: 0 16px 18px;
+      }
+
+      .section-nav a {
+        white-space: nowrap;
+      }
+
+      .section-head {
+        padding: 26px 20px 22px;
+      }
+
+      .section-tools {
+        padding: 14px 20px;
+      }
+
+      .source-tools {
+        grid-template-columns: 1fr;
+        padding: 14px 20px 16px;
+      }
+
+      .source-key {
+        grid-column: auto;
+      }
+
+      .utility-button {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+      }
+
+      .plot-aside {
+        grid-template-columns: 1fr;
+        padding: 24px 20px;
+      }
+
+      .flow-detail {
+        padding: 24px 20px;
+      }
+
+      .source-map {
+        padding: 16px;
+      }
+
+      .source-detail {
+        min-height: 360px;
+        padding: 24px 20px;
+      }
+
+      .source-list {
+        max-height: none;
+        overflow: visible;
+      }
+
+      .source-plot {
+        min-height: 0;
+      }
+
+      .matrix-table th:first-child {
+        width: 280px;
+        padding-left: 20px;
+      }
+
+      .matrix-table td:first-child,
+      .matrix-total td:first-child {
+        padding-left: 20px;
+      }
+
+      .matrix-note,
+      .page-note {
+        grid-template-columns: 1fr;
+        padding: 22px 20px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .page-shell {
+        width: 100%;
+      }
+
+      .masthead,
+      .sheet {
+        box-shadow: none;
+        break-inside: avoid;
+      }
+
+      .section-nav,
+      .section-tools,
+      .tooltip {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke visualisasi</a>
+
+  <header class="masthead page-shell">
+    <div class="masthead-inner">
+      <div>
+        <p class="eyebrow">Atlas urban planning / masalah · mazhab · sumber</p>
+        <h1>Empat kelas masalah.<br>Sepuluh cara campur tangan.</h1>
+        <p class="hero-lead">Satu atlas kerja untuk melihat kapan kota dapat diperlakukan sebagai objek rekayasa—kapan ia menuntut negosiasi, adaptasi, serta pembelajaran—dan dari korpus planning mana cara-cara itu diturunkan.</p>
+      </div>
+      <aside class="hero-side" aria-label="Definisi sumbu">
+        <div class="axis-card">
+          <p class="axis-note">Sumbu X</p>
+          <strong>Lokasi mekanisme kausal</strong>
+          <span>Material–spasial → sosial–institusional</span>
+        </div>
+        <div class="axis-card">
+          <p class="axis-note">Sumbu Y</p>
+          <strong>Keterkendalian rekayasa</strong>
+          <span>Terbuka–emergen → terikat–terprediksi</span>
+        </div>
+      </aside>
+    </div>
+    <nav class="section-nav" aria-label="Bagian halaman">
+      <a href="#peta">Peta masalah</a>
+      <a href="#relasi">Relasi mazhab</a>
+      <a href="#matriks">Matriks bobot</a>
+      <a href="#sumber-mazhab">Sumber mazhab</a>
+      <a href="#sumber-masalah">Sumber masalah</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page-shell">
+    <section id="peta" class="sheet" aria-labelledby="peta-title">
+      <header class="section-head">
+        <div>
+          <p class="section-kicker">01 / Ruang masalah</p>
+          <h2 id="peta-title">Peta kuadran masalah urban</h2>
+        </div>
+        <p class="section-intro">Arahkan penunjuk atau gunakan tombol Tab pada setiap titik. Klik untuk mengunci pilihan dan membaca mekanisme dominannya.</p>
+      </header>
+
+      <div class="plot-layout">
+        <div class="plot-scroller" aria-label="Area peta kuadran yang dapat digulir secara horizontal">
+          <svg id="quadrantPlot" class="quadrant-svg" viewBox="0 0 1200 720" role="img" aria-labelledby="quadrantSvgTitle quadrantSvgDesc">
+            <title id="quadrantSvgTitle">Peta empat kuadran masalah urban planning</title>
+            <desc id="quadrantSvgDesc">Empat belas masalah diposisikan menurut lokasi mekanisme kausal dan derajat keterkendalian rekayasa.</desc>
+          </svg>
+        </div>
+
+        <aside class="plot-aside" aria-live="polite">
+          <div class="detail-block">
+            <p class="detail-label">Masalah terpilih</p>
+            <h3 id="issueTitle">Pilih satu titik</h3>
+            <p id="issueMeta" class="detail-meta">Koordinat dan kelas akan tampil di sini.</p>
+            <p id="issueCopy" class="detail-copy">Posisi makin ke kanan berarti hasil makin bergantung pada institusi, perilaku, distribusi kuasa, dan legitimasi.</p>
+          </div>
+          <div id="quadrantKey" class="quadrant-key" aria-label="Legenda kuadran"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="relasi" class="sheet" aria-labelledby="relasi-title">
+      <header class="section-head">
+        <div>
+          <p class="section-kicker">02 / Portofolio intervensi</p>
+          <h2 id="relasi-title">Mazhab tidak bekerja sendirian</h2>
+        </div>
+        <p class="section-intro">Garis menghubungkan sepuluh mazhab dengan empat kelas masalah. Ketebalan menunjukkan porsi relatif dalam portofolio intervensi.</p>
+      </header>
+
+      <div class="section-tools" aria-label="Penyaring kelas masalah">
+        <div id="classFilters" style="display: contents"></div>
+        <button id="weightToggle" class="utility-button" type="button" aria-pressed="true">Relasi dominan ≥10%</button>
+      </div>
+
+      <div class="flow-layout">
+        <div class="flow-scroller" aria-label="Area diagram relasi yang dapat digulir secara horizontal">
+          <svg id="flowGraph" class="flow-svg" viewBox="0 0 1200 720" role="img" aria-labelledby="flowSvgTitle flowSvgDesc">
+            <title id="flowSvgTitle">Relasi sepuluh mazhab perencanaan dengan empat kelas masalah urban</title>
+            <desc id="flowSvgDesc">Garis yang lebih tebal menunjukkan bobot portofolio yang lebih besar. Pilihan awal hanya memperlihatkan bobot sedikitnya sepuluh persen.</desc>
+          </svg>
+        </div>
+
+        <aside class="flow-detail" aria-live="polite">
+          <p class="detail-label">Pembacaan relasi</p>
+          <h3 id="flowTitle">Semua relasi dominan</h3>
+          <p id="flowMeta" class="detail-meta">Bobot ≥10% ditampilkan</p>
+          <p id="flowCopy" class="detail-copy">Pilih mazhab, kelas masalah, atau garis untuk menelusuri satu portofolio secara lebih dekat.</p>
+          <div id="flowBars" class="flow-bars"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="matriks" class="sheet" aria-labelledby="matriks-title">
+      <header class="section-head">
+        <div>
+          <p class="section-kicker">03 / Bobot lengkap</p>
+          <h2 id="matriks-title">Matriks portofolio</h2>
+        </div>
+        <p class="section-intro">Setiap kolom merupakan satu portofolio kelas masalah dan berjumlah 100%. Klik sel untuk menyorot relasinya pada diagram di atas.</p>
+      </header>
+
+      <div class="matrix-wrap">
+        <table class="matrix-table">
+          <thead>
+            <tr id="matrixHead">
+              <th scope="col">Mazhab urban planning</th>
+            </tr>
+          </thead>
+          <tbody id="matrixBody"></tbody>
+          <tfoot>
+            <tr id="matrixTotal" class="matrix-total">
+              <td>Jumlah per kelas masalah</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div class="matrix-note">
+        <p><strong>Cara baca:</strong> persentase adalah porsi relatif peran pendekatan—bukan peluang keberhasilan, frekuensi penggunaan, besaran anggaran, ataupun estimasi efek kausal.</p>
+        <p>Warna lebih pekat = bobot lebih besar.</p>
+      </div>
+    </section>
+
+    <section id="sumber-mazhab" class="sheet" aria-labelledby="sumber-mazhab-title">
+      <header class="section-head">
+        <div>
+          <p class="section-kicker">04 / Genealogi mazhab</p>
+          <h2 id="sumber-mazhab-title">Di mana sepuluh mazhab masih membaca bersama</h2>
+        </div>
+        <p class="section-intro">Persegi luar menunjukkan bacaan yang dipakai semakin luas; persegi yang lebih dalam menunjukkan bacaan rumpun, mazhab, lalu judul tertentu. Mode ringkas menjaga akar terbaca, sedangkan setiap mazhab otomatis membuka enam bacaan ketika diperbesar.</p>
+      </header>
+
+      <div class="source-tools">
+        <label class="source-control" for="schoolSourceFocus">
+          <span>Fokus hirarki</span>
+          <select id="schoolSourceFocus" class="source-select"></select>
+        </label>
+        <button id="schoolSourceUp" class="utility-button source-up" type="button" disabled>Naik satu tingkat</button>
+        <button id="schoolSourceMore" class="utility-button source-more" type="button" aria-pressed="false" aria-controls="schoolSourcePlot schoolSourceList schoolSourceListStatus">Tampilkan lebih banyak</button>
+        <div class="source-key" aria-label="Legenda rumpun mazhab">
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#3e6fbd"></i>Batang bersama</span>
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#d85d36"></i>Teknis–analitis</span>
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#198b84"></i>Strategis–adaptif</span>
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#b4557d"></i>Deliberatif–learning</span>
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#7e5ba6"></i>Keadilan–transformasi</span>
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#e2a829"></i>Jembatan</span>
+        </div>
+      </div>
+
+      <div class="source-layout">
+        <div class="source-map">
+          <p id="schoolSourceBreadcrumb" class="source-breadcrumb" aria-live="polite">Akar / Korpus keilmuan planning</p>
+          <div id="schoolSourcePlot" class="source-plot"></div>
+        </div>
+        <aside class="source-detail">
+          <p class="detail-label">Cabang atau sumber terpilih</p>
+          <h3 id="schoolSourceTitle">Korpus keilmuan planning</h3>
+          <p id="schoolSourceMeta" class="detail-meta">28 dari 72 penempatan bacaan ditampilkan</p>
+          <p id="schoolSourceDetail" class="detail-copy">Peta bacaan internal disiplin: dari orientasi bersama, rumpun epistemik, sampai kanon khusus setiap mazhab.</p>
+          <a id="schoolSourceLink" class="source-link" href="#" target="_blank" rel="noopener noreferrer" hidden>Buka sumber ↗</a>
+          <section class="source-bibliography" aria-labelledby="schoolSourceListTitle">
+            <div class="source-bibliography-head">
+              <h4 id="schoolSourceListTitle">Bacaan dalam cabang</h4>
+              <span id="schoolSourceListStatus" class="source-list-status" aria-live="polite"></span>
+            </div>
+            <ol id="schoolSourceList" class="source-list"></ol>
+          </section>
+          <div class="source-reading-guide">
+            <p><strong>Luas</strong> = jumlah penempatan judul dalam cabang, bukan tingkat kepentingan.</p>
+            <p><strong>Inti</strong> = orientasi ringkas; <strong>pendalaman</strong> = perluasan rigor. Keduanya tetap kurasi, bukan ranking.</p>
+            <p><strong>Batang bersama</strong> = bacaan orientasi pembanding, bukan klaim bahwa semua program studi mewajibkannya.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="sumber-masalah" class="sheet" aria-labelledby="sumber-masalah-title">
+      <header class="section-head">
+        <div>
+          <p class="section-kicker">05 / Genealogi masalah</p>
+          <h2 id="sumber-masalah-title">Empat kuadran, empat belas jalur bacaan</h2>
+        </div>
+        <p class="section-intro">Treemap kedua memisahkan korpus bersama, bacaan tingkat kuadran, dan sumber yang paling langsung membantu membingkai setiap masalah. Empat belas cabang terminal masing-masing membuka sekurangnya enam bacaan saat diperbesar.</p>
+      </header>
+
+      <div class="source-tools">
+        <label class="source-control" for="problemSourceFocus">
+          <span>Fokus hirarki</span>
+          <select id="problemSourceFocus" class="source-select"></select>
+        </label>
+        <button id="problemSourceUp" class="utility-button source-up" type="button" disabled>Naik satu tingkat</button>
+        <button id="problemSourceMore" class="utility-button source-more" type="button" aria-pressed="false" aria-controls="problemSourcePlot problemSourceList problemSourceListStatus">Tampilkan lebih banyak</button>
+        <div class="source-key" aria-label="Legenda kuadran sumber masalah">
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#e2a829"></i>Korpus bersama</span>
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#d85d36"></i>Q1 · Teknis</span>
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#198b84"></i>Q3 · Spasial</span>
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#3e6fbd"></i>Q2 · Institusional</span>
+          <span class="source-key-item"><i class="source-key-swatch" style="--source-color:#7e5ba6"></i>Q4 · Politik</span>
+        </div>
+      </div>
+
+      <div class="source-layout">
+        <div class="source-map">
+          <p id="problemSourceBreadcrumb" class="source-breadcrumb" aria-live="polite">Akar / Korpus masalah urban planning</p>
+          <div id="problemSourcePlot" class="source-plot"></div>
+        </div>
+        <aside class="source-detail">
+          <p class="detail-label">Cabang atau sumber terpilih</p>
+          <h3 id="problemSourceTitle">Korpus masalah urban planning</h3>
+          <p id="problemSourceMeta" class="detail-meta">33 dari 107 penempatan bacaan ditampilkan</p>
+          <p id="problemSourceDetail" class="detail-copy">Peta bacaan internal disiplin: dari fondasi bersama, ke empat kuadran, lalu empat belas keluarga masalah.</p>
+          <a id="problemSourceLink" class="source-link" href="#" target="_blank" rel="noopener noreferrer" hidden>Buka sumber ↗</a>
+          <section class="source-bibliography" aria-labelledby="problemSourceListTitle">
+            <div class="source-bibliography-head">
+              <h4 id="problemSourceListTitle">Bacaan dalam cabang</h4>
+              <span id="problemSourceListStatus" class="source-list-status" aria-live="polite"></span>
+            </div>
+            <ol id="problemSourceList" class="source-list"></ol>
+          </section>
+          <div class="source-reading-guide">
+            <p><strong>Satu judul dapat muncul ulang</strong> bila sungguh menjembatani lebih dari satu masalah; luas berarti penempatan, bukan jumlah karya unik.</p>
+            <p><strong>Inti</strong> = orientasi ringkas; <strong>pendalaman</strong> = korpus tambahan yang muncul otomatis pada cabang terminal.</p>
+            <p><strong>Urutan</strong> menunjukkan keluasan cakupan pemakaian, bukan ranking otoritas atau kekuatan bukti.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="page-note">
+      <p class="folio-label">Status epistemik</p>
+      <p>Peta dan bobot merupakan sintesis heuristik dari diskusi, bukan hasil pengukuran empiris. Kategori adalah tipe ideal; penerapan pada kasus nyata perlu menguji ulang mekanisme, aktor, skala, serta distribusi dampaknya. Dua hirarki memetakan sumber internal urban planning: mode ringkas berisi 28 penempatan untuk mazhab dan 33 untuk masalah; mode lengkap berisi 72 dan 107 penempatan. Ini kurasi berlapis—bukan bibliometri, silabus universal, ranking otoritas, atau tinjauan sistematis—dan ilmu donor di luar planning sengaja belum dimasukkan.</p>
+    </footer>
+  </main>
+
+  <div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script>
+    (() => {
+      "use strict";
+
+      const NS = "http://www.w3.org/2000/svg";
+
+      const classes = [
+        {
+          id: "technical",
+          code: "Q1",
+          name: "Teknis–terikat",
+          color: "#d85d36",
+          note: "Optimasi, desain performatif, pemodelan, standar, dan kontrol teknis relatif dominan."
+        },
+        {
+          id: "spatial",
+          code: "Q3",
+          name: "Spasial–dinamis",
+          color: "#198b84",
+          note: "Pemodelan dinamika, umpan balik, skenario, desain spasial, dan adaptasi menjadi pusat kerja."
+        },
+        {
+          id: "institutional",
+          code: "Q2",
+          name: "Instrumental–institusional",
+          color: "#3e6fbd",
+          note: "Koordinasi aktor, penyelarasan instrumen, implementasi bertahap, dan kapasitas kelembagaan lebih menentukan."
+        },
+        {
+          id: "political",
+          code: "Q4",
+          name: "Politik–adaptif",
+          color: "#7e5ba6",
+          note: "Legitimasi, representasi, konflik nilai, distribusi kuasa, keadilan, dan pembelajaran sosial lebih dominan."
+        }
+      ];
+
+      const classById = Object.fromEntries(classes.map(item => [item.id, item]));
+
+      const issues = [
+        { name: "Infrastruktur dan layanan", x: 1.6, y: 8.8, classId: "technical", dx: 18, dy: -14, anchor: "start" },
+        { name: "Jaringan mobilitas", x: 2.9, y: 8.0, classId: "technical", dx: 18, dy: 4, anchor: "start" },
+        { name: "Proteksi bahaya", x: 2.1, y: 7.0, classId: "technical", dx: 18, dy: 17, anchor: "start" },
+        { name: "Operasi pelayanan", x: 6.2, y: 8.3, classId: "institutional", dx: 18, dy: -9, anchor: "start" },
+        { name: "Fiskal dan insentif", x: 7.2, y: 7.4, classId: "institutional", dx: 18, dy: -7, anchor: "start" },
+        { name: "Regulasi dan penegakan", x: 8.1, y: 6.4, classId: "institutional", dx: 18, dy: 14, anchor: "start" },
+        { name: "Lahan dan perumahan", x: 4.1, y: 4.9, classId: "spatial", dx: -18, dy: -13, anchor: "end" },
+        { name: "Bentuk kota dan lock-in", x: 3.3, y: 4.1, classId: "spatial", dx: -18, dy: 19, anchor: "end" },
+        { name: "Ekologi dan iklim", x: 2.6, y: 3.1, classId: "spatial", dx: 18, dy: -10, anchor: "start" },
+        { name: "Ekonomi dan aglomerasi", x: 6.2, y: 4.6, classId: "political", dx: 18, dy: -8, anchor: "start" },
+        { name: "Governance dan skala", x: 7.7, y: 3.8, classId: "political", dx: -18, dy: 19, anchor: "end" },
+        { name: "Equity dan displacement", x: 8.7, y: 2.5, classId: "political", dx: -18, dy: -14, anchor: "end" },
+        { name: "Perilaku dan legitimasi", x: 9.1, y: 1.5, classId: "political", dx: -18, dy: 19, anchor: "end" },
+        { name: "Pengetahuan dan pembelajaran", x: 5.7, y: 1.8, classId: "political", dx: 18, dy: -9, anchor: "start" }
+      ];
+
+      const schools = [
+        { id: "rational", name: "Rational–comprehensive", graphName: "Rational–comprehensive", weights: [22, 8, 12, 3] },
+        { id: "science", name: "Urban science", graphName: "Urban science", weights: [20, 16, 8, 4] },
+        { id: "design", name: "Design-led / ecological", graphName: "Design-led / ecological", weights: [21, 14, 6, 3] },
+        { id: "strategic", name: "Strategic / scenario", graphName: "Strategic / scenario", weights: [10, 14, 13, 9] },
+        { id: "incremental", name: "Incremental / pragmatic", graphName: "Incremental / pragmatic", weights: [8, 8, 14, 7] },
+        { id: "complexity", name: "Complexity / adaptive", graphName: "Complexity / adaptive", weights: [6, 16, 9, 11] },
+        { id: "communicative", name: "Communicative / collaborative / participatory", graphName: "Communicative / participatory", weights: [4, 7, 15, 17] },
+        { id: "transactive", name: "Transactive / social learning", graphName: "Transactive / social learning", weights: [3, 6, 10, 14] },
+        { id: "advocacy", name: "Advocacy / equity / Just City", graphName: "Advocacy / equity / Just City", weights: [4, 7, 9, 17] },
+        { id: "radical", name: "Radical / insurgent / decolonial", graphName: "Radical / insurgent / decolonial", weights: [2, 4, 4, 15] }
+      ];
+
+      const schoolById = Object.fromEntries(schools.map(item => [item.id, item]));
+      const source = (id, name, citation, coverage, url, tier = "inti") => ({ id, name, citation, coverage, url, tier });
+
+      const schoolSourceTree = {
+        id: 'schools-root',
+        name: 'Korpus keilmuan planning',
+        summary: 'Peta bacaan internal disiplin: dari orientasi bersama, rumpun epistemik, sampai kanon khusus setiap mazhab.',
+        children: [
+          {
+            id: 'schools-trunk', name: 'Batang bersama · 10 mazhab', group: 0,
+            summary: 'Bacaan orientasi untuk mengenali medan planning theory, masalah planning, dan perbedaan antartradisi.',
+            children: [
+              source('fainstein-reader', 'Fainstein & DeFilippis 2016', 'Fainstein, S. S., & DeFilippis, J. (eds.). Readings in Planning Theory, 4th ed. Wiley-Blackwell, 2016.', 'Orientasi komparatif untuk seluruh 10 mazhab', 'https://onlinelibrary.wiley.com/doi/book/10.1002/9781119084679'),
+              source('hudson-sitar', 'Hudson et al. 1979 · SITAR', 'Hudson, B. M., Galloway, T. D., & Kaufman, J. L. “Comparison of Current Planning Theories: Counterparts and Contradictions.” JAPA 45(4), 387–398, 1979.', 'Kerangka pembanding synoptic, incremental, transactive, advocacy, dan radical', 'https://doi.org/10.1080/01944367908976980'),
+              source('rittel-webber', 'Rittel & Webber 1973', 'Rittel, H. W. J., & Webber, M. M. “Dilemmas in a General Theory of Planning.” Policy Sciences 4(2), 155–169, 1973.', 'Landasan bersama untuk membedakan masalah tame dan wicked', 'https://doi.org/10.1007/BF01405730'),
+              source('allmendinger', 'Allmendinger 2017', 'Allmendinger, P. Planning Theory, 4th ed. Red Globe Press, 2017.', 'Peta kontemporer lintas rational, pragmatic, advocacy, collaborative, postcolonial, dan insurgent planning', 'https://www.bloomsbury.com/uk/planning-theory-9780230380035/')
+            ]
+          },
+          {
+            id: 'schools-technical', name: 'Rumpun teknis–analitis', group: 1,
+            summary: 'Berbagi kepercayaan relatif lebih tinggi pada analisis eksplisit, representasi spasial, desain, dan evaluasi performa.',
+            children: [
+              {
+                id: 'technical-shared', name: 'Bacaan rumpun',
+                children: [
+                  source('berke-land-use', 'Berke et al. 2006', 'Berke, P. R., Godschalk, D. R., Kaiser, E. J., & Rodriguez, D. A. Urban Land Use Planning, 5th ed. University of Illinois Press, 2006.', 'Rational–comprehensive · urban science · design-led/ecological', 'https://www.press.uillinois.edu/books/?id=c030796')
+                ]
+              },
+              {
+                id: 'school-rational', name: '1 · Rational–comprehensive',
+                children: [
+                  source('faludi-theory', 'Faludi 1973', 'Faludi, A. Planning Theory. Pergamon Press, 1973.', 'Kanon khusus rational–comprehensive; juga penting untuk debat prosedural', 'https://books.google.com/books/about/Planning_Theory.html?id=kZhPAAAAMAAJ')
+                ]
+              },
+              {
+                id: 'school-science', name: '2 · Urban science',
+                children: [
+                  source('batty-new-science', 'Batty 2013', 'Batty, M. The New Science of Cities. MIT Press, 2013.', 'Kanon khusus urban science; beririsan kuat dengan complexity', 'https://mitpress.mit.edu/9780262534567/the-new-science-of-cities/')
+                ]
+              },
+              {
+                id: 'school-design', name: '3 · Design-led / ecological',
+                children: [
+                  source('lynch-good-city', 'Lynch 1981/1984', 'Lynch, K. A Theory of Good City Form (1981); paperback as Good City Form. MIT Press, 1984.', 'Design-led; menjembatani nilai normatif dan evaluasi bentuk kota', 'https://mitpress.mit.edu/9780262620468/good-city-form/'),
+                  source('mcharg-design-nature', 'McHarg 1969', 'McHarg, I. L. Design with Nature. Natural History Press, 1969; 25th anniversary ed., Wiley, 1995.', 'Kanon ecological planning dan suitability analysis', 'https://www.wiley.com/en-us/Design+with+Nature%2C+25th+Anniversary+Edition-p-9780471114604')
+                ]
+              }
+            ]
+          },
+          {
+            id: 'schools-adaptive', name: 'Rumpun strategis–adaptif', group: 2,
+            summary: 'Berbagi fokus pada ketidakpastian, pilihan selektif, proses bertahap, umpan balik, dan kapasitas beradaptasi.',
+            children: [
+              {
+                id: 'adaptive-shared', name: 'Bacaan rumpun',
+                children: [
+                  source('alexander-after', 'Alexander 1984', 'Alexander, E. R. “After Rationality, What? A Review of Responses to Paradigm Breakdown.” JAPA 50(1), 62–69, 1984.', 'Strategic · incremental · complexity/adaptive', 'https://doi.org/10.1080/01944368408976582')
+                ]
+              },
+              {
+                id: 'school-strategic', name: '4 · Strategic / scenario',
+                children: [
+                  source('albrechts-strategic', 'Albrechts 2004', 'Albrechts, L. “Strategic (Spatial) Planning Reexamined.” Environment and Planning B 31(5), 743–758, 2004.', 'Kanon strategic spatial planning', 'https://doi.org/10.1068/b3065')
+                ]
+              },
+              {
+                id: 'school-incremental', name: '5 · Incremental / pragmatic',
+                children: [
+                  source('faludi-three-dimensional', 'Faludi 1971', 'Faludi, A. “Towards a Three-Dimensional Model of Planning Behaviour.” Environment and Planning A 3(3), 253–266, 1971.', 'Incremental dan rational; memetakan blueprint–process serta rational–incremental', 'https://doi.org/10.1068/a030253')
+                ]
+              },
+              {
+                id: 'school-complexity', name: '6 · Complexity / adaptive',
+                children: [
+                  source('portugali-self-organization', 'Portugali 2000', 'Portugali, J. Self-Organization and the City. Springer, 2000.', 'Kanon self-organization untuk complexity/adaptive planning', 'https://link.springer.com/book/10.1007/978-3-662-04099-7')
+                ]
+              }
+            ]
+          },
+          {
+            id: 'schools-deliberative', name: 'Rumpun deliberatif–learning', group: 3,
+            summary: 'Berbagi perhatian pada dialog, pengetahuan praktis, pembelajaran timbal balik, dan pembentukan makna bersama.',
+            children: [
+              {
+                id: 'deliberative-shared', name: 'Bacaan rumpun',
+                children: [
+                  source('forester-deliberative', 'Forester 1999', 'Forester, J. The Deliberative Practitioner: Encouraging Participatory Planning Processes. MIT Press, 1999.', 'Communicative/collaborative · transactive/social learning', 'https://mitpress.mit.edu/9780262062077/the-deliberative-practitioner/')
+                ]
+              },
+              {
+                id: 'school-communicative', name: '7 · Communicative / collaborative / participatory',
+                children: [
+                  source('healey-communicative', 'Healey 1996', 'Healey, P. “The Communicative Turn in Planning Theory and its Implications for Spatial Strategy Formation.” Environment and Planning B 23(2), 217–234, 1996.', 'Kanon communicative planning; juga menjembatani strategic planning', 'https://doi.org/10.1068/b230217'),
+                  source('innes-paradigm', 'Innes 1995', 'Innes, J. E. “Planning Theory’s Emerging Paradigm: Communicative Action and Interactive Practice.” JPER 14(3), 183–189, 1995.', 'Kanon communicative dan interactive planning', 'https://doi.org/10.1177/0739456X9501400307')
+                ]
+              },
+              {
+                id: 'school-transactive', name: '8 · Transactive / social learning',
+                children: [
+                  source('friedmann-retracking', 'Friedmann 1973', 'Friedmann, J. Retracking America: A Theory of Transactive Planning. Anchor Press, 1973.', 'Kanon transactive planning', 'https://books.google.com/books/about/Retracking_America.html?id=EtbZAAAAIAAJ'),
+                  source('friedmann-social-learning', 'Friedmann 1981', 'Friedmann, J. Planning as Social Learning. UCLA Working Paper 343, 1981.', 'Kanon social learning dalam planning', 'https://escholarship.org/uc/item/0q47v754')
+                ]
+              }
+            ]
+          },
+          {
+            id: 'schools-justice', name: 'Rumpun keadilan–transformasi', group: 4,
+            summary: 'Berbagi fokus pada distribusi, representasi, kuasa, mobilisasi, dan transformasi tatanan yang menghasilkan ketidakadilan.',
+            children: [
+              {
+                id: 'justice-shared', name: 'Bacaan rumpun',
+                children: [
+                  source('friedmann-insurgencies', 'Friedmann 2011', 'Friedmann, J. Insurgencies: Essays in Planning Theory. Routledge, 2011.', 'Advocacy/equity · radical/insurgent; juga menghubungkan transactive planning', 'https://www.routledge.com/Insurgencies-Essays-in-Planning-Theory-1st-Edition/Friedmann/p/book/9780415781510')
+                ]
+              },
+              {
+                id: 'school-advocacy', name: '9 · Advocacy / equity / Just City',
+                children: [
+                  source('davidoff-advocacy', 'Davidoff 1965', 'Davidoff, P. “Advocacy and Pluralism in Planning.” Journal of the American Institute of Planners 31(4), 331–338, 1965.', 'Kanon advocacy planning', 'https://doi.org/10.1080/01944366508978187'),
+                  source('krumholz-equity', 'Krumholz 1982', 'Krumholz, N. “A Retrospective View of Equity Planning: Cleveland 1969–1979.” JAPA 48(2), 163–174, 1982.', 'Kanon equity planning berbasis praktik', 'https://doi.org/10.1080/01944368208976535'),
+                  source('fainstein-just-city', 'Fainstein 2010', 'Fainstein, S. S. The Just City. Cornell University Press, 2010.', 'Kanon Just City; juga relevan untuk ekonomi politik dan displacement', 'https://cornellpress.cornell.edu/book/9780801476907/the-just-city/')
+                ]
+              },
+              {
+                id: 'school-radical', name: '10 · Radical / insurgent / decolonial',
+                children: [
+                  source('miraftab-insurgent', 'Miraftab 2009', 'Miraftab, F. “Insurgent Planning: Situating Radical Planning in the Global South.” Planning Theory 8(1), 32–50, 2009.', 'Kanon insurgent dan decolonial planning', 'https://doi.org/10.1177/1473095208099297'),
+                  source('roy-india', 'Roy 2009', 'Roy, A. “Why India Cannot Plan Its Cities: Informality, Insurgence and the Idiom of Urbanization.” Planning Theory 8(1), 76–87, 2009.', 'Radical/insurgent; kritik pada formality dan rezim planning', 'https://doi.org/10.1177/1473095208099299')
+                ]
+              }
+            ]
+          },
+          {
+            id: 'schools-bridges', name: 'Bacaan jembatan lintas rumpun', group: 5,
+            summary: 'Sumber yang tidak pas ditempatkan di satu rumpun saja; bagian ini mencegah treemap memaksakan irisan menjadi cabang tunggal.',
+            children: [
+              source('bridge-batty-complexity', 'Batty 2005 · science ↔ complexity', 'Batty, M. Cities and Complexity: Understanding Cities with Cellular Automata, Agent-Based Models, and Fractals. MIT Press, 2005.', 'Urban science · complexity/adaptive', 'https://mitpress.mit.edu/9780262025836/cities-and-complexity/'),
+              source('bridge-healey-strategy', 'Healey 2007 · strategic ↔ communicative', 'Healey, P. Urban Complexity and Spatial Strategies: Towards a Relational Planning for Our Times. Routledge, 2007.', 'Strategic · complexity · communicative/collaborative', 'https://www.routledge.com/Urban-Complexity-and-Spatial-Strategies-Towards-a-Relational-Planning/Healey/p/book/9780203099414'),
+              source('bridge-innes-booher', 'Innes & Booher 1999 · complexity ↔ collaborative', 'Innes, J. E., & Booher, D. E. “Consensus Building and Complex Adaptive Systems.” JAPA 65(4), 412–423, 1999.', 'Complexity/adaptive · communicative/collaborative', 'https://doi.org/10.1080/01944369908976071'),
+              source('bridge-friedmann-public', 'Friedmann 1987 · learning ↔ mobilization', 'Friedmann, J. Planning in the Public Domain: From Knowledge to Action. Princeton University Press, 1987.', 'Transactive/social learning · advocacy/equity · radical/insurgent', 'https://www.jstor.org/stable/j.ctv10crf8d')
+            ]
+          }
+        ]
+      };
+
+      const problemSourceTree = {
+        id: 'problems-root',
+        name: 'Korpus masalah urban planning',
+        summary: 'Peta bacaan internal disiplin: dari problem framing bersama, kuadran mekanisme, sampai literatur khusus 14 masalah.',
+        children: [
+          {
+            id: 'problems-trunk', name: 'Batang bersama · semua masalah', group: 0,
+            summary: 'Bacaan untuk merumuskan masalah, menghubungkan pengetahuan dengan tindakan, dan membaca rencana sebagai proses lintas-subbidang.',
+            children: [
+              source('problem-rittel', 'Rittel & Webber 1973', 'Rittel, H. W. J., & Webber, M. M. “Dilemmas in a General Theory of Planning.” Policy Sciences 4(2), 155–169, 1973.', 'Seluruh 14 masalah: membedakan komponen tame dan wicked', 'https://doi.org/10.1007/BF01405730'),
+              source('problem-friedmann', 'Friedmann 1987', 'Friedmann, J. Planning in the Public Domain: From Knowledge to Action. Princeton University Press, 1987.', 'Seluruh 14 masalah: relasi pengetahuan, tindakan, reform, learning, dan mobilization', 'https://www.jstor.org/stable/j.ctv10crf8d'),
+              source('problem-berke', 'Berke et al. 2006', 'Berke, P. R., Godschalk, D. R., Kaiser, E. J., & Rodriguez, D. A. Urban Land Use Planning, 5th ed. University of Illinois Press, 2006.', 'Lintas teknis, spasial, institusional, serta ekonomi–equity dalam plan-making', 'https://www.press.uillinois.edu/books/?id=c030796')
+            ]
+          },
+          {
+            id: 'quadrant-technical', name: 'Q1 · Teknis–terikat', group: 1,
+            summary: 'Masalah dengan komponen fisik dan performa yang relatif dapat dibatasi, tetapi tetap bergantung pada keputusan planning.',
+            children: [
+              {
+                id: 'technical-quadrant-shared', name: 'Bacaan bersama kuadran',
+                children: [
+                  source('neuman-infrastructure', 'Neuman & Smith 2010', 'Neuman, M., & Smith, S. “City Planning and Infrastructure: Once and Future Partners.” Journal of Planning History 9(1), 21–42, 2010.', 'Infrastruktur · layanan · jaringan; menempatkan kembali infrastruktur dalam disiplin planning', 'https://doi.org/10.1177/1538513209355373')
+                ]
+              },
+              {
+                id: 'problem-infrastructure', name: '1 · Infrastruktur dan layanan',
+                children: [
+                  source('graham-marvin', 'Graham & Marvin 2001', 'Graham, S., & Marvin, S. Splintering Urbanism: Networked Infrastructures, Technological Mobilities and the Urban Condition. Routledge, 2001.', 'Infrastruktur dan layanan; juga membuka dimensi ketimpangan jaringan', 'https://www.routledge.com/Splintering-Urbanism-Networked-Infrastructures-Technological-Mobilities/Graham-Marvin/p/book/9780415189651')
+                ]
+              },
+              {
+                id: 'problem-mobility', name: '2 · Jaringan mobilitas',
+                children: [
+                  source('meyer-miller', 'Meyer & Miller 2001', 'Meyer, M. D., & Miller, E. J. Urban Transportation Planning: A Decision-Oriented Approach, 2nd ed. McGraw-Hill, 2001.', 'Jaringan mobilitas; proses keputusan, demand, supply, evaluasi, dan umpan balik', 'https://books.google.com/books/about/Urban_Transportation_Planning.html?id=PVomAQAACAAJ'),
+                  source('bertolini-accessibility', 'Bertolini et al. 2005', 'Bertolini, L., le Clercq, F., & Kapoen, L. “Sustainable Accessibility: A Conceptual Framework to Integrate Transport and Land Use Plan-Making. Two Test-Applications in the Netherlands and a Reflection on the Way Forward.” Transport Policy 12(3), 207–220, 2005.', 'Mobilitas ↔ tata guna lahan; jembatan menuju masalah spasial–dinamis', 'https://doi.org/10.1016/j.tranpol.2005.01.006')
+                ]
+              },
+              {
+                id: 'problem-hazard', name: '3 · Proteksi bahaya',
+                children: [
+                  source('burby-nature', 'Burby 1998', 'Burby, R. J. (ed.). Cooperating with Nature: Confronting Natural Hazards with Land-Use Planning for Sustainable Communities. Joseph Henry Press, 1998.', 'Proteksi bahaya melalui hazard assessment, land-use planning, dan resilience', 'https://doi.org/10.17226/5785'),
+                  source('godschalk-hazard', 'Godschalk et al. 1999', 'Godschalk, D. R., Beatley, T., Berke, P., Brower, D., & Kaiser, E. J. Natural Hazard Mitigation: Recasting Disaster Policy and Planning. Island Press, 1999.', 'Proteksi bahaya ↔ sistem kelembagaan mitigasi', 'https://islandpress.org/books/natural-hazard-mitigation')
+                ]
+              }
+            ]
+          },
+          {
+            id: 'quadrant-spatial', name: 'Q3 · Spasial–dinamis', group: 2,
+            summary: 'Masalah material–spasial dengan umpan balik, perubahan penggunaan lahan, path dependence, dan lock-in.',
+            children: [
+              {
+                id: 'spatial-quadrant-shared', name: 'Bacaan bersama kuadran',
+                children: [
+                  source('kaiser-family-tree', 'Kaiser & Godschalk 1995', 'Kaiser, E. J., & Godschalk, D. R. “Twentieth Century Land Use Planning: A Stalwart Family Tree.” JAPA 61(3), 365–385, 1995.', 'Lahan/perumahan · bentuk kota · integrasi desain, kebijakan, dan manajemen', 'https://doi.org/10.1080/01944369508975648'),
+                  source('batty-spatial', 'Batty 2013', 'Batty, M. The New Science of Cities. MIT Press, 2013.', 'Bentuk kota · jaringan · aliran · dinamika pertumbuhan', 'https://mitpress.mit.edu/9780262534567/the-new-science-of-cities/')
+                ]
+              },
+              {
+                id: 'problem-land-housing', name: '4 · Lahan dan perumahan',
+                children: [
+                  source('talen-city-rules', 'Talen 2012', 'Talen, E. City Rules: How Regulations Affect Urban Form. Island Press, 2012.', 'Lahan/perumahan ↔ bentuk kota ↔ regulasi; contoh bacaan lintas-kuadran', 'https://islandpress.org/books/city-rules')
+                ]
+              },
+              {
+                id: 'problem-form-lockin', name: '5 · Bentuk kota dan lock-in',
+                children: [
+                  source('lynch-form', 'Lynch 1981/1984', 'Lynch, K. A Theory of Good City Form (1981); paperback as Good City Form. MIT Press, 1984.', 'Bentuk kota; kriteria normatif dan evaluasi performa spasial', 'https://mitpress.mit.edu/9780262620468/good-city-form/')
+                ]
+              },
+              {
+                id: 'problem-ecology-climate', name: '6 · Ekologi dan iklim',
+                children: [
+                  source('mcharg-ecology', 'McHarg 1969', 'McHarg, I. L. Design with Nature. Natural History Press, 1969; 25th anniversary ed., Wiley, 1995.', 'Ecological planning dan suitability analysis', 'https://www.wiley.com/en-us/Design+with+Nature%2C+25th+Anniversary+Edition-p-9780471114604'),
+                  source('wheeler-climate', 'Wheeler 2008', 'Wheeler, S. M. “State and Municipal Climate Change Plans: The First Generation.” JAPA 74(4), 481–496, 2008.', 'Climate planning; isi, target, dan kapasitas rencana subnasional', 'https://doi.org/10.1080/01944360802377973')
+                ]
+              }
+            ]
+          },
+          {
+            id: 'quadrant-instrumental', name: 'Q2 · Instrumental–institusional', group: 3,
+            summary: 'Masalah implementasi: bagaimana rencana menjadi operasi, insentif, aturan, keputusan, dan hasil.',
+            children: [
+              {
+                id: 'instrumental-quadrant-shared', name: 'Bacaan bersama kuadran',
+                children: [
+                  source('alexander-implementation', 'Alexander & Faludi 1989', 'Alexander, E. R., & Faludi, A. “Planning and Plan Implementation: Notes on Evaluation Criteria.” Environment and Planning B 16(2), 127–140, 1989.', 'Operasi pelayanan · fiskal/instrumen · regulasi; evaluasi planning di bawah ketidakpastian', 'https://doi.org/10.1068/b160127'),
+                  source('mastop-performance', 'Mastop & Faludi 1997', 'Mastop, H., & Faludi, A. “Evaluation of Strategic Plans: The Performance Principle.” Environment and Planning B 24(6), 815–832, 1997.', 'Operasi · implementasi · evaluasi performa rencana strategis', 'https://doi.org/10.1068/b240815')
+                ]
+              },
+              {
+                id: 'problem-service-operations', name: '7 · Operasi pelayanan',
+                children: [
+                  source('hoch-planners', 'Hoch 1994', 'Hoch, C. What Planners Do: Power, Politics, and Persuasion. Planners Press, 1994.', 'Operasi pelayanan dan praktik planner di dalam organisasi nyata', 'https://openlibrary.org/books/OL1441835M/What_planners_do'),
+                  source('berke-implementation', 'Berke et al. 2006 · implementasi', 'Berke, P., Backhurst, M., Day, M., Ericksen, N., Laurian, L., Crawford, J., & Dixon, J. “What Makes Plan Implementation Successful? An Evaluation of Local Plans and Implementation Practices in New Zealand.” Environment and Planning B 33(4), 581–600, 2006.', 'Operasi pelayanan; hubungan kualitas rencana, praktik, dan implementasi', 'https://doi.org/10.1068/b31166')
+                ]
+              },
+              {
+                id: 'problem-fiscal', name: '8 · Fiskal dan insentif',
+                children: [
+                  source('ingram-value-capture', 'Ingram & Hong 2012', 'Ingram, G. K., & Hong, Y.-H. (eds.). Value Capture and Land Policies. Lincoln Institute of Land Policy, 2012.', 'Fiskal/insentif ↔ infrastruktur ↔ land policy', 'https://www.lincolninst.edu/publications/books/value-capture-land-policies/')
+                ]
+              },
+              {
+                id: 'problem-regulation', name: '9 · Regulasi dan penegakan',
+                children: [
+                  source('babcock-zoning', 'Babcock 1966', 'Babcock, R. F. The Zoning Game: Municipal Practices and Policies. University of Wisconsin Press, 1966.', 'Regulasi, administrasi zoning, kepentingan lokal, dan konflik regional', 'https://books.google.com/books/about/The_Zoning_Game.html?id=36ZBAAAAIAAJ'),
+                  source('talen-regulation', 'Talen 2012 · aturan kota', 'Talen, E. City Rules: How Regulations Affect Urban Form. Island Press, 2012.', 'Regulasi ↔ bentuk kota; konsekuensi spasial dari code dan zoning', 'https://islandpress.org/books/city-rules')
+                ]
+              }
+            ]
+          },
+          {
+            id: 'quadrant-political', name: 'Q4 · Politik–adaptif', group: 4,
+            summary: 'Masalah dengan konflik nilai, kuasa terdistribusi, legitimasi, ketidakpastian, dan kebutuhan pembelajaran kolektif.',
+            children: [
+              {
+                id: 'political-quadrant-shared', name: 'Bacaan bersama kuadran',
+                children: [
+                  source('healey-collaborative-problem', 'Healey 1997/2006', 'Healey, P. Collaborative Planning: Shaping Places in Fragmented Societies, 2nd ed. Palgrave Macmillan, 2006; first ed. 1997.', 'Governance · legitimasi · ekonomi lokal · lingkungan · strategi', 'https://www.bloomsbury.com/us/collaborative-planning-9781403949196/'),
+                  source('innes-booher-book', 'Innes & Booher 2010/2018', 'Innes, J. E., & Booher, D. E. Planning with Complexity: An Introduction to Collaborative Rationality for Public Policy, 2nd ed. Routledge, 2018.', 'Governance · behavior/legitimacy · knowledge/learning', 'https://www.routledge.com/Planning-with-Complexity-An-Introduction-to-Collaborative-Rationality-for-Public-Policy/Innes-Booher/p/book/9781315147949')
+                ]
+              },
+              {
+                id: 'problem-economy', name: '10 · Ekonomi dan aglomerasi',
+                children: [
+                  source('fainstein-builders', 'Fainstein 2001', 'Fainstein, S. S. The City Builders: Property Development in New York and London, 1980–2000, 2nd ed. University Press of Kansas, 2001.', 'Ekonomi pembangunan kota, properti, investasi, dan peran kebijakan publik', 'https://kansaspress.ku.edu/9780700611331/'),
+                  source('sager-neoliberal', 'Sager 2011', 'Sager, T. “Neo-liberal Urban Planning Policies: A Literature Survey 1990–2010.” Progress in Planning 76(4), 147–199, 2011.', 'Ekonomi politik planning dan instrumen neoliberal', 'https://doi.org/10.1016/j.progress.2011.09.001')
+                ]
+              },
+              {
+                id: 'problem-governance', name: '11 · Governance dan skala',
+                children: [
+                  source('albrechts-governance', 'Albrechts et al. 2003', 'Albrechts, L., Healey, P., & Kunzmann, K. R. “Strategic Spatial Planning and Regional Governance in Europe.” JAPA 69(2), 113–129, 2003.', 'Governance, strategi, dan koordinasi skala regional', 'https://doi.org/10.1080/01944360308976301')
+                ]
+              },
+              {
+                id: 'problem-equity', name: '12 · Equity dan displacement',
+                children: [
+                  source('krumholz-forester', 'Krumholz & Forester 1990', 'Krumholz, N., & Forester, J. Making Equity Planning Work: Leadership in the Public Sector. Temple University Press, 1990.', 'Equity planning, kepemimpinan publik, dan redistribusi manfaat urban', 'https://tupress.temple.edu/books/making-equity-planning-work'),
+                  source('fainstein-justice-problem', 'Fainstein 2010', 'Fainstein, S. S. The Just City. Cornell University Press, 2010.', 'Equity · democracy · diversity; kriteria normatif untuk kebijakan urban', 'https://cornellpress.cornell.edu/book/9780801476907/the-just-city/')
+                ]
+              },
+              {
+                id: 'problem-legitimacy', name: '13 · Perilaku dan legitimasi',
+                children: [
+                  source('arnstein-ladder', 'Arnstein 1969', 'Arnstein, S. R. “A Ladder of Citizen Participation.” Journal of the American Institute of Planners 35(4), 216–224, 1969.', 'Legitimasi dan partisipasi melalui distribusi kuasa keputusan', 'https://doi.org/10.1080/01944366908977225'),
+                  source('forester-deliberative-problem', 'Forester 1999', 'Forester, J. The Deliberative Practitioner: Encouraging Participatory Planning Processes. MIT Press, 1999.', 'Perilaku, konflik, deliberasi, legitimasi, dan praktik partisipatif', 'https://mitpress.mit.edu/9780262062077/the-deliberative-practitioner/')
+                ]
+              },
+              {
+                id: 'problem-learning', name: '14 · Pengetahuan dan pembelajaran',
+                children: [
+                  source('friedmann-learning-problem', 'Friedmann 1981', 'Friedmann, J. Planning as Social Learning. UCLA Working Paper 343, 1981.', 'Pengetahuan ↔ tindakan melalui social learning', 'https://escholarship.org/uc/item/0q47v754'),
+                  source('innes-complex-adaptive-problem', 'Innes & Booher 1999', 'Innes, J. E., & Booher, D. E. “Consensus Building and Complex Adaptive Systems.” JAPA 65(4), 412–423, 1999.', 'Pembelajaran, eksperimen, perubahan, dan shared meaning dalam sistem adaptif', 'https://doi.org/10.1080/01944369908976071')
+                ]
+              }
+            ]
+          }
+        ]
+      };
+
+      /*
+       * Korpus perluasan. Sumber-sumber ini sengaja disimpan sebagai penempatan
+       * pada cabang terkecil agar setiap mazhab dan masalah tetap kaya ketika
+       * dizoom. Mode ringkas menyembunyikannya; mode lengkap menampilkannya.
+       * Pemilihan mengutamakan literatur yang lahir di dalam planning atau telah
+       * menjadi kanon internal planning, bukan daftar sekunder dari disiplin donor.
+       */
+      const schoolSourceSupplement = [
+        { targetId: 'school-rational', sources: [
+          source('rational-alexander-2000', 'Alexander 2000', 'Alexander, E. R. “Rationality Revisited: Planning Paradigms in a Post-Postmodernist Perspective.” Journal of Planning Education and Research 19(3), 242–256, 2000.', 'Rasionalitas prosedural dan kritik postmodern terhadap paradigma rational planning', 'https://doi.org/10.1177/0739456X0001900303', 'tambahan'),
+          source('rational-meyerson-banfield', 'Meyerson & Banfield 1955', 'Meyerson, M., & Banfield, E. C. Politics, Planning, and the Public Interest: The Case of Public Housing in Chicago. Free Press, 1955.', 'Relasi analisis rasional, kepentingan publik, keputusan, dan politik implementasi', 'https://www.planning.org/library/greatbooks/decade5.htm', 'tambahan'),
+          source('rational-mcloughlin', 'McLoughlin 1969', 'McLoughlin, J. B. Urban and Regional Planning: A Systems Approach. Faber, 1969.', 'Model sistem, tujuan, alternatif, evaluasi, dan umpan balik dalam plan-making', 'https://books.google.com/books/about/Urban_and_Regional_Planning.html?id=hS_ozQEACAAJ', 'tambahan'),
+          source('rational-friend-jessop', 'Friend & Jessop 1969', 'Friend, J. K., & Jessop, W. N. Local Government and Strategic Choice: An Operational Research Approach to the Processes of Public Planning. Tavistock, 1969.', 'Strategic choice di bawah ketidakpastian dan keterkaitan keputusan pemerintah lokal', 'https://www.routledge.com/Local-Government-and-Strategic-Choice-Routledge-Revivals-An-Operational/Friend-Jessop/p/book/9780415658980', 'tambahan'),
+          source('rational-alexander-1984', 'Alexander 1984', 'Alexander, E. R. “After Rationality, What? A Review of Responses to Paradigm Breakdown.” Journal of the American Planning Association 50(1), 62–69, 1984.', 'Kritik internal dan pilihan contingent planning setelah runtuhnya paradigma rasional tunggal', 'https://doi.org/10.1080/01944368408976582', 'tambahan')
+        ]},
+        { targetId: 'school-science', sources: [
+          source('science-batty-2005', 'Batty 2005', 'Batty, M. Cities and Complexity: Understanding Cities with Cellular Automata, Agent-Based Models, and Fractals. MIT Press, 2005.', 'Pemodelan kota, cellular automata, agent-based models, dan fractal form', 'https://mitpress.mit.edu/9780262025836/cities-and-complexity/', 'tambahan'),
+          source('science-wegener-1994', 'Wegener 1994', 'Wegener, M. “Operational Urban Models: State of the Art.” Journal of the American Planning Association 60(1), 17–29, 1994.', 'Evaluasi tradisi integrated urban modelling untuk riset dan analisis kebijakan metropolitan', 'https://doi.org/10.1080/01944369408975547', 'tambahan'),
+          source('science-klosterman-1997', 'Klosterman 1997', 'Klosterman, R. E. “Planning Support Systems: A New Perspective on Computer-Aided Planning.” Journal of Planning Education and Research 17(1), 45–54, 1997.', 'Planning support systems sebagai intelijensi kolektif, bukan sekadar otomasi analisis', 'https://doi.org/10.1177/0739456X9701700105', 'tambahan'),
+          source('science-geertman-stillwell', 'Geertman & Stillwell 2004', 'Geertman, S., & Stillwell, J. “Planning Support Systems: An Inventory of Current Practice.” Computers, Environment and Urban Systems 28(4), 291–310, 2004.', 'Inventaris praktik PSS: diagnosis, analisis spasial-temporal, skenario, evaluasi, dan partisipasi', 'https://doi.org/10.1016/S0198-9715(03)00024-3', 'tambahan'),
+          source('science-klosterman-whatif', 'Klosterman 1999 · What if?', 'Klosterman, R. E. “The What If? Collaborative Planning Support System.” Environment and Planning B 26(3), 393–408, 1999.', 'PSS berbasis skenario yang menghubungkan suitability, proyeksi, kebijakan, dan keputusan kolaboratif', 'https://doi.org/10.1068/b260393', 'tambahan')
+        ]},
+        { targetId: 'school-design', sources: [
+          source('design-lynch-hack', 'Lynch & Hack 1984', 'Lynch, K., & Hack, G. Site Planning, 3rd ed. MIT Press, 1984.', 'Proses site planning, programming, analisis pengguna, alternatif desain, biaya, dan dampak', 'https://mitpress.mit.edu/9780262121064/site-planning/', 'tambahan'),
+          source('design-steiner', 'Steiner 2008', 'Steiner, F. R. The Living Landscape: An Ecological Approach to Landscape Planning, 2nd ed. Island Press, 2008.', 'Metode ecological planning yang menghubungkan analisis bentang alam dan keputusan desain', 'https://islandpress.org/books/living-landscape-second-edition', 'tambahan'),
+          source('design-marshall', 'Marshall 2009', 'Marshall, S. Cities Design and Evolution. Routledge, 2009.', 'Relasi desain yang disengaja, emergent order, morfologi, dan evolusi kota', 'https://www.routledge.com/Cities-Design-and-Evolution/Marshall/p/book/9780415423298', 'tambahan'),
+          source('design-talen', 'Talen 2012', 'Talen, E. City Rules: How Regulations Affect Urban Form. Island Press, 2012.', 'Bagaimana code dan regulasi menjadi instrumen desain bentuk kota', 'https://islandpress.org/books/city-rules', 'tambahan')
+        ]},
+        { targetId: 'school-strategic', sources: [
+          source('strategic-healey-2009', 'Healey 2009', 'Healey, P. “In Search of the ‘Strategic’ in Spatial Strategy Making.” Planning Theory & Practice 10(4), 439–457, 2009.', 'Apa yang membuat strategy-making benar-benar mengubah perhatian dan lintasan intervensi', 'https://doi.org/10.1080/14649350903417191', 'tambahan'),
+          source('strategic-healey-etal-1997', 'Healey et al. 1997', 'Healey, P., Khakee, A., Motte, A., & Needham, B. (eds.). Making Strategic Spatial Plans: Innovation in Europe. UCL Press, 1997.', 'Institusi, agenda, metode, dan kapasitas dalam strategic spatial plan-making', 'https://www.routledge.com/Making-Strategic-Spatial-Plans/Healey/p/book/9781857286649', 'tambahan'),
+          source('strategic-albrechts-2006', 'Albrechts 2006', 'Albrechts, L. “Shifts in Strategic Spatial Planning? Some Evidence from Europe and Australia.” Environment and Planning A 38(6), 1149–1170, 2006.', 'Perubahan orientasi strategic spatial planning dan bukti praktik lintas-konteks', 'https://doi.org/10.1068/a37304', 'tambahan'),
+          source('strategic-albrechts-balducci', 'Albrechts & Balducci 2013', 'Albrechts, L., & Balducci, A. “Practicing Strategic Planning: In Search of Critical Features to Explain the Strategic Character of Plans.” disP 49(3), 16–27, 2013.', 'Kriteria untuk membedakan rencana strategis dari label strategis semata', 'https://doi.org/10.1080/02513625.2013.859001', 'tambahan'),
+          source('strategic-hopkins-zapata', 'Hopkins & Zapata 2007', 'Hopkins, L. D., & Zapata, M. A. (eds.). Engaging the Future: Forecasts, Scenarios, Plans, and Projects. Lincoln Institute of Land Policy, 2007.', 'Toolkit representasi masa depan dan hubungan forecasts, scenarios, plans, serta projects', 'https://www.lincolninst.edu/publications/books/engaging-future', 'tambahan')
+        ]},
+        { targetId: 'school-incremental', sources: [
+          source('incremental-healey-pragmatic', 'Healey 2009 · pragmatism', 'Healey, P. “The Pragmatic Tradition in Planning Thought.” Journal of Planning Education and Research 28(3), 277–292, 2009.', 'Genealogi pragmatisme, eksperimen, situated judgement, dan social learning dalam planning', 'https://doi.org/10.1177/0739456X08325175', 'tambahan'),
+          source('incremental-hoch-craft', 'Hoch 2009', 'Hoch, C. “Planning Craft: How Planners Compose Plans.” Planning Theory 8(3), 219–241, 2009.', 'Plan-making sebagai practical judgement melalui protocol, precedent, prototype, dan policy', 'https://doi.org/10.1177/1473095209105528', 'tambahan'),
+          source('incremental-hoch-evaluation', 'Hoch 2002', 'Hoch, C. J. “Evaluating Plans Pragmatically.” Planning Theory 1(1), 53–75, 2002.', 'Evaluasi pragmatis yang mempertahankan konteks dan kontinuitas antara analisis dan tindakan', 'https://doi.org/10.1177/147309520200100104', 'tambahan'),
+          source('incremental-forester-power', 'Forester 1989', 'Forester, J. Planning in the Face of Power. University of California Press, 1989.', 'Praktik iteratif di bawah konflik, organisasi, ketimpangan kuasa, dan negosiasi', 'https://www.ucpress.edu/book/9780520064133/planning-in-the-face-of-power', 'tambahan'),
+          source('incremental-forester-critical', 'Forester 2013', 'Forester, J. “On the Theory and Practice of Critical Pragmatism: Deliberative Practice and Creative Negotiations.” Planning Theory 12(1), 5–22, 2013.', 'Critical pragmatism, refleksi, deliberasi, dan creative negotiation', 'https://doi.org/10.1177/1473095212448750', 'tambahan')
+        ]},
+        { targetId: 'school-complexity', sources: [
+          source('complexity-batty-2005', 'Batty 2005', 'Batty, M. Cities and Complexity: Understanding Cities with Cellular Automata, Agent-Based Models, and Fractals. MIT Press, 2005.', 'Dinamika nonlinier, emergence, dan simulation sebagai basis urban complexity', 'https://mitpress.mit.edu/9780262025836/cities-and-complexity/', 'tambahan'),
+          source('complexity-innes-booher', 'Innes & Booher 1999', 'Innes, J. E., & Booher, D. E. “Consensus Building and Complex Adaptive Systems: A Framework for Evaluating Collaborative Planning.” JAPA 65(4), 412–423, 1999.', 'Hubungan complex adaptive systems, communicative rationality, dan evaluasi kolaborasi', 'https://doi.org/10.1080/01944369908976071', 'tambahan'),
+          source('complexity-deroo-silva', 'de Roo & Silva 2010', 'de Roo, G., & Silva, E. A. (eds.). A Planner’s Encounter with Complexity. Ashgate, 2010.', 'Implikasi uncertainty, nonlinearity, dan becoming bagi teori serta praktik planning', 'https://www.routledge.com/A-Planners-Encounter-with-Complexity/Silva-Roo/p/book/9781138272408', 'tambahan'),
+          source('complexity-portugali-etal', 'Portugali et al. 2012', 'Portugali, J., Meyer, H., Stolk, E., & Tan, E. (eds.). Complexity Theories of Cities Have Come of Age. Springer, 2012.', 'Pematangan teori kompleksitas kota dan konsekuensinya bagi desain serta planning', 'https://doi.org/10.1007/978-3-642-24544-2', 'tambahan'),
+          source('complexity-boelens-deroo', 'Boelens & de Roo 2016', 'Boelens, L., & de Roo, G. “Planning of Undefined Becoming: First Encounters of Planners Beyond the Plan.” Planning Theory 15(1), 42–67, 2016.', 'Planning yang situasional dan co-evolutionary ketika tujuan akhir tidak sepenuhnya diketahui', 'https://doi.org/10.1177/1473095214542631', 'tambahan')
+        ]},
+        { targetId: 'school-communicative', sources: [
+          source('communicative-healey-debate', 'Healey 1992', 'Healey, P. “Planning Through Debate: The Communicative Turn in Planning Theory.” Town Planning Review 63(2), 143–162, 1992.', 'Fondasi awal communicative turn melalui debate, knowledge, dan practical reasoning', 'https://doi.org/10.3828/tpr.63.2.422x602303814821', 'tambahan'),
+          source('communicative-healey-book', 'Healey 1997/2006', 'Healey, P. Collaborative Planning: Shaping Places in Fragmented Societies, 2nd ed. Palgrave Macmillan, 2006; first ed. 1997.', 'Kerangka institusional untuk collaborative place-shaping dalam masyarakat terfragmentasi', 'https://www.bloomsbury.com/us/collaborative-planning-9781403949196/', 'tambahan'),
+          source('communicative-innes-booher-2004', 'Innes & Booher 2004', 'Innes, J. E., & Booher, D. E. “Reframing Public Participation: Strategies for the 21st Century.” Planning Theory & Practice 5(4), 419–436, 2004.', 'Kritik ritual partisipasi dan desain dialog autentik, networks, serta institutional capacity', 'https://doi.org/10.1080/1464935042000293170', 'tambahan'),
+          source('communicative-huxley-yiftachel', 'Huxley & Yiftachel 2000', 'Huxley, M., & Yiftachel, O. “New Paradigm or Old Myopia? Unsettling the Communicative Turn in Planning Theory.” Journal of Planning Education and Research 19(4), 333–342, 2000.', 'Kritik terhadap blind spot kuasa, negara, dan ruang dalam communicative planning', 'https://doi.org/10.1177/0739456X0001900402', 'tambahan')
+        ]},
+        { targetId: 'school-transactive', sources: [
+          source('transactive-friedmann-public', 'Friedmann 1987', 'Friedmann, J. Planning in the Public Domain: From Knowledge to Action. Princeton University Press, 1987.', 'Sintesis tradisi policy analysis, social learning, social reform, dan social mobilization', 'https://www.jstor.org/stable/j.ctv10crf8d', 'tambahan'),
+          source('transactive-friedmann-abonyi', 'Friedmann & Abonyi 1976', 'Friedmann, J., & Abonyi, G. “Social Learning: A Model for Policy Research.” Environment and Planning A 8(8), 927–940, 1976.', 'Eksperimen sosial dan pembelajaran timbal balik sebagai alternatif transfer pengetahuan linear', 'https://doi.org/10.1068/a080927', 'tambahan'),
+          source('transactive-holden', 'Holden 2008', 'Holden, M. “Social Learning in Planning: Seattle’s Sustainable Development Codebooks.” Progress in Planning 69(1), 1–40, 2008.', 'Metode process-based untuk mengamati komunitas inkuiri dan adaptasi inovasi planning', 'https://doi.org/10.1016/j.progress.2007.12.001', 'tambahan'),
+          source('transactive-vonschonfeld', 'von Schönfeld et al. 2020', 'von Schönfeld, K. C., Tan, W., Wiekens, C., & Janssen-Jansen, L. “Unpacking Social Learning in Planning: Who Learns What from Whom?” Urban Research & Practice 13(4), 411–433, 2020; published online 2019.', 'Pemetaan aktor, isi, arah, dan kemungkinan hasil negatif dari social learning', 'https://doi.org/10.1080/17535069.2019.1576216', 'tambahan')
+        ]},
+        { targetId: 'school-advocacy', sources: [
+          source('advocacy-davidoff-reiner', 'Davidoff & Reiner 1962', 'Davidoff, P., & Reiner, T. A. “A Choice Theory of Planning.” Journal of the American Institute of Planners 28(2), 103–115, 1962.', 'Nilai dan pilihan sebagai unsur tak terhindarkan dalam seluruh urutan planning', 'https://doi.org/10.1080/01944366208979427', 'tambahan'),
+          source('advocacy-krumholz-forester', 'Krumholz & Forester 1990', 'Krumholz, N., & Forester, J. Making Equity Planning Work: Leadership in the Public Sector. Temple University Press, 1990.', 'Operasionalisasi equity planning, kepemimpinan publik, koalisi, dan implementasi', 'https://tupress.temple.edu/books/making-equity-planning-work', 'tambahan'),
+          source('advocacy-fainstein-2005', 'Fainstein 2005', 'Fainstein, S. S. “Planning Theory and the City.” Journal of Planning Education and Research 25(2), 121–130, 2005.', 'Menggeser evaluasi planning dari prosedur saja menuju hasil substantif yang adil', 'https://doi.org/10.1177/0739456X05279275', 'tambahan')
+        ]},
+        { targetId: 'school-radical', sources: [
+          source('radical-watson-2009', 'Watson 2009', 'Watson, V. “Seeing from the South: Refocusing Urban Planning on the Globe’s Central Urban Issues.” Urban Studies 46(11), 2259–2275, 2009.', 'Mendestabilisasi asumsi planning Global North melalui informality dan clash of rationalities', 'https://doi.org/10.1177/0042098009342598', 'tambahan'),
+          source('radical-yiftachel-1998', 'Yiftachel 1998', 'Yiftachel, O. “Planning and Social Control: Exploring the Dark Side.” Journal of Planning Literature 12(4), 395–406, 1998.', 'Planning sebagai kontrol sosial, territorial ordering, dan reproduksi relasi dominasi', 'https://doi.org/10.1177/088541229801200401', 'tambahan'),
+          source('radical-porter-2010', 'Porter 2010', 'Porter, L. Unlearning the Colonial Cultures of Planning. Ashgate, 2010.', 'Genealogi kolonial planning dan agenda unlearning privilege dalam praktik kontemporer', 'https://www.routledge.com/Unlearning-the-Colonial-Cultures-of-Planning/Porter/p/book/9781138253049', 'tambahan'),
+          source('radical-sandercock-1998', 'Sandercock 1998', 'Sandercock, L. Towards Cosmopolis: Planning for Multicultural Cities. Wiley, 1998.', 'Pluralitas, difference, migration, storytelling, dan kritik modernist planning', 'https://openlibrary.org/books/OL684248M/Towards_cosmopolis', 'tambahan')
+        ]}
+      ];
+
+      const problemSourceSupplement = [
+        { targetId: 'problem-infrastructure', sources: [
+          source('infra-neuman-smith', 'Neuman & Smith 2010', 'Neuman, M., & Smith, S. “City Planning and Infrastructure: Once and Future Partners.” Journal of Planning History 9(1), 21–42, 2010.', 'Sejarah hubungan planning, public works, capital facilities, dan pembentukan tempat', 'https://doi.org/10.1177/1538513209355373', 'tambahan'),
+          source('infra-neuman-2006', 'Neuman 2006', 'Neuman, M. “Infiltrating Infrastructures: On the Nature of Networked Infrastructure.” Journal of Urban Technology 13(1), 3–31, 2006.', 'Infrastruktur sebagai jaringan sosio-material dan medium perkembangan kota', 'https://doi.org/10.1080/10630730600752728', 'tambahan'),
+          source('infra-malekpour', 'Malekpour et al. 2015', 'Malekpour, S., Brown, R. R., & de Haan, F. J. “Strategic Planning of Urban Infrastructure for Environmental Sustainability: Understanding the Past to Intervene for the Future.” Cities 46, 67–75, 2015.', 'Path dependence paradigma infrastructure planning dan transisi menuju sustainability', 'https://doi.org/10.1016/j.cities.2015.05.003', 'tambahan'),
+          source('infra-monstadt', 'Monstadt 2009', 'Monstadt, J. “Conceptualizing the Political Ecology of Urban Infrastructures: Insights from Technology and Urban Studies.” Environment and Planning A 41(8), 1924–1942, 2009.', 'Urban infrastructure regimes, governance jaringan, dan relasi teknologi–institusi–lingkungan', 'https://doi.org/10.1068/a4145', 'tambahan'),
+          source('infra-heeres', 'Heeres et al. 2016', 'Heeres, N., Tillema, T., & Arts, J. “Dealing with Interrelatedness and Fragmentation in Road Infrastructure Planning: An Analysis of Integrated Approaches Throughout the Planning Process in the Netherlands.” Planning Theory & Practice 17(3), 421–443, 2016.', 'Integrasi land use–infrastructure sepanjang tahapan strategi dan implementasi', 'https://doi.org/10.1080/14649357.2016.1193888', 'tambahan')
+        ]},
+        { targetId: 'problem-mobility', sources: [
+          source('mobility-ewing-cervero', 'Ewing & Cervero 2010', 'Ewing, R., & Cervero, R. “Travel and the Built Environment: A Meta-Analysis.” Journal of the American Planning Association 76(3), 265–294, 2010.', 'Sintesis kuantitatif hubungan bentuk terbangun dan perjalanan', 'https://doi.org/10.1080/01944361003766766', 'tambahan'),
+          source('mobility-banister', 'Banister 2008', 'Banister, D. “The Sustainable Mobility Paradigm.” Transport Policy 15(2), 73–80, 2008.', 'Pergeseran dari prediksi–penyediaan kapasitas menuju aksesibilitas dan mobilitas berkelanjutan', 'https://doi.org/10.1016/j.tranpol.2007.10.005', 'tambahan'),
+          source('mobility-levine-2012', 'Levine et al. 2012', 'Levine, J., Grengs, J., Shen, Q., & Shen, Q. “Does Accessibility Require Density or Speed?” Journal of the American Planning Association 78(2), 157–172, 2012.', 'Trade-off speed–proximity dan accessibility sebagai sasaran planning', 'https://doi.org/10.1080/01944363.2012.677119', 'tambahan'),
+          source('mobility-levine-book', 'Levine et al. 2019', 'Levine, J., Grengs, J., & Merlin, L. A. From Mobility to Accessibility: Transforming Urban Transportation and Land-Use Planning. Cornell University Press, 2019.', 'Transformasi metrik, institusi, dan praktik dari mobility menuju accessibility', 'https://www.cornellpress.cornell.edu/book/9781501716096/from-mobility-to-accessibility/', 'tambahan')
+        ]},
+        { targetId: 'problem-hazard', sources: [
+          source('hazard-schwab', 'Schwab et al. 1998', 'Schwab, J., Topping, K., Eadie, C., Deyle, R., & Smith, R. Planning for Post-Disaster Recovery and Reconstruction. PAS Report 483/484. American Planning Association, 1998.', 'Panduan all-hazards untuk mitigation, recovery policy, reconstruction, dan model ordinance', 'https://www.planning.org/publications/report/9026831/', 'tambahan'),
+          source('hazard-freitag', 'Freitag et al. 2014', 'Freitag, R. C., Abramson, D. B., Chalana, M., & Dixon, M. “Whole Community Resilience: An Asset-Based Approach to Enhancing Adaptive Capacity Before a Disruption.” Journal of the American Planning Association 80(4), 324–335, 2014.', 'Asset-based planning untuk adaptive capacity sebelum gangguan', 'https://doi.org/10.1080/01944363.2014.990480', 'tambahan'),
+          source('hazard-berke-recovery', 'Berke et al. 2014', 'Berke, P. R., Cooper, J., Aminto, M., Grabich, S., & Horney, J. “Adaptive Planning for Disaster Recovery and Resiliency: An Evaluation of 87 Local Recovery Plans in Eight States.” Journal of the American Planning Association 80(4), 310–323, 2014.', 'Evaluasi 87 recovery plans dan kemampuan adaptif untuk resiliency', 'https://doi.org/10.1080/01944363.2014.976585', 'tambahan'),
+          source('hazard-do-planners-matter', 'Lyles et al. 2014 · planners', 'Lyles, W., Berke, P., & Smith, G. “Do Planners Matter? Examining Factors Driving Incorporation of Land Use Approaches into Hazard Mitigation Plans.” Journal of Environmental Planning and Management 57(5), 792–811, 2014.', 'Pengaruh keterlibatan planner terhadap kualitas kebijakan land-use mitigation', 'https://doi.org/10.1080/09640568.2013.768973', 'tambahan')
+        ]},
+        { targetId: 'problem-land-housing', sources: [
+          source('land-berke', 'Berke et al. 2006', 'Berke, P. R., Godschalk, D. R., Kaiser, E. J., & Rodriguez, D. A. Urban Land Use Planning, 5th ed. University of Illinois Press, 2006.', 'Proses komprehensif land-use plan-making, suitability, policy, dan implementation', 'https://www.press.uillinois.edu/books/?id=c030796', 'tambahan'),
+          source('land-pendall', 'Pendall 2000', 'Pendall, R. “Local Land Use Regulation and the Chain of Exclusion.” Journal of the American Planning Association 66(2), 125–142, 2000.', 'Hubungan kontrol penggunaan lahan, supply rental housing, dan eksklusi rasial', 'https://doi.org/10.1080/01944360008976094', 'tambahan'),
+          source('land-whittemore', 'Whittemore 2021', 'Whittemore, A. H. “Exclusionary Zoning: Origins, Open Suburbs, and Contemporary Debates.” Journal of the American Planning Association 87(2), 167–180, 2021.', 'Sejarah dan mekanisme exclusionary zoning dalam housing access', 'https://doi.org/10.1080/01944363.2020.1828146', 'tambahan'),
+          source('land-manville', 'Manville et al. 2020', 'Manville, M., Monkkonen, P., & Lens, M. “It’s Time to End Single-Family Zoning.” Journal of the American Planning Association 86(1), 106–112, 2020.', 'Kritik efisiensi, equity, dan sustainability terhadap R1 zoning', 'https://doi.org/10.1080/01944363.2019.1651216', 'tambahan'),
+          source('land-wegmann', 'Wegmann 2020', 'Wegmann, J. “Death to Single-Family Zoning … and New Life to the Missing Middle.” Journal of the American Planning Association 86(1), 113–119, 2020.', 'Reform zoning dan missing-middle housing sebagai alternatif density yang implementable', 'https://doi.org/10.1080/01944363.2019.1651217', 'tambahan'),
+          source('land-affordable-reader', 'Mueller & Tighe 2022', 'Mueller, E. J., & Tighe, J. R. (eds.). The Affordable Housing Reader, 2nd ed. Routledge, 2022.', 'Reader kebijakan perumahan: affordability, tenure, racial exclusion, provision, security, dan fair housing', 'https://www.routledge.com/The-Affordable-Housing-Reader/Mueller-Tighe/p/book/9780367280475', 'tambahan'),
+          source('land-stone-affordability', 'Stone 2006', 'Stone, M. E. “What Is Housing Affordability? The Case for the Residual Income Approach.” Housing Policy Debate 17(1), 151–184, 2006.', 'Alternatif residual-income terhadap ukuran affordability berbasis rasio harga atau sewa–pendapatan', 'https://doi.org/10.1080/10511482.2006.9521564', 'tambahan'),
+          source('land-been-supply', 'Been et al. 2019', 'Been, V., Ellen, I. G., & O’Regan, K. “Supply Skepticism: Housing Supply and Affordability.” Housing Policy Debate 29(1), 25–40, 2019.', 'Telaah berimbang atas mekanisme supply, filtering, affordability, dan kebutuhan intervensi publik', 'https://doi.org/10.1080/10511482.2018.1476899', 'tambahan')
+        ]},
+        { targetId: 'problem-form-lockin', sources: [
+          source('form-lynch-hack', 'Lynch & Hack 1984', 'Lynch, K., & Hack, G. Site Planning, 3rd ed. MIT Press, 1984.', 'Susunan tapak, program, user analysis, alternatives, dan evaluasi physical environment', 'https://mitpress.mit.edu/9780262121064/site-planning/', 'tambahan'),
+          source('form-talen', 'Talen 2012', 'Talen, E. City Rules: How Regulations Affect Urban Form. Island Press, 2012.', 'Path dependence bentuk kota yang dimediasi oleh code dan zoning', 'https://islandpress.org/books/city-rules', 'tambahan'),
+          source('form-marshall', 'Marshall 2009', 'Marshall, S. Cities Design and Evolution. Routledge, 2009.', 'Interaksi desain, emergence, urban order, dan perubahan morfologi', 'https://www.routledge.com/Cities-Design-and-Evolution/Marshall/p/book/9780415423298', 'tambahan'),
+          source('form-ewing-cervero', 'Ewing & Cervero 2010', 'Ewing, R., & Cervero, R. “Travel and the Built Environment: A Meta-Analysis.” Journal of the American Planning Association 76(3), 265–294, 2010.', 'Konsekuensi performatif density, diversity, design, destination, dan distance to transit', 'https://doi.org/10.1080/01944361003766766', 'tambahan'),
+          source('form-stewart-hack', 'Hack 2018', 'Hack, G. Site Planning: International Practice. MIT Press, 2018.', 'Site planning kontemporer, sustainability, infrastructure, context, dan prototipe global', 'https://mitpress.mit.edu/9780262534857/site-planning/', 'tambahan'),
+          source('form-neuman-compact', 'Neuman 2005', 'Neuman, M. “The Compact City Fallacy.” Journal of Planning Education and Research 25(1), 11–26, 2005.', 'Kritik hubungan linear antara compactness, sustainability, process, dan performa bentuk kota', 'https://doi.org/10.1177/0739456X04270466', 'tambahan'),
+          source('form-sorensen-path', 'Sorensen 2015', 'Sorensen, A. “Taking Path Dependence Seriously: An Historical Institutionalist Research Agenda in Planning History.” Planning Perspectives 30(1), 17–38, 2015.', 'Mekanisme increasing returns, critical junctures, sequencing, dan institutional lock-in dalam perubahan urban', 'https://doi.org/10.1080/02665433.2013.874299', 'tambahan')
+        ]},
+        { targetId: 'problem-ecology-climate', sources: [
+          source('ecology-campbell', 'Campbell 1996', 'Campbell, S. “Green Cities, Growing Cities, Just Cities?: Urban Planning and the Contradictions of Sustainable Development.” Journal of the American Planning Association 62(3), 296–312, 1996.', 'Kontradiksi growth, environment, dan equity dalam sustainable planning', 'https://doi.org/10.1080/01944369608975696', 'tambahan'),
+          source('ecology-berke-conroy', 'Berke & Conroy 2000', 'Berke, P. R., & Conroy, M. M. “Are We Planning for Sustainable Development?” Journal of the American Planning Association 66(1), 21–33, 2000.', 'Operasionalisasi prinsip sustainability dan evaluasi isi comprehensive plans', 'https://doi.org/10.1080/01944360008976081', 'tambahan'),
+          source('ecology-davoudi', 'Davoudi et al. 2012', 'Davoudi, S., Shaw, K., Haider, L. J., et al. “Resilience: A Bridging Concept or a Dead End?” Planning Theory & Practice 13(2), 299–333, 2012.', 'Debat kritis resilience, transformasi, power, dan konsekuensi bagi planning', 'https://doi.org/10.1080/14649357.2012.677124', 'tambahan'),
+          source('ecology-steiner', 'Steiner 2008', 'Steiner, F. R. The Living Landscape: An Ecological Approach to Landscape Planning, 2nd ed. Island Press, 2008.', 'Metode ekologis untuk menghubungkan sistem alam, suitability, dan bentuk intervensi', 'https://islandpress.org/books/living-landscape-second-edition', 'tambahan'),
+          source('ecology-bassett-shandas', 'Bassett & Shandas 2010', 'Bassett, E., & Shandas, V. “Innovation and Climate Action Planning: Perspectives From Municipal Plans.” Journal of the American Planning Association 76(4), 435–450, 2010.', 'Analisis isi dan proses climate action plans, drivers, hambatan, serta variasi implementabilitas', 'https://doi.org/10.1080/01944363.2010.509703', 'tambahan')
+        ]},
+        { targetId: 'problem-service-operations', sources: [
+          source('operations-talen-1996', 'Talen 1996', 'Talen, E. “Do Plans Get Implemented? A Review of Evaluation in Planning.” Journal of Planning Literature 10(3), 248–259, 1996.', 'Review pendekatan untuk menilai hubungan rencana dan hasil implementasi', 'https://doi.org/10.1177/088541229601000302', 'tambahan'),
+          source('operations-laurian', 'Laurian et al. 2004', 'Laurian, L., Day, M., Backhurst, M., Berke, P., Ericksen, N., Crawford, J., Dixon, J., & Chapman, S. “What Drives Plan Implementation? Plans, Planning Agencies and Developers.” Journal of Environmental Planning and Management 47(4), 555–577, 2004.', 'Peran kualitas rencana, agency capacity, staff commitment, dan developer interaction', 'https://doi.org/10.1080/0964056042000243230', 'tambahan'),
+          source('operations-baer', 'Baer 1997', 'Baer, W. C. “General Plan Evaluation Criteria: An Approach to Making Better Plans.” Journal of the American Planning Association 63(3), 329–344, 1997.', 'Kriteria kualitas general plan untuk evaluasi sebelum dan selama penyusunan', 'https://doi.org/10.1080/01944369708975926', 'tambahan'),
+          source('operations-alexander-faludi', 'Alexander & Faludi 1989', 'Alexander, E. R., & Faludi, A. “Planning and Plan Implementation: Notes on Evaluation Criteria.” Environment and Planning B 16(2), 127–140, 1989.', 'Conformance, performance, dan kriteria evaluasi di bawah ketidakpastian', 'https://doi.org/10.1068/b160127', 'tambahan')
+        ]},
+        { targetId: 'problem-fiscal', sources: [
+          source('fiscal-smolka', 'Smolka 2013', 'Smolka, M. O. Implementing Value Capture in Latin America: Policies and Tools for Urban Development. Lincoln Institute of Land Policy, 2013.', 'Property taxation, betterment contributions, exactions, charges, dan public land', 'https://www.lincolninst.edu/publications/policy-focus-reports/implementing-value-capture-in-latin-america/', 'tambahan'),
+          source('fiscal-burchell-listokin', 'Burchell & Listokin 1978', 'Burchell, R. W., & Listokin, D. The Fiscal Impact Handbook: Estimating Local Costs and Revenues of Land Development. Center for Urban Policy Research, 1978.', 'Metode cost–revenue analysis dan keterbatasan fiscal impact assessment', 'https://www.planning.org/library/greatbooks/decade7.htm', 'tambahan'),
+          source('fiscal-edwards-huddleston', 'Edwards & Huddleston 2010', 'Edwards, M. M., & Huddleston, J. R. “Prospects and Perils of Fiscal Impact Analysis.” Journal of the American Planning Association 76(1), 25–41, 2010.', 'Praktik, sensitivitas asumsi, dan error dalam fiscal impact analysis', 'https://doi.org/10.1080/01944360903310477', 'tambahan'),
+          source('fiscal-barnebey', 'Barnebey et al. 1988', 'Barnebey, M. P., Macrostie, T., Schoennauer, G. J., Simpson, G. T., & Winters, J. “Paying for Growth: Community Approaches to Development Impact Fees.” JAPA 54(1), 18–28, 1988.', 'Desain dan administrasi impact fees untuk membiayai pertumbuhan', 'https://doi.org/10.1080/01944368808977149', 'tambahan'),
+          source('fiscal-huffman', 'Huffman et al. 1988', 'Huffman, F. E., Nelson, A. C., Smith, M. T., & Stegman, M. A. “Who Bears the Burden of Development Impact Fees?” JAPA 54(1), 49–55, 1988.', 'Distribusi beban impact fees antara landowner, developer, tenant, dan homebuyer', 'https://doi.org/10.1080/01944368808977152', 'tambahan')
+        ]},
+        { targetId: 'problem-regulation', sources: [
+          source('regulation-pendall', 'Pendall 2000', 'Pendall, R. “Local Land Use Regulation and the Chain of Exclusion.” Journal of the American Planning Association 66(2), 125–142, 2000.', 'Efek density controls, permit caps, dan instrumen lain terhadap housing serta segregasi', 'https://doi.org/10.1080/01944360008976094', 'tambahan'),
+          source('regulation-whittemore', 'Whittemore 2021', 'Whittemore, A. H. “Exclusionary Zoning: Origins, Open Suburbs, and Contemporary Debates.” Journal of the American Planning Association 87(2), 167–180, 2021.', 'Genealogi exclusionary zoning dan implikasi reformasi kontemporer', 'https://doi.org/10.1080/01944363.2020.1828146', 'tambahan'),
+          source('regulation-manville', 'Manville et al. 2020', 'Manville, M., Monkkonen, P., & Lens, M. “It’s Time to End Single-Family Zoning.” Journal of the American Planning Association 86(1), 106–112, 2020.', 'Evaluasi equity, efficiency, supply, dan environmental cost dari R1 zoning', 'https://doi.org/10.1080/01944363.2019.1651216', 'tambahan'),
+          source('regulation-calor-alterman', 'Calor & Alterman 2017', 'Calor, I., & Alterman, R. “When Enforcement Fails: Comparative Analysis of the Legal and Planning Responses to Non-Compliant Development in Two Advanced-Economy Countries.” International Journal of Law in the Built Environment 9(3), 207–239, 2017.', 'Kegagalan enforcement dan respons institusional terhadap pembangunan non-compliant', 'https://doi.org/10.1108/IJLBE-06-2017-0021', 'tambahan'),
+          source('regulation-burby-may', 'Burby & May 1997', 'Burby, R. J., & May, P. J. Making Governments Plan: State Experiments in Managing Land Use. Johns Hopkins University Press, 1997.', 'Desain mandat, kapasitas, kepatuhan, dan hasil growth-management lintas pemerintah', 'https://doi.org/10.56021/9780801856235', 'tambahan')
+        ]},
+        { targetId: 'problem-economy', sources: [
+          source('economy-fainstein-2005', 'Fainstein 2005', 'Fainstein, S. S. “Planning Theory and the City.” Journal of Planning Education and Research 25(2), 121–130, 2005.', 'Penilaian kebijakan urban melalui hasil distributif, demokrasi, dan equity', 'https://doi.org/10.1177/0739456X05279275', 'tambahan'),
+          source('economy-fainstein-just', 'Fainstein 2010', 'Fainstein, S. S. The Just City. Cornell University Press, 2010.', 'Kriteria democracy, diversity, dan equity untuk menilai development policy', 'https://cornellpress.cornell.edu/book/9780801476907/the-just-city/', 'tambahan'),
+          source('economy-flyvbjerg', 'Flyvbjerg 1998', 'Flyvbjerg, B. Rationality and Power: Democracy in Practice. University of Chicago Press, 1998.', 'Bagaimana rationality dan power membentuk keputusan pembangunan serta governance', 'https://press.uchicago.edu/ucp/books/book/chicago/R/bo3640330.html', 'tambahan'),
+          source('economy-campbell', 'Campbell 1996', 'Campbell, S. “Green Cities, Growing Cities, Just Cities?: Urban Planning and the Contradictions of Sustainable Development.” Journal of the American Planning Association 62(3), 296–312, 1996.', 'Konflik struktural antara growth, environmental protection, dan social justice', 'https://doi.org/10.1080/01944369608975696', 'tambahan'),
+          source('economy-leigh-2024', 'Leigh 2024', 'Leigh, N. G. Planning Local Economic Development: Theory and Practice, 7th ed. SAGE, 2024.', 'Teori pertumbuhan dan development, analisis ekonomi lokal, strategi, pembiayaan, implementasi, equity, dan sustainability', 'https://uk.sagepub.com/en-gb/eur/planning-local-economic-development/book278658', 'tambahan'),
+          source('economy-fitzgerald-leigh', 'Fitzgerald & Leigh 2002', 'Fitzgerald, J., & Leigh, N. G. Economic Revitalization: Cases and Strategies for City and Suburb. SAGE, 2002.', 'Strategi industrial retention, brownfield, workforce, property reuse, dan revitalisasi yang menggabungkan equity serta sustainability', 'https://uk.sagepub.com/en-gb/eur/economic-revitalization/book9426', 'tambahan'),
+          source('economy-wolf-powers', 'Wolf-Powers 2005', 'Wolf-Powers, L. “Up-Zoning New York City’s Mixed-Use Neighborhoods: Property-Led Economic Development and the Anatomy of a Planning Dilemma.” Journal of Planning Education and Research 24(4), 379–393, 2005.', 'Dilema antara property-led development, perlindungan basis industri, pekerjaan, dan perubahan zoning', 'https://doi.org/10.1177/0739456X04270125', 'tambahan'),
+          source('economy-dewar', 'Dewar 1998', 'Dewar, M. E. “Why State and Local Economic Development Programs Cause So Little Economic Development.” Economic Development Quarterly 12(1), 68–87, 1998.', 'Kritik desain program, targeting, additionality, dan evaluasi hasil economic development', 'https://doi.org/10.1177/089124249801200106', 'tambahan')
+        ]},
+        { targetId: 'problem-governance', sources: [
+          source('governance-healey-book', 'Healey 1997/2006', 'Healey, P. Collaborative Planning: Shaping Places in Fragmented Societies, 2nd ed. Palgrave Macmillan, 2006; first ed. 1997.', 'Institutional capacity dan place-shaping di dalam governance yang terfragmentasi', 'https://www.bloomsbury.com/us/collaborative-planning-9781403949196/', 'tambahan'),
+          source('governance-healey-2006', 'Healey 2006', 'Healey, P. “Transforming Governance: Challenges of Institutional Adaptation and a New Politics of Space.” European Planning Studies 14(3), 299–320, 2006.', 'Institutional adaptation, governance transformation, dan politik ruang', 'https://doi.org/10.1080/09654310500420792', 'tambahan'),
+          source('governance-faludi', 'Faludi 2012', 'Faludi, A. “Multi-Level (Territorial) Governance: Three Criticisms.” Planning Theory & Practice 13(2), 197–211, 2012.', 'Kritik territorialism, nested government, dan pengabaian aktor non-negara', 'https://doi.org/10.1080/14649357.2012.677578', 'tambahan'),
+          source('governance-allmendinger-haughton', 'Allmendinger & Haughton 2009', 'Allmendinger, P., & Haughton, G. “Soft Spaces, Fuzzy Boundaries, and Metagovernance: The New Spatial Planning in the Thames Gateway.” Environment and Planning A 41(3), 617–633, 2009.', 'Soft spaces dan fuzzy boundaries sebagai perangkat governance lintas-skala', 'https://doi.org/10.1068/a40208', 'tambahan'),
+          source('governance-haughton-etal', 'Haughton et al. 2010', 'Haughton, G., Allmendinger, P., Counsell, D., & Vigar, G. The New Spatial Planning: Territorial Management with Soft Spaces and Fuzzy Boundaries. Routledge, 2010.', 'Perubahan sistem spatial planning menuju territorial management dan metagovernance', 'https://www.routledge.com/The-New-Spatial-Planning-Territorial-Management-with-Soft-Spaces-and-Fuzzy/Haughton-Allmendinger-Counsell-Vigar/p/book/9780415483360', 'tambahan')
+        ]},
+        { targetId: 'problem-equity', sources: [
+          source('equity-davidoff', 'Davidoff 1965', 'Davidoff, P. “Advocacy and Pluralism in Planning.” Journal of the American Institute of Planners 31(4), 331–338, 1965.', 'Plural plans, representation kepentingan, dan tanggung jawab normatif planner', 'https://doi.org/10.1080/01944366508978187', 'tambahan'),
+          source('equity-zuk', 'Zuk et al. 2018', 'Zuk, M., Bierbaum, A. H., Chapple, K., Gorska, K., & Loukaitou-Sideris, A. “Gentrification, Displacement, and the Role of Public Investment.” Journal of Planning Literature 33(1), 31–44, 2018.', 'Membedakan gentrification dan displacement serta menilai peran investasi publik', 'https://doi.org/10.1177/0885412217716439', 'tambahan'),
+          source('equity-goetz-whiteness', 'Goetz et al. 2020', 'Goetz, E. G., Williams, R. A., & Damiano, A. “Whiteness and Urban Planning.” Journal of the American Planning Association 86(2), 142–156, 2020.', 'Struktur whiteness, affluence, segregation, dan konsekuensi bagi planning practice', 'https://doi.org/10.1080/01944363.2019.1693907', 'tambahan'),
+          source('equity-chapple-loukaitou', 'Chapple & Loukaitou-Sideris 2019', 'Chapple, K., & Loukaitou-Sideris, A. Transit-Oriented Displacement or Community Dividends? Understanding the Effects of Smarter Growth on Communities. MIT Press, 2019.', 'Risiko displacement dan perangkat stabilisasi komunitas di sekitar investasi transit', 'https://mitpress.mit.edu/9780262536851/transit-oriented-displacement-or-community-dividends/', 'tambahan')
+        ]},
+        { targetId: 'problem-legitimacy', sources: [
+          source('legitimacy-innes-booher', 'Innes & Booher 2004', 'Innes, J. E., & Booher, D. E. “Reframing Public Participation: Strategies for the 21st Century.” Planning Theory & Practice 5(4), 419–436, 2004.', 'Dialogue autentik, networks, dan institutional capacity sebagai syarat public engagement', 'https://doi.org/10.1080/1464935042000293170', 'tambahan'),
+          source('legitimacy-quick-feldman', 'Quick & Feldman 2011', 'Quick, K. S., & Feldman, M. S. “Distinguishing Participation and Inclusion.” Journal of Planning Education and Research 31(3), 272–290, 2011.', 'Membedakan input partisipatif dari pembentukan komunitas inklusif yang berkelanjutan', 'https://doi.org/10.1177/0739456X11410979', 'tambahan'),
+          source('legitimacy-legacy', 'Legacy 2017', 'Legacy, C. “Is There a Crisis of Participatory Planning?” Planning Theory 16(4), 425–442, 2017.', 'Kritik post-political atas consensus dan depolitisasi public participation', 'https://doi.org/10.1177/1473095216667433', 'tambahan'),
+          source('legitimacy-innes-1996', 'Innes 1996', 'Innes, J. E. “Planning Through Consensus Building: A New View of the Comprehensive Planning Ideal.” Journal of the American Planning Association 62(4), 460–472, 1996.', 'Consensus building sebagai reformulasi comprehensive planning dalam shared-power settings', 'https://doi.org/10.1080/01944369608975712', 'tambahan')
+        ]},
+        { targetId: 'problem-learning', sources: [
+          source('learning-friedmann-abonyi', 'Friedmann & Abonyi 1976', 'Friedmann, J., & Abonyi, G. “Social Learning: A Model for Policy Research.” Environment and Planning A 8(8), 927–940, 1976.', 'Eksperimen, lateral communication, dan penghubung knowledge–action', 'https://doi.org/10.1068/a080927', 'tambahan'),
+          source('learning-healey-debate', 'Healey 1992', 'Healey, P. “Planning Through Debate: The Communicative Turn in Planning Theory.” Town Planning Review 63(2), 143–162, 1992.', 'Knowledge formation melalui debate, intersubjectivity, dan practical reasoning', 'https://doi.org/10.3828/tpr.63.2.422x602303814821', 'tambahan'),
+          source('learning-holden', 'Holden 2008', 'Holden, M. “Social Learning in Planning: Seattle’s Sustainable Development Codebooks.” Progress in Planning 69(1), 1–40, 2008.', 'Operationalisasi social learning dan communities of inquiry di dalam innovation process', 'https://doi.org/10.1016/j.progress.2007.12.001', 'tambahan'),
+          source('learning-vonschonfeld', 'von Schönfeld et al. 2020', 'von Schönfeld, K. C., Tan, W., Wiekens, C., & Janssen-Jansen, L. “Unpacking Social Learning in Planning: Who Learns What from Whom?” Urban Research & Practice 13(4), 411–433, 2020; published online 2019.', 'Unit analisis individual, arah knowledge exchange, dan hasil learning yang tidak selalu positif', 'https://doi.org/10.1080/17535069.2019.1576216', 'tambahan'),
+          source('learning-davoudi-knowing', 'Davoudi 2015', 'Davoudi, S. “Planning as Practice of Knowing.” Planning Theory 14(3), 316–331, 2015.', 'Empat mode knowing—apa, bagaimana, untuk tujuan apa, dan tindakan—serta relasi knowledge–practice', 'https://doi.org/10.1177/1473095215575919', 'tambahan'),
+          source('learning-rydin-knowledge', 'Rydin 2007', 'Rydin, Y. “Re-Examining the Role of Knowledge Within Planning Theory.” Planning Theory 6(1), 52–68, 2007.', 'Institutional handling atas multiple epistemologies melalui deliberation dan co-production', 'https://doi.org/10.1177/1473095207075161', 'tambahan')
+        ]}
+      ];
+
+      function appendSourceSets(root, sourceSets) {
+        const index = new Map();
+        (function walk(node) {
+          index.set(node.id, node);
+          (node.children || []).forEach(walk);
+        })(root);
+        sourceSets.forEach(({ targetId, sources }) => {
+          const target = index.get(targetId);
+          if (!target || !target.children) throw new Error(`Cabang sumber tidak ditemukan: ${targetId}`);
+          target.children.push(...sources);
+        });
+      }
+
+      appendSourceSets(schoolSourceTree, schoolSourceSupplement);
+      appendSourceSets(problemSourceTree, problemSourceSupplement);
+
+      const tooltip = document.getElementById("tooltip");
+      let lockedIssue = null;
+      let activeSchoolId = null;
+      let activeClassId = null;
+      let dominantOnly = true;
+      let flowElements = null;
+
+      function svgElement(tag, attributes = {}, text = "") {
+        const node = document.createElementNS(NS, tag);
+        Object.entries(attributes).forEach(([key, value]) => node.setAttribute(key, String(value)));
+        if (text) node.textContent = text;
+        return node;
+      }
+
+      function addText(parent, x, y, text, className, anchor = "start") {
+        const node = svgElement("text", { x, y, class: className, "text-anchor": anchor }, text);
+        parent.appendChild(node);
+        return node;
+      }
+
+      function makeKeyboardClickable(node, handler) {
+        node.setAttribute("tabindex", "0");
+        node.setAttribute("role", "button");
+        node.addEventListener("click", handler);
+        node.addEventListener("keydown", event => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            handler(event);
+          }
+        });
+      }
+
+      function setTooltip(title, meta, event) {
+        tooltip.replaceChildren();
+        const titleNode = document.createElement("strong");
+        const metaNode = document.createElement("span");
+        titleNode.textContent = title;
+        metaNode.textContent = meta;
+        tooltip.append(titleNode, metaNode);
+        tooltip.classList.add("is-visible");
+        tooltip.setAttribute("aria-hidden", "false");
+        moveTooltip(event);
+      }
+
+      function moveTooltip(event) {
+        if (!event || typeof event.clientX !== "number") return;
+        const margin = 14;
+        const left = Math.min(event.clientX + 16, window.innerWidth - tooltip.offsetWidth - margin);
+        const top = Math.min(event.clientY + 16, window.innerHeight - tooltip.offsetHeight - margin);
+        tooltip.style.left = `${Math.max(margin, left)}px`;
+        tooltip.style.top = `${Math.max(margin, top)}px`;
+      }
+
+      function hideTooltip() {
+        tooltip.classList.remove("is-visible");
+        tooltip.setAttribute("aria-hidden", "true");
+      }
+
+      function hexToRgba(hex, alpha) {
+        const value = hex.replace("#", "");
+        const r = parseInt(value.slice(0, 2), 16);
+        const g = parseInt(value.slice(2, 4), 16);
+        const b = parseInt(value.slice(4, 6), 16);
+        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+      }
+
+      function createSourceTreemap(config) {
+        const plotEl = document.getElementById(config.plotId);
+        const focusSelect = document.getElementById(config.selectId);
+        const upButton = document.getElementById(config.upId);
+        const moreButton = document.getElementById(config.moreId);
+        const breadcrumb = document.getElementById(config.breadcrumbId);
+        const summaryTitle = document.getElementById(config.titleId);
+        const summaryMeta = document.getElementById(config.metaId);
+        const summaryDetail = document.getElementById(config.detailId);
+        const summaryLink = document.getElementById(config.linkId);
+        const sourceList = document.getElementById(config.listId);
+        const listStatus = document.getElementById(config.listStatusId);
+
+        if (!window.d3) {
+          plotEl.innerHTML = '<p class="source-error">Treemap memerlukan pustaka visualisasi D3. Muat ulang halaman saat koneksi tersedia.</p>';
+          focusSelect.disabled = true;
+          upButton.disabled = true;
+          moreButton.disabled = true;
+          return;
+        }
+
+        const d3 = window.d3;
+        const nodeById = new Map();
+        const parentById = new Map();
+        const internalNodes = [];
+
+        function indexTree(node, parent = null, inheritedGroup = 0, path = []) {
+          if (!node.id || nodeById.has(node.id)) {
+            throw new Error(`ID sumber tidak unik atau kosong: ${node.id || "(kosong)"}`);
+          }
+          node.group = node.group ?? inheritedGroup;
+          node.fullPath = [...path, node.name];
+          nodeById.set(node.id, node);
+          if (parent) parentById.set(node.id, parent);
+          if (node.children) {
+            internalNodes.push(node);
+            node.children.forEach(child => indexTree(child, node, node.group, node.fullPath));
+          } else if (!node.citation || !node.coverage || !node.url || !["inti", "tambahan"].includes(node.tier)) {
+            throw new Error(`Metadata sumber tidak lengkap: ${node.id}`);
+          }
+        }
+
+        function leafCount(node) {
+          if (!node.children) return 1;
+          return node.children.reduce((sum, child) => sum + leafCount(child), 0);
+        }
+
+        function descendantLeaves(node) {
+          if (!node.children) return [node];
+          return node.children.flatMap(descendantLeaves);
+        }
+
+        function visibleLeaves(node) {
+          return descendantLeaves(node).filter(item => showAll || item.tier !== "tambahan");
+        }
+
+        function visibleClone(node) {
+          if (!node.children) return showAll || node.tier !== "tambahan" ? { ...node } : null;
+          const children = node.children.map(visibleClone).filter(Boolean);
+          return children.length ? { ...node, children } : null;
+        }
+
+        function isTerminalBranch(node) {
+          return Boolean(node.children && node.id.startsWith(config.terminalPrefix));
+        }
+
+        function countText(node, respectMode = false) {
+          const total = leafCount(node);
+          const shown = respectMode ? visibleLeaves(node).length : total;
+          return shown === total
+            ? `${total} ${config.countLabel}`
+            : `${shown} dari ${total} ${config.countLabel}`;
+        }
+
+        function setFailure(message) {
+          plotEl.replaceChildren();
+          const error = document.createElement("p");
+          error.className = "source-error";
+          error.textContent = message;
+          plotEl.appendChild(error);
+          focusSelect.disabled = true;
+          upButton.disabled = true;
+          moreButton.disabled = true;
+        }
+
+        try {
+          indexTree(config.data);
+        } catch (error) {
+          console.error(error);
+          setFailure("Treemap tidak dapat dimuat karena inventaris sumber belum lolos pemeriksaan metadata dan ID unik.");
+          return;
+        }
+
+        internalNodes.forEach(node => {
+          const option = document.createElement("option");
+          option.value = node.id;
+          option.textContent = node.fullPath.length === 1
+            ? "Seluruh peta"
+            : `${"— ".repeat(Math.max(0, node.fullPath.length - 2))}${node.name}`;
+          focusSelect.appendChild(option);
+        });
+
+        let focusData = config.data;
+        let selectedId = config.data.id;
+        let showAll = false;
+        let modePinned = false;
+        let svg = null;
+        let resizeFrame = null;
+        let lastMeasuredWidth = 0;
+
+        function tierLabel(node) {
+          return node.tier === "tambahan" ? "Pendalaman" : "Inti";
+        }
+
+        function applyContextMode(node) {
+          if (!modePinned) showAll = isTerminalBranch(node);
+        }
+
+        function renderSourceList(node) {
+          const leaves = node.children ? visibleLeaves(node) : [node];
+          const total = node.children ? leafCount(node) : 1;
+          sourceList.replaceChildren();
+
+          leaves.forEach(leaf => {
+            const item = document.createElement("li");
+            const link = document.createElement("a");
+            const coverage = document.createElement("p");
+            const tier = document.createElement("span");
+            link.href = leaf.url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = leaf.citation;
+            coverage.className = "source-list-coverage";
+            coverage.textContent = `${config.coverageLabel}: ${leaf.coverage}.`;
+            tier.className = "source-tier";
+            tier.textContent = tierLabel(leaf);
+            item.append(link, coverage, tier);
+            sourceList.appendChild(item);
+          });
+
+          listStatus.textContent = leaves.length === total
+            ? `${total} ditampilkan`
+            : `${leaves.length} dari ${total}`;
+        }
+
+        function updateMoreButton() {
+          const total = leafCount(focusData);
+          const compactCount = descendantLeaves(focusData).filter(item => item.tier !== "tambahan").length;
+          const additionalCount = total - compactCount;
+          moreButton.disabled = additionalCount === 0;
+          moreButton.setAttribute("aria-pressed", String(showAll));
+          moreButton.textContent = showAll
+            ? "Tampilkan lebih sedikit"
+            : `Tampilkan ${additionalCount} bacaan tambahan`;
+          moreButton.setAttribute("aria-label", showAll
+            ? `Kembali ke korpus ringkas untuk ${focusData.name}`
+            : `Tampilkan ${additionalCount} bacaan tambahan untuk ${focusData.name}`);
+        }
+
+        function showSummary(node) {
+          selectedId = node.id;
+          breadcrumb.textContent = node.fullPath.join(" / ");
+          summaryTitle.textContent = node.name;
+          if (node.children) {
+            const shown = visibleLeaves(node).length;
+            const total = leafCount(node);
+            summaryMeta.textContent = shown === total
+              ? `${total} ${config.countLabel}`
+              : `${shown} dari ${total} ${config.countLabel} ditampilkan`;
+            summaryDetail.textContent = node.summary || (isTerminalBranch(node)
+              ? `Korpus langsung untuk membingkai ${node.name.replace(/^\d+\s*·\s*/, "")}; mode lengkap dibuka otomatis pada tingkat ini.`
+              : "Cabang sumber bacaan urban planning.");
+            summaryLink.hidden = true;
+            summaryLink.removeAttribute("href");
+          } else {
+            summaryMeta.textContent = `${config.leafLabel} · ${tierLabel(node)}`;
+            summaryDetail.textContent = `${node.citation} ${config.coverageLabel}: ${node.coverage}.`;
+            summaryLink.href = node.url;
+            summaryLink.hidden = false;
+          }
+          renderSourceList(node);
+          updateMoreButton();
+          if (svg) svg.selectAll(".treemap-node").classed("is-selected", d => d.data.id === selectedId);
+        }
+
+        function fitSingleLine(selection) {
+          selection.each(function(d) {
+            const text = d3.select(this);
+            const available = Math.max(0, d.x1 - d.x0 - 14);
+            let fitted = d.data.name;
+            text.text(fitted);
+            while (fitted.length > 4 && this.getComputedTextLength() > available) {
+              fitted = fitted.slice(0, -1);
+              text.text(`${fitted}…`);
+            }
+            if (available < 34) text.remove();
+          });
+        }
+
+        function wrapText(selection) {
+          selection.each(function(d) {
+            const text = d3.select(this);
+            const width = d.x1 - d.x0;
+            const height = d.y1 - d.y0;
+            const words = d.data.name.split(/\s+/);
+            const fontSize = Number.parseFloat(getComputedStyle(this).fontSize) || 12;
+            const lineHeight = fontSize * 1.22;
+            const maxLines = Math.max(1, Math.floor((height - 11) / lineHeight));
+            const x = +text.attr("x");
+            const y = +text.attr("y");
+            let line = [];
+            let lineNumber = 0;
+            let truncated = false;
+            let tspan = text.text(null).append("tspan").attr("x", x).attr("y", y);
+
+            for (let index = 0; index < words.length; index += 1) {
+              const word = words[index];
+              line.push(word);
+              tspan.text(line.join(" "));
+              if (tspan.node().getComputedTextLength() > width - 12 && line.length > 1) {
+                line.pop();
+                tspan.text(line.join(" "));
+                line = [word];
+                lineNumber += 1;
+                if (lineNumber >= maxLines) {
+                  truncated = true;
+                  break;
+                }
+                tspan = text.append("tspan").attr("x", x).attr("dy", lineHeight).text(word);
+              }
+            }
+
+            const spans = text.selectAll("tspan");
+            spans.each(function(_, index, nodes) {
+              const span = d3.select(this);
+              let fitted = span.text();
+              const isLast = index === nodes.length - 1;
+              if (isLast && truncated && !fitted.endsWith("…")) span.text(`${fitted}…`);
+              let trimmed = false;
+              while (fitted.length > 3 && this.getComputedTextLength() > width - 12) {
+                fitted = fitted.slice(0, -1);
+                trimmed = true;
+                span.text(`${fitted}${isLast && (truncated || trimmed) ? "…" : ""}`);
+              }
+            });
+          });
+        }
+
+        function responsiveFont(node, width, kind) {
+          const tileWidth = Math.max(0, node.x1 - node.x0);
+          const tileHeight = Math.max(0, node.y1 - node.y0);
+          const zoomBoost = Math.min(1.5, Math.max(0, focusData.fullPath.length - 1) * 0.4);
+          const narrowAdjust = width < 500 ? -0.35 : 0;
+          if (kind === "parent") {
+            return Math.max(9, Math.min(12.5, 8.8 + Math.sqrt(tileWidth * tileHeight) / 105 + zoomBoost + narrowAdjust));
+          }
+          return Math.max(9.5, Math.min(14, 9.4 + Math.min(tileWidth, 240) / 105 + Math.min(tileHeight, 180) / 165 + zoomBoost + narrowAdjust));
+        }
+
+        function activateNode(event, node) {
+          if (event) event.stopPropagation();
+          const original = nodeById.get(node.data.id);
+          if (!original) return;
+          const fromKeyboard = event && event.type === "keydown";
+          if (original.children) {
+            focusData = original;
+            applyContextMode(focusData);
+            focusSelect.value = focusData.id;
+            upButton.disabled = !parentById.has(focusData.id);
+            showSummary(focusData);
+            draw({ focusFirst: fromKeyboard });
+          } else {
+            showSummary(original);
+          }
+        }
+
+        function draw({ focusFirst = false, restoreId = null } = {}) {
+          const measuredWidth = Math.round(plotEl.getBoundingClientRect().width) - 2;
+          const width = Math.max(280, measuredWidth);
+          lastMeasuredWidth = measuredWidth;
+          const visibleData = visibleClone(focusData);
+          const narrow = width < 620;
+          const visibleLeafCount = leafCount(visibleData);
+          const minHeight = narrow ? 620 : 560;
+          const maxHeight = narrow ? 1120 : 860;
+          const targetArea = narrow ? 4500 : 7600;
+          const height = Math.round(Math.max(minHeight, Math.min(maxHeight, visibleLeafCount * targetArea / width)));
+          plotEl.style.minHeight = `${height}px`;
+
+          const hierarchy = d3.hierarchy(visibleData)
+            .sum(d => d.children ? 0 : 1)
+            .sort((a, b) => b.value - a.value || a.data.name.localeCompare(b.data.name, "id"));
+
+          d3.treemap()
+            .tile(d3.treemapSquarify.ratio(1.15))
+            .size([width, height])
+            .round(true)
+            .paddingOuter(1)
+            .paddingInner(2)
+            .paddingTop(d => d.depth === 0 ? 0 : (d.data.children ? (d.depth === 1 ? 27 : 22) : 0))(hierarchy);
+
+          plotEl.replaceChildren();
+          const svgTitleId = `${config.plotId}SvgTitle`;
+          const svgDescriptionId = `${config.plotId}SvgDescription`;
+          svg = d3.select(plotEl).append("svg")
+            .attr("viewBox", `0 0 ${width} ${height}`)
+            .attr("width", width)
+            .attr("height", height)
+            .attr("role", "group")
+            .attr("aria-labelledby", `${svgTitleId} ${svgDescriptionId}`);
+          svg.append("title").attr("id", svgTitleId).text(`${config.svgTitle}; fokus ${focusData.name}`);
+          svg.append("desc").attr("id", svgDescriptionId).text(config.svgDescription);
+
+          const groups = svg.selectAll("g.treemap-node")
+            .data(hierarchy.descendants().filter(d => d.depth > 0), d => d.data.id)
+            .join("g")
+            .attr("class", d => `treemap-node treemap-depth-${Math.min(d.depth, 4)}${d.data.id === selectedId ? " is-selected" : ""}`)
+            .attr("data-node-id", d => d.data.id)
+            .attr("tabindex", d => d.data.children || isTerminalBranch(focusData) ? "0" : "-1")
+            .attr("role", "button")
+            .attr("aria-label", d => {
+              const original = nodeById.get(d.data.id);
+              return d.data.children
+                ? `${d.data.name}, ${countText(original, true)}`
+                : `${d.data.citation}. ${config.coverageLabel}: ${d.data.coverage}`;
+            })
+            .on("click", activateNode)
+            .on("keydown", (event, d) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                activateNode(event, d);
+              }
+            })
+            .on("pointerenter", (event, d) => {
+              const meta = d.data.children ? countText(d.data) : d.data.coverage;
+              setTooltip(d.data.name, meta, event);
+            })
+            .on("pointermove", moveTooltip)
+            .on("pointerleave", hideTooltip);
+
+          groups.append("rect")
+            .attr("x", d => d.x0)
+            .attr("y", d => d.y0)
+            .attr("width", d => Math.max(0, d.x1 - d.x0))
+            .attr("height", d => Math.max(0, d.y1 - d.y0))
+            .attr("fill", d => {
+              const color = config.colors[d.data.group] || config.colors[0];
+              const alpha = d.data.children ? (d.depth === 1 ? 0.18 : 0.25) : 0.38;
+              return hexToRgba(color, alpha);
+            });
+
+          const parentLabels = groups
+            .filter(d => d.data.children && (d.x1 - d.x0) > 76 && (d.y1 - d.y0) > 25)
+            .append("text")
+            .attr("class", "treemap-parent-label")
+            .attr("x", d => d.x0 + 7)
+            .attr("y", d => d.y0 + 17)
+            .style("font-size", d => `${responsiveFont(d, width, "parent")}px`)
+            .text(d => d.data.name);
+          parentLabels.call(fitSingleLine);
+
+          groups
+            .filter(d => !d.data.children && (d.x1 - d.x0) > 72 && (d.y1 - d.y0) > 35)
+            .append("text")
+            .attr("class", "treemap-leaf-label")
+            .attr("x", d => d.x0 + 7)
+            .attr("y", d => d.y0 + 17)
+            .style("font-size", d => `${responsiveFont(d, width, "leaf")}px`)
+            .call(wrapText);
+
+          const focusTargetId = focusFirst ? hierarchy.children?.[0]?.data.id : restoreId;
+          if (focusTargetId) {
+            requestAnimationFrame(() => {
+              const target = plotEl.querySelector(`[data-node-id="${focusTargetId}"]`);
+              if (target) target.focus();
+            });
+          }
+        }
+
+        focusSelect.addEventListener("change", () => {
+          focusData = nodeById.get(focusSelect.value) || config.data;
+          applyContextMode(focusData);
+          upButton.disabled = !parentById.has(focusData.id);
+          showSummary(focusData);
+          draw();
+        });
+
+        upButton.addEventListener("click", () => {
+          focusData = parentById.get(focusData.id) || config.data;
+          applyContextMode(focusData);
+          focusSelect.value = focusData.id;
+          upButton.disabled = !parentById.has(focusData.id);
+          showSummary(focusData);
+          draw();
+        });
+
+        moreButton.addEventListener("click", () => {
+          modePinned = true;
+          showAll = !showAll;
+          showSummary(focusData);
+          draw();
+        });
+
+        applyContextMode(config.data);
+        showSummary(config.data);
+        draw();
+
+        const scheduleDraw = () => {
+          const measuredWidth = Math.round(plotEl.getBoundingClientRect().width) - 2;
+          if (Math.abs(measuredWidth - lastMeasuredWidth) < 1) return;
+          const active = document.activeElement;
+          const restoreId = plotEl.contains(active) ? active.getAttribute("data-node-id") : null;
+          if (resizeFrame) cancelAnimationFrame(resizeFrame);
+          resizeFrame = requestAnimationFrame(() => draw({ restoreId }));
+        };
+        if ("ResizeObserver" in window) {
+          const observer = new ResizeObserver(scheduleDraw);
+          observer.observe(plotEl);
+        } else {
+          window.addEventListener("resize", scheduleDraw);
+        }
+      }
+
+      function drawQuadrant() {
+        const svg = document.getElementById("quadrantPlot");
+        const title = svg.querySelector("title").cloneNode(true);
+        const desc = svg.querySelector("desc").cloneNode(true);
+        svg.replaceChildren(title, desc);
+
+        const plot = { left: 130, right: 1110, top: 68, bottom: 620 };
+        const width = plot.right - plot.left;
+        const height = plot.bottom - plot.top;
+        const x = value => plot.left + (value / 10) * width;
+        const y = value => plot.bottom - (value / 10) * height;
+        const midX = x(5);
+        const midY = y(5);
+
+        const quadrantRects = [
+          { id: "technical", x: plot.left, y: plot.top, w: midX - plot.left, h: midY - plot.top },
+          { id: "institutional", x: midX, y: plot.top, w: plot.right - midX, h: midY - plot.top },
+          { id: "spatial", x: plot.left, y: midY, w: midX - plot.left, h: plot.bottom - midY },
+          { id: "political", x: midX, y: midY, w: plot.right - midX, h: plot.bottom - midY }
+        ];
+
+        quadrantRects.forEach(rect => {
+          const item = classById[rect.id];
+          svg.appendChild(svgElement("rect", {
+            x: rect.x,
+            y: rect.y,
+            width: rect.w,
+            height: rect.h,
+            fill: hexToRgba(item.color, 0.105)
+          }));
+        });
+
+        for (let value = 1; value < 10; value += 1) {
+          if (value !== 5) {
+            svg.appendChild(svgElement("line", { x1: x(value), y1: plot.top, x2: x(value), y2: plot.bottom, class: "svg-grid" }));
+            svg.appendChild(svgElement("line", { x1: plot.left, y1: y(value), x2: plot.right, y2: y(value), class: "svg-grid" }));
+          }
+        }
+
+        svg.appendChild(svgElement("line", { x1: midX, y1: plot.top, x2: midX, y2: plot.bottom, class: "svg-axis" }));
+        svg.appendChild(svgElement("line", { x1: plot.left, y1: midY, x2: plot.right, y2: midY, class: "svg-axis" }));
+        svg.appendChild(svgElement("rect", { x: plot.left, y: plot.top, width, height, class: "svg-frame" }));
+
+        [0, 2, 4, 6, 8, 10].forEach(value => {
+          addText(svg, x(value), plot.bottom + 23, String(value), "svg-tick", "middle");
+          addText(svg, plot.left - 14, y(value) + 4, String(value), "svg-tick", "end");
+        });
+
+        addText(svg, (plot.left + plot.right) / 2, 684, "LOKASI MEKANISME KAUSAL  ·  MATERIAL–SPASIAL  →  SOSIAL–INSTITUSIONAL", "svg-axis-title", "middle");
+        const yTitle = addText(svg, 35, (plot.top + plot.bottom) / 2, "KETERKENDALIAN REKAYASA  ·  TERBUKA  →  TERIKAT", "svg-axis-title", "middle");
+        yTitle.setAttribute("transform", `rotate(-90 35 ${(plot.top + plot.bottom) / 2})`);
+
+        const quadrantLabels = [
+          { id: "technical", x: plot.left + 18, y: plot.top + 28, anchor: "start" },
+          { id: "institutional", x: plot.right - 18, y: plot.top + 28, anchor: "end" },
+          { id: "spatial", x: plot.left + 18, y: plot.bottom - 45, anchor: "start" },
+          { id: "political", x: plot.right - 18, y: plot.bottom - 45, anchor: "end" }
+        ];
+
+        quadrantLabels.forEach(label => {
+          const item = classById[label.id];
+          const code = addText(svg, label.x, label.y, item.code, "svg-quadrant-code", label.anchor);
+          code.setAttribute("fill", item.color);
+          const name = addText(svg, label.x, label.y + 23, item.name, "svg-quadrant-name", label.anchor);
+          name.setAttribute("fill", item.color);
+        });
+
+        issues.forEach((issue, index) => {
+          const cx = x(issue.x);
+          const cy = y(issue.y);
+          const tx = cx + issue.dx;
+          const ty = cy + issue.dy;
+          const item = classById[issue.classId];
+          const group = svgElement("g", {
+            class: "issue-group",
+            "data-index": index,
+            "aria-label": `${issue.name}, koordinat ${issue.x} dan ${issue.y}, ${item.name}`
+          });
+
+          group.appendChild(svgElement("line", { x1: cx, y1: cy, x2: tx + (issue.anchor === "start" ? -5 : 5), y2: ty - 4, class: "issue-stem" }));
+          group.appendChild(svgElement("circle", { cx, cy, r: 13, class: "issue-ring" }));
+          group.appendChild(svgElement("circle", { cx, cy, r: 8.5, fill: item.color, class: "issue-core" }));
+          const number = addText(group, cx, cy + 3.2, String(index + 1).padStart(2, "0"), "svg-node-number", "middle");
+          number.setAttribute("fill", "#ffffff");
+          number.setAttribute("font-size", "8.5px");
+          number.setAttribute("font-weight", "800");
+          addText(group, tx, ty, issue.name, "issue-label", issue.anchor);
+
+          group.addEventListener("pointerenter", event => {
+            if (lockedIssue === null) showIssue(index);
+            setTooltip(issue.name, `${item.name} · X ${issue.x} / Y ${issue.y}`, event);
+          });
+          group.addEventListener("pointermove", moveTooltip);
+          group.addEventListener("pointerleave", () => {
+            hideTooltip();
+            if (lockedIssue === null) clearIssueDetail();
+          });
+          group.addEventListener("focus", () => {
+            if (lockedIssue === null) showIssue(index);
+          });
+          group.addEventListener("blur", () => {
+            if (lockedIssue === null) clearIssueDetail();
+          });
+          makeKeyboardClickable(group, () => {
+            lockedIssue = lockedIssue === index ? null : index;
+            lockedIssue === null ? clearIssueDetail() : showIssue(index);
+          });
+          svg.appendChild(group);
+        });
+      }
+
+      function showIssue(index) {
+        const issue = issues[index];
+        const item = classById[issue.classId];
+        document.getElementById("issueTitle").textContent = issue.name;
+        document.getElementById("issueMeta").textContent = `${item.code} · ${item.name} · X ${issue.x} / Y ${issue.y}`;
+        document.getElementById("issueCopy").textContent = item.note;
+        document.querySelectorAll(".issue-group").forEach((node, nodeIndex) => {
+          node.classList.toggle("is-active", nodeIndex === index);
+        });
+      }
+
+      function clearIssueDetail() {
+        document.getElementById("issueTitle").textContent = "Pilih satu titik";
+        document.getElementById("issueMeta").textContent = "Koordinat dan kelas akan tampil di sini.";
+        document.getElementById("issueCopy").textContent = "Posisi makin ke kanan berarti hasil makin bergantung pada institusi, perilaku, distribusi kuasa, dan legitimasi.";
+        document.querySelectorAll(".issue-group").forEach(node => node.classList.remove("is-active"));
+      }
+
+      function buildQuadrantKey() {
+        const key = document.getElementById("quadrantKey");
+        classes.forEach(item => {
+          const count = issues.filter(issue => issue.classId === item.id).length;
+          const row = document.createElement("div");
+          row.className = "key-row";
+          const swatch = document.createElement("span");
+          swatch.className = "key-swatch";
+          swatch.style.setProperty("--key-color", item.color);
+          const label = document.createElement("span");
+          label.textContent = `${item.code} · ${item.name}`;
+          const countNode = document.createElement("span");
+          countNode.className = "key-count";
+          countNode.textContent = `${count} isu`;
+          row.append(swatch, label, countNode);
+          key.appendChild(row);
+        });
+      }
+
+      function buildFilters() {
+        const container = document.getElementById("classFilters");
+        classes.forEach(item => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "filter-button";
+          button.dataset.classId = item.id;
+          button.setAttribute("aria-pressed", "false");
+          button.style.setProperty("--active-color", item.color);
+          const swatch = document.createElement("span");
+          swatch.className = "control-swatch";
+          swatch.style.setProperty("--key-color", item.color);
+          const label = document.createElement("span");
+          label.textContent = item.name;
+          button.append(swatch, label);
+          button.addEventListener("click", () => {
+            const same = activeClassId === item.id && activeSchoolId === null;
+            activeClassId = same ? null : item.id;
+            activeSchoolId = null;
+            updateFlow();
+            document.getElementById("relasi").scrollIntoView({ behavior: "smooth", block: "start" });
+          });
+          container.appendChild(button);
+        });
+
+        document.getElementById("weightToggle").addEventListener("click", event => {
+          dominantOnly = !dominantOnly;
+          event.currentTarget.setAttribute("aria-pressed", String(dominantOnly));
+          event.currentTarget.textContent = dominantOnly ? "Relasi dominan ≥10%" : "Semua bobot ditampilkan";
+          updateFlow();
+        });
+      }
+
+      function curvePath(x1, y1, x2, y2) {
+        const bend = (x2 - x1) * 0.54;
+        return `M ${x1} ${y1} C ${x1 + bend} ${y1}, ${x2 - bend} ${y2}, ${x2} ${y2}`;
+      }
+
+      function drawFlow() {
+        const svg = document.getElementById("flowGraph");
+        const title = svg.querySelector("title").cloneNode(true);
+        const desc = svg.querySelector("desc").cloneNode(true);
+        svg.replaceChildren(title, desc);
+
+        const schoolX = 46;
+        const schoolWidth = 328;
+        const classX = 920;
+        const classWidth = 234;
+        const schoolYs = schools.map((_, index) => 61 + index * 63);
+        const classYs = [103, 251, 399, 547];
+
+        addText(svg, schoolX, 27, "10 MAZHAB URBAN PLANNING", "flow-caption");
+        addText(svg, classX, 27, "4 KELAS MASALAH", "flow-caption");
+        addText(svg, 646, 27, "KETEBALAN = BOBOT RELATIF", "flow-caption", "middle");
+
+        const links = [];
+        schools.forEach((school, schoolIndex) => {
+          school.weights.forEach((weight, classIndex) => {
+            const item = classes[classIndex];
+            const startX = schoolX + schoolWidth;
+            const startY = schoolYs[schoolIndex] + 22;
+            const endX = classX;
+            const endY = classYs[classIndex] + 31;
+            const d = curvePath(startX, startY, endX, endY);
+            const visible = svgElement("path", {
+              d,
+              class: "flow-link",
+              stroke: item.color,
+              "stroke-width": 1 + weight * 0.27,
+              "data-school": school.id,
+              "data-class": item.id,
+              "data-weight": weight
+            });
+            const hit = svgElement("path", {
+              d,
+              class: "flow-link-hit",
+              "data-school": school.id,
+              "data-class": item.id,
+              "data-weight": weight,
+              tabindex: "0",
+              role: "button",
+              "aria-label": `${school.name} ke ${item.name}: ${weight} persen`
+            });
+            const label = addText(svg, 648, (startY + endY) / 2 - 4, `${weight}%`, "flow-percent", "middle");
+            label.dataset.school = school.id;
+            label.dataset.class = item.id;
+            label.style.opacity = "0";
+
+            const chooseLink = () => {
+              activeSchoolId = school.id;
+              activeClassId = item.id;
+              updateFlow();
+            };
+            hit.addEventListener("click", chooseLink);
+            hit.addEventListener("keydown", event => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                chooseLink();
+              }
+            });
+            hit.addEventListener("pointerenter", event => {
+              label.style.opacity = "1";
+              setTooltip(`${school.name} → ${item.name}`, `${weight}% dari portofolio kelas masalah`, event);
+            });
+            hit.addEventListener("pointermove", moveTooltip);
+            hit.addEventListener("pointerleave", () => {
+              if (!(activeSchoolId === school.id && activeClassId === item.id)) label.style.opacity = "0";
+              hideTooltip();
+            });
+
+            svg.append(visible, hit);
+            links.push({ visible, hit, label, schoolId: school.id, classId: item.id, weight });
+          });
+        });
+
+        const schoolNodes = [];
+        schools.forEach((school, index) => {
+          const y = schoolYs[index];
+          const group = svgElement("g", {
+            class: "school-node",
+            "data-school": school.id,
+            "aria-label": `Mazhab ${school.name}`
+          });
+          group.appendChild(svgElement("rect", { x: schoolX, y, width: schoolWidth, height: 44 }));
+          addText(group, schoolX + 14, y + 17, String(index + 1).padStart(2, "0"), "school-index");
+          addText(group, schoolX + 50, y + 27, school.graphName, "school-name");
+          makeKeyboardClickable(group, () => {
+            const same = activeSchoolId === school.id && activeClassId === null;
+            activeSchoolId = same ? null : school.id;
+            activeClassId = null;
+            updateFlow();
+          });
+          group.addEventListener("pointerenter", event => {
+            setTooltip(school.name, school.weights.map((value, i) => `${classes[i].code} ${value}%`).join(" · "), event);
+          });
+          group.addEventListener("pointermove", moveTooltip);
+          group.addEventListener("pointerleave", hideTooltip);
+          svg.appendChild(group);
+          schoolNodes.push(group);
+        });
+
+        const classNodes = [];
+        classes.forEach((item, index) => {
+          const y = classYs[index];
+          const group = svgElement("g", {
+            class: "class-node",
+            "data-class": item.id,
+            "aria-label": `Kelas masalah ${item.name}`
+          });
+          group.appendChild(svgElement("rect", { x: classX, y, width: classWidth, height: 62 }));
+          group.appendChild(svgElement("rect", { x: classX, y, width: 8, height: 62, fill: item.color }));
+          const code = addText(group, classX + 22, y + 20, item.code, "class-code");
+          code.setAttribute("fill", item.color);
+          addText(group, classX + 22, y + 44, item.name, "class-name");
+          makeKeyboardClickable(group, () => {
+            const same = activeClassId === item.id && activeSchoolId === null;
+            activeClassId = same ? null : item.id;
+            activeSchoolId = null;
+            updateFlow();
+          });
+          group.addEventListener("pointerenter", event => setTooltip(item.name, item.note, event));
+          group.addEventListener("pointermove", moveTooltip);
+          group.addEventListener("pointerleave", hideTooltip);
+          svg.appendChild(group);
+          classNodes.push(group);
+        });
+
+        flowElements = { links, schoolNodes, classNodes };
+        updateFlow();
+      }
+
+      function updateFlow() {
+        if (!flowElements) return;
+        const exactLinkSelected = activeSchoolId !== null && activeClassId !== null;
+
+        flowElements.links.forEach(link => {
+          const exact = link.schoolId === activeSchoolId && link.classId === activeClassId;
+          const related = exactLinkSelected
+            ? exact
+            : (activeSchoolId ? link.schoolId === activeSchoolId : activeClassId ? link.classId === activeClassId : true);
+          const thresholdPass = !dominantOnly || link.weight >= 10 || exact;
+          link.visible.style.opacity = thresholdPass ? (related ? "0.76" : "0.075") : "0";
+          link.visible.style.strokeWidth = String(1 + link.weight * (related ? 0.31 : 0.20));
+          link.hit.style.pointerEvents = thresholdPass ? "stroke" : "none";
+          link.hit.setAttribute("tabindex", thresholdPass ? "0" : "-1");
+          link.label.style.opacity = exact ? "1" : "0";
+        });
+
+        flowElements.schoolNodes.forEach(node => {
+          const id = node.dataset.school;
+          const isActive = id === activeSchoolId;
+          const related = !activeSchoolId || isActive;
+          node.classList.toggle("is-active", isActive);
+          node.classList.toggle("is-svg-muted", !related);
+        });
+
+        flowElements.classNodes.forEach(node => {
+          const id = node.dataset.class;
+          const isActive = id === activeClassId;
+          const related = !activeClassId || isActive;
+          node.classList.toggle("is-active", isActive);
+          node.classList.toggle("is-svg-muted", !related);
+        });
+
+        document.querySelectorAll(".filter-button").forEach(button => {
+          button.setAttribute("aria-pressed", String(button.dataset.classId === activeClassId));
+        });
+
+        updateFlowDetail();
+        updateMatrixState();
+      }
+
+      function updateFlowDetail() {
+        const title = document.getElementById("flowTitle");
+        const meta = document.getElementById("flowMeta");
+        const copy = document.getElementById("flowCopy");
+        const bars = document.getElementById("flowBars");
+        bars.replaceChildren();
+
+        if (activeSchoolId && activeClassId) {
+          const school = schoolById[activeSchoolId];
+          const classIndex = classes.findIndex(item => item.id === activeClassId);
+          const item = classes[classIndex];
+          const weight = school.weights[classIndex];
+          title.textContent = `${school.name} → ${item.name}`;
+          meta.textContent = `${weight}% dari portofolio ${item.name}`;
+          copy.textContent = weight >= 10
+            ? "Relasi ini termasuk lapisan dominan yang ditampilkan pada pembacaan awal."
+            : "Relasi ini berada di bawah ambang visual 10%, tetapi tetap menjadi bagian dari portofolio lengkap.";
+          addBar(bars, item.name, weight, item.color, 22);
+          return;
+        }
+
+        if (activeSchoolId) {
+          const school = schoolById[activeSchoolId];
+          title.textContent = school.name;
+          meta.textContent = "Distribusi peran pada empat kelas masalah";
+          copy.textContent = "Bobot tidak dijumlahkan per baris; setiap angka menunjukkan porsi mazhab ini di dalam portofolio kolomnya.";
+          school.weights.forEach((weight, index) => addBar(bars, classes[index].name, weight, classes[index].color, 22));
+          return;
+        }
+
+        if (activeClassId) {
+          const item = classById[activeClassId];
+          const classIndex = classes.findIndex(entry => entry.id === activeClassId);
+          const ranked = schools
+            .map(school => ({ name: school.name, weight: school.weights[classIndex] }))
+            .sort((a, b) => b.weight - a.weight)
+            .slice(0, 4);
+          title.textContent = item.name;
+          meta.textContent = `${issues.filter(issue => issue.classId === item.id).length} masalah pada peta`;
+          copy.textContent = item.note;
+          ranked.forEach(entry => addBar(bars, entry.name, entry.weight, item.color, ranked[0].weight));
+          return;
+        }
+
+        title.textContent = "Semua relasi dominan";
+        meta.textContent = dominantOnly ? "Bobot ≥10% ditampilkan" : "Seluruh 40 relasi ditampilkan";
+        copy.textContent = "Pilih mazhab, kelas masalah, atau garis untuk menelusuri satu portofolio secara lebih dekat.";
+      }
+
+      function addBar(container, label, value, color, maximum) {
+        const row = document.createElement("div");
+        row.className = "flow-bar-row";
+        const labelNode = document.createElement("span");
+        const valueNode = document.createElement("strong");
+        const track = document.createElement("span");
+        const fill = document.createElement("span");
+        labelNode.textContent = label;
+        valueNode.textContent = `${value}%`;
+        track.className = "flow-bar-track";
+        fill.className = "flow-bar-fill";
+        fill.style.setProperty("--bar-width", `${Math.min(100, (value / maximum) * 100)}%`);
+        fill.style.setProperty("--bar-color", color);
+        track.appendChild(fill);
+        row.append(labelNode, valueNode, track);
+        container.appendChild(row);
+      }
+
+      function buildMatrix() {
+        const head = document.getElementById("matrixHead");
+        const body = document.getElementById("matrixBody");
+        const total = document.getElementById("matrixTotal");
+
+        classes.forEach(item => {
+          const th = document.createElement("th");
+          th.scope = "col";
+          th.textContent = item.name;
+          th.dataset.class = item.id;
+          th.style.borderTop = `5px solid ${item.color}`;
+          head.appendChild(th);
+
+          const td = document.createElement("td");
+          td.textContent = "100%";
+          td.dataset.class = item.id;
+          total.appendChild(td);
+        });
+
+        schools.forEach(school => {
+          const row = document.createElement("tr");
+          row.className = "matrix-row";
+          row.dataset.school = school.id;
+          const label = document.createElement("td");
+          label.textContent = school.name;
+          row.appendChild(label);
+
+          school.weights.forEach((weight, index) => {
+            const item = classes[index];
+            const cell = document.createElement("td");
+            cell.className = "matrix-cell";
+            cell.dataset.school = school.id;
+            cell.dataset.class = item.id;
+            cell.style.setProperty("--cell-bg", hexToRgba(item.color, 0.06 + (weight / 22) * 0.32));
+            cell.style.setProperty("--cell-color", item.color);
+            cell.style.setProperty("--cell-scale", String(weight / 22));
+            const button = document.createElement("button");
+            button.type = "button";
+            button.textContent = `${weight}%`;
+            button.setAttribute("aria-label", `${school.name} pada ${item.name}: ${weight} persen`);
+            button.addEventListener("click", () => {
+              activeSchoolId = school.id;
+              activeClassId = item.id;
+              updateFlow();
+              document.getElementById("relasi").scrollIntoView({ behavior: "smooth", block: "start" });
+            });
+            cell.appendChild(button);
+            row.appendChild(cell);
+          });
+          body.appendChild(row);
+        });
+      }
+
+      function updateMatrixState() {
+        document.querySelectorAll(".matrix-row").forEach(row => {
+          row.classList.toggle("is-muted", Boolean(activeSchoolId && row.dataset.school !== activeSchoolId));
+        });
+        document.querySelectorAll(".matrix-cell").forEach(cell => {
+          const schoolMatch = !activeSchoolId || cell.dataset.school === activeSchoolId;
+          const classMatch = !activeClassId || cell.dataset.class === activeClassId;
+          cell.classList.toggle("is-muted", !(schoolMatch && classMatch));
+          cell.classList.toggle("is-active", Boolean(activeSchoolId && activeClassId && schoolMatch && classMatch));
+        });
+      }
+
+      document.addEventListener("keydown", event => {
+        if (event.key !== "Escape") return;
+        lockedIssue = null;
+        activeSchoolId = null;
+        activeClassId = null;
+        hideTooltip();
+        clearIssueDetail();
+        updateFlow();
+      });
+
+      buildQuadrantKey();
+      buildFilters();
+      buildMatrix();
+      drawQuadrant();
+      drawFlow();
+      createSourceTreemap({
+        data: schoolSourceTree,
+        plotId: "schoolSourcePlot",
+        selectId: "schoolSourceFocus",
+        upId: "schoolSourceUp",
+        moreId: "schoolSourceMore",
+        breadcrumbId: "schoolSourceBreadcrumb",
+        titleId: "schoolSourceTitle",
+        metaId: "schoolSourceMeta",
+        detailId: "schoolSourceDetail",
+        linkId: "schoolSourceLink",
+        listId: "schoolSourceList",
+        listStatusId: "schoolSourceListStatus",
+        terminalPrefix: "school-",
+        countLabel: "penempatan bacaan",
+        leafLabel: "Sumber mazhab",
+        coverageLabel: "Dipakai oleh",
+        colors: ["#3e6fbd", "#d85d36", "#198b84", "#b4557d", "#7e5ba6", "#e2a829"],
+        ariaLabel: "Treemap sumber bacaan untuk sepuluh mazhab urban planning",
+        svgTitle: "Hirarki sumber bacaan untuk sepuluh mazhab urban planning",
+        svgDescription: "Persegi bersarang menunjukkan bacaan bersama, rumpun epistemik, mazhab, dan judul sumber. Luas menunjukkan jumlah judul terpilih."
+      });
+      createSourceTreemap({
+        data: problemSourceTree,
+        plotId: "problemSourcePlot",
+        selectId: "problemSourceFocus",
+        upId: "problemSourceUp",
+        moreId: "problemSourceMore",
+        breadcrumbId: "problemSourceBreadcrumb",
+        titleId: "problemSourceTitle",
+        metaId: "problemSourceMeta",
+        detailId: "problemSourceDetail",
+        linkId: "problemSourceLink",
+        listId: "problemSourceList",
+        listStatusId: "problemSourceListStatus",
+        terminalPrefix: "problem-",
+        countLabel: "penempatan bacaan",
+        leafLabel: "Sumber masalah",
+        coverageLabel: "Cakupan",
+        colors: ["#e2a829", "#d85d36", "#198b84", "#3e6fbd", "#7e5ba6"],
+        ariaLabel: "Treemap sumber bacaan untuk empat belas masalah dan empat kuadran urban planning",
+        svgTitle: "Hirarki sumber bacaan untuk empat belas masalah dan empat kuadran",
+        svgDescription: "Persegi bersarang menunjukkan korpus bersama, empat kuadran, empat belas masalah, dan judul sumber. Luas menunjukkan jumlah penempatan bacaan terpilih."
+      });
+    })();
+  </script>
+</body>
+</html>
