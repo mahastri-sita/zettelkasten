@@ -1,0 +1,346 @@
+\documentclass[11pt]{article}
+\input{surat-pengajuan-common.tex}
+\usepackage{pgffor}
+
+\hypersetup{
+  pdftitle={Skenario Akses Data Skripsi: 64 Konfigurasi},
+  pdfauthor={\NamaMahasiswa}
+}
+
+\setlength{\parskip}{5pt}
+\raggedbottom
+\newcounter{scenario}
+\newcounter{available}
+\hypersetup{pageanchor=false}
+
+\newcommand{\ScenarioID}{%
+  \ifnum\value{scenario}<10 0\fi\arabic{scenario}%
+}
+
+\newcommand{\Status}[1]{%
+  \ifnum#1=1 Disetujui/tersedia secara efektif\else Tidak disetujui atau belum tersedia\fi%
+}
+
+\newcommand{\RolePodes}[1]{%
+  \ifnum#1=1
+    Podes 2024 untuk fungsi dan layanan lokal pada unit wilayah yang tersedia.
+  \else
+    OSM, Overture, dan direktori fasilitas sebagai proksi; fungsi layanan aktual tidak dipastikan.
+  \fi%
+}
+
+\newcommand{\RoleKomuter}[1]{%
+  \ifnum#1=1
+    Survei Komuter Jabodetabek 2023 untuk arus dan beban perjalanan pada resolusi yang disediakan; data tidak diturunkan secara semu ke kecamatan.
+  \else
+    Jaringan, GTFS, OD dari sumber lain, atau proksi terbuka; pola komuter aktual tidak dipastikan.
+  \fi%
+}
+
+\newcommand{\RoleSakernas}[1]{%
+  \ifnum#1=1
+    Subset atau tabulasi Sakernas Agustus 2024 untuk pekerja menurut lokasi tempat kerja dan kelompok sektor luas, jika bentuk tersebut disetujui BPS.
+  \else
+    Podes, jalur P1, PDRB, atau proksi terbuka; pekerjaan menurut lokasi tempat kerja tidak diklaim secara langsung.
+  \fi%
+}
+
+\newcommand{\RoleDJITM}[1]{%
+  \ifnum#1=1
+    Matriks OD Kajian Transportasi Jabodetabek 2023, diutamakan 182 x 182 kecamatan, beserta metadata.
+  \else
+    JUTPI, Survei Komuter, OD sintetis, atau proksi jaringan; arus 182 x 182 tidak tersedia.
+  \fi%
+}
+
+\newcommand{\RoleJUTPI}[1]{%
+  \ifnum#1=1
+    Keluaran OD antarzona, geometri atau crosswalk 349 TAZ, jaringan, waktu tempuh, serta dokumentasi kalibrasi dan validasi yang dapat dibagikan.
+  \else
+    Kemenhub, Survei Komuter, OD sintetis, atau jaringan terbuka; data JUTPI tidak digunakan sebagai bukti langsung.
+  \fi%
+}
+
+\newcommand{\RolePemda}[1]{%
+  \ifnum#1=1
+    Tabulasi agregat tenaga kerja atau layanan ketenagakerjaan dari Disnaker dan/atau DPMPTSP pada pusat sekunder prioritas.
+  \else
+    Sakernas, Podes, PDRB, POI, dan direktori terbuka; data pemerintah daerah tidak digunakan sebagai bukti langsung.
+  \fi%
+}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \vspace*{1.4cm}
+  {\Large\bfseries SKENARIO AKSES DATA DAN DESAIN PENELITIAN\\[8pt]}
+  {\large 64 konfigurasi bukti untuk skripsi\\[18pt]}
+  {\normalsize \JudulSementara\\[28pt]}
+  \begin{tabular}{rl}
+    Mahasiswa & \NamaMahasiswa \\
+    NIM & \NIMMahasiswa \\
+    Program studi & Sarjana Perencanaan Wilayah dan Kota \\
+    Departemen & Teknik Arsitektur dan Perencanaan \\
+    Fakultas & Teknik, Universitas Gadjah Mada \\
+    Pembimbing & \NamaPembimbing
+  \end{tabular}
+  \vfill
+  {\large Yogyakarta\\2026}
+\end{titlepage}
+
+\pagenumbering{roman}
+\section*{Cara membaca dokumen}
+
+Dokumen ini menerjemahkan rancangan akses data menjadi cabang desain penelitian yang dapat diperiksa sebelum jawaban instansi diterima. Enam pintu data masing-masing diberi status biner: `1` berarti permohonan disetujui atau menghasilkan keluaran yang dapat digunakan, sedangkan `0` berarti permohonan tidak disetujui, belum tersedia, atau tidak menghasilkan keluaran yang memenuhi kebutuhan minimum.
+
+Enam pintu tersebut adalah Podes 2024, Survei Komuter Jabodetabek 2023, Sakernas Agustus 2024, matriks OD Kemenhub/DJITM, keluaran agregat JUTPI 2/3, dan bundel P1 Disnaker/DPMPTSP. Bundel P1 diperlakukan sebagai satu pintu karena fungsinya sama-sama jalur triangulasi pemerintah daerah. Dalam registri aktual, jawaban Disnaker dan DPMPTSP tetap dicatat terpisah.
+
+Dengan enam pintu biner, enumerasi lengkap berjumlah $2^6 = 64$ konfigurasi. Urutan dokumen dimulai dari semua pintu terbuka dan berakhir pada semua pintu tertutup. Istilah ``6 x 6'' dipakai sebagai cara ringkas untuk menyebut enam dimensi akses data, tetapi jumlah kombinasi biner yang ditampilkan di sini adalah 64, bukan 36.
+
+Skenario bukti tidak sama dengan skenario parameter WebGL. Skenario ini mengubah sumber dan kekuatan bukti. Bobot, ambang, dan nilai indikator tetap harus diuji kemudian di dalam setiap konfigurasi bukti yang dipilih.
+
+\section*{Pijakan penelitian bersama}
+
+Seluruh skenario mempertahankan beberapa hal berikut:
+\begin{itemize}
+  \item Kasus utama adalah sistem metropolitan Jakarta atau Kawasan Aglomerasi Jakarta, dengan Wilayah Statistik Metropolitan sebagai sabuk pembanding.
+  \item Batas administratif DKI Jakarta tetap. Jejak integrasi metropolitan boleh melintasi batas, tetapi tidak dibaca sebagai perubahan yurisdiksi.
+  \item Unit utama adalah kecamatan atau unit terkecil yang benar-benar didukung resolusi data. Data kabupaten/kota tidak diturunkan secara artifisial menjadi data kecamatan.
+  \item Pusat sekunder dan \textit{functional catchment} ditentukan melalui prosedur empiris yang terdokumentasi, bukan hanya dari status administratif.
+  \item Label ketat \textit{borrowed size} dan \textit{agglomeration shadow} digunakan hanya jika tersedia benchmark fungsi relatif dan bukti relasional yang memadai. Jika tidak, keluaran disebut tipologi atau profil deskriptif.
+  \item Tidak ada imputasi nol untuk data yang hilang. Setiap kehilangan data memicu substitusi berlabel, penurunan resolusi, atau pengeluaran indikator.
+\end{itemize}
+
+\section*{Daftar enam pintu data}
+
+\begin{tabularx}{\textwidth}{@{}P{0.08\textwidth}P{0.27\textwidth}Y@{}}
+\toprule
+Kode & Pintu data & Fungsi utama dalam penelitian \\
+\midrule
+P & Podes 2024 & Fungsi dan layanan lokal pada desa atau kelurahan. \\
+C & Survei Komuter Jabodetabek 2023 & Perjalanan, asal-tujuan, dan beban komuter pada resolusi sumber. \\
+S & Sakernas Agustus 2024 & Pekerjaan menurut lokasi tempat kerja dan sektor luas, jika tabulasi sah tersedia. \\
+D & Kemenhub/DJITM & Matriks OD Kajian Transportasi Jabodetabek 2023 dan metadata 182 x 182. \\
+J & JUTPI 2/3 & OD agregat, TAZ, jaringan, waktu tempuh, kalibrasi, dan validasi. \\
+G & Disnaker/DPMPTSP & Triangulasi pekerjaan atau tenaga kerja agregat pada pusat sekunder prioritas. \\
+\bottomrule
+\end{tabularx}
+
+\clearpage
+\hypersetup{pageanchor=false}
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true}
+\tableofcontents
+
+% The nested loops enumerate 111111 through 000000. Each combination gets
+% one self-contained TGA-style section rather than a separate source file.
+\foreach \podes in {1,0}{%
+  \foreach \komuter in {1,0}{%
+    \foreach \sakernas in {1,0}{%
+      \foreach \djitm in {1,0}{%
+        \foreach \jutpi in {1,0}{%
+          \foreach \pemda in {1,0}{%
+            \stepcounter{scenario}%
+            \setcounter{available}{0}%
+            \ifnum\podes=1 \stepcounter{available}\fi
+            \ifnum\komuter=1 \stepcounter{available}\fi
+            \ifnum\sakernas=1 \stepcounter{available}\fi
+            \ifnum\djitm=1 \stepcounter{available}\fi
+            \ifnum\jutpi=1 \stepcounter{available}\fi
+            \ifnum\pemda=1 \stepcounter{available}\fi
+
+            \clearpage
+            \section*{Skenario \ScenarioID}
+            \addcontentsline{toc}{section}{Skenario \ScenarioID}
+
+            \textbf{Vektor akses:}\\
+            \texttt{P=\podes, C=\komuter, S=\sakernas, D=\djitm, J=\jutpi, G=\pemda}\\
+            \textit{1 = disetujui atau tersedia secara efektif; 0 = tidak disetujui atau belum tersedia. Jumlah pintu terbuka: \theavailable{} dari 6.}
+
+            \subsection*{Rumusan masalah}
+            Rumusan masalah tetap mempertahankan tesis penelitian, tetapi kata kerja dan tingkat kekuatan klaim mengikuti sumber yang benar-benar tersedia.
+            \begin{enumerate}
+              \item
+              \ifnum\djitm=1
+                Bagaimana pola arus asal-tujuan antarkecamatan dalam Kajian Transportasi Jabodetabek 2023 memperlihatkan derajat dan arah integrasi pusat-pusat sekunder dengan Jakarta?
+              \else
+                \ifnum\jutpi=1
+                  Bagaimana pola arus antarzona dan jaringan JUTPI memperlihatkan derajat serta arah integrasi pusat-pusat sekunder dengan Jakarta pada resolusi zona yang tersedia?
+                \else
+                  \ifnum\komuter=1
+                    Bagaimana pola komuter Jabodetabek 2023 memperlihatkan hubungan perjalanan dan beban integrasi pusat-pusat sekunder dengan Jakarta pada resolusi sumber?
+                  \else
+                    Bagaimana potensi integrasi pusat-pusat sekunder dengan Jakarta dapat dipetakan melalui jaringan, aksesibilitas, dan proksi terbuka ketika bukti arus langsung belum tersedia?
+                  \fi
+                \fi
+              \fi
+              \item
+              \ifnum\podes=1
+                \ifnum\sakernas=1
+                  Bagaimana fungsi layanan lokal dan pekerjaan menurut lokasi tempat kerja membentuk kematangan fungsi pusat-pusat sekunder relatif terhadap ukuran lokalnya?
+                \else
+                  \ifnum\pemda=1
+                    Bagaimana fungsi layanan lokal dan tabulasi tenaga kerja pemerintah daerah menggambarkan kematangan fungsi pusat-pusat sekunder relatif terhadap ukuran lokalnya?
+                  \else
+                    Bagaimana fungsi layanan lokal yang teramati dalam Podes 2024 menggambarkan kematangan pusat-pusat sekunder ketika bukti pekerjaan menurut lokasi kerja tidak tersedia?
+                  \fi
+                \fi
+              \else
+                \ifnum\sakernas=1
+                  Bagaimana pekerjaan menurut lokasi tempat kerja dan sektor luas menggambarkan fungsi ekonomi lokal ketika bukti layanan Podes tidak tersedia?
+                \else
+                  \ifnum\pemda=1
+                    Bagaimana tabulasi tenaga kerja pemerintah daerah dan proksi fungsi terbuka menggambarkan kematangan ekonomi lokal ketika Podes tidak tersedia?
+                  \else
+                    Bagaimana fungsi lokal dapat dibaca secara terbatas melalui proksi terbuka ketika data Podes, pekerjaan, dan tabulasi pemerintah daerah tidak tersedia?
+                  \fi
+                \fi
+              \fi
+              \item
+              \ifnum\value{available}>0
+                Bagaimana kombinasi integrasi, fungsi lokal, manfaat, dan beban ketergantungan membentuk profil atau tipologi kondisi yang konsisten dengan \textit{borrowed size}, kondisi campuran, atau \textit{agglomeration shadow}, dan seberapa stabil diagnosis tersebut terhadap variasi indikator, bobot, dan ambang?
+              \else
+                Seberapa jauh profil deskriptif keterkaitan metropolitan dapat dibangun dari sumber terbuka dan proksi, apa yang tidak dapat disimpulkan tentang \textit{borrowed size} atau \textit{agglomeration shadow}, dan seberapa sensitif profil tersebut terhadap pilihan indikator, bobot, dan ambang?
+              \fi
+            \end{enumerate}
+
+            \subsection*{Tujuan penelitian}
+            Tujuan penelitian berikut dibuat sebagai pasangan langsung dari tiga pertanyaan di atas.
+            \begin{enumerate}
+              \item
+              \ifnum\djitm=1
+                Mengukur dan memetakan pola arus asal-tujuan antarkecamatan dari Kajian Transportasi Jabodetabek 2023 sebagai bukti integrasi pusat-pusat sekunder dengan Jakarta.
+              \else
+                \ifnum\jutpi=1
+                  Mengukur dan memetakan pola arus antarzona serta jaringan JUTPI sebagai bukti integrasi pusat-pusat sekunder dengan Jakarta pada resolusi zona yang tersedia.
+                \else
+                  \ifnum\komuter=1
+                    Mengukur dan memetakan pola komuter Jabodetabek 2023 sebagai bukti hubungan perjalanan dan beban integrasi pada resolusi sumber.
+                  \else
+                    Mengestimasi dan memetakan potensi integrasi melalui jaringan, aksesibilitas, dan proksi terbuka, dengan membedakannya dari integrasi aktual.
+                  \fi
+                \fi
+              \fi
+              \item
+              \ifnum\podes=1
+                \ifnum\sakernas=1
+                  Menilai fungsi layanan lokal dan pekerjaan menurut lokasi tempat kerja terhadap ukuran lokal pusat-pusat sekunder.
+                \else
+                  \ifnum\pemda=1
+                    Menilai fungsi layanan lokal dan tabulasi tenaga kerja pemerintah daerah terhadap ukuran lokal pusat-pusat sekunder.
+                  \else
+                    Menilai fungsi layanan lokal dari Podes 2024 dan menguji batas interpretasinya ketika bukti pekerjaan menurut lokasi kerja tidak tersedia.
+                  \fi
+                \fi
+              \else
+                \ifnum\sakernas=1
+                  Menilai fungsi ekonomi lokal melalui pekerjaan menurut lokasi tempat kerja dan sektor luas, sambil mencatat ketiadaan bukti layanan Podes.
+                \else
+                  \ifnum\pemda=1
+                    Menilai fungsi ekonomi lokal melalui tabulasi tenaga kerja pemerintah daerah dan proksi fungsi terbuka, tanpa menganggapnya sebagai sensus pekerjaan.
+                  \else
+                    Menyusun indikator proksi fungsi lokal dan mencatat secara eksplisit bahwa fungsi layanan serta pekerjaan tidak teramati langsung.
+                  \fi
+                \fi
+              \fi
+              \item
+              \ifnum\value{available}>0
+                Menyusun profil atau tipologi status quo, lalu menguji ketahanan diagnosis terhadap variasi indikator, bobot, dan ambang tanpa mengubah batas administratif.
+              \else
+                Menyusun profil deskriptif berbasis sumber terbuka, membatasi label \textit{borrowed size} dan \textit{agglomeration shadow}, serta menguji sensitivitas hasil terhadap variasi indikator, bobot, dan ambang.
+              \fi
+            \end{enumerate}
+
+            \subsection*{Metode penelitian}
+
+            \textbf{Pendekatan dan desain.} Penelitian menggunakan pendekatan kuantitatif-spasial relasional dengan desain studi kasus lintas wilayah pada sistem metropolitan Jakarta. Desain ini menggabungkan diagnosis status quo dengan analisis sensitivitas. Status data pada skenario ini mengubah kekuatan bukti dan resolusi analisis, bukan mengganti pertanyaan substantif penelitian.
+
+            \textbf{Ruang lingkup, unit amatan, dan unit analisis.} Kasus utama mencakup DKI Jakarta, pusat-pusat sekunder di kawasan utama Jabodetabek, dan sabuk pembanding yang diperlukan. DKI diperlakukan sebagai satu inti dengan batas administratif tetap. Kecamatan menjadi unit utama jika sumber kritis mendukungnya. Zona transportasi, raster, dan titik dipertahankan pada resolusi asli. Pusat sekunder dan \textit{catchment} ditetapkan melalui prosedur hibrida yang menggabungkan kandidat administratif, fungsi, kepadatan aktivitas, dan bukti keterkaitan yang tersedia.
+
+            \textbf{Konfigurasi data dan substitusi.}\par\medskip
+            {\small
+            \begin{tabularx}{\textwidth}{@{}P{0.22\textwidth}P{0.25\textwidth}Y@{}}
+            \toprule
+            Pintu & Status & Peran data dalam skenario ini \\
+            \midrule
+            Podes 2024 & \Status{\podes} & \RolePodes{\podes} \\
+            Survei Komuter 2023 & \Status{\komuter} & \RoleKomuter{\komuter} \\
+            Sakernas Agustus 2024 & \Status{\sakernas} & \RoleSakernas{\sakernas} \\
+            Kemenhub/DJITM & \Status{\djitm} & \RoleDJITM{\djitm} \\
+            JUTPI 2/3 & \Status{\jutpi} & \RoleJUTPI{\jutpi} \\
+            Disnaker/DPMPTSP & \Status{\pemda} & \RolePemda{\pemda} \\
+            \bottomrule
+            \end{tabularx}
+            }
+
+            \textbf{Tahapan pengumpulan dan analisis.}\par\medskip
+            \begin{enumerate}
+              \item Mengunci tahun, unit, cakupan, metadata, lisensi, missingness, dan status akses setiap sumber. Jawaban parsial dicatat sebagai agregat atau proksi, bukan dipaksa menjadi data langsung.
+              \item Menetapkan kandidat pusat sekunder dan \textit{catchment} berdasarkan fungsi serta hubungan yang dapat dibuktikan. Pusat tidak ditentukan hanya dari nama administratif.
+              \item \textbf{Mengukur integrasi.}
+              \ifnum\djitm=1
+                Matriks Kemenhub/DJITM menjadi bukti utama arus antarkecamatan. Jika JUTPI juga tersedia, kedua sumber dibandingkan menurut zona, periode, tujuan, dan status teramati atau termodelkan.
+              \else
+                \ifnum\jutpi=1
+                  Keluaran OD dan jaringan JUTPI menjadi bukti utama pada resolusi TAZ. Perbedaan antara arus teramati dan keluaran model tetap diberi label.
+                \else
+                  \ifnum\komuter=1
+                    Survei Komuter menjadi bukti perjalanan pada resolusi sumber. GTFS dan jaringan hanya menjadi pelengkap aksesibilitas, bukan pengganti arus individu.
+                  \else
+                    Analisis hanya mengukur potensi aksesibilitas dan keterhubungan jaringan dari sumber terbuka. Istilah integrasi aktual tidak digunakan tanpa bukti arus.
+                  \fi
+                \fi
+              \fi
+              \item \textbf{Mengukur fungsi lokal.}
+              \ifnum\podes=1
+                Podes digunakan untuk kehadiran dan akses layanan lokal. Podes tidak diperlakukan sebagai ukuran langsung produktivitas atau jumlah pekerjaan.
+              \else
+                Fungsi layanan lokal dibaca dari OSM, Overture, direktori, dan sumber terbuka lain dengan label proksi dan audit cakupan.
+              \fi
+              \ifnum\sakernas=1
+                Sakernas digunakan untuk pekerjaan menurut lokasi tempat kerja dan sektor luas pada unit yang sah.
+              \else
+                \ifnum\pemda=1
+                  Tabulasi Disnaker/DPMPTSP digunakan sebagai bukti agregat dengan catatan cakupan pelaporan dan kemungkinan tidak mewakili seluruh pekerjaan.
+                \else
+                  Pekerjaan menurut lokasi tempat kerja tidak diklaim langsung. PDRB kabupaten/kota, Podes, POI, dan direktori hanya menjadi konteks atau proksi.
+                \fi
+              \fi
+              \item Membandingkan fungsi aktual dengan fungsi yang diharapkan dari ukuran dan karakteristik lokal melalui benchmark transparan atau residual model fungsi-ukuran. Benchmark dan residual tidak diberi interpretasi kausal otomatis.
+              \item Memisahkan profil manfaat atau \textit{functional upgrading} dari profil beban atau ketergantungan. Keduanya dapat tinggi secara bersamaan, sehingga kategori campuran tidak dihapus.
+              \item Menghasilkan peta dan tipologi kontinu, kemudian menguji \textit{leave-one-indicator-out}, perubahan unit, korelasi indikator, bobot, ambang, dan gangguan nilai yang masih masuk akal. WebGL hanya menerjemahkan model yang sama ke tampilan baseline, skenario, delta, dan ketahanan.
+            \end{enumerate}
+
+            \textbf{Batas klaim skenario.}
+            \begin{itemize}
+              \ifnum\djitm=0
+                \ifnum\jutpi=0
+                  \ifnum\komuter=0
+                    \item Tidak ada bukti arus langsung dari tiga jalur mobilitas ini. Hasil integrasi harus disebut potensi aksesibilitas atau proksi jaringan.
+                  \fi
+                \fi
+              \fi
+              \ifnum\sakernas=0
+                \ifnum\pemda=0
+                  \item Tidak ada bukti langsung pekerjaan menurut lokasi tempat kerja. Pekerjaan hanya dapat dibahas sebagai konteks atau proksi yang diberi batas.
+                \fi
+              \fi
+              \ifnum\podes=0
+                \item Fungsi layanan lokal tidak teramati melalui Podes. POI dan direktori tidak boleh diperlakukan setara dengan sensus fasilitas.
+              \fi
+              \ifnum\value{available}=0
+                \item Semua enam pintu tertutup. Penelitian masih dapat berjalan sebagai baseline sumber terbuka dan proksi, tetapi label ketat \textit{borrowed size} atau \textit{agglomeration shadow} tidak boleh dianggap terbukti.
+              \fi
+              \item Semua keluaran yang berasal dari OD model, agregat, sintetis, atau proksi diberi label sesuai statusnya. Penolakan data tidak boleh diubah menjadi nilai nol atau disembunyikan dalam satu indeks.
+            \end{itemize}
+
+            \textbf{Keluaran yang diharapkan.} Untuk konfigurasi ini, keluaran minimum adalah matriks provenance, profil integrasi dan fungsi lokal, peta gradien, tipologi deskriptif, serta tabel sensitivitas. Keluaran dengan label \textit{borrowed size} atau \textit{agglomeration shadow} hanya dipromosikan jika benchmark dan bukti relasional memenuhi syarat. Skenario ini merupakan rencana uji ketahanan, bukan temuan empiris.
+          }
+        }
+      }
+    }
+  }
+}
+
+\end{document}
