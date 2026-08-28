@@ -1,0 +1,32 @@
+{
+  "title": "Jabodetabek cartographic context boundaries",
+  "source": "geoBoundaries gbOpen Indonesia ADM2",
+  "boundary_id": "IDN-ADM2-22746128",
+  "boundary_year_represented": "2020",
+  "source_organizations": [
+    "Badan Pusat Statistik (BPS - Statistics Indonesia)",
+    "World Food Programme",
+    "OCHA ROAP"
+  ],
+  "geoBoundaries_build_date": "2023-12-12",
+  "retrieved_date": "2026-08-27",
+  "license": "Creative Commons Attribution 3.0 IGO",
+  "metadata_url": "https://www.geoboundaries.org/api/current/gbOpen/IDN/ADM2/",
+  "geometry_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IDN/ADM2/geoBoundaries-IDN-ADM2_simplified.geojson",
+  "selection": [
+    "Kepulauan Seribu",
+    "Kota Jakarta Barat",
+    "Kota Jakarta Pusat",
+    "Kota Jakarta Selatan",
+    "Kota Jakarta Timur",
+    "Kota Jakarta Utara",
+    "Tangerang",
+    "Kota Tangerang",
+    "Kota Tangerang Selatan",
+    "Bogor",
+    "Kota Bogor",
+    "Bekasi",
+    "Kota Bekasi"
+  ],
+  "use_limit": "Context-only geometry for a visual prototype. It is not an empirical delineation of secondary centers, catchments, or legal metropolitan jurisdiction."
+}

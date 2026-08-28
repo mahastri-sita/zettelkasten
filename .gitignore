@@ -13,3 +13,6 @@ ssn202403_kor_mig.dbf
 
 # LaTeX build artifacts
 latex/.build/
+
+# Temporary render and review artifacts
+tmp/

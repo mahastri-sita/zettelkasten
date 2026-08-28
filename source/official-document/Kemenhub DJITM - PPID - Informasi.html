@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ditjen Intram Kementerian Perhubungan - PPID Direktorat Jenderal Integrasi Transportasi dan Multimoda</title>
+    <meta name="description" content="Layanan Informasi Publik (PPID) Direktorat Jenderal Integrasi Transportasi dan Multimoda. Direktorat Jenderal Integrasi Transportasi dan Multimoda">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"content="Direktorat Jenderal Integrasi Transportasi dan Multimoda,perhubungan,kementrian,dephub,kemenhub,transportation,ministry,indonesia,kemenhub,kementerian perhubungan" />
+    <meta name="author" content="Kementerian Perhubungan" />
+
+     <!-- Twitter Card (for Twitter sharing) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Direktorat Jenderal Integrasi Transportasi dan Multimoda - PPID Direktorat Jenderal Integrasi Transportasi dan Multimoda">
+    <meta name="twitter:description" content="PPID Direktorat Jenderal Integrasi Transportasi dan Multimoda">
+    <meta name="twitter:image" content="https://www.example.com/images/news-thumbnail.jpg">
+
+      <!-- Open Graph (for social media sharing - Facebook, etc.) -->
+    <meta property="og:title" content="Direktorat Jenderal Integrasi Transportasi dan Multimoda - PPID Direktorat Jenderal Integrasi Transportasi dan Multimoda">
+    <meta property="og:description" content="PPID Direktorat Jenderal Integrasi Transportasi dan Multimoda">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com/news-page">
+    <meta property="og:image" content="https://www.example.com/images/news-thumbnail.jpg">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://ditjenintram.kemenhub.go.id/assets/img/favicon.png">
+
+    <link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/animate.css">
+<link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/custom-animation.css">
+<link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/swiper-bundle.css">
+<link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/slick.css">
+<link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/flaticon.css">
+<link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/meanmenu.css">
+<link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/font-awesome-pro.css">
+<link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/magnific-popup.css">
+<link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/spacing.css">
+<link rel="stylesheet" href="https://ditjenintram.kemenhub.go.id/frontend/assets/css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+
+<!-- Memuat Fancybox dari CDN -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+
+<style>
+      a , p , button , h1, h2,h3,h4,h5,h6,div,span {
+         font-family: 'Poppins', sans-serif!important;
+      }
+      .tp-copyright-right a{
+         margin-left: 0px;
+         margin-right: 20px;
+      }
+      .footer-info-address a{
+         display:flex;
+      }
+      .footer-info-address a div{
+         width:30px;
+         text-align:center;
+      }
+
+      .tp-title, .title-article{
+         
+         font-family: 'Poppins', sans-serif!important;
+      }
+
+      p{ 
+         font-family: 'Poppins', sans-serif!important;
+      }
+
+      .tp-footer-widget__social-link a {
+         height: 35px; 
+         width: 35px; 
+         border-radius: 50%;
+         line-height: 35px;
+         text-align: center;
+         display: inline-block;
+         color: #000000;
+         font-size: 20px;
+         margin-right: 10px;
+         background-color:transparent;
+      }
+      footer{
+         background-image: url('https://ditjenintram.kemenhub.go.id/frontend/images/bg-footer.png');
+         background-size: 100%;
+         background-position: center;
+         background-color:#fff;
+         background-repeat: no-repeat;
+      }
+      .sidebar__widget {
+         padding: 25px;
+         border: 1px solid #F6F6F6;
+         background-color:#fff;
+         border-radius:8px;
+      }
+      .tp-logo img {
+         width: auto;
+      }
+      .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif!important;
+            letter-spacing: 1.2px;
+            color: #002359;
+            /* line-height: 3rem; */
+
+        }
+
+        .section-title-2 {
+            color: #301D6E;
+        }
+
+        .horizontal-line {
+            border: none;
+            height: 3px;
+            background-color:rgb(124, 2, 254);
+            width: 3rem;
+        }
+
+        .rc__post-thumb {
+         width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #301D6E;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* <-- add this */
+         }
+
+         .rc__post-thumb a {
+         display: block;
+         width: 100%;
+         height: 100%;
+         }
+
+         .rc__post-thumb a img {
+         width: 100%;
+         height: 100%;
+         object-fit: contain;
+         border-radius: 0;
+         display: block;
+         }
+
+        .border-bottom {
+            border-bottom: 1px solid #FE02A2;
+        }
+
+        .button-pink{
+            color:#fff;
+            background-color:#301D6E;
+           
+        }
+
+        .ellipsis-text{
+            display: -webkit-box; 
+            -webkit-box-orient: vertical; 
+            -webkit-line-clamp: 3; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+        }
+
+        .ellipsis-text-1{
+            display: -webkit-box; 
+            -webkit-box-orient: vertical; 
+            -webkit-line-clamp: 1; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+        }
+
+        .ellipsis-text-2{
+            display: -webkit-box; 
+            -webkit-box-orient: vertical; 
+            -webkit-line-clamp: 2; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+        }
+
+        .ellipsis-text-3{
+            display: -webkit-box; 
+            -webkit-box-orient: vertical; 
+            -webkit-line-clamp: 3; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+        }
+        
+        .tp-service-tab button {
+         
+         margin-left:20px;
+         margin-right:20px;
+        }
+
+        .tp-header-right button {
+            font-size: 25px;
+            color: #222;
+            margin-left: 30px;
+            height: 57px;
+            width: 57px;
+            line-height: 57px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: none;
+      }
+
+      #header-sticky.header-sticky {
+         background: rgba(29, 16, 71, 0.80);
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         backdrop-filter: blur(5px);
+         -webkit-backdrop-filter: blur(5px);
+         border: 0px solid rgba(255, 255, 255, 0.3);
+      }
+
+      
+      #header-sticky:not(.header-sticky) {
+         background: rgba(29, 16, 71, 1);
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         backdrop-filter: blur(5px);
+         -webkit-backdrop-filter: blur(5px);
+         border: 0px solid rgba(255, 255, 255, 0.3);
+      }
+
+      #header-sticky-mobile{
+         background: rgba(29, 16, 71, 1);
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         backdrop-filter: blur(5px);
+         -webkit-backdrop-filter: blur(5px);
+         border: 0px solid rgba(255, 255, 255, 0.3);
+      }
+
+    
+
+      #header-sticky .tp-main-menu  ul li a{
+         color:#fff!important;
+      }
+
+      .tp-main-menu ul li a::before , .tp-service-tab button::before{
+         background-color:#E4A11B!important;
+      }
+
+      .tp-main-menu ul li a::after,  .tp-service-tab button::after{
+         background-color:#000!important;
+      }
+
+      .tpoffcanvas{
+         background-color:#301D6E!important;
+      }
+
+      .tpoffcanvas__logo{
+         margin-bottom:20px;
+      }
+      .tp-service-tab{
+         margin-bottom:20px;
+      }
+      .tp-service-tab button{
+         color:#575757;
+      }
+
+      main{
+         background-image : url("https://ditjenintram.kemenhub.go.id/frontend/images/bg-skenario-1.png");
+         background-size: 100% auto; /* Sets the width of the background image to 100% and maintains its aspect ratio */
+         background-repeat: repeat-y; /* Repeats the background image vertically */
+      }
+
+      .pagination .page-item {
+         color:#FE04A3!important;
+         font-size:13px!important;
+      }
+
+      .pagination .active>.page-link, .pagination .page-link.active {
+         z-index: 3;
+         color: #fff;
+         background-color: #301D6E;
+         border-color: #301D6E;
+      }
+
+      .pagination .page-link{
+         font-size:13px!important;
+         color:#FE04A3;
+         padding:5px 15px;
+      }
+
+      .mean-container .mean-nav ul li a {
+         text-transform : capitalize!important;
+      }
+      
+      .tp-footer-area{
+         background-color:#121921;
+      }
+
+
+      .nav-sub-category a{
+         color:#575757!important;
+         font-weight:bold!important;
+      }
+
+      .nav-sub-category a.active{
+         background-color:transparent!important;
+         border-bottom:3px solid #FCB827;
+         color:#575757!important;
+         border-radius: 0px;
+      }
+
+      .tp-main-menu ul li ul.submenu {
+         padding:25px;
+         
+      }
+     
+      .tp-main-menu ul li ul.submenu li a{
+         font-size:14px!important;
+      }
+
+     
+      .item-kunjungan-web{
+         display : flex;
+         justify-content : space-between;
+      }
+
+      .image-external-link-app{
+         width:60%!important;
+      }
+        <style>
+
+    </style>
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">    
+
+</head>
+
+<body>
+
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+   <!-- tp-header-area-start -->
+   <header class="d-none d-lg-block" style="">
+      <div id="header-sticky" class="tp-header-area-two tp-header-bs-area">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+               <div class="col-xxl-3 col-xl-3 col-lg-3">
+                  <div class="tp-logo text-start d-flex gap-2">
+                     <img src="https://ditjenintram.kemenhub.go.id/files/web/1.png" style="height:70px" alt="" >
+                  </div>
+               </div>
+               <div class="col-xxl-9 col-xl-9 col-lg-9">
+                  <div class="tp-main-menu tp-menu-black tp-bs-menu text-center z-index-1">
+                     <ul class="main-menu">
+                    <li><a href="https://ditjenintram.kemenhub.go.id/beranda">Beranda</a></li><li class="has-dropdown"><a href="https://ditjenintram.kemenhub.go.id/portal/page/sejarah" target="_blank">Profil</a><ul class="submenu text-start"><li><a href="https://ditjenintram.kemenhub.go.id/portal/page/sejarah" target="_blank">Sejarah</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/page/tugas-fungsi" target="_blank">Tugas Dan Fungsi</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/page/struktur-organisasi" target="_blank">Struktur Organisasi</a></li></ul></li><li class="has-dropdown"><a href="https://ditjenintram.kemenhub.go.id/portal/article/category/s/berita" target="_blank">Berita</a><ul class="submenu text-start"><li><a href="https://ditjenintram.kemenhub.go.id/portal/article/category/s/berita" target="_blank">Siaran Pers</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/article/category/s/berita" target="_blank">Blog</a></li></ul></li><li><a href="https://jdih.kemenhub.go.id/peraturan/index" target="_blank">Regulasi</a></li><li class="has-dropdown"><a href="https://ditjenintram.kemenhub.go.id/portal/page/ppid-djitm" target="_blank">PPID</a><ul class="submenu text-start"><li><a href="https://ditjenintram.kemenhub.go.id/portal/page/ppid-djitm" target="_blank">Profil PPID</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/page/ppid-layanan-informasi" target="_blank">Layanan dan Permohonan Informasi</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/ppid/informasi-berkala" target="_blank">Informasi Berkala</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/ppid/informasi-setiap-saat" target="_blank">Informasi Setiap Saat</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/ppid/informasi-serta-merta" target="_blank">Informasi Serta Merta</a></li></ul></li><li><a href="http://ditjenintram.kemenhub.go.id/integrasihub" target="_blank">INTEGRASI HUB</a></li></ul>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- tp-header-area-end -->
+
+   <div id="header-sticky-mobile" class="tp-md-header-area d-md-block d-lg-none pt-5 pb-5">
+      <div class="container-fluid">
+         <div class="row align-items-center">
+            <div class="col-md-6 col-6">
+               <div class="tp-logo text-start d-flex ">
+                  
+                     <img src="https://ditjenintram.kemenhub.go.id/files/web/1.png" style="height:50px" alt="" >
+                     
+      
+               </div>
+            </div>
+            <div class="col-md-6 col-6">
+               <div class="tp-header-right z-index-1 d-flex align-items-center justify-content-end">
+                 
+                  <button class="tp-menu-bar"><i class="fal fa-bars"></i></button>
+               </div>
+            </div>
+           
+         </div>
+
+         
+      </div>
+   </div>
+
+   <div class="tp-offcanvas-area">
+      <div class="tpoffcanvas">
+         <div class="tpoffcanvas__logo">
+            <a href="index.html"><img src="https://ditjenintram.kemenhub.go.id/files/web/1.png" style="height:50px" alt="" ></a>
+            
+         </div>
+         <div class="tpoffcanvas__close-btn">
+            <a class="close-btn" href="javascript:void(0)"><i class="fal fa-times-hexagon"></i></a>
+         </div>
+        
+         <div class="mobile-menu mean-container">
+
+            <div class="mean-bar">
+                  <nav class="mean-nav">
+                     <ul class="main-menu">
+                    <li><a href="https://ditjenintram.kemenhub.go.id/beranda">Beranda</a></li><li class="has-dropdown"><a href="https://ditjenintram.kemenhub.go.id/portal/page/sejarah" target="_blank">Profil</a><ul class="submenu text-start"><li><a href="https://ditjenintram.kemenhub.go.id/portal/page/sejarah" target="_blank">Sejarah</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/page/tugas-fungsi" target="_blank">Tugas Dan Fungsi</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/page/struktur-organisasi" target="_blank">Struktur Organisasi</a></li></ul></li><li class="has-dropdown"><a href="https://ditjenintram.kemenhub.go.id/portal/article/category/s/berita" target="_blank">Berita</a><ul class="submenu text-start"><li><a href="https://ditjenintram.kemenhub.go.id/portal/article/category/s/berita" target="_blank">Siaran Pers</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/article/category/s/berita" target="_blank">Blog</a></li></ul></li><li><a href="https://jdih.kemenhub.go.id/peraturan/index" target="_blank">Regulasi</a></li><li class="has-dropdown"><a href="https://ditjenintram.kemenhub.go.id/portal/page/ppid-djitm" target="_blank">PPID</a><ul class="submenu text-start"><li><a href="https://ditjenintram.kemenhub.go.id/portal/page/ppid-djitm" target="_blank">Profil PPID</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/page/ppid-layanan-informasi" target="_blank">Layanan dan Permohonan Informasi</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/ppid/informasi-berkala" target="_blank">Informasi Berkala</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/ppid/informasi-setiap-saat" target="_blank">Informasi Setiap Saat</a></li><li><a href="https://ditjenintram.kemenhub.go.id/portal/ppid/informasi-serta-merta" target="_blank">Informasi Serta Merta</a></li></ul></li><li><a href="http://ditjenintram.kemenhub.go.id/integrasihub" target="_blank">INTEGRASI HUB</a></li></ul>
+                  </nav>
+            </div>
+            
+         </div>
+   
+      </div>
+   </div>
+
+   <div class="body-overlay"></div>
+
+    <main>
+            <div class="postbox__area pt-30 pb-30">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-12">
+                    <div class="postbox__wrapper">
+                        <article class="postbox__item format-image transition-3">
+                            <div class="postbox__content">
+                                <p><img class="w-100" src="assets/img/blog-details/blog-big-1.jpg" alt=""></p>
+                                <div class="postbox__meta">
+
+                                    <span><a href="#" class="badge bg-warning text-dark"><i class="far fa-folder"></i> PPID DJITM
+                                        </a></span>
+                                    <span><a href="#"><i class="fal fa-clock"></i>
+                                            Senin, 16 Juni 2025</a></span>
+                                    <span><a href="#"><i class="fal fa-user-circle"></i> Humas DJITM
+                                        </a></span>
+                                    <span><a href="#"><i class="fal fa-eye"></i> 1618 views</a></span>
+
+                                </div>
+                                <h3 class="postbox__title">
+                                    PPID Direktorat Jenderal Integrasi Transportasi dan Multimoda
+                                </h3>
+                                <div class="postbox__text">
+                                    <div class="row">
+                                                                                    <div class="col-xxl-12 col-xl-12 col-lg-4 col-12">
+                                                <!-- Tambahkan link ke gambar dengan kelas "fancybox" -->
+                                                <a href="https://ditjenintram.kemenhub.go.id/files/article/9f2ae581-0f12-4e96-9cb8-88401449f30d/9f2ae581-0f12-4e96-9cb8-88401449f30d.jpg" class="fancybox"
+                                                    data-fancybox="gallery"
+                                                    data-src="https://ditjenintram.kemenhub.go.id/files/article/9f2ae581-0f12-4e96-9cb8-88401449f30d/9f2ae581-0f12-4e96-9cb8-88401449f30d.jpg">
+                                                    <img src="https://ditjenintram.kemenhub.go.id/files/article/9f2ae581-0f12-4e96-9cb8-88401449f30d/9f2ae581-0f12-4e96-9cb8-88401449f30d.jpg" class="d-block"
+                                                        width="100%" alt="Gambar">
+                                                </a>
+                                            </div>
+                                        
+                                        <div class="col-xxl-12 col-xl-12 col-lg-8 col-12">
+                                            <p><span style="color:hsl(0,0%,0%);font-size:20px;"><strong>Profil Unit Kerja Direktorat Jenderal Integrasi Transportasi dan Multimoda</strong></span></p><p><span style="color:hsl(0,0%,0%);font-size:18px;"><strong>Profil Singkat:</strong></span><br><span style="color:hsl(0,0%,0%);">Kementerian Perhubungan telah menetapkan susunan struktur organisasi Direktorat Jenderal Integrasi Transportasi dan Multimoda. Susunan struktur organisasi tersebut tertuang dalam Peraturan Menteri Perhubungan Republik Indonesia Nomor 4 Tahun 2025 tentang Organisasi dan Tata Kerja Kementerian Perhubungan. Pembentukan DITJEN INTRAM merupakan tindak lanjut dari Peraturan Presiden Nomor 173 Tahun 2024 yang telah ditetapkan pada 21 Oktober 2024.</span><br>&nbsp;</p><p><span style="color:hsl(0,0%,0%);font-size:18px;"><strong>Struktur Organisasi PPID DITJEN INTRAM:</strong></span></p><figure class="table" style="width:100%;"><table class="ck-table-resized"><colgroup><col style="width:17.56%;"><col style="width:3.73%;"><col style="width:78.71%;"></colgroup><tbody><tr><td><span style="color:hsl(0,0%,0%);">Atasan PPID &nbsp;</span></td><td><span style="color:hsl(0,0%,0%);">:</span></td><td><span style="color:hsl(0,0%,0%);">Menteri Perhubungan.</span></td></tr><tr><td><span style="color:hsl(0,0%,0%);">PPID Pelaksana</span></td><td><span style="color:hsl(0,0%,0%);">:</span></td><td><span style="color:hsl(0,0%,0%);">Direktur Jenderal Integrasi Transportasi dan Multimoda.</span></td></tr><tr><td><span style="color:hsl(0,0%,0%);">Manajer Informasi</span></td><td><span style="color:hsl(0,0%,0%);">:</span></td><td><span style="color:hsl(0,0%,0%);">Sekretaris Direktorat Jenderal Integrasi Transportasi dan Multimoda.</span></td></tr><tr><td><span style="color:hsl(0,0%,0%);">Manajer Dokumentasi&nbsp;</span></td><td><span style="color:hsl(0,0%,0%);">:</span></td><td><p><span style="color:hsl(0,0%,0%);font-size:14px;">1. Direktur Prasarana Integrasi Transportasi Antarmoda;</span></p><p><span style="color:hsl(0,0%,0%);font-size:14px;">2. Direktur Sistem dan Layanan Integrasi Transportasi Antarmoda;</span></p><p><span style="color:hsl(0,0%,0%);font-size:14px;">3. Direktur Multimoda.</span></p></td></tr><tr><td><span style="color:hsl(0,0%,0%);">Pengelola Dokumentasi</span></td><td><span style="color:hsl(0,0%,0%);">:</span></td><td><span style="color:hsl(0,0%,0%);">Para Pejabat Administrator di Lingkungan DITJEN INTRAM.</span></td></tr><tr><td><span style="color:hsl(0,0%,0%);">Petugas Informasi</span></td><td><span style="color:hsl(0,0%,0%);">:</span></td><td><p><span style="color:hsl(0,0%,0%);font-size:14px;">1. Sub Bagian Publikasi dan Pelayanan Informasi, Sekretariat DITJEN INTRAM;</span></p><p><span style="color:hsl(0,0%,0%);font-size:14px;">2. Sub Bagian Pemberitaan dan Media Sosial, Sekretariat DITJEN INTRAM;</span></p><p><span style="color:hsl(0,0%,0%);font-size:14px;">3. Staf Bagian Hukum dan Hubungan Masyarakat, Sekretariat DITJEN INTRAM.</span></p></td></tr></tbody></table></figure><p><span style="color:hsl(0,0%,0%);font-size:18px;"><strong>Tugas dan Fungsi PPID Ditjen Intram</strong></span><br><span style="color:hsl(0,0%,0%);">PPID Pelaksana mempunyai tanggung jawab sebagai berikut:</span><br><span style="color:hsl(0,0%,0%);">1. Menyediakan Informasi secara baik dan efisien sehingga dapat diakses dengan mudah;</span><br><span style="color:hsl(0,0%,0%);">2. Melakukan pengawasan terhadap pelaksanaan layanan Informasi sehingga dapat diakses dengan mudah;</span><br><span style="color:hsl(0,0%,0%);">3. Meningkatkan kompetensi sumber daya manusia dalam pelayanan Informasi; dan</span><br><span style="color:hsl(0,0%,0%);">4. Mengkoordinasikan setiap unit/satuan kerja di lingkungan Direktorat Jenderal Integrasi Transportasi dan Multimoda dalam</span><br><span style="color:hsl(0,0%,0%);">5. Melaksanakan pelayanan informasi.</span></p><p><span style="color:hsl(0,0%,0%);">Dalam melaksanakan tanggung jawabnya PPID Pelaksana memiliki kewenangan sebagai berikut:</span><br><span style="color:hsl(0,0%,0%);">1. Memberikan Informasi secara baik dan efisien sehingga dapat diakses dengan mudah;</span><br><span style="color:hsl(0,0%,0%);">2. Mengajukan usulan daftar Informasi Publik dan Informasi dikecualikan kepada PPID Utama;</span><br><span style="color:hsl(0,0%,0%);">3. Menjamin tersimpan dan terdokumentasi seluruh Informasi secara fisik yang meliputi Informasi yang wajib disediakan dan diumumkan secara berkala, setiap saat, dan Informasi terbuka lainnya yang diminta pemohon Informasi;</span><br><span style="color:hsl(0,0%,0%);">4. Menolak permohonan Informasi dengan apabila Informasi yang dimohon termasuk Informasi yang dikecualikan/rahasia dengan disertai alasan;</span><br><span style="color:hsl(0,0%,0%);">5. Melaporkan perkembangan pelayanan Informasi yang dilaksanakan di lingkup unit kerjanya secara berkala kepada PPID Utama;</span><br><span style="color:hsl(0,0%,0%);">6. Membuat dan mengumumkan laporan tentang pelaksanaan layanan Informasi serta menyampaikan salinan laporan kepada PPID Utama;</span><br><span style="color:hsl(0,0%,0%);">7. Menyediakan sarana dan prasarana layanan Informasi;</span><br><span style="color:hsl(0,0%,0%);">8. Menugaskan pejabat fungsional dan/atau petugas Informasi dibawah wewenang dan koordinasinya untuk membuat, memelihara, dan/atau memutakhirkan Informasi;</span><br><span style="color:hsl(0,0%,0%);">9. Menetapkan program meningkatkan kompetensi sumber daya manusia dalam pelayanan Informasi; dan</span><br><span style="color:hsl(0,0%,0%);">10. Melakukan evaluasi terhadap pelaksanaan layanan Informasi di lingkungan Direktorat Jenderal Integrasi Transportasi dan Multimoda.</span></p><p><span style="color:hsl(0,0%,0%);font-size:18px;"><strong>Visi dan Misi PPID DITJEN INTRAM</strong></span></p><p><span style="color:hsl(0,0%,0%);font-size:18px;"><strong>Visi</strong></span><br><span style="color:hsl(0,0%,0%);"><strong>Layanan Informasi Publik</strong></span><br><span style="color:hsl(0,0%,0%);">Suatu usaha untuk memberikan informasi publik sesuai Undang- Undang No. 14 tahun 2008 tentang Keterbukaan Informasi Publik di lingkungan Kementerian Perhubungan;</span><br><span style="color:hsl(0,0%,0%);"><strong>Transparan</strong></span><br><span style="color:hsl(0,0%,0%);">Memberikan akses seluar-luasnya kepada masyarakat dalam memperoleh informasi publik dengan cepat dan tepat waktu, biaya ringan, dan cara yang sederhana;</span><br><span style="color:hsl(0,0%,0%);"><strong>Objektif</strong></span><br><span style="color:hsl(0,0%,0%);">Memberikan akses informasi kepada setiap kalangan, baik Perorangan, Kelompok, maupun Badan Hukum;</span><br><span style="color:hsl(0,0%,0%);"><strong>Prima</strong></span><br><span style="color:hsl(0,0%,0%);">Terus Berupaya penuh dalam peningkatan Pelayanan, Pengelolaan dan Pendokumentasian Informasi Publik secara Akuntabel, Efisien dan Mudah Diakses.</span></p><p><span style="color:hsl(0,0%,0%);font-size:18px;"><strong>Misi</strong></span><br><span style="color:hsl(0,0%,0%);">1. Menjamin akses informasi publik sesuai Undang-Undang No. 14 tahun 2008 tentang Keterbukaan Informasi Publik;</span><br><span style="color:hsl(0,0%,0%);">2. Meningkatkan kualitas layanan informasi publik;</span><br><span style="color:hsl(0,0%,0%);">3. Meningkatkan profesionalisme SDM layanan informasi publik;</span><br><span style="color:hsl(0,0%,0%);">4. Meningkatkan sarana-prasarana dalam rangka efisiensi dan efektivitas layanan informasi publik;</span><br><span style="color:hsl(0,0%,0%);">5. Meningkatkan pengelolaan informasi dan dokumentasi secara baik, efisien, mudah diakses dan bersifat desentralisasi.</span></p><p><span style="color:hsl(0,0%,0%);font-size:18px;"><strong>Peraturan Kementerian Perhubungan Terkait Keterbukaan Informasi Publik</strong></span><br><a href="https://jdih.kemenhub.go.id/peraturan/detail?data=Gr3vFlNp4Kt7QFFckUxgA84ZI0WMg9fay4q9UjKV2wyZ8cQCY4NLOGj8MPnzt0Vmtu4jsBWzb0uHu4TwfZYTYVvd8W2gwcUFOmD4jpL4RJYs9W5LoU8994HTYDTO4pLhhdiMIQb9fXR66mY0ZhgiScyCWT" download="file"><span style="color:hsl(240,75%,60%);"><u>1. PM 46 Tahun 2018 </u></span><span style="background-color:rgb(255,255,255);color:hsl(240,75%,60%);font-family:Poppins, Helvetica, sans-serif;"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"><u>Tentang Pedoman Pengelolaan Informasi dan Dokumentasi di Lingkungan Kementerian Perhubungan;</u></span></span></a><br><span style="background-color:rgb(255,255,255);color:hsl(240,75%,60%);font-family:Poppins, Helvetica, sans-serif;"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"><u>2. </u></span></span><a href="https://jdih.kemenhub.go.id/peraturan/detail?data=DVtNwoS7MPwJH0L0fbMu888Qjvn9iOPTh8bMhTUoAkmH4ZGSMY8uwti4ZFAni36o6v4q9G43QwoOl4uSLnLEkb4P8W3k8dWBke54PXA0mVPAXKGke20ssIBJo225ZPgJyXPb0vjy5JCBIsLBGRejUHttlN" download="file"><span style="background-color:rgb(255,255,255);color:hsl(240,75%,60%);font-family:Poppins, Helvetica, sans-serif;"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;"><u>KM 117 Tahun 2022 Tentang Standard Operating Procedure Pejabat Pengelola Informasi dan Dokumentasi di Lingkungan Kementerian Perhubungan.</u></span></span></a></p><p><span style="color:hsl(0,0%,0%);font-size:18px;"><strong>Alamat Layanan Informasi PPID</strong></span><br><span style="color:hsl(0,0%,0%);">Ruang PPID | Lobby Ditjen Intram Lt. 16 Kementerian Perhubungan Jalan Medan Merdeka Barat No. 8 Jakarta Pusat 10110</span><br><span style="color:hsl(0,0%,0%);">Kontak: Call Center: (021) 151 &nbsp;| Twitter : @djitmkemenhub| Instagram : djitmkemenhub</span></p><p><span style="color:hsl(0,0%,0%);font-size:18px;"><strong>Waktu Layanan Informasi</strong></span><br><span style="color:hsl(0,0%,0%);">Senin-Kamis</span><br><span style="color:hsl(0,0%,0%);">Pukul 09.00 - 12.00</span><br><span style="color:hsl(0,0%,0%);">Pukul 13.00 - 15.00</span></p><p><span style="color:hsl(0,0%,0%);">Jumat</span><br><span style="color:hsl(0,0%,0%);">Pukul 09.00 - 11.00</span><br><span style="color:hsl(0,0%,0%);">Pukul 13.00 - 15.00</span></p><p><span style="color:hsl(0,0%,0%);font-size:18px;"><strong>Jika Ingin Melakukan Permohonan Informasi Dapat Klik Tautan Berikut </strong></span><span style="color:hsl(0,0%,0%);font-size:14px;"><strong>&lt;</strong></span><a href="https://ppid.dephub.go.id/site/login" download="file"><span style="color:hsl(240,75%,60%);font-size:12px;"><strong>click here</strong></span></a><span style="color:hsl(0,0%,0%);font-size:14px;"><strong>&gt;</strong></span><br><span style="color:hsl(0,0%,0%);"><o:p></o:p></span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="postbox__social-wrapper pt-20">
+                                    <div class="row">
+                                        <div class="col-xl-12 col-lg-12">
+                                            <div class="postbox__social text-xl-end text-start">
+                                                <span>Bagikan</span>
+                                                <a
+                                                    href="https://www.linkedin.com/sharing/share-offsite/?url=https://ditjenintram.kemenhub.go.id/portal/page/ppid-djitm"><i
+                                                        class="fab fa-linkedin tp-linkedin"></i></a>
+                                                <a
+                                                    href="whatsapp://send?text=PPID+Direktorat+Jenderal+Integrasi+Transportasi+dan+Multimoda https://ditjenintram.kemenhub.go.id/portal/page/ppid-djitm"><i
+                                                        class="fab fa-whatsapp"></i></a>
+                                                <a
+                                                    href="'https://www.facebook.com/sharer/sharer.php?u=https://ditjenintram.kemenhub.go.id/portal/page/ppid-djitm"><i
+                                                        class="fab fa-facebook tp-facebook"></i></a>
+                                                <a
+                                                    href="https://twitter.com/intent/tweet?url=https://ditjenintram.kemenhub.go.id/portal/page/ppid-djitm&text=PPID+Direktorat+Jenderal+Integrasi+Transportasi+dan+Multimoda"><i
+                                                        class="fab fa-twitter tp-twitter"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+
+
+                    </div>
+                </div>
+
+
+
+              
+            </div>
+
+
+           
+
+        </div>
+    </div>
+    </main>
+
+    <!-- footer-area-start -->
+    <footer>
+      <div class="tp-footer-area pt-50 pb-30 p-relative">
+         <div class="bp-foooter-shape-1 d-none d-lg-block">
+            <img src="https://ditjenintram.kemenhub.go.id/frontend/assets/img/footer/hero-shape-5.1.png" alt="">
+         </div>
+         <div class="bp-foooter-shape-2 d-none d-lg-block">
+            <img src="https://ditjenintram.kemenhub.go.id/frontend/assets/img/footer/testimonial-shape-5.4.png" alt="">
+         </div>
+         <div class="container">
+            <div class="row " data-wow-duration=".3s" data-wow-delay=".5s">   
+               <div class="col-xl-4 col-lg-6 col-md-6">
+                  <div class="tp-footer-widget">
+                     <div class="tp-footer-widget__logo mb-10  d-flex align-items-center">
+                        <a href="index.html"><img src="https://ditjenintram.kemenhub.go.id/files/web/1.png" class="me-2" alt="" style="width:300px;"></a>
+                     </div>
+                     <div class="mb-30 text-white ps-2" style="font-size:16px;"></div>
+                     <!-- <div class="mb-30 text-white ps-2" style="font-size:16px;">Direktorat Jenderal Integrasi Transportasi dan Multimoda</div> -->
+                     <div class="tp-footer-widget__text mb-30">
+                        <div class="tp-footer-widget__list footer-info-address">
+                           <ul>
+                              <li><a href="https://maps.app.goo.gl/PDb2NdqY1FBrBWK6A"><div><i class="fal fa-map-marker-alt"></i></div><span>Jl. Merdeka Barat No.8, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta </span></a></li>
+                              <li><a href="tel:151"><div><i class="fas fa-mobile-alt"></i></div><span>151</span></a></li>
+                              <!-- <li><a href="https://wa.me/085186069342"><div><i class="fab fa-whatsapp"></i></div><span>085186069342</span></a></li> -->
+                              <li><a href="mailto:ditjenintram@kemenhub.go.id"><div><i class="far fa-envelope"></i></div><span>ditjenintram@kemenhub.go.id</span></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                    
+                     <div class="">
+                        <img src="https://ditjenintram.kemenhub.go.id/files/web/badge_24.jpg" class="me-2" alt="" style="width:100%;">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-6 col-md-6">
+                  <div class="tp-footer-widget pl-20">
+                     <div class="tp-footer-widget__title pb-15">
+                        <h3 class="footer-title text-white">Menu</h3>
+                     </div>
+                     <div class="tp-footer-widget__list">
+                        
+             <ul>
+                 <li><a href="https://dephub.go.id/.go.id/">Kementerian Perhubungan</a></li> <li><a href="https://itjen.dephub.go.id/">Inspektorat Jenderal</a></li> <li><a href="">Direktorat Jenderal Perhubungan Darat</a></li> <li><a href="https://hubla.dephub.go.id/">Direktorat Jenderal Perhubungan Laut</a></li> <li><a href="https://hubud.dephub.go.id/">Direktorat Jenderal Perhubungan Udara</a></li> <li><a href="https://djka.dephub.go.id/">Direktorat Jenderal Perkeretaapian</a></li> <li><a href="https://bpsdm.dephub.go.id/">Badan Pengembangan SDM Perhubungan</a></li> <li><a href="https://baketrans.dephub.go.id/">Badan Kebijakan Transportasi</a></li>
+            </ul>
+        
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-6 col-md-6">
+                  <div class="tp-footer-widget">
+                     <div class="tp-footer-widget__title pb-5">
+                        <h3 class="footer-title text-white">Ikuti Kami</h3>
+                     </div>
+                     <div class="tp-footer-widget__social-link tp-footer-widget__social-link-2">
+                        <a class="text-white" href="https://www.youtube.com/@DJITM151"><i class="fab fa-youtube"></i></a>
+                        <a class="text-white" href="https://www.instagram.com/djitmkemenhub/"><i class="fab fa-instagram"></i></a>
+                        <!-- <a class="text-white" href=""><i class="fab fa-twitter"></i></a> -->
+                        <a class="text-white" href="https://www.facebook.com/bptj151"><i class="fab fa-facebook-f"></i></a>
+                        <a class="text-white" ref="https://www.tiktok.com/@djitmkemenhub"><i class="fab fa-tiktok"></i></a>
+                     </div>
+
+                    
+                  </div>
+
+                  <div class="tp-footer-widget">
+                     <div class="tp-footer-widget__title pb-15">
+                        <h3 class="footer-title text-white">Kunjungan Website</h3>
+                     </div>
+                     <div class="tp-footer-widget__social-link tp-footer-widget__social-link-2">
+                           <div class="item-kunjungan-web"><span>Hari Ini</span><span>86</span></div>
+                           <div class="item-kunjungan-web"><span>Bulan Ini</span><span>5172</span></div>
+                           <div class="item-kunjungan-web"><span>Tahun Ini</span><span>177424</span></div>
+                     </div>
+
+                    
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="tp-copyright-area " data-wow-duration=".5s" data-wow-delay=".7s">
+            <div class="container">
+               <div class="copyright-border pt-40">
+                  <div class="row">
+                     <div class="col-xl-6 col-lg-6 col-12">
+                        <div class="tp-copyright-right text-start text-md-center text-lg-start">
+                         
+                           <!--<a href="https://ditjenintram.kemenhub.go.id/auth/login">Login</a> -->
+                        </div>
+                     </div>
+                     <div class="col-xl-6 col-lg-6 col-12">
+                        <div class="tp-copyright-left text-lg-end text-start text-md-center">
+                           <p class="text-white-80">Copyright © 2026 Kementerian Perhubungan Republik Indonesia</p>
+                        </div>
+                     </div>
+                    
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>    <!-- footer-area-end -->
+
+
+    <button class="scroll-top scroll-to-target" data-target="html">
+        <i class="far fa-angle-double-up"></i>
+    </button>
+
+    <!-- JS here -->
+    <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/jquery.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/waypoints.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/bootstrap.bundle.min.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/swiper-bundle.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/slick.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/magnific-popup.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/counterup.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/wow.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/meanmenu.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/isotope-pkgd.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/imagesloaded-pkgd.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/ajax-form.js"></script>
+   <script src="https://ditjenintram.kemenhub.go.id/frontend/assets/js/main.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.9.1/cdn.js" integrity="sha512-krsrcFkLt1cQg/l2vo7TJf4HyUz0CYhLikOqM1EFSmaVxI9Ijy7EbEhs4Oo9zJrS6RzPfZPPurtPmZVSPZRI0A==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+   
+   
+   <script src="https://cdn.jsdelivr.net/npm/@mapbox/polyline@1.1.1/src/polyline.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+        <script>
+        $(document).ready(function() {
+            // Inisialisasi Fancybox
+            $(".fancybox").fancybox({
+                // Opsi konfigurasi
+                afterShow: function(instance, current) {
+                    // Tambahkan tombol close
+                    var closeButton =
+                        '<button data-fancybox-close class="fancybox-button fancybox-button--close" title="Close"></button>';
+
+                    // Masukkan tombol close ke dalam konten
+                    $(current.$content).append(closeButton);
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
