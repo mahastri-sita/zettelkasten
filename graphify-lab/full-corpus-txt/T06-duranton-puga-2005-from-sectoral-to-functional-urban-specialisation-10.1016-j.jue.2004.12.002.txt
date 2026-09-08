@@ -1,0 +1,1472 @@
+[PDF Metadata]
+Source PDF: journal/T06-duranton-puga-2005-from-sectoral-to-functional-urban-specialisation-10.1016-j.jue.2004.12.002.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           doi:10.1016/j.jue.2004.12.002
+Creator:         Elsevier
+Producer:        Acrobat Distiller 5.0 (Windows)
+CreationDate:    Fri Feb 25 16:53:21 2005 WIB
+ModDate:         Fri Feb 25 16:53:21 2005 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           28
+Encrypted:       no
+Page size:       467.72 x 680.42 pts
+Page rot:        0
+File size:       249866 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                            Journal of Urban Economics 57 (2005) 343–370
+                                                                                www.elsevier.com/locate/jue
+
+
+
+
+     From sectoral to functional urban specialisation
+                            Gilles Duranton a , Diego Puga b,∗
+        a Department of Geography and Environment, London School of Economics, Houghton Street,
+                                           London WC2A 2AE, UK
+ b Department of Economics, University of Toronto, 150 Saint George Street, Toronto, ON, Canada M5S 3G7
+
+                             Received 2 August 2002; revised 20 November 2004
+                                       Available online 13 January 2005
+
+
+
+
+Abstract
+   Striking evidence is presented of a previously unremarked transformation of urban structure from
+mainly sectoral to mainly functional specialisation. We offer an explanation showing that this trans-
+formation is inextricably interrelated with changes in firms’ organisation. A greater variety of busi-
+ness services for headquarters and of sector-specific intermediates for production plants within a city
+reduces costs, while congestion increases with city size. A fall in the costs of remote management
+leads to a transformation of the equilibrium urban and industrial structure. Cities shift from special-
+ising by sector—with integrated headquarters and plants—to specialising mainly by function—with
+headquarters and business services clustered in larger cities, and plants clustered in smaller cities.
+ 2004 Elsevier Inc. All rights reserved.
+
+JEL classification: R30; L23; R12
+
+Keywords: Functional specialisation; Cities; Headquarters; Business services
+
+
+
+
+1. Introduction
+
+    Over the last few decades there has been a shift in the main dimension along which
+cities specialise, from a specialisation by sector to a specialisation by function. Urban
+
+ * Corresponding author.
+   E-mail addresses: g.duranton@lse.ac.uk (G. Duranton), d.puga@utoronto.ca (D. Puga).
+   URLs: http://cep.lse.ac.uk/~duranton, http://dpuga.economics.utoronto.ca.
+
+0094-1190/$ – see front matter  2004 Elsevier Inc. All rights reserved.
+doi:10.1016/j.jue.2004.12.002
+344                 G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+Table 1
+The diminishing sectoral specialisation and increasing functional specialisation of US cities
+Local populationa           Sectoral                        Functional specialisation
+                            specialisationb                 in management against productionc (%)
+                            1977       1987      1997       1950             1970             1980             1990
+5,000,000–19,397,717        0.377      0.376     0.374      +10.2             +22.1            +30.8            +39.0
+1,500,000–4,999,999         0.366      0.360     0.362       +0.3             +11.0            +21.6            +25.7
+500,000–1,499,999           0.397      0.390     0.382      −10.9              −7.8             −5.0             −2.1
+250,000–499,999             0.409      0.389     0.376       −9.2              −9.5            −10.9            −14.2
+75,000–249,999              0.467      0.442     0.410       −2.1              −7.9            −12.7            −20.7
+67–75,000                   0.693      0.683     0.641       −4.0             −31.7            −40.4            −49.5
+Source. Authors’ calculations based on data from County Business Patterns (sectoral specialisation) and Decen-
+nial Census of Population and Housing (functional specialisation).
+  a The units of analysis are Metro Areas plus those counties not included in any Metro Area. This covers
+the entire continental US. For Metro Areas, county-level data has been aggregated into Metropolitan Statistical
+Area/Consolidated Metropolitan Statistical Area outside New England and into New England County Metropol-
+itan Area in New England using 2000 definitions. Individual Metro and Non-metro Areas have been allocated to
+the same population class for the entire table on the basis of population data from the Decennial Census of 2000.
+  b Mean value for each population class of a Gini index comparing the local and national distributions of em-
+ployment shares across 2-digit SIC manufacturing sectors. If sh and s h are respectively the local and national
+                                                                            
+shares of employment in sector h, the Gini specialisation index is 12 h |sh − s h |. Its value is close to one if a
+city is fully specialised in a sector that is very small at the national level and is equal to zero if local employment
+is dispersed across sectors in the same way as national employment.
+  c Percentage difference from the national average in the number of executives and managers per production
+worker (occupied in precision production, fabrication, or assembly).
+
+
+economists have traditionally paid much attention to the specialisation of individual cities
+in a small number of sectors (see, e.g., Henderson [25]). While specialisation continues
+to be an important feature of the urban system of the United States, cities are increas-
+ingly distinguished by their functional specialisation (i.e., in management and services
+versus production) rather than by their sectoral specialisation (i.e., in one particular sec-
+tor of activity versus another one). This transformation of urban structure has so far been
+unremarked. We provide striking evidence of it in Table 1.
+    The left-hand side of the table shows that sectoral specialisation within manufacturing,
+as measured by a Gini index, declined steadily for cities of all sizes between 1977 and
+1997.1 The average US metro area saw its Gini index of sectoral specialisation decline
+from 0.430 to 0.392 between 1977 and 1997.
+    The right-hand side of Table 1 shows that this falling sectoral specialisation has been
+mirrored by an increasing functional specialisation. We have computed the ratio of execu-
+tives and managers to production workers (occupied in precision production, fabrication, or
+assembly) in cities of each size class and calculated the percentage difference between this
+ratio and the corresponding ratio for the entire nation. Working through the four columns in
+sequence, we see that in 1950 cities were not too different in terms of their proportions of
+
+ 1 Alternative measures of specialisation show a similar decline over time as well as a greater specialisation of
+smaller cities. Kim [29] looks at US Census Regions instead of cities over a longer time period and finds that
+these have experienced a similar decline in their sectoral specialisation since the 1930s.
+                    G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370                           345
+
+
+managers and production workers. And although the largest cities already housed relatively
+more managers, there was no clear ranking by city size. By 1980 differences across cities
+had increased substantially and a clear ranking by size had emerged: larger cities had be-
+come specialised in management functions whereas smaller cities had become specialised
+in production. This pattern became even more marked over the following decade. In 1990,
+the nine largest US metro areas had 39% more managers per production worker than the
+national average. For metro areas with a current population between 1.5 and 5 million, the
+figure was 25.7% above the national average. At the other extreme, non-metro areas and
+metro areas with less than a quarter of a million people had respectively 49.5 and 20.7%
+fewer managers per production worker than the national average.
+    In this paper we develop a formal framework that explains this urban transformation and
+suggests that it is inextricably interrelated with changes in firms’ organisation. Specifically,
+to the increasing separation of the management and production facilities of individual
+firms. This separation is one of the most significant trends in the internal organisation of
+firms of the last century (Chandler [7]).2 Kim [30] carefully documents this process in his
+account of the rise of multi-location firms in the United States. The percentage of US manu-
+facturing workers employed in multi-location firms increased from 51.4% in 1939 to 73.1%
+in 1987. A crucial component of this rise of multi-location firms has been the growing im-
+portance of separate establishments acting as headquarters. The number of stand-alone
+headquarters and their employment rose by 78.9 and 68.9% respectively between 1958
+and 1987—more than twice as fast as overall multi-location employment in manufacturing
+over the same period.
+    The decisions made by firms regarding their organisation (such as whether to be spa-
+tially integrated or to split management and production across multiple locations) are not
+made in a void. They are affected by the environment in which firms operate. And this
+environment is in turn shaped by the cumulation of firms’ organisational choices. This pa-
+per develops a simple general equilibrium model in which firms’ organisational choices
+are endogenous and interrelated and studies the links between firms’ organisation and the
+urban system.
+    Our model (set up in Section 2) considers multiple final sectors, each made up of firms
+with both headquarter and production activities. Each firm gains from integrating headquar-
+ter and production in a single location because this saves in management costs. However,
+depending on the urban structure, there may also be gains from becoming a multi-location
+firm with headquarter and production establishments in different cities. This is because
+cities with a wider range of business service suppliers are less costly places in which to
+operate a headquarter. Similarly, the sharing of intermediate suppliers by production plants
+reduces productions costs in cities with more same-sector suppliers. At the same time,
+larger cities are more congested places which results in higher living costs. Workers are
+mobile across cities and occupations, and the number and composition of cities are en-
+dogenous.
+
+
+ 2 Another important trend has been firms’ increasing reliance on outside suppliers. This growth in outsourcing
+has received wide attention in the literature (see Perry [40] for a survey) and is outside the scope of this paper, in
+which we take the boundaries of the firm as given and focus on the location of activities within those boundaries.
+346             G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+    We begin to solve the model by determining the types of cities that can exist in equi-
+librium (Section 3). Then we derive both the equilibrium choice of organisational form by
+firms and the equilibrium urban structure (Section 4). When the additional costs associated
+with managing production from a remote headquarter are high, firms remain integrated.
+Given the benefits of sharing intermediate suppliers and urban congestion costs, cities
+host headquarters and production plants but specialise by sector. However, when the addi-
+tional costs associated with managing production remotely fall below a certain level, for
+which we provide a closed-form solution, both the organisation of firms and the urban
+structure undergo profound changes. Firms previously organised as single units become
+multi-unit organisations. In choosing where to locate their now separate establishments,
+firms aim to place their headquarter in cities where business service employment is abun-
+dant and their production plant in cities with a greater same-sector specialisation in final
+production. Since similar organisational and location choices are made by a large num-
+ber of firms, this in turn affects the employment patterns of cities, which is itself what
+makes the organisational choice worthwhile. This leads to a shift in the main dimen-
+sion along which cities specialise, from a specialisation by sector to a specialisation by
+function. As a result of the benefits of sharing business service suppliers across firms
+and sectors, headquarters from different sectors and business services cluster in a few
+large cities. Manufacturing plants, for which localisation economies are weaker empir-
+ically as well as in the model, cannot afford to pay high enough wages to compensate
+for the high congestion costs. They move away and cluster in smaller separate cities.
+We conclude the paper with some final remarks and suggestions for further work (Sec-
+tion 5).
+    Of the large theoretical literature dealing with the organisational and location choices
+of firms, three particular streams are more closely related to our work. The the-
+oretical literature on multinational enterprises has endogenised firms’ choice of lo-
+cation for multiple facilities (Helpman [22] and Markusen [34] are two early ex-
+amples, while Markusen [36] provides a survey). However, this line of work fo-
+cuses on the location decisions of firms taking the environment in which they op-
+erate as exogenous, whereas we are interested in determining firms’ operating en-
+vironment endogenously as a general equilibrium outcome shaped by firms’ deci-
+sions.
+    More recently, a series of papers (e.g., Grossman and Helpman [20], Marin and
+Verdier [33], Puga and Trefler [41], Antràs [4]) have developed general equilibrium
+frameworks where both firms’ organisation and the market structure in which they op-
+erate are endogenous. However, location choices are ignored so that there is unique
+environment faced by all firms. Furthermore, the organisational choices on which
+these papers focus concern ownership and power allocation. This paper instead takes
+firm boundaries as given and asks whether firms locate their various internal facili-
+ties in the same or in different geographical locations. Our paper thus deals with the
+separation of firms’ activities in terms of geography rather than in terms of owner-
+ship.
+    Finally, in the urban economics literature, Davis [8] studies the location of production
+relative to distribution facilities and natural resources. However, his focus is on the relative
+magnitude of transport costs for final goods and for natural resources. More closely related
+                G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370       347
+
+
+to this paper is the work of Ota and Fujita [38], who propose a model where firms make
+decisions about the location of their facilities and these decisions in turn affect the urban
+environment. However, their model deals only with location within a city, and is thus more
+useful to understand differences between a city’s centre and its suburbs than differences
+across cities in an urban system.
+   In terms of empirical work, the shift from sectoral to functional urban specialisation that
+we report does not seem to be specific to the US. Following the working paper version of
+this paper, Bade et al. [6] have replicated the functional specialisation part of our Table 1
+using German data for the period 1976–2002. They find that Germany has followed the
+same pattern that we find for the US: increasing functional specialisation over time of
+large cities in management activities and of smaller cities in production activities.
+   Consistent with the predictions of our model, there is also evidence that, together with
+management functions, larger cities have also absorbed business service employment as
+well as headquarters. According to Kolko [31], in 1910 manufacturing accounted for about
+six times as much employment as business services in all size-classes of US cities. Over
+time this similarity across cities of different sizes has disappeared. There has been a grow-
+ing concentration of manufacturing in small and medium-sized cities and of business
+services in larger cities, to the extent that the ratio of manufacturing to business service
+employment is now 4.5 times higher in non-metro areas than in metro areas with over 2.5
+million people. Regarding headquarters, Shilton and Stanley [43] study the location of over
+5000 headquarters in the US, and find that 40% of them are clustered in just 20 major urban
+counties. In Japan, headquarters have also become increasingly concentrated in Tokyo and,
+to a lesser extent, in Osaka, while mass-production activities have been gradually displaced
+outside the major metropolitan areas (Fujita and Tabuchi [18], Fujita and Ishii [17]).
+   More recent empirical studies find patterns in the location of headquarters and business
+services that match various aspects of our model. First, according to Aarland et al. [1],
+headquarters have a strong propensity to out-source business services. For US headquar-
+ters, the expenditure on legal, accounting, and advertising services alone is equivalent to
+more than two thirds of their wage bill. This is confirmed by Ono [37], who also shows that
+the propensity of firms to rely on their headquarters to buy business services increases with
+the size of the market surrounding them. Second, according to Davis and Henderson’s [9]
+careful study using US Census data, headquarter location decisions are mostly driven by
+the existence of a large and diverse local supply of business services rather than by the
+presence of a large number of other headquarters. Furthermore, the agglomeration forces
+linking headquarters and business services are very large relative to those estimated for
+manufacturing. Third, Strauss-Khan and Vives [46] find that headquarters have tended to
+change location over time along the lines implied by our model. They show that between
+1996 and 2001 headquarters have moved away from locations with relatively few other
+headquarters and business service producers towards locations with a greater presence of
+both, whereas headquarters already in locations with relatively many other headquarters
+and business service producers have tended to remain there.
+348                    G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+2. The model
+
+2.1. Preferences
+
+   There are m sectors producing goods for final consumption. Consumers have Cobb–
+Douglas preferences with equal shares of expenditure allocated to each of these sectors.
+We use superscripts to index sectors as well as worker occupations (described below) and
+subscripts to index cities. Thus, the indirect utility of a consumer working in occupation h
+in city i is
+               eih
+       Vi =        ,                                                                                             (1)
+               P
+where eih denotes individual consumption expenditure,
+              
+              m
+                 h 1/m
+       P=        P                                                                                               (2)
+              h=1
+
+is the global consumer price index, and P h denotes the price of final goods in sector h.
+The latter are freely tradeable across cities, hence their prices are common to all cities. All
+workers in the economy are fully mobile across cities and occupations.
+
+2.2. Technology
+
+    The input–output structure of each final sector is represented schematically in Fig. 1.
+Final-goods firms have two facilities: a headquarter and a production plant. Each firm
+can adopt one of two organisational forms: spatially integrated or multi-location.3 Spa-
+tially integrated firms have their headquarter and their production plant in the same city,
+while multi-location firms have their headquarter and their production plant in different
+cities. In either case, headquarters use labour (managers) and business services as inputs to
+produce headquarter services. Production plants then combine these headquarter services
+with sector-specific intermediate inputs to produce final goods. Both business services and
+sector-specific intermediate inputs are produced by outside suppliers with labour, and are
+non-tradeable across cities.4 However, while the same business services are used by head-
+quarters in all sectors, the intermediates used by production plants differ across sectors.
+
+  3 Note that throughout this paper integration is defined by the range of activities performed in the same location
+by individual firms (spatial integration) and not by the range of activities performed inside as opposed to outside
+the firm (organisational integration).
+  4 Business services and sector-specific intermediate inputs are assumed non-tradeable for analytical tractability,
+but the qualitative conclusions of the model would be unaffected if they were instead tradeable subject to iceberg
+costs (this issue is further discussed in Section 4). Empirically, the proximity between business service suppli-
+ers and the headquarters of their customers appears to be very important. Kolko [31] documents the increasing
+concentration of business services in the largest cities, which also attract a disproportionate share of headquarters
+(Shilton and Stanley [43]). Davis and Henderson [9] show that the presence of a wider variety of business service
+has a very strong effect on the agglomeration of headquarters; however, this effect declines rapidly with distance,
+taking place mostly within the same county.
+                 G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370         349
+
+
+
+
+                             Fig. 1. Input–output structure of each sector.
+
+
+
+For instance, the headquarters of apparel and automobile firms may work with the same
+banks, lawyers and advertising agencies. But the car parts purchased by automobile facto-
+ries, while perhaps also used by other automobile producers, are very different inputs from
+the fabrics purchased by apparel factories.
+   To formalise this input–output structure and to be able to speak meaningfully about sec-
+toral as well as functional specialisation, it is convenient to define 2m + 1 occupations for
+workers. We assign index 0 to workers employed in business services, and by extension to
+firms in the business service sector; index h to workers directly employed by headquarters
+in sector h for h = 1, . . . , m and to variables related to final production in that sector; and
+index m + h to workers employed in the production of intermediate inputs specific to final
+sector h for h = 1, . . . , m, as well as to firms producing those intermediates.
+   Using this notation, we can now specify the details of firms’ technology. Final-goods
+firms are perfectly competitive and have Cobb–Douglas technology, with cost shares η for
+the headquarter and 1−η for the production plant. Thus, a sector h firm with its headquarter
+in city i and its production plant in city j (where j might be equal to or different from i)
+has a cost function given by
+       h
+      Ci,j = ci,j
+              h    h
+                  xi,j ,                                                                     (3)
+
+       h denotes output,
+where xi,j
+             h η  m+h 1−η
+       h
+      ci,j = Hi,j   Qj                                                                       (4)
+
+                               h is the headquarter sub-cost, and Qm+h is the production
+is the unit production cost, Hi,j                                      j
+plant sub-cost.
+    Headquarter sub-costs are in turn split in a Cobb–Douglas fashion between labour
+directly employed by the headquarter and business services purchased from external sup-
+pliers, with sub-shares µ and 1 − µ respectively. There is an endogenously determined
+mass si0 of business service varieties produced in city i. All varieties enter into headquar-
+ters’ technology with constant elasticity of substitution (θ + 1)/θ , where θ > 0. Thus, for
+350                 G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+an integrated firm with its headquarter and its production plant in the same city i the head-
+quarter sub-cost is
+                     µ  1−µ
+         h
+      Hi,i = Hih = wih Q0i         ,                                                      (5)
+where wih denotes the wage per unit of labour for a worker employed in occupation h in
+city i,
+              si0                     −θ
+                       0 −1/θ
+      Q0i =            qi (k)   dk                                                          (6)
+                0
+
+is the relevant price index of business services in city i, qi0 (k) is the price of variety k of
+business services produced in city i.
+    Each firm needs to transmit headquarter services (such as organisational decisions, mar-
+keting, or finance) to its production plant. The transmission of a firm’s headquarter services
+to a production plant located in a different city involves iceberg costs (for instance, a
+fraction of managers’ time is lost in travelling to visit the plant). Consequently, for a multi-
+location firm with its headquarter in city i and its production plant in another city j the
+headquarter input requirements are higher by a factor ρ > 1 than if it was an integrated
+firm with both facilities in city i:
+        h
+      Hi,j = ρHih .                                                                         (7)
+This is meant to capture that, as Kim [30] shows using US Census data, headquarter costs
+are significantly higher for a multi-location firm than for a similarly-sized firm with inte-
+grated headquarter and production.
+   Production plants for final goods use sector-specific intermediate inputs. There is an
+endogenously determined mass sim+h of intermediate inputs specific to sector h produced
+in city i. All intermediate inputs specific to sector h enter into plants’ technology with
+constant elasticity of substitution ( + 1)/, where  > 0. Thus, the relevant price index of
+intermediate inputs specific to sector h in city i is
+              sim+h                            −
+                      m+h −1/
+      Qm+h
+       i   =          qi (k)     dk                   ,                                     (8)
+                       0
+
+where qim+h (k) is the price of intermediate input k specific to sector h in city i.
+   Both business services and sector-specific intermediate inputs are produced by monop-
+olistically competitive firms à la Dixit and Stiglitz [11]. The cost function of a business
+service firm producing variety k in city i is
+                                 
+       Ci0 (k) = α 0 + β 0 yi0 (k) wi0 ,                                                (9)
+where yi0 (k) denotes the firm’s output. The expression in brackets is the unit labour re-
+quirement, which has both a fixed and a variable component. Thus, there are increasing
+returns to scale in the production of each variety of business services. Similarly, the cost
+function of an intermediate firm producing variety k specific to sector h in city i is
+                                 
+      Cim+h (k) = α + βyim+h (k) wim+h .                                                (10)
+                   G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370     351
+
+
+   Note that the benefits of sharing differentiated intermediate input suppliers will en-
+courage agglomerations of production plants just like the benefits of sharing business
+service suppliers will encourage agglomerations of headquarters. Alternative microeco-
+nomic foundations for these agglomeration forces are possible (Duranton and Puga [13]).
+In particular, we could model the agglomeration of headquarter as the result of their work-
+ers becoming more productive through closer interactions with other headquarter workers,
+as in Ota and Fujita [38]. This would however lead to similar results. Specifying the same
+micro-foundations for agglomeration economies in business services/headquarters as in
+intermediates/production plants eases the exposition and the sharing of suppliers has the
+advantage that it is a particularly tractable source of agglomeration. More importantly, re-
+cent empirical evidence suggests that the presence of a large and diverse local supply of
+business services is the strongest determinant of the agglomeration of headquarters (Davis
+and Henderson [9]).
+
+2.3. Internal urban structure
+
+   We model the internal spatial structure of cities in the simplest standard fashion. Pro-
+duction in each city takes place at a central point, defined as the Central Business District
+(CBD). Surrounding this, there is a line with residences of unit length. Residents commute
+from their residence to the CBD and back, losing in the process a fraction of their unit
+labour supply equal to 2τ times the distanced travelled. Each consumer chooses her place
+of residence so as to maximise utility, given her occupation and income, and the bid-rent
+curve in the city. Because of fixed lot size, this is equivalent to choosing residence so as
+to maximise net income. Thus, a consumer working in occupation h in city i maximises
+wih (1 − 2τ z) − Ri (z) with respect to z, where z is the distance to the CBD and Ri (z) is the
+differential land rent in city i for a residence located at distance z from the CBD.
+   The possibility of arbitrage across residential locations both within and across occupa-
+tions ensures that at the residential equilibrium the sum of commuting cost and land rent
+expenditures is the same for all residents with the same wage; that workers sort themselves
+according to their wage, with higher-paid workers (who have a higher opportunity cost of
+commuting time) living closer to the CBD; that the city is symmetric and the city edges
+are at a distance Li /2 of the CBD (where Li is total population in city i); and that land
+rent function (i.e., the upper envelope of all bid-rent functions) is continuous, convex, and
+piecewise linear. Land rent at the city edges is normalised to zero. Integrating land rent
+over the city yields total land rent:
+               i /2
+               L
+
+      Ri =             Ri (z) dz.                                                         (11)
+             −Li /2
+
+   Let us denote net labour available at the CBD of city i in occupation h by lih . This
+is equal to Lhi minus the total commuting time incurred by workers in this occupation.
+Summing across occupations immediately implies:
+      2m
+            lih = Li (1 − τ Li ).                                                         (12)
+      h=0
+352             G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+2.4. The cost of headquarters and production plants
+
+  Before we proceed to describe the mechanism for city creation, let us derive in two
+Lemmas simplified expressions for the cost of production plants and headquarters in final-
+goods sectors.
+
+Lemma 1 (The cost of production plants). The production plant sub-cost of a sector h
+integrated firm in city i is
+                      −
+      Qm+h
+        i     = lim+h wim+h .
+
+Proof. By Shephard’s Lemma, demand for each variety of intermediates is
+                     h                              η            −(+1)/ 
+                    ∂Cj,i                    Hih         qim+h
+      yim+h =                dj = (1 − η)                                      xj,i dj,   (13)
+                    ∂qim+h                  Qm+h
+                                             i           Qm+h
+                                                          i
+where we have dropped index k since all variables take identical values for all intermediate
+suppliers in the same sector and city. It follows from (13) that the elasticity of demand
+for each intermediate with respect to a firm’s own price is −( + 1)/, so that the profit-
+maximising price for each intermediate is a fixed relative markup over marginal cost:
+      qim+h = ( + 1) βwim+h .                                                            (14)
+Free entry and exit in intermediates drives maximised profits to zero. From the zero profit
+condition, the only level of output in intermediate production consistent with zero profits
+is
+                α
+      yim+h =     .                                                                   (15)
+               β
+Demand for labour by intermediate producers can be obtained by application of Shephard’s
+Lemma to (10) and integration over varieties as
+                       ∂ Cih                              +1
+      lim+h = sim+h            = sim+h α + βyim+h = sim+h α     ,                         (16)
+                      ∂wim+h                                 
+where (15) has been substituted in to yield the final expression. By choice of units of
+intermediate output, we can set β = (/α) ( + 1)−(+1) . Using (16) and (14), the price
+indices of (8) simplify into
+                           −1/ −  m+h − m+h
+      Qm+h
+        i    = sim+h qim+h            = li      wi .        2                        (17)
+
+    As in Fujita [15] and Abdel-Rahman and Fujita [2], in our model there is a monopo-
+listically competitive intermediate sector that hires workers and sells non-tradeable inter-
+mediates to final-goods producers. A larger workforce employed in any given intermediate
+sector m + h of a city leads to a wider range of intermediates being produced for use in
+final-good sector h. Since these intermediates enter the production function of final-good
+producers in sector h with the same constant elasticity of substitution ( + 1)/, a wider
+range of available intermediates results in lower production costs in this final-good sector.
+                    G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370                      353
+
+
+Hence, despite constant returns to scale at the firm level in final production, there are ag-
+gregate increasing returns at the sector-city level, also known as localisation economies.
+The strength of these increases with .
+
+Lemma 2 (The cost of headquarters). The headquarter sub-cost of a sector h integrated
+firm in city i is
+               µ  1−µ
+       Hih = wih Q0i      ,
+where
+             −θ 0
+       Q0i = li0 wi .
+
+   The proof of this lemma mirrors closely that of Lemma 1 and is thus relegated to Appen-
+dix A. The sharing of business services by headquarters, like the sharing of intermediate
+suppliers by plants, gives rise to localisation economies, whereby a larger workforce em-
+ployed in a city’s business service sector leads to a wider range of business services being
+produced, which in turn results in lower costs of operating headquarters. Since business
+services account for a fraction 1 − µ of headquarter costs, these localisation economies
+increase with θ (1 − µ). Furthermore, since by (7) multi-location firms face the same price
+index for business services as integrated firms, these localisation economies apply under
+either organisational form. Note that, since business service suppliers are shared by firms
+in different sectors, an increase in business service employment in a city reduces costs for
+local headquarters from all sectors. An increase in employment by intermediate suppliers,
+on the other hand, only reduces costs for local production plants in the sector using those
+intermediates.
+
+2.5. City formation
+
+    To complete the model, we need to specify a mechanism for city formation. The sim-
+plest alternative is to consider perfectly competitive land development companies or land
+developers. At the same time, active municipal governments with tax raising powers can
+play an equivalent role that would lead to identical results.5 In fact, all we require to obtain
+our results is some mechanism that prevents urban configurations that are sustainable only
+under a coordination failure from arising in equilibrium—for instance, situations in which
+no one moves away from inefficiently large cities for fear of no one else following.
+    For simplicity, we also want to avoid lumpiness problems, such as sectors being smaller
+than the smallest city. We thus assume a large economy in which there is a continuum of
+land developers, not all of which will be active in equilibrium (since there is a discrete
+number of equal-sized industries, the assumption of a continuum of cities guarantees that
+no industry will be smaller than the smallest city in equilibrium). Each developer controls
+all land in several potential sites for a city. Land developers can give occupation-specific
+
+ 5 See Fujita [16] and Henderson and Becker [26] for discussions of this issue and for an equivalence result
+between these two types of institutions. Henderson and Mitra [27] discuss the practical relevance of large agents
+in city formation.
+354                     G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+subsidies to workers. Let us denote by Tih the subsidy given by the developer in city i
+to workers with occupation h. Before workers choose their occupation and sector, land
+developers announce the sites at which they wish to develop cities, the aggregate population
+and the distribution across occupations that they wish to attain.6 There is free entry and
+perfect competition amongst land developers. When active, each land developer seeks to
+maximise total land rent in its city, as given by (11), net of any transfer paid to workers in
+each occupation:
+                                           2m
+         max Πi ,           Π i = Ri −           Tih Lhi ,                                                      (18)
+       {Lhi ,Tih }                         h=0
+subject to workers in each active occupation in the city obtaining the highest consumption
+income available elsewhere, ē:
+       Lhi eih = Lhi ē,        Lhi ⩾ 0,                                                                        (19)
+and subject also to firms with only their headquarter, only their production plant, or both
+facilities, in the city breaking even:
+                   
+                                 η    1−η                      η      1−η
+             xi,j dj P h − ρHih Qm+h
+              h
+                                                 = 0,     P h − ρHih Qm+h            ⩽ 0,
+        i=j
+                
+                       h
+                      xi,j dj ⩾ 0,                                                                              (20)
+               i=j
+                         
+                            h     η    1−η                                   η    1−η
+                 h
+                xj,i dj     P − ρH h Qm+hi        = 0,                    P h − ρH h Qm+hi      ⩽ 0,
+        i=j
+                
+                       h
+                      xj,i dj ⩾ 0,                                                                              (21)
+               i=j
+            h  h η  m+h 1−η                                  η     1−η
+       h
+      xi,i  P − Hi     Qi          = 0,                      P h − Hih Qm+h
+                                                                         i       ⩽ 0,
+                h
+               xi,i ⩾ 0,                                                                                        (22)
+                            
+                          h dj aggregates the output of multi-location firms across all
+where the integral i=j xi,j
+cities, and Qm+h denotes the lowest sub-cost for a final-sector stand-alone plant elsewhere
+
+ 6 The reason why developers need to announce population targets as well as subsidy levels is that otherwise
+too many workers might gather in too few cities relative to what developers aimed to achieve. This is because
+of a well-known co-ordination problem associated with city formation (Henderson [24]; see also Henderson and
+Becker [26] for a careful discussion of this issue and a more detailed characterisation of the land developers’
+problem). Note also that there is a one-to-one mapping between the number of workers in each occupation in
+the city and its firm composition. Hence, unlike in some models where individual firms use multiple primary
+factors (e.g., Henderson and Becker [26]), transfers to workers are an adequate instrument for developers to
+manipulate the production externality created by intermediate and business service suppliers to their advantage.
+Note that subsidies targeted at particular sectors or particular activities (e.g., headquarters, production facilities
+or research centres) are very common in practice. See Helsley and Strange [23] and Henderson and Becker [26]
+for discussions of the instruments of control and the extent of ownership of land developers.
+                   G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370                     355
+
+
+and ρH h denotes the lowest sub-cost for a final-sector stand-alone headquarter elsewhere.
+Note that the worker participation constraint of (19) is binding because of free worker mo-
+bility, which ensures that in equilibrium workers collect the same net returns everywhere.
+Similarly, the firm participation constraints of (20)–(22) are also binding.
+    Consumers are Arrow–Debreu shareholders in all firms and in all land development
+companies. However, free entry by firms and land developers drives their profits to zero in
+equilibrium. Thus, the equilibrium consumption expenditure of a worker with occupation h
+in city i living at a distance z from the CBD is the sum of wage income and any transfer,
+minus land rent expenditures:
+       eih (z) = wih (1 − 2τ z) + Tih − Ri (z).                                                          (23)
+    To solve the model, it is useful to note that the developer’s programme is equivalent to a
+situation in which the developer maximises the gap between the pre-transfer consumption
+expenditure of workers in the city and the post-transfer income which they could obtain
+elsewhere, subject to zero profit by firms and a feasibility constraint.
+
+Lemma 3 (Equivalent developer’s programme). The developer’s programme is equivalent
+to
+                            2m
+       max Πi ,     Πi =          wih lih − Li ē,
+        {lih }              h=0
+
+subject to (20)–(22), lih ⩾ 0 and (12).
+
+Proof. Integrating
+                      (23) over population in the city and using (11) and (12) yields
+Lhi eih = 2m    w h l h + 2m T h Lh − R . Substituting the worker participation constraint
+            h=0 i i         h=0 i i         i
+of the original programme, Lhi eih = Lhi ē, into this expression implies transfers such that
+2m h h                 2m h h
+    h=0 Ti Li = Ri −       h=0 wi li + Li ē. Inserting this into the original programme (18)
+                                        h
+
+yields the result. 2
+
+   By lowering transfers down to the point where every worker gets ē, a developer can
+extract any surplus consumption income of workers in its city over that available elsewhere.
+Hence it is in the developer’s interest to achieve an urban configuration such that workers
+obtain the highest possible pre-transfer consumption income, thus maximising the total
+wage bill in the city, and simply set transfers to extract the surplus.7
+
+
+3. Equilibrium types and sizes of cities
+
+    In this section we show that in equilibrium there can be at most three types of cities:
+cities with only stand-alone headquarters and their business service suppliers, cities with
+
+ 7 Note also that the second-order conditions of this equivalent developer’s programme ensure that, in equilib-
+rium, population constraints do not need to be enforced by the developer (i.e., a small change in the mass of
+workers with a given occupation will result in a reduction in their utility).
+356             G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+only stand-alone production plants in one sector and their intermediate suppliers, and
+cities with only integrated firms in one sector and their business service and intermedi-
+ate suppliers. This is done in three steps. First, we show that in equilibrium no city has
+both stand-alone headquarters and stand-alone plants belonging to multi-location firms
+(Lemma 4). This still leaves the possibility of cities with a combination of headquarters
+from multi-location firms and integrated firms or a combination of production plants from
+multi-location firms and integrated firms operating in any combination of sectors. Our sec-
+ond step is therefore to show that in equilibrium no city hosts production plants in more
+than one sector (Lemma 5). That narrows down cities to five possible types:
+
+  (i) cities with only integrated firms in one sector,
+ (ii) cities with only headquarters from multi-location firms,
+(iii) cities with only production plants from multi-location plants in one sector,
+(iv) cities with production plants of both multi-location firms and integrated firms in one
+      sector, and
+ (v) cities with both headquarters of multi-location firms and integrated firms.
+
+Our third step is to rule out the last two types of cities, by showing that a city with in-
+tegrated firms has neither headquarters nor production plants belonging to multi-location
+firms (Lemma 6). We then proceed in the following section to study which of the three
+remaining possible types of cities exist in equilibrium depending on parameters.
+
+Lemma 4 (Multi-location headquarter and plant separation). In equilibrium, stand-alone
+headquarters and stand-alone plants belonging to multi-location firms do not coexist in
+the same city.
+
+Proof. Consider a city with stand-alone headquarters and production plants in the same
+sector. Then, from Eqs. (20) and (21), Hih = H h and Qim+h = Qm+h = (P h )1/(1−η) ×
+(ρH h )−η/(1−η) . But then an integrated firm operating in the same city and sector would
+make profits equal to P h − (Hih )η (Qim+h )1−η = (1 − 1/ρ η )P h > 0, which contradicts (22).
+Consider now a city with stand-alone production plants in sector h and stand-alone head-
+quarters in a different sector h . By Lemmas 1, 2, and 3, a developer can transfer head-
+quarter resources from sector h to sector h without affecting localisation economies in the
+production of either business services or sector-specific intermediates, nor its own profits.
+This will create the same profit opportunity from firm integration, which the developer can
+appropriate by lowering transfers. 2
+
+   This lemma rules out the existence of cities hosting stand-alone headquarters and stand-
+alone production plants from different multi-location firms. Its intuition is the following.
+The headquarters of multi-location firms only locate in a city if it provides the lowest head-
+quarter cost available anywhere. Similarly, the production plants of multi-location firms
+only locate in a city if it provides the corresponding intermediates at the lowest cost. If a
+city were to provide both the lowest headquarter cost and the lowest costs for production
+plants for multi-location firms in the same sector and they broke even, then multi-location
+firms with either a headquarter or a production plant in the city would make positive pro-
+                 G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370     357
+
+
+fits by becoming integrated firms—thus saving on the transmission cost for headquarter
+services. The local developer could then capture the rents from this unexploited profit op-
+portunity by lowering transfers, thus forcing firms to pay higher wages so that worker
+income stays at ē. Therefore, in equilibrium, headquarters and plants belonging to multi-
+location firms in the same sector do not coexist in the same city. Since resources used
+by headquarters, either directly or indirectly, can be shifted across sectors without chang-
+ing given wages, headquarters and plants belonging to multi-location firms do not coexist
+in the same city even for different sectors. In effect, multi-location firms exist to exploit
+the advantages of different types of cities for headquarters and production plants, so the
+headquarters and production plants of multi-location firms are always located in different
+cities.
+    Following Lemma 4, it is still possible to envision cities with a combination of head-
+quarters from multi-location firms and integrated firms or a combination of production
+plants from multi-location firms and integrated firms operating in any combination of sec-
+tors. As a further restriction of the equilibrium set, the next Lemma shows that cities must
+be specialised in their final production.
+
+
+Lemma 5 (Production specialisation). In equilibrium, each city hosts production plants in
+at most one sector.
+
+
+Proof. Consider a developer choosing how to allocate across sectors the local amount
+of
+mlabourm+hengaged in intermediate production. By Lemma         3, this involves maximising
+   h=1 wi     lim+h subject to (20)–(22) and keeping m         lim+h constant. By Lemma 1,
+                  m+h                                   h=1
+wim+h = Qm+hi     li      . Changing the allocation of labour across occupations m to 2m in
+any city does not change any price, P h , nor any headquarter cost, Hih . Consequently, by
+(20)–(22), it does not affect the Qm+h
+                                   i    consistent with zero profits. Hence, in choosing how
+to allocate across sectors the local amount of labour engaged in intermediate production,
+the developer maximises
+
+       m                    m
+                                        m+h 1+
+            wim+h lim+h =         Qm+h
+                                   i    li                                              (24)
+      h=1                   h=1
+
+                    
+for given Qm+h
+           i    and m       m+h
+                       h=1 li   . The convexity of this expression implies that all labour
+producing intermediates in any given city is allocated to a single sector. 2
+
+
+   This result is reminiscent of Henderson [24]. Recall that, because of its ability to ex-
+tract any surplus consumption income of workers in its city, each developer behaves as if
+maximising the total wage bill in the city. With no equilibrium firm profits this implies
+maximising the value of production in the city. In the presence of localisation economies,
+final output in any given city and sector rises more than proportionately with employ-
+ment in that city and sector. Maximisation of the value of production thus implies a corner
+358                  G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+solution for the allocation across sectors of labour employed in intermediate production.
+Consequently, any city that hosts plants hosts them in only one sector.8
+   From Lemmas 4 and 5, only five types of cities are possible:
+
+  (i) cities with only integrated firms in one sector,
+ (ii) cities with only headquarters from multi-location firms,
+(iii) cities with only production plants from multi-location plants in one sector,
+(iv) cities with both production plants of multi-location firms and integrated firms, and
+ (v) cities with both headquarters of multi-location firms and integrated firms.
+
+The next lemma rules out the last two types of cities and shows that cities must be spe-
+cialised by organisational form.
+
+Lemma 6 (Specialisation by type of firms). In equilibrium, each city hosts either only
+final-sector headquarters and business service suppliers, only final-sector manufacturing
+plants and intermediate suppliers, or only integrated firms plus business services and in-
+termediate suppliers.
+
+                                              µ       1−µ               θ(1−µ)
+Proof. By Lemma 2, we have (wih ) (wi0 )         = Hih (li0 )    . By Shephard’s Lemma,
+          m
+we have h=1 wi li = (µ/(1 − µ))wi li . Combining these two equations yields wi0 li0 =
+                   h  h                0 0
+                     (1+θ)(1−µ) m         1/µ   µ
+(µ/(1 − µ))−µ (li0 )           [ h=1 (Hih ) lih ] . By inspection of this expression we can
+see that profit maximisation by land developers requires Hih = Hi for all h such that lih > 0.
+Hence
+        m                                                              m          µ
+                                                   
+             wih lih = µ−µ (1 − µ)−(1−µ) Hi li0
+                                                (1+θ)(1−µ)
+                                                                            lih       .                    (25)
+       h=0                                                            h=1
+                                                                                             m      h
+Maximisation of this component of the developer’s programme for given                           h=0 li shows
+that
+        m
+                            µ
+             lih =                  l0.                                                                    (26)
+                     (1 + θ )(1 − µ) i
+       h=1
+Substituting (24)–(26) and Lemma 5 into the developer’s programme of Lemma 3, we can
+rewrite this as
+                            (1 + θ )−µ  0 1+θ(1−µ)           m+h 1+
+            max Πi , Πi =             Hi li          + Qm+h    li        − Li ē, (27)
+      {li0 ,lih ,lim+h }      1−µ                         i
+
+
+subject to (20)–(22), lih ⩾ 0 and (12).
+   To prove the lemma, it is sufficient to show that cities with both production plants
+of multi-location firms and integrated firms, and cities with both headquarters of multi-
+
+ 8 In practice, while many cities are narrowly specialised, some are quite diversified. However, this has much to
+do with the relative advantages of diversity and specialisation for innovation and production, an issue which is
+outside the scope of this paper (see Duranton and Puga [12]).
+                G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370        359
+
+
+location firms and integrated firms incompatible with profit maximisation by the devel-
+opers. By (20)–(22), in a city with both integrated firms and production plants of multi-
+location firms, (ρH h )η (Qm+h
+                            i   )1−η = (Hi )η (Qm+h
+                                                 i   )1−η = P h , and hence Hi = ρH h and
+Qi m+h
+        = (P )
+             h 1/(1−η) (ρH )h −η/(1−η) =Q   m+h . Similarly, in a city with both integrated
+firms and headquarters of multi-location firms, (ρHi )η (Qm+h )1−η = (Hi )η (Qm+hi    )1−η =
+P , and hence Hi = (1/ρ)(P ) (Q
+   h                           h 1/η   m+h )−(1−η)/η  = H and Qi
+                                                          h        m+h
+                                                                       =ρ   η/(1−η) Q m+h . In
+                       m+h
+either case, Hi and Qi     are pinned down by the firm participation constraints, and hence
+they are taken as given by the developer when implementing the programme of (27). By in-
+spection of (27), given that θ > 0 and  > 0, a configuration with both integrated firms and
+production plants of multi-location firms in the same city cannot be an equilibrium, since
+the developer would do better either by having only production plants or by having no
+production plants except those needed to have integrated firms. Similarly, a configuration
+with both integrated firms and headquarters of multi-location firms in the same city cannot
+be an equilibrium, since the developer would do better either by having only headquarters
+or by having no headquarters except those needed to have integrated firms. 2
+
+    Localisation economies in the production of both business services and sector-specific
+intermediates imply that a profit-maximising developer will avoid mixing headquarters
+and production plants in a city, except possibly if these belong to integrated firms—due to
+the lower headquarter requirements associated with integrated firms. Having reduced the
+possible city types to three, we can now derive the equilibrium size of the different types of
+cities. Let us denote by subscripts M, H , and I , variables corresponding to cities hosting
+only production plants for multi-location firms, only headquarters for multi-location firms,
+and only integrated firms, respectively.
+
+Lemma 7 (Equilibrium city sizes). In equilibrium, cities hosting only final-sector produc-
+tion plants and intermediate suppliers (if any) have a population
+                  
+      LM =              ;
+             τ (1 + 2)
+cities hosting only final-sector headquarters and business service suppliers (if any) have a
+population
+                   σ
+       LH =               ;
+              τ (1 + 2σ )
+and cities hosting only integrated firms plus business services and intermediate suppliers
+(if any) have a population
+                  γ
+       LI =              ;
+             τ (1 + 2γ )
+where σ ≡ θ (1 − µ), and γ ≡ ηθ (1 − µ) + (1 − η).
+
+    The proof of this lemma is relegated to Appendix B. As is standard in the literature, there
+is a trade-off between commuting costs (τ ) and the extent of aggregate increasing returns
+in the city (, σ , or γ ). Here, aggregate increasing returns arise despite constant-returns
+360                 G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+technology in final production due to the sharing of intermediate suppliers in cities with
+production plants of multi-location firms, due to the sharing of business service suppliers
+in cities with headquarters of multi-location firms, and due to the sharing of both types of
+suppliers in cities with integrated firms. The ability of competitive developers to control the
+composition of the workforce in their city and to extract any surplus makes them efficient.
+At the competitive equilibrium, cities will thus be of optimal size conditional on their type.9
+This size increases with the intensity of increasing returns and decreases with the cost of
+commuting. To achieve optimal city size, developers must make transfers to local workers
+so as to cover the gap between the value of their private and social marginal products. With
+zero profits for developers, total land rents equal total transfers, and thus are just enough
+to cover that gap. This is known as the Henry George Theorem and is a standard result in
+urban economics, both in the context of production subject to local aggregate increasing
+returns (Serck-Hanssen [42], Starrett [44], Vickrey [47]) and in the context of local public
+goods (Flatters et al. [14], Stiglitz [45], Arnott and Stiglitz [5]). In the current context
+it implies that, in equilibrium, all cities achieve optimal size, and developers transfer all
+land rents in their city to local workers, filling the gap between the private and the public
+marginal product of labour.
+
+
+4. From sectoral to functional urban specialisation
+
+   It is now possible to derive our main result. The choice of organisational form by firms
+as well as the urban structure depend on how much higher is the cost of providing head-
+quarter services to a plant in a different city as compared to a plant in the same city (ρ).
+
+Proposition 1 (Equilibrium firm organisation and urban structure). If ρ > ρ̂, where
+                                                                                 1/η
+                             (1 + 2γ )1+2γ σ ησ  (1−η)
+       ρ̂ ≡                                                                            ,
+                γ γ [ησ (1 + 2σ )1+2σ ]η [(1 − η) (1 + 2)1+2 ]1−η
+then all firms adopt an integrated organisational form, and all cities specialise by sector,
+hosting headquarters and production plants plus business service and intermediate sup-
+pliers. If instead ρ < ρ̂ then all firms adopt a multi-location organisational form, and all
+cities specialise by function, with a share
+                  η(1 + 2σ )
+       η(1 + 2σ ) + (1 − η)(1 + 2)σ
+
+  9 It is only because the economy is large that cities can reach their optimal size regardless of the urban con-
+figuration (i.e., the number of cities of each type). Having instead a small economy creates a lumpiness problem
+whereby cities in equilibrium are typically larger than their optimal size (since any size below optimum city size
+is unstable) and the relative inefficiency of equilibrium city sizes depends on the configuration. Thus, in a small
+economy the main result derived in Section 4 would not depend on the comparison of the optimal city sizes but on
+the comparison of the optimal sizes subject to the lumpiness constraint (which converge to the the optimal sizes
+as the economy grows arbitrarily large). In the more pathological case of very small sectors consuming a large
+share of business services, Lemma 5 may not even hold as some cities may find it worthwhile to host production
+plants of integrated firms in two or more sectors so that they can share the costs of business services. For further
+discussion of these issues, see Papageorgiou and Pines [39].
+                    G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370                   361
+
+
+of cities hosting headquarters from any sector plus business service suppliers, and the re-
+maining cities hosting production plants plus intermediate suppliers from the same sector,
+with equal proportions of cities specialised in production in each of the m sectors.
+
+Proof. From (4), (7), and Lemmas 2 and 1, the equilibrium unit production cost for multi-
+location firms is
+                h ηµ  0 η(1−µ)  m+h 1−η  0 −ησ  m+h −(1−η)
+       h
+      cM  = ρ η wH      wH          wM         lH       lM            .             (28)
+Dividing this by the unit production cost for integrated firms of (B.14) yields
+                  
+       h
+      cM       ρ η
+          =         ,                                                                                    (29)
+      cIh      ρ̂
+where
+                       ηµ          η(1−µ)            1−η         −ησ            −(1−η) 1/η
+                  wIh          wI0              wIm+h          lI0           lIm+h
+      ρ̂ ≡         h            0                m+h            0             m+h
+                                                                                                     .   (30)
+                  wH           wH               wM             lH            lM
+The firm participation constraints of (20)–(22) imply that to be sustainable cities must
+offer firms the possibility of producing at the lowest available unit cost. If ρ > ρ̂ then
+ h > ch , all firms adopt an integrated organisational form, and every city hosts head-
+cM       I
+quarters and production plants, which by Lemma 5 belong to the same sector, plus their
+                                                                     h < ch , all firms adopt
+business service and intermediate suppliers. If instead ρ < ρ̂ then cM     I
+a multi-location organisational form, and every city either hosts headquarters from any
+sector plus their business service suppliers or hosts production plants, which by Lemma 5
+belong to the same sector, plus their intermediate suppliers. By Shephard’s Lemma,
+wH0 l 0 = ((1 − µ)/µ)w h l h . From this, (26), and Lemma 5,
+     H                  H H
+         h
+        wH
+         0
+              = 1 + θ.                                                                                   (31)
+        wH
+The developer’s programme of Lemma 3, together with the exhaustion of developers’ prof-
+its due to free entry imply
+            1                              1                                 m+h m+h
+                w 0 l 0 = LI ē,             w 0 l 0 = LH ē,               wM  lM = LM ē.              (32)
+        η(1 − µ) I I                      1−µ H H
+From (B.16), (31), and (32),
+        wIh       wI0          0
+                          ηLI lH          wIm+h                   m+h
+                                                       (1 − η)LI lM
+          h
+            =        =            ,            m+h
+                                                   =                    .                                (33)
+        wH         0
+                  wH      LH lI 0
+                                          wM              LM lIm+h
+Substituting (B.6), (B.10), (B.22), (B.24), (33), and Lemma 7 into (30) and simplifying
+yields the value of ρ̂ given in the proposition. Denote by NH the mass of cities that host
+headquarters of multi-location firms and by NM the mass of cities that host production
+plants of multi-location firms when ρ < ρ̂. By Shephard’s Lemma,
+           0 l0 N
+          wH  H H              η(1 − µ)
+                           =            .
+         m+h m+h
+        wM  lM N M              1−η
+362             G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+Combining this with (32) yields the share of cities that host only headquarters when ρ < ρ̂
+as
+               η(1 + 2σ )
+                                      .
+    η(1 + 2σ ) + (1 − η)(1 + 2)σ
+The remaining cities specialise in production and, by symmetry, there are equal proportions
+of cities specialised in each of the m sectors. 2
+
+4.1. Discussion
+
+    In our model, firms face a trade-off between the gains from integrating their headquarter
+and production plant and the gains from separating them. The gains from integration stem
+from lower headquarter requirements. The gains from separation arise from the lower costs
+of operating headquarters in cities with a higher specialisation in business services, and
+the lower costs of operating production plants in cities with a higher specialisation in the
+corresponding intermediates.
+    When the transmission cost for headquarter services is high, firms remain integrated.
+Because of localisation economies in production and urban congestions costs increasing
+with size, this in turn leads cities to specialise by sector. In contrast, when the transmission
+cost for headquarter services is low, firms wish to locate their headquarter in cities where
+business service employment is abundant and their production plant in cities with a greater
+same-sector specialisation in final production. And it is in the interest of profit-maximising
+developers to make it feasible for firms to implement this separation. Since the same or-
+ganisational choice is made by a large number of firms, it in turn affects the employment
+patterns of cities, which is itself what makes the organisational choice worthwhile. As a
+result, some cities specialise in headquarters and business services and others in final and
+intermediate production, the latter also being specialised by sector.
+    Many business and economic historians have argued that the extra costs of coordinat-
+ing and monitoring multi-location firms relative to integrated firms has decreased very
+significantly following key technological developments in transport and communication
+technologies, as well as new management practices (Chandler [7], Kim [30]). The cost
+of transporting goods, people, and ideas has declined dramatically over the last century.
+For instance, maritime freight in 1990 was only one third as costly as in 1920, while for
+air-travel the revenue per passenger-mile in 1990 was one sixth of what it was in 1930.
+Large as they may seem, these changes are dwarfed by the free fall in telecommunication
+costs: the cost of a three-minute telephone conversation between New York and London
+fell by 98.7% between 1930 and 1990 (Jones [28]). According to Yates [48,49], manage-
+rial and accounting innovations have played an even greater role than the sheer reduction
+in the cost of physical distance. Of particular importance has been the development of du-
+plicators of various types, such as the typewriter together with the use of carbon copies,
+and later the photocopying and fax machines, and e-mail. Such duplicators have made the
+transmission of information along a managerial hierarchy and across space much faster
+and much cheaper. Other recent developments in information technologies, such as online
+stock monitoring and ordering have also facilitated management over large distances. On
+the whole, it seems that this reduction in the cost of coordination and monitoring across dis-
+                    G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370                        363
+
+
+
+
+                         Fig. 2. Unit costs of multi-location relative to integrated firms.
+
+
+tant locations can to a very large extent be taken as exogenous to the rise of multi-location
+firms.
+   This reduction in the additional costs related to remote management can be simply
+represented in the model as a reduction in ρ. Figure 2 plots the unit production cost of
+multi-location firms (cM ) relative to the unit production cost of integrated firms (cI ) as
+a function of ρ.10 When ρ is above ρ̂, any developer attempting to set up cities with ei-
+ther only headquarters or only production plants cannot attract firms in the face of the
+competition from developers in cities hosting only integrated firms, which offer lower unit
+production costs. Thus every firm adopts an integrated organisational structure and every
+city hosts headquarters and production plants from one sector. By Proposition 1, when
+ρ falls below ρ̂ cities with either only headquarters or only production plants of multi-
+location firms offer a combined unit cost below that available in integrated cities. Firms
+previously organised as a single unit become multi-unit organisations. Multi-unit firms
+locate their headquarters separately from their own production plants, but close to other
+headquarters and business service firms. They also locate their plants close to other manu-
+facturing facilities with which they can share intermediate suppliers. This leads to a change
+in urban structure, with a shift in the main dimension along which cities specialise, from a
+specialisation by sector to a specialisation by function.11
+
+10 The figure plots (29) for ρ̂ given by Proposition 1 with parameters σ = 0.07 (a 1% increase in employment in
+a city hosting headquarters and business services increases local productivity by 1.07%),  = 0.05 (a 1% increase
+in employment in a city hosting only production plants and intermediate suppliers increases local productivity by
+1.05%), and η = 0.2 (headquarters account for 20% of total costs). By symmetry, superscript h has been dropped
+from cMh and ch . Note that, by (B.14) and (28), c varies with ρ but c does not. With these parameter values, the
+                I                                 M                   I
+change in firms’ organisation and in urban structure takes place when the additional costs of remote management
+fall below 17.3% of the management costs for an integrated firm (ρ̂ = 1.173).
+11 While the model predicts recent changes in firms’ organisation and in the urban structure, it presents these
+as happening suddenly as ρ falls below a certain threshold. The catastrophic aspect of these changes is due to
+the stylised nature of the model. A smoother transition could be obtained with a sector-specific cost of separating
+364                 G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+    In practice, localisation economies are likely to be stronger for business services than for
+manufacturing intermediates (see Markusen [35] for a conceptual discussion of this issue
+and Dekle and Eaton [10] and Davis and Henderson [9] for empirical evidence). In terms
+of the model, this simply requires that σ > . In this case, it follows from Lemma 7 and
+Proposition 1 that when cities specialise by function, headquarters and business services
+becomes concentrated in larger cities and manufacturing production gets located in smaller
+cities (with σ > , LH > LI > LM ).12 All of this provides a consistent explanation for the
+stylised facts documented in the introduction.
+    While improvements in physical transportation technologies have facilitated the disper-
+sion of manufacturing activities, improvements in telecommunication technologies may
+have the opposite effect on business services and other knowledge-intensive activities
+(Leamer and Storper [32]). Because of the complementarity between telecommunication
+and face-to-face contact (as evidenced for instance by Gaspar and Glaeser [19]), cheaper
+and more sophisticated telecommunications increase the benefits of clustering in activities
+characterised by complex and timely interactions such as business services. In our frame-
+work, this implies a growing difference in the strength of localisation economies between
+business services (σ ) and manufacturing intermediates ().13 A change in just one of these
+two parameters would change average localisation economies, which would have conse-
+quences of its own. Thus, in order to isolate formally the effects of a growing difference
+in the strength of localisation economies between business services and manufacturing in-
+termediates, consider an increase in localisation economies in business services (σ ) and
+a corresponding reduction in localisation economies in manufacturing () so as to keep
+average localisation economies (γ ≡ ησ + (1 − η)) constant. In the absence of changes
+in the urban structure, such changes in localisation economies imply smaller manufactur-
+ing cities and a growth in the size of cities hosting headquarters and business services.
+However, theses changes in localisation economies may also trigger further changes in the
+organisation of production within firms and across cities. Regarding the threshold for the
+separation of headquarters and production (ρ̂), there are two effects of opposite sign:
+                                              
+        dρ̂                (1 − η)σ (1 + 2)2
+                      = log                       ρ̂ ≷ 0.                                                      (34)
+        dσ d=− η dσ           η(1 + 2σ )2
+                    1−η
+
+
+
+
+headquarters and production plant, ρ h . Assume a gradual decline in this cost across all sectors with ρ 1 < ρ 2 <
+· · · < ρ m at all times. Then as ρ 1 falls below ρ̂, cities previously specialised in sector 1 undergo a shift from
+sectoral to functional specialisation. Some cities are left with only production plants in this sector, whereas their
+headquarters concentrate in business centres. The same happens again in sector 2, . . . , m as ρ 2 , . . . , ρ m fall
+below ρ̂. Another extension that would also yield a smoother transition is discussed in the concluding section.
+12 If we were to introduce the possibility of supplying business services and manufacturing intermediates to
+firms in a different city subject to some trade cost, then a greater difficulty in supplying business services at a
+distance would also result in higher localisation economies for business services than for manufacturing interme-
+diates. Similarly, a greater impact of the congestion costs associated with larger cities on manufacturing than on
+business services, say because of their different land intensity, would have analogous implications for the relative
+magnitude of localisation economies.
+13 An increase in the share of headquarter costs accounted for by business services purchased from external
+suppliers, 1 − µ, as compared to directly employed labour would have the same effect (recall that σ ≡ (1 − µ)θ ).
+                   G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370                     365
+
+
+There is a negative effect on ρ̂ working through relative city sizes: if σ  , LH  LM , so
+lumping production with headquarters and business services saves headquarter resources
+without much added congestion. On the other hands, there is a positive effect on ρ̂ working
+through relative wages: if σ  , wH  wM , so lumping production with headquarters and
+business services involves paying production workers much more than they would earn in
+separate cities. If business services generate much stronger localisation economies than
+manufacturing intermediates this second effect tends to dominate: urban concentrations of
+headquarters and business services tend to be very large, and the high wages that workers
+must be paid to compensate for high congestion costs drive away production plants and
+their suppliers, for which localisation economies are weaker.14
+
+
+5. Concluding comments
+
+   Our model relates key stylised facts regarding changes in the organisation of firms and
+changes in the urban structure. Technological progress in transport and telecommunication
+technologies have made it less costly for firms to separate their production facilities from
+their headquarter and management facilities. Such a separation is worthwhile only if the
+firms can locate their production facilities in environments with greater same sector spe-
+cialisation and their headquarters in business centres where business service employment is
+abundant. This in turn gives a strong incentive for cities to shift from a main specialisation
+along a sectoral dimension to a main specialisation along a functional dimension, lead-
+ing to the emergence of separate business centres and manufacturing cities. With greater
+benefits from proximity for headquarters and business services than for manufacturing, the
+shift from sectoral to functional specialisation also implies that business centres are few
+and large whereas manufacturing centres are more numerous and smaller in size.
+   Although outside the scope of this paper, three extensions of this model are worth con-
+sidering. First, one could enrich the model by assuming different types of business services.
+Some business services (e.g., standard business banking or equipment leasing services)
+need to be provided on a frequent basis and benefit from a proximity between suppliers
+and customers. There are also sophisticated business services (e.g., specialised financial ad-
+vice for mergers-and-acquisitions) that are not required as often and for which a proximity
+between similar business service firms is more important. Finally, there are routinised busi-
+ness services (e.g., call centres) that can be easily be provided from far-away. In this case,
+when business services and manufacturing become separated, we would expect day-to-day
+services to locate in relatively large cities close to the headquarters of their customers,
+more sophisticated services might cluster in a handful of ’world cities’ (such as New York,
+London, and Tokyo) concentrating all the highest management functions (Hall [21]), and
+the likes of call centres might be farmed-out to low-cost locations.
+   Second, one could incorporate a richer geography. For instance, the cost of managing
+production remotely might increase in the distance from the headquarter. This could ex-
+
+14 Dekle and Eaton [10] and Adsera [3] find evidence that this kind of process is taking place in Japan and the
+US respectively.
+366                G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+plain the existence of regional business centres that host headquarters whose plants are
+predominantly in close-by cities.
+   Finally, a particularly interesting (but non-trivial) extension would be to consider hetero-
+geneous firms and a small fixed-cost associated with headquarter separation. This would
+allow for the co-existence of small firms, with a tendency to co-locate management and
+production, and large firms, with a greater tendency to separate their headquarters and
+production plants (Aarland et al. [1]). This extension would also allow for a richer urban
+landscape and for a smoother equilibrium transition as the costs of managing production
+remotely decline.
+
+
+Acknowledgments
+
+   We are grateful to Fernando Álvarez, Paul Cheshire, Masahisa Fujita, Nancy Gallini,
+Ed Glaeser, Claus-Friedrich Laaser, Henry Overman, David Pines, Rüdiger Soltwedel,
+Will Strange, participants at CIAR and CEPR workshops and at the RSAI North Amer-
+ican meetings, and two referees for helpful comments and discussions. We are especially
+indebted to Vernon Henderson for his suggestions and encouragement at various stages of
+this project. A first version of this paper was circulated in February 2001, following a visit
+by Duranton to the University of Toronto, whose hospitality is gratefully acknowledged.
+   Gilles Duranton is also affiliated with the Centre for Economic Policy Research, and the
+Centre for Economic Performance at the London School of Economics.
+   Diego Puga is also affiliated with the Canadian Institute for Advanced Research, the
+Centre for Economic Policy Research, and the National Bureau of Economic Research.
+Funding from the Social Sciences and Humanities Research Council of Canada, and from
+the Connaught Fund of the University of Toronto is gratefully acknowledged.
+
+
+
+Appendix A. Proof of Lemma 2
+
+      By Shephard’s Lemma, demand for each variety of business services is
+                 ∂C h
+                    i,j
+        yi0 =             dj
+                   ∂qi0
+                                     1−η         µ         −(θ+1)/θ                        
+                           Qm+h            wih        qi0
+           = η(1 − µ)       i
+                                                                        xi,i + ρ       xi,j dj .   (A.1)
+                               Hih         Q0i        Q0i
+                                                                               j =i
+
+It follows from (A.1) that the elasticity of demand for each business service with respect
+to a firm’s own price is −(θ + 1)/θ , so that the profit-maximising price for each business
+service is a constant relative markup over marginal cost:
+
+        qi0 = (θ + 1)β 0 wi0 .                                                                     (A.2)
+                    G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370      367
+
+
+Free entry and exit in business services drives maximised profits to zero. From the zero
+profit condition, the only level of output in services consistent with zero profits is
+           α0
+      yi0 =    .                                                                  (A.3)
+          β 0θ
+Demand for labour by business service suppliers can be obtained by application of Shep-
+hard’s Lemma to (9) and integration over varieties as
+                  ∂Ci0                               θ +1
+      li0 = si0          = si0 α 0 + β 0 yi0 = si0 α 0      ,                              (A.4)
+                  ∂wi0                                   θ
+where (A.3) has been substituted in to yield the final expression. By choice of units of
+business service output, we can set β 0 = (θ/α 0 ) (θ + 1)−(θ+1) . Using (A.4) and (A.2), the
+                                                  θ
+
+price indices of (6) simplify into
+              −1/θ −θ  0 −θ 0
+       Q0i = si0 qi0          = li     wi .                                            (A.5)
+
+
+Appendix B. Proof of Lemma 7
+
+   Consider first a city hosting only production plants for multi-location firms. From (12),
+      m+h                        
+     lM   = Lm+hM     1 − τ Lm+h
+                              M    .                                                  (B.6)
+The developer’s programme of (27), for the case of a city hosting only production plants
+for multi-location firms in sector h, can thus be expressed as
+               m+h        m+h                         m+h 1+
+      max ΠM        , ΠM       = Qm+h Lm+h M (1 − τ LM )        − Lm+h
+                                                                   M ē.           (B.7)
+      {Lm+h
+        M }
+
+The first order condition for (B.7) implies that workers consumption expenditure equals
+the value of their social marginal product
+                                                       
+      ē = (1 + )Qm+h Lm+hM     1 − τ Lm+h
+                                        M        1 − 2τ Lm+h
+                                                         M    .                   (B.8)
+Free entry of land developers exhausts their profits in equilibrium. Substituting (B.8) into
+                   m+h
+(B.7) and using ΠM      = 0 yields equilibrium population for any city hosting only produc-
+tion plants as
+                            
+      LM = Lm+h     =             .                                                   (B.9)
+               M
+                       τ (1 + 2)
+Turning to a city hosting only headquarters for multi-location firms, from (12) and (26),
+             1+σ −µ h               
+       0
+      lH =              LH 1 − τ LhH ,                                               (B.10)
+               1+σ
+               µ                
+       h
+      lH =         Lh 1 − τ LhH .                                                    (B.11)
+             1+σ H
+By symmetry, H h = H for all sectors. Substituting (B.10) into (27), the programme for the
+developer of a city hosting only headquarters for multi-location firms is
+                                (1 + θ )1+σ −µ (1 − µ)σ               1+σ
+      max ΠH ,           ΠH =                          H LH (1 − τ LH )     − LH ē.      (B.12)
+      {LH }                           (1 + σ )1+σ
+368                    G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+The first order condition for (B.12) together with ΠH = 0 yields equilibrium population
+for any city hosting only headquarters as
+                   σ
+      LH =                .                                                     (B.13)
+              τ (1 + 2σ )
+Finally, consider a city hosting only integrated firms. From (4), and Lemmas 2 and 1, the
+equilibrium unit production cost for integrated firms in sector h is
+             ηµ  0 η(1−µ)  m+h 1−η  0 −ησ  m+h −(1−η)
+      cIh = wIh      wI         wI          lI      lI            .               (B.14)
+By Shephard’s Lemma,
+                      1 − µ h h η(1 − µ) m+h m+h
+      wI0 lI0 =            w I lI =     w I lI .                                             (B.15)
+                        µ           1−η
+From (26), Lemma 5, and (B.15),
+       wIh                       wIm+h         (1 − η)lI0
+           = 1 + θ,                      =                    .                              (B.16)
+       wI0                        wI0        η(1 − µ)lIm+h
+Substituting (B.16) into (B.14) yields
+                                                1−η
+                                      1−η                0 −η(1+σ )  m+h −(1−η)(1+)
+      cIh = wI0 lI0 (1 + θ )ηµ                           lI            lI                .   (B.17)
+                                     η(1 − µ)
+Zero profits for final firms imply that, if in equilibrium any city has only integrated firms
+in sector h, cIh = P h . We can thus use this and (B.17) to solve for wI0 lI0 as a function of lI0 ,
+lIm+h , P h , and parameters. From (B.15), we obtain
+                                                  1
+      wI0 lI0 + wIh lIh + wIm+h lIm+h =               w0 l 0
+                                              η(1 − µ) I I
+                                                         η(1+σ )        (1−η)(1+)
+                                             P h (l 0 ) (l m+h )
+                                           = η I 1−η I                    .                  (B.18)
+                                            η (1 − η) (1 + θ )ηµ (1 − µ)η
+And by (12) and (26), lI0 + lIh + lIm+h = ((1 + σ )/(1 + σ − µ))lI0 + lIm+h = LhI (1 − τ LhI ),
+where LhI denotes total population in this city. Hence, the developer’s programme of (27)
+for the case of a city hosting only integrated firms can be expressed as
+                                              η(1+σ )         (1−η)(1+)
+                                     P h (lI0 )     (lIm+h )
+        max ΠIh ,           ΠIh =                                 − LhI ē,                  (B.19)
+      {lI0 ,lIm+h }                 η (1 − η) (1 + θ )ηµ (1 − µ)η
+                                     η          1−η
+
+subject to
+        1+σ                             
+              lI0 + lIm+h = LhI 1 − τ LhI .                                                  (B.20)
+       1+σ −µ
+The first order conditions for (B.19) together with (B.19), (B.20), and ΠIh = 0 yield equi-
+librium population for any city hosting only headquarters as
+                       γ
+      LI = LhI =              ,                                                     (B.21)
+                  τ (1 + 2γ )
+                    G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370                         369
+
+
+and its split between occupations as
+                η(1 + σ − µ)
+           lI0 =              LI (1 − τ LI ),                                                              (B.22)
+                    1+γ
+                 ηµ
+          lIh =       LI (1 − τ LI ),                                                                      (B.23)
+                1+γ
+                (1 − η)(1 + )
+       lIm+h =                 LI (1 − τ LI ).                                                             (B.24)
+                    1+γ
+
+
+References
+
+ [1] K. Aarland, J.C. Davis, J. Henderson, Y. Ono, Spatial organization of firms: The decision to split production
+     and administration, Processed, Brown University, 2003.
+ [2] H.M. Abdel-Rahman, M. Fujita, Product variety, Marshallian externalities, and city sizes, Journal of Re-
+     gional Science 30 (2) (1990) 165–183.
+ [3] A. Adserà, Sectoral spillovers and the price of land: a cost analysis, Regional Science and Urban Eco-
+     nomics 30 (5) (2000) 565–585.
+ [4] P. Antràs, Firms, contracts, and trade structure, Quarterly Journal of Economics 118 (4) (2003) 1374–1418.
+ [5] R.J. Arnott, J.E. Stiglitz, Aggregate land rents, expenditure on public goods, and optimal city size, Quarterly
+     Journal of Economics 93 (4) (1979) 471–500.
+ [6] F.-J. Bade, C.-F. Laaser, R. Soltwedel, Urban specialization in the internet age—empirical findings for Ger-
+     many, Processed, Kiel Institute for World Economics, 2003.
+ [7] A.D. Chandler, The Visible Hand: The Managerial Revolution in American Business, Belknap, Cambridge,
+     MA, 1977.
+ [8] J.C. Davis, Headquarters, services and mobility in the urban system, Unpublished PhD dissertation, Brown
+     University, 2001.
+ [9] J.C. Davis, J. Henderson, The agglomeration of headquarters, Processed, Brown University, 2004.
+[10] R. Dekle, J. Eaton, Agglomeration and land rents: Evidence from the prefectures, Journal of Urban Eco-
+     nomics 46 (2) (1999) 200–214.
+[11] A.K. Dixit, J.E. Stiglitz, Monopolistic competition and optimum product diversity, American Economic
+     Review 67 (3) (1977) 297–308.
+[12] G. Duranton, D. Puga, Nursery cities: Urban diversity, process innovation, and the life cycle of products,
+     American Economic Review 91 (5) (2001) 1454–1477.
+[13] G. Duranton, D. Puga, Micro-foundations of urban agglomeration economies, in: V. Henderson, J.-F. Thisse
+     (Eds.), Handbook of Regional and Urban Economics, vol. 4, North-Holland, Amsterdam, 2004, pp. 2063–
+     2117.
+[14] F. Flatters, J. Henderson, P. Mieszkowski, Public goods, efficiency, and regional fiscal equalization, Journal
+     of Public Economics 3 (2) (1974) 99–112.
+[15] M. Fujita, A monopolistic competition model of spatial agglomeration: A differentiated product approach,
+     Regional Science and Urban Economics 18 (1) (1988) 87–124.
+[16] M. Fujita, Urban Economic Theory: Land Use and City Size, Cambridge Univ. Press, Cambridge, 1989.
+[17] M. Fujita, R. Ishii, Global location behavior and organizational dynamics of Japanese electronics firms and
+     their impact on regional economies, in: A.D.C.P. Hagström Jr., Ö. Sölvell (Eds.), The Dynamic Firm: The
+     Role of Technology, Strategy, Organization and Regions, Oxford Univ. Press, Oxford, 1998, pp. 343–383.
+[18] M. Fujita, T. Tabuchi, Regional growth in postwar Japan, Regional Science and Urban Economics 27 (6)
+     (1997) 643–670.
+[19] J. Gaspar, E.L. Glaeser, Information technology and the future of cities, Journal of Urban Economics 43 (1)
+     (1998) 136–156.
+[20] G.M. Grossman, E. Helpman, Integration versus outsourcing in industry equilibrium, Quarterly Journal of
+     Economics 117 (1) (2002) 85–120.
+[21] P.G. Hall, The World Cities, Weidenfeld and Nicolson, London, 1984.
+370                G. Duranton, D. Puga / Journal of Urban Economics 57 (2005) 343–370
+
+
+[22] E. Helpman, A simple theory of international trade with multinational corporations, Journal of Political
+     Economy 92 (3) (1984) 451–471.
+[23] R.W. Helsley, W.C. Strange, Limited developers, Canadian Journal of Economics 30 (2) (1997) 329–348.
+[24] J. Henderson, The sizes and types of cities, American Economic Review 64 (4) (1974) 640–656.
+[25] J. Henderson, Urban Development: Theory, Fact and Illusion, Oxford Univ. Press, Oxford, 1988.
+[26] J. Henderson, R. Becker, Political economy of city sizes and formation, Journal of Urban Economics 48 (3)
+     (2000) 453–484.
+[27] J. Henderson, A. Mitra, The new urban landscape: Developers and edge cities, Regional Science and Urban
+     Economics 26 (6) (1996) 613–643.
+[28] C.I. Jones, The upcoming slowdown in US economic growth, Working paper 6284, NBER, 1997.
+[29] S. Kim, Expansion of markets and the geographic distribution of economic activities: The trends in US
+     regional manufacturing structure, 1860–1987, Quarterly Journal of Economics 110 (4) (1995) 881–908.
+[30] S. Kim, The rise of multiunit firms in US manufacturing, Explorations in Economic History 36 (4) (1999)
+     360–386.
+[31] J. Kolko, Can I get some service here? Information technologies, service industries and the future of cities,
+     Processed, Harvard University, 1999.
+[32] E.E. Leamer, M. Storper, The economic geography of the Internet age, Journal of International Business
+     Studies 32 (4) (2001) 641–665.
+[33] D. Marin, T. Verdier, Power inside the firm and the market: A general equilibrium approach, Discussion
+     paper 3526, Centre for Economic Policy Research, 2002.
+[34] J.R. Markusen, Multinationals, multi-plant economies, and the gains from trade, Journal of International
+     Economics 16 (3–4) (1984) 205–226.
+[35] J.R. Markusen, Trade in producer services and in other specialized intermediate inputs, American Economic
+     Review 79 (1) (1989) 88–95.
+[36] J.R. Markusen, The boundaries of multinational enterprises and the theory of international trade, Journal of
+     Economic Perspectives 9 (2) (1995) 169–189.
+[37] Y. Ono, Outsourcing business services and the role of central administrative offices, Journal of Urban Eco-
+     nomics 53 (3) (2003) 377–395.
+[38] M. Ota, M. Fujita, Communication technologies and spatial organization of multi-unit firms in metropolitan
+     areas, Regional Science and Urban Economics 23 (6) (1993) 695–729.
+[39] Y.Y. Papageorgiou, D. Pines, Externalities, indivisibility, nonreplicability, and agglomeration, Journal of
+     Urban Economics 48 (3) (2000) 509–535.
+[40] M.K. Perry, Vertical integration: Determinants and effects, in: R. Schmalensee, R.D. Willig (Eds.), Hand-
+     book of Industrial Organization, North-Holland, Amsterdam, 1989, pp. 183–255.
+[41] D. Puga, D. Trefler, Knowledge creation and control in organizations, Working paper 9121, NBER, 2002.
+[42] J. Serck-Hanssen, The optimal number of factories in a spatial market, in: H.C. Bos (Ed.), Towards Balanced
+     International Growth, North-Holland, Amsterdam, 1969, pp. 269–282.
+[43] L. Shilton, C. Stanley, Spatial patterns of headquarters, Journal of Real Estate Research 17 (3) (1999) 341–
+     364.
+[44] D.A. Starrett, Principles of optimal location in a large homogeneous area, Journal of Economic Theory 9 (4)
+     (1974) 418–448.
+[45] J.E. Stiglitz, The theory of local public goods, in: M.S. Feldstein, R.P. Inman (Eds.), The Economics of
+     Public Services, MacMillan & Co., London, 1977, pp. 274–333.
+[46] V. Strauss-Khan, X. Vives, Why and where do headquarters move? Processed, INSEAD, 2004.
+[47] W.S. Vickrey, The city as a firm, in: M.S. Feldstein, R.P. Inman (Eds.), The Economics of Public Services,
+     MacMillan & Co., London, 1977, pp. 334–343.
+[48] J. Yates, Control Through Communication: The Rise of System in American Management, Johns Hopkins
+     Univ. Press, Baltimore, MD, 1989.
+[49] J. Yates, Investing in information: Supply and demand forces in the use of information in American firms,
+     1850–1929, in: P. Temin (Ed.), Inside the Business Enterprise: Historical Perspectives on the Use of Infor-
+     mation, Univ. of Chicago Press, Chicago, IL, 1991, pp. 117–154.
+

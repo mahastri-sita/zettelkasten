@@ -1,0 +1,47 @@
+{
+  "patch_id": "low-connectivity-evidence-review-2026-09-09",
+  "basis": "low-connectivity-evidence-review.md",
+  "description": "Four explicitly source-supported relations identified by the representative orphan audit. M07 and T03 are intentionally excluded.",
+  "edges": [
+    {
+      "source": "graphify_lab_full_corpus_txt_t01_alonso_1973_urban_zero_population_growth_no_doi_compensatory_payments",
+      "target": "graphify_lab_full_corpus_txt_t01_alonso_1973_urban_zero_population_growth_no_doi_distribution_problem",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T01-alonso-1973-urban-zero-population-growth-no-doi.txt",
+      "source_location": "lines 267-280",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_the_strategy_of_economic_development",
+      "target": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_low_level_equilibrium_trap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt",
+      "source_location": "Chapter 2, lines 1270-1287",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_elasticity_of_substitution",
+      "target": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_economies_of_scale",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt",
+      "source_location": "lines 387-391",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_lab_full_corpus_txt_m13_albrechts_2004_strategic_spatial_planning_reexamined_10_1068_b3065_comprehensive_planning",
+      "target": "graphify_lab_full_corpus_txt_m13_albrechts_2004_strategic_spatial_planning_reexamined_10_1068_b3065_traditional_land_use_planning",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M13-albrechts-2004-strategic-spatial-planning-reexamined-10.1068-b3065.txt",
+      "source_location": "lines 172-187",
+      "weight": 1.0
+    }
+  ]
+}

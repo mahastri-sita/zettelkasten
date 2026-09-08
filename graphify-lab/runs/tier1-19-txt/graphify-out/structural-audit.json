@@ -1,0 +1,1038 @@
+{
+  "undirected": {
+    "graph_file": "graph.json",
+    "nodes": 1407,
+    "edges": 1407,
+    "connected_components": 159,
+    "orphan_definition": "degree == 0",
+    "weak_definition": "degree <= 1",
+    "super_hub_definition": "degree >= max(10, 95th-percentile degree threshold)",
+    "orphan_count": 50,
+    "weak_count": 754,
+    "super_hub_threshold": 10,
+    "super_hub_count": 17,
+    "top_nodes": [
+      {
+        "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_economic_theory_and_under_developed_regions",
+        "degree": 35,
+        "label": "Economic Theory and Under-Developed Regions"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_the_strategy_of_economic_development",
+        "degree": 26,
+        "label": "The Strategy of Economic Development"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m17_faludi_2012_multi_level_territorial_governance_three_criticisms_10_1080_14649357_2012_677578_multi_level_territorial_governance_three_criticisms",
+        "degree": 23,
+        "label": "Multi-Level (Territorial) Governance: Three Criticisms"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_accessibility",
+        "degree": 21,
+        "label": "Accessibility"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m08_batty_2013_the_new_science_of_cities_no_doi_book",
+        "degree": 17,
+        "label": "The New Science of Cities"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t14_christaller_1966_central_places_in_southern_germany_no_doi_central_places_in_southern_germany",
+        "degree": 15,
+        "label": "Central Places in Southern Germany"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_p02_meijers_2005_polycentric_urban_regions_and_the_quest_for_synergy_is_a_network_of_cities_more_than_the_sum_of_the_parts_10_1080_00420980500060384_polycentric_urban_regions_and_the_quest_for_synergy_is_a_network_of_cities_more_than_the_sum_of_the_parts",
+        "degree": 14,
+        "label": "Polycentric Urban Regions and the Quest for Synergy: Is a Network of Cities More than the Sum of the Parts?"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_public_transport_accessibility",
+        "degree": 13,
+        "label": "Public-Transport Accessibility"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t03_duranton_puga_2004_micro_foundations_of_urban_agglomeration_economies_10_1016_s1574_0080_04_80005_1_paper",
+        "degree": 13,
+        "label": "Micro-foundations of Urban Agglomeration Economies"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_increasing_returns_and_economic_geography",
+        "degree": 13,
+        "label": "Increasing Returns and Economic Geography"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_core_regions",
+        "degree": 13,
+        "label": "Core Regions"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_derived_demand_framework",
+        "degree": 12,
+        "label": "Derived-Demand Framework"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t14_christaller_1966_central_places_in_southern_germany_no_doi_central_place_types",
+        "degree": 12,
+        "label": "Central-Place Types"
+      },
+      {
+        "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_agglomeration",
+        "degree": 12,
+        "label": "Agglomeration"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t14_christaller_1966_central_places_in_southern_germany_no_doi_range_of_central_goods",
+        "degree": 10,
+        "label": "Range of Central Goods"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_innovation",
+        "degree": 10,
+        "label": "Innovation"
+      },
+      {
+        "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_the_spatial_economy",
+        "degree": 10,
+        "label": "The Spatial Economy: Cities, Regions, and International Trade"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m08_batty_2013_the_new_science_of_cities_no_doi_land_exchange_model",
+        "degree": 9,
+        "label": "Land exchange model"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m13_albrechts_2004_strategic_spatial_planning_reexamined_10_1068_b3065_strategic_spatial_planning_reexamined",
+        "degree": 9,
+        "label": "Strategic (Spatial) Planning Reexamined"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t06_duranton_puga_2005_from_sectoral_to_functional_urban_specialisation_10_1016_j_jue_2004_12_002_paper",
+        "degree": 9,
+        "label": "From Sectoral to Functional Urban Specialisation"
+      }
+    ],
+    "duplicate_label_group_count": 32,
+    "duplicate_label_groups": {
+      "economies of scale": [
+        {
+          "id": "z01_o_sullivan_1996_urban_economics_economies_of_scale",
+          "label": "Economies of scale",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z01-o'sullivan-1996-urban-eonomics.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_economies_of_scale",
+          "label": "Economies of Scale",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "agglomeration economies": [
+        {
+          "id": "z01_o_sullivan_1996_urban_economics_agglomeration_economies",
+          "label": "Agglomeration economies",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z01-o'sullivan-1996-urban-eonomics.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t09_arthur_1990_silicon_valley_locational_clusters_when_do_increasing_returns_imply_monopoly_10_1016_0165_4896_90_90064_e_agglomeration_economies",
+          "label": "Agglomeration Economies",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T09-arthur-1990-silicon-valley-locational-clusters-when-do-increasing-returns-imply-monopoly-10.1016-0165-4896-90-90064-E.txt"
+        }
+      ],
+      "knowledge spillovers": [
+        {
+          "id": "z01_o_sullivan_1996_urban_economics_knowledge_spillovers",
+          "label": "Knowledge spillovers",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z01-o'sullivan-1996-urban-eonomics.txt"
+        },
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_knowledge_spillovers",
+          "label": "Knowledge spillovers",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        }
+      ],
+      "transit ridership": [
+        {
+          "id": "z01_o_sullivan_1996_urban_economics_transit_ridership",
+          "label": "Transit ridership",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z01-o'sullivan-1996-urban-eonomics.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_transit_ridership",
+          "label": "Transit Ridership",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M07-levine-grengs-merlin-2019-from-mobility-to-accessibility-transforming-urban-transportation-and-land-use-planning-no-doi.txt"
+        }
+      ],
+      "collective action": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m08_batty_2013_the_new_science_of_cities_no_doi_collective_action",
+          "label": "Collective action",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M08-batty-2013-the-new-science-of-cities-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_collective_action",
+          "label": "Collective Action",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        }
+      ],
+      "economic geography": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_economic_geography",
+          "label": "Economic geography",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_economic_geography",
+          "label": "Economic Geography",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "increasing returns": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_increasing_returns",
+          "label": "Increasing returns",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t09_arthur_1990_silicon_valley_locational_clusters_when_do_increasing_returns_imply_monopoly_10_1016_0165_4896_90_90064_e_increasing_returns",
+          "label": "Increasing Returns",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T09-arthur-1990-silicon-valley-locational-clusters-when-do-increasing-returns-imply-monopoly-10.1016-0165-4896-90-90064-E.txt"
+        }
+      ],
+      "transportation costs": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_transport_costs",
+          "label": "Transportation costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_transportation_costs",
+          "label": "Transportation Costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "circular causation": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_circular_causation",
+          "label": "Circular causation",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_circular_causation",
+          "label": "Circular Causation",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "external economies": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_external_economies",
+          "label": "External economies",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_external_economies",
+          "label": "External Economies",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_external_economies",
+          "label": "External Economies",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        }
+      ],
+      "iceberg transport costs": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_iceberg_transport_costs",
+          "label": "Iceberg transport costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_iceberg_transport_costs",
+          "label": "Iceberg Transport Costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "economic development": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_economic_development",
+          "label": "Economic Development",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_economic_development",
+          "label": "Economic Development",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M07-levine-grengs-merlin-2019-from-mobility-to-accessibility-transforming-urban-transportation-and-land-use-planning-no-doi.txt"
+        },
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_economic_development",
+          "label": "Economic Development",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        }
+      ],
+      "backward linkage": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_backward_linkage",
+          "label": "Backward Linkage",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_backward_linkage",
+          "label": "Backward Linkage",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "forward linkage": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_forward_linkage",
+          "label": "Forward Linkage",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_forward_linkage",
+          "label": "Forward Linkage",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "linkage effects": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_linkage_effects",
+          "label": "Linkage Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_linkage_effects",
+          "label": "Linkage Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z03-friedmann-1967-a-generalized-theory-of-polarized-development.txt"
+        }
+      ],
+      "import substitution": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_import_substitution",
+          "label": "Import Substitution",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_import_substitution",
+          "label": "Import Substitution",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        }
+      ],
+      "growth poles": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_growth_poles",
+          "label": "Growth Poles",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t17_perroux_1955_note_sur_la_notion_de_pole_de_croissance_10_3406_ecoap_1955_2522_growth_poles",
+          "label": "Growth Poles",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T17-perroux-1955-note-sur-la-notion-de-pole-de-croissance-10.3406-ecoap.1955.2522.txt"
+        }
+      ],
+      "alfred marshall": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_alfred_marshall",
+          "label": "Alfred Marshall",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M07-levine-grengs-merlin-2019-from-mobility-to-accessibility-transforming-urban-transportation-and-land-use-planning-no-doi.txt"
+        },
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_alfred_marshall",
+          "label": "Alfred Marshall",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        }
+      ],
+      "backwash effects": [
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_backwash_effects",
+          "label": "Backwash Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_backwash_effects",
+          "label": "Backwash Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z03-friedmann-1967-a-generalized-theory-of-polarized-development.txt"
+        }
+      ],
+      "spread effects": [
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_spread_effects",
+          "label": "Spread Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_spread_effects",
+          "label": "Spread Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z03-friedmann-1967-a-generalized-theory-of-polarized-development.txt"
+        }
+      ],
+      "migration": [
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_migration",
+          "label": "Migration",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t01_alonso_1973_urban_zero_population_growth_no_doi_migration",
+          "label": "Migration",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T01-alonso-1973-urban-zero-population-growth-no-doi.txt"
+        }
+      ],
+      "public services": [
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_public_services",
+          "label": "Public Services",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t01_alonso_1973_urban_zero_population_growth_no_doi_public_services",
+          "label": "Public Services",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T01-alonso-1973-urban-zero-population-growth-no-doi.txt"
+        }
+      ],
+      "urban congestion costs": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t03_duranton_puga_2004_micro_foundations_of_urban_agglomeration_economies_10_1016_s1574_0080_04_80005_1_urban_congestion",
+          "label": "Urban Congestion Costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T03-duranton-puga-2004-micro-foundations-of-urban-agglomeration-economies-10.1016-S1574-0080-04-80005-1.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t06_duranton_puga_2005_from_sectoral_to_functional_urban_specialisation_10_1016_j_jue_2004_12_002_urban_congestion_costs",
+          "label": "Urban Congestion Costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T06-duranton-puga-2005-from-sectoral-to-functional-urban-specialisation-10.1016-j.jue.2004.12.002.txt"
+        }
+      ],
+      "structural change": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t17_perroux_1955_note_sur_la_notion_de_pole_de_croissance_10_3406_ecoap_1955_2522_structural_change",
+          "label": "Structural Change",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T17-perroux-1955-note-sur-la-notion-de-pole-de-croissance-10.3406-ecoap.1955.2522.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_structural_change",
+          "label": "Structural Change",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z03-friedmann-1967-a-generalized-theory-of-polarized-development.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t01_alonso_1973_urban_zero_population_growth_no_doi_structural_change",
+          "label": "Structural Change",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T01-alonso-1973-urban-zero-population-growth-no-doi.txt"
+        }
+      ],
+      "patsy healey": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m14_healey_2009_in_search_of_the_strategic_in_spatial_strategy_making_10_1080_14649350903417191_patsy_healey",
+          "label": "Patsy Healey",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M14-healey-2009-in-search-of-the-strategic-in-spatial-strategy-making-10.1080-14649350903417191.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_patsy_healey",
+          "label": "Patsy Healey",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        }
+      ],
+      "knowledge resources": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m14_healey_2009_in_search_of_the_strategic_in_spatial_strategy_making_10_1080_14649350903417191_knowledge_resources",
+          "label": "Knowledge Resources",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M14-healey-2009-in-search-of-the-strategic-in-spatial-strategy-making-10.1080-14649350903417191.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_knowledge_resources",
+          "label": "Knowledge Resources",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        }
+      ],
+      "framing ideas": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m14_healey_2009_in_search_of_the_strategic_in_spatial_strategy_making_10_1080_14649350903417191_framing_ideas",
+          "label": "Framing Ideas",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M14-healey-2009-in-search-of-the-strategic-in-spatial-strategy-making-10.1080-14649350903417191.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_framing_ideas",
+          "label": "Framing Ideas",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        }
+      ],
+      "institutionalization": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m14_healey_2009_in_search_of_the_strategic_in_spatial_strategy_making_10_1080_14649350903417191_institutionalization",
+          "label": "Institutionalization",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M14-healey-2009-in-search-of-the-strategic-in-spatial-strategy-making-10.1080-14649350903417191.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_institutionalization",
+          "label": "Institutionalization",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        }
+      ],
+      "governance": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_governance",
+          "label": "Governance",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m17_faludi_2012_multi_level_territorial_governance_three_criticisms_10_1080_14649357_2012_677578_governance",
+          "label": "Governance",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M17-faludi-2012-multi-level-territorial-governance-three-criticisms-10.1080-14649357.2012.677578.txt"
+        }
+      ],
+      "network externalities": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t09_arthur_1990_silicon_valley_locational_clusters_when_do_increasing_returns_imply_monopoly_10_1016_0165_4896_90_90064_e_network_externalities",
+          "label": "Network Externalities",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T09-arthur-1990-silicon-valley-locational-clusters-when-do-increasing-returns-imply-monopoly-10.1016-0165-4896-90-90064-E.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_p02_meijers_2005_polycentric_urban_regions_and_the_quest_for_synergy_is_a_network_of_cities_more_than_the_sum_of_the_parts_10_1080_00420980500060384_externalities",
+          "label": "Network Externalities",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/P02-meijers-2005-polycentric-urban-regions-and-the-quest-for-synergy-is-a-network-of-cities-more-than-the-sum-of-the-parts-10.1080-00420980500060384.txt"
+        }
+      ],
+      "multilevel governance": [
+        {
+          "id": "graphify_lab_full_corpus_txt_p02_meijers_2005_polycentric_urban_regions_and_the_quest_for_synergy_is_a_network_of_cities_more_than_the_sum_of_the_parts_10_1080_00420980500060384_multilevel_governance",
+          "label": "Multilevel Governance",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/P02-meijers-2005-polycentric-urban-regions-and-the-quest-for-synergy-is-a-network-of-cities-more-than-the-sum-of-the-parts-10.1080-00420980500060384.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m13_albrechts_2004_strategic_spatial_planning_reexamined_10_1068_b3065_multilevel_governance",
+          "label": "Multilevel Governance",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M13-albrechts-2004-strategic-spatial-planning-reexamined-10.1068-b3065.txt"
+        }
+      ],
+      "land-use regulation": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t01_alonso_1973_urban_zero_population_growth_no_doi_land_use_regulation",
+          "label": "Land-Use Regulation",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T01-alonso-1973-urban-zero-population-growth-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m13_albrechts_2004_strategic_spatial_planning_reexamined_10_1068_b3065_land_use_regulation",
+          "label": "Land-Use Regulation",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M13-albrechts-2004-strategic-spatial-planning-reexamined-10.1068-b3065.txt"
+        }
+      ]
+    },
+    "citation_edge_count": 146
+  },
+  "directed": {
+    "graph_file": "graph-directed.json",
+    "nodes": 1407,
+    "edges": 1417,
+    "connected_components": 159,
+    "orphan_definition": "degree == 0",
+    "weak_definition": "degree <= 1",
+    "super_hub_definition": "degree >= max(10, 95th-percentile degree threshold)",
+    "orphan_count": 50,
+    "weak_count": 750,
+    "super_hub_threshold": 10,
+    "super_hub_count": 18,
+    "top_nodes": [
+      {
+        "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_economic_theory_and_under_developed_regions",
+        "degree": 35,
+        "label": "Economic Theory and Under-Developed Regions"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_the_strategy_of_economic_development",
+        "degree": 26,
+        "label": "The Strategy of Economic Development"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m17_faludi_2012_multi_level_territorial_governance_three_criticisms_10_1080_14649357_2012_677578_multi_level_territorial_governance_three_criticisms",
+        "degree": 23,
+        "label": "Multi-Level (Territorial) Governance: Three Criticisms"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_accessibility",
+        "degree": 21,
+        "label": "Accessibility"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m08_batty_2013_the_new_science_of_cities_no_doi_book",
+        "degree": 17,
+        "label": "The New Science of Cities"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t14_christaller_1966_central_places_in_southern_germany_no_doi_central_places_in_southern_germany",
+        "degree": 15,
+        "label": "Central Places in Southern Germany"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_p02_meijers_2005_polycentric_urban_regions_and_the_quest_for_synergy_is_a_network_of_cities_more_than_the_sum_of_the_parts_10_1080_00420980500060384_polycentric_urban_regions_and_the_quest_for_synergy_is_a_network_of_cities_more_than_the_sum_of_the_parts",
+        "degree": 14,
+        "label": "Polycentric Urban Regions and the Quest for Synergy: Is a Network of Cities More than the Sum of the Parts?"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_public_transport_accessibility",
+        "degree": 13,
+        "label": "Public-Transport Accessibility"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t03_duranton_puga_2004_micro_foundations_of_urban_agglomeration_economies_10_1016_s1574_0080_04_80005_1_paper",
+        "degree": 13,
+        "label": "Micro-foundations of Urban Agglomeration Economies"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_increasing_returns_and_economic_geography",
+        "degree": 13,
+        "label": "Increasing Returns and Economic Geography"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_core_regions",
+        "degree": 13,
+        "label": "Core Regions"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_derived_demand_framework",
+        "degree": 12,
+        "label": "Derived-Demand Framework"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t14_christaller_1966_central_places_in_southern_germany_no_doi_central_place_types",
+        "degree": 12,
+        "label": "Central-Place Types"
+      },
+      {
+        "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_agglomeration",
+        "degree": 12,
+        "label": "Agglomeration"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t14_christaller_1966_central_places_in_southern_germany_no_doi_range_of_central_goods",
+        "degree": 10,
+        "label": "Range of Central Goods"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_ability_to_invest",
+        "degree": 10,
+        "label": "Ability to Invest"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_innovation",
+        "degree": 10,
+        "label": "Innovation"
+      },
+      {
+        "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_the_spatial_economy",
+        "degree": 10,
+        "label": "The Spatial Economy: Cities, Regions, and International Trade"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m08_batty_2013_the_new_science_of_cities_no_doi_land_exchange_model",
+        "degree": 9,
+        "label": "Land exchange model"
+      },
+      {
+        "id": "graphify_lab_full_corpus_txt_m13_albrechts_2004_strategic_spatial_planning_reexamined_10_1068_b3065_strategic_spatial_planning_reexamined",
+        "degree": 9,
+        "label": "Strategic (Spatial) Planning Reexamined"
+      }
+    ],
+    "duplicate_label_group_count": 32,
+    "duplicate_label_groups": {
+      "economies of scale": [
+        {
+          "id": "z01_o_sullivan_1996_urban_economics_economies_of_scale",
+          "label": "Economies of scale",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z01-o'sullivan-1996-urban-eonomics.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_economies_of_scale",
+          "label": "Economies of Scale",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "agglomeration economies": [
+        {
+          "id": "z01_o_sullivan_1996_urban_economics_agglomeration_economies",
+          "label": "Agglomeration economies",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z01-o'sullivan-1996-urban-eonomics.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t09_arthur_1990_silicon_valley_locational_clusters_when_do_increasing_returns_imply_monopoly_10_1016_0165_4896_90_90064_e_agglomeration_economies",
+          "label": "Agglomeration Economies",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T09-arthur-1990-silicon-valley-locational-clusters-when-do-increasing-returns-imply-monopoly-10.1016-0165-4896-90-90064-E.txt"
+        }
+      ],
+      "knowledge spillovers": [
+        {
+          "id": "z01_o_sullivan_1996_urban_economics_knowledge_spillovers",
+          "label": "Knowledge spillovers",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z01-o'sullivan-1996-urban-eonomics.txt"
+        },
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_knowledge_spillovers",
+          "label": "Knowledge spillovers",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        }
+      ],
+      "transit ridership": [
+        {
+          "id": "z01_o_sullivan_1996_urban_economics_transit_ridership",
+          "label": "Transit ridership",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z01-o'sullivan-1996-urban-eonomics.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_transit_ridership",
+          "label": "Transit Ridership",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M07-levine-grengs-merlin-2019-from-mobility-to-accessibility-transforming-urban-transportation-and-land-use-planning-no-doi.txt"
+        }
+      ],
+      "collective action": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m08_batty_2013_the_new_science_of_cities_no_doi_collective_action",
+          "label": "Collective action",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M08-batty-2013-the-new-science-of-cities-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_collective_action",
+          "label": "Collective Action",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        }
+      ],
+      "economic geography": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_economic_geography",
+          "label": "Economic geography",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_economic_geography",
+          "label": "Economic Geography",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "increasing returns": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_increasing_returns",
+          "label": "Increasing returns",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t09_arthur_1990_silicon_valley_locational_clusters_when_do_increasing_returns_imply_monopoly_10_1016_0165_4896_90_90064_e_increasing_returns",
+          "label": "Increasing Returns",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T09-arthur-1990-silicon-valley-locational-clusters-when-do-increasing-returns-imply-monopoly-10.1016-0165-4896-90-90064-E.txt"
+        }
+      ],
+      "transportation costs": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_transport_costs",
+          "label": "Transportation costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_transportation_costs",
+          "label": "Transportation Costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "circular causation": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_circular_causation",
+          "label": "Circular causation",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_circular_causation",
+          "label": "Circular Causation",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "external economies": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_external_economies",
+          "label": "External economies",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_external_economies",
+          "label": "External Economies",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_external_economies",
+          "label": "External Economies",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        }
+      ],
+      "iceberg transport costs": [
+        {
+          "id": "t08_fujita_krugman_venables_1999_the_spatial_economy_cities_regions_and_international_trade_no_doi_iceberg_transport_costs",
+          "label": "Iceberg transport costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T08-fujita-krugman-venables-1999-the-spatial-economy-cities-regions-and-international-trade-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_iceberg_transport_costs",
+          "label": "Iceberg Transport Costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "economic development": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_economic_development",
+          "label": "Economic Development",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_economic_development",
+          "label": "Economic Development",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M07-levine-grengs-merlin-2019-from-mobility-to-accessibility-transforming-urban-transportation-and-land-use-planning-no-doi.txt"
+        },
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_economic_development",
+          "label": "Economic Development",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        }
+      ],
+      "backward linkage": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_backward_linkage",
+          "label": "Backward Linkage",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_backward_linkage",
+          "label": "Backward Linkage",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "forward linkage": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_forward_linkage",
+          "label": "Forward Linkage",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t07_krugman_1991_increasing_returns_and_economic_geography_10_1086_261763_forward_linkage",
+          "label": "Forward Linkage",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T07-krugman-1991-increasing-returns-and-economic-geography-10.1086-261763.txt"
+        }
+      ],
+      "linkage effects": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_linkage_effects",
+          "label": "Linkage Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_linkage_effects",
+          "label": "Linkage Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z03-friedmann-1967-a-generalized-theory-of-polarized-development.txt"
+        }
+      ],
+      "import substitution": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_import_substitution",
+          "label": "Import Substitution",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_import_substitution",
+          "label": "Import Substitution",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        }
+      ],
+      "growth poles": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t16_hirschman_1958_the_strategy_of_economic_development_no_doi_growth_poles",
+          "label": "Growth Poles",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T16-hirschman-1958-the-strategy-of-economic-development-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t17_perroux_1955_note_sur_la_notion_de_pole_de_croissance_10_3406_ecoap_1955_2522_growth_poles",
+          "label": "Growth Poles",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T17-perroux-1955-note-sur-la-notion-de-pole-de-croissance-10.3406-ecoap.1955.2522.txt"
+        }
+      ],
+      "alfred marshall": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m07_levine_grengs_merlin_2019_from_mobility_to_accessibility_transforming_urban_transportation_and_land_use_planning_no_doi_alfred_marshall",
+          "label": "Alfred Marshall",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M07-levine-grengs-merlin-2019-from-mobility-to-accessibility-transforming-urban-transportation-and-land-use-planning-no-doi.txt"
+        },
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_alfred_marshall",
+          "label": "Alfred Marshall",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        }
+      ],
+      "backwash effects": [
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_backwash_effects",
+          "label": "Backwash Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_backwash_effects",
+          "label": "Backwash Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z03-friedmann-1967-a-generalized-theory-of-polarized-development.txt"
+        }
+      ],
+      "spread effects": [
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_spread_effects",
+          "label": "Spread Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_spread_effects",
+          "label": "Spread Effects",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z03-friedmann-1967-a-generalized-theory-of-polarized-development.txt"
+        }
+      ],
+      "migration": [
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_migration",
+          "label": "Migration",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t01_alonso_1973_urban_zero_population_growth_no_doi_migration",
+          "label": "Migration",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T01-alonso-1973-urban-zero-population-growth-no-doi.txt"
+        }
+      ],
+      "public services": [
+        {
+          "id": "t05_myrdal_1957_economic_theory_and_under_developed_regions_no_doi_public_services",
+          "label": "Public Services",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T05-myrdal-1957-economic-theory-and-under-developed-regions-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t01_alonso_1973_urban_zero_population_growth_no_doi_public_services",
+          "label": "Public Services",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T01-alonso-1973-urban-zero-population-growth-no-doi.txt"
+        }
+      ],
+      "urban congestion costs": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t03_duranton_puga_2004_micro_foundations_of_urban_agglomeration_economies_10_1016_s1574_0080_04_80005_1_urban_congestion",
+          "label": "Urban Congestion Costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T03-duranton-puga-2004-micro-foundations-of-urban-agglomeration-economies-10.1016-S1574-0080-04-80005-1.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t06_duranton_puga_2005_from_sectoral_to_functional_urban_specialisation_10_1016_j_jue_2004_12_002_urban_congestion_costs",
+          "label": "Urban Congestion Costs",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T06-duranton-puga-2005-from-sectoral-to-functional-urban-specialisation-10.1016-j.jue.2004.12.002.txt"
+        }
+      ],
+      "structural change": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t17_perroux_1955_note_sur_la_notion_de_pole_de_croissance_10_3406_ecoap_1955_2522_structural_change",
+          "label": "Structural Change",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T17-perroux-1955-note-sur-la-notion-de-pole-de-croissance-10.3406-ecoap.1955.2522.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_z03_friedmann_1967_a_generalized_theory_of_polarized_development_structural_change",
+          "label": "Structural Change",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/Z03-friedmann-1967-a-generalized-theory-of-polarized-development.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_t01_alonso_1973_urban_zero_population_growth_no_doi_structural_change",
+          "label": "Structural Change",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T01-alonso-1973-urban-zero-population-growth-no-doi.txt"
+        }
+      ],
+      "patsy healey": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m14_healey_2009_in_search_of_the_strategic_in_spatial_strategy_making_10_1080_14649350903417191_patsy_healey",
+          "label": "Patsy Healey",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M14-healey-2009-in-search-of-the-strategic-in-spatial-strategy-making-10.1080-14649350903417191.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_patsy_healey",
+          "label": "Patsy Healey",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        }
+      ],
+      "knowledge resources": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m14_healey_2009_in_search_of_the_strategic_in_spatial_strategy_making_10_1080_14649350903417191_knowledge_resources",
+          "label": "Knowledge Resources",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M14-healey-2009-in-search-of-the-strategic-in-spatial-strategy-making-10.1080-14649350903417191.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_knowledge_resources",
+          "label": "Knowledge Resources",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        }
+      ],
+      "framing ideas": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m14_healey_2009_in_search_of_the_strategic_in_spatial_strategy_making_10_1080_14649350903417191_framing_ideas",
+          "label": "Framing Ideas",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M14-healey-2009-in-search-of-the-strategic-in-spatial-strategy-making-10.1080-14649350903417191.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_framing_ideas",
+          "label": "Framing Ideas",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        }
+      ],
+      "institutionalization": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m14_healey_2009_in_search_of_the_strategic_in_spatial_strategy_making_10_1080_14649350903417191_institutionalization",
+          "label": "Institutionalization",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M14-healey-2009-in-search-of-the-strategic-in-spatial-strategy-making-10.1080-14649350903417191.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_institutionalization",
+          "label": "Institutionalization",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        }
+      ],
+      "governance": [
+        {
+          "id": "graphify_lab_full_corpus_txt_m16_healey_2006_transforming_governance_challenges_of_institutional_adaptation_and_a_new_politics_of_space_10_1080_09654310500420792_governance",
+          "label": "Governance",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M16-healey-2006-transforming-governance-challenges-of-institutional-adaptation-and-a-new-politics-of-space-10.1080-09654310500420792.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m17_faludi_2012_multi_level_territorial_governance_three_criticisms_10_1080_14649357_2012_677578_governance",
+          "label": "Governance",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M17-faludi-2012-multi-level-territorial-governance-three-criticisms-10.1080-14649357.2012.677578.txt"
+        }
+      ],
+      "network externalities": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t09_arthur_1990_silicon_valley_locational_clusters_when_do_increasing_returns_imply_monopoly_10_1016_0165_4896_90_90064_e_network_externalities",
+          "label": "Network Externalities",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T09-arthur-1990-silicon-valley-locational-clusters-when-do-increasing-returns-imply-monopoly-10.1016-0165-4896-90-90064-E.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_p02_meijers_2005_polycentric_urban_regions_and_the_quest_for_synergy_is_a_network_of_cities_more_than_the_sum_of_the_parts_10_1080_00420980500060384_externalities",
+          "label": "Network Externalities",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/P02-meijers-2005-polycentric-urban-regions-and-the-quest-for-synergy-is-a-network-of-cities-more-than-the-sum-of-the-parts-10.1080-00420980500060384.txt"
+        }
+      ],
+      "multilevel governance": [
+        {
+          "id": "graphify_lab_full_corpus_txt_p02_meijers_2005_polycentric_urban_regions_and_the_quest_for_synergy_is_a_network_of_cities_more_than_the_sum_of_the_parts_10_1080_00420980500060384_multilevel_governance",
+          "label": "Multilevel Governance",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/P02-meijers-2005-polycentric-urban-regions-and-the-quest-for-synergy-is-a-network-of-cities-more-than-the-sum-of-the-parts-10.1080-00420980500060384.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m13_albrechts_2004_strategic_spatial_planning_reexamined_10_1068_b3065_multilevel_governance",
+          "label": "Multilevel Governance",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M13-albrechts-2004-strategic-spatial-planning-reexamined-10.1068-b3065.txt"
+        }
+      ],
+      "land-use regulation": [
+        {
+          "id": "graphify_lab_full_corpus_txt_t01_alonso_1973_urban_zero_population_growth_no_doi_land_use_regulation",
+          "label": "Land-Use Regulation",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/T01-alonso-1973-urban-zero-population-growth-no-doi.txt"
+        },
+        {
+          "id": "graphify_lab_full_corpus_txt_m13_albrechts_2004_strategic_spatial_planning_reexamined_10_1068_b3065_land_use_regulation",
+          "label": "Land-Use Regulation",
+          "source_file": "/Users/mac/Documents/Mac/[2] Obsidian Vault/zettelkasten/graphify-lab/full-corpus-txt/M13-albrechts-2004-strategic-spatial-planning-reexamined-10.1068-b3065.txt"
+        }
+      ]
+    },
+    "citation_edge_count": 146
+  }
+}

@@ -1,0 +1,1606 @@
+{
+  "basis": "Proposals use only node labels, source_file, source_location, community membership, and undirected graph connectivity from the specified Tier 1 artifacts.",
+  "community_id_range": [0, 199],
+  "communities": {
+    "0": {
+      "proposed_label": "Community Decision and Exchange Models",
+      "confidence": "medium",
+      "node_count": 57,
+      "supporting_nodes": ["Actors", "Bipartite interest-control graph", "Collective action", "Markovian design machine", "Urban development as exchange"],
+      "connectivity": {"internal_edges": 86, "external_edges": 0, "connected_nodes": 57},
+      "basis_note": "M08 source-located labels cover decision-making, committee/exchange, design-machine, and urban-exchange terms; all 57 nodes are connected by 86 internal edges with no external edges."
+    },
+    "1": {
+      "proposed_label": "International Trade and Development Theory",
+      "confidence": "medium",
+      "node_count": 46,
+      "supporting_nodes": ["Economic Theory and Under-Developed Regions", "Gunnar Myrdal", "International Economic Inequalities", "International Trade and Economic Development", "Theory of International Trade"],
+      "connectivity": {"internal_edges": 45, "external_edges": 3, "connected_nodes": 46},
+      "basis_note": "T05 source-located labels combine international trade, development, inequality, and the named book; the 46-node cluster is internally connected and has three external edges."
+    },
+    "2": {
+      "proposed_label": "Strategic Spatial Planning",
+      "confidence": "high",
+      "node_count": 43,
+      "supporting_nodes": ["Strategic Spatial Planning", "Strategic Planning Capacity", "Shared Futures", "Multilevel Governance", "Track 1: Long-Term Vision"],
+      "connectivity": {"internal_edges": 43, "external_edges": 0, "connected_nodes": 43},
+      "basis_note": "M13 source-located labels repeatedly name strategic spatial planning, planning capacity, shared futures, governance, and planning tracks; the cluster has 43 connected nodes and no external edges."
+    },
+    "3": {
+      "proposed_label": "Cross-Source Economic Development References",
+      "confidence": "medium",
+      "node_count": 42,
+      "supporting_nodes": ["Silicon Valley Locational Clusters: When Do Increasing Returns Imply Monopoly?", "W. Brian Arthur", "Albert O. Hirschman", "Growth Poles", "Uneven Growth and Diffusion"],
+      "connectivity": {"internal_edges": 42, "external_edges": 2, "connected_nodes": 42},
+      "basis_note": "The source-located labels are dominated by named works, authors, growth-pole, structural-change, and uneven-development references across T09, T16, T17, and Z03; 42 nodes are connected with two external edges."
+    },
+    "4": {
+      "proposed_label": "Agglomeration Exclusion and Core-Periphery Effects",
+      "confidence": "medium",
+      "node_count": 39,
+      "supporting_nodes": ["Agglomeration Shadow", "Lock-In", "Core-Periphery Spatial System", "Dominance Effect", "Spread Effects"],
+      "connectivity": {"internal_edges": 42, "external_edges": 0, "connected_nodes": 39},
+      "basis_note": "T09 and Z03 source-located labels join agglomeration exclusion and lock-in terms with core-periphery, dominance, and spread terms; all 39 nodes connect internally."
+    },
+    "5": {
+      "proposed_label": "Polycentric Urban Network Synergy",
+      "confidence": "high",
+      "node_count": 38,
+      "supporting_nodes": ["Polycentric Urban Regions", "Network Urban Structure", "Network Cohesion", "Horizontal Synergy", "Vertical Synergy"],
+      "connectivity": {"internal_edges": 42, "external_edges": 0, "connected_nodes": 38},
+      "basis_note": "P02 source-located labels consistently name polycentric regions, urban networks, cohesion, and horizontal/vertical synergy; 38 nodes form a connected internal cluster."
+    },
+    "6": {
+      "proposed_label": "Multi-Level Territorial Governance",
+      "confidence": "high",
+      "node_count": 34,
+      "supporting_nodes": ["Multi-Level Territorial Governance", "Multi-Level Governance", "Network Governance", "Territory", "Territorial Agenda of the European Union 2020"],
+      "connectivity": {"internal_edges": 33, "external_edges": 0, "connected_nodes": 34},
+      "basis_note": "M17 source-located labels repeatedly identify multi-level governance, territory, network governance, and territorial policy; all 34 nodes are internally connected."
+    },
+    "7": {
+      "proposed_label": "Urban Economics: Housing and Land Use",
+      "confidence": "high",
+      "node_count": 32,
+      "supporting_nodes": ["Bid-rent curve", "Housing regulations", "Monocentric city", "Public housing", "Urban sprawl"],
+      "connectivity": {"internal_edges": 31, "external_edges": 0, "connected_nodes": 32},
+      "basis_note": "Z01 source-located labels cover bid-rent, housing, land use, public housing, segregation, and sprawl; the 32-node cluster is internally connected."
+    },
+    "8": {
+      "proposed_label": "Strategic Sense-Making and Governance",
+      "confidence": "medium",
+      "node_count": 28,
+      "supporting_nodes": ["Collective Sense Making", "Framing Ideas", "Strategic Frame", "Agency Power", "Structure and Agency"],
+      "connectivity": {"internal_edges": 27, "external_edges": 0, "connected_nodes": 28},
+      "basis_note": "M14 and M16 source-located labels cluster around sense-making, framing, strategic work, agency, structure, and governance resources; all 28 nodes are internally connected."
+    },
+    "9": {
+      "proposed_label": "Accessibility Measurement and Case Evaluation",
+      "confidence": "high",
+      "node_count": 27,
+      "supporting_nodes": ["Accessibility Score", "Place-Based Accessibility", "Gravity Measure", "Project-Level Accessibility Evaluation", "Regional Scenario Planning"],
+      "connectivity": {"internal_edges": 28, "external_edges": 3, "connected_nodes": 27},
+      "basis_note": "M07 source-located labels combine accessibility measures, places, evaluation, impedance, and regional cases; all 27 nodes are connected, with three external edges."
+    },
+    "10": {
+      "proposed_label": "Development Investment and Productive Capacity",
+      "confidence": "high",
+      "node_count": 27,
+      "supporting_nodes": ["Ability to Invest", "Absorptive Capacity", "Inducement Mechanisms", "Dualistic Development", "Supply of Savings"],
+      "connectivity": {"internal_edges": 26, "external_edges": 0, "connected_nodes": 27},
+      "basis_note": "T16 source-located labels center on investment ability, absorptive capacity, inducement, dualistic development, savings, and public investment; all 27 nodes are internally connected."
+    },
+    "11": {
+      "proposed_label": "Unbalanced Growth and Investment Sequences",
+      "confidence": "high",
+      "node_count": 27,
+      "supporting_nodes": ["Chain of Disequilibria", "Complementarity Effect of Investment", "Social Overhead Capital", "Technical Complementarity", "Unbalanced Growth"],
+      "connectivity": {"internal_edges": 26, "external_edges": 0, "connected_nodes": 27},
+      "basis_note": "T16 source-located labels repeatedly name disequilibria, investment complementarity, social overhead capital, sequences, and unbalanced growth; the cluster is fully connected internally."
+    },
+    "12": {
+      "proposed_label": "Urban Economics: Externalities and Public Services",
+      "confidence": "medium",
+      "node_count": 25,
+      "supporting_nodes": ["Automobile travel", "Congestion externality", "Education production function", "Expected utility of crime", "Transit subsidies"],
+      "connectivity": {"internal_edges": 27, "external_edges": 0, "connected_nodes": 25},
+      "basis_note": "Z01 source-located labels cover transport and congestion, education, crime, pollution, and subsidies; 25 nodes are connected through 27 internal edges."
+    },
+    "13": {
+      "proposed_label": "Transit Accessibility Measurement",
+      "confidence": "high",
+      "node_count": 23,
+      "supporting_nodes": ["Transit Accessibility Regression Models", "Work Accessibility", "Nonwork Accessibility", "Gini Index", "Transit-Land-Use Fit"],
+      "connectivity": {"internal_edges": 23, "external_edges": 2, "connected_nodes": 23},
+      "basis_note": "M07 source-located labels explicitly combine transit accessibility, work/nonwork measures, distribution indices, regression, and land-use fit; 23 nodes are connected."
+    },
+    "14": {
+      "proposed_label": "Transformative Urban Governance and Strategy",
+      "confidence": "high",
+      "node_count": 23,
+      "supporting_nodes": ["Strategic Work", "Transformative Governance Work", "Spatial Strategy Making", "Changing Governance", "Urban Governance Transformation"],
+      "connectivity": {"internal_edges": 22, "external_edges": 0, "connected_nodes": 23},
+      "basis_note": "M14 and M16 source-located labels directly name strategic work, transformative governance, spatial strategy, changing governance, and urban governance transformation; all 23 nodes connect internally."
+    },
+    "15": {
+      "proposed_label": "Urban Public Finance and Land Use",
+      "confidence": "medium",
+      "node_count": 23,
+      "supporting_nodes": ["Federalism and metropolitan government", "Local public goods", "Intergovernmental grants", "Property tax", "Land-use zoning"],
+      "connectivity": {"internal_edges": 23, "external_edges": 0, "connected_nodes": 23},
+      "basis_note": "Z01 source-located labels cover federalism, grants, local public goods, taxes, segregation, and land-use zoning; 23 nodes form a connected cluster."
+    },
+    "16": {
+      "proposed_label": "Functional Territories and Regional Spaces",
+      "confidence": "medium",
+      "node_count": 21,
+      "supporting_nodes": ["Functional Territories", "Baltic Sea Area", "Danube Space", "Fragmegration", "Fuzzy Maps"],
+      "connectivity": {"internal_edges": 20, "external_edges": 0, "connected_nodes": 21},
+      "basis_note": "M17 source-located labels name functional territories, regional spaces, fragmegration, and fuzzy maps; all 21 nodes are internally connected."
+    },
+    "17": {
+      "proposed_label": "Economic Geography and Core-Periphery References",
+      "confidence": "medium",
+      "node_count": 21,
+      "supporting_nodes": ["Agricultural Periphery", "Core-Periphery Pattern", "Agriculture", "Arthur 1990, Positive Feedbacks in the Economy", "Christaller 1933, Central Places in Southern Germany"],
+      "connectivity": {"internal_edges": 20, "external_edges": 0, "connected_nodes": 21},
+      "basis_note": "T07 source-located labels combine agriculture, core-periphery, and named economic-geography references; the 21-node cluster is internally connected."
+    },
+    "18": {
+      "proposed_label": "Urban Economics: Agglomeration and City Size",
+      "confidence": "high",
+      "node_count": 21,
+      "supporting_nodes": ["Agglomeration economies", "City size", "Economies of scale", "Comparative advantage", "Urbanization economies"],
+      "connectivity": {"internal_edges": 20, "external_edges": 0, "connected_nodes": 21},
+      "basis_note": "Z01 source-located labels connect agglomeration economies, city size, scale, comparative advantage, and urban land rent; all 21 nodes are internally connected."
+    },
+    "19": {
+      "proposed_label": "Agglomeration Mechanisms and City Formation",
+      "confidence": "medium",
+      "node_count": 17,
+      "supporting_nodes": ["Chamberlinian Input Sharing", "Efficient City Size", "City-Creation Coordination Failure", "Increasing-Returns Matching Function", "Agglomeration Mitigates Hold-up"],
+      "connectivity": {"internal_edges": 18, "external_edges": 7, "connected_nodes": 17},
+      "basis_note": "T03 source-located labels describe input sharing, matching, coordination failure, city size, and hold-up mechanisms; all 17 nodes connect internally but seven edges cross communities."
+    },
+    "20": {
+      "proposed_label": "Accessibility and Planning Logic",
+      "confidence": "high",
+      "node_count": 16,
+      "supporting_nodes": ["Accessibility", "Accessibility-Based Evaluation", "Accessibility Shift", "Equity Dimension", "Ideas Matter"],
+      "connectivity": {"internal_edges": 18, "external_edges": 18, "connected_nodes": 16},
+      "basis_note": "M07 source-located labels directly name accessibility, evaluation, equity, derived demand, and the mobility-to-accessibility shift; all 16 nodes connect, though cross-community edges are numerous."
+    },
+    "21": {
+      "proposed_label": "Local Population Policy and Distribution",
+      "confidence": "high",
+      "node_count": 16,
+      "supporting_nodes": ["Local Population Policies", "Local Birth Rates", "Distribution Problem", "Beggar-Thy-Neighbor Strategies", "McAllen-Pharr-Edinburg"],
+      "connectivity": {"internal_edges": 15, "external_edges": 0, "connected_nodes": 16},
+      "basis_note": "T01 source-located labels group local birth rates, population policies, distribution, interlocal strategies, and the named case; the 16 nodes are internally connected."
+    },
+    "22": {
+      "proposed_label": "Transit Systems and Accessibility",
+      "confidence": "high",
+      "node_count": 15,
+      "supporting_nodes": ["Bus Rapid Transit", "Bus Transit", "General Transit Feed Specification", "Carless Households", "Broad Transit Distribution"],
+      "connectivity": {"internal_edges": 15, "external_edges": 5, "connected_nodes": 15},
+      "basis_note": "M07 source-located labels cover bus systems, transit data, carless households, and transit distribution; all 15 nodes connect internally, with five external edges."
+    },
+    "23": {
+      "proposed_label": "Central-Place Types and Regional Settlements",
+      "confidence": "high",
+      "node_count": 15,
+      "supporting_nodes": ["Central-Place Types", "A-place", "B-place", "Augsburg", "Bozen"],
+      "connectivity": {"internal_edges": 21, "external_edges": 6, "connected_nodes": 15},
+      "basis_note": "T14 source-located labels identify central-place types and named settlements; all 15 nodes are connected, with six external edges."
+    },
+    "24": {
+      "proposed_label": "Polarized Development: Communication and Innovation",
+      "confidence": "high",
+      "node_count": 15,
+      "supporting_nodes": ["Innovation", "Information Exchange", "Communication Field", "Borrowing and Imitation", "Hybrid Type I-Type II System"],
+      "connectivity": {"internal_edges": 16, "external_edges": 0, "connected_nodes": 15},
+      "basis_note": "Z03 source-located labels explicitly connect innovation, information exchange, communication, imitation, and hybrid systems; the 15-node cluster is internally connected."
+    },
+    "25": {
+      "proposed_label": "Urban Specialisation and Firm Organisation",
+      "confidence": "medium",
+      "node_count": 14,
+      "supporting_nodes": ["Urban Specialisation Result", "Chandler 1977 The Visible Hand", "Davis and Henderson Agglomeration of Headquarters", "Separation of Headquarters and Production", "Gaspar and Glaeser Information Technology"],
+      "connectivity": {"internal_edges": 14, "external_edges": 6, "connected_nodes": 14},
+      "basis_note": "T03/T06 source-located labels combine functional and sectoral specialisation with firm organisation, headquarters, nursery cities, and competition; 14 nodes are connected but six edges are external."
+    },
+    "26": {
+      "proposed_label": "Agglomeration Linkages and Circular Causation",
+      "confidence": "high",
+      "node_count": 14,
+      "supporting_nodes": ["Agglomeration", "Backward linkages", "Forward linkages", "Circular causation", "Base-multiplier analysis"],
+      "connectivity": {"internal_edges": 18, "external_edges": 7, "connected_nodes": 14},
+      "basis_note": "T08 source-located labels directly name agglomeration, backward/forward linkages, circular causation, and base-multiplier analysis; all 14 nodes connect, with seven external edges."
+    },
+    "27": {
+      "proposed_label": "Urban Location and City Formation Theory",
+      "confidence": "medium",
+      "node_count": 14,
+      "supporting_nodes": ["Central-place theory", "City formation", "Alonso (1964), Location and Land Use", "Christaller (1933), Central Places in Southern Germany", "Dixit and Stiglitz (1977), Monopolistic Competition and Optimum Product Diversity"],
+      "connectivity": {"internal_edges": 16, "external_edges": 6, "connected_nodes": 14},
+      "basis_note": "T08 source-located labels are mainly location, city-formation, central-place, and named theory references; all 14 nodes connect, with six external edges."
+    },
+    "28": {
+      "proposed_label": "Central-Place Hierarchy and Methods",
+      "confidence": "high",
+      "node_count": 13,
+      "supporting_nodes": ["Central-Place Hierarchy", "Geographical Method", "Historical Method", "August Losch, Economics of Location", "Helmut Haufe, German Railway Traffic"],
+      "connectivity": {"internal_edges": 16, "external_edges": 7, "connected_nodes": 13},
+      "basis_note": "T14 source-located labels combine central-place hierarchy with geographical, historical, and named location methods; all 13 nodes are connected."
+    },
+    "29": {
+      "proposed_label": "Central-Place Systems and Services",
+      "confidence": "high",
+      "node_count": 12,
+      "supporting_nodes": ["Central Place", "Central Goods and Services", "Centrality", "Centralistic Order", "Business Cycle"],
+      "connectivity": {"internal_edges": 12, "external_edges": 8, "connected_nodes": 12},
+      "basis_note": "T14 source-located labels repeatedly name central places, goods and services, centrality, and centralistic order; all 12 nodes connect, with eight external edges."
+    },
+    "30": {
+      "proposed_label": "Central-Place Research and Settlement Geography",
+      "confidence": "high",
+      "node_count": 12,
+      "supporting_nodes": ["Central Places in Southern Germany", "Economic Distance", "Economic Geography of Settlements", "Carlisle W. Baskin", "Die zentralen Orte in Suddeutschland"],
+      "connectivity": {"internal_edges": 11, "external_edges": 10, "connected_nodes": 12},
+      "basis_note": "T14 source-located labels identify the central-place work, settlement geography, economic distance, and its named author/title forms; all 12 nodes connect."
+    },
+    "31": {
+      "proposed_label": "Urban Economics Foundations and Equilibrium",
+      "confidence": "high",
+      "node_count": 12,
+      "supporting_nodes": ["Urban Economics, Eighth Edition", "Arthur O'Sullivan", "Locational equilibrium", "Bertaud, Clearing the Air in Atlanta (2003)", "Glaeser and Sacerdote, Why Is There More Crime in Cities? (1996)"],
+      "connectivity": {"internal_edges": 11, "external_edges": 0, "connected_nodes": 12},
+      "basis_note": "Z01 source-located labels combine the urban economics book, author, locational equilibrium, and named applications; all 12 nodes are internally connected."
+    },
+    "32": {
+      "proposed_label": "Accessibility and Derived-Demand Theory",
+      "confidence": "high",
+      "node_count": 11,
+      "supporting_nodes": ["Alfred Marshall", "Augustin Cournot", "Challenge to Derived Demand", "Chester Rapkin", "Derived-Demand Framework"],
+      "connectivity": {"internal_edges": 11, "external_edges": 4, "connected_nodes": 11},
+      "basis_note": "M07 source-located labels center on derived demand, mobility, and named contributors; all 11 nodes connect internally, with four external edges."
+    },
+    "33": {
+      "proposed_label": "Mobility Modeling and Transport Impacts",
+      "confidence": "high",
+      "node_count": 11,
+      "supporting_nodes": ["Congestion", "Formal Mobility Modeling", "Highway Level of Service", "California Environmental Quality Act", "Camden County Development Dispute"],
+      "connectivity": {"internal_edges": 11, "external_edges": 4, "connected_nodes": 11},
+      "basis_note": "M07 source-located labels connect congestion, formal mobility models, level of service, environmental review, and a development dispute; all 11 nodes connect."
+    },
+    "34": {
+      "proposed_label": "Urban Agglomeration Theory References",
+      "confidence": "medium",
+      "node_count": 11,
+      "supporting_nodes": ["Dixit and Stiglitz 1977 Monopolistic Competition", "Abdel-Rahman and Fujita 1990 Product Variety", "Duranton and Puga 2001 Nursery Cities", "Ethier 1982 Returns to Scale", "Duranton and Puga 2001 Sectoral to Functional Specialisation"],
+      "connectivity": {"internal_edges": 10, "external_edges": 3, "connected_nodes": 11},
+      "basis_note": "T03 source-located labels are named references to competition, product variety, nursery cities, returns to scale, and specialisation; 11 nodes connect with three external edges."
+    },
+    "35": {
+      "proposed_label": "Economic Theory, Values, and Equality",
+      "confidence": "high",
+      "node_count": 11,
+      "supporting_nodes": ["Equality Doctrine", "Equality of Opportunity", "Conservative Predilections of Economic Theory", "Created Harmony", "Belief in Innate Differences"],
+      "connectivity": {"internal_edges": 10, "external_edges": 2, "connected_nodes": 11},
+      "basis_note": "T05 source-located labels directly group equality, opportunity, conservative theory, created harmony, and innate-difference claims; all 11 nodes connect."
+    },
+    "36": {
+      "proposed_label": "Core-Periphery Model Dynamics",
+      "confidence": "high",
+      "node_count": 11,
+      "supporting_nodes": ["Core-periphery model", "Centripetal forces", "Centrifugal forces", "Break point", "Evolutionary dynamics"],
+      "connectivity": {"internal_edges": 13, "external_edges": 6, "connected_nodes": 11},
+      "basis_note": "T08 source-located labels explicitly name the core-periphery model, opposing forces, break points, and evolutionary dynamics; all 11 nodes connect."
+    },
+    "37": {
+      "proposed_label": "Economic Geography Model Foundations",
+      "confidence": "high",
+      "node_count": 11,
+      "supporting_nodes": ["Dixit-Stiglitz monopolistic competition", "Economic geography", "Movement of productive factors", "Iceberg transport costs", "Increasing returns"],
+      "connectivity": {"internal_edges": 10, "external_edges": 5, "connected_nodes": 11},
+      "basis_note": "T08 source-located labels identify economic geography, increasing returns, monopolistic competition, factor mobility, and transport costs; 11 nodes connect."
+    },
+    "38": {
+      "proposed_label": "Polycentric City Data and Economic Profiles",
+      "confidence": "high",
+      "node_count": 10,
+      "supporting_nodes": ["Economic Profiles of Cities", "Correspondence Analysis", "Complementarity Ratio", "Amsterdam", "LISA Employment Database"],
+      "connectivity": {"internal_edges": 9, "external_edges": 0, "connected_nodes": 10},
+      "basis_note": "P02 source-located labels combine city economic profiles, correspondence analysis, complementarity, a named city, and an employment database; all 10 nodes are internally connected."
+    },
+    "39": {
+      "proposed_label": "Functional Specialisation and Business Services",
+      "confidence": "high",
+      "node_count": 10,
+      "supporting_nodes": ["Functional Urban Specialisation", "Headquarters and Business Services", "Business-service Localisation Advantage", "Sharing Business Service Suppliers", "Specialisation by Type of Firm"],
+      "connectivity": {"internal_edges": 10, "external_edges": 6, "connected_nodes": 10},
+      "basis_note": "T06 source-located labels directly name functional specialisation, headquarters, business services, supplier sharing, and firm type; all 10 nodes connect."
+    },
+    "40": {
+      "proposed_label": "Central Goods, Range, and Population Distribution",
+      "confidence": "high",
+      "node_count": 10,
+      "supporting_nodes": ["Alfred Weber, Theory of the Location of Industries", "Consumption of Central Goods", "Ideal and Real Range", "Johann Heinrich von Thunen, The Isolated State", "Population Distribution and Structure"],
+      "connectivity": {"internal_edges": 10, "external_edges": 8, "connected_nodes": 10},
+      "basis_note": "T14 source-located labels connect central goods, consumption, range, population distribution, and location theory; all 10 nodes connect."
+    },
+    "41": {
+      "proposed_label": "Investment Inducement and Growth Models",
+      "confidence": "high",
+      "node_count": 10,
+      "supporting_nodes": ["Domar Model", "Capital-Output Ratio", "Autonomous Investment", "Conventional Induced Investment", "Exaggerated Expectations"],
+      "connectivity": {"internal_edges": 9, "external_edges": 0, "connected_nodes": 10},
+      "basis_note": "T16 source-located labels group the Domar model, capital-output ratio, autonomous and induced investment, and expectations; all 10 nodes are internally connected."
+    },
+    "42": {
+      "proposed_label": "Industrial Linkages and Enclaves",
+      "confidence": "high",
+      "node_count": 10,
+      "supporting_nodes": ["Backward Linkage", "Forward Linkage", "Input-Output Matrix", "Enclave Export Activities", "Enclave Import Industries"],
+      "connectivity": {"internal_edges": 10, "external_edges": 0, "connected_nodes": 10},
+      "basis_note": "T16 source-located labels directly identify backward and forward linkages, input-output structure, and export/import enclaves; all 10 nodes connect internally."
+    },
+    "43": {
+      "proposed_label": "Accessibility, Transport, and Sustainability Trade-offs",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": ["Accessibility as Robust Planning Basis", "Accessibility-VKT Trade-off", "Electric Vehicles", "Environmental Protection", "Economic Development"],
+      "connectivity": {"internal_edges": 9, "external_edges": 3, "connected_nodes": 9},
+      "basis_note": "M07 source-located labels join accessibility, vehicle travel, electric vehicles, environmental protection, and development; all nine nodes connect."
+    },
+    "44": {
+      "proposed_label": "Governance Episodes and Discursive Structuration",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": ["Boundaries and Resistance", "Cultural Assumptions", "Discourse Institutionalization", "Discourse Structuration", "Episodes of Governance"],
+      "connectivity": {"internal_edges": 9, "external_edges": 0, "connected_nodes": 9},
+      "basis_note": "M16 source-located labels directly name governance episodes, cultural assumptions, discourse institutionalization/structuration, and boundaries; all nine nodes connect internally."
+    },
+    "45": {
+      "proposed_label": "Knowledge Externalities and Learning",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": ["Knowledge Accumulation", "Knowledge Diffusion", "Knowledge Generation", "Learning Mechanisms", "Dynamic Human-capital Externality"],
+      "connectivity": {"internal_edges": 10, "external_edges": 2, "connected_nodes": 9},
+      "basis_note": "T03 source-located labels consistently identify knowledge generation, diffusion, accumulation, learning, and human-capital externality; all nine nodes connect."
+    },
+    "46": {
+      "proposed_label": "Linkages and Pecuniary Externalities",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": ["Circular Causation", "Backward Linkage", "Forward Linkage", "Demand Linkages", "Generalized Pecuniary Externalities"],
+      "connectivity": {"internal_edges": 9, "external_edges": 0, "connected_nodes": 9},
+      "basis_note": "T07 source-located labels directly group circular causation, backward/forward and demand linkages, and pecuniary externalities; all nine nodes connect internally."
+    },
+    "47": {
+      "proposed_label": "Agglomeration Benefits and Location Choice",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": ["Agglomeration Benefits", "Agglomeration Economies", "Candidate Locations", "Diseconomies of Agglomeration", "Geographical Benefits"],
+      "connectivity": {"internal_edges": 8, "external_edges": 0, "connected_nodes": 9},
+      "basis_note": "T09 source-located labels center on agglomeration benefits and diseconomies, geographical benefits, and candidate locations; all nine nodes are internally connected."
+    },
+    "48": {
+      "proposed_label": "Theory, Facts, and Empirical Social Science",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": ["A Priori Theory", "Comprehensive Empirical Social Science Research", "Explicit Value Premises", "Facts Are Sovereign", "Theory as Hypothesis"],
+      "connectivity": {"internal_edges": 8, "external_edges": 0, "connected_nodes": 9},
+      "basis_note": "T05 source-located labels explicitly connect theory, facts, empirical research, and value premises; all nine nodes are internally connected."
+    },
+    "49": {
+      "proposed_label": "International Flows and Import Substitution",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": ["Backwash Effects", "Capital Movements", "Enforced Bilateralism", "Import Substitution", "Foreign Exchange Resources"],
+      "connectivity": {"internal_edges": 8, "external_edges": 4, "connected_nodes": 9},
+      "basis_note": "T05 source-located labels combine capital movements, backwash, bilateralism, import substitution, and foreign exchange; all nine nodes connect, with four external edges."
+    },
+    "50": {
+      "proposed_label": "Cumulative Causation and Equalisation",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": ["Circular and Cumulative Causation", "Dynamics of Equalisation", "Economic Development", "Birth Control", "Non-Economic Factors"],
+      "connectivity": {"internal_edges": 9, "external_edges": 6, "connected_nodes": 9},
+      "basis_note": "T05 source-located labels connect cumulative causation, equalisation, development, population policy, and non-economic factors; all nine nodes connect."
+    },
+    "51": {
+      "proposed_label": "Accessibility Metrics and Urban Density",
+      "confidence": "high",
+      "node_count": 8,
+      "supporting_nodes": ["Accessibility Decomposition", "Metropolitan Density", "Median Work Accessibility", "Path Analysis", "Accessibility-as-Urbanism Fallacy"],
+      "connectivity": {"internal_edges": 8, "external_edges": 4, "connected_nodes": 8},
+      "basis_note": "M07 source-located labels combine accessibility decomposition, density, work accessibility, path analysis, and a named accessibility fallacy; all eight nodes connect."
+    },
+    "52": {
+      "proposed_label": "Accessibility, Housing, and Income",
+      "confidence": "high",
+      "node_count": 8,
+      "supporting_nodes": ["Affordable Housing", "Automobile Accessibility", "Baltimore", "Central-Location Accessibility Advantage", "Household Income"],
+      "connectivity": {"internal_edges": 7, "external_edges": 1, "connected_nodes": 8},
+      "basis_note": "M07 source-located labels link housing, automobile and central-location accessibility, income, and the Baltimore case; all eight nodes connect."
+    },
+    "53": {
+      "proposed_label": "Governance Consultation and Local Partnerships",
+      "confidence": "high",
+      "node_count": 8,
+      "supporting_nodes": ["Area Committees", "Citizen Protest", "Consultative Politics", "Local Strategic Partnerships", "Going for Growth"],
+      "connectivity": {"internal_edges": 7, "external_edges": 0, "connected_nodes": 8},
+      "basis_note": "M16 source-located labels directly name committees, citizen protest, consultation, local partnerships, and a growth case; all eight nodes are internally connected."
+    },
+    "54": {
+      "proposed_label": "Conflict, Authority, and Political Elites",
+      "confidence": "high",
+      "node_count": 8,
+      "supporting_nodes": ["Conflict over Authority", "Cooptation", "Counter-Elites", "Legitimate Conflict", "Illegitimate Conflict"],
+      "connectivity": {"internal_edges": 7, "external_edges": 0, "connected_nodes": 8},
+      "basis_note": "Z03 source-located labels explicitly group authority conflict, cooptation, counter-elites, and legitimate/illegitimate conflict; all eight nodes connect internally."
+    },
+    "55": {
+      "proposed_label": "Regional Employment and Human Capital",
+      "confidence": "medium",
+      "node_count": 8,
+      "supporting_nodes": ["Employment multiplier", "Human capital", "Industrial Revolution", "Neoclassical regional model", "Public policy and equilibrium employment"],
+      "connectivity": {"internal_edges": 7, "external_edges": 0, "connected_nodes": 8},
+      "basis_note": "Z01 source-located labels combine employment, human capital, industrial change, regional modeling, and equilibrium employment; all eight nodes connect internally."
+    },
+    "56": {
+      "proposed_label": "Consultative Urban Governance Case",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": ["Consultative Style", "Grainger Town Partnership", "National Government Funding", "Newcastle City Council", "Contained and Temporary Arena"],
+      "connectivity": {"internal_edges": 6, "external_edges": 0, "connected_nodes": 7},
+      "basis_note": "M16 source-located labels identify a consultative style, a partnership, public funding, a city council, and a bounded arena; all seven nodes connect internally."
+    },
+    "57": {
+      "proposed_label": "Path Dependence and Locational Selection",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": ["Historical Accident", "Path-Dependent Process", "Random Entry Order", "Selectional Advantage", "Moving and Relocation"],
+      "connectivity": {"internal_edges": 6, "external_edges": 0, "connected_nodes": 7},
+      "basis_note": "T09 source-located labels directly name historical accident, path dependence, entry order, selectional advantage, and relocation; all seven nodes connect internally."
+    },
+    "58": {
+      "proposed_label": "Growth Poles and Development of Backward Areas",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": ["Growth Poles", "Development of Backward Areas", "Growing Points", "Polarization Effects", "North"],
+      "connectivity": {"internal_edges": 8, "external_edges": 0, "connected_nodes": 7},
+      "basis_note": "T16 source-located labels explicitly group growth poles, growing points, backward areas, polarization effects, and the named regional direction; all seven nodes connect."
+    },
+    "59": {
+      "proposed_label": "Growth-Pole Industries and Policy",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": ["Growth Pole Policy", "Driven Industries", "Expansive Forces", "Complex of Industries", "Key Industry"],
+      "connectivity": {"internal_edges": 6, "external_edges": 3, "connected_nodes": 7},
+      "basis_note": "T17 source-located labels directly identify growth-pole policy, driven/key industries, industrial complexes, and expansive forces; all seven nodes connect."
+    },
+    "60": {
+      "proposed_label": "Spatial Development and Regional Planning",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": ["Regional Planning", "Space as a Field of Forces", "Theory of Development in Its Spatial Dimension", "Dahrendorf Conflict Model", "Social Change"],
+      "connectivity": {"internal_edges": 6, "external_edges": 0, "connected_nodes": 7},
+      "basis_note": "Z03 source-located labels connect regional planning, spatial development, social change, and a conflict model; all seven nodes are internally connected."
+    },
+    "61": {
+      "proposed_label": "Innovation and Developmental Change",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": ["Development as Innovation", "Epochal Innovation", "Growth", "Innovation Clusters", "Linked Systems of Innovations"],
+      "connectivity": {"internal_edges": 6, "external_edges": 0, "connected_nodes": 7},
+      "basis_note": "Z03 source-located labels repeatedly name innovation, growth, innovation clusters, and linked innovation systems; all seven nodes connect internally."
+    },
+    "62": {
+      "proposed_label": "Industrial Clustering and Path Dependence",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": ["Industrial clustering", "Industrial specialization", "Industrial-location hysteresis", "Internal economic geography", "Arthur (1994), Increasing Returns and Path Dependence in the Economy"],
+      "connectivity": {"internal_edges": 6, "external_edges": 0, "connected_nodes": 7},
+      "basis_note": "T08 source-located labels directly combine industrial clustering, specialisation, hysteresis, internal geography, and path dependence; all seven nodes connect."
+    },
+    "63": {
+      "proposed_label": "Agglomeration Dynamics and Spatial Continuity",
+      "confidence": "medium",
+      "node_count": 7,
+      "supporting_nodes": ["Continuous space", "Preferred frequency of agglomeration", "Punctuated equilibrium", "Racetrack economy", "Seamless world"],
+      "connectivity": {"internal_edges": 6, "external_edges": 2, "connected_nodes": 7},
+      "basis_note": "T08 source-located labels combine continuous space, agglomeration frequency, punctuated equilibrium, racetrack economy, and seamless-world terms; all seven nodes connect."
+    },
+    "64": {
+      "proposed_label": "Interregional Trade and Uneven Development",
+      "confidence": "medium",
+      "node_count": 7,
+      "supporting_nodes": ["Developmental spurts", "Intermediate goods", "International specialization", "National inequalities", "Ohlin (1933), Interregional and International Trade"],
+      "connectivity": {"internal_edges": 6, "external_edges": 3, "connected_nodes": 7},
+      "basis_note": "T08 source-located labels link trade, intermediate goods, specialisation, developmental spurts, and national inequalities; all seven nodes connect with three external edges."
+    },
+    "65": {
+      "proposed_label": "Transit Travel-Time Components",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["Transit Access Time", "Transit Egress Time", "Transit Headways", "Public-Transport Travel Time", "Transit Transfer Time"],
+      "connectivity": {"internal_edges": 5, "external_edges": 0, "connected_nodes": 6},
+      "basis_note": "M07 source-located labels are all transit travel-time components; all six nodes are internally connected."
+    },
+    "66": {
+      "proposed_label": "Accessibility Equity and Civil Rights",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["Accessibility-Based Equity Evaluation", "Environmental Justice", "Executive Order 12898", "Mobility-Based Equity Evaluation", "Title VI of the Civil Rights Act"],
+      "connectivity": {"internal_edges": 6, "external_edges": 1, "connected_nodes": 6},
+      "basis_note": "M07 source-located labels explicitly join accessibility/mobility equity evaluation, environmental justice, and civil-rights instruments; all six nodes connect."
+    },
+    "67": {
+      "proposed_label": "Land Use and Mobility Plan Scenarios",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["Alamo Plan Accessibility Result", "Build and No-Build Scenarios", "Land-Use Decentralization", "Loop 1604", "Mobility 2040 Plan"],
+      "connectivity": {"internal_edges": 6, "external_edges": 0, "connected_nodes": 6},
+      "basis_note": "M07 source-located labels identify accessibility results, build/no-build scenarios, decentralization, and named plans/locations; all six nodes connect internally."
+    },
+    "68": {
+      "proposed_label": "Territory, Space, and Metageography",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["Metageography", "Space of Flows", "Space of Places", "Territorial Trap", "Territorialism"],
+      "connectivity": {"internal_edges": 5, "external_edges": 0, "connected_nodes": 6},
+      "basis_note": "M17 source-located labels directly name metageography, spaces of flows/places, territorial trap, and territorialism; all six nodes connect internally."
+    },
+    "69": {
+      "proposed_label": "Agglomeration and Growth-Pole Dynamics",
+      "confidence": "medium",
+      "node_count": 6,
+      "supporting_nodes": ["Urban Agglomeration Economies", "External Economies Beyond Prices", "Induced Growth", "Pole Decline and Stagnation", "Progressive Industry or Firm"],
+      "connectivity": {"internal_edges": 6, "external_edges": 6, "connected_nodes": 6},
+      "basis_note": "T03/T17 source-located labels combine agglomeration economies and external economies with induced growth, pole decline, and progressive industry; the six-node cluster has as many external as internal edges."
+    },
+    "70": {
+      "proposed_label": "Firm Location Probabilities and Agglomeration",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["Expected Motion", "Distribution of Firm Types", "Locational Choice Probability", "Locational Shares", "Perturbation Effect"],
+      "connectivity": {"internal_edges": 5, "external_edges": 0, "connected_nodes": 6},
+      "basis_note": "T09 source-located labels identify firm types, location probabilities/shares, expected motion, and perturbation; all six nodes connect internally."
+    },
+    "71": {
+      "proposed_label": "Centrality Measurement Methods",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["Rough Centrality", "Specific Centrality", "Statistical Method", "Telephone-Connections Method", "Economic Method in Settlement Geography"],
+      "connectivity": {"internal_edges": 6, "external_edges": 4, "connected_nodes": 6},
+      "basis_note": "T14 source-located labels explicitly name centrality measures and telephone, statistical, economic, and settlement-geography methods; all six nodes connect."
+    },
+    "72": {
+      "proposed_label": "Central-Place Settlement Types",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["L-place", "Munich", "Nuremberg", "R-place", "RT-place"],
+      "connectivity": {"internal_edges": 5, "external_edges": 3, "connected_nodes": 6},
+      "basis_note": "T14 source-located labels are settlement-type codes and named settlements; all six nodes connect, with three external edges."
+    },
+    "73": {
+      "proposed_label": "Colonialism, Enclaves, and Investment",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["Colonial Enclaves", "Colonialism", "External Economies", "Extra-Profit Yields", "Investment"],
+      "connectivity": {"internal_edges": 5, "external_edges": 7, "connected_nodes": 6},
+      "basis_note": "T05 source-located labels directly connect colonialism and enclaves with external economies, investment, and extra-profit yields; six nodes connect internally."
+    },
+    "74": {
+      "proposed_label": "National Planning and Investment Allocation",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["Induced and Controlled Cumulative Process", "Investment Allocation", "National Economic Planning", "Opportunity Costs", "Planning in Real Terms"],
+      "connectivity": {"internal_edges": 5, "external_edges": 1, "connected_nodes": 6},
+      "basis_note": "T05 source-located labels directly name national planning, cumulative control, investment allocation, opportunity costs, and real-term planning; all six nodes connect."
+    },
+    "75": {
+      "proposed_label": "Markets, Integration, and State",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["Market Forces", "National Integration", "Rising Nationalism", "Social Chasms", "State as Organised Society"],
+      "connectivity": {"internal_edges": 5, "external_edges": 4, "connected_nodes": 6},
+      "basis_note": "T05 source-located labels combine market forces, national integration, nationalism, social chasms, and the state; all six nodes connect."
+    },
+    "76": {
+      "proposed_label": "Urban Crime Choice Models",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": ["Consumer choice model", "Input choice model", "Principle of marginal deterrence", "Marginal principle", "Optimal amount of crime"],
+      "connectivity": {"internal_edges": 5, "external_edges": 0, "connected_nodes": 6},
+      "basis_note": "Z01 source-located labels explicitly group choice models, marginal principles, deterrence, and crime; all six nodes are internally connected."
+    },
+    "77": {
+      "proposed_label": "Planning Rationalities and Four-Track Approach",
+      "confidence": "medium",
+      "node_count": 5,
+      "supporting_nodes": ["Communicative Rationality", "Four-Track Approach", "Instrumental Rationality", "Strategic Rationality", "Value Rationality"],
+      "connectivity": {"internal_edges": 4, "external_edges": 0, "connected_nodes": 5},
+      "basis_note": "M13 source-located labels directly name four rationalities and the four-track approach; all five nodes connect internally, but the cluster is small."
+    },
+    "78": {
+      "proposed_label": "Strategy-Making Trajectories",
+      "confidence": "medium",
+      "node_count": 5,
+      "supporting_nodes": ["Endogenous Trajectory", "Exogenous Trajectory", "Institutional Identity", "Situating and Scoping", "Strategy Makers"],
+      "connectivity": {"internal_edges": 4, "external_edges": 0, "connected_nodes": 5},
+      "basis_note": "M14 source-located labels directly identify strategy makers, trajectories, institutional identity, and situating/scoping; all five nodes connect internally."
+    },
+    "79": {
+      "proposed_label": "Bounded Agglomeration Economies",
+      "confidence": "medium",
+      "node_count": 5,
+      "supporting_nodes": ["Agglomeration Ceiling", "Agglomeration Upper Bound", "Bounded Agglomeration Economies", "Heterogeneity of Tastes", "Regional Sharing"],
+      "connectivity": {"internal_edges": 4, "external_edges": 0, "connected_nodes": 5},
+      "basis_note": "T09 source-located labels repeatedly name ceilings, upper bounds, bounded agglomeration, tastes, and regional sharing; all five nodes connect internally."
+    },
+    "80": {
+      "proposed_label": "Import-Induced Industrialisation",
+      "confidence": "high",
+      "node_count": 5,
+      "supporting_nodes": ["Demand Formation and Demand Reconnaissance", "Domestic Production Threshold", "Import-Induced Industrialization", "Imports", "Minimum Economic Size"],
+      "connectivity": {"internal_edges": 4, "external_edges": 0, "connected_nodes": 5},
+      "basis_note": "T16 source-located labels directly connect imports, domestic production thresholds, demand formation, and minimum economic size; all five nodes connect internally."
+    },
+    "81": {
+      "proposed_label": "International Solidarity and Equalisation",
+      "confidence": "high",
+      "node_count": 5,
+      "supporting_nodes": ["Bargaining Power", "Equalisation Upwards", "International Organisations", "International Solidarity", "Under-Privileged Nations"],
+      "connectivity": {"internal_edges": 4, "external_edges": 0, "connected_nodes": 5},
+      "basis_note": "T05 source-located labels directly identify bargaining power, upward equalisation, international organisations/solidarity, and under-privileged nations; all five nodes connect."
+    },
+    "82": {
+      "proposed_label": "Regional Inequality and Local Finance",
+      "confidence": "high",
+      "node_count": 5,
+      "supporting_nodes": ["Economic Stagnation", "Local Finances", "Local Tax Rate", "Public Services", "Regional Economic Inequalities"],
+      "connectivity": {"internal_edges": 4, "external_edges": 4, "connected_nodes": 5},
+      "basis_note": "T05 source-located labels combine regional inequality, local finance and tax, public services, and stagnation; all five nodes connect."
+    },
+    "83": {
+      "proposed_label": "Urban Systems and Agglomeration Externalities",
+      "confidence": "medium",
+      "node_count": 5,
+      "supporting_nodes": ["Urban system", "External economies", "Congestion costs", "Henderson (1974), The Sizes and Types of Cities", "Marshall (1920), Principles of Economics"],
+      "connectivity": {"internal_edges": 4, "external_edges": 3, "connected_nodes": 5},
+      "basis_note": "T08 source-located labels combine urban systems, congestion, external economies, and named city-size references; all five nodes connect, with three external edges."
+    },
+    "84": {
+      "proposed_label": "Thin: Accessibility Planning Authors",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["From Mobility to Accessibility", "Joe Grengs", "Jonathan Levine", "Louis A. Merlin"],
+      "connectivity": {"internal_edges": 3, "external_edges": 1, "connected_nodes": 4},
+      "basis_note": "Provisional label retained at the level of the four source-located title/author labels; the small cluster has three internal and one external edge and does not support a broader category."
+    },
+    "85": {
+      "proposed_label": "Thin: Traditional Land-Use Planning",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["Conformance View", "Land-Use Regulation", "Legal Certainty and Rigidity", "Traditional Land-Use Planning"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows the four M13 source-located labels; the small cluster is internally connected but too thin for a broader interpretation."
+    },
+    "86": {
+      "proposed_label": "Thin: Governance and Institutional Work",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["Collective Action", "Entrepreneurial Governance", "Governance", "Institutional Work"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows the four M16 source-located labels; the small cluster is internally connected but insufficient for a stronger category."
+    },
+    "87": {
+      "proposed_label": "Thin: Multi-Level Governance Arenas",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["Formal Government", "Governance Landscape", "Informal Networks", "Multi-Level Governance Arenas"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows four M16 source-located labels about formal, informal, landscape, and arena terms; the cluster is small despite internal connectivity."
+    },
+    "88": {
+      "proposed_label": "Thin: Governance Resource Types",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["Institutional Capacity", "Intellectual, Social, and Political Capital", "Knowledge Resources", "Relational Resources"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows four M16 source-located resource/capacity labels; the cluster is internally connected but thin."
+    },
+    "89": {
+      "proposed_label": "Thin: Home-Market and Transport Costs",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["Home Market Effect", "Iceberg Transport Costs", "Regional Convergence", "Transportation Costs"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows four T07 source-located labels; the small internally connected cluster does not justify a broader interpretation."
+    },
+    "90": {
+      "proposed_label": "Thin: Mobile Workers and Monopolistic Competition",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["Immobile Peasants", "Mobile Workers", "Monopolistic Competition", "Two-Region Model"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows the four T07 source-located labels; the cluster is small and only internally connected."
+    },
+    "91": {
+      "proposed_label": "Thin: Inflationary Price Signals",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["Inflationary Pull", "Price-Price Spiral", "Price Signals", "Supply Elasticity"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows four T16 source-located price/inflation labels; the small cluster is internally connected but thin."
+    },
+    "92": {
+      "proposed_label": "Thin: Asynchronous Regional Development",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["Asynchronous Development", "Lagging or Traditional Forces", "Leading or Innovative Forces", "Traditional Social Matrix"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows four Z03 source-located labels contrasting leading, lagging, and traditional forces; the cluster is small."
+    },
+    "93": {
+      "proposed_label": "Thin: Communication and Innovation Diffusion",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["Communication", "Diffusion of Innovations", "Siebert Models of Regions", "Technical Knowledge"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows four Z03 source-located labels on communication, diffusion, regional models, and technical knowledge; the cluster is small."
+    },
+    "94": {
+      "proposed_label": "Thin: Regional Development Models",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["General Equilibrium Model", "Interregional Flows of Labor and Capital", "Regional Development Theory", "Spatial Organization Theory"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows four Z03 source-located model/theory labels; the internally connected cluster is too small for a stronger interpretation."
+    },
+    "95": {
+      "proposed_label": "Thin: American Racial Inequality",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["American Creed", "The American Negro Problem", "Low Negro Plane of Living", "White Prejudice"],
+      "connectivity": {"internal_edges": 4, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows the four T05 source-located labels; the cluster is internally connected but contains only four nodes."
+    },
+    "96": {
+      "proposed_label": "Thin: Urban Area Classifications",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": ["Metropolitan area", "Micropolitan area", "Principal city", "Urban area"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 4},
+      "basis_note": "Provisional label follows four Z01 source-located area-classification labels; the cluster is small and internally connected."
+    },
+    "97": {
+      "proposed_label": "Thin: Accessibility-Based Project Selection",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Accessibility-Based Implementation", "Project Selection", "Virginia SMART Scale"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows the three M07 source-located implementation/selection labels; the cluster is too small for a broader claim."
+    },
+    "98": {
+      "proposed_label": "Thin: Spatial Strategy and Sustainable Development",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Place Focus", "Spatial Relations", "Sustainable Development"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three M13 source-located labels; the small internally connected cluster does not support a stronger interpretation."
+    },
+    "99": {
+      "proposed_label": "Thin: Strategy-Making Power and Institutions",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Agency Field", "Institutional Audit", "Levers of Power"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three M14 source-located labels; the cluster is too small for a broader interpretation."
+    },
+    "100": {
+      "proposed_label": "Thin: Institutional Change Opportunities",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Institutional Moment", "Momentum for Change", "Opportunity Structure"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three M14 source-located labels; the small internally connected cluster does not support a broader category."
+    },
+    "101": {
+      "proposed_label": "Thin: Pluralistic Strategy-Making Qualities",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Open-Mindedness", "Pluralistic Imagination", "Systemic Qualities"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three M14 source-located labels; the cluster is small despite internal connectivity."
+    },
+    "102": {
+      "proposed_label": "Thin: Policy Streams",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Policy Problems", "Policy Solutions", "Policy Streams"],
+      "connectivity": {"internal_edges": 3, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows the three M14 source-located policy-stream labels; the cluster is too small for a broader interpretation."
+    },
+    "103": {
+      "proposed_label": "Thin: Governance Transformation",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Central-Local Government Power Dynamic", "Continual Transformation", "Governance on the Move"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three M16 source-located governance-transformation labels; the cluster is small."
+    },
+    "104": {
+      "proposed_label": "Thin: Local and Metropolitan Growth Coordination",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Local Growth Decisions", "Metropolitan Coordination", "National Territorial Distribution Policy"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T01 source-located coordination and distribution-policy labels; the cluster is small."
+    },
+    "105": {
+      "proposed_label": "Thin: Local Population Growth and Migration",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Local Zero Population Growth", "Net Migration", "Youth Outmigration"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T01 source-located population/migration labels; the cluster is too small for a stronger claim."
+    },
+    "106": {
+      "proposed_label": "Thin: Agglomeration Threshold and Manufacturing Concentration",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Critical Parameter Threshold", "Defecting Firm", "Manufacturing Concentration"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T07 source-located labels; the internally connected cluster is too small for a broader interpretation."
+    },
+    "107": {
+      "proposed_label": "Thin: Regional Equilibrium Wages",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Long-Run Equilibrium", "Real Wages", "Short-Run Equilibrium"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T07 source-located equilibrium/wage labels; the cluster is small."
+    },
+    "108": {
+      "proposed_label": "Thin: Locational Attractor Dynamics",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Attractor Points", "Fixed Points", "Repellor Points"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T09 source-located point-dynamics labels; the cluster is too small for a broader interpretation."
+    },
+    "109": {
+      "proposed_label": "Thin: Production and Administrative Tasks",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Administrative Tasks", "Operator-Paced Operations", "Production Tasks"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T16 source-located task/operation labels; the cluster is small and internally connected."
+    },
+    "110": {
+      "proposed_label": "Thin: Balanced Growth and Underdevelopment",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Balanced Growth", "Big Push Theory", "Underdevelopment Equilibrium"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T16 source-located growth/underdevelopment labels; the cluster is too small for a stronger category."
+    },
+    "111": {
+      "proposed_label": "Thin: Self-Induced Development",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Built-In Spurs", "Maintenance Problem", "Self-Inducement"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T16 source-located labels; the cluster is small."
+    },
+    "112": {
+      "proposed_label": "Thin: Entrepreneurship and Change",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Cooperative Component of Entrepreneurship", "Creative Component of Entrepreneurship", "Ego-Focused Image of Change"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T16 source-located entrepreneurship/change labels; the cluster is too small for a broader interpretation."
+    },
+    "113": {
+      "proposed_label": "Thin: Sovereignty and Institutional Arrangements",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Developmental Advantages of Sovereignty", "Economic Arguments for Separatism", "Optimal Institutional Arrangements"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T16 source-located sovereignty/institutional-arrangement labels; the cluster is small."
+    },
+    "114": {
+      "proposed_label": "Thin: Export Promotion and Import Substitution",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Export Promotion", "Fluctuations in Foreign Exchange Earnings", "Import Substitution"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T16 source-located trade-policy and foreign-exchange labels; the cluster is too small for a broader claim."
+    },
+    "115": {
+      "proposed_label": "Thin: Sectoral Growth and Exportability",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Exportability", "Rapid-Growth Sector R", "Slow-Growth Sector S"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T16 source-located sector/export labels; the cluster is small and internally connected."
+    },
+    "116": {
+      "proposed_label": "Thin: Relative Backwardness and Late Development",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Growth Perspective", "Latecomers to Development", "Relative Backwardness"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T16 source-located development-timing labels; the cluster is too small for a stronger interpretation."
+    },
+    "117": {
+      "proposed_label": "Thin: Protection and Comparative Costs",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Dynamic Theory of Comparative Costs", "Infant Industry Argument", "Protection"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T05 source-located trade/protection labels; the cluster is small."
+    },
+    "118": {
+      "proposed_label": "Thin: National Economic Independence",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["National Economic Liberation", "National State Policies", "Political Independence"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three T05 source-located independence/policy labels; the cluster is too small for a broader category."
+    },
+    "119": {
+      "proposed_label": "Thin: Education Finance Grants",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": ["Education finance reform", "Foundation grants", "Guaranteed tax base plan"],
+      "connectivity": {"internal_edges": 2, "external_edges": 0, "connected_nodes": 3},
+      "basis_note": "Provisional label follows three Z01 source-located education-finance labels; the cluster is small and internally connected."
+    },
+    "120": {
+      "proposed_label": "Thin: Houston and Philadelphia",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Houston", "Philadelphia"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two M07 source-located city labels; one internal edge is insufficient to infer a broader category."
+    },
+    "121": {
+      "proposed_label": "Thin: Los Angeles and New York",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Los Angeles", "New York"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two M07 source-located city labels; one internal edge does not support a broader interpretation."
+    },
+    "122": {
+      "proposed_label": "Thin: San Francisco Bay Area and Washington, DC",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["San Francisco Bay Area", "Washington, DC"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two M07 source-located place labels; one internal edge is insufficient for a broader label."
+    },
+    "123": {
+      "proposed_label": "Thin: Governance Infrastructure and Spatial Strategy",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Governance Infrastructure", "Spatial Strategy as Social Product"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two M14 source-located labels; one internal edge does not justify a broader category."
+    },
+    "124": {
+      "proposed_label": "Thin: Moral Responsibility and Selective Simplification",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Moral Responsibility", "Selective Simplification"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two M14 source-located labels; the single internal edge leaves the community ambiguous."
+    },
+    "125": {
+      "proposed_label": "Thin: Territorial Collective Actor Capacity",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Collective Actor Capacity", "Territorial Collective Actor"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two M16 source-located labels; one internal edge supports only a narrow descriptive label."
+    },
+    "126": {
+      "proposed_label": "Thin: Institutions and Rules",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Institutions", "Norms, Rules, and Practices"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two M16 source-located institutional labels; one internal edge is too thin for a broader interpretation."
+    },
+    "127": {
+      "proposed_label": "Thin: Patsy Healey and Transforming Governance",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Patsy Healey", "Transforming Governance: Challenges of Institutional Adaptation and a New Politics of Space"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two M16 source-located author/title labels; one internal edge does not support a substantive category."
+    },
+    "128": {
+      "proposed_label": "Thin: Population Potential and Borrowed Size",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Borrowed Size", "Population Potential"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T01 source-located labels; one internal edge supports only the descriptive pair."
+    },
+    "129": {
+      "proposed_label": "Thin: Interdependent City System",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["City Interdependence", "System of Cities"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T01 source-located city-system labels; one internal edge is insufficient for broader inference."
+    },
+    "130": {
+      "proposed_label": "Thin: Exclusionary Zoning and Housing Permits",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Exclusionary Zoning", "Housing Permits"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T01 source-located housing-regulation labels; one internal edge leaves the community thin."
+    },
+    "131": {
+      "proposed_label": "Thin: Local Fiscal Impacts and Public Services",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Local Fiscal Impacts", "Public Services"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T01 source-located fiscal/service labels; one internal edge does not justify a broader category."
+    },
+    "132": {
+      "proposed_label": "Thin: Heterogeneous Firms and Locational Tastes",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Heterogeneous Firms", "Locational Tastes"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T09 source-located labels; one internal edge supports only a narrow descriptive label."
+    },
+    "133": {
+      "proposed_label": "Thin: Abortive Development",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Abortive Development", "Forces Corroding Development"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T16 source-located development labels; one internal edge leaves the community ambiguous."
+    },
+    "134": {
+      "proposed_label": "Thin: Balance of Payments and Foreign Exchange",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Balance-of-Payments Pressures", "Foreign Exchange Illusion"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T16 source-located foreign-exchange labels; one internal edge is insufficient for broader interpretation."
+    },
+    "135": {
+      "proposed_label": "Thin: Complementarity and Entrained Wants",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Complementarity in Use", "Entrained Wants"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T16 source-located labels; one internal edge supports no broader category."
+    },
+    "136": {
+      "proposed_label": "Thin: Development Strategy and Productive Tensions",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Development Strategy", "Productive Tensions"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T16 source-located labels; one internal edge leaves the community thin."
+    },
+    "137": {
+      "proposed_label": "Thin: Investment Criteria",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Investment Criteria", "Social Marginal Productivity"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T16 source-located investment-criteria labels; one internal edge is insufficient for a broader claim."
+    },
+    "138": {
+      "proposed_label": "Thin: Upward Spiral and Vicious Circles",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Upward Spiral", "Interlocking Vicious Circles"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T16 source-located process labels; one internal edge leaves the community ambiguous."
+    },
+    "139": {
+      "proposed_label": "Thin: Economic and National Space",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Balanced Growth of the World Economy", "Economic Space and National Space Conflict"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T17 source-located space/economy labels; one internal edge is insufficient for a broader interpretation."
+    },
+    "140": {
+      "proposed_label": "Thin: Location Theory and Growth Centers",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Classical Location Theory", "Growth Centers"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two Z03 source-located labels; one internal edge supports only the descriptive pair."
+    },
+    "141": {
+      "proposed_label": "Thin: Austerity and Capital Formation",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Austerity", "Capital Formation"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T05 source-located labels; one internal edge is too thin for a broader category."
+    },
+    "142": {
+      "proposed_label": "Thin: Economic Nationalism and Welfare",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Economic Nationalism", "Economic Welfare"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T05 source-located labels; one internal edge leaves the community ambiguous."
+    },
+    "143": {
+      "proposed_label": "Thin: Political Prices",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Political Prices", "Price System"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two T05 source-located price labels; one internal edge is insufficient for a broader claim."
+    },
+    "144": {
+      "proposed_label": "Thin: Mass Transit and Ridership",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Mass transit", "Transit ridership"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two Z01 source-located transit labels; one internal edge supports only the descriptive pair."
+    },
+    "145": {
+      "proposed_label": "Thin: Paratransit and Deregulation",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": ["Paratransit", "Transit deregulation"],
+      "connectivity": {"internal_edges": 1, "external_edges": 0, "connected_nodes": 2},
+      "basis_note": "Provisional label retains the two Z01 source-located transit labels; one internal edge is insufficient for broader interpretation."
+    },
+    "146": {
+      "proposed_label": "Thin: Accessibility Analysis for Transportation Projects and Plans",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Accessibility Analysis for Transportation Projects and Plans"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "147": {
+      "proposed_label": "Thin: Albuquerque",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Albuquerque"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "148": {
+      "proposed_label": "Thin: Connectivity",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Connectivity"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "149": {
+      "proposed_label": "Thin: Demographic Energy",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Demographic Energy"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "150": {
+      "proposed_label": "Thin: Does Accessibility Require Density or Speed?",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Does Accessibility Require Density or Speed?"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the question is retained verbatim and no broader interpretation is proposed."
+    },
+    "151": {
+      "proposed_label": "Thin: John Stewart",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["John Stewart"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "152": {
+      "proposed_label": "Thin: Land-Use-Based Travel Forecasting",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Land-Use-Based Travel Forecasting"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "153": {
+      "proposed_label": "Thin: Martin Wachs and Gordon Kumagai",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Martin Wachs and Gordon Kumagai"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "154": {
+      "proposed_label": "Thin: Project-Level Accessibility Analysis for Land-Use Planning",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Project-Level Accessibility Analysis for Land-Use Planning"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "155": {
+      "proposed_label": "Thin: Robert Murray Haig",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Robert Murray Haig"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "156": {
+      "proposed_label": "Thin: Transit Ridership",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Transit Ridership"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "157": {
+      "proposed_label": "Thin: Walter Hansen",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Walter Hansen"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "158": {
+      "proposed_label": "Thin: Comprehensive Planning",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Comprehensive Planning"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M13 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "159": {
+      "proposed_label": "Thin: Performance View",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Performance View"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M13 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "160": {
+      "proposed_label": "Thin: Social and Intellectual Capital",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Social and Intellectual Capital"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M13 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "161": {
+      "proposed_label": "Thin: Structuring Dimension",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Structuring Dimension"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M14 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "162": {
+      "proposed_label": "Thin: European Union",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["European Union"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton M17 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "163": {
+      "proposed_label": "Thin: Network Cities",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Network Cities"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton P02 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "164": {
+      "proposed_label": "Thin: Urban Networks",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Urban Networks"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton P02 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "165": {
+      "proposed_label": "Thin: Compensatory Payments",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Compensatory Payments"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "166": {
+      "proposed_label": "Thin: Economic Growth",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Economic Growth"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "167": {
+      "proposed_label": "Thin: Environmental Concerns",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Environmental Concerns"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "168": {
+      "proposed_label": "Thin: Land-Use Regulation",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Land-Use Regulation"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "169": {
+      "proposed_label": "Thin: Local Age Structure",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Local Age Structure"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "170": {
+      "proposed_label": "Thin: Malthusian Concern",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Malthusian Concern"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "171": {
+      "proposed_label": "Thin: Metropolitan Balkanization",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Metropolitan Balkanization"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "172": {
+      "proposed_label": "Thin: No-Growth Movement",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["No-Growth Movement"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "173": {
+      "proposed_label": "Thin: Office Development",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Office Development"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "174": {
+      "proposed_label": "Thin: Real Net Income per Capita",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Real Net Income per Capita"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "175": {
+      "proposed_label": "Thin: Social and Economic Mobility",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Social and Economic Mobility"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "176": {
+      "proposed_label": "Thin: Social Equity",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Social Equity"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "177": {
+      "proposed_label": "Thin: Structural Change",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Structural Change"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "178": {
+      "proposed_label": "Thin: Urban Areas as Open Systems",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Urban Areas as Open Systems"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "179": {
+      "proposed_label": "Thin: Urban Density",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Urban Density"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "180": {
+      "proposed_label": "Thin: Urban Efficiency",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Urban Efficiency"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "181": {
+      "proposed_label": "Thin: Urban Size",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Urban Size"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "182": {
+      "proposed_label": "Thin: Heterogeneity of Workers and Firms",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Heterogeneity of Workers and Firms"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T03 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "183": {
+      "proposed_label": "Thin: Incomplete Information",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Incomplete Information"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T03 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "184": {
+      "proposed_label": "Thin: Marshallian Equivalence",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Marshallian Equivalence"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T03 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "185": {
+      "proposed_label": "Thin: Henry George Theorem",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Henry George Theorem"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T06 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "186": {
+      "proposed_label": "Thin: Urban Congestion Costs",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Urban Congestion Costs"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T06 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "187": {
+      "proposed_label": "Thin: Elasticity of Substitution",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Elasticity of Substitution"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "188": {
+      "proposed_label": "Thin: Informational Spillovers",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Informational Spillovers"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "189": {
+      "proposed_label": "Thin: Pooled Labor Market",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Pooled Labor Market"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "190": {
+      "proposed_label": "Thin: Primary Stratum of Peasants",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Primary Stratum of Peasants"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "191": {
+      "proposed_label": "Thin: Specialized Inputs",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Specialized Inputs"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T07 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "192": {
+      "proposed_label": "Thin: Low-Level Equilibrium Trap",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Low-Level Equilibrium Trap"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T16 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "193": {
+      "proposed_label": "Thin: Industrial Centre",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Industrial Centre"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T17 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "194": {
+      "proposed_label": "Thin: Inflationary Pressure",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Inflationary Pressure"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T05 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "195": {
+      "proposed_label": "Thin: City-Size Distribution",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["City-size distribution"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T08 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "196": {
+      "proposed_label": "Thin: Knowledge Spillovers",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Knowledge spillovers"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T08 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "197": {
+      "proposed_label": "Thin: Labor-Market Pooling",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Labor-market pooling"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton T08 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "198": {
+      "proposed_label": "Thin: Backyard Production",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Backyard production"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton Z01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    },
+    "199": {
+      "proposed_label": "Thin: Zero Economic Profit",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": ["Zero economic profit"],
+      "connectivity": {"internal_edges": 0, "external_edges": 0, "connected_nodes": 0},
+      "basis_note": "Singleton Z01 source-located node with no graph edges; the label is retained verbatim and no broader interpretation is proposed."
+    }
+  }
+}

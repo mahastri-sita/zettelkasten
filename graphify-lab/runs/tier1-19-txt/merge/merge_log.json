@@ -1,0 +1,236 @@
+{
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": ".graphify_chunk_01.json",
+      "input_tokens_added": 0,
+      "output_tokens_added": 0,
+      "new_nodes": 140,
+      "duplicate_nodes_identical": 0,
+      "node_conflicts": [],
+      "new_edges": 131,
+      "duplicate_edges_identical": 0,
+      "new_hyperedges": 3,
+      "duplicate_hyperedges_identical": 0,
+      "cumulative": {
+        "nodes": 140,
+        "edges": 131,
+        "hyperedges": 3,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "transient_unresolved_edge_endpoints": [],
+      "transient_unresolved_hyperedge_nodes": []
+    },
+    {
+      "chunk": 2,
+      "file": ".graphify_chunk_02.json",
+      "input_tokens_added": 0,
+      "output_tokens_added": 0,
+      "new_nodes": 57,
+      "duplicate_nodes_identical": 0,
+      "node_conflicts": [],
+      "new_edges": 87,
+      "duplicate_edges_identical": 0,
+      "new_hyperedges": 3,
+      "duplicate_hyperedges_identical": 0,
+      "cumulative": {
+        "nodes": 197,
+        "edges": 218,
+        "hyperedges": 6,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "transient_unresolved_edge_endpoints": [],
+      "transient_unresolved_hyperedge_nodes": []
+    },
+    {
+      "chunk": 3,
+      "file": ".graphify_chunk_03.json",
+      "input_tokens_added": 0,
+      "output_tokens_added": 0,
+      "new_nodes": 79,
+      "duplicate_nodes_identical": 0,
+      "node_conflicts": [],
+      "new_edges": 96,
+      "duplicate_edges_identical": 0,
+      "new_hyperedges": 3,
+      "duplicate_hyperedges_identical": 0,
+      "cumulative": {
+        "nodes": 276,
+        "edges": 314,
+        "hyperedges": 9,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "transient_unresolved_edge_endpoints": [],
+      "transient_unresolved_hyperedge_nodes": []
+    },
+    {
+      "chunk": 4,
+      "file": ".graphify_chunk_04.json",
+      "input_tokens_added": 0,
+      "output_tokens_added": 0,
+      "new_nodes": 74,
+      "duplicate_nodes_identical": 0,
+      "node_conflicts": [],
+      "new_edges": 104,
+      "duplicate_edges_identical": 0,
+      "new_hyperedges": 3,
+      "duplicate_hyperedges_identical": 0,
+      "cumulative": {
+        "nodes": 350,
+        "edges": 418,
+        "hyperedges": 12,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "transient_unresolved_edge_endpoints": [],
+      "transient_unresolved_hyperedge_nodes": []
+    },
+    {
+      "chunk": 5,
+      "file": ".graphify_chunk_05.json",
+      "input_tokens_added": 0,
+      "output_tokens_added": 0,
+      "new_nodes": 155,
+      "duplicate_nodes_identical": 0,
+      "node_conflicts": [],
+      "new_edges": 137,
+      "duplicate_edges_identical": 0,
+      "new_hyperedges": 3,
+      "duplicate_hyperedges_identical": 0,
+      "cumulative": {
+        "nodes": 505,
+        "edges": 555,
+        "hyperedges": 15,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "transient_unresolved_edge_endpoints": [],
+      "transient_unresolved_hyperedge_nodes": []
+    },
+    {
+      "chunk": 6,
+      "file": ".graphify_chunk_06.json",
+      "input_tokens_added": 0,
+      "output_tokens_added": 0,
+      "new_nodes": 171,
+      "duplicate_nodes_identical": 0,
+      "node_conflicts": [],
+      "new_edges": 182,
+      "duplicate_edges_identical": 0,
+      "new_hyperedges": 3,
+      "duplicate_hyperedges_identical": 0,
+      "cumulative": {
+        "nodes": 676,
+        "edges": 737,
+        "hyperedges": 18,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "transient_unresolved_edge_endpoints": [],
+      "transient_unresolved_hyperedge_nodes": []
+    },
+    {
+      "chunk": 7,
+      "file": ".graphify_chunk_07.json",
+      "input_tokens_added": 0,
+      "output_tokens_added": 0,
+      "new_nodes": 129,
+      "duplicate_nodes_identical": 0,
+      "node_conflicts": [],
+      "new_edges": 130,
+      "duplicate_edges_identical": 0,
+      "new_hyperedges": 3,
+      "duplicate_hyperedges_identical": 0,
+      "cumulative": {
+        "nodes": 805,
+        "edges": 867,
+        "hyperedges": 21,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "transient_unresolved_edge_endpoints": [],
+      "transient_unresolved_hyperedge_nodes": []
+    },
+    {
+      "chunk": 8,
+      "file": ".graphify_chunk_08.json",
+      "input_tokens_added": 0,
+      "output_tokens_added": 0,
+      "new_nodes": 92,
+      "duplicate_nodes_identical": 0,
+      "node_conflicts": [],
+      "new_edges": 104,
+      "duplicate_edges_identical": 0,
+      "new_hyperedges": 3,
+      "duplicate_hyperedges_identical": 0,
+      "cumulative": {
+        "nodes": 897,
+        "edges": 971,
+        "hyperedges": 24,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "transient_unresolved_edge_endpoints": [],
+      "transient_unresolved_hyperedge_nodes": []
+    },
+    {
+      "chunk": 9,
+      "file": ".graphify_chunk_09.json",
+      "input_tokens_added": 0,
+      "output_tokens_added": 0,
+      "new_nodes": 246,
+      "duplicate_nodes_identical": 0,
+      "node_conflicts": [],
+      "new_edges": 221,
+      "duplicate_edges_identical": 0,
+      "new_hyperedges": 3,
+      "duplicate_hyperedges_identical": 0,
+      "cumulative": {
+        "nodes": 1143,
+        "edges": 1192,
+        "hyperedges": 27,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "transient_unresolved_edge_endpoints": [
+        "graphify_lab_full_corpus_txt_m13_albrechts_2004_strategic_spatial_planning_reexamined_10_1068_b3065_strategic_spatial_planning_reexamined"
+      ],
+      "transient_unresolved_hyperedge_nodes": []
+    },
+    {
+      "chunk": 10,
+      "file": ".graphify_chunk_10.json",
+      "input_tokens_added": 0,
+      "output_tokens_added": 0,
+      "new_nodes": 264,
+      "duplicate_nodes_identical": 0,
+      "node_conflicts": [],
+      "new_edges": 221,
+      "duplicate_edges_identical": 0,
+      "new_hyperedges": 3,
+      "duplicate_hyperedges_identical": 0,
+      "cumulative": {
+        "nodes": 1407,
+        "edges": 1413,
+        "hyperedges": 30,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "transient_unresolved_edge_endpoints": [],
+      "transient_unresolved_hyperedge_nodes": []
+    }
+  ],
+  "final": {
+    "nodes": 1407,
+    "edges": 1413,
+    "hyperedges": 30,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "unresolved_edge_endpoints": [],
+    "unresolved_hyperedge_nodes": [],
+    "node_conflict_count": 0
+  }
+}

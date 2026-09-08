@@ -1,0 +1,3794 @@
+{
+  "basis": "Inherited from community-label-proposals.json after the four-edge manual evidence patch. Four merged communities receive new provisional navigation labels.",
+  "community_id_range": [
+    0,
+    195
+  ],
+  "communities": {
+    "0": {
+      "proposed_label": "Community Decision and Exchange Models",
+      "confidence": "medium",
+      "node_count": 57,
+      "supporting_nodes": [
+        "The New Science of Cities",
+        "Land exchange model",
+        "Interest-control framework",
+        "Collective action",
+        "Steady-state equilibrium"
+      ],
+      "connectivity": {
+        "internal_edges": 86,
+        "external_edges": 0,
+        "connected_nodes": 57
+      },
+      "basis_note": "Inherited from prior provisional community 0; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        0
+      ]
+    },
+    "1": {
+      "proposed_label": "International Trade and Development Theory",
+      "confidence": "medium",
+      "node_count": 46,
+      "supporting_nodes": [
+        "Economic Theory and Under-Developed Regions",
+        "International Economic Inequalities",
+        "Laissez-Faire",
+        "Theory of International Trade",
+        "Factor Price Equalisation"
+      ],
+      "connectivity": {
+        "internal_edges": 45,
+        "external_edges": 3,
+        "connected_nodes": 46
+      },
+      "basis_note": "Inherited from prior provisional community 1; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        1
+      ]
+    },
+    "2": {
+      "proposed_label": "Strategic Spatial Planning",
+      "confidence": "high",
+      "node_count": 43,
+      "supporting_nodes": [
+        "Strategic (Spatial) Planning Reexamined",
+        "Strategic Spatial Planning",
+        "Alternative Strategic Spatial Planning",
+        "Stakeholders",
+        "Strategic Vision"
+      ],
+      "connectivity": {
+        "internal_edges": 43,
+        "external_edges": 0,
+        "connected_nodes": 43
+      },
+      "basis_note": "Inherited from prior provisional community 2; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        2
+      ]
+    },
+    "3": {
+      "proposed_label": "Economic Development and Equilibrium",
+      "confidence": "medium",
+      "node_count": 43,
+      "supporting_nodes": [
+        "The Strategy of Economic Development",
+        "Note on the Concept of Growth Poles",
+        "Economic Development",
+        "A General Theory of Polarized Development",
+        "Growth Poles"
+      ],
+      "connectivity": {
+        "internal_edges": 43,
+        "external_edges": 2,
+        "connected_nodes": 43
+      },
+      "basis_note": "New graph community formed after four evidence-backed manual edges; it merges prior provisional communities [3, 192].",
+      "inherited_from": [
+        3,
+        192
+      ]
+    },
+    "4": {
+      "proposed_label": "Agglomeration Exclusion and Core-Periphery Effects",
+      "confidence": "medium",
+      "node_count": 39,
+      "supporting_nodes": [
+        "Core Regions",
+        "Lock-In",
+        "Agglomeration Shadow",
+        "Peripheral Regions",
+        "Authority"
+      ],
+      "connectivity": {
+        "internal_edges": 42,
+        "external_edges": 0,
+        "connected_nodes": 39
+      },
+      "basis_note": "Inherited from prior provisional community 4; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        4
+      ]
+    },
+    "5": {
+      "proposed_label": "Polycentric Urban Network Synergy",
+      "confidence": "high",
+      "node_count": 38,
+      "supporting_nodes": [
+        "Polycentric Urban Regions and the Quest for Synergy: Is a Network of Cities More than the Sum of the Parts?",
+        "Regional Organising Capacity",
+        "Complementarity",
+        "Co-operation",
+        "Network Structure"
+      ],
+      "connectivity": {
+        "internal_edges": 42,
+        "external_edges": 0,
+        "connected_nodes": 38
+      },
+      "basis_note": "Inherited from prior provisional community 5; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        5
+      ]
+    },
+    "6": {
+      "proposed_label": "Multi-Level Territorial Governance",
+      "confidence": "high",
+      "node_count": 34,
+      "supporting_nodes": [
+        "Multi-Level (Territorial) Governance: Three Criticisms",
+        "Multi-Level Governance",
+        "Governance",
+        "EU Structural Funds",
+        "Multi-Level Polity"
+      ],
+      "connectivity": {
+        "internal_edges": 33,
+        "external_edges": 0,
+        "connected_nodes": 34
+      },
+      "basis_note": "Inherited from prior provisional community 6; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        6
+      ]
+    },
+    "7": {
+      "proposed_label": "Urban Economics: Housing and Land Use",
+      "confidence": "high",
+      "node_count": 32,
+      "supporting_nodes": [
+        "Housing-price curve",
+        "Housing vouchers",
+        "Bid-rent curve",
+        "Filtering model of the housing market",
+        "Land-use patterns"
+      ],
+      "connectivity": {
+        "internal_edges": 31,
+        "external_edges": 0,
+        "connected_nodes": 32
+      },
+      "basis_note": "Inherited from prior provisional community 7; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        7
+      ]
+    },
+    "8": {
+      "proposed_label": "Strategic Sense-Making and Governance",
+      "confidence": "medium",
+      "node_count": 28,
+      "supporting_nodes": [
+        "Strategic Frame",
+        "Binding Flows",
+        "Knowledgeability",
+        "Transformative Strategy Making",
+        "Mobilising Attention"
+      ],
+      "connectivity": {
+        "internal_edges": 27,
+        "external_edges": 0,
+        "connected_nodes": 28
+      },
+      "basis_note": "Inherited from prior provisional community 8; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        8
+      ]
+    },
+    "9": {
+      "proposed_label": "Accessibility Measurement and Case Evaluation",
+      "confidence": "high",
+      "node_count": 27,
+      "supporting_nodes": [
+        "Accessibility Score",
+        "Ann Arbor",
+        "Land-Use Development",
+        "Project-Level Accessibility Evaluation",
+        "Destination Types"
+      ],
+      "connectivity": {
+        "internal_edges": 28,
+        "external_edges": 3,
+        "connected_nodes": 27
+      },
+      "basis_note": "Inherited from prior provisional community 9; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        9
+      ]
+    },
+    "10": {
+      "proposed_label": "Development Investment and Productive Capacity",
+      "confidence": "high",
+      "node_count": 27,
+      "supporting_nodes": [
+        "Ability to Invest",
+        "Capital-Intensive Technology",
+        "Development Decisions",
+        "Dualistic Development",
+        "New-Product Industries"
+      ],
+      "connectivity": {
+        "internal_edges": 26,
+        "external_edges": 0,
+        "connected_nodes": 27
+      },
+      "basis_note": "Inherited from prior provisional community 10; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        10
+      ]
+    },
+    "11": {
+      "proposed_label": "Unbalanced Growth and Investment Sequences",
+      "confidence": "high",
+      "node_count": 27,
+      "supporting_nodes": [
+        "Efficient Sequences",
+        "Internalization Doctrine",
+        "Complementarity Effect of Investment",
+        "External Economies",
+        "Hirschman Induced Investment"
+      ],
+      "connectivity": {
+        "internal_edges": 26,
+        "external_edges": 0,
+        "connected_nodes": 27
+      },
+      "basis_note": "Inherited from prior provisional community 11; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        11
+      ]
+    },
+    "12": {
+      "proposed_label": "Urban Economics: Externalities and Public Services",
+      "confidence": "medium",
+      "node_count": 25,
+      "supporting_nodes": [
+        "Education production function",
+        "Congestion externality",
+        "Transit subsidies",
+        "Automobile pollution externality",
+        "Automobile travel"
+      ],
+      "connectivity": {
+        "internal_edges": 27,
+        "external_edges": 0,
+        "connected_nodes": 25
+      },
+      "basis_note": "Inherited from prior provisional community 12; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        12
+      ]
+    },
+    "13": {
+      "proposed_label": "Transit Accessibility Measurement",
+      "confidence": "high",
+      "node_count": 23,
+      "supporting_nodes": [
+        "Transit Accessibility Regression Models",
+        "Nonwork Accessibility",
+        "Nonwork Attractiveness Index",
+        "Transit Resource Allocation",
+        "Gini Index"
+      ],
+      "connectivity": {
+        "internal_edges": 23,
+        "external_edges": 2,
+        "connected_nodes": 23
+      },
+      "basis_note": "Inherited from prior provisional community 13; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        13
+      ]
+    },
+    "14": {
+      "proposed_label": "Transformative Urban Governance and Strategy",
+      "confidence": "high",
+      "node_count": 23,
+      "supporting_nodes": [
+        "Urban Governance Transformation",
+        "Changing Governance",
+        "Spatial Strategy Making",
+        "Strategic Work",
+        "Sociological Institutionalist Approach"
+      ],
+      "connectivity": {
+        "internal_edges": 22,
+        "external_edges": 0,
+        "connected_nodes": 23
+      },
+      "basis_note": "Inherited from prior provisional community 14; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        14
+      ]
+    },
+    "15": {
+      "proposed_label": "Urban Public Finance and Land Use",
+      "confidence": "medium",
+      "node_count": 23,
+      "supporting_nodes": [
+        "Local public goods",
+        "Residential segregation",
+        "Intergovernmental grants",
+        "Local government",
+        "Property tax"
+      ],
+      "connectivity": {
+        "internal_edges": 23,
+        "external_edges": 0,
+        "connected_nodes": 23
+      },
+      "basis_note": "Inherited from prior provisional community 15; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        15
+      ]
+    },
+    "16": {
+      "proposed_label": "Economic Geography Model Parameters",
+      "confidence": "medium",
+      "node_count": 22,
+      "supporting_nodes": [
+        "Increasing Returns and Economic Geography",
+        "Core-Periphery Pattern",
+        "Economies of Scale",
+        "Manufacturing",
+        "Increasing Returns to Scale"
+      ],
+      "connectivity": {
+        "internal_edges": 21,
+        "external_edges": 0,
+        "connected_nodes": 22
+      },
+      "basis_note": "New graph community formed after four evidence-backed manual edges; it merges prior provisional communities [17, 187].",
+      "inherited_from": [
+        17,
+        187
+      ]
+    },
+    "17": {
+      "proposed_label": "Functional Territories and Regional Spaces",
+      "confidence": "medium",
+      "node_count": 21,
+      "supporting_nodes": [
+        "Type II Multi-Level Governance",
+        "Macro-Regional Strategies",
+        "Relational Space",
+        "Soft Spaces",
+        "Type I Multi-Level Governance"
+      ],
+      "connectivity": {
+        "internal_edges": 20,
+        "external_edges": 0,
+        "connected_nodes": 21
+      },
+      "basis_note": "Inherited from prior provisional community 16; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        16
+      ]
+    },
+    "18": {
+      "proposed_label": "Urban Economics: Agglomeration and City Size",
+      "confidence": "high",
+      "node_count": 21,
+      "supporting_nodes": [
+        "Agglomeration economies",
+        "Trading city",
+        "Economies of scale",
+        "City size",
+        "Localization economies"
+      ],
+      "connectivity": {
+        "internal_edges": 20,
+        "external_edges": 0,
+        "connected_nodes": 21
+      },
+      "basis_note": "Inherited from prior provisional community 18; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        18
+      ]
+    },
+    "19": {
+      "proposed_label": "Local Distribution and Compensation",
+      "confidence": "medium",
+      "node_count": 17,
+      "supporting_nodes": [
+        "Urban Zero Population Growth",
+        "National Zero Population Growth",
+        "Distribution Problem",
+        "Local Population Policies",
+        "Municipal Corporation"
+      ],
+      "connectivity": {
+        "internal_edges": 16,
+        "external_edges": 0,
+        "connected_nodes": 17
+      },
+      "basis_note": "New graph community formed after four evidence-backed manual edges; it merges prior provisional communities [21, 165].",
+      "inherited_from": [
+        21,
+        165
+      ]
+    },
+    "20": {
+      "proposed_label": "Agglomeration Mechanisms and City Formation",
+      "confidence": "medium",
+      "node_count": 17,
+      "supporting_nodes": [
+        "Localised Aggregate Increasing Returns",
+        "Sharing Mechanisms",
+        "Matching Mechanisms",
+        "Sharing, Matching, and Learning Taxonomy",
+        "Chamberlinian Input Sharing"
+      ],
+      "connectivity": {
+        "internal_edges": 18,
+        "external_edges": 7,
+        "connected_nodes": 17
+      },
+      "basis_note": "Inherited from prior provisional community 19; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        19
+      ]
+    },
+    "21": {
+      "proposed_label": "Accessibility and Planning Logic",
+      "confidence": "high",
+      "node_count": 16,
+      "supporting_nodes": [
+        "Accessibility",
+        "Mobility",
+        "Accessibility Shift",
+        "Proximity",
+        "Mobility-Proximity Tension"
+      ],
+      "connectivity": {
+        "internal_edges": 18,
+        "external_edges": 18,
+        "connected_nodes": 16
+      },
+      "basis_note": "Inherited from prior provisional community 20; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        20
+      ]
+    },
+    "22": {
+      "proposed_label": "Transit Systems and Accessibility",
+      "confidence": "high",
+      "node_count": 15,
+      "supporting_nodes": [
+        "Public-Transport Accessibility",
+        "Bus Transit",
+        "Carless Households",
+        "Rail Transit",
+        "Transit Deployment"
+      ],
+      "connectivity": {
+        "internal_edges": 15,
+        "external_edges": 5,
+        "connected_nodes": 15
+      },
+      "basis_note": "Inherited from prior provisional community 22; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        22
+      ]
+    },
+    "23": {
+      "proposed_label": "Central-Place Types and Regional Settlements",
+      "confidence": "high",
+      "node_count": 15,
+      "supporting_nodes": [
+        "Central-Place Types",
+        "G-place",
+        "P-place",
+        "A-place",
+        "B-place"
+      ],
+      "connectivity": {
+        "internal_edges": 21,
+        "external_edges": 6,
+        "connected_nodes": 15
+      },
+      "basis_note": "Inherited from prior provisional community 23; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        23
+      ]
+    },
+    "24": {
+      "proposed_label": "Polarized Development: Communication and Innovation",
+      "confidence": "high",
+      "node_count": 15,
+      "supporting_nodes": [
+        "Innovation",
+        "Information Exchange",
+        "Large City Innovation Conditions",
+        "Communication Field",
+        "Hybrid Type I-Type II System"
+      ],
+      "connectivity": {
+        "internal_edges": 16,
+        "external_edges": 0,
+        "connected_nodes": 15
+      },
+      "basis_note": "Inherited from prior provisional community 24; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        24
+      ]
+    },
+    "25": {
+      "proposed_label": "Urban Specialisation and Firm Organisation",
+      "confidence": "medium",
+      "node_count": 14,
+      "supporting_nodes": [
+        "From Sectoral to Functional Urban Specialisation",
+        "Separation of Headquarters and Production",
+        "Remote Management Cost",
+        "Sectoral Urban Specialisation",
+        "Urban Specialisation Result"
+      ],
+      "connectivity": {
+        "internal_edges": 14,
+        "external_edges": 6,
+        "connected_nodes": 14
+      },
+      "basis_note": "Inherited from prior provisional community 25; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        25
+      ]
+    },
+    "26": {
+      "proposed_label": "Agglomeration Linkages and Circular Causation",
+      "confidence": "high",
+      "node_count": 14,
+      "supporting_nodes": [
+        "Agglomeration",
+        "Backward linkages",
+        "Circular causation",
+        "Forward linkages",
+        "Home-market effect"
+      ],
+      "connectivity": {
+        "internal_edges": 18,
+        "external_edges": 7,
+        "connected_nodes": 14
+      },
+      "basis_note": "Inherited from prior provisional community 26; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        26
+      ]
+    },
+    "27": {
+      "proposed_label": "Urban Location and City Formation Theory",
+      "confidence": "medium",
+      "node_count": 14,
+      "supporting_nodes": [
+        "The Spatial Economy: Cities, Regions, and International Trade",
+        "Central-place theory",
+        "City formation",
+        "Monocentric economy",
+        "von Thünen model"
+      ],
+      "connectivity": {
+        "internal_edges": 16,
+        "external_edges": 6,
+        "connected_nodes": 14
+      },
+      "basis_note": "Inherited from prior provisional community 27; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        27
+      ]
+    },
+    "28": {
+      "proposed_label": "Central-Place Hierarchy and Methods",
+      "confidence": "high",
+      "node_count": 13,
+      "supporting_nodes": [
+        "System of Central Places",
+        "Traffic Principle",
+        "L-system of Munich",
+        "Market or Supplying Principle",
+        "Sociopolitical Separation Principle"
+      ],
+      "connectivity": {
+        "internal_edges": 16,
+        "external_edges": 7,
+        "connected_nodes": 13
+      },
+      "basis_note": "Inherited from prior provisional community 28; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        28
+      ]
+    },
+    "29": {
+      "proposed_label": "Central-Place Systems and Services",
+      "confidence": "high",
+      "node_count": 12,
+      "supporting_nodes": [
+        "Central Place",
+        "Centrality",
+        "Central Goods and Services",
+        "Dynamic Processes",
+        "Business Cycle"
+      ],
+      "connectivity": {
+        "internal_edges": 12,
+        "external_edges": 8,
+        "connected_nodes": 12
+      },
+      "basis_note": "Inherited from prior provisional community 29; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        29
+      ]
+    },
+    "30": {
+      "proposed_label": "Central-Place Research and Settlement Geography",
+      "confidence": "high",
+      "node_count": 12,
+      "supporting_nodes": [
+        "Central Places in Southern Germany",
+        "Economic Distance",
+        "Economic Rationality",
+        "Franz Oppenheimer, System of Sociology",
+        "Max Weber, Economic Method"
+      ],
+      "connectivity": {
+        "internal_edges": 11,
+        "external_edges": 10,
+        "connected_nodes": 12
+      },
+      "basis_note": "Inherited from prior provisional community 30; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        30
+      ]
+    },
+    "31": {
+      "proposed_label": "Urban Economics Foundations and Equilibrium",
+      "confidence": "high",
+      "node_count": 12,
+      "supporting_nodes": [
+        "Urban Economics, Eighth Edition",
+        "Urban economics",
+        "Arthur O'Sullivan",
+        "Bertaud, Clearing the Air in Atlanta (2003)",
+        "Glaeser and Sacerdote, Why Is There More Crime in Cities? (1996)"
+      ],
+      "connectivity": {
+        "internal_edges": 11,
+        "external_edges": 0,
+        "connected_nodes": 12
+      },
+      "basis_note": "Inherited from prior provisional community 31; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        31
+      ]
+    },
+    "32": {
+      "proposed_label": "Accessibility and Derived-Demand Theory",
+      "confidence": "high",
+      "node_count": 11,
+      "supporting_nodes": [
+        "Derived-Demand Framework",
+        "Challenge to Derived Demand",
+        "Positive Utility of Travel",
+        "Travel Time as Cost",
+        "Valued Destinations"
+      ],
+      "connectivity": {
+        "internal_edges": 11,
+        "external_edges": 4,
+        "connected_nodes": 11
+      },
+      "basis_note": "Inherited from prior provisional community 32; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        32
+      ]
+    },
+    "33": {
+      "proposed_label": "Mobility Modeling and Transport Impacts",
+      "confidence": "high",
+      "node_count": 11,
+      "supporting_nodes": [
+        "Formal Mobility Modeling",
+        "California Environmental Quality Act",
+        "Highway Level of Service",
+        "Mobility Metrics",
+        "Mobility Planning Ideology"
+      ],
+      "connectivity": {
+        "internal_edges": 11,
+        "external_edges": 4,
+        "connected_nodes": 11
+      },
+      "basis_note": "Inherited from prior provisional community 33; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        33
+      ]
+    },
+    "34": {
+      "proposed_label": "Urban Agglomeration Theory References",
+      "confidence": "medium",
+      "node_count": 11,
+      "supporting_nodes": [
+        "Micro-foundations of Urban Agglomeration Economies",
+        "Abdel-Rahman and Fujita 1990 Product Variety",
+        "Dixit and Stiglitz 1977 Monopolistic Competition",
+        "Duranton and Puga 2001 Nursery Cities",
+        "Duranton and Puga 2001 Sectoral to Functional Specialisation"
+      ],
+      "connectivity": {
+        "internal_edges": 10,
+        "external_edges": 3,
+        "connected_nodes": 11
+      },
+      "basis_note": "Inherited from prior provisional community 34; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        34
+      ]
+    },
+    "35": {
+      "proposed_label": "Economic Theory, Values, and Equality",
+      "confidence": "high",
+      "node_count": 11,
+      "supporting_nodes": [
+        "Equality Doctrine",
+        "Equality of Opportunity",
+        "Conservative Predilections of Economic Theory",
+        "Created Harmony",
+        "Belief in Innate Differences"
+      ],
+      "connectivity": {
+        "internal_edges": 10,
+        "external_edges": 2,
+        "connected_nodes": 11
+      },
+      "basis_note": "Inherited from prior provisional community 35; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        35
+      ]
+    },
+    "36": {
+      "proposed_label": "Core-Periphery Model Dynamics",
+      "confidence": "high",
+      "node_count": 11,
+      "supporting_nodes": [
+        "Symmetry breaking",
+        "Centrifugal forces",
+        "Core-periphery model",
+        "Break point",
+        "Centripetal forces"
+      ],
+      "connectivity": {
+        "internal_edges": 13,
+        "external_edges": 6,
+        "connected_nodes": 11
+      },
+      "basis_note": "Inherited from prior provisional community 36; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        36
+      ]
+    },
+    "37": {
+      "proposed_label": "Economic Geography Model Foundations",
+      "confidence": "high",
+      "node_count": 11,
+      "supporting_nodes": [
+        "New economic geography",
+        "Dixit-Stiglitz monopolistic competition",
+        "Increasing returns",
+        "Iceberg transport costs",
+        "Krugman (1991), Increasing Returns and Economic Geography"
+      ],
+      "connectivity": {
+        "internal_edges": 10,
+        "external_edges": 5,
+        "connected_nodes": 11
+      },
+      "basis_note": "Inherited from prior provisional community 37; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        37
+      ]
+    },
+    "38": {
+      "proposed_label": "Polycentric City Data and Economic Profiles",
+      "confidence": "high",
+      "node_count": 10,
+      "supporting_nodes": [
+        "Economic Profiles of Cities",
+        "Correspondence Analysis",
+        "Total Inertia",
+        "Amsterdam",
+        "Complementarity Ratio"
+      ],
+      "connectivity": {
+        "internal_edges": 9,
+        "external_edges": 0,
+        "connected_nodes": 10
+      },
+      "basis_note": "Inherited from prior provisional community 38; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        38
+      ]
+    },
+    "39": {
+      "proposed_label": "Functional Specialisation and Business Services",
+      "confidence": "high",
+      "node_count": 10,
+      "supporting_nodes": [
+        "Functional Urban Specialisation",
+        "Headquarters and Business Services",
+        "Production Plants and Sector-specific Intermediates",
+        "Three Equilibrium City Types",
+        "Business-service Localisation Advantage"
+      ],
+      "connectivity": {
+        "internal_edges": 10,
+        "external_edges": 6,
+        "connected_nodes": 10
+      },
+      "basis_note": "Inherited from prior provisional community 39; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        39
+      ]
+    },
+    "40": {
+      "proposed_label": "Central Goods, Range, and Population Distribution",
+      "confidence": "high",
+      "node_count": 10,
+      "supporting_nodes": [
+        "Range of Central Goods",
+        "Production Costs",
+        "Technical Progress",
+        "Alfred Weber, Theory of the Location of Industries",
+        "Consumption of Central Goods"
+      ],
+      "connectivity": {
+        "internal_edges": 10,
+        "external_edges": 8,
+        "connected_nodes": 10
+      },
+      "basis_note": "Inherited from prior provisional community 40; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        40
+      ]
+    },
+    "41": {
+      "proposed_label": "Investment Inducement and Growth Models",
+      "confidence": "high",
+      "node_count": 10,
+      "supporting_nodes": [
+        "Domar Model",
+        "Growth Models",
+        "Autonomous Investment",
+        "Conventional Induced Investment",
+        "Harrod Model"
+      ],
+      "connectivity": {
+        "internal_edges": 9,
+        "external_edges": 0,
+        "connected_nodes": 10
+      },
+      "basis_note": "Inherited from prior provisional community 41; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        41
+      ]
+    },
+    "42": {
+      "proposed_label": "Industrial Linkages and Enclaves",
+      "confidence": "high",
+      "node_count": 10,
+      "supporting_nodes": [
+        "Linkage Effects",
+        "Backward Linkage",
+        "Enclave Import Industries",
+        "Forward Linkage",
+        "Input-Output Matrix"
+      ],
+      "connectivity": {
+        "internal_edges": 10,
+        "external_edges": 0,
+        "connected_nodes": 10
+      },
+      "basis_note": "Inherited from prior provisional community 42; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        42
+      ]
+    },
+    "43": {
+      "proposed_label": "Accessibility, Transport, and Sustainability Trade-offs",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": [
+        "Accessibility as Robust Planning Basis",
+        "Vehicle-Kilometers-Traveled Reduction",
+        "Accessibility-VKT Trade-off",
+        "Economic Development",
+        "Electric Vehicles"
+      ],
+      "connectivity": {
+        "internal_edges": 9,
+        "external_edges": 3,
+        "connected_nodes": 9
+      },
+      "basis_note": "Inherited from prior provisional community 43; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        43
+      ]
+    },
+    "44": {
+      "proposed_label": "Governance Episodes and Discursive Structuration",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": [
+        "Governance Processes",
+        "Episodes of Governance",
+        "Governance Innovation",
+        "Discourse Institutionalization",
+        "Institutionalization"
+      ],
+      "connectivity": {
+        "internal_edges": 9,
+        "external_edges": 0,
+        "connected_nodes": 9
+      },
+      "basis_note": "Inherited from prior provisional community 44; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        44
+      ]
+    },
+    "45": {
+      "proposed_label": "Knowledge Externalities and Learning",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": [
+        "Learning Mechanisms",
+        "Knowledge Accumulation",
+        "Knowledge Diffusion",
+        "Local Knowledge Spillovers",
+        "Dynamic Human-capital Externality"
+      ],
+      "connectivity": {
+        "internal_edges": 10,
+        "external_edges": 2,
+        "connected_nodes": 9
+      },
+      "basis_note": "Inherited from prior provisional community 45; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        45
+      ]
+    },
+    "46": {
+      "proposed_label": "Linkages and Pecuniary Externalities",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": [
+        "Circular Causation",
+        "Generalized Pecuniary Externalities",
+        "Backward Linkage",
+        "Demand Linkages",
+        "Forward Linkage"
+      ],
+      "connectivity": {
+        "internal_edges": 9,
+        "external_edges": 0,
+        "connected_nodes": 9
+      },
+      "basis_note": "Inherited from prior provisional community 46; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        46
+      ]
+    },
+    "47": {
+      "proposed_label": "Agglomeration Benefits and Location Choice",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": [
+        "Agglomeration Economies",
+        "Geographical Benefits",
+        "Increasing Returns",
+        "Network Externalities",
+        "Pure Attractiveness"
+      ],
+      "connectivity": {
+        "internal_edges": 8,
+        "external_edges": 0,
+        "connected_nodes": 9
+      },
+      "basis_note": "Inherited from prior provisional community 47; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        47
+      ]
+    },
+    "48": {
+      "proposed_label": "Theory, Facts, and Empirical Social Science",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": [
+        "Theory as Hypothesis",
+        "A Priori Theory",
+        "Comprehensive Empirical Social Science Research",
+        "Theory of Under-Development and Development",
+        "Young Economists in Under-Developed Countries"
+      ],
+      "connectivity": {
+        "internal_edges": 8,
+        "external_edges": 0,
+        "connected_nodes": 9
+      },
+      "basis_note": "Inherited from prior provisional community 48; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        48
+      ]
+    },
+    "49": {
+      "proposed_label": "International Flows and Import Substitution",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": [
+        "Backwash Effects",
+        "International Trade",
+        "Trade and Payments Regulation",
+        "Capital Movements",
+        "Enforced Bilateralism"
+      ],
+      "connectivity": {
+        "internal_edges": 8,
+        "external_edges": 4,
+        "connected_nodes": 9
+      },
+      "basis_note": "Inherited from prior provisional community 49; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        49
+      ]
+    },
+    "50": {
+      "proposed_label": "Cumulative Causation and Equalisation",
+      "confidence": "high",
+      "node_count": 9,
+      "supporting_nodes": [
+        "Economic Development",
+        "Circular and Cumulative Causation",
+        "Under-Developed Countries",
+        "Non-Economic Factors",
+        "Population Growth"
+      ],
+      "connectivity": {
+        "internal_edges": 9,
+        "external_edges": 6,
+        "connected_nodes": 9
+      },
+      "basis_note": "Inherited from prior provisional community 50; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        50
+      ]
+    },
+    "51": {
+      "proposed_label": "Accessibility Metrics and Urban Density",
+      "confidence": "high",
+      "node_count": 8,
+      "supporting_nodes": [
+        "Accessibility Decomposition",
+        "Metropolitan Density",
+        "Proximity Effect",
+        "Speed Effect",
+        "Urban Form"
+      ],
+      "connectivity": {
+        "internal_edges": 8,
+        "external_edges": 4,
+        "connected_nodes": 8
+      },
+      "basis_note": "Inherited from prior provisional community 51; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        51
+      ]
+    },
+    "52": {
+      "proposed_label": "Accessibility, Housing, and Income",
+      "confidence": "high",
+      "node_count": 8,
+      "supporting_nodes": [
+        "Mode-Adjusted Accessibility",
+        "Mode-Location Match Ratio",
+        "Racial Accessibility Disparities",
+        "Affordable Housing",
+        "Automobile Accessibility"
+      ],
+      "connectivity": {
+        "internal_edges": 7,
+        "external_edges": 1,
+        "connected_nodes": 8
+      },
+      "basis_note": "Inherited from prior provisional community 52; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        52
+      ]
+    },
+    "53": {
+      "proposed_label": "Governance Consultation and Local Partnerships",
+      "confidence": "high",
+      "node_count": 8,
+      "supporting_nodes": [
+        "Going for Growth",
+        "Citizen Protest",
+        "Consultative Politics",
+        "Ouseburn Trust",
+        "Area Committees"
+      ],
+      "connectivity": {
+        "internal_edges": 7,
+        "external_edges": 0,
+        "connected_nodes": 8
+      },
+      "basis_note": "Inherited from prior provisional community 53; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        53
+      ]
+    },
+    "54": {
+      "proposed_label": "Conflict, Authority, and Political Elites",
+      "confidence": "high",
+      "node_count": 8,
+      "supporting_nodes": [
+        "Conflict over Authority",
+        "Cooptation",
+        "Counter-Elites",
+        "Illegitimate Conflict",
+        "Legitimate Conflict"
+      ],
+      "connectivity": {
+        "internal_edges": 7,
+        "external_edges": 0,
+        "connected_nodes": 8
+      },
+      "basis_note": "Inherited from prior provisional community 54; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        54
+      ]
+    },
+    "55": {
+      "proposed_label": "Regional Employment and Human Capital",
+      "confidence": "medium",
+      "node_count": 8,
+      "supporting_nodes": [
+        "Urban growth",
+        "Urban labor market",
+        "Employment multiplier",
+        "Human capital",
+        "Industrial Revolution"
+      ],
+      "connectivity": {
+        "internal_edges": 7,
+        "external_edges": 0,
+        "connected_nodes": 8
+      },
+      "basis_note": "Inherited from prior provisional community 55; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        55
+      ]
+    },
+    "56": {
+      "proposed_label": "Consultative Urban Governance Case",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": [
+        "Grainger Town Partnership",
+        "Newcastle City Council",
+        "Newcastle Governance Landscape",
+        "Consultative Style",
+        "Contained and Temporary Arena"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 0,
+        "connected_nodes": 7
+      },
+      "basis_note": "Inherited from prior provisional community 56; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        56
+      ]
+    },
+    "57": {
+      "proposed_label": "Path Dependence and Locational Selection",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": [
+        "Path-Dependent Process",
+        "Historical Accident",
+        "Arthur-Ermoliev-Kaniovski Strong Law",
+        "Moving and Relocation",
+        "Random Entry Order"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 0,
+        "connected_nodes": 7
+      },
+      "basis_note": "Inherited from prior provisional community 57; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        57
+      ]
+    },
+    "58": {
+      "proposed_label": "Growth Poles and Development of Backward Areas",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": [
+        "North",
+        "Polarization Effects",
+        "South",
+        "Growth Poles",
+        "Trickling-Down Effects"
+      ],
+      "connectivity": {
+        "internal_edges": 8,
+        "external_edges": 0,
+        "connected_nodes": 7
+      },
+      "basis_note": "Inherited from prior provisional community 58; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        58
+      ]
+    },
+    "59": {
+      "proposed_label": "Growth-Pole Industries and Policy",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": [
+        "Complex of Industries",
+        "Key Industry",
+        "Motor Industry",
+        "Non-competitive Industrial Complex",
+        "Driven Industries"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 3,
+        "connected_nodes": 7
+      },
+      "basis_note": "Inherited from prior provisional community 59; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        59
+      ]
+    },
+    "60": {
+      "proposed_label": "Spatial Development and Regional Planning",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": [
+        "Theory of Development in Its Spatial Dimension",
+        "Social Change",
+        "Spatial System",
+        "Dahrendorf Conflict Model",
+        "Regional Planning"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 0,
+        "connected_nodes": 7
+      },
+      "basis_note": "Inherited from prior provisional community 60; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        60
+      ]
+    },
+    "61": {
+      "proposed_label": "Innovation and Developmental Change",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": [
+        "Development as Innovation",
+        "Epochal Innovation",
+        "Structural Change",
+        "Growth",
+        "Innovation Clusters"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 0,
+        "connected_nodes": 7
+      },
+      "basis_note": "Inherited from prior provisional community 61; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        61
+      ]
+    },
+    "62": {
+      "proposed_label": "Industrial Clustering and Path Dependence",
+      "confidence": "high",
+      "node_count": 7,
+      "supporting_nodes": [
+        "Industrial clustering",
+        "Trade liberalization",
+        "Arthur (1994), Increasing Returns and Path Dependence in the Economy",
+        "Industrial specialization",
+        "Industrial-location hysteresis"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 0,
+        "connected_nodes": 7
+      },
+      "basis_note": "Inherited from prior provisional community 62; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        62
+      ]
+    },
+    "63": {
+      "proposed_label": "Agglomeration Dynamics and Spatial Continuity",
+      "confidence": "medium",
+      "node_count": 7,
+      "supporting_nodes": [
+        "Turing approach",
+        "Continuous space",
+        "Punctuated equilibrium",
+        "Racetrack economy",
+        "Seamless world"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 2,
+        "connected_nodes": 7
+      },
+      "basis_note": "Inherited from prior provisional community 63; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        63
+      ]
+    },
+    "64": {
+      "proposed_label": "Interregional Trade and Uneven Development",
+      "confidence": "medium",
+      "node_count": 7,
+      "supporting_nodes": [
+        "Intermediate goods",
+        "International specialization",
+        "Developmental spurts",
+        "National inequalities",
+        "Puga and Venables (1996), The Spread of Industry"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 3,
+        "connected_nodes": 7
+      },
+      "basis_note": "Inherited from prior provisional community 64; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        64
+      ]
+    },
+    "65": {
+      "proposed_label": "Transit Travel-Time Components",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "Public-Transport Travel Time",
+        "Transit Waiting Time",
+        "Transit Access Time",
+        "Transit Egress Time",
+        "Transit Headways"
+      ],
+      "connectivity": {
+        "internal_edges": 5,
+        "external_edges": 0,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 65; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        65
+      ]
+    },
+    "66": {
+      "proposed_label": "Accessibility Equity and Civil Rights",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "Accessibility-Based Equity Evaluation",
+        "Transportation Equity",
+        "Environmental Justice",
+        "Executive Order 12898",
+        "Title VI of the Civil Rights Act"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 1,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 66; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        66
+      ]
+    },
+    "67": {
+      "proposed_label": "Land Use and Mobility Plan Scenarios",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "Alamo Plan Accessibility Result",
+        "Mobility 2040 Plan",
+        "Build and No-Build Scenarios",
+        "Land-Use Decentralization",
+        "Loop 1604"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 0,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 67; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        67
+      ]
+    },
+    "68": {
+      "proposed_label": "Territory, Space, and Metageography",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "Territorialism",
+        "Space of Flows",
+        "Metageography",
+        "Space of Places",
+        "Territorial Trap"
+      ],
+      "connectivity": {
+        "internal_edges": 5,
+        "external_edges": 0,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 68; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        68
+      ]
+    },
+    "69": {
+      "proposed_label": "Agglomeration and Growth-Pole Dynamics",
+      "confidence": "medium",
+      "node_count": 6,
+      "supporting_nodes": [
+        "Territorial Agglomeration",
+        "Urban Agglomeration Economies",
+        "External Economies Beyond Prices",
+        "Induced Growth",
+        "Progressive Industry or Firm"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 6,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 69; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        69
+      ]
+    },
+    "70": {
+      "proposed_label": "Firm Location Probabilities and Agglomeration",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "Locational Shares",
+        "Locational Choice Probability",
+        "Distribution of Firm Types",
+        "Expected Motion",
+        "Perturbation Effect"
+      ],
+      "connectivity": {
+        "internal_edges": 5,
+        "external_edges": 0,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 70; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        70
+      ]
+    },
+    "71": {
+      "proposed_label": "Centrality Measurement Methods",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "Telephone-Connections Method",
+        "Rough Centrality",
+        "Specific Centrality",
+        "Economic Method in Settlement Geography",
+        "Telephone Density"
+      ],
+      "connectivity": {
+        "internal_edges": 6,
+        "external_edges": 4,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 71; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        71
+      ]
+    },
+    "72": {
+      "proposed_label": "Central-Place Settlement Types",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "L-place",
+        "Munich",
+        "RT-place",
+        "Nuremberg",
+        "R-place"
+      ],
+      "connectivity": {
+        "internal_edges": 5,
+        "external_edges": 3,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 72; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        72
+      ]
+    },
+    "73": {
+      "proposed_label": "Colonialism, Enclaves, and Investment",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "Spread Effects",
+        "External Economies",
+        "Extra-Profit Yields",
+        "Colonial Enclaves",
+        "Colonialism"
+      ],
+      "connectivity": {
+        "internal_edges": 5,
+        "external_edges": 7,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 73; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        73
+      ]
+    },
+    "74": {
+      "proposed_label": "National Planning and Investment Allocation",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "National Economic Planning",
+        "Planning in Real Terms",
+        "Induced and Controlled Cumulative Process",
+        "Investment Allocation",
+        "Opportunity Costs"
+      ],
+      "connectivity": {
+        "internal_edges": 5,
+        "external_edges": 1,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 74; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        74
+      ]
+    },
+    "75": {
+      "proposed_label": "Markets, Integration, and State",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "National Integration",
+        "Welfare State",
+        "Market Forces",
+        "State as Organised Society",
+        "Rising Nationalism"
+      ],
+      "connectivity": {
+        "internal_edges": 5,
+        "external_edges": 4,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 75; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        75
+      ]
+    },
+    "76": {
+      "proposed_label": "Urban Crime Choice Models",
+      "confidence": "high",
+      "node_count": 6,
+      "supporting_nodes": [
+        "Marginal principle",
+        "Optimal amount of crime",
+        "Consumer choice model",
+        "Input choice model",
+        "Principle of marginal deterrence"
+      ],
+      "connectivity": {
+        "internal_edges": 5,
+        "external_edges": 0,
+        "connected_nodes": 6
+      },
+      "basis_note": "Inherited from prior provisional community 76; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        76
+      ]
+    },
+    "77": {
+      "proposed_label": "Planning Rationalities and Four-Track Approach",
+      "confidence": "medium",
+      "node_count": 5,
+      "supporting_nodes": [
+        "Four-Track Approach",
+        "Communicative Rationality",
+        "Instrumental Rationality",
+        "Strategic Rationality",
+        "Value Rationality"
+      ],
+      "connectivity": {
+        "internal_edges": 4,
+        "external_edges": 0,
+        "connected_nodes": 5
+      },
+      "basis_note": "Inherited from prior provisional community 77; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        77
+      ]
+    },
+    "78": {
+      "proposed_label": "Comprehensive and Traditional Planning",
+      "confidence": "medium",
+      "node_count": 5,
+      "supporting_nodes": [
+        "Traditional Land-Use Planning",
+        "Legal Certainty and Rigidity",
+        "Comprehensive Planning",
+        "Conformance View",
+        "Land-Use Regulation"
+      ],
+      "connectivity": {
+        "internal_edges": 4,
+        "external_edges": 0,
+        "connected_nodes": 5
+      },
+      "basis_note": "New graph community formed after four evidence-backed manual edges; it merges prior provisional communities [85, 158].",
+      "inherited_from": [
+        85,
+        158
+      ]
+    },
+    "79": {
+      "proposed_label": "Strategy-Making Trajectories",
+      "confidence": "medium",
+      "node_count": 5,
+      "supporting_nodes": [
+        "Situating and Scoping",
+        "Strategy Makers",
+        "Endogenous Trajectory",
+        "Exogenous Trajectory",
+        "Institutional Identity"
+      ],
+      "connectivity": {
+        "internal_edges": 4,
+        "external_edges": 0,
+        "connected_nodes": 5
+      },
+      "basis_note": "Inherited from prior provisional community 78; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        78
+      ]
+    },
+    "80": {
+      "proposed_label": "Bounded Agglomeration Economies",
+      "confidence": "medium",
+      "node_count": 5,
+      "supporting_nodes": [
+        "Bounded Agglomeration Economies",
+        "Regional Sharing",
+        "Agglomeration Ceiling",
+        "Agglomeration Upper Bound",
+        "Heterogeneity of Tastes"
+      ],
+      "connectivity": {
+        "internal_edges": 4,
+        "external_edges": 0,
+        "connected_nodes": 5
+      },
+      "basis_note": "Inherited from prior provisional community 79; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        79
+      ]
+    },
+    "81": {
+      "proposed_label": "Import-Induced Industrialisation",
+      "confidence": "high",
+      "node_count": 5,
+      "supporting_nodes": [
+        "Imports",
+        "Domestic Production Threshold",
+        "Demand Formation and Demand Reconnaissance",
+        "Import-Induced Industrialization",
+        "Minimum Economic Size"
+      ],
+      "connectivity": {
+        "internal_edges": 4,
+        "external_edges": 0,
+        "connected_nodes": 5
+      },
+      "basis_note": "Inherited from prior provisional community 80; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        80
+      ]
+    },
+    "82": {
+      "proposed_label": "International Solidarity and Equalisation",
+      "confidence": "high",
+      "node_count": 5,
+      "supporting_nodes": [
+        "International Solidarity",
+        "Bargaining Power",
+        "Equalisation Upwards",
+        "International Organisations",
+        "Under-Privileged Nations"
+      ],
+      "connectivity": {
+        "internal_edges": 4,
+        "external_edges": 0,
+        "connected_nodes": 5
+      },
+      "basis_note": "Inherited from prior provisional community 81; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        81
+      ]
+    },
+    "83": {
+      "proposed_label": "Regional Inequality and Local Finance",
+      "confidence": "high",
+      "node_count": 5,
+      "supporting_nodes": [
+        "Regional Economic Inequalities",
+        "Local Tax Rate",
+        "Public Services",
+        "Economic Stagnation",
+        "Local Finances"
+      ],
+      "connectivity": {
+        "internal_edges": 4,
+        "external_edges": 4,
+        "connected_nodes": 5
+      },
+      "basis_note": "Inherited from prior provisional community 82; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        82
+      ]
+    },
+    "84": {
+      "proposed_label": "Urban Systems and Agglomeration Externalities",
+      "confidence": "medium",
+      "node_count": 5,
+      "supporting_nodes": [
+        "External economies",
+        "Urban system",
+        "Congestion costs",
+        "Marshall (1920), Principles of Economics",
+        "Henderson (1974), The Sizes and Types of Cities"
+      ],
+      "connectivity": {
+        "internal_edges": 4,
+        "external_edges": 3,
+        "connected_nodes": 5
+      },
+      "basis_note": "Inherited from prior provisional community 83; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        83
+      ]
+    },
+    "85": {
+      "proposed_label": "Thin: Accessibility Planning Authors",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "From Mobility to Accessibility",
+        "Joe Grengs",
+        "Jonathan Levine",
+        "Louis A. Merlin"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 1,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 84; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        84
+      ]
+    },
+    "86": {
+      "proposed_label": "Thin: Governance and Institutional Work",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "Governance",
+        "Collective Action",
+        "Entrepreneurial Governance",
+        "Institutional Work"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 86; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        86
+      ]
+    },
+    "87": {
+      "proposed_label": "Thin: Multi-Level Governance Arenas",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "Governance Landscape",
+        "Formal Government",
+        "Informal Networks",
+        "Multi-Level Governance Arenas"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 87; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        87
+      ]
+    },
+    "88": {
+      "proposed_label": "Thin: Governance Resource Types",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "Institutional Capacity",
+        "Intellectual, Social, and Political Capital",
+        "Knowledge Resources",
+        "Relational Resources"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 88; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        88
+      ]
+    },
+    "89": {
+      "proposed_label": "Thin: Home-Market and Transport Costs",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "Transportation Costs",
+        "Home Market Effect",
+        "Iceberg Transport Costs",
+        "Regional Convergence"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 89; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        89
+      ]
+    },
+    "90": {
+      "proposed_label": "Thin: Mobile Workers and Monopolistic Competition",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "Two-Region Model",
+        "Immobile Peasants",
+        "Mobile Workers",
+        "Monopolistic Competition"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 90; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        90
+      ]
+    },
+    "91": {
+      "proposed_label": "Thin: Inflationary Price Signals",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "Price-Price Spiral",
+        "Inflationary Pull",
+        "Price Signals",
+        "Supply Elasticity"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 91; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        91
+      ]
+    },
+    "92": {
+      "proposed_label": "Thin: Asynchronous Regional Development",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "Asynchronous Development",
+        "Leading or Innovative Forces",
+        "Lagging or Traditional Forces",
+        "Traditional Social Matrix"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 92; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        92
+      ]
+    },
+    "93": {
+      "proposed_label": "Thin: Communication and Innovation Diffusion",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "Siebert Models of Regions",
+        "Communication",
+        "Diffusion of Innovations",
+        "Technical Knowledge"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 93; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        93
+      ]
+    },
+    "94": {
+      "proposed_label": "Thin: Regional Development Models",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "General Equilibrium Model",
+        "Regional Development Theory",
+        "Interregional Flows of Labor and Capital",
+        "Spatial Organization Theory"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 94; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        94
+      ]
+    },
+    "95": {
+      "proposed_label": "Thin: American Racial Inequality",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "White Prejudice",
+        "Low Negro Plane of Living",
+        "The American Negro Problem",
+        "American Creed"
+      ],
+      "connectivity": {
+        "internal_edges": 4,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 95; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        95
+      ]
+    },
+    "96": {
+      "proposed_label": "Thin: Urban Area Classifications",
+      "confidence": "low",
+      "node_count": 4,
+      "supporting_nodes": [
+        "Metropolitan area",
+        "Urban area",
+        "Micropolitan area",
+        "Principal city"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 4
+      },
+      "basis_note": "Inherited from prior provisional community 96; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        96
+      ]
+    },
+    "97": {
+      "proposed_label": "Thin: Accessibility-Based Project Selection",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Accessibility-Based Implementation",
+        "Project Selection",
+        "Virginia SMART Scale"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 97; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        97
+      ]
+    },
+    "98": {
+      "proposed_label": "Thin: Spatial Strategy and Sustainable Development",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Place Focus",
+        "Spatial Relations",
+        "Sustainable Development"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 98; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        98
+      ]
+    },
+    "99": {
+      "proposed_label": "Thin: Strategy-Making Power and Institutions",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Institutional Audit",
+        "Agency Field",
+        "Levers of Power"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 99; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        99
+      ]
+    },
+    "100": {
+      "proposed_label": "Thin: Institutional Change Opportunities",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Opportunity Structure",
+        "Institutional Moment",
+        "Momentum for Change"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 100; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        100
+      ]
+    },
+    "101": {
+      "proposed_label": "Thin: Pluralistic Strategy-Making Qualities",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Open-Mindedness",
+        "Pluralistic Imagination",
+        "Systemic Qualities"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 101; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        101
+      ]
+    },
+    "102": {
+      "proposed_label": "Thin: Policy Streams",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Policy Problems",
+        "Policy Solutions",
+        "Policy Streams"
+      ],
+      "connectivity": {
+        "internal_edges": 3,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 102; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        102
+      ]
+    },
+    "103": {
+      "proposed_label": "Thin: Governance Transformation",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Governance on the Move",
+        "Central-Local Government Power Dynamic",
+        "Continual Transformation"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 103; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        103
+      ]
+    },
+    "104": {
+      "proposed_label": "Thin: Local and Metropolitan Growth Coordination",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "National Territorial Distribution Policy",
+        "Local Growth Decisions",
+        "Metropolitan Coordination"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 104; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        104
+      ]
+    },
+    "105": {
+      "proposed_label": "Thin: Local Population Growth and Migration",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Local Zero Population Growth",
+        "Net Migration",
+        "Youth Outmigration"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 105; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        105
+      ]
+    },
+    "106": {
+      "proposed_label": "Thin: Agglomeration Threshold and Manufacturing Concentration",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Manufacturing Concentration",
+        "Critical Parameter Threshold",
+        "Defecting Firm"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 106; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        106
+      ]
+    },
+    "107": {
+      "proposed_label": "Thin: Regional Equilibrium Wages",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Real Wages",
+        "Long-Run Equilibrium",
+        "Short-Run Equilibrium"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 107; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        107
+      ]
+    },
+    "108": {
+      "proposed_label": "Thin: Locational Attractor Dynamics",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Fixed Points",
+        "Attractor Points",
+        "Repellor Points"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 108; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        108
+      ]
+    },
+    "109": {
+      "proposed_label": "Thin: Production and Administrative Tasks",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Administrative Tasks",
+        "Operator-Paced Operations",
+        "Production Tasks"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 109; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        109
+      ]
+    },
+    "110": {
+      "proposed_label": "Thin: Balanced Growth and Underdevelopment",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Balanced Growth",
+        "Big Push Theory",
+        "Underdevelopment Equilibrium"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 110; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        110
+      ]
+    },
+    "111": {
+      "proposed_label": "Thin: Self-Induced Development",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Built-In Spurs",
+        "Maintenance Problem",
+        "Self-Inducement"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 111; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        111
+      ]
+    },
+    "112": {
+      "proposed_label": "Thin: Entrepreneurship and Change",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Cooperative Component of Entrepreneurship",
+        "Creative Component of Entrepreneurship",
+        "Ego-Focused Image of Change"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 112; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        112
+      ]
+    },
+    "113": {
+      "proposed_label": "Thin: Sovereignty and Institutional Arrangements",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Developmental Advantages of Sovereignty",
+        "Economic Arguments for Separatism",
+        "Optimal Institutional Arrangements"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 113; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        113
+      ]
+    },
+    "114": {
+      "proposed_label": "Thin: Export Promotion and Import Substitution",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Import Substitution",
+        "Export Promotion",
+        "Fluctuations in Foreign Exchange Earnings"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 114; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        114
+      ]
+    },
+    "115": {
+      "proposed_label": "Thin: Sectoral Growth and Exportability",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Rapid-Growth Sector R",
+        "Exportability",
+        "Slow-Growth Sector S"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 115; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        115
+      ]
+    },
+    "116": {
+      "proposed_label": "Thin: Relative Backwardness and Late Development",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Latecomers to Development",
+        "Growth Perspective",
+        "Relative Backwardness"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 116; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        116
+      ]
+    },
+    "117": {
+      "proposed_label": "Thin: Protection and Comparative Costs",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Protection",
+        "Dynamic Theory of Comparative Costs",
+        "Infant Industry Argument"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 117; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        117
+      ]
+    },
+    "118": {
+      "proposed_label": "Thin: National Economic Independence",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "National Economic Liberation",
+        "National State Policies",
+        "Political Independence"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 118; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        118
+      ]
+    },
+    "119": {
+      "proposed_label": "Thin: Education Finance Grants",
+      "confidence": "low",
+      "node_count": 3,
+      "supporting_nodes": [
+        "Education finance reform",
+        "Foundation grants",
+        "Guaranteed tax base plan"
+      ],
+      "connectivity": {
+        "internal_edges": 2,
+        "external_edges": 0,
+        "connected_nodes": 3
+      },
+      "basis_note": "Inherited from prior provisional community 119; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        119
+      ]
+    },
+    "120": {
+      "proposed_label": "Thin: Houston and Philadelphia",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Houston",
+        "Philadelphia"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 120; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        120
+      ]
+    },
+    "121": {
+      "proposed_label": "Thin: Los Angeles and New York",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Los Angeles",
+        "New York"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 121; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        121
+      ]
+    },
+    "122": {
+      "proposed_label": "Thin: San Francisco Bay Area and Washington, DC",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "San Francisco Bay Area",
+        "Washington, DC"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 122; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        122
+      ]
+    },
+    "123": {
+      "proposed_label": "Thin: Governance Infrastructure and Spatial Strategy",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Governance Infrastructure",
+        "Spatial Strategy as Social Product"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 123; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        123
+      ]
+    },
+    "124": {
+      "proposed_label": "Thin: Moral Responsibility and Selective Simplification",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Moral Responsibility",
+        "Selective Simplification"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 124; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        124
+      ]
+    },
+    "125": {
+      "proposed_label": "Thin: Territorial Collective Actor Capacity",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Collective Actor Capacity",
+        "Territorial Collective Actor"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 125; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        125
+      ]
+    },
+    "126": {
+      "proposed_label": "Thin: Institutions and Rules",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Institutions",
+        "Norms, Rules, and Practices"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 126; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        126
+      ]
+    },
+    "127": {
+      "proposed_label": "Thin: Patsy Healey and Transforming Governance",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Patsy Healey",
+        "Transforming Governance: Challenges of Institutional Adaptation and a New Politics of Space"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 127; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        127
+      ]
+    },
+    "128": {
+      "proposed_label": "Thin: Population Potential and Borrowed Size",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Borrowed Size",
+        "Population Potential"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 128; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        128
+      ]
+    },
+    "129": {
+      "proposed_label": "Thin: Interdependent City System",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "City Interdependence",
+        "System of Cities"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 129; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        129
+      ]
+    },
+    "130": {
+      "proposed_label": "Thin: Exclusionary Zoning and Housing Permits",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Exclusionary Zoning",
+        "Housing Permits"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 130; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        130
+      ]
+    },
+    "131": {
+      "proposed_label": "Thin: Local Fiscal Impacts and Public Services",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Local Fiscal Impacts",
+        "Public Services"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 131; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        131
+      ]
+    },
+    "132": {
+      "proposed_label": "Thin: Heterogeneous Firms and Locational Tastes",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Heterogeneous Firms",
+        "Locational Tastes"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 132; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        132
+      ]
+    },
+    "133": {
+      "proposed_label": "Thin: Abortive Development",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Abortive Development",
+        "Forces Corroding Development"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 133; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        133
+      ]
+    },
+    "134": {
+      "proposed_label": "Thin: Balance of Payments and Foreign Exchange",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Balance-of-Payments Pressures",
+        "Foreign Exchange Illusion"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 134; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        134
+      ]
+    },
+    "135": {
+      "proposed_label": "Thin: Complementarity and Entrained Wants",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Complementarity in Use",
+        "Entrained Wants"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 135; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        135
+      ]
+    },
+    "136": {
+      "proposed_label": "Thin: Development Strategy and Productive Tensions",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Development Strategy",
+        "Productive Tensions"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 136; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        136
+      ]
+    },
+    "137": {
+      "proposed_label": "Thin: Investment Criteria",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Investment Criteria",
+        "Social Marginal Productivity"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 137; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        137
+      ]
+    },
+    "138": {
+      "proposed_label": "Thin: Upward Spiral and Vicious Circles",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Interlocking Vicious Circles",
+        "Upward Spiral"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 138; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        138
+      ]
+    },
+    "139": {
+      "proposed_label": "Thin: Economic and National Space",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Balanced Growth of the World Economy",
+        "Economic Space and National Space Conflict"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 139; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        139
+      ]
+    },
+    "140": {
+      "proposed_label": "Thin: Location Theory and Growth Centers",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Classical Location Theory",
+        "Growth Centers"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 140; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        140
+      ]
+    },
+    "141": {
+      "proposed_label": "Thin: Austerity and Capital Formation",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Austerity",
+        "Capital Formation"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 141; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        141
+      ]
+    },
+    "142": {
+      "proposed_label": "Thin: Economic Nationalism and Welfare",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Economic Nationalism",
+        "Economic Welfare"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 142; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        142
+      ]
+    },
+    "143": {
+      "proposed_label": "Thin: Political Prices",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Political Prices",
+        "Price System"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 143; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        143
+      ]
+    },
+    "144": {
+      "proposed_label": "Thin: Mass Transit and Ridership",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Mass transit",
+        "Transit ridership"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 144; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        144
+      ]
+    },
+    "145": {
+      "proposed_label": "Thin: Paratransit and Deregulation",
+      "confidence": "low",
+      "node_count": 2,
+      "supporting_nodes": [
+        "Paratransit",
+        "Transit deregulation"
+      ],
+      "connectivity": {
+        "internal_edges": 1,
+        "external_edges": 0,
+        "connected_nodes": 2
+      },
+      "basis_note": "Inherited from prior provisional community 145; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        145
+      ]
+    },
+    "146": {
+      "proposed_label": "Thin: Accessibility Analysis for Transportation Projects and Plans",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Accessibility Analysis for Transportation Projects and Plans"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 146; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        146
+      ]
+    },
+    "147": {
+      "proposed_label": "Thin: Albuquerque",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Albuquerque"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 147; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        147
+      ]
+    },
+    "148": {
+      "proposed_label": "Thin: Connectivity",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Connectivity"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 148; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        148
+      ]
+    },
+    "149": {
+      "proposed_label": "Thin: Demographic Energy",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Demographic Energy"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 149; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        149
+      ]
+    },
+    "150": {
+      "proposed_label": "Thin: Does Accessibility Require Density or Speed?",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Does Accessibility Require Density or Speed?"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 150; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        150
+      ]
+    },
+    "151": {
+      "proposed_label": "Thin: John Stewart",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "John Stewart"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 151; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        151
+      ]
+    },
+    "152": {
+      "proposed_label": "Thin: Land-Use-Based Travel Forecasting",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Land-Use-Based Travel Forecasting"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 152; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        152
+      ]
+    },
+    "153": {
+      "proposed_label": "Thin: Martin Wachs and Gordon Kumagai",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Martin Wachs and Gordon Kumagai"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 153; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        153
+      ]
+    },
+    "154": {
+      "proposed_label": "Thin: Project-Level Accessibility Analysis for Land-Use Planning",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Project-Level Accessibility Analysis for Land-Use Planning"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 154; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        154
+      ]
+    },
+    "155": {
+      "proposed_label": "Thin: Robert Murray Haig",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Robert Murray Haig"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 155; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        155
+      ]
+    },
+    "156": {
+      "proposed_label": "Thin: Transit Ridership",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Transit Ridership"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 156; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        156
+      ]
+    },
+    "157": {
+      "proposed_label": "Thin: Walter Hansen",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Walter Hansen"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 157; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        157
+      ]
+    },
+    "158": {
+      "proposed_label": "Thin: Performance View",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Performance View"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 159; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        159
+      ]
+    },
+    "159": {
+      "proposed_label": "Thin: Social and Intellectual Capital",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Social and Intellectual Capital"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 160; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        160
+      ]
+    },
+    "160": {
+      "proposed_label": "Thin: Structuring Dimension",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Structuring Dimension"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 161; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        161
+      ]
+    },
+    "161": {
+      "proposed_label": "Thin: European Union",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "European Union"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 162; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        162
+      ]
+    },
+    "162": {
+      "proposed_label": "Thin: Network Cities",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Network Cities"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 163; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        163
+      ]
+    },
+    "163": {
+      "proposed_label": "Thin: Urban Networks",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Urban Networks"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 164; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        164
+      ]
+    },
+    "164": {
+      "proposed_label": "Thin: Economic Growth",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Economic Growth"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 166; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        166
+      ]
+    },
+    "165": {
+      "proposed_label": "Thin: Environmental Concerns",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Environmental Concerns"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 167; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        167
+      ]
+    },
+    "166": {
+      "proposed_label": "Thin: Land-Use Regulation",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Land-Use Regulation"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 168; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        168
+      ]
+    },
+    "167": {
+      "proposed_label": "Thin: Local Age Structure",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Local Age Structure"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 169; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        169
+      ]
+    },
+    "168": {
+      "proposed_label": "Thin: Malthusian Concern",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Malthusian Concern"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 170; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        170
+      ]
+    },
+    "169": {
+      "proposed_label": "Thin: Metropolitan Balkanization",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Metropolitan Balkanization"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 171; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        171
+      ]
+    },
+    "170": {
+      "proposed_label": "Thin: No-Growth Movement",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "No-Growth Movement"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 172; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        172
+      ]
+    },
+    "171": {
+      "proposed_label": "Thin: Office Development",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Office Development"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 173; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        173
+      ]
+    },
+    "172": {
+      "proposed_label": "Thin: Real Net Income per Capita",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Real Net Income per Capita"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 174; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        174
+      ]
+    },
+    "173": {
+      "proposed_label": "Thin: Social and Economic Mobility",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Social and Economic Mobility"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 175; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        175
+      ]
+    },
+    "174": {
+      "proposed_label": "Thin: Social Equity",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Social Equity"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 176; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        176
+      ]
+    },
+    "175": {
+      "proposed_label": "Thin: Structural Change",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Structural Change"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 177; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        177
+      ]
+    },
+    "176": {
+      "proposed_label": "Thin: Urban Areas as Open Systems",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Urban Areas as Open Systems"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 178; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        178
+      ]
+    },
+    "177": {
+      "proposed_label": "Thin: Urban Density",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Urban Density"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 179; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        179
+      ]
+    },
+    "178": {
+      "proposed_label": "Thin: Urban Efficiency",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Urban Efficiency"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 180; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        180
+      ]
+    },
+    "179": {
+      "proposed_label": "Thin: Urban Size",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Urban Size"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 181; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        181
+      ]
+    },
+    "180": {
+      "proposed_label": "Thin: Heterogeneity of Workers and Firms",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Heterogeneity of Workers and Firms"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 182; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        182
+      ]
+    },
+    "181": {
+      "proposed_label": "Thin: Incomplete Information",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Incomplete Information"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 183; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        183
+      ]
+    },
+    "182": {
+      "proposed_label": "Thin: Marshallian Equivalence",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Marshallian Equivalence"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 184; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        184
+      ]
+    },
+    "183": {
+      "proposed_label": "Thin: Henry George Theorem",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Henry George Theorem"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 185; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        185
+      ]
+    },
+    "184": {
+      "proposed_label": "Thin: Urban Congestion Costs",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Urban Congestion Costs"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 186; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        186
+      ]
+    },
+    "185": {
+      "proposed_label": "Thin: Informational Spillovers",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Informational Spillovers"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 188; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        188
+      ]
+    },
+    "186": {
+      "proposed_label": "Thin: Pooled Labor Market",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Pooled Labor Market"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 189; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        189
+      ]
+    },
+    "187": {
+      "proposed_label": "Thin: Primary Stratum of Peasants",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Primary Stratum of Peasants"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 190; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        190
+      ]
+    },
+    "188": {
+      "proposed_label": "Thin: Specialized Inputs",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Specialized Inputs"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 191; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        191
+      ]
+    },
+    "189": {
+      "proposed_label": "Thin: Industrial Centre",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Industrial Centre"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 193; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        193
+      ]
+    },
+    "190": {
+      "proposed_label": "Thin: Inflationary Pressure",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Inflationary Pressure"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 194; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        194
+      ]
+    },
+    "191": {
+      "proposed_label": "Thin: City-Size Distribution",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "City-size distribution"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 195; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        195
+      ]
+    },
+    "192": {
+      "proposed_label": "Thin: Knowledge Spillovers",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Knowledge spillovers"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 196; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        196
+      ]
+    },
+    "193": {
+      "proposed_label": "Thin: Labor-Market Pooling",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Labor-market pooling"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 197; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        197
+      ]
+    },
+    "194": {
+      "proposed_label": "Thin: Backyard Production",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Backyard production"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 198; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        198
+      ]
+    },
+    "195": {
+      "proposed_label": "Thin: Zero Economic Profit",
+      "confidence": "low",
+      "node_count": 1,
+      "supporting_nodes": [
+        "Zero economic profit"
+      ],
+      "connectivity": {
+        "internal_edges": 0,
+        "external_edges": 0,
+        "connected_nodes": 1
+      },
+      "basis_note": "Inherited from prior provisional community 199; membership changed only through the reviewed edge patch.",
+      "inherited_from": [
+        199
+      ]
+    }
+  },
+  "manual_edge_patch": "manual-edge-patch.json"
+}
