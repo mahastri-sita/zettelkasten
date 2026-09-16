@@ -1,0 +1,913 @@
+[PDF Metadata]
+Source PDF: journal/M12-klosterman-1999-the-what-if-collaborative-planning-support-system-10.1068-b260393.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Producer:        ABBYY FineReader 8.0 Professional Edition
+CreationDate:    Thu Oct  4 16:30:04 2007 WIB
+ModDate:         Thu Oct  4 16:30:11 2007 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           16
+Encrypted:       no
+Page size:       425.64 x 679.44 pts
+Page rot:        0
+File size:       4856402 bytes
+Optimized:       yes
+PDF version:     1.6
+[Extracted Text]
+ijivnonmcti! and I'htnninx H Phmntnv iiml hcsiyn llWJ, volume .Vi. p.iin's \{) \ 40.S
+
+
+
+
+The What if? collaborative planning support system
+
+
+
+R 1* Kl os term an
+Department of Geography and Planning. University of Akron. Akron, Ohio -14 ^25-5005, USA,
+e-mail: Klostcrmuruc UAkron.cdu
+Received 6 February 1WH; in revised Conn 26 November 1W.X
+
+
+
+Abstract. In this paper I will describe What if?, a scenario-based, policy-oriented planning support
+system (PSS) that uses increasingly available CHS data to support community-based processes of
+collaborative planning and collective decisionmaking. It incorporates procedures for conducting
+land suitability analysis, projecting future land-use demands, and allocating the projected demands
+to the most suitable locations. The system allows users easily to create alternative development
+scenarios and determine the likely impacts of alternative public-policy choices on future land-use
+patterns and associated population and employment trends. It is easy to use, can be customized to the
+user's database and policy issues, and provides outputs in easy to understand maps and reports.
+
+Introduction
+The field of urban and regional planning is experiencing two fundamental changes that
+are having a profound impact on the use of computer-based models in planning
+practice and education. On the one hand, the dramatically increased availability o(
+powerful, low-cost, and easy to use GIS tools and more extensive spatially referenced
+data are making GIS an essential tool for planning tasks such as land-use monitoring,
+code enforcement, and permit tracking. However, with this increased use has come
+an increased realization that GIS alone cannot serve all of the needs of planning (for
+example, see Couclelis, 1991; Harris, 1989; Harris and Batty, 1993). This realization has
+renewed planners' interest in computer modeling and stimulated the development of
+planning support systems (PSS) which combine GIS (and non-GIS) data, computer-
+based models, and advanced visualization techniques into integrated systems to support
+core planning functions such as plan preparation and evaluation (for example, see
+Finaly and Marples, 1992; Holmberg, 1994; Klosterman, 1997).
+    On the other hand, planners are increasingly abandoning the attempt to 'plan
+for1 the public and opting for more collaborative efforts to 'plan with' the public.
+These attempts take a variety of forms such as strategic visioning conferences, design
+charettes, and other community-based collaborative planning and consensus-building
+efforts (for example, see Goldschalk et al, 1994; Lowry et al, 1997). These efforts attempt
+to involve private citizens and other stakeholders directly in the planning process to
+help identify and prioritize the public's needs and desires, explore alternative develop-
+ment scenarios, and establish benchmarks for evaluating ongoing development efforts.
+As an ideal, these carefully structured consensus-building processes can help achieve the
+ideals of communicative rationality and traditional comprehensive land-use planning
+(Healey, 1992; Innes, 1992; 1996).
+    What if? is an interactive GIS-based PSS that responds directly to both of these
+trends. It uses the GIS data sets that communities have already developed to support
+community-based efforts to evaluate the likely implications of alternative public-policy
+choices. It provides a single integrated package that allows planning tasks that at
+present require weeks or even months to do to be completed quickly and easily.
+394                                                                           R E Klosterman
+
+
+
+
+     The package can be customized to a community's existing GIS data, concerns, and
+desires, and provides outputs in easy to understand maps and reports which can be
+used to support community-based collaborative planning efforts.(1)
+     Reflecting the movement from 'planning for the public' to 'planning with the public',
+What if? assumes that planning and policymaking should not be based on closed and
+unsupervised 'objective' analysis of technical experts. Instead it provides a set of com-
+puter-based tools which facilitate open and ongoing processes of community learning,
+debate, and compromise. By providing information, techniques, and evaluation criteria
+which can be used to support particular public-policy perspectives and critique others,
+it supports explicitly political processes of 'adversary' or 'counter' modeling similar to
+Davidoff's (1965) advocacy planning model. By involving the public directly in the
+planning process, it helps constrain the discretion of professionals and political insiders,
+reduces the knowledge differential between professionals and laypersons, and gives the
+public a sense of ownership in the plans and proposals which are developed.
+    Acknowledging the limitations of planners' knowledge, information, and resources,
+the model abandons the unrealistic goal of producing a single 'exact' prediction of the
+future for the preparation of a range of alternative scenario-based forecasts which
+reveal a range of potential futures. With the recognition that models are useful in a
+policy context only if they are understood by policymakers, the underlying structure,
+relationships, and assumptions of What if? are made as explicit and clear as possible.
+Most importantly, as its name suggests, the model adopts the 'what if metaphor
+popularized by electronic spreadsheets by acknowledging that the model results iden-
+tify only what would happen z/the underlying assumptions in a scenario are correct.
+It does this by explicitly identifying alternative policy choices, allowing users to choose
+between these alternatives and to determine their likely effects on the area being studied.
+Similarly, the underlying assumptions of the model concerning the 'state of nature' are
+explicitly stated and easily modified, allowing users to determine the effect that these
+assumptions have on the model results (Klosterman, 1987, pages 444-448).
+    The remainder of the paper is divided into four sections. The next section provides
+an overview of the modeling process and the application areas for which What if? is
+most appropriate. The following section describes the three analysis steps that are
+incorporated in the model, the procedures for conducting each step, and the associated
+model outputs. The second to last section identifies the information and procedures
+that are required to adapt the system for use in a particular study area. The paper
+concludes with an evaluation of the strengths and weaknesses of the model.
+
+System overview
+As its name suggests, What if? does not attempt to predict future conditions exactly.
+Instead it is an explicitly policy-oriented planning tool that can be used to determine
+what would happen if clearly defined policy choices are made and assumptions con-
+cerning the future prove to be correct. Policy choices that can be considered in the
+model include the staged expansion of public infrastructure and the implementation of
+alternative land-use plans or zoning ordinances. Assumptions for the future that can be
+considered in the model include future population and employment trends, assumed
+household characteristics, and anticipated development densities.
+(1)
+    What if? was developed by the Plan it!, LLC, a cooperative venture of Community Analysis
+and Planning Systems Inc., Data Chromatics Inc., and LDR International. The first version
+of the software was developed to support the preparation of the Western Hamilton County
+Comprehensive Plan for a rapidly growing area to the west of Cincinnati, Ohio. The model is
+fully operational and documented. A demonstration version is also available. Please contact the
+author for information on the current status of the model.
+The What if? collaborative planning support system                                   395
+
+
+
+
+    What if? is a *boitom-ujV model which begins with homogeneous land units or
+uniform analysis zones (UAZs), applies alternative policy choices to these units* allo-
+cates projected land-use demands to them, and then derives regional conditions (such
+as population and employment growth trends) by aggregating the values for these land
+unils.{2> UAZs arc GIS-generated polygons which are homogeneous in all respects
+considered in the model. Thus, for instance, all points within a UAZ have the same
+slope, are located in the same municipality, have the same zoning designation, are
+within the same distance of an existing or proposed highway, and so on.
+    UAZs are created for a study area by using GIS overlay functions to combine all of
+the relevant layers of information on natural and human-made features, The map
+layers can contain information on natural conditions (for example, slopes, soils, and
+scenic vistas), existing and proposed infrastructure (for example, the proximity to
+intersections or major roads and the availability of sewer and water service), and
+land-use controls such as zoning districts and planned land \\HC$t The UAZs contain
+information which was provided in each of the constituent layers, that is, each UAZ
+contains information on the slope, the availability of sewer and water service, planned
+land use, and so on, for all points lying inside of it.
+    As will be described in detail below, What if? projects future land-use patterns by
+balancing the supply of, and demand for, land suitable for different uses at different
+locations. Alternative visions for an area's future can be explored by defining alter-
+native suitability, growth, and allocation scenarios. For example, a 'Trend' scenario
+could determine the effects of continuing current development policies. An 'Environ-
+mental Protection' scenario might consider the impact of policies that severely limit
+growth in scenic areas and on land highly suitable for agricultural uses. A 'Build out*
+scenario would reveal the implications of allowing growth to continue until it reached
+permitted density levels for all developable parcels in the study area. The assumptions
+underlying these and other scenarios can easily be modified to incorporate the full
+range of alternative visions for an area's future.
+    The results generated by considering these alternative scenarios provide concrete
+and understandable expressions of the likely results underlying the policy choices and
+assumptions of a scenario. For instance, the model might demonstrate that there is
+insufficient land simultaneously to accommodate high growth, low residential densities,
+and strict agricultural protection policies, forcing the community to choose between
+highly desirable, but inconsistent, policy goals.
+    What if? is most appropriate for areas that are experiencing, or anticipating, rapid
+urbanization and the associated problems of traffic congestion, inadequate public
+infrastructure, and the loss of agricultural and open land. Areas that are currently
+undeveloped and will remain so in the future have few impacts and policy options to
+consider. Currently developed areas face complex issues of redevelopment and reuse
+that are extremely difficult to capture in a computer model. Areas on the urban fringe
+experiencing rapid and uncontrolled urbanization and industrialization face difficult
+and complex issues of managing growth and maintaining a sound fiscal base. As a
+result, What if? is particularly useful in promoting public dialogue and collective
+decisionmaking in these rapidly changing areas.
+    What if? was developed with Microsoft's Visual Basic and the Environmental Sciences
+Research Institute's MapObjects GIS component software. It incorporates many of the
+design concepts in the first California Urban Futures (CUF) model (Landis, 1994; 1995)
+and similar models such as the Sophisticated Allocation Process (SOAP) model of the
+(2)
+    The term 'uniform analysis zone' (UAZ) is used instead of Landis's (1994) comparable
+concept of 'developable land unit' (DLU) because these spatial units may, or may not, be
+'developable', depending on a particular set of scenario assumptions.
+396                                                                        R E Klosterman
+
+
+
+
+San Diego Association of Governments (1994). However, it is unique in providing a
+portable system which can be adapted to any community's GIS data and policy issues.
+
+Using the model
+As shown in figure 1, the What if? opening screen contains the standard Windows menu
+bar, File, and JHelp options. In addition, it includes three specialized menu options,
+Suitability, Growth, and Allocation, which correspond to the three procedural steps—
+determining land-use suitability, projecting land-use demands, and allocating projected
+demands—incorporated into the model. These options are described briefly below.
+
+ B e SjHhlty   growth A'iocahon jjejp
+
+
+
+
+Figure 1. The What if? opening screen.
+
+Determining land-use suitability
+The first stage in the What if? analysis process, determining land-use suitability, incor-
+porates standard 'weighting and rating5 procedures (Hopkins, 1977; McHarg, 1969) that
+take weeks or months to complete by hand into a quick and easy computer-based
+process. The suitability analysis process begins by modifying a previously defined suit-
+ability scenario or by creating a new one. This is done by selecting the Suitability Define
+Scenario option from the main What if? menu to access the suitability scenario selection
+form shown in figure 2. This form can be used to create a new suitability scenario or
+to review, revise, or delete a previously defined suitability scenario selected from the
+drop-down list.
+^^^^^^^^^^^^^^^^^^^^^^^^^^                                    3XM~IHJNI
+                                                         .
+        Scenario      j R u r a | Preservation                " ' ~QK\
+                                                   ._#
+        Description                                              tm
+         This ccenano emphasises preservation of
+         agricultural land and natural features.
+                                                         i"      Delete
+
+
+                                                                 Cancel
+                                                         1
+                                                                 Help '
+ *       5£ fead QnjySGenrado
+
+
+
+Figure 2. Suitability Scenario selection form.
+The What if? collaborative planning support system                                       397
+
+
+
+
+    After selecting a scenario to create, review, or revise, the user is presented with the
+Suitability Scenario Assumptions form shown in figure 3, As its name suggests, this
+form is used to specify the assumptions which underlie a particular suitability scenario.
+The label in the upper left corner of the form identifies the scenario which was selected
+on the suitability selection form. The drop-down list box at the upper right allows the
+user to select the land use for which a set of particular suitability assumptions are to be
+specified. Thus, for example, in figure 3 the user is specifying the assumptions for the
+'Low Density Residential' land use for the 'Rural Preservation* suitability scenario.
+
+
+
+
+Figure 3. Suitability Scenario Assumptions form.
+
+    As shown in figure 3, the suitability assumptions screen contains four tabbed sheets.
+These sheets correspond to the four steps of the suitability analysis process: (1) identify-
+ing the suitability factors; (2) specifying the suitability factor weights; (3) specifying
+the suitability factor ratings; and (4) specifying the permissible land-use conversions.
+These four steps are described briefly below.
+    Identifying suitability factors The first sheet, labeled 'Factors Considered' and shown
+in figure 3, contains a series of check boxes which are used to specify the factors which
+the user feels should be considered in determining the suitability of different locations
+for a particular land use. Thus, for example, in figure 3 the user has specified that all of
+the suitability factors should be considered in determining the most suitable locations
+for low-density residential development. The suitability factors included on the list are
+determined by the available data for the study area and can include the full range of
+natural features, for example, slopes, soils, and hazardous areas. Suitability factors
+must be identified for each land use considered in the study. Different factors may be
+selected for different land uses; for instance, soils may be assumed to be important for
+locating retail and office establishments but not for locating single-family developments.
+    Specifying factor weights The second sheet, labeled 'Factor Weights', contains a series
+of text boxes that are used to specify the suitability factor weights, that is, the numerical
+scores indicating the relative importance of different factors for determining the relative
+398                                                                                                 R E Klosterman
+
+
+
+
+suitability of different locations for a particular land use. Thus, for example, the Slope
+factor could be given a factor weight of 2 and the Soils factor could be given a factor
+weight of 1 to indicate that slope is considered to be twice as important as soils in
+determining a site's suitability for a particular land use. Factor weights are assigned on
+a five-point scale from 1 (low) to 5 (high).
+     Specifying factor ratings The third sheet, labeled 'Factor Ratings', contains a series
+of text boxes that are used to specify ratings for each factor type, that is, for each
+category within a particular suitability factor (such as for each type of slope). Factor
+ratings are numerical values which indicate the relative suitability of locations with a
+particular factor type for a specified land use, for example, the suitability of locations
+with different slopes for locating low-residential development. The factor types are rated
+on a six-point scale from 5 (high) to 1 (low) and 0 (excluded). The 'excluded' category
+identifies areas from which development is to be excluded, regardless of its suitability
+with respect to other factors. Thus, for example, the user might specify that residential
+development should be excluded from all locations with slopes which exceed 20%.
+     Specifying land-use conversions The fourth suitability assumption sheet, labeled
+'Conversion', contains a series of check boxes that are used to specify land uses that
+may be converted from their current use (such as agriculture) to another use (such as
+low-density residential) during the projection process. If no land uses are identified as
+conversion candidates, only currently undeveloped land will be available for satisfying
+the projected land-use demands.
+     Suitability factors, factor scores, factor weights, and permitted land-use conversions
+must be specified for all of the land uses considered in the analysis. After this information
+is provided, the user can click on the Compute button on the suitability assumptions form
+shown in figure 3. The model then computes the factor scores for each UAZ by multiplying
+the user-specified factor weights by the corresponding user-defined factor rating and
+summing these values. The resulting suitability scores indicate the relative suitability of
+each UAZ for each land use when all of the suitability factors have been considered.
+    The user can view the suitability analysis results by selecting the Suitability View Scena-
+rio option from the main What if? form. The system generates a series of maps showing
+the relative suitability of different locations for each land use, as shown in figure 4.
+
+
+
+                                                  LandU*»   ) Low Density Residential       3   J
+
+
+
+
+                                                       I*™- Medium Low                          !
+                                                       f " ^tedium;                             I
+                                                       f~ M u m High                    ^       1
+
+
+                                                     '•••tea&kJ '-< Pefemt&fotg I               I
+
+
+
+
+Figure 4. Suitability Analysis map.
+    he What if"                       laborativr planning support system                                                               W)
+
+
+
+
+ The maps can be viewed by selecting the desired land-use category from the drop-down
+list and clicking on the Render Map button. The maps show each location's suitability
+for each land use on a scale from 'Not Considered' and * Unsuitable1 to 'High'. The
+system also generates two reports that can be read on the screen or sent to a printer.
+The first report identifies the number of acres within each suitability class for all land
+uses. The second report lists the assumptions which underlie a specified suitability
+scenario, that is, the factors which were considered in the analysis, the user-specified
+factor weights and rates, and the permissible land-use conversions.
+Projecting hind-use demands
+What if? considers the demand for land by converting the five main categories of land-
+use residential, industrial, commercial, preservation, and locally oriented uses into
+the equivalent future land-use demands. The demands are computed for up to five
+periods, allowing the system to incorporate a staged development process in which
+future development patterns are based on the previously existing patterns and antici-
+pated infrastructure improvements.
+    The process of projecting land-use demands begins by selecting the Growth option
+from the main What if? program menu and by using the growth scenario selection form
+to create, view, or revise a growth scenario. The form is identical in appearance and
+function to the Suitability Scenario Selection form described previously. After choosing
+a growth scenario to view, modify, or create, the user is presented with the Growth
+Scenario Assumptions form shown in figure 5. The form has five subsidiary sheets
+which are used to specify the assumptions which define the different land-use demands.
+The procedures for specifying these assumptions, the growth scenario assumptions
+forms, and the growth analysis outputs are described briefly below.
+
+                                                                                   -^.-.^-..^^J^PP^J.
+Rmw.                                          ::^^                 Tf^'^T^lf"                           ^WS^STT^
+          7>flMf
+
+
+
+                                                                                                              !'   SavoAl      |   I
+
+                     wiohokit | Hound     I
+
+                      nqiiunal HoujehoW*                                  .
+                                                                                                              j,   Corrixjte   J   j
+                                                                   loutthOW*
+                       <? Trend                            1935    XOOOO                                      j,   foiKl'l     {
+                       r   Htttftobtbto                    200
+                                                               °   '#5460
+                                                           2010    371500      ;
+                       C low Piotwblo                      2020
+                       C VfitjiLwPiobijb!')
+
+
+                      Shaio of Regional Households
+                                                       x
+                       G Trend                >            Vear, Package
+                       r, HighProbable                     1935    133
+.           1;'                                                    14.8
+                       C LoffRobafato                      f °
+    < i                                                    2010
+                                                           2020
+                                                                   166                   -
+                                                                   1|6
+
+
+
+
+          Progress
+                     '> U                 *       i!        .
+
+Figure 5. Growth Scenario Assumptions form.
+
+    Computing residential demand As shown in figure 5, the Residential sheet contains
+two tabbed sheets. The first allows the user to select up to five independently prepared
+projections for the total number of households in the region and the study area's share
+of the regional households. These two values are multiplied to compute the projected
+number of households in the study area in each projection period.
+400                                                                                                                                                   R E Klosterman
+
+
+
+
+    The second sheet is used to specify the assumptions about new residential
+units including: (1) the breakdown by housing type for new residential construction;
+(2) the housing density for each housing type; (3) the average household size for each
+housing type; (4) the residential vacancy rates; and (5) the proportion of existing
+housing units that will be lost to demolition, fire, and so on during each projection
+period. The model uses the values specified on the two residential sheets to compute
+the projected demand for residential land in each projection period.
+    Computing regional business demand The next two sheets, labeled 'Industrial' and
+'Commercial', are used to specify the assumptions which determine the projected
+demand for regionally oriented land uses. As shown in figure 6, the Industrial sheet
+allows the user to select between previously developed projections for the total regional
+employment in each projection year. It also allows the user to specify: (1) the average
+square footage of floor space per employee; (2) the industrial floor area ratio (FAR);
+and (3) the vacancy rate for each industrial land use. The Commercial sheet provides
+similar options for up to five different types of regional commercial development (for
+example, regional retail, office, and mixed-use areas). These values are used to compute
+the projected demand for industrial and commercial land uses in each projection year.
+
+
+      Thmtt
+
+      % Rissjferkiat'   Itidw&ial j Ctavngrcfei ] " F t e s s m t o ]    local
+
+
+
+       •", Industrial Empk^mesni •"?"*• • •%-•- -, r;;;r, ',->;—,-?"•-,•
+                                             "•;-,                                - „-'-,~,V„V~~    ••.';,';-—
+
+
+          <?, Trend '
+      ;
+           THisb                                                                                                                     Cottiipute   I
+          CMtddfe.
+          C-\jm
+                                                                                                                                                  J
+                                                                                  - Employees
+                                     Square Fed       Floor Atea        Vacaas?
+          Ittksty                                                                   im             2Q0O          '2BUJ    2020
+          Light Industrial                                                                                                10
+          Heavy industrial              |?5             [if     :'       [o~~'
+                                                                                    10             (8     •      lo
+                                                                                   10        . 18          ,
+                                                                                                                 4°      ,io.    /
+
+
+
+
+   ' ftogressr
+
+
+
+
+Figure 6. Industrial Growth Scenario Assumptions sheet.
+     Computing preservation demand The Preservation sheet allows the user to specify
+the amount of land which should be preserved for environmentally oriented uses such as
+agriculture, forestry, and open space or environmental protection. The system permits
+the user to specify the amount of land, either the number of acres or the percentage
+of the study area, to be allocated for each preservation use in each projection year. These
+values are treated as land-use demands along with the other land-use demands.
+    Computing local demands The Local sheet allows the user to specify the quantity of
+land that will be required per thousand persons to satisfy locally oriented land uses
+whose location and size are dependent on the local (for example, municipal) popula-
+tion. These uses include local parks and recreational areas, local retail (for example,
+strip malls), and public and semipublic land uses. The specified land-use standards are
+applied to the projected population in each political jurisdiction to compute the
+amount of land which must be devoted to each use.
+The What if? collaborative planning suppoit system                                                                           401
+
+
+
+
+    After providing all the required information on the Growth Scenario Assumptions
+form, the user can click on the Compute) button to calculate the projected demand
+in each projection year for each land-use type, The system generates a report which
+identifies the projected demand for each land use in each projection year and a second
+report listing the assumed values that were used to compute these demands.
+Allocating projected land-use demands
+What if? projects future land-use patterns by allocating the projected land-use demands
+derived from a user-selected growth scenario to different locations on the basis of their
+relative suitability as defined by the assumptions of a user-selected suitability scenario.
+For instance, the demand for residential land is assigned first to the most suitable sites,
+then to the second most suitable sites, and so on until all of the projected residential
+demand in a projection year has been satisfied. If desired, the growth allocation can be
+controlled by user-selected land-use controls (land-use plans and zoning restrictions)
+and infrastructure plans. The user is notified if not enough land is available to satisfy
+the projected demand. If this occurs, the user must modify the suitability, growth, or
+allocation scenario assumptions (for example, relax the land suitability requirements,
+allow more land uses to be converted to other uses, or increase development densities)
+to make them consistent.
+    The growth allocation process begins by using the allocation scenario selection
+form to create a new allocation scenario or to revise or delete an existing one. The
+form is similar in appearance and function to the suitability and growth scenario forms
+except that it requires the user to identify the suitability and growth scenarios which
+correspond to a given allocation scenario. The user is then presented with the Alloca-
+tion Scenario Assumptions form shown in figure 7. The form contains four tabbed
+sheets which are used to specify the assumptions which underlie a growth allocation
+scenario, as described briefly below. The first 'Allocation Priority' sheet shown in
+figure 7, is used to specify the order in which the various projected land-use demands
+will be satisfied.
+
+
+     Tfond
+
+     •' Afocation Priory | Inlrasiructuft j t ^ U t e Controls | LIA2 Control* 1
+
+          Drag and drop label* lo desiied allocation ordef                                 p Prompt when out of land
+
+
+     ^    1 Open Spaco/Envtrofwmt Protect                       10 U$]ht Indmlrta!
+
+     j|   2 Agriculture t                                       11 Heavy Industrial
+
+     1    3 Rural Residential
+
+ > -',    4 >SF-Very low Density -                              '       -        ^'    ^                           '
+                                                                                                                       \hV
+     ')   5 SF" Low Denstty                   '                        , %                               -'
+
+     -* - 6 SF« Medium Density           *         -                                         - -
+
+     *    ? Mu»i-Famfy                   --                ''                "                     - , - . ' -
+
+ ,   \    a-awte        -            ,        '*                -s *                  < '      \      > '
+     ;-   9 Fte*al*Begtonal                            '                                              = .
+
+
+
+
+Figure 7. Allocation Scenario Assumptions form.
+402                                                                                        R E Klosterman
+
+
+
+
+    Infrastructure sheet As shown in figure 8, the 'Infrastructure' sheet contains two
+tabbed sheets. The Infrastructure Plans' sheet is used to select previously defined infra-
+structure plans which will be used to guide the allocation process. If no infrastructure
+plans are selected, all of the land uses will be located in their most suitable locations,
+regardless of the availability of sewer and water service or their proximity to major
+roads or intersections.
+
+
+      Tmttd
+
+
+                                                                            SaveAi
+
+
+              r- S ewet Expansion                                  j .   ,S«veSc«r«air*o
+
+                 j Existing[Sewer Plan                     £J
+                                                                            Compute
+
+                                                       :                     Cancel - j
+              r'Water Service Eapamkm—
+
+                 j   <   n   o   n     e   >       "   ^   1
+                                                                              h'dp
+
+
+              r Roads ~~x                  ;                   r
+
+                 [Existing Road Plan                       ^J
+
+
+
+              r- Intersection*                 •
+
+                jExisting Intersections                    >]
+
+
+
+
+Figure 8. Infrastructure Plans sheet.
+    The 'Infrastructure Required' sheet is used to specify the assumed relationship
+between infrastructure provision (or proximity) and land-use development patterns.
+The sheet lists the land uses to be allocated; each land use is associated with drop-
+down boxes for each of the infrastructure controls listed on the Infrastructure Plans
+sheet. The drop-down boxes can be used to specify one of three options.
+    The first option, Not Affected, is used for land uses whose location is assumed not
+to be affected by the availability of (or proximity to) a given type of infrastructure.
+Thus, for instance, one might assume that the location of large-lot residential units is
+not affected by the availability of sewers because these units could be served by septic
+systems. In these cases, the projected land-use demands will be located in the most
+desirable locations, regardless of the presence of this infrastructure.
+    The second option, Required, is used to identify land uses which are assumed to
+require—or be near to—a particular type of infrastructure. Thus, for example, one
+could assume that Office and Neighborhood Retail uses require water and sewer
+service and Regional Retail uses must be located near major intersections. In these
+cases, the specified land-use demand will be allocated only to areas that have (or are
+near to) the specified infrastructure.
+    The third option, Excluded, is used to identify land uses that are assumed to be
+excluded from areas that are served by (or are near to) a particular type of infra-
+structure. Thus, for example, one could assume that agriculture would be excluded
+from areas that are served by water and sewer or are near major intersections because
+these locations will be too expensive to be devoted to agricultural uses. In these cases,
+future land-use demands will be excluded from areas that are served by, or are near to,
+the What if'7 collaborative planning support system                                   M)]
+
+
+
+
+a particular type of infrastructure. The final sheet, labelled *UAZ Controls', contains a
+scries of text boxes that are used to specify the minimum-sized UAZs into which
+different land-use demands can be allocated, for example, that industrial development
+cannot take place in UAZs smaller than, say, five acres in size.
+     Lund Use Controls sheet This sheet is similar to the Infrastructure Plans sheet shown
+in figure <S and allows the user to select between previously defined land-use plans and
+zoning ordinances which will control the location of future growth. If a land-use control
+ordinance or plan is selected, the system allows projected land-use demands to be
+allocated only to areas in which the land use is permitted or planned. If no land-use
+control plan is selected, land-use demands will be allocated to their most suitable
+location, without any restrictions.
+     When the user clicks on the Compute button the system projects future land-use
+patterns by allocating the projected land-use demands to the most suitable sites,
+subject to any land-use controls or infrastructure plans selected by the user. The
+resulting land-use projections for each projection year can then be viewed in map or
+report form.
+     For example, figure 9 shows the projected land-use patterns for a 'Compact Alloca-
+tion1 scenario whose user-specified suitability ratings and allocation controls have
+concentrated future residential and commercial development largely in the eastern
+part of the study area. Figure 10 (over) shows the projected land-use patterns for a
+'Dispersed Allocation' scenario which incorporates the same land-use demand assump-
+tions and different infrastructure and land-use control assumptions which allow devel-
+opment to be spread throughout the study area. These two examples illustrate the
+power of tools such as What if? for graphically portraying the implications of alter-
+native policy choices. The system also generates reports which record the projected
+land-use quantities for the study area and each political subdivision in each projection
+year and the assumptions which underlie a scenario.
+
+
+ill J9J »1<X|O:IO|                               CompactA/fanettton
+
+
+
+
+Figure 9. Allocation map for 'Compact Allocation' scenario.
+404                                                                      R E Klosterman
+
+
+
+
+Figure 10. Allocation map for 'Dispersed Allocation' scenario.
+
+Installing What if?
+Although it incorporates many of the concepts of other GIS-based models such as the
+first California Urban Futures Model (Landis, 1994; 1995) What if? is unique in its abil-
+ity to be adapted to the GIS data sets and policy concerns for one or more study areas.
+These capabilities are provided by its GIS-created UAZ files, Setup, and Manager
+programs which are described briefly below.
+Creating UAZ files
+Before What if? is used, the UAZs for a particular study area must be created with
+standard GIS overlay functions. The UAZs are created by combining GIS layers
+containing information on, among other things, natural conditions, existing and
+proposed infrastructure, land-use controls, and the boundaries for subdivisions of the
+study area. GIS UNION commands are used to combine these layers into a single layer
+made up of UAZs containing information from each of the constituent layers. That
+is, each UAZ contains information on the natural features, available infrastructure,
+planned land use, and so on for all points lying inside of it. The UAZs are stored in
+ESRFs 'shape file' format and incorporated directly into the What if? program.
+    The only GIS layer that is absolutely essential for using What if? is the existing
+land uses. A variety of additional layers can be added, depending on the available GIS
+data, the user's analysis and policy needs, and the requirements of any secondary
+applications that will utilize the What if? outputs. In most cases it is desirable to
+have at least three natural layers for the suitability analysis, two or three land-use
+control and infrastructure layers, and some basic boundary display layers.
+Setup program
+The What if? Setup program creates the system files that customize the software for a
+particular collection of GIS (and non-GIS) data. As shown in figure 11, the main Setup
+form contains a series of options that are used to define the land-use categories,
+suitability factors, and factor types that will be used in the analysis and the labels
+and the other information that appears on the suitability, growth, and allocation
+scenario assumption forms.
+The What if collaborative planning support system                                                                  40S
+
+
+
+
+    The user can enter the required information by clicking on one of the buttons
+displayed along the left-hand side of the main Setup form, For example, clicking on
+the Define Factors button displays the form shown in figure 12. This form specifies
+the labels for the suitability factors that will be used in a particular analysis, as
+determined by the CHS data that are available for the study area. Similar forms
+define the land uses in the study and the labels that appear on the suitability, growth,
+and allocation forms. After entering all of the required data, the user can select the
+'Create System Files'option at the bottom of the form to create a set of customized
+scenario assumption forms containing the labels defined by the user. These forms
+can then be used to create the suitability, growth, and allocation scenarios as
+described previously.
+
+
+ilpg                                                          PolHilf                               "HO!!!!
+liii        ——*«—                                             1
+                                                                  COHJIWI     Nam**
+
+                                                                  Factor t    jsiopos
+       Ctanatot Information                           1
+1V        EJ Define Suftafa% Land Use Categories      1           Factor 2    [Soils
+          13 Define Ewstfng Land Us© Categories         j
+          GE3 0efine Allocation Land U w Categories    1
+                                                                  Factor 3    [lOOyr Flood plain
+          ( 3 Define Rawed Land Use Categories        1
+
+1: V      d    Map ELUslo ALUs                        1           Factor 4    [Flooding Potential
+          (3   MapALUstoSLUs                          1
+          ©    MapALUstoELUs                          j           Factor 5    [Endangered Species
+          Q    MapALUstoPLUs                          I
+
+          (3   Define Projection Periods               j          Factor 6    [Stream Buffer
+;i V
+       Suitability Information                        1       >   Factor 7
+         ( 3 Define Factors                           j                       I                     • •• -   ' j
+         ( 3 Define Factor Typos                      1
+                                                                  Factor 8
+       Growth Information                             ||
+                                                                              I
+  V      ( 3 Define Sub-Areas                          |          Factor 9
+                                                                              I
+          (3   Define Residential Information         1
+                                                                  Factor 10
+          (3
+          (3
+               Define Commercial Information
+               Define Industrial Information
+                                                      1
+                                                      1
+                                                                              I. .
+       Allocation Information                         J]                                Cancel       OK
+          ( 3 Define Infrastructure Types              [
+          ( 3 Define Infrastructure Controls           |
+          Q Define Land Use Controls                    |
+                                                              Figure 12. Define Factors form.
+        Completed                                     j
+         ( 3 Create System Files                          |
+
+
+Figure 11. What if? Setup form.
+
+Manager program
+The What if? Manager program can be used to revise or delete a set of scenario
+assumption forms once they have been created. It allows the user to modify the labels
+that appear on the scenario assumptions forms (to, for instance, correct any spelling
+errors), modify the names used to identify different land-use categories, or change
+system-defined variables such as the household and employment projections. These
+corrections can be made after the forms have been used to create a set of scenario
+assumptions.
+
+Evaluation
+What if? has many obvious strengths, many of which are equally obvious weaknesses.
+Its biggest advantage is that it is a fully operational model which can be adapted to the
+particular data sets and policy concerns in any area which satisfies the rather modest
+406                                                                       R E Klosterman
+
+
+
+
+data requirements of the model. These requirements include: (1) a required GIS layer
+containing current land uses; (2) optional layers describing natural features, adminis-
+trative boundaries, and land-use and infrastructure plans; and (3) projected, or
+assumed, values for the region's projected population and employment, household
+and employment densities, and the like. These data requirements are particularly
+modest in comparison with those of other operational urban models such as
+DRAM/EMPAL (Putman, 1983; 1992), MEPLAN (Echenique et al, 1990), the CUF
+models (Landis, 1994; Landis and Zhang, 1998), and UrbanSim (Waddell, 1998).
+     A second obvious advantage is the simple and intuitive modeling structure of
+What if? The general concepts of balancing the supply of, and demand for, land by
+determining the relative suitability of different locations, projecting the demand for
+land, and allocating the projected demands to the most suitable locations is easily
+understood by elected officials and the public. The detailed computations required to
+carry out these three stages are of course too complex for most users to understand
+fully. However, the underlying structure of the model is much easier to understand than
+the other, much more complex urban models listed above.
+     What if? shares many of the advantages (and disadvantages) of the CUF model on
+which it is based (Landis, 1994, pages 400-402, 418-419; 1995, page 444). Like the
+CUF model—and unlike other operational urban models—What if? is GIS based.
+This allows the model to take advantage of the diversity of spatially referenced data
+which are available in a particular study area and grow as more data become available.
+The use of spatially disaggregated GIS data also allows the model to allocate land-use
+demands to particular sites and not to spatial aggregates such as census tracts or traffic
+analysis zones. Again, like the CUF model, What if? is policy oriented and simulates
+alternative development patterns as determined by local land development policies.
+Unlike traditional urban models, the critical variables which determine different model
+outcomes are local land development policies, not abstract 'secondhand' effects of these
+policies such as changes in travel times or accessibility.
+     The simple structure and minimal data requirements of What if? are associated
+directly with its most glaring weakness, its lack of a firm theoretical basis. The model
+does not include measures of spatial interaction, that is, accessibility to employment,
+shopping, and recreational opportunities which are widely recognized to be an impor-
+tant—if not the most important—determinant of long-term urban growth patterns and
+the key component of most urban models. Unlike the acknowledged 'state of the art' in
+urban models (Wegener, 1995, page 22) it does not rely on random utility or discrete
+choice theory to explain and predict the behavior of urban actors such as households,
+investors, and firms. It also does not represent the interlinked markets for land,
+housing, nonresidential uses, labor, and infrastructure, or provide any procedures for
+'market clearing' and price adjustment in the face of changes in demand and/or supply.
+In addition What if? also does not explicitly model the behavior of actors such as
+households, businesses, and developers in the same way as 'object-oriented' models such
+as UrbanSim (Waddell, 1998).
+     Instead of incorporating any of these theoretically appealing, but complex, concepts,
+What if? has been designed to provide a plausible, intuitive, and adaptable fully
+operational model of the urban development process. The behaviors of urban markets
+and actors are represented implicitly in the assumption that land uses will be allocated
+to their most suitable location, as determined by a set of user-specified suitability
+assumptions. Similarly, the impact of alternative growth management policies is incor-
+porated into the model as an assumption that development will occur only in places
+where it is permitted under a zoning ordinance or anticipated in a land-use plan.
+Neither assumption begins to capture the complexities of actual urban development
+The What i f collaborative planning support system                                             40?
+
+
+
+
+processes. However, they dn provide a readily understandable and plausible basis for
+considering the implications of alternative public policies. The overarching goal, after
+all, is not projecting the future exactly but providing a meaningful foundation for
+community dialogue and debate.
+     The ideal PSS will provide an "intelligent digital toolbox" that helps users select the
+most appropriate software tools from a range of alternative analysis and forecasting
+models, applies these tools to data which have been accessed locally or via the Internet,
+and allows users to view quickly the implications o( alternative policy choices
+in intuitive graphic, map, and interactive video and/or sound displays (Klosterman,
+1997, page 52). What if? is only one of a number of systems that are being developed
+to help achieve this ideal (Klosterman, 1999). However, it is unique in providing a
+readily available package that is easy to use and understand, fully customizable to a
+community's existing CHS data set, and incorporates the suitability, growth, and alloca-
+tion portions of the planning process. As a result, it may provide a useful component
+of a more comprehensive PSS which considers a wide range of land-use-related issues
+such as the fiscal, transportation, and environmental impacts of" alternative growth
+scenarios.
+Acknowledgements. The What i f PSS was designed jointly by a number o\' people including,
+most importantly, Hric Swanson, formerly an employee of Data Chromatics Inc., and llri Avin
+and Jane Dembner of LDR International. The original programming was done by Hric Swanson;
+the programming is currently being done by Kevin Butler. The author also acknowledges the
+comments of two anonymous reviewers which stimulated substantial improvements to the earlier
+version oi' this paper.
+References
+Couclelis II, 1991, "Geographically informed planning: requirements for planning-relevant GIS"
+    Papers in Regional Science 70 9 20
+DavidoffP, 1965, "Advocacy and pluralism in pkinrimg" Journal of the American Institute of Planners
+    32 331 337
+Echenique M H, Flowerdew A D, Hunt J D, MayoT R, Skidmore I J, Simmonds D C, 1990,
+    "The MEPLAN models oi' Bilbao, Leeds, and Dortmund" Transport Reviews 10 309 322
+Finaly P N, Marples C, 1992, "Strategic group decision support systems: a guide for the unwary"
+    Long Range Planning 25 98 107
+Godschalk D R, Parham D, Porter D, Potapchuk W R, Schulkraft S, 1994 Pulling Together:
+    A Land Use and Development Consensus Manual The Urban Institute, 2100 M Street NW,
+    Washington, DC 20037
+Harris B, 1989,"Beyond geographic information systems: computers and the planning professional"
+    Journal of the American Planning Association 55 85 92
+Harris B, Batty M, 1993, "Locational models, geographical information, and planning support
+    systems" Journal of Planning Education and Research 12 184 198
+Healey P, 1992, "Planning through debate: the communicative turn in planning theory" Town
+    Planning Review 63 143 162
+Holmberg S C, 1994, "Geoinformatics for urban and regional planning" Environment and
+    Planning B: Planning and Design 21 5 - 19
+Hopkins L D, 1977, "Methods of land suitability analysis" Journal of the American Institute of
+    Planners 43 386-400
+Innes J E, 1992, "Group processes and the social construction of growth management: Florida,
+    Vermont and New Jersey" Journal of the American Planning Association 58 440-453
+Innes J E, 1996, "Planning through consensus building: a new view of the comprehensive planning
+    ideal" Journal of the American Planning Association 62 460-472
+Klosterman R E, 1987, "Politics of computer-aided planning" Town Planning Review 58 441 -452
+Klosterman R E, 1997, "Planning support systems: a new perspective on computer-aided planning"
+    Journal of Planning Education and Research 17 45 - 54
+Klosterman R E (Ed.), 1999 Theme issue: New perspectives on planning support systems. Environment
+    and Planning B: Planning and Design 26 317-408
+Landis J D, 1994, "The California Urban Futures Model: a new generation of metropolitan
+    simulation models" Environment and Planning B: Planning and Design 21 399 - 420
+408                                                                            R E Klosterman
+
+
+
+
+Landis J D, 1995, "Imagining land use futures: applying the California Urban Futures Model"
+    Journal of the American Planning Association 61438-457
+Landis J, Zhang M, 1998, "The second generation of the California Urban Futures Model. Part 1:
+    Model logic and theory" Environment and Planning B: Planning and Design 25 657 - 666
+Lowry K, Adler P, Milner N, 1997, "Participating the public: group processes, politics, and the
+    public" Journal of Planning Education and Research 16 177 -187
+McHarg 1,1969 Design with Nature (Natural History Press, Garden City, NJ)
+Putman S H, 1983 Integrated Urban Models: Analysis of Transportation and Land Use (Pion, London)
+Putman S H, 1992 Integrated Urban Models 2: New Research and Applications of Optimization
+    and Dynamics (Pion, London)
+San Diego Association of Governments, 1994, "Technical Description. Series 8 regional growth
+    forecasts: subregional allocation", San Diego Association of Governments, 401 B Street,
+    Suite 800, San Diego, CA 92101
+Waddell P, 1998, "Simulating the effects of metropolitan growth management strategies",
+   Association of the Collegiate Schools of Planning, Pasadena, CA, November
+Wegener M, 1995, "Current and future land use models", in Travel Model Improvement Program
+   Land Use Modeling Conference Proceedings (US Department of Transportation, Washington,
+    DC) pp 15-40
+
+
+
+
+p                                             © 1999 a Pion publication printed in Great Britain
+

@@ -1,0 +1,766 @@
+[PDF Metadata]
+Source PDF: journal/A13-li-sun-2020-industrial-composition-and-agglomeration-shadow-evidence-from-chinas-large-urban-systems-10.1155-2020-5717803.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Industrial Composition and Agglomeration Shadow: Evidence from China’s Large Urban Systems
+Subject:         Complexity 2020.2020:5717803
+Creator:         Aspose Pty Ltd.
+Producer:        Aspose.PDF for .NET 23.2.0; modified using iText 4.2.0 by 1T3XT
+CreationDate:    Tue Jun 30 10:43:38 2020 WIB
+ModDate:         Sun Aug 30 22:01:42 2026 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           11
+Encrypted:       no
+Page size:       600.038 x 800.05 pts
+Page rot:        0
+File size:       1759272 bytes
+Optimized:       no
+PDF version:     1.4
+[Extracted Text]
+Hindawi
+Complexity
+Volume 2020, Article ID 5717803, 11 pages
+https://doi.org/10.1155/2020/5717803
+
+
+
+
+Research Article
+Industrial Composition and Agglomeration Shadow:
+Evidence from China’s Large Urban Systems
+
+          Jiaming Li           and Dongqi Sun
+          Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing 100101, China
+
+          Correspondence should be addressed to Jiaming Li; lijm@igsnrr.ac.cn
+
+          Received 14 April 2020; Revised 12 May 2020; Accepted 18 May 2020; Published 30 June 2020
+
+          Guest Editor: Wen-Ze Yue
+
+          Copyright © 2020 Jiaming Li and Dongqi Sun. .is is an open access article distributed under the Creative Commons Attribution
+          License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is
+          properly cited.
+          New economic geography (NEG) raises the question why the “agglomeration shadow” eﬀect is signiﬁcant in some urban regions
+          but not others. .is study attempts to answer this question in the context of China by examining the impact of industrial
+          composition of core cities on regional urban systems. Based on the model of urban location from NEG, this study attempts to
+          examine the population growth of six core cities and their urban systems in China. We ﬁnd services exert a signiﬁcantly negative
+          eﬀect on market potential, while that of manufacturing is positive. .e results are robust in diﬀerent spatial scales and time spans.
+          .is suggests that strong centralizing and agglomerative eﬀects of higher order service sector are more likely to cast an ag-
+          glomeration shadow on noncore cities in China’s regional urban systems. .e diﬀerences in industrial composition can explain
+          why an urban region centered on a large core city like Beijing is more likely to cast an agglomeration shadow on its surrounding
+          cities compared to the Shanghai-centered urban region. .e ﬁndings hold important implications for uneven development of
+          regional urban systems and construction of metropolitan areas in China.
+
+
+
+
+1. Introduction                                                          “poverty belt” of areas around the city. .is contrasts with
+                                                                         the experience of cities that are near to Shanghai in the
+China is the world’s most populous country, and the nation’s             Yangtze River Delta region and Guangzhou in the Pearl
+postreform rapid urbanization has been paralleled by the                 River Delta region. Second- and third-tier cities have thrived
+expansion of a large number of cities. .e United Nations                 as a result of their proximity to the latter core cities. For
+report that there were 392 cities with populations of 300,000            example, Shanghai’s population is expected to be 30 million
+inhabitants or more in China in 2014 (https://esa.un.org).               in 2020, but the city has managed to spread its growth
+Corresponding ﬁgures for the United States and India are                 around surrounding cities and maintain a reasonable
+signiﬁcantly lower—about 134 and 166, respectively. .e                   population density [2]. Beijing’s urban system for example
+high number of cities in China has also resulted in the                  consists of 38 cities that are mid (1–5 million) and small-
+development of a number of diversiﬁed regional urban                     sized (<1 million) compared to Shanghai which is sur-
+systems—for instance, the Beijing-Tianjin-Hebei region, the              rounded by 65 cities of similar sizes.
+Yangtze River Delta region, and the Pearl River Delta region,                Under new economic geography (NEG), certain large or
+which constitute the most rapidly growing regions in China.              core cities will dominate the urban landscape. Such domi-
+    Of these three, the Beijing-Tianjin-Hebei region’s urban             nance stiﬂes the growth of smaller cities around core cities
+system diﬀers signiﬁcantly from its counterparts with re-                because the latter casts an “agglomeration shadow” [3].
+spect to its development. Beijing has recently failed to boost           Beijing’s poverty belt for instance captures such a shadow
+the development of its surrounding smaller cities. Heavy                 where growth of cities around the capital is impeded because
+concentration of resources in Beijing such as communica-                 of competition eﬀects. .e microfoundation of this phe-
+tion infrastructure, schools, and hospitals [1] has produced a           nomenon is provided by Fujita and Krugman [4] using a
+                                                                                                                                  8503, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/5717803 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+2                                                                                                                  Complexity
+
+general spatial equilibrium model. But evidence of the            distance to the core increases, potential curve in the hin-
+presence of agglomeration shadow has also been mixed. For         terland ﬁrst declines. When agglomeration eﬀects are
+instance, Combes and Overman [5] plotted the spatial              stronger, market potential rises as dispersion forces domi-
+pattern of proﬁt per plant in France and suggested that proﬁt     nate. Later in this process, potential curve again shifts,
+decreased gradually with distance from Paris. .is implies         marking a period of decline for more remote areas. .e
+that the agglomeration shadow around Paris may be neg-            result shows an “S”-shaped relationship between distance to
+ligible. .is paper seeks to examine the nature of urban           the core and market potential in the periphery in a mon-
+regions in China. Speciﬁcally, we seek to examine the in-         ocentric urban system. An agglomeration shadow generally
+ﬂuence of industrial composition on agglomeration shadow.         exists around places that are not far enough away from a core
+    .e rest of the article is structured as follows. .e next      city [13–16]. Being located closer to agglomeration cores
+section reviews relevant literature on spillover eﬀect and        may not always be good news for smaller cities.
+diﬀusion mode of industries. .is is followed by the de-                More importantly, Krugman [14] has developed a the-
+scription of data and the empirical model. .e penultimate         oretical framework to analyze urban growth and he believes
+section presents the results, and the ﬁnal section concludes      the development of a city in a site is aﬀected mainly by ﬁrst
+and discusses the ﬁndings.                                        nature and second nature. Based on this framework and
+                                                                  model, empirical studies on the development of the United
+2. Spillover, Industrial Diffusion, and the                       States’ urban system have found some evidence of ag-
+   Development of Urban System                                    glomeration shadows around large cities. For instance, Black
+                                                                  and Henderson [17] investigated the evolution of US urban
+.e notion of agglomeration shadow may be traced to                system between 1900 and 1990, based on the Krugman
+Alonso [6] who had observed that smaller cities display           model. Departing from the notion that having large cities
+characteristics of larger cities. Writing about Europe, he        nearby could enhance a city’s demand and growth potential,
+noted that urban studies need to consider not only large          they found that positive marginal market potential peters
+cities but also smaller ones surrounding the large city that      out from the large city, eroding the market of the non-
+make up the urban system. Smaller cities can beneﬁt from          dominant or smaller city at some point. Partridge et al. [3]
+proximity to a large city—they may host fewer functions and       also explored whether proximity to higher-tiered urban
+goods than they normally would by “borrowing” beneﬁts             centers aﬀected population growth in American counties
+from large cities (see [7]). Under such a circumstance, ag-       over the period 1990 to 2000. .eir results suggest that
+glomeration shadow is absent. However, Burger et al. [8]          although larger urban centers promoted the growth of cities
+found that in the case of consumption amenities in                with fewer than 250,000 persons, agglomeration shadows
+Northwest Europe, agglomeration forces may be so strong           existed around highest tier metropolitan areas. Using the
+that they impede the growth of amenities in smaller cities. In    predictions oﬀered by Fujita et al. [10] and US Census data
+eﬀect, their analysis resonates with other authors who argue      from 1900 to 1990, Dobkins and Ioannides [18] examined
+dominant cities may be hosts to a large number of goods and       the basic dynamics of spatial interactions among US cities in
+functions. .is adversely impacts the growth of medium and         terms of their populations. .eir results conﬁrmed the
+very small cities, creating an agglomeration shadow [3]. In       importance of distance to a higher-tier city for new cities.
+their conceptual study, Ikeda et al. [9] suggested that when      Such distances were not, however, identiﬁed as always being
+agglomeration forces are large, urban systems bifurcate into      signiﬁcant for existing cities.
+core and periphery—the periphery in this case potentially              Transportation cost, which has attracted some attention,
+capturing the presence of an agglomeration shadow. On the         appears to be a potential factor in inﬂuencing urban evo-
+other hand, when urban settlements are connected by in-           lution. Mori [19] simulated the process of US megalopolis
+dustrial belts and agglomeration force is small, then a           formation. .e results showed that a megalopolis develops
+megalopolis will form as illustrated by the American urban        from a number of dense small cities as transport costs of
+conurbation from Boston to Washington D.C.                        manufactures decreased relative to agriculture. Agglomer-
+     Under NEG, an agglomeration shadow is said to develop        ation shadows around core cities are too small to be found.
+over time as growth centers industrialize [10]. Prior to this,    Some authors argue that presence of an agglomeration
+agricultural production supplies cities with products. As         shadow depends on cities sizes: the larger the size is, the
+industrialization progresses, geographical forces favor the       more signiﬁcant will be the agglomeration shadow [20]. Still,
+self-reinforcing dominance of certain cities. Development of      it is unclear why some cities cast an agglomeration shadow
+these cities occurs at the expense of other cities in the         while such a shadow is small or absent in others. For in-
+hinterland; in turn, persistence of such a locational structure   stance, the populations of both Beijing and Shanghai are
+over time generates an agglomeration shadow. Krugman              quite similar at around 20 million in 2015 (the ﬁgures being
+used Harris’ [11] idea of market potential to develop his         20.4 and 23.7 million, respectively), but Shanghai does not
+model. In the model, economic development of a given              appear to generate an agglomeration shadow on its sur-
+location depends on its attractiveness for manufacturing,         rounding cities. Transportation cost and population size of
+which can be represented by an index of “market potential”        core cities may not be suﬃcient to explain why agglomer-
+derived from the underlying economic dynamics [12]. As            ation shadows vary among large urban systems.
+ﬁrms move away from core cities, the market potential of a             Indeed industrial sectors have gained some academic
+given industry shows a nonlinear change. Speciﬁcally, as          attention to the problem of agglomeration shadow. Fujita
+                                                                                                                                    8503, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/5717803 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Complexity                                                                                                                     3
+
+and Mori [21] proposed that inaccurate measurement of                  Spillover eﬀect may be smaller in the service sector from
+market potential and distance may be blamed for the lack of       hierarchical diﬀusion, and agglomeration shadow is possibly
+robust results in the study by Ioannides and Overman [20].        signiﬁcant. Indeed the development of producer services in
+However, Krugman [13] has pointed out that the share of           American global cities has strengthened their dominance
+manufacturing is important to core-periphery patterns,            and control of urban regional systems [32]. On the other
+implying that industrial composition of core cities could be a    hand, while transportation costs matter less in the goods
+factor explaining the variation in agglomeration shadows in       sector today [30], they are small rather than absent. Com-
+urban areas. .is is because industries that are more dif-         munication cost is also expected to be lower as linkages
+ferentiated with lower transport costs may result in a larger     between suppliers and customers are facilitated by tech-
+agglomeration shadow [21].                                        nology, allowing ﬁrms to design regional production net-
+     Whether an agglomeration shadow exists in an urban           works and manufacturing value chains [33]. Positive
+region may depend on the net impact of positive spillovers        spillover through spatial contagion and diﬀusion may be
+and backwash eﬀects of agglomeration cores in relation to         present in the manufacturing sector, casting a small or
+surrounding areas. When spillovers are greater than back-         absence of agglomeration shadow. Indeed in the case of
+wash eﬀects, the core is expected to boost surrounding areas.     China, the shift to services in cities, particularly producer
+When the reverse is true, an agglomeration shadow develops        services such as ﬁnance, has reconﬁgured previous
+around the core. Existing studies have paid much attention        manufacturing-dominated urban systems. Manufacturing is
+to test the spillover eﬀect of the core using transport cost.     increasingly dispersed, leaving the coordination and man-
+However, some research ﬁndings point towards signiﬁcant           agement of urban dominance to service agents. As Yeh and
+diﬀerences in the spillover eﬀects of manufacturing and           Yang [32] note, this deepens the urban hierarchy with a few
+those resulting from the service industries [22–24]. Black        dominant cities acting as command and control centers.
+and Henderson [17] argued that the development of modern          Interactions within the system are unidirectional and
+traded services increases urban concentration in the large        downward from core cities to secondary cities. Fewer
+cities of the United States. Combes [5] has shown that sharp      horizontal linkages between cities are established as a result.
+diﬀerences exist in the eﬀects of industrial and service          Tervo [34] for instance analyzed the evolution of Finland’s
+sectors on local employment growth.                               cities between 1880 and 2004 and suggested that whilst
+     Although the above studies examined the eﬀect of             population centers and their hinterlands grew hand-in-hand
+various economic sectors on spillovers of core cities, relating   in the prewar period, some cities began to cast an ag-
+industrial composition of core cities to the development of       glomeration shadow on their local hinterlands during the
+regional urban systems remains somewhat understudied,             postwar period of 1950 to 2004. He attributed the latter to
+particularly in developing countries like China. Much of the      deindustrialization and the development of service-domi-
+work on agglomeration shadow is concentrated in the               nated economies.
+United States (US) and Europe. In Asia, Japan has received             Overall, a number of authors point to sectorial changes
+some attention. For example, Mori et al. [25] found that          that need to better capture contemporary urban population
+agglomeration shadows vary among industries in Japan. In          movements [35, 36]. Chen et al. [37] also suggested that the
+his study of the manufacturing and service sectors, Li [26]       gap between theory and empirical reality may have increased
+showed that cities with developed producer services are           as a result.
+highly dispersed in China; this distribution contrasts
+markedly to the geographical concentration of cities with a       3. Study Background and Overview of the Core
+manufacturing focus. But Li is interested in the spatial             Cities of China’s Urban System
+concentration of ﬁrms than the impact of industrial com-
+position on agglomeration shadow.                                 3.1. Rapid Urbanization in China. Before the economic re-
+     .is paper hypothesizes that the industrial composition of    forms of the late 1970s, China witnessed a relatively slow rate
+core cities positively inﬂuences agglomeration shadow and         of urban growth characterized by a low urbanization level
+thereby regional urban systems. Information or socially in-       that decreased throughout the 1970s. In 1960, the urbani-
+tensive services requiring face-to-face interactions for ex-      zation level was 19.8%. .is declined to 17.4% in 1970 but
+ample in the ﬁnance or retail sector are expected to experience   rose dramatically to 50% in 2010 [38]. .e low level of
+higher communication costs [27–29]. In the present context,       urbanization is due to the hukou household-registration
+such costs are part of distance costs that are traditionally      system, which deterred migration from rural to urban areas.
+modeled as transportation costs. Glaeser and Kohlhase [30]        In addition, urban development policies tended to support
+argue that traditional transportation costs are less important    small cities in order to control the size of large cites [39].
+in the development of twenty-ﬁrst century cities. In exam-            Since 1978, and especially since the 1990s, Chinese cities
+ining if information risk shapes equity pricing for example,      have experienced a period of rapid development (Figure 1).
+Ghoul and his colleagues found strong robust evidence that        .e urbanization level increased by more than 1 percentage
+equity ﬁnancing is cheaper when ﬁrms are located within 100       point after the mid-1990s, meaning that each year more than
+kilometers of a major American ﬁnancial city due to lower         20 million people joined China’s urban population on av-
+communication costs. Zhao et al. [31] also found signiﬁcant       erage [40]. .is phenomenal growth in urban population has
+intercore city linkages compared to linkages between core and     led to rapid increases in both the number of cities and their
+noncore cities for producer services.                             size. In line with rapid urbanization, the urban system has
+                                                                                                                                                                                         8503, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/5717803 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+4                                                                                                                                                                           Complexity
+
+                      160000                                                                                                                                        60.00
+                      140000
+                                                                                                                                                                    50.00
+                      120000
+                                                                                                                                                                    40.00
+                      100000
+                       80000                                                                                                                                        30.00
+                       60000
+                                                                                                                                                                    20.00
+                       40000
+                                                                                                                                                                    10.00
+                       20000
+                           0                                                                                                                                        0.00
+                               1978   1980   1982   1984   1986   1988   1990   1992   1994   1996   1998   2000   2002   2004   2006   2008   2010   2012   2014
+
+                                         Total population (10,000 persons)
+                                         Urban population (10,000 persons)
+                                         Urbanization ratio (%)
+                        Figure 1: Changes in urban population and urbanization ratio in China, 1978–2015.
+
+
+gradually tended towards a “rank size” pattern in the                                                Shaoxing, and Ningbo. .e Yangtze River Delta centered on
+postreform era [41]. With the dismantling of migration                                               Shanghai captures one of the, if not the largest, urban
+barriers and changes in urban development policies, the                                              systems in the world.
+urban structure has changed dramatically as a result. Indeed
+one of the principle changes has been the rise of mega urban
+regions centered on a few core primary cities leading Chen                                           3.3. Data Collection and Sample. Data for this paper are from
+et al. [38] to ask if China is overurbanizing? Part of large-                                        the Department of Economic and Social Aﬀairs of the
+scale urban change is driven by local policy makers’ desire to                                       United Nations (UN DESA)..e selection of cities (or
+transform primary cities into world stature through control                                          “urban agglomerations,” as described by UN DESA) was
+of regional hinterlands and their smaller cities that favors                                         made on the basis of cities with 300,000 inhabitants or more
+expansion of the service sector, particularly producer ser-                                          in 2015—a criterion that describes about 392 cities in China.
+vices [32].                                                                                          .e data contain ﬁgures for the annual population of these
+                                                                                                     cities, collected every ﬁve years, from 1980 to 2015.
+                                                                                                     According to the estimates, populations of the 392 cities
+3.2. Spatial Pattern and Core Cities of the Urban System.                                            have increased rapidly since 1980 and especially since 1990
+Posteconomic reforms and urban development saw the                                                   (Table 1). .is trend coincides with China’s postreform
+clustering of second- and third-tier cities around a few                                             urbanization process as previously described. .e gap be-
+megacities, which is Beijing, Shanghai, Tianjin, Chongqing,                                          tween the mean and median size of cities implies that a few
+Guangzhou, and Shenzhen (Figure 2). .ese six megacities                                              cities have maintained very high populations (Table 2). .e
+had populations above 10 million in 2015 (Table 1).                                                  total population of the six largest cities was nearly 100
+Moreover, the ﬁrst four cities are municipalities under the                                          million in 2015, a ﬁgure which accounts for almost one ﬁfth
+jurisdiction of the central government and their adminis-                                            of the total population of the 392 cities.
+trative levels are equivalent to provinces. .e inﬂuence these
+four cities have is at national level. .e remaining two cities,                                      4. Methodology
+Guangzhou and Shenzhen, as China’s important foreign
+trade center and special economic zone, respectively, also                                           4.1. Market Potential. Under the new economic geography,
+have signiﬁcant impact in south China even whole China,                                              market potential is used to measure the accessibility of
+rather than just Guangdong province.                                                                 diﬀerent locations to markets. .e population and distance
+     .e above six cities are appropriate cases to examine the                                        are the most essential elements. Although there are other
+possibility of agglomeration shadows around large cities, not                                        factors (such as wage) that are considered [20], they are
+only because of their dominance in their respective regional                                         mainly focusing on the measurement of market potential.
+urban system but also because of the number of smaller cities                                        .is study is not a conceptual assessment of market po-
+that had grown or evolved around them. Although many                                                 tential, and thus using the two essential elements to rep-
+cities potentially impact other nearby cities, the eﬀects of                                         resent should be enough. Moreover, wage has changed
+these mega core cities can be signiﬁcant. .ese cities exert                                          dramatically in China since the reform. .e income levels
+inﬂuence over other cities around them on account of their                                           were not comparable.
+huge economies, high market demand, and backward-for-                                                     When calculating MP, certain adjustments have been
+ward linkages. Take Shanghai for example in Table 2. It is                                           made in this paper. Firstly, traditional market potential (MP)
+surrounded by more than 100 mid to smaller cities in its                                             takes into consideration of all cities in a given nation or
+urban region including Wuxi, Hangzhou, Suzhou, Yiwu,                                                 region. In this study, we focus on the impact of the six mega
+                                                                                                                                             8503, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/5717803 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Complexity                                                                                                                               5
+
+
+                                                                                                              N
+
+
+
+
+                         Population (10,000 persons)
+                            <50
+                            50–100
+                            100–150
+                            150–300
+                            300–500
+                            500–1000
+
+                            1000–2000
+                                         0             1,000 km
+                            ≥2000
+
+
+                                          Figure 2: .e spatial pattern of urban China in 2015.
+
+
+
+                             Table 1: 2015 summary statistics: cities with 300,000 inhabitants or more.
+Year                                                              1980          1990             2000                      2010       2015
+Mean size (thousands)                                             276           406              755                       1066       1248
+Median Size(thousands)                                            103           187              372                       523        607
+Number of cities with 0.5–1 million people                         29            35               79                       119        153
+Number of cities with 1–5 million people                           16            32               56                        68         86
+Number of cities with 5–10 million people                           2             2                5                        10         10
+Number of cities with above 10 million people                       0             0                2                        4           6
+
+
+
+                                Table 2: Number of cities around six core cities in diﬀerent periods.
+                                                       Beijing       Shanghai    Guangzhou        Tianjin         Chongqing       Shenzhen
+                                    1980–1990           138            161          44               5               38               0
+                                    1990–2000           129            156          50               3               45               3
+Number of surrounding cities
+                                    2000–2010           126            159          42               1               47              11
+                                    2010–2015           132            155          41               1               45              12
+
+
+core cities outlined earlier on small and medium-sized cities            in measuring market potential doubtlessly, if the population
+around them. As a result, the measure of MP took only the                of only the initial year of each of the time periods is taken
+most inﬂuential core cities into consideration.                          into account. MP is calculated city i in period t based on
+    Secondly, it is important to note that “population size”             Euclidean distance. .e Euclidean distance is not the most
+here refers to the average size of selected periods. Because of          accurate measurement for transportation cost, but it is ac-
+the relatively long time span studied and the remarkable                 ceptable in the study of macroscale. .e formula is as
+changes in the size of populations over these periods,                   follows:
+measuring market potential by population in the initial year                                                      j
+of every period may lead to an underestimation of market                                          j         POPt
+                                                                                               MPit �                 j,
+                                                                                                                                       (1)
+potential. In fact, between 1980 and 2015, the population of                                            Distancei
+each of China’s six core cities grew by an average of 11.9
+                                                                                   j
+million people. On average, this means that each of the                  where MPit is the market potential of city i in period t from
+                                                                                             j
+country’s core cities grew by more than 1.7 million people               the core city j; POPt is the average size of core city j in the
+                                                                                               j
+every 5 years. .e rapid increases could lead to inaccuracies             period t; and Distancei is the Euclidean distance, namely, the
+                                                                                                                                       8503, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/5717803 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+6                                                                                                                      Complexity
+
+straight-line distances of city centers between city i and core     urban systems. Besides, we also investigate short-term (5
+city j.                                                             years) and long-term (10 years) eﬀects of market potential
+                                                                    and industrial composition, respectively. Multidimensional
+                                                                    analysis and calculation largely compensate for the problem
+4.2. Regression Models. Based on the model of ﬁrst nature           of fewer variables and make the results more robust.
+and second nature [14], we focused on the impact of in-                 Although the above panel data model is expected to
+dustrial composition on city growth. .e initial year is 1980        control for factors that are unobserved but remain un-
+and market potential is conﬁned to the “leading force” of           changed over time, this paper focuses on manufacturing and
+core cities that is expected to inﬂuence growth of mid and          service rather than agriculture for the reason that China’s
+smaller cities in the urban system. China’s mid-sized cities        industrial weight is considerable but core cities are also
+can be quite large: the larger cities host between 5 and 10         encouraged to join the rank of world cities through culti-
+million people while the smaller ones host between 1 and 5          vation of the service, particularly producer service sector. It
+million people. Small cities are host to less than 1 million        should be pointed out that Storper and Scott [44] have
+people. .e eﬀects of industrial composition, we note, may           argued that human capital may be important in urban
+reveal themselves only slowly over time. As such, we in-            dynamics. However, China was also still heavily agricultural
+cluded two time periods—5-year blocks and 10-year                   in 1980, and human capital was not a signiﬁcant share of the
+blocks—in the model, in order to examine both the short-            labor force then. .e number of students entering the
+and long-term impact of the industrial compositions of core         university was 280,000, less than 0.03% of the population in
+cities. .e most recent 10-year block spanned only 5 years           1980. Moreover, the number of skilled workers is highly
+(that is, 2010–2015). .e ﬁnal regression model is con-              correlated to the size of population in Chinese cities.
+structed as follows:                                                .erefore, using population may still capture some human
+                                     j
+    ΔPOPit � β1 POP1980j + β1 MPit + β3 ICjt−1 + β4 IC2jt−1         capital eﬀect among cities in 1980.
+                       j
+              + β5 MPit × ICjt−1 + εit ,                            5. Empirical Results
+                                                             (2)
+                                                                    5.1. Overview. After China’s economic reforms, the pop-
+where ΔPOPit is the population growth of city i between             ulations of the six core cities being examined here remained
+time period t and t−1; POP1980i is the population of city i in      large even as their industrial composition changed dra-
+                j
+year 1980; MPit is the impact of core city j on city i; ICjt−1 is   matically. Shanghai is host to more than 23 million in-
+the industrial composition of core city j in time period t−1;       habitants and is second only in city size to Tokyo in Asia.
+and IC2jt is the square of ICjt−1 .Existing literature has          Beijing is also one of the largest cities in the world. In 2015,
+demonstrated that the impact of industrial composition is           the population of the smallest of China’s six core cities,
+nonlinear [42]. As such, we added a square term to the              Shenzhen (10.8 million), was nearly 3 million higher than
+formula. Industrial composition is measured by the shares of        that of the largest mid-sized noncore city—Wuhan (7.9
+industrial added value and service-related added value. To          million). However, the change in industrial composition is
+examine the impact of industrial composition on market              evident. On average, the share of added value attributed to
+                                          j
+potential, an interaction variable,MPit ∗ ICjt−1 , has been         the service sector increased from 28.1% in 1980 to 54.7% in
+included.                                                           2010. In four of the six core cities, the share exceeded by
+    Notably, the core city is the one that exerts the greatest      more than 50% and in Beijing; this ﬁgure reached 75.1%,
+market potential to cities located around rather than the           which is nearly 20% higher than that of Shanghai. By 2010,
+nearest one. In other words, the areas that core cities mainly      the manufacturing sector’s share exceeded the service
+impact are divided by inﬂuence rather than distance. .is            industry’s only in Tianjin and Chongqing, with shares that
+method has two advantages. On the one hand, for a region            were in fact close to 50%. A shift from manufacturing to a
+with core cities close to each other, the division by the           service-based urban economy occurred in most of the
+inﬂuence is more reasonable than merely considering the             country’s core cities.
+distance. On the other hand, market areas are changeable                While average distance between the closest of core cities
+over time which is also in line with the facts. Unlike the other    is 418.2 km, signiﬁcant diﬀerences exist between them in
+ﬁve cities, Shenzhen has not long been a core city in China.        terms of their proximity to other core cities (Table 3).
+So, in the early times of economic reform, it has little impact     Likewise, diﬀerences exist in the distance between noncore
+on surrounding cities. With the development, Shenzhen               mid and smaller cities and core cities. For instance, Foshan is
+began to impact more and more cities (Table 2). Moreover,           less than 50 km from its core city Guangzhou. Other cities, in
+six core cities have powerful inﬂuence and are located in           contrast, are signiﬁcantly more remote—for instance, Yin-
+north China, south China, east China, and west China,               ing, which is located in Xinjiang province, is more than
+respectively, so we take the whole China as the study area. In      1,000 km from its nearest core city Chongqing. In the case of
+spite of this, there should be a certain boundary for one           the latter, the impact of core cities is expected to be very
+urban system centered on one or two core cities. Bosker and         weak.
+Buringh [43] found the range of inﬂuence of cities was about            In this paper, the industrial sectors include mining as
+100 km in Europe. In this paper, we set 100 km, 300 km, and         well. But the presence of mining industry is also negligible in
+500 km, respectively, as boundaries to investigate China’s          the core cities. While the service sector share is highest in
+                                                                                                                                         8503, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/5717803 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Complexity                                                                                                                           7
+
+                                                Table 3: Descriptive statistics of cities.
+                                                      Share of       Share of
+              Population of     Population of                                    Population growth Population growth       Shortest
+                                                 industrial added service added
+              core cities in   noncore cities in                                    of core cities  of noncore cities     distance to
+                                                   value in core value in core
+                   2015              2015                                        between 1980 and between 1980 and        core cities
+                                                   cities in 2010 cities in 2010
+               (thousands)       (thousands)                                      2015 (thousands) 2015 (thousands)          (km)
+                                                         (%)            (%)
+Mean            15312.33           1029.23              38.37          54.74          11983.83           800.32             418.23
+Standard
+                 4941.09           1224.56            9.70             12.11             3401.71           963.00           379.45
+deviation
+Min             10749.00            308.00            19.58            36.35              7460.00          -116.00          18.24
+Max             23741.00           7906.00            47.82            75.11             17775.00          7298.00         2724.71
+
+
+Beijing, nearly half of that, at least in terms of employment, is      expansion of the service sector suppresses the eﬀect of core
+generated by the producer service sector. .is is also the case         cities’ market potential on population growth, while
+for Shenzhen where producer services account for nearly                manufacturing reinforces it. Moreover, the R-squared value
+45% of the service sector. Chongqing had the lowest pro-               increased signiﬁcantly under the random eﬀect model. It
+ducer service share at 17.8%. Although there is, to a certain          may indicate that initial population size matters in the
+degree, a substitution eﬀect between manufacturing and                 growth of surrounding cities.
+service, in order to obtain accurate and reliable results, their            When we compare the results of manufacturing, the
+respective impacts were measured separately. We also tested            similarity is that an “inverse U” relationship has also been
+the long-term impact of industrial composition by setting a            found between the share of the service sector in a core city
+time period of 10-year blocks. .e results of the 5-year and            and the growth of surrounding cities.
+10-year blocks may be cross-checked.                                        We also investigate the eﬀect of industrial composition
+                                                                       in three spatial scales: 100 km, 300 km, and 500 km. .e
+6. Short-Term Impact of the Manufacturing and                          results further conﬁrm the diﬀerent eﬀects of manufacturing
+   Service Sectors                                                     and service industries on market potential, the positive eﬀect
+                                                                       of manufacturing on market potential while the negative
+6.1. Manufacturing. .e regression results are reported in              eﬀect of service. It means the eﬀect of industrial composition
+Table 4. Importantly, when the interaction variable MP∗ICm             is stable in diﬀerent spatial scales. Moreover, we ﬁnd that the
+is added in model 3, MP becomes insigniﬁcant, while                    smaller the spatial scale is, the more signiﬁcant the eﬀect of
+MP ∗ ICm is positive and signiﬁcant at 1%. It indicates that           manufacturing and service is on market potential. However,
+the eﬀects of manufacturing share and market potential are             the “inverse U” relationships between the shares of both
+in the same direction. .e interaction variable MP∗ICm                  manufacturing and service sectors in core cities and the
+means the eﬀect of market potential exerted by                         growth of surrounding cities are not stable, especially in
+manufacturing sector is controlled, so MP is the part of               small spatial scales. For manufacturing, there is still no
+market potential of service and agriculture. Due to very few           signiﬁcant “inverse U” relationship, and for service, the
+share of agriculture in core cities, the result shows that             “inverse U” relationship is also not stable enough, even
+service has insigniﬁcant and even negative eﬀect on market             within 300 km away from core cities (Tables 6 and 7).
+potential. Moreover, the higher the manufacturing share, the
+stronger the relationship. In other words, manufacturing
+strengthens the positive eﬀect of core cities’ market potential        6.3. Long-Term Eﬀects. Long-term eﬀects of industrial
+on population growth of surrounding cities, and hence                  composition covering 10-year time periods are reported in
+agglomeration shadow is likely to be absent.                           Table 8. When interacted with industrial composition, it is
+     Table 4 also shows that manufacturing share (ICm) is              positive and signiﬁcant for manufacturing under the ran-
+negative and signiﬁcant in model 1, and hence increased                dom eﬀect model but negative and signiﬁcant for service for
+manufacturing share results in a fall in population growth of          all three models. .is again shows that higher manufacturing
+cities in the urban system. When the square term of this               share strengthens the relationship between market potential
+variable is introduced to the model, the coeﬃcients of the             and growth of surrounding cities’ population, while the
+ﬁrst-order terms turn positive, while the second-order item            opposite is true for service share. Moreover, for random
+coeﬃcients are negative for both ﬁxed and random eﬀects.               eﬀect, the coeﬃcient estimates are larger in the models of 10-
+.e two models may point to a signiﬁcant “inverse U” re-                year periods than that in the model of 5-year periods for
+lationship between the share of manufacturing in core cities           MP∗IC. .e results show that the impact of industrial
+and growth of surrounding cities rather than a linear trend.           composition on market potential does not disappear but
+                                                                       even possibly strengthens over time. Nonetheless, the results
+6.2. Service. Table 5 presents the results for service share.          point to the diﬀerent eﬀects of industrial composition on
+Unlike manufacturing, the coeﬃcient for MP ∗ ICs is neg-               growth of urban population around core cities by market
+ative, while MP is positive. .e result conﬁrms the ﬁnding in           potential and their potential to explain the presence or lack
+the analysis of manufacturing. .is would suggest that the              of presence of agglomeration shadows. Finally, the eﬀect of
+                                                                                                                                               8503, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/5717803 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+8                                                                                                                                Complexity
+
+                                            Table 4: Regression results of manufacturing shares, 5-year periods.
+                                                        FE                                                              RE
+                                 Model 1              Model 2              Model 3              Model 1              Model 2      Model 3
+                                                                                               0.2620∗∗∗            0.2634∗∗∗    0.2649∗∗∗
+Pop 1980
+                                                                                                (0.000)               (0.000)      (0.000)
+                                 0.8926∗∗∗            0.8540∗∗∗            −0.3714             0.9821∗∗∗             0.9510∗∗∗     0.1799
+MP
+                                  (0.000)              (0.000)             (0.146)              (0.000)               (0.000)      (0.423)
+                                −1.4962∗∗∗            3.6674∗∗∗             1.4829            −1.2569∗∗∗            4.2983∗∗∗    3.0682∗∗∗
+ICm
+                                  (0.000)              (0.000)             (0.121)              (0.000)               (0.000)      (0.001)
+                                                     −0.0545∗∗∗          −0.0370∗∗∗                                 −0.0586∗∗∗   −0.0502∗∗∗
+ICm2
+                                                       (0.000)             (0.000)                                    (0.000)      (0.000)
+                                                                          0.0441∗∗∗                                              0.0226∗∗∗
+MP ∗ ICm
+                                                                           (0.000)                                                 (0.000)
+R2                                 0.0674              0.0745               0.0657              0.3674                0.3783       0.3748
+Observations                        2702                2702                 2702                2702                  2702         2702
+∗
+    p < 0.1; ∗∗ p < 0.05; ∗∗∗ p < 0.1.
+
+
+
+
+                                                Table 5: Regression results of service share, 5-year periods.
+                                                       FE                                                                RE
+                                 Model 1             Model 2              Model 3              Model1               Model 2        Model 3
+                                                                                              0.2630∗∗∗             0.2651∗∗∗     0.2671∗∗∗
+Pop 1980
+                                                                                               (0.000)               (0.000)       (0.000)
+                                0.8835∗∗∗           0.7796∗∗∗             4.1945∗∗∗           0.9566∗∗∗            0.8759∗∗∗      2.3634∗∗∗
+MP
+                                 (0.000)              (0.000)              (0.000)             (0.000)               (0.000)       (0.000)
+                                1.2002∗∗∗           8.0895∗∗∗             5.9571∗∗∗           1.0465∗∗∗            8.2904∗∗∗      7.5749∗∗∗
+ICs
+                                 (0.000)              (0.000)              (0.000)             (0.000)               (0.000)       (0.000)
+                                                    −0.0745∗∗∗           −0.0467∗∗                                 −0.0786∗∗∗    −0.06618∗∗∗
+ICs2
+                                                      (0.000)              (0.000)                                   (0.000)       (0.000)
+                                                                         −0.0488∗∗∗                                              −0.0243∗∗∗
+MP ∗ ICs
+                                                                           (0.000)                                                 (0.000)
+R2                                0.0673              0.0805                0.0686             0.3690                0.3879         0.3848
+Observations                       2702                2702                  2702               2702                  2702           2702
+∗
+    p < 0.1; ∗∗ p < 0.05; ∗∗∗ p < 0.01.
+
+
+
+
+                      Table 6: Regression results of manufacturing share within 100 km, 300 km, and 500 km, 5-year periods.
+                                                         FE                                                              RE
+                                   100 km              300 km               500 km               100 km              300 km        500 km
+                                                                                               0.9300∗∗∗            0.4231∗∗∗     0.3699∗∗∗
+Pop 1980
+                                                                                                 (0.000)             (0.000)       (0.000)
+                                 −3.4262∗∗            −0.9661∗∗           −0.6391∗∗            −2.9882∗∗             −0.1319       −0.0274
+MP
+                                  (0.015)              (0.033)             (0.044)               (0.026)             (0.748)       (0.923)
+                                 −38.8664              −3.5145              0.3209             −34.0701               1.5354       2.6761∗
+ICm
+                                  (0.035)              (0.279)             (0.837)              (0.058)∗             (0.622)       (0.071)
+                                   0.2547              −0.0013            −0.0318∗∗              0.1947              −0.0442     −0.0524∗∗∗
+ICm2
+                                  (0.105)              (0.966)             (0.037)               (0.202)             (0.117)       (0.000)
+                                 0.1191∗∗∗            0.0587∗∗∗           0.0503∗∗∗            0.0967∗∗∗            0.0295∗∗∗     0.0270∗∗∗
+MP ∗ ICm
+                                  (0.002)              (0.000)             (0.000)               (0.005)             (0.007)       (0.000)
+R2                                 0.0460               0.0799              0.085                0.2878               0.4105        0.411
+Observations                         162                  814                1493                  162                  814          1493
+∗
+    p < 0.1; ∗∗ p < 0.05; ∗∗∗ p < 0.01.
+                                                                                                                                               8503, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/5717803 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Complexity                                                                                                                                9
+
+                           Table 7: Regression results of service share within 100 km, 300 km, and 500 km, 5-year periods.
+                                                      FE                                                          RE
+                                 100 km             300 km              500 km            100 km               300 km            500 km
+                                                                                         0.8500∗∗∗           0.4275∗∗∗          0.3730∗∗∗
+Pop 1980
+                                                                                           (0.001)             (0.000)            (0.000)
+                               7.1139∗∗∗           4.8447∗∗∗           4.3230∗∗∗         4.7826∗∗∗           2.6208∗∗∗          2.3863∗∗∗
+MP
+                                (0.000)              (0.000)            (0.000)            (0.003)             (0.000)            (0.000)
+                                −1.6988             3.9993∗            5.9405∗∗∗           9.8878             8.6014∗∗∗         8.6228∗∗∗
+ICm
+                                (0.892)              (0.102)            (0.000)            (0.402)             (0.000)            (0.000)
+                                 0.1239             −0.0135           −0.0422∗∗∗          −0.0103            −0.0689∗∗          −0.0732∗∗∗
+ICm2
+                                (0.431)              (0.644)             −0.005            (0.946)             (0.011)            (0.000)
+                               −01023∗∗∗           −0.0604∗∗∗         −0.0517∗∗∗         −0.0732∗∗∗          −0.0298∗∗∗         −0.0257∗∗∗
+MP ∗ ICm
+                                (0.001)              (0.000)            (0.000)            (0.009)             (0.001)            (0.000)
+R2                               0.0636               0.086              0.0898            0.2889               0.4233            0.4236
+Observations                      162                  814                1493               162                  814              1493
+∗
+    p < 0.1; ∗∗ p < 0.05; ∗∗∗ p < 0.01.
+
+
+
+                                    Table 8: Comparison between manufacturing and service shares, 10-year periods.
+                                             Manufacturing industry                                            Service
+                                  OLS                 FE                  RE                  OLS                FE                  RE
+                               0.47010∗∗∗                             0.4649∗∗∗           0.4733∗∗∗                              0.4697∗∗∗
+Pop 1980
+                                 (0.000)                                (0.000)             (0.000)                               (0.000)
+                                −0.6884              0.0984            −0.3029             2.7118∗∗∗          2.3016∗            3.4210∗∗∗
+MP
+                                 (0.168)             (0.853)            (0.507)             (0.000)            (0.072)            (0.000)
+                               14.7264∗∗∗          12.3713∗∗∗         11.7761∗∗∗          17.2413∗∗∗         15.5607∗∗∗         15.4540∗∗∗
+IC
+                                 (0.000)             (0.000)            (0.000)             (0.000)            (0.000)            (0.000)
+                               −0.1555∗∗∗          −0.1471∗∗∗         −0.1353∗∗∗          −0.1864∗∗∗         −0.1578∗∗∗         −0.1605∗∗∗
+IC2
+                                 (0.000)             (0.000)            (0.000)             (0.000)            (0.000)            (0.000)
+                                 0.0132             −0.0102           0.0317∗∗∗           −0.0283∗∗          −0.0344∗∗          −0.0439∗∗∗
+MP ∗ IC
+                                 (0.281)             (0.593)            (0.009)             (0.010)            (0.045)            (0.000)
+R2                               0.3591              0.0016             0.3559               0.3736            0.0486              0.3721
+Observations                      2702                2702               2702                 2702              2702                2702
+∗
+    p < 0.1; ∗∗ p < 0.05; ∗∗∗ p < 0.01.
+
+
+initial population is also stronger for both industries over 10              Likewise in China, rising consumption in the service sector
+years. It means that Gibrat’s law is rejected for China. .ese                and producer services like ﬁnance and accounting remains
+ﬁndings are consistent with some existing studies [45, 46].                  highly clustered in core cities. In addition, the interaction
+                                                                             variable MP × IC indicates that the eﬀect of manufacturing
+                                                                             share on market potential and population growth of sur-
+7. Discussion
+                                                                             rounding cities is positive while that of services is negative.
+China’s rapid industrialization since 1978 has seen important                    .e results could explain why Beijing has a greater
+transformation in the economic base of its cities. As the                    potential to cast an agglomeration shadow compared to the
+world’s largest factory, much of its rise in the past three                  urban systems in the Yangtze River Delta and Pearl River
+decades has rested on a vibrant manufacturing sector that                    Delta [47, 48]. Beijing has placed excessive focus on service-
+churns out textiles and apparel, electronics, and computers for              led development, and this has reduced the geographical
+the rest of the world. So, the results make intuitive sense:                 spillover eﬀects of the city compared to other core cities.
+China’s urban population growth has exploded as China                        Even by 2015, the share of manufacturing in Shanghai and
+emerged as the world’s manufacturing center. While attention                 Guangzhou is still more than 10 percentage points lower
+on the service sector has no doubt continued to fuel the                     than that in Beijing. .e results also support studies in
+growth of cities around core ones, the random eﬀect model                    developed countries. Studies have found that the role of
+result raises the question if such growth will persist with                  major US cities is insigniﬁcant, or at least not robust, in
+continued expansion. .ese results would seem to be con-                      relation to the growth of other cities [18, 20, 47]. With
+sistent with Burger et al.’s ﬁndings [8] which showed that the               deindustrialization in the late of twentieth century, the
+shift to consumer services in Northwest Europe’s consumer                    service sector has dominated in most major US cities fol-
+cities has limited positive spillover on surrounding cities.                 lowed by reduced spillover eﬀect.
+                                                                                                                                         8503, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/5717803 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+10                                                                                                                      Complexity
+
+
+8. Summary and Conclusions                                         for industry, leading force from core cities decreases with
+                                                                   distance after the peak. It is in line with the characteristic of
+.e empirical analysis in this paper tests the relationship         contagious diﬀusion.
+between industrial composition and population growth of
+cities around core cities. It provides some evidence that for
+core cities, manufacturing rather than service overall en-         Data Availability
+courages the growth of surrounding cities by providing             .e study employed population data of Chinese cities from
+spillover. However, importantly, industrial composition per        1950 to 2015 to investigate diﬀerence in growth among cities.
+se does not directly impact surrounding cities; it exerts the      .e population data used to support the ﬁndings of this
+eﬀect through market potential. .e reasons behind are              study have been deposited in the repository of World Ur-
+related to a myth in urban ﬁeld—why cities form and grow at        banization Prospects from United Nations, Department of
+varying rates. .e works of Paul Krugman [12, 13] added             Economic and Social Aﬀairs, Population Division (https://
+important spatial insights to this question. He has identiﬁed      www.un.org/en/development/desa/population/index.asp).
+two fundamental features—the ﬁrst and second natures. In
+brief, the ﬁrst nature features are those that are intrinsic to
+the site itself, such as favorable climates, while the second      Conflicts of Interest
+nature features of a location are those that are impacted by
+the spatial structure of the economic system. .e impact of         .e authors declare that they have no conﬂicts of interest.
+economic system implies the second nature depends on
+economic links between two cities. It is diﬀerent link models      Acknowledgments
+between manufacturing and service that contribute to
+various impacts of industrial composition on market po-            .is work was supported by .e Second Scientiﬁc Inves-
+tential. In other words, industrial composition in core cities     tigation of the Tibetan Plateau (Grant no. 2019QZKK0406)
+impacts the growth of surrounding cities via the second            and the National Natural Science Foundation of China
+nature.                                                            (Grant no. 41701128).
+     Speciﬁcally, for the development of manufacturing
+sectors in core cities, regional production networks are           References
+usually required. Due to transportation cost, this production
+networks generally develop around the core cities. It means         [1] K. Wem and E. Zhu, Report on Development of Beijing, Tianjin
+manufacturing development follows the rule of contagious                and Hebei Province, Springer, New York, NY, USA, 2015.
+diﬀusion. In this way, core cities can be seen to have boosted      [2] D. Zhu, “New urbanization: theory, challenges and research,”
+the cities around them by promoting production networks.                in Cities in the Twenty-First Century, O. M. Nel-lo, Ed.,
+However, for service sectors, the situation is completely               Routledge, London, UK, 2016.
+                                                                    [3] M. D. Partridge, D. S. Rickman, K. Ali, and M. R. Olfert, “Do
+diﬀerent. Time cost is more important for service sectors
+                                                                        New Economic Geography agglomeration shadows underlie
+than transportation cost. Small cities around top-tier cities           current population dynamics across the urban hierarchy?”
+do not have signiﬁcant advantages than those second-level               Papers in Regional Science, vol. 88, no. 2, pp. 445–466, 2009.
+cities far away from top-tier cities, in the view of time cost      [4] M. Fujita and P. Krugman, “When is the economy mono-
+either induced by business travels by aircraft or commu-                centric?: von .ünen and Chamberlin uniﬁed,” Regional
+nication by Internet. Importantly, second-level cities have             Science and Urban Economics, vol. 25, no. 4, pp. 505–528,
+bigger markets than small cities. So, service sectors tend to           1995.
+transfer from top cities to second-level cities rather than         [5] P.-P. Combes and H. G. Overman, “Chapter 64 the spatial
+small cities close to them. It means service development                distribution of economic activities in the European Union,”
+follows the rule of hierarchical diﬀusion. .e spatial spillover         Handbook of Regional and Urban Economics, vol. 4,
+eﬀects of service sectors are weak to those cities close to core        pp. 2845–2909, 2004.
+                                                                    [6] W. Alonso, “Urban zero population growth,” Daedalus,
+cities.
+                                                                        vol. 102, no. 4, pp. 191–206, 1973.
+     Even so, the shares of manufacturing and service express       [7] E. J. Meijers and M. J. Burger, “Stretching the concept of
+an inverse U relationship so that low and high shares are less          “borrowed size”” Urban Studies, vol. 54, no. 1, pp. 269–291,
+positive for the population growth of surrounding cities.               2017.
+Various coeﬃcients indicate that the peak is diﬀerent for           [8] M. Burger, E. Meijers, M. Hoogerbrugge, and J. &Tresserva,
+industry and service. Investigations from three spatial scales          “Borrowed size, agglomeration shadows and cultural ame-
+conﬁrm the diﬀerence of locations of the peaks between                  nities in North West Europe[J],” European Planning Studies,
+industry and service. .e peak for service is 100–300 km                 vol. 23, no. 6, pp. 1190–1109, 2015.
+away from core cities, while for industry, it is about 300 km       [9] K. Ikeda, K. Murota, T. Akamatsu, and Y. Takayama, “Ag-
+or more away from core cities. More importantly, together               glomeration patterns in a long narrow economy of a new
+                                                                        economic geography model: analogy to a racetrack economy,”
+with hierarchical diﬀusion, relatively smaller distance be-
+                                                                        International Journal of Economic 9eory, vol. 13, no. 1,
+tween the peak for service and core cities probably means               pp. 113–145, 2017.
+there is more than one peak in a large region. Actually, when      [10] M. Fujita, P. Krugman, and A. &Venables, 9e Spatial
+adding a cubic term in the model, the eﬀect is still signiﬁcant         Economy: Cities, Regions and International Trade, MIT Press,
+for service, while for industry, the eﬀect is insigniﬁcant. So,         Cambridge, MA, USA, 1999.
+                                                                                                                                                8503, 2020, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2020/5717803 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Complexity                                                                                                                                11
+
+[11] C. D. Harris, “.e, market as a factor in the localization of        [32] A. Yeh and F. Yang, “Introduction and overview,” in Producer
+     industry in the United States,” Annals of the Association of             Services in China: Economic and Urban Development, A. Yeh
+     American Geographers, vol. 44, no. 4, pp. 315–348, 1954.                 and F. Yang, Eds., ROutledge, London, UK, 2013.
+[12] P. Krugman, “On the number and location of cities,” Euro-           [33] A. M. Herrmann, J. L. Taks, and E. Moors, “Beyond regional
+     pean Economic Review, vol. 37, no. 2-3, pp. 293–298, 1993.               clusters: on the importance of geographical proximity for
+[13] P. Krugman, “Increasing returns and economic geography,”                 R&D collaborations in a global economy-the case of the
+     Journal of Political Economy, vol. 99, no. 3, pp. 483–499, 1991.         ﬂemish biotech sector,” Industry & Innovation, vol. 19, no. 6,
+[14] P. Krugman, “First nature, second nature, and metropolitan               pp. 499–516, 2012.
+     location,” Journal of Regional Science, vol. 33, no. 2,             [34] H. Tervo, “Cities, hinterlands and agglomeration shadows:
+     pp. 129–144, 1993.                                                       spatial developments in Finland during 1880-2004,” Explo-
+[15] M. Fujita and T. Mori, “Structural stability and evolution of            rations in Economic History, vol. 47, no. 4, pp. 476–486, 2010.
+     urban systems,” Regional Science and Urban Economics,               [35] J. Eeckhout, “Gibrat’s Law for (all) cities,” American Economic
+     vol. 27, no. 4-5, pp. 399–442, 1997.                                     Review, vol. 94, no. 5, pp. 1429–1451, 2004.
+[16] M. Fujita, P. Krugman, and T. Mori, “On the evolution of            [36] T. Tabuchi and J.-F. .isse, “Regional specialization, urban
+     hierarchical urban systems,” European Economic Review,                   hierarchy, and commuting costs,” International Economic
+     vol. 43, no. 2, pp. 209–251, 1999.                                       Review, vol. 47, no. 4, pp. 1295–1317, 2006.
+[17] D. Black and V. Henderson, “Urban evolution in the USA,”            [37] Z. Chen, M. Lu, and Z. Xu, “Agglomeration shadow: a non-
+     Journal of Economic Geography, vol. 3, no. 4, pp. 343–372,               linear core–periphery model of urban growth in China
+                                                                              1990–2006,” in Proceedings of the ADB Workshop on Green
+     2003.
+                                                                              Urbanization in Asia, Honolulu, Hawaii, 2001.
+[18] L. H. Dobkins and Y. M. Ioannides, “Spatial interactions
+                                                                         [38] M. Chen, W. Liu, and X. Tao, “Evolution and assessment on
+     among US cities: 1900–1990,” Regional Science and Urban
+                                                                              China’s urbanization 1960-2010: under-urbanization or over-
+     Economics, vol. 31, pp. 701–731, 2001.
+                                                                              urbanization?” Habitat International, vol. 38, pp. 25–33, 2013.
+[19] T. Mori, “A modeling of megalopolis formation: the maturing
+                                                                         [39] G. C. S. Lin, “Small town development in socialist China: a
+     of city systems,” Journal of Urban Economics, vol. 42, no. 1,
+                                                                              functional analysis,” Geoforum, vol. 24, no. 3, pp. 327–338,
+     pp. 133–157, 1997.                                                       1993.
+[20] Y. M. Ioannides and H. G. Overman, “Spatial evolution of the        [40] National Bureau of Statistics of China, China Statistical
+     US urban system,” Journal of Economic Geography, vol. 4,                 Yearbook, National Bureau of Statistics of China, Beijing,
+     no. 2, pp. 131–156, 2004.                                                China, 2016.
+[21] M. Fujita and T. Mori, “Frontier of the New Economic Ge-            [41] M. Fragkias and K. C. Seto, “Evolving rank-size distributions
+     ography,” Institute of Developing Economies, Wakaba-Chiba,               of intra-metropolitan urban clusters in South China,” Com-
+     Japan, Discussion Paper 27, 2005.                                        puters, Environment and Urban Systems, vol. 33, no. 3,
+[22] S. Pinch and N. Henry, “Paul krugman’s geographical eco-                 pp. 189–199, 2009.
+     nomics, industrial clustering and the British motor sport           [42] K. Li and B. Lin, “.e nonlinear impacts of industrial
+     industry,” Regional Studies, vol. 33, no. 9, pp. 815–827, 1999.          structure on China’s energy intensity,” Energy, vol. 69,
+[23] U. Kaiser, Innovation, Employment, and Firm Performance in               pp. 258–265, 2014.
+     the German Service sector, Springer Science & Business Media,       [43] M. Bosker and E. Buringh, “City seeds: geography and the
+     Heidelberg, Germany, 2002.                                               origins of the European city system,” Journal of Urban Eco-
+[24] U. Kaiser, “Measuring knowledge spillovers in manufacturing              nomics, vol. 98, pp. 139–157, 2010.
+     and services: an empirical assessment of alternative ap-            [44] M. Storper and A. J. Scott, “Rethinking human capital, cre-
+     proaches,” Research Policy, vol. 31, no. 1, pp. 125–144, 2002.           ativity and urban growth,” Journal of Economic Geography,
+[25] T. Mori, K. Nishikimi, and T. E. Smith, “On the identiﬁcation            vol. 9, pp. 147–167, 2009.
+     of industrial agglomerations and their spatial coordination,”       [45] K. T. Soo, “Zipf, Gibrat and geography: evidence from China,
+     in Progress, Institute of Economic Research, Kyoto University,           India and Brazil,” Papers in Regional Science, vol. 93, no. 1,
+     Kyoto, Japan, 2005.                                                      pp. 159–181, 2014.
+[26] J. Li, T. Sun, and W. Zhang, “Spatial cluster characteristics and   [46] J. P. Chauvin, E. Glaeser, Y. Ma, and K. Tobio, “What is
+     modes of producer services in China,” Scientia Geographica               diﬀerent about urbanization in rich and poor countries? Cities
+     Sinica, vol. 34, pp. 385–393, 2014.                                      in Brazil, China, India and the United States,” Journal of
+[27] M. Storper and T. Venables, “Buzz: face-to-face contact and              Urban Economics, vol. 98, pp. 17–49, 2017.
+     the urban economy,” Journal of Economic Geography, vol. 4,          [47] D. Sun, J. Zhang, Y. Hu, L. Zhou, and Z. Yu, “.e formation of
+     no. 4, pp. 351–370, 2003.                                                metropolitan shadow from the perspective of industry spatial
+[28] E. Ghoul, O. Guedhami, Y. Ni, J. Pittman, and S. Saadi, “Does            contacts: a comparison between changjiang River Delta and
+     information asymmetry matter to equity pricing? Evidence                 beijing-tianjin-hebei metropolitan region,” Scientia Geo-
+     from ﬁmrs’ geographic location,” Contemporary Accounting                 graphica Sinica, vol. 47, pp. 1295–1317, 2013.
+     Research, vol. 30, no. 1, pp. 140–181, 2013.                        [48] C. Li, K. Wu, and X. Gao, “Manufacturing industry ag-
+[29] R. .omadsen, “Product positioning and competition: the                   glomeration and spatial clustering: evidence from Hebei
+     role of location in the fast food industry,” Marketing Science,          Province, China,” Environment, Development and Sustain-
+     vol. 26, no. 6, pp. 792–804, 2007.                                       ability, vol. 22, no. 4, pp. 2941–2965, 2019.
+[30] E. L. Glaeser and J. E. Kohlhase, “Cities, regions and the          [49] M. D. Partridge, “.e duelling models: NEG vs amenity
+                                                                              migration in explaining US engines of growth,” Papers in
+     decline of transport costs,” Fifty Years of Regional Science,
+                                                                              Regional Science, vol. 89, no. 3, pp. 513–536, 2010.
+     vol. 83, pp. 197–228, 2004.
+[31] M. Zhao, X. Liu, B. Derudder, Y. Zhong, and W. Shen,
+     “Mapping producer services networks in mainland Chinese
+     cities,” Urban Studies, vol. 52, no. 16, pp. 3018–3034, 2015.
+

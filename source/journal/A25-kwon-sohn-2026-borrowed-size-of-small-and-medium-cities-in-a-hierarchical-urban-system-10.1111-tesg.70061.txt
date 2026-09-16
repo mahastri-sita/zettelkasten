@@ -1,0 +1,1173 @@
+[PDF Metadata]
+Source PDF: journal/A25-kwon-sohn-2026-borrowed-size-of-small-and-medium-cities-in-a-hierarchical-urban-system-10.1111-tesg.70061.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Borrowed Size of Small and Medium Cities in a Hierarchical Urban System
+Subject:         Tijd voor Econ & Soc Geog 2026.117:305-325
+Creator:         Adobe InDesign 19.5 (Windows)
+Producer:        Adobe PDF Library 17.0; modified using iText 4.2.0 by 1T3XT
+CreationDate:    Thu Mar 12 20:32:26 2026 WIB
+ModDate:         Sun Aug 30 21:06:13 2026 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           21
+Encrypted:       no
+Page size:       484.724 x 697.323 pts
+Page rot:        0
+File size:       1135193 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+BORROWED SIZE OF SMALL AND MEDIUM
+CITIES IN A HIERARCHICAL URBAN SYSTEM
+KYUSANG KWON*                    & JUNGYUL SOHN**
+*
+ Department of Urban Engineering, College of Engineering, Chungbuk National University, Cheongju, Korea.
+**
+  Department of Geography and Institute for Korean Regional Studies, College of Social Sciences, Seoul
+National University, Seoul, Korea. E-­mail: jsohn@snu.ac.kr (Corresponding author)
+
+Received: April 2025; accepted November 2025
+
+ABSTRACT
+Small and medium-­sized cities can benefit from their proximity to large cities through borrowed
+size and spillover effects. First, geographical proximity may facilitate these effects through
+spatial diffusion. The closer small-­and medium-­sized cities are geographically to larger cities, the
+more likely they are to experience borrowed size effects. Second, hierarchical proximity—being
+closer in status within the urban system—can also lead to borrowed size benefits, regardless
+of their size. These effects can be achieved through contagious and hierarchical diffusion,
+respectively. Focusing on Korea’s strongly hierarchical urban system, the study analyses 152
+small-­and medium-­sized cities using 8 indices and regression models. The results reveal that both
+geographic closeness to the primate city and a higher hierarchical position in the national urban
+system are key drivers of borrowed size. This study contributes to the discussion on agglomeration
+economies and network effects in urban economic development.
+
+Key words: Small-­and medium-­sized cities; borrowed size; geographical proximity; hierarchical
+proximity; strong urban hierarchy; Korean urban system
+
+
+INTRODUCTION                                                         The positive effects that small cities can re-
+                                                                 ceive from large cities have been formalised
+Cities interact with each other in space. While                  using the concept of borrowed size effects.
+some city pairs are more equal in their inter-                   According to Alonso (1973, p. 200), the con-
+actions, others reveal more hierarchical rela-                   cept of borrowed size represents a phenom-
+tionships. In the latter case, the relationship is               enon that a ‘small city or metropolitan area
+mostly one-­directional and geographic proxim-                   exhibits some of the characteristics of a larger
+ity to large cities is usually a penalty rather than             one if it is near other population concentra-
+an advantage in terms of city growth. However,                   tions’. This can be considered the spillover
+an interesting observation has been reported in                  effect from large cities, through which small
+many studies, mainly on European cities, show-                   cities perform better than their predicted pop-
+ing that small cities can benefit from large ad-                 ulation sizes (Burger et al. 2015). Small cities
+jacent cities. One explanation is the weakened                   near large cities can benefit from agglomera-
+hierarchical structure of the European urban                     tion effects due to proximity, while avoiding
+system, which consists of historically indepen-                  agglomeration costs (Phelps et al. 2001; Veneri
+dent and relatively similar cities in size (Cardoso              & Burgalassi 2012).
+& Meijers 2016). If two cities are more similar                      The proximity of small cities to large cit-
+in size, their relations and, consequently, their                ies in generating borrowed size effects can
+interactions are more likely to be equal (i.e. pro-              be viewed in two ways. First, geography or
+viding mutual benefit to each other).                            geographical proximity has these effects. If
+
+Tijdschrift voor Economische en Sociale Geografie – 2026, DOI:10.1111/tesg.70061, Vol. 117, No. 2, pp. 305–325.
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and
+reproduction in any medium, provided the original work is properly cited.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+306                                                                         KYUSANG KWON & JUNGYUL SOHN
+
+it works in this way, the presence of the ef-                   of government intervention, can provide
+fects in small-­and medium-­sized cities can be                 new insights into the relationship between
+more prominent if they are geographically                       large and small cities. This will also provide
+closer to large cities. In this case, geograph-                 an opportunity for a more generalised un-
+ical proximity can be a source of borrowed                      derstanding of the relationship between
+size effects. Second, a city’s hierarchical po-                 small-­and medium-­sized cities and large cit-
+sition in the urban system or hierarchical                      ies, and consequently, the urban dynamics
+proximity can also generate these effects.                      between cities of different sizes (e.g. Meijers
+If geographical proximity reflects a short                      & Sandberg 2008; Cardoso & Meijers 2016).
+distance between small and large cities in a                       To pursue a more comprehensive and ac-
+geographical space, hierarchical proximity                      curate understanding of the relationships be-
+refers to a short distance between two types                    tween small and large cities in an urban system
+of cities in an urban hierarchical space. In                    with a strong hierarchy, this study explores the
+other words, cities with short distances from                   presence and dynamics of borrowed size effects
+large cities in the urban hierarchy are those                   in the Korean urban system. More specifically,
+with smaller gaps from large cities in terms of                 this study attempts to examine whether these
+rank or size, that is, larger small cities. If this             two proximity factors are influential in driving
+is the case, borrowed size effects may be more                  borrowed size effects, and if so, which of these
+prominent in cities closer to large ones in the                 two factors exerts a stronger influence on the
+urban hierarchy (rather than simply propor-                     urban system characterised by the dominance
+tionate to a city’s ranking or size in the urban                of a few large cities in Korea. To reveal the dy-
+system). In this case, hierarchical proximity                   namics of these effects, this study emphasises
+could be the source of borrowed size effects.                   two aspects: borrowed functions and perfor-
+These two types of proximity effects can also                   mance (Burger et al. 2014; Burger et al. 2015).
+be associated with traditional diffusion typol-                 For this study, eight indices related to func-
+ogies. The borrowed size effects in the former                  tions and performance were derived from
+setting can be achieved through contagious                      earlier studies and used as response variables
+diffusion, while those in the latter may be                     in the regression model for 152 small-­and
+achieved through hierarchical diffusion.                        medium-­sized cities in Korea. By examining
+    What happens when an urban system has                       the economic dynamics of small-­and medium-­
+a strong hierarchy? Do large cities have a                      sized cities in the context of Korea, this study
+stronger influence on smaller cities and are                    is expected to contribute to recent debates
+small cities expected to be more subordinate                    on the effects of agglomeration and network
+to large cities? Do small cities experience                     economy on urban economic development.
+stronger penalties than benefits, leading
+to a greater gap between cities of different
+sizes? More precisely, in a national urban                      AGGLOMERATION SHADOWS AND
+system characterised by strong hierarchical                     BORROWED SIZES ON THE NETWORK
+structures, it remains unresolved whether                       OF CITIES
+the principal source of borrowed size effects
+lies in large cities within the same functional                 The agglomeration shadow is a concept
+urban region or in the primate city (the cap-                   rooted in New Economic Geography, which
+ital). Likewise, from the perspective of hier-                  explains why cities near larger ones cannot
+archical proximity, no clear consensus has                      grow due to the competition effect (Dobkins
+been reached on whether hierarchical prox-                      & Ioannides 2001; Meijers et al. 2016).
+imity at the national level or at the regional                  Arthur (1990, p. 247) first noted this concept
+level is more significant. Considering that                     when explaining the Löschian spatial system
+most studies in this area focus on European                     of spreading and separation: ‘Locations with
+cities, where the polycentric urban system is                   large numbers of firms therefore cast an ‘ag-
+more common, examining East Asian urban                         glomeration shadow’ in which little or no set-
+systems, which are characterised by a stron-                    tlement takes place. This causes separation of
+ger hierarchical structure and a greater role                   the industry’.
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+BORROWED SIZE OF SMALL AND MEDIUM CITIES                                                                                307
+
+    This implies that agglomeration economies                   and knowledge spillovers expanded, but
+can cause spreading and separation, in addi-                    human mobility has also extended over longer
+tion to concentration. If such agglomeration                    distances, leading agglomeration economies
+power is strong, urban systems bifurcate into                   to evolve from being nodal to increasingly
+the core and periphery; the latter is a result                  zonal in nature (Phelps 2004). According to
+of the agglomeration shadow effect (Ikeda                       Solis et al. (2022), the effect of borrowed size
+et al. 2017; Li & Sun 2020). In such cases, the                 can be realised through Marshallian-­type shar-
+growth and development of the core city oc-                     ing, matching and learning from networks of
+curs through the sacrifice of the peripheral                    nearby cities. By combining the concepts of
+city in the hinterland. From the perspective of                 borrowed size and agglomeration economies
+a peripheral city, the agglomeration shadow                     in a more explicit manner, especially within
+effect occurs if it has fewer functions than ex-                the metropolitan area of a one-­hour travel dis-
+pected based on the city’s size. This effect is                 tance, Polese and Shearmur (2006) call the ef-
+typically associated with the negative effects of               fect borrowed agglomeration economies.
+network connections between cities (Meijers                         Some scholars believe that borrowed size is
+et al. 2016). As Volgmann and Rusche (2020)                     not a concept that actually occurs. Hans and
+note, empirical evidence of agglomeration                       Koster (2018) suggest that borrowed size is
+shadows is observed in many places in Western                   simply an empirical issue resulting from the
+Europe, including Northwest Europe (Burger                      mismatch between administrative spatial units
+et al. 2015), the Netherlands and Germany                       and functional areas. Anselin et al. (2000) note
+(Meijers 2008). East Asian countries, which                     that urbanisation economies can reach beyond
+have a stronger hierarchy in the urban system,                  the geographical boundary of the administra-
+also experience this effect (Yang et al. 2022).                 tive spatial units. However, considering that a
+    The borrowed size effect is the opposite                    city’s economic policies are usually created at
+of the agglomeration shadow effect. This ex-                    the level of administrative spatial units, the re-
+plains why cities near larger cities can grow                   lationships between nearby cities still need to
+due to the synergy effect. While the agglom-                    be treated with importance. Furthermore, it re-
+eration shadow reflects spatial competition ef-                 mains unclear why some pairs of nearby admin-
+fects, borrowed size is related to the effect of                istrative spatial units have relationships based
+the network economy between cities (Burger                      on borrowed size, whereas others have relation-
+et al. 2015). The concept of borrowed size was                  ships based on agglomeration shadows.
+first introduced by Alonso (1973, p. 200): ‘the                     Subsequently, Meijers and Burger (2017)
+concept of a system of cities has many facets,                  extended the concept of borrowed size by argu-
+but one of particular interest for our topic is                 ing that it is not merely a matter of smaller cit-
+the concept of borrowed size, whereby a small                   ies benefiting from larger ones or arising solely
+city or metropolitan area exhibits some of                      from geographical proximity. Rather, interac-
+the characteristics of a larger one if it is near               tions within networks of cities across multiple
+other population concentrations’. Small-­and                    spatial scales may also constitute an important
+medium-­sized cities may be more advantageous                   source of borrowed size. In this view, whether
+if there is a borrowed size effect. They can                    a city exhibits an agglomeration shadow or a
+avoid the cost of agglomeration diseconomies                    borrowed size effect in its relationship with
+by maintaining their small size while enjoying                  nearby larger cities depends on the nature of
+the benefits of agglomeration economies by                      the relationship—competition or collabora-
+staying near larger cities, which leads to a bal-               tion—which again depends on the existence of
+ance between agglomeration benefits and costs                   functional complementarity. If it is the latter,
+(Phelps et al. 2001; Meijers & Burger 2017).                    the network serves as a substitute for agglom-
+    Borrowed size suggested by Alonso (1973)                    eration benefits through interaction within the
+seems to imply agglomeration externality                        system of cities (Meijers & Burger 2017).
+fields as a variation of classical Marshallian                      The borrowed size concept can further be
+externalities (Phelps et al. 2001; Burger &                     decomposed into borrowed function and bor-
+Meijers 2016). With advances in transportation                  rowed performance; if both effects occur, it is
+and communication, not only have innovation                     called borrowed size (Meijers & Burger 2017;
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+                                            Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+308                                                                         KYUSANG KWON & JUNGYUL SOHN
+
+Volgmann & Rusche 2020; Zhao et al. 2025).                      the next tier of cities (Pedersen 1970). Second,
+With this extension, the borrowed size can                      the geographical spacing between hierar-
+be redefined more accurately. According to                      chically proximate cities reduces the level of
+Meijers and Burger (2017), borrowed size oc-                    spatial competition, allowing them to borrow
+curs when a city exhibits urban functions and/                  the size of surrounding areas more effectively.
+or performance as an output of interactions                     Third, political effects emerge in the process
+within the city network through relations with                  of national resource allocation. Even in coun-
+typically larger cities at various spatial scales,              tries with strong capital dominance, resources
+in which agglomeration benefits can be substi-                  cannot be concentrated exclusively in the capi-
+tuted. This highlights a distinctive process of                 tal. Smaller cities with limited population bases
+borrowed size in which the growth or specific                   still receive essential public services—such as
+functions of higher-­tier cities exert unilateral               education and healthcare—through policy
+positive effects on lower-­tier cities. We then                 interventions. This is referred to as ‘institu-
+argue that hierarchical proximity can play a                    tional borrowed size’ (Meijers & Burger 2017).
+crucial role in this process of generating ben-                 Typically, the resources are distributed to
+efits in a more effective way from network ex-                  upper-­tier cities rather than lower-­tier ones in
+ternalities for lower-­tier cities.                             order to pursue balanced national develop-
+    This hierarchical proximity can operate                     ment in a more effective way through selec-
+in three major ways within borrowed size ef-                    tion and concentration (Zhang et al. 2020; Shi
+fects. First is traditional hierarchical diffusion.             et al. 2025). This suggests that the hierarchical
+Cultural facilities, specialised services and                   proximity to the top-­tier city is important in
+knowledge or information located in large                       obtaining institutional borrowed size effects.
+cities spread to surrounding cities through hi-                 Figure 1 provides a visual illustration of geo-
+erarchical network connections such as trans-                   graphic proximity, hierarchical proximity and
+port, information flows and inter-­institutional                network connectivity in relation to the bor-
+cooperation, and they are transmitted first to                  rowed size effect.
+
+
+
+
+Figure 1. Possible spatial transformations of agglomeration externalities. Source: Adapted from Burger and Meijers (2016,
+p. 8), with ‘urban hierarchy externalities’ category added by the author.
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+BORROWED SIZE OF SMALL AND MEDIUM CITIES                                                                                309
+
+FACTORS INFLUENCING BORROWED                                    position in the city network or system of cities
+SIZE EFFECTS                                                    determines whether the relationship between
+                                                                cities is based on borrowed size or the agglom-
+Several factors can influence whether a pair of                 eration shadow effect.
+cities has a collaborative relationship, result-                    To some extent, city size is not the most im-
+ing in the occurrence of borrowed size effect.                  portant factor; other significant factors must
+This review focuses on factors related to geo-                  be considered. For example, Otsuka (2020)
+graphic aspects and urban system characteris-                   notes that borrowed size effects can only be
+tics. The first factor is distance (from the core               realised in horizontal and non-­      hierarchical
+city). Studies have found that improvements in                  relationships. Burger et al. (2015) point out
+accessibility lead to a stronger agglomeration                  that whether it relates to borrowed size or the
+shadow near a larger city, while the borrowed                   agglomeration shadow effect depends on the
+size effect can only be realised at a certain dis-              complementarity of the functions between cit-
+tance from the city (Wang et al. 2022b; Tian                    ies. Combining these two arguments suggests
+et al. 2023).                                                   that borrowed size effects are more likely to
+    Some studies have suggested that physical                   occur if a pair of cities has horizontal and/
+distance is no longer that important in deter-                  or non-­hierarchical relationships and if they
+mining the type of relationship a city has with                 are complementary to each other in urban
+other cities (de Vos et al. 2020; Otsuka 2020).                 functions.
+For example, Hesse (2016) points out that the                       Metropolitan geography or urban spatial
+determining factor is whether the city belongs                  structure (monocentricity vs. polycentricity)
+to a network of polycentric urban regions and                   is important for determining the effect of
+the inter-­ urban networks between polycen-                     borrowed size. Specifically, Volgmann and
+tric urban regions. A transportation network                    Rusche (2020) note that urban spatial struc-
+can facilitate the opportunity to receive the                   ture, along with city size, has a significant
+benefits derived from network membership                        influence on the positioning of a city among
+(Otsuka 2024, 2025; Zhao et al. 2025).                          the four dimensions of borrowed size types
+    City size is also a determining factor in this              (borrowed size, borrowed performance, bor-
+relationship. Some studies suggest that both                    rowed function and agglomeration shadow).
+larger and smaller cities experience borrowed                   Several studies have suggested that this ef-
+size effects, but the types of effects vary depend-             fect is associated with polycentric urban re-
+ing on city size. Larger cities generally borrow                gions. Polycentric metropolitan areas provide
+functions from smaller cities by expanding                      functional interconnections and proximity
+their markets to surrounding smaller cities,                    (Meijers & Burger 2017). Phelps et al. (2001)
+while smaller cities borrow performances from                   link this effect to financial and technological
+larger cities (Meijers & Burger 2017; Wang                      externalities. However, such a positive func-
+et al. 2022a).                                                  tional spillover effect across a city boundary
+    The size of the partner city also influences                can be facilitated only when the city cluster has
+the type of relationship. The basic idea of                     a large population size and good connectivity
+borrowed size, introduced by Alonso (1973),                     of urban infrastructure (Wang et al. 2022a).
+assumes that the benefit obtained by smaller                    Meijers and Van Der Wouw (2019) extend the
+cities is related to their relationships with                   spatial boundary of the borrowed size effect
+larger cities. However, more empirical findings                 from a metropolitan area to a larger spatial
+suggest that the borrowed size effect occurs                    scale city network under the condition that
+in the opposite direction. For example, Sohn                    accessibility or network connections to met-
+et al. (2022) argue that borrowed size effects                  ropolitan agglomeration externalities are
+occur between cities of similar size, whereas                   satisfied. Similarly, Burger et al. (2015) note
+larger cities only produce agglomeration                        that good accessibility enables the borrowed
+shadow effects on adjacent smaller cities. This                 size effect to extend to national or interna-
+means that larger cities perhaps are more likely                tional spatial scales, although the typical spa-
+to borrow size from smaller cities than vice                    tial scale of this effect is limited to functional
+versa. Burger et al. (2015) suggest that a city’s               urban regions with strong interactions among
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+                                            Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+310                                                                         KYUSANG KWON & JUNGYUL SOHN
+
+adjacent cities. It is interesting to note a study              RESEARCH METHODOLOGY
+showing that monocentricity is more effective
+in activating the borrowed size effect, con-
+trary to general intuition. Sun et al. (2019)                   Defining small-­and medium-­       sized cities in
+report that morphological monocentricity                        Korea –
+generates borrowed size effects through la-                     Figure 2 shows the Provinces in Korea, along
+bour mobility, whereas polycentric regions                      with all the cities included in the analysis. Seoul,
+do not borrow functions or performance,                         located in the northwestern part of Korea, is
+as anticipated. These findings suggest that                     the country’s dominant economic centre, as
+while the borrowed size effect is more often                    well as its political capital. Six Metropolitan
+observed in polycentric urban regions, it is                    Cities are shown on the map. They have a
+important to understand why it still occurs in                  population of over one million and serve as
+some monocentric urban regions.                                 the regional economic centres of the corre-
+    Although most studies on the forms and                      sponding provinces. In this study, these seven
+mechanisms of borrowed size have focused                        cities are classified as large cities, whereas the
+on European cities, recent research on Asian                    remaining 152 cities are considered small-­and
+countries, particularly China and Japan, has                    medium-­sized cities. The largest metropolitan
+expanded the empirical scope beyond the                         city in a province is considered the regional
+Eurocentric perspective and offered new in-                     centre. The location of this city is used later
+sights into the phenomenon. Similar to the                      when measuring the distance from small-­and
+European findings, studies in Asian contexts                    medium-­   sized cities to the regional centre.
+have provided empirical evidence that the bor-                  However, Incheon and Ulsan are not consid-
+rowed size effect tends to outweigh the agglom-                 ered regional centres because they are too
+eration shadow effect (Gong & Zhong 2021;                       close to the larger Metropolitan Cities, Seoul
+Wang et al. 2022a; Yang et al. 2024; Zhao                       and Busan, respectively. Furthermore, since
+et al. 2025), and have emphasised the impor-                    there are no metropolitan cities in Gangwon,
+tance of interregional transportation infra-                    Chungcheongbuk and Jeollabuk provinces,
+structure in enhancing productivity through                     the largest cities in the corresponding regions,
+borrowed size (Otsuka 2024, 2025). However,                     namely, Wonju, Cheongju and Jeonju, are clas-
+most of these studies have primarily focused on                 sified as regional centres. Finally, the analysis
+geographical proximity and connectivity among                   only considered contiguous Korea; therefore,
+cities within the same region, paying less atten-               two cities on Jeju Island were excluded. Sejong
+tion to the role of national and regional urban                 was excluded because of its status as a special
+hierarchies in shaping borrowed size effects. In                self-­governing city with a concentration of cen-
+national urban systems where strong hierarchi-                  tral government functions.
+cal structures prevail, it is still unclear whether
+borrowed size effects primarily originate from                  Data and variables –
+large cities within the same functional urban                   In our analysis, we concentrated on two dif-
+region or from the primate city, typically the                  ferent aspects of the urban characteristics of a
+capital. Likewise, it remains unresolved which                  larger city: the centre of consumption and pro-
+factor among geographical proximity, hierar-                    duction (Glaeser et al. 2001). These are closely
+chical proximity and network connectivity is                    related to the two dimensions of urban func-
+more effective in generating borrowed size.                     tions and performance. First, we focused on
+In the case of hierarchical proximity, there is                 the presence of metropolitan functions. The
+also no consensus on whether its influence is                   metropolitan functions were diverse. Previous
+more pronounced at the national scale or at                     studies focused on various functions related to
+the regional scale. This study seeks to examine,                ((inter)national) politics, public administra-
+in the context of Korea’s strongly hierarchical                 tion, science, education, business, business ser-
+urban system, the effects of geographical and                   vices, accessibility, cultural and sports amenities
+hierarchical proximity at both the national and                 and shopping (Phelps 1998; Phelps et al. 2001;
+regional scales on borrowed size.                               Burger et al. 2014; Meijers et al. 2014; Burger
+
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+BORROWED SIZE OF SMALL AND MEDIUM CITIES                                                                                311
+
+
+
+
+Figure 2. Small and medium cities and Metropolitan Cities in Korea.
+
+
+
+et al. 2015; Hesse 2016; Meijers et al. 2016;                       Second, several measures of economic in-
+Meijers & Burger 2017; Sun et al. 2019; de Vos                  dicators were used as dependent variables for
+et al. 2020; Volgmann & Rusche 2020; Sohn                       urban performance. Previous studies have
+et al. 2022). These metropolitan functions can                  identified various aspects of urban perfor-
+be good for measuring the presence of bor-                      mance, including personal income, popu-
+rowed size effects as they strongly depend on                   lation growth, employment and its growth,
+the size of the city and the surrounding regions                startups, knowledge-­based activities, producer
+(Burger et al. 2014). In this study, we selected                services and housing costs (Alonso 1973; de
+five categories of metropolitan functions that                  Vos et al. 2020; Hans & Koster 2018; Lenaerts
+are frequently used in earlier studies: business,               et al. 2023; Meijers & Burger 2017; Partridge
+consumption, cultural amenities, transporta-                    et al. 2007; Partridge et al. 2008, 2009, 2010;
+tion and information technology. Variables                      Polese & Shearmur 2006; Volgmann &
+representing each category were chosen such                     Rusche 2020; Solis et al. 2022). This study sum-
+that they represented functions dominant in                     marises these variables into three categories
+metropolitan cities, usually more than their                    and uses them in the empirical an alysis: in-
+shares of population sizes (see Table 1).                       come, innovation and vitality.
+
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+                                            Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+312                                                                         KYUSANG KWON & JUNGYUL SOHN
+
+    The effects of relationships between large                  considered both hierarchical and geograph-
+cities and small-­and medium-­sized cities on                   ical measures at national and regional scales.
+urban functions and performance can be ex-                         First, we examined the positions of cities
+plained by several variables. In our analysis, we               within the urban hierarchy at both scales to
+
+Table 1. Variable description (N = 152).
+
+Variables                        Descriptions                                      Sources
+
+Dependent variables
+ BUSINESS                        The number of employees in advanced               Korean Statistical Information
+                                  producer service sectors                           Service (2022)
+  CONSUME                        The number of department stores                   Korean Statistical Information
+                                                                                     Service (2022)
+  CULTURE                        The number of employees in creative               Korean Statistical Information
+                                  and art-­related service sectors                   Service (2022)
+  TRANSPORT                      The number of passengers using high-­             Korean Railway Industry
+                                  speed train stations                               Information Center (2022)
+                                                                                   Public Data Portal (2022)
+  IT                             The number of establishments in infor-            Korean Statistical Information
+                                   mation technology sector                          Service (2022)
+  INCOME                         Per capita GRDP                                   Korean Statistical Information
+                                                                                     Service (2022)
+  INNOVATE                       The number of patents                             Intellectual Property Statistics
+                                                                                     Service (2022)
+  VITALITY                       The number of startups                            Organisation for Venture
+                                                                                     Enterprise Certification (2022)
+Independent variables
+  Hierarchical position
+   SECOND                        1 if it is administrative city (but not           Author’s calculation
+                                    Metropolitan City)
+      THIRD                      1 if it is county                                 Author’s calculation
+      UP_SECOND                  1 if it is the upper-­side second-­tier city in   Author’s calculation
+                                    national urban hierarchy
+      LOW_SECOND                 1 if it is the lower side second-­tier city in    Author’s calculation
+                                    national urban hierarchy
+      UP_THIRD                   1 if it is the upper-­side third-­tier city in    Author’s calculation
+                                    national urban hierarchy
+      LOW_THIRD                  1 if it is the lower side third-­tier city in     Author’s calculation
+                                    national urban hierarchy
+      REG_SECOND                 1 if it is the upper-­side city in regional       Author’s calculation
+                                    urban hierarchy
+      REG_THIRD                  1 if it is the lower side city in regional        Author’s calculation
+                                    urban hierarchy
+      REG_UP_SECOND              1 if it is the upper-­side second-­tier city in   Author’s calculation
+                                    regional urban hierarchy
+      REG_LOW_SECOND             1 if it is the lower side second-­tier city in    Author’s calculation
+                                    regional urban hierarchy
+      REG_UP_THIRD               1 if it is the upper-­side third-­tier city in    Author’s calculation
+                                    regional urban hierarchy
+      REG_LOW_THIRD              1 if it is the lower side third-­tier city in     Author’s calculation
+                                    regional urban hierarchy
+  Geographical position
+   DIST_SEOUL                    Euclidean distance (km) to Seoul                  Author’s calculation
+   DIST_CENTRE                   Euclidean distance (km) to regional               Author’s calculation
+                                   economic centre
+
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+BORROWED SIZE OF SMALL AND MEDIUM CITIES                                                                                313
+
+assess whether a city’s hierarchical position                   geographical proximity at the regional level.
+affects its level of urban performance and the                  If we compare the statistical significance of
+presence of urban functions, and to deter-                      the coefficients for DIST_SEOUL and DIST_
+mine which scale—national or regional—has                       CENTER, we can assess which scale of geo-
+greater explanatory power. The dummy vari-                      graphical proximity exerts a stronger influence
+able SECOND indicates administrative cities,                    on borrowed size within a national urban sys-
+while THIRD represents counties (i.e. neither                   tem characterised by strong primacy.
+metropolitan nor administrative cities). To cap-                   Descriptions of all variables are presented
+ture the differential effects of urban hierarchy                in Table 1. All data were collected as of 2022
+more precisely, we further disaggregated the                    except for GRDP (i.e. in this case, 2020) and at
+second-­and third-­tier cities into four groups                 the spatial scale of city and county.1
+in the national urban hierarchy: UP_SECOND
+(upper second-­    tier cities), LOW_SECOND                     Regression models and estimation methods –
+(lower second-­tier cities), UP_THIRD (upper                    The regression models to be estimated are
+third-­tier cities) and LOW_THRID (lower                        constructed to investigate whether a small-­and
+third-­tier cities). Similarly, we identified re-               medium-­sized city’s position in the urban hier-
+gional first-­ tier cities as centres of eight                  archy and/or its geography (distance to large
+regional urban systems and created six addi-                    cities) makes any difference in generating bor-
+tional dummy variables for each region: REG_                    rowed size effects. For this purpose, two sets
+SECOND, REG_THIRD, REG_UP_SECOND,                               of equations were established for the cases of
+REG_LOW_SECOND, REG_UP_THIRD and                                two groups (second-­and third-­tier cities) and
+REG_LOW_THIRD. Because the control                              four-­group classifications (upper and lower
+group at each scale consists of (lower) third-­                 second-­tier cities and upper and lower third-­
+tier cities, a significant positive coefficient for             tier cities), each of which had three individual
+a specific dummy variable closer to the first-­                 equations. Equations (1–3) describe the two-­
+tier city (e.g. UP_SECOND) indicates that the                   group case, whereas Equations (4–6) describe
+borrowed size effects arising from hierarchical                 the four-­group case. i represents 152 individual
+proximity to higher-­level cities are limited to                small-­and medium-­sized cities in the Korean
+that specific position(s) (e.g. upper second-­tier              urban system:
+cities) in the urban hierarchy. Furthermore, if
+the dummy variable for second-­tier cities at the                  Functions∕performancei = 𝛼 + 𝛽 1 SECONDi
+national scale is significant but the correspond-                                   + 𝛽 3 DIST_SEOULi + 𝜀i               (1)
+ing variable at the regional scale is not, it sug-
+gests that the national scale is more important;                   Functions∕performancei = 𝛼
+the reverse would indicate greater importance
+of the regional scale. Classification between                                       + 𝛽 2 REG_SECONDi                    (2)
+upper and lower groups was conducted using                                          + 𝛽 4 DIST_CENTERi + 𝜀i
+the k-­means clustering method based on pop-
+ulation size.                                                    Functions∕performancei = 𝛼 + 𝛽 1 SECONDi
+    Second, we evaluated the effects of geo-
+graphical proximity to first-­tier cities at both                                           + 𝛽 2 REG_SECONDi
+national and regional scales on urban func-                                                 + 𝛽 3 DIST_SEOULi
+tions and performance. At the national scale,
+                                                                                            + 𝛽 4 DIST_CENTERi + 𝜀i
+we employed the distance from Seoul (DIST_
+SEOUL) to examine whether spillover effects                                                                              (3)
+from the capital exist. If the external effects                 Functions∕performancei = 𝛼 + 𝛽 1 UP_SECONDi
+diminish as the distance from Seoul increases,                                            + 𝛽 2 LOW_SECONDi
+this would indicate the presence of a bor-
+rowed size effect from Seoul. At the regional                                             + 𝛽 3 UP_THIRDi
+scale, we used the variable DIST_CENTER—                                                  + 𝛽 7 DIST_SEOULi + 𝜀i
+the distance from each regional first city—to
+investigate whether borrowed size arises from                                                                            (4)
+
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+                                            Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+314                                                                         KYUSANG KWON & JUNGYUL SOHN
+
+  Functions∕performancei = 𝛼 + 𝛽 4 REG_UP_SECONDi               THE PRIMATE CITY SEOUL AND THE
+                        + 𝛽 5 REG_LOW_SECONDi                   CHARACTERISTICS OF THE KOREAN
+                                                                URBAN SYSTEM
+                        + 𝛽 6 REG_UP_THIRDi
+                        + 𝛽 8 DIST_CENTERi + 𝜀i                 Seoul is not only the capital of Korea but also
+                                                         (5)    the dominant centre of the Korean economy.
+                                                                The city is characterised as a primate city in
+                                                                the Korean urban system with a primate dis-
+Functions∕performancei = 𝛼 + 𝛽 1 UP_SECONDi                     tribution. Busan, the second-­   largest city in
+                          + 𝛽 2 LOW_SECONDi                     Korea, has less than half the population of
+                                                                Seoul. With the presence of Seoul, the Korean
+                          + 𝛽 3 UP_THIRDi
+                                                                urban system is characterised as an urban
+                          + 𝛽 4 REG_UP_SECONDi                  system with a very strong urban hierarchy.
+                          + 𝛽 5 REG_LOW_SECONDi                 Figure 3 shows the rank-­size distribution of
+                                                                the Korean urban system for 2022. The blue
+                          + 𝛽 6 REG_UP_THIRDi                   line represents the conventional rank-­       size
+                          + 𝛽 7 DIST_SEOULi                     distribution with a very steep slope near the
+                                                                top-­ranked city (Seoul), which tapers down as
+                          + 𝛽 8 DIST_CENTERi + 𝜀i
+                                                                the rank decreases, suggesting a typical urban
+                                                         (6)    system with a very strong urban hierarchy. A
+                                                                more interesting observation was found in the
+    Equations (1) and (4) focus on the relation-                rank-­size distribution, where the rank was de-
+ship between the hierarchical and geographi-                    rived from the distance from Seoul (red line).
+cal variables and borrowed size effects at the                  Although a few large cities in the country are
+national scale. Therefore, positions were classi-               scattered in distance, including the second-­
+fied in the national urban system, and the dis-                 largest city, Busan, which is ranked 154th in
+tance to large cities was replaced by the distance              terms of distance from Seoul, the overall dis-
+to Seoul, Korea’s largest city. Equations (2)                   tribution trend shows a downward slope as the
+and (5) represent analyses at the regional                      rank decreases. This suggests that the urban
+scale. Here, the positions are classified based                 hierarchy is structured not only in terms of a
+on the individual regional urban systems in                     city’s population size but also in terms of the
+each province. Similarly, the distance to large                 distance from the city to Seoul (Sohn 2012).
+cities is measured as the distance to the largest               In other words, it is important to consider the
+cities in each province, as mentioned earlier.                  geographical aspects of a city as well as its size
+Finally, Equations (3) and (6) incorporate the                  to understand the Korean urban hierarchy.
+national and regional explanatory factors into                      The fate of small-­and medium-­sized cit-
+a single equation. The estimated coefficients of                ies in the Korean urban system is twofold.
+these two equations enable us to discern which                  If a more balanced city size distribution in
+of the factors between position in the urban                    the urban system is helpful for inducing the
+hierarchy and distance is more influential in                   borrowed size effect, as can be seen in many
+generating borrowed size effects in small-­and                  European cities, the strong urban hierarchy
+medium-­   sized cities in Korea. Furthermore,                  of the Korean urban system, where there is
+they help us determine which spatial scale of                   a gap between large cities, including Seoul,
+urban systems (national or regional) is more                    and other small-­and medium-­       sized cities,
+significant in driving positive spillover effects               may result in the agglomeration shadow ef-
+from large cities. The regression equations                     fect on the latter cities. However, if the pos-
+were estimated using OLS with cluster-­robust                   itive spillover effect from the large city who
+standard errors by province to avoid heterosce-                 acts as an anchor of the urban system is more
+dasticity and autocorrelation.                                  prevalent, especially among adjacent cities,
+
+
+
+
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+BORROWED SIZE OF SMALL AND MEDIUM CITIES                                                                                315
+
+
+
+
+Figure 3. Rank-­size distributions of national urban systems in Korea.
+
+
+as is the case of London (Phelps et al. 2001),                  for second-­tier cities (SECOND) and the dis-
+the Korean urban system is likely to show a                     tance to Seoul (DIST_SEOUL). The second-­
+borrowed size effect on small-­and medium-­                     tier city dummy is positively significant in
+sized cities, especially those adjacent to the                  most cases, suggesting that cities with higher
+top-­ranked city, Seoul. To examine the direc-                  hierarchical positions are more likely to ben-
+tion of the relationship between large cities                   efit from borrowed size effects. However, per
+and small-­and medium-­sized cities, the next                   capita GRDP (INCOME) is an exception; this
+section reports the results of the regression                   index does not differ significantly between
+analysis on borrowed size effects.                              second-­and third-­tier cities. The distance to
+                                                                Seoul (DIST_SEOUL) exhibits a clear dis-
+                                                                tance decay effect in five indices: advanced
+ESTIMATED IMPACTS OF URBAN                                      producer services (BUSINESS), creative indus-
+HIERARCHY AND GEOGRAPHY ON                                      tries (CULTURE), IT, patents (INNOVATE),
+BORROWED SIZE EFFECTS                                           and startups (VITALITY), with borrowed
+                                                                size effects decreasing as distance increases.
+Tables 2–4 present the regression results on                    Nevertheless, the second-­tier city dummy usu-
+how cities’ positions in the urban hierarchy                    ally has stronger explanatory power than dis-
+and geographic space influence the extent of                    tance to Seoul, highlighting that hierarchical
+borrowed size effects. In these analyses, cities                position is a more crucial factor in borrowed
+are classified into two groups based on urban                   size effects at the national scale.
+hierarchy: second-­and third-­  tier cities. All                    Model 2 shifts the focus to the regional scale,
+coefficients are standardised for comparison                    incorporating second-­tier cities in the regional
+across models.                                                  hierarchy (REG_SECOND) and distance to the
+   Model 1 examines the national context, in-                   regional economic centre (DIST_CENTER). As
+cluding two explanatory variables: a dummy                      in the national model, the regional second-­tier
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+                                            Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+316                                                                         KYUSANG KWON & JUNGYUL SOHN
+
+Table 2. Estimation results for two-­level urban hierarchy (Model 1).
+
+Variables                        SECOND                              DIST_SEOUL                         Adj-­R2
+
+BUSINESS                         0.350                               −0.233                               0.221
+                                 (0.07)***                           (0.11)*
+CONSUME                          0.296                               −0.139                               0.123
+                                 (0.08)***                           (0.10)
+CULTURE                          0.334                               −0.274                               0.237
+                                 (0.04)***                           (0.11)*
+TRANSPORT                        0.303                               0.007                                0.078
+                                 (0.04)***                           (0.04)
+IT                               0.264                               −0.347                               0.241
+                                 (0.09)**                            (0.14)*
+INCOME                           −0.029                              −0.107                             −0.003
+                                 (0.11)                              (0.12)
+INNOVATE                         0.258                               −0.215                               0.138
+                                 (0.06)***                           (0.08)**
+VITALITY                         0.319                               −0.305                               0.251
+                                 (0.09)***                           (0.11)**
+
+Cluster-­robust standard error in parentheses (cluster: province).
+*p < 0.05;
+**p < 0.01;
+***p < 0.001.
+
+
+Table 3. Estimation results for two-­level urban hierarchy (Model 2).
+
+Variables                          REG_SECOND                          DIST_CENTER                     Adj-­R2
+
+BUSINESS                           0.540                               −0.148                           0.333
+                                   (0.20)**                            (0.12)
+CONSUME                            0.560                               −0.121                           0.343
+                                   (0.19)**                            (0.10)
+CULTURE                            0.460                               −0.185                           0.269
+                                   (0.17)**                            (0.15)
+TRANSPORT                          0.245                               −0.053                           0.055
+                                   (0.07)**                            (0.04)
+IT                                 0.409                               −0.213                           0.233
+                                   (0.22)                              (0.17)
+INCOME                             0.082                               0.079                           −0.003
+                                   (0.09)                              (0.10)
+INNOVATE                           0.444                               −0.128                            0.223
+                                   (0.21)*                             (0.08)
+VITALITY                           0.477                               −0.220                            0.303
+                                   (0.19)*                             (0.13)
+
+Cluster-­robust standard error in parentheses (cluster: province).
+*p < 0.05;
+**p < 0.01;
+
+
+dummy is positively associated with most bor-                   some knowledge-­intensive activities may require
+rowed size indices except for INCOME and in-                    a higher population threshold than that of re-
+formation technology (IT). The insignificance                   gional second-­tier cities. In contrast to Model 1,
+of the IT index at the regional level suggests that             the distance to the regional centre shows little
+
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+BORROWED SIZE OF SMALL AND MEDIUM CITIES                                                                                317
+
+Table 4. Estimation results for two-­level urban hierarchy (Model 3).
+
+                                                                                              DIST_
+Variables              SECOND                  REG_SECOND             DIST_SEOUL              CENTER               Adj-­R2
+
+BUSINESS               0.122                   0.478                  −0.246                  −0.058               0.408
+                       (0.07)                  (0.22)*                (0.12)*                 (0.05)
+CONSUME                0.040                   0.536                  −0.152                  −0.071               0.360
+                       (0.09)                  (0.22)*                (0.11)                  (0.05)
+CULTURE                0.145                   0.390                  −0.275                  −0.082               0.368
+                       (0.09)                  (0.20)                 (0.12)*                 (0.07)
+TRANSPORT              0.232                   0.149                  0.003                   −0.020               0.084
+                       (0.06)***               (0.07)*                (0.05)                  (0.02)
+IT                     0.086                   0.358                  −0.342                  −0.101               0.353
+                       (0.08)                  (0.23)                 (0.15)*                 (0.09)
+INCOME                 −0.061                  0.100                  −0.141                  0.112                0.001
+                       (0.15)                  (0.12)                 (0.11)                  (0.12)
+INNOVATE               0.064                   0.407                  −0.225                  −0.053               0.270
+                       (0.07)                  (0.23)                 (0.10)*                 (0.05)
+VITALITY               0.112                   0.417                  −0.300                  −0.116               0.405
+                       (0.07)                  (0.2)*                 (0.12)*                 (0.06)
+
+Cluster-­robust standard error in parentheses (cluster: province).
+*p < 0.05;
+***p < 0.001.
+
+
+explanatory power. Overall, regional borrowed                   size effects of small-­and medium-­sized cities in
+size effects appear to be shaped by hierarchical                Korea. Thus, Seoul strongly influences urban
+position rather than geographic proximity. For                  economic activities in Korean cities.
+example, this implies that cities distant from the                  Tables 5–7 further refine the analysis by dis-
+largest city in the region but with a high urban                aggregating the urban hierarchy into four cat-
+hierarchy have stronger influences on bor-                      egories: upper and lower second-­tier cities and
+rowed size effects than those close to the largest              upper and lower third-­tier cities.
+city but with a low hierarchy.                                      The first model (Model 4) in Table 5 re-
+    Model 3 incorporates all four positional                    visits the national scale using this finer clas-
+variables (SECOND, REG_SECOND, DIST_                            sification. The lower third-­   tier city dummy
+SEOUL and DIST_CENTER). Here, the sig-                          (LOW_THIRD) is the reference and the coef-
+nificance of the national second-­tier dummy                    ficients of the other three dummy variables are
+weakens, whereas the regional second-­         tier             estimated. The results show that only the upper
+dummy retains more explanatory power. The                       second-­ tier cities (UP_SECOND) consistently
+distance to Seoul continues to show significant                 benefit from borrowed size effects across most
+distance decay effects across the five indices,                 indices, except for INCOME. Lower second-­
+even after considering the influences of other                  tier (LOW_SECOND) and upper third-­           tier
+positional variables, reaffirming the strong                    (UP_THIRD) cities show limited and mixed ef-
+centripetal force of Seoul in shaping urban                     fects, indicating that substantial borrowed size
+dynamics. The distance to regional centres re-                  benefits are concentrated in the top segment
+mains largely insignificant.                                    of small-­and medium-­     sized cities. Distance
+    Comparing the four variables, distance to                   to Seoul maintains its distance decay effect in
+Seoul exhibits the largest number of significant                the five indices, as seen in the earlier models.
+coefficients (five indices), followed by the re-                Comparing the variables, the upper second-­tier
+gional second-­tier dummy (four indices). This                  city dummy and distance to Seoul are the most
+indicates that, when both hierarchy and geog-                   influential, suggesting that either a high hierar-
+raphy are considered, proximity to Seoul exerts                 chical status or proximity to Seoul is the key to
+the most consistent influence on the borrowed                   benefiting from borrowed size effects.
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+                                            Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+318                                                                         KYUSANG KWON & JUNGYUL SOHN
+
+Table 5. Estimation results for four-­level urban hierarchy (Model 4).
+
+Variables             UP_SECOND                LOW_SECOND             UP_THIRD            DIST_SEOUL                Adj-­R2
+
+BUSINESS              0.608                    0.077                  0.017               −0.166                     0.411
+                      (0.10)***                (0.03)**               (0.02)              (0.05)**
+CONSUME               0.558                    0.013                  −0.004              −0.072                     0.320
+                      (0.08)***                (0.02)                 (0.01)              (0.06)
+CULTURE               0.584                    0.056                  0.002               −0.207                     0.430
+                      (0.12)***                (0.05)                 (0.02)              (0.06)***
+TRANSPORT             0.446                    0.117                  0.002               0.048                      0.144
+                      (0.08)***                (0.01)**               (0.01)              (0.06)
+IT                    0.523                    −0.010                 −0.006              −0.281                     0.430
+                      (0.15)***                (0.05)                 (0.03)              (0.08)***
+INCOME                −0.008                   0.035                  0.080               −0.109                    −0.011
+                      (0.13)                   (0.12)                 (0.08)              (0.11)
+INNOVATE              0.478                    0.032                  0.011               −0.159                     0.267
+                      (0.09)***                (0.03)                 (0.02)              (0.03)***
+VITALITY              0.624                    0.028                  0.028               −0.230                     0.491
+                      (0.13)***                (0.03)                 (0.02)              (0.05)***
+
+Cluster-­robust standard error in parentheses (cluster: province).
+**p < 0.01;
+***p < 0.001.
+
+
+Table 6. Estimation results for four-­level urban hierarchy (Model 5).
+
+                     REG_UP_                                                REG_UP_               DIST_
+Variables            SECOND                 REG_LOW_SECOND                  THIRD                 CENTER             Adj-­R2
+
+BUSINESS             0.633                  0.135                           0.117                 −0.145              0.410
+                     (0.26)*                (0.05)**                        (0.04)**              (0.12)
+CONSUME              0.580                  0.150                           0.040                 −0.128              0.350
+                     (0.21)**               (0.10)                          (0.03)                (0.09)
+CULTURE              0.548                  0.155                           0.110                 −0.177              0.335
+                     (0.21)**               (0.06)*                         (0.06)                (0.15)
+TRANSPORT            0.289                  0.221                           0.012                 −0.027              0.095
+                     (0.07)***              (0.18)                          (0.04)                (0.06)
+IT                   0.493                  0.083                           0.091                 −0.213              0.285
+                     (0.28)                 (0.05)                          (0.07)                (0.17)
+INCOME               0.110                  0.035                           0.091                 0.085              −0.008
+                     (0.06)                 (0.11)                          (0.10)                (0.11)
+INNOVATE             0.554                  0.096                           0.071                 −0.125              0.307
+                     (0.28)                 (0.03)**                        (0.03)*               (0.08)
+VITALITY             0.52                   0.169                           0.128                 −0.214              0.326
+                     (0.24)*                (0.08)*                         (0.08)                (0.13)
+
+Cluster-­robust standard error in parentheses (cluster: province).
+*p < 0.05;
+**p < 0.01;
+***p < 0.001.
+
+
+   Model 5 applies the same hierarchi-                          five indices, whereas lower second-­tier (REG_
+cal s­pecifications at a regional scale. Here,                  LOW_SECOND) and upper third-­tier (REG_
+upper regional second-­  tier cities (REG_UP_                   UP_THIRD) cities in the region display slightly
+SECOND) show positive influences on the                         limited effects. Notably, advanced producer
+
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+BORROWED SIZE OF SMALL AND MEDIUM CITIES                                                                                319
+
+Table 7. Estimation results for four-­level urban hierarchy (Model 6).
+
+                                                      REG_   REG_   REG_
+                  UP_    LOW_   UP_                   UP_    LOW_   UP_                     DIST_      DIST_
+Variables         SECOND SECOND THIRD                 SECOND SECOND THIRD                   SEOUL      CENTER Adj-­R2
+
+BUSINESS          0.260       −0.029       −0.022     0.467          0.092     0.072        −0.236     −0.023       0.522
+                  (0.15)      (0.11)       (0.05)     (0.30)         (0.08)    (0.06)       (0.14)     (0.04)
+CONSUME           0.247       −0.068       −0.024     0.421          0.107     0.004        −0.133     −0.038       0.416
+                  (0.19)      (0.09)       (0.05)     (0.25)         (0.13)    (0.05)       (0.14)     (0.04)
+CULTURE           0.309       −0.031       −0.031     0.350          0.101     0.048        −0.262     −0.033       0.487
+                  (0.14)*     (0.13)       (0.06)     (0.23)         (0.09)    (0.08)       (0.12)*    (0.05)
+TRANSPORT         0.427       0.129        0.036      0.048          0.088     −0.102       0.025      0.038        0.144
+                  (0.14)**    (0.07)       (0.05)     (0.12)         (0.18)    (0.10)       (0.09)     (0.05)
+IT                0.285       −0.082       −0.040     0.304          0.047     0.053        −0.315     −0.059       0.470
+                  (0.14)*     (0.13)       (0.07)     (0.30)         (0.08)    (0.08)       (0.14)*    (0.06)
+INCOME            −0.196      −0.066       0.041      0.229          0.122     0.142        −0.190     0.114        0.001
+                  (0.12)      (0.14)       (0.05)     (0.07)***      (0.09)    (0.11)       (0.10)*    (0.11)
+INNOVATE          0.140       −0.066       −0.024     0.458          0.090     0.057        −0.226     −0.026       0.371
+                  (0.15)      (0.11)       (0.05)     (0.32)         (0.07)    (0.06)       (0.12)     (0.04)
+VITALITY          0.372       −0.065       −0.015     0.286          0.107     0.067        −0.274     −0.057       0.524
+                  (0.12)**    (0.11)       (0.06)     (0.26)         (0.08)    (0.08)       (0.12)*    (0.04)
+
+Cluster-­robust standard error in parentheses (cluster: province).
+*p < 0.05;
+**p < 0.01;
+***p < 0.001.
+
+
+services (BUSINESS) show positive associations                  CULTURE, TRANSPORT, IT and VITALITY.
+across all three higher hierarchy categories,                   Regional hierarchical variables lose signifi-
+suggesting that this sector is less sensitive to hi-            cance when national variables are included,
+erarchical status than others. Unlike the results               suggesting that the national urban hierarchy
+in Model 4 with four urban hierarchy catego-                    outweighs regional dynamics. Regarding ge-
+ries in the national context, cities in the lower               ography, only the distance to Seoul has a sig-
+urban hierarchy still have some meaningful                      nificant and positive influence across multiple
+influences on borrowed size indices. However,                   indices, while the distance to regional centres
+such influences decrease as the urban hierar-                   remains negligible.
+chical level decreases. In other words, at the                      In summary, when both hierarchi-
+national level, a substantial increase in the in-               cal and geographic positions are con-
+fluence of borrowed size effects is possible only               sidered, borrowed size effects in Korea’s
+in cities with relatively higher positions in the               small-­and medium-­sized cities are predom-
+hierarchy. At the regional level, however, small-­              inantly shaped by two factors: being in the
+and medium-­sized cities can enjoy borrowed                     top tier of the national urban hierarchy and
+size effects even if they slightly move up in the               proximity to Seoul. When comparing the hi-
+urban hierarchy. The distance to regional cen-                  erarchy and geography variables, national
+tres remains mostly insignificant, reinforcing                  upper second-­tier cities and distance to Seoul
+that hierarchy matters more than geography at                   seem to have similar levels of influence.
+the regional scale.                                             Interestingly, the significance of geographic
+    Model 6 combines all the national and re-                   distance diminishes when the hierarchical
+gional hierarchies and geographical variables.                  classification is refined. This implies that, at
+In this comprehensive model, only national                      a coarse level, geography appears to be influ-
+upper second-­tier cities (UP_SECOND) con-                      ential because urban hierarchical character-
+sistently show positive and significant impacts                 istics are not well represented; however, once
+on borrowed size effects, particularly for                      the hierarchical structure is more precisely
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+                                            Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+320                                                                         KYUSANG KWON & JUNGYUL SOHN
+
+specified, the importance of hierarchy be-                      classification (second-­and third-­tier cities),
+comes more apparent.                                            a higher hierarchical status is positively asso-
+                                                                ciated with the level of urban functions and
+                                                                performance, both nationally and regionally.
+DISCUSSION                                                      In other words, cities in higher positions tend
+                                                                to benefit more from these effects. However,
+Figure 4 summarises the empirical findings                      when the hierarchy is disaggregated into
+of the previous section. It compares the rel-                   four levels (upper and lower second-­tier and
+ative influences of urban hierarchy and geo-                    upper and lower third-­   tier cities), the pat-
+graphic position on borrowed size effects                       tern changes. At the national level, only the
+in small-­and medium-­sized cities. Based on                    top segment (upper second-­tier cities) shows
+these findings, three key points of discussion                  meaningful positive effects. By contrast, at
+were identified.                                                the regional level, although the top segment
+   The first concerns a city’s position in                      has the strongest influence, even lower-­tier
+the urban hierarchy. Under the two-­     level                  cities display some positive effects, albeit
+
+
+        Position in hierarchy effects
+                                  National urban system                        Regional urban system
+          Two-level             National second-tier cities                  Regional second-tier cities
+                                             (1)                                           (4)
+          Four-level       National upper-second-tier cities             Regional upper-second-tier cities
+                                             (4)                                           (1)
+
+
+        Position in geography effects
+                                     Distance to Seoul                 Distance to regional economic center
+          Two-level                 Distance to Seoul                  Distance to regional economic center
+                                             (5)                                           (0)
+          Four-level                Distance to Seoul                  Distance to regional economic center
+                                             (4)                                           (0)
+
+
+        Comparison between hierarchy and geography
+                                   Position in hierarchy                        Position in geography
+          Two-level             Regional second-tier cities                       Distance to Seoul
+                                             (4)                                           (5)
+          Four-level       National upper-second-tier cities                      Distance to Seoul
+                                             (4)                                           (4)
+
+Figure 4. Generalisation of the influences of factors on borrowed size indicators. (1) The information here shows which
+of the two variables in comparison contributes more to the dependent variable in the eight regression models. The number
+in parentheses indicates the number of times the corresponding variable is observed as significant among eight regressions.
+The variable with a higher number is shown in bold. (2) The results of the two-­and four-­level hierarchy models are derived
+from Models 3 and 6, respectively (Tables 4 and 7).
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+BORROWED SIZE OF SMALL AND MEDIUM CITIES                                                                                321
+
+weaker. This suggests that, in terms of posi-                   insignificant, indicating that spillover effects
+tive influences on borrowed size effects, the                   originate mainly from Seoul rather than from
+national urban system has a stronger hierar-                    regional centres. This spatial asymmetry re-
+chy than the regional ones, meaning that the                    flects Seoul’s overwhelming dominance in
+difference between city groups is smaller in                    Korea’s urban system—not only in size but also
+the regional urban hierarchy.                                   in economic, political and cultural influence.
+   When both national and regional hierarchy                    Korea’s compact territory and transport net-
+variables are included in one model, the results                work oriented toward the capital further am-
+differ according to the classification scheme.                  plify these effects, making proximity to Seoul
+In the two-­level model, regional hierarchical                  a decisive factor for realising borrowed size
+status appears more influential than national                   benefits. Similar spatial patterns have been
+status. This implies that a city’s position in its              observed in other primate city systems, such as
+regional hierarchy may matter more for bor-                     in the UK, where distance from London weak-
+rowed size effects than its national rank. This                 ens spillover effects (Phelps et al. 2001), and in
+could explain why some medium-­sized cities in                  Japan, where greater accessibility to Tokyo via
+the Seoul Metropolitan Area, although ranked                    high-­speed rail has promoted diffusion from
+higher nationally, may not benefit if they oc-                  the capital (Li & Xu 2018).
+cupy lower positions regionally.                                   Finally, a comparison of the two factors re-
+   In contrast, the four-­level model shows that                veals different conclusions depending on the
+only national upper second-­tier cities have a                  classification scheme. In the two-­level model,
+significant impact, whereas regional hierarchi-                 the distance to Seoul exerts a stronger influ-
+cal variables lose their influence. This suggests               ence than the regional hierarchy. This implies
+that only cities at the top of the hierarchy can                that spatial proximity to the primate city is a
+benefit substantially from borrowed size ef-                    more efficient driver of borrowed size effects
+fects. For lower-­tier cities, simply climbing the              than hierarchical position. However, when the
+hierarchy may not guarantee positive effects—                   hierarchy is specified in four levels, the influ-
+an outcome that may be discouraging from a                      ence of the national hierarchy becomes com-
+policy perspective.                                             parable to that of distance. This suggests that
+   Taken together, these contrasting results                    a coarse classification may exaggerate the role
+point to a dual dynamic in Korea’s urban sys-                   of geography by failing to distinguish between
+tem. This pattern reflects the coexistence of                   genuine hierarchical differences. By contrast,
+two institutional tendencies: while the central                 a more refined classification reveals that both
+government continues to prioritise investments                  hierarchy and distance matter equally.
+in higher-­order cities to maximise returns, it si-                Overall, the findings suggest that small-­and
+multaneously pursues balanced development                       medium-­sized cities in Korea can benefit from
+projects and allocates resources to promote re-                 borrowed size effects under two conditions:
+gional equity. This is consistent with studies on               either by holding a top position in the urban
+China that highlight the importance of urban                    system of small-­and medium-­sized cities or by
+hierarchy and borrowed administrative power                     being geographically close to Seoul.
+in the opening of high-­speed rail stations and                    These findings offer several policy impli-
+the industrial upgrading process (Wang et al.                   cations that directly connect to its theoretical
+2022b; Shi et al. 2025). Although our model                     underpinnings, particularly in East Asian cities
+cannot disentangle the effects of these institu-                where government intervention in urban and
+tional factors related to hierarchical proximity,               regional development planning is relatively
+our findings can be interpreted as capturing                    strong. According to the concepts of borrowed
+the combined influence of both tendencies.                      size, the positions of smaller cities within both
+   The second aspect concerns the role of                       geographical and hierarchical networks can ei-
+geographic distance. In all models, the dis-                    ther constrain or enhance their development
+tance from Seoul shows a strong negative as-                    trajectories.
+sociation with borrowed size effects, revealing                    First, although the physical distance to Seoul
+a clear distance decay pattern. In contrast, the                cannot be changed, the relative distance can be
+distance from regional core cities is largely                   reduced by improving transport connectivity. In
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+                                            Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+322                                                                         KYUSANG KWON & JUNGYUL SOHN
+
+the theoretical framework of urban networks,                    policy. Rather than merely identifying func-
+such improvements can expand the functional                     tional deficiencies in smaller cities, it is es-
+catchment areas of small-­and medium-­sized                     sential to examine how they can leverage
+cities, enabling them to borrow agglomera-                      the advantages of larger neighbouring cities
+tion benefits from Seoul. Even though it is                     through spatial and hierarchical networks.
+impossible to change the absolute location (or                  This point is particularly crucial in the
+site) of an entire city, it is possible to change               Chinese context, where administrative hier-
+its relative location (or situation). Such efforts              archies largely determine cities’ capacity for
+should be accompanied by policies that foster                   resource allocation (Shi et al. 2025). Under
+functional complementarity to avoid the cen-                    Korea’s megaregion policy, local governments
+tralisation of functions in Seoul. Without func-                are encouraged to establish collaborative
+tional complementarity, improved accessibility                  zones linking major cities with surrounding
+may merely increase the agglomeration shad-                     smaller ones and to formulate joint regional
+ows. Although Korea has implemented a local                     master plans. Advancing this policy effectively
+autonomy system for about 30 years, local gov-                  requires a deeper understanding of intercity
+ernments have continued to rely heavily on the                  interactions and the roles of geographical
+national government projects and budgets and                    and hierarchical networks.
+have not yet sufficiently developed functional
+complementarities with larger cities. Recently,
+the Presidential Committee for Balanced                         CONCLUSION
+National Development was reorganised and
+renamed the ‘Presidential Committee for                         This study examined whether and how
+Decentralization and Balanced Development,’                     small-­and medium-­sized cities can generate
+reflecting efforts to expand the responsibil-                   borrowed size effects within Korea’s highly
+ities and authority of local governments. In                    hierarchical urban system. Specifically, it
+this context, local governments need to fur-                    investigated the roles of two key factors: a
+ther specialise their regional industries and                   small-­and medium-­sized city’s position in the
+strengthen functional complementarities with                    urban hierarchy and geography. Hierarchical
+Seoul and other major cities.                                   positions were measured using categorical
+    Second, efforts to simply increase the pop-                 variables based on national and regional
+ulation of small and medium-­sized cities need                  rankings, whereas geographic positions were
+to be reconsidered. Due to the concentration                    captured by the distance to the primate city
+of population in the Seoul Metropolitan Area,                   and regional core cities. The level of urban
+these cities are experiencing rapid urban shrink-               functions and performance was measured
+age and population decline. Without proactive                   using eight indices to assess the existence of
+policy interventions, even the provision of basic               borrowed size effects across 152 small-­and
+services could become unsustainable. However,                   medium-­sized cities.
+given Korea’s low fertility rate, attempts to ex-                  The empirical analysis yielded three key
+pand the permanent resident population are                      findings. First, the hierarchical position mat-
+likely to result in zero-­sum outcomes. As our                  ters, but its influence varies depending on the
+findings show, geographical and hierarchical                    classification scheme. Under a simple two-­
+proximity to Seoul is important for urban func-                 tier classification, both national and regional
+tions and performance. For small and medium-­                   second-­tier cities benefit from borrowed size
+sized cities located far from Seoul, this suggests              effects, with regional hierarchy being more
+that instead of relying on borrowed size from                   influential. However, when the hierarchy is
+the capital, policies to attract foreign immigrants             disaggregated into four levels, only the upper
+and to leverage mobile populations such as com-                 second-­tier cities at the national level show
+muters, part-­time residents, business travellers               meaningful positive effects. Second, the dis-
+and workation participants could be crucial for                 tance to Seoul consistently shows a signifi-
+sustaining urban vitality.                                      cant negative association with borrowed size
+    Finally, the findings underscore the need                   effects across all models, indicating a clear
+to consider intercity interactions in urban                     distance decay effect, whereas the distance
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+BORROWED SIZE OF SMALL AND MEDIUM CITIES                                                                                323
+
+to regional core cities has no meaningful in-                   ACKNOWLEDGEMENTS
+fluence. Third, when comparing the hierar-
+                                                                This work was supported by the Ministry of Education
+chy and distance variables, the proximity to
+                                                                of the Republic of Korea and the National Research
+Seoul proves to be the most influential factor,
+                                                                Foundation of Korea (NRF-­2023S1A5A8078509).
+especially when a simple hierarchical classi-
+fication is used. However, with finer classifi-
+cation, the influence of the national urban                     CONFLICT OF INTEREST
+hierarchy becomes comparable to that of                         The authors declare that they have no competing
+geographic proximity.                                           interests.
+    These findings suggest that in Korea,
+small and medium-­     sized cities can benefit                 Endnote
+from borrowed size effects only when they
+                                                                 1
+are geographically close to Seoul or occupy                          The administrative divisions of Korea are divided
+higher positions in the national urban hier-                         into three levels: (1) metropolitan cities and
+archy. Yet these conditions are difficult to                         provinces; (2) cities, counties, and districts and
+meet because of Seoul’s entrenched domi-                             (3) neighbourhoods and townships. In this study,
+nance and the rigid hierarchical structure of                        data were collected at the second level, but the
+the urban system. The geographical distance                          districts were not included in the analysis. This
+to Seoul cannot be altered, and few smaller                          is because the districts are only parts (or lower
+cities can attract enough population to move                         units) of the metropolitan cities rather than a city
+up the hierarchy unless they already possess                         of its own; thus, the use of the district level may
+major economic or administrative functions.                          not be appropriate for the purposes of this study
+Nonetheless, improving transportation con-                           to examine the relationships between administra-
+nectivity to reduce relative distance offers a                       tively independent cities.
+practical policy option for enabling smaller
+cities to borrow agglomeration benefits de-
+spite these structural constraints. However,                    REFERENCES
+accessibility improvements alone may in-
+tensify the concentration of functions in                       Alonso, W. (1973), Urban Zero Population Growth.
+the primary city and expand agglomeration                         Daedalus 102(4), pp. 191–206.
+shadows. Thus, regional policy should aim                       Anselin, L., A. Varga & Z.J. Acs (2000), Geographic
+to foster functional complementarity and                          and Sectoral Characteristics of Academic
+strengthen intercity interactions through spa-                    Knowledge Externalities. Papers in Regional Science
+tial and hierarchical networks.                                   79(4), pp. 435–443.
+    This study contributes to the broader dis-                  Arthur, W.B. (1990), Silicon Valley Locational
+cussion of agglomeration and network effects                      Clusters: When Do Increasing Returns Imply
+by shedding light on the structural conditions                    Monopoly? Mathematical Social Sciences 19, pp.
+under which borrowed size effects emerge.                         235–251.
+However, we were unable to distinguish the                      Burger, M.J. & E.J. Meijers (2016), Agglomerations
+individual processes of hierarchical and geo-                     and the Rise of Urban Network Externalities.
+graphical proximity as separate explanatory                       Papers in Regional Science 95(1), pp. 5–16.
+variables and thus could not determine which                    Burger, M.J., E.J. Meijers & F.G. Van Oort (2014),
+exerted the strongest influence on borrowed                       Regional Spatial Structure and Retail Amenities
+size. This limitation underscores the need for                    in The Netherlands. Regional Studies 48(12), pp.
+further investigation. Future research could ex-                  1972–1992.
+tend this work by examining temporal changes                    Burger, M.J., E.J. Meijers, M.M. Hoogerbrugge
+in these effects, the capacity of individual cities               & J.M. Tresserra (2015), Borrowed Size,
+to capitalise on them, and how different types                    Agglomeration Shadows and Cultural Amenities
+of network connections—such as commuting,                         in North-­West Europe. European Planning Studies
+logistics and accessibility—shape the geog-                       23(6), pp. 1090–1109.
+raphy of borrowed size effects in Korea and                     Cardoso, R.V. & E.J. Meijers (2016), Contrasts be-
+beyond.                                                           tween First-­Tier and Second-­Tier Cities in Europe:
+
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+                                            Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+324                                                                         KYUSANG KWON & JUNGYUL SOHN
+
+  A Functional Perspective. European Planning                   Meijers, E. & M.J. Burger (2017), Stretching the
+  Studies 24, pp. 996–1015.                                       Concept of ‘Borrowed Size’. Urban Studies 54, pp.
+de Vos, D., U. Lindgren, M. Van Ham & E. Meijers                  269–291.
+  (2020), Does Broadband Internet Allow Cities to               Meijers, E. & K. Sandberg (2008), Reducing
+  ‘Borrow Size’? Evidence from the Swedish Labour                 Regional Disparities by Means of Polycentric
+  Market. Regional Studies 54(9), pp. 1175–1186.                  Development: Panacea or Placebo? Scienze
+Dobkins, L.H. & Y.M. Ioannides (2001), Spatial                    Regionali 7(2), pp. 71–96.
+  Interactions among US Cities: 1900–1990. Regional             Meijers, E. & D. Van Der Wouw (2019), Struggles and
+  Science and Urban Economics 31, pp. 701–731.                    Strategies of Rural Regions in the Age of the ‘Urban
+Glaeser, E.L., J. Kolko & A. Saiz (2001), Consumer                Triumph’. Journal of Rural Studies 66, pp. 21–29.
+  City. Journal of Economic Geography 1, pp. 27–50.             Meijers, E., M. Hoogerbrugge, E. Louw, H.
+Gong, X. & F. Zhong (2021), The Impact of                         Priemus & M. Spaans (2014), City Profile: The
+  Borrowing Size on the Economic Development                      Hague. Cities 41, pp. 92–100.
+  of Small and Medium-­Sized Cities in China. Land              Meijers, E.J., M.J. Burger & M. Hoogerbrugge
+  10(2), p. 134.                                                  (2016), Borrowing Size in Networks of Cities:
+Hans, L. & S. Koster (2018), Urbanization and                     City Size, Network Connectivity and Metropolitan
+  Start-­up Rates in Different Geographies: Belgium,              Functions in Europe. Papers in Regional Science
+  The Netherlands, and Sweden. Small Business                     95(1), pp. 181–198.
+  Economics 51(4), pp. 1033–1054.                               Organisation         for       Venture       Enterprise
+Hesse, M. (2016), On Borrowed Size, Flawed                        Certification (2022), A Closer Look at Venture
+  Urbanisation and Emerging Enclave Spaces:                       Companies.
+  The Exceptional Urbanism of Luxembourg,                       Otsuka, A. (2020), Inter-­     Regional Networks and
+  Luxembourg. European Urban and Regional Studies                 Productive Efficiency in Japan. Papers in Regional
+  23(4), pp. 612–627.                                             Science 99(1), pp. 115–133.
+Ikeda, K., K. Murota, T. Akamatsu & Y. Takayama                 Otsuka, A. (2024), Impacts of Enhancing Regional
+  (2017), Agglomeration Patterns in a Long Narrow                 Network Economies on Regional Productivity and
+  Economy of a New Economic Geography Model:                      Productive Efficiency in Japan: Evaluation from
+  Analogy to a Racetrack Economy. International                   Stochastic Frontier Analysis. Asia-­Pacific Journal of
+  Journal of Economic Theory 13(1), pp. 113–145.                  Regional Science 8(1), pp. 25–43.
+Intellectual Property Statistics Service                        Otsuka, A. (2025), Borrowed Size and
+  (2022), Patent Application by Basic Local                       Agglomeration Shadows in Japan: A Spatial
+  Government.                                                     Econometric Analysis of Regional Productivity.
+Korean Railway Industry Information Center                        Asia-­Pacific Journal of Regional Science 9, pp. 1–30.
+  (2022), Passenger Transport Performance by                    Partridge, M., R.D. Bollman, M.R. Olfert &
+  Station (Monthly).                                              A. Alasia (2007), Riding the Wave of Urban
+Korean Statistical Information Service (2022),                    Growth in the Countryside: Spread, Backwash, or
+  Census on Establishments.                                       Stagnation? Land Economics 83, pp. 128–152.
+Lenaerts, B., F. Allroggen & R. Malina (2023),                  Partridge, M.D., D.S. Rickman, K. Ali & M.R.
+  Air Connectivity and Regional Employment: A                     Olfert (2008), Lost in Space: Population Growth
+  Spatial Econometrics Approach. Regional Studies                 in the American Hinterlands and Small Cities.
+  57(3), pp. 560–575.                                             Journal of Economic Geography 8(6), pp. 727–757.
+Li, J.M. & D.Q. Sun (2020), Industrial Composition              Partridge, M.D., D.S. Rickman, K. Ali & M.R.
+  and Agglomeration Shadow: Evidence from                         Olfert (2009), Do New Economic Geography
+  China’s Large Urban Systems. Complexity 2020,                   Agglomeration Shadows Underlie Current
+  5717803.                                                        Population Dynamics across the Urban Hierarchy?
+Li, Z. & H. Xu (2018), High-­Speed Railroads and                  Papers in Regional Science 88(2), pp. 445–466.
+  Economic Geography: Evidence from Japan.                      Partridge, M.D., D.S. Rickman, K. Ali & M.R.
+  Journal of Regional Science 58(4), pp. 705–727.                 Olfert (2010), Recent Spatial Growth Dynamics
+Meijers, E. (2008), Summing Small Cities Does Not                 in Wages and Housing Costs: Proximity to
+  Make a Large City: Polycentric Urban Regions                    Urban Production Externalities and Consumer
+  and the Provision of Cultural, Leisure and Sports               Amenities. Regional Science and Urban Economics
+  Amenities. Urban Studies 45, pp. 2323–2342.                     40(6), pp. 440–452.
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+                                                                                                                                14679663, 2026, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/tesg.70061 by Nat Prov Indonesia, Wiley Online Library on [30/08/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+BORROWED SIZE OF SMALL AND MEDIUM CITIES                                                                                325
+
+Pedersen, P.O. (1970), Innovation Diffusion within              Tian, M., Y.W. Wang & Y.R. Wang (2023), High-­
+  and between National Urban Systems. Geographical                Speed Rail Network and Urban Agglomeration
+  Analysis 2(3), pp. 203–254.                                     Economies: Research from the Perspective of
+Phelps, N.A. (1998), On the Edge of Something Big:                Urban Network Externalities. Socio-­Economic
+  Edge-­ City Economic Development in Croydon,                    Planning Sciences 85, 101442.
+  South London. Town Planning Review 69(4), pp.                 Veneri, P. & D. Burgalassi (2012), Questioning
+  441–465.                                                        Polycentric Development and its Effects: Issues
+Phelps, N.A. (2004), Clusters, Dispersion and the                 of Definition and Measurement for the Italian
+  Spaces in between: For an Economic Geography                    NUTS-­2 Regions. European Planning Studies 20, pp.
+  of the Banal. Urban Studies 41(5–6), pp. 971–989.               1017–1037.
+Phelps, N., R. Fallon & C. Williams (2001), Small               Volgmann, K. & K. Rusche (2020), The Geography
+  Firms, Borrowed Size and the Urban-­Rural Shift.                of Borrowing Size: Exploring Spatial Distributions
+  Regional Studies 35, pp. 613–624.                               for German Urban Regions. Tijdschrift voor
+Polese, M. & R. Shearmur (2006), Why some                         Economische en Sociale Geografie 111(1), pp. 60–79.
+  Regions Will Decline: A Canadian Case Study                   Wang, Y., B. Sun & T. Zhang (2022a), Do Polycentric
+  with Thoughts on Local Development Strategies.                  Urban Regions Promote Functional Spillovers
+  Papers in Regional Science 85, pp. 23–46.                       and Economic Performance? Evidence from
+Public Data Portal (2022), SR_SRT Passenger                       China. Regional Studies 56(1), pp. 63–74.
+  Movement Type.                                                Wang, Y., H.Y. Ruan & C.H. Tian (2022b), Access
+Shi, D., L. Wang, X. Zhang & T. Yu (2025), Borrowed               to High-­Speed Rail and Land Prices in China’s
+  Size and Borrowed Administrative Power: Effects                 Peripheral Regions. Cities 130, 103877.
+  of High-­   Speed Rail Network on Industrial                  Yang, W.Y., F. Fan, X.L. Wang & H.C. Yu (2022),
+  Upgrading and Variegated Externalities in the                   Knowledge Innovation Network Externalities in
+  Yangtze River Delta, China. Journal of Transport                the Guangdong-­Hong Kong-­Macao Greater Bay
+  Geography 123, 104113.                                          Area: Borrowing Size or Agglomeration Shadow?
+Sohn, J. (2012), Does City Location Determine                     Technology Analysis & Strategic Management 34(9),
+  Urban Population Growth? The Small and                          pp. 1020–1037.
+  Medium Cities in Korea. Tijdschrift voor Economische          Yang, Y., F. Caset & B. Derudder (2024), Does
+  en Sociale Geografie 103, pp. 276–292.                          Urban Polycentricity Contribute to Regional
+Sohn, C., J. Licheron & E. Meijers (2022), Border                 Economic Growth? Empirical Evidence from a
+  Cities: Out of the Shadow. Papers in Regional Science           Panel of Chinese Urban Regions. Regional Studies
+  101(2), pp. 417–439.                                            58(5), pp. 1018–1032.
+Solis, E., K. Karimi, I. Garcia & I. Mohino                     Zhang, M., J. Xu & C.K.L. Chung (2020), Scalar
+  (2022), Knowledge Economy Clustering at the                     Politics and Uneven Accessibility to Intercity
+  Intrametropolitan Level: Evidence from Madrid.                  Railway in the Pearl River Delta, China. Annals of
+  Journal of the Knowledge Economy 13(2), pp. 1268–1299.          the American Association of Geographers 110(4), pp.
+Sun, B.D., W. Li, Z.Q. Zhang & T.L. Zhang (2019),                 1260–1277.
+  Is Polycentricity a Promising Tool to Reduce                  Zhao, W., Z. Wang & J. Li (2025), Improving the
+  Regional Economic Disparities? Evidence from                    Economic Efficiency of Small and Medium-­Sized
+  China’s Prefectural Regions. Landscape and Urban                Cities in the Yangtze River Delta: What Role for
+  Planning 192, 103667.                                           Borrowed Size? Cities 162, 105954.
+
+
+
+
+© 2025 The Author(s). Tijdschrift voor Economische en Sociale Geografie published by John Wiley & Sons Ltd on behalf of Royal
+                                            Dutch Geographical Society / Koninklijk Nederlands Aardrijkskundig Genootschap.
+

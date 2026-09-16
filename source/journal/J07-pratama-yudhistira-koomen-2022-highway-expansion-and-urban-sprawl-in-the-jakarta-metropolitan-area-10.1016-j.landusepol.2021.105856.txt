@@ -1,0 +1,930 @@
+[PDF Metadata]
+Source PDF: journal/J07-pratama-yudhistira-koomen-2022-highway-expansion-and-urban-sprawl-in-the-jakarta-metropolitan-area-10.1016-j.landusepol.2021.105856.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Highway expansion and urban sprawl in the Jakarta Metropolitan Area
+Subject:         Land Use Policy, 112 (2022) 105856. doi:10.1016/j.landusepol.2021.105856
+Keywords:        Urban development,Urban expansion,Urban sprawl,Instrumental variable,Transport access,the Jakarta Metropolitan Area
+Author:          Andhika Putra Pratama
+Creator:         Elsevier
+Producer:        Acrobat Distiller 8.1.0 (Windows)
+CreationDate:    Thu Dec  9 01:39:03 2021 WIB
+ModDate:         Thu Dec  9 06:26:39 2021 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           11
+Encrypted:       no
+Page size:       595.276 x 793.701 pts
+Page rot:        0
+File size:       3227313 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                                        Land Use Policy 112 (2022) 105856
+
+
+                                                                    Contents lists available at ScienceDirect
+
+
+                                                                           Land Use Policy
+                                                       journal homepage: www.elsevier.com/locate/landusepol
+
+
+
+
+Highway expansion and urban sprawl in the Jakarta Metropolitan Area
+Andhika Putra Pratama a, b, *, Muhammad Halley Yudhistira a, b, Eric Koomen c
+a
+  Institute for Economic and Social Research, Faculty of Economics and Business, Universitas Indonesia, Indonesia
+b
+  Research Cluster of Urban and Transportation Economics, Department of Economics, Universitas Indonesia, Indonesia
+c
+  Department of Spatial Economics, Spatial Information Laboratory (SPINlab), Vrije Universiteit Amsterdam, Amsterdam, The Netherlands
+
+
+
+
+A R T I C L E I N F O                                     A B S T R A C T
+
+Keywords:                                                 Transport development is widely recognized as one of the major drivers in shaping urban forms. While recent
+Urban development                                         literature has documented the urban expansion effect of transport networks between cities, little is known about
+Urban expansion                                           the effect within larger metropolitan areas. This study aims to find the causal relationships between highway
+Urban sprawl
+                                                          expansion and two different aspects of urban development: urban expansion and urban sprawl in the Jakarta
+Instrumental variable
+Transport access
+                                                          Metropolitan Area (JMA). To obtain the causal effect, we employ historic transport infrastructure as instrumental
+the Jakarta Metropolitan Area                             variables. Our results show that improvement in highway access increases urban sprawl within the JMA,
+                                                          particularly within 40–50 km radius from the city centre. The results also confirm the existence of highway-led
+                                                          urban expansion in several districts within the JMA over the last three decades. This paper adds a piece of
+                                                          enticing evidence that highway expansion leads to a sprawling development of urban areas even within a large
+                                                          metropolitan area.
+
+
+
+
+1. Introduction                                                                                 2015), which are commonly referred to as urban sprawl (Burchfield
+                                                                                                et al., 2006), are a relatively new phenomenon in developing countries.
+    Transport networks are closely linked to urban development. The                             As this urban development process is directly associated with various
+classic monocentric model suggests that people began to move away                               aspects of human life,1 understanding its relationship with these aspects
+from city centres as commuting costs fell, causing urban areas to expand                        is imperative when examining whether urban areas remain liveable
+(Glaeser and Kahn, 2003). This process promotes faster employment and                           amid continuous improvements in transport networks.
+population growth in fringe urban areas, creating suburbanisation                                   The discussion on the effect of transport development on urban
+(Baum-Snow, 2007; Garcia-López et al., 2015; Garcia-López, 2012;                              sprawl has advanced considerably in the last few decades. Recent
+Yudhistira et al., 2019). While this process is discussed extensively in                        literature seeks to provide more precise urban sprawl measurements and
+relation to the outward growth (expansion) of urban areas in developed                          aims to deliver more rigorous empirical strategies to examine the causes
+countries, less is known about how the transport network affects urban                          of urban sprawl. Brueckner and Fansler (1983) pioneer the discussion to
+land use within metropolitan areas in developing countries, where car                           find a negative relationship between transport and urban land area.
+dependency is a relatively new phenomenon. Further, these metropol­                             McGrath (2005) measures urban sprawl as the total urbanised land area
+itan areas are typically much larger and grow much faster than their                            and uses the consumer price index for private transport as a proxy for
+counterparts in developed countries. Such extensive, polycentric urban                          transport costs. The study finds that they are negatively correlated with
+agglomerations are characterised by complex patterns in which high-                             spatial sizes of US metropolitan regions and confirms that fundamental
+and low-density developments alternate at relatively short distances.                           economic factors such as transport costs can directly impact urban scale.
+Each development may have its own relationship with improvements in                             A more sophisticated measurement that Burchfield et al. (2006) propose
+transport infrastructure. Furthermore, low-density developments asso­                           uses detailed spatial data to calculate the percentage of undeveloped
+ciated with the advent of a more affluent middle class (Winarso et al.,                         land surrounding residential land (the sprawl index) as an indicator for
+
+
+
+  * Corresponding author at: Institute for Economic and Social Research, Faculty of Economics and Business, Universitas Indonesia, Indonesia.
+    E-mail addresses: andhika.putra11@ui.ac.id, andhika.pratama@lpem-feui.org (A.P. Pratama).
+  1
+    A wealth of literature has documented the complex relationship between urban sprawl and the urban environment (Gordon et al., 1989; Levinson and Kumar,
+1994; Glaeser and Kahn, 2010; Newman and Kenworthy, 1989), labour productivity (Fallah et al., 2011), local public goods provision (Solé-Ollé and Rico, 2008),
+crime rates (Fallah et al., 2011), social and economic mobility (Ewing et al., 2016), and inequality (Lee et al., 2018).
+
+https://doi.org/10.1016/j.landusepol.2021.105856
+Received 20 December 2020; Received in revised form 1 September 2021; Accepted 31 October 2021
+Available online 18 November 2021
+0264-8377/© 2021 Elsevier Ltd. All rights reserved.
+A.P. Pratama et al.                                                                                                              Land Use Policy 112 (2022) 105856
+
+
+sprawling development. The study uses streetcar passengers as a proxy             developing countries, is a fast-changing urban structure (World Bank,
+for transport infrastructure to find that sprawling development occurs            2015). The outcomes of this study contribute to an understanding of the
+predominantly in more car-centric cities, confirming private transport’s          externalities associated with urban sprawl led by highway expansion.
+role in explaining urban sprawl. However, these studies do not point out          Finally, our analysis contributes to the literature that explores the po­
+any causal relationship between a transport network and urban sprawl.             tential for using satellite data in examining urban sprawl phenomena.
+Garcia-López (2019) is the most recent researcher to seek causality be­          Our measurements follow recent satellite data applications that yield
+tween transport development and urban sprawl. By employing historical             urban sprawl indicators such as urban land expansion (Ahrens and
+transport networks as an instrument, the study finds that highway stocks          Lyons, 2019; Deng et al., 2008; Oueslati et al., 2015), the sprawl index
+expand residential land areas, increase the fragmentation of urban lots           (Burchfield et al., 2006) and the fragmentation of urban land (Gar­
+and induce the development of undeveloped land surrounding resi­                  cia-López, 2019). The data also allows us to use multiple urban sprawl
+dential land. This study, however, indicates that such a phenomenon               indicators instead of using a single measurement, as previous studies do
+only occurs between cities.                                                       (Brueckner and Fansler, 1983; Burchfield et al., 2006; McGrath, 2005).
+    This paper examines how transport networks influence the dynamics                 The remainder of this paper is organised as follows: Section 2 pro­
+in land use within an urban area, distinguishing between urban expan­             vides background information on urban land use and the development of
+sion in general and urban sprawl in particular. We define urban                   highways in the JMA. Section 3 describes the urban sprawl measure­
+expansion as the increase in built-up land observable with satellite data.        ments and sources of data used in this study. Section 4 introduces our
+This includes expansion in residential land, commercial areas and other           identification of the strategy, and Section 5 discusses the results. Finally,
+human settlements. Urban expansion is indicated by changes in land use            the last section concludes the study.
+from a previously non-urban into an urban area. In contrast, we define
+urban sprawl as scattered developments in urban areas. An increase in             2. Context: land and highway development in the Jakarta
+urban sprawl thus means that the number of isolated developments on               Metropolitan Area
+urban land has increased. To measure this condition, we use the sprawl
+index that Burchfield et al. (2006) introduce.                                    2.1. The land sprawling process
+    We study the Jakarta Metropolitan Area (JMA), one of the fastest-
+growing urban areas in Asia. Over the past 30 years, the JMA has                      Indonesia has the third-largest amount of urban area in East Asia,
+experienced a substantial increase in population and urban areas,                 and this is growing rapidly. Its urban area growth rate of 1.1% per year
+especially in suburban areas. As in many other metropolitan areas in              between 2000 and 2010 was second only to mainland China’s. Jakarta is
+Southeast Asia, spatial planning did not control the urban expansion              the most densely populated metropolitan area in Indonesia; with only
+process. Instead, it seems to have been guided by the presence of existing        12% of the country’s built-up land, it houses approximately 20% of its
+infrastructure. We construct urban land expansion and sprawl indices,             urban population. In addition, the JMA ranks as the second-densest
+which Garcia-López (2019) introduces, using high-resolution spatial              urban area in East Asia (World Bank, 2015). The JMA experienced an
+data from the Global Human Settlement Layer (GHSL) framework. This                annual population growth rate of 2.8% between 2000 and 2010.2
+newly released dataset documents the changes in land-use patterns                 Moreover, urban density in the JMA increased from 12,200 persons/km2
+within metropolitan areas worldwide that were obscured in the coarser,            of urban land in 2000 to more than 14,600 in 2010. This indicates that
+regional-level statistics hitherto available for this type of research. To        the benefits of agglomeration in the JMA are still attractive enough to
+address potential non-random processes of improving highway access,               attract more people to live and work in the area. The development of the
+we exploit aspects of the historical transport infrastructure that the            built-up area in the JMA can be seen in Fig. 1. The green area depicts the
+colonial rulers built in the early 20th century as potential instrumental         new built-up area developed between 1990 and 2015.
+variables. We assume that the historical transport network is strongly                The growth, however, differs throughout the JMA. The city of
+associated with the transport network today but is less likely to corre­          Jakarta’s population grows more slowly than its surrounding suburbs,
+spond with today’s urban land use (Baum-Snow, 2007; Duranton and                  and the share of JMA’s population living in the city of Jakarta has
+Turner, 2012).                                                                    decreased by 5%.3 The trend of decreasing population density in the
+    The present study aims to explore the causal effect of highway                centre of Jakarta started in the 1970s. During the 1990s, Jakarta entered
+expansion on urban sprawl within cities. Previous studies use the pop­            its suburbanisation stage, while similar metropolitan areas such as
+ulation density and economic activity in each region to investigate the           Metro Manila and Bangkok were still in a pre-suburbanisation stage
+impact of transport development within cities (Garcia-López, 2012;               (Murakami et al., 2005). The urban development of the JMA is also
+Yudhistira et al., 2019). In urbanised agglomerations of developing               characterised by a typical suburbanisation sprawl along its development
+countries where land-use planning is less binding, such as the JMA, the           corridors (Goldblum and Wong, 2000). This process is common in
+built-up area is likely to increase, particularly in city suburbs, as high­       Southeast Asian and North American megacities (Silver, 2007), possibly
+ways expand. However, such improvements increase the sprawl index                 because of the emergence of suburban housing markets led by the
+and hinder development toward a more compact structure that could                 growing affluence of the suburban population and the increasing
+otherwise be created.                                                             importance of the private sector in the land development process
+    This paper contributes to the existing literature on estimating the           (Winarso and Firman, 2002; Winarso et al., 2015). Spatial regulation in
+relationship between transport infrastructure and urban land use. We              the JMA is also considered inconsistent and fragmented since it includes
+provide empirical evidence on how transport infrastructure shapes                 various authorities with different ideas and priorities (Hudalah and
+urban land use within cities, focusing specifically on the scattered              Woltjer, 2007). Therefore, spatial regulation within the JMA may be less
+development of urban land (sprawl) and urban land expansion. The                  binding than in other metropolitan areas within Southeast Asia. These
+results improve our understanding of how transport development affects            less-binding regulations may further increase the sprawling and
+urban sprawl differently within cities and between cities. While                  dispersed development of the JMA and foster the inefficient provision of
+transport-induced urban sprawl is studied between cities in Europe
+(Garcia-López, 2019) and between cities in the US (Burchfield et al.,
+2006), little is known about its effect within metropolitan areas in               2
+                                                                                      Author’s calculation using population census data from the National Bureau
+developing countries. We show that transport development still nega­              of Statistics (BPS, 2010). Population growth calculated using the compound
+tively affects urban land convergence, causing a slower convergence rate          annual growth rate for the 10 years.
+in regions with better transport development. Our study is also of in­              3
+                                                                                      Author’s calculation using population census data from the National Bureau
+terest internationally because the JMA, like other megacities in                  of Statistics (BPS, 2010).
+
+                                                                              2
+A.P. Pratama et al.                                                                                                       Land Use Policy 112 (2022) 105856
+
+
+
+
+Fig. 1. Land-use changes in the JMA in 1990–2015.
+Source: The Global Human Layer Settlement, European Commission (2018).
+
+
+essential services within the area (Silver, 2007).                             layer of the Jakarta Outer Ring Road (JORR II). Fig. 2 depicts the
+                                                                               highways that existed in 1989 in green, the current highway rays in blue
+                                                                               and the expansion plan until 2030 in red.
+2.2. Highway development
+                                                                                   Improvements in transport infrastructure in the JMA over the last
+                                                                               three decades have occurred in line with the economic and land-use
+    Extensive highway development in the JMA started with the con­
+                                                                               development that has taken place there. This has resulted in an in­
+struction of the Jagorawi toll road in 1973, which was used to improve
+                                                                               crease in industrial estates and residential towns in the suburbs
+the connection between Jakarta and Bogor in the southeast. The effort to
+                                                                               (Hudalah et al., 2013), industrial and population decentralisation
+connect Jakarta and its periphery continued with the development of
+                                                                               (Henderson et al., 1996) and the transformation of rural land to new
+new toll roads to Tangerang (1984) and Cikampek (1988), as well as the
+                                                                               towns in the peri-urban area of Jakarta. Over 300,000 ha of rural land
+development of the Jakarta Inner Ring Road (1989). Since 1990, no less
+                                                                               was transformed into new towns, mostly located in the peri-urban area
+than 150 km of highway have been built in the area. The national
+                                                                               of Jakarta, causing the urban area of the JMA to expand from 10 km2 in
+highway authorities plan to further expand the highway networks inside
+                                                                               1970–40 km2–45 km2 in 2015 (Fitriyanto et al., 2019). The
+the JMA until 2030, notably through the construction of the second
+
+
+
+
+Fig. 2. Highway development in the JMA.
+Source: National Highway Authority (2019).
+
+                                                                           3
+A.P. Pratama et al.                                                                                                                      Land Use Policy 112 (2022) 105856
+
+
+development of the JMA was influenced not only by the toll road                        3.1.1. Data
+network but also by the revitalisation of the railway network. The Dutch                   In this study, we use the GHSL data from the Joint Research Centre of
+constructed most of the railway lines in Indonesia, including the JMA                  the European Commission. This data is derived from the Landsat image
+railway network, during the colonial era. The JMA railways were                        collection available for the years 1990, 2000 and 2014 at a spatial res­
+abandoned after Indonesia’s independence in 1945 but were then                         olution of 38 m. A cell contains a value of one if it is considered built-up
+revived in the 1970s by the national railway corporation (PNKA). Since                 and, otherwise, zero. With regard to transport development, different
+the early 1990s, the national railway authority has gradually reopened                 proxies of transport costs are discussed in the literature that examines
+old lines, such as Tanah Abang–Serpong (1992), Jakarta–Bekasi (1992),                  the impact of transport on urban development. They include the per­
+Duri–Tangerang (1997) and Serpong–Parung Panjang (2009).                               centage of people using public transport and the percentage of people
+                                                                                       owning automobiles (Brueckner and Fansler, 1983), as well as the length
+3. Data construction                                                                   of highways (Garcia-López, 2019; Oueslati et al., 2015) and time spent
+                                                                                       on commuting (Ahrens and Lyons, 2019). In this study, we use change in
+3.1. Measuring urban sprawl                                                            distance to the nearest highway ramp as a measure of transport
+                                                                                       improvement.
+    A wealth of literature discusses ways to measure urban development                     To control for exogenous distance variables (distance to the nearest
+and, specifically, urban sprawl. In this paper, we quantify urban devel­               railway station, district centres and coastline), we use topographic data
+opment using two indicators: the sprawl index and an urban land                        from OpenStreetMaps (OSM) as a baseline. The data is then cross-
+expansion metric. The first applied sprawl index was introduced to                     checked with various sources, such as the National Highway Authority
+describe how often residential development occurs more than a certain                  of Indonesia, KAI Commuter Jabodetabek (the railway authority) and
+distance away from existing urban developments (Burchfield et al.,                     the Indonesian Geospatial Information Agency (BIG). This ensures that
+2006). The index is generated by calculating the share of open space in                there is no significant difference causing measurement bias in our cal­
+the direct surroundings of a built-up cell and then averaging the values               culations. To calculate geographical variables (elevation and the terrain
+for all built-up cells per unit of analysis. An increase in the sprawl index           ruggedness index), we employ official digital elevation maps data from
+over time can be interpreted as an increase in built-up cells isolated from            BIG using the finest resolution of 12 m2 spatial units. Lastly, to avoid the
+other artificial land, indicating the more scattered development of res­               modifiable areal unit problem that arises due to substantial differences
+idential areas. Ahrens and Lyons (2019) and Garcia-López (2019)                       among administrative areas in Jakarta, city suburbs and other suburbs,
+employ a similar indicator. The second indicator is urban land expan­                  we divide our unit of analysis into identical 4 km2 areas (2 km × 2 km
+sion, which is defined as the increase in the urban area in a particular               spatial units), as others advocate (Jacobs-Crisioni et al., 2014). A more
+region as a fraction of the initial urban area. It indicates that a region is          detailed description of each variable with key statistics is presented in
+experiencing urban growth, irrespective of the pattern.                                Appendix 1.
+    The difference between the sprawl index and urban expansion is
+shown in Fig. 3. Each cell represents a 1 km2 area, and T0 is the initial              4. Identification strategy
+condition of a district. Urban land expansion is defined as the increase in
+built-up cells in a particular year since the base year. In T1-A, there is a               Based on previous empirical studies that evaluate the effects of
+5 km2 increase in built-up cells compared to T0 (urban expansion equals                infrastructure development (Baum-Snow, 2007; Garcia-López, 2019;
+0.5), while in the alternative development option T1-B, urban expansion                Yudhistira et al., 2019), we estimate the effect of highway expansion on
+equals 0.3 (3 km2). To determine the sprawl index, we first calculate the              urban sprawl as follows:
+percentage of open space in the eight cells directly neighbouring each
+built-up cell. The sprawl index for each district is calculated by aver­               ∆ln(yi ) = α0 + α1 ∆(dist.to ramps)i + βxi + ei                                (1)
+aging the numbers for every built-up cell within a district. As shown in
+Fig. 3, the sprawl index for T1-A is lower (0.34) than that of T1-B (0.48),            where yi refers to two variables capturing the degree of sprawling
+indicating a higher degree of the sprawling development of urban areas                 development: (a) the percentage of undeveloped land surrounding the
+in T1-B. Fig. 3 illustrates that substantial urban expansion can result in a           built-up cell (sprawl index), implying a scattered development, and (b)
+lower sprawl index. However, even with less expansion, the sprawl                      the built-up area (in km2), indicating urban land expansion. Our main
+index can also increase.                                                               variable of interest is the change in distance to highway ramps from
+                                                                                       1990 to 2014, indicating an improvement in access to transport in the
+                                                                                       JMA. xi is a set of control variables consisting of initial developments,
+
+
+
+
+Fig. 3. Illustration of the urban expansion and sprawl index calculations. Note: red cells indicate the built-up area and white cells the non-built-up area. The number
+inside each built-up cell represents the percentage of undeveloped cells surrounding the built-up cell. (For interpretation of the references to colour in this figure
+legend, the reader is referred to the web version of this article.)
+
+                                                                                   4
+A.P. Pratama et al.                                                                                                           Land Use Policy 112 (2022) 105856
+
+
+distance (distance to railway stations, district centres and coastlines)         we ignore any potential for railways to induce urban sprawl. We
+and geographical variables (elevation and terrain ruggedness index). As          consider the small statistical significance in Yudhistira et al.’s (2019)
+the regression is expressed as the difference in the log, γ represents           recent study as the main reason to ignore this causal impact.
+percentage point changes in the degree of sprawling development                      Relevance and exogeneity conditions should be met for our in­
+associated with a 1 km change in the distance to highway ramps. The              struments to be valid. Under the relevance condition, the instruments
+descriptive statistics of these variables are presented in Appendix 1.           used in the second-stage estimation should not be weak. The Klei­
+    The difference in log expression enables us to control for unobserved        bergen–Paap F-statistic of instruments used in two-stage least squares
+time-invariant heterogeneity that may correlate with the highway and             (TSLS) regressions need to exceed the size and relative bias critical value
+urban sprawl expansion. We include some time-invariant variables and             to reject the null hypothesis of weak instruments (Stock and Yogo,
+the initial land development or urban sprawl index as controls to ac­            2005). For an instrument to be suitable for our TSLS estimation, the
+count for the possibility that these variables may correlate with the            first-best option is to choose an instrument that satisfies not only the
+improvements in highways and determine the change in urban sprawl.               validity criteria but also the following conditions: (1) It significantly
+    Estimating Eq. (1) using the ordinary least squares (OLS) may still          affects the endogenous variables (first stage), and (2) it significantly
+produce biased results due to the reverse causality problem: It is plau­         affects the outcome variables (reduced form). Previous studies, how­
+sible that urban development fosters highway expansion. To address this          ever, do not always provide the first-best instruments for analysis due to
+issue, we adopt an instrumental variable estimation method using his­            insignificant results for the reduced-form estimations (Garcia-López,
+torical roads and railways from Fig. 4 as potential instruments. Histor­         2012; Yudhistira et al., 2019). To overcome this problem, we prioritise
+ical transport infrastructure, such as roads and railways are commonly           the first-stage estimation results in choosing which instruments to use. In
+used as instruments since they are exogenous to today’s urban land use,          a less restrictive way, Yudhistira et al. (2019) choose the instruments by
+but strongly associated with current transport network development               looking at which instruments produce stronger F-statistics in the
+(Baum-Snow, 2007; Duranton and Turner, 2012).                                    second-stage estimations.
+    To account for this identification issue, we use the distance to his­            Fig. 5a and b depict the relationship between the distance to his­
+torical transport to predict the improvement in highway access at the            torical roads and changes in distance to the nearest highway ramps, also
+first stage and the predicted value of the improvement to estimate the           indicating our first-stage relationship between these variables. The fig­
+effect on urban sprawl at the second stage, as follows:                          ures indicate that areas nearer historical roads experience greater
+                                                                                 improvement in highway access. In Fig. 6, we show the correlation be­
+∆ln(dist.to rampi ) = γ0 + γ 1 (dist.to hist.road)i + θxi + ui        (2)
+                                                                                 tween the distance to historical roads and our urban development
+                                                                                 indicators—urban expansion and the sprawl index—as an uncontrolled
+                            ^ ramp ) + πxi + ϵi
+∆ln(yi ) = ϕ0 + ϕ1 ∆ ln(dist.to                                       (3)
+                                  i                                              association between these variables. We find that greater urban expan­
+                                                                                 sion and more scattered development are located in areas that experi­
+where ∆ ln(dist.to
+                ˆ rampi ) is the predicted change in highway access.
+                                                                                 ence greater improvement in highway access.
+Since these instruments may not be placed randomly due to the influ­                 The exogeneity condition requires that the instruments do not
+ence of other factors, it is important to control for initial urban devel­       directly affect the outcome variables but are channelled through the
+opment and geographical variables as well (Garcia-López, 2012). Thus,           endogenous variables. In this case, we use transport infrastructure built
+we prefer to use the full-specification model to control for initial urban       a century or more ago, and we argue that it is unlikely that this was built
+development, distance and geographical variables. In this paper, by              in anticipation of the current urban spatial patterns (Garcia-López,
+controlling for the distance to the nearest railway station, we                  2012). To check for the validity of this assumption, we employ a similar
+acknowledge the role of a railway network in shaping urban forms, but            approach to Aladangady (2017) to check whether other determinants of
+
+
+
+
+Fig. 4. Historical roads in the Jakarta Metropolitan Area.
+Source: Dutch Colonial Maps—Leiden University Library (2019).
+
+                                                                             5
+A.P. Pratama et al.                                                                                                                 Land Use Policy 112 (2022) 105856
+
+
+
+
+                                     Fig. 5. Distance to historical roads after improvement in access to highway ramps.
+
+
+
+
+                                         Fig. 6. Changes in urban sprawl indicators and distance to historical roads.
+
+
+urban forms are significantly correlated with the instruments at the
+                                                                                  Table 1
+sub-district level. We use non-transport infrastructure data for the year
+                                                                                  Effect of excluded instruments on sub-district level variables.
+of 2000 from the National Village Potential Survey as other potential
+channels of historical roads to affect changes in urban forms from 1990            Instruments:           Distance to 1924      Distance to 1924     Number of
+                                                                                                          Secondary Road        Collector Road       sub-districts
+to 2014.
+                                                                                                          (1)                   (2)                  (3)
+    In Table 1, we regress other determinants of urban forms, including
+                                                                                   Number of primary      0.028                 -0.101               106
+number of primary schools, district health centres, markets, and poor
+                                                                                    schools
+households in the year of 2000 on distance to historical roads. These                                     (0.111)               (0.070)
+variables represent non-transport facilities located in each sub-district.         Number of district     -0.074                -0.139               104
+The presence of such facilties may correspond to different urban forms              health centres
+(Zhang, 2001; De Vos and Witlox, 2013), however, we expect that it is                                     (0.066)               (0.095)
+                                                                                   Number of markets      -0.121                -0.076               106
+exogenous to where historical roads are located and thus bears no sig­
+                                                                                                          (0.090)               (0.073)
+nificant relation with them. Our estimated coefficients in columns (1)             Number of poor         -0.070                0.049                106
+and (2) in Table 1 suggest that exogeneity of the instruments is indeed a           households
+plausible assumption.                                                                                     (0.068)               (0.118)
+
+                                                                                  Note: robust standard error in parentheses. *, **, *** indicate statistical signif­
+5. Results and analysis                                                           icance at the 10%, 5% and 1% levels, respectively. Each row represents a
+                                                                                  separate regression of determinants of urban forms on historical roads. Esti­
+5.1. Ordinary least squares estimation                                            mation is in natural logarithm form conditional on geographic and distance
+                                                                                  variables. Distance variables include distance to the nearest railway station,
+   For descriptive purposes, we present the OLS results for urban                 distance to central Jakarta, distance to the central district and distance to the
+expansion and the sprawl index in Table 2. Column (1) shows a negative            coastline. Geographical variables include elevation and the terrain ruggedness
+                                                                                  index. See Appendix 1 for a more extensive description of these variables.
+correlation between changes in distance to the nearest highway ramps
+and changes in the sprawl index. The magnitude, however, becomes
+smaller as we control for distance and geographical variables, as shown           3.8% increase in scattered development within the JMA. We provide a
+in Columns (2) and (3). Our preferred specification in Column (3) in­             similar estimation for urban land expansion presented in Columns (4),
+dicates that a 1 km improvement in access to a highway corresponds to a           (5) and (6). Since we define changes in distance to nearest highway
+
+
+                                                                              6
+A.P. Pratama et al.                                                                                                                                 Land Use Policy 112 (2022) 105856
+
+
+Table 2
+OLS Estimation—Jakarta Metropolitan Area.
+  Dependent variable                               ∆ ln (sprawl index)                                                       ∆ ln (built-up area)
+
+  Method                                           OLS                       OLS                    OLS                      OLS                     OLS                   OLS
+                                                   (1)                       (2)                    (3)                      (4)                     (5)                   (6)
+
+  ∆ distance to nearest highway ramp               − 0.048***                − 0.046***             − 0.038***               0.054***                0.026***              0.016***
+                                                   (0.004)                   (0.004)                (0.004)                  (0.004)                 (0.004)               (0.004)
+  ln (sprawl index – 1990)                         N                         Y                      Y                        N                       Y                     Y
+  ln (built-up area – 1990)
+  Distance                                         N                         Y                      Y                        N                       Y                     Y
+  Geography                                        N                         N                      Y                        N                       N                     Y
+  Observations                                     1421                      1421                   1421                     1421                    1421                  1421
+  Mean of dependent variables                      − 0.282                   − 0.282                − 0.282                  0.342                   0.342                 0.342
+  Adjusted R2                                      0.048                     0.309                  0.332                    0.041                   0.495                 0.510
+
+Note: robust standard error in parentheses. *, **, *** indicate statistical significance at the 10%, 5% and 1% levels, respectively. Distance variables include distance to
+the nearest railway station, distance to central Jakarta, distance to the central district and distance to the coastline. Geographical variables include elevation and the
+terrain ruggedness index. See Appendix 1 for a more extensive description of these variables.
+
+
+ramps as distance to nearest ramps in 2015 minus the distance in 1990,                        secondary and collector roads are statistically significant in explaining
+the areas experiencing the biggest improvement has a larger negative                          the variation in highway access improvement. The results statistically
+value than those who experienced smaller improvement. Our preferred                           satisfy the correlation condition, thus allowing its application as an
+OLS result controlling for distance and geographical variables produces                       instrumental variable. The exogeneity condition for these historical
+a positive correlation between changes in the distance to highway ramps                       roads is met, as they are unlikely to directly affect urban development.
+(2015–1990) and new, built-up areas. This implies that improvement in                         Meanwhile, when new highway rays are built, these roads are consid­
+access to the nearest highway ramps is associated with a low level of                         ered to take into account accessibility to the highway (Garcia-López,
+urban expansion in the JMA. A 1 km improvement in access to the                               2012). Since two of these conditions are met, we will use these variables
+nearest highway ramp corresponds to a 1.6% reduction in urban                                 as instruments. The estimated coefficients indicate that proximity to
+expansion within the JMA. These results, however, may well be invalid                         historical roads corresponds to a smaller improvement in the distance to
+due to a reverse causality bias. Therefore, we present the instrumented                       the nearest highway ramp. This suggests that newly built highways tend
+variable approach in the next section.                                                        to be located away from existing road networks, possibly for economic
+                                                                                              or political reasons (Garcia-López, 2012).
+
+5.2. Two-stage least squares estimation                                                       5.2.2. The effects of transport improvement on urban form
+                                                                                                  We use the distances to 1924 secondary and collector roads sepa­
+5.2.1. First-stage estimates                                                                  rately as instruments. When we control for initial urban development,
+    The first-stage OLS estimates the effect of proximity to historical                       distance and geographical variables, our selected instruments produce
+infrastructure on improvement in highway access (see Table 3). Col­                           high F-statistics in all specifications, indicating that our instruments are
+umns (1) and (2) in Table 3 include the sprawl index for 1990, repre­                         not weak. In Table 4, Columns (1) and (2) present the effects of an
+senting the first-stage estimation for the sprawl index. Meanwhile,                           improvement in highway access in the sprawl index within the JMA. On
+Columns (3) and (4) use the initial built-up area in 1990 as a control for                    average, areas in the JMA have been experiencing a lower sprawl index
+the initial development of urban settlement and thus show the first-stage                     throughout 1990–2014 (see Appendix 1), indicating that new land de­
+estimation result for urban expansion. Our results show that the 1924                         velopments in the JMA tend to converge with the initial developments.
+                                                                                              However, after controlling for the exogenous variables related to land
+Table 3
+First-stage estimation.
+                                                                                              Table 4
+  Dependent variable       First-stage estimates
+                                                                                              The effect of transport development on urban sprawl.
+                           ∆ distance to the nearest highway ramp
+                                                                                               Dependent variable                  ∆ ln (sprawl index)          ∆ ln (built-up area)
+                           (1)           (2)              (3)            (4)
+                                                                                               Method                              TSLS         TSLS            TSLS        TSLS
+  Distance to 1924         − 0.128***                     − 0.178***
+                                                                                                                                   (1)          (2)             (3)         (4)
+    secondary road
+                           (0.022)                        (0.024)                              ∆ distance to the nearest           − 0.066**    − 0.096***      − 0.032     − 0.009
+  Distance to 1924                       − 0.188***                      − 0.213***              highway ramp
+    collector road                                                                                                                 (0.029)      (0.032)         (0.024)     (0.020)
+                                         (0.030)                         (0.029)               ln (sprawl index—1990)              Y            Y
+  ln (sprawl               Y             Y                                                     ln (built-up area—1990)                                          Y           Y
+    index—1990)                                                                                Distance                            Y            Y               Y           Y
+  ln (built-up                                            Y              Y                     Geography                           Y            Y               Y           Y
+    area—1990)                                                                                 Observations                        1421         1421            1421        1421
+  Distance                 Y             Y                Y              Y                     Mean                                − 0.282      − 0.282         0.342       0.342
+  Geography                Y             Y                Y              Y                     Kleibergen–Paap F-statistic         38.83        38.55           56.02       53.99
+  Observations             1421          1421             1421           1421                  Instruments
+  Mean of dependent        − 1.239       − 1.239          − 1.239        − 1.239               Distance to 1924 secondary          ✓                            ✓
+    variables                                                                                    road
+  Adjusted R2              0.236         0.243            0.243          0.249                 Distance to 1924 collector road                  ✓                           ✓
+
+Note: robust standard error in parentheses. *, **, *** indicate statistical signif­           Note: robust standard error in parentheses. *, **, *** indicate statistical signif­
+icance at the 10%, 5% and 1% levels, respectively. Distance variables include                 icance at the 10%, 5% and 1% levels, respectively. Distance variables include
+distance to the nearest railway station, distance to central Jakarta, distance to             distance to the nearest railway station, distance to central Jakarta, distance to
+the central district and distance to the coastline. Geographical variables include            the central district and distance to the coastline. Geographical variables include
+elevation and the terrain ruggedness index.                                                   elevation and the terrain ruggedness index.
+
+                                                                                          7
+A.P. Pratama et al.                                                                                                                       Land Use Policy 112 (2022) 105856
+
+
+use, the estimated coefficients show that a 1 km improvement in high­                     sign but with a low Kleibergen–Paap F-statistic value, which indicates
+way access increases the sprawl index by 6.6–9.6%. It further indicates                   that the instrument is weak for explaining the effect in this sub-sample.
+that highway expansion hinders the process of more compact develop­                       The impact of the distance to the nearest highway ramp on the re­
+ment within the JMA.                                                                      gressions for the JMA and surrounding districts varies from 8% to 12%,
+    Our preferred OLS coefficient provides a slight underestimation                       implying a slightly larger effect than that of our main result in Column
+compared to its TSLS counterpart, largely due to not controlling for the                  (2) of Table 3. The larger effect may be caused by a combination of low
+reverse causality bias. In terms of magnitude, by comparing the                           land value in surrounding districts and the absence of strict land con­
+magnitude of the means, our estimated coefficients have a considerably                    version regulations. As such, it is easier to achieve land conversion in the
+high magnitude. Thus, it is important to be meticulous in interpreting                    surrounding districts of the JMA. Columns (6) to (8) show our estimated
+the results. In examining the effect on urban land expansion, our TSLS                    coefficients when we limit our JMA sample area to 30 km, 40 km or
+coefficients show no statistical evidence of transport-led urban land                     50 km from central Jakarta. Our results indicate that the effect is
+expansion in the JMA. Our estimated coefficient provides a different                      negligible and statistically insignificant within a radius of 30 km but
+effect than its OLS counterpart, indicating an overestimated result in our                evident within 40 km (4.7%) and even larger within 50 km (10.2%). As
+OLS coefficient due to a reverse causality bias.                                          an additional robustness check, we apply a similar approach as Gar­
+    To further examine the effect of transport development on urban                       cia-López (2019) and reduce our sample by excluding the bottom 5%
+land expansion, we perform a similar approach at the sub-sample level.                    and 10%, as well as the top 5% and 10%, of our observations (see
+We divide the JMA into three sub-samples (Jakarta, city suburbs and                       Table 6, Columns [9] to [12]). The results are robust for the top 5% and
+other suburbs) by considering their administrative category. Table 5                      10% exclusion but become insignificant when excluding the bottom 5%
+presents the sub-sample results for urban expansion. We use distance to                   and 10% of the observations.
+the historical 1815 Anyer–Panarukan road as an instrument for Jakarta.                         In addition to changing the number of observations, we check the
+In contrast, for city suburbs and other suburbs, we select the distance to                robustness of our results by using different spatial units and data sour­
+the old railway station and the 1924 secondary roads. All of our in­                      ces. The main result using a 2 km × 2 km spatial unit is repeated in the
+struments are not considered weak according to their high Klei­                           first column of Table 7, while Column (2) shows the impact of using
+bergen–Paap F-statistics. Our estimated coefficients for Jakarta and                      larger 3 km × 3 km spatial units and fewer observations. Our estimated
+other suburbs are not statistically different from zero, indicating that                  coefficient in Column (2) is consistent with our main TSLS results and
+urban expansion is not caused by highway expansion. Our estimates for                     still indicates a negative relationship between improvement in highway
+city suburbs, however, show a negative effect that is statistically                       access and the sprawl index. The magnitude of the coefficient is lower
+different from zero. A 1 km improvement in the distance to a highway                      than that of our main result in Column (1) and only statistically signif­
+ramp induces the expansion of urban areas by 1.6%. It confirms the                        icant at the 10% level. Therefore, we prefer the results obtained at the
+existence of transport-led urban expansion within the city suburbs. To                    more detailed level.
+complement the analysis, we also add sub-sample results for the sprawl                         Finally, we test the impact of using an alternative dataset for
+index in Appendix 4.                                                                      capturing urban development. For this dataset that the European Space
+                                                                                          Agency’s Climate Change Initiative (ESA CCI) provided, we also apply
+5.2.3. Robustness check                                                                   2 km and 3 km spatial units. Again, the results are consistent with our
+    To check the consistency of our estimations, we perform similar es­                   main result, but the magnitude is substantially higher than that of our
+timations using different spatial units, samples and datasets (see Ta­                    preferred estimation. This stronger impact may be related to the
+bles 6 and 7). In Table 6, Columns (1) to (5) present the estimation                      different resolutions of the data. A larger resolution overestimates the
+results when adding one district adjacent to the JMA to the observations.                 existence of small open spaces; it may neglect the local spatial variation
+We estimate the effect of improvements in highway access on urban                         caused by urban green space, rivers, etc. Our main estimation uses the
+sprawl using the same instrument (the 1924 collector roads) as our main                   GHSL data of 38 m spatial resolution, where the ESA CCI data is pro­
+estimation in Column (2) of Table 3. The addition of one district located                 vided at 300 m spatial resolution.
+adjacent to the JMA produces a result consistent with our main esti­                           We also perform numerous robustness checks related to urban
+mation. The only opposite effect is observed when JMA is combined                         expansion, as shown in Appendix 5. Most of the specifications produce
+with the Serang District. The estimated coefficient results in a positive                 no statistical evidence of transport-led urban expansion in the JMA.
+
+
+Table 5
+The effect of changes in transport access and urban land expansion in JMA regions.
+  Dependent variable                                 ∆ ln (built-up area)
+
+  Sample                                             Jakarta                                   City suburbs                                Other suburbs
+
+  Method                                             OLS                    TSLS               OLS                 TSLS                    OLS                    TSLS
+                                                     (1)                    (2)                (3)                 (4)                     (5)                    (6)
+
+  ∆ distance to nearest highway ramp                 0.005                  0.011              0.002               − 0.016***              0.027***               0.037
+                                                     (0.004)                (0.010)            (0.002)             (0.005)                 (0.006)                (0.040)
+  ln (built-up area–1990)                            Y                      Y                  Y                   Y                       Y                      Y
+  Distance                                           Y                      Y                  Y                   Y                       Y                      Y
+  Geography                                          Y                      Y                  Y                   Y                       Y                      Y
+  Observations                                       155                    155                215                 215                     1051                   1051
+  Mean                                               0.066                  0.066              0.106               0.106                   0.431                  0.431
+  Adjusted R2                                        0.883                                     0.842                                       0.503
+  Kleibergen–Paap F-statistic                                               19.43                                  30.08                                          29.55
+  Instruments
+  Distance to 1815 Anyer–Panarukan road                                     ✓
+  Distance to old railway station                                                                                  ✓
+  Distance to 1924 secondary road                                                                                                                                 ✓
+
+Note: robust standard error in parentheses. *, **, *** indicate statistical significance at the 10%, 5% and 1% levels, respectively. Distance variables include distance to
+the nearest railway station, distance to central Jakarta, distance to the central district and distance to the coastline. Geographical variables include elevation and the
+terrain ruggedness index.
+
+                                                                                      8
+A.P. Pratama et al.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Land Use Policy 112 (2022) 105856
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Table 7
+
+
+
+
+                                                                                                                                                                                                                                                                             Note: robust standard error in parentheses. *, **, *** indicate statistical significance at the 10%, 5% and 1% levels, respectively. Distance variables include distance to the nearest railway station, distance to central
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Robustness of other empirical specifications: data sources and spatial units.
+                                                                                                                                                                                                                                         (0.020)
+
+                                                                                                                                                                                                               − 0.019
+                                                                                                                                                                                            Bottom                                       Y
+                                                                                                                                                                                            10%                                          Y
+                                                                                                                                                                                                                                         Y                                                                                                                                                                                                                                                                       Dependent variable        ∆ ln (sprawl index 1990–2014)
+                                                                                                                                                                                            TSLS                                         1271
+                                                                                                                                                                                                                                         − 0.200
+                                                                                                                                                                                            (12)                                         33.24                                                                                                                                                                                                                                                                   Category                  Spatial unit                 Data source
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Sample                    2 km           3 km          ESACCI         ESACCI
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        2 km           3 km
+
+
+
+
+                                                                                                                                                  Exclusion of top and bottom percentiles
+                                                                                                                                                                                                                                         (0.021)
+
+                                                                                                                                                                                                               − 0.025
+                                                                                                                                                                                            Bottom                                       Y
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Method                    TSLS           TSLS          TSLS           TSLS
+                                                                                                                                                                                            5%                                           Y
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                            TSLS                                         1346
+                                                                                                                                                                                            (11)                                         − 0.228
+                                                                                                                                                                                                                                         33.35                                                                                                                                                                                                                                                                                             (1)            (2)           (3)            (4)
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ∆ distance to nearest     − 0.096***     − 0.066*      − 0.348***     − 0.295***
+
+
+                                                                                                                                                                                                               − 0.106***
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   highway ramp
+
+                                                                                                                                                                                            Top 10%
+                                                                                                                                                                                                                                         (0.034)
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                                                         Y                                                                                                                                                                                                                                                                                                 (0.032)        (0.037)       (0.084)        (0.097)
+                                                                                                                                                                                                      TSLS                                                                                                                                                                                                                                                                                                       ln (sprawl                Y              Y             Y              Y
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                                                         1337
+                                                                                                                                                                                                      (10)                               − 0.300
+                                                                                                                                                                                                                                         35.51                                                                                                                                                                                                                                                                     index—1990)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Distance                  Y              Y             Y              Y
+
+
+                                                                                                                                                                                                               − 0.101***
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Geography                 Y              Y             Y              Y
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Observations              1421           635           703            367
+                                                                                                                                                                                                                                         (0.033)
+
+                                                                                                                                                                                            Top 5%
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                      TSLS                               Y
+                                                                                                                                                                                                                                         1393                                                                                                                                                                                                                                                                    Mean                      − 0.282        − 0.236       − 1.055        − 1.117
+                                                                                                                                                                                                      (9)                                − 0.288
+                                                                                                                                                                                                                                         37.002                                                                                                                                                                                                                                                                  Kleibergen–Paap F-        38.55          18.41         37.84          24.60
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   statistic
+
+
+                                                                                                                                                                                                               − 0.102***
+                                                                                                                                                                                                                                         (0.028)
+                                                                                                                                                                                                                                         Y                                                                                                                                                                                                                                                                      Note: robust standard error in parentheses. *, **, *** indicate statistical signif­
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                icance at the 10%, 5% and 1% levels, respectively. Distance variables include
+                                                                                                                                                                                            50 km
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                      TSLS                               Y
+                                                                                                                                                                                                                                         1241
+                                                                                                                                                                                                      (8)                                − 0.321
+                                                                                                                                                                                                                                         48.22                                                                                                                                                                                                                                                                  distance to the nearest railway station, distance to central Jakarta, distance to
+
+
+
+
+                                                                                                                                                                                                                                                                             Jakarta, distance to the central district and distance to the coastline. Geographical variables include elevation and the terrain ruggedness index. All specifications use the distance to the 1924 collector road as an
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                the central district and distance to the coastline. Geographical variables include
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                elevation and the terrain ruggedness index. All specifications use the distance to
+                                                                                                                                                                                                               − 0.047**
+
+
+                                                                                                                                                  Central Jakarta radius
+                                                                                                                                                                                                                                         (0.022)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                the 1924 collector road as an instrument.
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                            40 km
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                      TSLS                               Y
+                                                                                                                                                                                                                                         866
+                                                                                                                                                                                                      (7)                                − 0.399
+                                                                                                                                                                                                                                         84.94
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Only in the specifications that combine the JMA with neighbouring
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                districts (Lebak or Serang, both located on the western side of the JMA)
+                                                                                                                                                                                                                                         (0.029)
+
+                                                                                                                                                                                                               − 0.002
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                            30 km
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                      TSLS                               Y
+                                                                                                                                                                                                      (6)
+                                                                                                                                                                                                                                         504
+                                                                                                                                                                                                                                         − 0.531
+                                                                                                                                                                                                                                         57.93                                                                                                                                                                                                                                                                  do we find that a 1 km improvement in highway access leads to
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                6.8–9.9% of the urban land expansion.
+
+                                                                                                                                                                                            JMA                                          (0.143)                                                                                                                                                                                                                                                                5.2.4. Falsification test
+
+                                                                                                                                                                                                               0.309**
+                                                                                                                                                                                            + Serang                                                                                                                                                                                                                                                                                                               We use a falsification test to further confirm that our results cannot
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                            TSLS                                         Y
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                be attributed to chance. This test is performed by randomising all of the
+                                                                                                                                                                                                                                         1523
+                                                                                                                                                                                            (5)                                          − 0.267
+                                                                                                                                                                                                                                         5.93
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                observations of our instrumental variables so that each observation is
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                now attributed to different instruments’ observations in our TSLS esti­
+
+
+
+
+        Table 6
+                                                                                                                                                                                                               − 0.098**
+                                                                                                                                                                                            JMA                                          (0.049)
+                                                                                                                                                                                                                                         Y                                                                                                                                                                                                                                                                      mation. A statistically significant result in a falsification test would
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                indicate that our previous estimation suffered from placebo effects and,
+                                                                                                                                                                                            + Lebak                                      Y
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                            TSLS                                         1498
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                consequently, that we should reject our interpretation in the previous
+                                                                                                                                                                                            (4)                                          − 0.268
+                                                                                                                                                                                                                                         13.76
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                section. Table 8 presents our falsification test results for both the sprawl
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                index and urban land expansion. The results show that none of the es­
+                                                                                                                                                                                            JMA                                                                                                                                                                                                                                                                                                                 timates is statistically different from zero, refuting the possibility of
+
+                                                                                                                                                                                                               − 0.081***
+                                                                                                                                                                                            + Karawang                                   (0.027)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                placebo effects in our identification strategy.
+
+
+
+
+                                                                                                                                                                                                                                                                             instrument.
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                            TSLS                                         Y
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                                                         1587
+                                                                                                                                                                                            (3)                                          − 0.281
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                6. Discussion
+                                                                                                                                                                                                                                         52.65
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    In this study, we estimate the effects of improved access to highways
+                                                                                                                                                                                            JMA                                                                                                                                                                                                                                                                                                                 on urban sprawl phenomena in the JMA. While such studies are common
+
+                                                                                                                                                                                                               − 0.095***
+                                                                                                                                                                                            + Purwakarta
+
+
+
+
+                                                                                                                  ∆ ln (sprawl index 1990–2014)
+                                                                                                                                                                                                                                         (0.034)                                                                                                                                                                                                                                                                in developed countries (e.g., Garcia-López, 2019), limited evidence is
+                                                                                                                                                                                            TSLS
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                available for fast-developing metropolises. Urban sprawl is charac­
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                            (2)
+                                                                                                                                                                                                                                         1430
+                                                                                                                                                                                                                                         − 0.280
+
+
+
+
+        Robustness of other empirical specifications with different study areas and the number of observations.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                terised by expansion in developed land area (Deng et al., 2008; McGrath,
+                                                                                                                                                                                                                                         34.53
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2005) and scattered developments (Angel et al., 2012; Burchfield et al.,
+
+
+
+                                                                                                                                                  Adjacent districts
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2006). Our study employs measurements of both features to provide a
+                                                                                                                                                                                            JMA                                                                                                                                                                                                                                                                                                                 more comprehensive view of urban sprawl in the JMA.
+
+                                                                                                                                                                                                               − 0.126***
+                                                                                                                                                                                            + Sukabumi
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Our results align with the general understanding of how transport
+                                                                                                                                                                                                                                         (0.031)
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                            TSLS                                         Y
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                costs affect urban sprawl (Brueckner and Fansler, 1983; Burchfield et al.,
+                                                                                                                                                                                                                                         Y
+                                                                                                                                                                                                                                         1477
+                                                                                                                                                                                            (1)                                          − 0.272
+                                                                                                                                                                                                                                         46.51
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2006; McGrath, 2005; Young et al., 2016). We find that highway
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                expansion induces the scattered development of urban land and urban
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                land expansion within the JMA. The estimates also indicate that the
+
+
+                                                                                                                                                                                                               ∆ distance to nearest highway
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                magnitude is lower in the city centre, where the area is already more
+                                                                                                                                                                                                                                               ln (sprawl index—1990)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                compact, than in the less-developed urban areas farther away from
+                                                                                                                                                                                                                                               Distance                                                                                                                                                                                                                                                         Jakarta. This may be because the development of new highways be­
+
+
+
+                                                                                                                  Dependent variable
+                                                                                                                                                                                                                                               Geography                                                                                                                                                                                                                                                        tween 1990 and 2015 was concentrated on the fringe areas of Jakarta.
+
+
+                                                                                                                                                                                                                 ramp
+                                                                                                                                                                                                                                               Observations                                                                                                                                                                                                                                                     Thus, city suburbs are likely to experience a stronger effect in land
+                                                                                                                                                                                                                                               Mean                                                                                                                                                                                                                                                             expansion.
+                                                                                                                                                  Category                                  Sample    Method                                   Kleibergen–Paap F-statistic
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Despite several studies that take a similar approach, we did not find
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                any directly comparable studies. However, our estimates suggest that
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            9
+A.P. Pratama et al.                                                                                                                            Land Use Policy 112 (2022) 105856
+
+
+Table 8
+Falsification test.
+  Dependent variable                         ∆ ln (sprawl index)                                                  ∆ ln (built-up area)
+
+  Sample                                     JMA           Jakarta        City suburbs       Other suburbs        JMA           Jakarta        City suburbs       Other suburbs
+  Method                                     TSLS          TSLS           TSLS               TSLS                 TSLS          TSLS           TSLS               TSLS
+                                             (1)           (2)            (3)                (4)                  (1)           (2)            (3)                (4)
+
+  ∆ distance to the nearest highway ramp     1.113         − 26.492       0.681              − 0.182              − 0.514       − 0.206        0.151              0.277
+                                             (1.790)       (1197.621)     (2.083)            (0.227)              (1.076)       (1.229)        (0.209)            (0.463)
+  ln (sprawl index—1990)                     Y             Y              Y                  Y
+  ln (built-up area—1990)                                                                                         Y             Y              Y                  Y
+  Distance                                   Y             Y              Y                  Y                    Y             Y              Y                  Y
+  Geography                                  Y             Y              Y                  Y                    Y             Y              Y                  Y
+  Observations                               1524          155            215                1154                 1421          155            215                1051
+  Mean                                       − 0.296       − 0.828        − 0.419            -0.202               0.342         0.066          0.106              0.431
+  Kleibergen–Paap F-statistic                0.387         0.000          0.107              0.789                0.265         0.027          0.534              0.558
+  Instruments
+  Distance to Anyer–Panarukan road                         ✓                                                                    ✓
+  Distance to old railway station                                                                                                              ✓
+  Distance to 1924 secondary road                                         ✓                  ✓                    ✓                                               ✓
+  Distance to 1924 collector road            ✓             ⎕      
+
+Note: robust standard error in parentheses. *, **, *** indicate statistical significance at the 10%, 5% and 1% levels, respectively. Distance variables include distance to
+the nearest railway station, distance to central Jakarta, distance to the central district and distance to the coastline. Geographical variables include elevation and the
+terrain ruggedness index.
+
+
+
+
+urban development within cities exhibits a similar pattern to that                       transport costs, such as fuel taxes and road pricing, may impact urban
+documented in other studies focusing on the space between cities (Deng                   development by initiating changes in location choice behaviour. How­
+et al., 2008; Garcia-López, 2019). Our estimated coefficients indicate                  ever, more comprehensive research related to transport policies and
+that a 1 km improvement in access to highway ramps leads to a 6.6%                       individuals’ behaviour in the JMA is needed to better understand how
+increase in the sprawl index within the JMA and expands the urban land                   different groups in society will adapt their travel and location behaviour.
+in city suburbs by 1.6%.
+    Recent advances in the provision of openly accessible, detailed                      Acknowledgements
+spatial data, such as the GHSL data we apply in this study, hold great
+promise for extending the empirical literature on urban development in                       Andhika Putra Pratama’s contribution to this paper is supported by
+developing countries. Previous studies on urban growth in Jakarta, for                   the StuNed Scholarship and Piet Rietveld Scholarship, Vrije Universiteit
+example, apply relatively coarse data and only describe basic trends                     Amsterdam. Muhammad Halley Yudhistira’s contribution to this paper
+(Firman, 2004; Henderson et al., 1996; Hudalah and Firman, 2012).                        is partly supported by the Ministry of Research, Technology, and Higher
+                                                                                         Education (Kemristekdikti) / National Reseach and Innovation Agency
+7. Conclusion                                                                            (BRIN) [grant number: NKB-005/UN2.RST/HKP.05.00/2021].
+
+    By employing a detailed time series of spatial data capturing urban                  Appendix A. Supporting information
+development, we investigate whether transport-induced urban sprawl is
+evident in the JMA. Our study uses two measurements of urban                                Supplementary data associated with this article can be found in the
+sprawl—the sprawl index and urban land expansion—and exploits the                        online version at 10.1016/j.landusepol.2021.105856.
+variations in historical transport infrastructure as instruments to over­
+come the potential endogeneity issue. We find that improvement in                        References
+highway access results in the scattered development of new, built-up
+areas in the JMA: As highways expand, new urban land is more likely                      Ahrens, A., Lyons, S., 2019. Changes in land cover and urban sprawl in Ireland from a
+                                                                                             comparative perspective over 1990–2012. Land 8 (1), 1–14. https://doi.org/
+to become isolated from the existing urban land. This result is robust                       10.3390/land8010016.
+across all of our specifications. In addition, we find highway-led urban                 Aladangady, A., 2017. Housing wealth and consumption: evidence from geographically
+expansion in the city suburbs of the JMA, indicating that urban devel­                       linked microdata. Am. Econ. Rev. 107 (11), 3415–3446. https://doi.org/10.1257/
+                                                                                             aer.20150491.
+opment in the JMA occurs in two forms: the scattered development of                      Angel, S., Parent, J., Civco, D.L., 2012. The fragmentation of urban landscapes: global
+the urban area and urban land expansion.                                                     evidence of a key attribute of the spatial structure of cities, 1990–2000. Environ.
+    Sprawling development is documented to have adverse impacts on,                          Urban. 24 (1), 249–283. https://doi.org/10.1177/0956247811433536.
+                                                                                         Baum-Snow, N., 2007. Did highways cause suburbanization? Q. J. Econ. 122 (2),
+for example, energy consumption (Glaeser and Kahn, 2010; Proque                              775–805. https://doi.org/10.1162/qjec.122.2.775.
+et al., 2020), productivity (Fallah et al., 2011), social issues (Ewing                  Brueckner, J.K., Fansler, D.A., 1983. The economics of urban sprawl: theory and
+et al., 2016; Solé-Ollé and Rico, 2008) and equality (Lee et al., 2018).                   evidence on the spatial sizes of cities. Rev. Econ. Stat. 65 (3), 479–482.
+                                                                                         Burchfield, M., Overman, H.G., Puga, D., Turner, M.A., 2006. Causes of sprawl: a portrait
+When considering the development of new highways in urban areas such
+                                                                                             from space. Q. J. Econ. 121 (2), 587–633. https://doi.org/10.1162/
+as the JMA, policymakers should be aware of the indirect impacts of                          qjec.2006.121.2.587.
+their investments on urban development and, thus, incorporate them in                    Corbane, Christina; Florczyk, Aneta; Pesaresi, Martino; Politis, Panagiotis; Syrris,
+their cost–benefit analyses.                                                                 Vasileios (2018), GHS built-up grid, derived from Landsat, multitemporal (1975-
+                                                                                             1990-2000-2014), R2018A. European Commission, Joint Research Centre (JRC) doi:
+    Our study points out that private transport strongly influences the                      10.2905/jrc-ghsl-10007 PID: http://data.europa.eu/89h/jrc-ghsl-10007.
+development of urban areas within a car-centric metropolitan area such                   De Vos, J., Witlox, F., 2013. Transportation policy as spatial planning tool; reducing
+as the JMA. This suggests that introducing policies to increase private                      urban sprawl by increasing travel costs and clustering infrastructure and public
+
+
+
+                                                                                    10
+A.P. Pratama et al.                                                                                                                                      Land Use Policy 112 (2022) 105856
+
+     transportation. J. Transp. Geogr. 33, 117–125. https://doi.org/10.1016/j.                   Lee, W.H., Ambrey, C., Pojani, D., 2018. How do sprawl and inequality affect well-being
+     jtrangeo.2013.09.014.                                                                            in American cities? Cities 79 (September 2017), 70–77. https://doi.org/10.1016/j.
+Deng, X., Huang, J., Rozelle, S., Uchida, E., 2008. Growth, population and                            cities.2018.02.023.
+     industrialization, and urban land expansion of China. J. Urban Econ. 63 (1), 96–115.        Levinson, D.M., Kumar, A., 1994. The rational locator: why travel times have remained
+     https://doi.org/10.1016/j.jue.2006.12.006.                                                       stable. J. Am. Plan. Assoc. 60 (3), 319–332. https://doi.org/10.1080/
+Duranton, G., Turner, M.A., 2012. Urban growth and transportation. Rev. Econ. Stud. 79                01944360408976371.
+     (4), 1407–1440. https://doi.org/10.1093/restud/rds010.                                      McGrath, D.T., 2005. More evidence on the spatial scale of cities. J. Urban Econ. 58 (1),
+Ewing, R., Hamidi, S., Grace, J.B., Wei, Y.D., 2016. Does urban sprawl hold down                      1–10. https://doi.org/10.1016/j.jue.2005.01.003.
+     upward mobility? Landsc. Urban Plan. 148, 80–88. https://doi.org/10.1016/j.                 Murakami, A., Medrial Zain, A., Takeuchi, K., Tsunekawa, A., Yokota, S., 2005. Trends in
+     landurbplan.2015.11.012.                                                                         urbanization and patterns of land use in the Asian mega cities Jakarta, Bangkok, and
+Fallah, B.N., Partridge, M.D., Olfert, M.R., 2011. Urban sprawl and productivity:                     Metro Manila. Landsc. Urban Plan. 70 (3–4 SPEC. ISS.), 251–259. https://doi.org/
+     evidence from US metropolitan areas. Pap. Reg. Sci. 90 (3), 451–472. https://doi.                10.1016/j.landurbplan.2003.10.021.
+     org/10.1111/j.1435-5957.2010.00330.x.                                                       Newman, P.W.G., Kenworthy, J.R., 1989. Gasoline consumption and cities: a comparison
+Firman, T., 2004. Demographic and spatial patterns of Indonesia’s recent urbanisation.                of U.S. cities with a global survey. J. Am. Plan. Assoc. 55 (1), 24–37. https://doi.org/
+     Popul. Space Place 10 (6), 421–434. https://doi.org/10.1002/psp.339.                             10.1080/01944368908975398.
+Fitriyanto, B.R., Helmi, M., Hadiyanto, 2019. Analyzing spatiotemporal types and                 Oueslati, W., Alvanides, S., Garrod, G., 2015. Determinants of urban sprawl in European
+     patterns of urban growth in watersheds that flow into Jakarta Bay, Indonesia.                    cities. Urban Stud. 52 (9), 1594–1614. https://doi.org/10.1177/
+     Remote Sens. Appl. Soc. N 14, 170–177.                                                           0042098015577773.
+Garcia-López, M.-À., 2012. Urban spatial structure, suburbanization and transportation         Proque, A.L., dos Santos, G.F., Betarelli Junior, A.A., Larson, W.D., 2020. Effects of land
+     in Barcelona. J. Urban Econ. 72 (2–3), 176–190. https://doi.org/10.1016/j.                       use and transportation policies on the spatial distribution of urban energy
+     jue.2012.05.003.                                                                                 consumption in Brazil. Energy Econ. 90, 104864 https://doi.org/10.1016/j.
+Garcia-López, M.-À., 2019. All roads lead to Rome … and to sprawl? Evidence from                    eneco.2020.104864.
+     European cities. Reg. Sci. Urban Econ. 79 (November 2018), 103467 https://doi.              Silver, C. , 2007. Planning the Megacity: Jakarta in the Twentieth Century. Retrieved
+     org/10.1016/j.regsciurbeco.2019.103467.                                                          from file:///C:/Users/youhe/Downloads/kdoc_o_00042_01.pdf.
+Garcia-López, M.-À., Holl, A., Viladecans-Marsal, E., 2015. Suburbanization and                Solé-Ollé, A., Rico, M.H., 2008. Does urban sprawl increase the costs of providing local
+     highways in Spain when the Romans and the Bourbons still shape its cities. J. Urban              public services? Evidence from Spanish Municipalities. IEB Work. Pap. 6, 1–33.
+     Econ. 85, 52–67. https://doi.org/10.1016/j.jue.2014.11.002.                                      〈http://www.google.cz/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja
+Glaeser, E.L., Kahn, M.E., 2003. Sprawl and Urban Growth. NBER Working Paper Series,                  &ved=0CC0QFjAA&url=http://www.ieb.ub.edu/index.php?option=com_phoca
+     IV, 73.                                                                                          download&view=category&download=177&id=5&Itemid=131&e
+Glaeser, E.L., Kahn, M.E., 2010. The greenness of cities: carbon dioxide emissions and                i=5yWBUYOrEYfC7Aacn4B4&usg=AFQjCNHlibt〉.
+     urban development. J. Urban Econ. 67 (3), 404–418. https://doi.org/10.1016/j.               Stock, J.H., Yogo, M. , 2005. Testing for weak instruments in Linear IV regression, in:
+     jue.2009.11.006.                                                                                 James H. Stock, & D.W.K. Andrew (Vol. Eds.),. In Identification and Inference for
+Goldblum, C., Wong, T.C., 2000. Growth, crisis and spatial change: a study of haphazard               Econometric Models, Essays in Honor of Thomas Rothenberg. 〈https://doi.org/10.1
+     urbanisation in Jakarta, Indonesia. Land Use Policy 17 (1), 29–37. https://doi.org/              017/CBO9780511614491.006〉.
+     10.1016/S0264-8377(99)00043-5.                                                              Winarso, H., Firman, T., 2002. Residential land development in Jabotabek, Indonesia:
+Gordon, P., Kumar, A., Richardson, H.W., 1989. The influence of metropolitan spatial                  triggering economic crisis? Habitat Int. 26 (4), 487–506. https://doi.org/10.1016/
+     structure on commuting time. J. Urban Econ. 26 (2), 138–151. https://doi.org/                    S0197-3975(02)00023-1.
+     10.1016/0094-1190(89)90013-2.                                                               Winarso, H., Hudalah, D., Firman, T., 2015. Peri-urban transformation in the Jakarta
+Henderson, J.V., Kuncoro, A., Nasution, D., 1996. The dynamics of Jabotabek                           metropolitan area. Habitat Int. 49, 221–229. https://doi.org/10.1016/j.
+     development. Bull. Indones. Econ. Stud. 32 (1), 71–95. https://doi.org/10.1080/                  habitatint.2015.05.024.
+     00074919612331336898.                                                                       World Bank, 2015. East Asia’s changing urban landscape: measuring a decade of spatial
+Hudalah, D., Firman, T., 2012. Beyond property: Industrial estates and post-suburban                  growth, in: World Bank, Washington DC.
+     transformation in Jakarta Metropolitan Region. Cities 29 (1), 40–48. https://doi.           Young, M., Tanguay, G.A., Lachapelle, U., 2016. Transportation costs and urban sprawl
+     org/10.1016/j.cities.2011.07.003.                                                                in Canadian metropolitan areas. Res. Transp. Econ. 60, 25–34. https://doi.org/
+Hudalah, D., Woltjer, J., 2007. Spatial planning system in transitional Indonesia. Int.               10.1016/j.retrec.2016.05.011.
+     Plan. Stud. 12 (3), 291–303. https://doi.org/10.1080/13563470701640176.                     Yudhistira, M.H., Indriyani, W., Pratama, A.P., Sofiyandi, Y., Kurniawan, Y.R., 2019.
+Hudalah, D., Viantari, D., Firman, T., Woltjer, J., 2013. Industrial land development and             Transportation network and changes in urban structure: evidence from the Jakarta
+     manufacturing deconcentration in Greater Jakarta. Urban Geogr. 34 (7), 950–971.                  Metropolitan Area. Res. Transp. Econ. 74 (August 2017), 52–63. https://doi.org/
+     https://doi.org/10.1080/02723638.2013.783281.                                                    10.1016/j.retrec.2018.12.003.
+Indonesian Bureau of Statistics (2010), Indonesia Population Census 2000 & 2010.                 Zhang, T., 2001. Community features and urban sprawl: the case of the Chicago
+     Retrieved from: https://sp2010.bps.go.id/.                                                       metropolitan region. Land Use Policy 18, 221–232. https://doi.org/10.1016/S0264-
+Indonesia Toll Road Authority (2019), retrieved from: https://bpjt.pu.go.id/.                         8377(01)00018-7.
+Jacobs-Crisioni, C., Rietveld, P., Koomen, E., 2014. The impact of spatial aggregation on
+     urban development analyses. Appl. Geogr. 47, 46–56. https://doi.org/10.1016/j.
+     apgeog.2013.11.014.
+
+
+
+
+                                                                                            11
+

@@ -1,0 +1,1031 @@
+[PDF Metadata]
+Source PDF: journal/B16-yang-caset-derudder-2024-does-urban-polycentricity-contribute-to-regional-economic-growth-empirical-evidence-from-a-panel-of-chinese-urban-regions-10.1080-00343404.2023.2255623.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Does urban polycentricity contribute to regional economic growth? Empirical evidence from a panel of
+Creator:         Servigistics Arbortext Advanced Print Publisher 11.1.4546/W-x64
+Producer:        Acrobat Distiller 8.1.0 (Windows); modified using iTextSharp™ 5.5.8 ©2000-2015 iText Group NV (AGPL-version)
+CreationDate:    Wed Mar 27 11:41:19 2024 WIB
+ModDate:         Wed Mar 27 12:49:42 2024 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           16
+Encrypted:       no
+Page size:       634.32 x 833.04 pts
+Page rot:        0
+File size:       2039910 bytes
+Optimized:       no
+PDF version:     1.5
+[Extracted Text]
+      Regional Studies
+
+
+
+
+      ISSN: 0034-3404 (Print) 1360-0591 (Online) Journal homepage: www.tandfonline.com/journals/cres20
+
+
+
+
+Does urban polycentricity contribute to regional
+economic growth? Empirical evidence from a
+panel of Chinese urban regions
+
+Yuting Yang, Freke Caset & Ben Derudder
+
+To cite this article: Yuting Yang, Freke Caset & Ben Derudder (2024) Does urban polycentricity
+contribute to regional economic growth? Empirical evidence from a panel of Chinese urban
+regions, Regional Studies, 58:5, 1018-1032, DOI: 10.1080/00343404.2023.2255623
+
+To link to this article: https://doi.org/10.1080/00343404.2023.2255623
+
+
+
+
+       View supplementary material
+
+
+
+       Published online: 12 Oct 2023.
+
+
+
+       Submit your article to this journal
+
+
+
+       Article views: 1485
+
+
+
+       View related articles
+
+
+
+       View Crossmark data
+
+
+
+       Citing articles: 12 View citing articles
+
+
+
+
+                      Full Terms & Conditions of access and use can be found at
+             https://www.tandfonline.com/action/journalInformation?journalCode=cres20
+REGIONAL STUDIES
+2024, VOL. 58, NO. 5, 1018–1032
+https://doi.org/10.1080/00343404.2023.2255623
+
+
+
+
+Does urban polycentricity contribute to regional economic
+growth? Empirical evidence from a panel of Chinese urban
+regions
+Yuting Yanga                   , Freke Caseta           and Ben Deruddera,b,c
+
+    ABSTRACT
+    Research examining the economic effects of urban polycentricity remains inconclusive. We contribute to this debate by
+    developing a longitudinal framework in which changes in polycentricity in Chinese urban regions are linked with
+    changes in total factor productivity. While we ﬁnd no evidence of urban polycentricity being conducive to economic
+    growth, we observe that the relationship depends on population size and the interactions between cities. We also ﬁnd
+    that cities borrow size from nearby cities in large urban regions, contributing to regional economic growth. We use
+    our ﬁndings to reﬂect on China’s regional economic and urban development strategies.
+    KEYWORDS
+    polycentricity; urban regions; productivity; borrowed size; China
+
+
+JEL C36, D24, O11, R11
+HISTORY Received 12 April 2022; in revised form 12 August 2023
+
+1. INTRODUCTION                                                         and the extent to which these virtuous effects play out in
+                                                                        PURs. Economic effects, in particular, have been fre-
+There is a longstanding research tradition investigating                quently researched. Some studies found that polycentric
+the conceptual, analytical and empirical connections                    spatial structure has no direct impact on regional economic
+between spatial structure and economic performance                      performance (see Ouwehand et al., 2022, for a pan-Euro-
+(e.g., Bailey & Turok, 2001; Lee & Gordon, 2007; Ouwe-                  pean analysis; and Veneri & Burgalassi, 2012, for an Ita-
+hand et al., 2022). In this literature, the term ‘polycentric           lian case study). Others have found that more
+urban regions’ (PURs) has become a key concept                          polycentric conﬁgurations tend to be associated with
+(Derudder et al., 2022) and refers to a regional cluster of             higher regional productivity (see Kwon & Seo, 2018,
+proximate, physically separate, but functionally interde-               and Wang et al., 2019, for analyses in South Korea and
+pendent cities that do not markedly differ in importance                China, respectively). And ﬁnally, some studies also came
+(Meijers, 2008). In addition to the frequent claim that                 to the opposite conclusion (see Huang et al., 2020, in
+urban polycentricity is an unfolding empirical reality in               their case study of the Beijing–Tianjin–Hebei region).
+different parts of the world, the concept has also been                 Taken together, results are clearly inconclusive, and
+adopted in regional territorial development plans in                    there is a need for more robust evidence on the putative
+Europe (Davoudi, 2003), the United States (Nelson &                     economic effects of polycentric urban development in
+Lang, 2018), Latin America (Fernández-Maldonado                         regions.
+et al., 2014) and China (Wei et al., 2020). Much of this                    One possible reason for the diversity in empirical ﬁnd-
+policy attention can be traced back to a variety of (alleged)           ings is using different analytical frameworks when measur-
+virtuous effects that are sometimes attributed to PUR for-              ing urban polycentricity and/or economic effects. Other
+mation, including heightened economic productivity                      operational choices may lead to different outcomes and
+(Wang et al., 2019), lower environmental emissions (Bur-                may include some of the following elements:
+galassi & Luzzati, 2015) and enhanced social cohesion
+(Davoudi, 2003).                                                        .   The deﬁnition and operationalisation of polycentricity
+    Despite increasing attention in research and policy cir-                (Bartosiewicz & Marcinczak, 2021; Derudder et al.,
+cles, there remains much uncertainty about the presence                     2022; Thomas et al., 2022; Zhang et al., 2019).
+
+
+CONTACT Yuting Yang         yutiyang.yang@ugent.be
+a
+  Department of Geography, Ghent University, Ghent, Belgium
+b
+  Public Governance Institute, KU Leuven, Leuven, Belgium
+c
+  Department of Urban and Regional Development Studies, Nicolaus Copernicus University, Torun, Poland
+    Supplemental data for this article can be accessed online at https://doi.org/10.1080/00343404.2023.2255623.
+
+© 2023 Regional Studies Association
+         Does urban polycentricity contribute to regional economic growth? Empirical evidence from Chinese urban regions   1019
+
+
+
+.   The selection of economic performance measures, ran-          to capture potential endogeneity in the relationship
+    ging from labour productivity (LP) (Meijers & Burger,         between polycentric regional structures and economic
+    2010; Wang et al., 2019) and per capita income (Brezzi        performance.
+    & Veneri, 2015) to employment growth (Lee & Gor-                  The remainder of the paper is structured as follows.
+    don, 2007), regional gross domestic product (GDP)             The next section reviews the literature on measuring
+    (Veneri & Burgalassi, 2012) and total factor pro-             regional economic growth, the potential impact of poly-
+    ductivity (TFP) (Ouwehand et al., 2022).                      centric structures on regional economic growth and poly-
+.   The methods used to address endogeneity issues, ran-          centric development in China. Drawing on this review, we
+    ging from instrument variables (Meijers & Burger,             then specify a set of hypotheses guiding our research. We
+    2010) and time lags for the explanatory variables             outline our methodological framework, after which we
+    (Wang et al., 2022) to dynamic panel models (Huang            report our main ﬁndings. Lastly, we conclude with an
+    et al., 2020).                                                overview of the main results, policy implications and
+.   The kind of data (sectional or panel) used in longitudi-      main avenues for future research.
+    nal research designs. However, longitudinal approaches
+    have been rare up till now (exceptions include Deinema        2. LITERATURE REVIEW
+    & Kloosterman, 2013; and Giuliano et al., 2019).
+                                                                  2.1. Measuring regional economic growth
+    To date, most research has focused on the impact of           ‘Economic growth’ is a container term, with some
+different analytical approaches to urban polycentricity           elements being more pertinent than others depending on
+(Meijers et al., 2018). Signiﬁcantly less attention has           the research purpose. According to Ouwehand et al.
+been paid to the selection of economic indicators (with           (2022, p. 54), previous studies have not always clearly
+Ouwehand et al., 2022, as an exception), how to address           motivated their choice of economic growth indicators.
+potential endogeneity problems and the relevance of               Taken together, studies have assessed the alleged econ-
+adopting a longitudinal framework. Moreover, it is widely         omic beneﬁts of PURs through three lenses. The ﬁrst
+accepted that polycentric processes are to some degree            group studies the spatial pattern of wages (Meijers,
+context dependent, as they are contingent upon the                2013). The key idea is that if workers and ﬁrms are mobile
+speciﬁc institutional and economic realities in different         and wages differ across space, higher wages must reﬂect
+parts of the world (Dadashpoor et al., 2023). For example,        productive advantages in PURs (Puga, 2010). A second
+China’s recently minted ‘urban agglomerations’ adminis-           group analyses urban growth indicators such as population
+trative concept represents new state spaces that increas-         and employment growth (Lee & Gordon, 2007). The
+ingly function alongside more established administrative          rationale here is that economic activities will locate else-
+divisions such as provinces (Wu, 2016), providing an              where if drawbacks surpass beneﬁts (Wheeler, 2003) so
+opportunity to investigate how this particular policy con-        that the geographies of urban population growth reﬂect
+text can inﬂuence the implications of polycentricity (see         the interplay between agglomeration economies and dise-
+also section 2.3). Against this background, we contribute         conomies. A third group of studies focuses on productivity
+to the ongoing debate on the relationship between poly-           levels across space. It has been argued that productivity
+centric spatial structures and regional economic perform-         represents ‘the most direct’ (Puga, 2010, p. 204) way of
+ance by focusing on this unfolding relationship in                measuring the size of agglomeration economies.
+Chinese urban regions (URs) between 2005 and 2017.                    This last approach has arguably been most commonly
+    Our study extends the literature on several fronts. First,    pursued in the literature, often focusing on LP measured
+we build on approaches (TFP) that have only very recently         as output per worker. An advantage of this approach is
+been adopted in this ﬁeld (Ouwehand et al., 2022) to              that the data sources needed to calculate these measures
+measure regional economic performance. Compared                   are easy to access (Beugelsdijk et al., 2018) while interpret-
+with LP, TFP captures productivity conditional not only           ing the results is straightforward. However, some have
+on available labour inputs but also on other factors of pro-      argued that this approach adopts a narrow view of agglom-
+duction, such as physical and human capital (Beugelsdijk          eration economies (Puga, 2010), as LP only considers the
+et al., 2018). While this has recently been argued to be a        role of labour input. Other production factors, such as
+more accurate measure of productivity (Cortinovis & van           human and physical capital and technological progress,
+Oort, 2019; Ouwehand et al., 2022), TFP has only been             are also important factors for explaining economic growth.
+adopted in a handful of predominantly European-focused            Still, these are either not included or listed as exogenous
+analyses. Second, we develop a longitudinal framework             control variables in regression models. Discarding these
+linking PUR formation and economic effects across                 elements might lead to an upward bias in the estimated
+space and time. In doing so, we extend the work of Liu            effects of polycentricity (Moomaw, 1981; Puga, 2010).
+et al. (2018) and Wang et al. (2019), who documented                  An alternative approach to measuring regional econ-
+the presence of PURs in China but either focused on a             omic growth is TFP, deﬁned as the share of output not
+handful of URs or limited their analyses to a given point         explained by the number of inputs used in production
+in time. And third, as part of our longitudinal research          (Comin, 2010). This has been argued to be a more accu-
+design, we implement the emerging technique (Harari,              rate measure of productivity (Cortinovis & van Oort,
+2020) of time-varying instrumental variables (IV) analysis        2019), and ‘the change from labour productivity to a
+
+                                                                                                               REGIONAL STUDIES
+1020    Yuting Yang et al.
+
+
+
+TFP measure … can be seen as an important methodo-                 The second process can be related to agglomeration
+logical improvement’ (Ouwehand et al., 2022, p. 53).           diseconomies being ‘borrowed’ between nearby cities in a
+This improvement can be traced back to several comp-           PUR. Generally, agglomeration diseconomies or the
+lementary factors. First, TFP is considered more compre-       costs associated with increased competition for scarce
+hensive as it considers additional factors like technology     resources due to co-location, such as high land prices
+transfers, knowledge spillovers between ﬁrms, and the          and wages, trafﬁc congestion and air pollution exposure,
+interaction and sharing of ideas, skills and experiences       tend to increase with size. Evidence from Capello and
+among people (Otsuka, 2017). Second, TFP also captures         Camagni (2000) suggests that small and medium-sized
+the overall complexity of the production process. In the       cities have a greater capacity to keep these economic, social
+computation process, the regionally varying input factors      and environmental costs under control. Building on the
+(e.g., capital and labour endowments) are already incorpor-    idea that agglomeration diseconomies remain spatially
+ated in the computation of TFP. The TFP level solely           constrained at the local scale while agglomeration econ-
+reﬂects the intensity with which different production inputs   omies are regionalised (Meijers, 2013), polycentric spatial
+are used and combined (Beugelsdijk et al., 2018). Building     structures are often hypothesised to have advantages in
+on these comparative advantages, in this paper we adopt the    providing a balance between agglomeration economies
+TFP measure to describe regional economic growth.              and diseconomies.
+                                                                   Third, despite the consensus that regional externalities
+2.2. Polycentricity and regional economic                      ‘exist’, it has been argued that their extent may depend on
+growth                                                         cities’ and regions’ overall size (population/territorial
+Several theoretical frameworks link the formation of PURs      scale). Evidence from the United States suggests that
+to regional economic performance. From a ﬁrst perspec-         less populated URs beneﬁt more from polycentricity (Mei-
+tive, PURs can lead to what Parr (2002) has called             jers & Burger, 2010). In the European context, polycentri-
+‘regional externalities’. This concept builds on ‘agglomera-   city has been found to have no signiﬁcant effects in URs
+tion economies’ (Rosenthal & Strange, 2004), referring to      with large(r) populations (Ouwehand et al., 2022). Besides
+the beneﬁts associated with the spatial clustering of popu-    this, several other size factors may inﬂuence the hypoth-
+lation and economic activities in terms of labour market       esised impact of PURs on economic performance. For
+pooling, shared inputs and knowledge spillovers. The           example, increasing distances between cities in large
+spatial range within which agglomeration economies             PURs may entail logistical barriers or reduce economic
+occur is not necessarily conﬁned to the borders of ‘cities’    advantages related to social interaction in cities, such as
+but can also be shared across proximate and well-con-          face-to-face contact (Storper, 2013). Meanwhile, in smal-
+nected cities (Van Oort et al., 2010). Such a ‘regionalisa-    ler PURs, cities tend to be connected more strongly when
+tion’ of agglomeration externalities has been recently         compared with larger ones, where the core cities are
+conceptualised and discussed by researchers using the          usually large enough to function independently (Meijers
+term ‘network externalities’ (Capello, 2000), which            & Burger, 2010).
+hypothesises that by participating in a regional city net-         Taken together, this leads us to the following
+work, cities can exploit advantages from complementary         hypotheses:
+relationships and synergies in cooperative activities.
+    This focus on ‘urban network externalities’ has recently      Hypothesis 1: A higher degree of urban polycentricity is conducive
+been further elaborated by revisiting Alonso’s (1973) con-        to regional economic growth.
+cept of ‘borrowed size’: due to physical proximity and
+                                                                  Hypothesis 2: The extent to which polycentricity contributes to
+increased accessibility to large cities, smaller and med-
+                                                                  regional economic growth depends on the relative balance
+ium-sized cities can ‘borrow’ some of the functions from
+                                                                  between ‘borrowed size’ and ‘agglomeration shadow’ effects.
+neighbouring large cities situated in the same PUR (Bur-
+ger et al., 2015). By virtue of this ‘borrowed size’ effect,      Hypothesis 3: The impact of polycentricity on regional economic
+PURs as a whole may realise additional agglomeration              growth diminishes as urban population size increases.
+effects, given that shared size allows for reaching higher
+thresholds of agglomeration economies (Van Meeteren
+et al., 2016). However, ‘borrowed size’ effects can be mir-    2.3. The Chinese context: PURs, planning and
+rored by ‘agglomeration shadow’ effects: due to compe-         governance
+tition effects, the growth of smaller cities may be            The formation of PURs in Western Europe can be
+inhibited by larger cities, so that PUR formation entails      explained by a broadly similar set of economic logics
+poorer economic performance (Burger et al., 2015). The         (agglomeration, networking and globalisation) (Camagni
+two effects are often deemed ‘two sides of the same coin’      et al., 2015; Hoyler et al., 2008; Lüthi et al., 2010). How-
+(p. 1093). As both ‘borrowed size’ and ‘agglomeration sha-     ever, the European experience, particularly how PURs are
+dow’ effects describe possible outcomes of interactions        invoked in planning discourse, does not always ﬁt the Chi-
+between individual cities in a region, the overall impact      nese context very well (Li & Wu, 2018) because urban
+of polycentricity on regional economic growth can be           development in China is very different, ‘both economi-
+hypothesised to depend on the relative balance between         cally, but above all, politically’ (Hamnett, 2020, p. 2).
+both effects.                                                  Plans for polycentric urban development have gained
+
+REGIONAL STUDIES
+        Does urban polycentricity contribute to regional economic growth? Empirical evidence from Chinese urban regions            1021
+
+
+
+momentum in China’s planning praxis, incorporating the           that there have been signiﬁcant economic differences
+concept at different geographical and governance scales          between coastal China and inland regions. These differ-
+(Cheng & Shaw, 2017). This planning interest coincides           ences are correlated with preferential policies (e.g., tax
+with an emerging research interest in PUR formation in           incentives and migration policies to attract talent)
+China, often focusing on the Yangtze River Delta (Li &           implemented in coastal regions. Cities in these regions
+Wu, 2018), the Pearl River Delta (He et al., 2021) and           interact more intensively with foreign investors and
+Beijing–Tianjin–Hebei (Huang et al., 2020). Most of              among themselves, resulting in stronger links between sev-
+these studies focus on one speciﬁc UR and therefore do           eral cities and possibly more polycentricity (Chen et al.,
+not allow comparative approaches. A notable exception            2021). These arguments also surface in debates on the
+is Wang et al. (2019), who analysed the economic impact          effect of ‘place-based policies’ on local economic develop-
+of urban polycentricity across all major URs based on a          ment in China (Alder et al., 2016; Koster et al., 2019).
+cross-sectional dataset. Here we adopt a longitudinal            This could be a vital factor confounding our observations
+research design to extend the research of Wang et al.            regarding the inﬂuence of polycentricity on TFP. How-
+    Signiﬁcantly, different governance levels may be             ever, it is challenging to identify clear-cut measures of
+associated with different economic impacts in the Chinese        ‘place-based policies’ across a very diverse China. We
+context. PURs in China need to be understood in the con-         address this difﬁculty by comparing URs based on their
+text of its speciﬁc planning regime, in which top-down and       geographical location, using it as a proxy to capture the
+bottom-up processes intersect (Zhang et al., 2019). The          variation of local policies partly rooted in their geographi-
+former refers to planning initiatives installed by the central   cal proximity to the coast.
+government, while the latter is created through                      Taken together, our fourth and ﬁfth hypotheses are:
+cooperation between local governments. The central
+state uses a regional perspective to promote cross-jurisdic-         Hypothesis 4: The position of URs in the administrative hierar-
+tional coordination and boost regional economic growth.              chy in China’s planning system inﬂuences polycentricity’s impact
+However, the implementation of regional strategies is                on regional economic growth.
+challenging. It has been confronted, as local governments
+                                                                     Hypothesis 5: Urban regions in coastal China exhibit different
+often prioritise their interests rather than promote
+                                                                     patterns regarding polycentricity’s inﬂuence on the economy com-
+cooperation based on alleged regional interests (Li &
+                                                                     pared with inland China.
+Wu, 2018). Without economic incentives that might
+stimulate these cooperations, the on-the-ground develop-
+ment of PURs may differ from the concept initially envi-
+saged by the central state.                                      3. RESEARCH AREA, DATA, AND
+    In operational terms, we aim to capture this process by      METHODOLOGY
+looking at (1) regions’ position in the administrative hier-
+archy and (2) regions’ geographical location (coastal versus     3.1. Research area
+inland China). First, the dispersal of power or authority        Our analysis focuses on the 19 URs identiﬁed in China’s
+from the central state (decentralisation) is more prominent      14th Five-Year Plan (2021–25) (Figure 1). These URs
+in URs that are higher in the administrative hierarchy.          are relevant to China’s territorial development strategy.
+Speciﬁcally, ‘national’ URs, such as Beijing–Tianjin–            Although they collectively only account for 29% of the
+Hebei, have the highest level of local autonomy and level        national land area, in 2017 they captured 68% of the
+of decentralisation, followed by ‘regional’ URs, such as         total population and 83% of GDP. In the 14th National
+the Shandong Peninsula and ‘subregional’ URs, such as            Plan, these URs are divided into ﬁve national URs, eight
+Central Shanxi (Fang & Yu, 2017). With more autonomy             regional URs and six subregional URs. Among them, six
+passed onto the local governments in national URs, they          URs are located in coastal China and 13 URs in inland
+can be assumed to have better information on how to allo-        China.1 For more detailed information about these URs,
+cate resources efﬁciently, even though they are also more        see Appendix A in the supplemental data online.
+likely to be susceptible to local vested interests (Bardhan
+& Mookherjee, 2000; Wang, 2013). In other words,                 3.2. Data
+they are better positioned to provide public goods and ser-      Our research uses a range of complementary datasets.
+vices that more closely meet local needs (Li & Wu, 2018).        First, the LandScanTM High-Resolution Global Popu-
+In contrast, in regional/subregional URs, a more directive       lation Dataset (2005–17) presents the global population
+approach of the central government, encouraging the for-         distribution in 1 km2 grids. Second, socio-economic data
+mation of a regionally coordinated economy, may be less          at the prefecture level, such as GDP, foreign direct invest-
+ﬂexible and adjustable. Consequently, URs at higher              ment (FDI), etc., are derived from the China City Statisti-
+administrative hierarchies may have more capacity to             cal Yearbooks, the China Urban database and the China
+exploit positive externalities by stimulating cooperation        Provincial Statistical Yearbooks (2005–17). Third, as
+among cities.                                                    data for 12 autonomous prefectures are not documented
+    Second, the peculiarities of the Chinese context can be      in these yearbooks, we extracted them separately from
+captured by URs’ geographical location. Guo and Minier           Statistical Bulletins. Due to statistical deﬁnition issues,
+(2021), and with them many other researchers, showed             data for four cities are missing for several years.2
+
+                                                                                                                    REGIONAL STUDIES
+1022     Yuting Yang et al.
+
+
+
+
+Figure 1. Location of the 19 urban regions in China identiﬁed in the 14th National Plan.
+
+
+We employed linear interpolation techniques to address           containing more than 100,000 inhabitants (Figure 2).3
+this issue.                                                      The total population of these clusters within individual
+                                                                 cities is calculated to denote cities’ ‘importance’.
+3.3. Methodology                                                     Second, we calculate a polycentricity index as follows:
+3.3.1. Operationalisation of variables                                                             sobs
+                                                                                      Poly = 1 −                         (1)
+(1) Measuring morphological polycentricity. We con-                                                smax
+struct a polycentricity index in two steps: (1) we develop
+a set of population centres as our units of analysis, after      where Poly indicates the degree of polycentricity of a UR;
+which (2) we use the standard deviation method to assess         sobs is the standard deviation of the ‘importance’ of indi-
+the degree to which these centres exhibit a morphologi-          vidual cities within a UR; and smax represents the maxi-
+cally polycentric pattern (Green, 2007).                         mum possible standard deviation, deﬁned as the
+    First, population centres are deﬁned as signiﬁcantly         standard deviation in a hypothetical two-city UR where
+denser clusters than their surrounding areas. Drawing on         one city has no population. Poly ranges from 0 (no poly-
+the LandScan population dataset, we create a density ﬁle         centricity) to 1 (an ideal-typical PUR where all cities are
+for individual cities in which individual grids are ranked       equally large).
+based on population density. Following Liu et al. (2018),
+we set a density cut-off at the city’s 95th percentile gridded   (2) Measuring economic efﬁciency. We then measure
+population and select the 5% most densely populated              TFP using the non-parametric Malmquist index in data
+grids. In the second step, grids that are eight-adjacent to      envelopment analysis (DEA) (Menegaki, 2013). This
+each other are combined into clusters. In line with Liu          approach treats each UR in each year as a decision-making
+et al., we retain those clusters covering at least 3 km² and     unit and represents how well a decision-making unit
+
+REGIONAL STUDIES
+        Does urban polycentricity contribute to regional economic growth? Empirical evidence from Chinese urban regions        1023
+
+
+
+
+Figure 2. (A) Process of identifying population centres in cities as illustrated by the example of cities in the Yangtze River Delta
+(YRD) located in the eastern coastal China (using ArcGIS and MATLAB software). (B) Population grids agglomerated in the
+centres of Suzhou, Shanghai, Jiaxing, Huzhou and three other cities; (C) plot of the 5% most dense population grids in the
+YRD, signiﬁcantly high in the central triangle part; (D) plot of the adjacent population grids in the YRD, with one square repre-
+senting the part of Suzhou and surrounding cities; and (E) one large and ﬁve small population centres in Suzhou, and one large
+population centre in Shanghai, with several other population centres scattered in each other ﬁve cities. (C, D) cover the entire
+YRD region (i.e., region ‘a’ in A), while (B, E) represent only part of the YRD region (i.e., region ‘b’ in A).
+
+
+processes inputs into outputs (Fujita & Ogawa, 1982).               3.3.2. Model
+The model can be mathematically represented as follows:             (1) Regression model. We use a ﬁxed-effects panel data
+                                                                    model (FE) to quantify the possible inﬂuence of polycen-
+                                                                    tricity on the TFP of URs. Equations (3) to (5) are used to
+          M0t+1 (xt0 , y0t , xt+1  t+1
+                              0 , y0 )                              test Hypotheses 1–3, respectively. Subsequently, we divide
+                                                   1                the full samples into subsamples according to regions’
+             t t+1 t+1                      t+1 
+                                                            (2)
+             D (x0 , y0 ) Dt+1 (xt+1     , y     ) 2                (i) administrative governance level and (ii) geographical
+          =              y   ∗     0        0
+                                                                    location and reapply equations (4) and (5) to test Hypoth-
+              Dt (xt0 , y0 )   Dt+1 (x0t , yot )
+                                                                    eses 4 and 5, respectively:
+
+where the Malmquist index M0t+1 indicates the degree of               LN (TFPit ) = d + aPOLYit + bYit + gi + di + 1it (3)
+TFP; Dt and Dt+1 represent the distance functions of
+years t and t + 1, deﬁned as the maximum reduction of                   LN (TFPit ) = d + aPOLYit + bBORit
+                                                                                                                                (4)
+inputs when maintaining the output level; x0t and x0t+1 rep-                            + uBOR2it + qYit + gi + di + 1it
+resent input factors (ﬁxed capital stock and labour force);
+and y0t and y0t+1 represent the GDP of URs. The ﬁxed capi-              LN (TFPit ) = d + aPOLYit + bPOPit ∗POLYit
+tal stock denotes the total value of capital assets, estimated                                                                  (5)
+                                                                                      + qYit + gi + di + 1it
+based on the perpetual inventory method; the labour force is
+expressed as the total number of employed persons across all        where TFPit is the total factor productivity of UR i in year
+sectors in a UR. The equation denotes how economic efﬁ-             t; POLYit is the degree of polycentricity; BORit captures
+ciency changes: a TFP greater, equal to or smaller than 1,          the net effects of borrowed size and agglomeration sha-
+respectively, indicates rising, unchanged or decreasing levels      dows, with its squared term BOR2it added to test whether
+of efﬁciency (see Table C1 in Appendix C in the sup-                the effect is non-linear; POPit represents the total popu-
+plemental data online for more details on measuring TFP).           lation; Yit denotes a set of control variables (see below);
+
+                                                                                                                 REGIONAL STUDIES
+1024     Yuting Yang et al.
+
+
+
+gi is the time-ﬁxed variable; di is the individual ﬁxed          regression (Meijers & Burger, 2010). Here, a ﬁrst-stage
+effect; 1it is the random error term of the model; and           regression is conducted using the endogenous variables
+a, b, u and q are the parameters to be estimated. In line        as the dependent variable, after which the predicted
+with Meijers and Burger (2010), the variables were log-          values from the regression are saved and subsequently
+transformed to ensure a linear form.                             used as new variables. In a second-stage regression, the
+    We ﬁrst calculate the borrowed size effect (BORit ) at       independent variables are regressed on the newly gener-
+the level of individual cities and then aggregate it region-     ated. A valid IV should be (1) correlated with the (poten-
+ally. Based on Camagni et al. (2017), ‘borrowed size’ is         tially) endogenous variables and (2) uncorrelated with
+measured using the spatially lagged population living in         dependent variables. In the PUR literature, a wide
+neighbouring cities divided by distance. A positive coefﬁ-       range of IVs have been proposed, including elements of
+cient of BORit on TFP indicates that the total borrowed          the natural environment (Wang et al., 2019), distance
+size effect dominates the total agglomeration shadow             from districts to urban centres (Zhang et al., 2017) and
+effect:                                                          historical levels of polycentricity (Ouwehand et al.,
+                                                                 2022). Among these options, instruments using local fea-
+                               
+                               n POP
+                                       it
+                     BORit =                              (6)    tures are time-invariant, whereas historical polycentricity
+                               j  Wij t                          can still be related to the contemporary, unobserved het-
+where i and j represent two cities within a UR; Wij is the       erogeneity that accounts for present performance (Li &
+n × n distance weight matrix formalising the spatial depen-      Du, 2021).
+dence between all cities; and POPjt represents city j’s total         As this paper uses panel data, we develop a time-vary-
+population in year t.                                            ing instrument. We follow Li and Du (2021), who recently
+    We also add a set of control variables Yit in our            used historical, urban shapes-predicted levels of polycen-
+regression models. First, human capital plays a vital role       tricity to discuss the impact of polycentricity on inno-
+in the production function of a region (Ouwehand et al.,         vation. Their approach is inspired by Harari (2020), who
+2022). We use the ratio of students who received higher          assumes that ﬁrms and jobs may respond to deteriorating
+education to the total population as a proxy. Second,            urban shapes by dispersing throughout cities and forming
+there is the informatisation level, which refers to the effec-   new centres around job locations, suggesting a possible
+tiveness with which a regional economy uses information          predictive power of urban shapes on polycentricity. The
+technology (Huang et al., 2020). We proxy this by using          method in Li and Du (2021) is one of the few attempts
+the government expenditure on postal and telecommuni-            in the polycentricity literature to investigate the effective-
+cations services. Third, rapidly innovating and growing          ness of urban geometry as IVs, albeit it is only applicable
+industries often display higher productivity levels and          for studies at a given time. To exploit temporal variation
+can thus be an important factor affecting regional econ-         in urban shapes, we incorporate a time-varying character-
+omic growth (Ouwehand et al., 2022). Consequently, we            istic – the predicted expansion path of an urban area – to
+introduce the relative size of the tertiary industry in a        construct IVs. As Harari (2020) hypothesised, as cities’
+region, calculated as the ratio of the output in the tertiary    expansion in land area reﬂects population growth without
+industry to that in the secondary industry. Fourth, FDI          geographical constraints (e.g., water bodies or steep ter-
+can, among other things, facilitate the introduction of          rain), the urban area can be assumed to develop circularly
+advanced technologies and thus contribute to differences         with the same population density in all directions. In other
+in productivity levels between regions (Huang et al.,            words, the variation in these geographical constraints leads
+2020). The ratio of total FDI to GDP is included to              to a departure of this circular expansion, and the instru-
+proxy this factor. Fifth, and ﬁnally, governments exert          ment captures this variation. Notably, such geographical
+institutional power and adopt different market interven-         constraints are less likely to affect economic performance
+tion strategies (Wang et al., 2019), which is controlled         (Wang et al., 2019).
+for as the ratio of government expenditure to revenue.               To guarantee this instrument is strictly exogenous, we use
+For the descriptive statistics of these variables, see Table     an alternative dataset, the light intensity data on China’s ter-
+E1 in Appendix E in the supplemental data online.                ritory from the Defense Meteorological Satellite Program
+                                                                 Operational Line-Scan System (DMSP/OLS) Night-time
+                                                                 Lights, to implement the instruments. This is a series of
+(2) Instruments to tackle endogeneity effects. Ana-              night-time satellite imaginary recordings of the yearly inten-
+lyses of how polycentricity affects TFP are prone to poten-      sity of Earth-based lights, measured by a value ranging from
+tial endogeneity issues: spatial organisation may be a           0 to 63, with a resolution of approximately 1 km2. The pro-
+consequence rather than a cause of economic performance          cedure consists of the following ﬁve steps:
+(Meijers & Burger, 2010). For instance, URs with a higher
+economic performance generally generate more production             • Step 1: Detecting an ‘urban area’ in 1992
+factors, which may attract more ﬁrms, provide more                  We ﬁrst overlap the city centroids (gravity centres) with the
+employment opportunities and, subsequently, inﬂuence                night-time data and then identify the spatially contiguous4
+how population is organised and distributed across space.           light pixels surrounding the city coordinates above a
+    The most common technique to deal with endogene-                threshold of 45 as the urban area. The threshold choice is
+ity effects is adopting instrumental variable (IV)                  based on Du and Zhang (2019), who use night-time data
+
+REGIONAL STUDIES
+        Does urban polycentricity contribute to regional economic growth? Empirical evidence from Chinese urban regions           1025
+
+
+
+
+Figure 3. Procedure to construct panel instruments for polycentricity: (A) the urban area of Qinhuangdao in 1992; (B) the
+potential extent of Qinhuangdao occupied in 1992; (C, D) the possible space Qinhuangdao would have occupied in 2005
+and 2017, respectively, if it grows circularly from the centre outwards.
+
+
+
+
+   to map historic urban areas. Figure 3A illustrates how we         • Step 3: The calculation of urban shape metrics
+   delineated the urban area of Qinhuangdao in 1992.                 The shape metrics toolbox in ArcGIS is employed to calcu-
+   • Step 2: Identifying the ‘potential’ urban area                  late four urban shape indexes (cohesion index, proximity
+   We draw a minimum bounding circle around the 1992 urban           index, spin index and range index)5 for each ‘potential foot-
+   area. The land within this circle not occupied by water           print’. These indexes explain to what extent the urban shape
+   bodies and not on steep terrain is considered ‘developable’.      deviates from a circle (for a more detailed illustration of how
+   We deﬁne the developable land as ‘potential footprint,’           these indexes describe the polygon features of urban areas,
+   coloured green in Figure 3B.                                      see Harari, 2020).
+
+                                                                                                                   REGIONAL STUDIES
+1026    Yuting Yang et al.
+
+
+
+   • Step 4: The projection of the radius of the urban area            In model 1, the coefﬁcients of the variables all have
+   Following Harari (2020), assuming the city’s population         the expected signs and are statistically signiﬁcant at the
+   continued to grow from 1992 to 2005, we build a regression      1% level. The signs of the control variables remain con-
+   model and use it to predict the 2005–17 populations (the        sistent across all speciﬁcations, albeit with slight differ-
+   steps involved are outlined in Table F1 in Appendix F in        ences in size and statistical signiﬁcance. Overall, the
+   the supplemental data online). Using a mechanical pre-          result suggests that a UR’s TFP is above all explained
+   dicted population growth is essential since the city’s actual   by the level of human capital (HUM), informatisation
+   growth path would be endogenous.6 Assuming the popu-            (INF) and FDI. This is in line with the ﬁndings of
+   lation density remains consistent at its 1992 level, an         other studies (Wang et al., 2019). Meanwhile, the inten-
+   urban area will grow in a circle without geographical           sities of the tertiary industry (TIN) and government
+   obstacles as the population increases (Harari, 2020),           intervention (GOV) have a negative inﬂuence on TFP,
+   which allows generating the urban area and its radius.          consistent with the result of Wang et al. (2019). This
+   The ‘potential footprints’ within the predicted radii in        suggests that governmental control on regional econom-
+   Figure 3C and D represent the area Qinhuangdao would            ies has led to productivity loss, possibly because of mar-
+   occupy in 2005 and 2017, respectively. We then calculate        ket distortions (Zhang et al., 2017); the Chinese
+   the urban shape metrics for these ‘potential footprints’        industrial structure is dominated by ‘high-energy con-
+   each year.                                                      sumption, low added value, low marginal cost’ (Shen
+   • Step 5: The predicted polycentricity                          et al., 2020, p. 8), which is not conducive to the
+   Harari (2020) pointed out that jobs and ﬁrms may respond        improvement of regional TFP.
+   to deteriorating urban shapes by forming subcentres closer          Turning to the critical variable of our interest, the
+   to the workers and clients, indicating a plausible predictive   regression coefﬁcient of POLY is signiﬁcantly negative: a
+   power of urban shapes on polycentricity. We used the            higher level of polycentricity corresponds to a lower level
+   1992 polycentricity, the 1992 urban shape indexes and the       of TFP. Hypothesis 1 is therefore rejected. The results
+   urban shape indexes in 2005–17 to project polycentricity        are in line with the signiﬁcant agglomeration effects of
+   levels in 2005–17. The variation in polycentricity captured     central cities found in Italy and Organisation for Econ-
+   by this time-varying instrument is thus induced by geogra-      omic Co-operation and Development (OECD) countries
+   phy interacting with mechanically predicted city growth.        (Brezzi & Veneri, 2015; Veneri & Burgalassi, 2012), while
+   The four indices lead to four predicted polycentricity levels   it does not align with the ﬁndings of Meijers and Burger
+   (four instruments), with their effectiveness reported in        (2010) for the United States and Ouwehand et al.
+   Table F2 in Appendix F in the supplemental data online.         (2022) for Europe. We elaborate on this important ﬁnding
+                                                                   in the discussion.
+                                                                       However, when examining the interaction between
+(3) Dealing with econometric issues. Before presenting             polycentricity and size, we ﬁnd that the interaction term
+our empirical results, we must also deal with the standard         POLY × POP has a signiﬁcant and positive effect on TFP
+range of econometric issues. The panel unit test results           (model 3). In other words, there is an impact of polycen-
+suggest stable relationships between variables (see Table          tricity on TFP that becomes stronger in larger URs, which
+G1 in Appendix G in the supplemental data online).                 contradicts Hypothesis 3. We calculated the population
+We then assessed three common econometric issues in                size threshold above which the effect of polycentricity
+multivariate regression: multicollinearity, heteroscedasti-        would turn positive. By letting the coefﬁcient of POLY
+city and autocorrelation. The variance inﬂation factor             equal zero, it can be estimated that URs with a population
+(VIF), Breusch–Pagan and Wooldridge test results                   size of over 20.94 million are more likely to have higher
+(Table 2) suggest these issues are not relevant to our             regional TFP when they are more polycentric. Under
+speciﬁcations.                                                     this criterion, approximately one-third of Chinese URs
+                                                                   are too small to capture the (alleged) economic beneﬁts
+                                                                   of polycentricity fully.
+4. RESULTS                                                             In models 4–6, the negative impact of polycentricity on
+                                                                   productivity is most pronounced in subregional URs, fol-
+4.1. The interplay between polycentricity and                      lowed by national URs and regional URs. This suggests
+regional TFP                                                       that the administrative hierarchy of URs leads to differ-
+We structure the discussion of our results around Table 1.         ences in POLY’s impact on regional TFP. Moreover,
+Model 1 only includes the exogenous variables HUM,                 there is heterogeneity between coastal and inland regions,
+INF, TIN, FDI and GOV. In model 2, we add POLY,                    with the former being signiﬁcantly positive and the latter
+while model 3 includes POP and POLY*POP. Models 4–                 signiﬁcantly negative (models 7 and 8). This marked
+6 provide full model estimates for national URs, regional          difference suggests that the autonomy granted to local
+URs, and subregional URs, while models 7 and 8 provide             governments is crucial for regional economic growth,
+results for coastal URs and inland URs. The relatively high        potentially because it supports moving towards more
+R² across these models suggests a good ﬁt, with all models         dynamic and active cooperation among cities, which has
+explaining at least two-thirds of the variance in TFP across       positive externalities for the entire economy. Therefore,
+the URs.                                                           Hypotheses 4 and 5 are accepted.
+
+REGIONAL STUDIES
+          Does urban polycentricity contribute to regional economic growth? Empirical evidence from Chinese urban regions               1027
+
+
+
+Table 1. Regression result of the baseline model.
+                                                                     Model 4         Model 5         Model 6        Model 7
+                                                                     National        Regional      Subregional      Coastal       Model 8
+Variables            Model 1        Model 2         Model 3            URs             URs            URs            URs         Inland URs
+Intercept               0.02     −0.07               −0.12            −0.02            −0.76              0.10          3.16       −2.02
+                       (0.10)   (−0.92)               (0.16)         (−0.04)          (−0.28)          (−0.01)         (0.60)     (−1.72)
+POLY                             −0.28*              −0.12**          −0.45*           −0.09            −0.61*          0.67*      −0.22*
+                                (−2.48)             (−2.60)          (−2.18)            (0.20)           (2.34)        (2.01)     (−1.59)
+HUM                     0.13***    0.11***             0.08***          0.16*            0.10**           0.11          0.02         0.09**
+                       (3.67)     (3.51)              (3.55)           (1.92)           (1.71)           (2.11)        (0.17)       (3.30)
+INF                     0.06**     0.05**              0.06**         −0.04            −0.00              0.12*         0.013        0.04
+                       (2.57)     (2.61)              (2.61)         (−0.79)            (0.02)           (2.55)        (0.24)       (1.24)
+TIN                   −0.50*** −0.52*                −0.51***         −0.33***         −0.20***         −0.44          −0.47*      −0.52***
+                     (−5.71)   (−6.13)              (−5.87)          (−2.99)          (−3.93)          (−1.54)        (−2.12)     (−4.93)
+FDI                     0.01*     0.01*                0.01             0.01*            0.00             0.00           0.00*       0.01*
+                       (1.61)    (1.28)               (0.01)           (1.56)           (0.01)           (0.10)         (0.01)      (1.86)
+GOV                  −0.03*     −0.01                −0.04*           −0.04            −0.03              0.07*        −0.12       −0.02
+                       (1.43)  (−0.99)              (−2.61)          (−0.54)          (−0.04)            (1.54)       (−1.03)     (−0.49)
+POP                                                    0.00             0.03             0.08*          −0.01          −0.42         0.21*
+                                                      (0.39)         (−0.50)            (1.71)         (−0.23)        (−0.63)     (−0.73)
+POLY*POP                                               0.09**              1.42          0.80**         −0.31           0.34*       0.35**
+                                                      (2.06)              (0.94)        (0.36)           (0.21)        (1.61)      (2.75)
+
+R²                0.65               0.66            0.67             0.91             0.78             0.63           0.67         0.73
+Average VIF       1.42               1.83            2.03             2.54             2.25             3.72           3.16         2.10
+Breusch–Pagan     0.69               0.14            0.00             0.19             0.02             0.10           0.55         0.12
+Wooldridge test   0.15               0.19            0.17             0.68             2.15             0.04           0.60         0.00
+AIC             −431.61            −449.13        −449.88          −154.52          −201.67          −144.51        −183.97      −487.34
+Observations                       228                                60               96               72             72         156
+Note: AIC, Akaike information criterion; VIF, variance inﬂation factor.
+***p < 0.01, **p < 0.05, *p < 0.1. t-values are shown in parentheses.
+
+
+
+4.2. Exploring the net effects of borrowed size                                the net effects of borrowed size appear when urban size
+and agglomeration shadow                                                       reaches a certain threshold. In other words: in larger
+We now focus on Hypothesis 2 and explore if and how the                        URs, cities seem to beneﬁt from borrowed size effects
+effect of POLY on regional TFP can be explained through                        (positive spillovers), while this is less likely to happen in
+the relative balance between ‘borrowed size’ and ‘agglom-                      smaller URs (the effect turns positive when the population
+eration shadows’. To this end, we add BOR, BOR2it as well                      size of URs exceeds 18.3 million). And ﬁnally, when intro-
+as the interaction item with urban size and with polycen-                      ducing BOR*POLY (model (3)), we ﬁnd no statistically
+tricity into the baseline model. We then re-estimate the                       signiﬁcant outcome.
+regression of subsamples by differentiating their position                         However, the results for the subsamples (models (4) to
+in the administrative hierarchies, which allows testing                        (6)) do not replicate the patterns of the full samples, and
+whether more autonomous regions can better exploit the                         there are even sizable differences between them. For
+beneﬁts of borrowed size. The results for these regressions                    national URs, the coefﬁcients of BOR and BOR2it are posi-
+are shown in Table 2.                                                          tive and negative, respectively, implying that the pro-
+    The signiﬁcant and negative impact of polycentricity                       ductivity increases with borrowed size. Still, it occurs
+on regional TFP re-emerges. Furthermore, according to                          only when the borrowed size effect is relatively large. For
+model (1), Hypothesis 2 should be rejected as both BOR                         regional URs, the empirical results also reveal a negative
+and its square term have no apparent effect on regional                        non-linear relationship, albeit in a different direction –
+TFP. This observation can be interpreted in two ways:                          productivity ﬁrstly increases and then decreases with bor-
+(1) neither borrowed size nor agglomeration shadow                             rowed size. Finally, the (direct) borrowed size effect is sig-
+effects occur, or (2) borrowed size and agglomeration sha-                     niﬁcantly negative for subregional URs. Together these
+dow effects even each other out.                                               results imply that the negative externalities from inter-
+    However, a different pattern emerges when introdu-                         city interaction (i.e., agglomeration shadows) could be
+cing BOR*POP in model (2). Our results suggest that                            mitigated by a more decentralised system in more
+
+                                                                                                                            REGIONAL STUDIES
+1028      Yuting Yang et al.
+
+
+
+Table 2. Regression result of the net effect beneﬁts of borrowed size and agglomeration shadow.
+                                                                       Model (4)        Model (5)                       Model (6)
+Variables           Model (1)         Model (2)       Model (3)       National URs    Regional URs                   Subregional URs
+Intercept                  −1.08               −0.55              −1.01*             −5.63*             2.28               −1.74
+                           (−1.62)             (−0.71)            (−1.51)           (−1.92)            (1.68)             (−1.29)
+POLY                       −0.25**             −0.27**            −0.21*              0.09*             0.25               −1.11**
+                           (−2.09)              (2.78)            (−1.67)           (−2.60)            (1.30)             (−2.85)
+HUM                          0.10**              0.09***            0.10***           0.00              0.02                 0.12**
+                            (2.56)              (2.78)             (3.28)           (−0.02)            (0.22)              (2.24)
+INF                          0.06**              0.05**             0.06**           −0.01            −0.01                  0.12**
+                           (−6.20)              (2.27)             (2.70)           (−0.31)           (−0.14)              (2.46)
+TIN                        −0.55***            −0.53*             −0.55***           −0.30**          −0.52***             −0.57*
+                           (−6.20)             (−5.96)            (−6.26)           (−2.49)           (−3.93)             (−1.96)
+FDI                          0.01                0.01*              0.01*              0.01             0.01                0.00
+                            (1.34)              (1.59)             (1.50)            (0.88)            (0.73)             (−0.19)
+GOV                        −0.03               −0.04              −0.04                0.00           −0.06                −0.14
+                           (−0.78)             (−1.06)            (−1.03)            (0.06)           (−0.78)             (−1.29)
+POP                          0.01                0.09               0.01             −0.02              0.07*              −0.02
+                            (0.19)              (0.16)             (0.26)           (−0.33)            (1.57)             (−0.26)
+BOR                          0.96               0.01                0.83               6.85*          −4.20**                2.65*
+                            (1.14)             (0.01)              (0.98)            (1.97)           (−2.15)              (1.62)
+BOR2                       −0.18               −0.15               −0.12             −2.36*             1.33**             −0.75
+                           (−0.59)             (0.39)              (0.98)           (−1.99)            (2.04)             (−1.20)
+BOR*POP                                         0.29*
+                                               (1.45)
+BOR*POLY                                                          −0.46               4.67**          −0.20                −0.26
+                                                                  (−1.13)           (2.25)            (−0.25)             (−0.30)
+
+
+R²                         0.67                0.67                0.67              0.91             0.79                 0.64
+Average VIF               11.81               10.97               10.85             11.34            10.92                12.49
+Breusch–Pagan              0.55                0.45                0.60              0.40             0.26                 0.89
+Wooldridge test            0.52                0.49                0.48              0.12             0.33                 0.34
+AIC                     −671.77             −682.14             −671.32           −247.67          −304.78              −157.72
+Observations                                 228                                    60               96                   72
+Note: AIC, Akaike information criterion; VIF, variance inﬂation factor.
+***p < 0.01, **p < 0.05, *p < 0.1. t-values are shown in parentheses.
+
+
+
+autonomous URs, plausibly through more voluntary                            5. DISCUSSION AND CONCLUSIONS
+coordination among small and large cities.
+                                                                            Urban centres in PURs are often hypothesised to ‘share’
+4.3. Dealing with endogeneity                                               agglomeration economies, as cities can borrow size from
+To ensure that the direction of causality runs from poly-                   nearby cities to enjoy productivity gains linked to scale.
+centricity to economic performance, we employ a FE                          While a growing body of research is developing explanations
+instrument variable (IV) model. The robustness test results                 for these dynamics, ﬁndings remain inconclusive regarding
+(see Table G1 in Appendix G in the supplemental data                        where, to what extent, and under which conditions these
+online) indicate that the IVs are practical: they are corre-                effects occur. One possible factor explaining the inconsis-
+lated with POLY but not with TFP. When using the IV                         tency in results pertains to the variety of measurement
+estimates to assess the impact of POLY on TFP, the results                  schemes invoked to capture both polycentricity (Caset
+conﬁrm our main ﬁnding from the baseline model: a                           et al., 2022) and economic productivity (Ouwehand et al.,
+higher level of polycentricity correlates with lower TFP.                   2022), with ongoing efforts in both domains to arrive at
+More importantly, the endogeneity test results suggest                      more conceptual sound and analytically accurate measures.
+that endogeneity is not a concern in our speciﬁcations                          Against this background, our paper contributes to the
+(for a detailed overview of the regression results, see                     part of the literature systematically investigating the
+Table G1 online).                                                           alleged economic advantages of polycentric urban
+
+REGIONAL STUDIES
+         Does urban polycentricity contribute to regional economic growth? Empirical evidence from Chinese urban regions    1029
+
+
+
+development. Focusing on the case of UR’s in China, our           fundamental conceptual question that is rarely discussed
+methodology builds explicitly on and combines elements            in the literature: at what scale do we expect urban polycen-
+of recent studies that have pushed the debate forward:            tricity to matter? Some researchers argue that cities are less
+Derudder et al. (2021), who reviewed the different choices        functionally related in large PURs (Meijers & Burger,
+when measuring polycentric urban development, Ouwe-               2010), which might explain the attenuation of beneﬁts
+hand et al. (2022), who proposed using TFP as a more              of polycentricity with urban size. To some extent, this
+accurate measure of productivity; Wang et al. (2019),             may be true in the US and Europe, where many inter-
+who analysed the economic performance of Chinese                  city movements occur via well-developed infrastructure
+PURs using cross-sectional data; and Harari (2020), who           networks. However, this assumption arguably applies less
+constructed IVs for urban shapes based on geographical            to URs in China, where both the territorial scale and the
+obstacles encountered by expanding cities. We developed           total population of ‘URs’ are signiﬁcantly higher. For
+a longitudinal research design that assesses endogeneity          example, the median travel distance between cities in the
+effects to enhance the robustness of the results.                 YRD is approximately ﬁve times larger than that of the
+    The major empirical results can be summarised into            Randstad and the San Francisco Bay Area (see Appendix
+ﬁve main ﬁndings:                                                 G in the supplemental data online). In other words, we
+                                                                  cannot expect the knowledge-related advantages that
+.   Chinese URs that are more polycentric exhibit lower           may derive from large central cities (such as Shanghai)
+    TFP.                                                          to easily spread to the entire YRD region compared with
+.   Polycentricity nonetheless starts positively impacting        PURs in Europe and the United States.
+    regional TFP when population size increases.                      The importance of contextualising empirical ﬁndings
+.   Cities can borrow size from nearby cities when the size       across (inter)national borders/geographical borders also
+    of URs is large, thus contributing to regional economic       pertains to the particular institutional–economic context
+    growth.                                                       in China. Our results indicate that polycentricity nega-
+.   The negative impact of polycentricity on regional TFP         tively inﬂuences regional productivity, particularly in
+    is more signiﬁcant in URs that are lower in the admin-        PURs planned and developed through a strong top-
+    istrative hierarchy.                                          down design. This can be traced back to a system where
+.   Urban regions in coastal China exhibit marked differ-         polycentric spatial patterns are created for the sake of the
+    ences regarding the inﬂuence of polycentricity on             collective (regional) interest. Although the local govern-
+    regional TFP compared with those in inland China.             ments must comply with the centrally initiated plans,
+                                                                  they would selectively follow to prioritise their own inter-
+    In general, these results indicate that agglomeration         ests. In fact, the scope of inter-city cooperation remains
+economies, proxied by TFP, are relatively less present in         limited mainly to transport infrastructure sharing (Li &
+Chinese URs that are more polycentric. While we shared            Wu, 2018). Without more bottom-up collaboration
+the geographical scope of Wang et al. (2019) and adopted          between cities, a deliberate polycentric population distri-
+a similar approach to measuring polycentricity, we arrived        bution may cause efﬁciency losses due to the lack of
+at opposite ﬁndings. This may be related to how these             regional markets, cross-jurisdictional mobility, and other
+authors measured economic productivity (LP instead of             factors essential for regional economic development.
+TFP), suggesting that different types of urban advantages         This raises an important policy question: with diverse
+may have developed differently in PURs. More speciﬁ-              motivations from different stakeholders mixed in processes
+cally, the kinds of agglomeration externalities, mainly           of region-building, regional economic growth may not be
+those spurring technology, organising innovation, and             easily achieved by ‘imaginary’ spatial conﬁgurations.
+promoting management skills, are associated with the                  In general, our analysis did not produce evidence that
+leading role of central cities. In contrast, others are related   polycentric urban development is linked with higher
+to the scale of the labour market and may cover a larger          regional economic productivity in China. As a result, we
+area. This may be explained by the observation that intan-        believe this calls for more judiciousness in policy and plan-
+gible factors in a production process require a large             ning aspirations toward hoped-for regional-economic
+agglomeration that provides the basis to share, match,            beneﬁts. Although the meaning of the population
+and learn (Duranton & Puga, 2004) between individual              threshold above which URs beneﬁt from polycentricity is
+cities or ﬁrms. In contrast, the tangible production factors      limited, it suggests that it is short-sighted to plan for poly-
+face more competition within a single large agglomeration,        centric patterns across all URs universally. For the largest
+causing economic activities to locate in cities with lower        URs, such as the Yangtze River Delta and the Pearl River
+capital and labour costs. Although these ideas require            Delta, local governments should consider measures to pro-
+further examination, we believe they provide valuable             mote inter-city connectivity to secure the net beneﬁts of
+clues to understand better why polycentric URs may per-           ‘borrowed size,’ e.g., building integrated social security
+form better in terms of LP than TFP in China.                     networks to facilitate labour mobility. For smaller URs,
+    We expected polycentricity to perform better in small         such as the Ningxia–Yellow River and Central Shanxi,
+URs but arrived at the opposite ﬁndings. In our view,             the agglomeration economies of central cities have not
+the difference with the results of Meijers and Burger             been fully exerted, and pursuing multi-centre development
+(2010) and Ouwehand et al. (2022) can be related to a             will lead to the loss of productivity rather than enhance it.
+
+                                                                                                               REGIONAL STUDIES
+1030    Yuting Yang et al.
+
+
+
+This suggests that the moderate gap between the city sizes      FUNDING
+should be maintained to avoid excessive polycentricity,
+which may hamper the leading effects of the central cities      This work was supported by Bijzonder Onderzoeksfonds
+on their surroundings.                                          UGent [grant number 01SC0820]; and the China Spon-
+    Our last point concerns the analytical framework            sorship Council [grant number 202006040029].
+adopted in this study. We used an integrated indicator
+to capture the net beneﬁts of population spillovers between
+neighbouring cities. In so doing, two opposite effects –
+                                                                NOTES
+borrowed size and agglomeration shadows – are collapsed
+                                                                1. Among them, BBW UR in Guangxi province is not
+into a single term, making it difﬁcult to assess their indi-
+                                                                included, as not all boundaries are coastal, and this UR
+vidual effects. However, the proxy we adopted here sufﬁces
+                                                                shares a border with Vietnam.
+because we are mainly interested in the overall beneﬁts
+                                                                2. The autonomous prefectures cities with incomplete
+passed onto the economy as a whole. In research where
+                                                                data include Xiangyang (2005–09), Hong Kong (2005–
+it becomes crucial to distinguish between the beneﬁts/dis-
+                                                                17) and Bijie (2005–17) alongside nine other cities.
+advantages of being connected in regional urban networks,
+                                                                3. The conditions we set to determine ‘population
+an operational reﬁnement should be included in line with
+                                                                centres’ are tailored to the Chinese context. We set the cri-
+Meijers and Burger (2017) and Volgmann and Rusche
+                                                                terion (over 3 km²) given that some newly planned towns
+(2020). Moreover, we proxied the effect by seeing it as a
+                                                                in some Chinese cities are surrounded by areas with low
+function of population and distance to neighbouring cities,
+                                                                population density and weak infrastructure. While they
+as this captures the potential to ‘generate wide demand for
+                                                                may be regarded as population centres in absolute terms,
+goods and a pooled labour supply’ (Camagni et al., 2017,
+                                                                they are not qualiﬁed as ‘actual’ population centres due
+p. 255). Different types of data would have been more
+                                                                to their modest inﬂuence on their surroundings and should
+appropriate if we had focused on other aspects of borrowed
+                                                                therefore be ﬁltered out (Li & Liu, 2018). Second, accord-
+size effects, such as the presence of high-level functions in
+                                                                ing to ‘The Rule on the Organization of Urban District
+neighbouring cities.
+                                                                Ofﬁces in China’ (2018), districts with populations of
+    Our ﬁndings call for further research in several direc-
+                                                                more than 100,000 should establish street ofﬁces. These
+tions. First, we found that the different speciﬁcations of
+                                                                street ofﬁces are responsible for the task prescribed by
+economic efﬁciency affect the relationship between poly-
+                                                                the municipal or district government (e.g., construction
+centricity and regional economic performance. This calls
+                                                                of economic development zone) (Ma & Wu, 2004). So,
+for a closer inspection of the sensitivity of the impact on
+                                                                each street often has a concentrated area and the popu-
+the choice of economic measures. Second, TFP has only
+                                                                lation density of the boundary region between streets is
+recently been adopted to analyse the economic perform-
+                                                                often relatively lower. Therefore, if the urban population
+ance of spatial structures, and the knowledge base is,
+                                                                in the district reaches 100,000, it might indicate the emer-
+therefore, still relatively limited. Future research could
+                                                                gence of new population centres.
+explore its suitability by diversifying the empirical con-
+                                                                4. The extraction of contiguous pixels is based on the
+texts, enlarging the longitudinal data frame, and reﬁning
+                                                                eight-connectivity rule.
+it using sectoral data. Third, future research could adopt
+                                                                5. The cohesion index denotes the average indexes
+a functional lens to identify polycentric spatial structures,
+                                                                between all pairs of interior points in an urban area; the
+which may align better with some of the key constructs
+                                                                proximity index denotes the average distance from all
+in the theoretical framework (e.g., TFP capturing
+                                                                interior points to the centroid of the urban area; the spin
+knowledge spillovers may largely depend on the nature
+                                                                index is the average of the square of the distances between
+and strength of inter-city relations). Fourth, separating
+                                                                all interior points and the centroid of the urban area; and
+the effects of borrowed size and agglomeration shadows
+                                                                the range index is the maximum distance between two
+would result in a more reﬁned understanding of both
+                                                                points on the perimeter of the urban area.
+forces. And ﬁnally, we only focused on the regional
+                                                                6. The estimation of the urban area in response to growth
+scale, as it is the territorial scale at which PUR policy
+                                                                of urban population may be confounded by underlying city-
+initiatives in China operate. A multiscalar perspective
+                                                                speciﬁc trends, potentially driven by the initial conditions
+may provide more insight (Wang et al., 2019,
+                                                                (i.e., the base situation in 1992). Nevertheless, controlling
+p. 1638). Integrating analyses at different scales into a
+                                                                the projected historical population growth in the period
+uniﬁed framework may allow us to better understand
+                                                                1992–2005 through the urban area instrumented partially
+the dynamics of the productivity–spatial structure–poly-
+                                                                addresses this concern, as it allows changes in city shapes
+centricity interactions and choose the appropriate scale
+                                                                to only affect the deviations from the city’s long-run path.
+for policy intervention.
+
+                                                                ORCID
+DISCLOSURE STATEMENT
+                                                                Yuting Yang http://orcid.org/0000-0001-9844-5750
+No potential conﬂict of interest was reported by the            Freke Caset http://orcid.org/0000-0003-1998-986X
+authors.                                                        Ben Derudder http://orcid.org/0000-0001-6195-8544
+
+REGIONAL STUDIES
+         Does urban polycentricity contribute to regional economic growth? Empirical evidence from Chinese urban regions                 1031
+
+
+
+REFERENCES                                                                Dadashpoor, H., Doorudinia, A., & Meshkini, A. (2023).
+                                                                              Polycentricity: The last episodes or the new season? Progress in
+Alder, S., Shao, L., & Zilibotti, F. (2016). Economic reforms and             Planning, 100776. https://doi.org/10.1016/j.progress.2023.100776
+    industrial policy in a panel of Chinese cities. Journal of            Davoudi, S. (2003). European brieﬁng: Polycentricity in European
+    Economic Growth, 21(4), 305–349. https://doi.org/10.1007/                 spatial planning: From an analytical tool to a normative agenda.
+    s10887-016-9131-x                                                         European Planning Studies, 11(8), 979–999. https://doi.org/10.
+Alonso, W. (1973). Urban zero population growth. Daedalus,                    1080/0965431032000146169
+    191–206.                                                              Deinema, M., & Kloosterman, R. (2013). Polycentric urban trajec-
+Bailey, N., & Turok, I. (2001). Central Scotland as a polycentric urban       tories and urban cultural economy. In J. Klaesson, B.
+    region: Useful planning concept or chimera? Urban Studies, 38(4),         Johansson & C. Karlsson (Eds.), Metropolitan regions (pp.
+    697–715. https://doi.org/10.1080/00420980120035295                        339–373). Springer.
+Bardhan, P. K., & Mookherjee, D. (2000). Capture and governance           Derudder, B., Liu, X., Wang, M., Zhang, W., Wu, K., & Caset, F.
+    at local and national levels. American Economic Review, 90(2),            (2021). Measuring polycentric urban development: The impor-
+    135–139. https://doi.org/10.1257/aer.90.2.135                             tance of accurately determining the ‘balance’ between ‘centers’.
+Bartosiewicz, B., & Marcinczak, S. (2021). Urban structure in tran-           Cities, 111, 103009. https://doi.org/10.1016/j.cities.2020.103009
+    sition: Evidence from Poland, 1983–2011. Regional Studies, 56         Derudder, B., Meijers, E., Harrison, J., Hoyler, M., & Liu, X.
+    (1), 36–47. https://doi.org/10.1080/00343404.2021.1878125                 (2022). Polycentric urban regions: Conceptualization, identiﬁ-
+Beugelsdijk, S., Klasing, M. J., & Milionis, P. (2018). Regional              cation and implications. Regional Studies, 56(1), 1–6. https://
+    economic development in Europe: The role of total factor pro-             doi.org/10.1080/00343404.2021.1982134
+    ductivity. Regional Studies, 52(4), 461–476. https://doi.org/10.      Du, R., & Zhang, J. (2019). Walled cities and urban density in
+    1080/00343404.2017.1334118                                                China. Papers in Regional Science, 98(3), 1517–1539. https://
+Brezzi, M., & Veneri, P. (2015). Assessing polycentric urban systems          doi.org/10.1111/pirs.12415
+    in the OECD: Country, regional and metropolitan perspectives.         Duranton, G., & Puga, D. (2004). Micro-foundations of urban
+    European Planning Studies, 23(6), 1128–1145. https://doi.org/             agglomeration economies. Handbook of Regional and Urban
+    10.1080/09654313.2014.905005                                              Economics, 4, 2063–2117. https://doi.org/10.1016/S1574-0080
+Burgalassi, D., & Luzzati, T. (2015). Urban spatial structure and             (04)80005-1
+    environmental emissions: A survey of the literature and some          Fang, C., & Yu, D. (2017). Urban agglomeration: An evolving con-
+    empirical evidence for Italian NUTS 3 regions. Cities, 49,                cept of an emerging phenomenon. Landscape and Urban
+    134–148. https://doi.org/10.1016/j.cities.2015.07.008                     Planning, 162, 126–136. https://doi.org/10.1016/j.landurbplan.
+Burger, M. J., Meijers, E. J., Hoogerbrugge, M. M., & Tresserra, J.           2017.02.014
+    M. (2015). Borrowed size, agglomeration shadows, and cultural         Fernández-Maldonado, A. M., Romein, A., Verkoren, O., &
+    amenities in North-West Europe. European Planning Studies, 23             Parente Paula Pessoa, R. (2014). Polycentric structures in
+    (6), 1090–1109. https://doi.org/10.1080/09654313.2014.905002              Latin American metropolitan areas: Identifying employment
+Camagni, R., Capello, R., & Caragliu, A. (2015). The rise of                  sub-centres. Regional Studies, 48(12), 1954–1971. https://doi.
+    second-rank cities: What role for agglomeration economies?                org/10.1080/00343404.2013.786827
+    European Planning Studies, 23(6), 1069–1089. https://doi.org/         Fujita, M., & Ogawa, H. (1982). Multiple equilibria and structural
+    10.1080/09654313.2014.904999                                              transition of non-monocentric urban conﬁgurations. Regional
+Camagni, R., Capello, R., & Caragliu, A. (2017). Static vs. dynamic           Science and Urban Economics, 12(2), 161–196. https://doi.org/
+    agglomeration economies: Spatial context and structural evol-             10.1016/0166-0462(82)90031-X
+    ution behind urban growth. Papers in Regional Science, 95(1),         Giuliano, G., Kang, S., & Yuan, Q. (2019). Agglomeration
+    133–158. https://doi.org/10.1111/pirs.12182                               economies and evolving urban form. The Annals of Regional
+Capello, R. (2000). The city network paradigm: Measuring urban                Science, 63(3), 377–398. https://doi.org/10.1007/s00168-019-
+    network externalities. Urban Studies, 37(11), 1925–1945.                  00957-4
+    https://doi.org/10.1080/713707232                                     Green, N. (2007). Functional polycentricity: A formal deﬁnition in
+Capello, R., & Camagni, R. (2000). Beyond optimal city size: An               terms of social network analysis. Urban Studies, 44(11), 2077–
+    evaluation of alternative urban growth patterns. Urban Studies,           2103. https://doi.org/10.1080/00420980701518941
+    37(9), 1479–1496. https://doi.org/10.1080/00420980020080221           Guo, H., & Minier, J. (2021). Borders, geography, and economic
+Caset, F., Derudder, B., Van Migerode, C., & De Wit, B. (2022).               activity: The case of China. Regional Science and Urban
+    Mapping the spatial conditions of polycentric urban develop-              Economics, 90, 103700. https://doi.org/10.1016/j.regsciurbeco.
+    ment in Europe: An open-source software tool. Geographical                2021.103700
+    Analysis, 54(3), 583–598. https://doi.org/10.1111/gean.12313          Hamnett, C. (2020). Is Chinese urbanisation unique? Urban Studies,
+Chen, W., Golubchikov, O., & Liu, Z. (2021). Measuring poly-                  57(3), 690–700. https://doi.org/10.1177/0042098019890810
+    centric structures of megaregions in China: Linking morpho-           Harari, M. (2020). Cities in Bad shape: Urban geometry in India.
+    logical and functional dimensions. Environment and Planning               American Economic Review, 110(8), 2377–2421. https://doi.
+    B: Urban Analytics and City Science, 48(8), 2272–2288. https://           org/10.1257/aer.20171673
+    doi.org/10.1177/2399808320974687                                      He, X., Cao, Y., & Zhou, C. (2021). Evaluation of polycentric spatial
+Cheng, H., & Shaw, D. (2017). Polycentric development practice in             structure in the urban agglomeration of the Pearl River Delta
+    master planning: The case of China. International Planning                (PRD) based on multi-source big data fusion. Remote Sensing,
+    Studies, 23(2), 163–179. https://doi.org/10.1080/13563475.2017.           13(18), 3639. https://doi.org/10.3390/rs13183639
+    1361318                                                               Hoyler, M., Kloosterman, R. C., & Sokol, M. (2008). Polycentric
+Comin, D. (2010). Total factor productivity. In S. Durlauf & L.               puzzles – Emerging mega-city regions seen through the lens of
+    Blume (Eds.), Economic growth (pp. 260–263). Palgrave                     advanced producer services. Regional Studies, 42(8), 1055–
+    Macmillan.                                                                1064. https://doi.org/10.1080/00343400802389377
+Cortinovis, N., & van Oort, F. (2019). Between spilling over and boil-    Huang, X., Li, G., & Liu, J. (2020). The impact of spatial structure
+    ing down: Network-mediated spillovers, local knowledge base and           on economic efﬁciency of Beijing–Tianjin–Hebei megalopolis in
+    productivity in European regions. Journal of Economic Geography,          China. Complexity, 2020, 1–18. https://doi.org/10.1155/2020/
+    19(6), 1233–1260. https://doi.org/10.1093/jeg/lby058                      6038270
+
+
+                                                                                                                           REGIONAL STUDIES
+1032      Yuting Yang et al.
+
+
+
+Koster, H. R., Cheng, F. F., Gerritse, M., & van Oort, F. G. (2019).      Parr, J. B. (2002). Agglomeration economies: Ambiguities and con-
+    Place-based policies, ﬁrm productivity, and displacement effects:         fusions. Environment and Planning A, 34(4), 717–731. https://
+    Evidence from Shenzhen, China. Journal of Regional Science, 59            doi.org/10.1068/a34106
+    (2), 187–213. https://doi.org/10.1111/jors.12415                      Puga, D. (2010). The magnitude and causes of agglomeration econ-
+Kwon, K., & Seo, M. (2018). Does the polycentric urban region con-            omies. Journal of Regional Science, 50(1), 203–219. https://doi.
+    tribute to economic performance? The case of Korea.                       org/10.1111/j.1467-9787.2009.00657.x
+    Sustainability (Switzerland), 10(11), 1–10.                           Rosenthal, S. S., & Strange, W. C. (2004). Evidence on the nature
+Lee, B., & Gordon, P. (2007). Urban spatial structure and economic            and sources of agglomeration economies. In Henderson, J. V., &
+    growth in US metropolitan areas. Paper presented at the 46th              Thisse, J. F. (Eds.), Handbook of urban and regional economics
+    annual meeting of the Western Regional Science Association,               (Vol. 4, pp. 2119–2172). Elsevier.
+    Newport Beach, CA.                                                    Shen, Y., Yue, S., Sun, S., & Guo, M. (2020). Sustainable total factor pro-
+Li, Y., & Du, R. (2021). Polycentric urban structure and                      ductivity growth: The case of China. Journal of Cleaner Production,
+    innovation: Evidence from a panel of Chinese cities. Regional             256, 120727. https://doi.org/10.1016/j.jclepro.2020.120727
+    Studies, 56(1), 113–127. https://doi.org/10.1080/00343404.            Storper, M. (2013). Keys to the city. Princeton University Press.
+    2021.1886274                                                          Thomas, R., Schmidt, S., & Siedentop, S. (2022). Toward compara-
+Li, Y., & Liu, X. (2018). How Did urban polycentricity and dis-               tive polycentricity scores: Assessing variations in regional deli-
+    persion affect economic productivity ? A case study of 306                neation and subcenter identiﬁcation. Environment and
+    Chinese cities. Landscape and Urban Planning, 173, 51–59.                 Planning B: Urban Analytics and City Science, 49(6), 1597–
+    https://doi.org/10.1016/j.landurbplan.2018.01.007                         1611. https://doi.org/10.1177/23998083211065765
+Li, Y., & Wu, F. (2018). Understanding city-regionalism in China:         Van Meeteren, M., Poorthuis, A., Derudder, B., & Witlox, F.
+    Regional cooperation in the Yangtze river delta. Regional Studies,        (2016). Pacifying Babel’s tower: A scientometric analysis of poly-
+    52(3), 313–324. https://doi.org/10.1080/00343404.2017.1307953             centricity in urban research. Urban Studies, 53(6), 1278–1298.
+Liu, X., Derudder, B., & Wang, M. (2018). Polycentric urban devel-            https://doi.org/10.1177/0042098015573455
+    opment in China: A multi-scale analysis. Environment and              Van Oort, F., Burger, M., & Raspe, O. (2010). On the economic
+    Planning B: Urban Analytics and City Science, 45(5), 953–972.             foundation of the urban network paradigm: Spatial integration,
+    https://doi.org/10.1177/2399808317690155                                  functional integration and economic complementarities within
+Lüthi, S., Thierstein, A., & Goebel, V. (2010). Intra-ﬁrm and extra-          the Dutch Randstad. Urban Studies, 47(4), 725–748. https://
+    ﬁrm linkages in the knowledge economy: The case of the emer-              doi.org/10.1177/0042098009352362
+    ging mega-city region of Munich. Global Networks, 10(1), 114–         Veneri, P., & Burgalassi, D. (2012). Questioning polycentric devel-
+    137. https://doi.org/10.1111/j.1471-0374.2010.00277.x                     opment and its effects. Issues of deﬁnition and measurement for
+Ma, L. J., & Wu, F. (2004). Restructuring the Chinese city: Changing          the Italian NUTS-2 regions. European Planning Studies, 20(6),
+    society, economy, and space. Routledge.                                   1017–1037. https://doi.org/10.1080/09654313.2012.673566
+Meijers, E. (2008). Summing small cities does not make a large city:      Volgmann, K., & Rusche, K. (2020). The geography of borrowing
+    Polycentric urban regions and the provision of cultural, leisure          size: Exploring spatial distributions for German urban regions.
+    and sports amenities. Urban Studies, 45(11), 2323–2342.                   Tijdschrift voor Economische en Sociale Geograﬁe, 111(1), 60–79.
+    https://doi.org/10.1177/0042098008095870                                  https://doi.org/10.1111/tesg.12362
+Meijers, E. J. (2013). Metropolitan labor productivity and urban          Wang, F., Dong, M., Ren, J., Luo, S., Zhao, H., & Liu, J. (2022).
+    spatial structure. In J. Klaesson, B. Johansson & C. Karlsson             The impact of urban spatial structure on Air pollution:
+    (Eds.), Metropolitan regions (pp. 141–166). Springer.                     Empirical evidence from China. Environment, Development
+Meijers, E., Hoogerbrugge, M., & Cardoso, R. (2018). Beyond                   and Sustainability, 1–20.
+    polycentricity: Does stronger integration between cities in poly-     Wang, M., Derudder, B., & Liu, X. (2019). Polycentric urban devel-
+    centric urban regions improve performance? Tijdschrift voor               opment and economic productivity in China: A multiscalar
+    Economische en Sociale Geograﬁe, 109(1), 1–21. https://doi.org/           analysis. Environment and Planning A, 51(8), 1622–1643.
+    10.1111/tesg.12292                                                        https://doi.org/10.1177/0308518X19866836
+Meijers, E. J., & Burger, M. J. (2010). Spatial structure and pro-        Wang, Y. (2013). Fiscal decentralization, endogenous policies, and
+    ductivity in US metropolitan areas. Environment and Planning              foreign direct investment: Theory and evidence from China
+    A, 42(6), 1383–1402. https://doi.org/10.1068/a42151                       and India. Journal of Development Economics, 103, 107–123.
+Meijers, E. J., & Burger, M. J. (2017). Stretching the concept of             https://doi.org/10.1016/j.jdeveco.2013.01.006
+    ‘borrowed size’. Urban Studies, 54(1), 269–291. https://doi.org/      Wei, L., Luo, Y., Wang, M., Cai, Y., Su, S., Li, B., & Ji, H. (2020).
+    10.1177/0042098015597642                                                  Multi-scale identiﬁcation of urban functional polycentricity for
+Menegaki, A. N. (2013). Growth and renewable energy in Europe:                planning implications: An integrated approach using geo-big trans-
+    Benchmarking with data envelopment analysis. Renewable                    port data and complex network modeling. Habitat International, 97
+    Energy, 60, 363–369. https://doi.org/10.1016/j.renene.2013.05.            (129), 102134. https://doi.org/10.1016/j.habitatint.2020.102134
+    042                                                                   Wheeler, C. H. (2003). Evidence on agglomeration economies, dis-
+Moomaw, R. L. (1981). Productivity and city size: A critique of the           economies, and growth. Journal of Applied Econometrics, 18(1),
+    evidence. The Quarterly Journal of Economics, 96(4), 675–688.             79–104. https://doi.org/10.1002/jae.678
+    https://doi.org/10.2307/1880747                                       Wu, F. (2016). China’s emergent city-region governance: A New
+Nelson, A. C., & Lang, R. E. (2018). Megapolitan America: A New               form of state spatial selectivity through state-orchestrated rescal-
+    vision for understanding America’s metropolitan geography. APA            ing. International Journal of Urban and Regional Research, 40(6),
+    Planners Press.                                                           1134–1151. https://doi.org/10.1111/1468-2427.12437
+Otsuka, A. (2017). Regional determinants of total factor productivity     Zhang, T., Sun, B., & Li, W. (2017). The economic performance of
+    in Japan: Stochastic frontier analysis. Annals of Regional Science,       urban structure: From the perspective of polycentricity and monocen-
+    58(3), 579–596. https://doi.org/10.1007/s00168-017-0808-7                 tricity. Cities, 68, 18–24. https://doi.org/10.1016/j.cities.2017.05.002
+Ouwehand, W. M., van Oort, F. G., & Cortinovis, N. (2022).                Zhang, W., & Derudder, B. (2019). How sensitive are measures of
+    Spatial structure and productivity in European regions.                   polycentricity to the choice of ‘centres’? A methodological and
+    Regional Studies, 56(1), 48–62. https://doi.org/10.1080/                  empirical exploration. Urban Studies, 56(16), 3339–3357.
+    00343404.2021.1950912                                                     doi:10.1177/0042098019843061
+
+
+REGIONAL STUDIES
+

@@ -1,0 +1,1486 @@
+[PDF Metadata]
+Source PDF: journal/B22-cuberes-desmet-rappaport-2021-urban-growth-shadows-10.1016-j.jue.2021.103334.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           17
+Encrypted:       no
+Page size:       595.245 x 793.92 pts
+Page rot:        0
+File size:       1216618 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                                  Journal of Urban Economics 123 (2021) 103334
+
+
+                                                                     Contents lists available at ScienceDirect
+
+
+                                                               Journal of Urban Economics
+                                                              journal homepage: www.elsevier.com/locate/jue
+
+
+
+
+Urban growth shadows☆
+David Cuberes a,1, Klaus Desmet b,d,e,1,∗, Jordan Rappaport c,1
+a
+  Department of Economics, Clark University, United States
+b
+  Department of Economics and Cox School of Business, Southern Methodist University, United States
+c
+  Federal Reserve Bank of Kansas City, United States
+d
+  NBER, USA
+e
+  CEPR, UK
+
+
+
+
+a r t i c l e           i n f o                            a b s t r a c t
+
+JEL classiﬁcation:                                         Does a location’s growth beneﬁt or suﬀer from being geographically close to large economic centers? Spatial
+R11                                                        proximity may lead to competition and hurt growth, but it may also improve market access and enhance growth.
+R12                                                        Using data on U.S. counties and metro areas for the period 1840–2017, we document this tradeoﬀ between urban
+N91
+                                                           shadows and urban access. Proximity to large urban centers was negatively associated with growth between 1840
+N92
+                                                           and 1920, and positively associated with growth after 1920. Using a two-city spatial model, we show that the
+Keywords:                                                  secular evolution of inter-city and intra-city commuting costs can account for this. Alternatively, the long-run
+Urban shadows                                              decline in inter-city shipping costs relative to intra-city commuting costs is also consistent with these observed
+Urban access                                               patterns.
+Commuting
+Spatial economics
+Urban systems
+City growth
+United states
+1840–2017
+
+
+
+
+    “Cities were like stars or planets, with gravitational ﬁelds that attracted                  an opposing view: the presence of nearby clusters of economic activity
+    people and trade like miniature solar systems.”                                              improves market access, beneﬁting the growth of neighboring smaller
+            William Cronon, Nature’s Metropolis: Chicago and the Great                           places.4
+    West                                                                                             Is the proximity of a large urban center beneﬁcial or harmful to a
+                                                                                                 location’s economic growth? This paper empirically and theoretically
+1. Introduction                                                                                  explores this question. Focusing on local population growth in the U.S.
+                                                                                                 over almost two hundred years, our empirical analysis identiﬁes two dis-
+    In his account of the U.S. westward expansion during the nineteenth                          tinct time periods: between 1840 and 1920, urban shadows dominated,
+century, Cronon (1991) writes that land speculators on the frontier saw                          and since then, between 1920 and today, urban access has taken over.
+cities as having a gravitational pull akin to a law of nature that inex-                         One key force that is likely to have driven the changing relative strength
+orably attracted migrants from the hinterland to the new urban centers.2                         of urban shadows and urban access is the evolution of intra- and inter-
+This is consistent with a view that smaller places close to larger cities                        city commuting costs. After providing an overview of changes in com-
+fall under the “urban shadow” of their neighbors, with increased com-                            muting costs over the last two hundred years, we develop a two-city
+petition for resources dampening their growth.3 However, there is also                           spatial model that incorporates intra- and inter-city commuting costs.
+
+
+ ☆
+    We beneﬁtted from presentations at the Urban Economic Association Meetings (New York and Amsterdam), Boston Federal Reserve Bank, Princeton University,
+and the University of North Dakota. The views expressed herein are those of the authors and do not necessarily reﬂect the views of the Federal Reserve Bank of
+Kansas City or the Federal Reserve System. We thank McKenzie Humann, Anissa Khan, Da Li, John Limaldi, and Isabel Steﬀens for outstanding research assistance.
+  ∗
+    Corresponding author.
+    E-mail addresses: dcuberes@clarku.edu (D. Cuberes), kdesmet@smu.edu (K. Desmet), jordan.rappaport@kc.frb.org (J. Rappaport).
+  1 David Cuberes, Klaus Desmet and Jordan Rappaport: Empirics and Theory.
+  2
+    This view of cities echoes that of central place theory (Christaller, 1933; Lösch, 1940).
+  3
+    See, e.g., Krugman (1993), Fujita et al. (1999), Black and Henderson (2003), and Bosker and Buringh (2017).
+  4
+    See, amongst others, Davis and Weinstein (2002), Rosenthal and Strange (2003), Glaeser and Kahn (2004), Hanson (2005), and Redding and Sturm (2008).
+
+
+https://doi.org/10.1016/j.jue.2021.103334
+Received 2 October 2019; Received in revised form 9 February 2021
+Available online 1 March 2021
+0094-1190/© 2021 Elsevier Inc. All rights reserved.
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                     Journal of Urban Economics 123 (2021) 103334
+
+
+We show that the long-run behavior of just one variable — commut-                                 how these choices change with the cost of commuting, the distance be-
+ing costs — can account for many of the observed patterns in the data,                            tween cities and their relative sizes. We ﬁnd that as the cost of inter-city
+including the changing relative strength of urban shadows and urban                               and intra-city commuting gradually drops, we ﬁrst see individuals from
+access over time and space. Another key force we consider is the evo-                             the smaller, less productive city move to the larger, more productive
+lution of shipping costs. We show that the long-run decline in shipping                           city. As commuting costs continue to fall, those individuals prefer to
+costs relative to commuting costs provides an alternative explanation                             commute, rather than to move, to the larger city. Hence, a gradual drop
+for the shift in importance from urban shadows to urban access.                                   in commuting costs ﬁrst hurts growth in the smaller city, as it loses pop-
+    Using U.S. county and metro population data from 1840 to 2017,                                ulation to its larger neighbor, but a further drop eventually helps its
+our empirical analysis documents the changing correlation of local pop-                           growth, by attracting residents who can commute to the nearly large
+ulation growth with the presence of nearby large locations. In addition                           city. That is, the smaller city goes from experiencing a negative urban
+to establishing the important shift from urban shadows to urban access                            shadow, to beneﬁting from improved urban access.
+around the year 1920, we identify three more stylized facts. First, since                             The intuition for the non-monotonic relation between commuting
+the turn of the twenty-ﬁrst century, there has been a decrease in the pos-                        costs and the growth of the smaller city is straightforward. The initial
+itive correlation between proximity to a large urban center and growth,                           drop in commuting costs lowers the cost of living in the larger city by
+suggesting that urban access has been weakening in the last decades.                              more than in the smaller city, for the simple reason that intra-city com-
+Second, there is evidence of the geographic reach of large urban cen-                             mutes are on average longer in the larger city than in the smaller city.
+ters expanding. Urban access beneﬁts were very local between 1920                                 This makes it more attractive for residents of the smaller city to pay the
+and 1940 and much more far-reaching later on. Third, the greater the                              one-time moving cost to relocate to the larger city. As in Cronon (1991),
+size of a nearby large location, the bigger the correlation with its hin-                         the large city uses its gravitational force to pull in migrants from the hin-
+terland’s growth. The evidence therefore suggests that larger locations                           terland. A further drop in commuting costs continues to make the larger
+exerted stronger urban shadows in the earlier time period and provided                            city more attractive than the smaller city, but it also facilitates inter-
+improved urban access in the later period.                                                        city commuting, which was hitherto too costly. This allows the smaller
+    We hypothesize that changes in either commuting or shipping costs                             city to attract residents who can work in the larger city. The small city
+can account for these patterns. Beginning in the mid-nineteenth century,                          beneﬁts from the proximity of the large city.
+a steady stream of innovations lowered the cost of commuting. The in-                                 When analyzing the observed long-run evolution of commuting costs
+troduction of the streetcar facilitated longer-distance commutes, giving                          through the lens of our model, we can account for the ﬁve main stylized
+rise to the ﬁrst “streetcar suburbs”. By the beginning of the twentieth                           facts uncovered in the data. Recall that commuting costs experienced
+century, streetcars had become widespread. Drawing on cross-sectional                             three distinct regimes: slow decline between 1840 and 1920, rapid de-
+data on streetcars for the time period 1900–1920, we identify one more                            cline between 1920 and 2000, and stagnation since then. When inter-
+stylized fact: improvements in local commuting infrastructure strength-                           preted by the model, these are consistent with urban shadows dominat-
+ened large cities’ urban shadows. The decline in commuting costs accel-                           ing in the early time period and urban access dominating in the later
+erated dramatically during the inter-war and post-war periods. The com-                           time period, with some weakening of urban access in the last decades.
+bination of the widespread adoption of the automobile and the building                            These eﬀects are stronger in urban areas that experience more rapid im-
+of the highway system connecting downtowns to hinterlands made it                                 provements in their commuting infrastructure. The model also shows
+possible for people to live much further away from work. Rather than                              that as commuting costs decrease, the geographic reach of urban areas
+having to permanently move to enjoy the productive beneﬁts of larger                              expands. In addition, the model implies that an increase in the relative
+cities, people could now continue to reside in the hinterland and com-                            size of a large urban center strengthens the force it exerts on its hinter-
+mute to the urban centers instead. There is some indication that the con-                         land. As such, the long-run evolution of just one variable – commuting
+tinued drop in commuting costs has weakened in the last two decades.5                             costs – is able to capture the diﬀerent stylized facts, in particular the
+Over the last century and a half, shipping costs have also experienced                            rise and decline of urban shadows.
+a secular decline. A relevant observation is that this drop in shipping                               An alternative interpretation is that urban access has improved, not
+costs has been more dramatic than the decrease in commuting costs                                 because of more inter-city commuting but because of more inter-city
+(Glaeser and Kahn, 2004).                                                                         trade. The second special case of the model aims to capture this force by
+    To understand the role of commuting costs and shipping costs in                               introducing the possibility of trade. As before, the rise of urban shadows
+shaping the relative strength of urban shadows and urban access, we                               is driven by the drop in intra-city commuting costs, which is beneﬁcial
+develop a simple model of two cities. The model captures a basic trade-                           for both cities, but more so for the larger one. However, as shipping
+oﬀ: on the one hand, the smaller city may ﬁnd it hard to survive in the                           costs also decline, market access for the smaller city improves, giving
+shadow of the larger city, as its residents prefer to move to the more pro-                       its residents less reason to move to the larger city. If, as suggested by
+ductive neighbor; on the other hand, the smaller city may thrive as its                           Glaeser and Kahn (2004), shipping costs have dropped faster than com-
+residents can access the neighbor’s higher productivity, either through                           muting costs, we show that this alternative model is also able to generate
+commuting or through trade. In this framework, the evolution of diﬀer-                            the rise and decline of urban shadows.
+ent spatial frictions — inter-city commuting costs, intra-city commuting                              This paper is related to the literature that explicitly considers the spa-
+costs, and inter-city shipping costs — determine whether urban shadows                            tial location of one place relative to another. Urban economics has until
+or urban access dominate. To highlight the role of these diﬀerent spa-                            recently largely ignored the spatial distribution of cities (Fujita et al.,
+tial frictions, we consider two special cases. The ﬁrst ignores inter-city                        1999). An important early exception is central place theory (Christaller,
+trade, whereas the second ignores inter-city commuting.                                           1933; Lösch, 1940). In that theory the tradeoﬀ between scale economies
+    In the ﬁrst special case without inter-city trade, an individual has                          and transportation costs leads to the emergence of a spatially organized
+three choices: she can work in the city where she initially resides, she                          hierarchy of locations of diﬀerent sizes. A natural implication of central
+can move to live and work in the other city, or she can commute for                               place theory is that the presence of large urban centers may enhance
+work to the other city without changing her residence. We then show                               population growth in nearby agglomerations through positive spillover
+                                                                                                  eﬀects, but it may also limit such growth through competition among
+                                                                                                  cities (Krugman, 1993; Tabuchi and Thisse, 2011).6
+  5
+    Several factors may have contributed to this: improvements in commuting technology
+have petered out; road and rail infrastructure investment has stalled; traﬃc congestion has
+worsened and the commuting speed has slowed down; and there has been a rise in the
+opportunity cost of time, due to longer work hours and the increase in double-income                6 More recently, there has been a growing interest in incorporating ordered space into
+
+families.                                                                                         economic geography models. This is particularly true of quantitative spatial models that
+
+
+                                                                                              2
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                  Journal of Urban Economics 123 (2021) 103334
+
+
+    Most empirical studies that explore the eﬀect of large agglomera-                          ..., 1980–2000, 2000–2017. In constructing the dataset, we had to re-
+tions on other locations focus on the twentieth century. They tend to                          solve two main issues: how to deal with changing county borders and
+ﬁnd positive growth eﬀects from proximity to urban centers. Using U.S.                         how to delineate metro areas over time. In what follows we limit
+data for 1990–2006, Partridge et al. (2009) uncover a positive impact of                       ourselves to a brief discussion, and point the interested reader to
+large urban clusters on nearby smaller places. Looking at the post-war                         Desmet and Rappaport (2017) for more details. To get consistent
+period, Rappaport (2005) ﬁnds evidence of the populations of cities and                        county borders, we use a “county longitudinal template” augmented
+suburbs moving together. Dobkins and Ioannides (2001) also study the                           by a map guide to decennial censuses, and combine counties as neces-
+interaction of cities of diﬀerent sizes. Liu et al. (2011) analyze the case                    sary to create geographically-consistent county equivalents over succes-
+of China, and likewise show that the impact of a high-tier city on its                         sive twenty-year-periods (Horan and Hargis, 1995; Thorndale and Dol-
+surrounding areas is positive.                                                                 larhide, 1987). For example, if county A splits into counties A1 and A2 in
+    A few papers have looked at earlier time periods and ﬁnd evidence                          1850, we combine counties A1 and A2 to measure population growth of
+of urban growth shadows. In pre-industrial Europe, Bosker and Bur-                             county A between 1840 and 1860. More generally, for growth between
+ingh (2017) show that the net eﬀect of large neighbors was negative.                           1840 and 1860, we use geographic borders from 1840; for growth be-
+Consistent with this, Rauch (2014) documents that historically larger                          tween 1860 and 1880, we use geographic borders from 1860; and so
+European cities have been surrounded by larger hinterland areas. Most                          on.7 This methodology gives us a separate dataset for each twenty-year
+closely related to our work is Beltrán et al. (forthcoming) who use data                       period we study, as well as for 2000–2017.
+on Spanish municipalities for the time period 1800–2000. They ﬁnd                                   When diﬀerent counties form part of the same metropolitan area, we
+that the inﬂuence of neighboring cities was negative between 1800 and                          do not want to consider these counties as diﬀerent locations. We there-
+1950, to then become increasingly positive from 1950 onwards. Our                              fore combine counties into metro areas, when and where we can delin-
+work focuses on the U.S., a country where the urbanization process is                          eate them. Our analysis is thus based on a hybrid of metropolitan areas
+likely to have diﬀered from the Spanish experience for a variety of rea-                       and non-metropolitan counties. For 1940 and earlier, we merge counties
+sons: the U.S. was much less settled in the nineteenth century, modern-                        to form metropolitan areas applying criteria promulgated by the Oﬃce
+day mobility across cities and regions in the U.S. is greater, and the                         of Management and Budget (OMB) in 1950 to population and economic
+adoption of the automobile in the U.S. was swifter. In addition, our pa-                       conditions at the start of each twenty-year period (Gardner, 1999). For
+per oﬀers a theoretical framework that allows us to interpret the switch                       1960 and later, we use the oﬃcial delineations promulgated by OMB
+from urban shadows to urban access by relating it to the secular decline                       after each decennial census. As with the geographically-consistent coun-
+in transport costs.                                                                            ties, growth over any period is measured using the geographic borders of
+    In this paper we do not consider the possible role of structural trans-                    the initial year. The number of locations in our datasets increases rapidly
+formation in explaining the absorptive capacity of large locations. If the                     from 862 for the period 1840–1860 to 2,370 for 1880–1900 and then
+biggest cities disproportionately beneﬁted from the rural exodus from                          more slowly to a maximum of 2,982 for 1940–1960, reﬂecting both the
+nearby counties, this would generate an urban growth shadow. While                             westward movement of the U.S. frontier and the splitting of geograph-
+plausible, a recent paper by Eckert and Peters (2018) on spatial struc-                        ically large counties as they became more densely settled into smaller
+tural change since 1880 ﬁnds little support for this alternative expla-                        ones. Thereafter, the number of locations steadily declines as more and
+nation. More speciﬁcally, it ﬁnds that the spatial reallocation of peo-                        more counties were absorbed into metropolitan areas. Our dataset for
+ple from agricultural to non-agricultural labor markets accounted for                          2000–2017 has 2,369 locations.
+almost none of the decline in agricultural employment since 1880. In-                               The distribution of surrounding locations by size and distance sys-
+stead, most of the structural transformation happened within counties.                         tematically varies across diﬀerent parts of the country, which in many
+Hence, while our data do not allow us to take a strong stand on the pos-                       periods had diﬀerent average growth rates. For example, locations near
+sible role of structural transformation, this paper suggests it might not                      the U.S. frontier during the nineteenth century tended to have few large
+be a ﬁrst-order driver of our stylized facts.                                                  neighbors and high average growth. To avoid an omitted variable bias,
+    The rest of the paper is organized as follows. Section 2 presents the                      we extensively control for regional variation in order to isolate the corre-
+empirical ﬁndings on the changes in urban shadows and urban access                             lation of growth with measures of surrounding locations. A ﬁrst set of 15
+over the period 1840–2017. Section 3 documents the evolution of com-                           control variables are the terms from the third-order polynomial of lati-
+muting costs over the same period. Section 4 proposes a conceptual                             tude and longitude, (1 + 𝑙𝑎𝑡 + 𝑙𝑎𝑡2 + 𝑙𝑎𝑡3 )(1 + 𝑙𝑜𝑛𝑔 + 𝑙𝑜𝑛𝑔 2 + 𝑙𝑜𝑛𝑔 3 ). A sec-
+framework that relates the evolution of commuting and shipping costs                           ond set of control variables are indicators for eight of the nine U.S. cen-
+to urban shadows and urban access, showing that the theoretical predic-                        sus divisions. A third set of ten control variables are linear and quadratic
+tions are consistent with the main patterns in the data. Section 5 con-                        terms of average low temperature in January, average high temperature
+cludes.                                                                                        in July, average daily humidity in July, average annual rainfall, and av-
+                                                                                               erage number of days on which it rains (Rappaport, 2007). A fourth
+2. Urban shadows and urban access: 1840 to 2017                                                set of ten control variables are indicators of whether a location’s geo-
+                                                                                               graphic centroid is within 80 km of the coast and of a natural harbor
+    This section documents how the correlation of local population                             along each of the north Atlantic, south Atlantic, Gulf of Mexico, Pa-
+growth in the U.S. with the presence of nearby large locations has                             ciﬁc, and Great Lakes (Rappaport and Sachs, 2003). A ﬁfth set of two
+evolved over the period 1840–2017. In doing so, it aims to explore                             control variables are indicators of whether a location’s geographic cen-
+whether urban shadows or urban access were more prominent in dif-                              troid is within 40 km of a river on which there was navigation in 1890
+ferent time periods. It also reveals a number of additional stylized facts.                    and whether it is in addition located within 80 km of an ocean coast
+                                                                                               (Rappaport and Sachs, 2003). A ﬁnal set of two variables is a quadratic
+                                                                                               speciﬁcation of hilliness, measured as the standard deviation of altitude
+2.1. Data
+                                                                                               within a location normalized by the location’s land area. These six sets
+                                                                                               total 47 variables, which we include in all regressions beginning with
+   We use county population data from the Census Bureau spanning
+                                                                                               the 1860 cross section. A handful of them are dropped for the 1840
+the period 1840 to 2017. With the exception of the last period, we
+focus on successive twenty-year time frames: 1840–1860, 1860–1880,
+
+                                                                                                 7
+                                                                                                   This description applies to the most common case of counties splitting over time. If
+aim to bring the theory to the data in meaningful ways (Desmet and Rossi-Hansberg, 2014;       counties merge between, say, 1860 and 1880, then we would use geographic borders from
+Allen and Arkolakis, 2014; Desmet et al., 2018).                                               1880.
+
+
+                                                                                           3
+D. Cuberes, K. Desmet and J. Rappaport                                                                                               Journal of Urban Economics 123 (2021) 103334
+
+
+cross section due to lack of variation (e.g., there were no locations in                     indicators of a large neighbor within distance intervals demarcated by
+the Mountain and Paciﬁc census regions).                                                     {𝑑̃1 , 𝑑̃2 , … , 𝑑̃𝐷 }, together with the excluded interval, 𝑑𝓁𝑘 > 𝑑𝐷 , make up
+                                                                                             a disjoint set that fully partitions the observations in a regression. For
+2.2. Baseline speciﬁcation                                                                   a given maximum population threshold, coeﬃcients on each of the in-
+                                                                                             cluded indicators estimate the diﬀerence of predicted growth for obser-
+       Our main speciﬁcation regresses population growth over successive                     vations with a corresponding positive value and the predicted growth of
+twenty-year intervals on the presence of surrounding locations at spec-                      observations with a positive value of the excluded category. Estimated
+iﬁed distances with population above speciﬁed thresholds.                                    coeﬃcients thus depend closely on the composition of the excluded cat-
+       Let 𝑑𝓁𝑘 denote the distance between locations 𝓁 and 𝑘, measured us-                   egory.
+ing a straight-line approximation between their geographic centroids.                             It is important to specify a maximum distance that is not too high.
+Let 𝑑̃ ∈ {𝑑̃1 , 𝑑̃2 , … , 𝑑̃𝐷 } denote strictly increasing speciﬁed distances,               Failing to do so leaves few observations with a positive value for the
+e.g., {50km, 100km, … , 300km}. Finally, let 𝐿𝑘 and 𝐿̃ respectively de-                      excluded category. For example, in almost all years for which we run
+note the population of location 𝑘 and a speciﬁed population threshold                        regressions, less than 15 percent of observations have no moderately
+for considering a neighboring location to be large. For each ordered pair                    large neighbor (one with population above the 95th percentile) within
+                                                        𝐿̃ ,𝑑̃
+of locations, we construct an indicator variable, 𝕀𝓁𝑘          , describing whether          300 km. As these relatively isolated locations tended to grow slowly, a
+location 𝑘 has population weakly above threshold 𝐿̃ and distance from                        regression of growth on indicators for each of the distance intervals out
+location 𝓁 weakly less than 𝑑̃:                                                              to 300km must yield some positive coeﬃcients. Hence it is important to
+                                {
+ 𝐿̃ ,𝑑̃                           1 𝐿𝑘 ≥ 𝐿̃ & 𝑑𝓁𝑘 ≤ 𝑑̃                                       choose a maximum distance that is not too large.
+                      ̃   ̃
+𝕀𝓁𝑘 ≡ 𝕀(𝐿𝑘 , 𝑑𝓁𝑘 ; 𝐿, 𝑑 ) =                                                                       Conversely, it is also important to choose a maximum distance that is
+                                  0 otherwise
+                                                                                             not too low. Many of the regressions estimate coeﬃcients on the 50km-
+For each location 𝓁, we then construct a set of indicators, one for each                     100km and 100km-150km indicators that are the same sign and similar
+speciﬁed distance, describing if there is at least one location, 𝑘 ≠ 𝓁,                      in magnitude to their estimates on the 0km-50km indicator. For the 95th
+within that distance of location 𝓁, that has population weakly above                         percentile and 99th percentile thresholds for large size, the number of
+𝐿̃ and no such location within a smaller distance of 𝓁:                                      observations with positive indicators for two further-away intervals far
+        ⎧                   ∑      𝐿̃ ,𝑑̃                                                    exceeds the number with positive indicators for the closest interval. In
+        ⎪1 𝑑̃ = 𝑑̃1 &         𝑘≠𝓁 𝕀𝓁𝑘 ≥ 1
+  ̃ ̃   ⎪                           (∏ ̃ (             ̃
+                                                           ) )(∑            )                many cases, the majority of observations have positive values in the
+                                                                     𝐿̃ ,𝑑̃
+𝕀𝓁𝐿,𝑑 = ⎨1 𝑑̃ ∈ {𝑑̃2 , ., 𝑑̃𝐷 } &         𝑑−1
+                                                1 − ̃𝕀𝓁𝐿,𝑑      𝑘≠𝓁 𝕀𝓁𝑘       ≥1             combined 50km-150km range. In consequence, regressions that include
+                                          𝑑=𝑑̃1
+        ⎪                                                                                    an indicator only for the 0km to 50km distance may not ﬁnd much of
+        ⎪0 otherwise
+        ⎩                                                                                    a diﬀerence in predicted growth compared to locations in the excluded
+   For each 20-year period from 1840 to 2000 and for the 17-                                 category.
+year period from 2000 to 2017, we regress annual average popu-                                    To balance these two considerations, we specify our regressions to
+                                                      ̃     𝐿̃ ,𝑑̃   𝐿̃ ,𝑑̃   𝐿̃ ,𝑑̃
+lation growth, 𝑔𝓁 , on the set of indicators, 𝐈𝓁𝐿 = [𝕀𝓁 1 , 𝕀𝓁 2 , … 𝕀𝓁 𝐷 ],                 include indicators for 50km intervals out to the maximum distance that
+along with a ﬁfth-order polynomial of a location’s initial population,                       leaves at least 50 percent of observations in the excluded category.8 For
+𝐋𝓁 = [log(𝐿𝓁 ), (log(𝐿𝓁 ))2 , … , (log(𝐿𝓁 ))5 ]. The latter absorbs the non-                 example, 49 percent of the observations in the 1840 regression have a
+monotonic relationship between growth and size throughout most of                            neighbor that is at least moderately large within 150km and 67 percent
+U.S. history Michaels et al. (2012); Desmet and Rappaport (2017). It is                      have one within 200km and so we use presence indicators for 0km to
+necessary to include these terms because the size distribution of neigh-                     50km, 50km to 100km, and 100km to 150km. Higher thresholds for con-
+bors closely depends on a location’s own size. For example, very small                       sidering a location to be large require a maximum distance that is further
+locations rarely have a very large neighbor. As described in the previous                    away. For the 1840 regression on the presence of neighbors that are very
+subsection, we also extensively control for geographic attributes with 47                    large (ones with population above 99th percentile), our rule implies in-
+variables, 𝐱𝓁 . We thus specify a data generating process with reduced                       cluding presence indicators out to a maximum distance of 300km.
+form
+       ̃
+                                                                                             2.3. Two distinct subperiods
+𝑔𝓁 = 𝐈𝓁𝐿 𝛃 + 𝐋𝓁 𝛄 + 𝐱𝓁 𝛅 + 𝜀𝓁 .                                                    (1)
+    The partial correlation between the growth of a location and the                             This subsection explores the relative strength of urban shadows and
+presence of larger neighbors unsurprisingly depends both on the thresh-                      urban access between 1840 and 2017. When estimating the correlation
+old population above which we consider neighbors to be large, 𝐿̃ , and                       of the population growth of small and medium locations with the pres-
+the size of the location itself, 𝐿𝓁 . Because the size distribution of U.S.                  ence of moderately large locations (population at or above the 95th per-
+locations changed continually throughout U.S. history, we use relative                       centile), Table 1 shows two clearly distinct periods: a negative regime
+measures of population both to set year-speciﬁc thresholds for consider-                     from 1840 and 1920, and a positive regime from 1920 through 2017.
+ing a location large and to focus the analysis on the growth of locations                        The predicted population growth of small and medium locations was
+that are not large. Speciﬁcally, we consider locations to be at least “mod-                  slower during each of the four 20-year periods from 1840 to 1920 if they
+erately large” in a given year if their population is at or above the 95th                   had a moderately large neighbor. In 1840, the initial population of the
+percentile of the distribution across locations in that year. Analogously,                   small and medium locations ranged from 133 to 24,000 and the initial
+we respectively consider locations to be “very large” in a given year                        population of the 44 moderately large locations ranged from 62,000
+if their population is at or above the 99th percentile in that year. Re-                     to 425,000. Small and medium locations that had a moderately large
+ciprocally, we exclude locations from our baseline regression analysis                       neighbor within 50km had predicted annual population growth from
+that have population above the 80th percentile. Our baseline regres-                         1840 to 1860 that was slower by 0.63 percentage points compared to
+sions thus estimate the partial correlations between the growth rate of                      the excluded locations, which did not have a moderately large neigh-
+small and medium locations–those with population in the ﬁrst through                         bor within 150 km. Locations whose nearest moderately large neigh-
+fourth quintiles–with the presence of nearby locations in the top portion                    bor was between 50km to 100km away had predicted annual growth
+of the ﬁfth quintile. We also discuss how these correlations diﬀer across                    that was slower by 0.67 percentage points compared to excluded loca-
+sub-samples of locations by size.                                                            tions; and those whose nearest moderately large neighbor was 100km
+    Partial correlations sensitively depend on the maximum distance, 𝑑̃𝐷 ,                   to 150km away had predicted lower annual growth that was slower
+for which an indicator is included. To understand this, recognize that                       by 0.30 percentage points. The corresponding negative coeﬃcients sta-
+                                                                                             tistically diﬀer from zero at the 0.05 or 0.10 levels. Estimated negative
+
+
+                                                                                         4     8
+                                                                                                 Using the same maximum distance for all time periods yields qualitatively similar
+                                                                                             results (Online Appendix Section A.1).
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                        Journal of Urban Economics 123 (2021) 103334
+
+
+         Table 1
+         Population Growth and the Presence of a Moderately Large Neighbor.
+
+                                                                    Average Annual Population Growth of Small and Medium Locations (Quintiles 1–4)
+
+                                                                    (1)          (2)              (3)          (4)          (5)       (6)         (7)         (8)         (9)
+                                                                    1840-        1860-            1880-        1900-        1920-     1940-       1960-       1980-       2000-
+           Distance to Nearest Neighbor with Pop ≥ 95th Pctile      1860         1880             1900         1920         1940      1960        1980        2000        2017
+
+           1 to 50 km                                               -0.63∗       -0.77∗ ∗ ∗       -1.10∗ ∗ ∗   -0.04        0.28∗ ∗   1.11∗ ∗ ∗   1.19∗ ∗ ∗   0.50∗ ∗ ∗   0.41∗ ∗
+                                                                    (0.35)       (0.28)           (0.21)       (0.14)       (0.12)    (0.15)      (0.19)      (0.14)      (0.20)
+           50 to 100 km                                             -0.67∗ ∗ ∗   -0.41∗ ∗         -0.86∗ ∗ ∗   -0.28∗ ∗ ∗   -0.07     0.16∗       0.21∗       0.26∗ ∗ ∗   0.11
+                                                                    (0.24)       (0.20)           (0.18)       (0.09)       (0.07)    (0.08)      (0.11)      (0.09)      (0.09)
+           100 to 150 km                                            -0.30∗ ∗ ∗   -0.11            -0.63∗ ∗ ∗                                                              0.03
+                                                                    (0.12)       (0.17)           (0.15)                                                                  (0.07)
+           Additional Controls                                      48           52               52           52           52        52          52          52          52
+           𝑁                                                        691          1,328            1,844        2,110        2,357     2,387       2,283       2,104       1,895
+           Adjusted 𝑅2                                              0.846        0.778            0.718        0.521        0.393     0.352       0.376       0.412       0.298
+           Incremental 𝑅2                                           0.002        0.002            0.008        0.002        0.003     0.028       0.033       0.010       0.004
+
+         Each column presents the results from a regression of average annual population growth of those with population at or below the 80th percentile over
+         the enumerated period on categorical indicators if the nearest neighbor with population at or above the 95th percentile is within the enumerated
+         distance bin. All regressions include a constant and control for initial population and additional geographic, weather, and topographical control
+         variables, as described in the text. Standard errors, in parentheses, are robust to spatial correlation based on Conley (1999). The incremental 𝑅2
+         refers to the diﬀerence between the 𝑅2 of the regression and the 𝑅2 of a regression on only the additional control variables. ∗ 𝑝 < .10, ∗ ∗ 𝑝 < .05, ∗ ∗ ∗
+         𝑝 < .01
+
+
+coeﬃcients are similar in magnitude for the 1860–1880 regression and a                             with locations in the vicinity of large places growing relatively slower, whereas
+bit larger in magnitude for the 1880–1900 regression. Predicted growth                             between 1920 and 2017 urban access dominated, with locations in the vicin-
+from 1900 to 1920 was also slower for small and medium locations with                              ity of large places growing relatively faster.
+a moderately large neighbor, although the magnitude of the diﬀerence                                   This division into a negative regime followed by a positive regime
+compared to not having a moderately large neighbor was considerably                                robustly holds for alternative threshold levels of largeness and widely
+less than during the earlier periods. Throughout the negative regime,                              varying speciﬁcations.10
+the marginal share of the variation in growth accounted for by the in-
+dicators for a moderately large neighbors (the increase in R2 compared                             2.4. Recent weakening of urban access
+to using only the control variables) is slight, ranging from 0.2 to 0.8
+percentage points.9                                                                                    In this subsection we analyze whether there has eﬀectively been a
+    The remaining columns of Table 1 describe the positive regime be-                              weakening in urban access since the 1980s, as suggested by some of the
+tween population growth and the presence of a moderately large neigh-                              results reported above. To be precise, Table 1 showed that the expected
+bor. For each of the ﬁve periods from 1920 to 2017, predicted popula-                              growth boost from having a top-5 percent neighbor in the 1-to-50 km
+tion growth was faster for small and medium locations with a moder-                                range dropped by more than half, from 1.19 percentage points for the
+ately large neighbor within 50km. For each of the three periods from                               period 1960–1980 to 0.50 percentage points for the period 1980–2000.
+1940 to 2000, predicted growth was also slightly faster for locations                              That fall may be partly explained by changing metro delineations: if a
+whose nearest moderately large neighbor was located between 50km                                   fast-growing location in one time period is also more likely to get ab-
+and 100km away. The corresponding positive coeﬃcients statistically                                sorbed into a metro area by the next time period, then this may cause
+diﬀer from zero at the 0.05 and 0.10 levels. The magnitude of the faster                           a decline in growth of the locations in the 1-to-50 km range. More gen-
+predicted growth is relatively modest from 1920 to 1940, when subur-                               erally, as re-delineated metro areas include more outlying counties, the
+banization was just getting underway. Then, both from 1940 to 1960                                 continuing ﬁlling in of these counties is implicitly accounted for as mi-
+and from 1960 to 1980, the presence of a moderately large neighbor                                 gration within a location rather than between locations. This makes
+within 50km predicted population growth that was higher by more than                               comparisons across periods more diﬃcult.11
+1 percentage point (statistically signiﬁcant at the 0.01 level). Smaller-                              To assess the eﬀect of changes in delineations, Table 2 reports re-
+magnitude coeﬃcients seem to suggest that suburbanization waned                                    gressions for the three periods from 1960 to 2017 using metropolitan
+from 1980 to 2000. But as we will describe in the next subsection, this                            area borders established following the 1960 decennial census. Consis-
+is somewhat misleading, because it reﬂects many rapidly suburbanizing                              tent with the possible bias we described, when keeping borders con-
+peripheral counties having been reclassiﬁed as belonging to a metropoli-                           stant, the positive relationship between growth and the presence of large
+tan area following the 1970 and 1980 decennial censuses. The marginal                              neighbors peaked 20 years later, during the period from 1980 to 2000,
+share of the variation accounted for by the indicators of a moderately                             rather than during the period 1960 to 1980. In other words, we still
+large neighbor is about 3 percentage points for the periods beginning in                           see a weakening relation between growth and proximity to large lo-
+1940 and 1960, but substantially lower for the other periods during the                            cations, but only starting circa 2000. This suggests that the transition
+positive regime.
+    If we interpret the slower growth of locations with large neighbors
+                                                                                                    10 In Online Appendix A.2 we explore whether the westward expansion of the U.S. during
+as evidence of urban shadows, and the faster growth of those same loca-
+tions as evidence of urban access, then we can summarize our ﬁndings                               the 19th and early 20th centuries might have aﬀected the existence of urban shadows, and
+                                                                                                   in Online Appendix A.3 we focus exclusively on the East Coast, where the size of counties
+in Table 1 as follows:                                                                             has not changed much over time.
+    Stylized Fact 1: Urban Shadows and Urban Access. Between                                        11
+                                                                                                        In addition, unobserved characteristics are likely to distinguish which surrounding
+1840 and 1920 urban shadows dominated the U.S. economic geography,                                 counties at a given distance are absorbed into a metro, introducing a selection bias in
+                                                                                                   making comparisons across periods. The re-delineations also leave fewer locations with
+                                                                                                   nearby large neighbors, reﬂecting that metropolitan radiuses are becoming longer. The
+  9
+    In Table 1 we refer to this as “R2 - R2 controls”, i.e., the diﬀerence between the R2          changing delineation of metros also aﬀects metropolitan centroids, which are constructed
+of our regression and the R2 of a speciﬁcation that only includes the controls (and hence          as the population-weighted mean of constituent counties’ centroids. Hence it also aﬀects
+leaves out the neighbor dummies).                                                                  distances to large neighbors, which are measured between centroids.
+
+
+                                                                                              5
+D. Cuberes, K. Desmet and J. Rappaport                                                                                              Journal of Urban Economics 123 (2021) 103334
+
+
+                   Table 2
+                   Population Growth and the Presence of a Moderately Large Neighbor, 1960 Borders.
+
+                                                                              Average Annual Population Growth of Small and Medium Locations (Quintiles 1–4)
+
+                                                                              (1)               (2)         (3)
+                     Distance to Nearest Neighbor with Pop ≥ 95th Pctile      1960-1980         1980-2000   2000-2017
+
+                     1 to 50 km                                               1.19∗ ∗ ∗         1.43∗ ∗ ∗   0.60∗ ∗ ∗
+                                                                              (0.19)            (0.30)      (0.12)
+                     50 to 100 km                                             0.21∗             0.59∗ ∗ ∗   0.14∗ ∗
+                                                                              (0.11)            (0.23)      (0.06)
+                     100 to 150 km                                                              0.24
+                                                                                                (0.20)
+                     150 to 200 km                                                              0.13
+                                                                                                (0.12)
+                     Additional Controls                                      52                52          52
+                     𝑁                                                        2,283             2,282       2,283
+                     Adjusted 𝑅2                                              0.376             0.426       0.310
+                     Incremental 𝑅2                                           0.033             0.047       0.019
+
+                   Metropolitan areas are delineated using the OMB standards following the 1960 decennial census. Non-metropolitan counties
+                   are delineated using their borders in 1960. Each column presents the results from a regression of average annual population
+                   growth of those with population at or below the 80th percentile over the enumerated period on categorical indicators if the
+                   nearest neighbor with population at or above the 95th percentile is within the enumerated distance bin. All regressions include a
+                   constant and control for initial population and additional geographic, weather, and topographical control variables, as described
+                   in text. Standard errors, in parentheses, are robust to spatial correlation based on Conley (1999). The incremental 𝑅2 refers to
+                   the diﬀerence between the 𝑅2 of the regression and the 𝑅2 of a regression on only the additional control variables. ∗ 𝑝 < .10, ∗ ∗
+                   𝑝 < .05, ∗ ∗ ∗ 𝑝 < .01.
+
+
+of metropolitan areas to a larger geographic footprint may be winding                            had a very large neighbor within 50km compared to the excluded loca-
+down.12 We summarize these ﬁndings as follows:                                                   tions, those whose nearest very large neighbor was at least 250km away.
+   Stylized Fact 2: Recent Weakening of Urban Access. Urban                                      For comparison, having a neighbor with population above the 95th per-
+access weakened circa 2000. In particular, during the period 2000–2017                           centile was associated with faster growth of only 1.19 percentage points.
+beneﬁts from urban access are less pronounced than during the periods from                           We now analyze how the geographic reach of very large neighbors
+1960 to 1980 and 1980–2000.                                                                      changes over time. During the negative regime, when comparing 1900–
+                                                                                                 1920 to 1880–1900, the drop in growth from having a very large neigh-
+2.5. Geographic reach                                                                            bor weakens at shorter distances below 50km but strengthens at farther-
+                                                                                                 away distances above 150km. During the positive regime, the growth
+    This subsection explores how the geographic reach of urban shad-                             boost of having a very large neighbor starts oﬀ within a rather narrow
+ows and urban access has changed over time. When focusing on mod-                                50km radius for the period 1920–1940, but then expands by 50km over
+erately large neighbors (at or above the 95th percentile), as we have                            each subsequent 20-year period, reaching 250km during 2000–2017.
+done so far, there are few observations with a positive value for the                            Of course, as is intuitive, growth’s positive relationship with the pres-
+excluded category at far-away distances. This limits the maximum geo-                            ence of a very large neighbor weakens the more distant that neighbor is
+graphic distance we are able to consider, making it diﬃcult to analyze                           located. These ﬁndings constitute our third stylized fact:
+how the geographic reach of urban shadows and urban access evolves                                   Stylized Fact 3: Geographic Reach of Shadows and Access.
+over time. To get around this issue, Table 3 considers the presence of                           Over the period 1920–2017 there is strong evidence of the geographic reach
+very large neighbors (at or above the 99th percentile), allowing us to                           of urban access expanding, with the beneﬁts from access being very local
+consider farther-away distances while maintaining enough observations                            between 1920–1940 and much more far-reaching in 2000–2017. Over the
+with a positive value for the excluded category. As an example, for the                          period 1840–1920 the evidence is mixed, though there is weak evidence of the
+period 1980–2000 we are able to include neighboring locations all the                            geographic reach of urban shadows expanding between the late 19th century
+way to 250 km, whereas for the same time period in Table 1 we only                               and early 20th century.
+considered neighbors within a range of 100km.
+                                                                                                 2.6. Size of large neighbors
+    Before discussing the spatial reach of urban shadows and urban ac-
+cess, we show that increasing the size threshold from the 95th to the
+                                                                                                     This subsection explores how the strength of urban shadows and ur-
+99th percentile does not qualitatively change what we concluded be-
+                                                                                                 ban access depends on the relative size of neighbors. In particular, we
+fore. There continues to be a negative regime and a positive regime,
+                                                                                                 are interested in exploring whether growth’s correlations with the pres-
+with the year 1920 separating the two (Table 3). The magnitudes of the
+                                                                                                 ence of large neighbors increased with the size of neighbors.
+coeﬃcients of course diﬀer, especially during the positive regime, when
+                                                                                                     Table 4 shows results from regressing population growth on the pres-
+having a neighbor above the 99th percentile rather than above the 95th
+                                                                                                 ence of neighbors above four thresholds: the 80th, 90th, 95th, and 99th
+percentile was associated with a considerably greater boost in popula-
+                                                                                                 percentiles. These categories are nested in the sense that a neighbor that
+tion growth. For example, predicted growth from 1960 to 1980 was 3.2
+                                                                                                 is above the 99th percentile is also above the 90th and 95th percentiles.
+percentage points per year higher for small and medium locations that
+                                                                                                 The corresponding coeﬃcients measure the marginal boost to growth
+                                                                                                 compared to having a largest neighbor at the threshold immediately
+ 12
+    Regressing growth from 1960 to 1980 using metropolitan borders from 1940 modestly            below. For example, a positive coeﬃcient on the 99th percentile indi-
+increases estimated coeﬃcients on indicators of moderately large neighbors (compared to          cator estimates the additional predicted growth of locations that have a
+using 1960 borders) and modestly decreases estimate coeﬃcients on indicators of very             neighbor with population above the 99th percentile compared to loca-
+large neighbors. Regressing growth from 1940 to 1960 using metropolitan borders from
+                                                                                                 tions with a largest neighbor with population above the 95th percentile
+1920 modestly increases estimated coeﬃcients on indicators of both moderately large and
+very large neighbors. Regardless of borders, the strength of suburbanization from 1940 to        but not above the 99th percentile.
+1960 as estimated by the regressions was similar to the strength from 1960 to 1980.
+
+
+                                                                                            6
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                  Journal of Urban Economics 123 (2021) 103334
+
+
+          Table 3
+          Population Growth and the Presence of a Very Large Neighbor.
+
+                                                                  Average Annual Population Growth of Small and Medium Locations (Quintiles 1–4)
+
+                                                                  (1)      (2)          (3)          (4)          (5)       (6)            (7)         (8)         (9)
+                                                                  1840-    1860-        1880-        1900-        1920-     1940-          1960-       1980-       2000-
+            Distance to Nearest Neighbor with Pop ≥ 99th Pctile   1860     1880         1900         1920         1940      1960           1980        2000        2017
+
+            1 to 50 km                                            0.87     -1.01∗ ∗ ∗   -0.79∗       -0.28        0.73∗ ∗   2.41∗ ∗ ∗      3.20∗ ∗ ∗   0.99∗       -0.21
+                                                                  (0.67)   (0.37)       (0.42)       (0.28)       (0.29)    (0.26)         (0.61)      (0.58)      (0.39)
+            50 to 100 km                                          -0.09    -0.67∗ ∗     -0.87∗ ∗ ∗   -0.64∗ ∗ ∗   0.22      0.55∗ ∗ ∗      0.97∗ ∗ ∗   1.03∗ ∗ ∗   0.69∗ ∗ ∗
+                                                                  (0.47)   (0.30)       (0.27)       (0.19)       (0.19)    (0.15)         (0.25)      (0.19)      (0.15)
+            100 to 150 km                                         0.28     -0.60∗ ∗ ∗   -0.45∗       -0.47∗ ∗ ∗   0.08      0.14           0.30∗ ∗     0.51∗ ∗ ∗   0.39∗ ∗ ∗
+                                                                  (0.47)   (0.22)       (0.24)       (0.18)       (0.18)    (0.13)         (0.14)      (0.13)      (0.10)
+            150 to 200 km                                         0.49     -0.77∗ ∗ ∗   -0.15        -0.52∗ ∗ ∗   0.15      0.02           0.13        0.26∗ ∗ ∗   0.28∗ ∗ ∗
+                                                                  (0.38)   (0.18)       (0.23)       (0.17)       (0.16)    (0.13)         (0.12)      (0.10)      (0.08)
+            200 to 250 km                                         0.00                  -0.02        -0.19        0.18      -0.12          0.03        0.10        0.22∗ ∗ ∗
+                                                                  (0.24)                (0.17)       (0.16)       (0.15)    (0.13)         (0.11)      (0.08)      (0.07)
+            250 to 300 km                                         0.16                  -0.02        -0.13        0.16                                             0.10
+                                                                  (0.18)                (0.19)       (0.19)       (0.13)                                           (0.06)
+            Additional Controls                                   48       52           52           52           52        52             52          52          52
+            𝑁                                                     691      1,328        1,844        2,110        2,357     2,387          2,283       2,104       1,895
+            Adjusted 𝑅2                                           0.844    0.781        0.712        0.521        0.392     0.362          0.393       0.436       0.322
+            Incremental 𝑅2                                        0.001    0.004        0.003        0.004        0.003     0.039          0.050       0.035       0.028
+
+          Each column presents the results from a regression of average annual population growth of those with population at or below the 80th percentile over
+          the enumerated period on categorical indicators if the nearest neighbor with population at or above the 99th percentile is within the enumerated
+          distance bin. All regressions include a constant and control for initial population and additional geographic, weather, and topographical control
+          variables, as described in the text. Standard errors, in parentheses, are robust to spatial correlation based on Conley (1999). The incremental 𝑅2
+          refers to the diﬀerence between the 𝑅2 of the regression and the 𝑅2 of a regression on only the additional control variables. ∗ 𝑝 < .10, ∗ ∗ 𝑝 < .05,
+          ∗∗∗
+              𝑝 < .01
+
+
+
+    During the negative regime, the increase in the magnitude of                                This result is robust to varying the relative size of neighbors: in the
+growth’s relationship with the population of its largest nearby loca-                       same way that urban shadows and urban access tend to be stronger the
+tions is especially strong in the 1880–1900 regression. Having at least                     larger is the neighbor, they also tend to be stronger the smaller is the
+one neighbor within 50km that had population (weakly) above the                             location itself (Online Appendix A.4).
+80th percentile is associated with slower predicted growth of 0.21
+percentage points per year. If the largest such neighbor within 50km                        3. Commuting costs
+had population above the 90th percentile, predicted population growth
+is slower by an additional 0.37 percentage points per year. If the                             One important force that is bound to have shaped spatial growth
+largest such neighbor had population above the 95th percentile, pre-                        dynamics in the hinterland of large population clusters are commuting
+dicted population growth is slower by still an additional 0.74 percent-                     costs. In this section we start by brieﬂy documenting how local com-
+age points per year. As an example, consider a location that has a                          muting costs in the U.S. have evolved since 1840. In doing so, we pay
+neighbor with population at the 99th percentile between 50km and                            particular attention to changes in local transportation technology. We
+100km away and no neighbor with population above the 90th per-                              then explore cross-sectional evidence of the relation between local trans-
+centile within 50km. During the period 1880–1900, such a location                           portation infrastructure and urban shadows in the early twentieth cen-
+would have slower predicted population growth of 1.36 percentage                            tury.
+points per year—the sum of the coeﬃcients on the 50-to-100km indica-
+                                                                                            3.1. Commuting costs: 1840 to 2017
+tors for the 90th, 95th, and 99th percentiles—compared to observations
+that do not have a neighbor in any of the categories included in the
+                                                                                                Transportation Technologies. Since the middle of the 19th century,
+regression.
+                                                                                            there have been enormous improvements in transportation technolo-
+    During the positive regime, the largest marginal increases in pre-
+                                                                                            gies. Some of those have greatly enhanced long-distance trade and mar-
+dicted growth are associated with having a neighbor within 50km with
+                                                                                            ket integration. Examples that come to mind include the railroad net-
+a population at the 99th percentile rather than having one with popu-
+                                                                                            work (Fogel, 1964; Donaldson and Hornbeck, 2016), the building of
+lation between the 95th and 99th percentiles. This is especially so dur-
+                                                                                            canals (Shaw, 1990), the construction of the interstate highway system
+ing the 1960–1980 period, when the marginal increase was 2.43 per-
+                                                                                            (Baum-Snow, 2007), and containerization (Bernhofen et al., 2016). To
+centage points per year. For neighbors located more than 50km away,
+                                                                                            illustrate the magnitude of the decline in transport costs, Glaeser and
+only those with population at the 99th percentile are associated with a
+                                                                                            Kahn (2004) document that the real cost per ton-mile of railroad
+meaningful increase in predicted growth. For the period from 2000 to
+                                                                                            transportation dropped by nearly 90% between 1890 and 2000. Other
+2017, the statistically-signiﬁcant boost from having a very large neigh-
+                                                                                            changes have been more central to improving short-distance transporta-
+bor extends to those as much as 300km away. In contrast to the neg-
+                                                                                            tion between neighboring or relatively close-by places. For the purpose
+ative regime, the magnitude of the estimated diﬀerences in growth
+                                                                                            of our paper, we are mostly interested in these latter improvements. In
+are modest for neighbors with population between the 80th and 90th
+                                                                                            what follows we give a brief overview of the main innovations that have
+percentiles.
+                                                                                            beneﬁted short-distance transportation technology in the U.S. over the
+    Our ﬁndings of how the size of the large neighbor aﬀects the strength
+                                                                                            past two centuries.
+of urban shadows and urban access can be summarized as follows:
+                                                                                                Prior to the 1850s, many Americans worked near the central busi-
+    Stylized Fact 4: Size of Large Neighbor. Urban shadows and ur-
+                                                                                            ness district and walked to work. Other forms of transportation were ex-
+ban access tend to strengthen in the size of the large neighbor. That is, the
+                                                                                            pensive and slow. Horse-drawn carriages were available, but were only
+larger the neighbor, the stronger urban shadows and urban access.
+
+
+                                                                                        7
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                       Journal of Urban Economics 123 (2021) 103334
+
+
+               Table 4
+               Population Growth and the Size of Large Neighbors.
+
+                                                            Average Annual Population Growth of Small and Medium Locations (Quintiles 1–4)
+
+                                                            (1)          (2)          (3)              (4)          (5)        (6)         (7)         (8)         (9)
+                                                            1840-        1860-        1880-            1900-        1920-      1940-       1960-       1980-       2000-
+                 Distance to Nearest Neighbor with Pop      1860         1880         1900             1920         1940       1960        1980        2000        2017
+
+                 ≥ 80th Pctile
+                   1 to 50 km                               -0.41∗       -0.72∗ ∗ ∗   -0.21∗           -0.30∗ ∗ ∗   0.10       -0.07       0.06        0.14∗ ∗     0.06
+                                                            (0.21)       (0.19)       (0.12)           (0.09)       (0.07)     (0.08)      (0.07)      (0.06)      (0.05)
+                 ≥ 90th Pctile
+                   1 to 50 km                               -0.37        0.25         -0.37∗ ∗         0.13         -0.03      0.30∗ ∗ ∗   0.15∗       0.21∗ ∗     0.00
+                                                            (0.34)       (0.27)       (0.19)           (0.14)       (0.11)     (0.11)      (0.08)      (0.09)      (0.08)
+                    50 to 100 km                            -0.31        -0.19        -0.29∗                                                                       -0.01
+                                                            (0.25)       (0.22)       (0.16)                                                                       (0.06)
+                 ≥ 95th Pctile
+                   1 to 50 km                               -0.17        -0.44        -0.74∗ ∗ ∗       0.01         0.18       0.54∗ ∗ ∗   0.72∗ ∗ ∗   0.18        0.40∗
+                                                            (0.43)       (0.30)       (0.23)           (0.20)       (0.15)     (0.17)      (0.15)      (0.13)      (0.21)
+                    50 to 100 km                            -0.46        -0.17        -0.54∗ ∗ ∗       -0.22∗ ∗     -0.09      0.06        0.04        0.17∗       0.04
+                                                            (0.30)       (0.22)       (0.17)           (0.10)       (0.08)     (0.09)      (0.09)      (0.08)      (0.09)
+                    100 to 150 km                           -0.38∗ ∗ ∗   0.05         -0.60∗ ∗ ∗                                                                   0.00
+                                                            (0.13)       (0.20)       (0.15)                                                                       (0.06)
+                 ≥ 99th Pctile
+                   1 to 50 km                               1.07         -0.48        -0.09            -0.31        0.55∗ ∗    1.88∗ ∗ ∗   2.43∗ ∗ ∗   0.69        -0.56
+                                                            (0.82)       (0.36)       (0.46)           (0.29)       (0.26)     (0.28)      (0.59)      (0.52)      (0.38)
+                    50 to 100 km                            0.42         -0.40        -0.53∗ ∗         -0.52∗ ∗     0.28       0.59∗ ∗ ∗   0.98∗ ∗ ∗   0.97∗ ∗ ∗   0.67∗ ∗ ∗
+                                                            (0.45)       (0.30)       (0.26)           (0.20)       (0.18)     (0.16)      (0.24)      (0.17)      (0.15)
+                    100 to 150 km                           0.55         -0.59∗ ∗     -0.14            -0.42∗ ∗     0.09       0.16        0.28∗ ∗     0.50∗ ∗ ∗   0.39∗ ∗ ∗
+                                                            (0.46)       (0.26)       (0.23)           (0.18)       (0.19)     (0.14)      (0.14)      (0.13)      (0.10)
+                    150 to 200 km                           0.65∗        -0.75∗ ∗ ∗   -0.04            -0.51∗ ∗ ∗   0.17       0.06        0.11        0.24∗ ∗ ∗   0.27∗ ∗ ∗
+                                                            (0.35)       (0.19)       (0.21)           (0.17)       (0.16)     (0.13)      (0.11)      (0.09)      (0.07)
+                    200 to 250 km                           0.14                      0.03             -0.21        0.19       -0.09       0.01        0.11        0.23∗ ∗ ∗
+                                                            (0.23)                    (0.16)           (0.15)       (0.15)     (0.13)      (0.11)      (0.08)      (0.07)
+                    250 to 300 km                           0.25                      0.03             -0.13        0.16                                           0.12∗
+                                                            (0.20)                    (0.16)           (0.18)       (0.13)                                         (0.07)
+                 Additional Controls                        48           52           52               52           52         52          52          52          52
+                 𝑁                                          691          1,328        1,844            2,110        2,357      2,387       2,283       2,104       1,895
+                 Adjusted 𝑅2                                0.847        0.784        0.719            0.523        0.393      0.374       0.411       0.447       0.323
+                 Incremental 𝑅2                             0.005        0.008        0.011            0.006        0.006      0.052       0.069       0.046       0.032
+
+               Each column presents the results from a regression of average annual population growth of those with population at or below the 80th
+               percentile over the enumerated period on categorical indicators if the nearest neighbor with population at or above an enumerated
+               threshold is within the enumerated distance bin. These thresholds are nested: a neighbor that is above the 99th percentile is also above
+               the 90th and 95th percentiles. A coeﬃcient on a given threshold thus estimates the marginal boost to predicted growth compared to
+               having a neighbor with population only above the next highest of the enumerated thresholds. All regressions include a constant and
+               control for initial population and additional geographic, weather, and topographical control variables, as described in the text. Standard
+               errors, in parentheses, are robust to spatial correlation based on Conley (1999). The incremental 𝑅2 refers to the diﬀerence between the
+               𝑅2 of the regression and the 𝑅2 of a regression on only the additional control variables. ∗ 𝑝 < .10, ∗ ∗ 𝑝 < .05, ∗ ∗ ∗ 𝑝 < .01.
+
+
+aﬀordable to the very rich (LeRoy and Sonstelie, 1983).13 The omnibus,                             of capacity and speed: a two-horse streetcar could carry 40 passengers,
+a horse-drawn vehicle carrying twelve passengers, was ﬁrst introduced                              and its speed was about one-third greater. Over time, animals were sub-
+in the 1820s and became more widely used in the 1840s. However, it                                 stituted by cleaner and more eﬃcient motive powers. The ﬁrst electric
+was still a costly and not very fast way to travel.14 Commuter railroads                           streetcar was operated in Montgomery, Alabama, in 1886, and by the
+appeared in the 1830s, although they were noisy and polluting, which                               end of 1903, 98 percent of the 30,000 miles of street railway had been
+led authorities to impose strict regulations, often limiting their use.15                          electriﬁed.16 By 1920, the streetcar had become an aﬀordable mean to
+    Between 1850 and 1900 the U.S witnessed the arrival of the street-                             commute for almost every worker. However, by then the automobile
+car or trolley, which allowed for smoother travel and larger capacity                              had made its appearance, gradually replacing the streetcar as a way of
+than an omnibus. As with many other new modes of transport, ini-                                   commuting.
+tially only high-income individuals could pay the high fare of streetcars                              Several factors contributed to the streetcar facilitating longer-
+to commute to work on a regular basis. Nonetheless, the introduction                               distance commutes, thus allowing large cities to grow bigger. One was
+of the streetcar allowed the larger cities to grow. Boston saw the ﬁrst                            an improvement in speed, another was the use of ﬂat rates indepen-
+“streetcar suburbs”, well-oﬀ neighborhoods on the outskirts of the city                            dent of distance, and a third was the construction of longer rail lines.
+(Warner, 1972; Mieszkowski and Mills, 1993; Kopecky and Suen, 2004).                               In his study of Warner (1972) argues that the trolley triggered a sub-
+The streetcar was an important improvement over the omnibus in terms                               stantial outward expansion of the city. In particular, he estimates this
+                                                                                                   expansion to have been between 0.5 and 1.5 miles per decade. As
+                                                                                                   Jackson (1985) explains, this translates into the outer limit of conve-
+ 13
+     Regular steam ferry service began in the early 1810s but was limited to big coastal           nient commuting, deﬁned as the distance that can be traversed in one
+cities like New York.                                                                              hour or less, increasing from about 2 miles from Boston’s City Hall in
+ 14
+     LeRoy and Sonstelie (1983) document that an omnibus fare ranged from 12 cents to
+50 cents at a time when a laborer might earn $1.00 a day. Its average speed was slow –
+about 6 miles per hour.
+ 15                                                                                                 16
+     As in the case of the omnibus, commuter railroads were also quite expensive                       Before the use of electricity, the use of steam engines was brieﬂy tried, with limited
+(LeRoy and Sonstelie, 1983).                                                                       success, in several U.S. cities.
+
+
+                                                                                           8
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                     Journal of Urban Economics 123 (2021) 103334
+
+
+1850 to 6 miles in 1900, implying a considerably larger percentage in-                          buildings required thick walls, making skyscrapers unproﬁtable. The so-
+crease in accessible land area.                                                                 lution to this problem was the use of load-bearing steel skeletons, where
+    While all these innovations signiﬁcantly decreased transportation                           the weight of the building rests on a skeleton frame. Building these type
+and commuting costs, it was not until the path-breaking invention of                            of structures became possible in large part thanks to the increasing af-
+the automobile that these costs would experience radical change. The                            fordability of steel in the late 19th century. The ﬁrst skyscraper is often
+adoption of the car did not happen overnight: the aﬀordability of au-                           attributed to William Le Baron Jenney’s Home Insurance Building, a
+tomobiles for the middle class had to wait until the mass production                            138-foot structure built in Chicago in 1885. In the following decades,
+of the Model-T in 1908. Other issues had to be resolved as well before                          skyscrapers became a ﬁxture in the skylines of American cities, espe-
+cars could become wide-spread. Initially, regulations limited their use                         cially in Manhattan, which witnessed a boom in the number of skyscrap-
+and speed to 4 miles per hour to avoid scaring horses. There was also                           ers in the 1920s.18
+a scarcity in gasoline stations and service facilities. More importantly,
+                                                                                                    Congestion. The speed of commuting is of course not only a func-
+roads were still largely unpaved.
+                                                                                                tion of available technology. As traﬃc congestion has become worse,
+    The growth in car ownership and use was tightly linked to the in-
+                                                                                                the most recent decades have witnessed a slowdown or even a reversal
+vestment in roads and highways. New York opened the ﬁrst part of its
+                                                                                                in the trend of ever-faster commuting. As one indicator of this growing
+parkway system in 1908, which allowed drivers to increase their speed
+                                                                                                congestion, we use the travel time index (TTI) of the Texas A&M Trans-
+to 25 miles per hour. The Federal Highway Act of 1921 allowed the con-
+                                                                                                portation Institute. The TTI is deﬁned as the ratio of travel time in the
+struction of similar highways across the country. In 1913, there was a
+                                                                                                peak period to travel time at free-ﬂow conditions. For example, a value
+motor vehicle to every eight people and, by the end of the 1920s, the
+                                                                                                of 1.10 indicates a 20-minute free-ﬂow trip takes 22 minutes in the peak
+car was used by 23 million people. The government eﬀort was boosted
+                                                                                                period. Between 1990 and 2010, the TTI increased from around 1.10 to
+years later with the Eisenhower Interstate Highway system, arguably
+                                                                                                1.20. As another indicator of congestion, Duranton et al. (2020) com-
+the largest public works project in history and authorized by the Federal
+                                                                                                pute the average speed of trips under 50 km from the National House-
+Highway Act of 1956. During this entire period, car ownership contin-
+                                                                                                hold Travel Survey in 1995, 2001, 2009 and 2017, and ﬁnd an almost
+ued its upward ascent until the 1970s (Kopecky and Suen, 2004).
+                                                                                                monotone decrease in the speed of travel by car over the 1995–2017
+    The combination of the mass use of the car and the expansion of the
+                                                                                                period.19
+highway system translated into a huge wave of suburbanization, mostly
+in the post-WWII era. Many of these highways connected the downtown                                  Opportunity Cost of Time. Another factor contributing to the increas-
+areas of large urban centers to the suburbs and the farther-oﬀ hinter-                          ing time cost of commuting is the rising opportunity cost of time.
+land. According to Glaeser (2011), “the highway program was meant                               Edlund et al. (2016) focus on the increase in double-income high-skilled
+to connect the country, but subsidizing highways ended up encourag-                             households between 1980 and 2010. Dual-earner couples have less time,
+ing people to commute by car”. Baum-Snow (2007) argues that cars                                making commuting more costly, giving them an incentive to live closer
+and highways were a fundamental determinant of the suburbanization                              to work. Edlund and co-authors ﬁnd that the increase in the number of
+of American cities. His estimations show that, between 1950 and 1990,                           couples where both partners work has contributed to gentriﬁcation and
+the construction of one new highway passing through a central city re-                          urban renewal in recent decades. Su (2018) makes a similar point, but
+duced its population by about 18 percent. Another major transportation                          focuses on individuals between 1990 and 2010. The percentage of those
+change starting around 1950 was the construction of suburban rail ter-                          working long hours has increased for all skill classes, though the eﬀect
+minals. In cities like San Francisco and Washington, D.C., heavy-rail                           is larger for the college educated. To economize on the commuting time,
+systems were established, while light-rail systems followed in cities like                      the high-skilled are disproportionately moving to the city centers.20
+San Diego and Portland (Young, 2015).17
+    In addition to transport technology, other factors that determine the                           Summary. When focusing on 1840–2017, the above discussion sug-
+time cost of commuting are the spatial concentration of people and busi-                        gests that we can distinguish three subperiods in the evolution of com-
+nesses, traﬃc congestion, and the opportunity cost of time. We turn to                          muting costs. Between 1840 and 1920, there was a gradual decline in
+these factors next.                                                                             commuting costs, driven by the introduction of the omnibus and the
+                                                                                                streetcar, followed by the incipient adoption of the car. After 1920, there
+    Spatial Clustering. Commuting costs fall if it becomes easier to ﬁt more                    was a rapid decline in commuting costs, driven by the mass adoption of
+people or businesses onto an acre of land, since this implies less people                       the automobile, the construction of highways connecting urban areas
+needing to commute long distances. One major factor facilitating density                        with their hinterlands, and the expansion of suburban rail systems. By
+is the possibility of building vertically. Historically, this move upward                       the turn of the 21st century, this continuous decline in commuting costs
+was at ﬁrst modest, as two-story buildings were gradually replaced by                           slowed down, because of the increase in congestion and the rising op-
+four- and six-story buildings (Glaeser, 2011). Heights were restricted by                       portunity of time.21
+the cost of construction and the limits on people’s desire to climb stairs.
+As a result, the top ﬂoors of six-story buildings were typically occupied
+                                                                                                3.2. Commuting costs: Cross-Sectional evidence from streetcars
+by the lowest-income tenants (Bernard, 2014). This all changed with the
+invention of the elevator. A ﬁrst elevator engine was presented by Elisha
+                                                                                                    In this subsection we explore how the variation in local commuting
+Otis at the 1854 New York’s Crystal Palace Exposition, but its rudimen-
+                                                                                                infrastructure aﬀects local population growth. For the later period, after
+tary technology was unsuitable to be used in tall buildings. In 1880,
+Werner von Siemens’ electric elevator made it possible to transport peo-
+ple to tall heights in a safe manner, hence enabling the construction of                         18
+                                                                                                     The growth in the number of skyscrapers diminished after 1933, as a result of stringent
+skyscrapers with functional uses.                                                               regulations based on the argument that these tall buildings severely reduced the amount
+    As Glaeser (2011) points out, another challenge that had to be over-                        of light available to pedestrians.
+                                                                                                 19
+come to build skyscrapers was an architectural constraint: erecting tall                             It should be noted that comparing the NHTS data over time is a complicated exercise
+                                                                                                and so we should interpret this ﬁnding with caution. See Duranton et al. (2020) for more
+                                                                                                details.
+                                                                                                 20
+                                                                                                     Of course, since this process of gentriﬁcation also displaces people, it is not clear
+ 17                                                                                             whether this is associated with a decline or an increase in the center-city population.
+    Suburbanization was also facilitated by factors unrelated to transport technology:
+                                                                                                 21
+the home mortgage interest deduction, the introduction of government-guaranteed mort-                The years that separate the diﬀerent subperiods do not constitute precise breakpoints.
+gages, the Federal Housing Administration loans that guaranteed up to 95 percent of mort-       For example, we can use either 1920 or 1940 to separate the ﬁrst two subperiods, as the
+gages for middle-income buyers, and the GI Bill that oﬀered no down payment housing             mass adoption of cars started after 1908, whereas the building of urban highways and
+loans for veterans.                                                                             suburban rail networks only started in earnest in the 1950s and the 1960s.
+
+
+                                                                                            9
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                    Journal of Urban Economics 123 (2021) 103334
+
+
+           Table 5
+           Population Growth and Large Neighbors, 1910–1920: Change in Streetcars.
+
+                                                                          Average Annual Population Growth of Small and Medium Locations (Quintiles 1–4)
+
+                                                                          Neighbor with Pop ≥ 95th Pctile                                 Neighbor with Pop ≥ 90th Pctile
+
+                                                                          (1)                        (2)                                  (3)                      (4)
+                                                                          1910-1920                  1910-1920                            1910–1920                1910-1920
+                                                                          Change in                  Change in                            Change in                Change in
+                                                                          Streetcar                  Streetcar                            Streetcar                Streetcar
+                Distance to Nearest Neighbor with Pop ≥ 95th Pctile       Presence                   Log Miles                            Presence                 Log Miles
+
+                1 to 50 km                                                0.06                       0.02                                 0.09                     0.08
+                                                                          (0.17)                     (0.15)                               (0.14)                   (0.14)
+                Change in Streetcar 1–50 km                               -1.02∗ ∗                   -0.28∗ ∗                             -0.18                    -0.09
+                                                                          (0.4)                      (0.13)                               (0.18)                   (0.07)
+                50 to 100 km                                              -0.17                      -0.12                                -0.17                    -0.15
+                                                                          (0.12)                     (0.11)                               (0.11)                   (0.11)
+                Change in Streetcar 50–100 km                             -0.07                      -0.25∗ ∗                             0.28                     0.04
+                                                                          (0.32)                     (0.12)                               (0.20)                   (0.09)
+                Change in Own Streetcar                                   0.05                       0.14∗ ∗                              0.02                     0.13∗
+                                                                          (0.12)                     (0.06)                               (0.13)                   (0.07)
+                Additional Controls                                       52                         52                                   52                       52
+                𝑁                                                         2,238                      2,224                                2,238                    2,224
+                Adjusted 𝑅2                                               0.154                      0.156                                0.155                    0.154
+
+           Regressions are based on speciﬁcation (2). Each column presents the results from a regression of average annual population growth of those with
+           population at or below the 80th percentile between 1910 and 1920 on categorical indicators if the nearest neighbor with a population at or above
+           the 95th percentile (columns 1 and 2) or the 90th percentile (columns 3 and 4) is within the enumerated distance bin. The regressions include an
+           interaction of these categorical indicators with either the change in streetcar presence (columns 1 and 3) or the change in streetcar miles (columns 2
+           and 4). All regressions include a constant, and control for either the change in streetcar presence or streetcar miles in the own location, as well as for
+           initial population and additional geographic, weather, and topographical variables. Standard errors, in parentheses, are robust to spatial correlation
+           based on Conley (1999). ∗ 𝑝 < .10, ∗ ∗ 𝑝 < .05, ∗ ∗ ∗ 𝑝 < .01.
+
+1920, we already know from the work by Baum-Snow (2007) that high-                                 In addition to analyzing the eﬀect of the introduction of streetcars
+ways were key in promoting the growth of suburbs and exurbs. For the                            (extensive margin), we are also interested in exploring the eﬀect of the
+earlier period, before 1920, we know less. Arguably, in the pre-1920 pe-                        expansion in streetcar mileage (intensive margin). We therefore con-
+                                                                                                                              ̃
+riod the most important urban transportation infrastructure were street-                        sider an alternative, where 𝐒𝓁𝐿 measures the miles of streetcars of the
+                                                                                                                                          ̃
+cars. We therefore collect data on streetcars in the early 20th century                         corresponding large locations in 𝐈𝓁𝐿 and 𝑠𝓁 measures the miles of street-
+to see how they aﬀect the strength of urban shadows. More speciﬁcally,                                             ̃
+                                                                                                cars in 𝓁, with Δ𝐒𝓁𝐿 and Δ𝑠𝓁 denoting their corresponding diﬀerences
+we ask whether the urban shadow of a large neighbor is stronger when                            between 1902 and 1907. When measuring miles, we take a log trans-
+its streetcars expand, either along the extensive or the intensive margin.                      formation, and to avoid ignoring the extensive margin, we consider the
+    Data on Streetcars. The data on streetcars come from the U.S. Census                        log of one plus the mileage.
+Special Report on Street and Electric Railways. We use the two earliest edi-                        Results on Streetcars. Table 5 reports our ﬁndings from running spec-
+tions of this special report: 1902 and 1907 (U. S. Bureau of the Census,                        iﬁcation (2). Column (1) analyzes how the change in the presence of
+1905; 1910). They provide, for each streetcar line, the main city where                         streetcars between 1902 and 1907 correlates with growth between 1910
+it operates and its length. Using a Python program, we match those                              and 1920. Predicted growth of small and medium locations was lower
+cities to counties, and then manually correct any remaining errors.22 In                        if they had a large neighbor that did not have a streetcar in 1902 but
+1902, 521 out of 2,641 counties had streetcars, corresponding to a total                        had one by 1907, and it was higher if they themselves got their ﬁrst
+mileage of almost 20,000 miles. By 1907, 693 out of 2,797 counties had                          streetcar between 1902 and 1907. Column (2) is similar, but considers
+streetcars, corresponding to a total mileage of more than 30,000 miles.                         the log diﬀerence in streetcar length between 1902 and 1907. It shows
+Many streetcars pass through multiple counties. In those cases, we al-                          that an expanding streetcar network in the nearby large location is pre-
+locate the total mileage of the streetcar line according to the counties’                       dictive of lower growth, whereas expanding streetcar mileage in the
+populations.                                                                                    own location is predictive of higher growth. In both columns changes
+    Speciﬁcation. To investigate how the introduction of streetcars in the                      in streetcar presence or length are mostly statistically signiﬁcant, either
+neighboring large location might aﬀect the strength of urban shadows,                           at the 5% or 10% level. Columns (3) and (4) are analogous to columns
+we take the baseline speciﬁcation (1) and introduce an interaction term                         (1) and (2), with the diﬀerence that the threshold for being considered
+between the presence of a large neighbor and that large neighbor in-                            a large county is now the 90th percentile. The results are similar, but
+troducing streetcars.23 We also control for the possible introduction of                        the coeﬃcients are mostly not statistically signiﬁcant.
+streetcars in the own county. This yields the following speciﬁcation:                               From Table 5 we can conclude that large counties that either got
+                                                                                                their ﬁrst streetcar or expanded their network of streetcars strengthened
+       ̃            ̃      ̃                                                                    their urban shadow on nearby smaller locations. This is reﬂected in the
+𝑔𝓁 = 𝐈𝓁𝐿 𝛃 + 𝐈𝓁𝐿 ⋅ Δ𝐒𝓁𝐿 𝛂 + Δ𝑠𝓁 𝜃 + 𝐋𝓁 𝛄 + 𝐱𝓁 𝛅 + 𝜀𝓁 ,                               (2)
+                                                                                                negative coeﬃcients on the change in the presence (or length) of street-
+            ̃
+where 𝐒𝓁𝐿 are indicator variables that take a value of one if the corre-
+                                      ̃
+sponding large locations in 𝐈𝓁𝐿 have a streetcar, 𝑠𝓁 is an indicator variable
+                                                                      ̃
+that measures whether 𝓁 has a streetcar or not, and Δ𝐒𝓁𝐿 and Δ𝑠𝓁 repre-                          22
+                                                                                                     More speciﬁcally, for each streetcar line, we compute the bilateral distances between
+                        ̃
+sent the diﬀerence in 𝐒𝓁𝐿 and 𝑠𝓁 between two time periods. We will run                          the centroids of any two counties on that line. Whenever that distance was large relative
+                                                                                                to the rail length, we manually checked the matching generated by the Python code.
+(2) for 1910–1920, where the diﬀerence in streetcar presence refers to                           23
+                                                                                                     In Online Appendix A.5 we also consider an alternative speciﬁcation that looks at the
+the period between 1902 and 1907.
+                                                                                                presence (rather than the introduction) of streetcars.
+
+
+                                                                                           10
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                           Journal of Urban Economics 123 (2021) 103334
+
+
+cars in neighboring large locations.24 This ﬁnding can be summarized                                 is at least some empty land between the two cities.25 Land is owned by
+as follows:                                                                                          absentee landlords.
+    Stylized Fact 5: Urban Shadows and Local Commuting In-
+                                                                                                         Technology. Each city produces a diﬀerent good, and labor is the only
+frastructure. In the early 19th century, urban shadows were stronger
+                                                                                                     factor of production. When a good of city 𝓁 is shipped to city 𝑘, a share
+when large locations disposed of better commuting infrastructure in the form
+                                                                                                     𝛾𝑡 is lost per unit of distance, so 1 − 𝛾𝑡 𝑑𝓁𝑘 units arrive. Hence, the price
+of streetcars.
+                                                                                                     of good 𝓁 in city 𝑘 is 𝑝𝓁 ∕(1 − 𝛾𝑡 𝑑𝓁𝑘 ), where 𝑝𝓁 is the free-on-board (f.o.b.)
+                                                                                                     price of the good produced in 𝓁. Technology is linear, with one unit of
+4. Conceptual framework
+                                                                                                     labor producing 𝐴𝓁 units of the good at production point 𝓁 and 𝐴𝑘 units
+                                                                                                     of the good at production point 𝑘.26
+    In this section we develop a two-city spatial model with commut-
+                                                                                                         To produce, an individual needs to commute from his residence to
+ing costs, moving costs and trade costs that is able to account for the
+                                                                                                     one of the two production points. The time cost of intra-city commuting
+main stylized facts identiﬁed in the data. The basic tradeoﬀ the model
+                                                                                                     per unit of distance is 𝛾𝑐 and the time cost of inter-city commuting per
+captures is easy to understand: on the one hand, the smaller city may
+                                                                                                     unit of distance is 𝛾𝑖 . An individual who resides in city 𝓁 at a distance 𝑑𝓁
+ﬁnd it hard to survive in the shadow of the larger city, as its residents
+                                                                                                     from production point 𝓁 can choose between working in 𝓁 or 𝑘. If she
+prefer to move to the more productive neighbor; on the other hand, the
+                                                                                                     works in her own city 𝓁, she supplies one unit of labor net of the time
+smaller city may thrive as its residents can access the neighbor’s higher
+                                                                                                     lost in intra-city commuting 1 − 𝛾𝑐 𝑑𝓁 , and produces 𝐴𝓁 (1 − 𝛾𝑐 𝑑𝓁 ) units
+productivity, either through commuting or through trade.
+                                                                                                     of her own city’s goods. Her income net of land rents is then 𝑝𝓁 𝐴𝓁 (1 −
+    In this framework four types of spatial frictions – inter-city mov-
+                                                                                                     𝛾𝑐 𝑑𝓁 ) − 𝑟𝓁 (𝑑𝓁 ). If she commutes to the other city 𝑘, we assume that she
+ing costs, intra-city commuting costs, inter-city commuting costs and
+                                                                                                     incurs an inter-city commuting distance 𝑑𝓁𝑘 , independently of where she
+inter-city trade costs – are key in determining the relative growth of the
+                                                                                                     resides in city 𝓁.27 In that case, she supplies 1 − 𝛾𝑖 𝑑𝓁𝑘 units of labor, and
+smaller city. To sharpen the analysis, we consider two special cases of
+                                                                                                     produces 𝐴𝑘 (1 − 𝛾𝑖 𝑑𝓁𝑘 ) units of city 𝑘’s goods. Her income net of land
+the basic setup, each focusing on three of the four spatial frictions. The
+                                                                                                     rents is then 𝑝𝑘 𝐴𝑘 (1 − 𝛾𝑖 𝑑𝓁𝑘 ) − 𝑟𝓁 (𝑑𝓁 ).
+ﬁrst special case ignores trade, and shows how the documented long-
+run decline in intra-city and inter-city commuting costs leads to urban                                  Preferences. Agents have CES preferences over the two diﬀerent
+shadows dominating in the early stage, and urban access dominating                                   goods. The utility of an individual originally from city 𝓁 and residing in
+later on. The second special case allows for inter-city trade and intra-                             city 𝑘 can then be deﬁned as
+city commuting, but ignores the possibility of inter-city commuting. It                                      ( 𝜎−1        ) 𝜎
+                                                                                                                      𝜎−1  𝜎−1
+shows that the secular decline in inter-city trade costs relative to intra-
+                                                                                                     𝑢𝓁𝑘 =    𝑐𝑘𝓁𝜎 + 𝑐𝑘𝑘𝜎      − 𝜇𝑑𝓁 𝑘                                                          (3)
+city commuting costs, documented by Glaeser and Kahn (2004), like-
+wise generates urban shadows dominating early on, and urban access
+                                                                                                     whereas the utility of an individual originally from city 𝓁 who resides
+dominating later on.
+                                                                                                     in her own city is
+    In what follows, we start by describing the framework’s general
+setup, and then analyze the two special cases and their relation to urban                                    ( 𝜎−1    𝜎−1
+                                                                                                                          ) 𝜎
+                                                                                                                           𝜎−1
+shadows and urban access.                                                                            𝑢𝓁𝓁 =    𝑐𝓁𝓁𝜎 + 𝑐𝓁𝑘𝜎                                                                       (4)
+
+4.1. Setup                                                                                           where 𝜎 > 1 is the elasticity of substitution between both goods, and
+                                                                                                     𝑐𝑘𝓁 denotes the consumption by a resident of city 𝑘 of good 𝓁 (i.e., the
+    Endowments. The economy consists of a continuum of points on a                                   ﬁrst subscript refers to the residence of the consumer and the second
+line. The density of land at all points of the line is one. There are 𝐿                              subscript to the origin of the good).
+individuals, each residing on one unit of land. Each resident has one
+unit of time, which she divides between work and commuting. On the                                   4.2. Intra-City commuting and inter-City commuting
+line there are two exogenously given production points, denoted by 𝓁
+and 𝑘. The set of individuals living closer to production point 𝓁 than to                                In this subsection we consider a special case of our general setup
+production point 𝑘 comprises city 𝓁.                                                                 where the two goods are perfect substitutes. Since this amounts to hav-
+    Of the 𝐿 individuals, initially 𝐿𝓁0 reside in city 𝓁 and 𝐿𝑘0 reside                              ing just one good in the economy, the model can be simpliﬁed in several
+in city 𝑘. Individuals from one city can choose to move and reside in                                ways. First, trade is no longer relevant, so we limit our focus to intra-
+the other city. Moving implies a utility cost 𝜇𝑑𝓁 𝑘 that is increasing in                            city commuting costs, inter-city commuting costs and inter-city moving
+inter-city distance 𝑑𝓁𝑘 , measured as the distance between production                                costs. To further simplify, we assume that intra-city and inter-city com-
+point 𝓁 and production point 𝑘. Examples of the utility cost of being                                muting costs per unit of distance are the same, so 𝛾𝑐 = 𝛾𝑖 = 𝛾. Second,
+a migrant include the psychological and social costs of having to leave                              with only one good, we can normalize the good’s price to one. Third,
+friends and family behind. Consistent with this utility interpretation, we                           the indirect utility of an individual originally from city 𝓁 and residing
+assume that a return migrant does not pay a moving cost. That is, if an                              in city 𝑘 is now simply her income net of land rents and moving costs.
+individual who moved from city 𝓁 to city 𝑘 returns to her hometown,
+she does not pay a moving cost. The possibility of moving introduces                                    Indirect Utility. Without loss of generality, we assume that no one
+a possible diﬀerence between an individual’s city of origin and the city                             from city 𝑘 has an incentive to move or work in city 𝓁. Depending on an
+of residence. In what follows, our notation uses superscripts for origin
+and subscripts for residence. For example, 𝐿𝓁𝑘 refers to the number of                                25
+                                                                                                          This ensures symmetry in a city’s spatial structure on both sides of its production
+individuals from city 𝓁 who reside in city 𝑘.                                                        point.
+    The land rent in city 𝓁 at distance 𝑑𝓁 from production point 𝓁 is                                 26 Productivity is taken to be exogenous. Although in equilibrium the more productive
+
+denoted by 𝑟𝓁 (𝑑𝓁 ). Inter-city distance, 𝑑𝓁𝑘 , is big enough so that there                          city will also tend to be the larger one, this relation is not driven by standard agglomeration
+                                                                                                     economies à la (Krugman and Venables, 1995).
+                                                                                                      27
+                                                                                                          This simplifying assumption has the advantage of maintaining symmetry between
+  24
+     This conclusion is suggestive in the sense that the negative coeﬃcients are not always          agents who reside at a distance 𝑑𝓁 to the right of production point 𝓁 and those who
+statistically signiﬁcant. Needless to say, our results cannot be interpreted as causal. While        reside at that same distance 𝑑𝓁 to the left of production point 𝓁. It implies that cities
+it could of course be that better commuting infrastructure in the neighboring large city             will be symmetric in shape: the number of residents living to the right and to the left of
+attracts population from neighboring locations, it is also possible that expected future             production point 𝓁 will be the same. That is, the distance from production point 𝓁 to the
+growth prompts it to build better commuting infrastructure.                                          edge of city 𝓁, denoted by 𝑑̄𝓁 , will be the same on both sides of 𝓁.
+
+
+                                                                                                11
+D. Cuberes, K. Desmet and J. Rappaport                                                                                               Journal of Urban Economics 123 (2021) 103334
+
+
+individual’s city of origin, city of residence, city of work and distance of              if productivity diﬀerences are small, inter-city distances are large, com-
+residence to city center, there are four possible expressions for utility:                muting costs are high, and moving costs are big; moving is beneﬁcial
+                                                                                          if commuting costs are not too high and moving costs are suﬃciently
+𝑢𝓁𝓁 (𝓁 , 𝑑(𝓁 )) = 𝐴𝓁 (1 − 𝛾𝑑𝓁 ) − 𝑟𝓁 (𝑑𝓁 )                                                low; and commuting is the preferred choice if commuting costs become
+𝑢𝓁𝑘 (𝑘, 𝑑(𝑘)) = 𝐴𝑘 (1 − 𝛾𝑑𝑘 ) − 𝑟𝑘 (𝑑𝑘 ) − 𝜇𝑑𝓁 𝑘                                          suﬃciently low.
+                                                                                              Building on this intuition, we can now characterize the equilibrium
+𝑢𝓁𝓁 (𝑘, 𝑑(𝓁)) = 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ) − 𝑟𝓁 (𝑑𝓁 )
+                                                                                          of the economy in terms of where individuals choose to reside and where
+𝑢𝑘𝑘 (𝑘, 𝑑(𝑘)) = 𝐴𝑘 (1 − 𝛾𝑑𝑘 ) − 𝑟𝑘 (𝑑𝑘 ),                                     (5)         they choose to work. We do so for a given set of parameters 𝐴𝓁 , 𝐴𝑘 , 𝑑𝓁𝑘 ,
+                                                                                          𝜇 and 𝛾, and for given initial values 𝑑̄𝓁0 and 𝑑̄𝑘0 which determine the
+where the superscript on 𝑢 refers to the individual’s place of origin, the                size of both cities when populated by their original residents. Without
+subscript on 𝑢 refers to her place of residence, the ﬁrst element in the                  loss of generality, assume that 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) ≥ 𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ), implying that
+brackets refers to the place of work, and the second element in the brack-                if all individuals work in the city they are originally from, the utility of
+ets refers to the distance of the residence to the city center. For example,              a resident of 𝓁 is less than or equal to that of a resident of 𝑘.
+𝑢𝓁𝓁 (𝑘, 𝑑(𝓁)) refers to the utility of an individual who is originally from 𝓁,                Depending on the parameter values and on the initial sizes of both
+resides in 𝓁 at distance 𝑑(𝓁) from the city center and works in 𝑘, whereas                cities, the economy will be in one of four equilibria, represented by
+𝑢𝓁𝑘 (𝑘, 𝑑(𝑘)) refers to the utility of an individual who is originally from 𝓁,            the four quadrants of Fig. 1. First, if original residents of city 𝓁 do not
+resides in 𝑘 at distance 𝑑(𝑘) from the city center and works in 𝑘. Since                  stand to gain from either moving to city 𝑘 or commuting to city 𝑘, we
+no one from 𝑘 has an incentive to move or work in 𝓁, the increase or de-                  will say that we are in a staying equilibrium: every individual stays and
+crease in population of 𝓁 is solely driven by the decisions of the original               works in the city where she resided originally. This case is illustrated in
+residents of 𝓁, who can either stay in 𝓁, move to 𝑘, or commute to 𝑘. To                  the top-left panel of Fig. 1. Second, if original residents of city 𝓁 get a
+simplify notation, we will sometimes refer to 𝑢𝓁𝓁 (𝓁 , 𝑑(𝓁 )) as the staying              higher utility from moving than from both commuting or staying, some
+utility 𝑈𝑆 , to 𝑢𝓁𝑘 (𝑘, 𝑑(𝑘)) as the moving utility 𝑈𝑀 , and to 𝑢𝓁𝓁 (𝑘, 𝑑(𝓁)) as          individuals from city 𝓁 move to city 𝑘. As this happens, city 𝓁 becomes
+the commuting utility 𝑈𝐶 .                                                                smaller and city 𝑘 becomes larger, implying that the utility from moving
+                                                                                          goes down and the utility from staying goes up.28 If, as illustrated in the
+     Residential Mobility within Cities. Individuals can freely locate within
+                                                                                          top-right panel of Fig. 1, the two utility levels equalize at a level above
+cities. Where land is unoccupied, land rents are normalized to zero.
+                                                                                          the utility from commuting, then we will say that we are in an inter-city
+Hence, at the city edge 𝑑̄𝓁 land rents 𝑟𝓁 (𝑑̄𝓁 ) = 0, whereas at other lo-
+                                                                                          moving equilibrium: some individuals of 𝓁 move to 𝑘, and the remainder
+cations closer to the production center 𝓁 land rents are determined by
+                                                                                          lives and works in 𝓁.29
+the within-city residential free mobility condition.
+                                                                                              Third, starting in the same situation, with the utility from moving
+     To determine equilibrium land rents at diﬀerent locations, note that
+                                                                                          being higher than the utility from commuting or staying, it is possible
+in city 𝓁 there are potentially two types of residents: those who work
+                                                                                          that as people start moving, the utility from moving reaches the utility
+locally in 𝓁, denoted by 𝐿𝓁𝓁 (𝓁), and those who commute to 𝑘, denoted
+                                                                                          from commuting. At that point, some individuals in 𝓁 start commuting to
+by 𝐿𝓁𝓁 (𝑘). The total cost of land rents and commuting costs incurred by
+                                                                                          𝑘, until the utility from staying equalizes that of commuting. In this case,
+a resident who lives at distance 𝑑𝓁 and works locally is 𝑟𝓁 (𝑑𝓁 ) + 𝐴𝓁 𝛾𝑑𝓁 ,
+                                                                                          shown in the bottom-left panel of Fig. 1, the economy is in an inter-city
+whereas the analogous cost if she commutes to 𝑘 is 𝑟𝓁 (𝑑𝓁 ) + 𝐴𝑘 𝛾𝑑𝓁𝑘 .
+                                                                                          moving and commuting equilibrium. Lastly, if the utility from commuting
+Since all commuters to the other city 𝑘 have to cover the same distance
+                                                                                          is higher than the utility from moving or staying, some individuals in 𝓁
+𝑑𝓁𝑘 , independently of where they reside in city 𝓁, they all prefer to live
+                                                                                          commute to 𝑘. As this occurs, less people in 𝓁 work at production point
+on the city edge and pay zero rent. As a result, there will be an area
+                                                                                          𝓁. This weakens the competition for land in 𝓁 and lowers the land rent.
+𝐿𝓁𝓁 (𝑘)∕2 on both edges of the city where rents are zero. To be precise,
+                                                                                          As a result, the utility from staying increases, and the economy reaches
+for all 𝑑𝓁 ∈ [𝑑̄𝓁 − 𝐿𝓁𝓁 (𝑘)∕2, 𝑑̄𝓁 ] we have 𝑟𝓁 (𝑑𝓁 ) = 0. For all other locations        an equilibrium where the utility from staying equalizes the utility from
+closer to production point 𝓁, occupied by residents who work locally,                     commuting.30 In this case, illustrated in the bottom-right panel of Fig. 1,
+the sum of land rents plus commuting costs must equalize. Hence, for                      the economy is in an inter-city commuting equilibrium.
+all 𝑑𝓁 ∈ [0, 𝑑̄𝓁 − 𝐿𝓁𝓁 (𝑘)∕2], we have 𝑟𝓁 (𝑑𝓁 ) + 𝐴𝓁 𝛾𝑑𝓁 = 𝐴𝓁 𝛾(𝑑̄𝓁 − 𝐿𝓁𝓁 (𝑘)∕2),             We are now ready to formally deﬁne the equilibrium of the econ-
+so that 𝑟𝓁 (𝑑𝓁 ) = 𝐴𝓁 𝛾(𝑑̄𝓁 − 𝐿𝓁𝓁 (𝑘)∕2 − 𝑑𝓁 ). Summarizing, equilibrium land             omy for a given set of parameter values and for a given initial size of 𝓁
+rents in city 𝓁 are:                                                                      and 𝑘.
+           ⎧                                        [                ]
+                        𝓁                                     𝐿𝓁 (𝑘)                         Equilibrium. Given 𝐴𝓁 , 𝐴𝑘 , 𝑑𝓁𝑘 , 𝜇 and 𝛾, and given initial values 𝑑̄𝓁0
+           ⎪𝐴𝓁 𝛾(𝑑̄𝓁 − 𝐿𝓁 (𝑘) − 𝑑𝓁 )         if 𝑑𝓁 ∈ 0, 𝑑̄𝓁 − 𝓁2
+           ⎪             2                                                                and 𝑑̄𝑘0 , with 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) > 𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ), the economy will be in one of four
+𝑟𝓁 (𝑑𝓁 ) = ⎨                                        [                  ]      (6)
+                                                            𝐿𝓁 (𝑘)                        equilibria:
+           ⎪0                                if 𝑑𝓁 ∈ 𝑑̄𝓁 − 𝓁2 , 𝑑̄𝓁 .
+           ⎪
+           ⎩
+                                                                                           i. Staying equilibrium. If 𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ) ≥ 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) − 𝜇𝑑𝓁 𝑘 and 𝐴𝓁 (1 −
+In city 𝑘, without loss of generality, no residents commute to 𝓁, so land                     𝛾 𝑑̄𝓁0 ) ≥ 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ), then no individual has an incentive to move from
+rents are simply:                                                                             𝓁 to 𝑘.
+                                                                                          ii. Inter-city moving equilibrium. If either 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) − 𝜇𝑑𝓁 𝑘 > 𝐴𝓁 (1 −
+𝑟𝑘 (𝑑𝑘 ) = 𝐴𝑘 𝛾(𝑑̄𝑘 − 𝑑𝑘 ).                                                   (7)
+                                                                                              𝛾 𝑑̄𝓁0 ) ≥ 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ) or both 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) − 𝜇𝑑𝓁 𝑘 > 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ) >
+                                                                                              𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ) and 𝐴𝑘 (1 − 𝛾(𝑑̄𝑘0 + 𝑚)) − 𝜇𝑑𝓁 𝑘 ≥ 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ), then a share
+    City Choice and Commuting Choice. A city loses population if its res-
+idents prefer to move to the other city, but it gains population if its                       min(𝑚, 𝑑̄𝓁0 ) moves from city 𝓁 to 𝑘, where 𝑚 is the solution to 𝐴𝑘 (1 −
+residents move back and instead commute to the other city. To provide                         𝛾(𝑑̄𝑘0 + 𝑚)) − 𝜇𝑑𝓁 𝑘 = 𝐴𝓁 (1 − 𝛾(𝑑̄𝓁0 − 𝑚)).
+some intuition for when one situation is more likely than another, con-
+sider an individual who is originally from city 𝓁 and resides at a distance
+𝑑𝓁 from the production point 𝓁. She has three choices: she can stay in                     28
+                                                                                              The utility from commuting remains the same, since that utility depends on the dis-
+city 𝓁 and work at production point 𝓁, earning a utility 𝑈𝑆 ≡ 𝑢𝓁𝓁 (𝓁 , 𝑑(𝓁 ));            tance between city 𝓁 and city 𝑘, which is unchanged.
+she can move to city 𝑘 at a distance 𝑑(𝑘) from her work at production                      29
+                                                                                              It is also possible that all individuals move out of city 𝓁 before the two utility levels
+point 𝑘, earning a utility 𝑈𝑀 ≡ 𝑢𝓁𝑘 (𝑘, 𝑑(𝑘)); or she can commute a dis-                  meet. This possibility is not shown in Figure 1.
+                                                                                           30
+tance 𝑑𝓁𝑘 from city 𝓁 to production point 𝑘 to work, earning a utility                        Of course, if everyone commutes before that equality is reached, then we would have
+                                                                                          the entire city 𝓁 commuting to 𝑘.
+𝑈𝐶 ≡ 𝑢𝓁𝓁 (𝑘, 𝑑(𝓁)). The expressions in (5) suggest that staying is attractive
+
+                                                                                     12
+D. Cuberes, K. Desmet and J. Rappaport                                                                                              Journal of Urban Economics 123 (2021) 103334
+
+
+
+
+                                     Staying equilibrium                                                  Inter-city moving equilibrium
+
+                           US                             US                                            UM                             UM
+
+
+
+                          UM                  or           UC                                           UC                 or          US
+
+
+                          UC                              UM                                            US                              UC
+
+
+
+
+                 Inter-city moving and commuting equilibrium                                             Inter-city commuting equilibrium
+
+                                         UM                                                             UC                              UC
+
+
+                                         UC                                                             UM                   or         US
+
+
+                                         US                                                              US                             UM
+
+
+
+Fig. 1. Equilibrium Description. Given initial conditions, this ﬁgure graphically illustrates the four possible equilibrium conﬁgurations. Horizontal lines denote the
+initial utility levels for the diﬀerent choices: 𝑈𝑆 refers to the utility of an individual staying and working in her own city, 𝑈𝑀 refers to the utility of an individual
+moving to the other city and working there, and 𝑈𝐶 refers to the utility of an individual commuting to the other city. In the top-left corner individuals do not gain
+from either moving or commuting to the other city, so we have a staying equilibrium. In the top-right corner and bottom-left corner individuals get a higher utility
+from moving than from commuting or staying. If moving leads the utility to equalize to that of staying, we get a moving equilibrium, whereas if it leads the utility to
+equalize to that of commuting, we get a moving and commuting equilibrium. In the bottom-right corner individuals get a higher utility from commuting, so we have a
+commuting equilibrium.
+
+
+
+
+iii. Inter-city moving and commuting equilibrium. If 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) −                           This intuition suggests that a gradual decrease in 𝛾 ﬁrst shifts the
+     𝜇𝑑𝓁 𝑘 > 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ) > 𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ) and 𝐴𝑘 (1 − 𝛾(𝑑̄𝑘0 + 𝑚)) − 𝜇𝑑𝓁 𝑘 <             economy from a staying equilibrium to an inter-city moving equilib-
+     𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ), then a share min(𝑚′ , 𝑑̄𝓁0 ) people moves from city 𝓁 to city            rium, with some residents of the smaller low-productivity city moving
+     𝑘, where 𝑚′ is the solution to 𝐴𝑘 (1 − 𝛾(𝑑̄𝑘0 + 𝑚′ )) − 𝜇𝑑𝓁 𝑘 = 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 )           to the larger high-productivity city. Later, as 𝛾 continues to drop, the
+     and 𝑚 is the solution to 𝐴𝑘 (1 − 𝛾(𝑑̄𝑘0 + 𝑚)) − 𝜇𝑑𝓁 𝑘 = 𝐴𝓁 (1 − 𝛾(𝑑̄𝓁0 − 𝑚)),            economy shifts to an inter-city moving and commuting equilibrium,
+     and a share min(𝑚′′ , 𝑑̄𝓁0 − min(𝑚′ , 𝑑𝓁0 )) people commute from city 𝓁 to city          and then to an inter-city commuting equilibrium, with some original
+                                                                                              residents of the smaller low-productivity city commuting to the larger
+     𝑘, where 𝑚′′ is the solution to 𝐴𝓁 (1 − 𝛾(𝑑̄𝓁0 − 𝑚′ − 𝑚′′ )) = 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ).
+                                                                                              high-productivity city. This is stated in the following result.
+iv. Inter-city commuting equilibrium. If 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ) > 𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ) and
+     𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ) > 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) − 𝜇𝑑𝓁 𝑘 , then min(𝑐, 𝑑̄𝓁0 ) commutes from city        Result 1. Start oﬀ in an equilibrium where 𝐴𝑘 > 𝐴𝓁 and where the utility
+     𝓁 to city 𝑘, where 𝑐 is the solution to 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ) = 𝐴𝓁 (1 − 𝛾(𝑑̄𝓁0 − 𝑐)).           of all individuals is identical. For a value of 𝜇 that is suﬃciently small, a
+                                                                                              gradual drop in commuting costs, 𝛾, moves the economy sequentially from a
+    Urban Shadows and Urban Access. In Section 3.2 we documented the                          staying equilibrium to an inter-city moving equilibrium, an inter-city moving
+secular decline in commuting costs in the U.S. over the past 150 years.                       and commuting equilibrium, and an inter-city commuting equilibrium. In the
+Our goal here is to explore how this drop aﬀects urban shadows and                            inter-city moving equilibrium the smaller city loses residents to the larger city,
+urban access. To ﬁx ideas, start oﬀ in a situation where all individuals                      whereas in the inter-city moving and commuting equilibrium the smaller city
+reside in their city of origin and all have the same utility. This implies                    gains residents from the larger city.
+that the more productive city is also the larger one. Now consider a                          Proof. See Appendix A.        □
+gradual drop in commuting costs 𝛾. As long as commuting costs continue
+to be relatively high, no one has an incentive to move or commute to                              The above result implies three threshold values of 𝛾. A high thresh-
+the larger city, because moving requires paying a ﬁxed cost and inter-                        old, 𝛾 𝑚 , a middle threshold, 𝛾 𝑚𝑐 , and a low threshold, 𝛾 𝑐 , such that for
+city commuting is still too expensive. However, if commuting costs drop                       𝛾 ≥ 𝛾 𝑚 , we are in a staying equilibrium, for 𝛾 𝑚 > 𝛾 ≥ 𝛾 𝑚𝑐 , we are in an
+to an intermediate level, the relative cost of intra-city commuting falls                     inter-city moving equilibrium, for 𝛾 𝑚𝑐 > 𝛾 ≥ 𝛾 𝑐 , we are in an inter-city
+enough in the larger city for moving to become attractive. If commuting                       moving and commuting equilibrium, and for 𝛾 < 𝛾 𝑐 , we are in an inter-
+costs fall still further, commuting to the larger city becomes the better                     city commuting equilibrium.
+choice, as it saves on the ﬁxed cost of moving.                                                   What does Result 1 tell us about urban shadows and urban access?
+                                                                                              As the commuting cost drops, residents of the smaller city move to the
+
+                                                                                         13
+D. Cuberes, K. Desmet and J. Rappaport                                                                                      Journal of Urban Economics 123 (2021) 103334
+
+
+nearby larger city, and the smaller city loses population. The larger city               access for their smaller neighbors. This is consistent with our empirical
+casts an urban shadow: the nearby smaller city suﬀers in terms of popu-                  ﬁndings for the U.S., as summarized in Stylized Fact 4.
+lation growth. Needless to say, if the initial drop in commuting is larger,
+                                                                                             Model Assessment. By focusing on the documented long-run decline
+the urban shadow is stronger. A further drop in the commuting cost re-
+                                                                                         of commuting costs, our model is able to account for the main stylized
+verses this trend, as residents of the smaller city ﬁnd it more attractive
+                                                                                         facts we identiﬁed empirically when studying the relative importance
+to commute to the larger city than to move. The larger city no longer
+                                                                                         of urban shadows and urban access in the U.S. over the period 1840 to
+displays an urban shadow, but provides urban access instead: the nearby
+                                                                                         2017.
+smaller city gains in terms of population growth.
+                                                                                             One potential issue with our interpretation is that in some of the
+    How does this relate to our empirical stylized facts? Our descrip-
+                                                                                         later time periods, after 1980, the geographic span of improved ur-
+tion of the evolution of commuting costs in the U.S. between 1840 and
+                                                                                         ban access through inter-city commuting reached 200km. At face value
+2017 suggests a slow decline in 𝛾 between 1840 and 1920, a rapid fall
+                                                                                         this seems well beyond standard inter-city commuting distances, so one
+in 𝛾 between 1920 and the turn of the 21st century, and a slowdown
+                                                                                         could doubt whether in this most recent time period the conceptual
+in the decrease in 𝛾 during the last two decades. In light of Result 1,
+                                                                                         framework captures the essence of what we observe in the data. There
+this would be consistent with an early time period where urban shad-
+                                                                                         are at least three reasons why our interpretation may still hold. First, al-
+ows dominated and a later time period where urban access dominated,
+                                                                                         though between 1980 and 2017 we ﬁnd evidence of urban access having
+with a weakening in the beneﬁts of urban access in more recent times.
+                                                                                         a large geographic reach, those eﬀects dissipate with distance. For exam-
+During the early time period, Result 1 also suggests that growth shad-
+                                                                                         ple, correlations between 150km and 200km are one-half to one-quarter
+ows are stronger in locations that experience greater improvements in
+                                                                                         their magnitudes between 1km and 100km. Second, the empirical cor-
+commuting infrastructure. This is consistent with our empirical ﬁndings
+                                                                                         relations should always be interpreted relative to the excluded category
+for the U.S., as summarized in Stylized Fact 1, Stylized Fact 2 and
+                                                                                         (e.g., locations that have no large neighbors within 300km). If in recent
+Stylized Fact 5.
+                                                                                         time periods geographically isolated locations have been experiencing
+   Geographic Reach of Urban Shadows and Urban Access. We now ex-                        particularly low growth, this pushes up the relative growth rate of all
+plore how urban shadows and urban access depend on the distance to                       other locations, including those that are, say, 200km away from large
+the larger city. The following result states that if inter-city distance in-             neighbors. Third, although a distance of 200km between the centroid
+creases, all three threshold values of the commuting cost are lower.                     of a rural county and the centroid of a large metro area may be beyond
+                                                                                         standard commuting distances, the distance between that same county
+Result 2. Thresholds 𝛾 𝑚 , 𝛾 𝑚𝑐 and 𝛾 𝑐 are declining in 𝑑𝓁𝑘 . That is, if the           and the edge of a large metro area may very well still be within rea-
+distance to the larger city increases, the shift from a staying equilibrium to           sonable commuting time. More generally, the inﬂuence of large metro
+an inter-city moving equilibrium, from an inter-city moving equilibrium to an            areas may stretch further than standard forces would suggest, because
+inter-city moving and commuting equilibrium, and from an inter-city moving               of overlapping regions of interaction (Kerr and Kominers, 2015).
+and commuting equilibrium to an inter-city commuting equilibrium, occurs                     An alternative is that inter-city commuting costs are not the driving
+for lower values of the commuting cost 𝛾.                                                force behind what we observe in the data. One possibility is to reinter-
+                                                                                         pret the beneﬁts from inter-city commuting as technological spillovers.
+Proof. See Appendix A.          □                                                        When commuting from city 𝓁 to city 𝑘, a resident of 𝓁 loses work-
+                                                                                         ing time at a rate of 𝛾 per unit of distance, giving him access to
+    The above result says that when the larger city is geographically                    a de facto discounted version of the neighboring city’s productivity,
+farther away, commuting costs need to drop more before individuals                       𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ). We could alternatively model this eﬀect through technol-
+from the smaller city want to move to the bigger city, and they also need                ogy spillovers, without the need of introducing inter-city commuting,
+to drop more before they ﬁnd it proﬁtable to commute to the bigger city.                 as in Ahlfeldt et al. (2015): if technological spillovers decay at a rate
+    How does this relate to our empirical stylized facts? Result 2 allows                of 𝛾 per unit of distance, then an agent who resides and works in city
+us to trace the changing geographic reach of urban shadows and urban                     𝓁 would have access to the same discounted version of the neighboring
+access as commuting costs fall. Initially, it predicts urban shadows at                  city’s productivity. In that sense, both interpretations are interchange-
+relatively short distances, that gradually expand as transport costs drop.               able in their eﬀects on income.
+Eventually, shadows are dominated by access, again ﬁrst at relatively                        Another possibility is that the attractiveness of the larger, more pro-
+short distances, but later at farther away distances as the spatial reach                ductive city comes from market access through inter-city trade, rather
+of urban access expands. This is consistent with our empirical ﬁndings                   than through inter-city commuting. We turn to this possibility next.
+for the U.S., as summarized in Stylized Fact 3.
+
+    Relative Size of Large City. How do urban shadows and urban access                   4.3. Intra-City commuting and inter-City trade
+depend on the relative size of the large city? The following result shows
+that the moving threshold is increasing in the relative size of the large                   In this subsection we consider a second special case of our general
+city. That is, commuting costs have to fall by less before a large city                  setup by assuming that the inter-city commuting cost parameter, 𝛾𝑖 , is
+starts attracting the population of its hinterland.                                      too high for individuals to commute between cities. That is, we focus
+                                                                                         on a model with intra-city commuting, inter-city trade and inter-city
+Result 3. Keeping population-weighted productivity unchanged, the thresh-                moving, but no inter-city commuting. To have a role for inter-city trade,
+old 𝛾𝑚 is increasing in the relative size of the larger city. That is, the shift         we no longer assume the two goods to be perfect substitutes. As a result,
+from a staying equilibrium to an inter-city moving equilibrium occurs for a              we cannot normalize all goods prices to one. Instead, goods prices will
+higher value of the commuting cost if the larger city has a bigger relative size.        have to be derived from standard goods markets clearing conditions.
+
+Proof. See Appendix A.          □                                                           Residential Mobility within Cities and Income. People can freely choose
+                                                                                         where to reside in their city. This implies that for all residents of 𝓁,
+    The above result shows that larger cities exert a stronger gravita-                  income net of land rents, 𝑦𝓁 , equalizes across all locations within a city.
+tional pull on their hinterland, as they start casting their urban shadows               Since at the edge of 𝓁 land rents are zero,
+at higher levels of commuting costs. How does this relate to our empir-                  𝑦𝓁 = 𝑝𝓁 𝐴𝓁 (1 − 𝛾𝑐 𝑑̄𝓁 ).                                                  (8)
+ical stylized facts? Result 3 implies that as commuting costs decline, it
+is the largest cities that ﬁrst cast their urban shadow on their smaller                 Since there is no inter-city commuting, expression (8) does not distin-
+neighbors, and likewise, it is the largest cities that ﬁrst improve urban                guish between residence and workplace.
+                                                                                    14
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                          Journal of Urban Economics 123 (2021) 103334
+
+
+
+
+                                                    Fig. 2. Model with inter-city trade costs and intra-city commuting costs.
+
+   Aggregate Supply and Demand. Net of the payments to land owners,                                 subject to 𝑝𝓁 𝐴𝓁 (1 − 𝛾𝑐 𝑑̄𝓁 ) = 𝑝𝓁 𝑐𝓁𝓁 + 𝑝𝑘 ∕(1 − 𝛾𝑡 𝑑𝓁𝑘 )𝑐𝓁𝑘 . The ﬁrst order
+each individual in 𝓁 produces 𝐴𝓁 (1 − 𝛾𝑐 𝑑̄𝓁 ). As a result, aggregate supply                       conditions yield the following demand for each one of the two
+net of what is lost to land owners is                                                               goods:
+                                                                                                                  𝑦𝓁 (𝑝𝓁 )−𝜎
+𝑄𝓁 = 2𝐴𝓁 𝑑̄𝓁 (1 − 𝛾𝑐 𝑑̄𝓁 ) = 𝐴𝓁 𝐿𝓁 (1 − 𝛾𝑐 𝑑̄𝓁 ).                                       (9)         𝑐𝓁𝓁 =
+                                                                                                                𝜎         𝑝
+                                                                                                            𝑝𝓁 + ( 1−𝛾 𝑘𝑑 )1−𝜎
+                                                                                                             1−
+                                                                                                                           𝑡 𝓁𝑘
+An agent faces two decisions: in which city to reside and how much                                                    𝑝
+                                                                                                               𝑦𝓁 ( 1−𝛾 𝑘𝑑 )−𝜎
+to consume of each good. Both decisions can be separated. We start by                                                  𝑡 𝓁𝑘
+                                                                                                    𝑐𝓁𝑘 =                            .                                                 (10)
+                                                                                                            𝑝1− 𝜎 + ( 𝑝𝑘        )1−𝜎
+describing the consumption decision. An agent who resides in 𝓁 maxi-                                         𝓁        1−𝛾𝑡 𝑑𝓁𝑘
+mizes31
+                                                                                                    Aggregate demand for goods produced in location 𝓁 is then:
+( 𝜎−1        ) 𝜎                                                                                                                                    𝑝
+         𝜎−1  𝜎−1
+                                                                                                               𝑦𝓁 𝐿𝓁 (𝑝𝓁 )−𝜎              𝑦𝑘 𝐿𝑘 ( 1−𝛾 𝓁𝑑 )−𝜎
+ 𝑐𝓁𝓁𝜎 + 𝑐𝓁𝑘𝜎                                                                                        𝐶𝓁 =                            +               𝑡 𝓁𝑘
+                                                                                                                                                                 .                     (11)
+                                                                                                                𝜎 +(    𝑝                   𝑝                𝜎
+                                                                                                            𝑝1−
+                                                                                                             𝓁
+                                                                                                                        𝑘
+                                                                                                                     1−𝛾 𝑑
+                                                                                                                           )1−𝜎          ( 1−𝛾 𝓁𝑑 )1−𝜎 + 𝑝1−
+                                                                                                                                                          𝑘
+                                                                                                                         𝑡 𝓁𝑘                𝑡 𝓁𝑘
+
+                                                                                                    Analogous expressions to (9)-(11) can be written down for city 𝑘.
+ 31
+     For a resident of 𝓁 who is originally from 𝑘, her utility should include a moving cost.           City Choice. An individual originally from city 𝓁 has a choice to
+However, since the moving cost does not aﬀect the consumption optimization problem, it
+                                                                                                    stay in city 𝓁 or to move to city 𝑘. His indirect utility if he stays in
+is not included here.
+
+                                                                                               15
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                      Journal of Urban Economics 123 (2021) 103334
+
+
+city 𝓁 is                                                                                           whereas intra-city commuting costs decline from 0.25 to 0.075. This ﬁrst
+              𝑝𝓁 𝐴𝓁 (1 − 𝛾𝑐 𝑑̄𝓁 )                                                                   beneﬁts the larger city (urban shadows dominate), and eventually the
+𝑢𝓁𝓁 =                                                                                 (12)          small city recovers its population (urban access dominate). Where does
+        (                    ) 1
+         𝑝1− 𝜎 + ( 𝑝𝑘   )1−𝜎
+                              1−𝜎
+                                                                                                    this non-monotonicity come from? From Panels (a) and (b), we would
+          𝓁       1−𝛾 𝑑𝑡 𝓁𝑘
+                                                                                                    be tempted to conclude that urban shadows should dominate through-
+whereas his indirect utility if he moves to 𝑘 is
+                                                                                                    out. Indeed, for the same decreases in trade and commuting costs as in
+            𝑝𝑘 𝐴𝑘 (1 − 𝛾𝑐 𝑑̄𝑘 )                                                                     Panel (c), the gain to the large city from lowering commuting costs in
+𝑢𝓁𝑘 =                               − 𝜇𝑑𝓁 𝑘 .                                         (13)
+      (                         ) 1                                                                 Panel (b) is bigger than the gain to the small city from lowering trade
+           𝑝                 𝜎 1−𝜎
+       ( 1−𝛾 𝓁𝑑 )1−𝜎 + 𝑝1−𝑘
+              𝑡 𝓁𝑘                                                                                  costs in Panel (a). However, this ignores the interaction between both
+In equilibrium, the population of 𝓁 should be such that an individual                               types of spatial frictions. As trade costs drop, residents from the small
+from city 𝓁 is indiﬀerent between staying in his own city 𝓁 and moving                              city have better access to the good produced in the large city, reducing
+to 𝑘:                                                                                               the marginal gain from moving. As a result, the gain to the large city
+      𝑝𝓁 𝐴𝓁 (1 − 𝛾𝑐 𝑑̃𝓁 )           𝑝𝑘 𝐴𝑘 (1 − 𝛾𝑐 ( 𝐿2 − 𝑑̃𝓁 ))                                     from lowering commuting costs is smaller when trade costs are lower.
+                               =                                  − 𝜇𝑑𝓁 𝑘 (14)                      This leads to a weakening of urban shadows, and to the emergence of
+(                         ) 1    (                          ) 1
+      𝜎       𝑝𝑘       𝜎   1−𝜎         𝑝𝓁       𝜎         𝜎   1−𝜎                                   urban access as the dominant force.
+  𝑝𝓁 + ( 1−𝛾 𝑑 )
+   1−               1−             ( 1−𝛾 𝑑 ) 1−   + 𝑝𝑘 1−
+                𝑡 𝓁𝑘                      𝑡 𝓁𝑘
+
+where 𝑑̄𝓁 = 𝐿∕2 − 𝑑̄𝑘 and 𝑑̃𝓁 denotes the value of 𝑑̄𝓁 that equalizes 𝑢𝓁𝓁                               Model Assessment. By focusing on the greater decline in trade than in
+                                                                                                    commuting costs, our framework is able to account for Stylized Fact
+and 𝑢𝓁𝑘 . An analogous expression to (14) for city 𝑘 implicitly deﬁnes 𝑑̃𝑘 .
+                                                                                                    1, our main empirical ﬁnding when studying the relative importance of
+The original distribution of population has 2𝑑̄𝓁0 individuals living in 𝓁
+                                                                                                    urban shadows and urban access in the U.S. since the mid-19th century.
+and 2𝑑̄𝑘0 individuals living in 𝑘, where 2𝑑̄𝓁0 + 2𝑑̄𝑘0 = 𝐿. If 𝑑̃𝓁 < 𝑑̄𝓁0 , then
+2(𝑑̄𝓁0 − 𝑑̃𝓁 ) people move from 𝓁 to 𝑘. If 𝑑̃𝑘 < 𝑑̄𝑘0 , then 2(𝑑̄𝑘0 − 𝑑̃𝑘 ) people                  5. Concluding remarks
+move from 𝑘 to 𝓁. If neither 𝑑̃𝓁 < 𝑑̄𝓁0 nor 𝑑̃𝑘 < 𝑑̄𝑘0 , then 2(𝑑̄𝑘0 − 𝑑̃𝑘 ), no one
+moves and everyone lives in their original location of residence. Hence,                                In this paper we have analyzed whether a location’s growth beneﬁts
+city choice implies:                                                                                or suﬀers from being geographically close to a large urban center. To
+       ⎧𝑑̃𝓁               if 𝑑̃𝓁 < 𝑑̄𝓁0                                                             do so, we have focused on U.S. counties and metro areas over the time
+       ⎪                                                                                            period 1840–2017. We have found evidence of urban shadows between
+𝑑̄𝓁 = ⎨𝑑̄𝓁 + (𝑑̃𝑘 − 𝑑̄𝑘 ) if 𝑑̃𝑘 < 𝑑̄𝑘0                                          (15)
+                                                                                                    1840 and 1920 and of urban access between 1920 and 2017. Proxim-
+       ⎪ ̄0
+       ⎩ 𝑑𝓁
+                          otherwise                                                                 ity to large urban clusters was negatively correlated with a location’s
+                                                                                                    growth in the early time period, and positively correlated in the later
+     Equilibrium. For given 𝐿, 𝐴𝓁 , 𝐴𝑘 , 𝑑𝓁𝑘 , 𝜇, 𝛾𝑐 , 𝛾𝑡 and 𝜎, and for a given                    time period, albeit with some weakening of this positive correlation in
+initial distribution of individuals across cities, 𝑑̄𝓁0 and 𝑑̄𝑘0 , an equilibrium is a              the last decades.
+collection of variables {𝑝𝓁 , 𝑝𝑘 , 𝐿𝓁 , 𝐿𝑘 , 𝑑̄𝓁 , 𝑑̄𝑘 , 𝑑̃𝓁 , 𝑑̃𝑘 } that satisfy conditions            The conceptual framework we have developed suggests that as the
+(8), (14), (15), goods market clearing, labor market clearing 𝐿 = 𝐿𝓁 + 𝐿𝑘 ,                         cost of commuting drops, individuals ﬁrst have an incentive to move
+land market clearing 𝐿𝓁 = 2𝑑̄𝓁 , as well as equivalent conditions for city 𝑘.                       from smaller closeby cities to larger urban centers. Later, if commut-
+    Urban Shadows and Urban Access. In their study of the long-run de-                              ing costs continue to fall, individuals prefer to commute, rather than
+cline in transport costs, (Glaeser and Kahn, 2004) argued that the decline                          to move, from the smaller to the larger cities. This implies that falling
+in trade costs has been more rapid than in commuting costs, saying that                             commuting costs ﬁrst hurt, and then help, the growth of smaller loca-
+in today’s world “it is essentially free to move goods, but expensive to                            tions in the vicinity of large urban centers. As such, a single variable —
+move people”.                                                                                       commuting costs — is able to capture the growth patterns of small cities
+    We use a simple numerical example to illustrate how this drop in                                in the hinterland of large urban clusters over the time period stretching
+trade costs relative to commuting costs aﬀects urban shadows and urban                              from 1840 to 2017.
+access. We make the large city 50% more productive than the small city:                                 Other factors are of course likely to have contributed to these spatial
+𝐴𝓁 = 1.0 and 𝐴𝑘 = 1.5. The elasticity of substitution between both goods,                           growth patterns. In particular, the growth of smaller locations might
+𝜎, is set 3. The total population 𝐿 is set to 6, and inter-city distance 𝑑𝓁𝑘                        have beneﬁted from improved access to large urban clusters through
+is set to 3. The moving cost parameter is set to 𝜇 = 0.001. Given the                               trade, rather than through commuting. Using an alternative conceptual
+inter-city distance and the initial utility in both cities, this amounts to                         framework that introduces trade between cities, we show that the rise
+around 0.3% in terms of utility. For the initial commuting cost and trade                           and decline of urban shadows is also consistent with the observed faster
+cost parameters, we choose 𝛾𝑐 = 0.25 and 𝛾𝑡 = 0.25. Using these initial                             drop in shipping costs than in commuting costs.
+parameters, we distribute population between the two cities to equalize
+                                                                                                    Appendix A. Proofs of Results
+utility.
+    Before analyzing the eﬀect of a drop in trade costs relative to com-
+muting costs on the distribution of population across the two cities, it is                         Proof of Result 1. Initially 𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ) = 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) and 𝐴𝑘 > 𝐴𝓁 ,
+useful to discuss both eﬀects separately. A drop in trade costs improves                            so that 𝑑̄𝑘0 > 𝑑̄𝓁0 . In this case, 𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ) ≥ 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) − 𝜇𝑑𝓁 𝑘 and
+the price index for both locations, but more so for the smaller, less pro-                          𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ) ≥ 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ) because 𝑑𝓁𝑘 ≥ 𝑑̄𝓁0 by construction. Because
+ductive city, because it has worse access to the cheaper good. Moving                               𝐴𝑘 𝑑̄𝑘0 > 𝐴𝓁 𝑑̄𝓁0 , −𝜕𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 )∕𝜕𝛾 < −𝜕𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 )∕𝜕𝛾, so that a drop in 𝛾
+from right to left in Panel (a) of Fig. 2 shows the gain in the population
+                                                                                                    leads to 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) > 𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ). If 𝛾 continues to drop and 𝜇 < (𝐴𝑘 −
+share of the smaller city as inter-city trade costs fall. A drop in com-
+                                                                                                    𝐴𝓁 )∕𝑑𝓁𝑘 , at some point 𝐴𝑘 (1 − 𝛾 𝑑̄𝑘0 ) − 𝜇𝑑𝓁 𝑘 = 𝐴𝓁 (1 − 𝛾 𝑑̄𝓁0 ). This occurs
+muting costs is also beneﬁcial for both locations, but more so for the
+larger, more productive city, because it suﬀers from greater congestion.                            when 𝛾 reaches the threshold 𝛾𝑚 = (𝐴𝑘 − 𝐴𝓁 − 𝜇𝑑𝓁 𝑘 )∕(𝐴𝑘 𝑑̄𝑘0 − 𝐴𝓁 𝑑̄𝓁0 ).
+Moving from right to left in Panel (b) of Fig. 2 shows the gain in the                              If 𝐴𝑘 (1 − 𝛾𝑚 𝑑̄𝓁𝑘 0 ) < 𝐴 (1 − 𝛾 𝑑̄0 ) − 𝜇𝑑 , which requires 𝜇 < (𝐴 (𝑑
+                                                                                                                              𝑘         𝑚 𝑘         𝓁𝑘                            𝑘 𝓁𝑘 −
+population share of the larger city as intra-city commuting costs fall.                             𝑑̄𝑘0 )(𝐴𝑘 − 𝐴𝓁 ))∕(𝑑𝓁𝑘 (𝑑𝓁𝑘 + 𝐴𝑘 𝑑̄𝑘0 − 𝐴𝓁 𝑑̄𝓁0 )), then as soon as 𝛾 falls below
+    Fig. 2 Panel (c) combines both eﬀects, with trade costs declining                               𝛾𝑚 , some of the original residents of 𝓁 will want to move to 𝑘. To
+faster than commuting costs, as in Glaeser and Kahn (2004). When                                    be precise, min[𝑚, 𝑑̄𝓁0 ] people who originally lived in 𝓁 will move to
+moving from left to right, inter-city trade costs decline from 0.25 to 0,                           𝑘, where 𝐴𝑘 (1 − 𝛾(𝑑̄𝑘0 + 𝑚)) − 𝜇𝑑𝓁 𝑘 = 𝐴𝓁 (1 − 𝛾(𝑑̄𝓁0 − 𝑚)). As 𝛾 continues
+                                                                                                    to drop, 𝑚 will increase. At some point, the drop in 𝛾 reaches 𝐴𝑘 (1 −
+
+
+                                                                                               16
+D. Cuberes, K. Desmet and J. Rappaport                                                                                                          Journal of Urban Economics 123 (2021) 103334
+
+
+𝛾(𝑑̄𝑘0 + min[𝑚, 𝑑̄𝓁0 ])) − 𝜇𝑑𝓁 𝑘 = 𝐴𝑘 (1 − 𝛾𝑑𝓁𝑘 ). We refer to this threshold as                     Desmet, K., Nagy, D., Rossi-Hansberg, E., 2018. The geography of development. Journal
+𝛾𝑚𝑐 , where 𝛾𝑚𝑐 = 𝜇𝑑𝓁 𝑘 ∕(𝐴𝑘 (𝑑𝓁 𝑘 − 𝑑̄𝑘0 − min[𝑚, 𝑑̄𝓁0 ])). Any further drop in
+                                                                                                          of Political Economy 126, 903–983.
+                                                                                                     Desmet, K., Rappaport, J., 2017. The settlement of the United States, 1800–2000: the long
+𝛾 will now imply that some of the original residents of 𝓁 will prefer to                                  transition towards Gibrat’s law. J. Urban Econ. 98, 50–68.
+commute to 𝑘. If 𝛾 continues to drop, an increasing share of the original                            Desmet, K., Rossi-Hansberg, E., 2014. Spatial development. American Economic Review
+residents of 𝓁 commute. There is a threshold 𝛾𝑐 = 𝜇𝑑𝓁 𝑘 ∕(𝐴𝑘 (𝑑𝓁 𝑘 − 𝑑̄𝑘0 )),                             104, 1211–1243.
+                                                                                                     Dobkins, L.H., Ioannides, Y., 2001. Spatial interactions among U.S. cities. Reg. Sci. Urban
+below which all original residents of 𝓁 commute to 𝑘. □                                                   Econ. 31, 701–731.
+                                                                                                     Donaldson, D., Hornbeck, R., 2016. Railroads and American economic growth: a market
+Proof of Result 2. From the proof of Result 1, we can                                                     access approach. Quarterly Journal of Economics 131, 799–858.
+write 𝛾 𝑚 = (𝐴𝑘 − 𝐴𝓁 − 𝜇𝑑𝓁 𝑘 )∕(𝐴𝑘 𝑑̄𝑘0 − 𝐴𝓁 𝑑̄𝓁0 ). It is clear that                                Duranton, G., Nagpal, G., Turner, M., 2020. Transportation infrastructure in the U.S. NBER
+𝑑 𝛾 𝑚 ∕𝑑 𝑑𝓁𝑘 < 0. From the same proof of Result 1, we can write                                           Working Paper # 27254.
+                                                                                                     Eckert, F., Peters, M., 2018. Spatial structural change. Yale University. Unpublished
+𝛾 𝑚𝑐 = 𝜇𝑑𝓁 𝑘 ∕(𝐴𝑘 (𝑑𝓁 𝑘 − 𝑑̄𝑘0 − min[𝑚, 𝑑̄𝓁0 ])), where 𝑚 can be written as                               manuscript
+(𝐴𝑘 − 𝐴𝓁 − 𝐴𝑘 𝛾 𝑚𝑐 𝑑̄𝑘0 + 𝐴𝓁 𝛾 𝑚𝑐 𝑑̄𝓁0 − 𝜇𝑑𝓁 𝑘 )∕(𝛾𝑚𝑐 (𝐴𝓁 + 𝐴𝑘 )).       Together,                   Edlund, L., Machado, C., Sviatschi, M., 2016. Bright minds, big rent: Gentriﬁcation and
+                                                                                                          the rising returns to skill. NBER Working Paper # 21729.
+this implies that 𝛾 𝑚𝑐 = max[𝜇𝑑𝓁 𝑘 ∕(𝐴𝑘 (𝑑𝓁 𝑘 − 𝑑̄𝑘0 − 𝑑̄𝓁0 )), (𝐴𝑘 (𝐴𝑘 − 𝐴𝓁 ) +                     Fogel, R.W., 1964. Railroads and american economic growth: Essays in econometric his-
+𝐴𝓁 𝑑𝓁𝑘 𝜇)∕(𝐴𝑘 (𝐴𝑘 + 𝐴𝓁 )𝑑𝓁𝑘 − 𝐴𝑘 𝐴𝓁 (𝑑̄𝑘0 + 𝑑̄𝓁0 ))]. Here as well, it is imme-                           tory,. Johns Hopkins University Press, Baltimore, MD.
+diate that 𝑑 𝛾 𝑚𝑐 ∕𝑑 𝑑𝓁𝑘 < 0. Threshold 𝛾 𝑐 is reached when 𝑚 in the above                           Fujita, M., Krugman, P., Venables, A.J., 1999. The spatial economy. MIT Press, Cambridge,
+                                                                                                          MA.
+expression is equal to zero, so 𝛾 𝑐 = 𝜇𝑑𝓁 𝑘 ∕(𝐴𝑘 (𝑑𝓁 𝑘 − 𝑑̄𝑘0 )). It is immediate                    Gardner, T., 1999. Metropolitan classiﬁcation for census years before World War II. Hist.
+that 𝑑 𝛾 𝑐 ∕𝑑 𝑑𝓁𝑘 < 0. □                                                                                  Methods 32, 139–150.
+                                                                                                     Glaeser, E.L., 2011. Triumph of the city,. MacMillan, London.
+Proof of Result 3. From the proof of Result 1, we can write 𝛾 𝑚 =                                    Glaeser, E.L., Kahn, M., 2004. Sprawl and urban growth. In: Henderson, J.V., Thisse, J.F.
+  𝐴𝑘 −𝐴𝓁      𝜇𝑑𝓁𝑘
+   ̄0    ̄0
+            − ̄0   ̄0
+                      . Our aim is to show that 𝛾 𝑚 is increasing in 𝑑̄𝑘0 ∕𝑑̄𝓁0 .                         (Eds.), Handbook of Regional and Urban Economics, Vol.4.. Elsevier.
+𝐴𝑘 𝑑𝑘 −𝐴𝓁 𝑑𝓁    𝐴𝑘 𝑑𝑘 −𝐴𝓁 𝑑𝓁                                                                         Hanson, G., 2005. Market potential, increasing returns and geographic concentration. J.
+To to so, we consider the two terms in the 𝛾 𝑚 expression separately. Be-                                 Int. Econ. 67, 1–24.
+cause we start oﬀ in an equilibrium where 𝐴𝓁 (1 − 𝛾 0 𝑑̄𝓁0 ) = 𝐴𝑘 (1 − 𝛾 0 𝑑̄𝑘0 ),
+                                                                                                     Horan, P.M., Hargis, P.G., 1995. County longitudinal template, 1840–1990.” [computer
+                                                                                                          ﬁle]. ICPSR Study 6576. Inter-university Consortium for Political and Social Research
+                                                               𝐴𝑘 −𝐴𝓁
+where 𝛾 0 is the initial value of 𝛾, it follows that                          = 𝛾 0 . Hence,              [distributor]. Corrected and amended by Patricia E. Beeson and David N. DeJong,
+                                                             𝐴𝑘 𝑑̄𝑘0 −𝐴𝓁 𝑑̄𝓁0                             Department of Economics, University of Pittsburgh, 2001. Corrected and amended by
+the ﬁrst term of the 𝛾𝑚 expression above does not depend on the rela-                                     Jordan Rappaport, Federal Reserve Bank of Kansas City, 2010.
+                                                              𝜇𝑑
+tive size 𝑑̄𝑘0 ∕𝑑̄𝓁0 . This leaves us with the second term, − ̄0 𝓁𝑘 ̄0 . Be-                         Jackson, K.T., 1985. Crapgrass frontier. the suburbanization of the United States. Oxford
+                                                            𝐴𝑘 𝑑𝑘 −𝐴𝓁 𝑑𝓁                                  University Press.
+                                                       𝐴𝑘  1−𝛾 0 𝑑̄𝓁0                                Kerr, W.R., Kominers, S.D., 2015. Agglomerative forces and cluster shapes. Review of
+                 ̄                ̄
+cause 𝐴𝓁 (1 − 𝛾 𝑑𝓁 ) = 𝐴𝑘 (1 − 𝛾 𝑑𝑘 ), it follows that 𝐴 =
+               0  0             0  0                                  . If 𝑑̄𝑘0 ∕𝑑̄𝓁0                     Economics and Statistics 97, 877–899.
+                                                        𝓁  1−𝛾 0 𝑑̄0         𝑘
+                                                                                                     Kopecky, K., Suen, M.H., 2004. Economie d’avant garde: Suburbanization and the Auto-
+increases, we know that 𝑑̄𝑘0 increases and 𝑑̄𝓁0 decreases, since 𝑑̄𝓁0 + 𝑑̄𝑘0 is a                         mobile. Research Report No. 6.
+constant. As a result, if 𝑑̄𝑘0 ∕𝑑̄𝓁0 increases, it follows that 𝐴𝑘 ∕𝐴𝓁 increases.                    Krugman, P., 1993. On the number and location of cities. Eur. Econ. Rev. 37, 293–298.
+                                                                                                     Krugman, P., Venables, A.J., 1995. Globalization and the inequality of nations. Quarterly
+Recall that we are keeping population-weighted productivity the same,
+                                                                                                          Journal of Economics 110, 857–880.
+so 𝐴𝑘 𝑑̄𝑘0 + 𝐴𝓁 𝑑̄𝓁0 is a constant we denote by 𝜆. Hence, 𝐴𝑘 𝑑̄𝑘0 − 𝐴𝓁 𝑑̄𝓁0 =                        Lösch, A., 1940. The economics of location,. Jena„ Germany. Fischer (English translation,
+𝜆 − 2𝐴𝓁 𝑑̄𝓁0 . If the larger city becomes larger and its relative produc-                                 New Haven, CT: Yale University Press, 1954).
+                                                                                                     LeRoy, S.F., Sonstelie, J., 1983. Paradise lost and regained: transportation innovation,
+tivity increases and the overall productivity is unchanged, it must be                                    income, and residential location. J. Urban Econ. 13, 67–89.
+that the productivity of the small city decreases. It hence follows that                             Liu, Y., Wang, X., Wu, J., 2011. Do bigger cities contribute to economic growth in sur-
+                                                                          𝜇𝑑
+𝐴𝑘 𝑑̄𝑘0 − 𝐴𝓁 𝑑̄𝓁0 increases. This implies that the second term, − ̄0 𝓁𝑘 ̄0                                rounding areas? Evidence from County-Level Data in China,” unpublished manuscript.
+                                                                                 𝐴𝑘 𝑑𝑘 −𝐴𝓁 𝑑𝓁        Michaels, G., Rauch, F., Redding, S.J., 2012. Urbanization and structural transformation.
+is increasing in 𝐴𝑘 ∕𝐴𝓁 , so that 𝛾 𝑚 is increasing in 𝐴𝑘 ∕𝐴𝓁 .             □                             Quarterly Journal of Economics 127, 535–586.
+                                                                                                     Mieszkowski, P., Mills, E.S., 1993. The causes of metropolitan suburbanization. Journal
+                                                                                                          of Economic Perspectives 7, 135–147.
+Supplementary material                                                                               Partridge, M.D., Rickman, D.S., Ali, K., Olfert, M.R., 2009. Do new economic geography
+                                                                                                          agglomeration shadows underlie current population dynamics across the urban hier-
+   Supplementary material associated with this article can be found, in                                   archy? Papers in Regional Science 88, 445–466.
+                                                                                                     Rappaport, J., 2005. The shared fortunes of cities and suburbs. Federal Reserve Bank of
+the online version, at doi:10.1016/j.jue.2021.103334.                                                     Kansas City Economic Review. Third Quarter, 33–59
+                                                                                                     Rappaport, J., 2007. Moving to nice weather. Reg. Sci. Urban Econ. 37, 375–398.
+References                                                                                           Rappaport, J., Sachs, J.D., 2003. The United States as a coastal nation. Journal of Economic
+                                                                                                          Growth 8, 5–46.
+Ahlfeldt, G.M., Redding, S.J., Sturm, D.M., Wolf, N., 2015. The economics of density:                Rauch, F., 2014. Cities as spatial clusters. Journal of Economic Geography 14, 759–773.
+    evidence from the Berlin Wall. Econometrica 83, 2127–2189.                                       Redding, S., Sturm, D., 2008. The costs of remoteness: evidence from German division and
+Allen, T., Arkolakis, C., 2014. Trade and the topography of the spatial economy. Quarterly                reuniﬁcation. American Economic Review 98, 1766–1797.
+    Journal of Economics 129, 1085–1140.                                                             Rosenthal, S.S., Strange, W.C., 2003. Geography, industrial organization, and agglomera-
+Baum-Snow, N., 2007. Did highways cause suburbanization? Quarterly Journal of Eco-                        tion. Review of Economics and Statistics 85, 377–393.
+    nomics 122, 775–805.                                                                             Shaw, R.E., 1990. Canals for a nation. the canal era in the United States, 1790–1860,. The
+Beltrán, F. J., Díez-Minguela, A., Martínez-Galarraga, J., forthcoming. The shadow of                     University Press of Kentucky.
+    cities: Size, location, and the spatial distribution of population in Spain. Annals of           Su, Y., 2018. The rising value of time and the origin of urban gentriﬁcation. Unpublished
+    Regional Science.                                                                                     manuscript.
+Bernard, A., 2014. Lifted: A cultural history of the elevator,. NYU Press, New York.                 Tabuchi, T., Thisse, J.F., 2011. A new economic geography model of central places. J.
+Bernhofen, D.M., El-Sahli, Z., Kneller, R., 2016. Estimating the eﬀects of the container                  Urban Econ. 69, 240–252.
+    revolution on world trade. J. Int. Econ. 98, 36–50.                                              Thorndale, W., Dollarhide, W., 1987. Map guide to the Federal Censuses, 1790–1920,.
+Black, D., Henderson, V., 2003. Urban evolution in the USA. Journal of Economic Geog-                     Genealogical Publishing Company, Baltimore.
+    raphy 3, 343–372.                                                                                U. S. Bureau of the Census, 1905. Street and electric railways 1902. Government Printing
+Bosker, M., Buringh, E., 2017. City seeds: geography and the origins of European cities.                  Oﬃce, Washington.
+    J. Urban Econ. 98, 139–157.                                                                      U. S. Bureau of the Census, 1910. Street and electric railways 1907. Government Printing
+Christaller, W., 1933. Central places in southern Germany. Jena„ Germany. Fischer (En-                    Oﬃce, Washington.
+    glish translation by C. W. Baskin, London: Prentice Hall, 1966                                   Warner Jr., S.B., 1972. Streetcar suburbs. the process of growth in Boston, 1870–1900,.
+Conley, T., 1999. GMM Estimation with cross sectional dependence. J. Econom. 92, 1–45.                    Harvard University Press and the MIT Press.
+Cronon, W., 1991. Nature’s metropolis: Chicago and the Great West. W. W. Norton, New                 Young, J., 2015. Infrastructure: Mass transit in 19th and 20th century urban America.
+    York.                                                                                                 Oxford Research Encyclopedia of American History. Online Publication Date: March
+Davis, D.R., Weinstein, D.E., 2002. Bones, bombs, and break points: the geography of                      2015
+    economic activity. American Economic Review 92, 1269–1289.
+
+
+
+
+                                                                                                17
+

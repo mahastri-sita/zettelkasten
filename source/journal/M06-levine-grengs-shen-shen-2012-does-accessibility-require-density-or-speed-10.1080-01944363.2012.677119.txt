@@ -1,0 +1,871 @@
+[PDF Metadata]
+Source PDF: journal/M06-levine-grengs-shen-shen-2012-does-accessibility-require-density-or-speed-10.1080-01944363.2012.677119.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Does Accessibility Require Density or Speed?
+Subject:         Journal of the American Planning Association 2012.78:157-172
+Author:          Jonathan Levine a jnthnlvn@umich.edujnthnlvn@umich.edu, Joe Grengs a grengs@umich.edu, Qingyun Shen a sqingyun@umich.edu & Qing Shen b qs@u.washington.edu
+Producer:        iText 2.1.5 (by lowagie.com)
+CreationDate:    Mon Jun 18 03:28:29 2012 WIB
+ModDate:         Mon Jun 18 03:28:29 2012 WIB
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           17
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       9928456 bytes
+Optimized:       no
+PDF version:     1.4
+[Extracted Text]
+This article was downloaded by: [University of Delaware]
+On: 17 June 2012, At: 13:28
+Publisher: Routledge
+Informa Ltd Registered in England and Wales Registered Number: 1072954 Registered office: Mortimer House,
+37-41 Mortimer Street, London W1T 3JH, UK
+
+
+
+                                 Journal of the American Planning Association
+                                 Publication details, including instructions for authors and subscription information:
+                                 http://www.tandfonline.com/loi/rjpa20
+
+                                 Does Accessibility Require Density or Speed?
+                                                    a            a                a              b
+                                 Jonathan Levine , Joe Grengs , Qingyun Shen & Qing Shen
+                                 a
+                                     University of Michigan
+                                 b
+                                     University of Washington
+
+                                 Available online: 03 May 2012
+
+
+
+To cite this article: Jonathan Levine, Joe Grengs, Qingyun Shen & Qing Shen (2012): Does Accessibility Require Density or
+Speed?, Journal of the American Planning Association, 78:2, 157-172
+
+To link to this article: http://dx.doi.org/10.1080/01944363.2012.677119
+
+
+
+PLEASE SCROLL DOWN FOR ARTICLE
+
+Full terms and conditions of use: http://www.tandfonline.com/page/terms-and-conditions
+
+This article may be used for research, teaching, and private study purposes. Any substantial or systematic
+reproduction, redistribution, reselling, loan, sub-licensing, systematic supply, or distribution in any form to
+anyone is expressly forbidden.
+
+The publisher does not give any warranty express or implied or make any representation that the contents
+will be complete or accurate or up to date. The accuracy of any instructions, formulae, and drug doses should
+be independently verified with primary sources. The publisher shall not be liable for any loss, actions, claims,
+proceedings, demand, or costs or damages whatsoever or howsoever caused arising directly or indirectly in
+connection with or arising out of the use of this material.
+RJPA_A_677119.qxp                                                           4/27/12      5:25 PM      Page 157
+
+
+
+
+                                                                                                                                                                                                                157
+
+
+
+                                                                                                                 Does Accessibility
+                                                                                                                 Require Density or
+                                                                                                                 Speed?
+
+                                                                                                                 A Comparison of Fast Versus Close in Getting
+                                                                                                                 Where You Want to Go in U.S. Metropolitan
+                                                                                                                 Regions
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                                                                                 Jonathan Levine, Joe Grengs, Qingyun Shen, and Qing Shen
+
+
+
+
+                                                                                                                 “A
+                                                               Problem, research strategy, and                                n experienced Australian traveler once said that on business
+                                                               findings: Advocates of accessibility as a
+                                                                                                                              trips to Australian cities he could reckon to make four meet-
+                                                               transportation performance metric often
+                                                               assert that it requires higher density. Con-
+                                                                                                                              ings in a day,” writes Thomson (1977, p. 48). “In Europe he
+                                                               versely, traditional transportation planning      could manage five; in the United States he could manage only three.” The
+                                                               methods have valued speed per se as an            reason behind the variations in this traveler’s itineraries was not an Ameri-
+                                                               indicator of success in transportation. In        can propensity for long meetings, or the speed of travel in American cities,
+                                                               examining these claims, we make two               which is in any case faster than in Western Europe or Australia (Kenworthy
+                                                               methodological innovations. The first is a new
+                                                                                                                 & Laube, 2002). Instead, his schedules were determined by the great dis-
+                                                               intermetropolitan gravity-based accessibility
+                                                               metric. Second, we decompose the impact of        tances, and, hence, long travel times separating his business contacts in
+                                                               density on accessibility to highlight the         metropolitan areas of the United States. What the traveler wanted was
+                                                               distinct opposing influences of speed and         interaction in the form of personal contact with the people with whom he
+                                                               proximity in a manner that illustrates differ-    did business. The speed with which he was able to travel was relatively
+                                                               ent families of relationships between these two   unimportant to him; much more central was the amount of interaction he
+                                                               factors. This reveals that denser metropolitan
+                                                                                                                 could accomplish in a given time.
+                                                               regions have slower travel speeds but greater
+                                                               origin-destination proximity. The former
+                                                               effect tends to degrade accessibility while the
+                                                               latter tends to enhance it. Despite theoretical   Keywords: accessibility, mobility, speed,      tan Land Use. Joe Grengs, AICP
+                                                               reasons to expect that the speed effect           proximity, transportation planning             (grengs@umich.edu), is associate professor
+                                                               dominates, results suggest that the proximity     Research support: Environmental                of urban planning at the University of
+                                                               effect dominates, rendering the denser            Protection Agency project RD-83334901-         Michigan. Qingyun Shen
+                                                               metropolitan areas more accessible.               0, FHWA Cooperative Agreement Num-             (sqingyun@umich.edu) is a Ph.D. candidate
+                                                                                                                 ber: DTFH61-07-H-00037, and the                in urban and regional planning at the
+                                                               Takeaway for practice: Having
+                                                                                                                 Graham Environmental Sustainability            University of Michigan. Qing Shen
+                                                               destinations nearby, as when densities are
+                                                                                                                 Institute at the University of Michigan.       (qs@u.washington.edu) is professor and
+                                                               high, offers benefits even when the
+                                                                                                                 About the authors:                             chair of urban design and planning at the
+                                                               associated congestion slows traffic. Where
+                                                                                                                 Jonathan Levine (jnthnlvn@umich.edu) is        University of Washington.
+                                                               land use policy frequently seeks to support
+                                                               low-development densities in part in an           professor of urban planning at the Univer-
+                                                                                                                 sity of Michigan. He specializes in trans-     Journal of the American Planning Association,
+                                                               attempt to maintain travel speeds and
+                                                                                                                                                                Vol. 78, No. 2, Spring 2012
+                                                               forestall traffic congestion, our findings        portation and land use planning and is the
+                                                                                                                                                                DOI 10.1080/01944363.2012.677119
+                                                               suggest that compact development can              author of Zoned Out: Regulation, Markets,      © American Planning Association, Chicago, IL.
+                                                               often improve transportation outcomes.            and Choices in Transportation and Metropoli-
+RJPA_A_677119.qxp                                                             4/27/12     5:25 PM     Page 158
+
+
+
+
+                                                               158 Journal of the American Planning Association, Spring 2012, Vol. 78, No. 2
+
+
+                                                                    This traveler was unwittingly expressing a view of                    than less. Travel to more remote shopping or work loca-
+                                                               transportation policy based in accessibility,1 in contrast to              tions might be accomplished at a high speed, but the
+                                                               the mobility-centered view so dominantly reflected in                      spread of these destinations can demand more travel com-
+                                                               current policy and in the physical form of the built envi-                 pared to more compact and clustered urban arrangements
+                                                               ronment in metropolitan areas in the United States and                     where travel is slower. If travelers do not consume trans-
+                                                               many countries around the world. This mobility-oriented                    portation for its own sake but in order to access destina-
+                                                               view extends to the metrics by which transportation sys-                   tions, then policies that lead to increased costs per destina-
+                                                               tems are assessed. When evaluating the performance of a                    tion would be counterproductive because they would leave
+                                                               transportation system, the fundamental criterion for suc-                  the travelers with less time and money to spend at their
+                                                               cess has long been faster vehicle operating speed (Ewing,                  destinations. This formulation implies a rejection of mobil-
+                                                               1995; Transportation Research Board, 2010). Common                         ity or congestion relief per se as an independent goal for
+                                                               indicators include delay per capita, dollars wasted while                  transportation policy. The goal is more properly specified
+                                                               waiting in traffic (Schrank & Lomax, 2007), and high-                      as accessibility, which has been defined as the “potential of
+                                                               way level of service (Edwards, 1992; Transportation                        opportunities for interaction” (Hansen, 1959, p. 79) or the
+                                                               Research Board, 1994). This mobility-based perspective                     “ease of reaching places” (Cervero, 1996, p. 1). Mobility,
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               of transportation policy dominates the view of the                         by contrast, is simply the ease of movement. Where desti-
+                                                               general public as well. The widely publicized congestion                   nations are nearby, high accessibility can be provided even
+                                                               measures that routinely appear in newspapers nation-                       with low mobility (as the Australian business traveler
+                                                               wide when the Texas Transportation Institute publishes                     found in the compact cities of Europe); conversely, where
+                                                               its annual Urban Mobility Report (Schrank & Lomax,                         origins and destinations are spread broadly, even great
+                                                               2007) have helped to elevate the alleviation of traffic                    mobility does not ensure high accessibility. Thus, reliance
+                                                               congestion to a top public policy priority. Under all such                 on metrics of mobility to evaluate planning outcomes
+                                                               mobility-based evaluation measures, planners, engineers,                   implies either a belief that the proximity of origins and
+                                                               and the general public deem rapid movement as a                            destinations is insensitive to transportation system changes,
+                                                               definitive success.                                                        or that such proximity is irrelevant as a planning outcome.
+                                                                    Yet, a building block of modern transportation plan-                       Mobility is one means to accessibility; others are
+                                                               ning is the notion that the demand for transportation is                   remote connectivity (e.g., via Internet or other electronic
+                                                               derived (Meyer & Miller, 2001); that is, people rarely                     means) and proximity (Figure 1). But mobility and prox-
+                                                               consume transportation for the pleasure of movement per                    imity exist in tension with each other: Places with many
+                                                               se, but rather travel in order to reach opportunities avail-               origins and destinations near one another tend to be
+                                                               able at destinations. This fundamental understanding is an                 places where surface transportation is slow; conversely,
+                                                               underpinning of travel demand analysis, which models                       areas of rapid surface travel tend to be areas where origins
+                                                               transportation flows based on the arrangement of land use                  and destinations are further apart. It is not immediately
+                                                               patterns across a region (Mitchell & Rapkin, 1954).                        apparent which urban forms offer higher accessibility: areas
+                                                               Despite some speculation that some market segments                         of rapid surface travel and little proximity, or areas offering
+                                                               may view movement as an end in itself (Salomon &                           high proximity of origins and destinations but slower
+                                                               Mokhtarian, 1998), the derived demand hypothesis re-                       travel. Accessibility impacts would be the result of the net
+                                                               mains the consensus of the field, a view supported by the                  effect of speed and distance change as one moves from one
+                                                               preponderance of empirical evidence.                                       urban form to the other.
+                                                                    Apart from its role in land use-based travel demand                        Nearly all empirical research measuring accessibility to
+                                                               analysis, the derived demand assumption has another                        date has been focused on case studies of single metropoli-
+                                                               important implication, which transportation policy has too                 tan regions (e.g., Benenson, Rofe, Martens, & Kwartler,
+                                                               rarely confronted. If the purpose of transportation is not                 2010; Cheng, Bertolini, & le Clercq, 2007; Grengs 2010;
+                                                               movement but access, then increased mobility is desired                    Scott & Horner, 2008; Shen, 1998). Allen, Liu, & Singer
+                                                               only to the extent that such a change also increases accessi-              (1993) compared accessibility between metropolitan areas
+                                                               bility over the longer run. Pursuit of congestion relief                   but used standard speeds by roadway type as the basis of
+                                                               through added transportation capacity can induce destina-                  their impedance metric; as such their study would not have
+                                                               tions to move farther and farther apart (Transportation                    captured the tradeoff between proximity and travel speed.
+                                                               Research Board, 1995). In theory, a paradox can, thus,                     More recently, Kawabata and Shen (2006) compared
+                                                               arise: Increased mobility can be associated, over the long                 Boston and Los Angeles with Tokyo in terms of job acces-
+                                                               run, with more time and money spent in travel, rather                      sibility; their analysis focused on the accessibility gap
+RJPA_A_677119.qxp                                                           4/27/12      5:25 PM     Page 159
+
+
+
+
+                                                               Levine et al.: Does Accessibility Require Density or Speed?                                                                                159
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               Figure 1. Relationships among mobility, proximity, connectivity, and accessibility.
+
+                                                               (Color figure available online.)
+
+                                                               between automobile commuters and public transit com-                           mobility much more narrowly. A mobility improvement is
+                                                               muters rather than the relative contributions of proximity                     defined here as a reduction in the time-plus-money cost of
+                                                               and speed. Accessibility comparisons could be on the basis                     travel per mile. An accessibility improvement is approxi-
+                                                               of the same region or regions over time (e.g., Grengs,                         mately defined as a reduction in the time-plus-money cost
+                                                               2004) or between regions in a cross-sectional analysis. This                   of travel per destination. But, since not all destinations are
+                                                               study adopted the cross-sectional approach. One consider-                      equal, one should speak of the value of destinations; and,
+                                                               ation in this design was data availability: Outputs of re-                     since accessibility can also be gained by virtual means,
+                                                               gional travel models are rarely archived, and generating an                    “travel” should be replaced by the broader “interaction.”
+                                                               ample basis for comparison would be difficult. The second                      Thus, an accessibility improvement is defined here as a
+                                                               consideration pertained to sources of variation. Metropoli-                    reduction in the time-plus-money cost of interaction per
+                                                               tan regions grow incrementally, so their urban form does                       unit value of destination.
+                                                               not change radically from one decade to the next. For this                          One view in the urban planning and transportation
+                                                               reason, a time-series comparison would have limited vari-                      literature holds that a low-density, auto-oriented metropol-
+                                                               ance between observations. By contrast, a cross-sectional                      itan form is also a low-accessibility form (Curtis &
+                                                               comparison makes use of existing variance in urban form                        Scheurer, 2010; Ewing, 1994). The implications of this
+                                                               between metropolitan areas in order to infer relationships                     view are far reaching. A mobility-based transportation-
+                                                               with accessibility outcomes.                                                   planning logic frequently militates towards development of
+                                                                    Accessibility has been operationalized in a variety of                    low-density areas that support rapid highway travel. If
+                                                               ways. A study by Wachs and Kumagai (1973) is an exam-                          these forms of development turn out to degrade metropoli-
+                                                               ple of a cumulative opportunities approach, where accessi-                     tan accessibility overall, metropolitan density would be
+                                                               bility is defined by the count of destinations that fall                       seen as a (accessibility-based) transportation benefit, rather
+                                                               within a threshold distance or travel time from any zone.                      than a (mobility-based) transportation disadvantage. The
+                                                               Niemeier (1997) provides an example of a utility approach,                     problem is that the assertion that low-density, auto-ori-
+                                                               where accessibility is defined in terms of the value that                      ented development is a low-accessibility form has little
+                                                               travelers assign to their trip to work. Other approaches                       basis in empirical analysis. It is certainly not true by defini-
+                                                               include accounting for travelers’ time constraints based on                    tion; it may well be that more rapid travel in low-density
+                                                               the work of Hägerstrand’s (1970) time-space theory (e.g.,                      metropolitan regions more than compensates for the great
+                                                               Kwan, 1998; Miller, 1999), and incorporating dimension                         distances between their origins and destinations.
+                                                               of overcoming social exclusion (e.g., Hine & Mitchell,                              This study seeks to support policy reform by develop-
+                                                               2001). The current study distinguishes accessibility and                       ing and estimating measures of accessibility that enable a
+RJPA_A_677119.qxp                                                             4/27/12     5:25 PM     Page 160
+
+
+
+
+                                                               160 Journal of the American Planning Association, Spring 2012, Vol. 78, No. 2
+
+
+                                                               meaningful comparison between multiple metropolitan                           Oj is the number of opportunities (the sum of jobs) in
+                                                               areas of the United States. The indicators, which can be                       destination zone j; and
+                                                               analyzed both within and between regions, can help gauge                      F(cij) is a composite impedance function capturing
+                                                               the progress of policy on infrastructure and the built                         travel conditions across multiple metropolitan areas,
+                                                               environment. This study focuses on accessibility to work                       associated with the cost of travel c for travel between
+                                                               by automobile with an analysis of 38 of the largest metro-                     zones i and j.
+                                                               politan areas of the United States. It first demonstrates,                     Zone-to-zone travel time and trip flow tables were
+                                                               using pairwise comparisons of similar metropolitan re-                     requested from the metropolitan planning organizations
+                                                               gions, that regional accessibility can be decomposed into                  (MPO) of the largest 50 regions in the United States. This
+                                                               speed and proximity effects, showing how some regions                      study is based on 38 metropolitan regions, as listed in
+                                                               favor one over the other. It then investigates the metropoli-              Table 1, that responded with data sufficient to analyze.
+                                                               tan urban form conditions that might provide a high level
+                                                               of accessibility to its residents and finds that density is a              Table 1. Metropolitan regions included in the study.
+                                                               key factor, even though it has contradictory effects on
+                                                               accessibility through both the speed and proximity effects.                Metropolitan               Population            2009 MSA
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                                                                                                          region                       rank                population
+
+                                                                                                                                          New York                         1               19,069,796
+                                                               Study Approach                                                             Los Angeles                      2               12,874,797
+                                                                                                                                          Chicago                          3                9,580,567
+                                                                   This study bases its accessibility metrics in the gravity              Dallas                           4                6,447,615
+                                                               model (Isard, 1960; Wilson, 1971), a powerful conceptual                   Philadelphia                     5                5,968,252
+                                                               tool, which simultaneously accounts for both the trans-                    Houston                          6                5,867,489
+                                                               portation network and its surrounding land use conditions                  Washington, DC                   8                5,476,241
+                                                                                                                                          Atlanta                          9                5,475,213
+                                                               (Handy & Niemeier, 1997). Measures of accessibility
+                                                                                                                                          Boston                          10                4,588,680
+                                                               derived from a gravity model are commonly used by urban                    Detroit                         11                4,403,437
+                                                               planning scholars to evaluate the relative ease of reaching                Phoenix                         12                4,364,094
+                                                               spatially distributed opportunities in a metropolitan region               San Francisco                   13                4,317,853
+                                                               (Cervero, Rood, & Appleyard, 1999; Grengs, 2010; Shen,                     Seattle                         15                3,407,848
+                                                               1998). Under a gravity-based measure, the higher the                       Minneapolis                     16                3,269,814
+                                                               accessibility index the greater the advantage a person has in              San Diego                       17                3,053,793
+                                                               reaching destinations. A person living in a zone with a high               Baltimore                       20                2,690,886
+                                                                                                                                          Denver                          21                2,552,195
+                                                               value either has more destinations nearby or is capable of
+                                                                                                                                          Portland                        23                2,241,841
+                                                               traveling more quickly to distant destinations, compared to                Cincinnati                      24                2,171,896
+                                                               a person living in a zone with a lower value. A gravity                    Cleveland                       26                2,091,286
+                                                               model measures the potential for a person to reach destina-                Orlando                         27                2,082,421
+                                                               tions, but it does not address whether people actually                     San Antonio                     28                2,072,128
+                                                               choose to seize that potential. Nevertheless, we prefer this               Kansas City                     29                2,067,585
+                                                               measure over a range of others (Handy & Niemeier, 1997)                    Las Vegas                       30                1,902,834
+                                                               because it allows for decomposing accessibility into the                   Columbus                        32                1,801,848
+                                                                                                                                          Charlotte                       33                1,745,524
+                                                               speed and proximity effects and because it best matches the
+                                                                                                                                          Indianapolis                    34                1,743,658
+                                                               core policy tasks of the urban planner: planning land use                  Virginia Beach                  36                1,674,498
+                                                               and transportation systems for a broad range of                            Nashville                       38                1,582,264
+                                                               constituents with many diverging preferences. The study                    Memphis                         41                1,304,926
+                                                               uses a common form of the gravity model proposed by                        Louisville                      42                1,258,577
+                                                               Hansen (1959):                                                             Richmond                        43                1,238,187
+                                                                                                                                          Oklahoma City                   44                1,227,278
+                                                                                                                                (1)       Hartford                        45                1,195,998
+                                                                                                                                          New Orleans                     46                1,189,981
+                                                               where:                                                                     Buffalo                         50                1,123,804
+                                                                                                                                          Rochester                       51                1,035,566
+                                                                 (Ai) is the accessibility index for people living in zone I,
+                                                                                                                                          Tucson                          52                1,020,200
+                                                                  for travel to work by automobile;
+RJPA_A_677119.qxp                                                           4/27/12     5:25 PM      Page 161
+
+
+
+
+                                                               Levine et al.: Does Accessibility Require Density or Speed?                                                                 161
+
+
+                                                               Although the larger study on which this article draws            here is not new; where most travel modeling suffices with a
+                                                               developed work and non-work accessibility metrics for            ␤ aggregated to the regional level, this project required a
+                                                               both auto and transit modes, this article focuses on work        higher level of aggregation.
+                                                               accessibility by car. Work destinations were selected as the          The goal of using a single ␤ term across all regions in
+                                                               basis for accessibility calculations because they can be         order to achieve a consistent comparison of accessibility
+                                                               readily aggregated and compared; by contrast the various         among metropolitan regions was complicated by a lack of
+                                                               non-work destinations have radically different meaning           data. Ideally, we would derive a ␤ term for each individual
+                                                               and values to the traveler, requiring further assumptions        region separately and then estimate a shared ␤ based on
+                                                               and analysis before they can be analyzed jointly. The auto       these region-specific values. Unfortunately, only 16 of the
+                                                               mode was selected for focus due to the dominance of auto         38 MPOs were able to provide the interzonal data ␤ in-
+                                                               travel in commuting, which also makes it more influential        cluding travel times and the number of trips, that are
+                                                               in terms of policy relevance                                     required to estimate a region-specific ␤ parameter.2 How-
+                                                                    The F(cij) parameter in Equation 1 requires explana-        ever, the ␤ parameters for these 16 metropolitan regions
+                                                               tion for making comparisons across metropolitan regions.         are negatively correlated with metropolitan population, so
+                                                               The term is equal to exp(–␤ Tij), where exp is the base of       we applied a regression model to estimate ␤ parameters
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               natural logarithms, ␤ is a parameter empirically derived to      across the full set of 38 regions based on metropolitan
+                                                               maximize the fit between predictions of the gravity model        population.3 The relationship between ␤ and population
+                                                               and observed distributions of travel times. The ␤ term           among the 16 regions is nonlinear, so the following regres-
+                                                               ordinarily varies between metropolitan regions and has an        sion equation uses an exponential function as the best-
+                                                               important interpretation. People’s willingness to travel a       fitting approximation of the relationship.
+                                                               given time differs from region to region: in some, a 20-
+                                                               minute trip would be considered long and would be                                ␤ ⫽ a ⫻ EXP(b ⫻ POP)                       (2)
+                                                               avoided if possible; in others, it would be considered to be
+                                                               a short trip. The value of ␤ would be lower in the latter        where:
+                                                               region than in the former, indicating a lower impedance             ␤ is the dependent variable in the regression model and
+                                                               associated with each minute of travel.                              is the parameter described in Equation 1, an empirically
+                                                                    Willingness to travel is a function of the opportunities       derived value for each of 16 metropolitan regions;
+                                                               available. Regions in which many destinations were close            POP is the independent variable in the regression
+                                                               by and few far away would presumably demonstrate greater            model and is the MPO population in 2000 based on
+                                                               reticence to travel (and, thus, a higher value for ␤) than          census data;
+                                                               those with few nearby destinations and many farther away.           a and b are parameters in an exponential equation to
+                                                               In order to compare accessibility between regions, this             be estimated by regression.
+                                                               study considered two possibilities: a ␤ term that varies             Equation 2 is run using values from 16 regions for two
+                                                               between regions and a single ␤ term across all comparison        cases of trip purpose, resulting in estimates for the regres-
+                                                               regions. The former would have accounted for interre-            sion model parameters for work travel (a ⫽ 0.109, b ⫽
+                                                               gional variations in propensity to travel; the latter would      –3.52 ⫻ 10–8). These results were then used to predict the
+                                                               aid consistent comparison of accessibility between regions.      ␤ values for each of the 38 metropolitan regions. Finally,
+                                                                    This study uses the single ␤ option. Variations in ␤ are    we assigned as the single, shared ␤ value the result from the
+                                                               largely endogenous to land use patterns, as described            metropolitan region with the median MPO population
+                                                               above. For this reason, using region-specific parameters         and used it for the calculation of accessibility indicators for
+                                                               would have the effect of giving accessibility credit to a        each of the 38 metropolitan regions.
+                                                               region in which people readily take long trips. But if their
+                                                               propensity to take long trips is a function in part of lack of
+                                                               nearby destinations, then the region-specific parameter          Evaluating the Interaction of Speed
+                                                               would tend to overestimate the accessibility of these places     and Proximity: Pairwise Comparisons
+                                                               compared to others where long-distance trips were less
+                                                               necessary. The search for a single aggregate ␤ was necessary
+                                                                                                                                of Metropolitan Regions
+                                                               in order to reach meaningful comparisons of accessibility            Understanding region-level tradeoffs between speed
+                                                               between regions. Note that even a single regional ␤ term is      and proximity requires intermetropolitan comparisons of
+                                                               in effect a composite of numerous and varying ␤ terms for        accessibility. In order to explore the interaction of speed
+                                                               individuals within the region. The process of aggregation        and proximity on accessibility, metropolitan areas were
+RJPA_A_677119.qxp                                                               4/27/12      5:25 PM   Page 162
+
+
+
+
+                                                               162 Journal of the American Planning Association, Spring 2012, Vol. 78, No. 2
+
+
+                                                               paired on the basis of population size, and the distribution                accomplished by transforming the speed distribution of
+                                                               of accessibility analyzed between the two regions. For                      San Francisco into that of Washington, DC. A new set of
+                                                               example a pairing of metropolitan Washington, DC, with                      accessibility indicators is calculated for San Francisco,
+                                                               the San Francisco Bay Area (Figure 2) reveals similar levels                using travel times derived from Washington speeds.4
+                                                               of accessibility at the low end (the 1st percentile house-                  Figure 2 graphs the transformed accessibility curve to-
+                                                               hold) and the high end (e.g., the 99th percentile house-                    gether with the original curves. The speed-related advan-
+                                                               hold). The rest of the distribution reveals a higher accessi-               tage to San Francisco is shown as the shaded area between
+                                                               bility for the San Francisco area; for example, with an                     the top and bottom curves; the proximity-related advan-
+                                                               accessibility score of over 100,000, the median Bay Area                    tage to Washington, DC, is represented by the cross-
+                                                               resident enjoys nearly double the accessibility of his or her               hatched area below the bottom curve. Notwithstanding the
+                                                               Washington, DC, counterpart. Although the horizontal                        greater density of the San Francisco Bay Area, Washington,
+                                                               axis in these graphs is ordered simply by population per-                   DC, demonstrates both a proximity advantage and a speed
+                                                               centile of the accessibility score, it has somewhat of a                    disadvantage. Given the greater magnitude of the speed
+                                                               geographical interpretation: since accessibility generally                  disadvantage of Washington, DC, the potential accessibil-
+                                                               declines in concentric rings radiating outward from the                     ity benefit of greater proximity was squandered by poor
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               center of the region, households at the low end of the                      mobility relative to that of the San Francisco Bay Area, in
+                                                               distribution tend to reside in peripheral areas, while those                this case automobility, since the accessibility metric is
+                                                               at the high end live at the center. The median household                    automobile based. Here, the accessibility outcome is con-
+                                                               would in most cases be a suburban resident.                                 sistent with traditional mobility-based transportation
+                                                                    Accessibility differences between two regions may be                   planning; poor mobility has degraded the accessibility of
+                                                               decomposed into a proximity component and a speed                           what might otherwise be a highly accessible metropolitan
+                                                               component (Grengs, Levine, Shen, & Shen, 2010). This is                     area.
+
+
+
+
+                                                               Figure 2. Decomposition of accessibility differences between metropolitan San Francisco and Washington, DC.
+
+                                                               (Color figure available online.)
+RJPA_A_677119.qxp                                                           4/27/12      5:25 PM     Page 163
+
+
+
+
+                                                               Levine et al.: Does Accessibility Require Density or Speed?                                                                             163
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               Figure 3. Decomposition of accessibility differences between metropolitan Philadelphia and Houston.
+
+                                                               (Color figure available online.)
+
+
+                                                                    This relationship of speeds and accessibility is not                    overall. This is the case with New York when compared
+                                                               universal, however, as illustrated by a similar decomposi-                   with Los Angeles (Figure 4). New York enjoys a slight
+                                                               tion of accessibility differences between another pair of                    speed advantage, a considerable proximity advantage, and
+                                                               similarly sized metropolitan areas: Philadelphia and Hous-                   overall accessibility advantage over Los Angeles for most of
+                                                               ton (Figure 3). Philadelphia enjoys a considerable accessi-                  the population distribution. Ironically, New York was
+                                                               bility advantage over Houston for most of the population                     singled out as a particularly problematic case in a recent
+                                                               distribution, notwithstanding the similar densities of the                   book, Mobility First (Staley, 2008). Notwithstanding the
+                                                               regions overall (1,038 people/km2 for Houston, 1,070 for                     serious congestion problems of New York City, its region
+                                                               Philadelphia). A decomposition of the accessibility between                  presents the highest accessibility case of all regions studied
+                                                               the two regions reveals that Houston enjoys a considerable                   (a function in part of its very large size). This case demon-
+                                                               speed advantage over Philadelphia, but suffers from a                        strates the very different conclusions that are reached in
+                                                               proximity disadvantage. Notably, the proximity                               transportation policy when the evaluation turns from
+                                                               disadvantage exceeds the speed advantage, generating an                      mobility to accessibility; a region deemed to be mobility-
+                                                               accessibility disadvantage for Houston overall. While the                    deficient emerges as accessibility rich.
+                                                               Washington–San Francisco comparison was consistent
+                                                               with a mobility-based view of planning, the Houston–
+                                                               Philadelphia comparison provides a counterexample:                           Accessibility and Urban Form
+                                                               Houston accessibility suffers when compared to
+                                                               Philadelphia despite its faster travel speeds.                                    A central question of this study is the impact of urban
+                                                                    A third case presents itself as well: If metropolitan                   form on accessibility outcomes, and in particular, what
+                                                               region A enjoys both a speed and a proximity advantage                       kind of metropolitan region provides a high level of acces-
+                                                               over region B, it will demonstrate higher accessibility                      sibility to its residents. Urban form in this context can
+RJPA_A_677119.qxp                                                               4/27/12      5:25 PM   Page 164
+
+
+
+
+                                                               164 Journal of the American Planning Association, Spring 2012, Vol. 78, No. 2
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               Figure 4. Decomposition of accessibility differences between metropolitan New York and Los Angeles.
+
+                                                               (Color figure available online.)
+
+
+                                                               mean a host of characteristics, including centralization,                   concentration such as a downtown or transit-oriented devel-
+                                                               concentration, density, and others (Galster, Hanson,                        opment. Thus, the extent of these concentrations affects this
+                                                               Ratcliffe, Wolman, Coleman, & Freihage, 2001; Lee,                          person only marginally. By contrast overall metropolitan
+                                                               2007). This study tested the impacts of a range of these                    densities can affect median accessibility markedly in two ways.
+                                                               attributes on accessibility outcomes (measured in this
+                                                                                                                                               • Higher density can reduce average travel speed. Auto-
+                                                               section as median work accessibility by auto). Regression
+                                                                                                                                                 ownership rates in U.S. metropolitan regions, includ-
+                                                               models revealed little to no relationship between such
+                                                                                                                                                 ing higher-density regions, is high. Thus, population
+                                                               metrics as centralization and concentration but that aver-
+                                                                                                                                                 density in these regions can lead to high traffic
+                                                               age metropolitan densities appeared to be a significant
+                                                                                                                                                 densities and therefore slow speed. By holding
+                                                               determinant of median work accessibility by automobile.
+                                                                                                                                                 distances constant, slower travel speeds would degrade
+                                                               The discussion that follows is an effort to discover a theo-
+                                                                                                                                                 accessibility.
+                                                               retical basis for this apparent relationship between metro-
+                                                                                                                                               • Higher density can increase proximity, by shortening
+                                                               politan densities and accessibility.
+                                                                                                                                                 the distance between origins and destinations. Higher
+                                                                    The finding that several common urban form indicators
+                                                                                                                                                 density regions put numerous destinations closer to a
+                                                               have little relationship to regional accessibility is, in part, a
+                                                                                                                                                 given origin than their lower-density counterparts. For
+                                                               function of a focus on the median resident. The median
+                                                                                                                                                 example, in the case of jobs, higher job densities would
+                                                               resident in accessibility terms of the typical U.S. metropolis is
+                                                                                                                                                 mean more job locations at closer proximity to more
+                                                               a suburbanite (in each of the 38 regions, the zone with the
+                                                                                                                                                 residents. By holding travel speeds constant, shorter
+                                                               median accessibility score is located outside the central city,
+                                                                                                                                                 distances would increase accessibility.
+                                                               and in many instances at a substantial distance from the
+                                                               central city). In nearly every case, this individual does not live          Thus, the effect of density on accessibility can be thought
+                                                               in or near the downtown or even in or near a suburban                       of as the sum of the speed effect and the proximity effect.
+RJPA_A_677119.qxp                                                            4/27/12      5:25 PM      Page 165
+
+
+
+
+                                                               Levine et al.: Does Accessibility Require Density or Speed?                                                                                     165
+
+
+                                                               If the speed effect dominates, denser regions would be less                         held constant, but density of destinations is doubled,
+                                                               accessible regions; if the proximity effect dominates, less                         leading to a doubling of accessibility. Thus, while accessi-
+                                                               accessible regions would be more accessible.                                        bility increases with the square of speed, it increases lin-
+                                                                    There are theoretical reasons to argue both positions,                         early with density. Increasing speed, thus, confers a very
+                                                               as described below.                                                                 significant accessibility advantage, one that will be difficult
+                                                                                                                                                   to overcome with the proximity effect. This theoretical
+                                                               Possibility 1: The Speed Effect Dominates                                           possibility supports the mobility-centered view that is
+                                                               the Proximity Effect                                                                reflected so dominantly in current transportation policy,
+                                                                    One common measure of accessibility is a cumula-                               but there is another possible explanation of density’s influ-
+                                                               tive opportunities measure, or the number of destina-                               ence on accessibility.
+                                                               tions reachable within a given amount of time. This
+                                                               concept is used here to illustrate why the speed effect                             Possibility 2: The Proximity Effect
+                                                               may dominate in producing higher accessibility. The                                 Dominates the Speed Effect
+                                                               territory accessible within Y minutes would be an irregu-                                Notwithstanding the very evident benefit of speeds in
+                                                               larly shaped area (depending on the shape of the street                             producing accessibility, could the proximity effect dominate
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               network) but is simplified here as a circle and illustrated                         the speed effect? This possibility is analyzed by decomposing
+                                                               with Figure 5. Destinations are represented in the figure                           the relationship between density and transportation speeds.
+                                                               as Xs. When speed doubles, the radius of the circle that                            Metropolitan density may influence travel speeds in two
+                                                               can be reached within a given time increases from r to                              competing ways. First, low-density metropolitan regions
+                                                               2r. As a consequence, the area of the circle quadruples                             typically offer more roadway capacity per person than their
+                                                               from ␲r2 to 4␲r2. Given constant density of the destina-                            high-density counterparts. Figure 7 shows that low-density
+                                                               tions, the destinations reachable within the specified                              regions tend to have a high ratio of roadway lane miles per
+                                                               time also quadruple with the doubling of speeds. Thus,                              capita, a factor that would tend to raise travel speeds. Yet,
+                                                               in the case of the simple circle, accessibility increases                           the tendency for higher capacity in low-density regions
+                                                               with the square of speed.                                                           appears to be at least partly negated by the higher vehicle
+                                                                    The impact of increasing densities on accessibility can                        miles traveled (VMT) per capita observed in these regions,
+                                                               be illustrated in a similar fashion. In Figure 6, speeds are                        as shown in Figure 8. Low-density regions are thus
+
+
+
+
+                                                               Figure 5. Illustration of speed effect of accessibility (holding destinations constant).
+
+                                                               (Color figure available online.)
+RJPA_A_677119.qxp                                                               4/27/12       5:26 PM      Page 166
+
+
+
+
+                                                               166 Journal of the American Planning Association, Spring 2012, Vol. 78, No. 2
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               Figure 6. Illustration of density effect of accessibility (holding speeds constant).
+
+                                                               (Color figure available online.)
+
+
+                                                               simultaneously roadway-intensive and travel-intensive.                                 estimate a system of interrelated variables, and it is custom-
+                                                               Speeds are determined neither by VMT nor by roadway                                    ary to represent the results graphically as shown in Figure
+                                                               miles in isolation, but as a function of the interaction of the                        10. The values represented along each link in the figure are
+                                                               two. The relatively strong (R2 ⫽ 0.26) negative relationship                           standardized regression coefficients, a measure of the
+                                                               between density and VMT per capita interacts with a some-                              strength of the relationship between the variables shown in
+                                                               what stronger (R2 ⫽ 0.37) relationship between density and                             the diagram. The dependent variable of each regression
+                                                               freeway lane miles per capita. The net result is that the                              equation is the variable to which an arrow points. Indepen-
+                                                               relationship between population density and traffic density                            dent variables are those represented as pointing toward the
+                                                               (Figure 9) is relatively weak (R2 ⫽ 0.11).5 Lower-density                              dependent. For example, weighted average auto speed is
+                                                               regions show less traffic density than higher-density counter-                         the dependent variable in a regression with highway speed
+                                                               parts, but only marginally. While the speed-accessibility link                         limit and total daily VMT to total lane miles ratio inde-
+                                                               is expected to be strong, the density-speed link may be quite                          pendent.
+                                                               weak, and by extension lead to a weak link between density                                  Variables in Figure 10 are defined as follows:
+                                                               and accessibility. In this case, the proximity effect would
+                                                               outweigh the speed effect.                                                                 Urban area density: Population of the relevant urban
+                                                                    These relationships were tested by implementing a                                     area divided by its total land area in square kilometers
+                                                               path analysis, using the 38 cases for which data were avail-                               (U.S. Department of Transportation, Federal Highway
+                                                               able. Path analysis is an application of multiple regression                               Administration, 2008).
+                                                               that aims to identify dependencies among a set of variables.                               Proximity: Median gravity-based work accessibility
+                                                               It uses several regression equations in a recursive manner to                              when distance between origins and destinations (rather
+RJPA_A_677119.qxp                                                           4/27/12      5:26 PM     Page 167
+
+
+
+
+                                                               Levine et al.: Does Accessibility Require Density or Speed?                                                                             167
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               Figure 7. Urbanized area density and freeway lane miles per capita.
+                                                               Source: U.S. Department of Transportation, 2008.
+
+                                                               (Color figure available online.)
+
+
+                                                                    than travel time) is used as the metric of impedance.            VMT per capita divided by total freeway lane miles
+                                                                    Accessibility: As described above, calculated as a gravity       per capita.
+                                                                    metric with peak-period travel time by automobile                Weighted average auto speed: This variable is the aver-
+                                                                    between origins and destinations used as the metric of           age speed, weighted by the imputed travel volume
+                                                                    impedance. The variable is the median score for resi-            share for this zonal pair. The formula of calculating
+                                                                    dents in the region.                                             this weighted average auto speed is:
+                                                                    Highway speed limit: The speed limit of the state or                                                Dij pi wi − Tij . β
+                                                                                                                                                      ∑
+                                                                                                                                                          i= n, j = n
+                                                                                                                                                                           . . .e
+                                                                    territory to which each metropolitan region belongs.                                  i =1, j =1
+                                                                                                                                                                        Tij P W                        (3)
+                                                                                                                                                 S=                                           .
+                                                                    Among the 38 MPOs in our study, this variable takes                                                    n   2
+
+
+                                                                    one of the three values, 65 mph, 70 mph, or 75 mph.6             This computation can be broken into two parts, the
+                                                                    Total daily VMT per capita: Total daily VMT by the               travel speed for each pair: Dij , and its weight of im-
+                                                                                                                                                                          p w −T . β
+                                                                    residents of the urban area divided by the total popula-         puted travel volume share: Tij i . i . e , where,            ij
+
+                                                                                                                                                                          P W
+                                                                    tion of the urban area, retrieved from highway statis-           n is the number of TAZs in a metro; i is the origin
+                                                                    tics (U.S. Department of Transportation, Federal                 TAZ; j is the destination TAZ; Dij is the Euclidean
+                                                                    Highway Administration, 2008).                                   distance between origin and destination; Tij is the
+                                                                    Total freeway lane miles per capita: Total freeway lane          peak-hour travel time by automobile between origin
+                                                                    miles within the urban area divided by the total popu-           and destination; pi is the number of population in the
+                                                                    lation of the urban area, retrieved from highway statis-         origin TAZ; P is the total population in the metro; wj
+                                                                    tics (U.S. Department of Transportation, Federal                 is the number of work opportunities in the destination
+                                                                    Highway Administration, 2008).                                   TAZ; W is the total number of work opportunities in
+                                                                    Total daily VMT to total lane miles ratio: Total daily           the metro; e –Tij .␤ is the travel impedance, which is an
+RJPA_A_677119.qxp                                                               4/27/12      5:26 PM     Page 168
+
+
+
+
+                                                               168 Journal of the American Planning Association, Spring 2012, Vol. 78, No. 2
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               Figure 8. Daily vehicle miles traveled by urbanized area density, largest 50 U.S. urbanized areas.
+                                                               Source: U.S. Department of Transportation, 2008.
+
+                                                               (Color figure available online.)
+
+
+                                                                    exponential function of Tij and ␤, the pooled imped-                        areas’ slower speeds. This effect may be analyzed by com-
+                                                                    ance factor for home-based work trips. The computa-                         paring the composite weight along right hand path (via
+                                                                    tion of imputed travel volume adopts the idea and                           proximity) and the left-hand path (via speed). The weight
+                                                                    format of the gravity model for trip generation and                         along the entire speed path equals (⫺0.123 ⫻ 0.271) ⫽
+                                                                    distribution commonly used in travel demand forecast-                       ⫺0.033, while that along the proximity path equals
+                                                                    ing and modifies it to simplify the calculation.7                           (0.587 ⫻ 0.720) ⫽ 0.423. Thus, notwithstanding the
+                                                                                                                                                evident advantages of speed in generating accessibility,
+                                                                    In path analysis (Figure 10), weights along sequential                      density exerts a positive accessibility effect via proximity
+                                                               paths are multiplied to calculate the weight (or strength of                     that is over 10 times as strong as the negative effect via
+                                                               relationship) along the entire link; weights of parallel paths                   density.
+                                                               are summed. Thus the weight from density to speed may                                 These results, with the positive impacts of density on
+                                                               be calculated as: [(⫺0.537 ⫻ ⫺1.145) ⫹ (⫺0.448 ⫻                                 auto accessibility outweighing their negative impacts, are
+                                                               0.746)] ⫻ (⫺0.440) ⫽ ⫺0.123. As predicted, this link is                          corroborated by data shown in Figure 11. Overall, the
+                                                               weak relative to the other links shown in Figure 10, a                           figure demonstrates a positive relationship between urban-
+                                                               function of its incorporation of two countervailing factors:                     ized area density and accessibility. There is some correla-
+                                                               low density regions are freeway rich on a per capita basis,                      tion between density and metropolitan size (New York and
+                                                               but these regions simultaneously demonstrate high VMT                            Los Angeles are simultaneously two of the largest and
+                                                               per capita.                                                                      densest regions) but the positive relationship holds even
+                                                                    As discussed above, the net effect of density on accessi-                   without these cases. For example, the small region of Las
+                                                               bility is the sum of the positive effect of greater proximity                    Vegas demonstrates high accessibility, in part a function of
+                                                               evident in denser areas and the negative effect of these                         its development density.
+RJPA_A_677119.qxp                                                           4/27/12      5:26 PM     Page 169
+
+
+
+
+                                                               Levine et al.: Does Accessibility Require Density or Speed?                                                               169
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               Figure 9. Traffic density by population density.
+                                                               Source: U.S. Department of Transportation, 2008.
+
+                                                               (Color figure available online.)
+
+
+                                                               Conclusion                                                          Two key obstacles to intermetropolitan comparison
+                                                                                                                              present themselves. The first is data availability and consis-
+                                                                    This study was designed in part to provide proof of the   tency. The principal data sets required for this current
+                                                               concept that intermetropolitan comparisons of accessibility    analysis are zone-to-zone travel times and travel flows for
+                                                               are feasible. The metrics for comparing transportation         peak and off-peak periods by each metropolitan area. On
+                                                               outcomes between regions presented here stand in contrast      the one hand, these data are developed by virtually all large
+                                                               to the strictly mobility-based evaluation approaches that      U.S. metropolitan planning organizations as part of their
+                                                               typify traditional transportation planning. Accessibility      regional transportation planning process. But the data are
+                                                               metrics, while increasing in importance in transportation      collected within a hodgepodge of categories and defini-
+                                                               practice and research, are rarely used to compare metropol-    tions. Much of the work of the current study was devoted
+                                                               itan areas. Intermetropolitan comparisons are key to mov-      to resolving intermetropolitan discrepancies in these
+                                                               ing accessibility to a more central position in transporta-    datasets, a task that necessarily led to a comparison that is
+                                                               tion policy. This is primarily because outcomes are            less reliable than it might be. Progress in accessibility
+                                                               frequently judged relative to others; professionals and lay    evaluation will be facilitated by consistent definition of
+                                                               people are both keen on asking how we are doing com-           these model outputs across regions, and perhaps even the
+                                                               pared to others. Intermetropolitan comparison is also          development of a nationwide repository of this informa-
+                                                               central to inferring the determinants of accessibility and     tion. This would have precedent in the National Transit
+                                                               accessibility change.                                          Database, which requires standardized reporting on the
+RJPA_A_677119.qxp                                                               4/27/12      5:26 PM      Page 170
+
+
+
+
+                                                               170 Journal of the American Planning Association, Spring 2012, Vol. 78, No. 2
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               Figure 10. Path analysis of relationships of density, speed, proximity, and accessibility.
+
+                                                               (Color figure available online.)
+
+
+
+                                                               part of transit agencies receiving federal funding, a stan-                        may degrade accessibility even as it strives to enhance or
+                                                               dardization that facilitates meaningful comparison between                         maintain (auto)mobility. This study supports the view
+                                                               agencies.                                                                          that low-density regions tend to be regions of low auto-
+                                                                    The second obstacle to intermetropolitan comparison                           mobile accessibility as well. Where higher densities are
+                                                               of accessibility is methodological. Whereas in standard                            frequently viewed as a transportation disadvantage be-
+                                                               transportation planning practice an individual impedance                           cause of their impacts on automobility, this study sug-
+                                                               distance-decay function is estimated throughout the re-                            gests distinct transportation advantages when viewed in
+                                                               gion, this study has relied on a single pooled factor. This                        accessibility terms.
+                                                               article has argued both for the necessity and for the logic of                          Ultimately, reform of transportation planning toward
+                                                               such a move; yet, there are many approaches to estimating                          an accessibility-oriented practice is about getting more of
+                                                               such a factor. Significantly higher or lower factors could                         what people want out of transportation. This perspective
+                                                               not only raise or lower accessibility levels overall, but could                    brings transportation planning practice in line with trans-
+                                                               alter the ordinal ranking between metropolitan areas.                              portation research that finds that the demand for travel is
+                                                                    In addition to demonstrating the feasibility of inter-                        derived from the demand for reaching destinations. The
+                                                               metropolitan comparisons of utility, this study seeks to                           shift holds the promise of altering the tradeoff relationship
+                                                               demonstrate their relevance to urban planning practice.                            that has gripped transportation for years whereby trans-
+                                                               Traditional mobility-based transportation evaluations                              portation goals and environmental goals are viewed as
+                                                               tend to militate against denser development on the                                 being in competition. With compact metropolitan regions
+                                                               theory that dense land use can lead to dense traffic and,                          being associated with both lower VMT and higher accessi-
+                                                               hence, congestion. The analysis presented here does not                            bility, transportation and land use policy may be able to
+                                                               dispute that, but argues for a more nuanced understand-                            promote both sets of values simultaneously.
+                                                               ing of dense development: increasing density may well be
+                                                               accessibility enhancing, if the proximity effect on accessi-                       Notes
+                                                               bility outweighs the speed-reduction effect. Conversely,                           1. In other contexts, accessibility focuses on the needs of people with
+                                                               using land use regulations to preclude such densification                          disability. The concept is used more broadly here.
+RJPA_A_677119.qxp                                                           4/27/12      5:26 PM     Page 171
+
+
+
+
+                                                               Levine et al.: Does Accessibility Require Density or Speed?                                                                                           171
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               Figure 11. Median work accessibility by automobile by urbanized area density.
+
+                                                               (Color figure available online.)
+
+
+                                                               2. Complete data required for the calibration of a regional ␤ include           by the impedance between the two areas. The productions and attrac-
+                                                               zone-to-zone travel times and trip flows for home-based work trips. Of          tions are estimated based on household income and travel information
+                                                               the 38 MPOs, 22 provided either none or incomplete trip flow data.              collected. Here, in this context, we simply use the population of the
+                                                               3. The 16 metropolitan regions are reasonably representative of the full        origin area to approximate the productions and use the job of the
+                                                               set of 38 metros in terms of geography, density, and population:                destination area to approximate the attractions. Since the imputed travel
+                                                               Bridgeport-Stamford, Chicago, Cincinnati, Dallas, Detroit, Hartford,            volume share here is only used as a weighting factor of travel speed, such
+                                                               Indianapolis, Los Angeles, Minneapolis–St. Paul, Philadelphia, Phoenix,         approximation, although not as accurate as what the travel demand
+                                                               Portland, San Diego, San Francisco, Seattle, and Washington, DC.                forecasting procedure yields, should not yield any significant error.
+                                                               4. As explained more fully in Grengs et al. (2010), the transformation is
+                                                               accomplished by calculating a z-score for each value in a zone-to-zone          References
+                                                               travel speed matrix from metro A. This z score matrix is then applied to        Allen, W. B., Liu, D., & Singer, S. (1993). Accessibility measures of
+                                                               the mean and standard deviation of speeds from Metro B to transform             U.S. metropolitan areas. Transportation Research B, 27B(6), 439-449.
+                                                               the speed distribution of Metro A into that of Metro B.                         Benenson, I., Rofe, Y., Martens, K., & Kwartler, A. (2010). Public
+                                                               5. The R2 here is the product of the R2 values from the two structural          transport versus private car GIS-based estimation of accessibility applied
+                                                               equations as shown in the path diagram: 0.26 ⫻ 0.37 ⫽ 0.11. That this           to the Tel Aviv metropolitan area. The Annals of Regional Science, 1–17.
+                                                               relationship is weak is not surprising given the complexity with which          Cervero, R. (1996). Paradigm shift: From automobility to accessibility
+                                                               traffic congestion is produced (Downs, 1992).                                   planning (Working Paper No. 677, Institute of Urban and Regional
+                                                               6. The speed limit is an aggregate of all types of roads, including             Development). Berkeley, CA: University of California.
+                                                               highways and local roads, and is intended to capture the effect of              Cervero, R., Rood, T., & Appleyard, B. (1999). Tracking accessibility:
+                                                               roadway speed limits as they contribute to the average transportation           Employment and housing opportunities in the San Francisco Bay area.
+                                                               speeds of a metropolitan region.                                                Environment and Planning A, 31, 1259–1278.
+                                                               7. In the widely used gravity model formula in travel demand forecast-          Cheng, J., Bertolini, L., & le Clercq, F. (2007). Measuring sustainable
+                                                               ing (United States Department of Transportation, Federal Highway                accessibility. Transportation Research Record, 2017, 16–25.
+                                                               Administration and Urban Mass Transportation Administration, 1977),             Curtis, C., & Scheurer, J. (2010). Planning for sustainable accessibility:
+                                                               the number of trips between two areas is determined by the productions          Developing tools to aid discussion and decision-making. Progress in
+                                                               of the origin area and the attractions of the destination area, weighted        Planning, 74, 53–106.
+RJPA_A_677119.qxp                                                               4/27/12      5:26 PM      Page 172
+
+
+
+
+                                                               172 Journal of the American Planning Association, Spring 2012, Vol. 78, No. 2
+
+
+                                                               Downs, A. (1992). Stuck in traffic: Coping with peak-hour traffic             Meyer, M. D., & Miller, E. (2001). Urban transportation planning: A
+                                                               congestion. Washington, DC: The Brookings Institution.                        decision oriented approach (2nd ed.). New York, NY: McGraw-Hill.
+                                                               Edwards, J. D., Jr., ed. (1992). Transportation planning handbook.            Miller, H. (1999). Measuring space-time accessibility benefits within
+                                                               Englewood Cliffs, NJ: Prentice Hall.                                          transportation networks: Basic theory and computational procedures.
+                                                               Ewing, R. (1994). Characteristics, causes and effects of sprawl: A            Geographical Analysis, 31(2), 187–212.
+                                                               literature review, Environmental and Urban Issues, 21(2), 1–15.               Mitchell, R. B., & Rapkin, C. (1954). Urban traffic: A function of land
+                                                               Ewing, R. (1995). Measuring transportation performance. Transporta-           use. New York, NY: Columbia University Press.
+                                                               tion Quarterly, 49(1), 91–104.                                                Niemeier, D. A. (1997). Accessibility: An evaluation using consumer
+                                                               Galster, G., Hanson, R., Ratcliffe, M. R., Wolman, H., Coleman, S.,           welfare. Transportation, 24, 377–396.
+                                                               & Freihage, J. (2001). Wrestling sprawl to the ground: Defining and           Salomon, I., & Mokhtarian, P. L. (1998). What happens when
+                                                               measuring an elusive concept. Housing Policy Debate, 12(4), 681–717.          mobility-inclined market segments face accessibility-enhancing policies?
+                                                               Grengs, J. (2004). Measuring change in small-scale transit accessibility      Transportation Research D, 3(3), 129–140.
+                                                               with geographic information systems: The cases of Buffalo and                 Schrank, D., & Lomax, T. (2007). The 2007 urban mobility report.
+                                                               Rochester. Transportation Research Record, 1887, 10–17.                       College Station, TX: Texas Transportation Institute.
+                                                               Grengs, J. (2010). Job accessibility and the modal mismatch in Detroit.       Scott, D. M., & Horner, M. W. (2008). Examining the role of
+                                                               Journal of Transport Geography, 18, 42–54.                                    urban form in shaping people’s accessibility to opportunities: An
+                                                               Grengs, J., Levine, J., Shen, Q., & Shen, Q. (2010). Intermetropolitan        exploratory spatial data analysis. Journal of Transport and Land
+                                                               comparison of transportation accessibility: Sorting out mobility and          Use, 1(2), 89–119.
+
+
+
+
+Downloaded by [University of Delaware] at 13:28 17 June 2012
+                                                               proximity in San Francisco and Washington, DC. Journal of Planning            Shen, Q. (1998). Location characteristics of inner-city neighborhoods
+                                                               Education and Research, 29(4), 427–443.                                       and employment accessibility of low-wage workers. Environment and
+                                                               Hägerstrand, T. (1970). What about people in regional science? Papers         Planning B-Planning and Design, 25, 345–365.
+                                                               in Regional Science, 24(1), 7–24.                                             Staley, S. (2008). Mobility first: A new vision for transportation in a
+                                                               Handy, S. L., & Niemeier, D. A. (1997). Measuring accessibility: An           globally competitive twenty-first century. Lanham, MD: Rowman and
+                                                               exploration of issues and alternatives. Environment and Planning A, 29,       Littlefield.
+                                                               1175–1194.                                                                    Thomson, J. M. (1977). Great cities and their traffic. London, UK:
+                                                               Hansen, W. G. (1959). How accessibility shapes land use. Journal of the       Gollancz
+                                                               American Institute of Planners, 25(2), 73–76.                                 Transportation Research Board. (1994). Highway capacity manual.
+                                                               Hine, J., & Mitchell, F. (2001). Better for everyone? Travel experiences      Washington, DC: National Academy Press.
+                                                               and transport exclusion. Urban Studies, 38(2), 319–332.                       Transportation Research Board. (1995). Expanding metropolitan
+                                                               Isard, W. (1960). Methods of regional analysis: An introduction to            highways: Implications for air quality and energy use (Special Report No.
+                                                               regional science. Cambridge, MA: MIT Press.                                   245). Washington, DC: National Academy Press.
+                                                               Kawabata, M., & Shen, Q. (2006). Job accessibility as an indicator of         Transportation Research Board. (2010). Highway capacity manual
+                                                               auto-oriented urban structure: A comparison of Boston and Los Angeles         2010. Washington, DC: National Academy Press.
+                                                               with Tokyo. Environment and Planning B: Planning and Design, 33(1),           United States Department of Transportation, Federal Highway
+                                                               115–130.                                                                      Administration. (2008). Highway statistics 2008. Retrieved April 4,
+                                                               Kenworthy, J., & Laube, F. (2002). Urban transport patterns in a              2012, from http://www.fhwa.dot.gov/policyinformation/statistics/
+                                                               global sample of cites and their linkages to transport infrastructure, land   2008/
+                                                               use, economics, and environment. World Transport Policy and Practice,         United States Department of Transportation, Federal Highway
+                                                               8(3), 5–19.                                                                   Administration and Urban Mass Transportation Administration.
+                                                               Kwan, M. (1998). Space-time and integral measures of individual               (1977). An introduction to travel demand forecasting—A self-instructional
+                                                               accessibility: A comparative analysis using a point-based framework.          text. Retrieved from http://ntl.bts.gov/Docs/UT.html
+                                                               Geographical Analysis, 30(3), 191–216.                                        Wachs, M., & Kumagai, T.G. (1973). Physical accessibility as a social
+                                                               Lee, B. (2007). “Edge” or “edgeless” cities? Urban spatial structure in       indicator. Socio-Economic Planning Science, 7, 437–456.
+                                                               U.S. metropolitan areas, 1980 to 2000. Journal of Regional Science,           Wilson, A. G. (1971). A family of spatial interaction models, and
+                                                               47(3), 479–515.                                                               associated developments. Environment and Planning , 3(1), 1–32.
+

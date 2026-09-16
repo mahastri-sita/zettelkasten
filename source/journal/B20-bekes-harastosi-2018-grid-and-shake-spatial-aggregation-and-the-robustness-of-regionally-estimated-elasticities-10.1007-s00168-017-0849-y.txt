@@ -1,0 +1,1251 @@
+[PDF Metadata]
+Source PDF: journal/B20-bekes-harastosi-2018-grid-and-shake-spatial-aggregation-and-the-robustness-of-regionally-estimated-elasticities-10.1007-s00168-017-0849-y.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Grid and shake: spatial aggregation and the robustness of regionally estimated elasticities
+Subject:         The Annals of Regional Science, doi:10.1007/s00168-017-0849-y
+Keywords:        R12,R30,C15
+Author:          Gábor Békés
+Creator:         Springer
+Producer:        Acrobat Distiller 10.1.8 (Windows)
+CreationDate:    Sat Oct  7 13:36:41 2017 WIB
+ModDate:         Mon Dec 18 14:07:02 2017 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           28
+Encrypted:       no
+Page size:       439.37 x 666.142 pts
+Page rot:        0
+File size:       6165899 bytes
+Optimized:       yes
+PDF version:     1.6
+[Extracted Text]
+Ann Reg Sci (2018) 60:143–170
+https://doi.org/10.1007/s00168-017-0849-y
+
+ORIGINAL PAPER
+
+
+
+Grid and shake: spatial aggregation and the robustness
+of regionally estimated elasticities
+
+Gábor Békés1 · Péter Harasztosi2
+
+
+
+
+Received: 29 July 2016 / Accepted: 26 September 2017 / Published online: 7 October 2017
+© Springer-Verlag GmbH Germany 2017
+
+
+
+Abstract This paper proposes a simple and transparent method for measuring spatial
+robustness of regionally estimated coefficients and considers the role of the admin-
+istrative districts and of the size of regions. The procedure offers a new solution
+for a practical empirical issue: comparing the variables of interest across spatially
+aggregated units. It improves upon existing methods, especially when spatial units are
+heterogeneous. To illustrate the method, we use Hungarian data and compare estimates
+of agglomeration externalities at various levels of aggregation. Using the procedure,
+we find that the method of spatial aggregation seems to be of equal importance to the
+specification of the econometric model.
+
+JEL Classification R12 · R30 · C15
+
+
+
+1 Introduction
+
+The concentration of economic activity is a key feature of economic geography; it
+is a well-researched topic in economics, and the polarization of activity is often a
+policy concern. As a result, measuring the agglomeration elasticity of market outcome
+
+
+
+
+Péter Harasztosi: The opinions expressed are those of the author(s) only and should not be considered as
+representative of the European Commission’s official position.
+
+B Gábor Békés
+    bekesg@ceu.edu
+
+1   Institute of Economics of CERS-HAS and CEPR, Central European University, 13 Nador street,
+    Budapest 1051, Hungary
+2   Joint Research Centre, Via Fermi 2749, 21027 Ispra, VA, Italy
+
+
+                                                                                            123
+144                                                                              G. Békés, P. Harasztosi
+
+
+variables such as wages, firm dynamics, or competition is of substantial importance.1
+Oftentimes, these studies are based on an arbitrary choice of spatial unit—cities,
+counties or regions—and shall be hence interested in the robustness of their results
+given the choice of unit. Furthermore, we may be interested in comparing results
+obtained on one country to estimates from another.
+   Hence, we need to understand how the specific characteristics of selecting the fea-
+tures of spatial units may affect the outcome of an estimation exercise. This paper will
+present a method to transparently investigate the impact of modeling choices of spatial
+aggregation that can be applied in any spatial setting with different layers of aggrega-
+tion. The method will allow us to compare the magnitude of differences to aggregation
+to those resulting from running different regression with different controls.2
+   The unit of spatial scope can make a difference since externalities are often found to
+be in operation but fading away at a distance. For instance, Fotheringham and Wong
+(1991) argued that the features of areal units affect regression results—often in an
+uncertain fashion—while Dewhurst and McCann (2007) supplied evidence that the
+relationship between specialization and urban structure is a function of the scale of
+analysis. Using UK data on administrative units, they found a strong negative rela-
+tionship between regional specialization and regional size. Burger et al. (2010) found
+different effects of agglomeration forces across geographic levels in the Netherlands.
+More recently, Larsson (2014) investigated how the wage density elasticity depends
+on spatial resolution in Swedish city areas and highlighted how quickly agglomeration
+effects attenuate with distance. Furthermore, the size of observation units and some of
+their features may be correlated and hence, estimates may be biased. For instance, large
+municipalities may be clustered in space because of first geography, specialization in
+agriculture, hard barriers to migration, distance to markets—crucial aspects of spatial
+economic structure that we may be looking at. Furthermore, the spatial scope of an
+activity may or may not coincide with the spatial scope of a political-administrative
+unit. At the same time, policies may affect relationships wherever interacted. Hence,
+any measurement at some regional level should combine the role of size (inclusion of
+externalities within) as well as the possible impact of regional policies.
+   Consequently, there is a need to compare in a statistically meaningful way esti-
+mation results across spatial units of different sizes taking into account the uneven
+(non-random) distribution of unit size. To this end, this paper offers a transparent,
+easy-to-use method.
+   The core idea of our procedure is to set up an artificial grid over the map of the coun-
+try, assign municipalities (or ZIP codes) to it and then randomize the position of the grid
+to get a distribution of results. To do this, first, we create a grid of squares of a given size,
+L. Second, we take this grid of L × L squares and randomize its place on a map and, as
+a result, obtain a set of random realizations of artificial spatial units. By repeating this
+
+
+1 See, for instance, Ciccone and Hall (1996) on the relationship between labor productivity and agglom-
+eration, Ács and Armington (2004) on entrepreneurship. Examples on local aspect of activity include Iyer
+and Seetharaman (2008) on retail prices, Hortaçsu and Syverson (2007) on local competition and vertical
+integration, Gobillon and Milcent (2013) on hospital performance.
+2 Note that our questions are closely related to that of Amrhein (1995) who argued that aggregation may
+be indeed an important methodological choice.
+
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                             145
+
+
+procedure (in this paper 300 times) we can get smooth kernel distributions. Third, we
+iron out the border effect by merging very small areas into bigger ones. Finally, we run
+our regression on each of these realizations and gather coefficients that yield a distri-
+bution of our parameters of interest. After this procedure, we can look at moments of
+this distribution, relate the distribution of coefficients to a single measure, for example,
+at the administrative regional unit, or compare distributions from two randomizations.
+    Our method is related to several earlier approaches proposed to treat the spatial
+aspects of estimations. The treatment of the location issue will often include spatial
+regression methods, and spatial lags in various forms have been widely used to gauge
+uncertainty about the right spatial scope (Anselin 2010). Artificial aggregation methods
+were also put forward. Amrhein and Flowerdew (1992) studied Canadian migration
+data both along region size and created artificial regions by setting a seed and randomly
+adding neighbors. In a close exercise to ours, Briant et al. (2010) placed starting points
+randomly on the map and added up an equal number of municipalities until the country
+was fully covered. Also closely related to this work is Menon (2012) who studied
+concentration patterns of US industries to disentangle labor market forces and set up
+a counter-factual exercise.3
+    We will be arguing that our method has the following merits: (i) it allows for carrying
+out estimations at various levels of aggregation and compare evidence; (ii) it treats
+uneven and non-random distribution of administrative unit size; (iii) it has the ability
+to compare results on administrative and artificial units, and (iv) it is able to gauge the
+statistical significance of differences. We will show that existing methods can match
+some but not all of these merits.
+    To illustrate our procedure, we will use Hungarian data—see an illustrative map of
+Fig. 1. Hungary is a country of 10 million inhabitants, over 93 thousand square kilo-
+meters, with 3125 municipalities. There are 150 micro-regions (kistérség), 20 NUTS3
+(megye) and seven NUTS2 regions defined—see details in Table 3 of “Appendix” sec-
+tion. At the time of our empirical exercises, administrative duties had been shared by
+municipalities, micro-regions and NUTS3 regions. Briant et al. (2010) argued (p 301)
+that for historical reasons yielding very similar regions, the French data are well suited
+for their approach. We believe that for historical and geographic reasons, the Hungarian
+landscape is rather different and its unbalanced size distribution offers a laboratory
+to study our method of spatial aggregation and allow for a comparison with other
+approaches, such as the one by Briant et al. (2010).
+    We will consider two examples, estimating the agglomeration premium of wages
+and new firm formation, and we compare elasticities at two administrative units, i.e.,
+municipal (NUTS5) and micro-region (NUTS4) levels, and for three artificial units. We
+are interested in the relationship between an estimated coefficient at an administrative
+regional level and a comparable estimate for an artificial region of similar size as well
+as how the average size of the defined area affects the estimated coefficient. Further, our
+method will be compared to earlier approaches and we argue that our methodology
+is better able to capture some important real-life features such as the non-random
+
+3 There is a growing amount of related literature on a different type of setup, when the data are geocoded.
+For instance, Dubé and Brunelle (2014) argued that distance-based concentration measures may offer a
+good solution.
+
+
+                                                                                              123
+146                                                                 G. Békés, P. Harasztosi
+
+
+
+
+Fig. 1 Map of Hungary at municipal level
+
+
+
+heterogeneity of the size of areal units, such as municipalities and regions. We will
+discuss similarities and differences with regard to other methods, in particular, with
+respect to Briant et al. (2010) whose method we replicated.
+   In what follows, we first describe key issues that shed light on why measurement
+methodology matters. Section 3 introduces the methodology we developed, and in
+Sect. 4, we illustrate the method introducing two examples and present the empirical
+results and compare our method with some existing approaches. The last section
+concludes.
+
+
+2 Considerations for measurement
+
+Before discussing the method we are proposing, let us present some key considera-
+tions that motivated the procedure. First, we argue that unit size matters and there is
+a need to compare results across spatial units of different sizes. Second, uneven and
+non-random distribution of unit size matters as well. Third, in the presence of policy
+aspects, we will be able to understand the influence of administrative borders when
+investigating political-administrative unit size effects. Finally, instead of a randomly
+chosen robustness test, we should be able to perform statistical inferences and hypoth-
+esis testing. At each subsection, we will present some arguments why a particular
+measurement issue may matter.
+
+
+2.1 Unit size matters, scalability is key
+
+There is substantial evidence suggesting that the impact of spatial externalities decays
+rapidly with distance, and measured elasticities will be altered based on the unit size
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                               147
+
+
+of measurement. Hence, the presence of externalities may be detected at some level of
+spatial unit, but not at another. This issue is partly an econometric problem: a mismatch
+between the spatial unit of observation and the spatial extent of the phenomena under
+consideration will result in spatial measurement errors and spatial autocorrelation
+between these error terms in adjoining locations (Anselin and Bera 1998). Uncertainty
+and practical differences regarding unit size may hinder comparing evidence across
+countries or regions.
+   Consider the example of EU regions so that we can see how the level of aggrega-
+tion changes correlation inferences as well. Figure 11 shows the population density
+distribution of Western European countries at NUTS1 and NUTS3 level (see Fig. 11
+in “Appendix” section). One can see that even within the same administrative level
+the size and shape of the basic units differ a lot. For example, the correlation between
+population density and GDP per capita across European regions at NUTS1 level is
+0.74. The same relationship at the more disaggregated level of NUTS3 administrative
+units is much weaker, i.e., 0.54.4 This difference may be of purely random nature
+or related to the spatial decay of some relationships. For instance, the impact of an
+externality may weaken over distance for a wide range of activities such as the trade
+of intermediate inputs, productivity and wages and knowledge spillovers.5
+   Hence, the first important requirement is for a methodology that can be scaled by
+size of units of observation (i.e., compare distributions from two randomization runs
+(at L 1 × L 1 -sized grid and another one at an L 2 × L 2 grid), thereby allowing for a
+direct comparison.
+
+
+2.2 Uneven and non-random distribution of unit size matters
+
+The second issue is that spatial units are not only of uneven size, but they are non-
+randomly located, potentially biasing results. The spatial correlation of unit size (such
+as very small villages are collated in a particular geographic region) may stem from
+several sources: maybe first geography (lakes or mountains) prompts people to orga-
+nize themselves into small units, or dense urban areas set up small but populous spatial
+units. The political use of spatial units may also lead to some clustering that is possibly
+related to historical population density or institutions such as fairs. Districts tend to
+have an equalizing role across population. In some countries and at some levels of
+aggregation this could be a very minor issue. In France, for example, departments are
+fairly equal sized.6 However, this is not the case in most countries and regions. In fact,
+
+4 We use the 2007 euro per capita measure of GDP and the 2006–2008 average population density data
+from the Eurostat regional databases. The countries that constitute our sample: the UK, Germany, Belgium,
+France, Spain, Portugal, the Netherlands and Italy.
+5 For instance, trade proximity matters for localization for about 50 km as suggested by Duranton and
+Overman (2008) for manufacturing industries in Britain. Rosenthal and Strange (2008) estimated that in the
+USA wage increasing effect of being close to educated people falls to just 25% as the distance rises from 5
+to 15 miles in the USA. Lychagin et al. (2010) found that the crucial range for proximity to laboratories is
+limited to 100–200 km. Andersson et al. (2016) document and attenuation of wage density elasticity even
+within cities.
+6 Note that, shape of units may be of interest. Briant et al. (2010) showed it does not matter. However, even
+though shape is not of our immediate concern here, the method presented caters for different shapes as well.
+
+
+                                                                                                123
+148                                                                                     G. Békés, P. Harasztosi
+
+
+when looking at the EU NUTS3 regions above and observing the representation of
+population density distribution, it is obvious that the dense regions are much smaller.
+Importantly, not only do we see that small and large regions are clustered (i.e., North
+European regions are small, and Spanish regions are large), but that this is correlated
+with first geography (Spanish mountains, access to Atlantic trade routes) and urban-
+ization (abundance of mid-sized North German cities, possibly related to the system
+of Länder).
+   Take another example. In this paper, we will work with data from Hungary,
+where the municipal and micro-regional structure is rather unbalanced (See Fig. 1
+in Sect. 4.1)—unlike in France, where the large administrative regions called départe-
+ments are of about equal size. We see an average municipal size of 15–20 km2
+in the southwest and 70–75 km2 in the northeast, and there is a great deal of
+variation in the size of micro-regions, as shown in Table 3. The small size of typ-
+ical administrative units in the southwest is correlated with rugged terrain, history,
+and agricultural traditions. These are all issues that may bias the estimated coeffi-
+cients.7
+   Therefore, the more disaggregated data one uses, the more the number of dense
+regions increases in the sample. This may affect inferences about concentration
+and also gives less weight to less populated areas, and given its correlation with
+other variables such as first nature geography, it may bias results. In other words
+the size distribution of density and hence productivity (or wage) are endogenously
+determined by the aggregation level of administrative units. The more densely
+populated a location is at the most disaggregated level (municipality), the most
+likely it is to be aggregated up with other locations at the higher aggregation level
+(region).
+   Consequently, the second expectation is the ability to treat the clustering of large
+or small units and thus the ability to compare aggregated units of the same size rather
+than the same sub-units.
+
+
+2.3 The role of administrative borders can be directly investigated
+
+The third issue is related to administrative unit borders.8 Regions are often units with
+political or administrative roles, where local bureaucracies set policies on the labor
+market (often by regional employment agencies), taxes (such as Bacher and Brül-
+hart 2013), firm subsidies (by regional development agencies) or regulation (e.g., by
+regional environment protection agencies). Regional differences may play an explicit
+role when grants are given based on some average regional development measure such
+
+
+7 When regressing the (log) number of municipalities within a district on (log) wages, we find a negative
+correlation. This is primarily due to the fact that there are plenty of small municipalities close to Vienna with
+easy market access and higher wages. Using a cross section, we have: log(N um) = 11.8+0.8×log(Wage),
+significant at 5%; log(N o) = 1.41 + 0.05 × log(W age) + 0.45 × log(Distance Budapest ) − 0.24 ×
+log(DistanceV ienna ), where both distance variables are significant at 1%.
+8 In some countries, like Hungary, municipality also contains the agricultural land. In Hungary, Eastern
+municipalities have larger plots of land and hence, Western municipalities will be calculated as denser.
+
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                         149
+
+
+as per capita GDP, income or unemployment. It may be an explicit research question
+to seek to understand the effectiveness of such policies.9
+   Hence, the ability to compare administrative regions with a set of artificially defined
+spatial units matching the average regional size may offer a useful insight. As a result,
+the third requirement is hence the capacity to compare administrative regional units
+with artificial units where the size of the units are kept to match (on average) the
+administrative regional size. With our model, we can compare this distribution of
+coefficients gathered from the randomized L × L grid to the single measure, say, at
+the administrative regional unit level. This allows us to understand to what extent we
+have a special realization of results; whether can we claim, for instance, that 95% of
+the grids yield a smaller or larger coefficient than the administrative one.
+
+
+2.4 Statistically differentiating estimations
+
+A key drawback of estimations using administrative units is the lack of robustness.
+One estimates a model and gets a point estimate that may be influenced by policies,
+some special first geography issue (rivers, mountains). The argument that location
+specifics may influence estimation is indeed a core idea of the Modifiable Unit Area
+Problem or the MAUP. As a result, any particular aggregation may suffer from a set
+of idiosyncratic shocks, for example, particularities of regional border. To see the
+robustness of a particular relationship, one may need to go beyond comparisons and
+understand the statistical significance of the differences in elasticities measured at
+various levels of aggregation. To allow for comparisons across different sized units as
+well as artificial versus administrative units, the method will have to able to generate
+randomized aggregation outcomes allowing to create standard errors for regression
+outcomes at various levels of aggregation.
+
+
+3 The “grid and shake” method
+
+This section presents a new method, that we dubbed “grid and shake.” Before the
+actual estimations, several steps are needed. First, we digitize the map by placing
+markers evenly on the country and hence pinning down municipalities. Second, we
+define a grid made up of L × L squares and place it over the map. Our markers will
+help assigning each municipality to a particular unit in the grid. Third, we define the
+grid unit size based on some economic consideration, such as matching the average
+size of administrative units. Fourth, we shake this grid and thus, randomly create pos-
+sible realizations of spatial units. Finally, we make cosmetic adjustments around the
+country’s zigzagging borders to avoid having too small units. When running regres-
+sions, we can repeat any given regression on all realizations and thus get a distribution
+of elasticities. In what follows, we present step-by-step details using Hungary as an
+example to illustrate the method.
+
+9 See Dewhurst and McCann (2007) looking at a relationship between size and specialization in different
+types of administrative levels in the UK, or Devereux et al. (2007) studying UK “Regional Selective
+Assistance” grants given to regional political units.
+
+
+                                                                                          123
+150                                                                                G. Békés, P. Harasztosi
+
+
+3.1 Setting up the grid
+
+To collect municipalities into spatial groups of an approximately equal size, we use
+an idea analogous to offset printing technology. First, we place markers arranged in a
+raster-like manner on the map with the lowest available units such as municipalities
+or ZIP codes. Here we use the municipality-level map of Hungary.
+   Markers are defined on the positive quadrant of a coordinate system10 where the
+origin is defined as the (0, 0) km. They are placed rather close to each other (800 m)
+such that the smallest municipalities have at least three points within the boundary of
+the polygon that define them. In turn, the markers (we have 153,113 marker points for
+the 93,030 km2 of Hungary) uniquely identify the spatial territory of a municipality.
+The markers are matched to the polygon of the municipality.11
+   As markers are assigned to municipalities, they make it possible to group munic-
+ipalities into larger spatial units by aggregating them. If we place a grid consisting
+of size L squares over the map, we can identify the markers that belong in the same
+square. The square of the grid is defined by a number pair (gx , g y ). We assign each
+marker to a grid square with: gx = int(x/L) + 1 and g y = int(y/L) + 1, where x and
+y are the coordinates of the markers, L is the length of the side of the square, and int is
+a function that takes the integer part of a number. With the coordinates of the markers
+being given in km from the origin (0, 0), gx will then give the number of grid square
+we need to put on the map starting from zero to arrive at the longitude of the marker
+(x, y). That is, if the marker coordinates are, say, 23 and 42, then using a grid size 10,
+the marker will be in the 3rd grid square from the left and the 5th from the bottom.
+   As a next step, we can form a new spatial unit by joining municipalities whose
+points are in the same grid. If the points that define a municipality belong to several
+grids, then the municipality joins the spatial unit that holds most of its points (i.e., the
+largest territory). This method gives an alternative realization of larger spatial units
+anchored by the starting point (0, 0).
+   Importantly, the size-L grid could be placed on the map at random locations, yielding
+different versions of grid. This feature will be used later to generate a set of grids
+allowing for drawing a distribution of regression model estimates.
+
+
+
+3.2 Defining grid sizes
+
+To analyze the role of size and administrative units, we create grids in three sizes:
+small, medium and large. Small grids are 15 km × 15 km, and it takes roughly 440 of
+such squares to cover the country. This is the size that fits the top 1% of municipalities
+(mostly large cities such as Szeged, Nyíregyhaza or Miskolc). By aggregating small
+villages and keeping large cities as they are, a realization with grid size of 15 km
+
+
+10 Mercator WGS84 EPSG:41001 projection.
+11 Polygon matching can be done in a GIS mapping software; we used Mapinfo. In Fig. 9 in appendix,
+they are illustrated by using a small part of southwest Hungary close to the Croatian border.
+
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                           151
+
+
+
+
+Fig. 2 A realization of 26 × 26 km units
+
+
+
+
+produces a spatial division simulating a case when municipalities were the same size
+as large cities.12
+   The medium-sized grid is made up of 26 × 26 km2 . We chose this size to match the
+number of micro-regions, i.e., 150. This is apparent from Table 3 which summarizes
+the area and count the data for different spatial aggregations. The largest size of grid
+squares in 39 × 39 to match the largest (the average of top 5) micro-regions. This will
+allow us to simulate what would happen if all micro-regions were equally sized and
+as large as the largest ones Hungary has. Figure 2 illustrates a realization of the grid
+based on 26 × 26 km sized spatial units.
+   To have a better sense of how aggregation works, we took one grid and calculated
+the number of municipalities per grid. Figure 3 shows the distribution of the number of
+municipalities for both NUTS4 micro-region level and the artificial grid. As we argued
+earlier, Hungarian municipality sizes vary a great deal, moreover, non-randomly, hence
+the deviation. About 30% of the units contain only a few number of units (no more
+than 10), while about 25% include many (31+). Note that as the graph suggests, the
+distribution of the number of municipalities per unit (both when considering the first
+realization and the average 300 permutations) matched fairly closely that of NUTS4
+regions.
+   Having these three artificial grids of sizes, with 15 × 15 km, 26 × 26 km, 39 × 39 km
+squares, we can now easily compare the spatial features of relationships, such as the
+spatial magnitude of agglomeration spillovers.
+
+
+
+12 This approach would in some way, mimic the Swedish example, where 290 municipalities have been
+defined with a minimum population requirement, yielding similarly sized areas—except for the large Nordic
+regions.
+
+
+                                                                                            123
+152                                                                                  G. Békés, P. Harasztosi
+
+
+
+
+Fig. 3 Distribution of units that include few and many municipalities
+
+
+
+3.3 Border correction
+
+A disadvantage of the method described above is that small areas are likely to get
+drawn by the border. To partially offset this, we considered all areas (created by the
+grid) that are smaller than a pre-determined threshold (set as 10% of L × L km)
+and added it to a randomly chosen neighboring region. This border issue is more
+important for small countries/larger grid units and with relatively more zigzagging or
+just non-horizontal/vertical border line features.13
+
+
+3.4 Randomization
+
+The most problematic aspect of both any given administrative regional setting and the
+artificial grid we propose is the arbitrary boundaries of units. When considering the
+robustness or validity of the results at a certain level aggregation or finding out about the
+importance of administrative units, the choice of spatial units may be important. As we
+will show later, two randomly placed grids may often yield rather different outcomes.
+To treat this arbitrary nature, we will randomly generate 300 possible grids—by first
+placing a grid of L × L km sized units and then “shaking it” over the map to yield
+different sets of aggregations.
+   The procedure works as follows. We select a random staring point by adding inde-
+pendently drawn random numbers ξ and ζ to the (0, 0) starting point which are
+uniformly distributed over the 0 to L interval. Then, using the algorithm described
+in Sect. 3.2, we assign markers to L × L km sided grid square. The bundle of munic-
+ipalities included in any new grid unit will be different from the one defined by the
+
+
+13 This is illustrated in the left panel of Fig. 10 in “Appendix” section, where the random grid joins only
+three municipalities at the border, including Őrtilos, Zákány, Surd and Mezőkeresztúr. The right panel of
+Fig. 10 shows the adjusted spatial units. In this case, the four municipalities are added to the larger region
+to the east, hence increasing its size.
+
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                              153
+
+
+starting point (0, 0). It is worth noting that picking random numbers from (0,L) is
+enough as ξ + L and ζ + L would yield the same realization as ξ and ζ .
+   In the first step of the procedure, we assign a grid (a pair of numbers) to each point
+so that we get each municipality to belong to a specific unit in the grid. We carry out
+border corrections when necessary. In the second step, the randomized grid placement
+is repeated a thousand times. Third, we open a spatial structure, calculate several
+variables of interest and run regressions and save the outcome. Fourth, we collect
+estimated coefficients, generate the distributions and draw conclusions. Finally, we
+take these saved coefficients and consider the distribution at various grid sizes, with
+L = 15 km, 26 km, 39 km.
+
+
+4 Empirical applications and discussion of results
+
+In this section, we present two empirical applications and show the procedure in action.
+We present the details of the Hungarian data we employ and introduce two topics that
+use regionally aggregated data. We start by looking at how wages are correlated with
+density followed by looking at how agglomeration may be correlated with bolder
+entrepreneurship measured by new firm formation. For both of these cases, we use the
+artificial grid method to understand differences in various measures of agglomeration.
+This is followed by a discussion of external validity of our observations and finally, a
+comparison of insights with lessons from existing methods.
+
+
+4.1 Data
+
+We use Hungarian firm-level balance sheet data from the Central Statistical Office to
+obtain firm-level information and resort to information from 1999 for the cross section
+OLS. Firms include all double accounting manufacturing companies with at least five
+employees. We have the same information for 1998 as well, allowing us to create
+variables for new firm formation. Firm-level financial data are matched with location
+information at municipal level.14 Firm-level data are then matched with municipality-
+level information on municipality size and population from the T-STAR database.
+   Wages are calculated from balance sheet data using additional information on full
+time employees and total wage cost. The proxy for human capital is obtained from
+the Hungarian Labor Force Survey (HLFS). The survey contains a sample of workers
+in the manufacturing industries and documents various employee characteristics. The
+information includes their highest educational attainment, which is used here as a proxy
+for human capital. The data connect workers to municipalities; however, their actual
+employers are not identified, which prevents linking the firm-level information with
+worker data. Using the HLFS sample, the municipality-level average of the highest
+grade of schooling variable can be calculated to serve as the proxy for the quality of
+
+14 Unfortunately, we only know about headquarters. However, this is not a major problem for manufacturing
+firms in Hungary: in their appendix, Békés and Harasztosi (2013) showed that only 7% of firms have multiple
+sites and that, on average, these firms have 1.15 plants. This may give rise to a relatively small potential
+bias only.
+
+
+                                                                                               123
+154                                                                                   G. Békés, P. Harasztosi
+
+
+the labor force. This human capital proxy shows a considerable variation from 7 to 14
+years of education attained.15
+
+
+4.2 Two models: wage and firm formation elasticity of agglomeration
+
+One key evidence in the economic geography literature is that firms operating in
+more densely populated areas show higher productivity and also pay higher wages.
+The positive correlation between density and productivity stems from both natural
+advantages and externalities that boost productivity as was first described by Marshall
+(1920). The Marshallian externalities play an important role in the micro-founded
+explanations for growth, innovation and trade theory, and understanding their strength
+is important in order to evaluate economic policies that, for example, aim at cluster
+formation or at helping backward EU regions to close the gap with more developed
+regions. Typically, the literature finds that, on average, productivity of firms located
+in a region with 10% larger population tends to be 0.4–1.2% higher, and this higher
+productivity will then be equally translated into higher local wages. For a thorough
+meta-analysis on results, see Melo et al. (2009).
+    In our exercise, we opt for considering wage as the dependent variable, as this is the
+most widely investigated relationship and hence allows for international comparisons.
+We estimated the agglomeration effect on the average municipality wage:
+
+                           Wagei = β1 DENSITYi + β2 EDUCi + νi                                             (1)
+
+where i is the index of the spatial unit, W age is the average wage of employees,
+DENSITY is the density of working age population in the municipality, and EDUC is
+a proxy for education levels. This is estimated with OLS on a cross section of 1999
+data, with all variables used in logs.
+   The results are presented in Table 1; the first two columns show regression results
+on actual administrative (municipal and micro-regional) units, and columns (3) to (5)
+show results on the artificial grids of 15×15, 26×26 and the 39×39 grid, respectively.
+For all artificial grids we display the mean of estimated standard errors followed by
+the standard deviation of the estimated coefficient.
+   The table suggest that at all estimation levels, there is a positive correlation between
+the average wage in an area and its density (size of population holding area size
+constant). The estimated coefficient is lowest when using municipal-level data (5.5%),
+followed by small artificial units (7.7%), while the estimate for micro-region and
+medium-sized artificial units (11.8%, 12.7%) is about double the size of the municipal-
+level estimate. Having artificial units allows us to compare these figures attaching
+statistical significance to any gaps we may find, and we will discuss the comparisons
+in Sect. 5.
+
+15 Note that the variables are recalculated on different spatial aggregation levels and artificial spatial
+units by recalculation and using frequency weights. For example, if the average year of schooling (ys) in
+municipality i is ysi calculated over n i individuals, then the average year of schooling for spatial unit that
+includes municipalities i and j will be (ysi × n i + ys j × n j )/(n 1 + n j ).
+
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                                  155
+
+
+Table 1 Wage regressions
+
+Administrative units                                       Artificial grid units
+Units              (1)                (2)                                      (3)           (4)          (5)
+                   Municipal          Micro-region                             km15          km26         km39
+
+Density            0.055              0.128                Density             0.082         0.116        0.137
+SE                 0.007              0.021                (mean) SE           0.011         0.019        0.026
+                                                           SD coeff.           0.006         0.008        0.015
+School yrs.        0.966              0.820                School yrs.         1.098         1.123        0.979
+SE                 0.041              0.355                (mean) SE           0.169         0.442        0.664
+                                                           SD coeff.           0.121         0.219        0.510
+                                                           Replication         300           300          300
+Obs.               2872               149                  Obs                 437           150          73
+R-squared          0.244              0.383                R-squared           0.240         0.361        0.393
+
+All variables are in logs. Density is the size of local working age population divided by the area in km2 .
+Years of schooling is average of local population. Robust standard errors are displayed. In grid models we
+report two statistics for standard errors: (mean) SE is the mean of robust standard error of the coefficient over
+300 replications, while the SD coefficient provides the statistic for the standard deviation of the coefficient
+itself calculated over 300 replications
+
+
+
+   Note that in municipality-level regression the number of observations is 2873. This
+is smaller than the total number of municipalities (3125) as there are municipalities
+without any identifiable manufacturing activity. This is an important reason behind
+the use of some aggregation technique, especially in a highly fragmented country with
+unequally sized units.16
+   As our second topic, we will consider new firm formation (or entrepreneurship)
+as an example of a process with great spatial variation. Regional variation in new
+firm formation has been amply studied. Key explanatory variables include mea-
+sures of unemployment, population density, industrial restructuring, and availability
+of financing (Armington and Ács 2002), income as well as market dynamics such
+as exits and change in industrial structure (Sutaria and Hicks 2004). Infrastructure,
+such as motorways, may also affect firm entry and location (Holl 2004). In a close
+exercise to ours, Amrhein and Flowerdew (1992) use a Poisson model to analyze
+labor movement. Since policy interventions enhancing entrepreneurship abound at
+local as well as regional levels, the evidence from such exercises may have policy
+implications as they can answer questions about the usefulness of regional policies
+and grants offered by regional authorities. We can test whether regional boundaries
+matter by investigating whether the policy impact is bounded by administrative unit
+lines.
+
+
+16 This selection issue might affect the comparison between municipalities and 15 km grids because the
+latter will include the areas of zero employment areas in the denominator of the density measure, but it does
+not affect grids of larger sizes, like the 26 and 36 km grids. The sign of the bias caused by the selection
+is ambiguous and is an issue in the western part of Hungary, owing to the highly fragmented municipality
+structure.
+
+
+                                                                                                     123
+156                                                                                      G. Békés, P. Harasztosi
+
+
+Table 2 Entry regressions
+
+Administrative units                                     Artificial grid units
+Units            (1)               (2)                                           (3)         (4)          (5)
+                 Municipal         Micro-region                                  15 km       26 km        39 km
+
+Density          1.377             0.917                 Density                 1.321       1.257        1.146
+SE               0.079             0.172                 (mean) SE               0.074       0.096        0.219
+                                                         SD coeff.               0.027       0.039        0.085
+Wage             0.608             0.554                 Wage                    0.526       0.392        1.664
+SE               0.200             0.716                 (mean) SE               0.266       0.392        0.654
+                                                         SD coeff.               0.110       0.152        0.358
+                                                         Replication             300         300          300
+Obs.             2872              149                   Obs                     437         150          73
+R-squared        0.467             0.379                 Ps. R-squared           0.605       0.615        0.614
+
+All variables are in logs. Density is the size of local working age population divided by the area in km2 .
+Years of schooling is average of local population. Robust standard errors are displayed. In grid models we
+report two statistics for standard errors: (mean) SE is the mean of robust standard error of the coefficient over
+300 replications, while the SD coefficient provides the statistic for the standard deviation of the coefficient
+itself calculated over 300 replications
+
+
+
+   Here we estimate a Poisson model, where we regress the number of new firms on
+population density and labor market conditions proxied by wages. Our variable in
+focus is once again density captured by the population of the area.
+
+                                 Pr (yi = N ) = f (λi )
+                                      λi = β1 DENSITYi + β2 Wagei                                              (2)
+
+   Results are presented in Table 2, with columns (1) and (2) reporting results on
+administrative and columns (3)–(5) on artificial units. Estimated coefficients of the
+population coefficient are greater than unity, suggesting a net positive relationship
+between population and firm formation.
+
+
+4.3 Grid and shake in action
+
+In this subsection our aim is show what kind of statements are possible with the use
+of the grid and shake method. To do this, we will rely on estimated agglomeration
+elasticities from the two exercises presented earlier. Estimates are shown regarding
+two types of administrative units (municipalities and micro-regions) and three artificial
+grids, made up of 15 × 15 km, 26 × 26 km and 39 × 39 km units. For all artificial
+grids, we generated 300 replications—regressions were repeated 300 times, yielding
+a distribution of elasticities. To demonstrate our points, we devised four graphs with
+distributions of estimated coefficients. Figures 4 and 5 depict elasticities for the first
+example on density and wage, while Figs. 6 and 7 show them for the second one with
+firm entry and density.
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                                 157
+
+
+
+
+Fig. 4 Agglomeration externality—administrative versus artificial units. This figure shows the coefficient
+estimate on population in Model 1 (agglomeration elasticity of wage). The thick blue (solid) vertical line
+gives the point estimate for the municipality estimate. The thin blue (solid) line gives the distribution of
+point estimates over 300 point estimates on the 15×15 grid. The thick red (dash) vertical line gives the point
+estimate for the micro-region estimate. The thin red (dash) line gives the distribution of point estimates over
+300 point estimates on the 26 × 26 grid. The very thin dashed lines are 5% confidentiality thresholds
+
+
+   In what follows, we discuss three applications: (i) the role of fragmentation com-
+paring municipalities with a grid simulating average city sized units (15 × 15 km); (ii)
+looking at the impact of the size of units, comparing three grid sizes; and (iii) the role
+of administration by comparing micro-regions with artificial units sized 26 × 26 km
+that match the average size of micro-regions.
+
+4.3.1 Fragmentation of municipalities
+
+Hungary has a rather fragmented municipal system with 3125 local units for 10 mil-
+lion inhabitants. For the similarly populous (but much larger) Sweden, we find 290
+municipalities, Portugal has 309, while Austria has 2300—the highest number for
+medium-sized countries.
+   The first application is hence related to a lower level of public administration, as
+we investigate how this fragmentation may affect the estimated relationship between
+agglomeration and wages as well as new firm formation. To demonstrate this we can
+now compare regression results at the municipal level with estimated elasticities from
+regressions on the 15 × 15 km grid. For instance, such a set of results would allow
+comparisons with model estimates regarding other countries with less fragmented
+systems.
+   In this dataset, fragmentation of the local political-administrative unit implies that
+locally estimated agglomeration elasticities are different to what they would be in the
+case of artificially aggregating small units, namely creating (on average) 440 artificial
+units instead of actual municipalities.
+
+
+
+
+                                                                                                 123
+158                                                                                  G. Békés, P. Harasztosi
+
+
+
+
+Fig. 5 Agglomeration elasticities at various grid sizes. This figure shows the coefficient estimate on popu-
+lation in Model 1 (agglomeration elasticity of wage) over various grid sizes. The blue (solid) line gives the
+distribution of the coefficient over 300 estimations on the grid size of 15 × 15 km. The red (short dash) line
+gives the distribution of the coefficient over 300 estimations on the grid size 26 × 26 km. The green (long
+dash) line gives the distribution of the coefficient over 300 estimations on the grid size of 39 × 39 km
+
+
+
+
+   For both the wage OLS and the firm entry Poisson regressions, we find that the
+estimated elasticity for the municipal level is lower than the 95% of elasticities calcu-
+lated using artificial units, see blue (solid) lines in both Figs. 4 and 6. The difference
+is particularly strong for the wage regressions: the estimated elasticity is 5.2 at the
+municipal level and is lower than the 95% lower bound of 6.6 of the 15 × 15 km sized
+artificial unit level.
+   Importantly, this means that, purely for methodological reasons, estimations car-
+ried out at the same nomenclature (NUTS5—municipalities) in countries with larger
+administrative units (like Sweden or Portugal) are likely to be above the one we
+obtained for Hungary (or those that may be estimated in Austria).
+
+
+
+4.3.2 The size of spatial units
+
+The second issue is related to the size of units of observations by comparing results
+from grids of 15 × 15 km, 26 × 26 km and the 39 × 39 km sized units. Figure 5 shows
+the population elasticities at various levels of grid size for our example 1 (wages) and
+Fig. 7 plots results obtained from example 2 (firm entry).
+   As for wages, we find that the population elasticity is different at 15 × 15 km and
+26 × 26 km size, but not beyond. (Note that as suggested by Table 1, the relationship
+with years of schooling varies between 26 × 26 km and 39 × 39 km unit sizes.)
+Regarding firm entry, point estimates suggest that elasticities are different for the
+39 × 39 km grid from the other two, but given the larger variation of estimates, these
+are not statistically different. The possibility of establishing such arguments is the
+main reason behind our randomization method (However, as shown in Table 2, the
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                                   159
+
+
+
+
+Fig. 6 Agglomeration externality—administrative versus artificial units. This figure shows the coefficient
+estimate on population in Model 2 (agglomeration elasticity of firm formation). The thick blue (solid) line
+gives the point estimate for the municipality estimate. The thin blue (solid) vertical line gives the distribution
+of point estimates over 300 point estimates on the 15 × 15 grid. The thick red (dash) vertical line gives the
+point estimate for the micro-region estimate. The thin red (dash) line gives the distribution of point estimates
+over 300 point estimates on the 26 × 26 grid. The very thin dashed lines represent the 5% confidentiality
+thresholds
+
+
+
+elasticity of wage level on firm entry on the large grids is statistically different). These
+results broadly conform with estimates found earlier.17
+
+4.3.3 The role of political-administrative division
+
+As final application, we now consider the role of administrative units by comparing
+elasticities measured at the micro-region level with a grid of 26 × 26 km sized units.
+Table 1 shows that for model 1 (wage regressed on population), we find an estimated
+coefficient of 12.7% for the micro-regions, and this may be compared with the mean
+estimated coefficient of 11.8%—averaged out on the 300 replication of the 26 km
+grid. Figure 4 depicts this with dashed lines, suggesting that while there may be a
+small difference, the estimated coefficient of the administrative unit is not statistically
+significant as compared to the artificial set of results. Hence, we cannot reject the null
+of zero effect of administrative units of micro-regions compared to the artificial units
+of equal average size (26 × 26 km).
+   The story is somewhat different when we consider firm entry (Fig. 6). All estimated
+coefficients are significantly greater than unity. However, the equality of estimated
+coefficients is here rejected at 5% confidence level, suggesting that there is a small,
+but statistically significant difference between elasticities at artificial units compared
+
+17 Comparing them with the results presented by Briant et al. (2010) using a different aggregation method-
+ology, we find that the order of elasticities is different. In this paper, we find coefficients rising with size,
+but a significant difference can only be established between small- and medium-sized units. Briant et al.
+(2010) found no linear relations, and the difference was only between their medium- and large-sized units.
+
+
+                                                                                                    123
+160                                                                                  G. Békés, P. Harasztosi
+
+
+
+
+Fig. 7 Agglomeration elasticities at various grid sizes. This figure shows the coefficient estimate on popu-
+lation in Model 2 (agglomeration elasticity of firm formation) over various grid sizes. The blue (solid) line
+gives the distribution of coefficient over 300 estimations on the grid size 15 × 15 km. The red (short dash)
+line gives the distribution of coefficient over 300 estimations on the grid size 26 × 26 km. The green (long
+dash) line gives the distribution of coefficient over 300 estimations on the grid size 39 × 39 km
+
+
+
+
+Fig. 8 Frequency of a municipality being included in a circle and its mean wage. The number of circles is
+created by first calculating for each municipality the number of circles this municipality is included in, and
+then grouping them by this count. Average wage is calculated for groups of municipalities based on this
+count as well
+
+
+
+
+to administrative regions. Note that estimates at different artificial units vary more
+than earlier, and tails are longer, too, as depicted in Fig. 7.
+   This suggests that finding statistical difference depends on the nature of the exercise.
+In our case, we found that elasticity of population density is lower at the administrative
+unit—compared to similarly sized artificial units. Thus, it is possible that some policy
+might have been in play here.
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                            161
+
+
+4.4 Generalization—outside validity
+
+To generalize our results, we test the null hypothesis that administrative borders do not
+matter in countries represented by our Hungarian data. Viewed this way, the coefficient
+estimates from our data, including the estimates from each of the 300 Grid and Shake
+permutations, are just one realization from their respective distributions. The entire
+distribution of potential point estimates under this null hypothesis is therefore an all-
+encompassing distribution of the coefficient estimates across all permutations. The
+question is then the extent to which the distribution of the coefficient estimates with
+the true administrative boundaries overlaps with this all-encompassing distribution.
+An intuitive comparison suggests that we can reject the null hypothesis if the two
+distributions are different from each other.
+    To estimate the encompassing distribution across all permutations we took a numer-
+ical approach. In each permutation we took 50 random points from the coefficient
+distribution implied by the point estimate and the standard error, assuming a normal
+distribution. The all-encompassing distribution is then estimated by the empirical dis-
+tribution of these 300 × 50 coefficients. The distribution implied by the administrative
+boundaries is simulated numerically in the same fashion, with 50 points drawn ran-
+domly from the normal distribution around the point estimate with the standard error
+estimate. The original and this extended distribution are shown in Fig. 12 in “Appendix”
+section. Looking at this graph as well as results of the two-sided Kolmogorov–Smirnov
+test, a systematic test of the equality of the two distributions, we now cannot reject the
+null hypothesis.18
+    In addition to comparing a point estimate of the administrative unit to the distri-
+bution of estimates of an equally sized artificial grid, this procedure also allows for
+a comparison of distributions by two differently sized units. To illustrate both these
+approaches, we created a chart denoting means and 90 and 95% confidence intervals
+for both administrative classifications and simulated distributions with a single 300
+replications (as in Fig. 4) and 50 × 300 replications as in Fig. 12. The graphs 13
+hence shows six lines, each with symbols denoting confidence intervals. In addition
+to the previous observation, we see that administrative versus artificial grid estimates
+now cannot be told apart not only for the micro-region but also for the municipal-
+ities. Furthermore, now the difference between the estimates from the two artificial
+grids is not significantly different from zero. This suggests that our particular find-
+ing on the difference between differently sized regions is just indicative for other
+countries.
+
+
+4.5 Comparison with other methods
+
+Finally, let us compare this method with some existing methods. In particular, we will
+discuss issues with aggregating units by drawing a circle around observations and
+discuss differences with respect to the method proposed by Briant et al. (2010).
+
+
+18 KS results are available on request.
+
+
+
+                                                                               123
+162                                                                   G. Békés, P. Harasztosi
+
+
+   The most basic method is aggregating units (markets) within a circle with a given
+radius around an observation. For instance, Martin-Barroso et al. (2010) used this
+method to correct for the agricultural area of municipality size when estimating
+agglomeration elasticities. This simple spatial aggregator function method assumes
+that we are uncertain about the market size or the extension of some externality and
+consider access to be symmetric around the observation. In this process, we set up
+circles around each observation and aggregate units. The advantage of this method is
+simplicity and flexibility regarding spatial unit size.
+   The disadvantage is a bias introduced by the oversampling of areas composed of
+many small municipalities. To better see this, we look at how the circles method would
+work in Hungary. There are 3125 municipalities, so we create 3125 circles with a center
+located in each of these municipalities. The circles have a radius of 14 km so that its
+area would match the average size of NUTS4 regions as well as the average area of
+the size of our grid of 26 × 26 km. For each municipality, we calculate the average
+wage, as well as count the number of circles the municipality is included in. In the
+case of Hungary, we find a correlation: richer municipalities tend to be counted less
+frequently on average than poorer ones, thus biasing estimates, see Fig. 8. This does
+not happen when estimates are based on disjoint areas, where all municipalities are
+counted only once.
+   Spatial dynamic or distributed lags models have also been used to capture the
+potential correlation of the independent variable across space. For instance, Cainelli
+et al. (2014) analyzed firm exits as a function of agglomeration and used neighboring
+Italian regions in a dynamic panel model estimated by GMM. Similarly to our model,
+this allows the testing of decay over space. However, the number of neighbors will be
+determined independently of the size of adjacent units.
+   Our approach of creating spatial districts is closest to the “dots-to-boxes” (DtB)
+procedure developed by Briant et al. (2010), who investigate the effects of MAUP
+on inferences using French administrative units, and applying two approaches. First,
+they place a grid over France which creates the same number (N) of new spatial units
+as the one they wish to compare it to. This creates square-shaped units with only
+one realization. Second, to match the numbers of existing administrative units, they
+randomly pick basic units of the same number (N) and merge them with neighboring
+units. This procedure results in differently shaped and sized N spatial units depending
+on which seeds are chosen and on the sequence how neighboring units are added. The
+size also depends on the spatial distribution of the size of the basic units. A similar
+method to the DtB approach is used by Menon (2012), who also creates artificial spatial
+units and does a simulation exercise keeping the size distribution of the administrative
+units fixed. While he aims at recreating a size distribution, we simulate how elasticities
+would change should unit size change—while keeping units equally sized in one
+go.
+   The size distribution of the basic units will influence the size of the created spa-
+tial units. In France, due to the roughly equal size of basic spatial units, this is not
+a problem. However, the same method would not be entirely satisfactory in the case
+of Hungary or for NUTS regions in the European Union. Consequently, our method
+is an alternative to that of Briant et al. (2010) and can be applied to countries or
+federations with basic spatial units that are rather heterogeneous in size and still can
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                                   163
+
+
+test robustness. To this end, we repeated our core exercise (Fig. 4) now applying
+the method used in Briant et al. (2010). The lower panel of Fig. 14 in “Appendix”
+section shows a map with artificial units this time created by the DtB algorithm.
+Seeds were fixed to generate 150 units to match our core grid of artificial units
+depicted in the upper panel of the same figure. There are two key observations to
+make when comparing these two graphs. First, while in some areas the units are
+similar (North–East), in many instances, there is a great deal of variation in size
+and form. Second, as expected, DtB will generate small (south–west) and large
+(center–east) units owing to a large variation in Hungarian municipality unit size.
+For instance, our model generated 93 units west of the Danube, while DtB generated
+57 units.19
+   To gain further insight, we reproduced Fig. 15 now also depicting the distribution
+of coefficients by the Briant et al. (2010) method. We can see that the median point
+estimate is somewhat lower, and more importantly, the standard deviation is much
+higher (0.7 vs 1.4%). Both of these features may be the consequence of unequally
+aggregated spatial units (municipalities). For the same figure, we also reproduced
+results using the Circle method, using a circle with a radius of 14 km (to match
+the 26 × 26 km artificial grid size). Unlike for the DtB, this generates a single
+coefficient estimate that can be compared to the distribution. It is smaller than the
+micro-region point estimate, but both are in confidence interval of our core esti-
+mate.
+
+
+5 Conclusions and practical applications
+
+In this paper, we proposed a flexible, transparent, simple and relatively fast20 method
+to test the robustness of empirical investigations at various levels of spatially aggre-
+gated data. In its ability to generate a distribution of estimated parameters (such as
+agglomeration elasticities), it is an alternative to Briant et al. (2010), while in terms
+of taking distance seriously, it is an alternative of using weighted spatial lags.
+   Our method is applicable for researchers and practitioners as long as their data are
+naturally coded at some low administrative level, such as a municipality or a ZIP code.
+The method is most suited to be used under some fairly broad conditions:
+1. Variables of the analysis that typically make sense at some spatial (regional) unit
+   (for example, consider variables like the number of hospital beds, doctors, univer-
+   sity classes).
+2. The analysis involves processes that are not constrained within a single spatial
+   unit, such as spatial spillover effects (for example, knowledge flows are diffused
+   over space).
+
+19 Also, the DtB method generates a variety of “shapes,” but importantly, they show that this feature does
+not matter.
+20 The method is simple: once the map is digitized, it is fast and may be modified easily. One additional
+difference is the speed of calculating robustness measures; our code is substantially faster. In lack of available
+codes, we coded the Briant et al. (2010) method ourselves. On a laptop, our code run was about 10–20 times
+faster.
+
+
+                                                                                                    123
+164                                                                      G. Békés, P. Harasztosi
+
+
+3. Regions are not defined by first geography separators (for example, seas and moun-
+   tains do not prevent transport and knowledge flows).
+4. Building block spatial units are heterogeneous—and the average size of units is
+   correlated with some unobserved feature (for example, the size of the Benelux and
+   Spanish regions differs greatly and this difference is correlated with socioeconomic
+   factors such as urbanization).
+   We believe that our method is an improvement on existing ones such as spatial
+lags (SL), DtB by Briant et al. (2010), added area under fixed radius circles (circles),
+while bringing together some advantages of these approaches. Our approach ends
+up comparing equally sized units thus avoiding bias from the endogeneity of spatial
+structure (i.e., concentration of small units in particular areas). This is true for the
+circles model, but both SL and DtB add units rather than distance. Importantly, our
+method counts all units only once and hence does not oversample dense areas with
+many small units (such as Circles). While it improves some SL models as well, it
+is less flexible in modeling nonlinear relationships within units. Apparently, it is a
+better method when spatial units are of different size in a non-random fashion. Other
+methods, for example Briant et al. (2010), disregard unit area size. In this respect,
+distance-weighted SL and circles are similar to our approach.
+   The advantages of our method have several practical applications. In particular,
+we showed that the size of artificial grid units does matter in the measurement of the
+agglomeration premium. Such information is useful when we aim to compare estimates
+calculated for various datasets in different parts of the world. We also showed that the
+method may be used to test the impact of policies by comparing actual and pseudo-
+administrative units. In our case, regional boundaries had no impact on the wage
+elasticity of density.
+
+6 Appendix
+
+See Table 3. See Figs. 9, 10, 11, 12, 13, 14 and 15.
+
+
+Table 3 Summary of
+                                          N umber o f units   Area km2
+Hungarian administrative spatial
+units and grids                                               Mean        Min          Max
+
+                                   Municipality       3125      29.55       0.71         483.22
+                                   15 km grid          440     210.37       1.52         607.21
+Hungarian municipalities are
+NUTS5-level units, and micro-      Micro-region        150     620.23     103.08       1573.10
+regions are NUTS4-level units      26 km grid          150     605.35      67.61       1146.01
+Figures for grids are averages     39 km grid           75    1235.50     152.20       2060.82
+over 300 replications
+
+
+
+
+123
+Grid and shake: Spatial aggregation and the robustness of…     165
+
+
+
+
+Fig. 9 Markers serve as basic elements to be shaken
+
+
+
+
+                                                             123
+166                                                                             G. Békés, P. Harasztosi
+
+
+
+
+                     (a)                                                  (b)
+Fig. 10 Adjustment for small areas near the border: 26 × 26 km. a Before adjustment. b After adjustment
+
+
+
+
+Fig. 11 Population density in European regions
+
+
+
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                                  167
+
+
+
+
+Fig. 12 Additional SD. This figure shows the distribution of estimated coefficients on population in Model
+1—agglomeration elasticity of wage—(blue line) as well as an extended distribution (red dashed line).
+The extended distribution takes into account the uncertainty of each elasticity estimate:βikm26 where i =
+{1 . . . 300}. For each, we randomly draw 50 coefficients from normal distribution N (βikm26 ,σikm26 ). All
+together red dashed line is a density over 50 × 300 elasticity value
+
+
+
+
+Fig. 13 Additional SD2. This figure shows the distribution boxplots for population coefficient estimates in
+Model 1 (agglomeration elasticity of wage) produced by various approaches. These are from top to bottom:
+(1) elasticity estimate using municipality-level data, confidence intervals are calculated using the standard
+deviation estimates of the elasticity. (2) Estimates on grids using km15 sizes, confidence interval is created
+using the deviation from the 300 estimates. (3) Estimates on grids using km15 sizes, confidence interval
+takes into account estimation uncertainty of each of the 300 estimates by adding 50 random normal draws:
+N (βikm15 , σikm15 ). (4) Elasticity estimate using micro-region-level data, confidence intervals are calculated
+using the standard deviation estimates of the elasticity. (5) Estimates on grids using km26 sizes, confidence
+interval is created using the deviation from the 300 estimates. (6) Estimates on grids using km26 sizes,
+confidence interval takes into account estimation uncertainty of each of the 300 estimates by adding 50
+random normal draws: N (βikm26 , σikm26 )
+
+
+
+
+                                                                                                  123
+168                                                                            G. Békés, P. Harasztosi
+
+
+
+
+Fig. 14 A realization of 26 × 26 km units (above) and 150 seeded DtB (below)
+
+
+
+
+123
+Grid and shake: Spatial aggregation and the robustness of…                                                169
+
+
+
+
+Fig. 15 Comparison to dots-to-boxes results. This figure shows the exact replication of Fig. 4, and it addi-
+tionally displays DtB results too. It shows the coefficient estimate on population in Model 1 (agglomeration
+elasticity of wage). The thick blue (solid) line gives the point estimate for the municipality estimate. The
+thin blue (solid) line gives the distribution of point estimates over 300 point estimates on the 15 × 15 grid.
+The thick red (dashed) line gives the point estimate for the micro-region estimate. The thin red (dashed) line
+gives the distribution of point estimates over 300 point estimates on the 26 × 26 grid. The very thin dashed
+lines represent the 5% confidentiality thresholds. Additionally, the very thick mint-green (short dash) line
+shows the distribution of point estimates over 300 realizations of Dots-to-boxes spatial arrangements using
+150 seeds
+
+
+
+
+References
+Ács ZJ, Armington C (2004) The impact of geographic differences in human capital on service firm formation
+     rates. J Urban Econ 56(2):244–278
+Amrhein CG (1995) Searching for the elusive aggregation effect: evidence from statistical simulations.
+     Environ Plan A 27(1):105–119
+Amrhein CG, Flowerdew R (1992) The effect of data aggregation on a Poisson regression model of Canadian
+     migration. Environ Plan A 24(10):1381–1391
+Andersson M, Klaesson J, Larsson JP (2016) How local are spatial density externalities? Neighbourhood
+     effects in agglomeration economies. Reg Stud 50(6):1082–1095
+Anselin L (2010) Thirty years of spatial econometrics. Pap Reg Sci 89(1):3–25
+Anselin L, Bera AK (1998) Spatial dependence in linear regression models with an introduction to spatial
+     econometrics. Stat Textb Monogr 155:237–290
+Armington C, Ács ZJ (2002) The determinants of regional variation in new firm formation. Reg Stud
+     36(1):33–45
+Bacher H, Brülhart M (2013) Progressive taxes and firm births. Int Tax Public Finance 20(1):129–168
+Békés G, Harasztosi P (2013) Agglomeration premium and trading activity of firms. Reg Sci Urban Econ
+     43(1):51–64
+Briant A, Combes PP, Lafourcade M (2010) Dots to boxes: do the size and shape of spatial units jeopardize
+     economic geography estimations? J Urban Econ 67(3):287–302
+Burger MJ, van Oort FG, van der Knaap B (2010) A treatise on the geographical scale of agglomeration
+     externalities and the MAUP. Sci Reg 9(1):19–39
+Cainelli G, Montresor S, Vittucci Marzetti G (2014) Spatial agglomeration and firm exit: a spatial dynamic
+     analysis for italian provinces. Small Bus Econ 43(1):213–228
+Ciccone A, Hall RE (1996) Productivity and the density of economic activity. Am Econ Rev 86(1):54–70
+Devereux MP, Griffith R, Simpson H (2007) Firm location decisions, regional grants and agglomeration
+     externalities. J Public Econ 91(3–4):413–435
+Dewhurst J, McCann P (2007) Specialisation and regional size. Edward Elgar, Cheltenham, pp 204–220
+
+
+                                                                                                 123
+170                                                                                G. Békés, P. Harasztosi
+
+
+Dubé J, Brunelle C (2014) Dots to dots: a general methodology to build local indicators using spatial
+     micro-data. Ann Reg Sci 53(1):245–272
+Duranton G, Overman HG (2008) Exploring the detailed location patterns of U.K. manufacturing industries
+     using microgeographic data. J Reg Sci 48(1):213–243
+Fotheringham AS, Wong DS (1991) The modifiable areal unit problem in multivariate statistical analysis.
+     Environ Plan 23(7):1025–1044
+Gobillon L, Milcent C (2013) Spatial disparities in hospital performance. J Econ Geogr 13(6):1013–1040
+Holl A (2004) Transport infrastructure, agglomeration economies, and firm birth: empirical evidence from
+     Portugal. J Reg Sci 44(4):693–712
+Hortaçsu A, Syverson C (2007) Cementing relationships: vertical integration, foreclosure, productivity, and
+     prices. J Polit Econ 115:250–301
+Iyer G, Seetharaman P (2008) Too close to be similar: product and price competition in retail gasoline
+     markets. Quant Mark Econ 6(3):205–234
+Larsson J (2014) The neighborhood or the region? Reassessing the density-wage relationship using geocoded
+     data. Ann Reg Sci 52(2):367–384
+Lychagin S, Pinkse J, Slade ME, Reenen JV (2010) Spillovers in space: does geography matter? NBER
+     working papers 16188, National Bureau of Economic Research, Inc
+Marshall A (1920) Principles of economics. Prometheus Books, New York
+Martin-Barroso D, Nunez Serrano JA, Velazquez FJ (2010) A different look at agglomeration effects in
+     Spain. MPRA Paper 33601. University Library of Munich, Germany
+Melo PC, Graham DJ, Noland RB (2009) A meta-analysis of estimates of urban agglomeration economies.
+     Reg Sci Urban Econ 39(3):332–342
+Menon C (2012) The bright side of MAUP: defining new measures of industrial agglomeration. Pap Reg
+     Sci 91(1):3–28
+Rosenthal SS, Strange WC (2008) The attenuation of human capital spillovers. J Urban Econ 64(2):373–389
+Sutaria V, Hicks DA (2004) New firm formation: dynamics and determinants. Ann Reg Sci 38(2):241–262
+
+
+
+
+123
+

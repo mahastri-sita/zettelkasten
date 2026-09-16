@@ -6,7 +6,7 @@ Prototipe WebGL satu layar untuk memperkenalkan rancangan skripsi tentang integr
 
 ## Membuka demo
 
-Di macOS, klik dua kali `start-demo.command`. Demo akan menjalankan server lokal dan membuka browser secara otomatis. Terminal perlu dibiarkan terbuka selama presentasi; tekan `Control+C` setelah selesai.
+Di macOS, klik dua kali `start_demo.command`. Demo akan menjalankan server lokal dan membuka browser secara otomatis. Terminal perlu dibiarkan terbuka selama presentasi; tekan `Control+C` setelah selesai.
 
 Alternatif dari Terminal:
 
@@ -40,9 +40,9 @@ Klasifikasi mengikuti aturan kerja rancangan: `borrowed size`, `agglomeration sh
 ## Data dan provenance
 
 - Titik `Pusat A–F`, seluruh metrik, dan seluruh arus dibuat khusus sebagai data demo. Nama kota pada basemap hanya membantu orientasi; titik tidak mengklaim delineasi pusat sekunder final.
-- Batas administratif lokal menggunakan geoBoundaries `gbOpen` Indonesia ADM2, boundary ID `IDN-ADM2-22746128`, tahun representasi 2020, lisensi `CC BY 3.0 IGO`. Metadata lengkap tersimpan di `public/data/boundary-metadata.json`. Geometri hanya dipakai sebagai konteks kartografis.
+- Batas administratif lokal menggunakan geoBoundaries `gbOpen` Indonesia ADM2, boundary ID `IDN-ADM2-22746128`, tahun representasi 2020, lisensi `CC BY 3.0 IGO`. Metadata lengkap tersimpan di `public/data/boundary_metadata.json`. Geometri hanya dipakai sebagai konteks kartografis.
 - Basemap menggunakan gaya Positron dari OpenFreeMap, dengan data OpenStreetMap/OpenMapTiles dan atribusi tetap tersedia pada peta. Basemap memerlukan internet; bila tile gagal, batas lokal dan seluruh layer demo tetap ditampilkan.
-- Rujukan substantif utama adalah PDF Bab 1–3 yang berada satu tingkat di atas folder prototipe. PDF dan catatan riset lain tidak diubah.
+- Rujukan substantif utama adalah `../naskah/kompilasi/bab_1_3_skenario_metodologis_dasar_teori_penelitian_terdahulu_dan_metode_penelitian_printable.pdf`. PDF dan catatan riset lain tidak diubah.
 
 ## Teknologi dan batas performa
 
@@ -53,4 +53,3 @@ Build produksi terakhir dapat dibuat ulang dengan:
 ```bash
 npm run build
 ```
-

@@ -2,7 +2,7 @@
 
 > **Status:** panduan kerja dan kumpulan templat komunikasi. Templat tidak perlu disalin kata demi kata. Sesuaikan isinya dengan hubungan, kanal, dan kebiasaan penerima.
 >
-> **Dasar penyesuaian:** [[Pemetaan Dosen dan Riset-Compass PWK]], [[Roadmap Skripsi TGA - Borrowed Size dan Agglomeration Shadow Jakarta]], serta kebutuhan komunikasi administratif mahasiswa.
+> **Dasar penyesuaian:** [[output/panduan/pemetaan_dosen_dan_riset_compass_pwk|Pemetaan Dosen dan Riset-Compass PWK]], [[output/panduan/roadmap_skripsi_tga_borrowed_size_dan_agglomeration_shadow_jakarta|Roadmap Skripsi TGA - Borrowed Size dan Agglomeration Shadow Jakarta]], serta kebutuhan komunikasi administratif mahasiswa.
 >
 > **Aturan umum:** tidak menggunakan pembuka "Assalamualaikum". Setiap kelompok memiliki contoh untuk percakapan langsung dan WhatsApp. Contoh email hanya tersedia untuk urusan administrasi akademik DTAP.
 
@@ -857,3 +857,82 @@ Gunakan tabel berikut secara ringkas. Jangan menyimpan informasi pribadi yang ti
 - Jika beliau menetapkan kanal, waktu, format berkas, atau sapaan tertentu, ikuti kebiasaan tersebut.
 - Selalu periksa aturan DTAP, jadwal TGA, formulir, dan syarat pendaftaran melalui kanal resmi terbaru.
 - Panduan ini tidak menggantikan keputusan dosen pembimbing, administrasi akademik, atau kanal resmi TGA.
+
+# Chat
+
+Assalamu'alaikum wr. wb. 
+Selamat pagi, Pak Retno. Perkenalkan saya Mahastri Laksita, mahasiswa PWK angkatan 22. Saya ingin meminta bapak menjadi pembimbing Pra-TA untuk semester ini bapak, sebelumnya saya meminta maaf tidak lulus Pra-TA tahun lalu dan tidak berkabar ke Bapak. 
+
+Judul saya mengenai [insert] dan sudah membuat ringkasan satu halaman yang berisi masalah, pertanyaan, metode awal, serta kebutuhan data. Apakah saya boleh mengirimkannya dan meminta waktu untuk berdiskusi tentang kemungkinan bimbingan? Saya berharap bisa bertemu bapak di dtap dan menjelaskan Pra-TA saya secara tatap muka jika Pak Retno berkenan.
+
+Terima kasih, Pak
+
+bubble chat
+pertama
+- intro
+- alasan tertarik mau dibimbing bapaknya
+
+kedua
+- abstrak sejauh mana
+- ketertarikan saya 
+- willing to explore lagi jika diterima 
+
+----
+**Peranmu:** Peneliti asisten yang _evidence-based_ di bidang Urban Planning/Urban Design/Plannology (PWK).  
+**Tujuan:** Dari sumber yang kuberikan, buat pemetaan menyeluruh tentang dosen pembimbing (minat, lensa teori, metode, jaringan, gaya bimbing, dsb.) **serta** turunkan _riset-compass_ (orientasi nilai yang relevan untuk kerja akademik atau bahkan perkiraan preferensi politik pribadi). Semua klaim harus ditopang bukti kutipan/tautan.
+
+**Subjek & Sumber Utama**  
+Nama: `{retno widodo dwi pramono, s.t., m.sc., ph.d.}`  
+URL inti ([https://archiplan.ugm.ac.id/id/dosen-program-pwk/], [https://acadstaff.ugm.ac.id/Widodo], [https://prisma.simaster.ugm.ac.id/Widodo#course], [https://prisma.simaster.ugm.ac.id/Widodo#prisma], [https://prisma.simaster.ugm.ac.id/Widodo#prisma], [https://prisma.simaster.ugm.ac.id/Widodo#prisma], [acadstaff.ugm.ac.id/Widodo#], [https://scholar.google.com/citations?user=MA-Ri3AAAAAJ&hl=en], [https://www.researchgate.net/profile/Retno-Pramono])    
+
+Catatan: bisa ambil dari sumber di luar ini, jika dirasa butuh tambahan info!
+
+---
+## Langkah Kerja (ikuti berurutan)
+
+1. **Koleksi & ringkas** 3–7 publikasi/aktivitas **terbaru** (≤5 tahun) yang paling relevan: judul, tahun, outlet, peran (PI/co-author), _topic_, _theory_, _method_, _data_, _geografi/level skala_ (tapak–kota–regional), _temuan kunci_.
+2. **Ekstraksi kata kunci** (top-15, dikelompokkan): _tema_ (TOD, perumahan, mobilitas aktif, NBS, heritage, resilience, smart city, informalitas, dsb.), _kerangka teori_ (Just City, Right to the City, New Urbanism, Landscape Urbanism, governance, dll.), _metode_ (GIS/spatial analysis, AHP/MCDA, Space Syntax, SEM/ML, ABM, PPGIS/FGD, etnografi, policy analysis, mixed).
+3. **Peta metode & data favorit** (frekuensi): desain (eksperimen/survei/studi kasus/etnografi/mixed), analitik (regresi/SEM/ML, network/space syntax), partisipatif (PPGIS, FGD, Delphi), sumber data (BPS, OSM, citra satelit, mobilitas, scraping, arsip kebijakan, survei lapangan).
+4. **Lensa epistemologis & kerangka**: positivis/empiris vs interpretif/kritis; teori yang konsisten dipakai/dikutip.
+5. **Jaringan & kolaborasi**: co-author berulang, lab/center, mitra pemerintah/NGO, akses data khas.
+6. **Target outlet & standar kualitas**: jurnal/konferensi sasaran, style (kuant rigour vs naratif kual), kedalaman analisis.
+7. **Pendanaan & agenda** (jika ada): skema hibah, tema prioritas.
+8. **Gaya bimbing & ekspektasi** Bisa anda perkirakan jika tidak ada 
+9. **Keterbatasan praktis**: akses instrumen/data, ketersediaan waktu, periode sibuk.
+---
+## Riset-Compass (bukan label politik pribadi)
+
+Untuk tiap sumbu di bawah, posisikan pada skala **−2 … +2** (bukti wajib), + **Confidence** (Low/Med/High):
+
+- **Equity ↔ Efficiency** (keadilan/spatial justice vs efisiensi ekonomi)
+- **Participatory ↔ Technocratic** (PPGIS/FGD/CBPR vs expert-driven/teknokratik)
+- **State-led ↔ Market-led** (preferensi kebijakan/pendekatan implementasi)
+- **Conservation/Heritage ↔ Redevelopment**
+- **Nature-based ↔ Grey infrastructure**
+- **Interpretive/Critical ↔ Positivist/Empirical**
+- **Low-tech/Community ↔ Smart-city/High-tech**
+- **Epistemik** (konstruktivis/interpretif ↔ positivis/empiris)
+- **Sikap terhadap risiko & ketidakpastian** (berani eksplor ↔ konservatif metodologis) 
+
+> Untuk setiap sumbu: 2–3 bullet penjelasan kenapa skornya demikian.
+
+---
+
+## Keluaran yang Harus Dibuat
+
+1. **Executive Summary** (≤120 kata) — gambaran minat, metode andalan, dan 2–3 implikasi untuk strategi judul skripsi.
+2. **Advisor Map (9 komponen)** — dalam tabel ringkas.
+3. **Riset-Compass** — daftar sumbu + skor
+4. **Judul Skripsi yang “Match” (3 opsi)** — format:
+    - _[Fenomena/Objek] + [Konteks] + [Kerangka] + [Metode/Data] + [Tujuan/kontribusi]_
+    - Sertakan **alasan kecocokan** (2–3 kalimat) & **tingkat risiko** (waktu/data).
+5. **Fit Matrix (skor 1–5)** untuk tiap judul: Kesesuaian topik | metode | ketersediaan data | nilai kontribusi | risiko timeline.
+
+**Format Output**
+- Gunakan heading jelas, tabel untuk Advisor Map & Fit Matrix, bullet untuk bukti.
+- Cantumkan tautan langsung (URL) pada setiap referensi/bukti.
+- Jika bukti tidak memadai untuk suatu sumbu/komponen, tulis: _“Belum terverifikasi (butuh sumber tambahan: …)”_.
+
+**Gaya & Kualitas**
+- Ringkas, spesifik, tidak spekulatif.
+- Bahasa Indonesia, istilah teknis PWK OK.

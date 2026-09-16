@@ -1,0 +1,1114 @@
+[PDF Metadata]
+Source PDF: working-paper/C02-widita-ahmad-2026-urban-cannibalism-expanding-agglomeration-shadow-to-function-extraction-in-arrested-transition-10.31235-osf.io-brxn3_v1.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Urban Cannibalism: Expanding Agglomeration Shadow to Function Extraction in Arrested Transition
+Subject:         SocArXiv preprint, Version 1, 2026. DOI: 10.31235/osf.io/brxn3_v1
+Keywords:        agglomeration shadow; urban cannibalism; arrested transition; functional polycentricity; cannibalism index; Gerbangkertosusila; DOI: 10.31235/osf.io/brxn3_v1
+Author:          Mahastri Laksita Sam Widita; Raisal Ahmad
+Creator:         LaTeX with hyperref
+Producer:        LuaTeX-1.24.0
+CreationDate:    Wed Jun 10 21:58:01 2026 WIB
+ModDate:         Wed Jun 10 21:58:01 2026 WIB
+Custom Metadata: yes
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           27
+Encrypted:       no
+Page size:       595.276 x 841.89 pts (A4)
+Page rot:        0
+File size:       10719984 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+SocArXiv                                     SocArXiv
+                                              Preprint : June 10, 2026
+
+
+
+               Urban Cannibalism:
+    Expanding Agglomeration Shadow to Function
+         Extraction in Arrested Transition
+
+             Mahastri L.S. Widita                               Raisal Ahmad
+              Independent Researcher                        Independent Researcher
+
+
+
+                                             Abstract
+         Indonesia’s metropolitan connectivity infrastructure, which is premised on equitable
+     development, operates in reverse. In Gerbangkertosusila, the regency closest to Surabaya
+     grew the slowest, as seen in Bangkalan after the opening of the Suramadu Bridge. The
+     agglomeration shadow literature (Meijers and Burger 2010) explains why metropolitan
+     peripheries grow slowly but does not distinguish transitional shadows from structural,
+     extractive ones. Friedmann’s (1966) spatial evolution model assumes a phase transition
+     that, in this case, has stalled. This paper introduces the concept of cannibalism to name
+     the active-extractive mode of agglomeration shadow that emerges when a metropolitan
+     system is trapped in arrested transition, and operationalizes it through the Cannibalism
+     Index, the ratio of external pull to local strength, computed across 149 H3 hexagons with
+     a Newton–Reilly gravity model built on OpenStreetMap Point of Interest data and O’Sul-
+     livan’s urbanization economies framework, then supplemented by Location Quotient and
+     Shift-Share analyses of sectoral GRDP. Results show seven Agglomeration Core hexagons,
+     all concentrated in Surabaya City; no Independent Hub emerges outside the core, and
+     sixteen Shadow Zone hexagons mark areas vulnerable to cannibalization. A three-way
+     distance-decay test on Bangkalan, Mojokerto, and Lamongan finds that distance protects
+     peripheries from core pull but does not build internal functional strength. The Mojok-
+     erto case study reveals a function-extractive split: industry settles in the regency through
+     Ngoro Industrial Park, while the professional services that should accompany it remain in
+     Surabaya. Gerbangkertosusila is more accurately classified as a polynuclear monocentric
+     region in arrested transition than a mature polycentric system. This diagnosis carries
+     direct planning implications: connectivity without functional deconcentration is not a
+     strategy for empowering peripheries but a state-facilitated extraction mechanism.
+
+Keywords: agglomeration shadow, urban cannibalism, arrested transition, functional polycen-
+tricity, cannibalism index, Gerbangkertosusila.
+2                                    Urban Cannibalism
+
+
+                                        Abstrak
+Infrastruktur konektivitas metropolitan Indonesia, yang dilandasi janji pemerataan pemba-
+ngunan, beroperasi terbalik: di Gerbangkertosusila, kabupaten yang paling dekat dengan
+Kota Surabaya justru tumbuh paling lambat, sebagaimana tampak pada Bangkalan pasca-
+pembukaan Jembatan Suramadu. Literatur agglomeration shadow (Meijers and Burger 2010)
+menjelaskan mengapa pinggiran metropolitan tumbuh lambat, tetapi tidak membedakan ba-
+yangan yang bersifat transisional dari bayangan yang struktural dan ekstraktif; model evolusi
+spasial Friedmann (1966) pun mengandaikan transisi antarfase yang dalam kasus ini macet.
+Paper ini memperkenalkan konsep cannibalism untuk menamai mode aktif-ekstraktif dari
+agglomeration shadow yang muncul ketika sistem metropolitan terjebak dalam arrested tran-
+sition, lalu mengoperasionalkannya melalui Cannibalism Index, yaitu rasio external pull ter-
+hadap local strength yang dihitung pada 149 unit heksagon H3 menggunakan model gravitasi
+Newton–Reilly, data Point of Interest OpenStreetMap, dan kerangka urbanization economies
+O’Sullivan, dilengkapi analisis Location Quotient dan Shift-Share atas PDRB sektoral. Hasil
+menunjukkan tujuh heksagon Agglomeration Core seluruhnya terkonsentrasi di Kota Suraba-
+ya dan tidak satu pun Independent Hub tumbuh di luar inti, sementara enam belas heksagon
+Shadow Zone menandai zona yang rentan terkanibal. Pengujian distance-decay tiga arah pa-
+da Bangkalan, Mojokerto, dan Lamongan menemukan bahwa jarak melindungi pinggiran dari
+tarikan inti tetapi tidak menumbuhkan kekuatan fungsional internal. Studi kasus Mojoker-
+to memperlihatkan function-extractive split: industri menetap di kabupaten melalui Ngoro
+Industrial Park, sedangkan jasa profesional yang seharusnya menyertainya tetap berada di
+Kota Surabaya. Karena itu, Gerbangkertosusila lebih tepat diposisikan sebagai polynucle-
+ar monocentric region in arrested transition daripada sistem polisentris matang. Diagnosis
+ini berimplikasi langsung pada perencanaan: konektivitas tanpa dekonsentrasi fungsional
+bukanlah strategi pemberdayaan pinggiran melainkan mekanisme ekstraksi yang difasilitasi
+negara.
+Kata Kunci: agglomeration shadow, urban cannibalism, arrested transition, polisentrisme
+fungsional, cannibalism index, Gerbangkertosusila
+
+
+                               1. Pendahuluan:
+                          Ironi Jembatan Suramadu
+Pada 2009, Jembatan Suramadu diresmikan dengan harapan eksplisit dari pemerintah pusat:
+membuka isolasi Madura, menjadikan Bangkalan pintu gerbang ekonomi baru, dan mendis-
+tribusikan pertumbuhan dari Kota Surabaya ke pulau seberangnya. Satu dekade kemudian,
+data Produk Domestik Regional Bruto (PDRB) menyimpan pembalikan yang tidak dian-
+tisipasi. Bangkalan, kabupaten yang paling dekat dengan Kota Surabaya pascajembatan,
+mencatat pertumbuhan ekonomi 6,29% per tahun, terendah di antara tiga kabupaten Madu-
+ra. Pamekasan, yang berjarak hampir 100 kilometer lebih jauh dari Kota Surabaya, tumbuh
+lebih cepat (6,69%); Sumenep, lebih jauh lagi, tumbuh 6,36%. Kabupaten yang lebih dekat
+dengan inti metropolitan justru tumbuh lebih lambat dari yang lebih jauh.
+Pola ini bukan anomali statistik. Studi akademik pasca-Suramadu (Efendi 2013) mendoku-
+mentasikan peningkatan signifikan Izin Mendirikan Bangunan dan munculnya delapan pe-
+ngembang real estat baru di Bangkalan. Sementara itu, sektor jasa profesional, perbankan
+korporat, dan layanan tingkat tinggi yang seharusnya mengikuti konektivitas justru tetap
+tersentralisasi di Kota Surabaya. Jembatan yang dirancang sebagai infrastruktur kemajuan
+                                         SocArXiv                                           3
+
+
+beroperasi sebagai pipa penghisap, menyerap tenaga kerja dan konsumsi Bangkalan ke Kota
+Surabaya tanpa memberi imbalan kemandirian fungsional.
+Episode Suramadu menyingkap kontradiksi yang lebih luas dalam pembangunan metropo-
+litan Indonesia. Selama dua dekade, kebijakan dekonsentrasi telah memindahkan industri
+keluar dari Kota Surabaya: Ngoro Industrial Park di Kabupaten Mojokerto, JIIPE di Gresik,
+kawasan industri Sidoarjo. Secara morfologi, Gerbangkertosusila kini tampak polycentric:
+pusat-pusat industri tersebar di pinggiran. Namun secara fungsional, kekuatan yang menen-
+tukan kemandirian sebuah kota (jasa profesional, kantor pusat, konsultan teknis, layanan
+tingkat tinggi) tetap tersentralisasi di Kota Surabaya. Literatur agglomeration shadow (Mei-
+jers and Burger 2010) menjelaskan mengapa kota kecil dekat metropolitan besar tumbuh lebih
+lambat dari yang seharusnya, tetapi tidak membedakan shadow transisional dari shadow yang
+struktural dan patologis. Friedmann (1966) menyediakan model evolusi spasial empat fase,
+tetapi mengasumsikan transisi alamiah yang dalam kasus Gerbangkertosusila justru macet.
+Paper ini memperluas literatur tersebut dengan memperkenalkan istilah cannibalism untuk
+menamai lapisan ekstraktif aktif yang muncul ketika agglomeration shadow bertemu dengan
+kondisi arrested transition. Mengikuti distingsi Hall and Pain (2006) antara polisentrisme
+morfologis dan polisentrisme fungsional, serta kriteria Meijers (2008) tentang polynuclear
+vs polycentric urban region, Gerbangkertosusila menempati posisi antara fase 2 (Periphery
+Dependence) dan fase 3 (Industrial Dispersion) model Friedmann: dekonsentrasi spasial telah
+terjadi, tetapi dekonsentrasi fungsional belum. Dalam kondisi ini, infrastruktur konektivitas
+yang seharusnya memberdayakan pinggiran justru beroperasi sebagai saluran penyerapan.
+Konsep ini dioperasionalkan melalui Cannibalism Index berbasis model gravitasi heksagonal
+yang mengintegrasikan kerangka urbanization economies O’Sullivan ke dalam satuan analisis
+subkota.
+Paper ini menggunakan Gerbangkertosusila, wilayah metropolitan yang mencakup tujuh ka-
+bupaten/kota di Provinsi Jawa Timur (Kota Surabaya, Kabupaten Sidoarjo, Kabupaten Gre-
+sik, Kabupaten Lamongan, Kabupaten Mojokerto, Kota Mojokerto, dan Kabupaten Bang-
+kalan), sebagai laboratorium empiris untuk menguji konsep cannibalism. Tiga kontribusi
+diajukan secara bersamaan. Pertama, secara teoretis, agglomeration shadow diperluas de-
+ngan menamai dimensi aktif-patologis ekstraksi fungsional yang sebelumnya tidak dibedakan
+dari shadow transisional. Kedua, secara metodologis, Cannibalism Index (rasio external pull
+terhadap local strength yang dapat diukur pada unit heksagon H3) mengoperasionalkan ka-
+nibalisme pada skala intra-metropolitan, skala yang tidak tertangkap oleh kerangka Sassen,
+Florida, atau GaWC (Sassen 2015; Florida 2005; Beaverstock et al. 1999). Ketiga, secara
+empiris, ditunjukkan bahwa Gerbangkertosusila lebih akurat diposisikan sebagai polynuclear
+monocentric region in arrested transition daripada sistem polycentric matang seperti yang
+diklasifikasikan studi terdahulu (Putra and Salim 2022). Diagnosis ini membawa implikasi
+langsung: kerangka koordinasi antaryurisdiksi yang mengasumsikan kemandirian subpusat
+tidak cukup untuk menangani kondisi struktural Gerbangkertosusila.
+Bagian berikut menyusun argumen dalam tujuh langkah. Bagian 2 memperluas kerangka
+teoretis dari Meijers & Burger dan Friedmann ke arah konsep cannibalism. Bagian 3 me-
+maparkan spesifikasi Cannibalism Index. Empat bagian empiris kemudian menyajikan pola
+spasial regional (Bagian 4), pengujian distance-decay tiga arah pada Bangkalan, Mojoker-
+to, dan Lamongan (Bagian 5), studi kasus Mojokerto sebagai mekanisme function-extractive
+cannibalism (Bagian 6), dan validasi Bangkalan dalam konteks paradoks Suramadu (Bagi-
+an 7). Diskusi dan penutup pada Bagian 8 mengonsolidasikan temuan dengan klasifikasi
+4                                 Urban Cannibalism
+
+
+Gerbangkertosusila yang baru.
+
+
+
+
+Gambar 1: Ekspektasi Infrastruktur Suramadu. Panel A: ekspektasi pembangunan wilayah
+Bangkalan; Panel B: realita empiris.
+                                         SocArXiv                                           5
+
+
+
+
+Gambar 2: PDRB inversi Madura pasca-Suramadu: Bangkalan 6,29%, Pamekasan 6,69%,
+Sumenep 6,36%. Kabupaten terdekat ke Kota Surabaya tumbuh paling lambat. (Sumber:
+Efendi 2013)
+
+
+                      2. Kerangka Teoretis:
+            Dari Agglomeration Shadow ke Cannibalism
+Konsep agglomeration shadow yang dikembangkan oleh Meijers and Burger (2010) memberi
+penjelasan teoretis yang elegan untuk fenomena yang lama diamati dalam ekonomi spasial:
+kota-kota kecil yang berdekatan dengan metropolitan besar cenderung tumbuh lebih lambat
+dari yang seharusnya. Argumen mereka mengikuti logika Christaller dan Lösch (Christaller
+1933; Lösch 1954): tarikan pasar dan ekonomi aglomerasi yang kuat dari pusat utama me-
+nahan munculnya pusat-pusat sekunder yang setara di wilayah pinggiran. Sebelum Meijers
+dan Burger, Myrdal (1957) telah memperkenalkan konsep backwash effect yang serupa pada
+level makroekonomi nasional: pertumbuhan terkonsentrasi di pusat akan menyedot tenaga
+kerja, modal, dan kapasitas inovasi dari pinggiran, alih-alih merembet ke pinggiran melalui
+trickle-down. Friedmann (1966) kemudian mengintegrasikan logika ini ke dalam model evolusi
+spasial empat fase yang menjadi rujukan standar dalam perencanaan regional.
+Model Friedmann mengasumsikan transisi alamiah antarfase. Pada fase 1 (Pre-industrial),
+banyak pusat lokal kecil beroperasi secara relatif independen. Pada fase 2 (Transitional/Per-
+iphery Dependence), satu pusat dominan muncul dan pinggiran berstruktur untuk melayani
+pusat ini sebagai pemasok bahan mentah, tenaga kerja, dan lahan. Pada fase 3 (Industrial
+Dispersion), pinggiran mulai membangun kapasitas mandiri dan muncul subpusat baru yang
+mampu menantang sentralitas pusat utama. Pada fase 4 (Functional Integration), sistem
+polycentric matang terbentuk dengan beberapa pusat yang setara dan saling melengkapi.
+Namun, transisi ini tidak selalu otomatis. Hall and Pain (2006) serta Meijers (2008) menun-
+jukkan bahwa banyak wilayah metropolitan di Asia dan Eropa Timur memperlihatkan apa
+yang mereka sebut sebagai polynuclear monocentric region: wilayah dengan beberapa pusat
+6                                      Urban Cannibalism
+
+
+secara morfologi (bangunan, fasilitas, infrastruktur), tetapi tetap monocentric secara fung-
+sional (jasa profesional, modal finansial, kontrol korporasi tersentralisasi di satu pusat). Dis-
+tingsi ini penting: morphological polycentricity tidak sama dengan functional polycentricity.
+Sebuah kawasan industri yang dibangun di pinggiran tidak otomatis menghasilkan subpusat
+fungsional jika fungsi pengambilan keputusan dan layanan tingkat tinggi tetap berada di inti.
+
+
+
+
+Gambar 3: Sebaran POI urbanized Gerbangkertosusila: jasa profesional (Mecon ) terpusat di
+Kota Surabaya, pinggiran hanya memuat fasilitas sosial (Msocial ) yang tersebar jarang.
+
+Agglomeration shadow yang dideskripsikan Meijers dan Burger mengasumsikan kondisi pa-
+sif: pinggiran tumbuh lambat karena ada di bawah bayangan inti. Kondisi ini bersifat netral,
+kadang transisional (menuju fase 3 Friedmann), kadang struktural (pinggiran tetap dalam
+posisi subordinatif tanpa indikasi transisi). Literatur saat ini tidak membedakan keduanya.
+Paper ini mengusulkan istilah cannibalism untuk menamai mode aktif dan struktural dari ag-
+glomeration shadow yang muncul ketika sistem metropolitan terjebak dalam kondisi arrested
+transition. Dalam mode ini, infrastruktur konektivitas yang dirancang untuk memberdayak-
+an pinggiran (jalan tol, jembatan, jaringan kereta cepat) beroperasi sebagai saluran ekstraksi
+fungsional. Tenaga kerja, konsumsi, dan investasi yang seharusnya tumbuh di subpusat jus-
+tru mengalir kembali ke inti. Istilah cannibalism memang membawa konotasi normatif: ia
+menamai proses yang merugikan pinggiran secara struktural, melampaui sekadar pola spasial.
+Istilah ini tetap setia pada deskripsi Friedmann dan Meijers & Burger; fungsinya menamai
+konsekuensi distributif yang muncul ketika transisi fase tidak berlanjut secara organik.
+Operasionalisasi konsep cannibalism membutuhkan kerangka yang dapat mengukur functio-
+nal centrality pada skala intra-metropolitan. Kerangka advanced producer services Sassen
+(2015), creative class Florida (2005), dan world city network Beaverstock et al. (1999) telah
+                                        SocArXiv                                              7
+
+
+
+
+Gambar 4: Dari agglomeration shadow yang pasif (Meijers and Burger 2010) ke cannibalism
+yang aktif-patologis (paper ini).
+
+
+
+
+Gambar 5: Polisentrisme morfologis versus fungsional (Hall and Pain 2006): kawasan industri
+tersebar di pinggiran, jasa profesional tetap di Kota Surabaya.
+8                                     Urban Cannibalism
+
+
+memberi perangkat konsep yang luas untuk memahami hierarki fungsional kota, tetapi se-
+muanya beroperasi pada level kota global atau regional makro. Mereka tidak menyediakan
+kerangka mekanisme mikro yang dapat dioperasionalkan pada unit subkota dalam satu wi-
+layah metropolitan. Sebaliknya, kerangka urbanization economies O’Sullivan (1996) bekerja
+pada level mekanisme mikro yang relevan dengan analisis ini: input sharing, labor pooling,
+labor matching, dan knowledge spillovers. Setiap kantor pengacara, akuntan, konsultan IT,
+atau bank di wilayah perkotaan adalah manifestasi fisik dari mekanisme tersebut. Karena
+setiap titik POI dapat ditarik kembali ke salah satu mekanisme O’Sullivan, kerangka ini
+kompatibel dengan analisis berbasis Point of Interest yang menjadi fondasi data Cannibalism
+Index.
+Pada level model matematis, naskah ini menggunakan model gravitasi klasik Newton–Reilly
+(Reilly 1931). Model Huff Probabilistic (Huff 1964) sebenarnya lebih ideal untuk menangkap
+kompetisi destinasi dan probabilitas pangsa pasar; namun, implementasinya membutuhkan
+data aliran (origin-destination flow) yang tidak tersedia secara publik untuk wilayah Ger-
+bangkertosusila. Polarization Hirschman (1958) yang sering disinggung dalam diskusi pem-
+bangunan regional tidak menyediakan kerangka spasial yang dapat dioperasionalkan pada
+skala intra-metropolitan; istilahnya lebih berkaitan dengan disparitas antarnegara atau antar-
+kawasan ekonomi makro. Model gravitasi klasik dipilih karena kompatibilitas matematisnya
+dengan unit heksagon dan ketersediaan data POI dari OpenStreetMap, dengan keterbatasan
+yang diakui secara eksplisit pada Bagian 3.
+
+
+             3. Spesifikasi Model dan Cannibalism Index
+Wilayah studi adalah Gerbangkertosusila, wilayah metropolitan yang ditetapkan sebagai Ka-
+wasan Strategis Nasional (Republik Indonesia 2022) mencakup Kota Surabaya beserta enam
+kabupaten/kota di sekitarnya: Kabupaten Sidoarjo, Kabupaten Gresik, Kabupaten Lamong-
+an, Kabupaten Mojokerto, Kota Mojokerto, dan Kabupaten Bangkalan. Unit analisis di-
+tetapkan pada satuan heksagon H3 resolusi 7 (∼5 km2 per heksagon) menggunakan sistem
+indeks geospasial Uber H3. Pemilihan unit heksagonal (bukan unit administratif seperti keca-
+matan atau kelurahan) didasarkan pada tiga pertimbangan. Pertama, heksagon menyediakan
+unit dengan luas dan geometri yang seragam, sehingga membebaskan analisis dari heteroge-
+neitas batas administrasi. Kedua, skala 5 km2 sesuai dengan karakteristik aglomerasi jasa
+profesional yang biasanya beroperasi dalam radius pedestrian (1–2 km dari pusat aktivitas).
+Ketiga, heksagon kompatibel secara matematis dengan model gravitasi karena setiap centro-
+id dapat diperlakukan sebagai titik dengan koneksi seragam ke enam tetangga. Heksagon
+yang melintasi batas administrasi diatribusikan ke wilayah dengan luas dominan. Setelah
+penyaringan pada heksagon yang mengandung minimal satu POI dari kategori yang relevan,
+analisis akhir mencakup 149 heksagon.
+Setiap heksagon dikarakterisasi oleh dua variabel massa yang menangkap dimensi berbeda
+dari daya tarik aglomerasi. Massa ekonomi (Mecon ) mengukur konsentrasi jasa-jasa profesio-
+nal yang menjadi indikator urbanization economies O’Sullivan: kantor pengacara, konsultan,
+akuntan, IT, telekomunikasi, periklanan, bank, dan asuransi. Massa sosial (Msocial ) meng-
+ukur konsentrasi fasilitas publik tingkat tinggi yang menjadi indikator daya tarik populasi:
+rumah sakit, universitas, mal, dan department store. Tabel 1 menyajikan bobot yang ditu-
+gaskan pada setiap kategori POI berdasarkan hierarki ambang batas Christaller (Christaller
+1933): kantor pengacara dan konsultan (bobot 3) memerlukan basis populasi terbesar untuk
+                                            SocArXiv                                           9
+
+
+menjadi viable; bank dan asuransi (bobot 1,5) dapat beroperasi pada basis populasi lebih ke-
+cil. Untuk fasilitas sosial, rumah sakit (bobot 4) dan universitas (bobot 3) memiliki ambang
+batas paling tinggi.
+
+   Tabel 1: Bobot POI berdasarkan hierarki ambang batas Christaller (Christaller 1933)
+
+               Kategori POI                            Tipe massa            Bobot
+               Pengacara, Konsultan, Akuntan           Primer (Mecon )         3
+               IT, Telekomunikasi, Periklanan          Primer (Mecon )         2
+               Bank, Asuransi                          Primer (Mecon )        1,5
+               Rumah Sakit                             Sekunder (Msocial )     4
+               Universitas                             Sekunder (Msocial )     3
+               Mal, Department Store                   Sekunder (Msocial )     2
+
+Mecon menghitung volume POI berbobot sekaligus menyesuaikannya dengan diversitas kate-
+gori melalui Shannon Entropy (Ei ). Heksagon dengan 30 cabang bank (satu kategori) memi-
+liki daya tarik aglomerasi yang berbeda dari heksagon dengan 30 kombinasi bank, konsultan,
+IT, dan pengacara. Diversitas kategori menandakan knowledge spillovers dan input sharing
+yang lebih kaya, mekanisme inti urbanization economies. Formula akhir Mecon adalah:
+                                                                
+                                  X
+                    Mecon,i =              Countk · W eightk  × (1 + Ei )              (1)
+                                k∈Primary
+
+dengan Ei = Shannon Entropy yang dihitung dari proporsi tiap kategori POI primer dalam
+heksagon i:
+
+                                                n
+                                                X
+                                       Ei = −         Pp ln Pp                           (2)
+                                                p=1
+
+dengan Pp = proporsi POI kategori p terhadap total POI primer di heksagon i. Msocial meng-
+gunakan formula yang lebih sederhana karena fasilitas sekunder umumnya tidak menunjukkan
+dinamika spillovers yang sama:
+                                          X
+                         Msocial,i =                  Countm · W eightm                  (3)
+                                       m∈Secondary
+
+External pull (Pext,i ) mengukur sejauh mana heksagon i ditarik oleh massa heksagon lain di
+Gerbangkertosusila. Mengikuti formulasi gravitasi klasik Newton–Reilly:
+
+                                                   X Mj
+                                        Pext,i =         β
+                                                                                         (4)
+                                                   j6=i dij
+
+Pada persamaan ini, Mj = Mecon,j +Msocial,j adalah massa total heksagon j (menggabungkan
+daya tarik ekonomi dan sosial sebagai sumber tarikan), dij adalah jarak tempuh (travel time,
+dalam menit) antara centroid heksagon i dan j, dan β = 2 adalah parameter distance decay.
+Jarak tempuh diekstrak dari jaringan jalan OpenStreetMap menggunakan library OSMnx;
+10                                      Urban Cannibalism
+
+
+pemilihan travel time alih-alih jarak Euclidean didasarkan pada dua alasan. Pertama, di Ko-
+ta Surabaya dan Sidoarjo kemacetan menyebabkan jarak Euclidean tidak representatif untuk
+waktu interaksi sebenarnya. Kedua, Kabupaten Bangkalan terpisah dari Kota Surabaya oleh
+laut yang dihubungkan jembatan Suramadu, sehingga jarak Euclidean memberikan estimasi
+yang menyesatkan. Penggunaan β = 2 mengikuti benchmark Newtonian dan diasumsikan se-
+suai untuk karakteristik pergerakan yang didorong oleh jasa profesional; kalibrasi β dari data
+perilaku perjalanan lokal berada di luar lingkup naskah ini dan diakui sebagai keterbatasan.
+Local strength (Li ) mengukur kapasitas internal heksagon untuk beroperasi sebagai pusat
+fungsional mandiri. Karena kemandirian fungsional sejati ditentukan oleh ekosistem jasa
+profesional (urbanization economies), bukan oleh fasilitas sosial yang sekadar melayani popu-
+lasi, Li disetarakan dengan massa ekonomi:
+                                                                 
+                                       X
+                  Li = Mecon,i =                Countk · W eightk  × (1 + Ei )           (5)
+                                     k∈Primary
+
+Sebuah heksagon karena itu dianggap “kuat” hanya bila memiliki konsentrasi jasa profesional
+yang beragam. Konsekuensinya, kawasan dengan rumah sakit atau mal besar tetapi tanpa
+ekosistem jasa profesional tidak dihitung sebagai pusat yang mandiri secara fungsional; fasi-
+litas sosial tersebut tetap berkontribusi pada massa penarik Mj , tetapi tidak pada kekuatan
+lokal Li .
+Cannibalism Index (CIi ) didefinisikan sebagai rasio tekanan eksternal terhadap kekuatan
+internal:
+
+                                                   Pext,i
+                                         CIi =                                             (6)
+                                                   Li + 1
+Penambahan +1 pada penyebut menghindari pembagian dengan nol untuk heksagon dengan
+Li = 0. CI tinggi menandakan heksagon dengan tekanan eksternal kuat dibandingkan kapa-
+sitas internalnya, yaitu heksagon yang rentan terkanibal. Sebaliknya, CI rendah menandakan
+heksagon yang relatif mandiri (kapasitas internal kuat) atau terisolasi (tarikan eksternal ren-
+dah).
+Untuk klasifikasi tipologi, Li dan Pext masing-masing dinormalisasi dan dibagi menjadi tiga
+kelas (rendah / sedang / tinggi) menggunakan Jenks natural breaks. Karena Pext berdistribusi
+sangat right-skewed akibat mekanika gravitasi (sel di dekat massa besar memperoleh tarik-
+an yang melonjak), nilainya ditransformasi logaritmik terlebih dahulu sebelum klasifikasi.
+Pemilihan natural breaks, alih-alih tertile/quantile yang memaksa proporsi sama antarkelas,
+penting karena distribusi Li memiliki konsentrasi besar pada nilai nol (banyak heksagon tanpa
+jasa profesional sama sekali); natural breaks menempatkan heksagon bernilai nol pada kelas
+terendah secara wajar, sementara tertile akan memaksa sebagian di antaranya naik kelas se-
+cara artifisial. Matriks 3 × 3 menghasilkan sembilan tipologi heksagon, dengan empat tipologi
+utama yang menjadi fokus interpretasi: (a) Agglomeration Core (Li tinggi, Pext tinggi), heksa-
+gon yang kuat sekaligus menjadi pusat tarikan; (b) Independent Hub (Li tinggi, Pext rendah),
+heksagon kuat tetapi terisolasi dari tarikan eksternal, menandakan kemandirian fungsional;
+(c) Shadow Zone (Li rendah, Pext tinggi), heksagon yang lemah secara internal tetapi berada
+di bawah tarikan kuat dari heksagon lain, profil yang menjadi indikator utama cannibalism;
+(d) Terpencil (Li rendah, Pext rendah), heksagon yang lemah dan terisolasi. Lima tipologi
+                                         SocArXiv                                               11
+
+
+semi-transisional (Semi AC, Semi IH, Semi SZ, Semi T, Neutral) menempati posisi antara
+empat tipologi utama tersebut. Secara formal, kesembilan tipologi didefinisikan dari posisi
+Li dan Pext dalam matriks 3 × 3:
+                                
+                                
+                                Agglomeration Core       Li ↑, Pext ↑
+                                
+                                 Semi AC                  Li ↑, Pext →
+                                
+                                
+                                
+                                
+                                
+                                 Independent Hub          Li ↑, Pext ↓
+                                
+                                
+                                
+                                
+                                
+                                Semi SZ                  Li →, Pext ↑
+                                
+                                
+                                
+                     Tipologii = Neutral                  Li →, Pext →                    (7)
+                                
+                                 Semi IH                  Li →, Pext ↓
+                                
+                                
+                                
+                                
+                                
+                                 Shadow Zone              Li ↓, Pext ↑
+                                
+                                
+                                
+                                
+                                
+                                 Semi T                   Li ↓, Pext →
+                                
+                                
+                                
+                                
+                                
+                                 Terpencil                Li ↓, Pext ↓
+                                
+
+dengan ↑ = kelas tinggi, → = sedang, ↓ = rendah (Jenks natural breaks).
+
+
+
+
+Gambar 6: Matriks tipologi 3×3, Local Strength (Li ) versus External Pull (Pext ) dalam kelas
+rendah/sedang/tinggi, sebagai panduan membaca Cannibalism Index.
+
+Beberapa keterbatasan teknis perlu diakui sejak awal. Pertama, sistem ditetapkan tertu-
+tup (closed system) pada batas Gerbangkertosusila: tarikan ke Jakarta, Malang, atau Bali
+diabaikan. Konsekuensinya, heksagon di tepi (Lamongan utara, Bangkalan timur) berpo-
+tensi memiliki bias boundary effect karena kekurangan tetangga. Kedua, paper ini bersifat
+cross-sectional (data 2025–2026) dan tidak menelusuri trajectory historis dari Cannibalism
+12                                    Urban Cannibalism
+
+
+Index. Klasifikasi 9-kelas yang dihasilkan harus dibaca sebagai early warning system untuk
+perencana, bukan sebagai bukti aliran ekstraksi aktual. Ketiga, data POI dari OpenStre-
+etMap cenderung underestimate ekonomi informal dan tidak membedakan hierarki internal
+POI (misalnya kantor pusat versus cabang). Keempat, Modifiable Areal Unit Problem (MA-
+UP) tetap menjadi risiko interpretasi pada skala heksagonal 5 km2 . Semua keterbatasan ini
+dibahas lebih lanjut pada bagian Keterbatasan.
+
+
+                      4. Pola Spasial Gerbangkertosusila
+Aplikasi model gravitasi pada 149 heksagon Gerbangkertosusila menghasilkan distribusi sem-
+bilan tipologi yang dirangkum dalam Tabel 2. Pola didominasi oleh dua tipologi pinggiran:
+Terpencil (53 heksagon, 35,6%) dan Semi T (57 heksagon, 38,3%), yang bersama mencakup
+hampir tiga perempat wilayah (73,9%), menandakan pinggiran yang luas dan lemah seca-
+ra fungsional. Agglomeration Core hanya 7 heksagon (4,7%), seluruhnya terkonsentrasi di
+Kota Surabaya. Shadow Zone mencakup 16 heksagon (10,7%), profil terkanibal. Temuan
+struktural paling menonjol ada pada kelas yang kosong: heksagon Independent Hub, Semi
+AC, dan Semi IH sama-sama berjumlah nol. Artinya, tidak ada heksagon di luar inti Kota
+Surabaya yang mengembangkan kekuatan fungsional mandiri yang mampu menahan tarikan.
+Heksagon Neutral mencakup 9 heksagon (6,0%) dan Semi SZ 7 heksagon (4,7%). Distribusi
+ini menggambarkan struktur monocentric yang tegas: satu inti kuat (Kota Surabaya), fringe
+terkanibal di sekelilingnya, dan pinggiran luas yang lemah.
+
+            Tabel 2: Distribusi tipologi 9-kelas heksagon di Gerbangkertosusila
+
+           Tipologi                 Li        Pext    Jumlah heksagon       %
+           Agglomeration Core     Tinggi    Tinggi            7           4,7%
+           Semi AC                Tinggi    Sedang            0             0%
+           Independent Hub        Tinggi    Rendah            0             0%
+           Semi SZ                Sedang    Tinggi            7            4,7%
+           Neutral                Sedang    Sedang            9            6,0%
+           Semi IH                Sedang    Rendah            0             0%
+           Shadow Zone            Rendah    Tinggi           16           10,7%
+           Semi T                 Rendah    Sedang           57           38,3%
+           Terpencil              Rendah    Rendah           53           35,6%
+           Total                                            149           100%
+
+Distribusi tipologi per kabupaten/kota (Tabel 3) memperlihatkan konsentrasi struktural yang
+ekstrem. Seluruh tujuh heksagon Agglomeration Core berada di Kota Surabaya; bahkan Si-
+doarjo yang berbatasan langsung dengan Kota Surabaya tidak memilikinya. Sebaran Shadow
+Zone pun terkonsentrasi: sebelas di dalam Kota Surabaya sendiri (sel-sel lemah yang ber-
+dampingan dengan inti), empat di Bangkalan (sisi koridor Suramadu), dan satu di Sidoarjo.
+Kabupaten yang jauh (Lamongan, Kabupaten Mojokerto, Kota Mojokerto) sepenuhnya ber-
+isi heksagon Terpencil, tanpa satu pun Shadow Zone maupun Agglomeration Core. Pola ini
+mengonfirmasi sentralitas Kota Surabaya bukan sebagai abstraksi formal RTRW Jawa Timur
+2023–2043 (Pemerintah Provinsi Jawa Timur 2023) yang menetapkan Kota Surabaya sebagai
+Pusat Kegiatan Nasional, melainkan sebagai realitas fungsional yang diukur dari ground-truth
+                                            SocArXiv                                                  13
+
+
+POI urbanized.
+                 Tabel 3: Distribusi tipologi heksagon per kabupaten/kotaa
+
+ Kab/Kota           AC    Semi AC     IH   Semi IH     SZ   Semi SZ     T    Semi T    N    Total
+ Kota Surabaya       7        0        0       0       11       7        2      17      8     52
+ Sidoarjo            0        0        0       0       1        0        7      26      1     35
+ Gresik              0        0        0       0        0       0        8      10      0     18
+ Lamongan            0        0        0       0       0        0       18       0      0     18
+ Kab. Mojokerto      0        0        0       0       0        0       16       0      0     16
+ Bangkalan           0        0        0       0        4       0        1       4      0      9
+ Kota Mojokerto      0        0        0       0        0       0        1       0      0      1
+
+a
+ Dihitung dari 149 heksagon valid melalui spatial join centroid heksagon ke poligon administrasi (7
+kabupaten/kota); empat heksagon dengan centroid tepat di tepi pantai diatribusikan ke kabupaten
+                terdekat. Distribusi ini konsisten dengan tipologi 9-kelas Tabel 2.
+
+
+
+
+    Gambar 7: Peta Cannibalism Index, tipologi 9-kelas heksagon Gerbangkertosusila.
+
+Tabel 3 memuat tiga observasi utama. Kota Surabaya memonopoli kekuatan fungsional secara
+absolut: seluruh tujuh heksagon Agglomeration Core di Gerbangkertosusila berada di sana.
+Shadow Zone terkonsentrasi pada dua lokus, yaitu sebelas di dalam Kota Surabaya sendiri (sel-
+sel berkekuatan rendah yang berdampingan langsung dengan inti) dan empat di Bangkalan
+(sisi koridor Suramadu), bukan tersebar merata di pinggiran; kanibalisme dengan demikian
+bersifat proximity-driven, hanya menjangkau sel yang dekat secara waktu-tempuh dengan inti
+14                                    Urban Cannibalism
+
+
+
+
+Gambar 8: Scatter empiris tipologi (149 heksagon): Local Strength (Li ) versus External Pull
+(Pext ).
+
+
+atau terhubung langsung melalui jembatan. Sementara itu, kabupaten-kabupaten yang jauh
+dari Kota Surabaya (Lamongan dan Kabupaten Mojokerto sepenuhnya, sebagian besar Gresik
+dan Sidoarjo bagian luar) didominasi oleh Terpencil dan Semi T, tanpa Agglomeration Core
+ataupun Shadow Zone. Sinyal awalnya: jarak dari pusat melindungi dari tekanan eksternal,
+tetapi tidak otomatis menghasilkan kekuatan internal; implikasi penuhnya dieksplorasi pada
+Bagian 5.
+Cross-validation dengan analisis dasymetric (pemetaan kepadatan populasi yang dikoreksi
+terhadap penggunaan lahan) memberi konfirmasi penting untuk klasifikasi Shadow Zone.
+Keenam belas heksagon Shadow Zone yang teridentifikasi oleh model gravitasi seluruhnya
+tumpang-tindih dengan hotspot kepadatan populasi, bukan dengan coldspot atau wilayah
+pinggiran yang jarang penduduknya, konsisten dengan posisinya yang sebagian besar berada
+di dalam dan di sekitar inti padat Kota Surabaya serta sisi koridor Suramadu di Bangkal-
+an. Implikasi metodologisnya: Shadow Zone adalah wilayah padat dengan kekuatan internal
+yang rendah, tempat penduduk hadir tetapi kapasitas urbanized tidak berkembang, sehingga
+keliru bila diabaikan sebagai outlier metodologis. Konfigurasi inilah indikator utama canni-
+balism: aktivitas manusia tetap di lokasi, sementara fungsi-fungsi urbanized yang seharusnya
+tumbuh dari konsentrasi penduduk tersedot ke pusat lain. Konfirmasi spasial ini sekaligus
+menepis kemungkinan bahwa Shadow Zone hanyalah artefak penyaringan POI atau efek tepi
+metodologis.
+                                         SocArXiv                                          15
+
+
+
+
+Gambar 9: Dasymetric mapping kepadatan populasi Gerbangkertosusila (BPS (Badan Pusat
+Statistik 2025) + WorldPop (Tatem 2017) + penggunaan lahan).
+
+
+                     5. Pengujian Distance-Decay:
+                    Bangkalan, Mojokerto, Lamongan
+Pola yang tercatat pada Bagian 4 (kabupaten jauh didominasi oleh Terpencil sementara Ko-
+ta Surabaya menumpuk Agglomeration Core) menyarankan hipotesis sederhana: jarak ke
+pusat menentukan tipologi heksagon. Namun, hipotesis ini tidak sepenuhnya benar. Tiga
+kabupaten yang dibandingkan pada bagian ini (Bangkalan, Mojokerto [Kota + Kabupaten],
+dan Lamongan) memungkinkan pengujian distance-decay tiga arah karena masing-masing
+memiliki konfigurasi yang berbeda. Bangkalan dekat dengan Kota Surabaya tetapi terhu-
+bung melalui jembatan Suramadu (konektivitas baru pasca-2009). Mojokerto jauh dari Kota
+Surabaya tetapi memiliki dekonsentrasi industri tertanam (Ngoro Industrial Park, beroperasi
+sejak 1990-an). Lamongan jauh dari Kota Surabaya dan tidak memiliki dekonsentrasi industri
+yang setara. Jika jarak adalah satu-satunya determinan, Mojokerto dan Lamongan seharus-
+nya menunjukkan profil yang serupa, dan Bangkalan seharusnya serupa dengan Sidoarjo atau
+Gresik. Kenyataan empiris memperlihatkan ketiganya berdiri sendiri-sendiri.
+Bangkalan: cannibalism spatially specific. Dari sembilan heksagon Bangkalan, empat (44%)
+diklasifikasikan sebagai Shadow Zone, yaitu heksagon yang lemah secara internal tetapi ber-
+ada di bawah tarikan kuat dari Kota Surabaya. Keempatnya kemungkinan besar berada di
+sisi Madura koridor Suramadu, yaitu heksagon yang paling terpapar konektivitas jembatan.
+Lima heksagon sisanya (satu Terpencil, empat Semi T ) adalah wilayah lemah yang tidak
+menerima limpahan tarikan langsung. Bangkalan juga sama sekali tidak memiliki heksagon
+kuat, baik Agglomeration Core maupun Independent Hub. Konfigurasi ini menyingkap bahwa
+cannibalism Bangkalan bersifat spatially specific, terkonsentrasi pada koridor Suramadu, se-
+mentara interior yang jauh dari jembatan tetap lemah namun terlindung, bukan kuat. Justru
+16                                     Urban Cannibalism
+
+
+sel-sel yang paling diuntungkan konektivitas Suramadu yang paling terkanibal.
+Mojokerto: dekonsentrasi industri tanpa dekonsentrasi fungsional. Mojokerto (Kota dan Ka-
+bupaten gabungan, 17 heksagon) menunjukkan profil yang paling tegas di antara ketiganya:
+seluruh 17 heksagon diklasifikasikan sebagai Terpencil; kelas Agglomeration Core, Indepen-
+dent Hub, Shadow Zone, dan tipologi semi semuanya kosong. Termasuk di dalamnya heksagon
+yang memuat Ngoro Industrial Park: meskipun kawasan ini menampung banyak perusaha-
+an manufaktur, ia tidak menghasilkan Local Strength yang terukur dalam model, karena Li
+mengukur konsentrasi jasa profesional (Mecon : hukum korporasi, akuntansi, konsultasi, IT,
+perbankan), bukan volume industri manufaktur. Inilah inti diagnosis: industri tinggal di
+Ngoro, tetapi fungsi-fungsi urbanized yang mengelola industri tersebut tetap berada di Kota
+Surabaya. Dekonsentrasi industri Mojokerto yang signifikan sama sekali tidak diiringi dekon-
+sentrasi fungsional, persis kondisi yang dinamai function-extractive cannibalism, yang dibedah
+secara sektoral pada Bagian 6.
+Lamongan: jarak tanpa dekonsentrasi. Lamongan (18 heksagon) juga seluruhnya Terpencil
+tanpa tipologi lain. Lamongan benar-benar berada di luar dinamika tarikan ekstraktif Kota
+Surabaya: distance-decay melindunginya sepenuhnya, sehingga Shadow Zone pun absen. Na-
+mun, perlindungan jarak tidak menghasilkan kekuatan internal. Tanpa basis industri seperti
+Ngoro maupun konektivitas seperti Suramadu, Lamongan tetap lemah dan terisolasi, bahkan
+lebih disengaged daripada Mojokerto, yang setidaknya memiliki basis industri (meski tidak
+terkonversi menjadi kekuatan fungsional).
+Sintesis komparatif. Perbandingan tiga arah ini memungkinkan disagregasi peran jarak ver-
+sus dekonsentrasi fungsional dalam pembentukan profil heksagon (Tabel 4). Tiga kesimpulan
+muncul. Pertama, jarak melindungi dari tarikan eksternal: Mojokerto dan Lamongan, kedu-
+anya jauh dari Kota Surabaya, sama sekali bebas dari heksagon Shadow Zone. Bangkalan
+yang lebih dekat dan terhubung Suramadu memiliki empat Shadow Zone. Kedua, jarak tidak
+menghasilkan kekuatan internal: Agglomeration Core dan Independent Hub absen di ketiga
+kabupaten; kekuatan fungsional sepenuhnya termonopoli oleh Kota Surabaya. Dekonsentrasi
+industri Ngoro IP tidak cukup mengangkat Mojokerto, dan tidak ada dekonsentrasi setara
+di Lamongan. Ketiga, connectivity tanpa dekonsentrasi fungsional menghasilkan cannibalism
+spatially specific: Bangkalan tidak dikanibal secara keseluruhan; hanya heksagon yang pa-
+ling terpapar Suramadu menunjukkan profil Shadow Zone, sementara interiornya tetap lemah
+namun terlindung.
+
+                        Tabel 4: Pengujian distance-decay tiga arah
+
+ Variabel                                         Bangkalan           Mojokerto     Lamongan
+ Total heksagon                                       9                 17             18
+ Jarak ke Kota Surabaya                       Dekat (jembatan)         Jauh           Jauh
+ Dekonsentrasi industri                          Tidak ada         Ya (Ngoro IP)    Tidak ada
+ Heksagon kuat (AC + Semi AC + IH)                     0                  0              0
+ Heksagon lemah-tertarik (SZ + Semi SZ)                4                  0             0
+ Heksagon terlindung-lemah (T + Semi T)                5                 17             18
+
+Tabel 4 mempertegas pemisahan peran jarak dan dekonsentrasi: hanya Bangkalan (dekat
++ Suramadu) yang memiliki heksagon terkanibal, tidak ada kabupaten yang menghasilkan
+                                          SocArXiv                                            17
+
+
+heksagon kuat, dan kemandirian fungsional sepenuhnya absen di luar Kota Surabaya.
+
+
+
+
+Gambar 10: Scatter distance-decay External Pull (Pext ) versus waktu tempuh dari inti Kota
+Surabaya.
+
+Implikasi teoretis sintesis ini penting bagi konsep cannibalism. Cannibalism tidak terjadi
+semata-mata karena kelemahan struktural pinggiran atau karena tarikan kekuatan pusat. Ia
+muncul dari interaksi spesifik antara tiga faktor: (a) konektivitas yang menghilangkan friction
+of distance; (b) ketiadaan kekuatan fungsional lokal yang dapat menahan tarikan tersebut;
+(c) tidak adanya dekonsentrasi fungsional yang akan mengubah relasi pusat-pinggiran. Dua
+faktor pertama dapat dipetakan oleh model gravitasi; faktor ketiga membutuhkan analisis
+sektoral yang menjadi fokus Bagian 6.
+18                                     Urban Cannibalism
+
+
+
+
+                        Gambar 11: Tiga faktor Urban Cannibalism.
+
+
+                        6. Studi Kasus Mojokerto:
+                      Mekanisme Function-Extractive
+Mojokerto menyediakan kasus paradigmatik untuk membongkar mekanisme function-extractive
+cannibalism. Dua alasan menjadikannya kasus yang kuat secara analitis. Pertama, Mojokerto
+adalah satu-satunya pasangan administrasi di Gerbangkertosusila dengan kota dan kabupaten
+pelingkupnya yang menunjukkan profil ekonomi berbeda secara substansial: Kota Mojokerto
+sebagai pusat jasa kecil, Kabupaten Mojokerto sebagai pusat industri besar yang ditopang
+oleh Ngoro Industrial Park. Pembagian fungsional internal ini memungkinkan tracing meka-
+nisme yang dalam wilayah lain (Kota Surabaya, Sidoarjo) tertumpang-tindih. Kedua, hasil
+model gravitasi pada Bagian 4 menunjukkan Mojokerto memiliki dekonsentrasi industri yang
+signifikan tetapi tidak satu pun heksagon naik ke profil Independent Hub maupun Agglome-
+ration Core; seluruh 17 heksagonnya tetap Terpencil. Mekanisme di balik kegagalan transisi
+ini adalah pertanyaan yang dibuka oleh data sektoral PDRB.
+Tabel 5 menyajikan Static Location Quotient (SLQ) sektor PDRB Kota Mojokerto dan Kabu-
+paten Mojokerto pada rata-rata tiga periode COVID-19 (2018–2023) (BPS Kota Mojokerto
+2024; BPS Kabupaten Mojokerto 2024). Pola yang muncul di Kota Mojokerto jelas: kota ini
+adalah pusat jasa kecil dengan basis industri yang sangat lemah. Lima sektor jasa memiliki
+SLQ konsisten di atas 1,5 sepanjang tiga periode: jasa keuangan (∼2,85), jasa lainnya (∼2,58),
+komunikasi (∼2,50), pemerintahan (∼2,04), dan kesehatan (∼1,76). Empat sektor lainnya
+berada di antara 1 dan 1,7: pendidikan (∼1,62), perdagangan (∼1,56), real estat (∼1,58),
+makan minum (∼1,19). Sebaliknya, sektor industri pengolahan mencatat SLQ ∼0,33 (ku-
+rang dari sepertiga representasi rata-rata Jawa Timur), dan sektor pertanian hampir tidak
+ada (SLQ ∼0,05). Kota Mojokerto adalah tipologi “kota jasa kecil”: pusat administrasi dan
+layanan untuk wilayah sekitarnya, tanpa basis produktif sendiri.
+Kabupaten Mojokerto menunjukkan struktur yang hampir kebalikan. Sektor industri pe-
+ngolahan dominan dengan SLQ ∼1,85, dua kali representasi rata-rata Jawa Timur, yang
+mencerminkan keberadaan Ngoro Industrial Park sebagai salah satu kawasan industri besar
+di wilayah ini. Sektor komunikasi (∼1,09) dan pemerintahan (∼1,00) berada di sekitar rep-
+resentasi rata-rata. Semua sektor jasa lainnya berada di bawah: keuangan ∼0,56 (sepertiga
+                                         SocArXiv                                           19
+
+
+
+
+Gambar 12: Kawasan Peruntukan Industri Kabupaten Mojokerto dan koridor Tol Trans Jawa.
+
+
+dari Kota Mojokerto); perdagangan ∼0,56; pendidikan ∼0,48; kesehatan ∼0,58. Kabupaten
+Mojokerto sesuai dengan tipologi “kabupaten industri”: basis produktif yang kuat, ekosistem
+jasa yang lemah.
+Pasangan Kota-Kabupaten Mojokerto, ketika dibaca bersama, memperlihatkan apa yang
+dapat disebut sebagai function-extractive split pada skala intra-kabupaten. Industri tetap di
+Kabupaten; jasa-jasa yang melayani wilayah sekitarnya (perdagangan, pendidikan, kesehatan,
+keuangan) tersedia di Kota Mojokerto sebagai pusat administrasi. Pada permukaan, pasangan
+ini menyerupai struktur metropolitan yang fungsional: pusat industri di pinggiran, pusat jasa
+di tengah. Tetapi pemeriksaan lebih dekat mengungkap kelemahan kritis.
+Kelemahan kritis terletak pada sektor jasa perusahaan (kategori M, N: jasa profesional kor-
+porat seperti konsultasi manajemen, hukum korporasi, akuntansi profesional, dan layanan
+periklanan tingkat tinggi). Sektor ini, yang dalam kerangka urbanization economies O’Su-
+llivan menjadi inti dari ekosistem urbanized yang sebenarnya, mencatat SLQ ∼0,92 di Kota
+Mojokerto dan ∼0,19 di Kabupaten Mojokerto sepanjang tiga periode COVID. Artinya, baik
+Kota maupun Kabupaten Mojokerto kekurangan ekosistem jasa profesional yang akan meng-
+elola, mendukung, dan mengembangkan basis industri Ngoro. Mekanisme function-extractive
+cannibalism tampil paling jelas di sini: lahan murah dan akses logistik menahan industri di
+Mojokerto, sementara fungsi pengambilan keputusan, layanan profesional, dan kontrol kor-
+porasi beroperasi dari Kota Surabaya. Peran Mojokerto dalam sistem metropolitan tetap
+20                                   Urban Cannibalism
+
+
+
+Tabel 5: SLQ sektor terpilih Kota Mojokerto dan Kabupaten Mojokerto (rata-rata 2018–2023)
+
+      Kode   Sektor                SLQ Kota M.   SLQ Kab. M.   Catatan
+        A    Pertanian                0,05          0,65       Lemah di keduanya
+        C    Industri Pengolahan      0,33          1,85       Split: Kab. industri-
+                                                               heavy (Ngoro)
+        F    Konstruksi               1,13          0,90       Seimbang
+        G    Perdagangan              1,56          0,56       Split:           Kota
+                                                               perdagangan-heavy
+        I    Makan Minum              1,19          0,35       Split: Kota kuliner-
+                                                               heavy
+        J    Komunikasi               2,50          1,09       Kota sangat kuat
+        K    Keuangan                 2,85          0,56       Split: Kota keuangan-
+                                                               heavy
+       L     Real Estat               1,58          0,86       Kota lebih kuat
+      M, N   Jasa Perusahaan          0,92          0,19       Lemah di keduanya
+       O     Pemerintahan             2,04          1,00       Kota kuat
+       P     Pendidikan               1,62          0,48       Split:           Kota
+                                                               pendidikan-heavy
+        Q    Kesehatan                1,76          0,58       Split: Kota kesehatan-
+                                                               heavy
+      R–U    Jasa Lainnya             2,58          0,63       Split: Kota jasa-lain-
+                                                               heavy
+
+
+
+
+Gambar 13: Diagram batang divergen SLQ sektor Kota versus Kabupaten Mojokerto (rata-
+rata 2018–2023).
+                                         SocArXiv                                           21
+
+
+ada, yaitu pemasok bahan dan tenaga kerja industri, tetapi tanpa otonomi fungsional untuk
+menjadi subpusat sejati.
+Dinamika temporal melalui tiga periode COVID-19 memperkuat pembacaan ini. Kompo-
+nen Differential Shift (Dij ) sektor industri pengolahan Kota Mojokerto bergeser dari +4.954
+(sebelum) ke +214 (selama) ke −41.728 (setelah), penurunan daya saing yang tajam. Seba-
+liknya, Dij industri Kabupaten Mojokerto tetap positif sepanjang ketiga periode meskipun
+melemah: +572.390 → +562.392 → +327.437. Alih-alih menggeser industri kembali ke pusat
+administrasi, COVID-19 menggerus industri kecil yang tersisa di Kota Mojokerto, sementara
+industri Kabupaten Mojokerto tetap tumbuh meskipun pada laju yang melambat. Konsentra-
+si industri di kabupaten semakin dalam. Namun, momentum ini tidak melahirkan ekosistem
+jasa profesional pendamping. Dij jasa perusahaan (M, N) Kabupaten Mojokerto tetap negatif
+untuk dua periode pertama (−2.071 sebelum, −959 selama), dan baru bergerak positif tipis
+setelah COVID (+220), pergerakan yang kecil dibandingkan dengan absolute SLQ yang tetap
+terpaku di 0,19. Industri datang ke Mojokerto; jasa yang seharusnya menyertainya tidak ikut
+pindah.
+Studi kasus Mojokerto menyediakan demonstrasi empiris untuk mekanisme function-extractive
+cannibalism yang menjadi inti tesis paper ini. Pertama, dekonsentrasi industri telah terjadi
+(Ngoro Industrial Park) dan terkonsolidasi: industri Kota Mojokerto bahkan tergerus dan
+bermigrasi ke Kabupaten setelah COVID. Kedua, dekonsentrasi fungsional tidak menyertai
+dekonsentrasi industri; jasa profesional (M, N) lemah di Kota dan Kabupaten Mojokerto
+sepanjang periode pengamatan. Ketiga, hasilnya adalah konfigurasi “pinggiran-fungsional”:
+Mojokerto menjadi pemasok industri dan tenaga kerja untuk sistem metropolitan, tetapi tidak
+diberi (atau tidak mengembangkan) kapasitas untuk menjadi subpusat fungsional mandiri.
+Konfigurasi inilah yang oleh literatur agglomeration shadow disebut sebagai “shadow,” tetapi
+konsep cannibalism yang diusulkan di sini menamai sesuatu yang lebih spesifik: shadow ini
+diproduksi secara aktif melalui asimetri infrastruktur dan kebijakan yang memungkinkan eks-
+traksi fungsional terus berlangsung, tanpa indikasi transisi ke arah polisentrisme fungsional
+yang matang.
+
+
+           7. Validasi Bangkalan dan Paradoks Suramadu
+Jika studi kasus Mojokerto pada Bagian 6 membongkar mekanisme function-extractive can-
+nibalism melalui data sektoral, studi kasus Bangkalan pada bagian ini adalah validasi paralel
+pada dimensi yang berbeda: paradoks konektivitas. Bangkalan menjadi kasus uji yang pen-
+ting karena menyatukan tiga kondisi yang oleh teori cannibalism diprediksi akan menghasilkan
+ekstraksi fungsional yang ekstrem: kedekatan geografis ke Kota Surabaya melalui jembatan
+Suramadu yang mengeliminasi friction of distance sejak 2009, basis ekonomi internal yang
+lemah sebelum konektivitas terbentuk, serta kapasitas fiskal yang terbatas untuk mendanai
+investasi strategis penyeimbang tarikan eksternal. Pertemuan ketiganya menghasilkan profil
+yang oleh model gravitasi pada Bagian 4 dan 5 terbaca sebagai spatially specific cannibalism:
+bukan seluruh Bangkalan yang dikanibal, melainkan heksagon-heksagon yang paling terpapar
+konektivitas Suramadu menunjukkan profil Shadow Zone.
+Bukti paling tajam untuk paradoks Suramadu datang dari data pertumbuhan PDRB tiga
+kabupaten Madura pascapembukaan jembatan. Efendi (2013) mencatat bahwa Bangkalan,
+yang paling dekat ke Kota Surabaya melalui jembatan, mencatat pertumbuhan ekonomi ta-
+hunan 6,29%, terendah di antara tiga kabupaten Madura. Pamekasan, sekitar 100 kilometer
+22                                     Urban Cannibalism
+
+
+lebih jauh dari Kota Surabaya, tumbuh 6,69%; Sumenep, lebih jauh lagi, tumbuh 6,36%. Pola
+ini bertolak belakang dengan ekspektasi teori trickle-down yang menjadi dasar pembangun-
+an Suramadu. Jika konektivitas memberdayakan, Bangkalan seharusnya menjadi kabupaten
+Madura yang tumbuh paling cepat. Kenyataannya adalah inversi: jarak yang lebih jauh
+memberi perlindungan, kedekatan yang difasilitasi infrastruktur memberi kerentanan. Data
+PDRB ini berasal dari studi akademik eksternal, bukan dari analisis asli paper ini; ia men-
+jadi triangulasi terhadap output model gravitasi yang menunjukkan empat heksagon Shadow
+Zone di Bangkalan.
+Studi akademik yang sama (Efendi 2013) mendokumentasikan transformasi struktural Bang-
+kalan pasca-Suramadu yang konsisten dengan diagnosis function-extractive cannibalism. Pe-
+ningkatan Izin Mendirikan Bangunan (IMB) untuk perumahan signifikan, dengan muncul-
+nya delapan pengembang real estat baru dalam beberapa tahun pascajembatan, termasuk
+pengembangan perumahan elite seperti Burneh Regency. Sementara itu, sektor industri
+yang dirancang dalam rencana spasial pasca-Suramadu (termasuk Pelabuhan Internasional
+di Klampis) masih bersifat rencana, belum terealisasi. Sektor jasa profesional, teknologi, dan
+layanan tingkat tinggi tetap tersentralisasi di Kota Surabaya. Pola yang muncul adalah be-
+droom community klasik: Bangkalan menyerap penduduk dan investasi residensial dari Kota
+Surabaya, tetapi tidak mengembangkan fungsi urbanized yang akan menjadikannya subpusat
+ekonomi mandiri. Fungsi Bangkalan dalam sistem metropolitan menjadi pemasok hunian
+murah bagi pekerja yang bekerja di Kota Surabaya, bukan basis ekonomi otonom.
+Kerentanan struktural Bangkalan diperdalam oleh kapasitas fiskal yang terbatas. Berdasark-
+an data APBD (Kementerian Keuangan RI, DJPK 2026), Pendapatan Asli Daerah (PAD)
+Bangkalan hanya mencapai 22,9% dari total pendapatan yang terealisasi, rasio yang menun-
+jukkan ketergantungan tinggi pada transfer dari pemerintah pusat. Belanja modal hanya
+32%, mengindikasikan investasi infrastruktur strategis yang minim. Untuk perbandingan,
+dua kabupaten penyangga lain yang juga berada dalam orbit tarikan Kota Surabaya menun-
+jukkan profil fiskal yang berbeda. Sidoarjo, yang berbatasan langsung dengan Kota Surabaya,
+mencatat PAD 44,1%, paling mandiri secara fiskal di antara kabupaten penyangga. Gresik,
+meskipun belanja modalnya belum maksimal (66%), memiliki kapasitas fiskal yang cukup
+untuk mendukung kawasan industri JIIPE. Bangkalan, sebaliknya, tidak memiliki bantalan
+fiskal yang setara untuk membiayai investasi yang akan menyeimbangkan tarikan ekstraksi
+Suramadu.
+Bangkalan dengan demikian menanggung kerentanan ganda: kerentanan struktural yang di-
+petakan model gravitasi (empat heksagon Shadow Zone di koridor Suramadu, tanda lemahnya
+local strength relatif terhadap external pull) dan kerentanan fiskal yang dipetakan data APBD
+(PAD rendah serta belanja modal minim yang menutup ruang gerak pemerintah daerah un-
+tuk merespons). Kedua kerentanan ini saling memperkuat. Tanpa kapasitas fiskal untuk
+investasi strategis, pemerintah daerah Bangkalan tidak dapat membangun fasilitas urbani-
+zed (kawasan jasa, pusat inovasi, infrastruktur konektivitas internal) yang akan mengangkat
+heksagon-heksagonnya dari profil Shadow Zone. Tanpa kekuatan internal yang tumbuh, basis
+pajak yang akan meningkatkan PAD tetap lemah. Lingkaran kerentanan ini terkonsolidasi
+oleh konektivitas Suramadu yang memudahkan ekstraksi tanpa menghasilkan returnable in-
+vestment.
+Kasus Bangkalan, ketika dibaca bersama dengan kasus Mojokerto pada Bagian 6, membe-
+ri dua gambaran berbeda tentang bagaimana cannibalism beroperasi di Gerbangkertosusila.
+Mojokerto memperlihatkan function-extractive cannibalism dalam bentuk struktural-historis:
+                                          SocArXiv                                             23
+
+
+dekonsentrasi industri telah terjadi tetapi tidak menghasilkan dekonsentrasi fungsional. Bang-
+kalan memperlihatkan function-extractive cannibalism dalam bentuk connectivity-induced: in-
+frastruktur baru memperdalam ekstraksi yang sebelumnya dibatasi oleh friction of distance.
+Kedua kasus, meski berbeda asal-usul historis, mengonfirmasi tesis sentral paper: interaksi
+tiga faktor yang dipetakan pada Bagian 5 (konektivitas, ketiadaan kekuatan lokal, absennya
+dekonsentrasi fungsional) bekerja pada keduanya.
+
+
+                     8. Diskusi dan Penutup:
+         Polynuclear Monocentric in Arrested Transition
+Bagian 4 hingga 7 menyajikan empat lapisan bukti yang konvergen pada satu diagnosis struk-
+tural. Pada level regional, model gravitasi memetakan distribusi tipologi 9-kelas dengan kon-
+sentrasi ekstrem di Kota Surabaya: sebagian besar kekuatan fungsional regional berada di
+satu kota. Pengujian distance-decay tiga arah kemudian mengungkap bahwa jarak melindu-
+ngi dari tarikan tetapi tidak menghasilkan kekuatan internal: Mojokerto dan Lamongan yang
+sama-sama jauh dari Kota Surabaya tetap tanpa Independent Hub maupun Agglomeration
+Core (keduanya sepenuhnya Terpencil), sementara Bangkalan memperlihatkan cannibalism
+spatially specific pada koridor Suramadu. Studi kasus Mojokerto menambahkan bukti sekto-
+ral berupa function-extractive split yang konkret: industri menetap di Kabupaten via Ngoro
+IP, sedangkan jasa profesional (M, N) lemah di Kota maupun Kabupaten karena beroperasi
+dari Kota Surabaya. Validasi Bangkalan menutup rangkaian dengan paradoks Suramadu:
+konektivitas baru memperdalam ekstraksi, bukan memberdayakan kemandirian. Keempat
+lapisan bertemu pada satu kesimpulan: Gerbangkertosusila bukanlah sistem polycentric yang
+matang.
+Diagnosis ini berbeda dari klasifikasi yang ditawarkan studi terdahulu. Putra and Salim
+(2022) menempatkan Gerbangkertosusila dalam fase 3 model Friedmann, Industrial Disper-
+sion polycentric, berdasarkan kemunculan pusat-pusat industri baru di Gresik, Sidoarjo, dan
+Mojokerto. Klasifikasi ini menggunakan definisi polisentrisme yang terlalu longgar. Per-
+tumbuhan morfologis (kawasan industri tersebar di pinggiran) tidak otomatis menyiratkan
+dekonsentrasi fungsional (kapasitas subpusat untuk beroperasi mandiri dari inti). Mengikuti
+distingsi Hall and Pain (2006) antara morphological polycentricity dan functional polycentrici-
+ty, serta kriteria Meijers (2008) tentang polynuclear vs polycentric urban region, Gerbangker-
+tosusila lebih akurat diposisikan sebagai polynuclear monocentric region in arrested transition:
+wilayah yang secara morfologi tampak memiliki banyak pusat, tetapi secara fungsional masih
+monocentric. Pertumbuhan industri di Ngoro Industrial Park, JIIPE Gresik, dan kawasan in-
+dustri Sidoarjo tidak diiringi pertumbuhan ekosistem jasa profesional yang akan menjadikan
+kabupaten-kabupaten ini subpusat fungsional. Putra dan Salim mendeteksi morfologi yang
+berubah; paper ini mendeteksi fungsi yang tidak berubah.
+Kontribusi teoretis paper ini adalah memperluas literatur agglomeration shadow (Meijers and
+Burger 2010) dan core-periphery (Friedmann 1966) dengan memperkenalkan konsep canniba-
+lism. Shadow yang dideskripsikan Meijers dan Burger bersifat netral dan tidak membedakan
+kondisi transisional dari kondisi struktural; cannibalism menamai mode aktif-patologisnya,
+sebagaimana didefinisikan pada Bagian 2, dengan akar pada ketiadaan dekonsentrasi fungsio-
+nal yang menyertai dekonsentrasi spasial, bukan pada kelemahan organik pinggiran. Distingsi
+antara shadow transisional dan shadow struktural-patologis ini sebelumnya tidak ada dalam
+literatur.
+24                                    Urban Cannibalism
+
+
+
+
+        Gambar 14: Arrested transition pada model empat fase (Friedmann 1966).
+
+
+Pada sisi metodologis, kontribusinya adalah operasionalisasi Cannibalism Index pada skala
+intra-metropolitan menggunakan unit heksagonal H3 dan model gravitasi klasik yang diba-
+ngun di atas kerangka urbanization economies O’Sullivan. Skala ini sebelumnya tidak ter-
+tangkap oleh kerangka Sassen, Florida, atau GaWC (Sassen 2015; Florida 2005; Beaverstock
+et al. 1999) yang beroperasi pada level kota global. CI = Pext /(Li +1) menyediakan indikator
+yang dapat dipetakan secara spasial dan kompatibel dengan data POI dari OpenStreetMap,
+yang memungkinkan replikasi pada wilayah metropolitan lain di Indonesia. Cannibalism
+Index bukan pengukuran flow aktual; ia memetakan tekanan gravitasi, bukan aliran ekstrak-
+si. Tetapi sebagai early warning system bagi perencana, ia mengidentifikasi heksagon yang
+rentan terkanibal sebelum proses tersebut menjadi tidak dapat dikembalikan. Pada konteks
+Gerbangkertosusila, CI mengungkap 16 heksagon Shadow Zone sebagai zona-zona prioritas
+intervensi.
+Secara empiris, naskah ini menyumbang pemetaan Gerbangkertosusila sebagai polynuclear
+monocentric region in arrested transition dan demonstrasi mekanisme function-extractive
+cannibalism melalui kasus Mojokerto dan Bangkalan. Implikasi perencanaan yang muncul
+bersifat langsung dan tegas. Pertama, kerangka koordinasi antaryurisdiksi yang mengasum-
+sikan kemandirian subpusat (seperti pendekatan Badan Kerjasama Pembangunan [BKSP]
+yang berhasil pada konteks Kartamantul (Firman 2014)) tidak akan cukup untuk Gerbang-
+kertosusila. Koordinasi bergaya BKSP mengasumsikan subpusat memiliki kekuatan fung-
+sional untuk bernegosiasi sebagai mitra setara. Di Gerbangkertosusila, kekuatan fungsional
+ini belum terbentuk. Kedua, kebijakan dekonsentrasi yang fokus pada pemindahan indus-
+tri (seperti yang telah berhasil di Ngoro, JIIPE, dan kawasan industri Sidoarjo) tidak me-
+madai jika tidak diiringi dengan kebijakan yang memungkinkan tumbuhnya ekosistem jasa
+profesional di subpusat. Pemindahan industri tanpa dekonsentrasi fungsional menghasilkan
+struktur pemasok-konsumen yang permanen, bukan polisentrisme. Ketiga, investasi konekti-
+vitas seperti Suramadu harus dipikirkan ulang: tanpa dekonsentrasi fungsional pendamping,
+konektivitas bekerja sebagai mekanisme ekstraksi yang difasilitasi negara.
+Episode Suramadu yang membuka paper ini sekarang dapat dibaca sebagai ilustrasi paling
+tajam dari diagnosis cannibalism. Jembatan tersebut dirancang dengan asumsi trickle-down:
+bahwa menghilangkan friction of distance akan mendekatkan Bangkalan ke pertumbuhan
+Kota Surabaya. Asumsi ini terbukti salah. Bangkalan tumbuh lebih lambat dari kabupa-
+ten Madura lainnya yang lebih jauh. Suramadu bukan jembatan kemajuan; ia adalah pipa
+penghisap. Di atas kasus individunya, Suramadu mengilustrasikan pola yang lebih luas: se-
+tiap infrastruktur konektivitas baru di Gerbangkertosusila yang tidak diiringi dekonsentrasi
+fungsional akan menghasilkan cannibalism yang setara. Tol Trans Jawa yang menghubungk-
+                                          SocArXiv                                             25
+
+
+an Mojokerto, jaringan kereta Kota Surabaya–Madiun, rencana KA Lyn Kota Surabaya–
+Bangkalan: selama Gerbangkertosusila berada dalam kondisi arrested transition seperti saat
+ini, semua infrastruktur tersebut beroperasi sebagai infrastruktur ekstraksi. Mengubah ini
+menuntut intervensi yang menggeser industri sekaligus menumbuhkan jasa, dan membangun
+jalan sekaligus institusi subpusat yang dapat menyerap kapasitas urbanized.
+Keterbatasan naskah dijelaskan terpisah pada bagian berikut; ringkasnya, Cannibalism In-
+dex memetakan potensi tekanan (bukan flow aktual), data cross-sectional 2025–2026 tidak
+menelusuri trajectory historis, dan analisis sektoral hanya mendalam pada satu kabupaten.
+Dalam batas-batas tersebut, paper ini menyediakan kerangka konseptual, alat metodologis,
+dan diagnosis empiris yang konsisten satu sama lain. Cannibalism Gerbangkertosusila lahir
+dari kebijakan dan asimetri yang dapat diubah; diagnosis ini disusun agar perubahan itu
+memiliki peta.
+
+
+                                  9. Keterbatasan
+
+  1. Cannibalism Index mengukur potensi tekanan, bukan aliran aktual. Indeks ini me-
+     metakan tekanan gravitasi (pressure), bukan aliran ekstraksi (flow) yang sebenarnya.
+     Validasi berbasis aliran memerlukan data komuter Sakernas, migrasi SP2020, atau telco
+     mobility yang tidak diakses dalam riset ini karena berbayar atau tidak tersedia secara
+     publik.
+
+  2. Data bersifat cross-sectional (2025–2026), tanpa lintasan temporal. Klaim kausal histo-
+     ris, misalnya bahwa Suramadu menyebabkan cannibalism Bangkalan, bertumpu pada
+     teori dan data eksternal, bukan analisis multi-periode sendiri. Pembuktian lintasan
+     historis menjadi agenda riset lanjutan.
+
+  3. Analisis sektoral hanya untuk Kota dan Kabupaten Mojokerto. Klaim function-extractive
+     cannibalism untuk Bangkalan, Sidoarjo, Gresik, dan Lamongan adalah ekstrapolasi te-
+     oretis dari pola Mojokerto dan struktur gravitasi, bukan bukti sektoral langsung. Ge-
+     neralisasi ke kabupaten/kota lain bersifat hipotetis dan menunggu validasi per kasus.
+
+  4. Sejumlah pilihan metodologis diakui secara terbuka. Parameter distance-decay β = 2
+     mengikuti benchmark Newtonian dan tidak dikalibrasi dari data perilaku perjalanan lo-
+     kal; analisis sensitivitas tidak dilakukan, sehingga klasifikasi dapat bergeser pada nilai
+     β yang berbeda. Model yang digunakan adalah gravitasi klasik Newton, bukan Huff
+     Probabilistic. Sistem ditetapkan tertutup pada batas Gerbangkertosusila, sehingga hek-
+     sagon di tepi berpotensi bias akibat kekurangan tetangga dan tarikan Jakarta, Malang,
+     atau Bali diabaikan. Data POI dari OpenStreetMap cenderung kurang menangkap
+     ekonomi informal dan tidak membedakan hierarki internal POI (kantor pusat diban-
+     ding cabang). Modifiable Areal Unit Problem (MAUP) tetap menjadi risiko interpretasi
+     pada heksagon 5 km2 . Bobot POI primer dan sekunder ditetapkan berdasarkan per-
+     timbangan, bukan kalibrasi empiris.
+
+  5. Beberapa posisi bersifat konseptual dan normatif. Istilah cannibalism adalah usulan
+     paper ini, bukan terminologi disipliner yang sudah mapan, dan harus dibaca sebagai
+     kontribusi konseptual yang sedang dipertahankan. Penyebutan arrested transition seba-
+     gai kondisi patologis, alih-alih fase alamiah, adalah klaim normatif yang mengasumsikan
+26                                     Urban Cannibalism
+
+
+     transisi menuju fase 3 Friedmann seharusnya sudah terjadi. Operasionalisasi Mecon ju-
+     ga bersifat theory-laden: pembaca yang menggunakan kerangka selain O’Sullivan dapat
+     menolak kategorisasi POI yang dipakai.
+
+
+
+                                   Daftar Pustaka
+
+Badan Pusat Statistik (2025). Jumlah Penduduk per Kecamatan Kabupaten/Kota di Ger-
+  bangkertosusila 2025. Diakses dari portal BPS masing-masing kabupaten/kota, Maret
+  2026.
+
+Beaverstock, J. V., Smith, R. G., and Taylor, P. J. (1999). A roster of world cities. Cities,
+  16(6):445–458.
+
+BPS Kabupaten Mojokerto (2024). Produk Domestik Regional Bruto Kabupaten Mojokerto
+ Atas Dasar Harga Konstan Menurut Lapangan Usaha 2018–2023. https://mojokertokab.
+ bps.go.id. Diakses Maret 2026.
+
+BPS Kota Mojokerto (2024). Produk Domestik Regional Bruto Kota Mojokerto Atas Dasar
+ Harga Konstan Menurut Lapangan Usaha 2018–2023. https://mojokertokota.bps.go.
+ id. Diakses Maret 2026.
+
+Christaller, W. (1933). Die zentralen Orte in Süddeutschland. Gustav Fischer.
+
+Efendi, M. (2013). Dampak Pembangunan Jembatan Suramadu Terhadap Perekonomian Pu-
+  lau Madura. PhD thesis, Universitas Diponegoro, Semarang.
+
+Firman, T. (2014). Inter-local-government partnership for urban management in decentrali-
+  zing Indonesia: From below or above? Kartamantul (Greater Yogyakarta) and Jabodetabek
+  (Greater Jakarta) compared. Space and Polity, 18(3):215–232.
+
+Florida, R. (2005). Cities and the Creative Class. Routledge.
+
+Friedmann, J. (1966). Regional Development Policy: A Case Study of Venezuela. MIT Press.
+
+Hall, P. and Pain, K., editors (2006). The Polycentric Metropolis: Learning from Mega-City
+ Regions in Europe. Routledge.
+
+Hirschman, A. O. (1958). The Strategy of Economic Development. Yale University Press.
+
+Huff, D. L. (1964). Defining and estimating a trading area. Journal of Marketing, 28(3):34–38.
+
+Kementerian Keuangan RI, DJPK (2026). Portal Data APBD dan Transfer ke Daerah.
+ https://djpk.kemenkeu.go.id. Data APBD Desember 2025; diakses April 2026.
+
+Lösch, A. (1954). The Economics of Location. Yale University Press. Translated by W. H.
+  Woglom and W. F. Stolper.
+
+Meijers, E. (2008). Measuring polycentricity and its promises. European Planning Studies,
+ 16(9):1313–1323.
+                                          SocArXiv                                               27
+
+
+Meijers, E. J. and Burger, M. J. (2010). Spatial structure and productivity in US metropolitan
+ areas. Environment and Planning A, 42(6):1383–1402.
+
+Myrdal, G. (1957). Economic Theory and Under-Developed Regions. Duckworth.
+
+O’Sullivan, A. (1996). Urban Economics. Irwin, Chicago, 3 edition.
+
+Pemerintah Provinsi Jawa Timur (2023). Peraturan Daerah Provinsi Jawa Timur Nomor 10
+  Tahun 2023 tentang Rencana Tata Ruang Wilayah Provinsi Jawa Timur Tahun 2023–2043.
+
+Putra, R. D. W. and Salim, W. (2022). Struktur ruang wilayah Gerbangkertosusila berda-
+  sarkan teori pusat-pinggiran: Sebuah kajian. Tataloka, 24(3):186–201.
+
+Reilly, W. J. (1931). The Law of Retail Gravitation. Knickerbocker Press, New York.
+
+Republik Indonesia (2022). Peraturan Presiden Nomor 66 Tahun 2022 tentang Rencana Tata
+  Ruang Kawasan Strategis Nasional Kawasan Perkotaan Gresik, Bangkalan, Mojokerto,
+  Surabaya, Sidoarjo, dan Lamongan. Lembaran Negara Republik Indonesia.
+
+Sassen, S. (2015). The Global City: New York, London, Tokyo. Princeton University Press.
+
+Tatem, A. J. (2017). WorldPop, open data for spatial demography. Scientific Data, 4:170004.
+
+
+
+Affiliation:
+Mahastri L.S. Widita
+Independent Researcher
+Yogyakarta, Indonesia
+E-mail: mswidita@gmail.com
+Raisal Ahmad
+Independent Researcher
+Yogyakarta, Indonesia
+E-mail: raisal.ahmad.dev@gmail.com
+
+
+
+
+SocArXiv Website                                                  https://socopen.org/
+SocArXiv Preprints                                   https://osf.io/preprints/socarxiv
+Preprint                                                             Submitted: 10 Juni 2026
+                                                                      Accepted: 10 Juni 2026
+

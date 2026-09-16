@@ -1,0 +1,1158 @@
+[PDF Metadata]
+Source PDF: journal/B13-meijers-burger-2010-spatial-structure-and-productivity-in-us-metropolitan-areas-10.1068-a42151.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           a42151 1383..1402
+Creator:         3B2 Total Publishing 6.05d/W
+Producer:        Acrobat Distiller 3.01 for Windows
+CreationDate:    Sun Jun 20 21:18:56 2010 WIB
+ModDate:         Mon Jun 21 18:13:46 2010 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           21
+Encrypted:       yes (print:yes copy:yes change:no addNotes:yes algorithm:RC4)
+Page size:       420.8 x 686 pts
+Page rot:        0
+File size:       365323 bytes
+Optimized:       yes
+PDF version:     1.4
+[Extracted Text]
+Environment and Planning A 2010, volume 42, pages 1383 ^ 1402
+
+
+doi:10.1068/a42151
+
+
+Spatial structure and productivity in US metropolitan areas
+
+
+
+Evert J Meijers
+Delft University of Technology, OTB Research Institute for the Built Environment, PO Box 5030,
+2600 GA Delft, The Netherlands; e-mail: e.j.meijers@tudelft.nl
+Martijn J Burger
+Department of Applied Economics and ERIM, Erasmus University Rotterdam, PO Box 1738,
+3000 DR Rotterdam, The Netherlands; e-mail: mburger@ese.eur.nl
+Received 24 April 2009; in revised form 4 December 2009
+
+
+
+Abstract. Recent concepts such as `megaregions' and `polycentric urban regions' emphasize that
+external economies are not confined to a single urban core, but are shared among a collection of
+nearby and linked cities. However, empirical analyses of agglomeration and agglomeration external-
+ities have so far neglected the multicentric spatial organization of agglomeration and the possibility of
+the `sharing' or `borrowing' of size between cities. The authors take up this empirical challenge by
+analyzing how different spatial structures, in particular the monocentricity ^ polycentricity dimension,
+affect the economic performance of US metropolitan areas. Ordinary least squares and two-stage
+least-squares models explaining labor productivity show that spatial structure matters: polycentricity
+is associated with higher labor productivity. This appears to justify suggestions that, compared with
+more monocentric metropolitan areas, agglomeration diseconomies remain relatively limited in
+the more polycentric metropolitan areas, whereas agglomeration externalities are to some extent
+shared among the cities in such an area. However, it was also found that a network of geographically
+proximate smaller cities cannot substitute for the urbanization externalities of a single large city.
+
+
+1 Introduction
+Slowly but steadily, the image of the city has changed dramatically over the last century
+and a half. The industrial image of a cityöas being composed of an urban core and a
+rural hinterlandöhas become increasingly obsolete. Advances in transport infrastruc-
+ture and rising levels of car ownership have fuelled a process of decentralization and
+suburbanization, initially of people, but later followed by jobs (Boarnet, 1994).
+However, this trend does not stop with the establishment of new centers in the city
+or at its edges. We are also witnessing the `fusion' of formerly relatively independent
+and distinct cities into wider metropolitan areas. Nowadays, what is `urban' increas-
+ingly spreads out over a wider region, requiring us to think of the city as a regional
+phenomenon (Scott, 1988; Storper, 1997). This is reflected in the revival of the debate
+on city-regions (Parr, 2005) and in the conceptualization of regionalized urban
+entities (Florida et al, 2008; Hall and Pain, 2006; Kloosterman and Musterd, 2001).
+In spatial terms, the structure of such regions can be characterised as a series of
+towns ``physically separate but functionally networked, clustered around one or more
+larger cities'' (Hall and Pain, 2006, page 3), or ``integrated sets of cities and their
+surrounding suburban hinterlands'' (Florida et al, 2008, page 459). Therefore, the
+emerging spatial form of postindustrial urban regions is quintessentially polycentric
+(Hall, 2000; Kloosterman and Musterd, 2001; Phelps and Ozawa, 2003).
+    Essential to this debate on such regionalized urban entities is the underlying idea
+that external economies are not confined to a well-defined single urban core but,
+instead, are shared among a group of functionally linked settlements (Phelps and
+Ozawa, 2003; Sassen, 2007). The basic idea of polycentricity is that multiple centers
+or cities, and hence multiple sources of agglomeration economies, are colocated and
+1384                                                              E J Meijers, M J Burger
+
+
+
+
+also interact, given the widening geographical scale of economic and social processes
+(van Oort et al, 2010). Such `regionalization' of urbanization externalities has been con-
+ceptualized and described by several scholars (Coe and Townsend, 1998; Richardson,
+1995), deploying terms such as `urban network externalities' (Capello, 2000), `spatial
+externality fields' (Phelps et al, 2001), or `regional externalities' (Parr, 2002). Such
+concepts build on the concept of `borrowed size', coined by Alonso (1973), who
+used it to explain why smaller cities that are part of a megalopitan urban complex
+had much higher incomes than self-contained cities of similar size. According to Phelps
+and Ozawa,
+   ``the idea of borrowed size suggests that today's examples of megalopitan agglomera-
+     tion are based predominantly on some combination of pecuniary and technological
+     externalities open to service industries across a group of settlements, rather than
+     the technological externalities available at the localised scale of discrete towns or
+     cities'' (2003, page 594).
+     When external economies are increasingly conceptualized in relational terms
+(Burger et al, 2009; Gordon and McCann, 2000; Johansson and Quigley, 2004;
+Phelps and Ozawa, 2003), it would make sense to study agglomeration externalities
+at the scale of the regional urban system rather than the single city, as interactions
+with nearby cities may also influence the presence of agglomeration externalities.
+However, such research seems nonexistent. It appears that empirical analysis of
+economic agglomeration does not correspond to the changes in the geographical
+scale at which agglomeration manifests itself (Burger et al, 2010; Phelps and Ozawa,
+2003). In analysis, the shape of the urban system is most often simply taken for
+granted (Kloosterman and Musterd, 2001; Scott, 2000). In equilibrium approaches,
+the economic organization of space is not a concern (see Corpataux and Crevoisier,
+2007).
+     The principal objective of this paper is to provide some first steps to overcome the
+empirical deficit which characterize the current debate about the sharing of agglomer-
+ation externalities between a collection of more or less proximally located cities. Do
+cities actually borrow size from each other? Can a collection of nearby cities provide a
+substitute for the urbanization externalities of a single larger city? These key questions
+are at the heart of the worldwide policy debates on the geographical scale of agglom-
+eration, be it megaregions in the USA or Asia, or the somewhat smalleröin spatial
+terms öpolycentric urban regions that have become such a popular planning concept
+in Europe (see Meijers, 2005).
+     The approach developed in this paper to answer the question of whether cities
+borrow, or share, size is to include the spatial structure of metropolitan areas into
+empirical analysis of agglomeration externalities. Building on previous work by Anas
+et al (1998) and Lee and Gordon (2007), we do not limit ourselves to the monocentricity ^
+polycentricity dimension, but also include a centralization ^ dispersion dimension.
+Labor productivity is used as a proxy for metropolitan performance. We extend existing
+production functions [notably those of Ciccone and Hall (1996)], with spatial variables
+other than the commonly used indicators such as size or average density.
+     The remainder of this paper is organized as follows. We synthesize the literature
+discussing the spatial structure of metropolitan areas in relation to their performance
+in section 2, which results in three testable assumptions. In section 3 we present our
+measurement of the spatial structure of metropolitan areas; in section 4 we give the
+model specification and detail other data used. In section 5 we present the estimation
+results, and in section 6 conclude and discuss the implications of our findings.
+Spatial structure and productivity in US metropolitan areas                            1385
+
+
+
+
+2 Urbanization, spatial structure, and metropolitan performance
+Spatial structure has attracted increasing interest from urban geographers and planners
+as it is believed to affect the economic performance, environmental sustainability, and
+social well-being of places and their inhabitants. Clear examples are the `new urbanism'
+and `smart growth' movements in urban planning circles in the USA. Although in
+regional science and urban economics there is a large empirical literature which links
+city characteristics to urban performance, empirical work on agglomeration often does
+not go beyond including average density or city size (`urbanization externalities')
+as a spatially relevant factor. However, neither density nor size reveals much about a
+region's spatial organization.
+    Indicators of the spatial organization of metropolitan areas need to address two
+questions (Anas et al, 1998). First, how is the urban population spread over urban centers?
+Second, to what extent is the metropolitan population located in urban centers or
+dispersed? The first question refers to a monocentric ^ polycentric dimension, while the
+second question refers to a centralization ^ dispersion dimension. Below, we address
+the relationship of size, monocentricity ^ polycentricity, and centralization ^ dispersion,
+respectively, with metropolitan performance, which results in three testable hypotheses.
+2.1 Size and urbanization externalities
+A large strand of empirical research in regional science and urban economics focuses
+on the benefits stemming from the size or density of the urban economy. As a general
+rule, these urbanization externalities can be regarded as external economies passed to
+firms as a result of savings from the large-scale operation of the city as a whole. These
+benefits are uncontrollable and unregulable for a single firm and, above all, immobile
+or spatially constrained (van Oort, 2004). Following Isard (1956), it is the availability of
+a large and multifunctional labor pool and the presence of a good infrastructure and
+public facilities in dense economic areas that are the sources of urbanization external-
+ities. Relatively more urbanized areas are also more likely to accommodate universities,
+R&D laboratories, trade associations, and other knowledge-generating institutions.
+Moreover, the often diverse industry mix in an economically dense area increases the
+odds of interaction, generation, replication, modification, and recombination of ideas
+and applications across different sectors (van Oort, 2004), and protects a region from
+volatile demand (Frenken et al, 2007). In addition, the presence of a large internal
+market offers a larger degree of stability and lower transport costs (Siegel et al, 1995).
+However, a high degree of urbanization may also result in a dispersion of economic
+activities due to pollution, crime, or high land and housing prices. In this respect, one
+can speak of `urbanization diseconomies', which are assumed to be negatively related
+to metropolitan performance. We expect to confirm the strong positive relation
+between size and metropolitan performance, but our main interest lies with the mono-
+centricity ^ polycentricity and centralization ^ dispersion dimensions of urban spatial
+structure.
+2.2 Monocentricity and polycentricity
+Whereas metropolitan size is linked to external economies of scale, monocentricity or
+polycentricity, and centralization or dispersion, can be linked to external economies
+of structure. In the current debate on metropolitan spatial structure, the influence of
+monocentricity or its opposite, polycentricity, on the performance of metropolitan
+areas remains unclear due to a lack of empirical research, although this evidence is
+urgently needed (Cheshire, 2006; Kloosterman and Musterd, 2001; Lambooy, 1998;
+Meijers, 2008a; Parr, 2004; 2008; Turok and Bailey, 2004).
+    At the spatial scale of the metropolitan area, Lee and Gordon (2007) did not find
+that a polycentric or monocentric structure, measured by the subcenters' share of all
+1386                                                                 E J Meijers, M J Burger
+
+
+
+
+center employment, affects metropolitan population or employment growth. Still, it is
+generally brought forward that the advantage of polycentricity at the local level is that
+it comes with a lack of agglomeration disadvantages (see Bertaud, 2004; Fujita et al,
+1997; Goffette-Nagot and Schmitt, 1999) such as fierce competition for land and
+workers, congestion, and pollution exposure.
+     Agglomeration disadvantages appear to be confined largely to the scale of individ-
+ual cities within the metropolitan area (Parr, 2002), and evidence suggests that smaller
+cities have a greater endogenous capacity to keep these social, economic, and environ-
+mental costs under control (Capello and Camagni, 2000). When, at the same time,
+the idea holds that agglomeration advantages are increasingly associated with a more
+regionalized spatial structure (Capello and Camagni, 2000; Parr, 2002; Sassen, 2007)
+as networks may substitute for agglomeration (Johansson and Quigley, 2004), then
+polycentricity will become an increasingly strong asset of metropolitan areas. So far,
+however, it remains untested whether a polycentric spatial structure in metropolitan
+areas leads to successful economic development (Lambooy, 1998; Parr, 2004; 2008).
+Building on the idea that agglomeration advantages have `regionalized' to a consid-
+erable extent, whereas disadvantages remain local issues, we hypothesize in this paper
+that a more polycentric urban structure has a direct and positive effect on metropolitan
+performance, as it may provide a better balance between agglomeration advantages
+and agglomeration disadvantages.
+2.2.1 Extent of regionalization of urbanization externalities
+Despite the theoretical consensus regarding the `regionalization' of urban externalities,
+the extent to which such a `regionalization' may take place in a polycentric spatial
+structure is much questioned. According to Bailey and Turok (2001), the idea that the
+integration of separate cities results in agglomeration advantages comparable to those
+enjoyed by similar-sized monocentric cities is `rather simplistic'. Parr (2004; 2008)
+points in this respect to the need for longer travel flows, longer commodity flows,
+and less convenient flows of information in polycentric urban regions. Moreover, it
+should be noted that ``some of the advantages of urban size stem from the nature of the
+metropolitan environment, and are related to such factors as density, proximity, face-
+to-face contact, informal structures, unplanned interaction, etc'' (Parr, 2004, page 236),
+and consequently hold less for polycentric urban regions. This is confirmed by a recent
+study (Meijers, 2008a) which showed that polycentric regions in the Netherlands had
+significantly fewer cultural, leisure, and sports amenities than did monocentric regions
+in which the urban population is concentrated in a single city. In this paper we test
+the hypothesis that polycentricity diminishes the effect of urbanization on labor
+productivity at the regional metropolitan scale.
+2.3 Centralization and dispersion
+A `dispersed spatial structure' refers to the situation in which a large part of the
+population is not living in centers but is spread out across the territory in a non-
+concentrated pattern. It is not necessarily similar to urban sprawl, as this is often equated
+with low-density residential development, whereas dispersion concerns the issue of
+whether the development is taking place in centers or not, leaving aside the question
+of density. Whether or not dispersion negatively influences urban performance is an
+unsolved issue and, as far as it corresponds to urban sprawl, even controversial. Accord-
+ing to a 2000 Costs of Sprawl report (Transportation Research Board, 2002), dispersed
+low-density development consumes more land and infrastructure, is associated with
+fewer fiscal impacts, whilst increasing housing costs, personal travel costs, and auto-
+mobile dependence. Critics claim that spread-out, dispersed development fulfills a
+widespread need for safe neighborhoods, appreciating housing values, and unrestricted
+Spatial structure and productivity in US metropolitan areas                            1387
+
+
+
+
+use of automobiles. Glaeser and Kahn (2004) stress the association of sprawl with
+significant improvements in quality of life. According to the 2000 Costs of Sprawl study
+(Transportation Research Board, 2002), the alternative is a form of centralization in
+which development is directed to locations where it is more efficient to provide public
+services. This is referred to as `smart growth'. In this study we test the hypothesis that
+metropolitan areas which have a higher proportion of the population living in urban
+places and, hence, less dispersion, perform better in terms of labor productivity.
+
+3 Quantifying metropolitan spatial structure
+A prerequisite for testing the idea of whether urbanization economies are dependent on
+spatial structure is to quantify this regional spatial structure. In addition to size, we
+distinguish two dimensions which affect spatial concentration. Here we discuss their
+exact measurement. The centralization ^ dispersion dimension refers to the extent to
+which population and employment is centralized in cities or dispersed over smaller
+nonurban places in a noncentralized pattern. The monocentricity ^ polycentricity
+dimension reflects the extent to which urban population and employment is con-
+centrated in one city or spread over multiple cities in the wider metropolitan area
+(see figure 1). These two dimensions are quite similar to the two types of spatial
+concentration at the city level discerned by Anas et al (1998) in their classic essay on
+the urban spatial structure of cities (see also Lee and Gordon, 2007), although in terms
+of measurement we adopt them to the larger metropolitan area scale.
+
+                        Centralized
+
+
+
+
+Monocentric                                    Polycentric
+
+
+
+
+                        Dispersed
+
+              Wider metropolitan
+              region (CSA/MSA)        Place
+
+Figure 1. Dimensions of regional urban form.
+
+3.1 Monocentricity versus polycentricity
+In the literature one finds different interpretations of what makes a metropolitan area
+polycentric (Meijers, 2008b). Broadly speaking, there is an approach that defines poly-
+centricity on the basis of urban morphology (see Kloosterman and Musterd, 2001; Parr,
+2004), while another approach adds relational aspects, in the sense that a metropolitan
+area can be considered polycentric only when the cities are strongly functionally linked,
+which is sometimes referred to as `relational polycentricity' or `functional polycentricity'
+(see, for instance, de Goei et al, 2009; Green, 2007; Hall and Pain, 2006). Here, we
+adhere to the first and least restrictive vision, thus studying the monocentricity ^
+polycentricity dimension from a morphological perspective. It is important to note
+that polycentricity is not so much about the presence of multiple cities in a metropol-
+itan area, as about the balance in the size distribution of these cities. The more even
+this balance, and hence the less strong the hierarchy, the more polycentric the area
+(Kloosterman and Lambregts, 2001; Meijers, 2005; Parr, 2004).
+1388                                                                     E J Meijers, M J Burger
+
+
+
+
+    The rank ^ size distribution of the regional urban system provides information on
+this hierarchy and is therefore a useful indication of the extent of monocentricity or
+polycentricity (Nordregio et al, 2004; Parr, 2004). Figure 2 presents the four largest
+incorporated places in the US metropolitan areas and also the regression slope that
+best fits the distribution of their sizes. The flatter this slope, the more polycentric
+the metropolitan area; conversely, the steeper this slope, the more monocentric the
+metropolitan area. In this example, San Antonio, TX, is obviously monocentric,
+whereas San Jose ^ San Francisco ^ Oakland, CA, is a clear example of a polycentric
+metropolitan area.
+    In this study we calculated the slope of the regression line of the rank ^ size
+distribution of incorporated places (cities) in each US metropolitan area.(1) Following
+a previously described method (Meijers, 2008b), we did this for different numbers of
+incorporated places (2, 3, and 4) per metropolitan area and then calculated the average
+of these three scores. The slopes found were normally distributed, meaning that the
+
+
+
+               6.0
+
+
+
+               5.5
+
+log10 (size)
+
+               5.0
+
+
+
+               4.5
+
+
+
+
+               6.0
+
+
+
+               5.5
+
+log10 (size)
+               5.0
+
+
+
+               4.5
+
+
+
+                     0.0   0.1   0.2   0.3      0.4    0.5   0.6   0.7
+                                        log10 (rank)
+
+Figure 2. Rank ^ size distributions as measures of (a) monocentricity and (b) polycentricity.
+(1) Considering only incorporated places of at least 5000 inhabitants in 2006. In cases where the
+
+second-largest incorporated place in the metropolitan region did not meet this threshold, we used
+its actual size in order to be able to calculate a slope.
+Spatial structure and productivity in US metropolitan areas                                   1389
+
+
+
+
+majority of metropolitan areas in the USA cannot be considered very monocentric nor
+very polycentric, but are somewhere in between these extremes on the scale. It appears
+that only the most polycentric metropolitan areas can be considered polycentric urban
+regions in the way they are usually defined.(2) Below, we refer to the position of a
+metropolitan area on this scale ranging from monocentric to polycentric as its `degree
+of polycentricity', simply because higher values mean that it is more polycentric.
+Otherwise, we could have equally chosen to term it the `degree of monocentricity'.
+     The rank ^ size distribution does not provide information on the spread of cities
+over the metropolitan territory, but polycentricity is also about spatially distinct
+cities (Kloosterman and Lambregts, 2001; Parr, 2004). Therefore, we need to filter
+out regions which score `polycentric' in terms of the rank ^ size distribution, but in
+which the cities are part of the same contiguous built-up area. In this last case, the
+term `polycentric conurbation' is more appropriate. If the two largest cities of a metro-
+politan area which scored as polycentric belong to the same `urban area', which is
+delineated by the US Census Bureau to encompass densely settled territory, we labelled
+these `polycentric conurbations'. We did not include these polycentric conurbations in
+the analysis as it could be argued that these metropolitan areas, although scoring as
+polycentric, in fact more resemble monocentric areasöthe main difference being the
+presence of administrative boundaries dividing the built-up area (see the appendix).
+3.2 Centralization versus dispersion
+The share of the central city in total metropolitan area population in the USA fell
+rapidly from almost 64% in 1930 to 38% in 2000 (Kim, 2007). The question, then, is
+that of where the majority of the metropolitan population is located: are they clustered
+in other urban centers, or are they dispersed over the metropolitan territory in an
+uncentered way? In order to test the hypothesis that less centralization, and thus
+more dispersion, limits labor productivity, we scored each case-study area on a
+centralization ^ dispersion axis, their position being dependent on the share of the
+metropolitan population that was not located in urban centers of at least 25 000
+inhabitants in 2006.
+3.3 Association of dimensions
+Both dimensions are associated in the sense that more polycentric metropolitan areas
+tend to be characterized slightly more often by dispersion (see table 1 for a listing of
+the most extreme scores on the two dimensions). There are, however, exceptions to the
+rule. For instance Midland ^ Odessa, TX, is the most polycentric metropolitan area,
+although it is also among the top seven most centralized areas.
+
+4 Model, data, and estimation strategy
+4.1 Model
+In regional science and urban economics, many studies have investigated the effect of
+urbanization externalities using aggregate production functions at the city level.
+Although different functional forms of urban production exist, our point of departure
+is the models developed by Ciccone and Hall (1996) and Ciccone (2002), who use a
+Cobb ^ Douglas production function to assess the effect of agglomeration economies
+on localised labor productivity.
+    Consider the following production function of a metropolitan economy with pro-
+duction factors capital (K), labor (L), human capital (H), materials or intermediate
+
+(2) Following common definitions of such regions (see Kloosterman and Musterd, 2001; Meijers,
+
+2005; Parr, 2004), although for a definite categorization we require more knowledge on the level of
+specialization and the level of interaction.
+1390                                                                     E J Meijers, M J Burger
+
+
+
+
+Table 1. Most monocentric, polycentric, centralized, and dispersed metropolitan regions in the USA.
+
+Rank Most                    Most                  Most                Most dispersed
+     monocentric             polycentric           centralized
+
+1      Lincoln,              Midland ± Odessa,     El Paso, TX         Greenville ± Spartanburg ±
+       NE                    TX                                        Anderson, SC
+2      Tallahassee,          Santa Barbara ±       Phoenix ± Mesa ±    Portland ± Lewiston ±
+       FL                    Santa Maria, CA       Scottsdale, AZ      South Portland, ME
+3      Jacksonville,         Johnson City ±        Los Angeles ±       Columbia ± Newberry, SC
+       FL                    Kingsport ± Bristol   Long Beach ±
+                             (Tri-cities),         Riverside, CA
+                             TN ± VA
+4      El Paso, TX           Salt Lake City ±      Lincoln, NE         Pittsburgh ± New Castle,
+                             Ogden ± Clearfield,                       PA
+                             UT
+5      San Antonio,          Greenville ±          San Diego ±         Youngstown ± Warren ±
+       TX                    Spartanburg ±         Carlsbad ± San      East Liverpool, OH ± PA
+                             Anderson, SC          Marcos, CA
+
+inputs (M), and land (N) in which a single good is produced which is a composite of
+all the outputs of all producers in that metropolitan area:
+    Q  AK k L l H y M m N n ,                                                                  (1)
+in which Q is the nominal output. In equation (1), A represents an efficiency parameter
+or vector of exogenous influences on the nominal output measuring total factor
+productivity. Amongst others, the efficiency parameter A here reflects the urbanization
+externalities and metropolitan spatial structure (the degree of polycentricity and of
+dispersion). Given constant returns to scale (k  l  y  m  n  1), equation (1) can
+be rewritten as
+                k  y  m  n
+      Q            K    H      M      N
+             A                             ,                                        (2)
+      L            L    L      L       L
+in which the output per worker (labor productivity) is a function of the capital ^ labor
+ratio, human capital ^ labor ratio (or, alternatively, education per worker), intermediate
+inputs ^ labor ratio, and the efficiency parameter A. By taking logarithms on both sides
+of equation (2), the multiplicative form can be converted into a linear stochastic form,
+to give the following testable equation:
+                                                              
+          Q                     K             H           M           N
+     ln         y0  k ln            y ln        m ln       n ln
+          L                     L             L           L           L
+                       X
+                         yj  1 ln Xj  rj  e ,                                      (3)
+                         j
+
+where equation (3) is augmented with a set of variables X with parameters y, which are
+related to metropolitan size and spatial structure and enter the production function
+through a higher value of A (Broersma and Oosterhaven, 2009; Fogarty and Garofolo,
+1988). Here, this set includes the size of the metropolitan population, the degree of
+polycentricity, and the degree of dispersion. Following Ciccone (2002), census region
+dummy variables, rj , are included to account for remaining differences in exogenous
+total factor productivity, which may moderate the relationship between agglomeration,
+Spatial structure and productivity in US metropolitan areas                         1391
+
+
+
+
+spatial structure, and labor productivityösuch as relative differences in climate, price
+levels, and levels of technology across metropolitan areas.
+4.2 Data and variables
+To estimate our production function, data were gathered for metropolitan statistical
+areas (MSAs), but in the many cases in which these were part of a wider combined
+statistical area (CSA) we used this widest possible definition of US metropolitan
+areasöwhich is based largely on commuting behavior (see the appendix). The reason
+to focus principally on CSAs comes from the necessity of analyzing the performance of
+cities in their wider spatial context, and we wanted to avoid the monocentric perspec-
+tive that underlies the MSA definition. For example, it was deemed necessary for this
+analysis to take the San Jose ^ San Francisco ^ Oakland CSA as a unit of analysis,
+rather than the MSAs that make up this CSA separately. Data were gathered for those
+metropolitan areas located in continental USA with a total population over 250 000
+inhabitants in 2006.
+     Our dependent variable `labor productivity' was measured as the 2006 GDP
+in real US dollars of a metropolitan area divided by the total number of jobs in
+the included sectors in that area in 2006. As our research underlies a market-based
+model, and spatial externalities are most profound in sectors which lack exogenous
+endowments, agriculture, fishing, hunting, mining, and public administration were
+excluded (see also Bru«lhart and Mathys, 2008). In addition, no figures on self-
+employment were available. Data on GDP by metropolitan area and sector were
+obtained from the US Department of Commerce's Bureau of Economic Analysis
+(BEA). Data on the number of jobs were provided by the Bureau of Labor
+Statistics (BLS) of the US Department of Labor, and for individual sectors were
+taken from the 2006 American Community Survey. The new BEA estimates enable
+a more direct measurement of labor productivity than was previously possible,
+when many researchers used indirect proxies such as the mean annual wage, or
+household income. Descriptive statistic are provided in table 2. Note that, corre-
+sponding with specification (3), all nondummy variables in our empirical analysis
+are log-transformed.
+Table 2. Descriptive statistics of variables (N  113).
+
+                                  Mean            Standard    Minimum     Maximum
+                                                  deviation
+
+Labor productivity (ln)           11.29           0.197       10.70       11.85
+Capital ± labor ratio (ln)        11.93           0.106       11.73       12.31
+Land ± labor ratio (ln)           ÿ3.661          0.732       ÿ5.620      ÿ1.671
+Education per worker (ln)         ÿ0.621          0.404       ÿ1.650       0.418
+Metropolitan size (ln)            13.68           0.998       12.43       16.89
+Polycentricity (ln)               ÿ0.573          0.554       ÿ1.636       2.291
+Dispersion (ln)                   ÿ0.769          0.425       ÿ2.144      ÿ0.124
+New England                        0.027          0.161        0           1
+Middle Atlantic                    0.071          0.258        0           1
+East North Central                 0.177          0.383        0           1
+West North Central                 0.088          0.285        0           1
+South Atlantic                     0.159          0.368        0           1
+East South Central                 0.177          0.383        0           1
+West South Central                 0.071          0.258        0           1
+Mountain                           0.088          0.285        0           1
+Pacific                            0.142          0.350        0           1
+1392                                                              E J Meijers, M J Burger
+
+
+
+
+    With respect to the factor inputs, the `capital ^ labor ratio' within a metropolitan
+area was measured by linking the capital ^ labor ratio of broad sectors, as obtained
+from the Annual Survey of Manufacturers, to the industrial composition within the
+metropolitan area (based on a division into fifteen sectors). Hence, the obtained value
+is a weighted average of the capital ^ labor ratio across sectors. Although this oper-
+ationalization does not account for regional differences within sectors (eg capital
+intensity, level of technology, and subsector specialization), it provides a reasonable
+proxy to the capital ^ labor ratio within metropolitan areas. The `land ^ labor ratio' is
+defined as the average number of acres per worker within a metropolitan area. The
+human capital ^ labor ratio, or average `education per worker', within a metropolitan
+area was obtained from the 2006 American Community Survey and measured as the
+percentage of the metropolitan population aged 25 years and older with a bachelor's
+degree or higher. As our output variable is `gross domestic product' (GDP), which is
+the total production minus intermediate inputs, we do not take intermediate goods into
+consideration (see also Broersma and Oosterhaven, 2009).
+    However, the main variables of interest in our research are the indicators related to
+the urbanization externalities and spatial structure. Urbanization externalities are
+captured by the variable `metropolitan size', which is measured as the size of the
+metropolitan population in 2006. With respect to urban spatial structure, we include
+both a metropolitan area's degree of `polycentricity' and its degree of `dispersion' in
+our model. Their measurement was discussed in section 3. Finally, dummy variables,
+based on the census divisions, are included; these reflect nine broad geographic regions
+in the United States (New England, Middle Atlantic, South Atlantic, East North
+Central, East South Central, West North Central, West South Central, Mountain, and
+Pacific; see also Lee and Gordon, 2007).(3) These dummies attempt to control for some
+of the unobserved heterogeneity across metropolitan areasöin particular, differences
+in technology and price levels.
+4.3 Endogeneity and two-stage least squares estimation (TSLS)
+Although equation (3) can be estimated using conventional ordinary least squares
+(OLS), this estimation technique does not account for the simultaneity between metro-
+politan size and structure and labor productivity. In the model specification, it is
+assumed that metropolitan size and spatial structure have an effect on metropolitan
+labor productivity. However, the causality of this relationship is far from clear. On
+the one hand, agglomeration is often associated with a number of benefits such as
+labor-market pooling, accessibility to intermediate goods, knowledge spillovers, and
+proximity to consumers, which in turn would augment productivity. On the other
+hand, firms may also be attracted to economically dense areas because of the
+presence of higher productivity levels (Rosenthal and Strange, 2004). In other words,
+agglomeration can be regarded as both a cause and a consequence of labor produc-
+tivity. Likewise, metropolitan spatial structure may be regarded as a consequence
+rather than a cause of labor productivity growth. High land and real estate prices
+in combination, driven by high levels of labor productivity in city centers, may
+disperse people and firms out of the main cities into the wider metropolitan area.
+In this case it is not spatial structure that directs metropolitan performance, but
+metropolitan performance that directs spatial structure.
+     Not accounting for simultaneity can lead to inconsistent estimates as this
+violates one of the underlying assumptions of OLS: namely, that the independent
+variables are uncorrelated with the disturbance term of the dependent variable.
+(3) Usingcensus-region dummies (covering four broad geographical regions) yielded similar
+empirical results.
+Spatial structure and productivity in US metropolitan areas                           1393
+
+
+
+
+In other words, the independent variables should not be affected by the dependent
+variable. Probably the most common technique to deal with this (potential) simulta-
+neity bias is to isolate the effect that runs from agglomeration and urban spatial
+structure to labor productivity by means of a two-stage least squares (TSLS) estimation
+(see also, Ciccone, 2002; Ciccone and Hall, 1996; Combes et al, 2008). In order to do
+so, we need instruments, or variables that are correlated with the endogenous indepen-
+dent variables but not with the dependent variable. Hence, they should be `relevant',
+but at the same time `exogenous'. Based on Ciccone and Hall (1996), we used five
+historical variables which are not related to labor productivity today, as production
+60 ^ 150 years ago was organised in a very different way from today, but which did
+significantly contribute to today's metropolitan size and spatial structure:
+(1) the metropolitan population in 1950;
+(2) the degree of polycentricity in 1950;
+(3) the degree of dispersion in 1950;
+(4) presence or absence of a railroad in the metropolitan area in 1860 (Stover, 1961);
+and
+(5) agricultural land use, measured as the density of employment in agriculture outside
+the urban areas.
+    The 1950 variables are constructed in exactly the same way as our 2006 variables
+and their inclusion as instrumental variables is obvious. With respect to our railroad
+variable, it is assumed that the presence or absence of railroads in 1860 was not driven by
+modern productivity differences (Ciccone and Hall, 1996), but is important in explaining
+agglomeration at the end of the 19th century and the development of other places
+through suburbanization in the early 20th century. The agricultural land-use variable is
+used as an instrument of dispersion: more extensive agricultural land use outside the
+urban areas increases relative land rent as competition for land intensifies (Brueckner,
+2001). This, in turn, slows down the development of housing and offices outside the
+urban area compared with metropolitan areas in which nonurban land is relatively
+cheap. Agricultural land use is, however, not related to our dependent variable as this
+sector was excluded in the measurement of the labor productivity of metropolitan
+areas.
+
+5 Empirical results
+5.1 Testing for endogeneity of metropolitan size and spatial structure
+Although there may be a problem of recursive causality from a theoretical point of
+view, this does not necessarily mean that there is a problem from an econometric point
+of view (Combes et al, 2008). If indeed the independent variables of interest can be
+treated as exogenous, then OLS, which is a more efficient estimator, should be prefer-
+red over the TSLS estimator (Woolridge, 2006). In order to conduct such a test, the
+instruments need to fulfil two general conditions: they should be relevant (not weak);
+and valid (exogenous).
+    Table 3 shows the test results on the relevance and validity of the instruments as
+well as the endogeneity of metropolitan size and structure. The endogenous variables
+were tested both separately and simultaneously. In other words, we ran three regres-
+sions in which we instrumented metropolitan size, polycentricity, or dispersion,
+and one regression in which we instrumented the three variables simultaneously.
+We included more instruments than endogenous independent variables in each
+specification in order to conduct an overidentfication test to assess the validity of
+the instruments. On the basis of the Anderson canonical correlation, Cragg ^ Donald
+F-statistic, and Shea partial R 2 -statistic, we can conclude that our instruments
+1394                                                                           E J Meijers, M J Burger
+
+
+
+
+are relevant.(4) With respect to testing the validity of the instruments, both the Sargan
+and Basmann tests indicate that our instruments are valid.(5)
+      Finally, we tested whether the endogenous independent variables included are also
+econometrically endogenous. In this, Wu ^ Hausman F-test and Durbin ^ Wu ^ Hausman
+w 2 -test assess the null hypothesis that the instrumental variables are exogenous by
+Table 3. First-stage results of two-stage least-squares (TSLS) regressions on metropolitan labor
+productivity.
+
+                             Metropolitan size      Polycentricity       Dispersion     All
+
+Instruments                  population             polycentricity       dispersion     population
+                             in 1950;               in 1950;             in 1950;       in 1950;
+                             railroad in 1860       railroad in 1860     agricultural   polycentricity
+                                                                         land use       in 1950;
+                                                                                        dispersion in
+                                                                                        1950; railroad
+                                                                                        in 1860;
+                                                                                        agricultural
+                                                                                        land use
+Relevance
+Anderson canonical             79.28**              44.63**              35.13**        36.89**
+   correlation
+Cragg ± Donald (CD)          114.05**               31.66**              22.11*           9.31**
+   F-test
+Critical value CD              19.93                19.93                19.93            6.06
+   (10% relative bias)
+Shea partial R 2
+Metropolitan size               0.70                                                      0.75
+Polycentricity                                       0.40                                 0.43
+Dispersion                                                                0.31            0.33
+Validity
+Sargan statistic                0.29                 0.08                 0.00            1.00
+Basmann statistic               0.25                 0.07                 0.00            0.86
+Exogeneity
+Wu ± Hausman F-test             4.78*                0.71                 0.02            1.85
+Durbin ± Wu ± Hausman           5.31*                0.83                 0.02            6.24
+  w 2 -test
+Observations                 113                    113                  113            113
+Regressors                    14                     14                   14             14
+Instruments                   15                     15                   15             16
+Excluded instruments           2                      2                    2              5
+** p < 0:01, * p < 0:05.
+
+(4) The  Anderson canonical correlation statistic is significant in all four specifications, meaning
+that the instruments used in these specifications are adequate to identify the equation. The Cragg ^
+Donald F-statistic tests whether we face a weak-instrument problem. A set of instruments is
+defined as `weak' if the bias of the TSLS estimator, relative to the bias of the OLS estimator,
+exceeds the threshold of 10% (Stock and Yogo, 2005) at the 5% confidence level. As can be seen
+from table 3, this is the case for all specifications as the value of the Cragg ^ Donald F-statistic
+exceeds the critical values provided by Stock and Yogo (2005). These results are reinforced by the
+Shea partial R 2 -statistic, which is reasonably high for all specifications. In particular, metropolitan
+size appears to be well instrumented.
+(5) In this, whether the instruments for metropolitan size and spatial structure are uncorrelated with
+
+the disturbance term is tested. As these overidentification test statistics were nonsignificant for all
+four specifications, we cannot reject the null hypothesis that the instruments are uncorrelated with
+the disturbance term of the dependent variable and can be considered valid.
+Spatial structure and productivity in US metropolitan areas                                1395
+
+
+
+
+comparing the TSLS estimates with the OLS estimates. From these tests it can be
+concluded that metropolitan spatial structure, defined by monocentricity ^ polycentricity
+and centralization ^ dispersion, can be treated as exogenous. In line with Lee and
+Gordon (2007), this is not surprising because spatial restructuring can be considered
+a long-term process. However, for the specification in which metropolitan size is
+instrumented, the Durbin ^ Wu ^ Hausman test rejects the hypothesis at a 5% confi-
+dence level ( p  0:021). The estimation of this equation using the OLS estimator
+would therefore not yield inconsistent results. Examining the specification with
+multiple endogenous regressors, we cannot reject the null hypothesis that metropol-
+itan size and metropolitan spatial structure are exogenous. As both the Wu ^ Hausman
+F-test and Durbin ^ Wu ^ Hausman w 2 -test indicate that there is no evidence for an
+endogenous relationship between labor productivity and metropolitan size and struc-
+ture, OLS estimation should be used, given the fact that our instruments are relevant
+and valid and OLS the more efficient test. However, we test for robustness of our
+results by comparing the OLS estimates with the estimates from the TSLS specification
+in which only metropolitan size is treated as endogenous.
+5.2 Labor productivity, urbanization externalities, and spatial structure
+Model 1 in table 4 shows the results of the OLS estimation of metropolitan size and
+spatial structure on labor productivity, controlling for capital ^ labor ratio, land ^ labor
+ratio, and education, and including census division fixed effects. The White ^ Koenker
+test indicates that the null hypothesis that the residuals are homoskedastic cannot be
+rejected, and the Ramsey RESET test shows that we do not face an omitted variable
+bias problem. The VIF statistics indicate no multicollinearity problems. In general,
+the model fits the data well, explaining about two thirds of the variance in labor
+productivity across American metropolitan areas.
+Table 4. Ordinary least squares (OLS) and two-stage least squares (TSLS) tests on metropolitan
+labor productivity, 2006, with standard errors shown in parentheses (all nondummy variables are
+mean-centered).
+
+                                            Model 1 OLS               Model 2 TSLS a
+
+Intercept                                   11.36 (0.110)**           11.28 (0.110)**
+Capital ± labor ratio (ln)                   0.754 (0.232)**           0.843 (0.222)**
+Land ± labor ratio (ln)                      0.013 (0.032)            ÿ0.012 (0.032)
+Education per worker (ln)                   ÿ0.007 (0.050)            ÿ0.010 (0.047)
+Metropolitan size (ln)                       0.107 (0.020)**           0.078 (0.023)**
+Polycentricity (ln) b                        0.055 (0.023)*            0.051 (0.022)*
+Dispersion (ln) c                            0.024 (0.039)             0.030 (0.036)
+Census division dummies                     yes                       yes
+Number of observations                      113                       113
+F-statistic                                  13.48                     12.01
+R 2 (OLS)/centered R 2 (TSLS)                 0.66                      0.65
+Root MSE                                      0.12                      0.12
+White ± Koenker (OLS)/Pagan ± Hall           22.7                      19.8
+   test (TSLS)
+Ramsey RESET test                              0.83                         0.03
+** p < 0:01; * p < 0:05.
+a Instruments used in the first stage of the regression for the endogenous variable metropolitan
+
+population.
+b The higher the value, the more polycentric; the lower the value, the more monocentric.
+c The higher the value, the more dispersed; the lower the value, the more centralized.
+1396                                                                  E J Meijers, M J Burger
+
+
+
+
+     Turning to the main results, we find a positive and significant effect of the
+capital ^ labor ratio (elasticity of 0.75) and no effect of the proportion of the work-
+force with a bachelor's degree or higher on metropolitan labor productivity. However,
+our main interest lies in examining the effect of metropolitan size and structure on
+urban performance. In line with the existing empirical work on agglomeration, we find
+a positive and significant effect of urbanization externalities on metropolitan labor
+productivity. A doubling of metropolitan size increases metropolitan labor productivity
+by over 10%. This is slightly higher than the consensus view öthat a doubling of city
+size increases productivity by between 3% and 8% (Rosenthal and Strange, 2004)öand
+the average of 5.4% found by Melo et al (2009) in a meta-analysis of such estimates.
+     With respect to metropolitan spatial structure, we find mixed results in the sense
+that we find a positive and significant effect of the degree of polycentricity on metropolitan
+labor productivity, but no effect of the degree of dispersion. We had expected that
+dispersion would have a negative effect on labor productivity, but this is not the case.
+However, the positive effect of the degree of polycentricity on metropolitan labor produc-
+tivity confirms our theoretical expectation. A doubling of the degree of polycentricity
+increases metropolitan labor productivity by 5.5%. This means that the labor productivity
+in metropolitan areas in which the urban population is relatively evenly spread over multiple
+places in the metropolitan area leads to higher labor productivity than is found in metro-
+politan areas in which the urban population is concentrated in one large city, holding
+everything else constant. We elaborate on this important finding in the concluding section.
+     Comparing the OLS and TSLS estimator (model 2 in table 4), it can be seen that
+the urbanization externalities effect is over 25% less when estimated using TSLS
+(elasticity of 0.078), while the effect of the capital ^ labor ratio is larger. The parameter
+estimates of polycentricity and dispersion do not significantly differ across the models.
+     Examining the two interaction effects between metropolitan structure and urban-
+ization externalities (models 3 and 4 in table 5), the only negative effect we found is
+
+Table 5. Ordinary least squares (OLS) and two-stage least squares (TSLS) tests on metropolitan
+labor productivity, 2006öinteraction effects, with standard errors shown in parentheses (all
+nondummy variables are mean-centered).
+
+                                                      Model 3 OLS           Model 5 TSLS a
+
+Intercept                                             11.33 (0.110)** a     11.26 (0.108)**
+Capital ± labor ratio (ln)                             0.752 (0.229)**       0.824 (0.216)**
+Land ± labor ratio (ln)                                0.002 (0.031)        ÿ0.018 (0.031)
+Education per worker (ln)                              0.015 (0.049)         0.015 (0.045)
+Metropolitan size (ln)                                 0.094 (0.021)**       0.072 (0.023)**
+Polycentricity (ln)                                    0.037 (0.023)         0.033 (0.022)#
+Dispersion (ln)                                        0.038 (0.039)         0.047 (0.037)
+Metropolitan size  polycentricity                    ÿ0.059 (0.021)**      ÿ0.063 (0.020)**
+Metropolitan size  dispersion                        ÿ0.008 (0.024)        ÿ0.016 (0.023)
+Census division dummies                               yes                   yes
+Number of observations                                113                   113
+F-statistic                                            13.48                 12.11
+R 2 (OLS)/centered R 2 (TSLS)                           0.68                  0.68
+Root MSE                                                0.12                  0.11
+White ± Koenker (OLS)/Pagan ± Hall test (TSLS)         21.11                 20.32
+Ramsey RESET test                                       0.07                  1.09
+** p < 0:01; * p < 0:05; p < 0:10.
+a Instruments used in the first stage of the regression for endogenous variable metropolitan
+
+population.
+Spatial structure and productivity in US metropolitan areas                             1397
+
+
+
+
+for the interaction between metropolitan size and polycentricity on metropolitan
+labor productivity. The negative and significant interaction term can be interpreted
+as due to the fact that urbanization externalities are larger in monocentric cities.
+This confirms our theoretical assumption that polycentricity diminishes the effect of
+size on labor productivity. We discuss the important theoretical implications of this
+finding further in the next section. Similarly, it can also be interpreted as the benefits
+of polycentricity holding more for smaller regions than for large regions (in terms of
+population).
+
+6 Conclusion and discussion
+6.1 Main findings
+Recent theoretical interest among geographers has turned to postindustrial forms of
+urban agglomeration. The industrial image of a metropolitan area as being composed
+of an urban core and a rural hinterland is in many cases becoming obsolete and
+appears to be being replaced by increasingly polycentric metropolitan areas which
+spread over larger territories, thereby including multiple cities which together constitute
+a metropolitan network of cities. The `city' is becoming a regional phenomenon, and
+calls have been made that this should also manifest itself in the study of agglomeration
+economics as these seem to be associated also with wider, and more polycentric, forms
+of metropolitan agglomeration rather than being confined to a single urban core
+(Alonso, 1973; Cheshire, 2006; Kloosterman and Musterd, 2001; Parr, 2008; Phelps
+and Ozawa, 2003). Despite these calls, however, several scholars have suggested that
+empirical research on agglomeration externalities in relation to the regional urban
+system is rather nonexistent, unlike to the more local scale of polycentric cities (Lee
+and Gordon, 2007). An important reason for this empirical deficit is that many
+existing empirical analyses of agglomeration still originate from definitions of metro-
+politan areas which depart from a single nodal perspective. By this, we mean that the
+vast majority of countries define functional urban areas as being one central city and
+its hinterland, thereby ignoring the possibility of having multiple core cities. Moreover,
+particularly in urban economics, spatial structure is hardly an issue and is often
+approximated by general indicators such as size or density, which do not reveal much
+detail of the spatial structure within regions.
+     In this paper we take up this empirical challenge by analyzing how different spatial
+structures affect the development of agglomeration externalities in US metropolitan
+areas in 2006 with over 250 000 inhabitants. Externalities were measured in terms of
+labor productivity. The widest official delimination of metropolitan areas (CSAs) was
+used, and these were supplemented with MSAs which do not form part of such CSAs.
+     As regards spatial structure, we assumed that, as well as size, two dimensions are
+important as these affect urban concentration within the region: (1) the monocentricity ^
+polycentricity dimension which indicates the extent to which the urban population is
+concentrated in one urban centre (monocentricity), or spread over multiple urban
+centres in a metropolitan area in a balanced way (polycentricity); and, (2) the central-
+ization ^ dispersion dimension, which indicates the extent to which the metropolitan
+population is concentrated in centers. In addition to these indicators relating to
+spatial structure, we controlled for the capital ^ labor ratio, land ^ labor ratio, and human
+capital.
+     The empirical analysis in this paper resulted in four findings concerning the
+relationship between a region's spatial structure and its economic performance in
+terms of labor productivity.
+1398                                                                E J Meijers, M J Burger
+
+
+
+
+(1) Metropolitan areas with more dispersion do not perform worse in terms of labor
+productivity.
+    Whether a large part of the population is concentrated in urban centers or lives
+outside of these centers in the nonurban part of the metropolitan area was not found
+to influence labor productivity. Thus we found no evidence for the expectation that
+dispersion is harmful to labor productivity.
+(2) Metropolitan areas which are more polycentric show higher labor productivity.
+    We found a positive and significant direct effect of the degree of polycentricity on
+labor productivity. The more evenly the population is spread across the different
+places in a metropolitan area, the higher the labor productivity in that metropolitan
+area. As labor productivity proxies the balance between agglomeration economies
+and diseconomies, we can conclude that this balance is better in the more polycentric
+metropolitan areas. This can be explained by the assumption that urbanization disecon-
+omies are less in the more polycentric areas, and the idea that urbanization economies
+have `regionalized' to some extent whereas `urbanization diseconomies' appear to be
+confined to the city boundaries. So this result appears to confirm ideas that agglom-
+eration externalities spread over lager distances, and may interact in regions where
+multiple urban places, and hence multiple source of agglomeration externalities,
+are colocated. As such, it confirms that agglomeration economies need to be con-
+ceptualized in relational terms. Thus, as Phelps and Ozawa (2003) proposed, external
+economies are not confined to a single urban core but, instead, appear to be shared
+among a group of functionally linked settlements. This last appears to be the case for the
+relatively more polycentric metropolitan areas. Finding 3, however, qualifies the extent
+to which this `regionalization' of agglomeration economies takes place.
+(3) The effect of metropolitan size decreases as metropolitan areas become more polycentric.
+    Metropolitan size tends to reflect the presence of urbanization externalities. It was
+found that the degree of polycentricity has an indirect effect on labor productivity as
+urbanization externalities are fewer in the more polycentric metropolitan areas. Put
+differently, the productivity gains of size diminish as the metropolitan area becomes
+more polycentric. These results are in line with a previous finding (Meijers, 2008a), that
+the more polycentric a region was, the fewer cultural, leisure, and sports amenities
+were present. It also confirms the doubts raised by Parr (2004; 2008) and Bailey
+and Turok (2001) that the magnitude of urbanization externalities in a polycentric
+metropolitan area is less compared with a monocentric metropolitan area. From a
+theoretical perspective, we cannot expect the advantages based on density, proximity,
+and the easy and sometimes unplanned exchange of information to be equally
+present in a metropolitan area in which population is spread over multiple smaller
+cities as in one where the population is concentrated in a single large city. This result
+means that a collection of cities does not provide a substitute for the urbanization
+externalities of a single large city, even though the size of the population in both
+metropolitan areas may be similar.
+(4) Polycentricity appears to be more beneficial in smaller metropolitan areas.
+    Our findings on the interaction effect could also be interpreted as indicating that
+the positive effect of having a relatively more polycentric spatial structure on labor
+productivity found here decreases as the population size of the metropolitan area
+increases. A possible reason for polycentricity being relatively more beneficial in smaller
+metropolitan areas is that cities in smaller polycentric metropolitan areas may be more
+Spatial structure and productivity in US metropolitan areas                                      1399
+
+
+
+
+functionally related than those in larger polycentric metropolitan areas. This needs to
+be tested, however.
+6.2 Research agenda
+More generally, the relation between the strength and extent of functional linkages
+between cities in a metropolitan area and their performance as a regional urban system
+deserves further exploration. Also, external linkages between more distant metropoli-
+tan regions require our attention. The idea that such external linkages are of great
+importance in explaining metropolitan performance appears to hold in particular for
+the largest metropolitan areas, as these are the main locations for knowledge-intensive
+activities such as advanced producer services and, as such, the centers in the global
+network of information and knowledge exchange (Hall and Pain, 2006; Sassen, 1991).
+In this respect, it would be interesting to see whether agglomeration externalities are
+also shared between even more distant cities. Other important research issues following
+from our findings concern whether the gap in urbanization externalities between more
+polycentric and more monocentric metropolitan areas is increasing or diminishing with
+time, whether typical agglomeration disadvantages are indeed less severe in polycentric
+metropolitan areas, and whether the effects of spatial structure on productivity levels
+differ across sectors.
+Acknowledgements. Evert Meijers wishes to thank the funding provided by the Netherlands Orga-
+nisation for Scientific Research (NWO). The paper has benefited from well thought-out comments
+by Nick Phelps as well as three anonymous reviewers.
+References
+Alonso W, 1973, ``Urban zero population growth'' Daedalus 109 191 ^ 206
+Anas A, Arnott R, Small K A, 1998, ``Urban spatial structure'' Journal of Economic Literature
+    36 1426 ^ 1464
+Bailey N, Turok I, 2001, ``Central Scotland as a polycentric urban region: useful planning concept
+    or chimera? '' Urban Studies 38 697 ^ 715
+Bertaud A, 2004, ``The spatial organization of cities: deliberate outcome or unforeseen
+    consequence? '', WP 2004-01, Institute of Urban and Regional Development, Berkeley, CA
+Boarnet M G, 1994,``An empirical model of intermetropolitan population and employment growth''
+    Papers in Regional Science 73 135 ^ 152
+Broersma L, Oosterhaven J, 2009, ``Regional labour productivity in The Netherlands: evidence
+    of agglomeration and congestion effects'' Journal of Regional Science 49 483 ^ 511
+Brueckner J K, 2001, ``Urban sprawl: lessons from urban economics'', in Brookings ^ Wharton
+    Papers on Urban Affairs Eds W G Gale, J Rothenberg Pack (Brookings Institution Press,
+    Washington, DC) pp 65 ^ 89
+Bru«lhart M, Mathys N A, 2008,``Sectoral agglomeration economies in a panel of European regions''
+    Regional Science and Urban Economics 38 348 ^ 362
+Burger M J, van Oort F G, Frenken K, van der Knaap B, 2009, ``Networks and economic
+    agglomerations'' Tijdschrift voor Economische en Sociale Geografie 100 139 ^ 144
+Burger M J, van Oort F G, van der Knaap B, 2010, ``A treatise of the geographical scale of
+    agglomeration externalities and the modifiable areal unit problem'' Scienze Regionali
+    forthcoming
+Capello R, 2000, ``The city network paradigm: measuring urban network externalities'' Urban
+    Studies 37 1925 ^ 1945
+Capello R, Camagni R, 2000, ``Beyond optimal city size: an evaluation of alternative urban growth
+    patterns'' Urban Studies 37 1479 ^ 1496
+Cheshire P C, 2006, ``Resurgent cities, urban myths and policy hubris: what we need to know''
+    Urban Studies 43 1231 ^ 1246
+Ciccone A, 2002, ``Agglomeration effects in Europe'' European Economic Review 46 213 ^ 227
+Ciccone A, Hall R E, 1996, ``Productivity and the density of economic activity''American Economic
+    Review 86 54 ^ 70
+Coe N M, Townsend A R, 1998,``Debunking the myth of localized agglomerations: the development
+    of a regionalized service economy in south-east England'' Transactions of the Institute of British
+    Geographers, New Series 23 385 ^ 404
+1400                                                                        E J Meijers, M J Burger
+
+
+
+
+Combes P P, Mayer T, Thisse J F, 2008 Economic Geography: The Integration of Regions and Nations
+    (Princeton University Press, Princeton, NJ)
+Corpataux J, Crevoisier O, 2007, ``Economic theories and spatial transformations clarifying the
+    space ^ time premises and outcomes of economic theories'' Journal of Economic Geography
+    7 285 ^ 309
+de Goei B, Burger M J, Kitson M, van Oort F G, 2009, ``Functional polycentrism and urban
+    network development in the greater South East UK: evidence from commuting patterns''
+    Regional Studies forthcoming
+Florida R, Gulden T, Mellander C, 2008, ``The rise of the mega-region'' Cambridge Journal of
+    Regions, Economy and Society 1 459 ^ 476
+Fogarty M, Garofolo G, 1988, ``Urban spatial structure and productivity growth in the
+    manufacturing sector of cities'' Journal of Urban Economics 23 60 ^ 70
+Frenken K, van Oort F G, Verburg T, 2007, ``Related variety, unrelated variety and economic
+    growth'' Regional Studies 41 685 ^ 697
+Fujita M, Thisse J F, Zenou Y, 1997, ``On the endogenous formation of secondary employment
+    centres in a city'' Journal of Urban Economics 41 337 ^ 357
+Glaeser E L, Kahn M E, 2004, ``Sprawl and urban growth'', in Handbook of Regional Science
+    and Urban Economics, Volume 4: Cities and Geography Eds J V Henderson, J-F Thisse
+    (Elsevier, Amsterdam) pp 2481 ^ 2527
+Goffette-Nagot F, Schmitt B, 1999, ``Agglomeration economies and spatial configurations in rural
+    areas'' Environment and Planning A 31 1239 ^ 1257
+Gordon I, McCann P, 2000, ``Industrial clusters: complexes, agglomeration and/or social
+    networks? '' Urban Studies 37 513 ^ 532
+Green N, 2007, ``Functional polycentricity: a formal definition in terms of social network analysis''
+    Urban Studies 44 2077 ^ 2103
+Hall P, 2000,``Global city-regions in the twenty-first century'', in Global City Regions:Trends,Theory,
+    Policy Ed. A J Scott (Oxford University Press, Oxford) pp 59 ^ 77
+Hall P, Pain K, 2006 The Polycentric Metropolis: Learning from Mega-city Regions in Europe
+    (Earthscan, London)
+Hohenberg P, Lees L, 1985 The Making of Urban Europe, 1000 ^ 1994 (Harvard University Press,
+    Cambridge, MA)
+Isard W, 1956 Location and Space Economy (MIT Press, Cambridge, MA)
+Johansson B, Quigley J M, 2004, ``Agglomeration and networks in spatial economies'' Papers in
+    Regional Science 83 165 ^ 176
+Kim S, 2007, ``Changes in the nature of urban spatial structure in the United States, 1890 ^ 2000''
+    Journal of Regional Science 47 273 ^ 287
+Kloosterman R C, Lambregts B, 2001, ``Clustering of economic activities in polycentric urban
+    regions: the case of the Randstad'' Urban Studies 38 717 ^ 732
+Kloosterman R C, Musterd S, 2001, ``The polycentric urban region: towards a research agenda''
+    Urban Studies 38 623 ^ 633
+Lambooy J G, 1998,``Polynucleation and economic development: the Randstad'' European Planning
+    Studies 6 457 ^ 466
+Lee B, Gordon P, 2007, ``Urban spatial structure and economic growth in US metropolitan areas'',
+    paper presented at the 46th annual meeting of the Western Regional Science Association,
+    Newport Beach, CA, http://www-rcf.usc.edu/pgordon/pdf/structure growth 200701.pdf
+Meijers E J, 2005, ``Polycentric urban regions and the quest for synergy: is a network of cities
+    more than the sum of the parts? '' Urban Studies 42 765 ^ 781
+Meijers E J, 2008a, ``Summing small cities does not make a large city: polycentric urban regions
+    and the provision of cultural, leisure and sports amenities'' Urban Studies 45 2323 ^ 2345
+Meijers E J, 2008b, ``Measuring polycentricity and its promises'' European Planning Studies
+    16 1313 ^ 1323
+Melo P C, Graham D J, Noland R B, 2009, ``A meta-analysis of estimates of urban agglomeration
+    economies'' Regional Science and Urban Economics 39 332 ^ 342
+Nordregio (lead partner) (Ed.), 2004, ``ESPON 1.1.1: potentials for polycentric development in
+    Europe'', project report, Nordregio/ESPON Monitoring Committee, Stockholm/Luxembourg
+OMB, 2000 Standards for Defining Metropolitan and Micropolitan Regions Federal Register 65,
+    No. 249, Office of Management and Budget, Washington, DC
+Parr J B, 2002,``Agglomeration economies: ambiguities and confusions'' Environment and Planning A
+    34 717 ^ 731
+Parr J B, 2004, ``The polycentric urban region: a closer inspection'' Regional Studies 38 231 ^ 240
+Spatial structure and productivity in US metropolitan areas                                      1401
+
+
+
+
+Parr J B, 2005, ``Perspectives on the city-region'' Regional Studies 39 555 ^ 566
+Parr J B, 2008, ``Cities and regions: problems and potentials'' Environment and Planning A 40
+    3009 ^ 3026
+Phelps N A, Ozawa T, 2003, ``Contrasts in agglomeration: proto-industrial, industrial and
+    post-industrial forms compared'' Progress in Human Geography 27 583 ^ 604
+Phelps N A, Fallon R J, Williams C L, 2001, ``Small firms, borrowed size and the urban ^ rural
+    shift'' Regional Studies 35 613 ^ 624
+Richardson H W, 1995, ``Economies and diseconomies of agglomeration'', in Urban Agglomeration
+    and Economic Growth Ed. H Giersch (Springer, Berlin) pp 123 ^ 155
+Rosenthal S S, Strange W C, 2004, ``Evidence on the nature and sources of agglomeration
+    economies'', in Handbook of Regional Science and Urban Economics, Volume 4: Cities and
+    Geography Eds J V Henderson, J-F Thisse (Elsevier, Amsterdam) pp 2119 ^ 2171
+Sassen S,1991The Global City: NewYork, London,Tokyo (Princeton University Press, Princeton, NJ)
+Sassen S, 2007, ``Megaregions: benefits beyond sharing trains and parking lots? '', in The Economic
+    Geography of Mega-regions Ed. K S Goldfield (The Policy Research Institute for the Region,
+    Princeton, NJ) pp 59 ^ 83
+Scott A J, 1988 Metropolis: From the Division of Labor to Urban Form (University of California
+    Press, Berkeley, CA)
+Scott A J, 2000, ``Economic geography: the great half-century'' Cambridge Journal of Economics
+    24 483 ^ 504
+Siegel P, Johnson T, Alwang J, 1995, ``Regional economic diversity and diversification'' Growth
+    and Change 26 261 ^ 284
+Stock J H,Yogo M, 2005,``Testing for weak instruments in linear IV regression'', in Identification and
+    Inference for Econometric Models: Essays in Honor of Thomas Rothenberg Eds D W K Andrews,
+    J H Stock (Cambridge University Press, Cambridge) pp 80 ^ 108
+Storper M, 1997 The Regional World: Territorial Development in a Global Economy (Guilford Press,
+    New York)
+Stover J F, 1961 American Railroads (The University of Chicago Press, Chicago, IL)
+Transportation Research Board, 2002 Costs of Sprawl ö 2000 (National Academy Press,
+    Washington, DC)
+Turok I, Bailey N, 2004, ``The theory of polynuclear urban regions and its application to central
+    Scotland'' European Planning Studies 12 371 ^ 389
+van Oort F G, 2004 Urban Growth and Innovation, Spatially Bounded Externalities in the Netherlands
+    (Ashgate, Aldershot, Hants)
+van Oort F G, Burger M J, Raspe O, 2010, ``On the economic foundation of the urban network
+    paradigm: spatial integration, functional integration and economic complementarities within
+    the Dutch Randstad'' Urban Studies 47 725 ^ 748
+Woolridge J M, 2006 Introductory Econometrics: A Modern Approach (Thomson South-Western
+    Educational Publishing, Mason, OH)
+1402                                                            E J Meijers, M J Burger
+
+
+
+
+Appendix
+Selection of metropolitan regions
+In principle, all CSAs as well as MSAs not part of a CSA with a total population of
+more than 250 000 inhabitants in 2006 located in the US continental states were
+included in the analysis. Metropolitan areas are defined by the US Office of Manage-
+ment and Budget (OMB), and the 2007 revised version of the 2000 definitional stand-
+ards was used. An MSA contains a core urban area with a population of 50 000 or
+more. It consists of one or more counties, and includes the counties containing the
+core urban area as well as any adjacent counties of which more than 25% of employed
+residents work in the urban core. MSAs which are adjacent may be joined in order
+to form a Combined Statistical Area if the employment interchange is at least 25.
+Adjacent MSAs which have an employment interchange measure of at least 15 and
+less than 25 are combined if local opinion favors combination (OMB, 2000). There are
+also `micropolitan' areas which contain an urban core with a population of at least
+10 000 but less than 50 000. These are not considered here, unless they form part of a
+CSA that is also composed of at least one MSA.
+    Some regions had to be left out for other reasons:
+(1) CSAs are composed of metropolitan statistical areas and/or micropolitan statis-
+tical areas. Often, data were not available for micropolitan areas. In a limited
+number of cases, this meant that no reliable data for the CSA could be retrieved.
+There were two CSAs in which more than 20% of their population was located
+in a micropolitan statistical area; these were left out for this reason. These were
+Charlotte ^ Gastonia ^ Salisbury, NC ^ SC; Fort Wayne ^ Huntington ^ Auburn, IN; and
+Lexington ^ Fayette ^ Franfort ^ Richmond, KY.
+(2) New Orleans was left out as the data appeared biased as a result of Hurricane
+Katrina.
+    As argued in the text, polycentric conurbations had to be left out. These include:
+Albany ^ Schenectady ^ Amsterdam, NY;
+Charleston ^ North Charleston, SC;
+Dallas ^ Fort Worth, TX;
+Davenport ^ Moline ^ Rock Island, IA ^ IL;
+Fayetteville ^ Springdale ^ Rogers, AR ^ MO;
+Hartford ^ West Hartford ^ East Hartford, CT;
+McAllen ^ Edinburg ^ Mission, TX;
+Miami ^ Fort Lauderdale ^ Miami Beach, FL;
+Minneapolis ^ St. Paul ^ St. Cloud, MN ^ WI;
+Palm Bay ^ Melbourne ^ Titusville, FL;
+Provo-Orem, UT;
+Sarasota ^ Bradenton ^ Punta Gorda, FL;
+Scranton ^ Wilkes ^ Barre, PA;
+Tampa ^ St. Petersburg ^ Clearwater, FL;
+Virginia Beach ^ Norfolk ^ Newport N., VA ^ NC.
+
+
+
+
+                                                        ß 2010 Pion Ltd and its Licensors
+Conditions of use. This article may be downloaded from the E&P website for personal research
+by members of subscribing organisations. This PDF may not be placed on any website (or other
+online distribution system) without permission of the publisher.
+

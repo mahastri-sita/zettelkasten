@@ -1,0 +1,1405 @@
+[PDF Metadata]
+Source PDF: journal/T15-mulligan-partridge-carruthers-2012-central-place-theory-and-its-reemergence-in-regional-science-10.1007-s00168-011-0496-7.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           
+Subject:         
+Keywords:        
+Author:          
+Creator:         LaTeX with hyperref package
+Producer:        Acrobat Distiller 10.0.0 (Windows)
+CreationDate:    Sat Feb 18 12:44:58 2012 WIB
+ModDate:         Sat Feb 18 12:46:49 2012 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           27
+Encrypted:       no
+Page size:       439.37 x 666.142 pts
+Page rot:        0
+File size:       590900 bytes
+Optimized:       yes
+PDF version:     1.4
+[Extracted Text]
+Ann Reg Sci (2012) 48:405–431
+DOI 10.1007/s00168-011-0496-7
+
+SPECIAL ISSUE PAPER
+
+
+
+Central place theory and its reemergence
+in regional science
+
+Gordon F. Mulligan · Mark D. Partridge ·
+John I. Carruthers
+
+
+
+
+Received: 26 September 2011 / Accepted: 22 December 2011 / Published online: 16 February 2012
+© Springer-Verlag 2012
+
+
+
+Abstract This paper presents an interdisciplinary review—from the perspectives of
+geography, economics, and urban planning—of the literature on central place theory
+(CPT) and its important role in regional science. Along the way, CPT is compared
+to a more recent description/explanation of the space economy, the new economic
+geography (NEG). The main arguments of the paper are that for a host of reasons: (i)
+CPT is ripe for reemergence and; (ii) NEG models are best viewed as complements
+to, not competitors of, CPT. Some general observations for future research in regional
+science follow from these conclusions.
+
+JEL Classification         R12 · R14 · R32
+
+
+
+
+Submitted for publication in the 50th anniversary issue of The Annals of Regional Science, September
+2011; this paper was presented at the 2011 meetings of the European Regional Science Association,
+in Barcelona, Spain.
+
+G. F. Mulligan
+School of Geography and Development, University of Arizona,
+Tucson, AZ, USA
+e-mail: mulligan@u.arizona.edu
+
+M. D. Partridge
+Department of Agricultural, Environmental, and Development Economics,
+The Ohio State University, Columbus, OH, USA
+e-mail: partridge.27@osu.edu
+
+J. I. Carruthers (B)
+The George Washington University, Sustainable Urban Planning Program,
+Washington, DC, USA
+e-mail: jic@gwu.edu
+
+
+                                                                                           123
+406                                                                     G. F. Mulligan et al.
+
+
+1 Introduction
+
+At any given time, the research of a discipline is both directed and motivated by a
+few path-breaking studies that serve as research paradigms. In the case of regional
+science, much recent thinking has followed ideas established by Krugman (1991a,b),
+who interconnected imperfect competition, externalities, and interregional trade to
+form a theoretical framework now labeled the new economic geography (NEG). This
+literature has provided an endogenous theory of regional growth—one where the eco-
+nomic landscape exhibits geographic specialization. For all of its success, the NEG
+has also attracted a fair amount of criticism—the concerns expressed by Martin and
+Sunley (1996) are especially well known—but most of this criticism fails to note that,
+like many of its rivals, the NEG is highly preoccupied with industrial production. As a
+result, the entire topic of consumer demand is essentially neglected, whether interest
+is in the access of households to private or to public goods. That deficiency, combined
+with the inherent mathematical complexities of the models, means that the economic
+landscapes of NEG tend to be highly simplistic. In any event, the equilibrated results
+typically lack the complex, multilevel attributes of real-world spatial-economic sys-
+tems. As a remedy, this paper suggests that a reexamination of the merits of central
+place theory (CPT) is now in order. This corpus of thought, dismissed almost out
+of hand by the NEG pioneers (see, for example, comments by Fujita et al. 1999, p.
+27), accurately mirrors many features of real-world economic landscapes. The theory
+not only integrates, at least conceptually, a wide array of human activities but it also
+indicates how human processes are embedded in space or mediated by location. More-
+over, CPT has very obvious practical implications for policy and, especially, urban
+and regional planning.
+    In essence, CPT consists of a set of assumptions and propositions that explain why
+hierarchically tiered centers are found at certain preferred locations on the economic
+landscape. Retail trade and service activities often tend to cluster, forming urban cen-
+ters at one geographic scale and shopping centers at another. At both scales, activity
+clusters are ranked according to their relative centrality and functional complexity, and
+their frequency distribution is determined by the geographic scope of their drawing
+power. In this manner, a key feature of CPT is that basic patterns are consistently
+repeated across and within regions. Although not entirely developed, the framework
+informs many aspects of regional science—to name just a few: consumer shopping
+behavior; business location and clustering; economic base and input–output analysis;
+spatial diffusion and human movement; urban growth, rural–urban interdependence,
+regional development; and city-size distribution. CPT also holds concrete implications
+for urban and regional policy, including public facility location and for planning in
+cities and regions.
+    This paper provides an overview of CPT theory and its extensions and argues that
+the framework is experiencing—and deserves to experience—a reemergence as part
+of the core epistemology of regional science. It also very briefly distinguishes CPT
+from NEG models, but a complete review of NEG models is well beyond the present
+scope. While CPT has a number of key advantages, interest in it waned for about
+a 20-year span beginning in the early 1990s, when excitement among researchers
+shifted to NEG models. CPT was faulted for lacking microeconomic foundations, not
+
+123
+Central place theory and its reemergence in regional science                        407
+
+
+providing a general equilibrium approach, and in not being fully dynamic. Recently,
+however, a renewed interest in CPT has emerged due to its relative accessibility, plus
+its realism and value in predicting and describing empirical regularities such as Zipf’s
+Law (Saichev et al. 2010), as well as the enduring stability of land use patterns and
+urban systems. Perhaps most important of all, CPT is invaluable for helping inform
+urban and regional economic development and planning strategies. Overall, this paper
+illustrates that CPT should be viewed as complementary to NEG and other urban sys-
+tem frameworks for describing how economic activity is organized across geographic
+space.
+    Toward that end, the discussion is organized as follows. To begin, Sects. 2 and 3
+deliver a non-technical overview of traditional CPT and set out its three main con-
+cepts: (i) consumer choice; (ii) agglomeration; and (iii) a functional urban hierarchy.
+Next, Sect. 4 discusses how a hierarchy actually emerges within CPT and compares
+the framework with NEG. Section 5 describes the dynamic features of CPT, such as
+they are, and some recent empirical tests of its predictions, and Sect. 6 outlines some
+policy applications with an eye toward urban and regional planning. Section 7 presents
+conclusions drawn from the discussion and suggests some future research priorities.
+
+
+2 The traditional theory
+
+Comprehensive summaries of the ideas of Christaller (1933) and Lösch (1941), the
+two founders of CPT—along with various refinements and empirical extensions—
+include von Böventer (1963), Haggett (1965), Berry (1967), Beckmann (1968), Berry
+and Horton (1970), Parr and Denike (1970), Alao et al. (1977), Beavon (1977), Lloyd
+and Dicken (1977), King (1984), Mulligan (1984), and Berry and Parr (1988). What
+follows is a brief, nontechnical overview of the framework put forward by each.
+
+
+2.1 The Christaller framework
+
+Christaller (1933) used the concepts of the (population) threshold and the (geographic)
+range to provide a top-down explanation for the emergence of a cascading system of
+central places. Both of these concepts can be interpreted spatially—where the former
+is the inner range and the latter is the outer range—two attributes that serve as geo-
+graphic signatures for each good provided in the system. The inner range encompasses
+sufficient customers for the typical business to break even (zero profits) and the outer
+range encompasses all those customers that travel to purchase the good provided. So
+any gap between the inner and outer ranges will generate a surplus or monopoly profit
+for the business. A continuum of goods and services is envisaged stretching from
+high-order items having large thresholds (specialized shopping goods) and ranges to
+low-order items having small thresholds and ranges (standardized convenience goods).
+The most central location in the entire system provides all of its goods and services—
+thereby satisfying the so-called exhaustive principle. But, moving down through this
+functional continuum, other locations on the landscape are sufficiently well located to
+provide some, but not all, goods that are provided at the most central location. These
+locations, which themselves differentially attract customers from nearby areas, are
+
+                                                                             123
+408                                                                     G. F. Mulligan et al.
+
+
+termed central places. All of the central places are classified into a small number of
+orders, reflecting the system’s hierarchical levels, which, in turn, reflect the number
+of bundled goods and services that each place provides.
+    The key feature of Christaller’s system is the emergence of a regular hierarchy,
+wherein a central place on one level provides a bundle of goods and services that is
+specific to that level, as well as all bundles that are specific to all lower levels. As a
+result, central places on any given level serve a market area containing a number of
+lower-level places and rural areas. These (usually hexagonal) market areas are exactly
+nested within one another according to a factor K , which Christaller believed to be
+fixed in magnitude for a particular system. This spatial-functional arrangement, or
+multi-good equilibrium, was believed to be optimally efficient for serving a dispersed
+population—an implication that Hsu’s recent (forthcoming) extension of the model
+demonstrates. The strengths of Christaller’s scheme are its geometric simplicity and
+its insightful behavioral propositions, especially regarding consumer travel behavior.
+Figure 1 shows a typical CPT hierarchy, consisting of a spatially cascading set of
+market centers surrounded by nested hexagonal market areas.
+    The problem with Christaller’s framework is that it is not convincing in terms of
+explaining the emergence of a realistic multi-good equilibrium. Basically, he claimed
+that spatial competition induces geometric packing as new firms erode the profits of
+earlier entrants. Presumably, location adjustments and firm entries and exits continue
+until the final spatial equilibrium is reached. In any case, this packing process tends
+to maximize the number of central places per unit of area, thereby minimizing overall
+customer transportation costs in the entire system.
+
+
+2.2 The Lösch framework
+
+Lösch, on the other hand, conceived a much more complex bottom-up central place
+system whose conceptual foundation is a triangular lattice of discrete farmsteads. He
+argued that Christaller’s rigid hierarchy was too restrictive and, instead, proposed using
+hexagonal nets of market areas along a near-continuum of sizes, all of which focus
+on the system’s most central location—the so-called metropolis. In essence, Lösch
+claimed that each of the goods in Christaller’s functional continuum should have its
+own signature market area and that, as before, businesses or production points naturally
+arise at the center of each different-sized market area. But, in the Lösch framework,
+these nets are purposefully rotated in such a way that “city-rich” and “city-poor” sec-
+tors emerge, reflecting the varying numbers of production points that turn out to be
+coincident on the underlying lattice.
+   Lösch’s thinking was that this transformation would create a system that would
+be most efficient both for firms (Weber’s principle of agglomeration) and customers
+(Zipf’s principle of least effort). So, the most distinctive feature is that each thirty-
+degree sector has the same number of central places, but the volume of activities at
+these central places varies considerably across the economic landscape. There is added
+realism in that smaller places, having low functional complexity, can sometimes serve
+large places that enjoy more functional complexity. In short, Lösch allows a more
+realistic spatial division of labor on the landscape. Perhaps, Lösch’s most important
+
+123
+Central place theory and its reemergence in regional science                                      409
+
+
+
+
+Fig. 1 A typical CPT hierarchy of hexagonal market areas (this figure is a reproduction of Figure 3.9,
+on page 57 of Berry and Parr 1988)
+
+
+
+
+contribution was his novel treatment of spatial demand where he used the calculus to
+aggregate household demand over space in order to compute the entire market area
+demand facing a firm. This allowed him to use the standard tools of microeconom-
+ics to specify the firm’s profit-maximizing price and output and to specify the firm’s
+optimizing market area. Most observers are skeptical of Lösch’s grand spatial scheme,
+realizing he emphasized how the world should be instead of how it really is. Moreover,
+he was no clearer than Christaller in explaining how the atomistic behavior of firms in
+space can actually generate the complicated multi-good equilibrium found in so many
+textbooks.
+
+                                                                                         123
+410                                                                     G. F. Mulligan et al.
+
+
+3 The three key concepts
+
+Part of the great value of CPT rests in its ability to integrate a number of key
+concepts in regional science, including (i) consumer choice; (ii) firm agglomera-
+tion; and (iii) the functional hierarchy. Firms offering goods and services strive
+to occupy locations that are central to their markets but they also cluster in order
+to reap mutual advantages. Dispersed consumers strive to minimize the total costs
+involved in purchasing these goods as firms arrange themselves in space. With var-
+ious adjustments, firms eventually settle on price-location solutions that minimize
+the travel costs for consumers, and, at the same time, the clustering of firms leads
+to the formation of a hierarchy that efficiently provides all possible goods. In doing
+so, tier-specific bundles of goods are formed, each having a different shopping fre-
+quency. These three key concepts—choice, agglomeration, and the hierarchy—are
+so prevalent throughout spatial sciences that some of this review is now devoted to
+each.
+
+
+3.1 Consumer choice
+
+A wide literature, focusing on a few fundamental concerns, addresses the issue of
+how informed agents choose among alternative resource opportunities: What features
+of these source opportunities do the agents evaluate? What rules do agents follow
+when evaluating alternatives? And, what rules determine the actions of agents after
+their evaluations? Matters become more complicated when choices are made in a
+spatial setting wherein agents and resource opportunities occupy different locations.
+Information, which might be incomplete, tends to exhibit distance-decay as well as
+time-decay. Since energy or money expenditures are involved in matching agents and
+opportunities at the same location, behavior in space is often very complex to evaluate
+(see, Golledge and Stimson 1997).
+   Like foraging theory in ecology (Stephens and Krebs 1986), the households of
+CPT must decide between nearby places offering a narrow range of goods and ser-
+vices—and more distant places offering a larger and deeper array of goods and services
+(Golledge et al. 1966). Perhaps, the most novel related research is Rushton (1969),
+who constructed space-preference functions to address this fundamental trade-off.
+In a sense, this function extends the important notion that behavioral isolines can
+be identified for shopping customers (Reilly 1929; Huff 1963). After collecting data
+on purchases, curves are drawn in two-dimensional space representing those combi-
+nations of travel distance (x-axis) and town population (y-axis) that households are
+indifferent to. Curves found higher and to the left (short distances, large towns) are
+preferred to curves found lower and to the right (long distances, small towns). Styl-
+ized curves, with no inflection points, indicate that consumers must be compensated
+with increasingly greater shopping opportunities for incremental travel intervals of
+equal length. These indifference curves suggest that distance-population trade-offs
+will vary between rich and poor households and, likewise, between rich and poor
+regions. After some inflection point (time/cost threshold), households are willing to
+travel long distances to take advantage of the rich shopping opportunities found at large,
+
+123
+Central place theory and its reemergence in regional science                          411
+
+
+diverse places. In short, customers do not shop around—a process that involves acquir-
+ing data, searching, and evaluating—for cheap, standardized, frequently demanded
+goods, but they do shop around for expensive, differentiated, infrequently demanded
+goods.
+   Simon (1952) was among the first to question total rationality in human actions—
+a notion extended by Tversky and Kahneman (1974), among others. In this spirit,
+many observers have outlined more realistic models of shopping behavior than those
+espousing strictly cost-minimizing behavior. Some of these researchers have advocated
+simply extending the set of attributes that households consider when making their eval-
+uations. In addition to per unit price, other attributes of the goods and their establish-
+ments—including selection, service, safety, and congestion—are known to influence
+household behavior. Moreover, transportation infrastructure is hardly uniform and
+movement imagery also constrains shopping travel. Other research has focused on
+the spatial search process where repeated “shopping trials” for convenience goods are
+undertaken, sometimes for many weeks, before a stable pattern of shopping behavior
+is chosen. Moreover, there is ample evidence that households may not be aware of
+their full set of shopping opportunities.
+   In response, Louviere (1974) outlined an information-processing paradigm to take
+into account many of these different facets of shopping. In a sense, this is a computa-
+tional model for Simon (1952) satisfying behavior—one in which all of the key attri-
+butes of goods or situations are evaluated with trade-off functions. This information is
+weighted to arrive at a single numerical score that informs the household’s shopping
+decision. However, it seems that this approach, like its various counterpart method-
+ologies, has been used more to assess how specific attributes of shopping centers,
+including those of anchor tenants, affect consumer choice instead of how households
+substitute travel distances for changes in these other location-specific attributes (Finn
+and Louviere 1996).
+
+
+3.2 Firm agglomeration
+
+CPT addresses a number of decisions that are simultaneously or sequentially enter-
+tained by spatial firms. To begin with, the firm must calculate the optimal price-quantity
+combination under conditions of free entry and exit. At the same time, an optimizing
+location for the firm must be identified where, via spatial competition, the firm is
+maximally separated from its nearest rivals. However, firms typically cluster in space
+with firms in other tertiary industries, so they can enjoy the benefits of urbanization
+economies (Jacobs 1961). Moreover, in larger places, these same firms cluster with
+other firms in the same industry if local demand is sufficient to allow the multipli-
+cation of establishments, and localization economies will also emerge. Some notable
+empirical studies have addressed the relationships between price and location in this
+context (Haining 1983; West and von Hohenbalken 1984; Fik 1988). This idea of
+spatial agglomeration, or geographic clustering, is shared by many other sciences: for
+example, densely packed, interacting agents are believed to promote creativity and to
+spur on the innovation and diffusion of new ideas and skills (Hall 1998; Glaeser and
+Maré 2001; Fujita 2009).
+
+                                                                               123
+412                                                                       G. F. Mulligan et al.
+
+
+    In economics, spatial clustering usually reflects external economies of scale, which
+are known to arise naturally in a variety of ways (Marshall 1920; Krugman 1991a,b;
+Rosenthal and Strange 2006). First, the agglomeration of people and firms leads to
+knowledge spill overs where both patents and innovations are themselves clustered,
+usually in cities—so success tends to breed further success. Second, agglomeration
+tends to promote input sharing where firms learn to outsource to common local sup-
+pliers. Concentrated industries have a higher degree of purchased input intensity than
+scattered industries, meaning that behavior favors the emergence of other firms in
+the same district operating along the same commodity chains. Third, agglomeration
+promotes labor pooling, thereby allowing more efficient matches between workers
+and employers. Agglomeration also arises because of multipurpose and compara-
+tive shopping, primarily in the retail and service industries. Multipurpose (including
+multistep) shopping allows households to reduce per unit transportation costs, while
+comparative shopping reduces search costs when household information is incom-
+plete (Thill 1986; Eaton and Lipsey 1979). Both types of demand externalities are
+recognized in the competing destinations model, which also might reflect hierarchical
+organization (Fotheringham 1983; Fik and Mulligan 1990). Besides these benefits,
+agglomeration also ensures longitudinal stability in economic communities. As aging
+industries die, they are replaced by new industries, though external economies of
+scale facilitates this transformation. Both North (1955) and Blumenfeld (1955) noted
+this important role of geographic clustering in their early discussions of economic
+base.
+    Although his discussion is constrained to manufacturing, Arthur (1994) suggests
+that there are two somewhat different perspectives on the formation of economic land-
+scapes. One is deterministic, where firm sites are chosen because of scarce geographic
+endowments, local rents, or finite shipment possibilities. In this sense, today’s indus-
+trial landscapes might be very different from earlier ones. The other is probabilistic
+and, here, path dependency in firm location is crucial—today’s industrial landscapes,
+for example, are very much inherited: late-arriving firms are attracted to early-arriving
+firms even if the original location decisions were not optimal ones. As a result, con-
+temporary industries might still remain competitive even though they do not occupy
+the most favorable of all possible locations.
+    Classical CPT follows the former school of thought, where the foundations of the
+settlement system are those small clusters of tertiary firms, evenly spaced across the
+landscape, that offer goods and services to a uniform population of rural households.
+Different-sized clusters of firms are then essentially stacked on this functional base one
+level at a time. But clusters arise only at those locations that prove to be locally optimal
+for (lower-level and same-level) consumer purchases—and they do not materialize by
+chance: in fact, any locations that are poor for business are quickly eliminated. So
+in smaller central places, agglomeration is largely of the simple urbanization variety
+where entirely different convenience functions are offered as simple bundles. But in
+larger central places, there is a multiplication of establishments along the same lines, so
+the functional agglomeration includes both the localization and urbanization varieties.
+Various demand externalities inherent to shopping also promote firm agglomeration
+at higher levels of the hierarchy, thereby concentrating industries and distorting the
+city-size distribution of the entire central place system.
+
+123
+Central place theory and its reemergence in regional science                           413
+
+
+3.3 The functional hierarchy
+
+Another wide literature in the natural and social sciences makes use of the concept
+of hierarchy, where the separate levels of a complex entity are of conceptual and
+operational interest. This framework is often visualized as a system having hierarchi-
+cal—and self-replicating (Batty 2007)—properties that serve to maintain order and
+promote efficiency. These properties either have emerged through natural agency or
+been adopted through human agency. In many cases, a hierarchy appears because of
+systemic self-organization.
+   The evidence for hierarchies is widespread. Christian (2004) notes that both top-
+down theories of state formation, which emphasize coercion, and bottom-up theories
+of state formation, which emphasize coordination, account for the importance of hier-
+archies. These organizational tiers seem to be indispensable in the management of
+positive feedback loops—mechanisms linking population growth, collective learning,
+and technological innovation—thereby allowing societies to transition to higher lev-
+els of complexity. Moreover, hierarchies are adopted as mechanisms to support those
+norms that reduce conflict between agents or social groups (Axelrod 1997). Urba-
+nists like Jacobs (1961), Lynch (1981), Friedmann (1986), and Sassen (1991) have
+discussed the incidence of hierarchies at several geographic scales. At one scale, they
+point out that certain cities like New York, London, and Tokyo are at the top of a global
+city hierarchy because they dominate as business headquarters, financial industries,
+and media centers. But, at another scale, they recognize that a hierarchy is embed-
+ded in a wide variety of private and public agents that are situated in these global
+cities. At this scale, some sort of tiered organization is vital for internal control of
+firm activities and for transnational coordination with other firms and governments.
+Williamson (1975, 1985) described the role of hierarchies in economic institutions,
+where the degree of hierarchy is closely tied to the nature of decision-making and the
+formulation of contracts. Hierarchy is very great when the responsibility for making
+decisions or negotiating contacts is concentrated in a few agents; however, when deci-
+sions and negotiations are made by many individual agents or are subject to collective
+approval, then hierarchy is not so great. In this literature, the twin notions of hierarchy
+and inequality appear to go hand in hand.
+
+4 The emergence of a functional hierarchy
+
+The most serious shortcomings of CPT are its somewhat weak behavioral explanation
+for the emergence of the hierarchy and its lack of a solid microeconomic foundation.
+Even the simpler Christaller scheme has some difficulties in providing a convincing
+story for the emergence of the regularly spaced, clustered businesses based solely on
+the atomistic behavior of firms and households. Three somewhat different approaches
+are now discussed: one economic and the other two evolutionary.
+
+4.1 Spatial evolution
+
+A somewhat different perspective on the emergence of a functional hierarchy has its
+roots in dynamic modeling, and White (1974, 1977, 1978) was evidently the first to
+
+                                                                                123
+414                                                                       G. F. Mulligan et al.
+
+
+explore this sort of thinking in a CPT framework. Numerous simulations for cen-
+tral place populations were run where coefficients varied for population multipliers,
+household transportation rates, and the fixed costs of starting up businesses. The sim-
+ulations show that, when transportation costs are low, centrality beats other factors
+and high-order places flourish—but when these costs grow, the distance to neighbor-
+ing centers increasingly constrains household travel, restricts high-order growth, and
+flattens the overall city-size distribution. At the same time, larger centers are relatively
+insulated from chance downturns by the high fixed costs involved in the provision of
+high-order goods. Under varying parameters, a spatial equilibrium resembling Chri-
+staller’s logic invariably emerges; but the balance between transportation costs and
+indivisible production costs is key to determining the final distribution of population
+sizes. In these models, population imbalances in CPT systems are especially sensitive
+to high-order population multipliers. However, the results endorse systemic stability
+in that the simulated equilibria do not seem to depend upon the initial locations or
+sizes of central places. Positive feedback loops endogenously link together growth
+processes and growth constraints.
+    Allen and Sanglier (1978, 1979) visualize a mixture of probabilistic and determinis-
+tic forces guiding the evolution of central place systems. Entrepreneurs are thought to
+calculate aggregate demand for new products, and this figure is translated into potential
+employment by a logistic-type function. When two (bundled) goods are provided, a
+wide number of stable solutions emerge as centers grow or decline according to their
+adaptive capacity. But when a third bundle is added, the positive feedback loops related
+to spatial agglomeration come into play. This function might be allocated anywhere in
+the system, but it will only survive (and satisfy certain threshold requirements) when
+it is allocated to a point already housing the second bundle. The winning combination
+of a central location and a substantial local population proves to be critical for the
+survival of this third-order activity. In their later work, Allen and Sanglier (1981a,b)
+introduce commuting or crowding into this spatial model of systemic evolution. In this
+framework, growth and change throughout the spatial system is seen to pass through
+four distinct stages: (i) initial allocations of population and employment but only to
+certain points in space; (ii) subsequent population decentralization due to crowding;
+(iii) induced economic decentralization out from core areas; and, finally, (iv) ongoing
+competition between a few major nodes of activity. This line of research was promis-
+ing because it dealt with both the intra- and intercity forces that shape the evolution
+of urban and regional systems.
+
+
+4.2 Microeconomics
+
+While CPT endorses the agglomeration of firms, it also postulates that these differ-
+ent-sized clusters of firms tend to be distanced from one another. This dichotomous
+behavior has its roots in Hotelling (1929) and Smithies (1941), who recognized that,
+even in the face of constant customer densities, firms can—and do—switch their
+incentives for location, depending upon extant market conditions. Following Lösch’s
+analysis of spatial demand in a single industry, a pool of research aimed at examining
+the competitive behavior of spatial firms (Norman 1986) developed. Here, it was soon
+
+123
+Central place theory and its reemergence in regional science                          415
+
+
+realized that the market, or aggregate, demand facing each firm was comprised of three
+adjacent forms: (i) monopoly, (ii) competitive, and (iii) super-competitive (Beckmann
+and Thisse 1986). The price-elastic household demand would always provide suffi-
+cient incentive for firms to seek middle locations between their spatial rivals, thereby
+protecting their spatial monopolies.
+    From this point of departure, two different perspectives on spatial competition
+arose. From the first perspective, price behavior was really the sole consideration,
+where identical firms were evenly dispersed through unbounded spatial markets. In
+fact, the same mechanism outlined by Lösch was used to drive firms toward a sta-
+ble equilibrium—presumably they would continue to enter the market until they were
+packed so closely together that no firm could earn an economic profit; at that point, the
+entire market would be in a stable equilibrium (Beckmann 1971; Stern 1972). From
+the second perspective, firms were actually embedded in space where they would make
+explicit price and location decisions with respect to nearest rivals (Eaton 1972). In this
+context, the entire market could be either unbounded or bounded in space, a feature
+that added both complexity and realism to the analysis (Mulligan and Fik 1994, 1995).
+A stable equilibrium was only reached when no firm had any incentive to change its
+price-output-location decision. Firms could earn a pure profit—but only as long as
+this amount was insufficient to entice new entrants. However, under fairly reason-
+able entry scenarios, a stable equilibrium will not always materialize in such markets
+(Eaton 1976; Eaton and Lipsey 1976). In fact, various perturbations can destroy the
+regular spacing of firms and allow those firms to dominate market areas of different
+sizes. Spatial asymmetry can also occur if fixed costs are separated into sunk costs
+and contractual obligations, where the former can restrict the free location adjustment
+of firms.
+    However, there have been only a few attempts made to construct a multi-good
+equilibrium based on behavioral rules. One approach, by Eaton and Lipsey (1976),
+tries to clarify the microeconomic underpinnings for central places by highlighting the
+demand externalities of consumer shopping. By recognizing the inherent indivisibil-
+ities of goods, adopting constant transportation rates, and then introducing multipur-
+pose shopping as a motivation for firms to cluster, they were actually able to develop
+various types of two-level hierarchies in one-dimensional markets. Here, Christaller’s
+system was one of the multiple spatial equilibria that could arise. It is argued that,
+as long as single- and multipurpose shopping coexist, higher order places are always
+able to steal potential demand from adjacent, lower-order places. This means that, as
+long as the location of firm clusters is endogenously determined by competitive forces
+and not chosen by a planning agency, spatial asymmetry will often characterize the
+market equilibrium.
+    Yet another approach—the two-good cost-minimization model developed by
+McLafferty and Ghosh (1984, 1987)—remains an admirable attempt to address the
+agglomeration versus separation issue in two spatial dimensions. Using a location-
+allocation model designed for public facilities, their model examines all possible con-
+figurations of firm location under conditions of multipurpose shopping for dispersed
+households. Each household’s decision-making calculus is embedded in the various
+firm locations, where a mixture of single- and multipurpose shopping trips is chosen.
+As in Eaton and Lipsey, clustered low-order firms can always steal revenues from
+
+                                                                               123
+416                                                                             G. F. Mulligan et al.
+
+
+their non-clustered low-order rivals and some of these non-clustered firms might even
+disappear from the landscape. A large batch of numerical simulations indicates that
+multipurpose shopping invariably promotes the symmetrical hierarchy of city systems
+in a manner consistent with Christaller’s logic. Depending on various price and cost
+circumstances, households found at different locations might change their mix of sin-
+gle- and multiple-purpose shopping trips—but the firms that service those households
+always appear to agglomerate only at certain key locations on the landscape. The
+authors also point out that such agglomeration is strengthened by opportunities for
+comparative shopping.
+
+
+4.3 Dynamic extensions and the new economic geography
+
+CPT and the NEG have many similarities, though they differ in some key ways.1 Given
+space constraints, the discussion is constrained to only briefly describe these features.
+Readers interested in more detailed comparisons are referred to the numerous sources
+cited here—in particular, to the Brakman et al. (2009) NEG textbook—and survey of
+agglomeration economies in general can be found in Puga (2010).
+   The key advantage of CPT is it can explain existing urban hierarchies including
+the geographic spacing of cities and their hinterlands, plus why various goods and
+services are found in particular locations. The primary criticism of the framework is
+that its models typically lack microeconomic foundations, are primarily geometric,
+are partial equilibrium (Fujita et al. 1999; Tabuchi and Thisse 2011, p. 241; Brakman
+et al. 2009, pp. 44–46), and efforts to make them dynamic are often ad hoc (Partridge
+2010). Some of these criticisms are unfair because, as just described in earlier sec-
+tions, microeconomic foundations, in particular, have received considerable attention
+for many decades.
+   For these and other reasons, NEG formulations became popular after Krugman
+(1991b) seminal paper and CPT research faded from the limelight. The base NEG
+model following Krugman (1991b) typically has two regions with a traded sector
+(manufacturing) produced in a Dixit–Stiglitz monopolistic competitive market with
+multiple varieties, increasing returns to scale, and labor is the only input. There is
+a non-traded sector (farming) produced in a perfectly competitive market with con-
+stant returns to scale. Utility is a nested Cobb-Douglas function with manufacturing
+demand for individual varieties being determined by a Dixit–Stiglitz CES utility func-
+tion. There are no transportation costs for food, while manufacturing transportation
+costs are an iceberg function. Manufacturing labor is mobile, in which labor moves to
+the region offering the highest real wage. Later NEG models kept much of the same
+form but added other features that somewhat improved the realism of the model such
+as adding a non-traded housing sector (see Brakman et al. 2009 for more details). The
+key advantage of the NEG model is that it is an endogenous model in which dynamics
+can be traced through in simulation form.
+
+
+1 As pointed out by an anonymous referee, one distinction between CPT and NEG is that CPT is a view
+of the spatial hierarchy, while NEG is methodologically defined.
+
+
+123
+Central place theory and its reemergence in regional science                                          417
+
+
+   In simple terms, the key difference between CPT and NEG is that CPT models are
+explicitly spatial (they can easily be shown on a map, for instance), and NEG models
+are typically a spatial in the sense there are usually just two regions with most of the
+focus placed on dynamics after changes in key parameters. Likewise, CPT focuses
+on the location of specific types of industries, as well as the relative returns to scale
+across different industries that lead to spatial concentration—that is, higher- versus
+lower-ordered services (though Tabuchi and Thisse 2011 are a counterexample). NEG
+frameworks stress transportation costs and a general equilibrium formulation that pro-
+duces endogenous dynamics.
+   NEG models address many of the shortcomings of CPT by providing microeco-
+nomic foundations that incorporate, among other things, increasing returns to scale,
+monopolistic competition, and a “love of variety” among firms and households (see
+Brakman et al. 2009 for a comprehensive survey). A self-reinforcing pattern of increas-
+ing agglomeration can dynamically take hold due to the advantages that suppliers and
+customers have as a result of close access to inputs and outputs, and larger cities
+have more variety that attracts firms and households. In most NEG models, falling
+transportation costs induce more concentration so that industries can take advantage
+of the increasing returns to scale. Still, NEG models have shortcomings of their own
+(Neary 2001; Nijkamp 2000; Ottaviano et al. 2002). Some of these include restric-
+tive production functions and the tendency for knife-edge, or “catastrophic” results
+that are sensitive to small parameter changes. For example, the slightest changes in
+transportation costs in the base models can sometimes lead to everything from full
+agglomeration in either region or equal shares in either region. The increasing returns
+assumptions suggest that large shocks may lead to catastrophic consequences that are
+not generally supported by empirical work based on natural and man-made disasters.2
+   Another criticism of NEG models is the use of unrealistic assumptions such as ice-
+berg transportation costs (Neary 2001; Nijkamp 2000), which is done for analytical
+simplicity. For example, Bosker and Garretsen (2010) show that even small changes
+in how transportation costs are specified in empirical NEG models can lead to wildly
+different implications. There are also important theoretical shortcomings from iceberg
+transportation costs. McCann (2005, 2007) and Fingleton and McCann (2007) show
+that iceberg transportation costs are inconsistent with the distance cost pricing for
+logistics and transportation, as well as for explaining the movement people and ideas,
+which theoretically requires square root terms to be consistent with transaction costs
+models (also see the discussion in Bosker and Garretsen 2010, pp. 499–501).
+   Perhaps even more problematic about NEG models is that, when realistic factors
+such commuting or amenities are added into NEG models, their complexity quickly
+becomes overwhelming (Tabuchi and Thisse 2002, 2006). For example, Partridge
+(2010) argues that NEG models do a poor job of describing contemporary growth
+processes in the United States, compared to other explanations such as amenities.
+
+
+2 For example, Davis and Weinstein (2002) find that despite the heavy bombing that Japanese cities with-
+stood during World War II, they had significantly recovered by the end of the 1950s. Bosker et al. (2007)
+found a similar pattern when considering the devastating effects of Allied bombing and military campaigns
+on the German urban system. Xiao (2011) is an example of a study that finds that natural disasters such as
+floods have generally short-term effects on regional economies.
+
+
+                                                                                             123
+418                                                                                G. F. Mulligan et al.
+
+
+Krugman (2010) notes that NEG models are better at describing developing country
+dynamics such as in China or India (see Hering and Poncet 2010 for an application to
+China).
+    Trying to overcome some of criticisms of CPT, Fujita et al. (1999) adopt an NEG
+model to show how a CPT hierarchy can arise during initial territorial settlement—
+though one weakness of their model is that it does not lead to the spatial layering of
+services that defines CPT. Tabuchi and Thisse (2011) add further richness to the Fujita
+et al. (1999) framework by showing how an urban hierarchy can develop in which
+larger central places have more industries and higher-ordered services, and where
+the very top of the hierarchy is persistent. Yet, their representation does not capture
+empirical regularities such as Zipf’s law, which would give it more realism. Recent
+work suggests that CPT has some significant advantages for describing such empirical
+regularities compared to other approaches. For example, Hsu (forthcoming) uses an
+equilibrium entry model—with micro foundations—to derive a CPT representation
+that (i) meets the CPT hierarchy property (higher-ordered cities have the same indus-
+tries as in lower-level cities and more); (ii) is consistent with Zipf’s law, and (iii) is
+consistent with the recently discovered number-average-size rule (Mori et al. 2008)
+that relates the number of cities in which an industry is located with the average pop-
+ulation of those cities. Further, Hsu and Holmes (2009) use a dynamic programming
+model to show that Hsu’s (forthcoming) model can lead to optimal results from a
+social planners’ perspective. While it may be too early to claim a rebirth in CPT as the
+leading model of urban systems, the inflexibility and lack of spatial realism in NEG
+and other frameworks are spurring renewed interest in the older framework.
+
+5 Growth and development
+
+The predictions resulting from CPT have strong implications for the growth and devel-
+opment of a nation’s urban system and the development of its regions. This section
+briefly describes empirical tests of CPT for across several dimensions—the spatial
+structure of industries, the stability of the urban hierarchy, growth across the hierar-
+chy, rural–urban interdependence, and commuting. Generally, the first two sub-sec-
+tions stress the development of larger central places and subsequently smaller cities,
+while the later two-subsections relate to intraregion dynamics and regional growth
+in the CPT framework. One caveat is the general literature is immense, and so the
+discussion is constrained to the more recent North American literature.
+
+5.1 Industrial structure across cities
+
+The key distinction between CPT and other urban system theories is that CPT places
+the spatial nature of the system at the forefront. Thus, while other urban system theo-
+ries also describe city types, size distribution, and industry structure (Henderson 1974;
+Gabaix 1999; Duranton and Puga 2001; Eeckhout 2004), the discussion here focuses
+on those studies with a strong spatial framework drawn from CPT.3
+
+3 Note that Beckmann (1958) did tie the power law for city-size distributions to CPT, but the framework
+lacked an economic model (Hsu, forthcoming).
+
+
+123
+Central place theory and its reemergence in regional science                                       419
+
+
+    While standard CPT is static, previous sections have described how extensions of
+it imply dynamic growth patterns. Because the highest tiered central places attract
+industries with the greatest scale economies, proximity to the highest tiered central
+places allow nearby locations—including smaller communities—to take advantage
+of close access to these services, allowing them to grow faster. Olfert and Stabler
+(1999) note that input–output linkages also greatly favor the top of the hierarchy.
+Using Canadian data from Saskatchewan, they find that an exogenous increase in
+expenditures in the lowest tier place leads to almost equal amounts of induced expen-
+ditures in the highest tiered city in that region—a sign of the high leakages for the
+lowest to highest tiers. Overall, they report that multipliers are about double in the
+highest tiered central place as in the lowest tiered place. The advantages found in
+highest tiered cities underlie Polèse and Shearmur (2004b, 2006) examination of the
+relative concentration of industry types across the urban hierarchy.4 In defining a
+core/periphery delineation, they divide the Canadian urban hierarchy into tiers based
+on metropolitan area population (including a rural tier) and distance to a highest tiered
+metropolitan area (more than 500,000 population). Over various periods between
+1971 and 2001, they consistently find a cross-sectional pattern wherein high-order
+services concentrate in core cities and nearby locations. Likewise, this pattern is very
+stable and may be accelerating over time.5 However, there is industry churning: as
+advanced industries become standardized, they are crowded out of the core central
+places due to cost considerations and commonly end up relocating to more remote
+locations.
+    Using data from the United States, Klaus and Fafchamps (2006) find that ser-
+vice industries are generally concentrating—but, also, that, as manufacturing becomes
+increasingly standardized, it is deconcentrating. However, Partridge et al. (2008a) find
+that remoteness has neutral sectoral effects—or, in other words, that industries are
+concentrating about equally.
+    Probably the most interesting recent work for testing the industry location features
+of CPT has revolved around the number-average-size rule (NAS) (Mori et al. 2008).
+As noted above, NAS relates the number of cities in which an industry is located
+with the average population of those cities. As shown first by Mori et al. (2009) and
+then by Mori and Smith (2011) with a more advanced clustering approach, the NAS
+rule holds for Japan, whereas Hsu (forthcoming) shows that it also applies for the
+United States. Moreover, the NAS rule is closely associated with Zipf’s Law (Rank
+Size Rule) and the hierarchy principle that forms the core of CPT’s tiering of cities
+in which subsequently larger cities have higher-ordered services (Mori et al. 2008;
+Mori and Smith 2011). This recent CPT empirical work illustrates that the industry
+hierarchy effects that underlie CPT is at work at describing central places up and
+down the urban hierarchy. More work is needed to assess how the spatial disposi-
+tion of industries is evolving in advanced economies, but CPT remains an excellent
+guide.
+
+
+4 Polèse and Shearmur’s industry breakdown tends to be on the basis of demand for specialized labor and
+market threshold effects (e.g., Wensley and Stabler 1998; Shonkwiler and Harris 1993).
+5 Polèse et al. (2007) find a similar pattern for Spain.
+
+
+
+                                                                                          123
+420                                                                     G. F. Mulligan et al.
+
+
+5.2 Stability of the urban hierarchy
+
+The CPT agglomeration patterns described above suggest that upper-tier central places
+have advantages that allow them to persistently remain near the top of the hierarchy,
+while there is likely more churning near the bottom because lower-tiered places pos-
+sess fewer agglomeration advantages. Indeed, Black and Henderson (2003) conclude
+this pattern applies for the United States. In examining decade-by-decade data over
+the 1900–1990 period, they find that the urban hierarchy is relatively stable—though
+with some churning—but the top is especially stable (Dobkins and Ioannides 2001).
+Polèse and Denis-Jacob (2010) examine the stability of the top-ten cities in the urban
+hierarchy across 74 countries over the twentieth century. They find that the placement
+of these cities in the hierarchy is very stable, illustrating the inherent advantages that
+large cities have in maintaining their dominance. Their finding suggests that American
+patterns such as the rise of Sunbelt cities (for example, Atlanta, Dallas, and Phoenix)
+in the late twentieth century are more of the exception on an international basis. Like-
+wise, reversals of primate cities (for example, Toronto and Montreal) are rare and are
+functions of major political or cultural shocks, not economic forces (Polèse and Shear-
+mur 2004a). Yet, a key implication of findings that the hierarchy is stable is that policy
+efforts to help lagging regions will likely fail unless the underlying dynamics that pro-
+duced the urban hierarchy are altered. It is worth pointing out here that some analysts
+(Ioannides and Overman 2004, p. 132) have commented that “the precise implica-
+tions” of NEG models “for growth in a system of cities are pretty fuzzy.” Though
+some progress has been made—see Fujita and Mori (1997, 2005), Mori (1997), Fujita
+et al. (1999), Overman and Ioannides (2001),—it seems to the present authors that
+CPT, with its built in systems dynamics (Berry 1964), may, in fact, provide a more
+straightforward conceptual foundation.
+
+
+5.3 Regional growth in a CPT framework
+
+The above two sections discussed empirical studies about the location of cities and
+the stability of the urban system in a CPT framework (especially at the top), but it did
+not consider how CPT can explain growth dynamics at a regional and national scale.
+Such research was hampered in early CPT research because of the primitive nature of
+geographic information systems (GIS) technology. The lack of GIS technology limited
+empirical efforts to examine the effect of CPT across an entire economic landscape, like
+the United States or Europe. Advanced GIS technology has changed this. For example,
+Partridge et al. (2008a,b, 2009) use a CPT-based framework to assess county-level eco-
+nomic activity across the entire continental United States. Their urban hierarchy from
+top to bottom also includes rural areas and is similar to that of Polèse and Denis-Jacob
+(2010). Partridge et al.’s innovation is that they explicitly introduce distance costs
+to reach all of the higher-tiered urban areas for each county, particularly accounting
+for the incremental distance costs for reaching each succeeding higher tier to obtain
+services that are not available at the subsequent lower tier, which is consistent with
+a CPT framework. Partridge et al. (2008a,b) find that consistent with agglomeration
+predictions from CPT, employment and population are moving closer to higher-tiered
+
+123
+Central place theory and its reemergence in regional science                          421
+
+
+urban areas, though not necessarily within them. Moreover, Partridge et al. (2009) find
+that housing prices and wages are following a similar pattern. Partridge et al. (2008a,b)
+find that these agglomeration forces accelerated after 1950 and so argue that twenti-
+eth century improvements in transportation and information technology favored the
+core, not the periphery. Wu and Gopinath (2008) also draw similar conclusions using
+a definition of remoteness based on adjacency to metropolitan areas in an empirical
+framework that uses spatial econometrics.
+    Because market potential plays a much smaller explanatory role than incremental
+distance in Partridge et al.’s results (2008a; 2008b) empirical results, they downplay
+other explanations such as NEG because the latter would predict that market potential
+is the driving factor, while CPT predicts that it is the geographic proximity in the hier-
+archy that matters. Likewise, because other agglomeration explanations—including
+knowledge spill overs—are more geographically limited (e.g., Rosenthal and Strange
+2008), this suggests that explanations within a CPT framework are probable causes.
+Similarly, Portnov and Schwartz (2009) show that European growth is also consis-
+tent with CPT representations, though their analysis does not explicitly rule out other
+possible explanations.
+
+
+5.4 CPT and economic development policy
+
+The CPT framework has long been seen as an imperative for policymakers and other
+actors in functional economic regions to cooperate in public service delivery, infra-
+structure provision, and economic development. This call makes economic sense when
+there is a need to internalize spillovers and when there are network effects and econ-
+omies of scale. In particular, the growing importance of agglomeration forces—as
+implied in Partridge et al. (2008a,b) and Wu and Gopinath (2008)—along with rising
+industry threshold effects—suggest that rural areas have much to gain from working
+on regional basis with urban areas (Fox and Kumar 1965; Berry 1970; Wensley and
+Stabler 1998; Olfert and Stabler 1999; Partridge and Olfert 2011; Carruthers et al.
+forthcoming; Castle et al. 2011).
+   Modern notions of regional economic development using CPT differ from how
+the framework was originally envisioned by Christaller (1933) and Lösch (1941).
+Specifically, rather than input–output linkages between and among firms and house-
+holds, contemporary regional linkages are arguably more commonly established
+via commuting patterns. In particular, this trend has accelerated through bet-
+ter highways and employment declines of rural primary sector industries due to
+labor saving productivity growth. Thus, it is often the case that the best eco-
+nomic development strategy for lower-ordered locations is to increase their qual-
+ity of life to attract migrants from urban centers and commuters that are tied to
+them (Henry et al. 1997; Renkow and Hoover 2000; Carruthers and Vias 2005).
+Likewise, growth center approaches that stress growth in the highest level tier are
+based on the premise that the best rural development strategy is an urban-led strategy
+that takes advantage of the commuting linkages (Ali et al. 2011; Goetz et al. 2010). Fox
+and Kumar (1965) and Ali et al. (2011) are examples that illustrate the utility of CPT
+for understanding rural–urban regions based on commuting. While there are strong
+
+                                                                               123
+422                                                                     G. F. Mulligan et al.
+
+
+arguments for collaboration within such regions, there is a need for further research as
+to whether these regions should form an overarching regional government or whether
+it is best to leave multiple actors in place even if it leads to fragmented governance
+—that is, what is the proper centralization in regional governments, if any (Haughwout
+1999, 1997)? Examples of analyses exploring the spatial consequences of different
+arrangements of land use governance include Carruthers (2003) and Ulfarsson and
+Carruthers (2006).
+
+
+6 Planning
+
+The United States has no national urban land use policy, which makes it all the more
+imperative that the market-driven evolution of its urban and regional systems is under-
+stood on its own terms: planners and other policymakers require knowledge of both
+inter- and intraregional dynamics in order to organize their thinking and take appro-
+priate action. This section sets out some of the ways in which CPT enters the plan-
+ning arena and informs planners’ decision-making processes both across and within
+regions. Along the way, it furthers a central argument of this paper—that, at least
+from a normative standpoint, NEG and other “competing” models should be viewed
+as complementary, not alternative, frameworks.
+
+
+6.1 Interregional planning
+
+As just noted, in the United States, there is no territorial urban policy—land use
+is generally governed through so-called home rule authority, meaning at the most
+local of levels—so, at present, there is no direct role for interregional planning, per
+se. That said, planners do regularly engage in urban and regional economic devel-
+opment, plus in the process of ensuring that functional economic regions, like those
+discussed throughout this paper, perform effectively and interact effectively. Moreover,
+activist organizations, like the Regional Plan Association6 (RPA) of the New York–
+New Jersey–Connecticut metropolitan area, advocate for adopting an approach to plan-
+ning that is essentially organized around the spatial hierarchy of CPT. For example,
+America 2050,7 a project of the RPA, has identified ten emerging mega-regions that
+it argues for treating—from a policy perspective—as functional economic regions:
+(i) the Northeast, (ii) the Great Lakes; (iii) the Piedmont Atlantic; (iv) Florida;
+(v) the Gulf Coast; (vi) the Texas Triangle; (vii) the Arizona Sun Corridor;
+(viii) Southern California; (ix) Northern California; and, finally, located in the Pacific
+Northwest, (x) Cascadia. According to Pierce and Johnson (2008, p. 245), these regions
+are directly analogous to “the Global Integration Zones identified by European and
+Asian planners [and] all show strong linkages through overlapping suburbs, increased
+commuting between metro areas, strong transportation connections, and similarities
+in their industrial clusters.” Figure 2 presents a map of the American constellation of
+
+6 See: http://www.rpa.org.
+7 See: http://www.america2050.org.
+
+
+
+123
+Central place theory and its reemergence in regional science                         423
+
+
+
+
+Fig. 2 The American constellation of core-based statistical areas
+
+
+
+core-based statistical areas following Pierce and Johnson (2008). Although they do
+not invoke CPT by name, these policy entrepreneurs are referring directly to the world
+it describes when they argue for an expanded role for regional planning on the basis
+of functional economic regions that are embedded within a national hierarchy.
+    And, this kind of thinking is more than just theoretical: at the time of this writing
+(fall 2011), three cabinet-level federal agencies in the United States—the Depart-
+ment of Housing and Urban Development, the Department of Transportation, and the
+Environmental Protection Agencies—are engaged in the Partnership for Sustainable
+Communities,8 an ambitious effort that explicitly recognizes the need for interregional
+planning. Among other activities, in 2010 alone, this program distributed more than
+$400 billion in grants, many of which were dedicated to regional planning activities.
+In this very tangible sense, CPT represents a theoretical framework capable of guiding
+planners and other policymakers as they take on problems that are increasingly com-
+plicated and interconnected across political jurisdictions—and often involve multiple
+metropolitan areas.
+    Although it is true that NEG models are capable of guiding some forms of pub-
+lic policy (see, for example, Baldwin et al. 2003), these models tend to be aspatial
+(as already discussed) and, more even problematic, analytically difficult to the point
+where they lack practical relevance to policymakers engaged in day-to-day planning.
+Among the key strengths of CPT are its intuitive appeal and ability to describe why—
+plus how, where, and when—systems of cities materialize on the economic landscape
+to both technical and general audiences. It certainly cannot do everything that many
+social scientists demand of a holistic economic theory, but there is no disputing its
+utility for providing general explanations for, and predictions of, otherwise intractably
+complex real-world phenomena. For this reason, it seems that, instead of competitors,
+
+
+8 http://www.sustainablecommunities.gov/pdf/FactSheet.pdf.
+
+
+
+                                                                              123
+424                                                                                   G. F. Mulligan et al.
+
+
+CPT and NEG models may, in fact, be complements capable of contributing different
+forms of insight useful for different purposes.
+   This point is an important one because, so far, NEG models—for all of their power
+and elegance—have had little to offer in terms of practical advice for urban planners
+and policymakers working on interregional issues. It can be hard to derive testable
+hypotheses from NEG models (Head and Mayer 2004), and, for this reason, there are
+few, if any, direct lessons for planning in any of its recent advances on urban systems—
+see, for example, Fujita and Mori (1997, 2005), Mori (1997), Fujita et al. (1999). And,
+for this reason, it is unfortunate that, as a matter of scientific research, NEG models
+all but completely eclipsed the CPT framework for a 20-year period. (According to
+Google Scholar, Krugman’s monograph, Geography and Trade, has been cited 7,097
+times since it was published in 1991, compared to the 2,025 that the English version of
+Christaller’s monograph, Central Places in Southern Germany, has been cited since
+being published in 1966.)
+   As Smolin (1997) forcefully argues in The Trouble With Physics (referring to super
+string theory), trends in scientific research can become as destructive as they are pro-
+ductive when certain theories are pursued to the point where they end up closing
+out other useful theories.9 None of this is to say that CPT is the perfect tool for the
+advancement of an interregional planning agenda—just that, from an applied per-
+spective, the regional science community should reconsider what the framework has
+done to advance the pool of knowledge on development patterns and processes across
+regions before dropping it on account of its ad hoc nature and other shortcomings. In
+sum, no theory is perfect and it seems best not to discard (or disregard) CPT even if, as
+NEG proponents (Fujita et al. 1999, p. 27) suggest, it is “at best a description, rather
+than an explanation, of the economy’s spatial structure.”
+
+6.2 Intraregional planning
+
+As stated at the onset of this section, the United States has no territorial urban policy,
+so planning is an expressly local enterprise that takes place within regions—and, in
+the main, individual communities. Urbanization is inherently complex, but it is none-
+theless systematic, consisting of layers of patterns that are repeated across multiple,
+tiered scales of the sort that CPT describes (see Batty 2007). Thus, in developing a
+normative theory of urban form, Lynch (1981) emphasizes physical regularities that
+emerge across the spatial hierarchy of development—or, as Berry (1961) famously
+pointed out: just as there are systems of cities, the cities embedded in these systems
+are systems themselves. This stylized fact—clearly illustrated in Fig. 3, a map of the
+contemporary Northeast megalopolis (Gottmann 1961)—holds many practical impli-
+cations for planners, some of which are outlined below.
+   Foremost, the most obvious application of CPT in the practice of intraregional
+planning is that it describes the general frame of urban spatial structure (Anas et al.
+
+9 In the natural sciences, general relativity and quantum mechanics, inarguably two of humanities crown-
+ing achievements, famously contradict one another—meaning that one or both is somehow incorrect on a
+foundational level, but, even as scientists drive toward a “unified” theory, few seriously suggest throwing
+either one out.
+
+
+123
+Central place theory and its reemergence in regional science                        425
+
+
+
+
+Fig. 3 The Northeast megalopolis
+
+
+1998) both through time and across geographic space. For more than 100 years, dating
+to at least Howard’s (1902) Garden Cities of Tomorrow, planners have thought about
+urban form as a functional hierarchy and have set out transportation networks and
+pursued policies aimed at shaping settlement patterns accordingly. In this sense, the
+fundamental critique mentioned above—that CPT is a description, not an explanation,
+of the economic landscape—holds less relevance to planners, who need to understand
+the nuts and bolts of how cities are put together, than it does for theorists, who ask
+more fundamental questions about why there are cities in the first place. For example,
+in their classic paper, Friedmann and Miller (1965, p. 314) suggest that the city should
+not be viewed as a monolithic “physical entity,” but, instead, as “a pattern of point
+locations and connecting flows of people, information, money, and commodities.”
+This claim was prescient in many ways and has recently been used as a point of depar-
+ture for examining recent land use change throughout the United States (Carruthers et
+al. forthcoming). So, on a basic level, CPT offers planners a powerful way of under-
+standing the fabric of urbanization and making decisions—including transportation
+investments, allocating land use, and more—affecting the overall functionality of the
+regions in which they operate.
+
+                                                                             123
+426                                                                        G. F. Mulligan et al.
+
+
+   Moreover, CPT’s traditions of market and locational analysis hold important impli-
+cations for the siting of centralized facilities, ranging from shopping centers to water
+treatment plants. For example, the last major text on CPT (Berry and Parr 1988) was
+devoted entirely to describing the nature of market areas and what kind of services
+should be located where—and at what (spatial) frequency. Knowing how to evaluate
+such issues is of no small consequence to planners—or, for that matter, real estate
+developers—whose decisions on zoning and other factors that affect retail and busi-
+ness location impact not only the level of access to goods and services that residents
+enjoy, but numerous other matters of consequence, including access to jobs and even
+the strength of the local tax base (see, for example Kaiser et al. 1995; Hopkins 2001).
+   At a regional level, some of the first growth management, or smart growth, initia-
+tives targeted “developments of regional impact,” or, in other words, large, centralized
+facilities whose replication would result in bifurcated demand and other inefficiencies
+(Popper 1981). Such interventions are highly controversial (Fischel 1989); however,
+so, in order to be credible, planners require a basis for understanding the nature of the
+organizational hierarchy of the economic landscapes they regulate—and, as argued
+throughout this paper, CPT offers an excellent means of doing so.
+   Further, a similar logic extends to the planning of infrastructure and public goods
+and services. Urban sprawl, a dominant mode of land use in the United States—and,
+increasingly, elsewhere in the world (Bruegmann 2005)—is commonly criticized by
+members of the planning profession and citizen activists for being wasteful and inef-
+ficient. Yet, it is also true that the nation is rich in territory and there is no imperative
+in terms of the amount of land available to promote more compact development (see,
+for example, Gordon and Richardson 1997). What’s needed, then, are means of objec-
+tively discriminating among alternative land use outcomes (Talen and Ellis 2002), and
+the CPT framework provides a basis for doing so. There is evidence that low-density,
+spatially expansive patterns of land use are indeed more expensive to provide certain
+services to than high-density, compact alternatives (Carruthers and Ulfarsson 2003,
+2008; Hortas-Rico and Solé-Ollé 2010) and CTP helps explain why: large facilities,
+when centrally sited, create efficiencies both in terms of the specific functions they
+fulfill—for example, water treatment (Hopkins et al. 2004)—and the infrastructure
+used to distribute their output (Mulligan 1991, 2000). Going back to Lynch’s (1981)
+normative theory of urban form to criteria in particular stand out: (i) efficiency, which
+suggests cost-effectiveness is better; and (ii) equity, which suggests that residents
+living in low-density, outlying locations should not be subsidized by those living in
+more cost-effective high-density, centralized locations. Indeed, a violation of these
+principles suggests that a market failure has occurred (Brueckner 2000) and that the
+use of development impact fees or some other regulatory intervention may be justified.
+
+
+7 Summary and conclusion
+
+CPT has clear advantages for describing both inter and intraregional spatial patterns of
+economic activity and urbanization—and for informing planning and other forms of
+policymaking. Its main shortcomings are its supposed lack of microeconomic foun-
+dations and lack of a general equilibrium approach. Of course, one reason for this
+
+123
+Central place theory and its reemergence in regional science                                       427
+
+
+shortcoming is that CPT is very rich in describing both industry location and settle-
+ment patterns in a manner that is explicitly spatial—its very realism is what makes it
+difficult to analytically model in a general equilibrium fashion. With renewed interest
+in CPT, there is a distinct need for further testing its empirical predictions with GIS
+and micro data on firm and household location decisions. Along with assessing how
+well CPT fits empirical regularities, there is also a need to evaluate whether or not
+CPT can inform forecasts of the continued evolution of urban and regional systems.
+In terms of policymaking, there is a need to better understand whether the functional
+economic areas that fall from CPT can be used for governance—and to better articulate
+its utility for evaluating urban form. In these ways and more the CPT framework is
+ripe for additional research that places it on more equal footing with its complements,
+such as NEG models.
+
+
+References
+
+Allen PM, Sanglier M (1978) Dynamic model of urban growth. J Soc Biol Struct 1:265–280
+Allen PM, Sanglier M (1979) A dynamic model of growth in a central place system. Geograph Anal 11:
+     256–272
+Allen PM, Sanglier M (1981a) A dynamic model of a central place system—II. Geograph Anal 13:149–164
+Allen PM, Sanglier M (1981b) Urban evolution, self-organization, and decisionmaking. Environ Planning
+     A 13:167–183
+Alao N, Dacey MF, Davies O, Denike KG, Huff J, Parr JB, Webber MJ (1977) Christaller central place
+     structures. Northwestern University, Evanston
+Ali K, Olfert MR, Partridge MD (2011) Urban footprints in rural Canada: employment spillovers by city
+     size. Reg Stud 45:239–260
+Anas A, Arnott R, Small KA (1998) Urban spatial structure. J Econ Perspect 38:1426–1464
+Arthur WB (1994) Increasing returns and path dependence in the economy. University of Michigan Press,
+     Ann Arbor
+Axelrod R (1997) The complexity of cooperation. Princeton University Press, Princeton
+Baldwin R, Forslid R, Martin P, Ottaviano G, Robert-Nicoud F (2003) Economic geography and public
+     policy. Princeton University Press, Princeton
+Batty M (2007) Cities and complexity: understanding cities with cellular automata, agent-based models,
+     and fractals. The MIT Press, Cambridge
+Beavon KSO (1977) Central place theory: a reinterpretation. Longman, London
+Beckmann MJ (1958) City hierarchies and the distribution of city size. Econ Dev Cult Change 6:243–248
+Beckmann M (1968) Location theory. Random House, New York
+Beckmann MJ (1971) Equilibrium versus optimum: spacing of firms and patterns of market areas. Northeast
+     Reg Sci Rev 1:1–20
+Beckmann MJ, Thisse J-F (1986) The location of production activities. In: Nijkamp P (ed) Handbook of
+     regional and urban economics, vol 1. North-Holland, Amsterdam pp 21–95
+Berry BJL (1964) Cities as systems within systems of cities. Pap Reg Sci 31:147–163
+Berry BJL (1967) Geography of market centers and retail distribution. Prentice-Hall, Englewood Cliffs
+Berry BJL (1970) Labor market participation and regional potential. Growth Change 1:3–10
+Berry BJL, Horton FE (1970) Geographic perspectives on urban systems. Prentice-Hall, Englewood Cliffs
+Berry BJL, Parr JB (1988) Market centers and retail location. Prentice-Hall, Englewood Cliffs
+Black D, Henderson V (2003) Urban evolution in the USA. J Econ Geogr 3:342–372
+Blumenfeld H (1955) The economic base of the metropolis. J Am Inst Planners 21:114–132
+Bosker EM, Brakman S, Garretsen H, Schramm M (2007) Looking for multiple equilibrium when
+     geography matters: German city growth and the WW II Shock. J Urban Econ 61:151–169
+Bosker EM, Garretsen H (2010) Trade costs in empirical New Economic Geography. Pap Reg Sci 89:
+     485–511
+Brakman S, Garretsen H, van Marrewijk C (2009) The introduction to geographical economics. Cambridge
+     University Press, Cambridge
+
+
+                                                                                          123
+428                                                                                   G. F. Mulligan et al.
+
+
+Brueckner JK (2000) Urban sprawl: diagnosis and remedies. Int Reg Sci Rev 23:160–171
+Bruegmann R (2005) Sprawl: a compact history. University of Chicago Press, Chicago
+Carruthers JI (2003) Growth at the fringe: the influence of political fragmentation in United States metro-
+      politan areas. Pap Reg Sci 82:472–499
+Carruthers JI, Hepp S, Knaap GJ, Renner RN The American way of land use: a spatial hazard analysis of
+      changes through time. Int Reg Sci Rev (forthcoming)
+Carruthers JI, Ulfarsson GF (2003) Urban sprawl and the cost of public services. Environ Planning B
+      30:503–522
+Carruthers JI, Vias AC (2005) Urban, suburban, and exurban sprawl in the Rocky Mountain West: evidence
+      from regional adjustment models. J Reg Sci 41:21–48
+Carruthers JI, Ulfarsson GF (2008) Does “Smart Growth” matter to public finance? Urban Stud 45:1791–
+      1823
+Castle E, Wu JJ, Weber BA (2011) Place orientation and rural–urban interdependence. Appl Econ Policy
+      Perspect 33:179–204
+Christaller W (1933) Die zentralen orte in Süddeutschland. Fischer, Jena. Translation: Baskin CW (1966)
+      Central places in southern Germany. Prentice-Hall, Englewood Cliffs
+Christian D (2004) Maps of time. University of California Press, Berkeley
+Davis DR, Weinstein DE (2002) Bombs, bones and breakpoints: the geography of economic activity. Am
+      Econ Rev 92:1269–1289
+Dobkins LH, Ioannides YM (2001) Spatial interactions among cities. Reg Sci Urban Econ 31:701–731
+Duranton G, Puga D (2001) Nursery cities: urban diversity, process innovation, and the life cycle of prod-
+      ucts. Am Econ Rev 91:1454–1477
+Eaton BC (1972) Spatial competition revisited. Can J Econ 5:268–278
+Eaton BC (1976) Free entry in one-dimensional markets: pure profits and multiple equilibria. J Reg Sci
+      16:21–33
+Eaton BC, Lipsey RG (1976) The non-uniqueness of equilibrium in the Löschian economic model. Am
+      Econ Rev 66:77–93
+Eaton BC, Lipsey RG (1979) Comparison shopping and the clustering of homogeneous firms. J Reg Sci
+      19:421–435
+Eeckhout J (2004) Gibrat’s law for (all) cities. Am Econ Rev 94:1429–1451
+Fik TJ (1988) Spatial competition and price reporting in retail food markets. Econ Geogr 64:29–44
+Fik TJ, Mulligan GF (1990) Spatial flows and competing central places: towards a general theory of hier-
+      archical interaction. Environ Planning A 22:527–549
+Fingleton B, McCann P (2007) Sinking the iceberg? On the treatment of transport costs in new economic
+      geography. In: Fingleton B (ed) New directions in economic geography. Edward Elgar, Cheltenham
+Finn A, Louviere JJ (1996) Shopping center image, consideration, and choice: anchor store consideration.
+      J Bus Res 35:241–251
+Fischel W (1989) Centralized control: do we really want a Double-Veto system? J Am Planning Assoc
+      54:205–206
+Fotheringham AS (1983) A new set of spatial-interaction models: the theory of competing destinations.
+      Environ Planning A 15:15–36
+Fox KA, Kumar TK (1965) The functional economic area: delineation and implications for economic anal-
+      ysis and policy. Pap Reg Sci Assoc 15:57–85
+Friedmann J (1986) The world city hypothesis. Dev Change 17:69–83
+Friedmann J, Miller J (1965) The urban field. J Am Planning Assoc 31:312–320
+Fujita M (2009) Dynamics of innovation fields with endogenous heterogeneity of people. In: Karlsson C,
+      Cheshire P, Andersson Å, Stough R (eds) New directions in regional economic development. Springer,
+      Berlin pp 59–78
+Fujita M, Mori T (2005) Transport development and the evolution of economic geography. Portuguese Econ
+      J 4:129–156
+Fujita M, Mori T (1997) Structural stability and evolution of urban systems. Reg Sci Urban Econ
+      27:399–442
+Fujita M, Krugman P, Mori T (1999) On the evolution of hierarchical urban systems. Eur Econ Rev
+      43:209–251
+Fujita M, Krugman P, Venables AJ (1999) The spatial economy: cities, regions, and international trade.
+      MIT Press, Cambridge
+Gabaix X (1999) Zipf’s law for cities: an explanation. Q J Econ 114:739–767
+
+
+
+123
+Central place theory and its reemergence in regional science                                          429
+
+
+Glaeser EL, Maré DC (2001) Cities and Skills. J Labor Econ 19:316–342
+Goetz SJ, Han Y, Findeis JL, Brasier KJ (2010) U.S. commuting networks and economic growth: measure-
+     ment and implications for spatial policy. Growth Change 41:276–302
+Golledge RG, Stimson RJ (1997) Spatial behavior. Guilford Press, New York
+Golledge GR, Rushton G, Clark WAV (1966) Some spatial characteristics of Iowa’s dispersed population
+     and their implications for the grouping of central place functions. Econ Geogr 42:261–272
+Gordon P, Richardson HW (1997) Are compact cities a desirable planning goal? J Am Planning Assoc
+     63:95–106
+Haggett P (1965) Locational analysis in geography. Edward Arnold, London
+Haining RP (1983) Modeling intraurban price competition: an example of gasoline retailing. J Reg Sci
+     23:517–528
+Hall P (1998) Cities in civilization. Weidenfeld and Nicolson, London
+Haughwout AF (1997) Central city infrastructure investment and suburban house values. Reg Sci Urban
+     Econ 27:199–215
+Haughwout AF (1999) Regional fiscal cooperation in metropolitan areas: an exploration. J Policy Anal
+     Manage 18:579–600
+Head K, Mayer J (2004) The Empirics of Agglomeration and Trade. In: Henderson JV, Thisse JF (eds)
+     Handbook of urban and regional economics, vol 4. North-Holland, The Netherlands
+Henderson JV (1974) The sizes and types of cities. Am Econ Rev 64:640–656
+Henry MS, Barkley DL, Bao S (1997) The Hinterland’s stake in metropolitan area growth. J Reg Sci
+     37:479–501
+Hering L, Poncet S (2010) Market access and individual wages: evidence from China. Rev Econ Stat
+     92:145–159
+Hopkins LD (2001) Urban development: the logic of making plans. Island Press, Washington
+Hopkins LD, Xu X, Knaap GJ (2004) Economies of scale in wastewater treatment and planning for urban
+     growth. Environ Plann B Plann Des 31:879–893
+Hortas-Rico M, Solé-Ollé A (2010) Does urban sprawl increase the costs of providing local public services?
+     evidence from Spanish municipalities. Urban Stud 47:1513–1540
+Hotelling H (1929) Stability in competition. Econ J 39:41–57
+Howard E (1902) Garden Cities of To-morrow. Faber and Faber, London
+Hsu W-T Central place theory and city size distribution. Econ J (forthcoming)
+Hsu W-T, Holmes TJ (2009) Optimal city hierarchy: a dynamic programming approach to central place
+     theory. Department of Economics, University of Minnesota, Available at: http://www.econ.umn.edu/_
+     holmes/papers/city_optimal.pdf. (downloaded July 12, 2011)
+Huff D (1963) A probabilistic of consumer behavior. Pap Proc Reg Sci Assoc 7:81–90
+Ioannides YM, Overman HG (2004) Spatial evolution of the U.S. urban system. J Econ Geogr 4:131–156
+Jacobs J (1961) The Death and Life of Great American Cities. Modern Library, USA
+Kaiser EJ, Godschalk DR, Chapin SF (1995) Urban land use planning. University of Illinois Press, Chicago
+King LJ (1984) Central place theory. Sage, Beverly Hills
+Klaus D, Fafchamps M (2006) Employment concentration across U.S. counties. Reg Sci Urban Econ
+     36:482–509
+Krugman P (1991a) Geography and trade. MIT Press, Cambridge
+Krugman P (1991b) Increasing returns and economic geography. J Polit Econ 99:483–499
+Krugman P (2010) The new economic geography, now middle aged. Paper Prepared for presentation to
+     the Association of American Geographers Meetings, Washington, DC, April 16, 2010. Available at:
+     http://www.princeton.edu/~pkrugman/aag.pdf. Accessed 15 May 2010
+Lloyd PE, Dicken P (1977) Location in space, 2nd edn. Harper and Row, New York
+Lösch A (1941) Die raumliche ordnung der wirtshcaft. Fischer, Jena. Translation: Woglom WH, Stolper
+     WP (1954) The economics of location. Yale University, New Haven
+Louviere J (1974) Predicting the response to real stimulus objects from an abstract evaluation of their
+     attributes: the case of trout streams. J Appl Psychol 59:572–577
+Lynch K (1981) Good city form. MIT Press, Cambridge
+Marshall A (1920) Principles of economics. Macmillan, London
+Martin R, Sunley P (1996) Paul Krugman’s geographical economics and its implications for regional devel-
+     opment theory: a critical assessment. Econ Geogr 72:259–292
+McCann P (2007) Sketching out a model of innovation, face-to-face interaction and economic geography.
+     Spatial Econ Anal 2:117–134
+
+
+
+                                                                                             123
+430                                                                                  G. F. Mulligan et al.
+
+
+McCann P (2005) Transport costs and new economic geography. J Econ Geogr 5:305–318
+McLafferty S, Ghosh A (1984) A simulation model of spatial competition with multipurpose trips. Geogr
+      Anal 16:244–249
+McLafferty S, Ghosh A (1987) Optimal location and allocation with multipurpose shopping. In: Ghosh A,
+      Rushton G (eds) Spatial analysis and location-allocation models. Von Nostrand Reinhold, New York
+      pp 55–75
+Mori T (1997) A modeling of the megalopolis: the maturing of city systems. J Urban Econ 42:133–157
+Mori T, Smith TE (2011) An industrial agglomeration approach to central place and city size regularities.
+      J Reg Sci 51:694–731
+Mori T, Nishikimi K, Smith TE (2008) The number-average size rule: a newempirical relationship between
+      industrial location and city size. J Reg Sci 48:165–211
+Mulligan GF (1984) Agglomeration and central place theory: a review of the literature. Int Reg Sci Rev
+      9:1–42
+Mulligan GF (1991) Equality measures and facility location. Pap Reg Sci 70:345–365
+Mulligan GF (2000) Resolving location conflict with standardized space-cost curves. Professional Geog-
+      rapher 52:50–60
+Mulligan GF, Fik TJ (1994) Price and location conjectures in medium- and long-run spatial competition
+      models. J Reg Sci 34:179–198
+Mulligan GF, Fik TJ (1995) Consistent price and location conjectures in spatial competition models. Ann
+      Reg Sci 29:91–109
+Neary JP (2001) Of hype and hyperbolas: introducing the new economic geography. J Econ Lit 39:536–561
+Nijkamp P (2000) Review of The economy: cities, regions, and international trade. Econ J 111:F166–F168
+Norman G (1986) Spatial pricing and differentiated markets. Pion, London
+North DC (1955) Location theory and regional economic growth. J Polit Econ 63:243–258
+Olfert MR, Stabler JC (1999) Multipliers in a central place hierarchy. Growth Change 30:288–302
+Ottaviano G, Tubuchi T, Thisse JF (2002) Agglomeration and trade revisited. Int Econ Rev 43:409–435
+Overman HG, Ioannides YM (2001) Cross sectional evolution of the U.S. city size distribution. J Urban
+      Econ 49:543–566
+Parr JB, Denike KG (1970) Theoretical problems in central place analysis. Econ Geogr 46:567–586
+Partridge MD (2010) The duelling models: NEG vs amenity migration in explaining us engines of growth.
+      Pap Reg Sci 89:513–536
+Partridge MD, Olfert MR (2011) The Winners’ choice: sustainable economic strategies for successful 21st
+      century regions. Appl Econ Policy Perspect 33:143–178
+Partridge MD, Rickman DS, Ali K, Olfert MR (2008) Employment growth in the American urban hierarchy:
+      long live distance. Berkeley Electronic J Macroecon 8:1–36
+Partridge MD, Rickman DS, Ali K, Olfert MR (2008) Lost in space: population dynamics in the American
+      hinterlands and small cities. J Econ Geogr 8:727–757
+Partridge MD, Rickman DS, Ali K, Olfert MR (2009) Agglomeration spillovers and wage and housing cost
+      gradients across the urban hierarchy. J Int Econ 78:126–140
+Pierce NR, Johnson CW (2008) Century of the city: no time to loose. The Rockefeller Foundation,
+      New York
+Polèse M, Shearmur R (2004) Culture, language, and the location of high-order service functions: the case
+      of Montreal and Toronto. Econ Geogr 80:329–350
+Polèse M, Shearmur R (2004) Is distance really dead? Comparing industrial location over time in Canada.
+      Int Reg Sci Rev 27:431–457
+Polèse M, Shearmur R (2006) Growth and location of economic activity: the spatial dynamics of industries
+      in Canada, 1971–2001. Growth Change 37:362–395
+Polèse M, Rubiera-Morollón F, Shearmur R (2007) Observing regularities in location patterns: an analysis
+      of the spatial distribution of economic activity in Spain. Eur Urban Reg Stud 14:157–180
+Polèse M, Denis-Jacob J (2010) Changes at the top: a cross-country examination over the 20th century of
+      the rise (and fall) in rank of the top cities in national urban hierarchies. Urban Stud 47:1843–1860
+Popper FJ (1981) The politics of land use reform. University of Wisconsin Press, Madison
+Portnov BA, Schwartz M (2009) Urban clusters as growth foci. J Reg Sci 49:287–310
+Puga D (2010) The magnitude and causes of agglomeration economies. J Reg Sci 50:203–220
+Reilly WJ (1929) Methods for the study of retail relationships. University of Texas, Austin
+Renkow M, Hoover D (2000) Commuting, migration, and rural-urban population dynamics. J Reg Sci
+      40:261–287
+
+
+
+123
+Central place theory and its reemergence in regional science                                          431
+
+
+Rosenthal SS, Strange WC (2008) The attenuation of human capital spillovers. J Urban Econ 41:373–389
+Rosenthal SS, Strange WC (2006) The micro-empirics of agglomeration economies. In: Arnott RJ,
+      McMillen DP (eds) A companion to urban economics. Blackwell, Oxford pp 7–23
+Rushton G (1969) Analysis of spatial behavior by revealed space preference. Ann Am Assoc Geogr
+      57:391–400
+Sassen S (1991) The global city. Princeton University Press, Princeton
+Saichev A, Malevergne Y, Sornette D (2010) Theory of Zipf’s law and beyond. Springer, The Netherlands
+Simon H (1952) A behavioral model of rational choice. Q J Econ 69:99–118
+Shonkwiler JS, Harris TS (1993) A non-Gaussian time series analysis of rural retail business counts. J Reg
+      Sci 33:37–48
+Smithies A (1941) Optimum Location in Spatial Location. J Polit Econ 49:423–439
+Smolin L (1997) The Trouble With Physics: The Rise of String Theory, the Fall of Science, and What
+      Comes Next. Mariner Books, USA
+Stephens DW, Krebs JR (1986) Foraging theory. Princeton University Press, Princeton
+Stern N (1972) The optimal size of market areas. J Econ Theory 4:154–173
+Tabuchi T, Thisse JF (2002) Taste heterogeneity, labor mobility and economic geography. J Dev Econ
+      69:155–177
+Tabuchi T, Thisse JF (2006) Regional specialization, urban hierarchy, and commuting costs. Int Econ Rev
+      47:1295–1317
+Tabuchi T, Thisse JF (2011) A new economic geography model of central places. J Urban Econ 69:240–252
+Talen E, Ellis C (2002) Beyond relativism: reclaiming the search for good city form. J Planning Educ Res
+      22:36–49
+Thill JC (1986) A note on multipurpose and multistop shopping, sales, and market areas of firms. J Reg Sci
+      26:775–784
+Tversky A, Kahneman D (1974) Judgment under uncertainty: heuristics and biases. Science 185:1124–1131
+Ulfarsson GF, Carruthers JI (2006) The cycle of fragmentation and sprawl: a conceptual framework and
+      empirical model. Environ Planning B 33:767–788
+von Böventer E (1963) Toward a unified theory of spatial economic structure. Pap Reg Sci Assoc
+      10:163–187
+Wensley RDM, Stabler JC (1998) Demand-threshold estimation for business activities in rural Saskatche-
+      wan. J Reg Sci 38:155–177
+West D, Hohenbalken Bvon (1984) Spatial predation in a Canadian retail oligopoly. J Reg Sci 24:415–429
+Williamson OE (1975) Markets and hierarchies. Free Press, New York
+Williamson OE (1985) The economic institutions of capitalism. Free Press, New York
+White RW (1974) Sketches of a dynamic central place theory. Econ Geogr 50:219–227
+White RW (1977) Dynamic central place theory: results of a simulation approach. Geogr Anal 9:226–243
+White RW (1978) The simulation of central place populations: two-sector-systems and the rank-size dis-
+      tribution. Geogr Anal 58:552–574
+Wu JJ, Gopinath M (2008) What causes spatial variations in economic development in the United States.
+      Am J Agric Econ 90:392–408
+Xiao Y (2011) Local economic impacts of natural disasters. J Reg Sci 51:804–820
+
+
+
+
+                                                                                             123
+

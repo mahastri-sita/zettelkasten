@@ -1,0 +1,888 @@
+[PDF Metadata]
+Source PDF: book/J11-andani-la-paix-rachmat-syabri-geurs-2021-job-access-and-spatial-equity-of-a-toll-road-no-doi.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Producer:        iLovePDF
+ModDate:         Sun Aug 30 18:07:31 2026 WIB
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           22
+Encrypted:       no
+Page size:       585 x 738 pts
+Page rot:        0
+File size:       14393611 bytes
+Optimized:       no
+PDF version:     1.5
+[Extracted Text]
+13
+Job Access and Spatial Equity of a
+Toll Road
+
+     I Gusti Ayu Andani, Lissy La Paix, Shanty Rachmat,
+                Ibnu Syabri, and Karst Geurs
+
+
+   Abstract: This chapter describes an evaluation of the job access and spatial equity
+   impacts of the Cipularang toll road in the Jakarta – Bandung corridor in Indonesia, which
+   was constructed in 2005. An ArcGIS, transport demand model extension, is used to
+   obtain travel time and generalised cost estimates. The potential access measure and Shen
+   access index are used to measure access with and without job competition. Spatial equity
+   is examined based on the access measures using the Gini coefficient, Palma ratio, and
+   a two-step cluster analysis. The analysis shows that the construction of the Cipularang
+   toll road has reduced travel time in the whole region by 13% and potential job access
+   increased by 5%. However, the toll road also increases job competition as more workers
+   can access jobs available in the job-poor area in between Jakarta and Bandung, resulting
+   in a small decrease in the number of accessible jobs per worker. This chapter concludes
+   that the construction of the toll road has no impact on spatial equity as measured by the
+   Gini coefficient and the Palma ratio.
+
+
+
+
+Introduction
+                                                                        Keywords:           Access;     Equity;
+Access metrics estimating the number of activities that can be          Employment;      Job competition; Toll
+reached within a certain area are often used in spatial equity          road
+
+analysis as they are able to capture the quality of transport
+infrastructure and the spatial distribution of the activities (land
+use).1 However, applications of access metrics in ex-post evaluations   1
+                                                                            (Geurs and Van Wee 2004).
+of road investments are rare, in particular for developing countries.
+240       applications of access
+
+
+
+                                   A new road can have diverse equity impacts, ranging from access to
+                                   social opportunities to regional economic developments.             A
+                                   particular example is the construction of toll roads, which allow
+                                   users to have a typical choice between a quicker but expensive route
+                                   and a slower but inexpensive route. The additional costs and
+                                   changes in travel time can be unevenly distributed across a
+                                   population, according to socioeconomic level. There can even be
+                                   groups for which the new road has detrimental effects. For
+                                   example, high-income commuters in Cape Town, South Africa are
+                                   more likely to benefit from toll roads whereas lower-income
+2
+    (van Dijk et al. 2015).        commuters choose alternative non-tolled routes.2
+                                      This chapter presents an ex-post evaluation of the impact of a toll
+                                   road on job access and spatial equity in a developing country context.
+                                   We used an ArcGIS, transport demand model extension, to estimate
+                                   the transport impacts of the introduction of the Cipularang toll road
+                                   in the Jakarta – Bandung corridor in Indonesia.
+                                      The Cipularang toll road links two major Indonesian cities,
+                                   Jakarta, and Bandung. In 2004, 78.3 million passengers passed
+                                   through the Jakarta - Bandung corridor, making it one of the busiest
+                                   passenger transport routes in Indonesia. The distance between the
+                                   cities is about 180 km and the modal split is dominated by car
+3
+    (Lubis et al. 2005).           traffic.3 Empirical evidence also suggests that the introduction of
+                                   this toll road corridor induced positive responses from the real
+4
+    (Dorodjatoen 2009).            estate market.4
+                                      In the Indonesian context, ex-post evaluation of transport
+                                   infrastructure investments, as in many countries across the globe,
+                                   has not yet received much attention. Ideally, transport policy should
+5
+    (Emberger et al. 2008).        follow the decision-making cycle,5 in which, needs or rationales are
+                                   identified first to define the objectives or the desired transport
+                                   system or system level. Then, an ex-ante evaluation (appraisal) is
+                                   conducted to identify possible transport policies or projects.
+                                   Subsequent steps (monitoring, ex-post evaluation and feedback)
+                                   after the policy has been implemented are often neglected. An
+                                   ex-post analysis is important as investigating past successes and
+                                   failures improves the quality of appraisal for upcoming projects and
+                                   enhances accountability. Many countries require ex-post evaluation
+                                   of transport projects, however, few actually enforce this
+                                   requirement, and this failure is often related to a lack of dedicated
+                                   funding fur such evaluations and limited availability of relevant
+6
+    (Worsley 2017).                data.6
+                                                 job access and spatial equity of a toll road                 241
+
+
+
+Questions
+
+This chapter addresses the following question:
+
+
+• What is the impact of the toll road on job access and spatial
+  equity?
+
+
+   Given the importance of toll roads in the development of the
+major road network in Indonesia, this chapter focuses on the
+ex-post evaluation of the Cipularang toll road.        This chapter
+conducts an empirical calculation of several access measures to
+distinguish between the effects on jobs and working population
+distribution. The Gini coefficient, Palma ratio, and a two-step
+cluster method are also applied to gain insight into the distribution
+of the impacts on job access across the region.
+
+
+
+Methods
+
+To assess the impact of the Cipularang toll road on access and
+spatial equity, we applied three stages of analysis in this chapter.
+Firstly, we created an ArcGIS transport network, then the 4-step
+transport model extension Traffic Analyst for ArcGIS7 was used and       7
+                                                                             (Rapidis 2018).
+calibrated to produce traffic flows, travel time and generalised cost
+matrices in a scenario with and without the toll road. Next, we
+developed a 24-hour traffic simulation, which included the toll road.
+The use of the transport demand model enabled us to consider
+congestion effects by adding capacity restraints in the traffic model.
+We employed road network data from OSM8 as it provided road              8
+                                                                             (OpenStreetMap contributors 2016).
+network data up to the local level. Applying four-step models is
+challenging because of data limitations. It is important to note as
+well that our model aimed to predict travel times in the
+Jakarta-Bandung region and, specifically, traffic flow on the corridor
+of the Cipularang toll road, thus we ignored traffic on other roads.
+   Secondly, we calculated access indicators by using the generated
+travel time and cost matrices, considering the number of jobs and
+the size of the working population. Thirdly, we conducted a spatial
+equity analysis based on the equity indices (Gini coefficient and
+Palma ratio) and spatial distribution of access among districts with
+a two-step cluster method. The unit of analysis in this chapter is
+districts in the study area.
+242       applications of access
+
+
+
+                                      Traffic simulation
+                                      The traffic simulation was conducted through the conventional
+                                      4-step model. Firstly, a number of trips were generated in each
+                                      district by considering the population size and the proportion of
+                                      residential area as production parameters and the number of jobs
+                                      and the proportion of industrial and commercial areas as attraction
+                                      parameters. The parameters were estimated from a regression
+                                      analysis using population and land use data from the Jakarta
+9
+    (JICA 2004).                      metropolitan area.9
+                                         In the second phase, the balanced-generated trips were
+                                      distributed using the Furness method. This method also used a
+                                      deterrence function, which was calculated from the gravity
+                                      parameter and road traffic cost matrix. The gravity parameter
+                                      assumes that a higher travel time will result in fewer trips made. We
+                                      calculated it from the Indonesian labour force travel survey that
+10
+     (BPS 2015).                      mapped the mobility of labour forces in the study area in 2015.10
+                                         Furthermore, road traffic cost was calculated from generalised
+                                      cost considering the travel time between districts (using Google
+                                      Maps API), fuel cost for each type of vehicle and value of time. The
+                                      value of time was derived from a stated choice experiment survey
+11
+  See (Andani et al. 2021) for more   conducted in the Jakarta-Bandung region for 1,600 respondents.11
+details about this experiment.        Next, a growth factor forecasting calculation (Furness method) was
+                                      performed on the balanced generated trips and converted into an
+                                      origin-destination (OD) matrix.
+                                         In the third phase, OD matrices for three modes were estimated
+                                      (car, heavy vehicle, and motorcycle), using the proportion of mode
+                                      share in the area. Lastly, the road traffic assignment was carried
+                                      out, assigning the generated OD matrix to the road network. A user
+                                      equilibrium algorithm was used in this assignment. This last step
+                                      produced the best travel route, the amount of traffic and the costs
+                                      (travel time, distance, and generalised cost) for the pair of zones.
+
+
+                                      Access measurements
+12
+     (Hansen 1959).                   Access, is defined as the potential of opportunities for interaction.12
+                                      There are many definitions afterwards. On the basis of a large
+13
+     (Geurs and Van Wee 2004).        number of studies,13 were able to distinguish four main elements to
+                                      define access: transport, land use, temporal, and individual
+                                      components. Access measures can be also categorised into: (1)
+                                      infrastructure-based access, (2) location-based access, (3)
+ See more details in (Geurs and
+14
+                                      person-based access, and (4) utility-based.14
+Van Wee 2004).
+                                                        job access and spatial equity of a toll road          243
+
+
+
+   In this chapter, we applied infrastructure-based measures to
+assess the performance of the road network as well as
+location-based measures. The infrastructure-based measure focuses
+on the performance or service level of transport infrastructures,
+such as the length of infrastructure networks, level of congestion
+and average travel speed on the road network. It is worth noting
+that estimating travel time without considering capacity restraints
+and traffic flow will result in underestimation. Hence, several
+researchers also developed a traffic model to evaluate road
+infrastructure investment.15                                                  15
+                                                                                For example (van Dijk et al. 2015,
+   Furthermore, we estimated two access measures. Firstly, the                Xiong et al. 2015).
+
+standard job potential access measure was calculated by weighting
+opportunities in a certain area by using an attribute of attraction
+(population, facilities, etc.) and a measure of impedance (distance,
+travel time, cost). Secondly, the Shen access index was estimated to
+incorporate the spatial distribution of jobs and the working
+population competing for these jobs.16 Thus, we evaluated the                 16
+                                                                                   (Shen 1998).
+combined effects of transport elements and job distribution,
+augmented by the inclusion of congestion and competition effects.
+
+
+Average travel time and generalised cost Average travel time and
+generalised cost cr were calculated by summing up the travel time
+or generalised costs for all the trips from one origin (i) in situations
+with the Cipularang toll road (r = 1) and without it (r = 0), and
+then dividing this by the total amount of trips possible (n) from that
+origin.
+
+                                        ∑i ci,r
+                                 cr =                                (13.1)
+                                         nci,r
+
+   The monetary cost in the link was determined from the
+generalised cost, taking into account fuel cost and value of time (Vt ).
+   The generalised cost in link l (Cg,l ) was calculated using the
+following formula:
+
+
+                   Cg,l = C f ,l · dl + Cτ,l · dl + Ct,l · Vt        (13.2)
+
+   where C f ,l is fuel cost (IDR per kilometre), dl is the length of the
+link (in kilometre), Cτ,l is toll cost (IDR per kilometre), Ct,l is travel
+time (hour), and Vt is the value of time (IDR per hour). A list of all
+variables can be seen in Table 13.3.
+244      applications of access
+
+
+
+                                                                            Distribution function
+Table 13.1: Goodness of fit ( R2 )         Impedance
+                                                           Log-logistic      Gaussian      Negative     Power
+of fitted distribution functions                                                          exponential
+                                             Time               1.00            0.99         0.99       0.86
+                                        Generalised cost        1.00            1.00         0.97       0.77
+
+
+
+                                     Potential job access Job access denotes the ease that spatially
+                                     distributed jobs can be reached from a given location. The most
+                                     used potential access measure is based on Hansen’s access
+17
+     (Hansen 1959).                  formula,17 as follows:
+
+                                                               Si,r = ∑ Ej · f (cij,r )                    (13.3)
+                                                                        j
+
+                                         Here, Si is the access for location i with toll road (r=1) or without
+                                     (r=0), Ej is the number of relevant jobs in location j, cijr is the cost
+                                     (i.e. travel time or generalised cost) of a trip from i to j with toll
+                                     road (r = 1) or without (r = 0), and f (cijr ) is the cost decay function
+                                     measuring the spatial separation between locations i and j.
+                                         The cost decay function reflects the friction in connecting zones i
+                                     and j in the network and is negatively correlated with the
+                                     attractiveness of the destination (i.e. jobs). The access results,
+                                     therefore, are profoundly affected by the decay function. Various
+                                     types of cost decay were tested for the access analysis such as
+                                     negative power, negative exponential, Log-logistic and the Gaussian
+                                     specification (see the comparison in Table 13.1 and Figure 13.1).
+                                     Note that the power function is not depicted in Figure 13.1 as the
+                                     probability value is very low. Regarding the impedance parameter
+                                     based on the household survey data, we found that the log-logistic
+                                     cost decay function (Equation 13.4) produced the best fit with the
+                                     travel data.
+                                         The log-logistic cost decay function is specified as:
+
+                                                       f (cij ) = [1 + exp( a + b · ln(cij ))]−1           (13.4)
+
+                                       where a and b are parameters to be estimated. We estimated the
+                                     parameters of separate log-logistic functions for both time and
+                                     generalised cost (Table 13.2).
+
+                                     Potential job access with impedance function and competition (Shen index)
+                                                         job access and spatial equity of a toll road                245
+
+
+
+
+                                                                               Figure 13.1: Net auto vs. net
+                                                                               transit access to all jobs via auto
+                                                                               within 30 minutes
+
+
+
+
+   To improve these access measures, we considered competition in              Table 13.2: Parameters for log-
+the access measurement by including the potential demand for jobs.             logistic cost-decay function
+Potential job access measures the number of jobs within reach of
+                                                                                         Impedance               a   b
+a resident from an origin within a certain travel distance (potential
+supply) divided by the potential number of residents within reach                     Travel time (Ct )    -11.55 2.50
+                                                                                    Generalised cost (Cg ) -11.71 2.10
+of the same destination (potential demand).18 The Shen index is
+similar to the two-step floating catching area (2SFCA) method used             18
+                                                                                    (Shen 1998).
+in geography19 to access spatial access to health care. Several authors        19
+                                                                                    (Radke and Mu 2000).
+enhanced the 2SFCA method by for example incorporating distance
+decay.20 In this chapter, we refer to this access measure as the ‘Shen         20
+                                                                                    e.g., (Luo and Wang 2003).
+index.’ If the Shen index is 1, then the number of jobs is proportional
+to the size of the working population. It can be calculated with the
+following formula:
+
+                             f (cij,r )
+                 Air = ∑                , D jr = ∑ Lk f (ckj,r )      (13.5)
+                         j
+                                Dj               k
+
+    Here, Ai is the Shen Index or the ratio between the potential job
+access of people living in location i, with toll road (r=1) or without
+(r=0) and the number of people seeking job opportunities in location
+j (D j ), Ej is the number of relevant jobs in location j, is, Lk is the
+number of the working population in the study area, and f (ckjr ))
+is the impedance function measure the spatial separation between k
+and j, with toll road (r = 1) or without (r = 0).
+    This chapter used data collected from the Indonesian database
+for policy and economic research21 to calculate job access. We used            21
+                                                                                    (WorldBank 2018).
+246       applications of access
+
+
+
+                                          Notation   Description
+      Table 13.3: List of variables
+                                          c          Cost (i.e. Travel time or generalised cost) of a trip
+                                          Cg         Generalised cost (IDR)
+                                          Cf         Fuel cost (IDR per kilometer)
+                                          d          The length of the link (in kilometer)
+                                          Cτ         Toll cost (IDR per kilometer)
+                                          Ct         Travel time (hour)
+                                          Vt         Value of time (IDR per hour)
+                                          S          Potential access of a location
+                                          E          Number of relevant jobs in a certain location
+                                                     Shen Index (the ratio between the potential jobs access
+                                          A
+                                                     and the number of people seeking job opportunities)
+                                          D          People seeking job opportunities
+                                          Lk         Working population in the study area
+                                          l          Link in the network
+                                          r          Existence of a toll road [1,0]
+                                          i          Origin of a trip
+                                          j          Destination of a trip
+
+
+
+                                      employment data as a proxy for the number of jobs in the study area
+                                      and defined employed people as persons who worked for pay or
+                                      assisted others in obtaining pay or profit for at least one hour during
+                                      the survey week. In addition, we used labour force data to calculate
+                                      the number of job seekers in the study area. In this context, ‘labour
+                                      force’ is defined as persons 15 years old and older who are working,
+                                      are temporarily absent from work but had jobs, or who do not have
+22
+     (BPS 2015).                      work and are looking for work.22 This way, we exclude people of
+                                      working age who are in schools, doing housekeeping, or not doing
+                                      or looking for any profitable activity. This data is only available at
+                                      the municipality level; to be able to conduct analyses at the district
+                                      level, this data is extrapolated by using the population ratio. Note
+                                      that due to data limitations, we were unable to distinguish between
+                                      employed workers and job seekers and account for job types (e.g., by
+23
+     See (Smith et al. 2020).         occupational class).23
+
+
+                                      Measuring spatial equity
+                                      access is normally used for equity analysis because it emphasises
+                                      people and their interactions with places, and also captures both
+                                      transport infrastructure and the spatial structure of the destinations
+24
+     (Geurs and Van Wee 2004).        (land use).24 In the perspective of access, equity is commonly
+25
+     (Van Wee and Geurs 2011).        differentiated into spatial and social equity.25 Spatial equity refers
+                                                  job access and spatial equity of a toll road                    247
+
+
+
+to the geographical location of an individual, population group, or
+region, which is affected by an infrastructure project. Social equity
+is concerned with the impact of the infrastructure project on the
+economic or social condition of the individual, population group, or
+region. Since this chapter focuses on the geographical impacts of a
+toll road, spatial equity (i.e. its overall distribution, inequity at the
+extreme groups and whether job access is distributed evenly across
+the region) is addressed. To that end, we measured the Gini
+coefficient, Palma ratio, and the spatial distribution of access with a
+two-step cluster method.
+   Several statistical indicators can be used to assess the spatial
+equity implications of access impacts of road investments. A
+comprehensive study comparing various equity measures to assess
+the impact of road pricing policy concluded that using a single
+measure can lead to a biased evaluation.26 The Gini coefficient,27          26
+                                                                                 (Ramjerdi 2006).
+which has been widely used to assess income inequity, is insensitive        27
+                                                                                 (Gini 1936).
+to any changes in measurement (scale-independent), which gives it
+a major advantage over other measures. The Gini coefficient also
+has been adopted to evaluate distributional impacts of access in
+some studies.28                                                              (Lucas et al. 2016, Pritchard et al. 2019,
+                                                                            28
+
+
+   The Gini coefficient is commonly used to measure the                     Van Wee and Geurs 2011).
+
+distribution of income. It is a value between 0 and 1, where 0 is
+perfect equity and 1 is perfect inequity. We calculated the Gini
+coefficient to compare access levels with and without the toll road.
+We estimated the coefficient by using the trapezoidal Lorenz curve
+approximation, depicting the (ranked) cumulative share of access
+against the cumulative share of the corresponding population by
+district across the Jakarta – Bandung region. A Gini coefficient of
+0.5 says that there is high inequality, but says nothing about the
+distribution of that inequality.29 Since income per capita data is not      29
+                                                                                 (Banister 2018).
+available, monthly expenditure per capita data is used in the
+analysis. The spatial distribution of monthly expenditure per capita
+across districts in the study area can be seen in Figure 13.3(left).
+   Complementary to the Gini index, we also explored the Palma
+ratio.30 Originally, the Palma ratio depicts the ratio of income            30
+                                                                                 (Palma 2011).
+shares between the richest 10% and the poorest 40%. Palma
+observed that changes in income are almost exclusively due to the
+changes in the share of the richest 10% and poorest 40% because the
+middle-income group between the richest and the poorest always
+capture approximately 50% of gross national income. He pointed
+248       applications of access
+
+
+
+                                            out that the stability of income share of the middle is a consistent
+                                            finding across different data sets, countries and time periods.
+                                               In this chapter, we calculate the Palma ratio to assess the inequity
+                                            between the average access of the richest 10% districts and the
+ Adopting methods from (Guzman and
+31
+                                            poorest 40% districts.31 A Palma ratio of 2.0 indicates that the top
+Oviedo 2018) and (Pritchard et al. 2019).   10% (in terms of income) has twice the (job) access level as the
+                                            lowest 40%. To account for the spatial distribution of job access, we
+                                            clustered job access measures among districts in the study area by
+                                            using a two-step cluster method in which the number of clusters
+                                            was determined based on the minimum value of the Bayesian
+32
+     (Schwarz 1978).                        information criterion – BIC.32 Cluster analysis is commonly used in
+                                            transport and land use domain studies to create groups of areas
+                                            with homogeneous access measures and land use characteristics.
+                                            This method enabled us to identify the characteristics of districts
+                                            that are likely to benefit from the new toll road and classify them
+                                            based on the access impacts.
+                                               Several variables are also included to identify the characteristics
+                                            of districts that are likely to benefit from the new toll road and
+33
+     (Chi 2012).                            classify them based on the access impacts. According to Chi,33 the
+                                            impact of a new highway differ across rural, suburban, and urban
+                                            areas.    A new toll implementation would affect each income
+34
+  (Di Ciommo and Lucas 2014, van Dijk       population segment differently.34 Therefore, in the cluster analysis,
+et al. 2015).                               we considered variables of residential land use growth and monthly
+                                            expenditure per capita (as a proxy to income) to classify the
+                                            districts. Furthermore, as the focus of this chapter, distribution of
+                                            jobs and working population are also included in the cluster
+                                            analysis.
+
+
+                                            Study area
+                                            The study area covers approximately 15,250 km2 in the corridor
+                                            between Jakarta and Bandung as shown in Figure 13.2. The name
+                                            ‘Cipularang’ is a contraction of ‘Cikampek, Purwakarta and
+                                            Padalarang.’ This toll road connects Jakarta and Bandung by
+                                            connecting      the    Jakarta-Cikampek     toll  road  and    the
+                                            Padalarang-Cileunyi (Padaleunyi) toll road (of which the Pasteur
+                                            toll road in Bandung is also a part). The Cipularang toll road has
+                                            five gates; three gates are located in the West Bandung Regency ,
+                                            and the other two are in the Purwakarta Regency. The study area
+                                            covers of 16 cities or regency and 229 districts.
+job access and spatial equity of a toll road       249
+
+
+
+
+                         Figure 13.2: Study area
+250       applications of access
+
+
+
+
+Figure 13.3: Spatial distribution
+of (left) monthly expenditure          Between 2004 and 2013, residential land use increased by 2.5%
+per capita, (center) jobs, and      and industrial land use by 1%.35 The emergence of industrial and
+(right) working population          residential areas contributed to the increasing access, although jobs
+                                    and the working population are still concentrated in the Jakarta and
+                                    Bandung metropolitan area, as shown in Figure 13.3.
+35
+     Andani et al. 2019.
+
+                                    Findings
+
+                                    This section presents the results of the traffic simulation (average
+                                    travel time and generalised cost), for potential job access and the
+                                    spatial distribution of these values across the region.
+
+
+                                    Travel time estimation
+                                    Several performance measures were applied to evaluate the
+                                    accuracy of the match between the observed travel time, derived
+                                    from the Google Maps API, and simulated travel time. The value of
+                                    the RMSPE is 9.7%, and the value of the correlation coefficient is
+                                    0.90. This indicates that the error is small enough and the accuracy
+                                    of the model high enough to be able to predict travel time between
+                                    origin-destination pairs. As Figure 13.4 shows, the model results
+                                    show a similar pattern to the observed travel times. The estimated
+                                    traffic flows on the Cipularang toll road are in line with the
+                                    observed traffic data, with a percentage error of 3.7%. Figure 13.5
+                                    shows that without the Cipularang toll road, there is less traffic in
+                                                job access and spatial equity of a toll road              251
+
+
+
+
+                                                                         Figure 13.4:     Comparison
+                                                                         between observed and model
+                                                                         results
+
+
+
+
+Bandung and the northern part of this region. On the other hand,
+there is a significant increase in traffic on the other regional
+non-tolled roads.
+   The average travel time between districts was estimated to be 154
+minutes, similar to the observed travel time obtained from Google
+Maps API (155 minutes). The most strongly impacted regions are
+in the corridor including the north-western area in Jakarta and the
+south-eastern region in Bandung (see Figure 13.6).
+   Regions in the west, such as Bogor and Cianjur, appear to be least
+affected by the development of the Cipularang toll road. Overall,
+weighted by the traffic flow, the Cipularang toll road has reduced
+the average travel time in the whole region by 13%; see Table 13.4.
+Several districts in Purwakarta experienced a weighted average travel
+time reduction up to 25%. This can be explained by the fact that
+this area contains two toll gates. It is also situated between two
+employment centres in the area: Jakarta and Bandung. This finding
+supports the observation that the impact of toll mostly occurs in the
+area alongside the toll road.36                                          36
+                                                                              (Van Wee and Geurs 2011).
+   When we looked at specific origin-destination pairs, we found
+that the greatest reduction in travel time occurred between
+Cipendeuy (a district in the Bandung regency) and Teluk Jambe (a
+district in Karawang), which had almost 1.5 times greater travel
+times without the Cipularang toll road. The difference between the
+estimated average generalised cost with and without the toll road is
+not as great as the difference for the average travel time, given that
+252   applications of access
+
+
+
+
+Figure 13.5: Changes in traffic
+flow without the Cipularang toll
+road
+
+
+
+
+                                   to use the toll road, users need to pay a fee, which increases the
+                                   total travel cost. As observed from Figure 13.6, the estimated
+                                   average travel time and generalised cost show a contrast between
+                                   areas in the toll road corridor and areas at great distances from it.
+
+
+                                   Potential access measures
+
+                                   Table 13.5 presents the results of various access measures, weighted
+                                   by the working population in each zone. access measures with time
+                                   decay showed more significant changes than measures with
+                                   generalised cost impedance. This indicates an overestimation of the
+                                   impact as it is only taken into account the travel time. It is worth
+                                   noting that the result of each access measures in this chapter is
+                                   different from each other, though complementary to each other.
+                                                job access and spatial equity of a toll road          253
+
+
+
+
+                                                                         Figure 13.6: Relative difference
+                                                                         of weighted average (left) travel
+Moreover, the potential access measures particularly highlight
+                                                                         time and (right) generalised cost
+differences in job access between large urban agglomerations and
+                                                                         between districts
+rural areas.
+   Furthermore, the Shen index (Figure 13.7a) shows the proportion
+between the potential number of jobs that can be accessed and the
+potential demand for jobs.        Several districts in Jakarta and
+Purwakarta have Shen indices equal to one, which indicates that the
+number of jobs and the size of the working population are in
+balance. A district in Bekasi, known as the largest industrial area in
+Indonesia, has a Shen index of more than 2.0, which signifies that
+there are more jobs available than workers. However, in contrast
+with other measures, the Shen index is lower in the scenario with
+the Cipularang toll road (see Figure 13.7a). The reason is that the
+Cipularang toll road not only increased job access, but also working
+population access. The Shen index decreases the strongest in the
+job-poor area between Jakarta and Bandung. The construction of
+the Cipularang toll road also enabled the working population in the
+two large cities to access new jobs emerging in the new industrial
+areas along the toll road.
+   Previous findings that the number of large and medium-sized
+industries has increased by almost 15% in Purwakarta and that the
+254       applications of access
+
+
+
+                                                    Statistics    Travel Time    Generalised Cost
+Table 13.4: Descriptive statistics
+                                                                    (minutes)         (1,000 IDR)
+of estimated average travel time
+and generalised cost                                         With Cipularang toll road
+                                                    mean             154.5                        231.7
+                                                    max              332.6                        453.8
+                                                    min              109.4                        180.3
+                                                    st. dev.          36.5                         43.6
+                                                           Without Cipularang toll road
+                                                    mean             167.5              233.4
+                                                    max              335.1              454.3
+                                                    min                129              180.6
+                                                    st. dev.          35.5               43.6
+
+                                        industrial relocation was due to the proximity to Jakarta and the
+37
+     (Dorodjatoen 2009).                availability of cheaper labour strengthen this result.37 The growth of
+                                        new settlement areas was also observed in Purwakarta. Dorodjatoen
+                                        found that people from Bandung and Jakarta were the predominant
+                                        residents of the new settlements.          The construction of the
+                                        Cipularang toll road enabled them to obtain less expensive housing
+                                        in Purwakarta and commute daily to one of the two big cities.
+
+
+                                        Spatial equity evaluation
+                                        Equity indices Table 13.6 shows the results for both equity indices
+                                        with the Shen index and with potential job access using generalised
+                                        cost decay; both are weighted by the working population. access
+                                        measures with time decay were not included in the equity analysis as
+                                        it only took the travel time into account. This led to an overestimation
+
+
+                                          Weighted access                                     Impedance
+                                                                     Scenario
+                                             measure                                   Time     Generalised cost
+                                          Working                w/ toll road        8,135,674            11,304,273
+                                          population             Without toll road   7,804,450            11,264,201
+                                          access                 Relative change          4.2%                  0.4%
+                                                                 w/ toll road              0.73                  0.73
+                                          Shen Index             Without toll road         0.78                  0.74
+                                                                 Relative change         -5.6%                -0.41%
+                                                                 w/ toll road        6,016,274             8,251,967
+Table 13.5:         Results of access     Potential job access
+                                                                 Without toll road   5,755,050             8,221,007
+measures
+                                                job access and spatial equity of a toll road               255
+
+
+
+
+                                                                         Figure 13.7: Relative changes in
+of the access impact of the toll road and, therefore, was not a good     Shen Index with and without the
+approach to measure the inequity.                                        toll road (left) and Shen Index
+   In general, we found that the construction of the toll road had no    with the toll road (right)
+impact on the average level of spatial equity as shown by the values
+of the Palma ratio and Gini coefficient with regard to potential job
+access, and of the Palma Ratio using the Shen index. However, we
+observed a slight increment of the Gini coefficient using the Shen
+index. This indicates that, overall, the introduction of the toll road
+has benefited high-to-medium income workers more than
+low-income workers, but the Palma ratio shows that people in the
+top 10% of incomes did not benefit more from the toll road than
+those in the lowest 40%.
+   However, this result is not fully representative, as mode choice
+was not taken into account. In Indonesia, low-income workers rely
+on motorcycles,38 but motorcycles are not allowed on most toll roads.    38
+                                                                              (Herwangi et al. 2015).
+In practice, this means that higher-income workers benefit more than
+lower-income workers.39                                                  39
+                                                                           See Andani et al. (2021) for a
+                                                                         more elaborate discussion on how the
+                                                                         travel behaviour of various population
+Cluster analysis The Gini index and Palma ratio (see the previous        segments is affected by the Cipularang
+                                                                         toll road.
+section) do not explain the spatial distribution of the changes in
+equity and the characteristics of districts that are most likely to
+256       applications of access
+
+
+
+
+Table 13.6:   Equity indices                        Access measures.       Scenario          Palma ratio   Gini coefficient
+weighted     by     working
+                                                                            w/ toll road        1.10             0.30
+population, with generalised                        Shen index
+                                                                           w/out toll road      1.10             0.29
+cost decay
+                                                                            w/ toll road        1.14             0.38
+                                                    Potential job access
+                                                                           w/out toll road      1.14             0.38
+
+
+
+
+                                                  benefit from the new toll road. This section, therefore, presents the
+                                                  results of an analysis of the spatial distribution of access carried out
+                                                  with a two-step cluster method.
+                                                     As all types of potential access (labour market, job and Shen
+                                                  index) are highly correlated (>0.9), only the Shen index with
+                                                  generalised cost decay is included in the cluster analysis. We
+                                                  consider this access measure the most comprehensive of the
+                                                  measures tested in this chapter since it incorporates the competition
+                                                  effect and is calculated using generalised cost decay. Furthermore,
+                                                  we also took into account residential land use growth, monthly
+                                                  expenditure, number of jobs and working population of the areas in
+                                                  the analysis.
+                                                     Figure 13.8 and show the cluster map and the profiles of each
+                                                  cluster containing the mean of each variable (cluster centre),
+                                                  respectively. We obtained three final clusters (based on minimum
+                                                  BIC value), which we distinguished these clusters as (1) affected
+                                                  areas, (2) unaffected and more urbanised districts and (3) unaffected
+                                                  and less urbanised districts.
+                                                     Cluster 1 accounts for 2.6% of the 229 districts in the area. This
+                                                  cluster has the lowest relative change in the Shen index (-2%), while
+                                                  the changes in the other clusters are almost zero, thus this cluster
+                                                  experienced increased inequity. This can also be seen in the
+                                                  mismatch between the number of jobs and the size of the working
+                                                  population.      This cluster can also be characterized as highly
+                                                  accessible, as it is situated close to the toll gates and has the highest
+                                                  reduction of average travel time relative to the situation before the
+                                                  construction of the Cipularang toll road (see Figure 13.6), with the
+                                                  highest expenditure per capita as well. This result also in line with
+                                                  the result of the Shen index, as shown in Figure 13.7(left). It is
+                                                  consistent with the findings of several studies that the most affected
+                                                  areas by the construction of new motorways were areas along the
+40
+     e.g., (Ghani et al. 2016, Ji et al. 2014).   roads and close to the exits.40
+                                                   job access and spatial equity of a toll road          257
+
+
+
+                                                               Cluster Centre
+              Variables
+                                                           Cluster 2           Cluster 3
+                                        Cluster 1
+                                                         Unaffected and    Unaffected and    Combined
+                                    Affected districts
+                                                         more urbanised     less urbanised
+     Shen-index relative change           -2.02%              -0.34%           -0.48%          -0.49%
+     Monthly expenditure/capita
+                                           8626                2473             1342            1750
+     (1,000 IDR)
+     Residential land use growth
+                                           5.0%                5.2%             2.9%            3.4%
+     (2004-2013)
+     Working population                  104,303             155,695           54,766          75,456
+     Number of jobs                       14,526             138,027           36,204          55,201
+
+
+                                                                            Table 13.7: Final cluster centre
+   The shares of the number of jobs and the size of the working
+population in the other two clusters are somewhat proportional.
+However, Cluster 2 (unaffected and more urbanised districts) can be
+characterized as more urbanised due to its large number of workers
+and jobs, as well as its high rate of residential land use growth. This
+cluster accounts for 19.2% of the total districts in the region.
+Furthermore, Cluster 3 (unaffected and less urbanized districts)
+contains most districts in the study area (78%). This cluster is
+characterised by the lowest number of jobs and the smallest
+working population, the lowest average monthly expenditure, and
+the lowest residential land use growth.
+   These results highlight that the construction of a new toll road can
+have significant spatial equity impacts on areas close to the toll gates.
+The decreased travel times and the emergence of new employment
+along the toll road corridor increases the number of workers who can
+access employment. This cluster result explains the results of both
+equity indices (Palma ratio and Gini coefficient).
+
+
+Conclusions
+
+We examined the impact of the Cipularang toll road in Indonesia on
+job access and spatial equity by isolating the effect of the toll road.
+We applied a macroscopic traffic simulation model to obtain valid
+estimates of travel time and generalised cost. Job competition,
+represented by the Shen index, was also measured to reflect the
+distributions of employment and working population. We then
+assessed the equity impact by using the Palma ratio, Gini coefficient
+and spatial distribution of the access changes with a two-step
+cluster analysis.
+258    applications of access
+
+
+
+
+      Figure 13.8: Cluster map
+                                                  job access and spatial equity of a toll road   259
+
+
+
+   We found that area along the toll road and close to the toll gates
+are the most affected by the construction of the Cipularang toll road.
+Our analysis shows that the construction of the Cipularang toll road
+has reduced the average travel time in the Jakarta-Bandung area by
+13%. For specific origin-destination pairs, the travel time is now up
+to 1.5 times shorter. The access analysis shows that the choice of
+indicator affects the results. Employment and working population
+access have increased by 5%. However, the toll road also increases job
+competition as more workers can access jobs available in the job-poor
+area in between Jakarta and Bandung, resulting in a small decrease in
+the number of accessible jobs per worker. Most affected areas have a
+relatively large working population compared to the number of jobs
+and experienced residential land use growth. We can conclude that a
+new toll road in developing countries with un-mature road networks
+can have positive as well as negative impacts on the areas close to it.
+   This chapter adds to the literature by examining job access and
+spatial equity impacts of a major toll road in a developing country
+context with the addition of congestion effects and stated
+choice-based value of time in the traffic simulation. The findings of
+this chapter highlight the potential value added of access analysis in
+the transport planning practice. access analysis can help to improve
+the integration of land use and transport planning with the goal of
+enabling all individuals, regardless of their social class or ability, to
+participate in desired activities in the area using the transport
+system.
+
+
+Next
+
+There remain opportunities to extend this research.
+   Firstly, we did not examine the impact of the toll road on spatial
+developments, e.g., distribution of employment, population or
+housing costs. The inclusion of these data in the measurement
+certainly will affect the potential job access measure.
+   Secondly, we were not able to estimate job access for different
+worker groups as reliable sector-level employment data or detailed
+data on the working population is not available at a high spatial
+resolution in Indonesia.
+   Finally, this chapter did not consider the complexity and
+differences in individual travel behaviour.        It is important to
+incorporate the availability of transport modes at the individual
+level, as in Indonesia, low-income workers rely on motorcycles,
+260   applications of access
+
+
+
+                               which are not allowed on most toll roads. Therefore, higher-income
+                               workers may benefit more than lower-income workers.
+

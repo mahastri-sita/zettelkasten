@@ -1,0 +1,1294 @@
+[PDF Metadata]
+Source PDF: journal/T04-duranton-puga-2020-the-economics-of-urban-density-10.1257-jep.34.3.3.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           The Economics of Urban Density
+Author:          Gilles Duranton and Diego Puga
+Creator:         Adobe InDesign CC 13.1 (Macintosh)
+Producer:        Adobe PDF Library 15.0
+CreationDate:    Thu Jul  9 22:19:20 2020 WIB
+ModDate:         Fri Jul 10 21:03:53 2020 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           24
+Encrypted:       no
+Page size:       504 x 720 pts
+Page rot:        0
+File size:       735758 bytes
+Optimized:       no
+PDF version:     1.4
+[Extracted Text]
+     Journal of Economic Perspectives—Volume 34, Number 3—Summer 2020—Pages 3–26
+
+
+
+
+The Economics of Urban Density
+
+
+
+Gilles Duranton and Diego Puga
+
+
+
+
+E
+          verybody loves density. Economists like to model and quantify the many
+          benefits of urban density. It boosts productivity and innovation, improves
+          access to goods and services, reduces travel needs, encourages more energy-
+efficient buildings and forms of transport, and allows broader sharing of scarce
+urban amenities. Other social scientists and urban planners, along with many
+­policymakers, share this fondness for density and would like to see it increase in
+ cities everywhere, including the densest ones.
+      We share some of that enthusiasm, but we also recognize that high density is
+ synonymous with crowding. Indeed, there is a meaningful trade-off between the
+ benefits and costs of density, and it is not clear that these benefits and costs are
+ appropriately weighted by either market or political forces. One reason for this
+ is that the benefit-cost calculation looks very different for insiders, long settled in
+ the city, compared with outsiders considering moving in. In addition, the benefits
+ and costs often operate at very different spatial and temporal scales, so they are not
+ necessarily incorporated by all city constituents.
+      Understanding density is also tricky because density is both a cause and a conse-
+ quence of the evolution of cities. Anything that makes a city relatively more attractive
+ (such as a productivity increase or improved amenities) draws population from
+ other places, which puts upward pressure on house prices, which in turn translates
+
+
+
+■ Gilles Duranton is Dean’s Chair in Real Estate Professor at Wharton School, University of
+Pennsylvania, Philadelphia, Pennsylvania. His email address is duranton@wharton.upenn.
+edu. Diego Puga is Professor of Economics at Cemfi (Center for Monetary and Financial
+Studies), Madrid, Spain. His email address is diego.puga@cemfi.es.
+For supplementary materials such as appendices, datasets, and author disclosure statements, see the
+article page at https://doi.org/10.1257/jep.34.3.3.
+4   Journal of Economic Perspectives
+
+
+
+
+into higher land prices. Faced with a higher price per unit area of land, developers
+opt to build with a greater capital-to-land ratio (essentially, taller buildings). Faced
+with a higher price per unit area of floorspace, residents opt for smaller residences.
+With people living on smaller dwellings in taller buildings, density increases. In this
+sense, density is a consequence of urban evolutions.
+      At the same time, density is also a cause of many significant changes happening
+in cities. On the production side, agglomeration economies make firms and workers
+more productive in dense urban environments than in other locations. The benefits
+of density for innovation through spillovers are harder to measure but also deemed
+substantial. On the consumption side, higher density brings many goods and services
+closer, lowering travel needs. Changes in the amount and form of transport and
+more energy-efficient construction allow density to mitigate total pollution, albeit
+concentrating exposure to it. Historically, greater exposure to pollution and disease
+have been some of the greatest hazards of dense urban environments, and while
+they have lost our attention, they remain relevant today. These pitfalls, together with
+greater crowding and congestion, more costly floorspace for residents and firms,
+and scarcer green space, imply that density also has downsides. The combined bene-
+fits and costs of higher density also lead to changes in the composition of cities,
+triggering changes in the quality and variety of goods and services that are avail-
+able—amenities in particular.
+      In this paper, we discuss what economic researchers have learned about density
+and what we see as the most significant gaps in this understanding. We begin by
+describing how economic research measures density for empirical enquiries and
+how this measurement is rapidly changing with increasingly detailed data. We then
+explore the benefits and costs of density, how the trade-off between them is resolved,
+and the welfare effects of how market and political forces affect density.
+
+
+Measuring Density
+
+      Population or employment density is often used as a summary statistic to
+describe the spatial concentration of economic activity. In this context, density is
+commonly defined as the number of individuals per unit geographic area. Such
+“naive density” is easy to calculate. However, it may not appropriately reflect the
+density actually faced by the individual or firm at hand.
+      One problem is that economic units are traditionally defined as aggregates of
+administrative units. For example, US metropolitan areas are defined based on coun-
+ties, but if a metro area includes some counties with substantial rural portions, such
+a calculation will understate the density experienced by most economic actors. In
+particular, the match between urban and county boundaries is systematically looser
+for younger and less dense metropolitan areas in the West. An extreme example
+is the metropolitan area of Flagstaff, Arizona, which includes the second-largest
+county in the country and expands across multiple national parks, monuments, and
+forests.
+                                                           Gilles Duranton and Diego Puga         5
+
+
+
+
+      Data have now become available with much finer geographical detail than in
+the past. Traditional data from statistical agencies, which were previously aggregated
+into fairly large and often arbitrary administrative units, are now provided at a much
+finer spatial resolution. For instance, the US Census Bureau now routinely releases
+information for more than 200,000 “block groups” instead of 3,000 counties. Also,
+data such as property prices or retail locations that were hard or expensive to obtain
+have become more broadly accessible in many countries. A variety of new digital
+and pictorial trails has also become available, from cellphone data tracking the loca-
+tion of people to high-resolution satellite imagery or street-level photography.
+      These newly available data offer research opportunities but also raise three
+questions concerning: 1) choice of scale, 2) using a single “index” measure of
+density, and 3) the appropriate variable of interest for measuring density. Let’s
+discuss these in turn.
+      The first issue is that choosing the appropriate scale at which to measure density
+is specific to the particular question being raised. Some agglomeration mechanisms
+rely on direct human interactions, which in turn suggest that effective density should
+be measured at a small spatial scale. In this symposium, Rosenthal and Strange discuss
+the literature about agglomeration economies from short-distance interactions.
+The study of urban travel may require the measurement of density within a five- to
+ten-kilometer radius to capture the distance within which most errands take place
+(Duranton and Turner 2018). In contrast, the metropolitan level may be relevant to
+measure broad-based agglomeration effects happening through local labor markets.
+The choice of scale does not stop at the level of metropolitan areas. Another thread of
+literature, inspired by Krugman (1991), has considered the much longer distances at
+which physical goods, and intermediate inputs in particular, can be traded. Given our
+urban focus, we leave aside the concentration of economic activity at a regional scale.
+      The choice of scale requires data on density and its effects to match. For
+example, De la Roca and Puga (2017) and Henderson, Kriticos, and Nigmatulina
+(forthcoming) have proposed measuring “experienced density” by counting popu-
+lation within a given radius around each individual. De la Roca and Puga (2017)
+then average this measure across individuals in each city, given that they do not
+observe the exact location within the city of employers in their wage regression.
+Such experienced density, in addition to dealing with the uneven tightness of area
+boundaries, better captures how close the typical individual is to other people when
+population is unevenly distributed. To give an example at the country level where
+boundaries are given, the United States has nearly nine times the population of
+Canada with a slightly smaller surface area, so its naive density is ten times higher.
+And yet, walking around cities and towns in both countries, one likely perceives
+similar concentrations of people nearby. Indeed, the average inhabitant in Canada
+has about 343,000 people living within a ten-kilometer radius, compared with about
+306,000 in the United States.1
+
+1
+ We calculate experienced density using 2010 gridded population data at 3 arc-second resolution from
+WorldPop (2013). We first measure the number of people within a ten kilometer radius of each cell
+6    Journal of Economic Perspectives
+
+
+
+
+      Instead of concentrating attention on the immediate neighborhood, a spatial
+decay factor giving more weight to closer neighbors may also be used. It is also
+possible to measure population density for fine spatial units and then to take a
+population-weighted average for larger units that match the dependent variable.
+Ciccone and Hall (1996) provide an early example of this approach. Their produc-
+tivity measure is at the state level, but they compute employment density at the
+county level before taking an employment-weighted average by state. This weighting
+avoids distorting the calculation of density in large states like Texas where there are
+vast rural portions but the population is highly concentrated in a small number of
+counties.
+      It is tempting for researchers to define the appropriate measure scale or density
+as the one that yields the largest or most statistically significant coefficient in the
+regression of interest, either implicitly or explicitly in a horse race across different
+measures. This temptation should be resisted. The largest or most significant coef-
+ficient may also be the one suffering from the worst identification problems.
+      The second problem is that any standard density measure tries to summarize
+a two-dimensional distribution (individuals within an area) with a single index
+number. However, other “shapes” of density may matter, and alternative charac-
+teristics of cities beyond just their population and land area can now be measured
+at a reasonable data cost. Such characteristics include the number of centers and
+subcenters, the mixture of land use, the compactness of development, and more. In
+a study of cities in India, Harari (forthcoming) find that such variables may affect a
+wide range of urban outcomes.
+      The third consideration involves choosing the variable of interest to use when
+measuring density. Following the pioneering work of Ciccone and Hall (1996),
+much of the literature that seeks to quantify the effects of the concentration of
+economic activity on productivity has focused on population and employment
+density—a choice driven mostly by the easy availability of these data. However, a
+case can be made that the density of human capital (Moretti 2004) or the density of
+business activity in the same sector of economic activity (Henderson 1974; Moretti
+2019) might be more relevant variables. Moreover, as we discuss below, empirically
+separating agglomeration effects within and across sectors remains largely an open
+empirical question.
+      Along with these three challenges of scale, the appropriate index number, and
+the appropriate variable of interest, new sources of data on location and economic
+activity keep opening new possibilities for analysis of density. Traditional sources of
+population data typically measure population at its place of residence, which can
+work fine if the analysis is done at the metropolitan level and most people live and
+
+
+in the population grid. We then compute, for all grid cells (in the entire country in this example, or
+in each city when we consider US metropolitan areas below), the population-weighted average of this
+count of people within ten kilometers. Weighting by population is important, since otherwise we would
+be calculating population within ten kilometers of the average place instead of within ten kilometers of
+the average person.
+                                                     The Economics of Urban Density    7
+
+
+
+
+work in the same area. However, once we start trying to measure the effects of the
+concentration of economic activity at a fine spatial scale, a nighttime measure of
+density based on residences may not match well with a daytime measure of density
+based on employment.
+     Cellphone data open the possibility of tracking people and measuring their
+location throughout the day (Kreindler and Miyauchi 2019). Indeed, cellphone
+data even allow researchers to track those interactions directly, either by studying
+who is talking with whom on the phone (Büchel and Ehrlich 2016; Büchel et al.
+2019) or by studying who is in the same building with whom at the same time (Atkin,
+Chen, and Popov 2019).
+     Building-level data represent both day- and night-time density, and thus may
+offer a compromise. Daytime satellite imagery and, in some countries, official
+sources such as a land registry can provide detailed location data for individual
+buildings (Baragwanath-Vogel et al. forthcoming; de Bellefon et al. forthcoming).
+Information about built-up land is widely used to apportion population data
+measured at a broader scale to produce finely “gridded” population data (Leyk et
+al. 2019). “Night-lights” satellite imagery offers the possibility of easier compari-
+sons across countries and does not rely on the availability of more traditional
+administrative sources. However, it suffers from a range of measurement prob-
+lems, notably, the glow from bright sources of light—as discussed in this journal by
+Donaldson and Storeygard (2016). Building-level data, combined with population
+data, have the added benefit of being able to distinguish between population per
+unit of land area and population per unit of floorspace, which measures crowding
+more directly.
+     We have seen that most density measures either count individuals for
+comparable units or normalize this count by the geographical size of each unit.
+This raises a long-standing question: Should we measure the concentration of
+economic activity with its overall scale or its density? Induction suggests that, taken
+to extremes, neither density alone nor scale alone are particularly appealing. For
+instance, a highly concentrated but tiny cluster of economic activity is unlikely to
+generate strong agglomeration economies. On the other hand, workers located
+at the edge of large metropolitan areas are unlikely to benefit from their full
+scale in the job-matching process. The theoretical literature is mostly agnostic in
+the density versus scale debate. While the bulk of the work modeling the micro-
+foundations of agglomeration economies focuses on scale effects (Duranton and
+Puga 2004), this is mostly a modeling choice, and it is easy to model agglomera-
+tion effects stemming from local density (Ciccone and Hall 1996).
+     Empirically, the relationship between city density and city population is very
+tight, provided we measure density carefully enough. Panel A of Figure 1 plots for
+US metropolitan areas experienced density, measured as population within ten kilo-
+meters of the average resident, against total population. The implied elasticity is
+0.51. If we use, instead, “naive density,” dividing total population by total land area
+within the official boundaries of the metropolitan areas, we find the same elasticity
+with respect to total population, 0.51, but the fit is poorer with an R 2 of 0.49 instead
+8                                 Journal of Economic Perspectives
+
+
+
+Figure 1
+Density versus Population for US Metropolitan Areas
+
+       A: Experienced density                                                      B: Naive density
+
+
+
+
+Experienced density: population within
+                                         2,500,000                                                                     1,250
+
+
+
+
+                                                                                      Naive density: city population
+                                          500,000                                                                       250
+
+                                          100,000                                                                        50
+
+
+
+
+ 10km of average resident (log scale)
+                                                                                                                         10
+
+
+                                                                                       per square km (log scale)
+                                           20,000
+
+                                            4,000                                                                         2
+                                                   12 5,                                                                            5,
+                                                                                                                                  25 000
+                                                                                                                                    0,
+                                                   25 000
+                                                     0,
+                                                   50 000                                                                         50 000
+                                                                                                                                1, 0,0
+                                                                                                                                  00 0
+                                                 1, 0,0
+                                                   00 00
+                                                 2, 0,0                                                                         2, 0,0
+                                                                                                                                  00 00  0
+                                                   00 00
+                                                 4, 0,0
+                                                   00 00                                                                  12    4, 0,0
+                                                                                                                                  00 00
+                                                                                                                                8, 0,0
+                                                 8, 0,0
+                                                   0 0
+                                                16 00, 0                                                                          0 0
+                                                                                                                               16 00 0
+                                                                                                                                 ,0 ,00
+                                                                                                                                   00 0
+                                                  ,0 00
+                                                    00 0
+                                                       ,0 00                                                                         ,0 00
+                                                     City population                                                             City population
+                                                       (log scale)                                                                 (log scale)
+
+
+                                                              Metro areas East of the Mississippi
+                                                              Metro areas West of the Mississippi
+
+Source: Authors’ calculations based on data from WorldPop (2013) and US Census Bureau (2011). See
+footnote 2 for details.
+
+
+
+
+of 0.76. This poorer fit is evident in Panel B, which also shows this is mostly because
+of artificially low densities in metropolitan areas with large rural portions in the
+western United States.2
+
+
+The Benefits from Density
+
+Productivity Benefits
+      Quantifying the productivity benefits from density has been a core theme in
+urban economics for several decades, and there is now broad consensus on their
+magnitude. The meta-analysis of Ahlfeldt and Pietrostefani (2019) suggests an elas-
+ticity of productivity with respect to density of 0.04 based on a citation-weighted
+
+2
+  We calculate experienced density using 2010 gridded population data at 3 arc-second resolution from
+WorldPop (2013) as detailed in footnote 1 above. We calculate naive density using population and land
+area data from the 2010 US Census (US Census Bureau, 2011). To define cities, we use Metropolitan
+Statistical Area (MSA) and Consolidated Metropolitan Statistical Area (CMSA) definitions outside of
+New England and New England County Metropolitan Area (NECMA) definitions in New England, as set
+by the Office of Management and Budget on June 30, 1999. This defines 275 metropolitan areas in the
+conterminous United States.
+                                                    Gilles Duranton and Diego Puga     9
+
+
+
+
+average of estimates in the literature, on Combes, Duranton, Gobillon, Puga, and
+Roux (2012), and on an earlier meta-analysis (Melo, Graham, and Noland 2009).
+Because the research on this topic has been reviewed carefully and extensively
+elsewhere (Rosenthal and Strange 2004; Puga 2010; Moretti 2011; Combes and
+Gobillon 2015), we focus this section on how such estimates are done and some
+recent developments.
+      Most estimates of the productive benefits from density are obtained by
+comparing productivity or earnings across spatial units with different densities. Early
+studies of productivity, starting with Sveikauskas (1975), studied average output per
+worker in cities. More recent studies rely on total factor productivity estimated from
+plant-level data to account for systematic differences in factor usage. In the case of
+earnings, firms must compare the wages they pay to the productivity benefits they
+receive when choosing a location. Both productivity and earnings are systematically
+higher in denser cities.
+      A concern when regressing productivity on density is that higher productivity
+in denser areas does not necessarily reflect a causal relationship. Instead, perhaps
+firms and workers are attracted to places with a strong but unobserved productivity
+advantage. Four strategies have been used to tackle this potential omitted variable
+problem. All of these approaches suggest that, while productivity-based sorting is
+a relevant concern, there is indeed a causal relationship in which greater urban
+density leads to higher productivity.
+      The first strategy uses instrumental variables when estimating the current
+density of an area. The usual instruments are historical measures of density (Ciccone
+and Hall 1996) and land fertility (Combes et al. 2010). Both rely on differences
+in density being persistent over long periods, while the determinants of produc-
+tivity have changed dramatically as the economy has evolved from being mostly
+agricultural to a concentration on manufacturing and services. Another common
+instrument is land suitability for the construction of tall buildings (Rosenthal and
+Strange 2008; Combes et al. 2010). A limitation of these approaches is that past
+populations and the nature of soils may affect current productivity through the
+persistence of productive infrastructure or the ease of building it.
+      A second strategy is to include either location or plant fixed effects in an
+attempt to capture any unobserved attributes that may have attracted more estab-
+lishments to a given city (Henderson 2003). Estimates are then identified from
+relating changes in productivity to changes in density over time, so the usefulness
+of this strategy is limited by the fact that relative changes in density tend to be small
+and slow (the same fact that makes the usual instruments relevant).
+      The third strategy is to find a quasi-experimental setting. For example, Green-
+stone, Hornbeck, and Moretti (2010) estimate changes in total factor productivity
+for incumbent plants in US counties that attracted a new plant investing over
+$1 million. When compared to changes in total factor productivity for incumbent
+plants in runner-up counties that were being considered as an alternative loca-
+tion by the firm, the firm’s final choice can be seen as an exogenous increase in
+density.
+10   Journal of Economic Perspectives
+
+
+
+
+      The final strategy is to impose more theoretical structure on the problem, as in
+Baum-Snow and Pavan (2012) or Ahlfeldt et al. (2015). The latter build a quantita-
+tive framework based on a canonical urban model and apply it to Berlin, Germany,
+as the Wall was built and then torn down.
+      Another important identification issue is sorting. Larger and denser metropol-
+itan areas disproportionately attract more educated workers. While one can control
+for education and other observable characteristics, unobservable worker traits that
+affect productivity may differ systematically across cities. Here, following Glaeser
+and Maré (2001) and Combes, Duranton, and Gobillon (2008), the usual strategy is
+to introduce worker fixed-effects when relating individual earnings to density. The
+productivity benefits of density are then identified from the changes in earnings
+that a given worker experiences when changing work location.
+      Higher unobserved ability may be intrinsic to a worker due to natural talent
+or upbringing, but it may also be something that develops over time as the worker
+accumulates job experience. Separating the intrinsic and experience components
+of ability helps to evaluate the importance of sorting. It also allows us to study the
+extent to which the productive benefits of density can be absorbed almost immedi-
+ately or instead accumulate gradually (Glaeser and Maré 2001). De la Roca and Puga
+(2017) address this distinction by tracking the experience accumulated by workers in
+different locations. They then estimate an earnings regression where, in addition to
+incorporating worker fixed effects, they let the value of experience differ depending
+both on where it was acquired and where it is used. They conclude that workers
+across cities with different levels of density are not particularly different to start with;
+instead, working in different cities is mainly what makes their earnings diverge over
+time. They find that about one-half of the benefits of density are static and tied to
+currently working in a denser city. The other half accrues over time as workers accu-
+mulate more valuable experience in denser cities. Furthermore, workers take these
+dynamic gains with them when they relocate, which the authors interpret as evidence
+of important learning benefits to working in denser cities that get embedded in
+workers’ human capital. These gains are stronger for those with higher initial ability.
+      Employing a similar strategy to look at the productivity of firms relative to
+density is difficult. Plant relocations are much less frequent than worker reloca-
+tions. Which firms enter a market and which firms are able to survive may also
+be systematically different across more and less dense cities. Combes et al. (2012)
+develop a framework to distinguish between agglomeration and firm selection. The
+key insight of their model is that stronger selection in denser cities left-truncates the
+productivity distribution by removing the least productive firms. Stronger agglom-
+eration instead right-shifts the productivity distribution by raising the productivity
+of all firms. If more productive firms benefit from density to a greater extent, this
+additionally dilates the productivity distribution. Using these insights, French estab-
+lishment-level data, and a new quantile approach, Combes et al. (2012) show that
+firm selection cannot explain spatial productivity differences. Instead, there are
+productivity benefits from density that are even greater for more productive firms.
+Gaubert (2018) argues that if, as shown by Combes et al. (2012), more productive
+                                                   The Economics of Urban Density    11
+
+
+
+
+firms benefit more from density, they will also sort into denser environments to
+start with. Her results indicate that sorting reinforces agglomeration economies in
+explaining spatial productivity differences.
+
+Seeking the Sources of Productivity Benefits
+      While urban economists broadly agree on the magnitude of the productivity
+benefits of density, the evidence distinguishing between possible sources is less
+solid. Duranton and Puga (2004) classify the mechanisms into three broad classes.
+First, a larger market allows for a more efficient sharing of local infrastructure,
+a variety of intermediate input suppliers, or a pool of workers. Second, a larger
+market also allows for better matching between employers and employees, or buyers
+and suppliers. Finally, a larger market can also facilitate learning, by facilitating
+the transmission and accumulation of skills or by promoting the development and
+adoption of new technologies and business practices.
+      On the empirical side, a widely used strategy to distinguish between mechanisms
+is to measure the geographical concentration of different sectors and regress this on
+proxies for the different mechanisms (Audretsch and Feldman 1996; Rosenthal and
+Strange 2001). Because plants in any given industry are similar in many dimensions,
+Ellison, Glaeser, and Kerr (2010) suggest instead studying which similarities across
+industries help to predict better co-agglomeration patterns. Both strategies rely on
+having good proxies for the underlying sources of agglomeration, and how one
+measures these can have an important effect on results. For instance, Overman and
+Puga (2010) suggest that, when measuring the importance of buyer-supplier relation-
+ships, one cannot just look at the value of input purchases, but instead should focus
+on purchases of crucial inputs whose production is geographically concentrated.
+      Instead of running a horse race between different agglomeration mechanisms,
+another possibility is to try to isolate a particular one. This approach is challenging
+because of behavior and outcomes that are difficult to track. Consider knowledge
+spillovers. Each of the links—like those from density to additional interactions,
+from interactions to information flows, and from information flows to innovation—
+is very difficult to trace and measure. In what has for a long time been arguably the
+best empirical evidence of knowledge spillovers. Jaffe, Trajtenberg, and Henderson
+(1993) show that an inventor of a patent is more likely to live in the same location
+as an inventor of a patent it cites than to live in same the location as an inventor of
+a similar matched patent it does not cite. However, as ingenious as this strategy is, it
+infers interactions from spatial proximity and patents give only a very partial view of
+innovative activity. The strategy cannot show whether density increases interactions
+nor whether those interactions affect innovation more broadly.
+      One way to measure interactions is through survey data. Charlot and Duranton
+(2004; 2006) study the use of various communications technologies within and
+across firms in France. Their results suggest that dense urban environments result
+in more communication across firms and that greater communication results in
+higher wages, but they find little support for the hypothesis that density increases
+face-to-face interactions.
+12   Journal of Economic Perspectives
+
+
+
+
+     More recently, anonymized call detail records from cellphone operators allow
+measuring who interacts with whom on the phone. Büchel and Ehrlich (2016) use a
+major overhaul of public transport routes and schedules in Switzerland as a source
+of exogenous variation to show that proximity (measured by shorter travel times)
+does make interactions more likely. Interestingly, they find that, as in the model
+of Berliant, Reed, and Wang (2006), density facilitates meeting people, but this in
+turn makes people more choosy about with whom they interact. Thus, people in
+denser areas do not interact with more people, but those with whom they interact
+are better matches. In addition, social networks in dense urban environments are
+less characterized by clustering into relatively isolated groups, likely facilitating
+more widespread information flows.
+     The idea that density facilitates the quality more than the quantity of matches is
+also present in labor markets. Dauth et al. (2018) use matched employer-employee
+data for Germany to show that high-quality workers (those who get high wages
+conditional on observables) are more likely to work for high-quality firms (those
+who pay high wages conditional on observables) in denser cities. This assortative
+matching reinforces the fact that high-quality workers and firms are also more likely
+to locate in denser cities.
+     Modern cellphones can also provide information on users’ locations, gathered
+from the identifier of the cell tower providing coverage to the user (stored by cell-
+phone operators) or from location data collected by smartphone apps (purchased,
+combined, processed, and resold by several private companies). These data can
+measure spatial proximity of users at a fine geographical scale and within a narrow
+period: for example, two people spending more than 15 minutes in the same coffee
+place within the same clock-hour. Atkin, Chen, and Popov (2019) use such data
+to study how chance meetings contribute to innovation. They isolate smartphone
+users who work in buildings belonging to tech companies in Silicon Valley and
+trace instances where the users are in the same place at the same time. They sepa-
+rate chance from planned meetings and show that chance meetings result in more
+patent citations across firms in different sectors whose workers had met by chance
+more often. Other interesting new sources of data starting to be used to track
+specific agglomeration mechanisms include detailed input-output links between
+firms (Bernard, Moxnes, and Saito 2019) and search and matching in job platforms
+(Marinescu and Rathelot 2018).
+
+Accessibility Benefits from Density
+     All else equal, having the same population of residents and establishments in
+a smaller area will reduce bilateral distances. However, shorter bilateral distances
+may encourage more trips, and more trips within a compact area may also make
+travel slower. What is the net effect of these influences? Using US travel survey
+data, Duranton and Turner (2018) estimate an elasticity of the distance traveled
+by an individual driver with respect to the density of workers and residents within a
+ten-kilometer radius around the driver’s residence of −0.13, which occurs despite a
+very small increase in the number of trips by this driver. Travel speed also declines
+                                                              Gilles Duranton and Diego Puga            13
+
+
+
+
+with density with elasticity −0.11, but because of reduced distances, total time spent
+traveling declines. After considering many alternatives, Duranton and Turner
+(2018) conclude that the density of resident population and employment within
+a five- or ten-kilometer radius is the main local characteristic explaining distances
+traveled by local residents. Looking at credit card records for shopping and the
+purchase of personal services, Agarwal, Jensen, and Monte (2019) also document a
+decline in travel associated with a greater density of sales locations. Couture (2016)
+finds similar results when focusing more narrowly on restaurants.3
+     But the accessibility benefits from density cannot be captured by transport
+costs alone. The variety, prices, and quality of available goods and venues will all
+change with density. In turn, these changes affect the choices made by consumers.
+Regarding prices and quality, Handbury and Weinstein (2015) find that larger (and
+thus denser) cities do not have significantly different prices for the exact same
+grocery products. If prices for a certain type of product tend to be higher in large
+metropolitan areas, it is because consumers tend to buy higher quality varieties of
+the same product—like organic instead of regular eggs.
+     Regarding variety, Handbury and Weinstein (2015) find that the availability of
+grocery products, measured at the bar-code level, is much greater in larger cities.
+The count of restaurants accessible within a given travel time also increases with
+density. To assess the benefits of this expanded variety, Couture (2016) estimates
+the elasticity of substitution between restaurants, where a lower elasticity implies
+a greater willingness to pass many restaurants to access one’s preferred choice.
+Couture’s estimate of about nine for this elasticity is larger than the usual estimates
+for consumer goods but low enough to generate frequent trips beyond the closest
+restaurant and substantial welfare gains from restaurant density.
+     Couture’s (2016) work provides an important bridge with earlier transporta-
+tion research that attempts to model accessibility within a discrete choice framework
+(following the influential research of Ben-Akiva and Lerman 1985). After making
+some distributional assumptions about the preference parameters, it becomes
+possible in this framework to recover accessibility for a given location from the
+consumers’ choice set of destinations in this location and the costs of reaching these
+destinations. For many years, the application of this approach was limited by the
+paucity of data about the possible destinations and the cost of reaching them. New
+data from sources like Google Place and Google Maps have eased these constraints.
+However, one limitation of these accessibility measures is that they take as given
+both the location of the origin of trips and the set of destinations, whereas density
+matters partly because it changes the set of potential venues and, as a result, possibly
+alters the choice of residential location.
+
+
+
+3
+ While household travel for consumption is “local,” it is not “extremely local.” Using Yelp data for restau-
+rant visits in New York City, Davis et al. (2019) find that consumption is, by their metrics, about half as
+segregated as residences. Although transport frictions matter, they nonetheless find that social frictions
+play a bigger role.
+14    Journal of Economic Perspectives
+
+
+
+
+     Another strand of the research literature provides full general equilibrium
+models which consider an explicit geography and can be quantified to estimate
+policy counterfactuals. Redding and Rossi-Hansberg (2017) provide an excellent
+guide to this literature. Among models that consider urban space and transport,
+Ahlfeldt et al. (2015) is a particularly accomplished contribution. They model the
+development of a city where residents choose their residence and workplace loca-
+tions and use this to explore the benefits of density using historical variation in
+accessibility due to the Berlin Wall. These location choices are, to a large extent,
+guided by utility shocks over particular commuting routes. While this approach
+greatly simplifies the derivation of their model, it is limiting for current-day appli-
+cations to the extent that commutes represent less than one-fifth of all trips and
+about one-fourth of the mileage for US drivers. A challenge for the future will be
+to harness the recent modeling advances in economic geography, while keeping
+the versatility and ease of implementation of standard discrete choice approaches
+used in the transport literature and also making use of the much richer data now
+available to study urban travel.
+     Although we have discussed the productivity and accessibility benefits of
+density separately, they are interrelated. For example, the better accessibility of a
+denser urban environment may allow workers to search for better labor market
+opportunities (Manning and Petrongolo 2017). In a study of relocating research
+and development establishments, Xiao and Wu (2020) find that researchers who
+end up with longer commutes to their workplace see a drop in patenting activity
+while those who get closer become more productive.4
+     One possible way to integrate the productivity benefits from agglomeration
+into a transport and accessibility framework is to compute density in a location as
+the sum of nearby employment discounted by the travel cost of accessing it. This
+follows the suggestion of Graham (2007) and is related to the gravity specifications
+of the spatial quantitative models reviewed by Redding and Rossi-Hansberg (2017).
+However, it is important to consider such density elasticities with care. For example,
+taking an elasticity of earnings with respect to density estimated from cross-city
+variation and then applying it to a change in “effective density” resulting from
+some expansion of transport infrastructure in one city may overestimate the actual
+gains from the project—for instance, if we are considering a new subway line while
+agglomeration benefits arise from input-output relations between firms unaffected
+by this line.
+
+Other Benefits from Density: Innovation, Reduced Pollution, Amenities
+     For brevity, we limit our discussion here to three especially important benefits
+of density that seem to us ripe for additional study: innovation, reduced pollution,
+
+
+4
+ In a very different context, Koster, Pasidis, and van Ommeren (2019) provide evidence about shopping
+externalities mediated by foot traffic. These shopping externalities are arguably about accessibility since
+they arise from transport savings for customers when visiting multiple stores, but they end up affecting
+the productivity of stores as reflected in the rents they are willing to pay.
+                                                     The Economics of Urban Density     15
+
+
+
+
+and access to amenities. For a literature review that includes other benefits, see
+Ahlfeldt and Pietrostefani (2019).
+      The extreme concentration of innovative activity is reviewed in Carlino and
+Kerr (2015). Moretti (2019) estimates an elasticity of the number of patents per
+innovator with respect to the number of innovators in the same city and field of
+innovation of about 0.07. This estimate is arguably a lower bound: for example, it
+ignores the effect of the concentration of innovators in the same field on the prob-
+ability of innovating, and it ignores spillovers arising from other fields of research.
+In a prior paper, Carlino, Chatterjee, and Hunt (2007) find a large elasticity of
+patenting with respect to urban density of about 0.20, reflecting both the higher
+productivity of research in denser places and the concentration of research inputs
+in these areas.
+      The link between density and pollution is also of particular importance. Residents
+in denser cities emit less greenhouse gas and fewer particulates than less dense cities
+(Glaeser and Kahn 2010). This result is only in part due to transport. There are large
+differences in emissions related to home cooling, even after conditioning out climatic
+differences. However, we need to know how much of the lower energy consumption in
+denser places is a consequence of smaller dwellings or if there is something uniquely
+energy-efficient about greater density. At the same time, as Carozzi and Roth (2019)
+note, a higher concentration of population within a city may result in greater overall
+exposure to pollution, even with lower emissions per person. After instrumenting for
+urban density, they find an elasticity of exposure to particulates (2.5 micrometers or
+smaller) with respect to density of 0.13 for the United States.
+      The presence of consumption amenities in dense urban areas influences
+how one perceives the rising inequality of wages. The increased concentration of
+educated workers in a small number of increasingly attractive cities is a salient feature
+of the US urban geography and arguably of many other developed countries (Berry
+and Glaeser 2005). If living in a dense area offers mainly negative “amenities,” like
+crime, then the increased concentration of skilled workers in increasingly expensive
+cities implies that inequality is less than wages suggest. If living in a dense area offers
+positive amenities, then inequality will exceed what wages suggest (Moretti 2013).
+Diamond (2016) argues while rising skill premiums started the process of educated
+workers concentrating in dense urban settings, their presence then generated addi-
+tional endogenous amenities, which she argues are central to reconciling observed
+changes in wages, rents, and the skill composition of residents across cities in the
+United States between 1980 and 2000. In highly granular empirical work, Couture
+and Handbury (2019) provide direct evidence about the importance of local ameni-
+ties to explain the return of young educated workers to higher density residential
+areas in American cities. In turn, the increased concentration of educated workers
+appears to foster the development of new local amenities. This recent work is in
+tension with more traditional estimations of the relationship between amenities and
+city size building on Roback (1982), which suggest only a weak relationship between
+city population and amenities (Albouy 2008). Better knowledge about the forma-
+tion of amenities in cities is undoubtedly a priority.
+16    Journal of Economic Perspectives
+
+
+
+
+The Costs of Density
+
+Land Prices, Housing Prices, Transport Costs, Congestion
+      Theory has long hypothesized that as population and density increase in a city,
+its benefits initially accumulate faster, but eventually, its costs dominate (Henderson
+1974). Fujita and Thisse (2013) call this the “fundamental trade-off of spatial
+economics,” because it explains both the existence of cities and their finite sizes.
+However, compared to research on benefits of density, there is a paucity of research
+on its costs, which Glaeser (2011) dubbed the “demons of density.”
+      As a starting point, density brings an increase in land prices. For French urban
+areas, Combes, Duranton, and Gobillon (2019) estimate an elasticity of land prices
+at the city center with respect to their population of about 0.30. These compari-
+sons across cities are made for a central location to make sure we compare likes
+with likes. In and of itself, a higher price for land does not represent a cost for
+society, but more expensive land elicits various responses. Some of these responses
+do create social costs, such as the use of more expensive building technologies to
+build higher or longer and slower trips as residents move further out and roads get
+more congested. Let’s explore these costs in turn.
+      More costly land provides incentives to build taller. Ahlfeldt and McMillen
+(2018) estimate an elasticity of building height with respect to land prices of 0.30 for
+residential buildings and 0.45 for commercial buildings in the city of Chicago circa
+2000. Interestingly, this elasticity about doubled over 100 years as technology made
+it easier to respond to high land costs by building taller. They note, however, that the
+elasticity of built-up floorspace with respect to land prices is only about one-third
+of the elasticity of building height because taller buildings are often surrounded by
+less tall buildings, open space, and roadway.
+      While taller buildings do provide more floorspace per unit of land, the marginal
+cost of floorspace increases with building height. Ahlfeldt and McMillen (2018)
+estimate elasticities of building cost per unit of floorspace with respect to building
+height ranging from 0.25 for small buildings to well above unity for skyscrapers.
+Tall buildings are not only costly to build; they also generate a range of recurring
+costs, including direct costs to their users. For example, Liu, Rosenthal, and Strange
+(2018) report that a typical tenant in a high-rise spends 23 minutes a day waiting for
+or riding elevators—about the same time as a typical one-way commute to work.5
+      A higher built-up density alleviates, but does not eliminate, the pressure created
+by higher land prices on the price of residences and offices. For French urban
+areas, Combes, Duranton, and Gobillon (2019) estimate an elasticity of housing
+prices at the city center with respect to their population of 0.11, compared with the
+
+
+
+
+5
+  Liu, Rosenthal, and Strange (2018) also report some countervailing benefits. For instance, the top
+floors in tall buildings command higher rents than all but the street-level, suggesting that poorer acces-
+sibility relative to lower floors is more than offset by better views and perhaps more prestige.
+                                                              Gilles Duranton and Diego Puga            17
+
+
+
+
+aforementioned 0.30 for land.6 For US metropolitan areas, Duranton and Puga
+(2019) estimate a slightly lower elasticity of housing rents at the center of 0.07.
+Overall, higher demand for land at particularly desirable locations leads to an
+increase in floorspace density, higher prices for land and floorspace, and lower
+consumption of floorspace per person. These forces push towards an increase in
+human density per unit of land. Earlier, we provided an estimate of the elasticity of
+density with respect to population for US metropolitan areas of 0.51. In addition
+to lowering their housing consumption, residents also react to higher housing
+prices by moving to cheaper, less-accessible locations. When we estimate the elas-
+ticity of average distance to the center with respect to city population, we get 0.30.7
+      The trade-off between housing costs and transport costs has been at the heart
+of land-use modeling since the pioneering work of Alonso (1964), Muth (1969),
+and Mills (1967). However, this early work used a monocentric model of cities,
+which both captures many essential features of actual cities and also has important
+shortcomings. Most notably, residents in the basic monocentric model only travel
+to commute to their job, and they all work at the center. However, because not all
+travel is travel to work and not all commutes reach the center of cities, average
+travel increases with a city’s population by far less than predicted by the monocen-
+tric model. Using transport data for US metropolitan areas, Duranton and Puga
+(2019) estimate that the elasticity of vehicle kilometers traveled with respect to the
+distance to the city of a resident household is only about 0.07. However, one key
+property of the monocentric model continues to hold. As households consider resi-
+dences further away from the center, the lower price of the housing should be just
+offset by higher transport cost. Indeed, Duranton and Puga (2019) find that, just
+as predicted by the model, the elasticity of housing prices with respect to distance
+to the center is exactly the same as the elasticity of transport costs with respect to
+distance to the center, but with an opposite sign.
+      This literature suggests that cities that allow their urban fringe to expand may
+have more success in containing urban costs. Combes, Duranton, and Gobillon
+(2019) estimate the elasticity of land and housing prices at the center of French
+metropolitan areas with respect to either their density or their population. For
+housing prices, they estimate a density elasticity of 0.21 and a population elasticity
+of 0.11. For land prices, the density elasticity is 0.60 and the population elasticity
+0.30. Since an increase in density is essentially an increase in population keeping
+
+
+6
+  In their model, Combes, Duranton, and Gobillon (2019) show that the ratio of the land price elasticity
+to the housing price elasticity should be equal to the share of land in construction. For France, this ratio
+of 0.11/0.30=0.37 is very close to the share of land in the construction of single-family homes.
+7
+  To estimate the elasticity of average distance to the center with respect to city population, we first
+determine the location of the center of each metropolitan area from the location of its core munici-
+pality reported by Google Maps. We then compute for each metropolitan area, the population-weighted
+average distance to the center of its Census block groups using five-year 2008–2012 data from the 2012
+American Community Survey obtained from the IPUMS-NHGIS project (Manson et al. 2019). We finally
+regress the log of average distance on the log of population across metropolitan areas using ordinary
+least squares.
+18   Journal of Economic Perspectives
+
+
+
+
+built-up area constant, these differences indicate that if cities could only increase
+their population by increasing density, house prices would increase by twice as
+much in the long run, with even more substantial short-term price hikes.
+      As a city both gets denser and expands outwards, population growth also puts
+a strain on its infrastructure, and particularly, its transport infrastructure. Urban
+travel gets slower as congestion worsens. Duranton and Puga (2019) estimate an
+elasticity of travel speed with respect to city population of −0.04 for US metropol-
+itan areas using travel survey information. For cities in India, Akbar et al. (2019)
+estimate the same elasticity using travel time data from Google Maps and obtain a
+similar figure of −0.05.
+      When discussing the benefits of density, we included some endogenous changes
+in amenities, such as more consumption opportunities. Other amenity changes associ-
+ated with density may instead constitute a cost. For instance, Glaeser and Sacerdote
+(1999) estimate that the elasticity of crime with respect to population for US cities
+is 0.16 if one focuses only on reported crime and 0.24 when one takes into account
+greater crime underreporting in larger cities. They find that, while the higher prev-
+alence of crime-prone individuals in large cities plays an important role, almost as
+important is the fact that higher urban density makes finding a victim for opportunistic
+crimes easier and catching criminals more difficult. However, it is intriguing to note
+that in Europe, larger cities tend to suffer less crime (Ahlfeldt and Pietrostefani 2019).
+      We discussed earlier that density can also increase exposure to pollution from
+particulates, negatively affecting health. Historically, high density was also synony-
+mous with frequent premature deaths caused by the poor hygiene of cities and the
+ease at which epidemics would propagate. Bairoch (1988) reports that early in the
+nineteenth century, rural youth were expected to live eight to twelve years longer
+than urban youth. In Europe and North America, urban life expectancy only over-
+took rural life expectancy after 1930. Urban planners tried to alleviate the burden of
+disease in cities not only by investing in water and sewage systems but also by building
+wider avenues and large urban parks and introducing regulations that limited over-
+crowding and improved air circulation and access to natural light (Colomina 2019).
+If cities are not denser today, it is partly a consequence of past diseases. And yet, the
+lack of social distancing that cities promote—and which gives them so many advan-
+tages—also makes them more vulnerable to pandemics even today.
+      While the literature on urban costs remains limited, it offers three tentative
+conclusions. First, the various elasticities reported here provide support for a hill-
+shaped relationship between the net benefits of cities and their population scale
+and density. Second, the top of this hill is fairly flat, so that the costs of being
+moderately undersized or oversized are small. Finally, the downward-sloping part
+of the net benefits may eventually fall steeply and more so if cities cannot adjust
+at both the intensive (densification) and extensive (outwards expansion)margins.
+
+Aggregating the Costs of Density and Population
+    Quantifying urban costs, in all their forms, is complicated. As one example, the
+multiple components of commuting costs are hard to observe and even harder to
+                                                             The Economics of Urban Density          19
+
+
+
+
+value (Small 2012). Housing costs, despite being transfers from users to owners, are
+also expected to capitalize many other costs. Moreover, housing and transport costs
+vary across locations in a city.
+     To assess overall urban costs, the literature has developed three approaches.
+A first strategy uses a standard urban model that also includes agglomeration
+benefits. For example, Au and Henderson (2006) solve such a model to obtain an
+expression for average value added in a city as a function of its population. They
+also estimate the relationship between value added per worker and city population
+for Chinese cities during a period in which migration was greatly restricted and
+conclude that many of these cities were grossly undersized. The great advantage
+of this approach is that it requires little data—essentially just population and value
+added. However, it also has several drawbacks. The key fundamental relationship
+between agglomeration benefits and urban costs is expected to be hill-shaped,
+and the shape of the hill will be hard to estimate unless many cities are far from
+their optimal size, as in China in the 1990s. Also, it is unclear which urban costs
+are reflected in lower value added (for example, commuting costs paid in the
+time of workers will be missed, while the higher market activity of transit firms in
+congested cities may result in higher value added).
+     The second approach models the choices of a consumer who needs to decide
+on a residential location and asks how much more costly it would be to achieve the
+same level of utility at the same location should the city become denser or grow
+in population. Using this approach, Combes, Duranton, and Gobillon (2019)
+assume that households have free mobility and leverage the insight that house
+prices will capitalize transport costs and amenities. As a result, the elasticity of
+urban costs with respect to city population turns out to be equal to the elasticity of
+house prices at the center of cities with respect to their population multiplied by
+the share of housing in household expenditure. As mentioned earlier, Combes,
+Duranton, and Gobillon (2019) also estimate that the elasticity of housing prices
+with respect to city density is 0.11 and fairly stable over the range of city popula-
+tions observed in France. The share of income devoted to housing increases with
+urban population, from about 16 percent in a city with 100,000 inhabitants to
+39 percent in a city like Paris. Taken together, these figures are indicative of urban
+cost elasticities associated with a greater density ranging from 0.03 for smaller
+cities to 0.08 for cities with more than ten million inhabitants. The main draw-
+backs of this approach are that it relies heavily on the free-mobility condition to
+simplify a wide array of changes associated with greater density, that it considers
+only monetary costs, and that it ignores endogenous amenities (whether positive
+or negative).
+     A third approach, developed by Duranton and Puga (2019), models the various
+costs of cities explicitly and estimates the parameters associated with these costs.8
+
+8
+  Desmet and Rossi-Hansberg (2013) propose a related approach with a quantified model. The model is
+then used to assess the effects of shutting down various forms of heterogeneity across cities rather than
+exploring the costs and benefits of increased density or rising population.
+20   Journal of Economic Perspectives
+
+
+
+
+One advantage of this approach is that the key urban costs elasticity can be esti-
+mated based on equations of the model at three different levels of aggregation and
+using three different sources of variation. These approaches amount to estimating
+the assumed commuting cost equation (using within-city variation in travel distance
+across individuals), the spatial equilibrium within each city (using within-city varia-
+tion in house prices across locations), and the spatial equilibrium across cities
+(using cross-city variation in city-center house prices). All three approaches result
+in a similar elasticity of urban costs with respect to city population of about 0.07.
+These urban costs are then further amplified by congestion with a population elas-
+ticity that they estimate at about 0.04. The main drawback relative to the previous
+approaches is that the modeling and data demands are even greater.
+
+
+Getting Closer to Optimal Density?
+
+The Unhappy Welfare Economics of Density
+      When considering the benefits and costs from density in a location, firms
+and workers choose based on their private benefits and costs, not on the social
+benefits and costs. There are two wedges between private and social that tend to
+push toward suboptimally low levels of density. The agglomeration wedge refers
+to the fact that firms and workers consider the agglomeration spillovers they may
+receive from others nearby, but not the agglomeration spillovers they may provide
+to others. Another wedge arises from the capitalization of land prices. When the
+land is not owned by local residents, a fraction of the net benefits from density are
+transferred away as rents to absentee landowners who benefit from agglomeration
+without contributing to it. On the other side, there is a congestion wedge pushing
+toward suboptimally high levels of density because the marginal cost of congestion
+exceeds its average.
+      The overall effect of these three wedges is ambiguous. We did report above
+that with respect to density, the congestion elasticity is estimated to be higher than
+the agglomeration elasticity. However, the smaller agglomeration elasticity pertains
+to the labor income of residents choosing a location, whereas the larger conges-
+tion elasticity pertains to their travel costs, which are much smaller than labor
+income. Much less is known about the wedge from land capitalization. Here, the
+key issue is not who owns the land, but whether agents making decisions about
+local density bear the full costs and benefits of such decisions. To complicate the
+welfare economics problem further, the development of high density over a suffi-
+cient spatial scale is subject to “all-or-nothing” decisions: That is, no firm may want
+to move to a newly-developed location unless other firms are expected to move as
+well. Large-scale development also often requires coordination among developers
+(Henderson 1974; Henderson and Mitra 1996), but the market for large-scale devel-
+opment is absent or limited in most of the world, and it remains limited in the
+United States. This coordination failure implies there might be too few communi-
+ties and, as a result, they may be overly dense.
+                                                             Gilles Duranton and Diego Puga            21
+
+
+
+
+     Putting together the near-absence of a market to provide density at scale and
+the various externalities associated with location decisions, it seems unlikely that the
+factors will precisely counterbalance each other in ways that cause market forces to
+provide optimal density.
+
+The Unhappy Politics of Density
+      Almost everywhere in the world, land use is heavily regulated with a view to
+determine overall density as well as specific types of density (of people, jobs, shops,
+green space, and others).9 A commonly heard criticism is that land-use policies tend
+to deliver suboptimally low levels of density. For example, many land-use policies
+aim to reduce densities through instruments such as minimum lot sizes, maximum
+floor-area ratios, or single-family residential zoning. Such policies are particularly
+prevalent in the United States, where land zoned for detached single-family homes
+accounts for 94 percent of all land zoned for residential use in San José, 81 percent
+in Seattle, 75 percent in Los Angeles, and 70 percent in Minneapolis, although only
+36 percent in Washington, DC and 15 percent in New York (Badger and Bui 2019).
+      Many reasons have been suggested for restrictive zoning: 1) a fear by the rich
+that poorer residents will free-ride on public amenities (in particular, high-quality
+public schools) by consuming a small quantity of housing in a rich jurisdiction
+(Tiebout 1956; Fischel 1987); 2) a fear by risk-averse incumbents that less restrictive
+zoning would harm property values (Fischel 2001); 3) the possibility that costs of
+increasing density are more short-term and highly local, while the benefits may take
+more time to accrue and diffuse across the metropolitan area; 4) when there are
+strong preferences for particular locations, incumbent residents can act as monop-
+olies restricting entry (Ortalo-Magné and Prat 2014; Hilber and Robert-Nicoud
+2013); and 5) incumbent residents seeking to limit entry into particularly produc-
+tive cities, thus maximizing their own welfare at the expense of potential newcomers
+(for a model, see Duranton and Puga 2019).
+      Overall, the main cost of overly restrictive land-use regulations for society may
+result from a spatial misallocation of population. Using very different models to
+quantify the social losses from excessive regulation, Hsieh and Moretti (2019) and
+Duranton and Puga (2019) both suggest that relaxing planning regulations in the
+three most productive US cities to the median level might generate large aggre-
+gate real gains of about 8 percent. How much of these gains can be realized would
+depend greatly on how rapidly urban costs increase as some cities grow well beyond
+their currently observed sizes. Nevertheless, these quantitative assessments strongly
+indicate that observed densities are far from optimal—too low in some places and
+too high in others.
+
+
+9
+  Given our focus, we do not discuss policy interventions that try to get firms or people to relocate over
+large distances, even if the density of origin and destination can be quite different. For a starting point
+to this work, see the papers on place-based policies in this issue, including Bartik on US policies and
+Overman and von Ehrlich on European policies. See Duranton and Venables (2018) for detailed discus-
+sions of place-based policies in developing countries.
+22   Journal of Economic Perspectives
+
+
+
+
+Conclusion
+
+      Over the last ten years, the study of urban density has been revitalized by
+the arrival of new fine-grained data. We are increasingly able to observe key links
+such as face-to-face interactions for learning spillovers. Granular data about job
+searches and matching in cities or trades between firms are also increasingly avail-
+able. Significant modeling advances have also taken place during the last decade.
+A new generation of general-equilibrium urban models has come of age, and
+their main novelty lies in their ability to handle the heterogeneity we observe
+in the distribution of jobs and residences. New models have been developed to
+distinguish between the agglomeration, selection, and sorting effects of density;
+to model job changes within and between cities; to provide better estimates of the
+costs of density; and so on. There is less to report on the front of causal identifica-
+tion during the last ten years. There has been a lot of empirical work around the
+issues surrounding urban density. However, it pushed more-or-less along the same
+lines as previously, with a continued emphasis on instrumental-variable estima-
+tions, the use of difference-in-difference after a plausibly exogenous shock, and
+the exploitation of spatial discontinuities.
+      Thus, as we look forward to future progress on the economics of urban density,
+our wish list includes novel data explorations providing a richer set of facts related
+to the manifestations of density, models that integrate urban mobility and consider
+the dynamics of buildings and construction, and rising empirical standards in the
+identification of causal effects.
+      As we read one last time the preprint version of this article while we are confined
+in response to the COVID-19 pandemic, the costs we incur and the benefits we
+receive by seeking proximity during normal times in dense urban environments
+have become even more prominent. The streets are free from congested vehicle
+traffic and the sky is unusually clear from pollution. At the same time, we miss the
+ideas that often arise from serendipitous encounters with our colleagues and the
+concentration and sanity of separate office and home environments. For many, the
+sudden drop in economic activity has brought much deeper troubles.
+      Beyond the temporary quietness, the immediate prominence of the costs and
+benefits of density, and the impact of the emerging economic crisis, what will be the
+long-run consequences of this virus for our densest cities? Pandemics have hit cities
+the hardest for centuries, and cities have adapted and been shaped by them—from
+investments in water and sewage systems to prevent cholera, to urban planning to
+reduce overcrowding and improve air circulation and access to sunlight in response
+to tuberculosis. Maybe temporary social distancing measures will also leave a perma-
+nent footprint on cities—for instance, in the form of more space for pedestrians
+and bicycles or a gain of outdoor versus indoor leisure environments. But the idea
+that this pandemic will change cities forever is likely an overstretch. Cities are full
+of inertia and this crisis has stressed both the costs and benefits of density. Confine-
+ment is forcing us to see both the advantages and the great limitations of online
+meetings relative to the more subtle and unplanned in-person exchanges. It has
+                                                              The Economics of Urban Density          23
+
+
+
+
+made us realize that many tasks are impossible to do from home. At schools and
+universities, the haphazard transition to online courses may speed up their develop-
+ment, or it may delay it as many students have become frustrated by losing aspects of
+a full educational experience. For a while, some people may try to avoid dense cities
+for fear of contagion, but others may be drawn to them seeking work opportunities
+in difficult times. Perhaps one persisting lesson is that the cost of the pandemic has
+so far been associated more with urban inequalities than with urban density. While
+the consequences are hardest for lower-income households and minorities, they
+affect us all in profound ways.
+
+
+■  Puga gratefully acknowledges funding from the European Research Council under
+the European Union’s Horizon 2020 Programme (ERC Advanced Grant agreement
+695107—DYNURBAN) and from Spain’s Ministry of Science and Innovation (grants
+ECO2016-80411-P and PRX19-00578), as well as the support and hospitality of the
+Wharton School’s Department of Real Estate during his visit as Judith C. and William G.
+Bollinger Visiting Professor. We are grateful to Gordon Hanson, Enrico Moretti, Frédéric
+Robert-Nicoud, Timothy Taylor, and Heidi Williams for very helpful feedback and to Yan Hu,
+Claudio Luccioletti and Giorgio Pietrabissa for research assistance.
+
+
+
+
+References
+
+Agarwal, Sumit, J. Bradford Jensen, and Ferdinando Monte. 2019. “The Geography of Consumption.”
+      Unpublished.
+Ahlfeldt, Gabriel M., Stephen J. Redding, Daniel Sturm, and Nikolaus Wolf. 2015. “The Economics of
+      Density: Evidence from the Berlin Wall.” Econometrica 83 (6): 2127–89.
+Ahlfeldt, Gabriel M., and Daniel P. McMillen. 2018. “Tall Buildings and Land Values: Height and
+      Construction Cost Elasticities in Chicago, 1870–2010.” Review of Economics and Statistics 100 (5):
+      861–75.
+Ahlfeldt, Gabriel M., and Elisabetta Pietrostefani. 2019. “The Economic Effects of Density: A Synthesis.”
+      Journal of Urban Economics 111 (1): 93–107.
+Akbar, Prottoy A., Victor Couture, Gilles Duranton, Ejaz Ghani, and Adam Storeygard. 2019. “Mobility
+      and Congestion in Urban India.” Policy Research Paper 8546.
+Albouy, David. 2008. “Are Big Cities Really Bad Places to Live? Improving Quality-of-Life Estimates across
+      Cities.” NBER Working Paper 14472.
+Alonso, William. 1964. Location and Land Use; Toward a General Theory of Land Rent. Cambridge, MA:
+      Harvard University Press.
+Atkin, David, Keith Chen, and Anton Popov. 2019. “The Returns to Face-to-Face Interactions: Knowl-
+      edge Spillovers in Silicon Valley.” Unpublished.
+Au, Chun-Chung, and J. Vernon Henderson. 2006. “Are Chinese Cities Too Small?” The Review of Economic
+      Studies 73 (3): 549–76.
+Audretsch, David B., and Maryann P. Feldman. 1996. “R&D Spillovers and the Geography of Innovation
+      and Production.” American Economic Review 86 (3): 630–40.
+Badger, Emily, and Quoctrung Bui. 2019. “Cities Start to Question an American Ideal: A House with a Yard
+      on Every Lot.” The New York Times , June 18. https://www.nytimes.com/interactive/2019/06/18/
+      upshot/cities-across-america-question-single-family-zoning.html.
+24     Journal of Economic Perspectives
+
+
+
+Bairoch, Paul. 1988. Cities and Economic Development: From the Dawn of History to the Present. Translated by
+      Christopher Braider. Chicago: University of Chicago Press.
+Baragwanath-Vogel, Kathryn, Ran Goldblatt, Gordon Hanson, and Amit K. Khandelwal. Forthcoming.
+      “Mixing Satellite Imagery to Define Urban Markets: An Application to India.” Journal of Urban
+      Economics.
+Baum-Snow, Nathaniel, and Ronni Pavan. 2012. “Understanding the City Size Wage Gap.” Review of
+      Economic Studies 79 (1): 88–127.
+de Bellefon, Marie-Pierre, Pierre-Philippe Combes, Gilles Duranton, Laurent Gobillon, and Clément
+      Gorin. Forthcoming. “Delineating Urban Areas Using Building Density.” Journal of Urban Economics.
+Ben-Akiva, Moshe and Steven R. Lerman. 1985. Discrete Choice Analysis: Theory and Application to Travel
+      Demand. Cambridge, MA: MIT Press.
+Berliant, Marcus, Robert R. Reed, III, and Ping Wang. 2006. “Knowledge Exchange, Matching, and
+      Agglomeration.” Journal of Urban Economics 60 (1): 69–95.
+Bernard, Andrew B., Andreas Moxnes, and Yukiko U. Saito. 2019. “Production Networks, Geography,
+      and Firm Performance.” Journal of Political Economy 127 (2): 639–88.
+Berry, Christopher R., and Edward L. Glaeser. 2005. “The Divergence of Human Capital Levels across
+      Cities.” Papers in Regional Science 84 (3): 407–44.
+Büchel, Konstantin, and Maximilian V. Ehrlich. 2016. “Cities and the Structure of Social Interactions:
+      Evidence from Mobile Phone Data.” Univeristy of Bern Discussion Paper 1608.
+Büchel, Konstantin, Maximilian V. Ehrlich, Diego Puga, and Elisabet Viladecans-Marsal. 2019. “Calling
+      from the Outside: The role of Networks in Residential Mobility.” CEPR Discussion Paper DP13615.
+Carlino, Gerald A., Satyajit Chatterjee, and Robert M. Hunt. 2007. “Urban Density and the Rate of
+      Invention.” Journal of Urban Economics 61 (3): 389–419.
+Carlino, Gerald, and William R. Kerr. 2015. “Agglomeration and Innovation.” In Handbook of Regional
+      and Urban Economics, volume 5A, edited by Gilles Duranton, J. Vernon Henderson, and William
+      Strange, 349–404. Amsterdam: Elsevier.
+Carozzi, Felipe, and Sefi Roth. 2019. “Dirty Density: Air Quality and the Density of American Cities.”
+      Centre for Economic Performance, Discussion Paper 1635.
+Charlot, Sylvie, and Gilles Duranton. 2006. “Cities and Workplace Communication: Some Quantitative
+      French Evidence.” Urban Studies 43 (8): 1365–94.
+Charlot, Sylvie, and Gilles Duranton. 2004. “Communication Externalities in Cities.” Journal of Urban
+      Economics 56 (3): 581–613.
+Ciccone, Antonio, and Robert E. Hall. 1996. “Productivity and the Density of Economic Activity.”
+      American Economic Review 86 (1): 54–70.
+Combes, Pierre-Philippe, Gilles Duranton, and Laurent Gobillon. 2008. “Spatial Wage Disparities:
+      Sorting Matters!” Journal of Urban Economics 63 (2): 723–42.
+Combes, Pierre-Philippe, Gilles Duranton, and Laurent Gobillon. 2019. “The Costs of Agglomeration:
+      House and Land Prices in French Cities.” Review of Economic Studies 86 (4): 1556–89.
+Combes, Pierre-Philippe, Gilles Duranton, Laurent Gobillon, Diego Puga, and Sébastien Roux. 2012.
+      “The Productivity Advantages of Large Cities: Distinguishing Agglomeration from Firm Selection.”
+      Econometrica 80 (6): 2543–94.
+Combes, Pierre-Philippe, Gilles Duranton, Laurent Gobillon, and Sébastien Roux. 2010. “Estimating
+      Agglomeration Economies with History, Geology, and Worker Fixed-Effects.” In Agglomeration
+      Economics, edited by Edward L. Glaeser, 15–65. Chicago: University of Chicago Press.
+Combes, Pierre-Philippe, and Laurent Gobillon. 2015. “The Empirics of Agglomeration Economies.”
+      In Handbook of Regional and Urban Economics, volume 5b, edited by Gilles Duranton, J. Vernon
+      Henderson, and William Strange, 247–348. Amsterdam: Elsevier.
+Couture, Victor. 2016. “Valuing the consumption benefits of urban density.” Unpublished.
+Couture, Victor, and Jessie Handbury. 2019. “Urban revival in America.” Unpublished.
+Dauth, Wolfgang, Sebastian Findeisen, Enrico Moretti, and Jens Südekum. 2018. “Matching in Cities.”
+      NBER Working Paper 25227.
+Davis, Donald R., Jonathan I. Dingel, Joan Monras, and Eduardo Morales. 2019. “How Segregated Is
+      Urban Consumption?” Journal of Political Economy 127 (4): 1684–1738.
+De la Roca, Jorge, and Diego Puga. 2017. “Learning by Working in Big Cities.” Review of Economic Studies
+      84 (1): 106–42.
+Desmet, Klaus, and Esteban Rossi-Hansberg. 2013. “Urban Accounting and Welfare.” American Economic
+      Review 103 (6): 2296–2327.
+                                                               Gilles Duranton and Diego Puga            25
+
+
+
+Diamond, Rebecca. 2016. “The Determinants and Welfare Implications of US workers’ Diverging Loca-
+      tion Choices by Skill: 1980–2000.” American Economic Review 106 (3): 479–524.
+Donaldson, Dave, and Adam Storeygard. 2016. “The View from Above: Applications of Satellite Data in
+      Economics.” Journal of Economic Perspectives 30 (4): 171–98.
+Duranton, Gilles, and Diego Puga. 2004. “Micro-foundations of Urban Agglomeration Economies.” In
+      Handbook of Regional and Urban Economics, volume 4, edited by J. Vernon Henderson and Jacques-
+      François Thisse, 2063–2117. Amsterdam: Elsevier.
+Duranton, Gilles and Diego Puga. 2019. “Urban Growth and Its Aggregate Implications.” NBER
+      Working Paper 26591.
+Duranton, Gilles and Matthew A. Turner. 2018. “Urban Form and Driving: Evidence from US Cities.”
+      Journal of Urban Economics 108 (1): 171–191.
+Duranton, Gilles, and Anthony J. Venables. 2018. “Place-based Policies for Development.” NBER Working
+      Paper 24562.
+Ellison, Glenn, Edward L. Glaeser, and William Kerr. 2010. “What Causes Industry Agglomeration?
+      Evidence from Coagglomeration Patterns.” American Economic Review 100 (3): 1195–1213.
+Fischel, William A. 1987. The Economics of Zoning Laws: A Property Rights Approach to American Land Use
+      Controls. Baltimore, MD: Johns Hopkins University Press.
+Fischel, William A. 2001. The Homevoter Hypothesis. Cambridge, MA: Harvard University Press.
+Fujita, Masahisa, and Jacques-François Thisse. 2013. Economics of Agglomeration: Cities, Industrial Location,
+      and Globalization. Cambridge: Cambridge University Press.
+Gaubert, Cecile. 2018. “Firm Sorting and Agglomeration.” American Economic Review 108 (11): 3117– 53.
+Glaeser, Edward L. 2011. Triumph of the City: How Our Greatest Invention Makes Us Richer, Smarter, Greener,
+      Healthier, and Happier. London: MacMillan.
+Glaeser, Edward L., and Matthew E. Kahn. 2010. “The Greenness of Cities: Carbon Dioxide Emissions
+      and Urban Development.” Journal of Urban Economics 67 (3): 404–18.
+Glaeser, Edward L., and David C. Maré. 2001. “Cities and Skills.” Journal of Labor Economics 19 (2): 316–42.
+Glaeser, Edward L., and Bruce Sacerdote. 1999. “Why Is There More Crime in Cities?” Journal of Political
+      Economy 107 (S6): S225–S58.
+Graham, Daniel J. 2007. “Agglomeration, Productivity and Transport Investment.” Journal of Transport
+      Economics and Policy 41 (3): 317–43.
+Greenstone, Michael, Richard Hornbeck, and Enrico Moretti. 2010. “Identifying Agglomeration Spill-
+      overs: Evidence from Winners and Losers of Large Plant Openings.” Journal of Political Economy
+      118 (3): 536–98.
+Handbury, Jessie and David E. Weinstein. 2015. “Goods Prices and Availability in Cities.” Review of
+      Economic Studies 82 (1): 258–96.
+Harari, Mariaflavia. Forthcoming. “Cities in Bad Shape: Urban Geometry in India.” American Economic
+      Review.
+Henderson, J. Vernon. 1974. “The Sizes and Types of Cities.” American Economic Review 64 (4): 640–56.
+Henderson, J. Vernon. 2003. “Marshall’s Scale Economies.” Journal of Urban Economics 53 (1): 1–28.
+Henderson, J. Vernon, Sebastian Kriticos, and Jamila Nigmatulina. Forthcoming. “Measuring Urban
+      Economic Density.” Journal of Urban Economics.
+Henderson, J. Vernon, and Arindam Mitra. 1996. “The New Urban Landscape: Developers and Edge
+      Cities.” Regional Science and Urban Economics 26 (6): 613–43.
+Hilber, Christian, and Frédéric Robert-Nicoud. 2013. “On the Origins of Land Use Regulations: Theory
+      and Evidence from US Metro Areas.” Journal of Urban Economics 75 (1): 29–43.
+Hsieh, Chang-Tai, and Enrico Moretti. 2019. “Housing Constraints and Spatial Misallocation.” American
+      Economic Journal: Macroeconomics 11 (2): 1–39.
+Jaffe, Adam B., Manuel Trajtenberg, and Rebecca Henderson. 1993. “Geographic Localization of Knowl-
+      edge Spillovers as Evidenced by Patent Citations.” Quarterly Journal of Economics 108 (3): 577–98.
+Koster, Hans R.A., Ilias Pasidis, and Jos van Ommeren. 2019. “Shopping Externalities and Retail Concen-
+      tration: Evidence from Dutch Shopping Streets.” Journal of Urban Economics 114 (1): 103–94.
+Kreindler, Gabriel E., and Yuhei Miyauchi. 2019. “Measuring Commuting and Economic Activity inside
+      Cities with Cell Phone Records.” Unpublished.
+Krugman, Paul R. 1991. Geography and Trade. Cambridge, MA: MIT Press.
+Leyk, Stefan, Andrea E. Gaughan, Susana B. Adamo, Alex de Sherbinin, Deborah Balk, Sergio Freire,
+      Amy Rose, Forrest R. Stevens, Brian Blankespoor, Charlie Frye, Joshua Comenetz, Alessandro
+      Sorichetta, Kytt MacManus, Linda Pistolesi, Marc Levy, Andrew J. Tatem, and Martino Pesaresi.
+26    Journal of Economic Perspectives
+
+
+
+      2019. “The Spatial Allocation of Population: A Review of Large-Scale Gridded Population Data
+      Products and Their Fitness for Use.” Earth System Science Data 11 (3): 1385–1409.
+Liu, Crocker H., Stuart S. Rosenthal, and William C. Strange. 2018. “The Vertical City: Rent Gradients,
+      Spatial Structure, and Agglomeration Economies.” Journal of Urban Economics 106 (1): 101–22.
+Manning, Alan, and Barbara Petrongolo. 2017. “How Local Are Labor Markets? Evidence from a Spatial
+      Job Search Model.” American Economic Review 107 (10): 2877–2907.
+Manson, Steven, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 2019. “Integrated Public
+      Use Microdata Series, National Historical Geographic Information System: Version 14.0.”
+      IPUMS, Minneapolis, Minnesota. http://doi.org/10.18128/D050.V14.0
+Marinescu, Ioana, and Roland Rathelot. 2018. “Mismatch Unemployment and the Geography of Job
+      Search.” American Economic Journal: Macroeconomics 10 (3): 42–70.
+Melo, Patricia C., Daniel J. Graham, and Robert B. Noland. 2009. “A Meta-Analysis of Estimates of Urban
+      Agglomeration Economies.” Regional Science and Urban Economics 39 (3): 332–42.
+Mills, Edwin S. 1967. “An Aggregative Model of Resource Allocation in a Metropolitan Area.” American
+      Economic Review Papers and Proceedings 57 (2): 197–210.
+Moretti, Enrico. 2004. “Estimating the Social Return to Higher Education: Evidence from Longitudinal
+      and Repeated Cross-Sectional Data.” Journal of Econometrics 121 (1–2): 175–212.
+Moretti, Enrico. 2011. “Local Labor Markets.” In Handbook of Labor Economics, volume 4, edited by Orley
+      Ashenfelter and David Card, 1237–1313. Amsterdam: Elsevier.
+Moretti, Enrico. 2013. “Real Wage Inequality.” American Economic Journal: Applied Economics 5 (1): 65–103.
+Moretti, Enrico. 2019. The Effect of High-Tech Clusters on the Productivity of Top Inventors. NBER Working
+      Paper 26270.
+Muth, Richard F. 1969. Cities and Housing: The Spatial Pattern of Urban Residential Land Use. Chicago:
+      University of Chicago Press.
+Ortalo-Magné, François, and Andrea Prat. 2014. “On the Political Economy of Urban Growth: Home-
+      ownership versus Affordability.” American Economic Journal: Microeconomics 6 (1): 154–81.
+Overman, Henry G., and Diego Puga. 2010. “Labour Pooling as a Source of Agglomeration: An Empirical
+      Investigation.” In Agglomeration Economics, edited by Edward L. Glaeser, 133–50. Chicago: Chicago
+      University Press.
+Puga, Diego. 2010. “The Magnitude and Causes of Agglomeration Economies.” Journal of Regional Science
+      50 (1): 203–19.
+Redding, Stephen J., and Esteban Rossi-Hansberg. 2017. “Quantitative Spatial Economics.” Annual
+      Review of Economics 9 (1): 21–58.
+Roback, Jennifer. 1982. “Wages, Rents, and the Quality of Life.” Journal of Political Economy 90 (6):
+      1257–78.
+Rosenthal, Stuart S., and William Strange. 2004. “Evidence on the Nature and Sources of Agglomeration
+      Economies.” In Handbook of Regional and Urban Economics, volume 4, edited by J. Vernon Henderson
+      and Jacques-François Thisse, 2119–71. Amsterdam: Elsevier.
+Rosenthal, Stuart S., and William C. Strange. 2001. “The Determinants of Agglomeration.” Journal of
+      Urban Economics 50 (1): 191–229.
+Rosenthal, Stuart S., and William C. Strange. 2008. “The Attenuation of Human Capital Spillovers.”
+      Journal of Urban Economics 64 (2): 373–89.
+Small, Kenneth A. 2012. “Valuation of Travel Time.” Economics of Transportation 1(1–2): 2–14.
+Sveikauskas, Leo. 1975. “Productivity of Cities.” Quarterly Journal of Economics 89 (3): 393–413.
+US Bureau of the Census. 2011. “Intercensal Estimates of the Resident Population for Counties and
+      States: April 1, 2000 to July 1, 2010.”
+Tiebout, Charles M. 1956. “A Pure Theory of Local Expenditures.” Journal of Political Economy 64 (5):
+      416–24.
+WorldPop. 2013. “Global High Resolution Population Denominators Project.” University of South-
+      ampton. https://www.worldpop.org.
+Xiao, Hong Yu and Andy Wu. 2020. “Commuting and Innovation: Are Closer Inventors More Produc-
+      tive?” Unpublished.
+

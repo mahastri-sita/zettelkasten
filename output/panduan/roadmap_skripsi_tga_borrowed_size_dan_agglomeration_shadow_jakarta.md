@@ -10,12 +10,12 @@
 
 Gunakan sumber berikut sebagai dasar kerja, dengan tetap mengikuti arahan terbaru dosen pembimbing dan kanal resmi TGA:
 
-- `output/Bab 1-3 - Skenario Metodologis, Dasar Teori, Penelitian Terdahulu, dan Metode Penelitian - printable.pdf`
+- `output/naskah/kompilasi/bab_1_3_skenario_metodologis_dasar_teori_penelitian_terdahulu_dan_metode_penelitian_printable.pdf`
 - [[source/official-document/Panduan_TGA[1].pdf|Panduan TGA]]
 - [[source/official-document/Template TGA Penelitian 2026.docx|Template TGA Penelitian 2026]]
-- `output/Bab 3 - Metode Penelitian - draf rancangan kerja.md`
+- `output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja.md`
 - `argument/argument/Skripsi S1 - Borrowed Size dan Agglomeration Shadow Jakarta.md`
-- `output/Kajian Penelitian Terdahulu - Borrowed Size dan Agglomeration Shadow Jakarta - bahan Bab 2.2.md`
+- `output/kajian/kajian_penelitian_terdahulu_borrowed_size_dan_agglomeration_shadow_jakarta_bahan_bab_2_2.md`
 
 Panduan yang tersedia memuat rujukan tahun 2023, sedangkan template penelitian bertahun 2026. Persyaratan administratif, formulir, jadwal, dan mekanisme ujian harus diperiksa ulang pada laman TGA sebelum pendaftaran.
 
@@ -248,7 +248,7 @@ Pisahkan status akses administratif dari status mutu bukti. Jawaban `1` hanya be
 | Tidak ada respons pada checkpoint | Tandai sebagai belum tersedia untuk konfigurasi kerja saat itu dan lanjutkan dengan *fallback*; tetap lakukan tindak lanjut sesuai arahan. | Jangan langsung memberi status ∅ dan jangan menyebutnya penolakan tanpa bukti resmi atau aturan cutoff yang disepakati. |
 | Berkas datang setelah baseline dibekukan | Audit ulang hanya modul yang terdampak dan simpan versi manifest baru. | Bandingkan sebagai skenario bukti; jangan menimpa baseline atau provenance sebelumnya. |
 
-Jika seluruh permohonan gagal, `EV-OPEN` tetap merupakan keluaran yang sah untuk profil orientasi/aksesibilitas dan fungsi proksi sesuai batas bukti. Jika hanya sebagian pintu gagal, gunakan skenario prioritas dalam `output/skenario-akses-data-metodologis-revisi.pdf`; jangan menulis 64 kombinasi akses sebagai 64 desain substantif.
+Jika seluruh permohonan gagal, `EV-OPEN` tetap merupakan keluaran yang sah untuk profil orientasi/aksesibilitas dan fungsi proksi sesuai batas bukti. Jika hanya sebagian pintu gagal, gunakan skenario prioritas dalam `output/permohonan_data/skenario_akses_data_metodologis_revisi.pdf`; jangan menulis 64 kombinasi akses sebagai 64 desain substantif.
 
 #### 3.10.4 Pekerjaan yang dapat dilakukan selama menunggu
 

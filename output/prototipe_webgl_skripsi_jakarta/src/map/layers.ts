@@ -10,7 +10,7 @@ import {
 import type { FeatureCollection, GeoJsonProperties, Geometry } from 'geojson';
 
 import { averageResidual, classify, metricsFor } from '../model/classify';
-import { centers, flows } from '../model/demoData';
+import { centers, flows } from '../model/demo_data';
 import type {
   CenterDatum,
   CenterMetrics,

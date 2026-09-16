@@ -1,0 +1,1033 @@
+[PDF Metadata]
+Source PDF: journal/A02-meijers-burger-hoogerbrugge-2016-borrowing-size-in-networks-of-cities-city-size-network-connectivity-and-metropolitan-functions-in-europe-10.1111-pirs.12181.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Borrowing size in networks of cities: City size, network connectivity and metropolitan functions in Europe
+Subject:         R12; R11
+Keywords:        10.1111/pirs.12181 and Urbanization economies; network externalities; borrowed size; agglomeration shadow; connectivity
+Author:          Evert Meijers and Martijn Burger
+Creator:         Arbortext Advanced Print Publisher 9.0.114/W Unicode
+Producer:        Acrobat Distiller 9.5.0 (Windows)
+CreationDate:    Tue Mar 22 01:24:19 2016 WIB
+ModDate:         Tue Mar 29 09:25:45 2016 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           19
+Encrypted:       no
+Page size:       484.554 x 696.926 pts
+Page rot:        0
+File size:       375313 bytes
+Optimized:       yes
+PDF version:     1.4
+[Extracted Text]
+                                                                             doi:10.1111/pirs.12181
+
+
+
+
+Borrowing size in networks of cities: City size, network
+connectivity and metropolitan functions in Europe*
+Evert J. Meijers1, Martijn J. Burger2, Marloes M. Hoogerbrugge3
+1
+  Faculty of Architecture and the Built Environment, Delft University of Technology, Julianalaan 134, 2628 BL Delft,
+  The Netherlands (e-mail: e.j.meijers@tudelft.nl)
+2
+  Department of Applied Economics and Erasmus Happiness Economics Research Organisation, Erasmus University
+  Rotterdam and Tinbergen Institute, The Netherlands (e-mail: mburger@ese.eur.nl)
+3
+  Faculty of Architecture and the Built Environment, Delft University of Technology, The Netherlands; and Erasmus Happiness
+  Economics Research Organisation, Erasmus University Rotterdam, The Netherlands (e-mail: hoogerbrugge@ese.eur.nl)
+
+Received: 20 October 2014 / Accepted: 23 June 2015
+
+
+
+Abstract. The current dynamics in the Western European urban system are in marked contrast
+with the bourgeoning literature stressing the importance of agglomeration for economic growth.
+This paper explores whether this is due to the rise of ‘city network economies’, leading to pro-
+cesses of borrowed size as well as the rise of agglomeration shadows in networks of cities. The
+spread of metropolitan functions over Western European cities is analysed. It is found that net-
+work connectivity positively enhances the presence of metropolitan functions, but local size re-
+mains the most significant determinant for most types of functions. The importance of size and
+network connectivity differs across metropolitan functions and across cities.
+
+JEL classification: R12, R11
+
+Key words: Urbanization economies, network externalities, borrowed size, agglomeration
+shadow, connectivity
+
+
+
+1 Introduction: The missing link between agglomeration theory and urban dynamics
+
+    the pattern of population and economic growth in Europe, and especially in northwestern Europe, does not follow exclu-
+    sively a linear pattern of large city logic (Dijkstra et al. 2013, p. 349).
+
+Many modern geography textbooks begin with the observation that more than half of the
+world’s population now lives in cities, and the ‘urban age’ has begun. True, urban growth has
+been spectacular in many parts of the world and the development of large megacities has caught
+the attention of many urban scholars for good reasons. At the same time, the ‘urban age’ thesis
+rests on chaotic conceptions (Brenner and Schmid 2014) and, as it is characterized by this
+‘metropolitan bias’ (Connolly 2008), fails to recognize that Europe, and especially the more
+densely populated parts of the former EU15, has a rather different urban pattern that is
+
+  * The authors would like to thank the Netherlands Organisation for Scientific Research (NWO) and
+Platform31 for their financial support of this research.
+
+© 2015 The Author(s). Papers in Regional Science © 2015 RSAI
+
+
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+182                                                                                       E.J. Meijers et al.
+
+
+furthermore characterized by what appear to be new and contradictory urban dynamics. First,
+over half of the EU urban population lives in small and medium-sized towns and cities in the
+5,000–100,000 range. Only 7 per cent of EU citizens live in megacities of 5 million or more,
+compared with, for example, 25 per cent in the US (European Commission 2011). Second,
+Europe has been highly urbanized for many decades, to a much greater extent than the world
+average (Hohenberg and Lees 1985). While the urbanization rate of the EU is over 70 per cent,
+many countries in Western Europe have levels of urbanization of 80 to 90 per cent. This is not
+however the result of recent urban growth. Third, large cities do not grow faster than small
+cities in Europe. In the former EU15, the population share accounted for by cities over
+200,000 remained almost constant between 1985 and 2005 (Turok and Mykhnenko 2007).
+Fourth, the average contribution to GDP by large European metropolitan areas of over
+250,000 in the former EU15 increased only marginally by 0.28 per cent between 2000 and
+2006 (calculated from Dijkstra 2009). In the 2000–2007 period, second-tier cities in all but
+one (Portugal) of the former EU15 countries outperformed their larger capital in terms of
+annual GDP growth rates (Parkinson et al. 2012) and Europe has actually witnessed shifts from
+urban to rural and from larger to smaller cities (Dijkstra et al. 2013). Camagni et al. (2015a)
+document that second-rank cities (between 200,000–1 million) in the former EU15 appear
+more resilient in periods of economic slowdown.
+     This polycentric urban pattern of small and medium-sized cities, the lack of further urbanization,
+the marginal growth of large cities in the EU15 as well as their contribution to GDP are all in marked
+contrast with the bourgeoning literature stressing the importance of agglomeration for growth
+(e.g., Glaeser 2011), and the theoretical models of the new economic geography (NEG) that
+tend to predict the development of fewer and larger cities (e.g., Fujita et al. 1999) because of agglom-
+eration externalities: the range of opportunities, amenities, infrastructure and skills available to firms
+and people. Generally, the larger a city, the more such externalities are present (Melo et al. 2009).
+     Consequently, the urban dynamics in large parts of Western Europe (and probably
+elsewhere) require an explanation beyond conventional wisdom. Dijkstra et al. (2013) suggest
+that, at least since the beginning of the new millennium, large city urbanization effects have
+not been the primary economic drivers within the EU15 in the same way they have been
+elsewhere in the world. It seems that NEG models have until recently been well capable of
+explaining developments in the urban system, but fail to explain current population and
+growth dynamics (Glaeser and Kohlhase 2004), particularly for mature, developed urban
+systems (Partridge et al. 2009) such as within the former EU15. Perhaps there are alternative
+pathways to growth that have been overlooked by the focus on mega-cities. Dijkstra et al.
+(2013) have looked for explanations within Europe’s polycentric urban structure, the gradually
+improved access to services, such as broadband, outside large cities and agglomeration
+diseconomies in the large cities increasing the appeal of smaller cities. In this regard, McCann
+and Acs (2011) even argue that at the present day and age, national and international urban
+connectivity is more important for urban performance than urban size. Likewise, Bel and
+Fageda (2008) reported that global airline networks are a much more important determinant
+of the location of corporate control functions than urban and national scale, while Ni and
+Kresl (2010) pose that global connectivity is the most important determinant of the global
+competitiveness of cities. This not only suggests that nowadays the embeddedness in regional,
+national and international networks is important for urban performance, but also that small and
+medium-sized cities have the opportunity to compete with larger ones provided that they are
+well connected.
+     In this paper, we provide an alternative, novel explanation that could provide the missing
+link between agglomeration economies and contemporary urban dynamics in Western Europe.
+This explanation does not question the importance of agglomeration benefits as the underlying
+driving force of much of the contemporary urban dynamics, but suggests that these
+
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+Borrowing size in networks of cities                                                                              183
+
+
+agglomeration externalities may not be confined to the borders of cities, as the word ‘agglomer-
+ation economies’ suggests, but instead, may be shared in networks of cities. A good position of
+cities in networks may allow them to ‘borrow size’ (cf. Alonso 1973; Meijers and Burger 2015)
+through these networks from other cities, making that (European) cities may compensate their
+relative lack of size or mass by being very well embedded in networks of cities. If this were true,
+agglomeration externalities are turning into, or being complemented with ‘city network
+externalities’ (Camagni and Capello 2004; Johansson and Quigley 2004). These may replace,
+or complement traditional localized externalities. So, we suggest that a combination of two of
+the three ways to explain current urban dynamics better as proposed by Camagni and Capello
+(2015), namely those focusing on the geographical and macro-territorial foundations, is required.
+     This paper explores whether networks are complementing local factors in the development of
+what is known as ‘urbanization economies’, where we specifically focus on the presence of
+higher-order metropolitan functions related to business, science, sports, and culture as proxies
+of these urbanization economies. Accordingly, we predominantly focus on the occurrence of
+agglomeration through sharing (cf. Duranton and Puga 2004; Puga 2010). On the one hand, these
+agglomeration economies through sharing take the shape of the presence of indivisibilities in the
+provision of amenities such as fairs, universities, and sport and culture venues. On the other, they
+relate to having access to a wider variety of inputs, such as the overrepresentation of advanced
+producer services and command and control functions. The main research question is:
+
+To what extent does city network connectivity translate into a higher level of metropolitan functions,
+and how important is this network connectivity vis-à-vis local factors?
+
+This question is further refined by (i) examining the importance of networks at different spatial
+scales, and by exploring the importance of network connectivity vis-à-vis local factors for (ii)
+the occurrence of specific types of metropolitan functions and (iii) different size classes of cities.
+    The remainder of this paper is organized as follows. The next section presents the theoretical
+background, thereby focusing on urbanization economies in relation to networks. We introduce,
+elaborate on, and link three key concepts that will constitute our conceptual framework:
+‘network externalities’, ‘borrowed size’ and ‘agglomeration shadows’. Section 3 provides our
+methodological approach and data used for the empirical exploration of these concepts. The
+results of this empirical exercise are discussed in Section 4. Section 5 concludes.
+
+
+2 Related literature: Urbanization economies from a network perspective
+
+The benefits and costs of agglomeration have been extensively discussed for more than a cen-
+tury. Agglomeration externalities derive from a variety of sources (McCann 1995; Parr 2002;
+Van Oort 2004). Given our focus on (networks of) cities rather than specialized clusters of
+firms, our focus is on what has been termed ‘urbanization economies’ (Ohlin 1933) also referred
+to as ‘spatially constrained external economies of scope’, related to the diversity of the agglomeration
+(Parr 2002). Larger, denser and more diverse cities allow for cost reductions, output enhance-
+ments and utility gains for both firms and households. They profit from larger input markets,
+larger labour pools, the presence of better infrastructure, public facilities and more specialized
+business services, all facilitating better matches between supply and demand. Large cities are
+also more likely to be home to universities, R&D facilities, and other knowledge-generating
+institutions (Van Oort 2004) and facilitate the transmission of information and provide a good
+environment for consumption as well (Jacobs 1969; Glaeser et al. 2001). In addition, the often
+diverse industry mix in large cities stimulates the generation, replication, modification and
+recombination of ideas and applications across different industries by providing better
+
+                                                             Papers in Regional Science, Volume 95 Number 1 March 2016.
+184                                                                                   E.J. Meijers et al.
+
+
+opportunities through face-to-face contact and protects a city from a volatile demand (Frenken
+et al. 2007). Given all these benefits, Glaeser (2011) even claims that cities are ‘our greatest
+invention’.
+     According to Duranton and Puga (2004) and Puga (2010), there are three main underlying
+channels through which firms and households can benefit from co-locating in cities: sharing,
+matching, and learning. First, firms and households benefit from agglomeration by being able
+to draw on a common pool of resources that need a minimum community size to be supported.
+One cannot only think here of sharing indivisibilities such as universities, fairs and amenities,
+but also of the presence of a wider variety of input suppliers and a large labour pool. In this
+paper, we will predominantly address sharing of facilities (and to a lesser extent labour pools
+and suppliers) by focusing on the presence of metropolitan functions in cities. Second, large
+cities offer the opportunity to match better and faster. Due to larger labour pools, not only
+workers have often less difficulties to find suitable jobs, but also firms are better able to quickly
+find good quality labour and intermediary input factors. Third, large cities offer firms and peo-
+ple more opportunities for face-to-face contact, which makes it easier to generate, diffuse and
+accumulate knowledge.
+     However, one cannot ignore that there is a downside to larger cities as well. The high con-
+centration of jobs and residents increases traffic congestion, competition for centrally located
+sites, exposure to environmental pollution and crime. Also the scale at which social problems
+occur is larger, which means that these cannot be controlled easily. In general, evidence suggests
+that smaller cities have a greater endogenous capacity to keep these social, economic, and envi-
+ronmental costs under control (Capello and Camagni 2000).
+     While the particularities and significance of these benefits and costs have received ample
+attention, the spatial range of these agglomeration benefits and costs has been hardly explored.
+We know that they attenuate with distance (Rosenthal and Strange 2004; Viladecans-Marsal
+2004; Van Oort 2007) and some scholars have argued that their spatial range has been extending
+(e.g., Coe and Townsend 1998; Phelps et al. 2001; Partridge et al. 2008; Burger et al. 2010), but
+to what extent is unclear. It is intriguing that some scholars have suggested that agglomeration
+costs are confined more to the city boundaries than are agglomeration benefits (Parr 2002;
+Meijers and Burger 2010). However, whether urbanization economies can be shared in
+networks between cities remains unclear. Of course, there is the more general proposition that
+network economies may substitute for agglomeration economies (Johansson and Quigley
+2004) and from that perspective it seems likely that these urbanization economies are increas-
+ingly less associated with local factors (such as size and density) and instead, should be framed
+in a network perspective. To capture such network effects, the concept of ‘urban network exter-
+nalities’ (Capello 2000; Boix and Trullen 2007) has been coined, and it emphasizes the role that
+interaction in networks of cities may have on the performance of the places that are linked by
+these networks. The logic underlying the network cities paradigm is that ‘the spatial organisa-
+tion in which cities operate is fundamental to understanding their efficiency, growth, factor pro-
+ductivity and sometimes their specialisation’ (Capello and Camagni 2000, p. 1484). Although
+local factors still seem to outweigh network effects by far (Boix and Trullen 2007), it seems
+to be likely that the importance of network externalities is growing as the connectivity of places
+has been rapidly increasing in the past decades.
+     So far, attention has been merely devoted to international connectivity. As pointed out by
+Iammarino and McCann (2013, p. 318), international connectivity facilitates the ‘capability of
+individuals, firms, organizations and institutions to interact, engage, take initiatives and make
+decisions across different locations and within networks’. Particularly the global cities, of which
+London and Paris are prime examples, are not only characterized by their large size, but also by
+their centrality in worldwide air, rail and marine networks (Burghouwt 2005; Jacobs et al. 2010).
+Indeed, several studies repeatedly show the importance of a city’s embeddedness in large-scale
+
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+Borrowing size in networks of cities                                                                          185
+
+
+networks of all kinds – firms, capital, knowledge, people, goods – for its performance (Taylor
+2003; Bel and Fageda 2008; Neal 2013), and this can be even more important than local factors
+(McCann and Acs 2011). Along these lines, urban networks would complement – and in some
+cases replace – traditional agglomeration economies in facilitating sharing, matching, and
+learning.
+     An early contribution that also put urbanization economies in a network perspective albeit
+on a much smaller, regional, scale, is the concept of ‘borrowed size’ as proposed by Alonso
+(1973). He used the concept of ‘borrowed size’ to explain a disconnection between size and
+function of smaller cities that were part of a megalopolitan urban complex: ‘(t)he concept of a
+system of cities has many facets, but one of particular interest (…) is the concept of borrowed
+size, whereby a small city or metropolitan area exhibits some of the characteristics of a larger
+one if it is near other population concentrations’ (Alonso 1973, p. 200). More precisely, he sug-
+gested that smaller urban areas ‘borrow’ some of the agglomeration benefits of their larger
+neighbours, while avoiding the agglomeration costs. The phenomenon of ‘borrowed size’ de-
+mands a network perspective since it ‘transforms the issue of the size and growth of a city by
+redefining it to include, in some degree, its neighbours’ (Alonso 1973, p. 200). Phelps et al.
+(2001) explored whether small firms in small cities near London are able to ‘borrow size’ from
+their big neighbour and found that these firms can locate in small towns and still access special-
+ized labour and the informational external economies of larger nearby places. Meijers and
+Burger (2015) make a subdivision of borrowed size into ‘borrowed function’ and ‘borrowed
+performance’. Focusing on cultural amenities, Burger et al. (2015) find that relatively larger
+places in a region are better able to borrow size than smaller ones, in the sense that they host
+more functions (‘borrowed function’). Camagni et al. (2015a) find evidence that getting access
+to these functions and the networks of first rank cities leads to higher average location benefits
+in second cities, even though these functions and networks are not present locally (which we
+label ‘borrowed performance’). Despite these exceptions, the concept of borrowed size has
+received only limited attention, which is remarkable given its promise to explain urban
+dynamics in Western Europe. Although Alonso (1973) mainly focused on borrowing size of
+geographically nearby places, in an ever expanding global economy, his argument can be
+easily extended to city networks in general and not only involve regional network connectivity
+but also (inter)national network connectivity.
+     While many contributions emphasize the spread of positive urbanization economies
+through connectivity in networks, one should note that network connectivity can also be neg-
+ative due to competition processes. This negative effect is nicely captured by the concept of
+‘agglomeration shadows’ that is rooted in the new economic geography. NEG models predict
+a shadow effect of agglomerations over their surroundings, which means that growth near
+(higher-tier) cities will be limited due to competition effects (Dobkins and Ioannides 2001).
+Its empirical justification has been questioned by Partridge et al. (2009), who find that
+population growth in small urban areas is positively related to proximity to a higher-tier urban
+centre. Burger et al. (2015) show that, on average, larger cities cast a shadow over smaller
+neighbouring cities in that they exploit their support base rather than vice versa. However,
+while these small cities face spatial competition effects, they simultaneously gain access to
+the agglomeration beneﬁts of their larger neighbour, probably leading to faster growth. The
+latter shows that ‘size’ in the concept of ‘borrowed size’ is rather imprecise, as it can refer
+either to a performance level associated with larger cities, or to the functions and economic
+activities present in larger cities.
+     In our conceptual framework, agglomeration shadows and borrowed size effects are
+different sides of the same medal called ‘network externalities’. A positive influence of network
+connectivity on the presence of urbanization economies is referred to as ‘borrowed size’,
+whereas a negative influence of network connectivity leads to ‘agglomeration shadows’.
+
+                                                         Papers in Regional Science, Volume 95 Number 1 March 2016.
+186                                                                                   E.J. Meijers et al.
+
+
+3 Methodological approach and data
+
+3.1 Measuring metropolitan functions, network connectivity and local factors
+
+In this research, we predominantly focus on agglomeration and network effects through the
+sharing channel by focusing on the presence of metropolitan functions in cities. In other words,
+we assess whether the presence of metropolitan functions in an agglomeration is related to its
+size or to its network connectivity. This allows us to evaluate the importance of connectivity
+at the regional and (inter)national scale vis-à-vis local scale. As explained, network connectivity
+allows cities to borrow size, but may also imply competition effects referred to as ‘agglomera-
+tion shadows’. If network connectivity allows a place to have more metropolitan functions than
+would be expected given its size, it follows that the place is borrowing size; when this level is
+less than expected given the size of a place, it is likely to be in an agglomeration shadow. To be
+able to determine an expected level of metropolitan functions, one should consider a proxy that
+is historically relatively strongly related to, or determined by, size. In this study, we therefore
+focus on the presence of metropolitan functions in the domains of international institutions, sci-
+ence, firms, culture, and sports. These indivisibilities stem from the aggregate economic activ-
+ities of a city, and hence, have always been strongly determined by the local size. It is, for
+instance, a critical assumption of central place theory that the presence of such metropolitan
+or urban functions is directly linked to the size of cities and their hinterland (Christaller 1933).
+     Various studies have shown the importance of taking stock of heterogeneity (Van Meeteren
+2013; Burger et al. 2014a; 2014b). Hence, it could well be that the degree to which local size
+and network connectivity matter differs for different types of metropolitan functions. For that
+reason, we carry out analyses on an aggregated level of metropolitan functions as well as for in-
+dividual functions. In a similar vein, it could also be that the importance of local size and net-
+work connectivity differs for different size categories of cities, an issue that we will also explore.
+     Local size is measured here simply by the number of inhabitants of a city (population size).
+Network connectivity can be calculated in many ways (Taylor 2003). In order to use a measure
+that corresponds somewhat with our measure of local factors (population size), which should en-
+able a fair comparison of the importance of network connectivity and local factors, we opted for
+a connectivity measure that captures the potential population that can be reached physically
+through infrastructural networks. Since we are also interested in the importance of networks
+at different spatial scales, we measure connectivity using contour measures at a regional scale
+and at a (inter)national scale (see below for details). Using population potential as an indicator
+for network connectivity suffices here since we are mainly interested in agglomeration econo-
+mies through ‘sharing’, where we focus on metropolitan functions that require minimum
+population thresholds in order to be supported. If we had focused more on agglomeration
+economies through ‘learning’ or ‘matching’, other types of inter-urban network data such as
+co-publication and co-inventor networks (Hoekman et al. 2009), research co-operation in
+framework programmes (Camagni et al. 2015b), R&D collaboration networks (Scherngell and
+Barber 2009), and inter-urban trade and foreign direct investment in high-tech sectors (Thissen
+et al. 2013) would have been more appropriate.
+
+3.2 Data
+
+For this study, several databases were combined into a new dataset. First of all, data on metro-
+politan functions and their location was obtained from the Federal Institute for Research on
+Building, Urban Affairs and Spatial Development in Germany (BBSR 2011). We selected met-
+ropolitan functions in the domain of ‘international institutions’ (including the presence of UN
+offices, EU institutions, international organizations and NGOs), ‘firms’ (presence of Fortune
+
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+Borrowing size in networks of cities                                                                                      187
+
+
+top-500 firms measured according to both turnover and number of employees, advanced
+producer services, banks, exhibition fairs), ‘science’ (presence of major universities, hosting
+of international research organizations), ‘culture’ (subdivided in cultural events, including music
+concerts, art fairs and film festivals; as well as cultural venues, including top-level theatres,
+opera houses, galleries and museums), and ‘sports’ (including sport stadiums, venues of
+Olympic summer games, and high level events of major sports). Data on individual metropolitan
+functions was gathered for a year in the 2004–2009 range, mostly 2008. For an extensive
+explanation of how this data was gathered, the reader is referred to BBSR (2011). In our
+analyses we consider both individual indicators in the domains of politics, science, firms,
+culture, and sports, as well as an index of all metropolitan functions. This index is calculated by
+normalizing the scores on each variable on a scale from 0 (minimum score) to 100 (maximum),
+and adding them up within the five domains, dividing them by the number of indicators involved.
+Following the same procedure, scores for the five domains are transformed into a general index
+measure of the presence of metropolitan functions.
+    The database on metropolitan functions was gathered at the spatial scale of places (mostly
+defined at local area unit (LAU) 2, which is the municipal scale in many European countries)
+for the whole of Europe. Since this LAU 2 geographical level is too detailed for our study,
+we linked these LAU 2 codes to territorial delimitations of larger spatial entities as provided
+by the ESPON research programme. This includes three spatial entities: ‘morphological urban
+areas’ (MUAs), which are contiguous built-up areas, ‘functional urban areas’ (FUAs) which in-
+clude MUAs and their hinterlands as defined by commuter basins, and so-called ‘potential ur-
+ban strategic horizons’ (PUSH) areas. The MUA and FUA delimitations are provided by the
+ESPON 1.4.3 project (IGEAT 2007), which basically was an update of similar work in the
+ESPON 1.1.1 project (Nordregio 2004). The latter project also provided the PUSH-area
+delimitations. It was not possible to link these territorial definitions in a satisfying way for all
+European countries. Incongruences require us to focus on the countries of the former EU15
+(with the exception of the UK), also including Norway and Switzerland. MUAs form the unit
+of analysis in our database, since these resemble the concept of urban agglomerations best. In
+total, our database contains all 1,114 urban agglomerations in these 16 countries. In the remain-
+der of this paper we will simply refer to them as cities, so disregarding that in many cases they
+are institutionally fragmented.
+    We measure whether the extent to which metropolitan functions are present in cities is de-
+pendent on the position of these cities in regional and international/national networks. A city
+that is well embedded in infrastructural networks will have a much higher population potential
+than one that is not. Regional network connectivity is captured by the size of the population that
+can be reached within 45 minute travel time by car from the city (not including the city itself).
+Hence, it reflects regional connectivity and accessibility. The area within this 45-minute iso-
+chrone is known as the ‘potential urban strategic horizon’ (PUSH) area in ESPON terminology.
+To capture (inter)national network embeddeness, we make use of the potential accessibility to
+population by road, rail, and air (multimodal), taken from the ESPON research reported in Uni-
+versity of Tours (2004) and Spiekermann and Wegener (2007), however using Spiekermann’s
+and Wegener’s 2009 update (data for the year 2006) available in the ESPON database. This ac-
+cessibility measure takes into account the population outside of the FUA weighted by the travel
+time to go there.1 The most accessible regions can be found in the mega-regions with major in-
+ternational airports such as the Rhine-Main (Frankfurt am Main), Central Belgium (Brussels)
+and the Randstad (Amsterdam); the least accessible regions can be found in peripheral Portugal,
+
+
+  1
+    Although the multimodal accessibility measure was originally developed for NUTS 3 regions, it has been adapted to
+FUAs for this research.
+
+
+                                                                     Papers in Regional Science, Volume 95 Number 1 March 2016.
+188                                                                                                       E.J. Meijers et al.
+
+
+Spain and Finland. The indicator, which we refer to as (inter)national network connectivity, ex-
+presses how well embedded cities are in international and national road, rail and air networks.
+    Finally, in explaining the presence of metropolitan functions in cities, we include several
+control variables. At the local scale, we include GDP per capita (measured at the scale of
+FUAs), since it can be expected that a more affluent local society is able to sustain more met-
+ropolitan functions. Furthermore, we add a ‘capital city’ dummy, since capital cities are gener-
+ally endowed with more metropolitan functions based on institutional rather than economic
+principles such as the support base of a city. Also, we include tourism, as more touristic places
+are likely to be able to sustain more metropolitan functions because tourists expand the support
+base. In a way, this indicator also reflects the presence of agglomerations in touristic networks,
+and is therefore perhaps a control variable that deserves more interest. The indicator is obtained
+from the BBSR (2011) and is measured as an index that takes in (i) stars that a destination re-
+ceived according to the Michelin travel guides and (ii) presence of UNESCO heritage sites. Next
+to controls at the local level, we include country dummies in our models to capture, among
+others, institutional differences between countries with regard to the production of metropolitan
+functions. Descriptive statistics of the main variables included in the model and a correlation
+matrix are provided in Tables 1 and 2 respectively.
+
+3.3 Methodology
+
+To explain the presence of metropolitan functions in cities, we employ zero-and-one inflated
+beta regression. Our dependent variable on metropolitan functions is an index, which takes a
+minimum value of 0 (no metropolitan functions) and a maximum value of 1 (MUA with the
+highest score on the index). Although it is not uncommon to handle index variables as contin-
+uous variables, estimation using ordinary least squares (OLS) can result in inefficient and biased
+parameter estimates. To account for this characteristic, we make use of a beta regression model
+
+
+
+Table 1. Descriptive statistics of variables included in the baseline regression (N = 1,114)
+
+                                                             Mean      Standard deviation       Minimum            Maximum
+
+Metropolitan function index                                   0.019            0.066              0                  1
+Local population (100K)                                       1.530            4.497              0.051             95.910
+Regional network connectivity (mln)                           1.986            2.322              0                 12.436
+(Inter)national network connectivity (10mln)                  5.630            1.887              1.392             11.368
+GDP per capita FUA (K)                                       27.356            9.064              9                 70
+Capital city dummy                                            0.015            0.122              0                  1
+Tourism index                                                 0.062            0.146              0                  1
+
+
+
+Table 2. Correlation matrix (N = 1,114)
+
+                                                                (1)      (2)            (3)      (4)         (5)         (6)
+
+(1) Local population (100K)                                   1.00
+(2) Regional network connectivity (mln)                       0.03      1.00
+(3) (Inter)national network connectivity (10mln)              0.18**    0.64**         1.00
+(4) GDP per capita FUA (K)                                    0.10**    0.25**         0.44**   1.00
+(5) Capital city dummy                                        0.55**    0.04           0.09**   0.17**     1.00
+(6) Tourism index                                             0.50**    0.06*          0.12**   0.09**     0.41**       1.00
+
+Notes: **p < 0.01, *p < 0.05.
+
+
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+Borrowing size in networks of cities                                                                                       189
+
+
+Table 3. Zero-and-one inflated beta regression on metropolitan functions index
+
+                                                                 Coefficients                                   AME
+
+Proportion Part
+Local population (100K)                                          0.081 (0.014)**                         0.0077 (0.0009)**
+Regional network connectivity (mln)                              0.024 (0.025)                           0.0005 (0.0004)
+(Inter)national network connectivity (10mln)                     0.092 (0.035)**                         0.0013 (0.0006)*
+GDP per capita FUA (K)                                           0.009 (0.006)                           0.0002 (0.0001)
+Capital city dummy                                               0.436 (0.290)                           0.0399 (0.0049)**
+Tourism index                                                    2.004 (0.324)**                         0.0403 (0.0064)**
+
+Zero-inflated part
+Local population (100K)                                         2.873 (0.439)**
+Regional network connectivity (mln)                             0.068 (0.047)
+(Inter)national network connectivity (10mln)                    0.062 (0.079)
+GDP per capita FUA (K)                                          3.616 (1.042)**
+Capital city dummy                                             14.748 (1.067)**
+Tourism index                                                   0.018 (0.014)
+
+Number of observations                                                                   1,114
+Wald chi-square                                                                        450.33**
+ln phi                                                                               3.46 (.104)**
+Country dummies                                                                          YES
+
+Notes: Robust standard errors in parentheses. **p < 0.01, *p < 0.05. All models are estimated with intercept. The one-
+inflated part is not displayed as it is an intercept-only model. AME = Average Marginal Effect. For the dummy variables
+the AME refers to a change of the variable from 0 to 1.
+
+
+(Kieschnick and McCullough 2003; Ferrari and Cribari-Neto 2004).2 This type of model utilizes
+the beta distribution, which makes it appropriate for modelling both binomially and non-
+binomially distributed response variables. In addition, beta regression models provide a natural
+way to address overdispersion by including an additional parameter (phi) to adjust the condi-
+tional variance of the proportion outcome. Because our dependent variable contains both zeros
+(no metropolitan functions) and ones (highest ranked place in terms of metropolitan functions),
+we make use of inflated beta regression models. Zero-and-one inflated beta regression involves
+three parts: a logistic regression model for whether or not the proportion equals 0, a logistic re-
+gression model for whether or not the proportion equals 1, and a beta regression model for the
+proportions between 0 and 1. Because our data particularly suffers from probability masses con-
+centrated at 0, we predominantly focus on the zero-inflated part, herewith also acknowledging
+that there may be population thresholds for providing certain metropolitan functions.
+
+
+
+4 Results
+
+4.1 Network connectivity
+
+This paper sets out to explore whether city network connectivity translates into a higher level of
+urbanization economies, which are proxied with metropolitan functions, and to estimate how
+important this network connectivity is in comparison to local factors. Table 3 gives us the an-
+swer to the first part of this research question. It presents a zero-and-one inflated beta regression
+in which the presence of metropolitan functions, as measured by our aggregate metropolitan
+  2
+    An alternative would be the use of fractional logit models (Papke and Woolridge 1996), which are not used due to
+overdispersion in our data. For a more elaborate discussion of this issue, see Burger et al. (2015).
+
+
+                                                                      Papers in Regional Science, Volume 95 Number 1 March 2016.
+190                                                                                               E.J. Meijers et al.
+
+
+function index, is explained by local variables (size) and network connectivity variables
+(regional and international/national), as well as our control variables (capital city dummy, tourism
+index, and GDP per capita). Please note that because we are not only interested in the statistical
+significance of effects, but also in the substantive and practical significance, we also report the
+average marginal effects (AMEs in table), which reflect the change in the index (scaled 0 to 1)
+as a result of an assumed 1 unit increase in the independent variable.
+    What follows from Table 3 is that both size and connectivity in (inter)national networks pos-
+itively contribute to the presence of metropolitan functions. Cities borrow size through being
+well embedded in (inter)national networks. Interestingly, being well embedded in regional net-
+works does not translate into more metropolitan functions. Hence, scale is important, while net-
+work connectivity is clearly positive on an international/national scale, but not necessarily on a
+regional scale. The latter can perhaps be explained by the fact that opportunities to experience an
+agglomeration shadow are stronger on a regional scale as many cities will have other cities in
+their PUSH area (that is, within 45 minutes distance). When having such neighbours, it may
+be that a positive borrowed size effect for one city is compensated for by a negative effect
+(an ‘agglomeration shadow’) for another, leading to the insignificant overall effect reported in
+Table 3. The negative sign suggests even that such agglomeration shadows may dominate over
+borrowed size effects, or suggest that more cities face agglomeration shadows than that cities
+experience borrowed size. Such a finding would be in line with Meijers and Burger (2010)
+who found that more polycentric metropolitan areas in the US enjoy less agglomeration benefits
+related to size, and Burger et al. (2015) who found that cultural amenities are disproportionally con-
+centrated in the places that are the largest in their FUA, casting an agglomeration shadow over
+others.3 The average marginal effects for our control variables suggest that the influence of GDP
+per capita on the presence of metropolitan functions is limited, whereas being the capital increases
+metropolitan functions substantially. Being a tourist destination also helps to sustain more metro-
+politan functions.
+
+4.2 Network connectivity versus size
+
+Our interest is also in comparing the importance of network connectivity with the importance of
+local size. When we compare the average marginal effects (AMEs) of the variables in Table 3,
+we see that the AME of local size appears to be substantially larger than the AME for (inter)na-
+tional network connectivity. The AME of the local population size is 0.0077, meaning that an
+increase in population size by 100,000 increases the high-end amenities (an index with
+minimum 0 and maximum 1), on average, by 0.0077. The fact that the AME is low indicates
+that there is a considerable population threshold that must be achieved to host metropolitan
+functions. On the contrary, an increase in (inter)national network connectivity by 10 million
+would, on average, only result in an increase in the metropolitan functions index by
+0.0013. Hence, local size seems to be more important for the hosting of metropolitan
+functions than network connectivity. At the same time, it should be taken into account that
+the standard deviation of our (inter)national network connectivity measure is much lower
+than the standard deviation of our local size measure. Therefore, we also evaluate how the
+metropolitan functions index changes when (i) the local size of the MUA increases from
+the 25th percentile (34,000 inhabitants) to the 75th percentile (112,000 inhabitants) and
+(ii) the (inter)national network connectivity increases from the 25th (42.3 million people)
+to the 75th percentile (69.9 million people). Whereas an increase in local size from the
+25th to the 75th percentile would result in an average increase of the metropolitan
+
+  3
+    A re-estimation of the model using OLS yielded similar conclusions. These results are available from the authors
+upon request.
+
+
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+Borrowing size in networks of cities                                                                             191
+
+
+functions index by 0.0080, an increase in the (inter)national network connectivity from the
+25th to the 75th percentile would result in an increase of this figure by 0.0032. This underlines once
+more that, on average, local size is more important than network connectivity in determining the
+level of metropolitan functions in cities.
+
+4.3 Heterogeneity: The importance of networks and size for different metropolitan functions
+
+At the same time, it could well be that the importance of network connectivity and size differs
+across metropolitan functions. Where some functions have a more local or regional reach, some
+functions might have an international reach and therefore their supply is more dependent on
+urban connectivity rather than urban scale. Accordingly, we re-estimate our baseline model
+presented in Table 4 using individual metropolitan functions rather than the aggregate index.
+     In line with our expectations, there is some variety in the importance of network connectiv-
+ity and local size when considering individual metropolitan functions. Local size is a significant
+determinant of all metropolitan functions. Network connectivity at the (inter)national scale is an
+important factor for the majority of metropolitan functions included in our research, but cer-
+tainly not all. For cultural and sports-related metropolitan functions, we found that only the pres-
+ence of cultural venues is linked to (inter)national network connectivity. This is not surprising,
+since culture and sports have often a local support base (see also Burger et al. 2015). For firms
+and international organizations, this (inter)national network connectivity is of more importance.
+When tentatively assessing the relative importance of local size vis-à-vis (inter)national network
+connectivity by comparing (i) a shift in the local size of a city from the 25th to the 75th percentile
+with (ii) a shift in the (inter)national network connectivity from the 25th to the 75th percentile, we
+can even conclude that, on average, (inter)national network connectivity is often more important
+than local size for the presence of functions. In particular, the presence of fairs and international
+organizations seems to be more dependent on (inter)national network connectivity than on urban
+size. A similar observation can be made for the metropolitan function related to science. Especially
+for patents and international conferences, network connectivity is crucial, but it does not explain
+the presence of universities. These were largely established a considerable time ago, and are far
+from footloose.
+     At the same time, regional network connectivity does generally not affect the presence of
+individual metropolitan functions. However, there is a significant, but negative average marginal
+effect of regional network connectivity on the presence of advanced producer services firms, con-
+ferences, the number of patents, cultural venues, and sport events. Most of the signs of the average
+marginal effects for the other variables are also negative (but statistically insignificant). Like
+the results presented at the aggregate level in Table 3, a plausible explanation is that cities that
+are part of a larger metropolitan area, also face more agglomeration shadows through competi-
+tion with other cities within the same region. Again, it appears that, at a regional level,
+agglomeration shadows dominate over borrowed size effects, or at least, that there are more
+cities that face an agglomeration shadow than the number of cities that borrows size.
+     In sum, especially good connectivity in international/national networks benefits cities,
+whereas a good connectivity in regional networks is likely to benefit only a number of cities
+and has, on average, a negative effect on the presence of metropolitan functions due to compe-
+tition effects. Hence, (inter)national network connectivity can be considered to be a more impor-
+tant substitute for urban size than regional network connectivity.
+
+4.4 Heterogeneity: The importance of networks and size for different cities
+
+At the same time, it can be argued that not for all cities local size, regional network connec-
+tivity and (inter)national network connectivity are equally important for the level of
+
+                                                            Papers in Regional Science, Volume 95 Number 1 March 2016.
+                                                                                                                                                                                                                                                           192
+                                                             Table 4. Comparison of importance size versus networks for different metropolitan functions
+
+                                                                                             Mean MUA score         % MUAs                     Local size                 Regional network connectivity          (Inter)national network connectivity
+                                                                                                                   without this
+                                                                                                                    function          AME           25th to 75th          AME              25th to 75th            AME                 25th to 75th
+                                                                                                                                                  percentile Shifta                      percentile Shifta                           percentile Shifta
+
+                                                                                                                                    0.002**             0.0002           0.0003              0.0006                0.0011**               0.0013
+                                                             International organizations           0.004               96.0
+                                                                                                                                    (0.0001)      (0.0001 –0.0003)      (0.0002)       ( 0.0016–0.0003)           (0.0003)          (0.0011 –0.0015)
+                                                                                                                                    0.0006**            0.0004           0.0001              0.0003                0.0007*                0.0010
+                                                             Headquartersb                         0.004               93.5
+                                                                                                                                    (0.0001)      (0.0002 –0.0006)      (0.0001)       ( 0.0005–0.0008)           (0.0003)          (0.0005 –0.0016)
+                                                                                                                                    0.0017*             0.0011           0.0003              0.0007                0.0012*                0.0022
+                                                             Banks                                 0.006               76.5
+                                                                                                                                    (0.0007)      (0.0002 –0.0022)      (0.0002)       ( 0.0019–0.0004)           (0.0006)          (0.0004 –0.0041)
+                                                                                                                                    0.0130**            0.0088           0.0041**            0.0106                0.0058**               0.0121
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+
+
+
+
+                                                             Advanced producer services            0.038               73.4
+                                                                                                                                    (0.0013)      (0.0069 –0.0106)      (0.0014)      ( 0.0190– –0.0022)          (0.0018)          (0.0064 –0.0177)
+                                                                                                                                    0.0031**            0.0013           0.0004              0.0015                0.0030*                0.0047
+                                                             Fairs                                 0.013               90.9
+                                                                                                                                    (0.0004)      (0.0009 –0.0017)      (0.0004)       ( 0.0042–0.0012)           (0.0012)          (0.0028 –0.0066)
+                                                                                                                                    0.0047**            0.0026           0.0011              0.0053                0.0008                 0.0020
+                                                             Universities                          0.013               89.3
+                                                                                                                                    (0.0007)      (0.0016 –0.0036)      (0.0009)      ( 0.0103– –0.0003)          (0.0009)         ( 0.0018 –0.0059)
+                                                                                                                                    0.0022**            0.0013           0.0015**            0.0005                0.0031**               0.0052
+                                                             Conferences                           0.010               89.2
+                                                                                                                                     (0.004)      (0.0009 –0.0018)      (0.0006)       ( 0.0085–0.0025)           (0.0008)          (0.0034 –0.0069)
+                                                                                                                                    0.0018**            0.0014           0.0003*             0.0008                0.0013**               0.0027
+                                                             Patents                               0.009               45.1
+                                                                                                                                    (0.0005)      (0.0006 –0.0022)      (0.0001)       ( 0.0016–0.0000)           (0.0003)          (0.0016 –0.0038)
+                                                                                                                                    0.0067**            0.0066           0.0007*             0.0017                0.0018**               0.0040
+                                                             Cultural venues                       0.018               48.3
+                                                                                                                                    (0.0007)      (0.0048 –0.0083)      (0.0004)       ( 0.0038–0.0004)           (0.0006)          (0.0019 –0.0061)
+                                                                                                                                    0.0026**            0.0016           0.0002              0.0005                0.015                  0.0032
+                                                             Cultural events                       0.017               91.0
+                                                                                                                                     (0.006)      (0.0010 –0.0022)      (0.0007)       ( 0.0024–0.0034)           (0.0010)         ( 0.0000 –0.0065)
+                                                                                                                                    0.0201**            0.0125           0.0003              0.0006                0.0012                 0.0036
+                                                             Sport venues                          0.030               64.9
+                                                                                                                                    (0.0020)       (0.0103 –0.147)      (0.0007)       ( 0.0035 –0.0023)          (0.0009)         ( 0.0090 –0.0019)
+                                                                                                                                    0.0042**            0.0015           0.0016*             0.0045                0.0011                 0.0027
+                                                             Sport events                          0.015               91.2
+                                                                                                                                    (0.0011)      (0.0010 –0.0019)      (0.0008)       ( 0.0102–0.0011)           (0.0009)         ( 0.0008 –0.0062)
+
+                                                             Notes: Robust standard errors in parentheses (AME columns); 95% confidence interval in parentheses (25th to 75th percentile shift columns). **p < 0.01, *p < 0.05. For all estimations, the
+                                                             intercept, GDP per capita, capital city dummy, tourism index, and country dummies were included. Full models are available on request. AME = Average Marginal Effect.
+                                                             a                                    th
+                                                              Marginal effect estimated at the 25 percentile for the respective variable, holding all other variables at their means.
+                                                             b
+                                                               Displayed is an indicator of command and control functions obtained from Csomos and Derudder (2014). Results are similar to the top 500 firms data of the BBSR (2011).                      E.J. Meijers et al.
+Borrowing size in networks of cities                                                                                   193
+
+
+metropolitan functions present. In this regard, Burger et al. (2015) found that the largest
+place in a region is better capable to borrow size through regional and (inter)national net-
+works than lower-ranked places. A reason for this is that agglomeration economies are stron-
+ger than the agglomeration diseconomies which attract all activities in a globally connected
+region to the core. Alternatively, it can be argued that a minimum urban scale is required to
+profit from (inter)national network connectivity, since some metropolitan functions require
+both urban scale and (inter)national networks.
+    To test these assumptions, we estimated additional regressions on the metropolitan
+functions index, including interaction terms between the size and connectivity variables.
+Since interaction effects are generally difficult to interpret in non-linear models, we graph-
+ically show how the average marginal effect of local size, regional network connectivity,
+and (inter)national network connectivity varies across the size of cities between 15,000
+and 1,500,000 inhabitants (all observations that fall approximately within 3 standard devi-
+ations of the mean, excluding outliers). Figure 1 shows that although an increase in local
+size has only a small effect on the presence of the metropolitan functions in cities with
+more than 150,000 inhabitants (85% of the cities), particularly small cities gain metropol-
+itan functions by increasing scale. At the same time, larger cities profit more from regional
+and (inter)national connectivity. The average marginal effect of regional network connectiv-
+ity on the presence of metropolitan functions is positive for cities with over 500,000
+inhabitants and for cities with less than 250,000 inhabitants it is generally negative
+(Figure 2). Likewise, the average marginal effect of (inter)national network connectivity
+on the presence of metropolitan functions is significantly larger for larger cities (Figure 3).
+This highlights the importance of a combination of scale and connectivity for the hosting
+of metropolitan functions. These results underline the relevance of the distinction in
+‘town-ness’ versus ‘city-ness’ made by Taylor et al. (2010). They describe town-ness as
+a process that links urban places to their hinterlands, generally involving the hierarchical
+relationships also found here. ‘City-ness’ then addresses the more horizontal inter-urban
+
+
+
+
+  Fig. 1. Fitted equation and 95% confidence interval for metropolitan function index and local population size
+                                           (average marginal effect)
+
+
+                                                                  Papers in Regional Science, Volume 95 Number 1 March 2016.
+194                                                                                                E.J. Meijers et al.
+
+
+
+
+Fig. 2. Fitted equation and 95% confidence interval for metropolitan function index and regional network connectivity
+                                 by local population size (average marginal effect)
+
+
+
+
+   Fig. 3. Fitted equation and 95% confidence interval for metropolitan function index and (inter)national network
+                            connectivity by local population size (average marginal effect)
+
+
+
+relations beyond the hinterland, and they argue that ‘(g)enerally, the larger urban
+places are less constituted by town-ness and more by […] city-ness’ (Taylor et al.
+2010, p. 2810).
+
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+Borrowing size in networks of cities                                                                           195
+
+
+5 Discussion and conclusion
+
+The current dynamics in the western European urban system are in marked contrast with the
+bourgeoning literature stressing the importance of agglomeration for economic growth. These
+dynamics do not follow global trends in several respects: urbanization is relatively stable, the
+population share of large cities is not growing at the expense of smaller cities and the contribu-
+tion of large cities to GDP is not rising. Small and medium-sized cities are performing increas-
+ingly well. This requires an explanation beyond conventional agglomeration theory which
+suggests that the agglomeration benefits of large cities are the primary economic drivers in
+the world. This paper suggests that the rise of ‘city network externalities’, leading to processes
+of borrowed size as well as the rise of agglomeration shadows in networks of cities, provides the
+missing link between these urban dynamics and agglomeration theory.
+    Network economies is the paradigm that has entered the stage to complement the concept of
+agglomeration economies more generally. While it has been explored in the context of inter-
+firm networks, this paper draws a novel analogy by exploring the role of networks between cit-
+ies, thereby focusing on urbanization economies. These urbanization economies, proxied here
+with the presence of metropolitan functions, are traditionally known to be strongly dependent
+on local size, but this paper explored whether city networks are complementing local factors
+such as size in their development. We specifically focused on the presence of higher-order met-
+ropolitan functions related to international institutions, firms, science, sports, and culture. The
+empirical analysis in this paper yields novel knowledge and the main findings are restated here:
+
+1. both size and connectivity in (inter)national networks positively contribute to the presence of
+   metropolitan functions;
+2. while cities borrow size through being well embedded in (inter)national networks, being well
+   embedded in regional networks generally does not translate into a higher level of metropol-
+   itan functions;
+3. the effect of local size on the presence of metropolitan functions is generally substantially
+   larger (roughly 2.5 times) than the effect of network connectivity;
+4. the importance of size and network connectivity differs across metropolitan functions. While
+   size is always important, network connectivity does not play a role for most metropolitan
+   functions in the domain of culture and sports. It does, however, for metropolitan functions
+   in the domain of firms, international institutions and science, where network connectivity
+   is crucial and sometimes even more important than local size;
+5. a stronger regional network connectivity results in competition effects for some types of met-
+   ropolitan functions, leading to a dominance of agglomeration shadows rather than borrowed
+   size on the regional scale; and
+6. in particular small cities gain metropolitan functions from an increase in size, whereas larger
+   cities profit more from an increase in regional and (inter)national network connectivity.
+
+    These findings have substantial theoretical and policy implications. Theoretically, the con-
+cepts of borrowed size and agglomeration shadows occurring in networks of cities require to re-
+cast the geographical foundations of agglomeration theory, and one may even consider the
+appropriateness of the term ‘agglomeration economies’ when such economies are not con-
+fined to agglomerations per se, but can be shared in networks of cities.
+    Ignoring the role of city network economies may also direct urban development policies
+onto a too narrowly defined (urban) spatial scale. The existence of city network economies hides
+an important promise and at the same time a threat for small and medium-sized cities. It is a
+promise in the sense that their lack of urban mass to develop the benefits of agglomeration
+can in principle be substituted with being embedded in (inter)national networks. Size and
+
+                                                          Papers in Regional Science, Volume 95 Number 1 March 2016.
+196                                                                                                   E.J. Meijers et al.
+
+
+function of cities seem increasingly less connected as function is also determined by network
+connectivity. However, it is also a threat for several reasons. First, our results indicate that local
+size remains a very important base for urbanization economies and small and medium-sized
+cities are especially lacking this (critical) mass. Second, network connectivity cannot substitute
+local size as regards several metropolitan functions. Third, regional network connectivity is not
+necessarily positive as it leads to competition effects in the case of close-by other cities, and
+smaller cities experience agglomeration shadows more often. Fourth, compared to large cities
+small and medium-sized cities are less able to fully exploit (inter)national network connectivity.
+     These results call for further research in several ways. First of all, our analysis could be
+extended by including a dynamic perspective to evaluate whether network connectivity is
+becoming increasingly important through time (vis-à-vis local factors). Another extension is
+the inclusion of other types of metropolitan functions or (economic) performance indicators
+as well as exploring the role of size and network connectivity for cities not just classified by
+their size, but involving a wider range of city typologies.
+     Second, there is the possibility of reverse causality in the present analysis, with size and net-
+work connectivity being driven by the presence of metropolitan functions. Hence, the findings
+in this paper should be interpreted as conditional associations, rather than causal relationships.
+Although this point deserves attention in future research, especially the absence of credible in-
+struments for network connectivity (also given the lack of historical data) will make it hard to
+address this issue appropriately.
+     Third, and more on a conceptual level, there is an urgency to further substantiate and empir-
+ically validate the concept of city network economies, and incorporate this and related concepts
+such as borrowed size more firmly in agglomeration theory. While we establish the relevance of
+network externalities, more attention should be paid to exploring the different sorts of network
+externalities. More specifically, it would also be important to examine network externalities
+through matching and learning (Duranton and Puga 2004). At the same time, this would require
+other network data (e.g., R&D collaborations, co-inventor networks, and trade networks) than
+the population potential measures used in this paper.
+     Fourth, and particularly important for policy practice, is the issue of how the apparent
+dominance of agglomeration shadows at the regional scale can be overcome. It has been
+suggested (Meijers et al. 2014) that a process of further functional, institutional and cultural
+integration between cities in the same region would be one way to overcome this dominance,
+but this deserves further underpinning.
+
+
+References
+
+Alonso W (1973) Urban zero population growth. Daedalus 102: 191–206
+BBSR (2011) Metropolitan Areas in Europe. BBSR 01/2011. Federal Institute for Research on Building, Urban Affairs
+    and Spatial Development (BBSR) within the Federal Office for Building and Regional Planning (BBR), Bonn
+Bel G, Fageda X (2008) Getting there fast: Globalization, intercontinental flights and location of headquarters. Journal
+    of Economic Geography 8: 471–495
+Boix R, Trullen J (2007) Knowledge, networks of cities and growth in regional urban systems. Papers in Regional
+    Science 86: 551–574
+Brenner N, Schmid C (2014) The ‘urban age’ in question. International Journal of Urban and Regional Research 38:
+    731–755
+Burger MJ, Van Oort FG, Van der Knaap B (2010) A treatise of the geographical scale of agglomeration externalities
+    and the MAUP. Scienze Regionali 9: 19–40
+Burger MJ, Meijers EJ, Hoogerbrugge MM, Masip Tresserra J (2015) Borrowed size, agglomeration shadows and
+    cultural amenities in North-West Europe. European Planning Studies 23: 1090–1109
+Burger MJ, Meijers EJ, Van Oort FG (2014a) Multiple perspectives on functional coherence: Heterogeneity and
+    multiplexity in the Randstad. Tijdschrift voor Economische en Sociale Geografie 105: 444–464
+
+
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+Borrowing size in networks of cities                                                                                        197
+
+
+Burger MJ, Van der Knaap B, Wall R (2014b) Polycentricity and the multiplexity of urban networks. European Plan-
+     ning Studies 22: 816–840
+Burghouwt G (2005) Airline network development in Europe and its implications for airport planning. Utrecht Univer-
+     sity Press, Utrecht
+Camagni R, Capello R (2004) The city network paradigm: Theory and empirical evidence. In: Capello R, Nijkamp P
+     (eds) Urban dynamics and growth. Elsevier, Amsterdam
+Camagni R, Capello R (2015) Second-rank city dynamics: Theoretical interpretations behind their growth potentials.
+     European Planning Studies 23: 1041–1053
+Camagni R, Capello R, Caragliu A (2015a) The rise of second-rank cities: What role for agglomeration economies?
+     European Planning Studies 23: 1069–1089
+Camagni R, Capello R, Caragliu A (2015b) Static vs. dynamic agglomeration economies: Spatial context and structural
+     evolution behind urban growth. Papers in Regional Science. doi:10.1111/pirs.12182
+Capello R (2000) The city network paradigm: Measuring urban network externalities. Urban Studies 37: 1925–1945
+Capello R, Camagni R (2000) Beyond optimal city size: An evaluation of alternative urban growth patterns. Urban
+     Studies 37: 1479–1496
+Christaller W (1933) Die zentralen orte in Süddeutschland. Gustav Fischer, Jena
+Coe N, Townsend A (1998) Debunking the myth of localized agglomerations: The development of a regionalized
+     service economy in South-East England. Transactions of the Institute of British Geographers 23: 385–404
+Connolly J (2008) Decentering urban history: Peripheral cities in the modern world. Journal of Urban History 35: 3–14
+Csomos G, Derudder B (2014) European cities as command and control centres 2006–11. European Urban and
+     Regional Studies 21: 345–352
+Dijkstra L (2009) Metropolitan regions in the EU. Regional Focus, No.1/2009, Directorate General for Regional Policy,
+     EC, Brussels
+Dijkstra L, Garcilazo E, McCann P (2013) The economic performance of European cities and city regions: Myths and
+     realities. European Planning Studies 21: 334–354
+Dobkins LH, Ioannides YM (2001) Spatial interactions among US cities: 1900–1990. Regional Science and Urban
+     Economics 31: 701–731
+Duranton G, Puga D (2004) Micro-foundations of urban agglomeration economies. In: Henderson JV, Thisse J-F (eds)
+     Handbook of regional and urban economics 4. Elsevier, Amsterdam
+European Commission (2011) Cities of tomorrow: Challenges, visions, ways forward. EC, Brussels
+Ferrari SLP, Cribari-Neto F (2004) Beta regression for modelling rates and proportions. Journal of Applied Statistics 31:
+     799–815
+Frenken K, Van Oort FG, Verburg T (2007) Related variety, unrelated variety and regional economic growth. Regional
+     Studies 41: 685–697
+Fujita M, Krugman P, Venables A (1999) The spatial economy: Cities, regions, and international trade. MIT Press,
+     Cambridge, MA
+Glaeser EL (2011) Triumph of the city. Penguin Press, New York
+Glaeser EL, Kohlhase J (2004) Cities, regions and the decline of transport costs. Papers in Regional Science 83:
+     197–228
+Glaeser EL, Kolko J, Saiz A (2001) Consumer city. Journal of Economic Geography 1: 27–50
+Hoekman J, Frenken K, Van Oort FG (2009) The geography of collaborative knowledge production in Europe. Annals
+     of Regional Science 43:721–738
+Hohenberg PM, Lees LH (1985) The making of urban Europe, 1000–1950. Harvard University Press, Cambridge, MA
+Iammarino S, McCann P (2013) Multinationals and economic geography: Location and technology, innovation. Edward
+     Elgar, Cheltenham
+IGEAT (eds) (2007) ESPON 1.4.3 Study on Urban Functions. Project report. ULB/ESPON, Brussels/Luxembourg
+Jacobs J (1969) The economy of cities. Random House, New York
+Jacobs W, Ducruet C, De Langen PW (2010) Integrating world cities into production networks: The case of port cities.
+     Global Networks 10: 92–113
+Johansson B, Quigley J (2004) Agglomeration and networks in spatial economies. Papers in Regional Science 83: 165–176
+Kieschnick R, McCullough BD (2003) Regression analysis of variates observed on (0,1): Percentages, proportions and
+     fractions. Statistical Modelling 3: 193–203
+McCann P (1995) Rethinking the economics of location and agglomeration. Urban Studies 32: 563–577
+McCann P, Acs ZJ (2011) Globalization: Countries, cities and multinationals. Regional Studies 45: 17–32
+Meijers EJ, Burger MJ (2010) Spatial structure and productivity in US metropolitan areas. Environment and Planning A
+     42: 1383–1402
+Meijers EJ, Burger MJ (2015) Stretching the concept of ‘borrowed size’. Urban Studies. doi:10.1177/0042098015597642
+Meijers EJ, Hoogerbrugge MM, Hollander K (2014) Twin cities in the process of metropolisation. Urban Research and
+     Practice 7: 35–55
+
+
+                                                                       Papers in Regional Science, Volume 95 Number 1 March 2016.
+198                                                                                                E.J. Meijers et al.
+
+
+Melo P, Graham D, Noland R (2009) A meta-analysis of estimates of urban agglomeration economies. Regional Science
+     and Urban Economics 39: 332–342
+Neal Z (2013) The connected city: How networks are shaping the modern metropolis. Routledge, New York
+Ni P, Kresl P (2010) The global urban competitiveness report – 2010. Edward Elgar, Cheltenham
+Nordregio (eds) (2004) ESPON 1.1.1: Potentials for polycentric development in Europe. Final Report.
+     Nordregio/ESPON, Stockholm/Luxembourg
+Ohlin B (1933) Interregional and internal trade. Harvard University Press, Cambridge, MA
+Papke LE, Woolridge JM (1996) Econometric methods for fractional response variables with an application to 401(K)
+     plan participation rates. Journal of Applied Econometrics 11: 619–632
+Parkinson M, Meegan R, Karecha J, Evans R, Jones G, Sotarauta M, Ruokolainen O, Tosics I, Gertheis A, Tönkő A,
+     Hegedüs J, Illés I, Lefèvre C, Hall P (2012) SGPTD second tier cities and territorial development in Europe:
+     Performance, policies and prospects. Final Report ESPON SGPTD project. European Institute of Urban
+     Affairs/ESPON, Liverpool/Luxembourg
+Parr J (2002) Agglomeration economies: Ambiguities and confusions. Environment and Planning A 34: 717–731
+Partridge MD, Rickman DS, Ali K, Olfert MR (2008) Lost in space: Population dynamics in the American hinterlands
+     and small cities. Journal of Economic Geography 8: 727–757
+Partridge MD, Rickman DS, Ali K, Olfert MR (2009) Do new economic geography agglomeration shadows underlie
+     current population dynamics across the urban hierarchy? Papers in Regional Science 88: 445–466
+Phelps N, Fallon R, Williams C (2001) Small firms, borrowed size and the urban–rural shift. Regional Studies 35:
+     613–624
+Puga D (2010) The magnitude and causes of agglomeration economies. Journal of Regional Science 50: 203–219
+Rosenthal S, Strange W (2004) Evidence on the nature and sources of agglomeration economies. In: Henderson JV,
+     Thisse J-F (eds) Handbook of regional and urban economics 4. Elsevier, Amsterdam
+Scherngell T, Barber MJ (2009) Spatial interaction modelling of cross-region R&D collaborations: Empirical evidence
+     from the 5th EU Framework Programme. Papers in Regional Science 88: 531–546
+Spiekermann K, Wegener M (2007) Update of selected potential accessibility indicators. Final Report for the ESPON
+     2006 Programme. Spiekermann & Wegener Stadt- und Regionalforschung, Dortmund
+Taylor P (2003) World city network: A global urban analysis. Routledge, London
+Taylor P, Hoyler M, Verbruggen R (2010) External urban relational process: Introducing central flow theory to comple-
+     ment central place theory. Urban Studies 47: 2803–2818
+Thissen M, Van Oort FG, Diodato D, Ruijs A (2013) Regional competitiveness and smart specialization in Europe:
+     Place-based development in international economic networks. Edward Elgar, Cheltenham
+Turok I, Mykhnenko V (2007) The trajectories of European cities 1960–2005. Cities 24: 165–182
+University of Tours (2004) ESPON Project 1.2.1 Transport services and networks: Territorial trends and basic supply
+     of infrastructure for territorial cohesion. ESPON, Luxembourg
+Van Meeteren M (2013) The role of agglomeration economies for SME transnationalization: Bypassing the global urban
+     service nexus? In: Tamásy C, Revilla Diez J (eds) Regional resilience, economy and society. Ashgate, Farnham
+Van Oort FG (2004) Urban growth and innovation, spatially bounded externalities in the Netherlands. Ashgate,
+     Aldershot
+Van Oort FG (2007) Spatial and sectoral composition effects of agglomeration economies in the Netherlands. Papers in
+     Regional Science 86: 5–30
+Viladecans-Marsal E (2004) Agglomeration economies and industrial location: City-level evidence. Journal of Eco-
+     nomic Geography 4: 565–582
+
+
+
+
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+                                                               doi:10.1111/pirs.12181
+
+
+
+
+Resumen. Las dinámicas actuales en el sistema urbano de Europa occidental aparecen en marcado
+contraste con la literatura emergente que hace hincapié en la importancia de la aglomeración en
+el crecimiento económico. Este artículo examina si esto se debe al aumento de las ‘economías
+de redes de ciudades’, que dan lugar a procesos de tamaño prestado, así como al aumento de
+las manchas de aglomeración en redes de ciudades. Se analiza la propagación de las funciones
+metropolitanas en las ciudades de Europa occidental. Se ha encontrado que la conectividad de
+las redes mejora de manera positiva la presencia de las funciones metropolitanas, pero el tamaño
+local sigue siendo el factor determinante más significativo para la mayoría de tipos de funciones.
+La importancia del tamaño y la conectividad de la red varían entre las funciones metropolitanas
+y entre ciudades.
+
+
+せ⣙: すḢࡢ㒔ᕷࢩࢫࢸ࣒ࡢ⌧ᅾࡢືྥࡣࠊ⤒῭ᡂ㛗࡟ᑐࡍࡿ㞟✚ࡢ㔜せᛶࢆᙉㄪࡍࡿ◊✲ㄽᩥࡀ
+ቑ኱ࡋ࡚࠸ࡿࡇ࡜࡜ⴭࡋࡃᑐ↷ⓗ࡛࠶ࡿࠋᮏㄽᩥࡣࠊࡇࢀࡀ㒔ᕷ⤒῭ࢿࢵࢺ࣮࣡ࢡࡢฟ⌧࡟ࡼࡿࡶ
+ࡢ࠿࡝࠺࠿ࢆ᳨ウࡋࠊࡇࢀࡀ೉ࡾࡶࡢࡢつᶍࡢࣉࣟࢭࢫ࡛㒔ᕷࢿࢵࢺ࣮࣡ࢡ࡟㞟✚ࡢᙳࡀᣑ኱ࡋ࡚
+࠸ࡿࡇ࡜ࢆ♧ࡍࠋすḢࡢ㒔ᕷࡢ኱㒔ᕷ࡜ࡋ࡚ࡢᶵ⬟ᣑ኱ࢆศᯒࡍࡿࠋࢿࢵࢺ࣮࣡ࢡࡢ㐃⤖ᛶࡣ኱㒔
+ᕷᶵ⬟ࡀᏑᅾࡋ࡚࠸ࡿࡇ࡜ࢆࣉࣛࢫ࡟ᙉㄪࡍࡿࡀࠊᆅᇦࡢつᶍࡀ࡯࡜ࢇ࡝ࡢࢱ࢖ࣉࡢᶵ⬟ࡢ᭱ࡶ኱
+ࡁ࡞Ỵᐃせᅉ࡛࠶ࡿࡇ࡜ࡀศ࠿ࡿࠋつᶍ࡜ࢿࢵࢺ࣮࣡ࢡࡢ㐃⤖ᛶࡢ㔜せᛶࡣࠊ኱㒔ᕷࡢᶵ⬟࠾ࡼࡧ
+㒔ᕷ࡟ࡼࡗ࡚␗࡞ࡿࠋ
+
+
+
+
+© 2016 The Author(s). Papers in Regional Science © 2016 RSAI
+
+
+Papers in Regional Science, Volume 95 Number 1 March 2016.
+

@@ -1,0 +1,1197 @@
+[PDF Metadata]
+Source PDF: journal/A24-sohn-licheron-meijers-2022-border-cities-out-of-the-shadow-10.1111-pirs.12653.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Border cities: Out of the shadow
+Subject:         F15; R11; R12
+Keywords:        agglomeration shadow; border effects; borrowed size; European border cities; potential urban interaction
+Author:          Christophe Sohn
+Creator:         Elsevier
+Producer:        Acrobat Distiller 6.0 for Windows
+CreationDate:    Mon Apr  4 11:26:53 2022 WIB
+ModDate:         Mon Nov  6 22:03:12 2023 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           23
+Encrypted:       no
+Page size:       484.724 x 697.323 pts
+Page rot:        0
+File size:       507497 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+Received: 10 June 2021         Revised: 29 September 2021   Accepted: 7 December 2021
+
+DOI: 10.1111/pirs.12653
+
+
+
+FULL ARTICLE
+
+
+
+
+Border cities: Out of the shadow
+
+Christophe Sohn1                      |      Julien Licheron1             | Evert Meijers2
+
+1
+    Luxembourg Institute of Socio-Economic
+Research, Luxembourg
+                                                    Abstract
+2
+    Utrecht University, Netherlands                 Being in the sphere of influence of other cities can have
+                                                    benefits as it allows cities to “borrow size,” but this can also
+Correspondence
+                                                    lead to competition effects known as “agglomeration
+Christophe Sohn, Luxembourg Institute of
+Socio-Economic Research, 11 Porte des               shadows.” This paper examines how these patterns of bor-
+Sciences, L-4366 Esch-sur-Alzette,                  rowing and shadowing differ from domestic settings when
+Luxembourg.
+Email: christophe.sohn@liser.lu
+                                                    there is a national border between the cities. We find that
+                                                    borders moderate the normal regularities of a settlement
+                                                    system. Particularly, there is no shadow effect cast by larger
+                                                    cities across borders; borders protect. Cross-border market
+                                                    integration benefits especially similar-sized border cities.
+                                                    Given these unique advantages, it is time for border cities
+                                                    to step out of the shadows.
+
+                                                    KEYWORDS
+                                                    agglomeration shadow, border effects, borrowed size, European
+                                                    border cities, potential urban interaction
+
+                                                    JEL CLASSIFICATION
+                                                    F15, R11, R12
+
+
+
+
+1       |    I N T RO DU CT I O N
+
+In Europe, almost 37% of the population resides in a border region (Eurostat, 2020). Around 80% of these 169 million
+inhabitants live in cities and urbanized regions whose socio-economic development and territorial governance are
+influenced by the proximity to a border (Sohn & Stambolic, 2015). Despite its scope and ambition, European integra-
+tion has not eliminated all border barriers and related obstacles (Camagni et al., 2019). The resurgence of borders in
+the political agendas of states even seems to indicate a hardening of border regimes. The temporary reintroduction
+of border controls and the outright closing of certain intra-Schengen borders during the COVID-19 pandemic have
+recently underlined how salient the vulnerability of European borderlands remains (Medeiros et al., 2020). Alongside
+the increasing recognition of the territorial and socio-economic issues faced by border regions, the analysis of the
+
+
+© 2022 The Authors. Papers in Regional Science © 2021 Regional Science Association International.
+
+Pap Reg Sci. 2022;101:417–438.                                                    wileyonlinelibrary.com/journal/pirs   417
+418                                                                                                             SOHN ET AL.
+
+
+
+effects of borders on the growth of cross-border areas is experiencing renewed interest in regional studies and
+regional science (Makkonen & Williams, 2016). This paper continues this debate by bringing two thriving literatures
+in regional studies and regional science into conversation with each other, namely the literature on urban network
+externalities, and the literature on border effects.
+      It is increasingly acknowledged that urban network externalities arising at the scale of multicentric urban
+regions or at the level of global city networks represent important drivers of urban growth and performance. In prin-
+ciple, this growing interest in the externalities of urban networks (either regionally or internationally) should take
+into account the role of territorial boundaries, as many of the connections between cities span across national bor-
+ders. This seems particularly relevant in the European case, given the continent's high degree of territorial fragmen-
+tation and the varying levels of regional integration at work. In practice, however, the territorial anchoring of cities
+and their more or less close proximity to borders is largely ignored. In a context of globalization, the international
+connectivity of large cities has captured most of the attention (Taylor, 2011), thereby obscuring the attention paid
+to regionalized relationships, including those between smaller and medium-sized cities. As for the study of polycen-
+tric urban patterns, cross-border cases are only rarely considered. In order to fill these knowledge gaps, this paper
+addresses the question how borders moderate the impact of having neighbouring cities on their metropolitan
+performance.
+      How to measure interactions between cities, and in its wake urban network externalities, remains a critical
+research issue despite attempts to do so in a variety of scholarly domains (Peris et al., 2018) and bringing in
+network-analytical approaches (Derudder, 2021). In particular, data on urban interactions at the city scale is hard to
+find, certainly if the data collection involves multiple countries. On the regional scale, this is typically solved by
+assuming that cities that are located close to each other and whose functional regions or spheres of influence over-
+lap, have a certain degree of integration. Attention then turns to outcomes of this integration at the regional scale,
+and how these vary according to their characteristics, such as size. For instance, it has been shown that cities that
+are part of polycentric urban regions can sustain a higher level of metropolitan functions than an individual city
+could, but the distribution of those advantages over the different, but rather equally-sized cities in the region is not
+necessarily equal (Meijers & Burger, 2017). Larger cities, or cities of similar size, will usually have more functions than
+expected given their size, which is referred to as “borrowed size” as they draw on the support base of other cities
+nearby. Conversely, increased competition puts smaller cities in the “agglomeration shadow” of their larger neigh-
+bouring cities, leaving them underserved in terms of local functions.
+      The presence of borders can moderate these general patterns in settlement systems in several ways. On a gen-
+eral level, we expect borders’ barrier effects to reduce the opportunity for larger cities to borrow size across borders.
+We also expect the shadow effect cast by larger cities over smaller ones to be more modest due to borders’ protec-
+tion effect. These moderating effects of borders are expected to be influenced by two additional factors that reflect
+border conditions. First, national borders that straddle across the European continent do not present the same insti-
+tutional and regulatory constraints and therefore do not necessarily have the same effects. Some borders can be
+considered open according to a variable duration which depends on the integration trajectory of the countries con-
+cerned, whereas others are still controlled. We expect that the longer borders have been open, the stronger the posi-
+tive or negative effects of cross-border urban interactions as captured by the notion of “borrowed size” and
+“agglomeration shadows'.” Second, borders present a multidimensional nature and may therefore exert differenti-
+ated effects depending on the type of metropolitan functions considered. For that reason, the differentiated sensitiv-
+ity of metropolitan functions to cross-border integration is taken into consideration. We hypothesize that market-
+driven functions are more likely to follow a more rational spatial distribution induced by cross-border integration
+than public-driven functions. For the latter, the persistence of cultural and linguistic barrier effects as well as the pro-
+tective effects of territorial sovereignty are expected to induce “inhibitor” effects.
+      The empirical analysis is based on the distribution of metropolitan functions in 1,920 European cities, 355 of
+which can be considered border cities. With the term “metropolitan functions,” we refer to a broad set of activi-
+ties and amenities in the domain of business, science, transport, culture and sports. While we study the effect of
+SOHN ET AL.                                                                                                            419
+
+
+
+having neighbouring cities on metropolitan performance, we weigh their potential impact on the basis of their spa-
+tial proximity as well as their demographic size. For this, we use a gravity equation to compute potential interac-
+tions between cities. Based on spatial econometric models, results show that within the same country, borrowed
+size effects occur between cities of similar size, whereas larger cities cast an agglomeration shadow over their
+smaller neighbouring cities. However, in cross-border contexts, the results indicate that border effects are more
+complex than a simple barrier or protection effect vis-à-vis interactions between cities. The borrowed size effect
+induced between border cities of similar sizes is stronger than what is observed in a national context. Whereas
+there is no effect for controlled borders, the borrowed size effect is positively moderated by the duration of open-
+ing of borders. As for the shadow effect exerted by larger cities over smaller ones, there is none in a cross-border
+context. Contrary to what is observed in a national context, small and medium border towns benefit from the
+proximity of a larger urban centre located on the other side of the border. Cross-border differentials and comple-
+mentarities may explain such a border locational advantage. This effect only concerns market-driven functions. As
+for public-driven functions, the absence of a competitive effect can be explained by the protection provided by
+the border.
+    The paper is structured as follows. Section 2 provides an overview of the analysis of region-based urban interac-
+tions and border effects, and develops the hypotheses tested in this paper. Section 3 presents the empirical strate-
+gies and data used to produce the dependent and explanatory variables. In Section 4, the estimations of the impact
+of neighbouring cities and the moderating effects of borders on this impact are presented and the robustness of the
+results are examined. Section 5 discusses the results and concludes.
+
+
+
+2 | I N T E R A C T I O N S B E T W E E N N E I G H BO UR I N G C I TI E S A N D BO RD E R
+E F F E C T S : E X P LO R I NG TH E M I S S I N G L I N K
+
+2.1 | Borrowed size and agglomeration shadow: The two outcomes of interactions
+between cities
+
+The basic idea that good interconnections between cities yield important benefits is now widespread. McCann and
+Acs (2011) argue that nowadays national and international connectivity is more important for performance than size.
+In other words, it seems that “networks substitute for proximity” (Johansson & Quigley, 2004). These considerations
+build upon the theoretical framework of “city networks” developed by Camagni (1993) in order to overcome the lim-
+itations of the central place model that is emphasizing a territorial hierarchy-type control of market areas
+(Christaller, 1966). In order to grasp the economic advantage resulting from the networked relationships between cit-
+ies, Capello (2000) coined the term “urban network externalities.” The concept can be described as external econo-
+mies from which firms and households can benefit by being located in cities that are well embedded in networks
+that connect with other cities (see also Boix & Trullén, 2007; Johansson & Quigley, 2004; Meijers, 2005; Van Oort
+et al., 2010). Some empirical studies have shown the presence of such network externalities in the particular context
+of multicentric urban regions. For example, it was found that the more closely cities were integrated, the more net-
+work externalities were present, while the lack of integration between nearby cities could even lead to negative
+urban network externalities (Meijers & Burger, 2017). While positive urban network externalities arise at the level of
+multicentric urban regions as a whole, it is also clear that not all individual cities profit from network integration by
+definition. It could well be that a generative effect at the level of the network of cities hides an intra-network distrib-
+utive effect.
+    A recent conceptual framework that captures the possibly different outcomes of strengthened interactions
+between cities builds on two concepts: “borrowed size” and “agglomeration shadow.” The concept of borrowed size
+was originally proposed by Alonso (1973) to explain the apparent disconnection between size and function of small
+cities that were part of a metropolitan area. Meijers and Burger (2017) recently revisited the concept by highlighting
+420                                                                                                               SOHN ET AL.
+
+
+
+that size borrowing occurs more generally when a city exhibits urban functions normally associated with larger cities.
+It is therefore a product of interactions with other cities on multiple spatial scales that provide a substitute for the
+benefits of agglomeration. The concept of agglomeration shadow is taken from the new economic geography (NEG)
+literature where it emphasizes the negative impact of competition effects. It refers specifically to a situation in which
+a city has fewer urban functions, and experiences lower growth than expected given its size, again as a product of
+interactions within networks of cities on multiple spatial scales leading to more competition. The two concepts refer
+essentially to two sides of the same coin.
+      In this paper, we mobilize the concepts of borrowed size and agglomeration shadow with the aim to investigate
+how national borders supposedly reduce the influence exerted by nearby cities located within multicentric urban
+regions. Our first set of hypothesis relates to the effects of borrowed size, agglomeration shadows and city size in
+general. Potential urban interactions predicted by the gravity equation are taken as a proxy of the influence exerted
+by cities in a regional context. We thus assume that larger cities and closer cities are probably having a stronger influ-
+ence than those that are smaller and located further away. Such an approach was already suggested by Alonso (1973)
+when he discussed the original concept of borrowed size. From an empirical perspective, previous research focusing
+on European cities has shown that larger cities borrow size from nearby smaller cities (Meijers et al., 2016). In a way,
+they “punch above their own weight” as they draw on (or exploit) the support base provided by these surrounding
+smaller cities. For this reason, our first hypothesis reads as follows:
+
+
+        Hypothesis 1. Larger cities benefit from being located close to smaller ones and have consequently
+        more metropolitan functions than expected given their size (H1).
+
+
+      Conversely, larger cities cast an agglomeration shadow over nearby smaller cities due to competition effects.
+There may be the occasional exception to the rule that Alonso (1973) referred to when discussing “borrowed size,”
+but in general we assume that the presence of many urban functions in a large city leaves little room for smaller sur-
+rounding cities to develop urban functions themselves. Growth in the shadow of another city is limited. Therefore,
+our second hypothesis states that:
+
+
+        Hypothesis 2. Smaller cities located near larger ones have less metropolitan functions than expected
+        given their size (H2).
+
+
+      Basically, Hypotheses 1 and 2 mean that in a regional setting marked by the presence of a larger city surrounded
+by smaller cities, the larger city benefits from the situation at the expense of smaller cities (in terms of level of metro-
+politan functions present). In a multicentric urban area in which the cities are more or less similar sized (we refer to
+these as “polycentric urban regions,” which form a subset of multicentric urban regions), several authors have argued
+that network synergy effects should benefit all the cities involved (Camagni, 1993; Capello & Rietveld, 1998). In this
+case, competitive economies of scale are built-up by the integration of the market of each urban centre. The absence
+of a dominant city allows to share the positive effect of integration between cities (Meijers et al., 2018). A third
+hypothesis stems from these considerations:
+
+
+        Hypothesis 3. Nearby cities of more or less equal size have more metropolitan functions than
+        expected given their size (H3).
+
+
+      In the foregoing considerations, the territorial anchoring of cities is not considered. It is as if cities were located
+in a continuous space freed from any territorial constraints. This is obviously not the case and the presence of
+national borders which filter flows, delimit and differentiate territorial jurisdictions is likely to have significant impacts
+on the previously mentioned effects linked to the position of cities in relation to each other. In the next subsection,
+we introduce the ways according to which border effects are studied and discuss their possible effects.
+SOHN ET AL.                                                                                                           421
+
+
+
+2.2      |    The puzzling impact of borders on region-based urban interactions
+
+The impact of regional integration, custom unions and thus the (relative) opening up of national borders has been
+the subject of much research. One popular approach to identifying and measuring the effects of borders considers
+international trade flows and the costs associated with the presence of political and administrative barriers such as
+tariffs. In line with the seminal work of McCallum (1995), gravitational models have been applied and the results
+show that the negative effects of borders on trade flows (i.e., lost trade) remain, despite the removal of formal obsta-
+cles. The vast majority of these approaches consider the impact of economic integration on countries, and all find a
+negative border effect albeit with great variations in its magnitude (Anderson & van Wincoop, 2003; Nitsch, 2000).
+Only a few studies of this kind specifically investigate the trade performance of border regions following economic
+integration (for a review, see Brülhart, 2011).
+      Based on a combination of trade and location theories, NEG inspired studies focus on the spatial effects of eco-
+nomic integration, with a greater emphasis on border regions. According to these models, border regions face two
+counteracting forces: increased market access and increased import competition (Brülhart et al., 2004). On a theoret-
+ical level, there is no consensus on whether border regions benefit from integration (Niebuhr & Stiller, 2004). There
+are also no clear-cut conclusions in empirical studies concerning the impact of integration on border regions. For
+North America, Hanson (1996, 2001) has shown a positive effect of NAFTA-driven economic integration for the
+US-Mexico border regions: the growth of export manufacturing in the Mexican border regions has contributed to
+the development of economic activity in the US border regions. In Europe, the focus has been on EU enlargement
+eastwards and whether market forces favour eastern border regions. Border regions located close to the richest mar-
+kets seem to benefit from economic integration, whereas peripheral border regions show negative or mixed results
+(Lafourcade & Paluzie, 2011; Niebuhr, 2008). A few studies have specifically examined the impact of borders on the
+development of cities. Using the division of Germany after the Second World War as a natural experiment, Redding
+and Sturm (2008) provided evidence that border cities were disadvantaged by the loss of market access caused by
+the imposition of a border. Focusing on the effect of European integration, Brakman et al. (2012) found a positive
+empirical effect from EU enlargement along the borders. A similar result is found by Gouveia et al. (2020) who
+explore the impact of EU enlargements on the growth in population share within border regions. Despite this posi-
+tive integration effect, the two previously mentioned studies also found that the general direct effect of borders on
+neighbouring cities and regions remains negative and larger. Finally, it appears that the potential gains in population
+growth following EU enlargements can be quite asymmetric and differ greatly depending on the economic conditions
+of the cities considered (Heider, 2019).
+      Recently, two essential but hitherto neglected features of borders have received special attention. The first con-
+sideration relates to the dynamic character of border effects. Beyond the commonly accepted idea that border func-
+tions evolve with integration shocks or more generally the (geo)political decisions that govern the border regime in
+place, it is the way in which border effects change over time that appears worth considering. Some studies have
+shown that the effects induced by integration evolve according to the duration of the opening of the border. For
+Brakman et al. (2012), the positive integration effect associated with EU enlargements is active for about 20 years;
+beyond that, the effects disappear. The prevailing logic here is that with the opening of the border, and therefore the
+elimination of certain obstacles, border towns will gradually catch up with their non-border counterparts. In his esti-
+mation of the impact of opening borders on regional growth across European border regions, Basboga (2020) also
+identifies a positive anticipatory effect three years before borders are effectively opened and also during the seven
+years that follow. Conversely, some obstacles like physical barriers or social and cultural differences are likely to per-
+sist long after the border opens (Nitsch & Wolf, 2013). Yet, and based on studies that have analysed the persistence
+of former borders in integration areas, the longer the duration for which a border has been open, the weaker the bar-
+rier effects expected (Wolf, 2005).
+      The second consideration refers to the multidimensional nature of borders. Often reduced to political and
+administrative barriers in studies that focus on their effects on the flow of goods or on the impact of the
+422                                                                                                            SOHN ET AL.
+
+
+
+establishment of customs unions (see above), it turns out that borders hide different forms of obstacles which are
+not automatically erased with regional integration and the elimination of tariff and non-tariff barriers. As brought for-
+ward by Capello et al. (2018), the multifaceted nature of borders is not new; it has however essentially been consid-
+ered separately by different streams of scientific literature. With the aim of considering simultaneously the different
+facets of borders, these authors propose to decompose the effect of borders by distinguishing between physical,
+institutional and cultural obstacles (Capello et al., 2018). Their empirical analysis shows that different types of bar-
+riers create obstacles to different growth assets in the borderlands. Sohn and Licheron (2018) also engage in the
+decomposition of border effects on the performance of metropolitan areas in Europe. But rather than restricting
+themselves to a vision of borders as a constraint on the development of border cities and regions, they consider the
+ambivalent character of borders and distinguish between factors that are likely to have a negative impact from fac-
+tors that may induce positive effects. In so doing, they show that while cultural differences (i.e., languages) have neg-
+ative effects on the level of metropolitan functions (especially economic activities), economic differentials have
+positive effects.
+      Based on the above considerations, we expect that the presence of a border limits interactions due to barrier
+effects (physical, institutional or cultural). This results in a reduction of the opportunities for larger border cities to
+borrow size from smaller cities located across the border. The following hypothesis stems from these considerations:
+
+
+        Hypothesis 4. Larger border cities benefit less from being located close to smaller cities across the
+        border in comparison to a domestic setting (H4).
+
+
+      Concerning the shadow effect expected to hamper the performance of smaller cities located near larger ones
+(see H2), one particular moderating effect of borders can be envisaged. The functions of small border cities may be
+protected from shadow effects thanks to the border. Such a protection effect provided by borders is linked to terri-
+torial sovereignty and the fact that some rationalizing processes to avoid duplication of functions is absent given that
+the cities belong to different decision-making frameworks that remain largely national. For instance, these different
+political decision-making processes may have led to the establishment of universities in cities on both sides of the
+border while in a domestic context this would not have been rational. From these considerations, the following
+hypothesis is considered:
+
+
+        Hypothesis 5. Smaller border cities are less impacted by shadow effects cast by larger cities across
+        the border in comparison to a domestic setting (H5).
+
+
+      Finally, borrowed size effects between cities of similar size are likely to be impacted by the presence of a border
+in the same way as was described for larger border cities located near smaller ones; while there is no dominant city
+that can cast a shadow, we assume that the border acts as a barrier to integration, making it also more difficult to
+borrow size. Hence the hypothesis reads as follows:
+
+
+        Hypothesis 6. Nearby border cities of more or less equal size display a diminished borrowed size
+        effect in comparison to a domestic setting (H6).
+
+
+      So far, border effects have been considered as uniform over all the European space, which is an assumption
+that does not hold against empirical reality. Indeed, European integration is a multidimensional process which
+does not apply uniformly to all Member States. Some intra-European (EU) borders have a greater degree of open-
+ness than others thanks to different integration trajectories. To further complicate the situation, some EU neigh-
+bouring states (such as EFTA member countries) have negotiated specific agreements to lift certain border
+barriers. Thus, Switzerland negotiated bilateral agreements with the EU in the early 2000s, which opened up its
+borders to a large extent. Other neighbouring states do not have the same border regime and their borders with
+SOHN ET AL.                                                                                                             423
+
+
+
+EU states are still strictly controlled. For these reasons, we introduce a distinction between various stages of bor-
+der opening.
+    For controlled borders (such as EU external borders), it seems reasonable to think that the existence of border
+obstacles is likely to limit cross-border city interactions and therefore their effects on the performance of border cit-
+ies. This limitation operates for the two interaction effects highlighted beforehand but not for the same reasons. On
+the one hand, the activities of small border cities are protected from shadow effects (i.e., the competition from larger
+cities) thanks to the persistence of border barriers. On the other hand, the border acts as an obstacle that prevents
+the larger border city to take advantage of nearby smaller cities (or cities of similar size). These statements underlie
+the following hypothesis:
+
+
+       Hypothesis 7. Border cities separated by a controlled border do not experience significant interaction
+       effects (neither agglomeration shadow nor borrowed size) (H7).
+
+
+    In the situation of open borders (such as EU internal borders), the protection leading to the possible replication
+of certain functions on both side of the border is expected to decrease. In the same way, the obstacles induced by
+borders are also expected to diminish. Yet, as discussed above, these border effects tend to evolve gradually over
+time. In the context of the European integration, the opening of borders is a multidimensional and gradual process.
+Some borders have been open for several decades (such as between early member states of the EU, etc.) whereas
+others have opened only recently (such as recently integrated EU states). For these reasons, we expect the duration
+of opening of borders to be an important moderating factor. Hence the following hypothesis:
+
+
+       Hypothesis 8. The longer the duration of opening of the border, the stronger the borrowed size
+       effects and the agglomeration shadow effects indicated in H4, H5, and H6 (H8).
+
+
+    Finally, in the foregoing reflections, it was considered that borders exert the same effect over all the metropoli-
+tan functions. Yet, we have shown in the literature review that borders may exert differentiated effects due to their
+multidimensional nature (Sohn & Licheron, 2018). Without trying to break down the border effects because it goes
+beyond the scope of this research, we propose instead to analyse the effects of borders on different types of metro-
+politan functions and therefore to consider different types of spheres of influence. Insofar as our dependent variable
+is a composite variable, it is possible to distinguish market-driven functions and public-driven functions. The rationale
+for making that distinction is that market-driven functions are based on the support-base of the entire cross-border
+functional region. Hence, their spatial distribution should follow a more rational pattern, that is, the disturbances pro-
+voked by the border (either barrier effect or protection effect) should be low. For public-driven functions, we expect
+the opposite. First, the presence of linguistic, cultural or institutional obstacles is expected to limit the attractiveness
+of certain public activities for people from the other side of the border (e.g., cultural shows held in another language,
+sporting events that stimulate feelings of local or national belonging). Second, the impact of territorial sovereignty
+and national decision frameworks is expected to protect certain public activities from cross-border competition.
+Hence a stronger border protection effect for public-driven functions than for market-driven ones is anticipated. To
+that, one can add that public authorities may support public amenities and services in border cities out of a desire to
+awe and impress by transforming them into showcases for the country or in order to develop a strong sense of terri-
+torial belonging and national identity. This explains why there are sometimes duplications in public amenities on both
+sides of a border (each side wants and has its own stadium, theatre or university). The more rational spatial distribu-
+tion of market-driven functions induced by cross-border integration is thus less likely to happen for public-driven
+functions. Therefore, our last hypothesis reads:
+
+
+       Hypothesis 9. The moderating effects of borders (barrier and protection effects) are stronger for
+       public-driven functions than for market-driven functions (H9).
+424                                                                                                               SOHN ET AL.
+
+
+
+3     |       EMPIRICAL STRATEGY AND DATA
+
+3.1       |    Empirical strategy
+
+The empirical strategy is based on the deployment in three stages of a spatial autoregressive model (SAR) in order to
+take into account the effects of having nearby cities as well as the moderation effects of borders. First, we determine
+the effects of borrowed size and agglomeration shadow without considering the presence of borders using the fol-
+lowing equation:
+                                                     XK               XK
+                                             Y ¼αþ          X γ þ
+                                                         k¼1 k k             k¼1
+                                                                                   Wk X k δk þ ε,                        ð1Þ
+
+
+Y                    the dependent variable, i.e. the index of metropolitan functions;
+α                    a constant term;
+Xk                   a vector of K explaining variables measured at the city level;
+PK
+    k¼1 W k X k δk   the effect of neighbouring cities, with W k a spatial weight matrix to control for the degree to which a
+                     city is influenced by its neighbouring cities;
+
+
+      In a second stage, we introduce a distinction between being in the sphere of influence of neighbouring cities that
+are located in the same country (domestic effect) and being in the sphere of influence of neighbouring cities across
+the border (cross-border effect). The second equation reads therefore as follows:
+
+                                                 XK            XK
+                                        Y ¼αþ          X γ þ
+                                                    k¼1 k k           k¼1
+                                                                            W D Xk δk þ W B Bϑ þ ε,                      ð2Þ
+
+
+Y                    the dependent variable, i.e. the index of metropolitan functions;
+α                    a constant term;
+Xk                   a vector of K explaining variables measured at the city level;
+PK
+    k¼1 W D X k δk the domestic effect;
+W B Bϑ               the cross-border effect, with B a dummy variable indicating border cities.
+
+
+      The domestic effect of neighbouring cities relies on a truncated spatial weight matrix W D where only the poten-
+tial influence of cities located in the same country is taken into account. The influences of cities belonging to differ-
+ent countries are set to 0 for this part of the analysis. Regarding the cross-border effect of neighbouring cities, we
+use a truncated spatial weight matrix W B where only the potential influence of border cities located in different
+countries is taken into consideration. In that case, the influences of cities belonging to a same country are set to 0.
+      In a third stage, we mobilize Equation 2 (including domestic and cross-border influences) but introduce two spe-
+cific dependent variables, namely market-driven functions and public-driven functions. The definition of our depen-
+dent variables is presented in the next subsection.
+
+
+
+3.2       |    Measuring urban performance: Metropolitan functions of European cities
+
+In this paper, we adopt a functional perspective on urban performance by examining the presence of metropolitan
+functions in European cities. The database mobilized was created by the German Federal Spatial Planning Agency in
+2010 (BBSR, 2011), and further elaborated by us. The metropolitan functions were obtained at the scale of the
+municipalities (LAU 2) for the entire European continent. Since cities can be composed of multiple small jurisdictions,
+and we want to assess the functional performance of cities, the data was aggregated at the morphological urban area
+(MUA) scale as defined by ESPON (IGEAT, 2007). MUAs have been identified for 29 European countries and
+SOHN ET AL.                                                                                                             425
+
+
+
+correspond to groupings of municipalities that have at least 20,000 inhabitants.1 While we address MUAs, in this
+paper we use the term “cities” for simplicity. The study area covers the EU 27 countries plus Norway and
+Switzerland, making a total of 1,920 cities.
+      The ad hoc composite index of metropolitan functions used in this paper builds on 28 variables. It covers the
+domains of “economy” (including the presence of headquarters of top-500 firms, advanced producer services, banks and
+trade fairs), “science” (including top-500 universities, scientific associations and international congresses), “transport”
+(including air and rail passenger transport, maritime goods transport and data traffic) and “culture and sports” (including
+theatres, opera houses, music events, galleries, sports stadiums and important sporting events). Data for the various
+metropolitan functions was gathered during the period from 2003 to 2009, with 2006 as the main year of reference.
+The values of the index range from 0 (the absence of metropolitan functions) to 100 (maximum). In order to uncover
+whether the effects of borders are specific to certain functions, we make a distinction between “market-driven
+functions” (pertaining to the domains “economy” and “transport” and mainly controlled by private actors) and “public-
+driven functions” (pertaining to the domain “science” and cultural activities controlled by public stakeholders). In the
+end, we use three dependent variables: all metropolitan functions, market-driven functions and public-driven functions.
+
+
+
+3.3      |     Defining spheres of influence: the gravity equation
+
+Measuring actual region-based urban interactions represents a methodological and data challenge. Given that our
+dependent variable is a composite index of metropolitan functions, the interaction effects we would be interested in
+embrace a broad spectrum of phenomena and are composed of multiple flows and various networks (material and
+immaterial). Such composite flow data is not readily available, and the construction of an ad hoc variable from partic-
+ular flow observations (e.g., trade, commuters, telephone communications, business corporations and scientific col-
+laborations) involves insurmountable constraints due to the granularity of our observations (1,920 cities) and the
+geographical coverage of the study (29 European countries). The best data available in some cases appears to be
+commuting across borders. Unfortunately, such data on cross-border workers are not available across Europe and at
+the required geographical granularity for this research (Van der Valk, 2018).
+      Given the absence of true interaction data, other studies (e.g., Meijers & Burger, 2017) have simply assumed that
+cities that are part of the same pre-defined functional or administrative region are integrated, without considering
+the degree of interaction between them. However, we may assume that there is more interaction with a close-by
+large city than with a smaller city at greater distance. Here, we intend to develop a more precise proxy of the degree
+of potential interaction between cities. In determining this degree, we employ a spatial interaction model that creates
+a value for the potential interaction between a pair of cities by taking their sizes and spatial separation into account.
+Specifically, potential interactions are computed according to the following equation:
+
+                                                                   Pi  Pj
+                                                 Interaction ij ¼ k  α ,                                              ð3Þ
+                                                                     Dij
+
+where Pi is the population of the city i, Pj is the population of the city j, k is a proportionality constant related to the
+rate of the event, Dij the Euclidian distance between the two locations i and j, and α the distance attenuation
+coefficient.
+      With this classic gravity equation, we assume that the potential interaction between two cities is a function of
+their size (population) weighted by their level of separation (geographical distance). In other words, the interactions
+estimated do not correspond to specific flows, but reflect a general potential. The constant is defined as 1, since we
+do not consider a specific timespan. The coefficient of friction of distance varies according to the type of flows or
+activities considered, as well as other factors such as the range of distance. Its calibration requires observed data and
+the selection of the best fitting distance-decay function (De Vries et al., 2009). Given the lack of flow data, we rely
+on existing studies that have sought to empirically define the coefficient of friction of distance. According to Sun
+426                                                                                                                SOHN ET AL.
+
+
+
+et al. (2019), the coefficient varies between 1 and 3 depending on the networks considered. Based on the works of
+Lambiotte et al. (2008), who used mobile phone communications, Krings et al. (2009), who modelled telecommunica-
+tion flows in Belgium, and Jung et al. (2008), who investigated traffic flows on Korean highways, we set the coeffi-
+cient at 2. Robustness checks using alternative specifications (coefficients of 1.5 and 2.5) have been performed to
+verify the validity of this somewhat arbitrary choice. Insofar as the focus of the research is on the effects of neigh-
+bouring cities at the regional scale, we excluded from the analysis any potential interactions exceeding 75 km. This
+distance threshold was defined empirically by considering the spatial structure of polycentric urban regions such as
+those defined by Meijers and Burger (2017). Out of 1,920 cities, only 75 do not have any potential interactions with
+neighbouring cities. The value of total potential interactions per city ranges from 0 for these 75 cities to 26,075
+(Mannheim, Germany). The mean value is 293.27.
+      In order to test our hypotheses relating to borrowed size and agglomeration shadow effects, we consider sepa-
+rately the relationships of a city with cities that are either smaller (i.e., potential interactions with all other cities hav-
+ing a number of inhabitants smaller than 50% of the studied city's population), similar-sized (i.e., potential
+interactions with all other cities having a number of inhabitants larger than 50% but smaller than 200% of the studied
+city's population) or larger (i.e., potential interactions with all other cities having a number of inhabitants larger than
+200% of the studied city's population).
+
+
+
+3.4      |   Border variables
+
+The identification of the moderating impact of borders is based on the comparison of borrowing and shadowing effects
+between cities in the same country, and between border cities on both sides of a border. In order to implement such a
+distinction, we have defined what we considered to be a border city. Based on previous research that has identified
+border cities across Europe (Sohn, 2017; see also Heider, 2019), we have used a travel time by car of 45 minutes to the
+nearest border as a threshold. Such a measure reflects real accessibility at the border more realistically than bird-eye
+distance measurements and 45 minutes travel distance reflects the maximum generally accepted commuting and daily
+mobility distance (ESPON, 2012). Following that criteria, some 355 out of the 1,920 cities are considered as border cities.
+      Two additional border-related variables are used in order to test moderating effects. The first variable is dis-
+tinguishing controlled borders from open borders. Controlled borders refer to the external borders of the EU in 2006
+(with the exclusion of borders between EU countries and EFTA countries due to the existence of specific agree-
+ments). Open borders refer to the EU's internal borders (and common borders with EFTA countries). The second
+border-related variable is considering the duration of opening of borders. This variable describes the historical length
+of the relative opening of borders within the context of European integration. The date of accession of countries to
+the EU was considered to determine the duration of the opening of each border dyad. For EFTA countries, the dates
+of relevant agreements with the EU were considered. This categorical variable ranges from still controlled, to open
+less than 10 years, between 10 and 20 years, and more than 20 years.
+
+
+
+3.5      |   Control variables
+
+The last set of variables used in this research is composed of nine control variables that capture the characteristics of
+cities and countries.2 Based on agglomeration economies literature (see notably Fujita & Thisse, 2013), the variables
+Population (number of inhabitants per city in 2006) and Population growth (evolution between 2001 and 2011) are
+expected to have a positive effect on metropolitan performance. Capital cities and cities that are the seat of
+Supranational organizations (i.e., seats of EU institutions, UN offices or NGOs) are also expected to have a positive
+impact, since they tend to concentrate decision-making power and talent, and attract capital, labour and knowledge
+flows (Cardoso & Meijers, 2016; Dijkstra et al., 2013). Functional diversity relies on Rodgers’ diversification index using
+SOHN ET AL.                                                                                                                427
+
+
+
+the four domains of metropolitan functions (i.e., economy, science, transport, culture and sports) and is expected to have
+a positive impact on agglomeration economies (Jacobs, 1969). Global connectivity measures the embeddedness of cities
+in global networks of advanced producer services (APS), based on the Globalization and World Cities research network
+(GaWC) (Taylor, 2000). This network variable differs from the economic variables that make up the index of metropoli-
+tan functions insofar as it corresponds to the sum of links that a city maintains with all the others on the basis of the
+co-location of APS firms. A high global connectivity is considered an advantage for fostering metropolitan performance
+(McCann & Acs, 2011). At the country level, it is assumed that federal political systems (Federal state) offer more flexibil-
+ity for cities to develop competitiveness strategies compared with centralized countries (Trippl, 2010). Last, Country
+dummies are used to control for idiosyncratic characteristics linked to the institutional trajectory of countries.
+
+
+
+4      |       E S T I M A T I O N R E S U LT S
+
+4.1        |     Borrowed size and agglomeration shadow among European cities
+
+The estimation of Equation 1 constitutes our baseline model where we consider the effect of potential interactions
+between cities based on the three hypotheses presented in subsection 2.1.
+      The results of the baseline model (model 1) are shown in Table 1. With regards to the city-level and country-
+level control variables, the results are as expected. The population of the city, the growth of the population, being
+the host of supranational organizations, the global connectivity and the greater diversity of functions have positive
+and significant effects on the metropolitan performance.
+      In general, with regards to the relationships between neighbouring cities, there is no significant effect on the
+presence of metropolitan functions from having nearby smaller cities. This means that larger cities do not benefit
+
+TABLE 1             Baseline SAR model
+
+                                                                                                      (1)
+    Control variables
+    City population                                                                                     0.0052 (0.0011)***
+    Population growth                                                                                   1.1814 (0.6232)*
+    Capital city                                                                                      0.0009 (0.0008)
+    Supranational organizations                                                                         0.2234 (0.1015)**
+    Global connectivity                                                                                14.1278 (3.3163)***
+    Federal State                                                                                     0.2851 (0.1842)
+    Functional diversity                                                                                0.4281 (0.1069)***
+    Potential interaction effects
+    Smaller neighbouring city population                                                                0.0009 (0.0012)
+    Similar size neighbouring city population                                                           0.0494 (0.0224)**
+    Larger neighbouring city population                                                               0.3738 (0.1590)**
+    Constant                                                                                          1.3629 (0.0602)***
+    Country dummies                                                                                          YES
+                2
+    Pseudo R                                                                                             0.4780
+    Nb. Observations                                                                                        1920
+
+Notes: Standard errors between brackets.
+***denotes significance at the 1% level,
+**significance at 5%,
+*significance at 10%.
+428                                                                                                          SOHN ET AL.
+
+
+
+from being close to smaller ones and H1 is therefore not confirmed. However, being located close to a larger city
+results in a negative and significant effect. Larger cities cast an agglomeration shadow over smaller ones and H2 is
+therefore confirmed. Finally, there is a positive and significant effect linked to having cities of similar size in your
+sphere of influence. This leads to having more metropolitan functions, and this borrowing of size seems to benefit all
+cities of equal size within polycentric urban regions, thus confirming H3.
+
+
+
+4.2     |    The moderating effect of borders
+
+In a second step, we test the moderating effect of borders using Equation 2. Two models are presented in order to
+test the hypotheses relating to varying border conditions. Model 2 introduces a distinction between having neigh-
+bouring cities in the same country and having neighbouring cities across the border. Model 3 estimates the modera-
+tion effects exerted by the duration of opening of the border. The results of model 2 and model 3 are shown in
+Table 2. For both models, it is worth noting that no significant changes of the parameter estimations for the control
+variables and the results for having neighbouring cities located in the same country occur in comparison to model 1.
+      In model 2, the distinction between domestic and cross-border patterns of borrowing and shadowing becomes
+clear. We do not find any significant effect for larger cities being located close to smaller ones in a domestic or a
+cross-border context. H4 is therefore not confirmed. As far as the influence exerted by a larger city over a smaller
+one is concerned, the presence of a border is introducing a notable change. Whereas we find an agglomeration
+shadow effect in domestic settings, having a larger neighbouring city across the border does not lead to shadow
+effects. In fact, smaller border cities even manage to profit from being located close to larger cities on the other side
+of the border. It seems that borders protect smaller cities from the agglomeration shadow normally cast by larger
+neighbouring cities in a domestic setting. H5 is verified, even to such an extent that the assumed agglomeration
+shadow is not simply less present, but even completely absent and instead, smaller cities manage to borrow size from
+a larger city across the border. As for similar-sized cities, borrowing size effects in a cross-border polycentric urban
+region appear stronger and more significant than in a domestic setting. This result does not verify the assumption
+made in H6 about the barrier effect induced by the border. Finally, the fact that the estimations provided by model
+2 do not allow us to confirm our hypotheses tends to show that the moderation effects of borders are more complex
+and that other factors come into consideration.
+      Model 3 allows to test whether the status of borders (controlled vs. open) and the duration of opening of bor-
+ders play a moderating role on the pattern of borrowing and shadowing in a cross-border setting. As could be
+expected, the presence of metropolitan functions in a border city is not affected by being located close to smaller,
+similar-sized or larger cross-border cities when borders are controlled. This result verifies H7. However, the potential
+to borrow size from similar-sized or larger neighbouring cities located across the border increases with the duration
+of the opening of the border. More specifically, we find a positive and significant effect for borders that have been
+opened up between 10 and 20 years and a stronger effect for borders that have been opened for more than
+20 years. These results are in line with H8. However, having smaller cities on the other side of the border does not
+impact the performance of a city, and this does not change with the duration of opening of the border. In that regard,
+H8 is therefore not fully confirmed, as the moderating effect of the duration of opening of borders is conditional on
+the size class of the neighbouring border cities.
+
+
+
+4.3     |    The effects of borders on market-driven and public-driven metropolitan functions
+
+In the last step, we test whether the moderating effects of borders differ depending on the type of metropolitan
+functions considered. In model 4, the dependent variable is composed of market-driven functions, whereas in model
+5, the dependent variable is constituted by public-driven functions. The estimation results are presented in Table 3.
+SOHN ET AL.                                                                                                     429
+
+
+
+TABLE 2          SAR models with domestic and cross-border interaction effects
+
+                                                                      (2)                   (3)
+                                                                      Domestic and          Moderation effect
+                                                                      cross-border          of duration of
+                                                                      interaction           opening of borders
+  Control variables
+  City population                                                      0.0051 (0.0110)***    0.0053 (0.0120)***
+  Population growth                                                    1.1816 (0.6231)*      1.2251 (0.6240)*
+  Capital city                                                        0.0007 (0.0008)      0.0007 (0.0011)
+  Supranational organizations                                          0.2116 (0.1012)**     0.2183 (0.1023)**
+  Global connectivity                                                 14.5120 (3.2815)***   14.1223 (3.1541)***
+  Federal State                                                       0.3521 (0.2032)      0.3612 (0.2451)
+  Functional diversity                                                 0.4219 (0.1032)***    0.4251 (0.1070)***
+  Potential domestic interaction effects
+  Smaller neighbouring city population                                 0.0012 (0.0015)       0.0008 (0.0021)
+  Similar size neighbouring city population                            0.0512 (0.0269)*      0.0446 (0.0228)*
+  Larger neighbouring city population                                 0.4316 (0.1269)***   0.4304 (0.1261)**
+  Potential cross-border interaction effects
+  Smaller neighbouring city population                                 0.0012 (0.0012)
+  Similar size neighbouring city population                            0.0815 (0.0354)**
+  Larger neighbouring city population                                  0.0326 (0.0135)**
+  Potential cross-border interaction effects * Controlled borders
+  Smaller neighbouring city population                                                      0.0005 (0.0022)
+  Similar size neighbouring city population                                                 0.0014 (0.0035)
+  Larger neighbouring city population                                                       0.0004 (0.0018)
+  Potential cross-border interaction effects *
+    Borders open less than 10 years
+  Smaller neighbouring city population                                                       0.0021 (0.0024)
+  Similar size neighbouring city population                                                  0.0441 (0.0320)
+  Larger neighbouring city population                                                        0.0261 (0.0137)*
+  Potential cross-border interaction effects *
+    Borders open between 10 and 20 years
+  Smaller neighbouring city population                                                       0.0018 (0.0024)
+  Similar size neighbouring city population                                                  0.0801 (0.0381)**
+  Larger neighbouring city population                                                        0.0274 (0.0140)*
+  Potential cross-border interaction effects *
+    Borders open more than 20 years
+  Smaller neighbouring city population                                                       0.0051 (0.0031)
+  Similar size neighbouring city population                                                  0.1261 (0.0536)**
+  Larger neighbouring city population                                                        0.0284 (0.0149)*
+  Constant                                                            1.3613 (0.0618)***   1.3511 (0.0634)***
+  Country dummies                                                          YES                   YES
+  Pseudo R2                                                             0.4828                0.4964
+  Nb. Observations                                                       1920                  1920
+430                                                                                                           SOHN ET AL.
+
+
+
+Notes: Standard errors between brackets.
+***denotes significance at the 1% level,
+**significance at 5%,
+*significance at 10%.
+
+
+
+TABLE 3          SAR models with market-driven functions and public-driven functions as dependent variables
+
+                                                    (4)                                  (5)
+                                                    Market-driven functions only         Public-driven functions only
+  Control variables
+  City population                                     0.0053 (0.0011)***                   0.0052 (0.0011)***
+  Population growth                                   1.2635 (0.6640)*                     1.2252 (0.5574)**
+  Capital city                                      0.0008 (0.0010)                     0.0006 (0.0010)
+  Supranational organizations                         0.2186 (0.1015)**                    0.2018 (0.0990)**
+  Global connectivity                                14.1524 (3.2389)***                 14.7364 (3.0241)***
+  Federal State                                     0.4241 (0.2138)                     0.3705 (0.2215)
+  Functional diversity                                0.4071 (0.1183)***                   0.4230 (0.0901)***
+  Potential domestic interaction effects
+  Smaller neighbouring city population                0.0006 (0.0005)                      0.0007 (0.0006)
+  Similar size neighbouring city population           0.0812 (0.0426)*                     0.0203 (0.0415)
+  Larger neighbouring city population               0.7321 (0.2434)***                  0.3235 (0.1468)**
+  Potential cross-border interaction effects
+  Smaller Cross-border city pop                       0.0026 (0.0035)                      0.0022 (0.0042)
+  Similar size neighbouring city population           0.1022 (0.0534)*                     0.0510 (0.0269)*
+  Larger neighbouring city population                 0.0302 (0.0162)*                     0.0105 (0.0180)
+  Constant                                          1.5906 (0.0719)***                  1.3014 (0.0702)***
+  Country dummies                                         YES                                  YES
+  Pseudo R2                                            0.5187                              0.4842
+  Nb. Observations                                      1920                                 1920
+
+Notes: Standard errors between brackets.
+***denotes significance at the 1% level,
+**significance at 5%,
+*significance at 10%.
+
+
+
+
+As for the previous models, we do not observe any significant changes of the parameter estimations for the control
+variables.
+      Concerning domestic neighbouring cities, the agglomeration shadow cast by larger cities over smaller ones is
+stronger and more significant for market-driven functions than public-driven functions. As for borrowed size effects
+between cities of relatively similar size, there is a positive and significant effect only for market-driven functions.
+When we consider the results for cross-border patterns, we find that the positive and significant effect for smaller
+cities that are close to larger ones located on the other side of a border is only present for market-driven functions
+and not for public-driven ones. As for the borrowed size effect between cities of relatively similar size, the positive
+effect is present for both types of functions, but its value is stronger for market-driven functions in comparison with
+public-driven functions. In other words, public-driven functions are more sensitive to the barrier effects and the pro-
+tection effects induced by borders than market-driven functions. These results are consistent with H9.
+SOHN ET AL.                                                                                                           431
+
+
+
+4.4       |     Robustness checks
+
+The above presented estimation results have been examined for their robustness according to different assumptions
+that may be potentially arbitrary. The results of additional robustness tests are not presented in the paper but are
+available in the Appendix. The first assumption refers to the selection criteria of border cities. We have used travel
+distance by car based on data from 2008 (ESPON, 2012). It might be the case that, in some border regions, new
+roads have been built quite recently (e.g., after the enlargement phase of 2004), leaving little time for these accessi-
+bility changes to be reflected in the level of functions present in the cities concerned in 2006. To overcome this
+potential shortcoming, a definition of border cities based on a distance of 25 km to the nearest borders, as the crow
+flies, has been used in order to obtain a group that is more robust against potential changes in the road network. No
+significant changes in the estimations have been observed (see Table A2).
+      The second potentially arbitrary assumption that we have checked concerns the coefficient of friction of dis-
+tance for the gravity equation. Based on existing literature, we have set the coefficient at 2. Two alternative specifi-
+cations of the gravity equation were used to perform robustness checks (α = 1.5 and α = 2.5) and no significant
+changes in the parameter estimates were observed (see Table A3).
+      The third assumption that has been subject to a robustness test is related to our definition of the size of cities
+for the identification of borrowed size and agglomeration shadow effects. In order to test if some results could be
+driven by cities of specific sizes, we have run separate models based on sub-samples of small, medium-sized and
+large cities (in absolute terms). These new specifications (see Table A4) show that the borrowed size effect between
+border cities of similar sizes concerns medium-sized cities that have between 100,000 and 250,000 inhabitants as
+well as, albeit to a lesser degree, those that have more than 250,000 inhabitants (at MUA level). The positive effect
+stemming from having a larger city across the border concerns essentially medium-sized cities. For both the patterns
+of borrowing and shadowing, no significant changes in the estimations were observed.
+
+
+
+5     |       C O N CL U S I O N A ND D I S C U S S I O N
+
+The process of integration between cities on a variety of spatial scales, not least the regional scale, is recognized as
+an important driver of urban growth and performance (Cardoso & Meijers, 2021). Yet, the territorial anchoring of cit-
+ies, and in particular the disrupting role of borders in this process, has largely been left untouched in debates on such
+urban network externalities. It is precisely this knowledge gap that this paper tries to fill by exploring how the pres-
+ence of national borders moderates the patterns of borrowed size and agglomeration shadows that result from
+increased interaction between neighbouring cities.
+      We found a remarkable impact of borders on the geography of borrowing and shadowing in cross-border
+regions. In line with most previous research, and considering just such patterns of borrowing and shadowing
+between cities in a domestic setting, we found that having a larger neighbouring city negatively impacts the presence
+of metropolitan functions in a city (because that place is in an agglomeration shadow), whereas having more or less
+similar-sized neighbouring cities generally benefits all cities as they borrow size from each other. We consider these
+patterns to be the normal regularities of a settlement system, at least in Europe.
+      However, we found that the patterns resulting from having neighbouring cities across borders are different.
+Larger cities do not cast their shadow across the border: borders protect smaller cities from this competition effect
+and as a result they are not “emptied” of their functions as we see so often in domestic settings. The opposite is true,
+as those smaller cities are even able to profit from having a larger city across the border as this allows it to borrow
+size in the sense of expanding the market base for their urban functions. This greater market access, in combination
+with a protective role of borders relating to cultural and institutional differences and the persistence of national deci-
+sion frameworks on the location of metropolitan functions (rather than a rationalizing process at the scale of cross-
+border regions) enables smaller border cities to gain from their territorial anchoring near a border and having larger
+432                                                                                                                SOHN ET AL.
+
+
+
+neighbouring cities across that border. These neighbouring cities do not necessarily have to be larger; it is also
+advantageous when they are of more or less equal size. Instead of an anticipated weaker positive effect associated
+with their integration, we actually found that they manage to borrow more size from each other than in a polycentric
+urban region located in a domestic setting. Apparently the protective role of borders is stronger than their
+barrier role.
+      Obviously, the picture is a bit more complex and we need to take into account the duration of opening of a bor-
+der and the type of metropolitan functions (we discerned market-driven and public-driven functions). For instance,
+cities constituting a cross-border polycentric urban region host more metropolitan functions when borders have
+been open for a longer time, and the positive borrowed size effect concerns market-driven metropolitan functions
+more than public-driven metropolitan functions.
+      The bigger picture is that borders moderate the normal regularities of a settlement system, and that they actually
+lead to more borrowed size over time, while agglomeration shadows remain absent. Future research could be
+focused more on case studies of cross-border metropolitan regions exploring our general patterns in more detail, and
+on disentangling borders into different obstacles in order to assess their effects separately (see Capello et al., 2018).
+While we have focused on the presence of metropolitan functions as our measure of performance of a city, future
+research could also concentrate on different performance measures to explore whether similar results are obtained.
+Productivity, growth in jobs and population are the traditional, aggregate options with the added advantage that
+trends over time can be more easily explored, but these could be complemented with indicators capturing micro-
+level outcomes for firms and households.
+      Finally, our results can be interpreted as a clear indication that further European integration, and cross-border
+metropolitan integration in particular, is beneficial for border cities. Stakeholders in border cities and regions could
+be much more aware of their unique advantages and develop strategies to exploit these. The new and positive light
+that our analysis sheds on border cities suggests that it is time for those often largely overlooked border cities to
+step out of the shadows.
+
+
+ORCID
+Christophe Sohn       https://orcid.org/0000-0002-2448-288X
+Julien Licheron      https://orcid.org/0000-0002-6181-3561
+Evert Meijers      https://orcid.org/0000-0002-0031-6828
+
+
+ENDNOTES
+1
+    A detailed list of MUAs per country can be found in the final report of ESPON project 1.4.3. Study on Urban Functions
+    (IGEAT, 2007).
+2
+    Detailed information about the control variables is available in the appendix (Table A1).
+
+
+
+RE FE R ENC E S
+Alonso, W. (1973). Urban zero population growth. Daedalus, 102, 191–206. https://www.jstor.org/stable/20024174
+Anderson, J., & van Wincoop, E. (2003). Gravity with gravitas: A solution to the border puzzle. American Economic Review,
+    93, 170–192. https://doi.org/10.1257/000282803321455214
+Basboga, K. (2020). The role of open borders and cross-border cooperation in regional growth across Europe. Regional Stud-
+    ies, Regional Science, 7, 532–549. https://doi.org/10.1080/21681376.2020.1842800
+BBSR. (2011). Metropolitan areas in Europe. Federal Institute for Research on Building, Urban Affairs and Spatial Develop-
+    ment (BBSR).
+Boix, R., & Trullén, J. (2007). Knowledge, networks of cities and growth in regional urban systems. Papers in Regional Science,
+    86, 551–574. https://doi.org/10.1111/j.1435-5957.2007.00139.x
+Brakman, S., Garretsen, H., Van Marrewijk, C., & Oumer, A. (2012). The border population effects of EU integration. Journal
+    of Regional Science, 52, 40–59. https://doi.org/10.1111/j.1467-9787.2011.00752.x
+Brülhart, M. (2011). The spatial effects of trade openness: A survey. Review of World Economics, 147, 59–83. https://doi.
+    org/10.1007/s10290-010-0083-5
+SOHN ET AL.                                                                                                                  433
+
+
+
+Brülhart, M., Crozet, M., & Koenig, P. (2004). Enlargement and the EU periphery: The impact of changing market potential.
+    The World Economy, 27, 853–875. https://doi.org/10.1111/j.1467-9701.2004.00632.x
+Camagni, R. (1993). From city hierarchy to city network: Reflections about an emerging paradigm. In T. R. Lakshmanan &
+    P. Nijkamp (Eds.), Structure and change in the space economy. Springer.
+Camagni, R., Capello, R., & Caragliu, A. (2019). Measuring the impact of legal and administrative international barriers on
+    regional growth. Regional Science Policy & Practice, 11, 345–366. https://doi.org/10.1111/rsp3.12195
+Capello, R. (2000). The city network paradigm: measuring urban network externalities. Urban Studies, 37, 1925–1945.
+    https://doi.org/10.1080/713707232
+Capello, R., Caragliu, A., & Fratesi, U. (2018). Breaking down the border: Physical, institutional and cultural obstacles. Eco-
+    nomic Geography, 94, 485–513. https://doi.org/10.1080/00130095.2018.1444988
+Capello, R., & Rietveld, P. (1998). The concept of network synergy in economic theory: policy implications. In P. Nijkamp &
+    H. Priemus (Eds.), Networks in Europe. Concepts, analysis and policies. Edward Elgar.
+Cardoso, R. V., & Meijers, E. J. (2016). Contrasts between first-tier and second-tier cities in Europe: a functional perspective.
+    European Planning Studies, 24, 996–1015. https://doi.org/10.1080/09654313.2015.1120708
+Cardoso, R. V., & Meijers, E. J. (2021). Metropolisation: The winding road toward the Citification of the Region. Urban Geog-
+    raphy, 42, 1–20. https://doi.org/10.1080/02723638.2020.1828558
+Christaller, W. (1966). Central places in southern Germany. Prentice-Hall.
+De Vries, J. J., Nijkamp, P., & Rietveld, P. (2009). Exponential or power distance-decay for commuting? An alternative speci-
+    fication. Environment and Planning a: Economy and Space, 41, 461–480. https://doi.org/10.1068/a39369
+Derudder, B. (2021). Network analysis of ‘urban systems’: Potential, challenges, and pitfalls. Tijdschrift voor Economische en
+    Sociale Geografie, 112, 404–420. https://doi.org/10.1111/tesg.12392
+Dijkstra, L., Garcilazo, E., & McCann, P. (2013). The economic performance of European cities and city regions: Myths and
+    realities. European Planning Studies, 21, 334–354. https://doi.org/10.1080/09654313.2012.716245
+EC. (2021). List of EU countries by membership date provided by the European Commission. http://ec.europa.eu/index_en.htm
+ESPON. (2012) Geographic specificities and development potentials in Europe (GEOSPECS). Final Report. Luxembourg
+ESPON. (2016). Morphological Urban Areas database. Retrieved from ESPON: http://database.espon.eu
+EUROSTAT. (2020) Data browser. Population on 1 January by broad age group, sex and other typologies. Retrieved from
+    https://ec.europa.eu/eurostat/databrowser/view/URT_PJANAGGR3__custom_1016044/default/table?lang=en
+Forum of Federations. (2015). List of federal countries provided by the Global Network on Federalism and Devolved Governance:
+    http://www.forumfed.org/
+Fujita, M., & Thisse, J.-F. (2013). Economics of agglomeration: Cities, industrial location, and regional growth (2nd ed.).
+    Cambridge University Press.
+Gouveia, S., Correia, L., & Martins, P. (2020). European integration and its effects on population in border and peripheral
+    regions. Eastern Journal of European Studies, 11, 8–27.
+Hanson, G. H. (1996). Economic integration, intra-industry trade, and frontier regions. European Economic Review, 40,
+    941–949. https://doi.org/10.1016/0014-2921(95)00103-4
+Hanson, G. H. (2001). US–Mexico integration and regional economies: evidence from border-city pairs. Journal of Urban Eco-
+    nomics, 50, 259–287. https://doi.org/10.1006/juec.2001.2217
+Heider, B. (2019). The impact of EU Eastern enlargement on urban growth and decline: New insights from Germany's East-
+    ern border. Papers in Regional Science, 98, 1443–1468. https://doi.org/10.1111/pirs.12407
+IGEAT. (2007). Study on urban functions 1.4.3. ESPON.
+Jacobs, J. (1969). The economy of cities. Vintage.
+Johansson, B., & Quigley, J. M. (2004). Agglomeration and networks in spatial economics. Papers in Regional Science, 83,
+    165–176. https://doi.org/10.1007/s10110-003-0181-z
+Jung, W.-S., Wang, F., & Stanley, H. E. (2008). Gravity model in the Korean highway. EPL (Europhysics Letters), 81, 48005.
+    https://doi.org/10.1209/0295-5075/81/48005
+Krings, G., Calabrese, F., Ratti, C., & Blondel, V. D. (2009). Urban gravity: A model for intercity telecommunication flows.
+    Journal of Statistical Mechanics: Theory and Experiment, 2009, 1–8. https://doi.org/10.1088/1742-5468/2009/07/
+    L07003
+Lafourcade, M., & Paluzie, E. (2011). European integration, foreign direct investment (FDI), and the geography of French
+    trade. Regional Studies, 45, 419–439. https://doi.org/10.1080/00343401003713357
+Lambiotte, R., Blondel, V. D., de Kerchove, C., Huens, E., Prieur, C., Smoreda, Z., & van Dooren, P. (2008). Geographical dis-
+    persal of mobile communication networks. Physica A: Statistical Mechanics and its Applications, 387, 5317–5325. https://
+    doi.org/10.1016/j.physa.2008.05.014
+Makkonen, T., & Williams, A. M. (2016). Border region studies: The structure of an “offbeat” field of regional studies.
+    Regional Studies, Regional Science, 3, 355–367. https://doi.org/10.1080/21681376.2016.1209982
+McCallum, J. (1995). National borders matter: Canada-US regional trade patterns. The American Economic Review, 85,
+    615–623. https://www.jstor.org/stable/2118191
+434                                                                                                                SOHN ET AL.
+
+
+
+McCann, P., & Acs, Z. J. (2011). Globalization: Countries, cities and multinationals. Regional Studies, 45, 17–32. https://doi.
+    org/10.1080/00343404.2010.505915
+Medeiros, E., Ramírez, M. G., Ocskay, G., & Peyrony, J. (2020). Covidfencing effects on cross-border deterritorialism: The
+    case of Europe. European Planning Studies, 29, 962–982. https://doi.org/10.1080/09654313.2020.1818185
+Meijers, E. (2005). Polycentric urban regions and the quest for synergy: Is a network of cities more than the sum of the
+    parts? Urban Studies, 42, 765–781. https://doi.org/10.1080/00420980500060384
+Meijers, E., Hoogerbrugge, M., & Cardoso, R. (2018). Beyond polycentricity: Does stronger integration between cities in
+    polycentric urban regions improve performance? Tijdschrift voor Economische en Sociale Geografie, 109, 1–21. https://
+    doi.org/10.1111/tesg.12292
+Meijers, E. J., & Burger, M. J. (2017). Stretching the concept of ‘borrowed size’. Urban Studies, 54, 269–291. https://doi.org/
+    10.1177/0042098015597642
+Meijers, E. J., Burger, M. J., & Hoogerbrugge, M. M. (2016). Borrowing size in networks of cities: City size, network connec-
+    tivity and metropolitan functions in Europe. Papers in Regional Science, 95, 181–198. https://doi.org/10.1111/pirs.
+    12181
+Niebuhr, A. (2008). The impact of EU enlargement on European border regions. International Journal of Public Policy, 3, 163–
+    186. https://doi.org/10.1504/IJPP.2008.019065
+Niebuhr, A., & Stiller, S. (2004). Integration effects in border regions: a survey of economic theory and empirical studies.
+    Review of Regional Research, 24, 3–21.
+Nitsch, V. (2000). National borders and international trade: Evidence from the European Union. Canadian Journal of Econom-
+    ics, 33, 1091–1105. https://doi.org/10.1111/0008-4085.00055
+Nitsch, V., & Wolf, N. (2013). Tear down this wall: On the persistence of borders in trade. Canadian Journal of Economics, 46,
+    154–179. https://doi.org/10.1111/caje.12002
+Peris, A., Meijers, E., & Van Ham, M. (2018). The evolution of the systems of cities literature since 1995: Schools of thought
+    and their interaction. Networks and Spatial Economics, 18, 533–554. https://doi.org/10.1007/s11067-018-9410-5
+Redding, S. J., & Sturm, D. M. (2008). The costs of remoteness: Evidence from German division and reunification. The Ameri-
+    can Economic Review, 98, 1766–1797. https://doi.org/10.1257/aer.98.5.1766
+Rodgers, A. (1957). Some aspects of industrial diversification in the United States. Economic Geography, 33, 16–30. https://
+    doi.org/10.2307/142564
+Sohn, C. (2017). Cartography of a blind spot: An exploratory analysis of European border cities. Tijdschrift voor Economische
+    en Sociale Geografie, 108, 512–518. https://doi.org/10.1111/tesg.12278
+Sohn, C., & Licheron, J. (2018). The multiple effects of borders on metropolitan functions in Europe. Regional Studies, 52,
+    1512–1524. https://doi.org/10.1080/00343404.2017.1410537
+Sohn, C., & Stambolic, N. (2015). The urban development of European border regions: A spatial typology. Europa Regional,
+    21, 177–189.
+Sun, Q., Wang, S., Zhang, K., Ma, F., Guo, X., & Li, T. (2019). Spatial pattern of urban system based on gravity model and
+    whole network analysis in eight urban agglomerations of China. Mathematical Problems in Engineering, 2019, 1–17.
+    https://doi.org/10.1155/2019/6509726
+Taylor, P. J. (2000). Global network service connectivities for 315 cities in 2000. GaWC. URL: https://www.lboro.ac.uk/gawc/
+    datasets/da12.html
+Taylor, P. J. (2011). Global urban Aanalysis: A survey of cities in globalization. Routledge.
+Trippl, M. (2010). Developing cross-border regional innovation systems: Key factors and challenges. Tijdschrift voor Economi-
+    sche en Sociale Geografie, 101, 150–160. https://doi.org/10.1111/j.1467-9663.2009.00522.x
+Van der Valk, J. (2018). Border region data collection. European Commission.
+Van Oort, F., Burger, M., & Raspe, O. (2010). On the economic foundation of the urban network paradigm: Spatial integra-
+    tion, functional integration and economic complementarities within the Dutch Randstad. Urban Studies, 47, 725–748.
+    https://doi.org/10.1177/0042098009352362
+Wolf, N. (2005). Path dependent border effects: The case of Poland's reunification (1918–1939). Explorations in Economic
+    History, 42, 414–438. https://doi.org/10.1016/j.eeh.2004.10.002
+
+
+
+
+      How to cite this article: Sohn, C., Licheron, J., & Meijers, E. (2022). Border cities: Out of the shadow. Papers
+      in Regional Science, 101(2), 417–438. https://doi.org/10.1111/pirs.12653
+SOHN ET AL.                                                                                                    435
+
+
+
+APPENDIX A
+
+
+
+TABLE A1         Definition of variables
+
+  Variable                  Explanation                                        Survey year     Source
+  Control variables
+  City population MUA       Number of inhabitants of the MUA                   2006            IGEAT, 2007
+  Population growth         Evolution of the number of inhabitants between     2001 and 2011   ESPON 2016
+                              2001 and 2011 (in %)
+  Capital city              National capitals based on the average value of    2008            BBSR, 2011
+                             three indicators from the BBSR (i.e., national
+                             capital weighted by the number of seats in the
+                             Council of Europe, the national population and
+                             the national gross domestic product).
+  Supranational             Seat of supranational organizations based on the   2008            BBSR, 2011
+    organizations             average value of five indicators from the BBSR
+                              (i.e., UN offices, EU political centres, EU
+                              institutions, international organizations and
+                              NGOs)
+  Global connectivity       Global connectivity of advanced producer           2000            Taylor, 2000
+                              services networks (GaWC dataset 12)
+  Federal States            MUA located in a centralized country (0) or in a   2006            Forum of
+                             federal country (1)                                                 Federations 2015
+  Functional diversity      Rodgers’ diversification index (Rodgers 1957)      2006            BBSR, 2011
+  Country dummies           Territorial affiliation of MUAs by country         2006            IGEAT, 2007
+  Border variables
+  Border city               MUA located less than 45 minutes to the            2006            IGEAT, 2007,
+                             nearest border (travel time by car)                                 ESPON, 2012
+  Controlled border         External borders of the EU (excluding borders      2006            EC 2021
+                              between the EU and EFTA countries)
+  Duration of opening       Duration of opening of border dyads based on       2006            EC 2021 + Various
+   of borders                the date of accession of European countries to                      sources
+                             the EU. For EFTA countries, date of relevant
+                             agreements with the EU.
+436                                                                                                        SOHN ET AL.
+
+
+
+TABLE A2          With border cities defined as being less than 25 km from the nearest border
+
+                                                                               (1)
+
+                                                                               Domestic and cross-border interaction
+  City population                                                                0.0053 (0.0013)***
+  Population growth                                                              1.1726 (0.6230)*
+  Capital city                                                                 0.0007 (0.0009)
+  Supranational organizations                                                    0.2131 (0.1011)**
+  Global connectivity                                                           14.8241 (3.4115)***
+  Federal State                                                                0.3523 (0.2419)
+  Functional diversity                                                           0.4219 (0.0915)***
+  Potential domestic interaction effects
+  Smaller neighbouring city population                                           0.0015 (0.0018)
+  Similar size neighbouring city population                                      0.0537 (0.0281)*
+  Larger neighbouring city population                                          0.5219 (0.1429)***
+  Potential cross-border interaction effects
+  Smaller neighbouring city population                                           0.0010 (0.0015)
+  Similar size neighbouring city population                                      0.0681 (0.0315)**
+  Larger neighbouring city population                                            0.0415 (0.0199)**
+  Constant                                                                     1.3591 (0.0694)***
+  Country dummies                                                                     YES
+             2
+  Pseudo R                                                                        0.4825
+  Nb. Observations                                                                   1920
+
+Notes: Standard errors between brackets.
+***denotes significance at the 1% level,
+**significance at 5%,
+*significance at 10%.
+SOHN ET AL.                                                                                                           437
+
+
+
+TABLE A3          Coefficient of the friction of distance specifications for the gravity equation
+
+                                                 (1)                       (2)                      (3)
+                                                 Full model                Full model               Full model
+                                                 all functions             all functions            all functions
+                                                 Benchmark (α = 2)         α = 1.5                  α = 2.5
+  City population                                  0.0051 *** (0.0011)       0.0051 *** (0.0012)     0.0050 *** (0.0011)
+  Population growth                                  1.1816 * (0.6231)         1.1212 * (0.6125)       1.2591 * (0.6537)
+  Capital city                                       0.0007 (0.0008)         0.0007 (0.0008)         0.0014 (0.0011)
+  Supranational organizations                       0.2116 ** (0.1012)        0.2184 ** (0.1036)      0.2115 ** (0.1020)
+  Global connectivity                             14.5120 *** (3.2815)     15.1428 *** (3.2918)     15.1960 *** (3.2794)
+  Federal State                                      0.3521 (0.2032)         0.3745 (0.2294)         0.3241 (0.2021)
+  Functional diversity                             0.4219 *** (0.1032)       0.4221 *** (0.1030)     0.4194 *** (0.1026)
+  Potential domestic interaction effects
+  Smaller neighbouring city population                0.0012 (0.0012)           0.0009 (0.0010)          0.0007 (0.0014)
+  Similar size neighbouring city population          0.0512 * (0.0269)         0.0381 * (0.0201)       0.0482 * (0.0248)
+  Larger neighbouring city population            0.4316 *** (0.1269)        0.3924 * (0.2042)     0.3998 *** (0.1051)
+  Potential cross-border interaction effects
+  Smaller neighbouring city population                0.0012 (0.0012)           0.0015 (0.0011)          0.0012 (0.0015)
+  Similar size neighbouring city population         0.0815 ** (0.0354)         0.0805 * (0.0419)        0.0812 *(0.0426)
+  Larger neighbouring city population               0.0326 ** (0.0135)          0.0301 (0.0234)       0.0335 ** (0.0136)
+  Constant                                       1.3613 *** (0.0618)      1.3251 *** (0.0601)     1.3619 *** (0.0622)
+  Country dummies                                         YES                       YES                      YES
+              2
+  Pseudo R                                             0.4828                    0.4724                   0.4892
+  Nb. Observations                                       1920                      1920                     1920
+
+Notes: Standard errors between brackets.
+***denotes significance at the 1% level,
+**significance at 5%,
+*significance at 10%.
+TABLE A4          Estimations on sub-samples based on city population (small, medium-sized and large cities), SAR model                                                           438
+                                                                       (1)                            (2)                                          (3)
+                                               Bencemark—all cities    Small cities (<100.000 hab.)   Medium-sized cities (100.000–250.000 hab.)   Large cities (>250.000 hab.)
+  City population                                0.0051 *** (0.0011)     0.0058 *** (0.0013)           0.0062 *** (0.0019)                          0.0044 *** (0.0015)
+  Population growth                               1.1816 r* (0.6231)      1.2945 * (0.6813)              1.2351 * (0.6485)                            0.9841 * (0.5102)
+  Capital city                                    0.0007 (0.0008)          0.0001 (0.0014)              0.0013 (0.0009)                             0.0029 (0.0018)
+  Supranational organizations                     0.2116 ** (0.1012)        0.0014 (0.0084)             0.2418 ** (0.1182)                          0.3840 *** (0.1319)
+  Global connectivity                          14.5120 *** (3.2815)      8.5174 *** (2.5418)          14.1841 *** (3.1971)                         16.1974 *** (3.8160)
+  Federal State                                   0.3521 (0.2032)        0.3410 (0.2016)                0.0015 (0.1826)                             0.2140 (0.3152)
+  Functional diversity                           0.4219 *** (0.1032)     0.3816 *** (0.1160)           0.4678 *** (0.1534)                          0.5214 *** (0.1671)
+  Potential domestic interaction effects
+  Smaller neighbouring city population              0.0012 (0.0012)                -                      0.0012 (0.0012)                               0.0008 (0.0011)
+  Similar size neighbouring city population       0.0512 * (0.0269)       0.0315 * (0.0174)             0.0484 ** (0.0212)                           0.0514 ** (0.0241)
+  Larger neighbouring city population          0.4316 *** (0.1269)     0.4614 ** (0.2049)           0.4015 ** (0.1841)                                      -
+  Potential cross-border interaction effects
+  Smaller neighbouring city population              0.0012 (0.0012)                -                      0.0014 (0.0019)                               0.0021 (0.0031)
+  Similar size neighbouring city population       0.0815 ** (0.0354)        0.0401 (0.0312)             0.0864 ** (0.0421)                           0.0491 ** (0.0231)
+  Larger neighbouring city population             0.0326 ** (0.0135)       0.0251 * (0.0133)           0.0719 *** (0.0181)                                     -
+  Constant                                     1.3613 *** (0.0618)    1.3015 *** (0.0684)           1.4122 *** (0.0794)                         1.2947 *** (0.0814)
+  Country dummies                                       YES                     YES                           YES                                           YES
+  Pseudo R2                                          0.4828                  0.4656                        0.4814                                       0.4019
+  Nb. Observations                                    1920                    1,421                           311                                           188
+
+Notes: Standard errors between brackets.
+***denotes significance at the 1% level,
+**significance at 5%,
+*significance at 10%.
+
+
+
+
+                                                                                                                                                                                  SOHN ET AL.
+DOI: 10.1111/pirs.12653
+
+
+
+
+Resumen. Estar en la esfera de influencia de otras ciudades puede tener ventajas, ya que permite a las ciudades
+“tomar prestado el tamaño”, pero esto también puede provocar efectos de competencia conocidos como “sombras
+de aglomeración”. Este artículo examina cómo estos patrones de préstamo y sombras difieren de los entornos domé-
+sticos cuando existe una frontera nacional entre las ciudades. Se encontró que las fronteras moderan las reg-
+ularidades normales de un sistema de asentamiento. En particular, no existe el efecto de sombra que proyectan las
+ciudades más grandes a través de las fronteras, y de hecho las fronteras protegen. La integración del mercado trans-
+fronterizo beneficia especialmente a las ciudades fronterizas de tamaño similar. Dadas estas ventajas únicas, es hora
+de que las ciudades fronterizas salgan de las sombras.
+
+
+
+抄録: 他の都市の影響下にあることは、都市が「規模を借用する(to borrow size)」ことで利益がえられる一方
+で、「集積の陰(agglomeration                shadows)」といわれる競争効果がもたらされる可能性がある。本稿では、こう
+した、規模を借用すること(borrowing)と集積の陰にあること(shadowing)のパターンが、都市間に国境がある場
+合では、国内でのパターンとどのように異なるかを検討する。国境は決済システムの正常な規則性を緩和する
+ことが分かった。特に、大都市による集積の陰の国境を越える影響は認められないばかりか、国境による保護
+が認められる。国境を越えた市場統合は、特に規模の同じ国境都市に利益をもたらす。こうしたユニークな利
+点から、今こそ国境都市は集積の陰から抜け出すべきと考えられる。
+
+
+
+
+© 2022 The Authors. Papers in Regional Science © 2021 Regional Science Association International.
+

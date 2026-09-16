@@ -1,0 +1,1227 @@
+[PDF Metadata]
+Source PDF: journal/B17-yang-lu-caset-derudder-2025-agglomeration-externalities-or-network-externalities-explaining-productivity-in-chinese-urban-regions-10.1080-17421772.2024.2414960.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Agglomeration externalities or network externalities? Explaining productivity in Chinese urban regio
+Author:          YangYutingabLuJiayibCasetFrekeacDerudderBenabdaDepartment of Geography, Ghent University, Ghent, BelgiumbPublic Governance Institute, KU Leuven, Leuven, BelgiumcCosmopolis Centre for Urban Research, Vrije Universiteit Brussel, Brussels, BelgiumdDepartment of Urban and Regional Development Studies, Nicolaus Copernicus University, Torun, Poland
+Creator:         Servigistics Arbortext Advanced Print Publisher 11.1.4546/W-x64
+Producer:        PDFlib+PDI 9.0.7p3 (C++/Win64)
+CreationDate:    Wed May 28 10:39:29 2025 WIB
+ModDate:         Wed May 28 10:39:29 2025 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           23
+Encrypted:       no
+Page size:       634.32 x 833.04 pts
+Page rot:        0
+File size:       1369256 bytes
+Optimized:       no
+PDF version:     1.5
+[Extracted Text]
+      Spatial Economic Analysis
+
+
+
+
+      ISSN: 1742-1772 (Print) 1742-1780 (Online) Journal homepage: www.tandfonline.com/journals/rsea20
+
+
+
+
+Agglomeration externalities or network
+externalities? Explaining productivity in Chinese
+urban regions
+
+Yuting Yang, Jiayi Lu, Freke Caset & Ben Derudder
+
+To cite this article: Yuting Yang, Jiayi Lu, Freke Caset & Ben Derudder (2025) Agglomeration
+externalities or network externalities? Explaining productivity in Chinese urban regions, Spatial
+Economic Analysis, 20:2, 175-196, DOI: 10.1080/17421772.2024.2414960
+
+To link to this article: https://doi.org/10.1080/17421772.2024.2414960
+
+
+
+
+       View supplementary material
+
+
+
+       Published online: 28 Oct 2024.
+
+
+
+       Submit your article to this journal
+
+
+
+       Article views: 547
+
+
+
+       View related articles
+
+
+
+       View Crossmark data
+
+
+
+       Citing articles: 6 View citing articles
+
+
+
+
+                      Full Terms & Conditions of access and use can be found at
+             https://www.tandfonline.com/action/journalInformation?journalCode=rsea20
+SPATIAL ECONOMIC ANALYSIS
+2025, VOL. 20, NO. 2, 175–196
+https://doi.org/10.1080/17421772.2024.2414960
+
+
+
+
+Agglomeration externalities or network externalities?
+Explaining productivity in Chinese urban regions
+                             a,b                b                           a,c                                  a,b,d
+Yuting Yang                        , Jiayi Lu       , Freke Caset                 and Ben Derudder
+
+
+    ABSTRACT
+    This paper explores the relative importance of agglomeration externalities and network externalities in
+    explaining regional productivity through the lens of a polycentric development framework specific to
+    China. Using enterprise investment data, a spatial econometric model and an instrumental variables
+    strategy, we find that both externalities are important in explaining regional productivity. There are no
+    interaction effects between agglomeration and network externalities, with the latter being more
+    prominent in urban regions with higher levels of polycentricity. Compared to agglomeration externalities,
+    which are geographically confined, network externalities can generate spatial spillovers.
+    KEYWORDS
+    Agglomeration externalities, network externalities, regional productivity, polycentricity
+
+
+JEL O40, R11
+HISTORY Received 5 May 2023; in revised form 14 March 2024
+
+
+1. INTRODUCTION
+
+In an increasingly interconnected world characterised by all kinds of flows and networks, terri­
+torial approaches to studying cities and regions need to be complemented with relational
+approaches (Harrison, 2013). This is now a widely shared idea in the regional science literature
+and illustrated by the plethora of studies that explore (i) the territorial logic of agglomeration
+externalities (economic benefits derived from the co-location of economic agents) (Parr, 2002)
+and (ii) the relational logic of network externalities (economic benefits derived from functional
+relationships across space) (Capello, 2000).
+    Comparative analyses of the extent to which both logics matter nonetheless remain inconclu­
+sive. The following question, therefore, remains salient:
+
+     (a)re cities, regions, or other types of agglomerations the crucial geographical units of analysis if we want
+     to understand economic development or is it better to focus on the interactions between these units, that
+     is, networks of regions, cities and agglomerations? (Van Meeteren et al., 2016, p. 61)
+
+These fundamental conceptual and methodological questions have major repercussions for the
+governance of cities and regions in terms of how to best accommodate future urbanisation
+
+CONTACT Jiayi Lu       jiayi.lu@kuleuven.be
+a
+  Department of Geography, Ghent University, Ghent, Belgium
+b
+  Public Governance Institute, KU Leuven, Leuven, Belgium
+c
+  Cosmopolis Centre for Urban Research, Vrije Universiteit Brussel, Brussels, Belgium
+d
+  Department of Urban and Regional Development Studies, Nicolaus Copernicus University, Torun, Poland
+    Supplemental data for this article can be accessed online at https://doi.org/10.1080/17421772.2024.2414960
+
+© 2024 Regional Studies Association
+176    Y. Yang et al.
+
+
+
+trajectories: is it more beneficial to develop or strengthen urban networks by enabling the
+exchange of goods, people and information, or should we foster the growth of large and dense
+cities (Burger & Meijers, 2016)?
+    This debate is ongoing, not least because of diverging empirical findings. For example, in
+Western Europe, Meijers et al. (2016) showed that urban network connectivity in corporate net­
+works is more important than urban size for explaining the presence of certain metropolitan
+functions. In a study of EU27 countries, Camagni et al. (2015) found that second-rank cities
+sometimes outperform larger metro areas by exploiting the advantages of cooperation with
+other cities. Similarly, in a Chinese context, Huang et al. (2020) found that the effect of transport
+network connectivity on per capita GDP growth exceeds that of agglomeration size. However,
+other studies in a Chinese context, such as that by Yang et al. (2022), came to the opposite con­
+clusion regarding knowledge innovation networks. Despite these different empirical findings,
+there is a consensus that this is not an ‘either-or’ question: network and agglomeration external­
+ities can supplement each other, contributing both separately and conjointly (Johansson & Quig­
+ley, 2004; McCann & Acs, 2011; Van Meeteren et al., 2016).
+    This paper disentangles the effects of agglomeration and network externalities and looks at
+their potential interaction in the Chinese context by focusing on polycentric developments in
+its urban regions. A polycentric urban region (PUR) can be defined as a region consisting of mul­
+tiple historically and administratively distinct cities that do not differ much in terms of their
+importance, are located in close proximity and are well-connected through infrastructure (Kloos­
+terman & Musterd, 2001). In the Chinese context, polycentricity is increasingly promoted as a
+desirable spatial development strategy to achieve economic development in the broadest sense,
+and planners have widely adopted it at a range of geographical scales (Cheng & Shaw, 2018;
+Wang et al., 2019). An expanding body of work has used the PUR concept to understand China’s
+urban and regional development. However, for the most part, these studies have focused on
+PURs’ functional network characteristics (Li & Phelps, 2017), economic potential (Wang
+et al., 2019) and political and governance context (Li et al., 2023). What is missing is a clear
+understanding of whether the anticipated benefits of ‘agglomeration externalities, economic
+synergies, and functional specialization’ (Li et al., 2023, p. 331) are indeed present in PURs as
+envisaged and planned.
+    Against this backdrop, we propose to investigate the agglomeration/network externalities
+debate in the framework of Chinese urban regions (URs). This is an interesting yet rarely under­
+taken endeavour since most of the earlier work focused on city-level economic effects. The few
+exceptions include the work of Meijers et al. (2018), who, in a European context, observed
+that tighter functional, cultural and institutional networks between cities in PURs can enhance
+the presence of metropolitan functions in the domains of science, economy, culture and sports.
+Volgmann and Münter (2022), in turn, focusing on German PURs, found that agglomeration
+externalities – size, density and diversity – influence the growth of metropolitan functions. For
+the Chinese context, Wang et al. (2022) found that the economic potential of PURs (partly)
+results from the borrowed size effects that emanate from networking. Although these studies
+specifically examined (one of the) territorial and relational logics in PURs, they did not explicitly
+link agglomeration and network externalities in a single analytical framework, nor did they exam­
+ine how these externalities are organised in URs with different spatial structures. And finally,
+these studies did not address potential endogeneity issues, mainly because of the absence of
+data that would allow to test the exogeneity of the alleged relation.
+    Against this background, this paper addresses the following research questions: To what
+extent do network and agglomeration externalities explain regional economic productivity in Chinese
+URs? And how do these effects differ with the degree of polycentricity? We address these questions
+using six formal hypotheses developed in the literature review (Section 2) and subsequently
+put to the test by drawing on a bespoke methodological framework (Section 3). Section 4
+
+
+SPATIAL ECONOMIC ANALYSIS
+                                                       Agglomeration externalities or network externalities?   177
+
+
+
+discusses our results, after which Section 5 concludes our paper with an overview of major find­
+ings, limitations and avenues for further research.
+
+2. LITERATURE REVIEW
+
+2.1. Agglomeration and network externalities in URs: six hypotheses
+Each discussion of agglomeration externalities starts with the truism that geographic proximity is
+crucial for understanding cities (Parr, 2002; Rosenthal & Strange, 2003). Building on the idea
+that firms, organisations, households and individuals can benefit from co-locating through shar­
+ing, matching and learning, agglomeration externalities have long been deemed the core driving
+force explaining the growth of cities (Camagni et al., 2017; Puga, 2010). At the same time, it has
+become increasingly clear that agglomeration externalities are not confined to urban cores but
+may spill over to nearby centres (Humer et al., 2022; Meijers & Burger, 2010). This is particu­
+larly the case in polycentric urban systems, where regionally co-located centres collectively lead to
+widening geographical scales and scopes of agglomeration externalities (Van Oort et al., 2010).
+In other words, agglomeration externalities may ‘regionalize’ (Phelps & Ozawa, 2003), providing
+more significant economic benefits when the ‘assets’ of a region are pooled (e.g., agglomerated
+innovative enterprises in the Guangdong-Hong Kong-Macao Greater Bay area). Given that
+the positive role of agglomeration on regional economic development in PURs in China has
+been repeatedly shown in earlier studies (e.g., Li et al., 2019; Li & Liu, 2018), we put forward
+our first set of hypotheses (H1 and H2):
+
+   H1: Agglomeration externalities have a positive impact on regional productivity in URs.
+   H2: Agglomeration externalities are more prominent in more polycentric URs.
+
+Although studies directly exploring network externalities in PURs are scarce, related discussions
+can be found in research on ‘borrowed size’ (Alonso, 1973) and ‘agglomeration shadows’ (Fujita
+et al., 2001). Both concepts are akin to network externalities as they describe the positive and
+negative spillover effects, respectively, of being connected in urban networks. The idea is that,
+by being located near larger cities in the same PUR, smaller cities can ‘borrow’ some of the
+agglomeration economies of these cities and host more functions than their size would typically
+support (Burger et al., 2015). At the same time, cities may also host fewer functions than their
+size would normally support because of competition effects (Cardoso & Meijers, 2016). Thus,
+the overall network benefits delivered to URs as a whole stem from the prevalence of ‘borrowed
+size’ over ‘agglomeration shadows’. Notably, the effects of both processes depend on the strength
+of urban networks: borrowed size is more pronounced in the face of strong networks. At the same
+time, agglomeration shadows are more prominent when strong ties between these cities are
+absent (Meijers et al., 2016). This suggests that tight urban networks may generate more positive
+externalities and lead to economic benefits in URs (H3). Moreover, Meijers and Burger (2010,
+2017) found that in the US and European urban systems, borrowed size is more profound in
+polycentric areas than areas dominated by a large city, suggesting that network externalities
+can be enhanced by polycentric development (H4):
+
+   H3: Network externalities are positively related to regional productivity in URs.
+   H4: Network externalities are larger in URs with higher levels of polycentricity.
+
+When comparing the extent to which agglomeration/network externalities are likely to operate in
+URs, a key question concerns the importance of geographical distance. Agglomeration external­
+ities are de facto spatially constrained and, therefore, decline with distance, whereas the effect of
+distance is considered less prominent or even negligible when it comes to network externalities
+
+
+                                                                                       SPATIAL ECONOMIC ANALYSIS
+178      Y. Yang et al.
+
+
+
+(Van Meeteren et al., 2016). Advances in information and communication technologies have
+made interactions between cities increasingly easy to the degree that, in theory, ‘distance does
+not matter anymore’ (Van Meeteren et al., 2016, p. 68). However, in reality, it seems that
+many types of network externalities taking shape in URs do attenuate with distance. For example,
+Lim and Han (2021) recently found that geographical distance impacts the formation of inno­
+vation networks in East Asian URs and that the effect is more substantial in larger URs. Like­
+wise, Fang et al. (2020) and Zhang et al. (2020) argued that urban networks (economic, transport
+or virtual connections through social platforms) in China tend to decrease with distance. The fact
+that the distance between cities in the Yangtze River Delta is, on average, 255 miles compared to
+123 miles in the Pearl River Delta is therefore relevant. Thus, it can be expected that:
+
+      H5: The positive influence of network connectivity on regional productivity is stronger in URs where the
+      average inter-city distances are smaller.
+
+A sixth and final hypothesis deals with the potential interaction between both types of external­
+ities. This issue has been raised as far back as the early 1960s (e.g., Nystuen & Dacey, 1961) and
+highlighted again in recent conceptual papers (Burger & Meijers, 2016; Van Meeteren et al.,
+2016). Some have argued that agglomeration externalities (indirectly) engender network extern­
+alities. The underlying idea is that the geographical concentration of people and economic activi­
+ties, which are the critical drivers of agglomeration externalities, can lead to reduced transaction
+or transportation costs between cities (Johansson & Quigley, 2004). This cost reduction makes it
+more feasible and efficient for individuals, businesses and goods to move beyond cities, thereby
+strengthening the networking between cities of various kinds (Cainelli & Ganau, 2018). For
+instance, Burger et al. (2015) pointed out that the close physical proximity and effective acces­
+sibility of cities (via road, rail and air) in URs in northwest Europe could support ‘borrowed
+size’ effects. Conversely, another perspective suggests that strong network connectivity among
+cities can substitute for agglomeration externalities typically concentrated at a single point (a
+single large city) (Burger & Meijers, 2016). This substitution can be achieved through processes
+such as the sharing of resources and knowledge. Meijers et al. (2018), for example, examined why
+some PURs seem to be able to exploit their combined urban mass more than others. Based on an
+empirical analysis of 117 European PURs, they found that the extent to which the constituent
+cities in PURs are integrated could explain such divergence. As a result, we hypothesise that:
+
+      H6: There is an interaction effect between network and agglomeration externalities affecting regional
+      productivity.
+
+
+
+2.2. Overview of previous analytical frameworks
+This section briefly reviews the analytical frameworks developed in previous studies to assess net­
+work and agglomeration externalities. Key operational aspects include (i) defining ‘network con­
+nectivity’ when measuring network externalities and ‘agglomerations’ when measuring
+agglomeration externalities, alongside (ii) how to capture the putative ‘economic advantage’.
+We elaborate on both aspects in turn.
+    When specifying urban networks, two perspectives are dominant in the literature. First, a
+‘physical’ approach, measuring the strength of infrastructure connectivity (such as aviation, high­
+ways and railway networks) (Huang et al., 2020). And second, an ‘immaterial’ approach, measur­
+ing a range of economic, social and cultural aspects, such as political and cooperation networks in
+WHO programs (Capello, 2000), networks underlying research and patent innovation (Cao
+et al., 2022), inter-firm relations (Van Oort et al., 2010) and intra-firm relations (Derudder &
+Taylor, 2016). These enterprise relations, characterising the many processes within and across
+
+
+SPATIAL ECONOMIC ANALYSIS
+                                                 Agglomeration externalities or network externalities?   179
+
+
+
+corporate structures, such as knowledge exchanges and mutual learning and innovation (Marti­
+nus & Sigler, 2018), can proxy interactions between cities. Therefore, we construct urban net­
+works within URs through the lens of enterprise investments.
+     Agglomeration externalities can also be operationalised in myriad ways. While different
+typologies lead to other proxies (for an overview, see Van Meeteren et al., 2016), here we
+zoom in on indicators commonly used to capture ‘urbanization externalities’. We focus on this
+externality because it refers to the benefits of the overall concentration of economic activity in
+a given region, which is expected to be instrumental for the regional economy by providing
+firms access to extensive markets, access to public infrastructure, etc. (Parr, 2002). Many studies
+use total urban concentrations to measure agglomeration externalities, such as total urban popu­
+lation (e.g., Meijers et al., 2018; Meijers & Burger, 2010; Ouwehand et al., 2022). Others use
+density-based measures which reflect population or employment densities (e.g., Li et al.,
+2022; Li & Liu, 2018). The latter measures would better reflect how economic activities are
+spatially concentrated (Ciccone & Hall, 1993) and allow to control for differences in the size
+of geographical areas (Melo et al., 2009).
+     Different methods have been used for quantifying the hypothesised ‘advantages’ stemming
+from network/agglomeration externalities. In the case of network externalities, earlier studies
+used non-spatial regression-type models (as in Capello, 2000) and count data models (as in Mei­
+jers et al., 2016). Alternatively, some scholars turn to spatial econometric tools by specifying
+spatial weight matrices and modelling spatial spillovers (Yang et al., 2022; Wang et al., 2022).
+In the case of agglomeration externalities, most recent studies in the polycentricity literature
+adopt non-spatial models (Ouwehand et al., 2022; Wang et al., 2019). However, as discussed
+by Van Oort (2007), in the urban growth literature, spatial econometric modelling techniques
+are also applied to examine the spatial extent of agglomeration externalities.
+     Importantly, irrespective of the models adopted, a recurring concern is potential endogeneity.
+In terms of agglomeration externality models, the technique of instrumental variables (IV) analy­
+sis (which allows isolating the exogenous effect of urban structure on economic effects) is widely
+used. When it comes to network externality models, however, constructing IVs is more difficult
+as it requires historical flow data that are mostly lacking. Consequently, previous studies have
+avoided this technique but instead verified conditional correlations (e.g., Meijers et al., 2016;
+Meijers et al., 2018). One exception is Huang et al. (2020), who constructed a spatial weight
+matrix by multiplying Euclidean distance and train frequency to capture the external relations
+of cities.
+
+
+3. METHODOLOGY AND DATA
+
+3.1. Study region
+We build our analytical framework around the case of nineteen Chinese ‘urban regions’ (URs)
+(see Figure 1). These are administrative regions as outlined in the 14th National Plan, in
+which economic activities between individual cities are (supposed to be) strongly integrated
+(Fang, 2015). In 2019, these URs collectively accounted for 70% of all prefecture-level munici­
+palities in China, 29% of land resources, 73% of the total population and around 80% of GDP. A
+complete list of these URs, alongside socio-economic statistics, is presented in Appendix A in the
+online supplemental data.
+
+
+3.2. Measuring polycentricity
+For each of these nineteen URs, we calculate a degree of morphological polycentricity by measur­
+ing ‘balance’ in city-size distributions. While there are many ways to measure this (Derudder
+
+
+                                                                                 SPATIAL ECONOMIC ANALYSIS
+180    Y. Yang et al.
+
+
+
+
+Figure 1. Location of the 19 urban regions under investigation.
+
+
+
+et al., 2021), we use a standard deviation-based method (Green, 2007):
+
+                                                      sobs
+                                         Poly = 1 −                                             (1)
+                                                      smax
+
+where Poly indicates the degree of polycentricity of a UR; sobs represents the observed standard
+deviation of the population of all cities in a UR; smax is the maximum standard deviation in a
+hypothetical two-city UR where one city has no population and the other has the highest
+observed population. Poly ranges from 0 (no polycentricity) to 1 (an ideal-typical PUR where
+all cities are equally large). In line with Liu et al. (2019), we identify cities or ‘urban centers’
+based on the LandScanTM population dataset.1
+
+
+SPATIAL ECONOMIC ANALYSIS
+                                                  Agglomeration externalities or network externalities?   181
+
+
+
+3.3. Operationalising agglomerations, network connectivity and regional
+economic development
+An agglomeration is measured here by using the population density of an UR, calculated as the
+number of inhabitants per unit urban area (Li & Liu, 2018).
+    We construct urban networks within URs through the lens of enterprise investments. We first
+construct a city-to-city matrix by aggregating the enterprise flows between each city pair2 in the
+same UR. We then study the network characteristics by using three network-analytical indi­
+cators: weighted degree (Equation (2)), weighted clustering coefficient for cities (Equation
+(3)) and global weighted clustering coefficient for URs (Equation (4)) (Lu & Sun, 2021). The
+first two indicators reflect the connectivity of a city in the network, while the final one demon­
+strates the density of the entire urban network at the level of the region:
+                                                  􏽐
+                                           Wi =       Eij nij                                   (2)
+                                                  j[n
+
+Where Wi represents the weighted degree of city i with neighbouring cities in the same UR. Eij is
+the weight of the edge between city i and j, represented by the level of enterprise investment
+between i and j ; nij is the number of cities connected to city i; and n is the total number of cities
+in the urban network.
+                                         1      􏽘 Nij + Nik
+                             Ci =                           aij aik aik                                   (3)
+                                    Wi (Ki − 1) ( j,k) 2
+
+Where Ci represents the weighted clustering coefficient for city i. Wi is the weighted degree of
+city i. Ki is the number of edges between city i and its neighbouring cities. Nij and Nik represent
+the edge weight between city i with neighbouring cities j and k, respectively. aij , aik and a jk cap­
+ture the presence of connections (i.e., the value equals 1 if the two cities are connected, otherwise
+the value is 0). We then use Equation (4) to calculate the average value of Ci of all cities in region
+r to denote the global weighted clustering coefficient Gr of region r:
+                                                  1􏽘n
+                                           Gr =       Ci                                                  (4)
+                                                  n 1
+
+Regional economic development is proxied through labour productivity (LP), operationalised by
+GDP in the secondary and tertiary sectors divided by the size of the labour force.
+
+
+3.4. Econometric model
+3.4.1. Spatial econometric model
+As a first step, we use Moran’s I to assess the appropriateness of adopting a spatial econometric
+approach. We find that the spatial effects are significant3 and, therefore, introduce a spatial auto­
+regressive model (SAR)4 to test our hypotheses:
+          LPit = a1 NETit + a2 AGGit + a3 POLYit + rMij LPit + Xit + ∂i + qt + tit                        (5)
+where LPit denotes the labour productivity of UR i in year t; NETit and AGGit represent the
+density of urban networks (i.e., Gr in Equation (4)) and the population density of UR i in
+year t, respectively; POLYit is the degree of polycentricity; ∂i and qt represent the spatial fixed
+and time fixed effects, respectively; Mij denotes the spatial weights matrix and r is the spatial
+autoregressive parameter. To verify hypotheses 2, 4, 5 and 6, the interaction items AGGit ∗
+POLYit , NETit ∗ POLYit , NETit ∗DISi and NETit ∗ AGGit are also included. DISi denotes the
+distance between cities within UR i, calculated based on the average driving distance between
+each city pair5 within UR i.
+
+
+                                                                                  SPATIAL ECONOMIC ANALYSIS
+182    Y. Yang et al.
+
+
+
+   The spatial weight matrix Mij is constructed using the inverse geographical distance
+between different URs. As per Equation (6), the matrix is calculated based on the average
+driving distance among cities in UR i and j (dij ). In so doing, it is assumed that the matrix
+through geographical relations does not reflect the economic relations between URs
+(Huang et al., 2020) so that the spatial spillover effect (if any) can be attributed to the
+actual inter-city interaction and could thus partly alleviate the endogeneity concern of
+our model:
+                       ⎧
+                       ⎨ 􏽐          1
+                                                  , i = j, n [ UR i, m [ UR j
+                Mij = ( n,m  i=1,j=1 dij )average                                          (6)
+                       ⎩
+                                                     0, i = j
+Other variables that might determine the level of regional productivity are also controlled
+for (Xit ), including the UR’s capital stock (i.e., the aggregated amount of physical capital,
+which is divided by the workforce in the secondary and tertiary sector, ‘CLR’), human
+capital (the ratio of students who received higher education to the total population,
+‘HUM’), information level (the government expenditure on postal and telecommunica­
+tions services, ‘INF’), industrial level (the ratio of GDP in the secondary industry to
+that of tertiary industry, ‘TIN’), foreign direct investment (the ratio of FDI to GDP,
+‘FDI’), government intervention (the ratio of government expenditure to revenue, ‘GOV’).
+
+
+3.4.2. Dealing with endogeneity
+Alongside the potential endogeneity issues with Mij , some of our explanatory variables can
+also be endogenous. We adopt IVs to deal with this issue. The procedure consists of two
+steps: (i) we conduct a regression using the endogenous variables as the dependent vari­
+able, after which the predicted values from the regression are used as new variables;
+after which (ii) we regress the independent variables on the newly generated variable.
+To correctly identify the effects of externalities on regional economic development, the
+IVs should be correlated with the present-day urban structure but not with present-day
+economic productivity. For this purpose, and drawing on earlier studies (Ouwehand
+et al., 2022), we use two historical variables (for AGG and NET) and one predicted vari­
+able (for POLY):
+
+(1) population density in 1978 and 1992 (AGG_H);
+(2) urban network density in 1978 and 1992 (NET_H);
+(3) ‘predicted’ degree of polycentricity in 2010 and 20196 (POLY_P).
+
+    AGG_H is constructed in the same way as our present-day variable. As for NET, we build
+two historical IVs given the rarer interactions between cities in 1978 – the weighted clustering
+coefficient and counts of inter-city investment within URs. We develop an instrumental vari­
+able (POLY_P) for POLY based on geographic obstacles encountered by expanding urban
+areas. The underlying idea is that urban shapes have a predictive power on polycentricity, as
+households and firms may account for city shapes by dispersing throughout the urban areas
+and forming new centres around job locations (Harari, 2020). Furthermore, urban shapes
+evolve, encountering different sets of geographic constraints (e.g., steep terrain or bodies of
+water) and subsequently developing in more favourable locations. In other words, POLY_P
+captures geographical constraints that urban areas face at different stages of their predicted
+growth. Specifically, we forecast the present urban population (for 2010 and 2019) based on
+the historical population growth rate (from 1978 to 1992). Details for this IV can be found
+in Yang et al. (2023).
+
+
+SPATIAL ECONOMIC ANALYSIS
+                                                   Agglomeration externalities or network externalities?   183
+
+
+
+3.5. Data
+The descriptive statistics of all variables and data sources are provided in Appendix B in the
+online supplemental data. Enterprise data used to construct urban networks were retrieved
+from Qichacha (www.qichacha.com). Qichacha is one of the largest, most comprehensive web­
+sites that provide registration information on all Chinese enterprises (establishing time, location,
+credit risk, etc.) in China. This platform is renowned for its comprehensive, up-to-date and inte­
+grated datasets, and it has been widely used in previous studies in regional science and cognate
+fields (e.g., Chen et al., 2021; Xu et al., 2023; Zhao et al., 2018). In our research, we extract infor­
+mation regarding the ownership structure of all registered firms (i.e., the distribution of control­
+ling interest in the stock market) to depict the directed connection of inter-city investment flows.
+Notably, this type of information is commonly used in urban network studies in China, for
+example, to study spatial–temporal evolution (Yang et al., 2022) or multi-scale characteristics
+(Guo et al., 2023). As of June 2020, the database we constructed contained 249 million records
+of firms in the selected 226 cities from 1978 to 2019. We integrate these records into urban net­
+works (as detailed in Section 3.3) for the years 1978 (54 links), 1992 (648 links), 2001 (1511
+links), 2010 (2195 links) and 2019 (2709 links). This is not ideal, but the five-year panel data
+seems sufficient to depict dynamics in regional spatial structure.
+
+4. RESULTS
+
+4.1. Urban networks and polycentricity in Chinese URs
+Figure 2 visualises the urban networks and the degrees of polycentricity of URs across China.
+Three patterns stand out (see Appendix E in the online supplemental data for more detailed
+figures).
+    First, the URs with the strongest urban networks are concentrated in coastal China, with
+Beijing-Tianjin-Hebei (BTH) and the Pearl River Delta (PRD) clearly standing out, alongside
+other URs like the Yangtze River Delta (YRD) and Shandong Peninsula (SDP). Second, all URs
+recorded a connectivity rise. Still, this increase is geographically uneven, with especially cities in
+
+
+
+
+Figure 2. Urban networks and urban polycentricity in URs in China in 2001 and 2019.
+
+
+                                                                                   SPATIAL ECONOMIC ANALYSIS
+184    Y. Yang et al.
+
+
+
+the Yangtze River Middle-Reach (YRM) and Chengdu-Chongqing (CHC) becoming more
+connected (while cities in northeastern and southwestern URs remain poorly connected).
+Third, URs with stronger inter-urban connectivity are generally also more polycentric, with
+the strongest polycentricity situated in eastern China (the latter observation has also been docu­
+mented in Liu et al., 2019).
+
+4.2. Regression results
+The stepwise regression results of the SAR model are reported in Table 1. The table is structured
+into two main sections: Main effect and Spatial autoregressive effect. Main effect reports the local
+influence of the explanatory variables on a region’s productivity; Spatial autoregressive effect
+reflects the influence of dependent variables (productivity) from the neighbouring regions. In
+general, the autoregressive coefficients r are significant, showing that spatial spillovers of regional
+productivity are indeed present. The average R2 values of all nine models are above 0.65, pointing
+to a sizeable explanatory power of our models. We now discuss each of these models in turn.
+    The first model is the baseline model and only includes the control variables. The results
+suggest that productivity is positively associated with the factor inputs (CLR and HUM) and
+TIN and negatively associated with GOV, in line with the findings of earlier studies (e.g.,
+Yang et al. 2022). These variables are statistically significant and remain broadly consistent across
+the nine models. The coefficients for INF and FDI have negative signs. For INF, which reflects
+government investments in communication services, regulation costs may lead to a decline in
+productivity (Yeo, 2009). The negative influence of FDI may be attributed to its crowding effect
+on the local economy (Yao & Salim, 2020).
+    Model 2 includes POLY and indicates that the effect of POLY on LP is significantly positive.
+Some earlier studies focusing on the Chinese context arrived at opposite conclusions. Still, these
+differences may be (in part) attributable to the use of different economic measures such as TFP
+(Yang et al., 2023) and GDP (Wang et al., 2022). Furthermore, our findings align with earlier
+empirical work that employed a similar economic measure (Wang et al., 2019).
+    The third and fourth models include our variables of interest: AGG and AGG*POLY. We
+find that the increase in population density is an important driver of regional productivity. A
+10% increase in population density leads to a 2.6% increase in productivity. However, the
+regression coefficient for AGG*POLY is not significant, indicating that the benefits from
+agglomeration are the same across URs with different degrees of polycentricity. This can be
+explained by businesses and individuals, irrespective of being located in more or less polycentric
+urban regions, reaping benefits from the proximity and interaction facilitated by high population
+density. As a result, hypothesis H1 is accepted while H2 is rejected.
+    The fifth and sixth models include the variable NET and the interaction term NET*POLY.
+Both variables’ coefficients are significant7, suggesting that (i) network externalities unfold at the
+UR level and (ii) the impact of NET is more prominent in URs with higher POLY. The latter
+observation is consistent with Meijers and Burger (2017), who found that borrowed size pro­
+cesses (the positive dimension of network externalities) predominantly occur in polycentric
+regions. This can also be interpreted as urban networks enhancing the effect of polycentricity
+on regional productivity. Thus, H3 and H4 are accepted.
+    The seventh model includes the interaction term NET*DIS and suggests that there is no evi­
+dence that benefits derived from urban networks depend on the geographical distance between
+cities. H5 is, therefore, rejected.
+    Additionally, judging from Model 8 and its lack of significant sign for the interaction term
+NET*AGG, we find that agglomeration externalities do not complement network externalities
+in line with our expectations (H6). This result can be interpreted in two ways: first, a network of
+cities cannot substitute for the agglomeration externalities of one large city; and second, the
+advantages of agglomeration may not depend on the interaction between cities.
+
+
+SPATIAL ECONOMIC ANALYSIS
+                            Table 1. Regression result of SAR.
+                            Variables     Model 1          Model 2                  Model 3             Model 4           Model 5           Model 6           Model 7           Model 8           Model 9
+                                              /             POLY                     AGG               AGG*POLY            NET             NET*POLY           NET*DIS           NET*AGG            ALL
+
+                                                                                     H1                  H2                H3                H4                H5                H6
+                            Main
+                            POLY                               0.37 (0.18)**      0.29 (0.12)**        0.35 (0.10)**     0.35 (0.17)**     0.35 (0.16)**     0.48 (0.17)**     0.47 (0.16)**     0.42 (0.22)*
+                            AGG                                                   0.26 (0.10)**        0.27 (0.10)**                                                           0.29 (0.10)**     0.29 (0.09)**
+                            NET                                                                                          0.09 (0.04)**     0.07 (0.03)**     0.09 (0.04)**     0.08 (0.03)**     0.08 (0.03)**
+                            DIS                                                                                                                             −0.37 (0.22)*                       −0.37 (0.26)*
+                            CLR              0.23 (0.14)*      0.25 (0.18)*       0.05 (0.01)**        0.04 (0.00)**     0.02 (0.15)*      0.25 (0.18)*      0.20 (0.08)*      0.12 (0.13)**     0.30 (0.17)*
+                            HUM             0.25 (0.11)**      0.16 (0.10)*       0.10 (0.20)          0.06 (0.20)       0.05 (0.01)**     0.17 (0.10)*      0.25 (0.12)*      0.17 (0.20)       0.20 (0.20)
+                            INF            −0.17 (0.09)** −0.21 (0.09)**        −0.29 (0.08)*** −0.28 (0.08)**          −0.25 (0.08)**    −0.19 (0.08)**    −0.24 (0.08)**    −0.32 (0.08)*** −0.33 (0.08)***
+
+
+
+
+                                                                                                                                                                                                                  Agglomeration externalities or network externalities?
+                            TIN              0.35 (0.26)*      0.53 (0.30)*       0.70 (0.29)**        0.75 (0.29)**     0.45 (0.29)*      0.43 (0.27)*      0.45 (0.10)*      0.62 (0.27)**     0.59 (0.27)
+                            FDI             −0.06 (0.04)* −0.11 (0.04)**        −0.01 (0.01)*         −0.10 (0.03)**    −0.10 (0.03)**     0.00 (0.03)      −0.10 (0.03)**    −0.10 (0.03)**    −0.13 (0.03)***
+                            GOV            −0.24 (0.10)** −0.21 (0.10)*         −0.14 (0.10)*         −0.12 (0.10)      −0.14 (0.10)      −0.18 (0.09)**    −0.16 (0.10)*     −0.05 (0.09)      −0.07 (0.09)
+                            NET*DIS                                                                                                                          0.17 (0.14)                        −0.05 (0.04)
+                            NET*AGG                                                                                                                                           −0.03 (0.05)      −0.09 (0.04)*
+                            NET*POLY                                                                                                       0.18 (0.07)**                                         0.32 (0.17)*
+                            AGG*POLY                                                                   0.45 (0.47)                                                                               0.44 (0.44)
+
+
+
+
+SPATIAL ECONOMIC ANALYSIS
+                            Spatial
+                            r              0.75 (0.05)***      0.75 (0.06)***     0.70 (0.07)***       0.70 (0.07)***    0.65 (0.09)***    0.66 (0.07)***    0.70 (0.11)***    0.65 (0.12)***    0.66 (0.11)***
+                            Observations          57              57                 57                  57                57                57                57                57                57
+                            R²                   0.67           0.68               0.69                 0.69              0.73              0.73              0.73              0.72              0.73
+                            Notes: ***p < 0.01, **p < 0.05, *p < 0.1. Std. Err. are in parentheses.
+
+
+                                                                                                                                                                                                                  185
+186    Y. Yang et al.
+
+
+
+    And finally, Model 9 tests all our hypotheses simultaneously. All the above interpretations still
+hold, except that the NET*AGG variable becomes statistically significant. The latter may be
+attributed to the confounding effect from the inclusion of other interaction items, and therefore,
+we regard results in Models 1 through 8 as our final findings. We will discuss these results at more
+length in Section 5.
+    We now decompose the total impact (impact from the UR itself and proximate URs) of
+Model 8 (Table 1) into direct impact (impact from the UR itself) and indirect impact (impact
+from other URs) in Table 2. The results suggest that there is a spatial spillover effect of
+POLY. While previous studies have identified such an effect concerning environmental effects
+(Han et al., 2020), our research suggests that spatial spillover effects of POLY may also apply
+to economic outcomes. Additionally, we observe that AGG is limited to the regional scale,
+while NET has a larger spatial scope (the indirect effects of NET are significant and positive,
+while the indirect effects of AGG are not statistically significant). This is in line with Huang
+et al.’s (2020) observation that network externalities have no obvious geographical boundaries,
+while spatial spillover effects of agglomeration externalities are not significant.
+
+4.3. Robustness checks
+The above results indicate that the degree of urban polycentricity, agglomeration and network
+externalities are positively related to regional productivity. In this section, we check whether
+such a finding is robust to (i) the causal direction and (ii) different indices of polycentricity.
+
+4.3.1. Causal relation
+The second stage of our IV regressions is reported in Table 3, alongside the standard tests for the
+relevance and exogeneity of the instruments. Throughout the models, both the tests on the rel­
+evance of the excluded instruments and the test of identification provide convincing evidence for
+the validity of our instrument.8 From the endogeneity test results, it can be concluded that our
+variables of interest – POLY, NET and AGG – can be treated as exogenous.9
+    Considering the significance of the IV coefficients in the second-stage results of estimations,
+we find confirmation of the results reported in Table 1. In particular, along with the positive
+influence of polycentricity on regional productivity, the effects of agglomeration and network
+externalities are consistently positive (Models (2) and (3)). In addition, the sizes of the coeffi­
+cients in these specifications are larger but comparable to those in Table 1.
+
+4.3.2. Alternative polycentricity measurements
+Recent studies (Bartosiewicz & Marcińczak, 2020; Derudder et al., 2021; Thomas et al., 2022)
+highlighted that polycentricity indices can be sensitive to methodological choices. Consequently,
+findings regarding the economic impact of polycentricity may vary depending on analytical-oper­
+ational elements. To enhance the robustness of our results, we re-run Model (3) (Table 1) by
+replacing POLY (standard deviation-based, hereafter referred to as POLY_S) with POLY_P
+(primacy-based index), POLY_H (Herfindal-based index) and POLY_R (rank size-based
+index) (details on their calculations are available in Appendix F in the online supplemental
+data). The findings are presented in Table 5 in Appendix F. We find that Models using
+POLY_S and POLY_H (Models (1) and (2)) yield consistently positive results. However, the
+regression coefficients for the other two measures, POLY_P and POLY_R (Models (3) and
+(4)), are not significant.
+    It is important to note that these results do not necessarily imply a lack of robustness in our
+findings. Instead, they provide implications for how differently these measures are formulated
+and what aspects of polycentricity they capture.10 We still refer to the result using POLY_S
+as our conclusion for two reasons. Firstly, POLY_S aligns best to our research focus, specifically
+in assessing how a population is evenly distributed in space. Secondly, previous studies, such as
+
+
+SPATIAL ECONOMIC ANALYSIS
+                            Table 2. Results of spatial effect decomposition.
+                            Variables            POLY            AGG          NET                   CLR      HUM       INF      TIN       FDI     GOV      NET*AGG
+
+                            Direct effect          0.22***           0.23**            0.06*        0.04*    0.15*    −0.23**   0.16     −0.05*   −0.11*    −0.03
+                                                    (0.02)            (0.10)          (0.03)        (0.01)   (0.10)    (0.08)   (0.24)   (0.03)   (0.06)    (0.06)
+
+
+
+
+                                                                                                                                                                     Agglomeration externalities or network externalities?
+                            Indirect effect          0.33**             0.37          0.08**         0.01     0.26    −0.37*    0.29       0.00   −0.23*    −0.04
+                                                    (0.05)            (0.30)          (0.02)        (0.27)   (0.26)    (0.25)   (0.58)   (0.07)   (0.13)    (0.12)
+                            Total effect             0.55**             0.60           0.14*        0.05*     0.41    −0.60**   0.44     −0.05    −0.35*    −0.08
+                                                    (0.10)           (0.37)*          (0.10)*       (0.01)   (0.33)    (0.29)   (0.80)   (0.10)   (0.19)    (0.17)
+                            Notes: ***p < 0.01, **p < 0.05, *p < 0. Std. Err. are in parentheses.
+
+
+
+
+SPATIAL ECONOMIC ANALYSIS
+
+                                                                                                                                                                     187
+188     Y. Yang et al.
+
+
+
+Table 3. Instrumental variable estimation.
+                                                      Model (1)             Model (2)         Model (3)
+Variables                                              POLY_P                AGG_H             NET_H
+
+POLY                                                 0.86 (0.31)**         0.37 (0.16)*      0.67 (0.18)***
+AGG                                                                        0.35 (0.22)*
+NET                                                                                          0.06 (0.04)*
+CLR                                                  0.05 (0.20)           0.06 (0.14)       0.00 (0.14)
+HUM                                                  0.04 (0.10)           0.00 (0.14)       0.03 (0.01)
+INF                                                 −0.29 (0.08)***       −0.39 (0.10)***   −0.30 (0.09)***
+TIN                                                  0.79 (0.05)***        1.00 (0.30)**     0.68 (0.29)**
+FDI                                                 −0.06 (0.05)          −0.02 (0.04)      −0.03 (0.03)
+GOV                                                 −0.16 (0.10)*         −0.01 (0.13)      −0.11 (0.12)
+Observations                                        38                    38                38
+R-squared                                            0.53                  0.53              0.57
+Year fixed                                         YES                    YES               YES
+F-test of excluded instrument
+POLY                                                11.03
+AGG                                                                        4.46
+NET                                                                                          6.62
+Underidentification test
+Kleibergen-Paap rk LM                                5.20**                5.58**           12.30**
+Weak identification test
+Cragg-Donald Wald F                                 23.71                 12.46             16.46
+LIML size of nominal 5% Wald test (15%)              8.96                  8.96             11.59
+Overidentification test
+Sargan (score) chi2(1)                                /                     /                0.56
+Endogeneity test
+Durbin-Wu-Hausman chi-sq.                            1.46                  0.87              0.22
+Wu-Hausman                                           1.28                  0.68              0.16
+Notes: ***p < 0.01, **p < 0.05, *p < 0.1. Std. Err. are in parentheses.
+
+
+
+Wang (2021), have established a strong correlation between polycentricity indicators based on
+standard deviation (in our case, POLY_S) and rank-size regressions (POLY_R). This strong
+correlation suggests that these two measures can serve as a robustness check for each other in ana­
+lyses conducted in the Chinese context (Derudder et al., 2021), thus reinforcing the validity of
+our approach.
+
+
+5. DISCUSSION AND CONCLUSIONS
+
+Previous studies have examined the importance of a city’s embeddedness in various kinds – firms,
+capital, knowledge, people and goods – to understand its economic performance (Bel & Fageda,
+2008; Meijers & Cardoso, 2021; Taylor, 2003). In addition to discussing network benefits at the
+level of individual cities, this question can also be scrutinised at the level of urban regions: ‘What
+is the aggregate of local outcomes at the network level in terms of regional economic
+
+
+SPATIAL ECONOMIC ANALYSIS
+                                                  Agglomeration externalities or network externalities?   189
+
+
+
+performance?’ (Meijers & Burger, 2017, p. 108). And how important are these network advan­
+tages vis-à-vis agglomeration benefits?
+    This paper aims to contribute to these debates by situating these questions in the context of
+polycentric development in China. More specifically, our analysis adds to the existing literature in
+three main ways. First, we consolidate the concept of network and agglomeration externalities in
+one framework (Capello, 2000; Parr, 2002). Second, we use spatial-econometric methods to
+investigate whether network relations provide spatial spillover effects. Third, we adopt an IV
+strategy, which allows us to collect robust evidence to verify the hypothesised causal effects.
+The empirical analysis resulted in six main findings:
+
+(1) Both network externalities and agglomeration externalities have a positive impact on
+    regional productivity.
+(2) There is no evidence that network externalities attenuate with the distance between cities
+    within urban regions.
+(3) Network externalities do not substitute for agglomeration externalities.
+(4) Agglomeration externalities remain consistent in urban regions with different degrees of
+    polycentricity.
+(5) Network externalities are more prominent in more polycentric urban regions.
+(6) Compared to agglomeration externalities, network externalities may spill over on a larger
+    scale.
+
+
+    Finding (1) aligns with previous findings (Li and Liu, 2018; Meijers & Burger, 2010) and
+hints at the associated advantages of population agglomeration (such as a diversified labour
+pool, large local markets and strong service provisioning) and network connectivity for regional
+productivity. Regarding the initial question we posed – is it more beneficial to strengthen urban
+networks or to foster the growth of large and dense cities? – the answer is nuanced. Providing a
+definite answer merely through the statistical results can be challenging due to the distinct
+analytical construction of the two types of externalities (which we will elaborate on later). Never­
+theless, our findings highlight the increasing importance of network externalities in Chinese URs
+for the following three reasons. First, the connectivity between cities in most URs has rapidly
+increased (Figure 2). Second, compared to agglomeration externalities, network externalities
+are not restricted to the regional scale (finding 6). Third, more polycentric regions seem more
+conducive to developing network externalities (finding 5). In contrast, the benefits of agglomera­
+tion remain consistent across URs with different degrees of polycentricity (finding 4).
+    While earlier findings indicated that network externalities depend on cities’ local conditions
+(such as population size), we find that the link between network externalities and regional pro­
+ductivity holds irrespective of specific regional characteristics (in our case, territorial scale rep­
+resented by the distance between cities) (finding 2). This may be related to using different
+geographical scales and/or other analytical frameworks. At the scale of the individual city,
+some have found that network-related benefits differ according to several elements such as
+urban size (Camagni et al., 2017), development stages (Meijers and Burger, 2017) and position
+in the network (Huang et al., 2020). The importance of these elements is easy to understand as
+cities may fulfil different specialised ‘roles’ in different kinds of urban networks (Meijers & Car­
+doso, 2021). However, irrespective of which cities benefit (or not) from their functioning in
+urban networks, network externalities arise at the level of the UR as a whole. If considering
+URs as spatial units in a larger network, i.e., being part of the national network, the outcomes
+of being embedded in networks of individual URs may depend on their local conditions (terri­
+torial scale). For example, Meijers et al. (2016) found that connectivity in (inter)national net­
+works benefits only a number of URs.
+
+
+                                                                                  SPATIAL ECONOMIC ANALYSIS
+190    Y. Yang et al.
+
+
+
+    We expect that urban networks would substitute for the benefits of agglomeration to improve
+regional productivity but do not observe such an effect (finding 3). Two interpretations can be
+made: first, the benefits of density cannot be replicated by the benefits derived from network
+development (at least not by the specific type of enterprise network we construct); second, the
+advantages derived from this type of network are not contingent upon geographical proximity.
+Similar conclusions have been drawn in several studies: Huang et al. (2020) found that there
+is no interaction effect between cities’ positions in transport networks and benefits of industry
+agglomeration, and Meijers et al. (2016) found that regional network connectivity (via road,
+rail and air) cannot substitute for regional size in several metropolitan functions. However,
+some studies, such as Meijers and Cardoso (2021), support the idea that networks can substitute
+for size, as they found that cities that are more strongly related to others tend to have more func­
+tions than expected. These diverging findings stress the importance of better understanding the
+kind of urban networks that might complement agglomeration effects. After all, as suggested by
+Burger et al. (2014), urban networks are multiplex phenomena, and one type of functional link­
+age in a network may substitute for the advantages of agglomeration, while another type might
+not necessarily do so.
+    Our final reflection concerns the analytical framework employed in this study. We aimed to
+examine how agglomeration and network externalities are organised at the UR level. While we
+operationalised agglomeration externalities on the basis of population density, it was less
+straightforward to do this for network externalities. Constructing networks at the inter-urban
+region level (as compared to the city-level) is more challenging due to limited data on interactions
+between integrated regional units (while city-level data on transportation, knowledge collabor­
+ation and financial flows is usually more abundant (Huang et al., 2020)). We devised a two-
+fold approach to capture regional network externalities to address this challenge. Firstly, we
+introduced a variable representing network density and incorporated it into our regression
+models. Secondly, we built a spatial weight matrix using the average driving distance between
+cities in different URs to measure the spillover effect of network connectivity. In other words,
+we explored the extent to which the connectivity of one urban region influences the productivity
+of neighbouring URs. In so doing, we treated network externalities as both local and regional
+phenomena, assuming that their effects can transcend city boundaries and extend to the broader
+urban regions. This perspective complements earlier studies that conceptualise network extern­
+alities as ‘club’ goods (i.e., only cities that are partners in the urban networks are influenced)
+(Camagni & Salone, 1993; Capello, 2000), as well as ‘public’ goods (i.e., the broader collective
+of cities (urban regions) are influenced as a whole) (Cornes & Sandler, 1996).
+    To conclude, our results call for further research in several ways. First, the divergent results
+stemming from different polycentricity measures suggest that the degree of (morphological)
+polycentricity may not be as crucial as previously thought. This underscores the importance of
+integrating network perspectives alongside traditional measures of polycentricity. A shift toward
+network thinking, which stresses the importance of cities’ positions within the inter-city flows of
+people, information and goods allows for a more comprehensive understanding of urban
+dynamics. Second, our analysis could be extended by incorporating different sorts of urban net­
+works. The economic benefits of enterprise networks could spill over on a larger scale, which may
+not be the case with other networks such as air passenger or logistics flows (Zheng et al., 2019).
+Integrating multi-source data to identify a multiplex urban network may help conduct a more
+systematic search for network externalities.
+    Third, we found no geographical distance-decay effect of network externalities. However,
+sociologically defined types of proximities (e.g., organisation and community proximity)
+(Boschma, 2005) may play a more critical role than geographical proximity. This needs to be con­
+sidered when making claims about the proximity-sensitive effect of urban networks. Fourth, our
+research builds urban networks at the regional scale. Recently, Guo et al. (2023) found that the
+
+
+SPATIAL ECONOMIC ANALYSIS
+                                                   Agglomeration externalities or network externalities?   191
+
+
+
+flow of enterprise investment among cities changed from ‘being within-region to primarily being
+inter-regional’ (p. 1). In this respect, it would be interesting to see whether different spatial scales
+present different network patterns and whether sensitivity issues occur when linking various net­
+works and economic outcomes. Lastly, a consistent application of methods to operationalise
+agglomeration and network externalities should be adopted in future studies (as in Van Meeteren
+et al. (2016)). This would provide a precise understanding of the dynamics between different
+types of externalities, regional spatial structures and regional economic development.
+
+
+DISCLOSURE STATEMENT
+
+No potential conflict of interest was reported by the author(s).
+
+FUNDING
+
+This work was supported by Bijzonder Onderzoeksfonds UGent [grant number 01SC0820];
+China Scholarship Council [grant number 202006040029]; Research Foundation – Flanders
+(FWO) [grant number G014119N]; KU Leuven research grant [grant number C14/21/021]
+and National Science Centre (Poland) funds [grant number 2020/38/A/HS4/00312].
+
+NOTES
+1
+    We first create a density file for individual cities and rank individual grids based on their popu­
+lation size. Second, we set a density cut-off at the city’s 95-percentile gridded population and select
+the 5% most populated grids. Third, we combine grids that are eight-adjacent with each other into
+clusters. Those clusters containing more than 100,000 inhabitants and covering at least 3 km² are
+identified as ‘urban centers’ and then introduced in Equation (1) at the level of URs.
+2
+    This is a simplification of reality that may not do justice to the complexities of urban and
+regional processes. In China, small counties are in the sphere of influence of large cities.
+Hence, cities may not be entirely separate nodes but may be part of a larger agglomeration along­
+side other not-included nodes. Nevertheless, we adopt this network-analytical approach due to
+its alignment with our conceptual idea about how cities are interconnected in urban networks.
+3
+    The Moran’s I analysis of productivity variable is significant (0.05 with a p-value equalling
+0.002 in 2019) for the distance spatial matrix.
+4
+    Four spatial data models have been extensively adopted in the literature, including the spatial
+autoregressive model (SAR), spatial error model (SEM), spatial lag model (SLM) and spatial
+Durbin model (SDM). The results of model selection tests are presented in Appendix D in
+the online supplemental data. Basically, the Lagrange multiplier (LM) tests indicate that the
+SAR model is more appropriate than the others. Besides, the Hausman test results support
+the fixed effects model. Therefore, we select the SAR model that includes time and spatial
+fixed effects in subsequent analysis.
+5
+    The shortest driving times between cities are obtained from the Gaode map product on
+https://maps.gaode.com/. This map platform provides people with details of fastest travel time
+and route for different modes of transportation.
+6
+    We use panel data and hence require panel IVs. Since the historical urban networks data are
+available for 1978 and 1992, we use the two-year data setting (2010 and 2019) in the IV estimation.
+7
+    While we observe a significantly positive influence of NET*POLY, we take additional steps to
+validate this finding. As suggested by Chu & Zhang (2021), relying solely on the statistical sig­
+nificance for asserting interaction effects could be misleading. There are three potential issues
+that could compromise the validity of claiming the interaction effect, namely: (1) explanatory
+
+
+                                                                                   SPATIAL ECONOMIC ANALYSIS
+192    Y. Yang et al.
+
+
+
+variables are nonlinearly correlated (i.e., the squared terms of the explanatory variable X exhibits
+strong explanatory power on Y, while X is linearly correlated with Z); (2) tail dependence (i.e.,
+the extreme values in X are associated with extreme values in Z); and (3) heterogeneity (i.e., the
+variance of errors is constant). Following Chu and Zhang’s (2021) suggestions, we conduct sev­
+eral tests (correlation test, tail-dependence test and Breusch-Pagan test) to ascertain the presence
+of interaction effects in the two variables. The detailed results are provided in Appendix C in the
+online supplemental data.
+8
+    The underidentification test examines the null hypothesis that IVs have insufficient power to
+predict the endogenous variables. The Kleibergen-Paap rk LM statistics suggests to reject the
+hypothesis. The Cragg-Donald F-statistics tests whether there is a weak-instrument problem.
+This is not the case in our models as all the F-statistics exceeds the critical values (the bias of
+IV estimation, relative to the bias of SDM model, did not exceed the threshold of 15%). Finally,
+as we have more instruments than endogenous variable NET, we conduct an overidentification
+test to verify if the additional instruments are exogenous. The results suggest that there need to be
+more instruments than endogenous regressors.
+9
+    The endogeneity test is conducted using Durbin-Wu-Hausman chi-sq and Wu-hausman tests.
+As both statistics are not significant at a 10% confidence level, we should accept the null hypoth­
+esis that there is no endogenous relation between different types of externalities, polycentricity
+and productivity.
+10
+     Based on the calculation methods in Appendix E, we summarise the key characteristics of these
+polycentricity measures. POLY_R evaluates the extent to which the distribution of urban popu­
+lation across different cities adheres to a rank-size distribution. POLY_S, similarly, reflects the
+extent to which the actual urban population distribution deviates from the maximum standard devi­
+ation that could theoretically occur in a two-city urban region. It is important to note that to ensure
+comparability between different polycentricity indexes, we include all the cities in the calculation of
+calculate POLY_R, as we did for POLY_S (as suggested by Derudder et al., 2021). Both POLY_R
+and POLY_S share a common focus on how evenly the population is distributed across all cities,
+and our calculation reveals a relatively high correlation coefficient between them (0.67). POLY_P,
+however, is slightly different in that it quantifies the dominance of the largest city within the region.
+POLY_H measures the degree to which one or a few cities dominate the overall population share.
+POLY_P and POLY_H exhibit a strong correlation with a coefficient of 0.82. These indicators
+yield wide-ranging results in terms of polycentricity degree. However, it is worth noting that the
+operational procedure to measure some of these indicators aligns more closely with the conceptual
+definition of polycentricity than others. For example, Bartosiewicz and Marcińczak (2020) suggest
+that POLY_P is more relevant to the process of deconcentration (which is in contrast to the con­
+centration of population in a few dominant cities) than to polycentricity per se. As such, we still
+refer to the result obtained using POLY_S as our final conclusion.
+
+ORCID
+
+Yuting Yang http://orcid.org/0000-0001-9844-5750
+Jiayi Lu http://orcid.org/0000-0002-7731-1937
+Freke Caset http://orcid.org/0000-0003-1998-986X
+Ben Derudder http://orcid.org/0000-0001-6195-8544
+
+REFERENCES
+
+Alonso, W. (1973). Urban zero population growth. Daedalus, 102(4), 191–206.
+Bartosiewicz, B., & Marcińczak, S. (2020). Investigating polycentric urban regions: Different measures–different
+    results. Cities, 105, 102855. https://doi.org/10.1016/j.cities.2020.102855
+
+
+
+SPATIAL ECONOMIC ANALYSIS
+                                                         Agglomeration externalities or network externalities?   193
+
+
+
+Bel, G., & Fageda, X. (2008). Getting there fast: Globalization, intercontinental flights and location of headquar­
+    ters. Journal of Economic Geography, 8(4), 471–495. https://doi.org/10.1093/jeg/lbn017
+Boschma, R. (2005). Editorial: Role of proximity in interaction and performance: Conceptual and empirical chal­
+    lenges. Regional Studies, 39(1), 41–45. https://doi.org/10.1080/0034340052000320878
+Burger, M. J., & Meijers, E. J. (2016). Agglomerations and the rise of urban network externalities. Papers in
+    Regional Science, 95(1), 5–16. https://doi.org/10.1111/pirs.12223
+Burger, M. J., Meijers, E. J., Hoogerbrugge, M. M., & Tresserra, J. M. (2015). Borrowed size, agglomeration
+    shadows and cultural amenities in North-West Europe. European Planning Studies, 23(6), 1090–1109.
+    https://doi.org/10.1080/09654313.2014.905002
+Burger, M. J., Van Der Knaap, B., & Wall, R. S. (2014). Polycentricity and the multiplexity of urban networks.
+    European Planning Studies, 22(4), 816–840. https://doi.org/10.1080/09654313.2013.771619
+Cainelli, G., & Ganau, R. (2018). Distance-based agglomeration externalities and neighbouring firms’ character­
+    istics. Regional Studies, 52(7), 922–933. https://doi.org/10.1080/00343404.2017.1360482
+Camagni, R., Capello, R., & Caragliu, A. (2015). The rise of second-rank cities: What role for agglomeration
+    economies? European Planning Studies, 23(6), 1069–1089. https://doi.org/10.1080/09654313.2014.904999
+Camagni, R., Capello, R., & Caragliu, A. (2017). Static vs. Dynamic agglomeration economies: Spatial context
+    and structural evolution behind urban growth. Seminal Studies in Regional and Urban Economics: Contributions
+    from an Impressive Mind, 227–259. https://doi.org/10.1007/978-3-319-57807-1_12
+Camagni, R. P., & Salone, C. (1993). Network urban structures in northern Italy: Elements for a theoretical
+    framework. Urban Studies, 30(6), 1053–1064. https://doi.org/10.1080/00420989320080941
+Cao, Z., Derudder, B., Dai, L., & Peng, Z. (2022). Buzz-and-pipeline’ dynamics in Chinese science: The impact
+    of interurban collaboration linkages on cities’ innovation capacity. Regional Studies, 56(2), 290–306. https://
+    doi.org/10.1080/00343404.2021.1906410
+Capello, R. (2000). The city network paradigm: Measuring urban network externalities. Urban Studies, 37(11),
+    1925–1945. https://doi.org/10.1080/713707232
+Cardoso, R. V., & Meijers, E. J. (2016). Contrasts between first-tier and second-tier cities in Europe: A functional
+    perspective. European Planning Studies, 24(5), 996–1015. https://doi.org/10.1080/09654313.2015.1120708
+Chen, J., Chen, T., Song, Y., Hao, B., & Ma, L. (2021). A dataset on affiliation of venture capitalists in China
+    between 2000 and 2016. Scientific Data, 8(1), 179. http://dx.doi.org/10.1038/s41597-021-00993-w
+Cheng, H., & Shaw, D. (2018). Polycentric development practice in master planning: The case of China.
+    International Planning Studies, 23(2), 163–179. https://doi.org/10.1080/13563475.2017.1361318
+Chu, C., & Zhang, W. (2021). Pitfalls of the moderating effect. China Economic Quarterly, 21(5), 1867–1876.
+    http://doi.org/10.13821/j.cnki.ceq.2021.05.19. (in Chinese)
+Ciccone, A., & Hall, R. E. (1993). Productivity and the density of economic activity. American Economic Review,
+    86, 54–70. https://doi.org/10.3386/w4313
+Cornes, R., & Sandler, T. (1996). The theory of externalities, public goods, and club goods. Cambridge University
+    Press.
+Derudder, B., Liu, X., Wang, M., Zhang, W., Wu, K., & Caset, F. (2021). Measuring polycentric urban devel­
+    opment: The importance of accurately determining the ‘balance’ between ‘centers. Cities, 111, 103009. https://
+    doi.org/10.1016/j.cities.2020.103009
+Derudder, B., & Taylor, P. (2016). Change in the world city network, 2000–2012. The Professional Geographer, 68
+    (4), 624–637. https://doi.org/10.1080/00330124.2016.1157500
+Fang, C. (2015). Important progress and future direction of studies on China’s urban agglomerations. Journal of
+    Geographical Sciences, 25(8), 1003–1024. https://doi.org/10.1007/s11442-015-1216-5
+Fang, C., Yu, X., Zhang, X., Fang, J., & Liu, H. (2020). Big data analysis on the spatial networks of urban
+    agglomeration. Cities, 102, 102735. https://doi.org/10.1016/j.cities.2020.102735
+Fujita, M., Krugman, P. R., & Venables, A. (2001). The spatial economy: Cities, regions, and international trade.
+    MIT Press.
+Green, N. (2007). Functional polycentricity: A formal definition in terms of social network analysis. Urban
+    Studies, 44(11), 2077–2103. https://doi.org/10.1080/00420980701518941
+
+
+
+                                                                                         SPATIAL ECONOMIC ANALYSIS
+194    Y. Yang et al.
+
+
+
+Guo, J., Qin, Y., & Guo, S. (2023). The influence of enterprise investment behavior on the cyberspace connection
+    of coastal cities: Empirical evidence from China. Journal of Urban Planning and Development, 149(1),
+    05022046. https://doi.org/10.1061/(ASCE)UP.1943-5444.0000904
+Han, S., Sun, B., & Zhang, T. (2020). Mono-and polycentric urban spatial structure and PM2. 5 concentrations:
+    Regarding the dependence on population density. Habitat International, 104, 102257. https://doi.org/10.
+    1016/j.habitatint.2020.102257
+Harari, M. (2020). Cities in bad shape: Urban geometry in India. American Economic Review, 110(8), 2377–2421.
+    https://doi.org/10.1257/aer.20171673
+Harrison, J. (2013). Configuring the new ‘regional world’: On being caught between territory and networks.
+    Regional Studies, 47(1), 55–74. https://doi.org/10.1080/00343404.2011.644239
+Huang, Y., Hong, T., & Ma, T. (2020). Urban network externalities, agglomeration economies and urban econ­
+    omic growth. Cities, 107, 102882. https://doi.org/10.1016/j.cities.2020.102882
+Humer, A., Cardoso, R. V., & Meijers, E. (2022). Breaking with the spatial-cycle model: The shift towards ‘syn­
+    curbanization’ in polycentric urban regions. Regional Studies, 56(1), 21–35. https://doi.org/10.1080/
+    00343404.2021.1969008
+Johansson, B., & Quigley, J. M. (2004). Agglomeration and networks in spatial economies. In Raymond Florax &
+    David Plane (Eds.), Fifty years of regional science (pp. 165–176). Springer. https://doi.org/10.1007/978-3-662-
+    07223-3_7
+Kloosterman, R. C., & Musterd, S. (2001). The polycentric urban region: Towards a research agenda. Urban
+    Studies, 38(4), 623–633. https://doi.org/10.1080/00420980120035259
+Li, Y., & Liu, X. (2018). How did urban polycentricity and dispersion affect economic productivity? A case study
+    of 306 Chinese cities. Landscape and Urban Planning, 173, 51–59. https://doi.org/10.1016/j.landurbplan.
+    2018.01.007
+Li, Y., & Phelps, N. A. (2017). Knowledge polycentricity and the evolving Yangtze River Delta megalopolis.
+    Regional Studies, 51(7), 1035–1047. https://doi.org/10.1080/00343404.2016.1240868
+Li, W., Sun, B., & Zhang, T. (2019). Spatial structure and labour productivity: Evidence from prefectures in
+    China. Urban Studies, 56(8), 1516–1532. https://doi.org/10.1177/0042098018770077
+Li, W., Sun, B., Zhang, T., & Zhang, Z. (2022). Panacea, placebo or pathogen? An evaluation of the integrated
+    performance of polycentric urban structures in the Chinese prefectural city-regions. Cities, 125, 103624.
+    https://doi.org/10.1016/j.cities.2022.103624
+Li, Y., Wu, M., Derudder, B., Yan Ping Ng, S., & Liu, X. (2023). Politicizing the polycentric urban region:
+    Bridge connection negotiations in the Pearl River Delta, People’s Republic of China. Territory, Politics,
+    Governance, 11, 21–17. https://doi.org/10.1080/21622671.2022.2039276
+Lim, H., & Han, C. (2021). National borders transcended: The impact of geographical proximity on the growth
+    of global innovation networks among cities in East Asia. International Journal of Urban Sciences, 27(4), 1–29.
+    https://doi.org/10.1080/12265934.2021.1915854
+Liu, X., Derudder, B., & Wang, M. (2019). Polycentric urban development in China: A multi-scale analysis.
+    Environment and Planning B: Urban Analytics and City Science, 45(5), 953–972. https://doi.org/10.1177/
+    2399808317690155
+Lu, J., & Sun, D. (2021). Spatiotemporal evolution and complexity of urban networks in China, 1978–2019: An
+    enterprise linkages perspective. Complexity, 2021, 1–15. https://doi.org/10.1155/2021/9931985
+Martinus, K., & Sigler, T. J. (2018). Global city clusters: Theorizing spatial and non-spatial proximity in inter-
+    urban firm networks. Regional Studies, 52(8), 1041–1052. https://doi.org/10.1080/00343404.2017.1314457
+McCann, P., & Acs, Z. J. (2011). Globalization: Countries, cities and multinationals. Regional Studies, 45(1), 17–
+    32. https://doi.org/10.1080/00343404.2010.505915
+Meijers, E. J., & Burger, M. J. (2010). Spatial structure and productivity in US metropolitan areas. Environment
+    and Planning A: Economy and Space, 42(6), 1383–1402. https://doi.org/10.1068/a42151
+Meijers, E. J., & Burger, M. J. (2017). Stretching the concept of ‘borrowed size’. Urban Studies, 54(1), 269–291.
+    https://doi.org/10.1177/0042098015597642
+
+
+
+
+SPATIAL ECONOMIC ANALYSIS
+                                                         Agglomeration externalities or network externalities?   195
+
+
+
+Meijers, E. J., Burger, M. J., & Hoogerbrugge, M. M. (2016). Borrowing size in networks of cities: City size,
+    network connectivity and metropolitan functions in Europe. Papers in Regional Science, 95(1), 181–199.
+    https://doi.org/10.1111/pirs.12181
+Meijers, E., & Cardoso, R. (2021). Shedding light or casting shadows? Relations between primary and secondary
+    cities. In Mark Pendras & Charles Williams (Eds.), Secondary cities (pp. 25–54). Bristol University Press.
+    https://doi.org/10.1332/policypress/9781529212075.003.0002
+Meijers, E., Hoogerbrugge, M., & Cardoso, R. (2018). Beyond polycentricity: Does stronger integration between
+    cities in polycentric urban regions improve performance? Tijdschrift Voor Economische en Sociale Geografie, 109
+    (1), 1–21. https://doi.org/10.1111/tesg.12292
+Melo, P. C., Graham, D. J., & Noland, R. B. (2009). A meta-analysis of estimates of urban agglomeration econ­
+    omies. Regional Science and Urban Economics, 39(3), 332–342. https://doi.org/10.1016/j.regsciurbeco.2008.
+    12.002
+Nystuen, J. D., & Dacey, M. F. (1961). A graph theory interpretation of nodal regions. In Gerald Carrothers
+    (Ed.), Papers of the regional science association (Vol. 7, No. 1, pp. 29–42). Springer-Verlag. Berlin/
+    Heidelberg. https://doi.org/10.1111/j.1435-5597.1961.tb01769.x
+Ouwehand, W. M., van Oort, F. G., & Cortinovis, N. (2022). Spatial structure and productivity in European
+    regions. Regional Studies, 56(1), 48–62. https://doi.org/10.1080/00343404.2021.1950912
+Parr, J. B. (2002). The location of economic activity: Central place theory and the wider urban system. Industrial
+    Location Economics, 32, 82. https://doi.org/10.4337/9781781950746.00010
+Phelps, N. A., & Ozawa, T. (2003). Contrasts in agglomeration: Proto-industrial, industrial and post-industrial
+    forms compared. Progress in Human Geography, 27(5), 583–604. https://doi.org/10.1191/
+    0309132503ph449oa
+Puga, D. (2010). The magnitude and causes of agglomeration economies. Journal of Regional Science, 50(1), 203–
+    219. https://doi.org/10.1111/j.1467-9787.2009.00657.x
+Rosenthal, S. S., & Strange, W. C. (2003). Geography, industrial organization, and agglomeration. Review of
+    Economics and Statistics, 85(2), 377–393. https://doi.org/10.1162/003465303765299882
+Taylor, P. J. (2003). European cities in the world city network. Research Bulletin No. 105, GAWC,
+    Loughborough University.
+Thomas, R., Schmidt, S., & Siedentop, S. (2022). Toward comparative polycentricity scores: Assessing variations
+    in regional delineation and subcenter identification. Environment and Planning B: Urban Analytics and City
+    Science, 49(6), 1597–1611. https://doi.org/10.1177/23998083211065765
+Van Meeteren, M., Neal, Z., & Derudder, B. (2016). Disentangling agglomeration and network externalities: A
+    conceptual typology. Papers in Regional Science, 95(1), 61–81. https://doi.org/10.1111/pirs.12214
+Van Oort, F. G. (2007). Spatial and sectoral composition effects of agglomeration economies in The Netherlands.
+    Papers in Regional Science, 86(1), 5–30. https://doi.org/10.1111/j.1435-5957.2006.00088.x
+Van Oort, F., Burger, M., & Raspe, O. (2010). On the economic foundation of the urban network paradigm:
+    Spatial integration, functional integration and economic complementarities within the Dutch Randstad.
+    Urban Studies, 47(4), 725–748. https://doi.org/10.1177/0042098009352362
+Volgmann, K., & Münter, A. (2022). Understanding metropolitan growth in German polycentric urban regions.
+    Regional Studies, 56(1), 99–112. https://doi.org/10.1080/00343404.2020.1807491
+Wang, M. (2021). Polycentric urban development and urban amenities: Evidence from Chinese cities.
+    Environment and Planning B: Urban Analytics and City Science, 48(3), 400–416. https://doi.org/10.1177/
+    2399808320951205
+Wang, M., Derudder, B., & Liu, X. (2019). Polycentric urban development and economic productivity in China:
+    A multiscalar analysis. Environment and Planning A: Economy and Space, 51(8), 1622–1643. https://doi.org/
+    10.1177/0308518X19866836
+Wang, Y., Sun, B., & Zhang, T. (2022). Do polycentric urban regions promote functional spillovers and econ­
+    omic performance? Evidence from China. Regional Studies, 56(1), 63–74. https://doi.org/10.1080/00343404.
+    2020.1841147
+
+
+
+
+                                                                                         SPATIAL ECONOMIC ANALYSIS
+196    Y. Yang et al.
+
+
+
+Xu, J., Li, A., Chung, C. K. L., & Yue, Y. (2023). Mapping the unmapped: Investigating Big data companies via
+    online sources. The Professional Geographer, 75(5), 816–826. https://doi.org/10.1080/00330124.2023.
+    2169175
+Yang, Y., Caset, F., & Derudder, B. (2023). Does urban polycentricity contribute to regional economic growth?
+    Empirical evidence from a panel of Chinese urban regions. Regional Studies, 1–15. https://doi.org/10.1080/
+    00343404.2023.2255623
+Yang, Y., Caset, F., & Derudder, B. (2024). Does urban polycentricity contribute to regional economic growth?
+    Empirical evidence from a panel of Chinese urban regions. Regional Studies, 58(5), 1018–1032. http://dx.doi.
+    org/10.1080/00343404.2023.2255623
+Yang, W., Fan, F., Wang, X., & Yu, H. (2022). Knowledge innovation network externalities in the guangdong–
+    Hong Kong–Macao Greater Bay Area: Borrowing size or agglomeration shadow? Technology Analysis &
+    Strategic Management, 34(9), 1020–1037. https://doi.org/10.1080/09537325.2021.1940922
+Yao, Y., & Salim, R. (2020). Crowds in or crowds out? The effect of foreign direct investment on domestic invest­
+    ment in Chinese cities. Empirical Economics, 58(5), 2129–2154. https://doi.org/10.1007/s00181-018-1611-8
+Yeo, Y. (2009). Between owner and regulator: Governing the business of China’s telecommunications service
+    industry. The China Quarterly, 200, 1013–1032. https://doi.org/10.1017/S0305741009990609
+Zhang, Y., Cao, W., & Zhang, K. (2020). Mapping urban networks through inter-firm linkages: The case of
+    listed companies in Yangtze River Delta, China. Journal of Geoscience and Environment Protection, 08(3),
+    23–36. https://doi.org/10.4236/gep.2020.83003
+Zhao, J., Zhang, X., & Song, J. (2018). The changing geography of domestic financial city network in China,
+    1995–2015. Growth and Change, 49(3), 490–511. https://doi.org/10.1111/grow.12244
+Zheng, L., Long, F., Chang, Z., & Ye, J. (2019). Ghost town or city of hope? The spatial spillover effects of high-
+    speed railway stations in China. Transport Policy, 81, 230–241. https://doi.org/10.1016/j.tranpol.2019.07.005
+
+
+
+
+SPATIAL ECONOMIC ANALYSIS
+

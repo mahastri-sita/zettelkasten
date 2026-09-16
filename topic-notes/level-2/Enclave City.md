@@ -23,7 +23,7 @@ Router untuk studi komparatif kota yang dikelilingi kabupaten, terutama hubungan
 
 ## Outputs
 
-- [[Draft-Enclave-v5.pdf]] - PDF final yang dipertahankan secara byte-identik dari paket Overleaf legacy; bukan Synthesis Product.
+- [[output/kajian/draft_enclave_v5.pdf|Draft-Enclave-v5.pdf]] - PDF final yang dipertahankan secara byte-identik dari paket Overleaf legacy; bukan Synthesis Product.
 
 ## Evidence and Datasets
 

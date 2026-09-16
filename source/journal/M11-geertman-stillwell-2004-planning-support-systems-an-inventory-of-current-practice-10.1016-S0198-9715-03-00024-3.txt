@@ -1,0 +1,831 @@
+[PDF Metadata]
+Source PDF: journal/M11-geertman-stillwell-2004-planning-support-systems-an-inventory-of-current-practice-10.1016-S0198-9715-03-00024-3.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           doi:10.1016/S0198-9715(03)00024-3
+Creator:         Elsevier
+Producer:        Acrobat Distiller 4.05 for Windows
+CreationDate:    Wed Mar 24 21:26:26 2004 WIB
+ModDate:         Wed Mar 24 20:58:02 2004 WIB
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           20
+Encrypted:       no
+Page size:       468 x 680 pts
+Page rot:        0
+File size:       938637 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                 Computers, Environment and Urban Systems
+                                             28 (2004) 291–310
+                                                               www.elsevier.com/locate/compenvurbsys
+
+
+
+
+       Planning support systems: an inventory of
+                   current practice
+                             Stan Geertmana,*, John Stillwellb
+           a
+               Faculty of Geographical Sciences, URU/Nexpri, Utrecht University, Heidelberglaan 2,
+                                        3508 TC Utrecht, The Netherlands
+                          b
+                           School of Geography, University of Leeds, Leeds, LS2 9JT, UK
+
+                               Received 12 July 2002; accepted 10 February 2003
+
+
+
+Abstract
+   Planning support systems are a subset of computer-based geo-information instruments,
+each of which incorporates a unique suite of components that planners can utilise to explore
+and manage their particular activities. The components may include data sets, computer
+algorithms and display facilities, as well as more abstract theoretical constructs, knowledge
+and modelling capabilities. PSS are used to support the planning process by communicating
+information as well as by generating solutions. An Internet-based inventory was established in
+2000–2001 to identify the existence and use of PSS in planning practice worldwide. In this
+paper we take a closer look at the instruments recorded in the inventory and some of their
+main characteristics. Some recommendations are made for the development and application
+of PSS in the future.
+# 2003 Elsevier Ltd. All rights reserved.
+Keywords: Planning Support Systems (PSS); Planning; Geo-information technology
+
+
+
+
+1. Introduction
+
+  A plethora of methods and tools have been used by professional planners over
+many years to support their various planning activities in diﬀerent contexts. Never-
+theless, it can be argued that planning practitioners have never fully embraced the
+diversity of methods, techniques and models developed in the research laboratory to
+analyse spatial problems, evaluate alternative options or project future scenarios.
+Most geo-information tools do not readily ﬁt the changing needs of the planning
+
+
+  * Corresponding author.
+
+0198-9715/03/$ - see front matter # 2003 Elsevier Ltd. All rights reserved.
+doi:10.1016/S0198-9715(03)00024-3
+292      S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310
+
+
+profession; they are far too generic, complex, inﬂexible, incompatible with most
+planning tasks, oriented towards technology rather than problems, and too focused
+on strict rationality, as documented by number of commentators including Couclelis
+(1989), Ottens (1990), Scholten and Stillwell (1990), Klosterman (1994), Worrall
+(1994), Bishop (1998), Nedovic-Budic (1998) and Geertman (1999).
+  Partly as a consequence of this mismatch between the demands of practitioners
+and the supply of methods and techniques, a new generation of novel or redeveloped
+tools to facilitate ‘new’ planning practice has materialised under a generic term-
+planning support systems (PSS). These systems include instruments relating to geo-
+information technology that have been primarily developed to support diﬀerent
+aspects of the planning process, including problem diagnosis, data collection, mining
+and extraction, spatial and temporal analysis, data modelling, visualisation and
+display, scenario-building and projection, plan formulation and evaluation, report
+preparation, enhanced participation and collaborative decision-making. In the case
+of the latter—the development of support for participatory planning processes—
+a variety of new instruments has emerged ranging from electronic conference
+board rooms (group decision support systems) (Laurini, 1998) and GIS-supported
+collaborative decision-making tools (Nyerges & Jankowski 1997) to Web-based
+mediation systems for co-operative spatial planning (Gordon, Karacapilidis, Voss,
+& Zauke, 1997; Shiﬀer, 1992) and support tools for diﬀerent planning tasks
+(Geertman, 2002a; Hopkins, 1998, 1999; Kammeier, 1999; Klosterman, 1999b;
+Singh, 1999).
+  Despite these developments, there remains a general lack of knowledge of and
+insight into the development, adoption and implementation of PSS in diﬀerent
+planning contexts. The state-of-the-art in terms of the adoption of PSS and their real
+contribution in practise has remained uncertain. Therefore, in 2000 we decided to
+construct an inventory of PSS. This article provides insights into some of the
+important issues relating to the PSS contained in the inventory. It begins in Section
+2 with the question of deﬁnition: what makes a PSS diﬀerent from other geo-
+technology based systems like a geographical information system (GIS) and a spatial
+decision support system (SDSS)? The inventory, its context, aims and creation are
+discussed in Section 3. Thereafter, in Section 4, selected examples from the inventory
+are used to illustrate the range of applications that have been developed. Finally,
+Section 5 contains a number of recommendations.
+
+
+2. Deﬁning PSS
+
+  As indicated already, PSS consist of a wide diversity of geo-information tools that
+are dedicated to support public or private planning processes (or parts thereof) at
+any particular spatial scale and within a speciﬁc planning context. PSS have much in
+common with two other well-known systems: GIS and SDSS. So what makes a PSS
+diﬀerent from a GIS or a SDSS?
+  PSS are generally regarded as systems in which technologies dedicated to the
+planning profession are brought together. Harris and Batty (1993) associated the
+         S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310   293
+
+
+concept of PSS with combining a range of computer-based methods and models into
+an integrated system that is used to support a particular planning function. More
+precisely, in their opinion, a single PSS forms the framework in which three sets of
+components are combined: the speciﬁcation of the planning tasks and problems at
+hand, including the assembly of data; the system models and methods that inform
+the planning process through analysis, prediction and prescription; and the trans-
+formation of basic data into information which in turn provides the driving force for
+modelling and design (through a cyclic process). In a similar vein, Klosterman (1997,
+1999a) and Brail and Klosterman (2001) more recently, have described PSS as
+information technologies that are used speciﬁcally by planners to undertake their
+unique professional responsibilities. They suggest that PSS have matured into fra-
+meworks of integrated systems of information and software that synthesise the three
+components of traditional DSS—information, models, and visualization—and deliver
+them into the public realm.
+  In contrast, GIS can be regarded as general-purpose systems, comprising tools for
+handling geo-referenced data, and applicable for a wide diversity of tasks and pro-
+blems in various settings. There are many generic GIS on the commercial market
+and systems such as MapInfo Professional, IDRISI or ArcGIS have now become
+commonplace on the desktop. On many occasions, a proprietary GIS will form part
+of a PSS, given the standard sets of functional capabilities that the former very
+usefully provides. SDSS, on the other hand, can be regarded as systems designed
+speciﬁcally to support a decision research process for complex spatial problems.
+They provide frameworks for integrating database management systems with ana-
+lytical models, graphical display and tabular reporting capabilities, and with the
+expert knowledge of decision-makers (Densham, 1991). Although SDSS have much
+in common with PSS, PSS generally have to pay particular attention to long-range
+problems and strategic issues and may even be designed explicitly to facilitate group
+interaction and discussion. SDSS, on the other hand, are generally designed to sup-
+port shorter-term policy-making by isolated individuals or by business organizations
+(Clarke 1990, chap. 15). Moreover, their prime dedication is towards supporting
+executive decision-making rather than professional planning activities.
+  In our view, the categories of PSS, GIS and SDSS are by no means mutually
+exclusive and have much in common, but each does possess certain distinguishing
+characteristics as indicated previously. PSS speciﬁcally support the whole of or some
+part of a unique professional planning task. They aid the planning process by pro-
+viding integrated environments usually based on multiple technologies and a com-
+mon interface. In some cases, the integrated environment is no more than a loosely
+coupled collection of computer-based tools. However, it is not so much the tech-
+nology, with its capabilities and restrictions, that dictates the support function per-
+formed by the PSS, but the speciﬁc needs of the planning context in which the PSS is
+designed to operate. As a consequence, emphasis is focused on the ﬁrst S (for sup-
+port) in the PSS acronym in conjunction with the P, rather than on the second S (for
+systems), as has been the case in practice so often before. In summary, PSS distin-
+guish themselves from GIS and SDSS by virtue of the fact that they are dedicated
+speciﬁcally to activities associated with planning in practice.
+294      S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310
+
+
+3. A PSS inventory
+
+   Stillwell, Geertman, and Openshaw (1999a) provide an assessment of planning
+practice at the beginning of the twenty-ﬁrst century from which it can be concluded
+that the adoption of geo-information tools is far from widespread and from being
+eﬀectively integrated into the planning process. Planners and designers remain at
+best distrustful, and at worst downright antagonistic, toward computer-based mod-
+els (Harris, 1998, 1999). From these and other studies (e.g. Brail & Klosterman,
+2001), it can be concluded no comprehensive picture of the extent of the develop-
+ment of PSS has yet been constructed and no assessment of the success of their
+adoption has been produced. As a result, diﬀerent groups of researchers and devel-
+opers may well be undertaking a substantial amount of work that duplicates or
+overlaps with work undertaken elsewhere. At the same time, the planning commu-
+nity as a whole has little idea of where to look when searching in the academic or
+planning literature for good examples of the use of PSS in practice, details of new
+instruments or advice and support for PSS. This is problematic for the potential
+consumers (planners) at a time when there is an increasing need for geo-information
+technology support. Moreover, the developers of PSS have to prove the worth of
+their products in real-world planning situations.
+   In view of these circumstances, a review of the ﬁeld of PSS has been undertaken to
+identify innovative examples of geo-information technology-related applications and
+‘best practice’ that ﬁts into the PSS deﬁnition given above. A Web-based inventory
+of PSS was established in order to collect details of PSS implemented and opera-
+tional in planning practice including those available as oﬀ-the-shelf commercial
+products and also including prototypes under development. Entries to the inventory
+(which can be found at http://www.nexpri.nl) were made between June 2000 and
+June 2001 and about 50 contributions were received from over 20 countries including
+the Netherlands, the UK, the USA, Italy, Columbia, Australia, New Zealand, Rus-
+sia, South Africa, Malaysia, Sweden, Finland, the Czech Republic and Hong Kong.
+   Following careful scrutiny of the inventory entries, a number of systems from
+various countries covering a wide range of application areas of strategic support,
+land-use and infrastructure planning and environmental management, were selected
+for inclusion in more detailed form as chapters of a book (Geertman & Stillwell,
+2003). In the next section, some of the PSS inventory will be described in summary.
+
+
+4. Contents of the PSS inventory
+
+  Several conclusions can be drawn from this exercise of creating an inventory that
+provides insights into the concept of PSS and their application in practice. Firstly,
+the numbers of PSS are increasing world-wide. Whilst the inventory contained
+approximately contributions from several diﬀerent countries across the world, the
+PSS selected for detailed speciﬁcation in Geertman and Stillwell (2003) originate
+from 15 diﬀerent countries. Most of the PSS appear to have been developed very
+recently, with only a small minority being over 5 years of age. As a consequence,
+         S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310   295
+
+
+many of the PSS represented in the inventory are not mature, and some are still in
+an experimental or prototype stage of development. Certainly, the large majority of
+PSS are not available as proprietary, oﬀ-the-shelf systems.
+  A second important conclusion is that experience with PSS in actual planning
+practice is very limited. The real-world application of many systems seems to be
+conﬁned to experimental trials, such as educational meetings with students or
+training sessions with professional planners, for instance. A small number of the
+systems have indeed matured into a stage of professional application. However, at
+the moment, the extent of these applications is limited and this makes it diﬃcult to
+present robust conclusions and recommendations.
+  A third conclusion is that those systems recorded in the inventory reﬂect a very
+wide range of application areas. It is fruitful to examine this diversity in more detail,
+because this conveys the actual contribution that PSS are making and the potential
+of the systems for use in diﬀerent areas of planning practice. The diversity is
+apparent in the aims, capabilities, content, structure and technology of the PSS, as
+well as in their appearance to users.
+
+4.1. Aims
+
+  The PSS contained in the inventory have a wide diversity of aims. Some are
+dedicated to facilitate and/or enhance participation by the public and/or of stake-
+holders in the planning process; others can be characterised as tools dedicated to
+support speciﬁc tasks within planning processes like the uniform handling of build-
+ing permits; others have been developed to inform the public about diﬀerent plan-
+ning and policy topics in their region or country; and others support speciﬁc forms
+of planning by practitioners such as strategic planning, land-use and infrastructure
+planning or environmental planning. Two very diﬀerent PSS illustrate this diversity
+of aims in the category of environmental planning; one is an area-speciﬁc system
+known as the Planning System for Sustainable Development (PSSD) and the other is
+a task-speciﬁc system known as SPARTACUS.
+  The so-called PSSD is dedicated to support the tasks of professional planners in
+the Baltic Sea Region to enhance the sustainability of their policies (Hansen, 2001).
+Developed by a consortium of Finnish, Danish and German partners, it contains a
+wide diversity of instruments, put together on a web site, consisting of best practices,
+sustainability indicators, associated theories, scientiﬁc documents, supporting tools,
+meta-information, geo-data and dedicated methods. These instruments are inter-
+connected, providing the opportunity to relate a speciﬁc planning question to some
+associated underlying theoretical notions that lead to the selection of dedicated
+methods, tools and data to handle the speciﬁc task in accordance with the (meta-)
+information provided. Fig. 1 illustrates an outcome of the PSSD, showing the result
+of an accessibility analysis within the Finnish region of Päijät-Häme. Accessibility is
+calculated by measuring travel time from each grid cell to the nearest of four diﬀer-
+ent size categories of urban centres and then summarised. The result is a relative,
+and therefore comparable, measure of accessibility of urban centres, based on the
+principle of gravity modelling. The darker cells of the two urban centres in the south
+296      S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310
+
+
+
+
+             Fig. 1. PSSD interface showing the accessibility of centres near Helsinki.
+
+
+
+of Fig. 1 indicate the relatively good accessibility via the road of these urban centres
+(http://www.pssdtoolbox.net/plannertool.htm).
+  In contrast, the SPARTACUS system (System for Planning and Research in
+Towns and Cities for Urban Sustainability) is more task-speciﬁc and has been
+developed by another consortium of partners from Finland, the UK, Spain and
+Germany. It is dedicated to support sustainable urban policies at diﬀerent locations
+and it consists of a land use/transport model (MEPLAN) combined with a set of
+urban sustainability indicators, a GIS-based Raster method to calculate values for
+some of the indicators, the MEPLUS database and presentation module as well as a
+decision support tool (USE-IT) with which the results of policy options can be
+evaluated for their social, environmental and economic eﬀects (Lautso, 2002). As a
+consequence of its area independence, it has been and can be applied in diﬀerent
+locations for assessing options for urban sustainability policies in a systematic way.
+Its application for three test cities (Helsinki, Bilbao, and Naples) shows that the level
+of sustainability can be increased in a cost-eﬀective way by using a variety of poli-
+cies, especially pricing and regulatory policies and their combinations. Combining
+policies can mitigate the negative side eﬀects of individual policies. Fig. 2 shows
+both the main modules of the SPARTACUS system and a sample outcome of its
+noise propagation and pollutant dispersion models applied also to the Helsinki
+Metropolitan Area in Finland. The basic idea behind SPARTACUS is that land
+          S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310    297
+
+
+
+
+Fig. 2. SPARTACUS system modules (left) and sample noise model output for the Helsinki Metropolitan
+Area (right).
+
+
+
+uses, transport and the environment are inextricably linked and cannot be planned
+in isolation. Therefore, the MEPLAN model brings together the relevant informa-
+tion on transport, land use and economic activity. Development strategies can then
+be simulated through the model by changing the inputs in order to represent a pro-
+posed change in the real world. The model outputs then provide an indication of the
+wider socio-economic and environmental eﬀects of introducing the change and these
+eﬀects can be evaluated against an alternative strategy or a ‘do-nothing’ scenario
+(http://www.ltcon.ﬁ/spartacus/default.htm).
+
+4.2. Capabilities
+
+   As with the aims, the capabilities of PSS in the inventory show enormous varia-
+tion. Some are dedicated to support modelling activities for future population dis-
+tributions or land-use patterns; some provide tools to support the sketching of new
+spatial structures; and others are designed purely to allow the visualization of
+potential spatial developments in all kinds of diﬀerent ways. Two systems, GAMe
+and K2vI, can be used to exemplify this diversity.
+   The New Jersey Growth Allocation Model, known as GAMe, is a PSS designed
+for interactive use that identiﬁes the implications of certain trend-based or plan-
+based scenarios on land development. It has been developed by the New Jersey
+Oﬃce of State Planning (Reilly, 2002) and it allows users to explore various land-use
+policies in light of both the existing conditions in their town or region and the values
+and goals of the user. Thus, the model takes user-selected policy choices and fore-
+casts how these policies would aﬀect the location of growth (or decline) and the
+costs associated with the resulting land-use pattern. Fig. 3 shows schematically the
+iterative process of exploration of various land-use policies with the help of GAMe.
+Based on a regional forecast of relative municipal growth within the region and on a
+298      S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310
+
+
+
+
+         Fig. 3. The iterative process of exploring land-use policies with the help of GAMe.
+
+
+
+user-deﬁned policy plan scenario, GAMe produces municipality growth estimates
+and forecasts a range of variables at the municipality scale, like mean household
+income and average household size. Moreover, it forecasts various impacts asso-
+ciated with each scenario, like capital costs associated with public school buildings
+and public sewer facilities costs. Using GAMe, the user can learn if various land-use
+policies achieve their growth management objectives and identify some of the asso-
+ciated cost impacts of the resulting land-use pattern. Through the iterative process
+of trial, evaluation and policy modiﬁcation, the user discovers a preferred set of
+land-use development policies that produce a land development pattern and its
+associated costs, which are acceptable and compatible with the goals and values of
+the person or group.
+  K2vI (Key to Virtual Insight), on the other hand, is a PSS that allows users to
+visualise, manipulate and analyse two-dimensional and three-dimensional spatial
+data within a virtual reality (VR) environment. It was developed initially in the
+Departments of Geodesy and Technical Informatics at Delft University of Tech-
+nology (DUT) in co-operation with several engineering companies and the ITC
+(International Institute for Aerospace Survey and Earth Sciences). Since 1999, K2vI
+has been further developed for urban, military, sports and forestry applications in a
+joint eﬀort involving Asset Information Systems in New Zealand and the DUT. The
+software uses the multi-view mode approach where each view mode has a preferred
+VR display system. Of particular interest is the fact that K2vI allows the direct
+interaction between two-dimensional and three-dimensional GIS and computer-
+aided design (CAD) data from within the VR environment. In that way, spatial
+objects can be analysed, manipulated and visualized directly in two and three
+dimensions without bothering about conversion matters. Fig. 4 illustrates K2vI by
+providing three diﬀerent views of the centre of the city of Auckland in New Zealand
+(http://www.k2vi.com/).
+         S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310        299
+
+
+
+
+    Fig. 4. K2vI interface showing three diﬀerent views of the centre of Auckland, New Zealand.
+
+
+4.3. Content
+
+  We have already established that a PSS is a ‘toolbox’ containing various compo-
+nents including data sets, (meta-) information, storage and query tools, analysis
+methods, theories, indicators, etc., as exempliﬁed by the PSSD. Other PSS, however,
+are much more specialised and contain only very speciﬁc software components to
+perform speciﬁc tasks. Two examples to illustrate specialised PSS are MIGMOD
+and BIPC model.
+  MIGMOD is an example of a PSS that deals with strategic planning support at a
+national level. It is a prototype internal migration modelling system that was built
+for the Department of Transport, Local Government and the Regions (DTLR) in
+the UK by a consortium of researchers based primarily at the Universities of New-
+castle and Leeds (Champion, Bramley, Fotheringham, Macgill, & Rees, 2002; Oﬃce
+of the Deputy Prime Minister, 2002). Its purpose is to assist in the understanding of
+the impacts of changes in various indicators (determinants) on the volume and
+patterns of internal migration within the UK. At the heart of the system is a two-
+stage spatial interaction modelling system: a generation model of the ﬂows of out-
+migrants from a set of regions and a distribution model, which allocates the
+300       S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310
+
+
+predicted out-migrants to destination regions. Both models are driven by sets of
+explanatory variables and calibrated on historical time series data using Poisson
+regression techniques, before being used for predicting change under diﬀerent
+scenarios. Fig. 5 illustrates sample outputs of MIGMOD. On the left hand side, is
+one example of the user interface tables showing baseline model predictions of ﬂows
+between a selection of regions of male migrants aged 16–19 in 1996–1997; on the
+right hand side is an example of the interface mapping facilities showing predicted
+ﬂows of males aged 16–19 from Leeds to the other 98 regions in the system (and an
+observed ﬂow included for Northern Ireland).
+  The BIPC model refers to the Bulk Infrastructure Potential Cost model and pro-
+vides a means for the incorporation of bulk engineering services (water, sanitation,
+and electricity) cost considerations into the strategic planning process during land
+suitability assessment (Biermann, 2002). It has been developed by the CSIR Building
+and Construction Technology in South Africa as a PSS for planners and develop-
+ment decision-makers to enhance the integration of land-use and infrastructure
+planning. The model is based on threshold analysis, which indicates steep rises in the
+marginal cost curves associated with further development. Potential costs are cal-
+culated on the basis of capacity in the existing system and include additional cost
+factors such as geo-technical, land-use and environmental conditions to further
+enhance cost accuracy. The output of the model is in the form of potential cost
+contours, which facilitates the relative comparison of infrastructure costs for diﬀer-
+ent density scenarios. Fig. 6 shows the three constituting elements of the bulk
+infrastructure potential cost model. It indicates that when the number of people
+increases within an area, the infrastructure (e.g., pipes, reservoirs) has to expand,
+which possesses physical dimensions or thresholds (e.g., pipe diameter, reservoir
+capacity) directly proportional to size of the infrastructure. The relationship
+between density and threshold dictates whether or not additional infrastructure
+
+
+
+
+ Fig. 5. MIGMOD interface showing predictions of out-migration ﬂows in table (left) and map (right).
+          S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310    301
+
+
+
+
+Fig. 6. BIPC model (left) and its output based on MCA including bulk infrastructure potential costs
+(right).
+
+
+
+
+expenditure is necessary to accommodate additional people. In addition, it shows as
+an example the combined cost output of the BIPC model based on a multi-criteria
+suitability assessment (MCA) including bulk infrastructure potential costs for the
+city council of Pretoria.
+
+4.4. Structure
+
+   PSS diﬀer too in their structure in that some can be considered fully integrated
+systems in which all components are interconnected closely and others have com-
+ponents that are only loosely connected tools within a container. WadBos is an
+illustration of the former category, SketchGIS of the latter.
+   WadBos is an integrated PSS for the Wadden Sea, an important estuarine system
+in the northern part of the Netherlands. Although it is considered a protected nat-
+ural site, it also has important economic functions including, for example, ﬁshing,
+recreation, transportation and gas exploitation. The management of the diﬀerent
+activities and functions of the area are distributed over a great number of institu-
+tions, ranging from the local to the European. In order to streamline the process of
+decision-making, WadBos was developed as a highly integrated model representing
+the ecological and the economic functions of the sea (Engelen, 2000). The compo-
+nent sub-models of WadBOS represent processes operating at diﬀerent time scales
+and at diﬀerent spatial scales. WadBOS allows a user to assess the eﬀects of policy
+interventions on the system, to provide insights into both individual domains and
+the linkages in between the individual domains; to visualize the anticipated policy
+eﬀects, and to gather and link knowledge concerning the questions at stake. Fig. 7
+illustrates WadBOS, showing in diﬀerent visual formats (texts, graphs, maps) the
+302      S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310
+
+
+
+
+Fig. 7. WadBos interface showing disturbing consequences of recreational boating on the Wadden Sea.
+
+
+
+
+disturbing consequences of recreational boating on the Wadden Sea for diﬀerent
+spatial and time scales (http://www.netcoast.nl/tools/rikz/WADBOS.htm).
+   SketchGIS is a stand-alone toolbox developed to support the ﬁrst phase of a par-
+ticipatory plan-making process, the creation and evaluation of spatial scenarios for
+the future. It has been developed by a consortium of public and private sector
+organisations in the Netherlands and it incorporates a diversity of loosely coupled
+tools with which associated tasks can be performed: brainstorming sessions can be
+facilitated by oﬀering tools to identify and store relationships between interesting
+topics (concept mapping); area-speciﬁc data and information in diﬀerent formats
+(text documents, HTML-pages, photographic material, three-dimensional ﬁgures,
+etc.) can be handled and presented; the process of sketching spatial scenarios
+(designing areas for new housing or industry, for example) can be supported; these
+sketched scenarios can be evaluated with the help of a MCA tool; and the sketched
+scenarios can be presented in a two- and three-dimensional way (Geertman, 2002a).
+With the help of the SketchGIS toolbox participants within a collaborative planning
+session can design and discuss expectable, potential and/or desirable futures for their
+own living area. Fig. 8 illustrates the design tool as part of the SketchGIS toolbox
+with the help of which spatial scenarios can be sketched freely on a background
+map. It shows the area of the so-called Randmeren, located in the centre of the
+         S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310       303
+
+
+
+
+        Fig. 8. SketchGIS toolbox for interactive and participatory spatial scenario building.
+
+
+Netherlands, for which a scenario is generated wherein areas are identiﬁed and
+sketched, suitable for transformation to other land-use categories.
+
+4.5. Technology
+
+   In the case of applied technology, some PSS are stand-alone programs while
+others are developed solely for the Intranet or Internet. Two examples to illustrate
+this diversity are What if?TM and WBBRIS. The former is a stand-alone policy-
+oriented planning tool that can be used to determine what will happen if certain
+policy choices are made (e.g. spatial restriction on urbanization growth) and assump-
+tions concerning the future (e.g. population growth rates) prove to be correct
+(Klosterman, 1999b). It projects future land-use patterns by balancing the supply of,
+and demand for, land suitable for diﬀerent uses at diﬀerent locations, subject to user-
+speciﬁed policies for allocating the projected demand to suitable locations. Alternative
+visions for an area’s future can be explored by deﬁning alternative suitability, growth
+and allocation scenarios. Fig. 9 illustrates What if?TM by showing projected land use
+scenarios (http://www.what-if-pss.com/). It shows the morphological picture of land
+use in Medina County, Ohio, US, in which the left hand picture indicates the
+expected land-use conﬁguration for six land-use types for 2045 under conditions of
+restricted growth controls. In contrast, the right hand picture shows the expected
+land use conﬁguration for six land-use types for 2045 without restricted growth
+controls, leading to a very dispersed pattern of residential land use.
+   In contrast to the stand-alone What if?TM PSS, an Internet-based PSS has been
+developed for the Wide Bay-Burnett region (WBBRIS, the Wide Bay-Burnett
+Regional Information System) of Queensland, Australia (Pettit, Shyy, & Stimson,
+304        S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310
+
+
+
+
+Fig. 9. Output from What if? TM showing restricted and unrestricted land use growth control scenarios in
+Medina County, OH, US.
+
+
+2002) that incorporates a suite of SDSS tools to undertake multi-scaled planning
+analysis. For instance, users can perform dynamic analyses of regional demographic
+and employment trends to formulate thematic maps and associated tabular data
+results. At the local urban level, users can review the results of a number of ‘what-if’
+planning scenarios based on an MCA approach. By providing access to both spa-
+tially aggregated and disaggregated socio-economic data, land data and other
+essential statistical information, linkages between regional and urban scales of ana-
+lysis can be made such as regional employment shift-share analysis and MCA for
+local land suitability. Fig. 10 shows the homepage of the WBBRIS regional system
+
+
+
+
+           Fig. 10. Wide Bay-Burnett Regional Information System (WBBRIS) homepage.
+         S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310   305
+
+
+(http://www.ahuri.uq.edu.au/wide_bay/default.htm). The area being studied is
+identiﬁed, accompanied by several tools like shift-share analysis and input–output
+analysis, and the various scenarios (economic; social; environmental) that can be
+applied. Speciﬁc to the WBBRIS system architecture is the fact that remote users
+can login the system and receive not just static information (HTML pages) but also
+dynamic information (produced at distance and on demand by an Internet GIS
+server) concerning the topic requested.
+   The examples that we have selected in this section provide insights into the diver-
+sity of PSS that can be found in contemporary planning practice. In addition to the
+criteria that we have used to summarize the PSS, other criteria can be identiﬁed such
+as age (some PSS have existed for over 10 years now), professionalism (some are in a
+stage of prototyping while others are fully-grown products), stage of commerciali-
+sation (some are mature oﬀ-the-shelf commercial products, others are available free
+of charge) or targeted populations (stakeholders, policy-makers, planners, wider
+public). Assessment of the utility of the PSS contained in the inventory for actual
+planning practice still has to be fully and properly evaluated. This however, will
+require a longer period for practitioners to work with these systems and to gain
+experience with their practical application. The recommendations in the next
+section, with which we conclude the paper, can be of help in this evaluation.
+
+
+5. Recommendations
+
+   Based on the relatively small number of real world experiences with PSS, some
+recommendations can be made about the future of PSS development and applica-
+tion. First, PSS should be an integral part of the planning process and context. The
+Shaping Dane Project website (http://www.lic.wisc.edu/shapingdane/) is an excellent
+example of where diﬀerent planning and participatory activities are linked to each of
+the planning phases. For participants, it is important to know at which phase of the
+planning process one can perform each particular kind of task or activity. A con-
+sequence of this is that PSS should be attuned to the speciﬁc characteristics of the
+planning process and context at hand. Each planning process is subject to certain
+time constraints, allows for a particular degree of participation, involves a certain
+amount of publicity, etc., and these factors inﬂuence the potential for and restric-
+tions on the use of the technology. Likewise, the characteristics of the policy context
+(e.g., democracy or autocracy) inﬂuence the preferred technology (e.g., transparent
+or black-box) and the way in which it is used. For instance, a participatory planning
+process and context deﬁnes a very diﬀerent set of criteria with which the PSS must
+conform in comparison to the classical planning process and context in which just
+planning professionals make use of the PSS. The diﬀerences involved relate to
+characteristics such as interactivity, ﬂexibility, adaptability, maintainability and
+scale dependence.
+   Second, related to the ﬁrst recommendation, PSS should meet user and context
+requirements too, besides the conformation to requirements of the planning process
+and context. For example, PSS should be developed that reﬂect the knowledge and
+306      S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310
+
+
+skills of their direct applicants, which may involve meeting multiple levels of exper-
+tise. They should be attuned to the professional tasks required at a certain phase in
+the planning process (sketching, modelling, impact assessment and evaluation) and
+to the capabilities of the audience with whom communication is required, i.e.,
+knowledge and skill levels of lay persons and/or stakeholders as well as more tech-
+nical users. Obviously, these user and context requirements will be very diﬀerent and
+probably much more diﬃcult to meet within a participatory planning process than
+in a classical planning process. The diversity of knowledge and skill levels of users
+within participatory planning processes will put tighter demands on the PSS to
+communicate properly the relevant planning information.
+   Third, one should be aware of the fact that people address issues from an inter-
+disciplinary perspective. In contrast to science in which the study of reality has been
+categorized in separated disciplines, laypersons do not tend to think in accordance
+with distinct disciplines but in terms of integrated systems or parts thereof. In prac-
+tice, people encounter problems and ask for solutions and usually neither the pro-
+blems nor the solutions will be conﬁned to the artiﬁcial boundaries of disciplines. As
+a consequence, PSS that intend to connect to peoples’ way of thinking should
+address issues in an interdisciplinary manner, linking the spatial to the social, the
+environmental to the economic and so forth.
+   Fourth, PSS should take seriously its users and leave them with the feeling that
+they have been taken seriously. Although this sounds very much like a statement of
+the obvious, experience suggests that this is not always the case. For example, the
+population of one local community in the USA have participated actively in plan-
+ning sessions in which environmentally sensitive futures have been designed for their
+region, whilst at the same time, the Governor of the State in which their region is
+located and who has claimed to be a strong protagonist of participative sessions, is
+making secret deals with Federal Government for the construction of a large nuclear
+waste disposal site in that region.
+   Fifth, the user-interface of the PSS should be sensitive to the characteristics of the
+user, to the kind of information that it communicates to that user, and to the types
+of intended use that is made of the information provided. For instance, in general
+one might presume that people are highly visual in their requirements for
+communication, thinking and forms of expression. Consequently, it might be
+assumed that imagery such as photos, three-dimensional images, architectural
+drawings, cardboard replicas and VR-movies, would be highly eﬀective in the
+understanding and communication of diﬀerent visions for the future, and much
+more so than text statements about diﬀerent scenarios. However, in particular
+instances, these visualisations can be highly inappropriate and even undesirable in
+communication processes, for instance, when these visualisations distort reality
+purposefully to achieve selective or biased interests.
+   Sixth, obviously the PSS should be focused in particular on the planning problem
+at hand. For some strategically oriented planning tasks, this means the incor-
+poration of tools for sketching, modelling and impact analysis. The activities of
+detecting the most likely future, exploring potential scenarios, and/or designing
+desirable futures belong to the core of strategic planning tasks. In that, of particular
+           S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310         307
+
+
+interest is the question of acceptance of the inputs (such as reliable, up-to-date data)
+and outputs (such as meaningful modelling results) of a PSS. In general, transpar-
+ency is seen as one of the most important prerequisites for support tools and for the
+way in which they are handled.
+  Finally, PSS should be appealing; they should fulﬁl participants’ needs and
+wishes, and allow the participants to enjoy using them too. Especially in circum-
+stances in which people are expected to invest their free time to participate in
+planning sessions, one should be aware of the sensitivities associated with this
+investment of time and energy. Various means can be used to ensure that PSS
+encourage participation, including the incorporation of some type of competition
+(with prizes available) or the establishment of resource centres as places equipped
+with decision/planning support tools to structure and promote dialogue and com-
+munity issues.
+  In summary, we can conclude that the application of PSS is currently still in its
+infancy and there does not yet exist a reservoir of real-world experience with PSS
+with which to conduct a detailed evaluation. However, there is little doubt that the
+development of PSS is on an upward trajectory, that new and exciting tools are
+being created and applied in diﬀerent parts of the world and that future innovations
+will be stimulated as the awareness of contemporary systems, as exempliﬁed in this
+paper, becomes more widespread in planning practice.
+
+
+
+Acknowledgements
+
+  The authors would like to thank Max Craglia (University of Sheﬃeld, UK), Paul
+Longley (University College London, UK) and the anonymous referees of CEUS
+for their valuable comments on an earlier version of the paper.
+
+
+
+
+References
+
+Biermann, S. (2002). An infrastructure potential cost model for integrated land use and infrastructure
+  planning. In S. Geertman, & J. Stillwell (Eds.), Planning support systems in practice. Heidelberg:
+  Springer.
+Bishop, I. (1998). Planning support: hardware and software in search of a system. Computers, Environ-
+  ment and Urban Systems, 22(3), 189–202.
+Brail, R., Klosterman, R. (Eds.). (2001). Planning support systems: integrating geographic information
+  systems models, and visualization tools. Redlands: ESRI-Press.
+Champion, T., Bramley, G., Fotheringham, S., Macgill, J., & Rees, P. (2002). A migration modelling
+  system to support government decision-making. In S. Geertman, & J. Stillwell (Eds.), Planning support
+  systems in practice. Heidelberg: Springer.
+Clarke, M. (1990). Geographical information systems and model-based analysis: towards eﬀective deci-
+  sion support systems. In H. Scholten, & J. Stillwell (Eds.), Geographical information systems for urban
+  and regional planning (pp. 165–175). Dordrecht: Kluwer.
+308        S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310
+
+
+Couclelis, H. (1989). Geographically informed planning: requirements for planning relevant GIS.
+  Paper presented to the 36th North American Meeting of Regional Science Association, Santa
+  Barbara.
+Densham, P. (1991). Spatial decision support systems. In D. J. Maguire, M. F. Goodchild, &
+  D. W. Rhind (Eds.), Geographical information systems: principles and applications (pp. 403–412).
+  London: Longman.
+Engelen, G. (2000). The development of the WadBOS decision support system. A bridge between knowledge
+  and policy in the Wadden Sea. The Hague: National Institute for Coastal and Marine Management.
+Geertman, S. (1999). Geographical information technology and physical planning. In J. Stillwell,
+  S. Geertman, & S. Openshaw (Eds.), Geographical information and planning (pp. 69–86). Heidelberg:
+  Springer Verlag.
+Geertman, S. (2002a). Participatory planning and GIS: a PSS to bridge the gap. Environment and Planning
+  B: Planning and Design, 29, 21–35.
+Geertman, S., & Stillwell, J. (Eds.). (2003). Planning support systems in practice. Heidelberg: Springer
+  Verlag.
+Gordon, Th., Karacapilidis, N. Voss, H., & Zauke, A. (1997) Computer-mediated cooperative spatial plan-
+  ning, in Timmermans, H. (Ed.), Decision support systems in urban planning (pp. 299–309), E. & F. N. Spon.
+Hansen, H. (2001). PSSD—planning system for sustainable development. The Methodological Report
+  (NERI technical report no 351). Denmark: National Environmental Research Institute.
+Harris, B. (1998). Optimization and design. Environment and Planning B: Planning and Design; Anniver-
+  sary Issue, 23–28.
+Harris, B. (1999). Computing in planning: professional and institutional requirements. Environment and
+  Planning B: Planning and Design, 26, 321–331.
+Harris, B., & Batty, M. (1993). Locational models, geographic information and planning support systems.
+  Journal of Planning Education and Research, 12, 184–198.
+Hopkins, L. (1998). Progress and prospects for planning support systems. Environment and Planning B:
+  Planning and Design (Anniversary Issue), 29–31.
+Hopkins, L. (1999). Structure of a planning support system for urban development. Environment and
+  Planning B: Planning and Design, 26, 333–343.
+Kammeier, H. (1999). New tools for spatial analysis and planning as components of an incremental
+  planning-support system. Environment and Planning B: Planning and Design, 26, 365–380.
+Klosterman, R. (1994). International support for computers in planning. Environment and Planning B:
+  Planning and Design, 2, 387–391.
+Klosterman, R. (1997). Planning support systems: a new perspective on computer-aided planning. Journal
+  of Planning Education and Research, 17(1), 45–54.
+Klosterman, R. (1999a). Guest editorial: new perspectives on planning support systems. Environment and
+  Planning B: Planning and Design, 26, 317–320.
+Klosterman, R. (1999b). The What if? collaborative planning support system. Environment and Planning
+  B: Planning and Design, 26, 393–408.
+Laurini, R. (1998). Groupware for urban planning: an introduction. Computers, Environment and Urban
+  Systems, 22(4), 317–333.
+Lautso, K. (2002). The SPARTACUS system for deﬁning and analysing sustainable urban land use
+  and transport policies. In S. Geertman, & J. Stillwell (Eds.), Planning support systems in practice.
+  Heidelberg: Springer.
+Nedovic-Budic, Z. (1998). The impact of GIS technology. Environment and Planning B: Planning and
+  Design, 25, 681–692.
+Nyerges, T., & Jankowski, P. (1997). Adaptive structuration theory: a theory of GIS-supported colla-
+  borative decision making. Geographical Systems, 4(3), 225–259.
+Oﬃce of the Deputy Prime Minister (2002). Development of a migration model. Housing research summary
+  no. 167. Rotherham: ODPM Publication Sales Centre.
+Ottens, H. (1990). The application of geographical information systems in urban and regional planning.
+  In H. J. Scholten, & J. C. H. Stillwell (Eds.), Geographical information systems for urban and regional
+  planning (pp. 15–22). Dordrecht: Kluwer.
+           S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310             309
+
+
+Pettit, C., Shyy, T-K., & Stimson, R. (2002). An on-line planning support system to evaluate urban and
+  regional planning scenarios. In S. Geertman, & J. Stillwell (Eds.), Planning support systems in practice.
+  Heidelberg: Springer.
+Reilly, J. (2002). The New Jersey (USA) Growth allocation model: development, evaluation and exten-
+  sion. In S. Geertman, & J. Stillwell (Eds.), Planning support systems in practice. Heidelberg: Springer.
+Scholten, H., Stillwell, J. (Eds.). (1990). Geographical information systems for urban and regional planning.
+  Dordrecht: Kluwer.
+Shiﬀer, M. (1992). Towards a collaborative planning system. Environment and Planning B: Planning and
+  Design, 19, 709–722.
+Singh, R. (1999). Sketching the city: a GIS-based approach. Environment and Planning B: Planning and
+  Design, 26, 455–468.
+Stillwell, J., Geertman, S., & Openshaw, S. (1999a). Developments in geographical information and
+  planning. In J. Stillwell, S. Geertman, & S. Openshaw (Eds.), Geographical information and planning
+  (pp. 3–22). Heidelberg: Springer Verlag.
+Worrall, L. (1994). The role of GIS-based spatial analysis in strategic management in local government.
+  Computers, Environment and Urban Systems, 18(5), 323–332.
+
+
+
+
+Further reading
+
+Batty, M., & Densham, P. (1996). Decision support, GIS, and urban planning. Sistema Terra, 5(1), 72–76.
+Eleveld, M., Carreau, P., Schrimpf, W., & Siegert, A. (2002). DESIMA: a decision support tool for inte-
+  grated coastal zone management. In S. Geertman, & J. Stillwell (Eds.), Planning support systems in
+  practice. Heidelberg: Springer.
+Engelen, G., Geertman, S., Smits, P., & Wessels, C. (1999). Dynamic GIS and strategic physical planning
+  support: a practical application. In J. Stillwell, S. Geertman, & S. Openshaw (Eds.), Geographical
+  information and planning (pp. 87–111). Heidelberg: Springer Verlag.
+Friedmann, J. (1987). Planning in the public domain; from knowledge to action. Princeton: Princeton
+  University Press.
+Friend, J., & Jessop, W. (1969). Local government and strategic choice: an operational research approach to
+  the processes of public planning. London: Tavistock Publications.
+Geertman, S. (2001). Planning support by PSS: an inventory. Paper presented at the CUPUM-2001
+  Conference, Honolulu.
+Geertman, S. (2002b) Inventory of planning support systems in planning practice; conclusions and
+  reﬂections. In M. Ruiz, M. Gould, J. Ramon (Eds.), 5th AGILE Conference on Geographic Information
+  Science (pp. 35–40).
+Geertman, S., & Stillwell, J. (2000). Geoinformation, geotechnology and geoplanning in the 1990s. (Working
+  paper 00/01). School of Geography, University of Leeds, Leeds.
+Harris, B. (1960). Plan or projection: an examination of the use of models in planning. Journal of the
+  American Institute of Planners, 26(4), 265–272.
+Harris, B. (1989). Beyond geographic information systems: computers and the planning professional.
+  Journal of the American Planning Association, 55, 85–90.
+Hopkins, L., & Armstrong, M. P. (1985) Analytic and cartographic data storage: a two-tiered approach to
+  Spatial Decision Support Systems. In Proceedings of the seventh International Symposium on Computer-
+  assisted Cartography: Auto-Carto 7 (pp. 283–292). Falls Church, VA: American Society for Photo-
+  grammetry and American Congress on Surveying and Mapping.
+Klosterman, R. (1998). Computer applications in planning. Environment and Planning B: Planning and
+  Design (Anniversary Issue), 32–36.
+Lee, D. (1973). Requiem for large-scale models. Journal of the American Institute of Planners, Washington,
+  May, 163–178.
+Niemann, B., Heinzel, W., Ventura, S., Sutphin, T., & Miskowiak, D. (1999). Mapping growth management
+310        S. Geertman, J. Stillwell / Comput., Environ. and Urban Systems 28 (2004) 291–310
+
+
+  factors (Land Information Bulletin technical paper no 2). UW-Madison: Land Information and
+  Computer Graphics Facility.
+Scholten, H., van de Velde, R., Rietveld, P., & Hilferink, M. (1999). Spatial information infrastructure for
+  scenario planning: the development of a land use planner for Holland. In J. Stillwell, S. Geertman, &
+  S. Openshaw (Eds.), Geographical information and planning (pp. 112–134). Heidelberg: Springer Verlag.
+See, L., & Openshaw, S. (1999). Applying soft computing approaches to river level forecasting. Hydro-
+  logical Sciences Journal, 44, 763–778.
+See, L., & Openshaw, S. (2000). A hybrid multi-model approach to river level forecasting. Hydrological
+  Sciences Journal, 45(4), 523–536.
+Shiﬀer, M. (1995). Interactive multimedia planning support: moving from stand-alone systems to the
+  World Wide Web. Environment and Planning B: Planning and Design, 22, 649–664.
+Simmonds, D. (2001). The objectives and design of a new land-use modelling package: DELTA. In
+  G. Clarke, & M. Madden (Eds.), Regional science in business (pp. 115–157). Heidelberg: Springer.
+Stillwell, J., Geertman, S., Openshaw, S. (Eds.). (1999b). Geographical information and planning.
+  Heidelberg: Springer Verlag.
+Stillwell, J., & Scholten, H. (Eds.). (2001). Land use simulation for Europe. Dordrecht: Kluwer.
+

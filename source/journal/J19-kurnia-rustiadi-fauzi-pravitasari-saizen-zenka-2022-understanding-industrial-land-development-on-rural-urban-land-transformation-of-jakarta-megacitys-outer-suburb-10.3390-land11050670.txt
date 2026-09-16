@@ -1,0 +1,961 @@
+[PDF Metadata]
+Source PDF: journal/J19-kurnia-rustiadi-fauzi-pravitasari-saizen-zenka-2022-understanding-industrial-land-development-on-rural-urban-land-transformation-of-jakarta-megacitys-outer-suburb-10.3390-land11050670.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Understanding Industrial Land Development on Rural-Urban Land Transformation of Jakarta Megacity’s Outer Suburb
+Subject:         After decentralization, there was massive development in Jakarta megacity’s outer suburbs (JMOS), especially in Bekasi and Tangerang regencies, marked by large-scale industrial estate/park (LSIEP) and followed by new town developments. However, this process led to the emergence of “chaotic” urban-rural land patterns. This study sought to identify the extent to which LSIEP development has affected rural-urban land transformation (RULT). The primary data were land use/cover (LUC) data from 2005, 2015, and 2020 and the LSIEP distributions. The methods applied are the Patch-generating Land Use Simulation (PLUS) model for 2025’s LUC prediction and the RULT index approach, RULT index development using the analytical hierarchy process. These combined approaches were novel in Indonesia, which usually relies on Cellular Automata (CA)-Markov, overlay (spatial), and descriptive statistics analyses to describe the RULT phenomenon. It was found that the villages located around the LSIEP close to the Jakarta megacity toll road network and those adjacent to the municipality (city) had been transformed into urban areas, while villages far from those locations were still rural. This study’s results help clarify the rural to urban transformation in Jakarta megacity’s outer suburbs and could be used as input for spatial planning policy.
+Keywords:        decentralization; industrial park/estate; Jakarta metropolitan region; land use/cover prediction; regional development; spatiotemporal analysis; urban development; spatial planning
+Author:          Adib Ahmad Kurnia, Ernan Rustiadi, Akhmad Fauzi, Andrea Emma Pravitasari, Izuru Saizen and Jan Ženka
+Creator:         LaTeX with hyperref
+Producer:        GPL Ghostscript 9.55.0
+CreationDate:    Wed Jul 29 08:21:44 2026 WIB
+ModDate:         Wed Jul 29 08:21:44 2026 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           20
+Encrypted:       no
+Page size:       595 x 842 pts (A4)
+Page rot:        0
+File size:       2675682 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                                                   3.5       6.4
+
+
+
+
+Article
+
+
+Understanding Industrial Land
+Development on Rural-Urban Land
+Transformation of Jakarta
+Megacity’s Outer Suburb
+
+Adib Ahmad Kurnia, Ernan Rustiadi, Akhmad Fauzi, Andrea Emma Pravitasari, Izuru Saizen and
+Jan Ženka
+
+
+
+
+                                                                 https://doi.org/10.3390/land11050670
+             land
+Article
+Understanding Industrial Land Development on Rural-Urban
+Land Transformation of Jakarta Megacity’s Outer Suburb
+Adib Ahmad Kurnia 1,2 , Ernan Rustiadi 3,4, * , Akhmad Fauzi 1 , Andrea Emma Pravitasari 3,4 ,
+Izuru Saizen 2 and Jan Ženka 5
+
+                                            1   Regional and Rural Development Planning Science Study Program, Faculty of Economics and Management,
+                                                IPB University, Bogor 16680, Indonesia; adibahmad@apps.ipb.ac.id (A.A.K.);
+                                                akhmadfauzi@apps.ipb.ac.id (A.F.)
+                                            2   Laboratory of Regional Planning, Graduate School of Global Environmental Studies, Kyoto University,
+                                                Kyoto 606-8501, Japan; saizen.izuru.4n@kyoto-u.ac.jp
+                                            3   Regional Development Planning Division, Department of Soil Science and Land Resources,
+                                                Faculty of Agriculture, IPB University, Bogor 16680, Indonesia; andreaemma@apps.ipb.ac.id
+                                            4   Center for Regional System Analysis, Planning, and Development (CRESTPENT), IPB University,
+                                                Bogor 16680, Indonesia
+                                            5   Department of Human Geography and Regional Development, Faculty of Science, University of Ostrava,
+                                                710 00 Ostrava, Czech Republic; jan.zenka@osu.cz
+                                            *   Correspondence: ernanrustiadi@apps.ipb.ac.id; Tel.: +62-812-9471-939
+
+                                            Abstract: After decentralization, there was massive development in Jakarta megacity’s outer suburbs
+                                            (JMOS), especially in Bekasi and Tangerang regencies, marked by large-scale industrial estate/park
+                                            (LSIEP) and followed by new town developments. However, this process led to the emergence
+                                            of “chaotic” urban-rural land patterns. This study sought to identify the extent to which LSIEP
+                                            development has affected rural-urban land transformation (RULT). The primary data were land
+                                            use/cover (LUC) data from 2005, 2015, and 2020 and the LSIEP distributions. The methods applied
+Citation: Kurnia, A.A.; Rustiadi, E.;
+                                            are the Patch-generating Land Use Simulation (PLUS) model for 2025’s LUC prediction and the RULT
+Fauzi, A.; Pravitasari, A.E.; Saizen, I.;   index approach, RULT index development using the analytical hierarchy process. These combined
+Ženka, J. Understanding Industrial          approaches were novel in Indonesia, which usually relies on Cellular Automata (CA)-Markov, overlay
+Land Development on Rural-Urban             (spatial), and descriptive statistics analyses to describe the RULT phenomenon. It was found that
+Land Transformation of Jakarta              the villages located around the LSIEP close to the Jakarta megacity toll road network and those
+Megacity’s Outer Suburb. Land 2022,         adjacent to the municipality (city) had been transformed into urban areas, while villages far from
+11, 670. https://doi.org/10.3390/           those locations were still rural. This study’s results help clarify the rural to urban transformation in
+land11050670
+                                            Jakarta megacity’s outer suburbs and could be used as input for spatial planning policy.
+Academic Editor: Yimin Chen
+                                            Keywords: decentralization; industrial park/estate; Jakarta metropolitan region; land use/cover
+Received: 25 March 2022
+                                            prediction; regional development; spatiotemporal analysis; urban development; spatial planning
+Accepted: 25 April 2022
+Published: 30 April 2022
+
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in     1. Introduction
+published maps and institutional affil-
+                                                 Recent spatial expansion of urban land around the Asian megacities is associated
+iations.
+                                            with several threats to their sustainability. Intensification of agricultural land conversions,
+                                            environmental degradation, landscape fragmentation, green space losses, and “chaotic”
+                                            patterns of urban-rural land are among the most often-cited sustainable issues (see [1–6]).
+Copyright: © 2022 by the authors.
+                                            In this paper, we focus on Southeast Asian megacities, especially in the suburban area,
+Licensee MDPI, Basel, Switzerland.          combining high density with lower land-use diversity (compared with East Asian cities and
+This article is an open access article      Western cities) (see [7])—resulting from the existence of large monofunctional residential
+distributed under the terms and             or commercial areas [8]. Drawing on a case study from the Indonesian capital’s suburban
+conditions of the Creative Commons          developments, we illustrate the pace of rural-urban transformation (RUT) driven by exten-
+Attribution (CC BY) license (https://       sive industrial development. The Jakarta megacity is representative of highly polycentric
+creativecommons.org/licenses/by/            Asian megacities, which are characterized by rapid population growth, industrialization,
+4.0/).                                      and land transformation in their outer rings [3].
+
+
+
+Land 2022, 11, 670. https://doi.org/10.3390/land11050670                                                       https://www.mdpi.com/journal/land
+Land 2022, 11, 670                                                                                         2 of 20
+
+
+
+
+                           The 2020 Indonesian census found that more than thirty-one million people were
+                     living in the Jakarta megacity, or Jakarta metropolitan region (JMR), the second-largest
+                     global urban agglomeration after the Tokyo megacity [9]. The Jakarta megacity consists
+                     of the core region and the suburb/hinterland regions (see Figure 1). Since the regional
+                     autonomy/decentralization policy was implemented in 2001, the Bodetabek (Jakarta megac-
+                     ity’s suburb) region, especially in the outer suburbs: Bekasi and Tangerang regencies, has
+                     experienced rapid land development [10,11]. Land development in both regencies is also
+                     driven by a shift of population and industrial activities from the core/inner suburb area to
+                     the outer suburb because land in those areas is already scarce [5,12]; these processes and
+                     shifts are called “suburbanization” [13].
+
+
+
+
+                     Figure 1. Jakarta megacity or Jakarta Metropolitan Region.
+
+                          Regional autonomy/decentralization policies have given local governments in the
+                     Jakarta megacity’s suburbs more authority to regulate their regions, especially development
+                     planning and budgeting [14,15]. Besides, regional autonomy/decentralization can also
+                     trigger inter-regional competition through increasing local economic capacity [16]. The
+                     Bekasi and Tangerang regencies (kabupaten) governments are taking advantage of their
+                     regional autonomy to increase their regional income (economic-growth oriented) and
+                     competitiveness [11]. This development approach has resulted in the establishment of
+                     large-scale industrial estate/park (LSIEP) development, which has had a multiplication
+                     effect on the local economy (see [10,17,18]). Moreover, the development of the LSIEP is to
+                     support the economic system of the Jakarta megacity [19].
+Land 2022, 11, 670                                                                                          3 of 20
+
+
+
+
+                           After Industrial park/estate regulation was issued in 1989 [20] and decentralization
+                     was implemented in 2001, the number of LSIEPs built by the private sector in Bekasi
+                     and Tangerang regencies increased significantly. In both regencies, LSIEP development is
+                     mainly carried out by the private sector and financed by foreign direct investment (FDI)
+                     or the public-private partnership (PPP) mechanism [11,21]. LSIEP in both regions reached
+                     sixteen [22]. The manufacturing sector’s contribution to the Gross Regional Domestic
+                     Product (GRDP) is dominant, especially in the Bekasi Regency, reaching 75% of their GRDP
+                     in 2019 [23].
+                           The LSIEP developments have triggered significant urban land developments, espe-
+                     cially after decentralization was implemented. According to [24], from 1995 to 2012, dry
+                     and agricultural land conversion significantly occurred in Jakarta’s suburbs, especially in
+                     Bekasi and Tangerang regencies. Most of the agricultural areas in these regencies have been
+                     converted into industrial and settlement areas [2]. The rapid land conversion also led to
+                     the “chaotic” patterns of urban-rural land and caused imperfections in the RULT [4,5].
+                           Identifying land transformation is necessary for understanding the development
+                     process because the land is the primary physical resource for socio-economic develop-
+                     ment [25,26]. In addition, land and its transformation process indicate urban-rural devel-
+                     opment and transformation [27–29]. Land-use/cover (LUC) transformation results from
+                     a region’s dynamic social and economic development [30]. Therefore, research on LUC
+                     transformation/change can be the basis for urban-rural development policies, especially to
+                     control urbanization [27,28].
+                           Most recent Indonesian rural to urban transformation research has utilized multitem-
+                     poral land use/cover (LUC) data to identify agricultural land loss, urban expansion, and
+                     physical urban growth (see [2,3,5,24,31–33]). Specifically, there have been several studies
+                     related to spatial LUC change issues in the Jakarta megacity; the latest studies related to
+                     this topic are the research of Rustiadi et al. [3,5] and Kurnianti et al. [24]. Most previous
+                     studies mainly used overlay (spatial) techniques and descriptive statistical analyses to
+                     explain these phenomena. However, most of the latest research measures the rural to urban
+                     transformation only by the changes in the agricultural area or non-built-up area into the
+                     built-up area, whereas the transformation into urban land is not only a simple shift towards
+                     a higher share of the built-up area.
+                           A more comprehensive approach based on a multi-criteria evaluation of the LUC
+                     data can be used to assess and identify the land transformation [26]. Moreover, according
+                     to bibliometric analysis using the Scopus database, a study related to RULT in Southeast
+                     Asian megacity’s suburbs, especially at the microlevel, is hardly ever discussed. There-
+                     fore, this study aims to identify the extent of the LSIEP development on the RULT of
+                     Jakarta megacity’s outer suburb (JMOS) at the micro-level (village). Additionally, this
+                     study compares Bekasi and Tangerang regencies as industrial-dominated suburbs in the
+                     Jakarta megacity. Furthermore, using LUC data—as a substitute for challenging-to-obtain
+                     socioeconomic data at the village level—this study reveals RUT in the Jakarta megacity’s
+                     suburbs at the microlevel.
+                           Our paper develops a RULT index using the analytical hierarchy process (AHP) as
+                     a multi-criteria analysis approach to identify the RULT on JMOS. Similar studies are the
+                     study of Liu et al. [26] and Liu et al. [34]; Liu et al. [26] discuss land transformation in
+                     Xuanhua district on a village scale in North China. The main difference from Liu et al. [26]
+                     is that the number of LUC classes used as criteria was adjusted to conditions and LUC
+                     data. This paper’s study uses six LUC classes in which the built-up area is separated into
+                     settlement area (SA) and industrial, trade, and service (ITS) area. ITS development is the
+                     main feature of the urbanization process (rural to urban transformation) in the Jakarta
+                     megacity’s suburbs [17,35].
+                           Another main difference is that this research performs RULT prediction, which is not
+                     performed in the study of Liu et al. [26]. The LUC prediction method applied in this study
+                     is the latest, namely the patch-generating land use simulation (PLUS) model developed
+                     by Liang et al. [36]. Besides being described as a method with high accuracy, the PLUS
+Land 2022, 11, 670                                                                                            4 of 20
+
+
+
+
+                     model was developed to improve the weaknesses found in the previous methods, especially
+                     the CA model [37,38]; the mainstream method is used for LUC prediction, especially in
+                     Indonesia (see [39–42]). This research also involves some driving factors in prediction
+                     models related to industrial and settlement development. LUC model predictions in this
+                     study are also equipped with spatial constraints using the regency spatial plan. The spatial
+                     plan as a spatial constraint is intended so that this study not only describes the RULT that
+                     occurred in detail but also can be an evaluation and input for the spatial planning policy of
+                     the Bekasi and Tangerang regencies.
+
+                     2. Materials and Methods
+                     2.1. Study Area
+                          The core of the Jakarta megacity is Jakarta special capital region (SCR), while the
+                     Bodetabek region (an acronym for Bogor-Depok-Tangerang-Bekasi municipalities/regencies)
+                     is the suburb/hinterland of this megacity [5,8]. The 2020 Indonesian census found that
+                     the population in the Jakarta megacity core was 10.56 million people, and in the Jakarta
+                     megacity suburbs was 20.68 million people. In some research, the suburban region of the
+                     Jakarta megacity is divided into two regions, namely Jakarta megacity’s inner suburb and
+                     outer suburb—the region with “municipality (city)” or “kota” status is the inner suburb,
+                     while the region with “regency” or “kabupaten” status is the outer suburb [3]. The core and
+                     suburb/hinterland area is a feature of the nodal (functional) region system [43,44].
+                          This study focuses on JMOS, particularly the Bekasi and Tangerang regencies located
+                     in the northern part of Java island (see Figure 2). Both regencies have similar topographic
+                     characteristics: situated in the coastal area, almost all of the area is lowland and has almost
+                     no steep slopes. At the same time, the topographical features of the Bogor Regency are
+                     somewhat different from both regencies (see [45]). Therefore, this study compares the level
+                     of industrial development and its effect on RULT in the regencies of Jakarta megacity that
+                     have similar topographic characteristics.
+                          The Indonesian census in 2020 found that the population in the Bekasi and Tangerang
+                     Regencies was more than six million people. The Bekasi and Tangerang Regencies have
+                     52 subdistricts (kecamatan); 29 in the Tangerang Regency and 23 in the Bekasi Regency. The
+                     analysis unit used in this study was the village (desa/kelurahan), with the Bekasi Regency
+                     comprising 187 villages, and the Tangerang Regency comprising 274 villages.
+                          Based on President Regulation No. 60/2020 [46] concerning Jakarta megacity’s spatial
+                     planning policy, there are three urban areas in Bekasi and Tangerang regencies, namely
+                     Cikarang, Balaraja, and Tigaraksa region. The Cikarang urban area is directed as the capital
+                     and the center of health and social amenities of the Bekasi regency. Tigaraksa urban area is
+                     directed as the capital of Tangerang regency, while Balaraja urban area is directed as the
+                     ITS area of Tangerang regency. Additionally, the Cikarang, Balaraja, and Tigaraksa regions
+                     are also directed as the center of LSIEP development in the JMOS.
+
+                     2.2. Data Collection
+                           The primary data used in this study were LUC data in 2005 (describes conditions when
+                     decentralization was just implemented) and LUC data in 2015. The LUC data were obtained
+                     from the Center for Regional System Analysis, Planning, and Development (CRESTPENT),
+                     IPB University. The data were processed using the supervised classification method using
+                     the maximum likelihood classification technique. Supervised classification is one of the
+                     preferred methods used to create LUC data [47], and this classification method can control
+                     the separation of spectral values for each LUC class by computer [47]. For LUC prediction
+                     validation, this study produces 2020’s LUC data with the same raw data, methods, and
+                     techniques as the data obtained by CRESTPENT, IPB University.
+                           For data obtained from CRESTPENT, IPB University, we separated LUC class (Built-
+                     up area) into the settlement area (SA) and the ITS because they are not separated yet.
+                     Subsequently, there are six LUC classes used in this study, namely: (1) settlement area (SA);
+                     (2) industrial, trade, and service (ITS) area; (3) wet-agricultural land (WAL); (4) dry and
+Land 2022, 11, 670                                                                                                                5 of 20
+
+
+
+
+                               bare land (DBL), (5) forest and mangrove (FR); and (6) mixed plantation (MP). Furthermore,
+                               the other data used in this study are regency spatial plan data as a spatial constraint and
+                               some data related to the driving factors of LSIEP and residential development.
+
+
+
+
+                               Figure 2. Study area location.
+
+                                     In this study, areas planned (according to Bekasi and Tangerang regencies’ spa-
+                               tial plan) as protected forests (including mangrove areas), open green spaces, parks,
+                               agricultural land, river borders, coastal borders, and water bodies (rivers and lakes)
+                               should not be changed/converted. Areas that can be changed/converted and cannot
+                               be changed/converted are presented in Figure 3. This study also involves some driving
+                               factors in LUC prediction related to LSIEP and residential area development, namely:
+                               (1) proximity to LSIEP locations, (2) proximity to toll road gates, (3) proximity to main
+                               roads, and (4) proximity to the commuter railway station; ’   these are the main driving fac-
+                               tors of land (rural to urban) transformation/changes in Bekasi and Tangerang regencies
+                               (see [3,8,10,13,48–53]). All types of data are presented in Table 1.
+
+                               Table 1. A list of data used in this study.
+
+       Category                             Data                                                  Data Resource
+ Land use/cover                                                              CRESTPENT, IPB University for 2005 and 2015 LUC
+                      LUC data in 2005, 2015, and 2020
+ (LUC) data                                                                  data; Landsat Satellite Imagery (2020 LUC raw data)
+                                                                                                                      ’
+                      (1)   Proximity to LSIEP locations,
+                      (2)   Proximity to toll road gates,                    Ministry of Industry, the Republic of Indonesia, 2021 [22]
+ Driving Factor       (3)   Proximity to primary, secondary, and             OpenStreetMap (https://www.openstreetmap.org/)
+                            tertiary roads and                               (accessed on 20 December 2021)
+                      (4)   Proximity to the commuter railway station
+
+                      (1)   Bekasi Regency’s spatial plan                    Bekasi Regency’s Government
+ Spatial Constraint   (2)   Tangerang Regency’s spatial plan                 Tangerang Regency’s Government
+Land 2022, 11, 670                                                                                                                 6 of 20
+                                                                                                                                  –
+
+
+
+
+                                 Figure 3. Spatial constraint map based on regency spatial plan.
+                                      According to the Ministry of Industry, the Republic of Indonesia, ten LSIEPs are located
+                                 in the Bekasi regency [22]. Compared with Bekasi Regency, the number of LSIEP in the
+                                 Tangerang Regency is lower, which is six, with the most expansive being the Millennium
+                                 Industrial Estate covering an area of 1800 hectares (see Table 2) [22]. Furthermore, Bekasi
+                                 Regency has five LSIEPs covering more than 500 hectares, while the Tangerang regency
+                                 only has one. The list of LSIEP was explained in Section 3.1.
+                                 Table 2. List of LSIEP in Bekasi and Tangerang regencies.
+
+     Code                      Industrial Estate/Park Name                            Total Area (ha)         Location (Subdistrict)
+      B1             Indonesia–China Integrated Industrial Park/Estate                       205            Serang Baru/Cikarang Pusat
+      B2                   Bekasi International Industrial Estate                            200                 Cikarang Selatan
+      B3                       MM2100 Industrial’ Town BFIE                                 1700 ’                Cikarang Barat
+      B4                      MM2100 Industrial Town ’ MMID                                  805        ’         Cikarang Barat
+      B5                      Jababeka Industrial Park/Estate                               2267                  Cikarang Utara
+      B6                    East Jakarta Industrial Park/Estate                              320                 Cikarang Selatan
+      B7                        Gobel Industrial Park/Estate                                  54                  Cikarang Barat
+      B8                  Marunda Center Industrial Park/Estate                               60                    Tarumajaya
+      B9              Greenland International Industrial Center (GIIC)                      1700                  Cikarang Pusat
+      B10                 Lippo Cikarang Industrial Park/Estate                             1645                 Cikarang Selatan
+      T1                        Millennium Industrial Estate                                1800                     Panongan
+      T2                        Pasar Kemis Industrial Park                                   74                    Pasar Kemis
+      T3             Cikupamas Industrial and Warehouse Park/Estate                          250                      Cikupa
+      T4                Purati Kencana Alam Industrial Park/Estate                            70                      Cikupa
+      T5                         Griya Idola Industrial Park                                  99                      Cikupa
+      T6                   Sumber Rezeki Industrial Park/Estate                              72                      Tigaraksa
+                                                                                                                           bdistric
+                        –        Source: Ministry of Indonesia, the Republic of Indonesia, 2021 [22].
+
+
+                                 2.3. Data Processing
+                                 2.3.1. LUC Prediction for Rural-Urban Land Transformation Prediction
+                                      This study used the PLUS method for LUC prediction—the latest LUC prediction
+                                 method; and we tested this method to predict LUC with a dispersed pattern, as happened
+                                 in Bekasi and Tangerang regencies. The PLUS method improves previous methods, such as
+Land 2022, 11, 670                                                                                          7 of 20
+
+
+
+
+                     the CA-ANN and CA-Markov [36–38]. The two weaknesses of the CA model highlighted
+                     by scholars are weak at revealing the relationships underlying LUC change [36] and at
+                     capturing the patch evolution of LUC types naturally [36,54].
+                          To improve the weakness, The PLUS model has two features, namely: (1) land expan-
+                     sion analysis strategy (LEAS)—a couple of combinations of transition analysis strategy
+                     (TAS) and pattern analysis strategy (PAS); and (2) CA based on multitype random patch
+                     seeds (CARS) [36]. The LEAS feature in the PLUS model functions as a data mining frame-
+                     work for identifying the rules of LUC change [36]. LEAS is also equipped with a random
+                     forest classification (RFC) algorithm to explore the relationships between each LUC type’s
+                     growth and multiple driving factors [36,38]. Furthermore, at the fine-scale resolution, CARS
+                     could better simulate the patch growth in all LUC classes [36].
+                          The basis for selecting the driving factor used in this study has been explained in Sec-
+                     tion 2.2. This study does not pay attention to topography factors because both regencies are
+                     located in coastal areas, mostly lowlands—there are no striking differences in topography
+                     throughout both regencies. An example of the driven factor used in this study is presented
+                     in Figure 4. In addition, this study also uses spatial plan data as spatial constraints, as
+                     described in Section 2.2. The LUC prediction framework in this study is described in
+                     Figure 5.
+
+
+
+
+                     Figure 4. Example of the driven factor used in this study.
+Land 2022, 11, 670                                                                                             8 of 20
+
+
+
+
+                     Figure 5. The framework of landcover prediction, modified from Liang et al. [36].
+
+                     2.3.2. Rural-Urban Land Transformation (RULT) Index
+                          This study uses the AHP to build a RULT index. AHP is one of the universal methods
+                     of multi-criteria decision making (MCDM) that succeeded in breaking the opinion that the
+                     measurement of objects/phenomena must be based on a physical scale with a zero and a
+                     unit [55]. AHP is a relative scale based on expert preferences [55]—measurement  —of weight
+                     in AHP is based on pairwise comparison inputs [56]. AHP in this study involved eight
+                     experts in urban and regional planning, regional development, and urban studies. The
+                     eight experts represent the central government (C), local government (L) (representations of
+                     Tangerang and Bekasi regency government), developers (D), urban and regional planning
+                     consultant (U), and lecturers/academics (A). The list of expert institutions is presented in
+                     Table 3.
+
+                     Table 3. List of experts for the AHP.
+
+                         Code                                      Expert’s Institution
+                          A1        Regional Development Planning Division, Faculty of Agriculture, IPB University
+                          A2        Department of Urban and Regional Planning, University of Trisakti
+                          L1        Department of Regional Development Planning (Bappeda), Bekasi Regency
+                          L2        Department of Regional Development Planning (Bappeda), Tangerang Regency
+                          C1        Ministry of National Development Planning (Bappenas), Republic of Indonesia
+                          C2        Ministry of Agrarian Affairs and Spatial Planning, Republic of Indonesia
+                          D1        Developer
+                          U1        Nusantara Urban Advisory (Urban and Regional Planning Consultant)
+
+
+                          The primary purpose of the AHP was to determine the priorities for the RULT criteria
+                     by giving weights to each land use criterion. Interviews were conducted with the experts on
+                     their preferences regarding the priority for each land use criterion. According to the expert
+                     preferences and previous studies, the ITS and SA are worth (+), meaning that the LUC
+                     criteria align with the transformation from rural to urban areas. In contrast, DBL, WAL,
+Land 2022, 11, 670                                                                                                                            9 of 20
+
+
+
+
+                                    FR, and MP are worth (–), meaning that those LUC criteria are in the opposite direction
+                                    towards the rural to urban land transformation.
+                                         Based on the AHP’s results involving eight experts’ preferences, it was found that wet-
+                                    agricultural land (WAL) and industrial, trade, and service (ITS) are the leading criteria that
+                                    can differentiate/determine an area that can be categorized as urban or rural. Additionally,
+                                    the AHP’s consistency ratio (CR) value acquired in this study is 0.5%. Furthermore, the AHP
+                                    model used in this study was considered valid because the CR value is below 10% [55,57].
+                                    A list of weights for each criterion is presented in Table 4. The weight of each LUC criteria
+                                    coupled with the direction mark (+/–) forms the RULT index’s equation, the equation of
+                                    the RULT index (RULTI) is presented in Equation (1).
+                           ITS            SA            DBL            WAL            FR            MP
+                                                                                                        
+          RULTI i =            × 0.341 +     × 0.201 −      × 0.085 −      × 0.231 −     × 0.061 −     × 0.081 × 100                             (1)
+                           TA             TA            TA              TA            TA            TA
+
+
+                                    Table 4. List of Weight for each Criterion.
+
+                                               Code                             LUC Criteria                         Weight          Direction
+                                               ITS                  Industrial, Trade, and Service Area               0.341               +
+                                                SA                           Settlement Area                          0.201               +
+                                               DBL                          Dry and Bare Land                         0.085               –
+                                               WAL                        Wet-agricultural Land                       0.231               –
+                                                FR                          Forest (Mangrove)                         0.061               –
+                                               MP                            Mixed Plantation                         0.081               –
+                                    Additional information: (+) means that the LUC criterion is in line with the rural to urban land transformation,
+                                    while (–) means otherwise; TA is the village’s total area; i is the village of i.
+
+                                          The maximum value of the RULTI in this study is 54.2 (total weight of the built-
+                                    up group), and the minimum value is −45.8 (total weight of the non-built-up group).
+                                    Subsequently, The RULTI results were then classified based on the value intervals; for
+                                    example, each village with a RULTI value > 0 was classified as an urban area because the
+                                    LUC, which reflects its socioeconomic activities, is dominant in the urban. In contrast, the
+                                    village with a RULTI value < 0 is classified as a rural area because the LUC, which reflects
+                                    its socioeconomic activities, is dominant in the rural.
+
+                                    2.3.3. Exploration Spatial Data Analysis (ESDA)
+                                         This study also analyzed the spatial autocorrelation of the difference in RULTI value
+                                    (RULTI 2015 value minus (–) RULTI 2005 value). The analysis was to identify which villages
+                                    experienced high growth in the RULT index and vice versa. The spatial pattern/association
+                                    analysis in this study uses Local Moran’s I, which utilized the local indicators of spatial
+                                    association (LISA) developed by Anselin [58]. LISA is a widely used method to explore
+                                    spatial pattern/association/disparity of multitemporal spatial data [59–62]; the formula for
+                                    which is presented in Equation (2) [58–61].
+
+                                                                      n ∑nj=1 wij(xi − x ) xj − x
+                                                                                                  
+                                                                 Ii =                                                        (2)
+                                                                              Z2x ∑nj=1 wij
+
+                                    where: Ii = LISA; x = the difference value of the RULTI for the 2005–2015 period at the
+                                    village level; i is the village, the index for which was calculated; j is the neighboring village;
+                                    Wij = is the spatial proximity matrix that represents the spatial proximity value between
+                                    village i and neighboring village (j); and Z2x = variance of RULTI difference value for the
+                                    2005–2015 period at the village level.
+
+                                    3. Results
+                                    3.1. Land Development and Its Effect on the LUC
+                                        The data analysis revealed that in 2005 more than 50% of the land in the Bekasi and
+                                    Tangerang Regencies was devoted to paddy fields (WAL), with the built-up areas being
+Land 2022, 11, 670                                                                                              10 of 20
+
+
+
+
+                     only around 10% in each regency. However, the pace of urban physical growth in both
+                     regencies is relatively high; each year (period 2005–2015), with the built-up areas growing
+                     by 4.2 – 6.4 % per year. In 2015, the built-up area covered 15.8% of the Bekasi regency’s
+                     total area and 22.8% of the Tangerang regency’s total area (see Table 5).
+                     Table 5. Built-up Area (BA) coverage and annual growth rate in 2005-2015.
+
+                                                        % BA’s Coverage to Total Area              BA’s Annual
+                            Regency
+                                                       2005 (%)               2015 (%)            Growth Rate (%)
+                      Bekasi                             10.5                   15.8                    4.2
+                      Tangerang                          12.3                   22.8                    6.4
+
+
+                          In 2015, the ITS area covered 18.7% of the total built-up area in both regencies, with
+                     the remainder being SAs (including urban and rural settlements). The growth rate of the
+                     ITS area is not as big as the SA reaching 6.3% per year, which is 1.6% per year (see Table 6).
+                     This significant growth rate made the SA cover 81.3% of the total built-up area in both
+                     regencies, only 73.5% in 2005.
+                     Table 6. Composition of Built-up (BA) Area and Its annual growth rate.
+
+                                                                                        The Annual Growth Rate
+                                             % Share to Total Area (2015)
+                          Regency                                                           (2005–2015) (%)
+                                                ITS                  SA                  ITS              SA
+                      Bekasi                    19.9                80.1                 1.2              5.1
+                      Tangerang                 17.6                82.4                 2.2              7.6
+                       Both regencies           18.7                81.3                 1.6              6.3
+
+
+                          Most LSIEP locations are concentrated close to Jakarta megacity’s toll road network
+                     (JMTRN); only LSIEP with codes B1, B8, B9, T1, and T6 are not located in those locations
+                     (see Figure 6). The LSIEP with codes B1, B8, B9, T1, and T6 are located in areas surrounded
+                     by agricultural land that is not built-up area yet. In contrast, the LSIEPs are close to the
+                     JMTRN, surrounded by SA (e.g., T3 and B5, see Figure 7).
+                          In 2015, the area (with a radius of 2 km) around LSIEP (B1, B8, B9, T1, and T6) had
+                     a low-level ITS and SA coverage (e.g., T1, see Figure 7), with the coverage percentage
+                     being below the areas surrounding the LSIEP close to the JMRTN. Interestingly, several
+                     villages, such as those in the Kosambi, Balaraja, and Tambun Selatan subdistricts, which
+                     are not close to the LSIEP, had high ITS area coverage. Numerous industrial areas in those
+                     subdistricts are not listed in the Ministry of Industry’s data or managed or located in LSIEP,
+                     particularly in the Kosambi subdistrict (see [63]).
+                          Most LSIEP in both regencies focuses on the manufacturing sector and becomes the
+                     backbone of both regencies’ economies, especially the Bekasi regency. The manufacturing
+                     sector contributed 78% of the 2019 Bekasi regency’s real GDP [23], while the manufacturing
+                     sector in the Tangerang regency contributed 33.6% of the total GRDP [64]. In terms of 2019’s
+                     Real GRDP per capita [23,64], the Bekasi regency is superior to the Tangerang Regency,
+                     which is IDR 66.81 million (USD 4721) compared with IDR 36.93 million (USD 2610).
+
+                     3.2. Rural-Urban Land Transformation of JMOS
+                          In 2005, the villages that have been transformed into urban areas were spread over
+                     twelve subdistricts: six in the Bekasi regency (B) and six in the Tangerang regency (T)
+                     (see Figure 8). For explanation purposes, the urban areas are grouped into six regions:
+                     (1) Balaraja (T) region (Balaraja subdistrict); (2) Cikupa-Pasar Kemis (T) region (Cikupa and
+                     Pasar Kemis subdistrict); (3) Kosambi (T) region (Kosambi subdistrict); (4) Curug-Kelapa
+                     Dua (T) region (Curug and Kelapa Dua subdistrict); (5) Tambun (B) region (Tambun Utara,
+                     Cibitung dan Tambun Selatan subdistrict); and (6) Cikarang (B) region (Cikarang Barat,
+                     Cikarang Selatan, and Cikarang Utara subdistricts). The group division is considered on a
+Land 2022, 11, 670                                                                                     11 of 20
+
+
+
+
+                     spatial planning policy and contiguity aspect. Most urban areas are close to the JMTRN
+                     and adjacent to the municipality (city) (see Figure 8).
+
+
+
+
+                                                                            ’
+                     Figure 6. The distribution of LSIEP and the built-up area in 2015.
+
+
+
+
+                                                                            ’
+
+
+
+
+                     Figure 7. LUC around the selected LSIEP location.
+
+                          The Cikupa–Pasar Kemis region and Cikarang region are the locations most of LSIEP,
+                     especially the Cikarang region, which has seven LSIEPs. Meanwhile, the Balaraja, Tambun,
+                     and Kosambi regions are supported by industrial areas that are not managed by LSIEP. In
+                     2015, new urban area enclaves emerged, especially in Tangerang Regency (see Figure 8);
+                     during this period, development was inclined towards urban settlement (residential) de-
+                     velopment carrying the new-town concept. Furthermore, the merging of some urban
+                     areas needs to be highlighted in this period, for instance, the merging of the Tambun and
+Land 2022, 11, 670                                                                                          12 of 20
+
+
+
+
+                     Cikarang regions and the merging of the Curug-Kelapa Dua and Cikupa-Pasar Kemis
+                     regions (see Figure 8).
+
+
+
+
+                                                     –
+                     Figure 8. Regional typology (2005–2015) based on the RULT index.
+                                      –
+                          The LISA results derived from ArcGIS (ESRI, Redlands, CA, USA) showed that from
+                     2005 to 2015, the villages that had significant index value increases tended to be close to
+                     the location of LSIEP, the toll road gate, primary and secondary roads, and commuter
+                     railway stations; as indicated by high-high clusters (see Figure 9). In contrast, villages far
+                     from those locations have a low or almost no change in index value difference, as indi-
+                     cated by the low–low cluster. The proximity to primary/secondary roads and commuter
+                     railway station factors are the main driving factors for the rural to the urban transfor-
+                     mation process in Bekasi Regency. In comparison, the proximity to LSIEP location and
+                     primary/secondary roads have more influence on the transformation from rural to urban
+                     regions in the Tangerang regency (see Figure 9).
+
+                     3.3. JMOS Rural-Urban Land Transformation Prediction
+                          The primary data for RULT index prediction was the 2025 LUC prediction, processed
+                     using the PLUS Model. This study’s LUC prediction accuracy results using overall accuracy
+                     (OA) and kappa are 0.866 and 0.782, respectively. It can be concluded that the LUC
+                     predictions generated in this study are considered valid, exceeding the values of 0.7 and 0.6,
+                     respectively [65]. The one thing that causes the OA or Kappa values not to achieve perfect
+                     scores is that the PLUS model is not successful in describing new patches of industrial
+                     estates that exist in 2020’s LUC map (validation map); many newly formed industrial areas
+                     are found in 2020’s LUC map, while in 2015’s LUC map, those locations are not industrial
+                     areas. Therefore, the PLUS Model is unsuccessful in perfectly meeting and describing the
+                     land demand for industrial area purposes.
+                                            –
+
+Land 2022, 11, 670                                                                                               13 of 20
+
+
+
+
+                                                    –
+                         Figure 9. LISA Map of 2005–2015 RULT Index value difference.
+
+                               The 2025 LUC result indicated that the annual BA growth from 2015 to 2025 was
+                         lower than from 2005 to 2015 (see Table 7). Because a spatial plan was used as a spatial
+                         constraint, there should have been no BA (ITS and SA) expansion in areas that could not be
+                         changed/converted (see Section 2.2). This study also included driving factors that could
+                         result in a more natural annual growth that did not necessarily follow the annual growth
+                         rate in the previous period. From 2015 to 2025, although there was a positive growth rate,
+                         the Tangerang Regency experienced a growth decline compared to the previous period (see
+                         Table 7).                     ’
+                                                   ’                           ’
+                         Table 7. Built-up area (BA) coverage and annual growth rate.
+
+
+                     % BA’s Coverage to                       BA’s Annual                 Annual Growth Rate
+       Regency          Total Area in                         Growth Rate                 from 2015–2025 (%)
+                          2025 (%)                2005–2015 (%)         2015–2025 (%)      ITS            SA
+ Bekasi                     23.1                        4.2                  3.9           1.7             4.4
+ Tangerang                  28.9                        6.4                  3.2           2.9             3.2
+
+
+                              The coverage area to total area assessment revealed that the predicted BA coverages in
+                         the two regencies in 2025 would still be below 30% and that the BA coverage in Tangerang
+                         Regency would be higher than in the Bekasi Regency (see Table 7). From 2015 to 2025, the
+                         annual growth rate of the SA still followed the previous period’s pattern, which was still
+                         higher than the ITS area’s annual growth rate. Compared to the Bekasi Regency, which had
+                         a large gap, there was no significant gap between the annual SA and ITS area growth rates
+                         in the Tangerang Regency (see Table 7).
+                      ’                                   ’
+
+
+Land 2022, 11, 670                                                                                          14 of 20
+
+
+
+
+                          It was predicted that by 2025 there would be expanding urban areas, the merging of
+                     urban regions, and the emergence of new urban areas (see Figure 10). It was predicted that
+                     the urban regions would be increasingly integrated, such as the merging of the Balaraja
+                     and Cikupa-Pasar Kemis-Curug–Kelapa Dua regions. It was also predicted that the urban
+                     region would expand to include the Kosambi, Curug–Kelapa Dua, and Tambun-Cikarang
+                     regions. Moreover, some villages of the Tarumajaya subdistrict—the location of Marunda
+                     Center Industrial Park (B8)—will be transformed into an urban area as a new urban area.
+
+
+
+
+                     Figure 10. Regional typology prediction (2025) based on the RULT index.
+
+                          The RULT map produced by this study illustrates the relationship between RULT
+                     and the driving factors used in this study (see Figure 10). For example, most urban land
+                     in the Bekasi Regency had the following characteristics; close to the commuter railway
+                     station, close to primary and secondary roads, and close to the LSIEP locations. However,
+                     proximity to the commuter railway station was not the main factor for the rural to urban
+                     transformation in the Tangerang Regency (see Figure 10).
+
+                     4. Discussion
+                     4.1. Industrial Development on the Suburbanization of JMOS
+                           Suburbanization in JMOS, especially in Bekasi and Tangerang regencies, has been
+                     strongly encouraged by industrial development [10,13,17,21]. This phenomenon is similar
+                     to the suburbanization in many metropolitan areas in China characterized by LSIEP de-
+                     velopment [66]. Suburbanization that occurred in Bekasi and Tangerang regencies does
+                     not resemble the suburbanization process in the Jakarta megacity’s inner suburbs (or even
+                     in cities in Western countries that have been primarily driven by residential development
+                     (see [8,66])).
+                           LSIEP developments have been designed to support Indonesia’s economy and espe-
+                     cially the creation of jobs and the engine of economic growth in the JMOS (see [10,17,21,67]).
+Land 2022, 11, 670                                                                                            15 of 20
+
+
+
+
+                     LSIEP, which focuses on the manufacturing sector, employs more than 500,000 workers in
+                     the Bekasi regency [10], the most expansive of which is the Jababeka industrial park [22].
+                     The study results indicate that the LSIEP close to the Jakarta megacity toll road network
+                     has become a growth center in the region, as evidenced by the development/expansion of
+                     residential areas around those locations.
+                          Manufacturing is a major contributor to the Bekasi and Tangerang regional
+                     economies [23,64]. If we compared the manufacturing sector’s contribution with both
+                     regency economies, Bekasi regencies are superior to Tangerang regency in terms of the
+                     manufacturing sector’s contribution to GRDP. The superiority of the Bekasi regency is also
+                     described by the number of LSIEP, which are more than the Tangerang regency.
+
+                     4.2. LSIEP on Land Development Issues
+                           Urban-biased policies are often the mainstream land development policies in the
+                     megacity suburbs of China (East Asia) and Indonesia (Southeast Asia), characterized by
+                     industrial and residential development (see [3,26,29,68]). Industrial land development in
+                     megacity suburbs of China and Indonesia often raises land development issues: agricultural
+                     land conversion and “chaotic” urban-rural land (see [4–6,13]). This study found that
+                     there had been significant industrial and residential development growth in the Bekasi
+                     and Tangerang Regencies from 2005 to 2015, most of which involved agricultural land
+                     conversions. The significant growth supports the statement of several studies, which
+                     explain that decentralization is one of the starting points for massive development in JMOS
+                     (see [18]) and massive agricultural land conversion in both regions (see [2,69–72]).
+                           New-town development, a by-product of LSIEP development, is one of the main con-
+                     tributors to land development in JMOS, providing housing facilities for rich-urban people,
+                     as land in the core area was scarce, thus creating gated communities [8,18]. The Tangerang
+                     regency was found to have developed five new towns over more than 500 hectares [18,73].
+                     The annual SA development growth rate and the predicted growth rate revealed that
+                     new-town developments will become the main land development characteristic in the
+                     JMOS in the future. However, the development in the Jakarta megacity’s suburbs often
+                     violates spatial plan regulation – many studies have revealed this, including the studies by
+                     Firman [48], Kurnianti, et al. [24], and Santosa et al. [69].
+
+                     5. Conclusions and Policy Implications
+                          In the concluding section, we aim to discuss our main empirical findings from the
+                     viewpoint of spatial planning together with fundamental limitations and possible avenues
+                     for future research.
+
+                     5.1. Rural-Urban Land Transformation toward Spatial Planning Policy
+                           Paying more attention to the spatial plan is essential because the development of
+                     settlements and industrial areas in the JMOS is sometimes on land not intended for these
+                     development [24,48,69]. Moreover, the development led to agricultural land conversion,
+                     especially the paddy field area [2,3,31,48,69,74]. If these things are allowed to continue, then
+                     the sustainable development goals listed in the Bekasi and Tangerang regency spatial plan
+                     regulation will be difficult to achieve, namely “environmental-friendly industrial and resi-
+                     dential development that is in synergy with the agricultural sector development” [75,76].
+                           This study also found that if the development follows spatial plan regulations, the
+                     growth rate of built-up area (SA and ITS) would be decreases, and would fall by at least
+                     half in the Tangerang Regency. Ultimately, the results of this study could be used as
+                     an input or an evaluation for spatial planning policies, particularly for protecting those
+                     areas dominated by rural land and characterized by extensive agricultural land/nonBA
+                     coverage. Evaluations of the spatial planning implementation are necessary, especially
+                     as the development in the Jakarta megacity suburbs is not yet complete. There are still
+                     many residential development megaprojects waiting to be built, including the 1000 ha
+                     PIK 2 (new-town) development in Kosambi subdistrict for the construction of 3000 landed
+Land 2022, 11, 670                                                                                                                   16 of 20
+
+
+
+
+                                 residential units and 14,000 apartment units [77]. Furthermore, the Pagedangan subdistrict
+                                 part of the Curug-Kelapa Dua region, which is an expansion and planning area of Bumi
+                                 Serpong Damai (BSD) new-town (see [51]).
+                                      Maintaining the rural land in the JMOS must be a priority in land development policy
+                                 because rural land is needed to supply food and maintain the ecological balance. Many
+                                 studies have found that the development in Jakarta’s megacity’s suburbs disrupted food
+                                 production [2,69] and caused environmental degradation [78]. Furthermore, environmental
+                                 degradation has caused some areas in the JMOS to experience erosion and flooding [79].
+
+                                 5.2. Limitations and Possible Further Development
+                                      The primary limitation of this study was that the LUC dataset that was consulted
+                                 was less detailed, especially for the built-up areas, as the urban and rural settlements
+                                 were classified under one LUC class. Although the LUC can provide an overview of the
+                                 socioeconomic activities of a region, it can only provide a simple description. Further, the
+                                 LUC used in this study was focused more on land cover data. Nevertheless, this study
+                                 could be considered an initial study for determining the region classifications in the JMOS
+                                 and an alternative study for countries that do not have micro-scale area socioeconomic data
+                                 adequately at the village level.
+                                      The criteria/parameters and methodological limitations meant that it was only possi-
+                                 ble to divide the region into rural and urban regions as it was unable to clearly define the
+                                 “desakota” regions, which are regions that have mixed urban and rural characteristics [13].
+                                 Therefore, further research should use more detailed land-use data on the built-up areas
+                                 that include the AHP criteria, and it is also necessary to develop an academic method to
+                                 classify urban, rural, and desakota areas.
+
+                                 Author Contributions: Data collection, conceptualization, field survey conduction, data curation,
+                                 formal analysis, methodology, validation, visualization, and writing—original draft: A.A.K.; investi-
+                                 gation, methodology, supervision, validation, writing—review, and editing: E.R., A.F., A.E.P., J.Ž. and
+                                 I.S. All authors have read and agreed to the published version of the manuscript.
+                                 Funding: This research and the APC were funded by the Ministry of Education, Culture, Research
+                                 and Technology, the Republic of Indonesia, through the PMDSU scholarship scheme with grant
+                                 number 1/E1/K.P.PTNBH/2021.
+                                 Institutional Review Board Statement: Not applicable.
+                                 Informed Consent Statement: Not applicable.
+                                 Data Availability Statement: Not applicable.
+                                 Acknowledgments: We would like to thank the Ministry of Education, Culture, Research and
+                                 Technology, the Republic of Indonesia, for funding this research and the APC of our article.
+                                 Conflicts of Interest: The authors declare no conflict of interest. The funders had no role in the study;
+                                 in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision
+                                 to publish the results.
+
+References
+1.    Xu, G.; Jiao, L.; Liu, J.; Shi, Z.; Zeng, C.; Liu, Y. Understanding Urban Expansion Combining Macro Patterns and Micro Dynamics
+      in Three Southeast Asian Megacities. Sci. Total Environ. 2019, 660, 375–383. [CrossRef] [PubMed]
+2.    Pribadi, D.O.; Pauleit, S. The Dynamics of Peri-Urban Agriculture during Rapid Urbanization of Jabodetabek Metropolitan Area.
+      Land Use Policy 2015, 48, 13–24. [CrossRef]
+3.    Rustiadi, E.; Pravitasari, A.E.; Setiawan, Y.; Mulya, S.P.; Pribadi, D.O.; Tsutsumida, N. Impact of Continuous Jakarta Megacity
+      Urban Expansion on the Formation of the Jakarta-Bandung Conurbation over the Rice Farm Regions. Cities 2021, 111, 103000.
+      [CrossRef]
+4.    Yokohari, M.; Takeuchi, K.; Watanabe, T.; Yokota, S. Beyond Greenbelts and Zoning: A New Planning Concept for the Environment
+      of Asian Mega-Cities. Landsc. Urban Plan. 2000, 47, 159–171. [CrossRef]
+Land 2022, 11, 670                                                                                                                17 of 20
+
+
+
+
+5.    Rustiadi, E.; Pribadi, D.O.; Pravitasari, A.E.; Indraprahasta, G.S.; Iman, L.S. Jabodetabek Megacity: From City Development
+      Toward Urban Complex Management System. In Urban Development Challenges, Risks and Resilience in Asian Mega Cities; Springer:
+      Tokyo, Japan, 2015; pp. 421–445. [CrossRef]
+6.    Yang, R.; Zhang, J.; Xu, Q.; Luo, X. Urban-Rural Spatial Transformation Process and Influences from the Perspective of Land Use:
+      A Case Study of the Pearl River Delta Region. Habitat Int. 2020, 104, 102234. [CrossRef]
+7.    Chen, T.L.; Chiu, H.W.; Lin, Y.F. How Do East and Southeast Asian Cities Differ from Western Cities? A Systematic Review of the
+      Urban Form Characteristics. Sustainability 2020, 12, 2423. [CrossRef]
+8.    Zhu, J.; Simarmata, H.A. Formal Land Rights versus Informal Land Rights: Governance for Sustainable Urbanization in the
+      Jakarta Metropolitan Region, Indonesia. Land Use Policy 2015, 43, 63–73. [CrossRef]
+9.    Martinez, R.; Masron, I.N. Jakarta: A City of Cities. Cities 2020, 106, 102868. [CrossRef]
+10.   Hudalah, D.; Firman, T. Beyond Property: Industrial Estates and Post-Suburban Transformation in Jakarta Metropolitan Region.
+      Cities 2012, 29, 40–48. [CrossRef]
+11.   Talitha, T. Rethinking metropolitan governance: An exploration of urban entrepreneurialism in decentralized Indonesia: The case
+      of Jakarta Metropolitan Region (JMR). Governance, Policy and Political Economy (GPPE). Available online: http://hdl.handle.
+      net/2105/37321 (accessed on 20 February 2022).
+12.   Rustiadi, E.; Panuju, D.R. Spatial Pattern of Suburb. In Land Use Changes in Comparative Perspective, 1st ed.; Himiyama, Y., Ed.;
+      Taylor&Francis Group: Abingdon, UK, 2002; pp. 33–52.
+13.   Kurnia, A.; Rustiadi, E.; Pravitasari, A. Characterizing Industrial-Dominated Suburban Formation Using Quantitative Zoning
+      Method: The Case of Bekasi Regency, Indonesia. Sustainability 2020, 12, 8094. [CrossRef]
+14.   Firman, T. Potential Impacts of Indonesia’s Fiscal Decentralisation Reform on Urban and Regional Development: Towards a New
+      Pattern of Spatial Disparity. Space Polity 2003, 7, 247–271. [CrossRef]
+15.   Talitha, T.; Firman, T.; Hudalah, D. Welcoming Two Decades of Decentralization in Indonesia: A Regional Development
+      Perspective. Territ. Politics Gov. 2020, 8, 690–708. [CrossRef]
+16.   Indraprahasta, G.S.; Derudder, B.; Hudalah, D. Local Institutional Actors and Globally Linked Territorial Development in Bekasi
+      District: A Strategic Coupling? Singap. J. Trop. Geogr. 2019, 40, 219–238. [CrossRef]
+17.   Hudalah, D.; Viantari, D.; Firman, T.; Woltjer, J. Industrial Land Development and Manufacturing Deconcentration in Greater
+      Jakarta. Urban Geogr. 2013, 34, 950–971. [CrossRef]
+18.   Winarso, H.; Hudalah, D.; Firman, T. Peri-Urban Transformation in the Jakarta Metropolitan Area. Habitat Int. 2015, 49, 221–229.
+      [CrossRef]
+19.   Firman, T.; Fahmi, F.Z. The Privatization of Metropolitan Jakarta’s (Jabodetabek) Urban Fringes: The Early Stages of “Post-
+      Suburbanization” in Indonesia. J. Am. Plan. Assoc. 2017, 83, 68–79. [CrossRef]
+20.   Peraturan Pemerintah Republik Indonesia. Kawasan Industri (Industrial Park/Estate) Regulation. Available online: https:
+      //jdih.esdm.go.id/peraturan/PP%2010%20Thn%201989.pdf (accessed on 20 February 2022).
+21.   Indraprahasta, G.S.; Derudder, B.; Koelemaij, J. Global-Local Dynamics in the Transformation of the Jakarta Metropolitan Area
+      into a Global City-Region. Disp Plan. Rev. 2018, 54, 52–62. [CrossRef]
+22.   Ministry of Industry of the Republic of Indonesia. List of Large-Scale Industrial Estates in Indonesia. Available online: https:
+      //kemenperin.go.id/kawasan (accessed on 13 November 2021).
+23.   Bekasi Regency’s Statistical Agency [BPS]. Gross Regional Domestic Product of Bekasi Regency 2016–2020; Bekasi Regency’s Statistical
+      Agency: Bekasi, Indonesia, 2021.
+24.   Kurnianti, D.N.; Rustiadi, E.; Baskoro, D.P.T. Land Use Projection for Spatial Plan Consistency in Jabodetabek. Indones. J. Geogr.
+      2015, 47, 124–131. [CrossRef]
+25.   Hu, Z.; Wang, Y.; Liu, Y.; Long, H.; Peng, J. Spatio-Temporal Patterns of Urban-Rural Development and Transformation in East of
+      the “Hu Huanyong Line”, China. ISPRS Int. J. Geo Inf. 2016, 5, 24. [CrossRef]
+26.   Liu, J.; Liu, Y.; Yan, M. Spatial and Temporal Change in Urban-Rural Land Use Transformation at Village Scale—A Case Study of
+      Xuanhua District, North China. J. Rural Stud. 2016, 47, 425–434. [CrossRef]
+27.   Liu, Y.; Yang, R. The Spatial Pattern Measure of Urban-Rural Development Transformation in the Bohai Rim Region in China.
+      Acta Geogr. Sin. 2015, 70, 248–256. [CrossRef]
+28.   Yang, Y.; Liu, Y.; Li, Y.; Li, J. Measure of Urban-Rural Transformation in Beijing-Tianjin-Hebei Region in the New Millennium:
+      Population-Land-Industry Perspective. Land Use Policy 2018, 79, 595–608. [CrossRef]
+29.   Wang, Y.; Liu, Y.; Li, Y.; Li, T. The Spatio-Temporal Patterns of Urban-Rural Development Transformation in China since 1990.
+      Habitat Int. 2016, 53, 178–187. [CrossRef]
+30.   Long, H. Land Use Transition and Rural Transformation Development. Prog. Geogr. 2012, 31, 131–138.
+31.   Indraprahasta, G.S. The Potential of Urban Agriculture Development in Jakarta. Procedia Environ. Sci. 2013, 17, 11–19. [CrossRef]
+32.   Gandharum, L.; Hartono, D.M.; Karsidi, A.; Ahmad, M. Monitoring Urban Expansion and Loss of Agriculture on the North Coast
+      of West Java Province, Indonesia, Using Google Earth Engine and Intensity Analysis. Sci. World J. 2022, 2022, 3123788. [CrossRef]
+33.   Divigalpitiya, P.; Nurul Handayani, K. Measuring the Urban Expansion Process of Yogyakarta City in Indonesia: Urban Expansion
+      Process and Spatial and Temporal Characteristics of Growing Cities. Int. Rev. Spat. Plan. Sustain. Dev. 2015, 3, 18–32. [CrossRef]
+34.   Liu, Y.; Hu, Z.; Li, Y. Process and Cause of Urban-Rural Development Transformation in the Bohai Rim Region, China. J. Geogr.
+      Sci. 2014, 24, 1147–1160. [CrossRef]
+Land 2022, 11, 670                                                                                                               18 of 20
+
+
+
+
+35.   Hakim, I.; Parolin, B. Spatial Structure and Spatial Impacts of the Jakarta Metropolitan Area: A Southeast Asian EMR Perspective.
+      Int. J. Civ. Environ. Struct. Constr. Archit. Eng. 2008, 2, 227–235.
+36.   Liang, X.; Guan, Q.; Clarke, K.C.; Liu, S.; Wang, B.; Yao, Y. Understanding the Drivers of Sustainable Land Expansion Using
+      a Patch-Generating Land Use Simulation (PLUS) Model: A Case Study in Wuhan, China. Comput. Environ. Urban Syst. 2021,
+      85, 101569. [CrossRef]
+37.   Liu, Q.; Yang, D.; Cao, L.; Anderson, B. Assessment and Prediction of Carbon Storage Based on Land Use/Land Cover Dynamics
+      in the Tropics: A Case Study of Hainan Island, China. Land 2022, 11, 244. [CrossRef]
+38.   Zhang, S.; Zhong, Q.; Cheng, D.; Xu, C.; Chang, Y.; Lin, Y.; Li, B. Coupling Coordination Analysis and Prediction of Landscape
+      Ecological Risks and Ecosystem Services in the Min River Basin. Land 2022, 11, 222. [CrossRef]
+39.   Prayitno, G.; Sari, N.; Hasyim, A.W.; Nyoman Widhi, S.W. Land-Use Prediction in Pandaan District Pasuruan Regency. Int. J.
+      GEOMATE 2020, 18, 64–71. [CrossRef]
+40.   Yulianto, F.; Maulana, T.; Khomarudin, M.R. Analysis of the Dynamics of Land Use Change and Its Prediction Based on the
+      Integration of Remotely Sensed Data and CA-Markov Model, in the Upstream Citarum Watershed, West Java, Indonesia. Int. J.
+      Digit. Earth 2019, 12, 1151–1176. [CrossRef]
+41.   Ghani, G.A.; Dimyati, M.; Damayanti, A. Prediction of Land Cover and Land Surface Temperature in Kuta Selatan Sub-District,
+      Bali Province. Int. J. Adv. Sci. Eng. Inf. Technol. 2021, 11, 130–138. [CrossRef]
+42.   Ricky, E.R.; Barus, B. A Projection of Land Needed for Settlements and Conversion of Paddy Fields in Solok City. J. Reg. City Plan.
+      2017, 28, 186–203. [CrossRef]
+43.   Zivanovic, V. The Role of Nodal Centers in Achieving Balanced Regional Development. J. Geogr. Inst. Jovan Cvijic SASA 2017, 67,
+      69–84. [CrossRef]
+44.   Liu, K.; Murayama, Y.; Ichinose, T. Exploring the Relationship between Functional Urban Polycentricity and the Regional
+      Characteristics of Human Mobility: A Multi-View Analysis in the Tokyo Metropolitan Area. Cities 2021, 111, 103109. [CrossRef]
+45.   Henny, C.; Meutia, A.A. Urban Lakes in Megacity Jakarta: Risk and Management Plan for Future Sustainability. Procedia Environ.
+      Sci. 2014, 20, 737–746. [CrossRef]
+46.   Republic of Indonesia Government. Rencana Tata Ruang Kawasan Perkotaan Jakarta, Bogor, Depok, Tangerang, Bekasi, Puncak,
+      Dan Cianjur “Jakarta Megacity’s Spatial Planning”. Available online: https://jdih.setkab.go.id/PUUdoc/176105/Perpres_60
+      _Tahun_2020.pdf (accessed on 13 November 2021).
+47.   Forget, Y.; Linard, C.; Gilbert, M. Supervised Classification of Built-up Areas in Sub-Saharan African Cities Using Landsat Imagery
+      and Openstreetmap. Remote Sens. 2018, 10, 1145. [CrossRef]
+48.   Firman, T. The Continuity and Change in Mega-Urbanization in Indonesia: A Survey of Jakarta-Bandung Region (JBR) Develop-
+      ment. Habitat Int. 2009, 33, 327–339. [CrossRef]
+49.   Fahmi, F.Z.; Hudalah, D.; Rahayu, P.; Woltjer, J. Extended Urbanization in Small and Medium-Sized Cities: The Case of Cirebon,
+      Indonesia. Habitat Int. 2014, 42, 1–10. [CrossRef]
+50.   Irawati, M. Agricultural Land Conversion Mechanisms, Internal Migrations, and Housing Policy: Case Studies of Industrial
+      Estates in the Northern Cikarang, West Java Province, Indonesia. In Proceedings of the IOP Conference Series: Earth and Environ-
+      mental Science, Volume 556, The 6th International Conference of Jabodetabek Study Forum, Bogor, Indonesia, 29–30 August 2018.
+51.   Herlambang, S.; Leitner, H.; Tjung, L.J.; Sheppard, E.; Anguelov, D. Jakarta’s Great Land Transformation: Hybrid Neoliberalisation
+      and Informality. Urban Stud. 2019, 56, 627–648. [CrossRef]
+52.   Dorodjatoen, A. The Emergence of Jakarta-Bandung Mega-Urban Region and Its Future Challenges. J. Reg. City Plan. 2009, 20,
+      15–33.
+53.   Budi, D.; >Herwindiati, D.E.; Hendryli, J. Land use change using least absolute shrinkage and selection operator regression in
+      jakarta’s buffer cities. In Proceedings of the 2021 IEEE 11th IEEE Symposium on Computer Applications & Industrial Electronics
+      (ISCAIE), Penang, Malaysia, 3–4 April 2021.
+54.   Yang, J.; Gong, J.; Tang, W.; Liu, C. Patch-Based Cellular Automata Model of Urban Growth Simulation: Integrating Feedback
+      between Quantitative Composition and Spatial Configuration. Comput. Environ. Urban Syst. 2020, 79, 101402. [CrossRef]
+55.   Saaty, T.L. Decision Making—the Analytic Hierarchy and Network Processes (AHP/ANP). J. Syst. Sci. Syst. Eng. 2004, 13, 1–35.
+      [CrossRef]
+56.   Goepel, K. Implementation of an Online Software Tool for the Analytic Hierarchy Process (AHP-OS). Int. J. Anal. Hierarchy Process
+      2018, 10, 469–487. [CrossRef]
+57.   Saaty, R.W. The Analytic Hierarchy Process-What It Is and How It Is Used. Math. Model. 1987, 9, 161–176. [CrossRef]
+58.   Anselin, L. Local Indicators of Spatial Association—LISA. Geogr. Anal. 1995, 27, 93–115. [CrossRef]
+59.   Pravitasari, A.E.; Rustiadi, E.; Mulya, S.P.; Fuadina, L.N. Developing Regional Sustainability Index as a New Approach for
+      Evaluating Sustainability Performance in Indonesia. Environ. Ecol. Res. 2018, 6, 157–168. [CrossRef]
+60.   Kurnia, A.A.; Rustiadi, E.; Pravitasari, A.E. Cluster Analysis and Spatial Pattern Approaches in Identifying Development Pattern
+      of Bodebek Region, West Java. In Proceedings of the SPIE—The International Society for Optical Engineering, Bogor, Indonesia,
+      24 December 2019; Volume 11372. [CrossRef]
+61.   Wei, C.; Wang, Z.; Lan, X.; Zhang, H.; Fan, M. The Spatial-Temporal Characteristics and Dilemmas of Sustainable Urbanization in
+      China: A New Perspective Based on the Concept of Five-in-One. Sustainability 2018, 10, 4733. [CrossRef]
+Land 2022, 11, 670                                                                                                               19 of 20
+
+
+
+
+62.   Gutiérrez, A.; Delclòs, X. The Uneven Distribution of Evictions as New Evidence of Urban Inequality: A Spatial Analysis
+      Approach in Two Catalan Cities. Cities 2016, 56, 101–108. [CrossRef]
+63.   Widyastuti, A.Y. Kemenperin: Pabrik Kembang Api Harus di Kawasan Industri Ministry of Industry: Fireworks Factory Must
+      be in Industrial Area. Available online: https://bisnis.tempo.co/read/1031155/kemenperin-pabrik-kembang-api-harus-di-
+      kawasan-industri (accessed on 17 November 2021).
+64.   Tangerang Regency’s Statistical Agency [BPS]. Gross Regional Domestic Product of Tangerang Regency 2016–2020; Tangerang: Banten,
+      Indonesia, 2021.
+65.   Yang, R.; Luo, F.; Ren, F.; Huang, W.; Li, Q.; Du, K.; Yuan, D. Identifying Urban Wetlands through Remote Sensing Scene
+      Classification Using Deep Learning: A Case Study of Shenzhen, China. ISPRS Int. J. Geo-Inf. 2022, 11, 131. [CrossRef]
+66.   Yan, Y.; Liu, H.; Wang, N.; Yao, S. How Does Low-Density Urbanization Reduce the Financial Sustainability of Chinese Cities? A
+      Debt Perspective. Land 2021, 10, 981. [CrossRef]
+67.   Indraprahasta, G.S.; Derudder, B. Probing the Position of the Jakarta Metropolitan Area in Global Inter-Urban Networks through
+      the Lens of Manufacturing Firms. Asian Geogr. 2017, 34, 147–167. [CrossRef]
+68.   Wang, S.; Tan, S.; Yang, S.; Lin, Q.; Zhang, L. Urban-Biased Land Development Policy and the Urban-Rural Income Gap: Evidence
+      from Hubei Province, China. Land Use Policy 2019, 87, 104066. [CrossRef]
+69.   Santosa, S.; Rustiadi, E.; Mulyanto, B.; Murtilaksono, K.; Rachman, N.F.; Resources, L.; Sciences, C. Modeling on Establishment of
+      Sustainable Paddy Field Zone in Bekasi Regency, Indonesia. J. Environ. Earth Sci. 2015, 5, 79–90.
+70.   Vollmer, D.; Pribadi, D.O.; Remondi, F.; Rustiadi, E.; Grêt-Regamey, A. Prioritizing ecosystem services in rapidly urbanizing river
+      basins: A spatial multi-criteria analytic approach. Sustain. Cities Soc. 2016, 20, 237–252. [CrossRef]
+71.   Pribadi, D.O.; Pauleit, S. Peri-Urban Agriculture in Jabodetabek Metropolitan Area and Its Relationship with the Urban Socioeco-
+      nomic System. Land Use Policy 2016, 55, 265–274. [CrossRef]
+72.   Pribadi, D.O.; Zasada, I.; Müller, K.; Pauleit, S. Multifunctional Adaption of Farmers as Response to Urban Growth in the
+      Jabodetabek Metropolitan Area, Indonesia. J. Rural Stud. 2017, 55, 100–111. [CrossRef]
+73.   Firman, T. New Town Development in Jakarta Metropolitan Region: A Perspective of Spatial Segregation. Habitat Int. 2004, 28,
+      349–368. [CrossRef]
+74.   Firman, T. Rural to Urban Land Conversion in Indonesia during Boom and Bust Periods. Land Use Policy 2000, 17, 13–20.
+      [CrossRef]
+75.   Bekasi Regency Government. Bekasi Regency’s Spatial Plan 2011–2031; Bekasi Regency Government: Bekasi, Indonesia, 2011;
+      pp. 1–41.
+76.   Tangerang Regency Government. Tangerang Regency’s Spatial Plan 2011–2031 2011, 1–52.
+77.   Agung Sedayu Group. PIK 2 Masterplan: 1000 Ha Total Area. Available online: http://pik2-asg.com/wp-content/uploads/2018
+      /05/PRESENTASI-KAVDEV-External-18-02-10.pdf (accessed on 20 February 2022).
+78.   Pravitasari, A.E.; Saizen, I.; Rustiadi, E. Towards Resilience of Jabodetabek Megacity: Developing Local Sustainability Index with
+      Considering Local Spatial Interdependency. Int. J. Sustain. Futur. Hum. Secur. 2016, 4, 27–34. [CrossRef] [PubMed]
+79.   Pribadi, D.O.; Vollmer, D.; Pauleit, S. Impact of Peri-Urban Agriculture on Runoff and Soil Erosion in the Rapidly Developing
+      Metropolitan Area of Jakarta, Indonesia. Reg. Environ. Chang. 2018, 18, 2129–2143. [CrossRef]
+

@@ -1,0 +1,617 @@
+[PDF Metadata]
+Source PDF: journal/B09-veneri-2013-the-identification-of-sub-centres-in-two-italian-metropolitan-areas-a-functional-approach-10.1016-j.cities.2012.04.006.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           9
+Encrypted:       no
+Page size:       595.276 x 793.701 pts
+Page rot:        0
+File size:       617632 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                                           Cities 31 (2013) 177–185
+
+
+
+                                                       Contents lists available at SciVerse ScienceDirect
+
+
+                                                                                 Cities
+                                              journal homepage: www.elsevier.com/locate/cities
+
+
+
+
+The identiﬁcation of sub-centres in two Italian metropolitan areas:
+A functional approach q
+Paolo Veneri ⇑
+Dipartimento di Scienze Economiche e Sociali (DiSES), Università Politecnica delle Marche, Piazza Martelli, 8 60121 Ancona, Italy
+Regional Development Policy Division (GOV/RDP), Organization of Economic Cooperation and Development (OECD), 2 Rue André-Pascal, 75016 Paris, France
+
+
+
+a r t i c l e        i n f o                          a b s t r a c t
+
+Article history:                                      This work introduces a method aimed at identifying metropolitan sub-centres based on an interaction
+Received 28 July 2011                                 approach, using commuting ﬂows. In addition, it compares the results with other approaches based on
+Received in revised form 11 April 2012                employment and/or density thresholds commonly used in the literature. Although the scientiﬁc literature
+Accepted 24 April 2012
+                                                      and the policy debate on polycentricity are increasingly devoted to its functional dimension, empirical
+Available online 20 May 2012
+                                                      research aimed at identifying metropolitan sub-centres mainly relies on employment density, which
+                                                      refers to a more morphological approach. After discussing the concept of centre and the contemporary
+Keywords:
+                                                      literature on its empirical identiﬁcation, the proposed methodology is applied to the metropolitan areas
+Sub-centres
+Polycentricity
+                                                      of Rome and Milan. Such a method shows a better ﬁt compared to other approaches based on job density.
+Metropolitan areas                                    Results are found to be remarkably sensitive to the method applied and are dependent, to some extent, on
+                                                      the different concept of centre that is adopted in the characterisation of metropolitan spatial structures.
+                                                                                                                        Ó 2012 Elsevier Ltd. All rights reserved.
+
+
+
+Introduction                                                                             centres allows a wider knowledge of metropolitan spatial organisa-
+                                                                                         tion, which is necessary for any spatial planning policy. The identi-
+   Contemporary Metropolitan Areas (MAs) are characterised by                            ﬁcation of metropolitan sub-centres also allows the recognition of
+ever more complex spatial structures that are increasingly differ-                       places where the priorities of public investments are assigned,
+ent from the archetype of the monocentric city. With a particular                        places that shape the agglomeration effects within their region. In
+intensity in the last two decades, metropolitan employment has                           fact, if we accept that external economies of agglomeration have
+been scattered throughout the urban territory, changing the tradi-                       regionalised their space of inﬂuence (Richardson, 1995), then poly-
+tional patterns of urban spatial organisation towards dispersed or                       centric urban structures could have a role in enhancing this source
+polycentric structures (Garcia-López and Muñiz, 2010). In addition,                      of economic advantages. Only by providing reliable tools to measure
+agglomeration externalities – whose role in economic growth and                          urban spatial structure it would be possible to verify the effects of
+productivity is increasingly studied – have extended geographi-                          polycentricity on metropolitan economic performance, a topic
+cally beyond the boundaries of single urban cores and are increas-                       which is still empirically understudied.
+ingly shared among different interconnected centres (Meijers &                               The aim of this work is to propose a methodological approach to
+Burger, 2010). Polycentricity is also thought of as a normative tool                     identifying metropolitan sub-centres. For this purpose, two Italian
+to reach important objectives in terms of environmental sustain-                         MAs – Rome and Milan – are chosen as study areas. The proposed
+ability and social cohesion (Davoudi, 2003). As a matter of fact,                        methodology is based on an interaction and functional approach
+measuring polycentricity – and, more generally, urban spatial                            and results are compared with those obtained from two other
+structure – has become an important research topic.                                      methods based on density and employment size. This work aims
+   A necessary ﬁrst step in the characterisation of polycentric MA                       at ﬁlling a gap in the literature on the description of urban spatial
+concerns the identiﬁcation of metropolitan sub-centres (Anas,                            structure. In fact, while increasing attention has been devoted to
+Arnott, & Small, 1998), though this can be thought of as an indepen-                     functional relations that occur among territorial nodes within
+dent topic with its own relevance. In fact, the identiﬁcation of sub-                    metropolitan areas – or even at higher spatial levels (Derudder,
+                                                                                         Taylor, Witlox, & Catalano, 2003) – much less attention has been
+                                                                                         devoted at identifying metropolitan centralities using interaction
+  q
+    The views expressed herein are those of the author and do not necessarily            measures in place of density-based approaches. Comparative stud-
+reﬂect the views of the OECD.                                                            ies between the results of the two approaches are also lacking.
+  ⇑ Present address: Regional Development Policy Division (RDP/GOV), Organiza-
+                                                                                             The works aimed at identifying employment sub-centres that
+tion of Economic Cooperation and Development (OECD), 2 Rue André-Pascal, 75016
+Paris, France. Tel.: +33 (0)145248138.
+                                                                                         adopt morphological and density-based methodologies are based
+    E-mail addresses: paolo.veneri@oecd.org, p.veneri@univpm.it                          on the bid-rent theoretical tradition (Alonso, 1964; Mills, 1972;
+
+0264-2751/$ - see front matter Ó 2012 Elsevier Ltd. All rights reserved.
+http://dx.doi.org/10.1016/j.cities.2012.04.006
+178                                                        P. Veneri / Cities 31 (2013) 177–185
+
+
+Muth, 1969). The latter approaches are particularly appropriate                 was already clear in the ﬁrst half of the 20th Century (Harris & Ull-
+when new sub-centres emerge as a consequence of the processes                   man, 1945). However, the literature on the identiﬁcation of sub-
+of employment decentralisation from a Central Business District                 centres has grown in a particularly rapid way in the last twenty
+(CBD) to the hinterland due to high congestion and land prices.                 years, improving its degree of rigorousness and adaptability to dif-
+Hence, centrifugal and centripetal forces are at the base of the                ferent territorial contexts. The most commonly employed method-
+changing metropolitan spatial structure, which evolve from a mono-              ologies to identify sub-centres make use of density measures. This
+centric model to a polycentric or a dispersed one (Lee, 2007). How-             is because of the meaning that is given to the concept of centre (or
+ever, the procedure of sub-centre identiﬁcation proposed in this                sub-centre). In fact, a metropolitan centre could be thought of as a
+work is more closely connected with the Central Place theoretical               place characterised by a high concentration of employment and
+tradition (Christaller, 1966; Lösch, 1954), which is more focused               activities with respect to the surrounding territory. This deﬁnition
+on the hierarchical relations across multiple centres located within            works particularly well for MAs that grow and evolve mainly by
+a given urban system, that in the case of this paper are metropolitan           decentralisation from a congested CBD towards new concentra-
+areas. In central place theory, the hierarchical rank of each node              tions of activities (sub-centres) due to a trade-off between econo-
+determines its centrality, which in turn depends on the functions               mies and diseconomies of agglomeration.
+that each centre provides. In this work, travel-to-work ﬂows are                    In a chronological order, one of the ﬁrst straightforward meth-
+used as a measure of relationship between territorial nodes, since              ods of identiﬁcation is that by Giuliano and Small (1991), which is
+central places are expected to have an excess of labour demand com-             based on employment and density thresholds. The two authors
+pared with non-central places. Underlying this perspective, there is            identify 32 sub-centres in the Los Angeles MA by selecting those
+a particular meaning of the concept of centre which depends on                  transportation analysis zones (TAZs) that show a gross employ-
+functional relations among nodes. In fact, the importance of a centre           ment density of at least 10 jobs per acre and a total employment
+is connected with the excess of functions it supplies relative to those         of at least 10,000 units. The same method – but with different
+demanded by local inhabitants (Preston, 1971). Thus, the impor-                 cut-off values – has been adopted by many other authors, such
+tance of central places should be assessed by looking at the strength           as Small and Song (1994), Bogart and Ferry (1999) and Cervero
+of their relations rather than on their internal characteristics (Burger        and Wu (1998). They analyse the MAs of Los Angeles, Cleveland
+& Meijers, 2012).                                                               and San Francisco, respectively. More recently, Muñiz, García
+    The functional approach to polycentricity can be particularly               López, and Galindo (2008) used relative thresholds for the MA of
+sound for the study of European – and especially for Italian – MAs.             Barcelona, selecting as sub-centres those municipalities with a
+In fact, many European MAs emerged mostly as a result of an                     gross employment density higher than the MA average that ac-
+integration or coalescence process between old and pre-existing cit-            count at the same time for at least 1% of the total metropolitan
+ies (Calafati, 2002; Champion, 2001), rather than a decentralisation            employment. Since these methods are often guided by trial and er-
+process from a single and congested urban core. Milan and Rome                  ror, these simple cut-offs are subject to a certain degree of discre-
+represent two paradigmatic examples of metropolitan areas in                    tion as well as some local knowledge of the place under analysis
+which territorial coalescence brought about a complex spatial struc-            (McMillen, 2001, p. 449). However, it must also be noted that a
+ture in which previously existing urban nodes integrated in a larger            certain degree of discretion is used in almost every method of
+area where some nodes gained importance and some others lost.                   identiﬁcation, even in econometric ones, where certain statistical
+    The identiﬁcation of metropolitan sub-centres is carried out in             conﬁdence levels have to be chosen.
+this work by analysing their functional characteristics rather than                 Another methodology based on simple cut-offs is that em-
+their morphological features. Thus, in order to identify metropoli-             ployed by Shearmur and Coffey (2002), which – following the idea
+tan sub-centres, commuting ﬂows between urban nodes                             by McDonald (1987) – identiﬁes as sub-centres the contiguous
+(municipalities) and the diversity/completeness of their sectorial              TAZs that show an employment to resident workers ratio (E/R ra-
+structures have been analysed. These aspects allow us to draw a                 tio) greater than 1 and a number of jobs of at least 5000 units. This
+hierarchic ranking between places and to identify those municipal-              method should be actually classiﬁed somewhere in between static
+ities that turn out to be more locally central. On the other hand,              and dynamic approaches since it approximates the net in-commut-
+restricting the analysis to population and density patterns within              ing even if it does it by using stock data. The E/R ratio is preferred
+MAs is expected to catch another dimension of spatial structure.                over employment density by some authors because the former
+Such a dimension is founded on the absolute importance of a cen-                approximates the capacity of attraction of employment more accu-
+tre (global nodality), with less focus on its role for the surrounding          rately (Shearmur & Coffey, 2002, p. 579).1 However, it puts less
+territory (Lukermann, 1966).                                                    emphasis on employment localisation. In fact, Giuliano and Small
+    The remainder of the paper is organised as follows. In the next             (1991, p. 167) argue that E/R ratio does not sufﬁciently take into
+section, a review of the literature on sub-centre identiﬁcation is              account agglomeration economies, which depend on the distance
+carried out, distinguishing the major static and morphological                  between ﬁrms (density) rather than on the presence of resident
+methodologies from interaction-based ones. The third section                    workers.
+explains the procedure that has been used in this work to identify                  A third methodology is based on the identiﬁcation of local den-
+metropolitan sub-centres, while the fourth section presents the                 sity peaks. Following this approach, the zones which present a lo-
+results of its application for Rome and Milan MAs. Results are also             cal maximum in employment density or in the E/R ratio, with
+compared with those that use other more traditional methods found               respect to the surrounding area, can be considered sub-centres.
+in the literature. A comparison is discussed in the ﬁfth section. Final-        Following the idea by Bender (1981, 1985) on the effects of sub-
+ly, some concluding remarks are provided in the last section.                   centres on land prices, McDonald (1987) identiﬁes sub-centres by
+                                                                                looking at local peaks in the E/R ratio. Similar approaches can be
+                                                                                found in McDonald and McMillen (1990), while Gordon, Richard-
+Literature review                                                               son, and Wong (1986), Craig and Ng (2001) and Redfearn (2007),
+                                                                                among others, look at local peaks in employment density. In the
+Static methodologies
+                                                                                1
+                                                                                  For a more detailed analysis of the advantages and disadvantages of the E/R ratio for
+   The polycentric structure at the intra-urban level, and the                  the identiﬁcation of sub-centres, see Coffey and Shearmur (2002) and Forstall and
+possibility that multiple centres can exist within urban areas,                 Greene (1997).
+                                                          P. Veneri / Cities 31 (2013) 177–185                                                   179
+
+
+last two studies, authors identify local peaks using a non-paramet-            theory (Christaller, 1966; Lösch, 1954) since it focuses on urban
+ric speciﬁcation of the density function in order to avoid what in             functions and hierarchies between territorial nodes. From this per-
+their opinion are excessively strong assumptions regarding the                 spective, metropolitan sub-centres can be seen as central places
+spatial distribution of sub-centres. In fact, in most cases, the anal-         within a given MA, places that functionally organise their sur-
+ysis starts from the assumption of a monocentric structure (Mills,             rounding territory. However, since the Nineties, this theoretical
+1972; Muth, 1969), estimating a simple negative exponential den-               framework has been partially re-thought in terms of horizontal
+sity function (Kemper & Schmenner, 1974). Another possibility is               relations between centres, rather than hierarchical ones, giving rise
+the assumption of a polycentric urban structure adopting a para-               to the network of cities paradigm (Batten, 1995; Camagni & Salone,
+metric density function with multiple centres. In this respect,                1993; Dematteis, 1990). The underlying idea is that different cen-
+Heikkila et al. (1989) present three explicit alternatives to specify          tres specialise in different sectors in order to beneﬁt from Marshal-
+the polycentric density function on the basis of the value given               lian economies of location and relate to one another in a non-
+to the access to centres.                                                      hierarchical way. This theoretical framework is particularly sound
+    A fourth method relies on the identiﬁcation of the residues of an          for the study of urban systems and inter-metropolitan links, while
+econometric estimation of the density function, which can be para-             for single MAs – as is the case in this work – the traditional central
+metric or non-parametric, depending on the strength of the                     place theory can still play an important role.
+assumptions on the urban structure. The residues that are statisti-                The literature on the identiﬁcation of metropolitan sub-centres
+cally diverse from zero can be considered candidates for sub-                  with a functional approach includes some interaction methods
+centres (McDonald and Prater, 1994; McMillen, 2001). These                     which make use of ﬂow data. This kind of studies can be found
+selected nodes are then analysed in terms of their effects on urban            in both America (Bourne, 1989; Gordon, Richardson, & Giuliano,
+spatial structure through the estimation of a polycentric model of             1989) and in Europe (Burns, Boix, & Roca, 2001; Clark and Kluij-
+employment density. A recent work by Leslie (2010) identiﬁes                   pers-Linde, 1994). Bourne (1989) visually analyses commuting
+Phoenix sub-centres with a Kernel smoothing process for both                   ﬂows for Canadian cities. Gordon et al. (1989), on the other hand,
+employment and establishment density. Using Kernel density                     follow a trip-generation density approach for Los Angeles, analys-
+measures with point data has the advantage of allowing a minor                 ing the distribution of trafﬁc ﬂows among TAZs. In Europe, Burns
+bias in the spatial deﬁnition of centres due to administrative                 et al. (2001) identify sub-centres in Spanish MAs by selecting the
+boundaries and land uses (Adolphson, 2009). Moreover, McMillen                 municipalities that show a net entry ﬂow of at least 15%.
+and Lester (2003) argue that econometric methods are more objec-                   More recently, these interaction approaches have also been
+tive and work better for comparative analysis among different                  used for the analysis of spatial conﬁguration at the level of national
+MAs. However, for the analysis of MAs over time, simple threshold              urban systems (Limtanakool, Dijst, & Schwanen, 2007; Limtanako-
+methods are usually preferred.                                                 ol, Schwanen, & Dijst, 2009) or even at global level (Derudder et al.,
+    A ﬁfth morphological method uses spatial statistics tools to               2003). More speciﬁcally, former studies propose a set of spatial
+identify – within a MA – clusters of zones with higher density than            interaction indices, trying to quantify the strength and symmetry
+that of the surrounding ones. High-density clusters can be consid-             of interaction and the structure of the whole network (urban sys-
+ered sub-centres since they represent relative concentrations of               tem), by using commuting ﬂows. In few other works, commuting
+employment. This approach is based on the Local Indexes of Spatial             ﬂows have been used to investigate the interdependence of sub-
+Autocorrelation (LISA) (Anselin, 1995). With these indicators, it is           urbs and central cities within MAs (Barbonne, Villeneuve, & Théria-
+possible to quantify the degree of clustering of neighbouring zones            ult, 2007; Gilli, 2002; Holly, 1993). In particular, Holly (1993, p.
+with high levels of density (Riguelle, Thomas, & Verhetsel, 2007).             419) argues that commuting approximates the actual interaction
+This method has been used, among others, by Baumont, Ertur,                    between cities (exchange of labour, thus of knowledge and infor-
+and Le Gallo (2004) and by Guillain, Le Gallo, and Boiteux-Orain               mation), making clear the different position of each city in the
+(2004).                                                                        metropolitan hierarchy.
+                                                                                   Interaction methods are deeply different from those based on
+Interaction methodologies                                                      employment density. In fact, underlying these two alternative
+                                                                               perspectives are two different concepts of metropolitan centre
+    The functional approach based on interaction procedures seems              and, consequently, two different concepts of polycentricity.
+particularly sound for European metropolitan areas, which are                  Gordon and Richardson (1996) argue that with dynamic method-
+characterised by a number of small and historically determined ur-             ologies it is possible to grasp the role of sub-centres not only as
+ban centres that coalesced in larger and integrated areas (Calafati,           employment concentrations, but also as focal points of a MA in
+2002, 2009). During the ﬁrst wave of the growth of city boundaries             terms of the urban functions that sub-centres supply to their
+– when urbanisation was accelerating speedily – the expanding                  neighbouring territory. This standpoint makes it possible to shift
+MAs absorbed the smaller centres nearby through the process of                 from a morphological approach – where the major focus is on
+absorption (Champion, 2001). During the last ﬁfty years, however,              agglomerations of activities in a given built up area (European
+cities have continued to expand spatially, but at a slower rate than           Foundation, 1998, p. 60) – to a functional one, where sub-centres
+the expansion of their ﬁeld of inﬂuence. Hence, MAs have grown by              are conceived as places that have the capacity to generate a
+integration (Champion, 2001), which consists mostly in a relational            metropolitan structure (Roca Cladera, Marmolejo Duarte, & Moix,
+concept rather than a physical one.                                            2009, p. 2860).
+    The majority of European MAs are the result of such a process of               On the whole, morphological and functional approaches are
+coalescence and are characterised by a dominant centre, which is               substantially different. However, they are not necessarily in con-
+surrounded by other smaller centres, forming contemporary poly-                tradiction to each other. In this respect, a comprehensive ESPON
+centric MAs. Most European metropolitan sub-centres did not                    study on polycentricity measures the spatial structure of European
+come about from a simple process of decentralisation from the city             functional urban areas both in terms morphological and relational
+centre. They were pre-existent to the formation of MAs, and they               perspectives (Nordregio, 2005). Authors consider three dimensions
+still play the role of central places for at least a fraction of the           in their analysis, namely size, location and connectivity, where the
+metropolitan territory even without any particularly high employ-              former two are morphological and the latter is a functional aspect.
+ment density. Theoretically, the most important framework for the              More recently, Adolphson (2010) describes urban structures in the
+interpretation of sub-centring in European MAs is the Central Place            Stockholm city region by combining spatial-density modelling
+180                                                      P. Veneri / Cities 31 (2013) 177–185
+
+
+using kernel convolution with polycentric density estimations and             where Ii is the number of inward journeys to node ith from all the
+mixed functionality.                                                          other j nodes of the same MA; J is the number of nodes in each
+                                                                              MA, for i – j. Differently from the FCi ratio, which is a pure centrality
+Methods and data                                                              index, DIIi allows taking into account the more general concept of
+                                                                              power within each metropolitan network. In fact, this indicator de-
+    This section proposes a methodology for the identiﬁcation of              pends on the total number of links and also takes into account,
+metropolitan sub-centres that combines interaction and pure                   although indirectly, the size of each node.
+functional elements. Before starting to describe this methodology,               The FCi and the DIIi ratios have been calculated for each munic-
+it is important to discuss the units of analysis. Polycentricity is a         ipality of the two most important Italian MAs: Rome and Milan.
+multi-scalar concept that can be studied at three different spatial           These ratios have been calculated by using 2001 data on commut-
+levels: country, inter-urban/regional and urban level (Davoudi,               ing ﬂows between municipalities, provided by the Italian National
+2003). In this work, the latter level of analysis has been chosen             Institute of Statistics (Istat). For each MA, there is a matrix of com-
+and sub-centres have been identiﬁed and selected among all                    muting ﬂows which contains the number of commuters from every
+the urban nodes located within each MA. Since Italy still lacks               municipality to all the others of the same MA.
+an ofﬁcial deﬁnition of MAs, the latter have been taken from a re-               The procedure of sub-centre identiﬁcation proposed in this
+cent work by Boix and Veneri (2009) – which provide the identi-               work has been developed following three steps. Firstly, the FCi
+ﬁcation of all Italian MAs by adopting an algorithm inspired by               and DIIi ratios have been calculated for all municipalities within
+the 1990 methodology of the US Federal Register (Ofﬁce of                     each MA. Then, all the municipalities with FCi and DIIi ratios higher
+Management & Budget, 1990).                                                   than 1 have been considered as candidate sub-centres. Initially,
+    The procedure starts from the conceptualisation of MAs as net-            these selected nodes are considered only ‘‘second order’’ sub-
+works of cities (municipalities). Networks are made up of two                 centres because work-commuting ﬂows do not represent all the
+main components – urban nodes (municipalities) and the links                  movements that take place in MAs, shaping the hierarchies of their
+between each node (commuting ﬂows). Deﬁning MAs as net-                       sub-areas. Urban nodes can indeed be relevant – or central – also
+works of cities – or as cities of cities (Roca Cladera et al., 2009)          for activities related to consumption, study and leisure. As a conse-
+– allows us to use concepts and tools of systems theory to analyse            quence, it is necessary to distinguish the concept of employment
+them (Boix, 2002). Moreover, most of the network analysis indi-               sub-centre from the wider one of urban sub-centre. While the
+cators can be usefully employed to mathematically quantify the                former can be correctly identiﬁed using the in-degree indicator
+relations between urban nodes within a given MA. The idea con-                alone, the latter requires some other measure to grasp the actual
+sists of studying the centrality structure of MAs, concentrating on           capacity of sub-centres to organise their surrounding territory by
+the way each urban node relates to the others. Hence, central                 providing a wider set of urban functions.
+places can be identiﬁed by analysing the way relationships are                   Therefore, as a second step, another indicator – called productive
+distributed within MAs, rather than at the static characteristics             completeness (PCi) – has been calculated for all municipalities of the
+of the territory.                                                             two MAs. This indicator approximates the variety of functions sup-
+    Using data on ﬂow instead of data on stock can allow this. Going          plied by each urban node, starting from the idea that besides
+into detail, many indicators of centrality can be borrowed from the           attracting commuters, a metropolitan sub-centre must have a min-
+network analysis in order to quantify how each node plays a cen-              imum degree of productive variety which can be thought of as a
+tral role in the network. The most simple, robust and easy-to-inter-          sign that a wide range of urban functions is supplied by a given
+pret indicator is the degree of centrality (Freeman, 1979) which, in          node. The PCi index can be calculated as follows:
+asymmetrical networks, – such as MAs – can be approximated by
+                                                                              PC i ¼ si =^s;
+node degree (Zemljič & Hlebec, 2005, p. 82). The in-degree index
+represents the number of links that directly enter each node. At                  where PCi is the productive completeness for the ith municipal-
+the same time, the out-degree is the number of links that directly            ity; si is the number of 5 digit sectors with at least one job in 2001,
+exit each node. Hence, in order to detect those municipalities that           using Istat Census data with NACE sectorial classiﬁcation;2 c^ is a
+exert a central role in a metropolitan network, a ﬂow-centrality ra-          parameter indicating the average number of 5 digit sectors in each
+tio (FCi) has been computed based on the following formula:                   MA. The aim of this indicator is to grasp the urban character of
+         XN          .XN                                                      candidate sub-centres by attempting to measure urbanisation econ-
+FC i ¼          l
+            j¼1 ij
+                             z ;
+                          i¼1 ji                                              omies (Jacobs, 1969) similar to what has been done by Compagnucci
+where the numerator and the denominator are, the in-degree and                (2009). In other words, central nodes must show typical urban char-
+the out-degree indicators for the ith municipality of a given MA,             acteristics, such as completeness and diversity of their sectoral
+respectively; lij is the number of trips towards the municipality i           structure, and they must prove to be net suppliers of functions. Since
+from the jth municipality of the MA under analysis. At the same               the aim of this second step is that of catching the capacity of each
+time, zji is the number of trips from the ith municipality towards            municipality to provide the widest variety of functions, the relative
+the other jth municipalities of the same MA. The centrality of each           number of sectors has been preferred to other measures of produc-
+node is directly proportional to the numerator and inversely pro-             tive diversity, like the Hirschman–Herﬁndahl index. The latter is
+portional to the denominator. This occurs because a municipality              more appropriate for grasping the extent to which the employment
+that captures most of the ﬂows reveals its capacity to dominate               of a given economic system is specialised in few sectors or evenly
+its surrounding territory from a functional point of view.                    distributed in wider set of activities. However, it should be recogni-
+    Another indicator that has been used in the procedure for the             sed that the number of 5 digit sectors represents only an approxima-
+identiﬁcation of sub-centres is the directional dominance index               tion of the economic functions provided by each centre. The
+(DIIi), which has been introduced by Limtanakool et al. (2007). This          relationship between NACE classiﬁcation and economic functions
+indicator measures the degree of involvement of a node in the net-            should be further investigated, but this is not the purpose of this
+work and can be calculated as follows:                                        work.
+            ,          !
+                X
+                J
+                                                                              2
+                                                                                In the Nace classiﬁcation system, the 5-digit sector is a very detailed level of
+DIIi ¼ Ii         Ij =J ;
+                                                                              description. To give an example in the manufacturing industry, a 5-digit description is
+                    j¼1
+                                                                              the reproduction of sound recordings.
+                                                                        P. Veneri / Cities 31 (2013) 177–185                                                               181
+
+
+
+
+Fig. 1. Visual representation of links within the MA of Rome and Milan (ﬂows of commuters for work reasons). Black lines represent commuting links among municipalities.
+(a) Rome. (b) Milan.
+
+
+
+    The third and last step of the procedure consists of selecting, for                      Table 1
+each MA, those municipalities for which both FCi and DIIi ratios, as                         Functional indicators: descriptive statistics.
+well as PCi index are higher than 1. Those municipalities which sat-
+                                                                                                               No. obs.        Min            Max      Mean       Std. dev.
+isfy all three criteria can be considered as ﬁrst order sub-centres or,
+in other words, metropolitan sub-centres. They can be considered,                               Rome
+                                                                                                  FCi          200             0.02             4.62   0.38        0.51
+within their respective MAs, as net dominators, net providers of                                  DIIi         200             0.00           195.94   1.49       13.88
+functions and places with a positive net centrality. Moreover, this                               PCi          200             0.02             2.02   0.33        0.31
+method also makes it possible to grasp a scale factor without                                   Milan
+imposing any absolute population or employment threshold. In                                     FCi           597             0.00             4.63   0.58         0.47
+fact, a larger dimension is associated with a higher value of both                               DIIi          597             0.00           235.07   1.11         9.71
+centrality (FCi and DIIi) and completeness (PCi).3 The results of the                            PCi           597             0.01             2.01   0.37         0.28
+proposed methodology, as applied to Rome and Milan MAs, are re-
+ported in the next section.
+                                                                                                 Fig. 2 shows the municipalities that have been identiﬁed as
+Empirical ﬁndings                                                                            metropolitan sub-centres in darker colour. These municipalities
+                                                                                             are characterised by a high internal attractiveness (FCi > 1), a high
+    In this section the results of the above-mentioned procedure are                         dominance level (DIIi > 1; they are already ‘second-order’ sub-cen-
+reported and compared with those obtained using the traditional                              tres) and high productive completeness (PCi > 1). Milan conﬁrms
+density-based method of Giuliano and Small (1991) (GS) as well                               its typical polycentric spatial structure, while the same thing can-
+as the E/R ratio method by Shearmur and Coffey (2002) (SC). In re-                           not be said for Rome, which appears to have a much smaller num-
+gards to the methodology proposed in this work, Fig. 1 visually                              ber of sub-centres. The adopted methodology identiﬁes four
+represents the commuting ﬂows among municipalities in the two                                central municipalities for Rome, which have been consolidated in
+selected MAs. In order to make the ﬁgure easier to read, each ma-                            three sub-centres on the basis of contiguity and interaction crite-
+trix has been dichotomised, where for each municipality – hence                              ria.4 In the case of Milan, 11 municipalities have been identiﬁed
+for each row of the matrix – there are four 1-values in correspon-                           and aggregated in nine consolidated sub-centres. All the metropoli-
+dence of the four nodes with the highest interaction with the for-                           tan sub-centres of the two MAs are listed in Table 2 where the num-
+mer (four-nearest-neighbour matrix). The ﬁgure highlights the                                ber of municipalities composing each sub-centre is reported in
+typical polycentric structure of Milan, with several central nodes                           brackets. Table A1 in ‘‘Appendix’’ shows the list of all municipalities
+surrounding the pivot municipality. Each central node, correspond-                           that meet the requirements to be sub-centres.
+ing to the thickening of links, is clearly visible. The FCi ratio is                             Results obtained with the proposed approach can be compared
+adopted in order to understand how thick each node is, which in                              with those emerging from the application of the traditional GS ad
+turn means how central each node is. While Milan has quite a large                           SC methods. Giuliano and Small identify two thresholds beyond
+number of sub-centres all around the pivot municipality, Rome’s                              which a place can be considered a sub-centre. The ﬁrst is the total
+spatial structure appears to be less polycentric, with few central                           number of jobs, which must be at least 10,000 units and the second
+nodes and with the pivot municipality having a prominent role.                               is the employment density of at least 10 jobs per acre. It must be
+Both the polycentric and complex structure of Milan and the classic                          noted that the choice of thresholds is substantially arbitrary and
+monocentric organisation of Rome are generally consistent with                               those by Giuliano and Small have been set on the basis of Los Ange-
+previous analyses that described the spatial structures of the two                           les’ territorial structure. Moreover, they apply such thresholds to
+areas (Corda, 2003; Boatti, 2008). Basic descriptive statistics of                           TAZs, which are much smaller units than Italian municipalities. In
+the employed indicators are reported in Table 1 for each MA.
+                                                                                             4
+                                                                                               Selected municipalities which are contiguous have been consolidated in a single
+3
+  The Pearson coefﬁcient of correlation between each municipality’s total employ-            centre, which takes the name of the most populated municipality. The resulting
+ment and the three indicators used in this work – FCi, DIIi and PCi – are, respectively,     spatial aggregate must show at least a level of self containment in terms of
+0.89, 0.97 and 0.36.                                                                         commuting ﬂows of at least 15%.
+182                                                                 P. Veneri / Cities 31 (2013) 177–185
+
+
+
+
+                           Fig. 2. Metropolitan sub-centres of Rome and Milan identiﬁed with the functional approach. (a) Rome. (b) Milan.
+
+
+
+Table 2
+List of metropolitan sub-centres in Milan and Rome MAs.
+
+  Method       Rome MA                    Milan MA
+  Functional   Rome, Latina,              Milan (3), Como (1), Pavia (1), Crema (1), Lodi (1), Saronno (1), Cantù (1), Legnano (1), Monza (1)
+               Civitavecchia
+  SC           Rome, Colleferro, Civita   Milan (19), Pavia (1), Lodi (1), Crema (1), Treviglio (1), Trezzo sull’Adda (1), Merate (1), Vimercate (3), Carate Brianza (1), Cantù
+               Castellana                 (1), Como (1), Erba (1), Olgiate Comasco (1), Castellanza (1), Magenta (1)
+  GS           –                          Milan (3)
+
+
+
+
+                                   Fig. 3. Sub-centres of Milan and Rome, identiﬁed with the Shearmur and Coffey’s (2002) method.
+
+
+
+
+fact, by using the GS method, no sub-centres were identiﬁed in the                       high threshold for Italian municipalities and can be very sensitive
+case of Rome. Not even did the CBD meet the thresholds, and only                         to the territorial units of analysis at which data are available. How-
+one sub-centre, composed of three contiguous municipalities                              ever, by adopting the SC method, based on the E/R ratio (higher than
+including the CDB, was found for Milan. Given these results, an                          1) and a minimum of 5000 jobs, 35 municipalities in the case of Mi-
+employment gross density of 10 jobs per acre seems to be a very                          lan and six in the case of Rome meet the necessary requirements for
+                                                              P. Veneri / Cities 31 (2013) 177–185                                                               183
+
+
+selection. These have been aggregated in ﬁfteen and three consoli-                 Table 3
+dated sub-centres, respectively (Table 2 and Fig. 3).                              The adjusted R2 values for the models contrasted.
+
+                                                                                                           Rome                        Milan
+                                                                                                           Functional     SC           Functional   SC      GS
+Evaluation of methods
+                                                                                      Log exponential      0.525          0.393        0.671        0.674   0.426
+                                                                                      Log gravitational    0.546          0.396        0.703        0.711   0.414
+    Comparing the results of the three methodologies (Table 2 and
+Figs. 2 and 3), it emerges that the GS procedure is not able to iden-
+tify sub-centres in the Italian metropolitan context, especially in                                                       X
+the case of Rome where no municipalities have been selected.                       ln DðdCBD ; dSUB Þ ¼ a þ b  dCBD þ         ci  dSUBi þ e;                   ð2Þ
+                                                                                                                           i
+However, the SC method allows for the identiﬁcation of the highest
+number of sub-centres. Probably, by simply adjusting employment                    where distances from CBD and from sub-centres are not log-
+thresholds, it would be possible to obtain very similar results to                 transformed.
+those obtained with the functional method proposed in this work.                      According to Roca Cladera et al. (2009, p. 2857), the gravita-
+However, a more relevant difference between the two approaches                     tional model allows us to better grasp the role of CBD with respect
+can be noticed clearly by observing the maps (Figs. 2 and 3). Look-                to that of other sub-centres without underestimating the role of
+ing at Milan, for example, it appears that with the SC approach al-                the former. Adjusted R2 values of the models tested for both Rome
+most all the pivot’s ﬁrst belt municipalities – plus some of the                   and Milan are reported in Table 3. From this, it is possible to com-
+second belt – are selected as sub-centres. This is a comprehensible                pare how much each identiﬁcation method explains the metropol-
+result, since employment density tends to decrease from the pi-                    itan spatial structure.
+vot’s peak towards the hinterland. Hence, municipalities surround-                    Table 3 illustrates that in the case of Rome, the functional meth-
+ing central places can still provide a relevant number of jobs.                    od proposed in this work allows for a much larger explanation of
+However, considering those ﬁrst and second belt municipalities di-                 employment-density variance. In fact, by looking at both the stan-
+rectly as sub-centres does not seem to be appropriate since in                     dard exponential and the gravitational speciﬁcations, adjusted R2
+some cases they are not proper central places, but just high-job-                  values are always much higher – at least 13.2% points higher – un-
+density nodes due to their proximity to the pivot. In fact, these                  der the hypothesis that sub-centres are those identiﬁed with the
+nodes do not show a positive net centrality and, most importantly,                 proposed functional method. In the case of Milan, it can be noted
+they are not net suppliers of functions. They could be considered                  that by considering the sub-centres identiﬁed with the GS proce-
+sub-centres only by conceptually aggregating them to their respec-                 dure, adjusted R2 values are much lower than those obtained by
+tive pivot municipalities in a single territorial unit, which in the               considering sub-centres identiﬁed with the functional and SC pro-
+case of related CBDs could be thought of as de facto cities (Calafati              cedures. No matter what speciﬁcation is used, the last two meth-
+& Veneri, 2011), maybe too large if the aim is to identify just the                ods appear to substantially explain the same share of variance in
+centres. On the contrary, interactive approaches based on commut-                  the case of Milan. On the whole, it must be acknowledged that
+ing, combined with a measure functions supplied (productive com-                   the outcomes of each method in terms of R2 could be inﬂuenced
+pleteness), seem to be more restrictive, identifying fewer and                     by the data structure (e.g. the size and number of spatial units),
+smaller units and highlighting the places which are actually central               the chosen functions (e.g. commuting and productive complete-
+and which organise their surrounding territory. This result can be                 ness) and the actual urban structure.
+reached without imposing absolute discretionary thresholds.
+    The qualitative and critical comparison made in the previous
+paragraph could be the most appropriate way to contrast method-                    Concluding remarks
+ologies. However, the analysis of density patterns can tell us the
+degree to which functional methodologies are consistent with tra-                     The methodology proposed in this work to identify sub-centres
+ditional threshold-based approaches. In order to contrast the effec-               presents many advantages and some limits in its applicability. On
+tiveness with which each identiﬁcation method is able to explain                   the whole, by comparing the functional procedure proposed in this
+the spatial organisation of MAs in terms of density, results can                   work with other two methods traditionally used in the literature,
+be compared with the estimation of a polycentric density function,                 the former appears to work well from both a theoretical and an
+similar to what has been done by Anas et al. (1998), Roca Cladera                  empirical point of view, showing a better ﬁt when estimating a
+et al. (2009) and Garcia-López (2010). More speciﬁcally, in order to               polycentric density function. Theoretically, a functional approach
+verify whether the identiﬁed sub-centres explain metropolitan                      is more appropriate for studying the central places of Italian
+spatial structure, two functional forms have been used for reasons                 MAs, which, as in many other European countries, are the result
+of robustness. The ﬁrst represents the most standard method and                    of a coalescence process rather than a consequence of a simple
+consists of estimating the Eq. (1), which is a log transformation                  decentralisation of employment from a congested CBD. Density
+of a standard negative exponential function, estimated with OLS:                   measures are based on this latter idea. From an empirical point
+                                                                                   of view, the two procedures of identiﬁcation do not show the same
+                                       X
+ln DðdCBD ; dSUB Þ ¼ a þ b ln dCBD þ       ci ln dSUBi þ e;             ð1Þ        results. The functional approach allows the identiﬁcation of the
+                                       i                                           nodes that can be considered sub-centres in a more restricted
+                                                                                   sense, while with the SC procedure many municipalities surround-
+where D is the gross employment density per square kilometre in                    ing the CBDs are also thought of as sub-centres and can be aggre-
+each municipality; dCBD and dSUBi are the distance from CBD and                    gated into a larger centre. However, the threshold method of GS
+from the ith consolidated sub-centre, respectively; a is the inter-                has proved to be inadequate when applied to the Italian metropol-
+cept; b and ci are the density gradients referred to the CBD and                   itan context, particularly when the thresholds are not updated on
+sub-centres, respectively; e is the zero mean and constant variance                the basis of local knowledge.
+error term.                                                                           Regarding the limits of using functional approaches, the avail-
+   In addition to the log of the standard exponential function, the                ability of data represents a serious consideration, since data on
+logarithmic version of the gravitational model has also been esti-                 ﬂows are usually not as widely available (nor frequently updated)
+mated through the following equation:                                              as data on stock. A modiﬁable areal unit problem (MAUP) can
+184                                                                      P. Veneri / Cities 31 (2013) 177–185
+
+
+Table A.1
+List of all municipalities included in metropolitan sub-centres of Milan and Rome MAs.
+
+   Method        Rome MA                                        Milan MA
+   Functional    Rome, Pomezia, Latina, Civitavecchia           Milan, Como, Pavia, Crema, Lodi, Segrate, Saronno, Trezzano sul Naviglio, Cantù, Legnano, Monza
+   SC            Rome, Pomezia, Frascati, Fiumicino,            Milan, Como, Pavia, Segrate, Lodi, Saronno, Crema, Cantù, Trezzano sul Naviglio, Vimercate, San Donato
+                 Colleferro, Civita Castellana                  Milanese, Cernusco sul Naviglio, Agrate Brianza, Corsico, Rozzano, Assago, San Giuliano Milanese, Treviglio,
+                                                                Peschiera Borromeo, Arese Settimo Milanese, Lainate, Magenta, Erba, Castellanza, Carate Brianza, Merate,
+                                                                Vimodrone, Pero, Novate Milanese, Cassina de’ Pecchi, Concorezzo, Caronno Pertusella, Olgiate Comasco,
+                                                                Trezzo sull’Adda
+   GS            –                                              Milan, Corsico, Sesto San Giovanni
+
+
+
+
+emerge when applying these methods, especially in analyses                                    Bender, B. (1981). Urban housing density and the price of housing services. Journal
+                                                                                                  of Urban Economics, 9, 80–84.
+across countries. In fact, the choice of the unit of analysis is heavily
+                                                                                              Bender, B. (1985). Hedonic housing price indices and secondary employment
+dependent on the spatial level at which functional data – e.g. com-                               centers. Journal of Urban Economics, 17, 90–107.
+muting – are available, while for many density-based approaches                               Boatti, G. (2008). L’Italia dei sistemi urbani. Milan: Electa.
+these kind of problems are much less likely to arise and a more de-                           Bogart, W. T., & Ferry, W. C. (1999). Employment centres in Greater Cleveland:
+                                                                                                  Evidence of evolution in a formerly Monocentric City. Urban Studies, 36,
+tailed spatial level is allowed. However, density-based approaches                                2099–2110.
+based on thresholds cannot be easily applied to different contexts,                           Boix, R. (2002). Instrumentos de análisis de redes en economía urbana:
+because of differences in the settlement structure and in the spatial                             caracterización de redes de ciudades mediante el análisis de cuatro
+                                                                                                  estructuras urbanas simuladas. Paper Presented at the V Encuentro de
+units for which data are available.                                                               Economia Aplicada, Oviedo. <http://www.uv.es/raboixdo/references/2002/
+    On the whole, if we are interested in evaluating the extent with-                             02002.pdf>.
+in which metropolitan areas are polycentric by looking at the num-                            Boix, R., & Veneri, P. (2009). Metropolitan Areas in Spain and Italy. IERMB Working
+                                                                                                  Paper in Economics 09.01. Barcelona Institute of Regional and Metropolitan
+ber of sub-centres (Riguelle et al., 2007), the choice of the method                              Studies 08193 Cerdanyola del Vallès, Barcelona, Spain.
+employed for the sub-centres identiﬁcation can be very inﬂuential                             Bourne, L. S. (1989). Are new urban forms emerging? Empirical tests for Canadian
+on the assessment of metropolitan spatial structures. In the end,                                 Urban Areas. The Canadian Geographer, 33, 312–327.
+                                                                                              Burger, M., & Meijers, E. (2012). Form follows function? Linking morphological and
+the choice of the method should primarily depend on whether to                                    functional polycentricity. Urban Studies, 49(5), 1127–1149.
+look at morphological polycentricity or functional polycentricity.                            Burns, M.C., Boix, M., Roca, J. (2001). Contrasting Indications of Polycentrism within
+The difference is mainly in the concept of centre. In fact, employ-                               Spain’s Metropolitan Urban Regions. Paper for the Eight European Estate Society
+                                                                                                  Conference, Alicante, Spain.
+ment size and density are good measures of centre nodality, hence
+                                                                                              Calafati, A. G. (2009). Macro-regions, local systems, and cities: The
+of the absolute importance of a centre. On the other hand, the pro-                               Conceptualisation of Territory in Italy since 1950. Scienze Regionali/Italian
+vision of functions and jobs in excess of the amount demanded by                                  Journal of Regional Science, 8(3, Supplement), 11–34.
+residents is a measure of centrality and of the relative importance                           Calafati, A. G., & Veneri, P. (in press). Re-deﬁning the Boundaries of Major Italian
+                                                                                                  Cities. Regional Studies. http://dx.doi.org/10.1080/00343404.2011.587798.
+of a centre with respect to its surrounding territory. This work has                          Calafati, A. G. (2002). Sistemi locali: esercizi di identiﬁcazione. In L. Malﬁ & D.
+contributed to the literature on this latter approach.                                            Martellato (Eds.), Il ruolo del capitale nello sviluppo locale e regionale (pp. 21–49).
+    Further developments should examine whether there are differ-                                 Milan: Franco Angeli.
+                                                                                              Camagni, R., & Salone, C. (1993). Network urban structures in Northern Italy:
+ent kinds of sub-centres that differ in terms of their origin – decen-                            Elements for a theoretical framework. Urban Studies, 30(6), 1053–1064.
+tralisation or coalescence. It is worth investigating whether                                 Cervero, R., & Wu, K.-I. (1998). Sub-centring and commuting: Evidence from the San
+different kinds of sub-centres have different impacts on a metro-                                 Francisco Bay Area, 1980–90. Urban Studies, 35, 1059–1076.
+                                                                                              Champion, A. G. (2001). A changing demographic regime and evolving polycentric
+politan spatial structure. This could be investigated by looking at                               urban regions: Consequences for the size, composition and distribution of city
+the way sub-centres relate to one another and by observing the ex-                                populations. Urban Studies, 38, 657–677.
+tent to which their functions are alternative or complementary. In                            Christaller, W. (1966). Central places in Southern Germany. Englewood Cliffs, NJ:
+                                                                                                  Prentice-Hall.
+order to do this, other connections should be explored, such as con-                          Clark, W. A. V., & Kuijpers-Linde, M. (1994). Commuting in restructuring urban
+sumption and leisure activities and inter-ﬁrm exchanges.                                          regions. Urban Studies, 31, 465–483.
+                                                                                              Coffey, W. J., & Shearmur, R. G. (2002). Agglomeration and dispersion of high-order
+                                                                                                  service employment in the Montreal Metropolitan Region, 1981–96. Urban
+Appendix A                                                                                        Studies, 39, 359–378.
+                                                                                              Compagnucci, F. (2009). Dai Sistemi Locali del Lavoro alle Città: verso un nuovo
+                                                                                                  algoritmo di regionalizzazione. Quaderni di Ricerca 335, Dipartimento di
+      See Table A.1.                                                                              Economia, Università Politecnica delle Marche, Ancona, Italy. <http://
+                                                                                                  dea2.univpm.it/quaderni/pdf/335.pdf>.
+                                                                                              Corda, G. P. (Ed.). (2003). La città policentrica lombarda. Correlazione tra sviluppo
+References                                                                                        urbano e reti di trasporto dal 1888 ad oggi. Milan: Franco Angeli.
+                                                                                              Craig, S. G., & Ng, P. T. (2001). Using quantile smoothing splines to identify
+Adolphson, M. (2009). Estimating a polycentric urban structure. Case study: Urban                 employment subcenters in a Multicentric Urban Area. Journal of Urban
+    changes in the Stockholm region 1991–2004. Journal of Urban Planning and                      Economics, 49, 100–120.
+    Development, 135(1), 19–30.                                                               Davoudi, S. (2003). Polycentricity in European spatial planning: From an analytical
+Adolphson, M. (2010). Kernel densities and mixed functionality in a multicentred                  tool to a normative agenda. European Planning Studies, 11, 979–999.
+    urban region. Environment and Planning B: Planning and Design, 37(3), 550–566.            Dematteis, G. (1990). Modelli urbani a rete. Considerazioni preliminari. In F. Curti &
+Alonso, W. (1964). Location and land use. Cambridge: Harvard University Press.                    L. Diappi (Eds.), Gerarchie e reti di città: tendenze e politiche (pp. 27–48). Franco
+Anas, A., Arnott, R., & Small, K. A. (1998). Urban spatial structure. Journal of Economic         Angeli: Milan.
+    Literature, 36, 1426–1464.                                                                Derudder, B., Taylor, P. J., Witlox, F., & Catalano, G. (2003). Hierarchical tendencies
+Anselin, L. (1995). Local indicators of spatial association – LISA. Geographical                  and regional patterns in the world city network: A global urban analysis of 234
+    Analysis, 27, 93–116.                                                                         cities. Regional Studies, 37(9), 875–886.
+Barbonne, R., Villeneuve, P., & Thériault, M. (2007). The spatial dynamics of local           European Foundation (1998). Challenges for urban governance in the European Union.
+    labour markets within Quebec city metropolitan ﬁeld: 1981–2001. The                           Luxembourg: Ofﬁce for Ofﬁcial Publications of the European Communities.
+    Canadian Geographer, 51(3), 303–322.                                                      Forstall, R. L., & Greene, R. P. (1997). Deﬁning job concentrations: The Los Angeles
+Batten, D. F. (1995). Network cities: Creative urban agglomerations for the 21st                  case. Urban Geography, 18, 705–739.
+    century. Urban Studies, 32, 313–327.                                                      Freeman, L. C. (1979). Centrality in social networks: Conceptual clariﬁcation. Social
+Baumont, C., Ertur, C., & Le Gallo, J. (2004). Spatial analysis of employment and                 Networks, 1, 215–239.
+    population density: The case of the agglomeration of Dijon 1999. Geographical             García López, M. A. (2010). Population suburbanization in Barcelona, 1991–2005: Is
+    Analysis, 36, 146–176.                                                                        its spatial structure changing? Journal of Housing Economics, 19, 119–132.
+                                                                          P. Veneri / Cities 31 (2013) 177–185                                                                    185
+
+
+García López, M. A., & Muñiz, I. (2010). Employment decentralisation: Polycentricity           McDonald, J. F., & McMillen, D. P. (1990). Employment subcenters and land values in
+     or scatteration? The case of Barcelona. Urban Studies, 47(14), 3035–3056.                     a polycentric urban areas: The case of Chicago. Environment and Planning A, 22,
+Gilli, F. (2002). Déplacements domicilie-travail et organisation du Bassin parisien.               1561–1574.
+     L’Espace Géographique, 31(4), 289–306.                                                    McDonald, J. F., & Prather, P. J. (1994). Suburban employment centres: The case of
+Giuliano, G., & Small, K. A. (1991). Subcenters in the Los Angeles Region. Regional                Chicago. Urban Studies, 31, 201–218.
+     Science and Urban Economics, 21, 163–182.                                                 McMillen, D. P. (2001). Nonparametric employment subcenters identiﬁcation.
+Gordon, P., Richardson, H. W., Giuliano, G. (1989). Travel trends in non-CBD activity              Journal of Urban Economics, 50, 448–473.
+     centers. Report, Ca/11/0032, Urban Mass Transit Administration, US                        McMillen, D. P., & Lester, W. T. (2003). Evolving subcenters: Employment and
+     Department of Transportation, Washington, DC.                                                 population densities in Chicago, 1970–2020. Journal of Housing Economics, 12,
+Gordon, P., & Richardson, H. W. (1996). Employment decentralization in US                          60–81.
+     metropolitan areas: Is Los Angeles an outlier or the norm? Environmental and              Meijers, E. J., & Burger, M. J. (2010). Spatial structure and productivity in US
+     Planning A, 28, 1727–1743.                                                                    metropolitan areas. Environment and Planning A, 42(6), 1383–1402.
+Gordon, P., Richardson, H. W., & Wong, H. L. (1986). The distribution of population            Mills, E. S. (1972). Studies in the structure of the urban economy. Baltimore, MD: John
+     and employment in a polycentric city: The case of Los Angeles. Environment and                Hopkins Press.
+     Planning A, 18, 161–173.                                                                  Muñiz, I., García López, M. A., & Galindo, A. (2008). The effect of employment sub-
+Guillain, R., Le Gallo, J., Boiteux-Orain, C. (2004). The Evolution of the Spatial and             centres on population density in Barcelona. Urban Studies, 45(3), 627–649.
+     Sectoral Patterns in Ile-De-France over 1978–1997. LEG Working Paper                      Muth, R. (1969). Cities and housing. Chicago: University of Chicago Press.
+     Economie 2004/02, CNRS UMR 5118, Université de Bourgogne, France.                         Nordregio (2005). Potentials for polycentric development in Europe. Espon 1.1.1,
+Harris, C. D., & Ullman, E. L. (1945). The nature of cities. Annals of the American                Final report.
+     Academy of Political and Social Science, 242, 7–17.                                       Ofﬁce of Management and Budget (1990). Revised standards for deﬁning
+Heikkila, E., Gordon, P., Kim, J. I., Peiser, R. B., Richardson, H. W., & Dale-Johnson, D.         metropolitan areas in the 1990s. Federal Register, 55, 12154–12160.
+     (1989). What happened to the CBD-distance gradient? Land values in a                      Preston, R. E. (1971). The structure of central place systems. Economic Geography, 47,
+     polycentric city. Environment and Planning A, 21(2), 221–232.                                 136–155.
+Holly, H. (1993). Metropolitan structure and the suburban hierarchy. American                  Redfearn, C. L. (2007). The topography of metropolitan employment: Identifying
+     Sociological Review, 58(3), 417–433.                                                          centers of employment in a polycentric urban area. Journal of Urban Economics,
+Jacobs, J. (1969). The economy of cities. New York: Random House.                                  61, 519–541.
+Kemper, P., & Schmenner, R. (1974). The density gradient for manufacturing                     Richardson, H. W. (1995). Economies and diseconomies of agglomeration. In H.
+     industry. Journal of Urban Economics, 4, 410–427.                                             Giersch (Ed.), Urban agglomeration and economic growth (pp. 123–155). Berlin:
+Lee, B. (2007). Edge or edgless cities? Urban spatial structure in US metropolitan                 Springer.
+     areas, 1980 to 2000. Journal of Regional Science, 47(3), 479–515.                         Riguelle, F., Thomas, I., & Verhetsel, A. (2007). Measuring urban polycentrism: A
+Leslie, T. F. (2010). Identiﬁcation and differentiation of urban centers in phoenix                European case study and its implications. Journal of Economic Geography, 7,
+     through a multi-criteria kernel-density approach. International Regional Science              193–215.
+     Review, 33(2), 205–235.                                                                   Roca Cladera, J., Marmolejo Duarte, C. R., & Moix, M. (2009). Urban structure and
+Limtanakool, N., Dijst, M., & Schwanen, T. (2007). A theoretical framework and                     polycentrism: Towards a redeﬁnition of the sub-centre concept. Urban Studies,
+     methodology for characterizing National urban systems on the basis of ﬂows of                 46(13), 2841–2868.
+     people: Empirical evidence for France and Germany. Urban Studies, 44(11),                 Shearmur, R. G., & Coffey, W. J. (2002). A tale of four cities: Intrametropolitan
+     2123–2145.                                                                                    employment distribution in Toronto, Montreal, Vancouver and Ottawa – Hull,
+Limtanakool, N., Schwanen, T., & Dijst, M. (2009). Development in the Dutch Urban                  1981–1996. Environment and Planning A, 34, 575–598.
+     System on the basis of ﬂows. Regional Studies, 43(2), 179–196.                            Small, K. A., & Song, S. (1994). Population and employment densities: Structure and
+Lösch, A. (1954). The economics of location. New Heaven: Yale University Press.                    change. Journal of Urban Economics, 36, 292–313.
+Lukermann, F. (1966). Empirical expressions of nodality and hierarchy in a                     Zemljič, B., & Hlebec, V. (2005). Reliability of measures of centrality and
+     circulation manifold. East Lakes Geographer, 2, 17–44.                                        prominence. Social Networks, 27, 73–88.
+McDonald, J. F. (1987). The identiﬁcation of urban employment subcenters. Journal
+     of Urban Economics, 21, 242–258.
+

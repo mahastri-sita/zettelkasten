@@ -19,8 +19,8 @@ Router untuk Argument MBA Mojokerto, metode yang menopangnya, dan Source kompara
 
 ## Outputs
 
-- [[Draft-Enclave-v5.pdf]] - PDF final studi Enclave City yang dipertahankan secara byte-identik dari paket Overleaf legacy.
-- [[Draft-Cannibalism-v5.pdf]] - PDF final studi Urban Cannibalism yang dipertahankan secara byte-identik dari paket Overleaf legacy.
+- [[output/kajian/draft_enclave_v5.pdf|Draft-Enclave-v5.pdf]] - PDF final studi Enclave City yang dipertahankan secara byte-identik dari paket Overleaf legacy.
+- [[output/kajian/draft_cannibalism_v5.pdf|Draft-Cannibalism-v5.pdf]] - PDF final studi Urban Cannibalism yang dipertahankan secara byte-identik dari paket Overleaf legacy.
 
 ## Datasets
 

@@ -1,0 +1,994 @@
+[PDF Metadata]
+Source PDF: journal/A15-otsuka-2020-inter-regional-networks-and-productive-efficiency-in-japan-10.1111-pirs.12474.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           InterÃ¢â‚¬ï¿½regional networks and productive efficiency in Japan
+Subject:         R10; R11
+Keywords:        agglomeration; interÃ¢â‚¬ï¿½regional network; Japan; regional disparities; stochastic frontier analysis
+Author:          Akihiro Otsuka
+Creator:         Elsevier
+Producer:        Acrobat Distiller 10.0.0 (Windows)
+CreationDate:    Tue Oct 15 11:32:36 2019 WIB
+ModDate:         Thu Nov  2 12:54:56 2023 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           20
+Encrypted:       no
+Page size:       484.724 x 697.323 pts
+Page rot:        0
+File size:       2244501 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+Received: 22 April 2019      Revised: 19 July 2019     Accepted: 7 August 2019
+DOI: 10.1111/pirs.12474
+
+
+FULL ARTICLE
+
+
+
+
+Inter‐regional networks and productive efficiency
+in Japan
+
+Akihiro Otsuka
+
+Association of International Arts and Science,
+Yokohama City University, Yokohama, Japan            Abstract
+                                                     Traditional agglomeration theories cannot explain Japan's
+Correspondence
+Akihiro Otsuka, Yokohama City University,            sustained reduction of regional disparities. This study
+Association of International Arts and Science,       employs stochastic frontier analysis to investigate the role
+22‐2 Seto, Kanazawa, Yokohama 236‐0027,
+Japan.                                               of inter‐regional networks in improving productive effi-
+Email: otsuka@yokohama‐cu.ac.jp                      ciency using the concept of “borrowed size.” Improved
+Funding information                                  inter‐regional networks are a driving force for strengthening
+JSPS KAKENHI, Grant/Award Number:                    local   economies      and     converging      regional     disparities.
+18K01614
+                                                     Borrowed size from large city agglomeration was highly
+                                                     effective in local areas. The development of transportation
+                                                     networks has enabled local areas to catch up to large metro-
+                                                     politan areas. The results suggest that the development of
+                                                     high‐speed transportation networks can help to reduce
+                                                     regional disparities in the Japanese economy.
+
+                                                     K E Y WO R D S
+
+                                                     agglomeration, inter‐regional network, Japan, regional disparities,
+                                                     stochastic frontier analysis
+
+
+                                                     JEL CLASSIFICATION
+                                                     R10; R11
+
+
+
+
+1 | IN TR O DU C T ION
+
+In Japan, the concentration of economic activities in Tokyo is increasing. Tokyo has economic advantages, enabling it
+to overcome high land prices and congestion costs. Thus, Tokyo exhibits a high level of agglomeration of economic
+activities. The expansion of city size through such centralization increases the productivity and productive efficiency
+of cities and achieves sustained growth. The role of agglomeration in improving productivity and productive efficiency
+is well known in the context of agglomeration economies (Marshall, 1890). Traditional empirical studies have revealed
+
+-------------------------------------------------------------------------------------------------------
+© 2019 The Author(s). Papers in Regional Science © 2019 RSAI
+
+Pap Reg Sci. 2019;99:115–133.                                                        wileyonlinelibrary.com/journal/pirs   115
+116                                                                                                                OTSUKA
+
+
+the importance of economies of scale and transportation costs as factors that are conducive to the creation of
+agglomeration economies (Combes & Gobillon, 2015; Rosenthal & Strange, 2004). Geographic links between firms
+facilitate research and development and innovation through exchange of ideas, information, and technological
+knowledge (Carlino & Kerr, 2015; Fujita & Thisse, 2002). An advantage of agglomeration is that geographic proximity
+to the centralized location of firms increases and improves the information available to all market participants.
+Through the process of information interchange, market participants can develop more appropriate and accurate
+forecasts of the market environment and improve their ability to compete in the market. Knowledge accumulated
+by a firm is transmitted to other firms in various ways. This knowledge spillover leads to the development of new
+technologies and products, thereby increasing competitiveness in the region.
+      These traditional agglomeration theories predict the permanent growth of large cities at the expense of local
+(peripheral) areas. Furthermore, if agglomeration's lock‐in effect works, the disparities between large cities and local
+areas will inevitably expand. In Japan, however, the concentration of economic activities in Tokyo has accelerated
+since the mid‐1990s, but regional disparities have not increased (see Appendix A). Rather, the economic power of
+local areas is catching up, and economic disparities between large cities and local areas are narrowing (Otsuka & Goto,
+2016).1 Traditional agglomeration theory cannot explain these realities satisfactorily.
+      One potential explanation is the scope of agglomeration economies. High‐speed transportation networks have
+been developed nationwide in Japan, with Tokyo as the hub of the network. The formation of inter‐regional networks
+as a result of investment in transportation infrastructure has expanded the scope of innovation and knowledge spill-
+overs in agglomeration areas. The development of high‐speed railways and airports reduces the time costs of travel
+and increases opportunities for people to come into contact. This development not only increases the productive effi-
+ciency of a particular firm but also increases that of other firms by increasing the frequency of information exchange.
+Firms that are not located in agglomeration areas can increase productive efficiency by easily accessing the agglom-
+eration economies of agglomeration areas. The knowledge spillover beyond the region suggests that the scope of the
+agglomeration economies expands. The economic impact of expanding agglomeration geographic coverage through
+transportation networks has been verified by many studies for many countries (Graham, 2007; Holl, 2012; Lall, Shalizi,
+& Deichmann, 2004; Melo, Graham, Levinson, & Aarabi, 2016; Montolio & Solé‐Ollé, 2009; Rice, Venables, &
+Patacchini, 2006; Stelder, 2016). However, research on Japan, to date, has been insufficient.
+      This study analyses the impact of agglomeration and inter‐regional networks on the productive efficiency of the
+regional economy. Several studies have identified the relationship between agglomeration and productive efficiency
+but they have tended to focus on specific economic activities rather than on the entire national economy (Beeson &
+Husted, 1989; Driffield & Munday, 2001; Fritsch & Slavtchev, 2011; Ke & Yu, 2014; McCoy & Moomaw, 1995; Mitra,
+1999, 2000; Tsekeris & Papaioannou, 2017). Otsuka, Goto, and Sueyoshi (2010) and Otsuka and Goto (2013) show
+that agglomeration and improved inter‐regional networks have a positive impact on the productive efficiency of
+the Japanese industries. This finding indicates that productive efficiency increases with decreasing inter‐regional dis-
+tances to large cities. However, decreasing distances to large cities also has a negative effect of increasing inter‐
+regional competition. This is described as “agglomeration shadows” in the new economic geography (NEG) theory.
+This study clarifies whether positive or negative effects of the inter‐regional network dominate by using Japan's latest
+data and a renewed market access index.
+      In particular, previous studies have not examined the impact of inter‐regional networks on regional disparities of
+productive efficiency at all. In Japan, certain large metropolitan areas, such as the Greater Tokyo area and Kansai, are
+densely populated urban centres. On the one hand, in these large metropolitan areas, the agglomeration force is
+strengthened, and there are large agglomeration economies. On the other hand, in many local areas other than large
+cities, population density is declining, and agglomeration force is weakening. In local areas, however, improved trans-
+portation infrastructure has reduced transportation costs and attracted investment in factories. This has enabled the
+vertical division of the manufacturing industry across the country and helped to achieve high cost‐efficiency. In addi-
+
+
+1
+Otsuka and Goto (2016) confirms the convergence of regional disparity by using the stochastic convergence model.
+OTSUKA                                                                                                                 117
+
+
+tion, local areas have succeeded in shortening the travel time to large cities through the development of high‐speed
+transportation networks, and local areas have achieved strong economic growth by “borrowing” agglomeration econ-
+omies from large cities. This study contributes to the literature by providing new findings on whether regional dispar-
+ities have narrowed due to the ability of local areas to borrow the agglomeration economies of large cities.
+   Furthermore, this study focuses on the differences between industries in inter‐regional network effects. Tradition-
+ally, for regional economies, the manufacturing industry has been regarded as the basic (export) industry, and the non‐
+manufacturing industry has been regarded as the non‐basic industry (McCann, 2001). Because of the relatively large
+number of transactions outside the region in the manufacturing industry, which is the export industry, product plan-
+ning, development, procurement, and delivery cycles are likely to take place across regions. However, since the non‐
+manufacturing industry is centred on the local service sector, economic activity across regions may be less frequent
+than for the manufacturing industry. This study clarifies whether the economic effects of inter‐regional networks in
+the manufacturing industry outweigh those in the non‐manufacturing industry.
+   The analysis of this study on inter‐regional networks has great policy significance. Japan's national land plan aims
+to make cities more compact and to strengthen intercity networks as a means to counter the shrinking economy
+caused by population decline (see Appendix B for a detailed description of Japan's national land plan). The govern-
+ment aims to achieve sustainable growth by forming a “super‐megaregion,” in which several large metropolitan areas
+integrate into a single economic area, and by dealing with contracting economies using the large agglomeration
+effects generated there. However, there is no empirical evidence to support this type of government policy. There-
+fore, this study provides valuable insights into the validity of government policies on inter‐regional networking.
+   The structure of the rest of this paper is as follows. Section 2 provides theoretical background on inter‐regional
+networks. Section 3 describes the methods of analysis. Section 4 presents the analysis results and interprets them.
+Section 5 concludes and discusses policy implications.
+
+
+
+
+2 | R E L A T ED S T U D I E S : T H E O R E T I C A L B A C K G R O U N D
+
+In traditional agglomeration theory, transportation cost and economies of scale are the primary forces shaping urban
+functions and spatial organizations. Thus, urban scale is characterized by high efficiency, and higher efficiency is con-
+sidered to lead to higher growth. However, it is impossible for the traditional theory to explain the reality that local
+areas' growth exceeds that of large cities and is catching up to that of large cities. The city network theory, by con-
+trast, solves this contradiction (Camagni, 1993). The city network theory introduces the notion that cities can borrow
+the functions of other cities, not only because of their physical proximity to other cities but also because of their hor-
+izontal and non‐hierarchical relationships (Boix & Trullen, 2007; Camagni, 1993; Camagni & Capello, 2004; Capello,
+2000). Known as “urban network externalities,” this concept has been demonstrated in the literature (Boix & Trullen,
+2007; Camagni, 1993; Hall & Pain, 2006).
+   The starting point for this concept is agglomeration theory, which is developed on the basis of Alonso's (1973, p.,
+200) concept of “borrowed size” (Burger, Meijers, Hoogerbrugge, & Tresserra, 2015; Meijers, Burger, & Hoogerbrugge,
+2016). The traditional concept of borrowed size mixes demographics, functionality, and critical mass effects for demand
+and supply and in small cities, “people can use the shopping and entertainment facilities of other cities to complement
+their own, businessmen can share such facilities as warehousing and business services, and labour markets enjoy a wider
+and more flexible range of demand and supply” (Alonso, 1973, p.200). Thus, agglomeration theory purports that small
+cities can borrow some of the benefits of agglomeration, while avoiding congestion. This approach underscores the fact
+that the agglomeration effects of cities are not necessarily limited to their physical boundaries but may spread to sur-
+rounding areas. Thus, it can explain why local areas are more efficient than larger cities and why efficient urban struc-
+tures exist in a local area where agglomeration economies are borrowed from the entire urban system. The concepts
+of “externality fields” (Phelps, Fallon, & Williams, 2001) and “regional externalities” (Parr, 2002) were proposed to high-
+light the spatial scope of urban advantage that extends far beyond city boundaries.
+118                                                                                                                                             OTSUKA
+
+
+      Traditionally, agglomeration economies have been described in the context of urban economics (Fujita & Thisse,
+2002). The agglomeration of population and firms explains the cumulative development of urban economies. Expan-
+sion of the scope of agglomeration means that the external economies of urban agglomeration, which have been lim-
+ited to urban spaces up to now, expands widely beyond the boundaries of cities. In other words, the concept of
+borrowing size has the potential to be one basis for explaining the development of the entire regional economy
+beyond cities.2 Put differently, the theoretical concept of borrowed size can overcome the limitations of traditional
+geographic approaches, which assume that only cities adjacent to large cities accrue efficiency gains. The concept
+of borrowed size also overcomes the limitations of geographic approaches that assume size is the only determinant
+of productive efficiency and agglomeration economies. Incorporating long‐distance cooperation agreements across
+the regional network can improve a region's productive efficiency, even if it is a small local region.
+      According to Camagni, Capello, and Caragliu (2015, 2016), the traditional measure of borrowed size is calculated
+as the population of neighboring cities discounted by distance:
+
+                                                                                    popj
+                                                     borrowed sizec ¼ ∑nj¼1               ; ∀c ≠ j;                                                    (1)
+                                                                                    wc; j
+
+
+where c and j are different cities. w is the distance matrix representing the spatial interdependence between all cities.
+POP is the urban population. The borrowed size of cities is a function of the population and the distance of neighbor-
+ing cities. In other words, the more neighboring populations increase, the larger the borrowed size becomes. In addi-
+tion, the shorter the distance to large cities, the greater the borrowed size is.
+      This traditional borrowed size measure (1) emphasizes positive urbanization economies through connectivity in
+networks. However, it should also be noted that network connectivity can have negative economic effects because
+of competitive processes. This negative economic impact is captured by the notion of agglomeration shadows, which
+is captured by NEG theory. NEG models predict the shadow effects of surrounding agglomeration (Dobkins &
+Ioannides, 2001). The negative effects of competition through network connectivity are well known in Japan as
+the “pull‐in phenomenon.” In other words, there are positive and negative effects on the effects of the inter‐regional
+network. When the positive effects outweigh the negative effects for a region, that region enjoys the economic ben-
+efits of regional network formation. This study clarifies the net impact of agglomeration areas on inter‐regional
+networks.
+
+
+
+3 | METHOD
+
+3.1 | Stochastic frontier analysis
+
+This study undertakes a stochastic frontier analysis (SFA) to estimate the effects of agglomeration and inter‐regional
+network on productive efficiency. The SFA employed in this study conforms to the stochastic frontier function con-
+ditions proposed by Aigner, Lovell, and Schmidt (1977). Furthermore, this study utilizes the one‐step approach of
+Battese and Coelli (1995). It simultaneously estimates the production frontier function and the productive inefficiency
+term's determinant. Traditionally, a two‐step estimation method is used, in which inefficiency is first obtained by esti-
+mation of the stochastic frontier function, and the value of inefficiency is subsequently regressed to the determinant.
+However, in this case, there is a discrepancy between the hypothesis regarding the distribution of the stochastic fron-
+tier function's inefficiency term and the hypothesis regarding the regression equation that analyses the inefficiency
+determinant. Thus, consistency of estimation results cannot be guaranteed under the two‐step approach (Coelli,
+1995). By adopting the one‐step approach, we are able to avoid this problem. This SFA model approximates the eco-
+
+2
+ Japan's latest national land plan aims to achieve sustainable regional development by utilizing urban agglomeration economies. By forming inter‐regional
+networks, the plan is aimed at expanding agglomeration economies' power, which has been limited to large metropolitan areas, to local areas, and to achieve
+sustainable economic growth. See Appendix B for further details.
+OTSUKA                                                                                                                                                     119
+
+
+nomic productive efficiency level based on a non‐negative error term on one side.
+    In this study, as a production frontier function, we formulate the translog production function as follows:
+
+                                                                            1         2 1              2 1
+                                ln Y jt ¼ αL ln Ljt þ αK ln K jt þ αT T þ αLL ln Ljt þ αKK ln K jt þ αTT T 2
+                                                                            2                 2                 2                                           (2)
+                                           þαLK ln Ljt ln K jt þ αLT ln Ljt T þ αKT ln K jt T þ αj þ vjt − ujt;
+
+where j is a region, t is time, Y is real output, L is labour input, K is capital input, and T is the time trend variable
+representing technological progress. α is the estimation parameter. Fixed effects αj are considered to control the char-
+acteristics of each prefecture that cannot be captured by explanatory variables.
+    The error term (vjt − ujt) consists of two parts, a random error term vjt and an error term on productive efficiency
+ujt. vjt follows a normal distribution N(0, σ2) and is assumed to be independent of ujtand all explanatory variables. It is
+                                                                                                   
+assumed that ujt is a non‐negative stochastic variable and follows a normal distribution N μ; σ 2u .
+    Under the specification of (2) given, the score of productive efficiency, TEFjt is defined as the ratio of the observed
+output Yjt to the output yjt on the production frontier, as follows:
+
+                                                                 TEFjt ¼ Y jt =yjt ¼ e−ujt :
+
+Furthermore, the following equation explains the average μ of production inefficiency:
+
+                                                       μjt ¼ δ0 − δDEN lnDENjt − δACC lnACCjt ;                                                             (3)
+
+where δ is an estimation parameter. DEN is population density, which is defined as the population per habitable unit
+of land area, and represents the strength of agglomeration forces in the region. ACC is a market accessibility index
+that shows the strength of an inter‐regional network. These variables are also used as a measure of the regional
+agglomeration and market potential in Otsuka et al. (2010), Fritsch and Slavtchev (2011), and Tsekeris and
+Papaioannou (2017).
+    To facilitate readers' understanding, we define the determinants of inefficiency as negative. In other words, if the
+determinants improve productive efficiency, δDEN and δACC become positive3; that is, the determinants work to
+reduce the average of inefficiency μ. When the population density increases, this can have a positive effect on pro-
+ductive efficiency due to agglomeration economies. Strengthening the inter‐regional networks by investing in trans-
+portation infrastructure also increases productive efficiency. However, if the “agglomeration shadow” manifests, the
+growth of inter‐regional networks may lower production efficiency. Therefore, the impact of market access on pro-
+ductive efficiency yields both positive and negative effects.
+    As an indicator of the strength of the inter‐regional network, the ACC index is calculated as follows:
+
+                                                                     0                1
+                                                                      POPkt = ∑ POPkt
+                                                                     B       k ≠ j    C
+                                                       ACCjt ¼ ∑k≠ j @                A;                                                                    (4)
+                                                                             T jkt
+
+
+where population POPkt represents the market scale of region k over period t. Tjkt is the distance resistance (travel
+time) to travel from region j to region k over period t. The travel time is obtained by calculating the weighted average
+of the share of time required for air, rail, and automobile travel for all combinations of departure place and destina-
+tion. For each combination, the shortest amount of time to reach a destination when traveling by air, rail, or automo-
+bile is included in the calculation.4 Many previous studies evaluate T based on physical distance (Batty, 2009; Camagni
+
+3
+ In previous studies (Fritsch & Slavtchev, 2011; Otsuka et al., 2010; Tsekeris & Papaioannou, 2017), the signs for population density and the market access
+indicator are shown as negative, because each variable reduces inefficiency. In this study, both variables are originally defined as negative to facilitate
+readers' understanding. Therefore, we expect the signs of δDEN and δACC to be positive. In other words, if the signs of δDEN and δACC are positive, as expected,
+the impact of each variable on productive inefficiency will be negative, and in that sense, our setting does not contradict that of previous studies.
+4
+ See MLIT (2017) for further details.
+120                                                                                                                   OTSUKA
+
+
+et al., 2016; Hansen, 1959; Wetwitoo & Kato, 2017). On the contrary, the ACC index (4) evaluates T by travel time for
+the distance. In other words, the distinguishing feature of this index is that inter‐regional networks are not limited to
+the relative market scale of the other regions, but also consider the travel time needed to access other regions. That
+is, the market potential of a region is evaluated by discounting the relative size of markets in other regions by the
+travel time for the distance between regions. This index increases as the travel time for a distance between regions
+decreases. If the travel time to large market regions decreases, this index increases significantly. This means that the
+market potential of this region is increasing.
+      Based on the model structure above, the estimated level of productive efficiency TEFjt becomes a non‐negative
+value with an upper limit of 1. In other words:
+
+                                                                      
+                                           TEF jt ¼ E exp −ujt  vjt − ujt ; 0 < TEFjt ≤ 1:
+
+Given this relationship, the change rate of productive efficiency is represented by the following equation:
+
+
+                                                 T _EFjt ¼ δDEN D _ENjt þ δACC A _CCjt ;                                    (5)
+
+where the dot over each variable represents the percentage change of that variable. Changes in productive efficiency
+can be decomposed into: (i) changes in population density; and (ii) changes in market access.
+
+
+3.2 | Convergence of productive efficiency
+
+The presence or absence of inter‐regional disparity convergence in productive efficiency can be verified by regressing
+the change rate of productive efficiency on the initial level of productive efficiency. We can determine this by observ-
+ing the regression coefficient known as the convergence coefficient (Fukao & Yue, 2000; Otsuka, 2017). This is rep-
+resented in the following equation:
+
+                                                        _ jt ¼ α þ β·TEF j0 þ εj :
+                                                      T EF                                                                  (6)
+
+      The left side in (6) is the annual average rate of change of productive efficiency from the initial point in time 0 until
+period t. When the regression coefficient β is negative, inter‐regional disparity has been reduced. Conversely, if β is
+positive, inter‐regional disparity has increased. The size of the regression coefficient β represents the speed of the
+convergence or divergence.
+      When TEF is represented as e, the regression coefficient β is represented by the definition of the following regres-
+sion equation:
+
+                                                                               
+                                                           ∑ j ej0 − e0 · e_ j − ė
+                                                      β¼                   2      :
+                                                                ∑ j ej0 −e0
+
+Since the annual average rate of change of productive efficiency is expressed by (5), we conveniently replace each
+term on the right side of (5) with the following equation:
+
+                                                      _ej ¼ e_ j ðDENÞ þ e_ j ðACCÞ:                                        (7)
+
+Based on (7), when calculating the covariance between the average rate of change of productive efficiency and the
+initial productive efficiency, we obtain the following equation:
+
+                                                            
+                                        ∑ j ej0 − e0 e_ j − ė                                         
+                           cov ej0; e_ j ¼                       ¼ cov ej0; e_ j ðDENÞ þ cov ej0; e_ j ðACCÞ :
+                                                    n
+
+If we divide both sides by the variation of productive efficiency at the initial time, we obtain the following formula:
+OTSUKA                                                                                                                    121
+
+
+                                                                                                          
+                ∑ j ej0 − e0 e_ j − e_     ∑ j ej0 − e0 e_ j ðDENÞ − e_ ðDENÞ     ∑ j ej0 − e0 e_ j ðACCÞ − e_ ðACCÞ
+                                2      ¼                        2           þ                        2          :
+                     ∑ j ej0 −e0                       ∑ j ej0 −e0                            ∑ j ej0 −e0
+
+
+Since the value on the left side is the regression coefficient β, replacing the variables for each term on the right side
+again yields the decomposition formula of the convergence coefficient, as follows:
+
+                                                                β ¼ βDEN þ βACC :                                         (8)
+
+
+Each term on the right side is a coefficient that regresses each growth contribution on the level of its initial productive
+efficiency.5 If the convergence contribution coefficient βi (i = DEN, ACC) is positive, the element's change increases
+the inter‐regional disparities of productive efficiency. By contrast, if the convergence contribution coefficient βi is
+negative, the element's change reduces the inter‐regional disparities of productive efficiency. In addition, if βDEN
++βACC < 0 is realized even for βDEN > 0 and βACC < 0, this can be interpreted as a reduction of inter‐regional disparities
+in all of the determinants of productive efficiency.
+
+
+
+4 | RESULTS
+
+Data used in the analysis are panel data for Japan's 47 prefectures from 1980 to 2014. A description of the data
+source is given in Appendix C. The software used for the estimation is Frontier 4.1 (Coelli, 1996). In this software
+package, stochastic frontier models with fixed effects can be estimated for panel data. Table 1 presents the results
+of the maximum likelihood estimation using (2) and (3). The estimation equation for the determinants of efficiency
+is estimated at the same time as the production frontier function. In this study, two models are estimated from the
+perspective of introducing time effects in terms of population density and market access. In models A, C, and E, no
+time effects are introduced, while in models B, D, and F, time effects are introduced.
+    To determine whether the deviations from the estimated frontier were due to the effects of inefficiency, the null
+hypothesis γ = 0 was tested against the alternative hypothesis γ > 0. The null hypothesis was rejected at the 1% sig-
+nificance level and γ was statistically distinct from zero. This suggests that there is an efficiency effect, and thus, we
+confirm the estimates of the variables on the determinants of efficiency. There is no significant difference in the esti-
+mation results with or without consideration of the time effect. Models B, D, and F are selected from the log likeli-
+hood sizes, and the results are evaluated as follows.
+    The coefficient sign of population density and market access, which are variables explaining productive efficiency,
+are positive and statistically significant. This result indicates that agglomeration and inter‐regional networks positively
+influence productive efficiency. In both the manufacturing and non‐manufacturing industries, market access parame-
+ters exceed population density parameters. In particular, the market access parameters are larger in the manufacturing
+industry than in the non‐manufacturing industry. This indicates that the borrowed size impact of inter‐regional net-
+working is greater in the manufacturing industry than in the non‐manufacturing industry. In other words, in terms
+of passenger travel, the effects of inter‐regional networks are large in the manufacturing industry. This result is as
+expected in this study. In other words, this result implies that the geographical scope of production activities in the
+manufacturing industry extends beyond the region and further, suggesting that the manufacturing industry is the
+basic (export) industry of the regional economy.
+    Table 2 shows the productive efficiency values for 11 regions in Japan. The productive efficiency values for each
+region are the averages of prefectures within each region. The region with the highest productive efficiency is the
+Greater Tokyo area, where efficiency is 0.989 (close to 1) for all industries. Productive efficiency tends to be higher
+in large metropolitan areas, such as Kansai (0.969) and Chubu (0.923); Hokkaido exhibits the lowest level of produc-
+tive efficiency at 0.809. This is probably due to the increasing dispersion of the population and the difficulty of
+
+5
+Fukao and Yue (2000) and Otsuka (2017) apply this method in analysing regional disparities in labour productivity.
+                                                                                                                                                                                 122
+
+TABLE 1     Estimation results
+
+                                 All industries                                        Manufacturing industry                         Non‐manufacturing industry
+                                 A                          B                          C                          D                   E                      F
+ Production frontier function
+ Constant (α0)                   −0.134 (0.063) **          −0.064 (0.031) **          −0.157 (0.067) **          0.177 (0.036) **    0.155 (0.036) **       0.501 (0.039) **
+ αL                              0.656 (0.032) **           0.712 (0.053) **           0.409 (0.113) **           0.407 (0.034) **    0.368 (0.057) **       0.419 (0.049) **
+ αLL                             0.244 (0.116) **           0.227 (0.056) **           0.329 (0.094) **           0.255 (0.038) **    0.430 (0.058) **       0.444 (0.050) **
+ αK                              0.299 (0.044) **           0.195 (0.062) **           0.526 (0.140) **           0.495 (0.039) **    0.669 (0.069) **       0.602 (0.059) **
+ αKK                             0.156 (0.132)              0.100 (0.070)              0.205 (0.147)              0.157 (0.052) **    0.522 (0.075) **       0.540 (0.065) **
+ αT                              0.019 (0.000) **           0.016 (0.003) **           0.005 (0.008)              −0.010 (0.003) **   −0.011 (0.004) **      −0.041 (0.004) **
+ αTT                             −0.001 (0.000) **          −0.001 (0.000) **          0.000 (0.000)              0.001 (0.000) **    0.001 (0.000) **       0.002 (0.000) **
+ αLK                             −0.181 (0.150)             −0.153 (0.062) **          −0.276 (0.116) **          −0.232 (0.043) **   −0.449 (0.065) **      −0.462 (0.056) **
+ αLT                             −0.002 (0.005)             −0.004 (0.003)             −0.001 (0.006)             −0.002 (0.002)      0.022 (0.003) **       0.021 (0.003) **
+ αKT                             0.004 (0.001) **           0.007 (0.003) **           0.003 (0.008)              0.005 (0.002) **    −0.026 (0.004) **      −0.025 (0.003) **
+ Efficiency model
+ Constant (δ0)                   0.019 (0.004) **           0.075 (0.005) **           0.002 (0.004)              0.097 (0.011) **    0.101 (0.006) **       0.090 (0.005) **
+ δDEN                            0.028 (0.002) **           0.031 (0.001) **           0.045 (0.003) **           0.036 (0.005) **    0.033 (0.005) **       0.021 (0.001) **
+ δACC                            0.065 (0.002) **           0.048 (0.002) **           0.076 (0.012) **           0.083 (0.006) **    0.053 (0.002) **       0.063 (0.002) **
+ Time effect                     Excluded                   Included                   Excluded                   Included            Excluded               Included
+ σ2                              0.006 (0.000) **           0.004 (0.000) **           0.020 (0.001) **           0.014 (0.000) **    0.006 (0.000) **       0.005 (0.000) **
+ γ                               0.090 (0.007) **           0.021 (0.003) **           0.064 (0.014) **           0.036 (0.005) **    0.016 (0.008) **       0.016 (0.003) **
+ Log‐likelihood                  2018.39                    2229.87                    1017.41                    1182.76             1815.21                2035.75
+ Observations                    1645                       1645                       1645                       1645                1645                   1645
+ Mean efficiency scores          0.951                      0.898                      0.948                      0.847               0.900                  0.839
+
+Notes: ** and * indicate significance at the 1% and 5% level, respectively. Values in parentheses indicate standard errors.
+
+                                                                                                                                                                                 OTSUKA
+OTSUKA                                                                                                                  123
+
+
+TABLE 2     Average efficiency score
+
+ Region                         All industries           Manufacturing industry              Non‐manufacturing industry
+
+ Hokkaido                       0.809                    0.729                               0.755
+ Tohoku                         0.842                    0.770                               0.782
+ North Kanto                    0.911                    0.872                               0.854
+ Greater Tokyo area             0.989                    0.971                               0.938
+ Chubu                          0.923                    0.882                               0.863
+ Hokuriku                       0.871                    0.806                               0.808
+ Kansai                         0.969                    0.944                               0.916
+ Chugoku                        0.873                    0.808                               0.807
+ Shikoku                        0.879                    0.819                               0.815
+ Kyushu                         0.869                    0.806                               0.805
+ Okinawa                        0.918                    0.870                               0.853
+ National average               0.898                    0.847                               0.839
+
+Notes: Productive efficiency scores in the table represent average values for the period 1980–2014. The regional classifica-
+tion is as follows: Hokkaido (Hokkaido); Tohoku (Aomori, Iwate, Miyagi, Akita, Yamagata, Fukushima, and Niigata); North
+Kanto (Ibaraki, Tochigi, Gunma, and Yamanashi); Greater Tokyo area (Saitama, Chiba, Tokyo, and Kanagawa); Chubu (Nagano,
+Gifu, Shizuoka, Aichi, and Mie); Hokuriku (Toyama, Ishikawa, and Fukui); Kansai (Shiga, Kyoto, Osaka, Hyogo, Nara, and
+Wakayama); Chugoku (Tottori, Shimane, Okayama, Hiroshima, and Yamaguchi); Shikoku (Tokushima, Kagawa, Ehime, and
+Kochi); Kyushu (Fukuoka, Saga, Nagasaki, Kumamoto, Oita, Miyazaki, and Kagoshima); and Okinawa (Okinawa).
+
+
+enjoying the benefits of inter‐regional networks in regions that are not part of the Japanese mainland. The
+manufacturing industry has a higher level of productive efficiency than the non‐manufacturing industry does. This
+suggests that the manufacturing industry supply chain extends to various regions in Japan and that it is easy to enjoy
+the benefits of shortening domestic travel time. Non‐manufacturing businesses are based on inter‐personal contact,
+which means that the non‐manufacturing industry is centred on non‐basic industries that support the lives of workers
+within the region. This suggests that people's contact across regions is less frequent than in the manufacturing indus-
+try. Furthermore, it is easy to telecommute in a non‐manufacturing industry. Thus, travel time may be less relevant for
+some non‐manufacturing businesses than for manufacturing businesses.
+   Table 3 shows the contributions of agglomeration and inter‐regional networks in improving productive efficiency,
+based on Equation (5). In Hokkaido, Shikoku, and Kyushu, productive efficiency increased significantly during the
+observation period, exceeding the national average. The region's productive efficiency improved in both the
+manufacturing and non‐manufacturing industries. Improving access to other markets has had a major impact on
+improving productive efficiency. Hokkaido's access to the mainland of Japan has improved dramatically with the
+increase in flights. In Shikoku, the Honshu Shikoku Bridge was completed, and access to the mainland was improved.
+In Kyushu, the Kyushu Shinkansen (bullet train) opened in 2004 and 2011. These effects are reflected in the results of
+the analysis. Tohoku, North Kanto, and Chubu have also been heavily affected by improved access to other markets.
+In all areas, the development of transportation infrastructure has significantly improved access to other areas. There
+are also some areas where the impact of population agglomeration on improving productive efficiency is evident, but
+this effect has been small. For example, an effect can be observed in North Kanto, the Greater Tokyo area, Chubu,
+Kansai, and Okinawa, but the respective effect is very small compared to the effects of market access. This indicates
+that the impact of inter‐regional networks on improving Japanese productive efficiency is greater than the effect of
+the spatial agglomeration of populations.
+   Figure 1 plots the relationships between improving the rate of market access and improving the rate of productive
+efficiency for all industries. There is a clear upward‐sloping relationship, which indicates a clear correlation between
+improved access to other markets and improved productive efficiency. Nagano and Tokushima are located in the
+124                                                                                                                 OTSUKA
+
+
+TABLE 3       The growth rate of productive efficiency and factor contribution to productive efficiency
+
+                      All industries                    Manufacturing industry            Non‐manufacturing industry
+
+                      Growth rate of                    Growth rate of                    Growth rate of
+ Region               efficiency score DEN      ACC     efficiency score DEN       ACC    efficiency score DEN       ACC
+                      (a) + (b)        (a)      (b)     (a) + (b)        (a)       (b)    (a) + (b)        (a)       (b)
+
+ Hokkaido             0.187            −0.008 0.194 0.239                 −0.010 0.249 0.182                −0.006 0.187
+ Tohoku               0.152            −0.012 0.163 0.194                 −0.015 0.210 0.149                −0.009 0.158
+ North Kanto          0.148             0.005 0.142 0.190                  0.007 0.183 0.142                  0.004 0.138
+ Greater Tokyo        0.122             0.024 0.098 0.157                  0.031 0.125 0.113                  0.018 0.094
+   area
+ Chubu                0.152             0.004 0.148 0.195                  0.005 0.189 0.146                  0.003 0.143
+ Hokuriku             0.073            −0.001 0.074 0.094                 −0.001 0.096 0.071                −0.001 0.072
+ Kansai               0.113             0.005 0.108 0.145                  0.007 0.138 0.108                  0.004 0.104
+ Chugoku              0.107            −0.006 0.113 0.137                 −0.008 0.145 0.105                −0.005 0.109
+ Shikoku              0.192            −0.006 0.198 0.246                 −0.008 0.254 0.186                −0.005 0.191
+ Kyushu               0.169            −0.001 0.170 0.217                 −0.001 0.218 0.164                −0.001 0.164
+ Okinawa              0.098             0.011 0.087 0.126                  0.014 0.112 0.093                  0.008 0.084
+ National average     0.138             0.001 0.136 0.176                  0.002 0.174 0.132                  0.001 0.131
+
+Notes: Growth contribution is the value calculated by equation (5). The regional classification is as follows: Hokkaido (Hok-
+kaido); Tohoku (Aomori, Iwate, Miyagi, Akita, Yamagata, Fukushima, and Niigata); North Kanto (Ibaraki, Tochigi, Gunma,
+and Yamanashi); Greater Tokyo area (Saitama, Chiba, Tokyo, and Kanagawa); Chubu (Nagano, Gifu, Shizuoka, Aichi, and
+Mie); Hokuriku (Toyama, Ishikawa, and Fukui); Kansai (Shiga, Kyoto, Osaka, Hyogo, Nara, and Wakayama); Chugoku (Tottori,
+Shimane, Okayama, Hiroshima, and Yamaguchi); Shikoku (Tokushima, Kagawa, Ehime, and Kochi); Kyushu (Fukuoka, Saga,
+Nagasaki, Kumamoto, Oita, Miyazaki, and Kagoshima); and Okinawa (Okinawa).
+
+
+
+
+upper right. The Nagano Shinkansen has improved access to markets and increased productive efficiency in Nagano.
+Meanwhile, in Tokushima, the opening of the Akashi Kaikyo Bridge has improved access to the mainland, indicating
+that productive efficiency has increased. In this way, it can be concluded that the development of high‐speed trans-
+portation networks played a role in strengthening regional economic networks and greatly increasing productive
+efficiency.
+      Finally, the presence or absence of convergence of productive efficiency is examined. Figure 2 plots the initial
+levels of productive efficiency and the rate of change and shows a downward‐sloping tendency. This finding indicates
+that regions with lower productive efficiency in the initial stages had higher growth of productive efficiency than
+regions with higher initial productive efficiency did. This result suggests that areas with low productive efficiency
+may have caught up to areas with high productive efficiency. Productive efficiency in Nagano, Tokushima, and Hok-
+kaido improved significantly, while that in Saitama, Osaka, Kanagawa, and Tokyo showed little improvement.
+      Table 4 shows the convergence coefficient based on (6) and (8). The convergence coefficient β is negative for both
+the manufacturing and non‐manufacturing industries. This indicates a reduction in the regional disparities of productive
+efficiency during the observation period. However, the sign of the population density coefficient is positive in both
+industries. This means that the population agglomeration worked to expand the regional disparities of productive effi-
+ciency. By contrast, the sign of the coefficient of market access is negative, and the magnitude of the coefficient greatly
+exceeds the value of population density. While population agglomeration is working to increase the regional disparities
+of productive efficiency, market access is working to reduce the regional disparities of productive efficiency. As the lat-
+ter effect exceeds the former effect, it can be concluded that the regional disparities of productive efficiency, as a whole,
+have diminished. These results suggest that the investment in high‐speed transportation infrastructure by the Japanese
+OTSUKA                                                                     125
+
+
+
+
+FIGURE 1 Dynamic relationship between efficiency score and market access
+Note: Each point in the figure represents the value in all industries.
+
+
+
+
+FIGURE 2 Convergence of productive efficiency
+Note: Each point in the figure represents the value in all industries.
+126                                                                                                             OTSUKA
+
+
+TABLE 4       Decomposition results of the beta coefficient (1980–2014)
+
+                                   All industries              Manufacturing industry     Non‐manufacturing industry
+
+ Convergence coefficient (β)       −0.0029 (0.0010)     **     −0.0025 (0.0009)     **    −0.0030 (0.0009)        **
+ Population density (βDEN)          0.0012 (0.0002)     **      0.0011 (0.0001)     **      0.0009 (0.0001)       **
+ Market access (βACC)              −0.0042 (0.0010)     **     −0.0036 (0.0008)     **    −0.0039 (0.0009)        **
+
+Notes: **, and * indicate significance at the 1%, and 5% levels, respectively.
+Values in parentheses indicate standard errors.
+
+government has strengthened local areas' economic power and helped reduce economic disparities between large met-
+ropolitan areas and local areas.
+
+
+5 | DISCUSSION AND CONCLUSION
+
+The current dynamics in Japanese regional economic systems are consistent with traditional literature, which empha-
+sizes the importance of agglomeration economies for economic growth. Population agglomeration is progressing in
+the three large metropolitan areas of the Greater Tokyo area, Kansai, and Chubu, achieving high economic growth.
+Urbanization is relatively stable. The Greater Tokyo area's share of the population is increasing at the expense of local
+areas (see Appendix A). These trends follow global trends. However, there is no proof in recent studies that regional
+disparities have been expanding steadily. The manufacturing industry is predominantly located outside of urban areas
+and continues to grow, despite economic globalization, and this supports Japan's local economies. Therefore, an
+explanation that goes beyond the conventional agglomeration theory is required for Japan. In this study, we show
+that inter‐regional networks enhance the effectiveness of borrowed size and complement lost links between real
+regional economic systems and agglomeration theory.
+      Network economies are paradigms that have entered a stage in which they are generally more complementary to
+the concepts of agglomeration economies. This study explores the roles of inter‐regional networks and draws new
+analogies by focusing on the new roles of agglomeration economies. Agglomeration economies are known to have
+traditionally relied heavily on the sheer size of a region, but this study examines whether inter‐regional networks
+complement the size of the region as a factor of regional economic growth. In particular, this study focused on
+upgrading passenger networks through the three major networks of roads, railways, and aviation. The empirical anal-
+ysis of this study has produced new knowledge. The main findings can be summarized as follows.
+      First, the improvement of inter‐regional networks increases the “borrowing” effect, whereby the benefits of
+agglomeration in large cities spills over to increase the productive efficiency of the local economy. The impact of
+the “borrowing size” effect is greater than the agglomeration benefit of local size. Positive effects in inter‐regional
+networks are strongly evident, and in that sense, the effects of agglomeration shadows are not apparent.
+      Second, the impact of the increase in productive efficiency due to the improvement of inter‐regional networks is
+greater for the manufacturing industry than for the non‐manufacturing industry. The manufacturing industry plays a
+role in the basic (export) industry in regional economies. Therefore, a network with the outside area is important for
+production activities in the manufacturing industry.
+      Third, in large metropolitan areas, such as the Greater Tokyo area and Kansai, the economic benefits by region size
+were large. This means that the large metropolitan areas enjoyed a high level of agglomeration economies, driven by
+population agglomeration. If a positive lock‐in effect operates in agglomeration, the large metropolitan area's sustain-
+able growth is guaranteed.
+      Fourth, in local areas other than large metropolitan areas, borrowed size from large city agglomeration was highly
+effective in enhancing productive efficiency. The shortening of travel times to large metropolitan areas engendered
+by high‐speed transportation networks through investment in transportation infrastructure greatly contributed to
+the growth of the local economy.
+OTSUKA                                                                                                                  127
+
+
+   Fifth, the strengthening of transportation networks contributed to the convergence of regional disparities on pro-
+ductive efficiency. The development of transportation networks has enabled local areas to catch up to the large met-
+ropolitan areas due to the effects of borrowed size in local areas.
+   These findings have substantial theoretical and policy implications. Theoretically, the observation that the
+borrowed size effect occurs in regional networks calls for the geographic base of agglomeration theory to be re‐built.
+It may be necessary to re‐consider the appropriateness of the term “agglomeration economies” if the economic phe-
+nomenon can be shared not only within the agglomeration itself but also across regional networks. Ignoring the role
+of inter‐regional networks means that regional development policies may be directed toward narrowly defined spatial
+scales. The existence of an inter‐regional network economy affirms wider regional development and suggests that it
+can be an effective means of putting under‐developed areas on a growth track.
+   Japan is aiming to build a giant economic zone, called a “super‐megaregion,” through the formation of inter‐
+regional networks, as defined in the national land plan. The goal is to create a national land structure that can deal
+with the effects of population decline. The specific aim is to achieve sustainable economic growth by shortening
+the travel time between regions through investment in high‐speed transportation networks, namely, the Linear Chuo
+Shinkansen (magnetic levitation train), and increasing the borrowed size effect. The results of this study provide
+insights into the foundations of Japanese land policies and enable predictions of regional disparities. Specifically,
+the results of this study suggest that the development of high‐speed transportation networks may further reduce
+regional disparities. This effect is particularly significant for the manufacturing industry.
+   Future research should deepen our consideration of these findings from a micro perspective. In other words, the
+mechanism of the effects of borrowed size should be elucidated. With regard to passenger travel, the number of busi-
+ness trips is expected to increase as inter‐regional travel time decreases. However, the impact of an increase in the
+number of business trips on productive efficiency has not been well explored. In particular, the mechanism by which
+a business trip leads to increased productive efficiency needs to be clarified. Furthermore, as globalization progresses,
+the regional economy needs to make full use of inter‐country network connectivity, and further research is needed to
+explore ways to utilize it. Future research should also focus on analysing and understanding networks between inter-
+national regions.
+
+
+ACKN O WLE DGM EN T
+The author thanks the reviewers whose comments have improved the quality of this paper.
+
+
+F U ND I N G D E T A I L S
+
+
+This study was supported by JSPS KAKENHI Grant Number 18K01614.
+
+
+DISCLOSUR E STATEMENT
+The author declares there are no conflicts of interest. The founding sponsors had no role in the design of the study; in
+the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the
+results.
+
+
+OR CI D
+Akihiro Otsuka      https://orcid.org/0000-0001-7852-4590
+
+
+REFE RENCES
+
+Aigner, D. J., Lovell, C. A. K., & Schmidt, P. (1977). Formulation and estimation of stochastic frontier production function
+   model. Journal of Econometrics, 6, 21–37.
+
+Alonso, W. (1973). Urban zero population growth. Daedalus, 102(4), 191–206.
+128                                                                                                                       OTSUKA
+
+
+Battese, G. E., & Coelli, T. J. (1995). A model for technical inefficiency effects in a stochastic frontier production function for
+   panel data. Empirical Economics, 20(2), 325–332.
+Batty, P. W. J. (2009). Accessibility: In search of a unified theory. Environment and Planning B: Planning and Design, 36,
+   191–194.
+Beeson, P. E., & Husted, S. (1989). Patterns and determinants of productive efficiency in the state manufacturing. Journal of
+   Regional Science, 29(1), 15–28.
+Boix, R., & Trullen, J. (2007). Knowledge, networks of cities and growth in regional urban systems. Papers in Regional Science,
+   86(4), 551–574.
+Burger, M. J., Meijers, E. J., Hoogerbrugge, M. M., & Tresserra, J. M. (2015). Borrowed size, agglomeration shadows and cul-
+   tural amenities in North‐West Europe. European Planning Studies, 23(6), 1090–1109.
+Camagni, R. (1993). From city hierarchy to city networks: Reflections about an emerging paradigm. In L. T. R. Lakshmanan, &
+   P. Nijkamp (Eds.), Structure and change in the space economy: Festschrift in honour of Martin Beckmann (chapter 6, pp.
+   66–87). Berlin: Springer Verlag.
+Camagni, R., & Capello, R. (2004). The city network paradigm: Theory and empirical evidence. In R. Capello, & P. Nijkamp
+   (Eds.), Urban dynamics and growth (chapter 16, pp. 495–529). Amsterdam: Elsevier.
+Camagni, R., Capello, R., & Caragliu, A. (2015). The rise of second‐rank cities: What role for agglomeration economies? Euro-
+   pean Planning Studies, 23(6), 1069–1089.
+Camagni, R., Capello, R., & Caragliu, A. (2016). Static vs. dynamic agglomeration economies. Spatial context and structural
+   evolution behind urban growth. Papers in Regional Science, 95(1), 133–158.
+Capello, R. (2000). The city network paradigm: Measuring urban network externalities. Urban Studies, 37(11), 1925–1945.
+Carlino, G., & Kerr, W. R. (2015). Agglomeration and innovation. In G. Duranton, J. V. Henderson, & W. Strange (Eds.), Hand-
+   book of regional and urban economics (Vol. 5A, chapter 6, pp. 349–404). Amsterdam: Elsevier.
+Coelli, T. J. (1995). Recent development in frontier modelling and efficiency measurement. Australian Journal of Agricultural
+   Economics, 39(3), 219–245.
+Coelli, T. J. (1996). A guide to FRONTIER version 4.1: A computer program for stochastic frontier production and cost func-
+   tion estimation. CEPA working papers no. 96/07. Australia: University of new England, NSW.
+Combes, P. P., & Gobillon, L. (2015). The empirics of agglomeration economies. In G. Duranton, J. V. Henderson, & W. Strange
+  (Eds.), Handbook of regional and urban economics (Vol. 5A, chapter 5, pp. 247–348). Amsterdam: Elsevier.
+Dobkins, L. H., & Ioannides, Y. M. (2001). Spatial interactions among US cities: 1900–1990. Regional Science and Urban Eco-
+   nomics, 31(6), 701–731.
+Driffield, N., & Munday, M. (2001). Foreign manufacturing, regional agglomeration and technical efficiency in UK industries: A
+    stochastic production frontier approach. Regional Studies, 35(5), 391–399.
+Fritsch, M., & Slavtchev, V. (2011). Determinants of the efficiency of regional innovation systems. Regional Studies, 45(7),
+    905–918.
+Fujita, M., & Thisse, J. (2002). The economics of agglomeration: Cities, industrial location and regional growth. Cambridge: Cam-
+    bridge University Press.
+Fukao, K., & Yue, X. (2000). Regional factor inputs and convergence in Japan: How much can we apply closed economy neo-
+   classical growth models? Economic Review (Keizai Kenkyu), 51(2), 136–151. (in Japanese)
+Graham, D. J. (2007). Variable returns to urbanization and the effect of road traffic congestion. Journal of Urban Economics, 62
+   (1), 103–120.
+Hall, P., & Pain, K. (2006). The polycentric metropolis: Learning from mega‐city regions in Europe. London: Earthscan.
+Hansen, W. G. (1959). How accessibility shapes land use. Journal of the American Institute of Planning, 25, 73–76.
+Holl, A. (2012). Market potential and firm‐level productivity in Spain. Journal of Economic Geography, 12(6), 1191–1215.
+Ke, S., & Yu, Y. (2014). The pathways from industrial agglomeration to TFP growth: The experience of Chinese cities for
+    2001–2010. Journal of the Asia Pacific Economy, 19(2), 310–332.
+Lall, S. V., Shalizi, Z., & Deichmann, U. (2004). Agglomeration economies and productivity in Indian industry. Journal of Devel-
+     opment Economics, 73(2), 643–673.
+Marshall, A. (1890). Principles of economics. London: Macmillan.
+McCann, P. (2001). Urban and regional economics. Oxford: Oxford University Press.
+McCoy, K., & Moomaw, R. L. (1995). Determinants of manufacturing efficiency in Canadian cities: A stochastic frontier
+  approach. Review of Regional Studies, 25(3), 317–330.
+OTSUKA                                                                                                                          129
+
+
+Meijers, E., Burger, M. J., & Hoogerbrugge, M. M. (2016). Borrowing size in networks of cities: City size, network connectivity
+   and metropolitan functions in Europe. Papers in Regional Science, 95(1), 181–198.
+Melo, P. S., Graham, D. J., Levinson, D., & Aarabi, S. (2016). Agglomeration, accessibility and productivity: Evidence for large
+   metropolitan areas in the US. Urban Studies, 54(1), 179–195.
+Mitra, A. (1999). Agglomeration economies as manifested in technical efficiency at the firm level. Journal of Urban Economics,
+   45(3), 490–500.
+Mitra, A. (2000). Total factor productivity growth and urbanization economies: A case of Indian industries. Review of Urban
+   and Regional Development Studies, 12(2), 97–108.
+MLIT (2017). The development of land policy simulation model (FY2017 Edition). Ministry of Land, Infrastructure and Trans-
+   port, Tokyo. URL: http://www.mlit.go.jp/kokudoseisaku/kokudoseisaku_tk3_000085.html (in Japanese).
+Montolio, D., & Solé‐Ollé, A. (2009). Road investment and regional productivity growth: The effects of vehicle intensity and
+  congestion. Papers in Regional Science, 88(1), 99–118.
+Otsuka, A. (2017). A new perspective on agglomeration economies in Japan. Singapore: Springer.
+Otsuka, A., & Goto, M. (2013). Regional policy and the productive efficiency of Japanese industries. Regional Studies, 49(4),
+   518–531.
+Otsuka, A., & Goto, M. (2016). Total factor productivity and the convergence of disparities in Japanese regions. The Annals of
+   Regional Science, 56(2), 419–432.
+Otsuka, A., Goto, M., & Sueyoshi, T. (2010). Industrial agglomeration effects in Japan: Productive efficiency, market access,
+   and public fiscal transfer. Papers in Regional Science, 89(4), 819–839.
+Parr, J. B. (2002). Agglomeration economies: Ambiguities and confusions. Environment and Planning a, 34, 717–731.
+Phelps, N., Fallon, R., & Williams, C. (2001). Small firms, borrowed size and the urban‐rural shift. Regional Studies, 35(7),
+   613–624.
+Rice, P., Venables, A. J., & Patacchini, E. (2006). Spatial determinants of productivity: Analysis for the regions of Great Britain.
+    Regional Science and Urban Economics, 36(6), 727–752.
+Rosenthal, S., & Strange, W. (2004). Evidence on the nature and sources of agglomeration economies. In J. V. Henderson, & J.
+   F. Thisse (Eds.), Handbook of regional and urban economics (Vol. 4, chapter 49, pp. 2119–2171). Amsterdam: Elsevier.
+Stelder, D. (2016). Regional accessibility trends in Europe: Road infrastructure, 1957–2012. Regional Studies, 50(6), 983–995.
+Tsekeris, T., & Papaioannou, S. (2017). Regional determinants of technical efficiency: Evidence from the Greek economy.
+   Regional Studies, 52(10), 1398–1409.
+Wetwitoo, J., & Kato, H. (2017). Inter‐regional transportation and economic productivity: A case study of regional agglomer-
+  ation economies in Japan. The Annals of Regional Science, 59(2), 321–344.
+
+
+
+
+    How to cite this article: Otsuka A. Inter‐regional networks and productive efficiency in Japan. Pap Reg Sci.
+    2019;99:115–133. https://doi.org/10.1111/pirs.12474
+
+
+
+
+A PP E N D IX
+REGIONAL DISPARITIES AND MIGRATION IN JAPAN
+Figure A1 shows the time‐series transition of the coefficient of variation (CV). In gross value added (GVA). Per unit of
+labour from the 1980s to 2000s. The CV rose until 1990 after having fallen sharply from 1980 to 1984. This change is
+attributed to the impact of the asset‐inflated bubble economy in 1990. CV fell again from 1991 to 2001. During this
+time, the Japanese economy fell into a serious economic recession due to the collapse of the bubble economy. These
+10 years are called the “lost decade.” thereafter, CV increased until 2005, but decreased again in 2008 owing to the
+impact of the economic downturn precipitated by the Lehman brothers bankruptcy. Thereafter, the CV rose again.
+While CV changed in the observation period due to the influence of economic fluctuation, the level of CV in 2014
+was much lower than the level in 1980, showing a downward trend. This result implies that regional disparities of
+GVA per unit of labour are decreasing in the long run.
+130                                                                                                         OTSUKA
+
+
+
+
+FIGURE A1 CV of GVA per unit of labour in Japan
+Source: Annual report on prefectural accounts (Cabinet Office), Basic Resident Register Population (Ministry of
+Internal Affairs and Communications).
+
+
+
+
+      Figure A2 shows the net inflow of population in the greater Tokyo area, Chubu, Kansai, and local areas. A
+phenomenon observed in the 1980s and 2000s was the polar concentration of the population in the greater Tokyo
+area. In the middle of the 1990s, a reversal of population movement from this area to local areas occurred quite
+suddenly. However, in the 2000s, population migration from local areas to the greater Tokyo area began accelerating
+again. Overall, in Japan, there is a concentration of population in the greater Tokyo area.
+
+
+
+
+FIGURE A2 Migration in Japan
+Source: Report on Internal Migration in Japan (Ministry of Internal Affairs and Communications).
+OTSUKA                                                                                                                 131
+
+
+A PP E N D IX
+T H E N AT I O N AL LA N D P LA N I N J A PA N
+The national land plan is a long‐term, comprehensive spatial plan for the use, development, and conservation of
+national land. Since the formulation of the First Comprehensive National Development Plan in 1962, Japan's post‐
+war national land planning has been based on the Comprehensive National Land Development Act. Post‐war national
+land plans have been revised to resolve various issues in accordance with the needs of each era.
+   The latest national land planning period is 10 years, with the 2020 Tokyo Olympic and Paralympic Games as the
+interim year. Efforts during this period have been positioned to influence Japan's future development potential. The
+latest national land plan defines the basic concept of the plan as the creation of “a country that promotes interaction.”
+Interaction is the inter‐regional movement of people, goods, money, and information arising from the mutual cooper-
+ation of various regions with diverse personalities. It is believed that dynamic interaction between regions enables
+sustainable development. The means of creating this interaction is the “compactization” of the region and the forma-
+tion of “inter‐regional networks.”
+   In order to provide services efficiently although the population decline defines the economy, regional integration
+(downsizing) is essential. The aim is to maintain the size of the markets by networking each region to prevent the mar-
+kets from shrinking. The important issue here is the individuality of each region as a compact entity. Differences in
+individuality between regions arise when regions independently identify their own local resources and refine their
+attractiveness. This difference in individuality creates interaction between regions, and this interaction is thought
+to be the source of regional vitality. Through these efforts, Japan aims to create a national land structure that will
+increase the productivity and productive efficiency of the nation as a whole by providing high‐quality services effi-
+ciently and creating new value, even in the face of population decline.
+   An important role in creating inter‐regional interaction is the formation of inter‐regional networks through high‐
+speed transportation systems. The new national land plan aims to form a “super‐megaregion” through the Linear Chuo
+Shinkansen, a high‐speed transportation system, to gain high competitiveness by creating significant regional agglomer-
+ation economy effects. The Linear Chuo Shinkansen is a 438‐kilometre high‐speed transportation line connecting
+Tokyo, Nagoya, and Osaka. The development plan for the Linear Chuo Shinkansen was officially decided in 2011. The
+Linear Chuo Shinkansen is scheduled to open in 2027 between Tokyo and Nagoya, and in 2045 between Nagoya and
+Osaka. The superconducting magnetic levitation system (maximum speed: 505 kilometres/hour) has been adopted as
+a driving method. It is planned to connect Tokyo and Nagoya in about 40 minutes, and Tokyo and Osaka in about 1 hour.
+   The opening of the Linear Chuo Shinkansen will bring about a significant reduction in travel time. With this short-
+ened travel time, Japan's major large metropolitan areas will be able to work closely together as an integrated eco-
+nomic zone, creating a world‐class “super‐megaregion” on an unparalleled economic scale. This dramatic reduction
+in travel time is expected to stimulate face‐to‐face communication between firms further. In other words, when
+the Linear Chuo Shinkansen connects Tokyo, Nagoya, and Osaka in approximately 1 hour, information exchanges
+are expected to increase, and new joint research and development and innovation may be created among firms.
+
+
+
+A PP E N D IX
+EXPLANATION OF DATA
+The real output (Y) data of each prefecture are from the Annual report on prefectural accounts6 (Cabinet Office). and
+are deflated by the GDP deflator. Labour input (L). is calculated by multiplying the number of employees by the num-
+ber of hours worked. The data on the number of employees in each prefecture are from the Annual report on prefec-
+tural accounts (Cabinet Office). Working hours data are from the Monthly labour survey (Ministry of Health, Labour and
+Welfare). The capital input (K). is the private capital stock multiplied by the capacity utilization ratio. Private capital
+stock data are estimated by the Central Research Institute of Electric Power Industry. The manufacturing industry
+capacity utilization ratio is from an index of capacity utilization ratios published by the Ministry of Economy, Trade
+                                                                                                                                                                      132
+
+
+
+TABLE C1   Descriptive statistics
+
+                  Value‐added (million yen)                 Labour input (person‐hour)               Capital input (million yen)
+
+                  All                         Non‐          All                      Non‐          All                            Non‐          Population   Market
+                  industries    Manufacturing manufacturing industries Manufacturing manufacturing industries       Manufacturing manufacturing density      access
+
+1980       Mean   7,730,508     1,372,122     6,284,633     1,364,909   295,799          1,067,572   8,496,714      3,335,672      5,248,584     1,276       22.25
+           S.D.   10,233,479    1,821,621     8,442,672     1,399,606   335,341          1,084,151   9,115,215      3,624,570      6,210,252     1,506       6.00
+           Max    62,919,057    9,063,891     53,336,575    8,410,740   1,679,754        6,729,076   45,566,369     14,405,245     36,582,428    8,372       36.14
+           Min    1,659,582     94,180        1,458,760     373,549     31,930           311,600     1,155,407      252,337        762,589       262         13.34
+1990       Mean   10,837,508    2,037,251     8,675,979     1,470,828   324,310          1,138,736   15,529,807     5,886,160      9,907,896     1,336       22.35
+           S.D.   15,406,048    2,390,362     13,204,132    1,614,268   346,780          1,281,201   17,910,196     6,215,941      13,483,438    1,574       6.16
+           Max    96,483,934    9,839,002     85,211,889    9,669,281   1,670,266        7,929,467   99,568,959     28,157,387     84,514,309    8,456       35.91
+           Min    2,123,197     148,651       1,773,178     362,099     32,312           289,755     2,681,166      482,733        1,951,542     259         12.93
+2000       Mean   10,765,104    2,011,027     8,770,252     1,372,705   254,102          1,102,140   20,111,686     7,117,994      13,695,435    1,350       25.25
+           S.D.   14,822,163    2,032,771     13,348,402    1,478,683   254,968          1,217,629   23,431,277     7,104,309      18,975,392    1,585       6.01
+           Max    93,658,397    9,050,237     86,801,664    8,715,110   1,155,040        7,370,153   131,564,767    34,653,218     117,445,951   8,413       38.51
+           Min    2,127,374     184,599       1,759,982     328,361     27,728           270,074     3,606,780      658,160        2,705,984     260         17.18
+2010       Mean   11,158,051    2,280,320     8,839,387     1,233,226   190,603          970,214     27,177,667     7,422,947      18,874,986    1,360       26.01
+           S.D.   15,275,105    2,204,401     13,654,808    1,355,706   183,762          1,067,624   32,341,314     7,345,204      27,271,084    1,679       6.11
+           Max    96,217,403    10,735,264    88,808,855    7,949,085   853,089          6,373,482   182,997,919    39,024,137     169,716,749   9,066       39.65
+           Min    1,857,687     191,663       1,591,060     279,522     25,422           227,706     4,724,266      692,392        3,654,294     249         15.86
+2014       Mean   11,662,718    2,436,275     9,150,756     1,207,253   190,814          952,281     31,586,469     7,828,993      22,145,309    1,353       26.60
+           S.D.   16,115,681    2,603,710     14,321,806    1,322,034   182,418          1,053,709   38,003,200     7,665,752      32,478,660    1,694       6.00
+           Max    101,186,156   14,521,490    93,367,789    7,733,538   890,263          6,308,599   216,663,687    41,205,418     202,599,244   9,185       39.65
+           Min    1,867,750     198,327       1,630,076     271,509     26,047           226,042     5,387,930      736,874        4,229,472     245         17.56
+1980–      Mean   10,341,909    1,964,520     8,355,152     1,364,108   262,363          1,078,642   18,940,610     6,133,024      12,795,671    1,343       24.16
+  2014     S.D.   14,229,589    2,174,343     12,550,135    1,458,832   280,623          1,172,863   24,227,938     6,464,148      19,722,313    1,587       6.24
+           Max    101,828,797   14,572,817    93,616,142    9,669,281   1,707,001        7,929,467   216,663,687    43,011,704     202,599,244   9,185       40.03
+           Min    1,659,582     94,180        1,458,760     271,509     23,323           226,042     1,155,407      252,337        762,589       245         12.90
+
+
+
+                                                                                                                                                                      OTSUKA
+OTSUKA                                                                                                                 133
+
+
+and Industry. The capacity utilization ratio of the non‐manufacturing industry is estimated using the following proce-
+                                                                                          
+                                                                                          Y
+dure because no official statistics are available. It is assumed that fluctuations in ln     can be attributed to a change
+                                                                                          K
+in capital utilization, as well as a time trend. Based on this assumption, a proxy of the capital utilization rate can be
+measured with a residual error term (ε). in the regression ln(Y/K) = α+βT+ε, where T is a time trend and β is a time‐
+                      
+                      Y
+invariant slope of ln   . Population density is the ratio of population to the residential area. The population data
+                      K
+are from the Basic resident register population (Ministry of Internal Affairs and Communications7). The residential area
+data are from A system of social and demographic statistics (Ministry of Internal Affairs and Communications). In calcu-
+lating market access indicators, the data for the time‐distance matrix between regions are from the National integrated
+transport analysis system (Ministry of Land, Infrastructure, Transport and Tourism8).
+   The descriptive statistics are presented in Table C1. Real output increased over the course of the observation
+period in the manufacturing and non‐manufacturing industries. After rising from the 1980s to the 1990s, the pace
+of increase in the 2000s was moderate. Labour input steadily decreased from 1990, while capital input increased
+throughout the observation period. Population density rose moderately between 1980 and 2010, and then declined
+slightly in 2014 owing to a nationwide decline in population. Market access indicators increased sharply from 1990,
+suggesting that inter‐regional networks were strengthened by the opening of the bullet trains: Yamagata Shinkansen,
+Akita Shinkansen, Nagano Shinkansen, and Kyushu Shinkansen.
+   Table C2 shows the average values of population density and market access index over time by Japanese region.
+Population density is high in Japan's three major metropolitan areas, the Greater Tokyo area, Chubu, and Kansai.
+However, Hokkaido has the lowest population density. The market access index is also higher than average in the
+Greater Tokyo area, Chubu, and Kansai. This means that Japan's transportation network is constituted mainly of large
+cities. In particular, Japan has a high‐speed transportation network with Tokyo as its hub. Therefore, market access
+indicators tend to be higher in regions with shorter travel times from Tokyo. The Okinawa market access index is
+higher because of the larger number of flights to Tokyo than to local areas.
+
+
+TABLE C2       Regional average of population density and market access
+
+                                                      Population density                                   Market access
+
+ Hokkaido                                             257                                                  17.88
+ Tohoku                                               493                                                  19.25
+ North Kanto                                          798                                                  25.64
+ Greater Tokyo area                                   4,619                                                35.93
+ Chubu                                                1,246                                                25.82
+ Hokuriku                                             738                                                  20.64
+ Kansai                                               2,407                                                32.13
+ Chugoku                                              864                                                  20.33
+ Shikoku                                              864                                                  21.08
+ Kyushu                                               846                                                  20.34
+ Okinawa                                              1,158                                                24.46
+ National average                                     1,343                                                24.16
+
+Notes: The values in the table are the mean values of the observation period (1980–2014) for each Japanese region. The
+regional classification is as follows: Hokkaido (Hokkaido); Tohoku (Aomori, Iwate, Miyagi, Akita, Yamagata, Fukushima, and
+Niigata); North Kanto (Ibaraki, Tochigi, Gunma, and Yamanashi); Greater Tokyo area (Saitama, Chiba, Tokyo, and Kanagawa);
+Chubu (Nagano, Gifu, Shizuoka, Aichi, and Mie); Hokuriku (Toyama, Ishikawa, and Fukui); Kansai (Shiga, Kyoto, Osaka, Hyogo,
+Nara, and Wakayama); Chugoku (Tottori, Shimane, Okayama, Hiroshima, and Yamaguchi); Shikoku (Tokushima, Kagawa,
+Ehime, and Kochi); Kyushu (Fukuoka, Saga, Nagasaki, Kumamoto, Oita, Miyazaki, and Kagoshima); and Okinawa (Okinawa).
+DOI: 10.1111/pirs.12474
+
+
+
+
+Resumen. Las teorías tradicionales sobre la aglomeración no pueden explicar la reducción continua de las
+disparidades regionales en el Japón. Este estudio emplea un análisis de frontera estocástica para investigar el papel
+de las redes interregionales en la mejora de la eficiencia productiva por medio del concepto de “tamaño prestado”.
+La mejora de las redes interregionales es una fuerza motriz para el fortalecimiento de las economías locales y la
+convergencia de las disparidades regionales. El tamaño prestado de la aglomeración de las grandes ciudades fue
+muy efectivo en las áreas locales. El desarrollo de las redes de transporte ha permitido a las zonas locales ponerse
+a la par de las grandes áreas metropolitanas. Los resultados sugieren que el desarrollo de las redes de transporte
+de alta velocidad puede ayudar a reducir las disparidades regionales en la economía japonesa.
+
+
+
+抄録: 伝統的な集積の理論では、日本の持続的な格差の縮小を説明するのは不可能である。本稿では、確率フロン
+ティア分析により、生産効率の改善における地域間ネットワークの役割を「借用したサイズ」の概念を用いて検
+討した。地域間ネットワークの改善は、地域経済を強化し、地域格差を収束させる原動力である。大都市の集積
+から借用したサイズは地方では高い効果を示した。交通ネットワークの開発は、地方の地域が大都市地域に追い
+つくことを可能にしている。結果から、高速交通ネットワークの開発が日本経済における地域間格差の縮小の一
+助となることが示唆される。
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+© 2019 The Author(s). Papers in Regional Science © 2019 RSAI
+

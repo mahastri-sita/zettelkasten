@@ -1,0 +1,791 @@
+[PDF Metadata]
+Source PDF: journal/A07-zhao-wang-hu-guo-wei-2022-examining-performance-of-urban-borrowed-size-based-on-the-towns-network-externalities-of-guangzhou-foshan-metropolitan-areas-10.11821-dlyj020211036.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           4---2021-1036 赵渺希
+Subject:         
+Keywords:        
+Author:          Founder magtech2011
+Creator:         方正飞翔2012 多用户版
+Producer:        Founder
+CreationDate:    Thu Aug 25 08:18:31 2022 WIB
+ModDate:         Thu Aug 25 08:18:31 2022 WIB
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           18
+Encrypted:       no
+Page size:       530.079 x 737.008 pts
+Page rot:        0
+File size:       17756782 bytes
+Optimized:       no
+PDF version:     1.4
+[Extracted Text]
+第 41 卷 第 9 期                地 理 研 究                            Vol.41, No.9
+2022 年 9 月             GEOGRAPHICAL RESEARCH                September, 2022
+
+
+
+
+   广佛都市圈网络外部性的城镇借用规模绩效检验
+               赵渺希 1，王彦开 1，胡雨珂 1，郭振松 2，危兆宾 3
+     （1. 华南理工大学建筑学院/亚热带建筑科学国家重点实验室，       广州 510641；2. 深圳市城市规划设计研究
+                     院，深圳 518055；3. 惠州学院，惠州 516007）
+
+
+    摘要：在城市网络外部性的环境下，借用规模可以使城镇突破地理距离和规模等级限制，通过
+    网络联系实现城镇经济的共同增长。基于理论辨析，以城市网络的借用规模效应为视角，检验
+    网络外部性下城镇借用规模绩效对城镇经济增长的作用。在回顾网络外部性理论的基础上，
+    以广佛都市圈城镇作为研究对象，首先利用偏离均值标准差倍数的方法解析区域绩效、集聚阴
+    影等特征；其次，基于城镇规模、借用规模、交通网络通达性、科技创新外溢性对城镇经济增长
+    的耦合作用，建立多元回归模型检验网络外部性的发生机制。研究发现：① 城镇既有人口规模
+    越小，区域绩效值越低，10 万人的人口规模是绩效特征的分界点，大于和小于 10 万人的城镇分
+    别呈现出借用规模绩效和集聚阴影特征；② 基于新增注册企业数量和企业网络点度的区域绩
+    效均呈现出较为明显的圈层式空间特征，且基于企业网络点度检验的空间分异特征更为突出；
+    都市圈主城区近郊圈层城镇的绩效较明显，而主城区远郊圈层城镇的集聚阴影现象显著；③ 新
+    增注册企业数的绩效与城镇既有规模关系最为紧密，与区域交通枢纽、借用规模、借用绩效、跨
+    镇合作专利等解释变量的弹性系数依次降低；区域交通网络、技术合作网络的提升有利于促进
+    城镇要素集聚，       并通过网络外部性效应影响都市圈的城镇化发展。
+    关键词：借用规模；          集聚阴影；网络外部性；城镇网络；
+                                      都市圈
+    DOI: 10.11821/dlyj020211036
+
+
+1 引言
+
+    中共中央十九届五中全会提出建设现代化都市圈的新型城镇化路径，城镇密集区域
+逐渐成为各地“十四五规划”的政策焦点。马歇尔产业集聚的经典理论视角下，城市
+群、都市圈成为区域经济发展格局中最具活力和潜力的核心地区[1,2]。在实践中，各类城
+镇面临着承接区域外溢绩效、遭受虹吸袭夺的差异化现象，人口增长与城市规模或呈现
+倒 U 型特征[3-5]。区域复杂系统的内在机制决定城镇发展的外在表征，有必要厘清都市圈
+内部的空间交互过程，为揭示城镇经济发展提供解释性理论工具。
+    长期以来，集聚经济是大都市区发展的理论基础，即聚集的正向外部性产生规模报
+酬递增效应，并在厚实市场、联系效应、知识溢出和纯外部经济性下形成中心城市的集
+聚增长[6]，新经济地理学虽然能解释区域中心-外围的厂商集聚现象，但演绎分析所隐含
+的路径依赖理论意味着外围小城镇陷入发展动力不足的锁定窘境，这一假说并不完全符
+合发达地区城镇化的事实：欧洲大都市区的发展过程中，部分中小城镇展现出了更强的
+
+
+
+收稿日期：2021-11-05；录用日期：2022-04-11
+基金项目：广东省科技计划软科学项目 （2019A101002076）；国家自然科学基金项目 （51711530711）
+作者简介：赵渺希 （1979-），男，湖南湘潭市人，博士，教授，博士生导师，主要研究方向为城市网络、城市意
+     象、城市与区域规划。E-mail: arzhao@scut.edu.cn
+通讯作者：郭振松 （1990-），男，江西赣州市人，硕士，城乡规划中级工程师，主要研究方向为城市规划设计。
+     E-mail: 459872786@qq.com
+                               2367-2384 页
+2368                地 理 研 究                    41 卷
+
+竞争力，大城市对 GDP 的贡献份额并没有增加，中小规模的城市反而呈现出良好的增长
+势头，规模报酬递增理论以及传统的集聚理论均难以解释这一现象[7]。
+     随着网络社会的崛起，基于区域腹地的“中心地”理论正被网络连接的“中心流”
+模式所替代[8,9]，城市发展开始从依靠一般意义上的资源禀赋转向链接外部世界的连通便
+利性，城市网络外部性及其借用规模理论为中小城镇的发展动力提供了新视角[10-13]。Mei-
+jers 等认为，兰斯塔德地区部分城镇得益于不同尺度交通网络的连通性优势，利用邻近大
+城市的网络外部性——借用规模效应而获得发展，即小城市呈现大都市的功能[14,15]；德国
+作为欧洲区域经济增长引擎，70%以上居民生活在 10 万人以下的城镇，发达的交通网络
+确保了民众生活品质，Volgmann 等以就业增长数据定义城市区域的借用绩效，用残差分
+析揭示了德国城市规模、网络中心性与借用规模绩效的关联[16]。
+     借用规模理论视角下，城镇可以通过网络联系突破地理空间的限制，在区域尺度范
+围内发挥作用。更为一般的，借用规模绩效是网络外部性、集聚外部性的综合体现，也
+即城镇发展与城镇自身集聚规模、多维度网络化交互作用均有因果关系，即使是乡村地
+区的经济发展也不会因为 Glaeser 所宣称的“大城市的胜利”而全无机会[17,18]。
+     中国的城镇化实践中，改革开放后广东顺德、南海、东莞、中山等地曾依托国道而
+兴起专业镇模式，展示了巨型城市的网络外部性与借用规模效应。随着科技创新、粤港
+澳大湾区一体化发展等战略的实施，大都市区的城镇发展也面临着新型基础设施建设的
+发展机遇和挑战，通过分析多尺度交通网络的通达性、科技创新合作的外溢性，有助于
+厘清大都市圈内城镇创新发展的动力机制。现有实证研究往往见林不见木，缺乏对区域
+内部空间交互的网络外部性分析，尤其在城镇层面的借用规模效应方面并未有实证考察。
+     为此，本文基于借用规模视角，针对典型都市圈分析其内部城镇协同的绩效呈现，揭
+示多要素耦合外部性影响城镇发展的动力机制。具体地，借鉴相关文献[19-24]，针对广佛都
+市圈的城镇发展特征，建立多元回归方程检验都市圈城镇经济增长的借用规模发生机制。
+
+
+2 理论模型建构
+
+2.1 城市网络外部性
+    城市网络外部性概念较早由 Capello 定义[25]，即城市可以通过地域功能网络所产生的
+协同和互补效应而获益，即联系紧密的城镇群具有较好的发展机会。在这一视角下，城
+市关系网络亦变得更灵活而有弹性[26]。更为普适性的理论视野中，Katz 等认为网络外部
+性是用户规模经济的源泉，网络价值与参与主体数量表现为二次方关联的正向促进作
+用，即梅特卡夫原则[27]。互联网环境下，公开的技术专利对行业创新的外溢效应十分明
+显，触类旁通的知识创新使得海量主体间形成近乎零成本的共享学习关系，众包生产知
+识模式进一步扩增了网络的外部性效应[28,29]。相较于 Meeteren 关于企业集聚外部性/网络
+外部性的理论阐释，这类网络化生产组织行为的外部性更为明显[11]，一定程度消解了 Be-
+audry 等关于知识创新的地理约束观点[30]。
+    基于上述理论，城市网络既有地理环境约束的功能联系，也有信息流形态的超边界
+拓扑联系，城市交通网络、创新合作网络分别代表了物理环境约束的基础设施网络和跨
+地理边界的信息联系过程。随着国家新型城镇化政策转向中心城市、都市圈，国内不少
+学者认为该类地域通过集聚下的多中心分散可实现功能互补的网络协同；既有文献中，
+网络外部性及借用规模效应仍旧处于学术讨论中[15,31]，如何解析正向/负向的借用绩效和
+9期         赵渺希 等：广佛都市圈网络外部性的城镇借用规模绩效检验           2369
+
+集聚阴影、并将其与都市圈政策实践相结合、诠释地方城镇发展，是有待深入的研究
+议题。
+2.1.1 交通网络的外部性 交通可达性是检验都市区网络外部性的重要变量 [13]。一般认
+为，城市规模通过影响人们交通出行需求进而影响交通投资；交通网络建设增加地区可
+达性而引发集聚效应，从而正向促进城市规模[31,32]。Camagni 等则认为，特大城市的集聚
+并不是经济增长的关键，外部联系和合作网络等因素更为重要[33]；另一方面，运输的时
+间消耗意味着交通网络并不是去空间化的拓扑网络，Krugman 认为交通导致了运输规模
+效应和范围效应，通过降低运输成本增加了中心城市集聚力，而非中心城市则面临着生
+产要素流失风险[34]。
+       实证研究方面，Partridge 等认为，随着小城市到大城市的距离增加，城市人口增长
+会减少，人口超过 50 万的城市是加拿大经济增长的引擎[35]。Ma 等将网络中心性作为城市
+网络外部性指标，证实了交通网络外部性对地级城市经济发展具有显著促进作用[36]；但
+在县级城市层面，任晓红发现高铁网络有可能在短期内加剧中心城市的虹吸效应、恶化
+中小城镇的产业竞争力[37]。Otsuka 利用“借用规模”概念研究日本高速交通网络，认为
+区域间高速交通网络的发展有助于缩小经济的地区差异[38]。
+       与集聚经济相比，城市网络外部性不依赖于城市的地理邻近性，而是依赖于拓扑网
+络联系形成的溢出效应[38]。网络外部性强调的是非物理邻接区域间的网络收益，而集聚
+外部性所强调的则是因地理邻近的收益，二者在生成机制上有明显差异，但网络外部性
+可对集聚外部性发挥补充作用[30]。交通联系作为城镇网络交互的一种形式，意味着运输
+费用不可避免，冰山损耗效应也是区域集聚中心形成的重要机制，尤其在都市圈尺度，
+网络外部性、集聚外部性很难完全区分[39]。
+       更为稳健的研究中，Meijers 等 [15]在诠释网络外部性的理论基础上，分析区域、地方
+等不同尺度的都市区交通可达性，不但避免了城市网络外部性、集聚经济外部性的过度
+分野，更有助于厘清城镇经济发展面临的区域外溢/虹吸袭夺特征，可规避拓扑网络脱离
+交通地理集聚的问题。相对而言，Camagni 等将距离矩阵融入借用规模的解释变量，但
+没有关注区域性枢纽交通的影响[33]，其模型难以解释典型性的城镇案例 （例如昆山花桥
+镇邻近上海虹桥机场、华为欧洲小镇邻近深圳宝安机场等）。
+2.1.2 创新网络的外部性 随着科技创新占比的不断上升，从知识创新到产品创新是城市
+新经济增长的重要方式。科技创新活动的研究从属于经济学领域中的知识外部性问题[30]，
+其中，科创活动引发的知识溢出内涵包括专业化、多样化的外部性机制。
+       首先，外部性源自于专业化地理集聚过程中企业间的相互技术促进，跨区域的科技
+合作网络体现了知识生产的协同过程，因此采用不同城市间的专利合作数据可以测度科
+技创新在跨越地理边界的外溢性[38]。地理邻近性并非直接作用于创新活动，且距离阻滞
+作用趋于下降，而组织机构之间的社会邻近性、制度邻近性涉及多个机构的创新知识共
+享 [39,40]，因此跨地域合作专利数据更多地体现了基于契约利益、而非地缘邻近的网络外
+部性。
+       其次，外部性与多样化产业活动密切相关。雅各布斯认为，给定地理区域内的产业
+多样性有助于提升知识的外部性，并能最终促进创新活动和经济增长 [41]。陆军等认为，
+网络嵌入与互联是城市网络外部性产生的基础，城市通过嵌入异质性的经济和空间网络
+以获取并整合多样化信息、知识等资源[12]。
+       不同于道路交通的物理环境属性，技术知识外溢更多地属于跨区域信息交互的一种
+联系，在地方经济发展中，技术是平行于土地、劳动力、资本的生产要素，这使得科创
+2370                 地 理 研 究                   41 卷
+
+活动的拓扑网络分析具有现实意义；此外，发明专利数据具有类似于产业结构的门类属
+性，但用来测度地理集聚的专业化外部性参数并不能直接推断知识生产的城市网络外部
+性，各种指标相对于总体均值的不稳定性极易导致研究结果的较大误差。典型的，Be-
+audry 等总结文献后[30]，认为区位熵受制于规模因素的易变性结果而不能完全反映专门化
+集聚的外部性。因此，研究都市圈尺度的技术合作网络外部性，应尽量使用科创活动的
+空间联系数据实行去量纲分析。
+2.2 借用规模的绩效检验
+   “借用规模”的概念最早由 Alonso 提出：当大都市区的一个小城镇接近其人口的中
+心时，该小城镇会表现出大城市的一些特征，即借用规模效应——小城镇通过地理接近
+获取相邻大城市的资源优势，从而促进本地享有大城市服务和功能的发展[42]。Meijers 等
+认为城市网络外部性主要表现为“借用规模”和“集聚阴影”两方面[15]，其中，借用规
+模意味着小城市可以通过空间邻近借用邻近大城市的规模效应获得发展机会；集聚阴影
+则是邻近大城市的小城镇发展低于其相应规模的增长预期。
+    鉴于经济发展是城镇发展的重要目标，Cardoso 等采用收入数据作为借用绩效的测度
+指标对不同等级城市的功能辐射进行了实证研究[7]，Malý通过比较借用规模和集聚阴影
+两个要素的特征，判断哪一种要素在小城镇发展中扮演更重要的角色 [43]。国内研究中，
+孙斌栋等对国外借用规模的相关理论和研究进展进行了梳理 [39,44]；姚常成等采用人均国
+内生产总值、工资等作为借用规模的绩效评价指标[45]。
+    就空间规划政策而言，更应关注区域经济绩效/集聚阴影的一般规律，即什么样的城
+镇有着优于区域均值的绩效，例如不同规模城镇的差异化循环累积效应，“灯下黑”的资
+源虹吸现象则说明城镇地理区位的重要性。既有研究中，Cardoso 等、Meijers 等和 Volg-
+mann 等的研究以欧洲的城市区域为尺度考察借用绩效 [7,15,16]；姚常成等的研究针对长三
+角、京津冀等城市群进行了回归分析[45]，但并未涉及城镇层面的借用绩效研究，因此不
+同规模、不同区位城镇相对于区域均值的绩效 （为避免不同统计量的概念混淆，本文称
+之为区域绩效） 有待进一步检验。
+2.3 假说模型： 网络外部性与城镇借用规模
+    城镇间的借用规模效应取决于网络外部性的作用形式，地理邻近性约束的交通联系
+限定了都市圈城镇组合的实体范畴，信息流形态的拓扑联系意味着网络外部性的边际成
+本趋零，两类网络联系的借用规模效应耦合城镇的既有规模，共同促进了都市圈内部的
+城镇发展。实践方面，小城镇战略曾是 1980 年代后全国城镇化的重点关注对象，由于欠
+发达区域人口的持续流出，2020 年以来都市圈成为新型城镇化的建设重点，其内部各类
+城镇的功能组合形塑了兼具疏解大城市拥堵、承接产业外溢的空间承载。然而，国内既
+有的网络外部性研究忽视了城镇化实践的中微观尺度，既没有深入考察城镇的既有规
+模、交通区位，更没有重视诸因素作用下的企业空间组织。由此提出研究问题：
+    （1） 增强网络连通性有助于降低都市圈的企业生产成本，技术知识关联拓扑网络耦
+合地理邻近集聚的交通可达性，赋予企业多样化的区位选择机会，新生企业涌现于都市
+圈不同地区，城镇既有规模、借用规模、交通网络以及技术合作网络耦合形成集聚外部
+性、网络外部性的协同累进，促进城镇企业的数量增长，并导致都市圈内部不同规模、
+不同区位城镇呈现差异化的区域绩效、集聚阴影特征 （见图 1）。
+    （2） 工业组织是马歇尔超脱于土地、资本、劳动力诸要素而阐释外部性理论的出发
+点，企业内部的流动则是人力、资本、技术等生产要素流动和重新分配的组织过程。特
+别的，总部与分支机构的异地设置涉及企业内部的功能分工，便捷的区域交通网络加速
+了劳动力和技术等要素的空间流动，降低了企业功能组织和地域间分工的联系成本，网
+9期                赵渺希 等：广佛都市圈网络外部性的城镇借用规模绩效检验                                 2371
+
+络外部性的借用规模作用提高了企业总
+部在异地设置分支机构的可能，形成城
+镇产业经济的区域增长绩效或者区域集
+聚阴影，都市圈范围内的外溢/虹吸过程
+衍化为城镇间的企业功能联系 （见图 2）。
+  因此，本研究以广佛都市圈的城镇
+为研究对象，基于网络外部性视角下都
+市圈经济发展的区域绩效/阴影特征，分
+析众多中小城镇既有规模、借用规模、
+借用绩效、交通网络通达性、科创外溢
+性对城镇发展的耦合作用，实现网络外
+部性与城镇借用规模的绩效检验。
+
+
+3 研究地区
+                                       图 1 网络外部性的“借用规模”效应促进企业增长
+    广州和佛山是珠三角地区典型的都      Fig. 1 The "borrowed-size" effect of network externalities
+市圈，两地在空间上紧密相邻 （见图 3），         promotes the growth of the number of enterprises
+在自然环境和社会文化方面也具有相似
+性，拥有发达的交通运输网络和信息联
+系网络，在城镇化过程中联系频密。随
+着广佛都市圈同城化战略的不断深入与
+升级，交通基础设施建设、区域生态环
+境整治、公共服务合作共享和产业分工
+协作等措施促使两城经济继续迅速发
+展。2019 年广佛都市圈的 GDP 总量达到
+35770 亿元，总人口 2417 万，并逐渐以
+一个共同体的形式参与全球产业竞争。
+广佛两地在空间上为都市连绵区，并作
+为区域强核推动地区发展，都市圈外围
+的黄埔、新塘、狮山、大沥、大良-容
+桂等城镇，依托自身的资源禀赋、地理
+区位等优势，通过产业协作和基础设施
+                             图 2 网络外部性的“借用规模”效应促进
+网络建设主动承接城市功能和规模效应
+                                            企业的功能联系
+的外溢，推动了自身经济发展和城镇间        Fig. 2 The "borrowed-size" effect of network externalities
+的互动，并逐渐形成网络化的区域发展               promotes the functional linkage of enterprises
+结构。
+    广佛都市圈的城镇发展历经 40 年，改革开放早期国道经济影响下的南海、番禺、顺
+德等外围专业镇的崛起即是地方经济的发展呈现；近年来，粤港澳大湾区空间格局出现
+新的动态，南沙自贸区快速崛起，顺德北滘镇孕育了美的、碧桂园等世界 500 强企业，
+并由此引发了新时期广佛都市圈发展动力的疑问，即网络外部性对于不同规模、不同区
+位城镇的影响效应如何？相较于借用规模、借用绩效，既有集聚规模、网络外部性等如
+何耦合以影响城镇的经济发展？为此，本研究结合多尺度交通网络、创新合作网络，揭
+2372                          地 理 研 究                                 41 卷
+
+
+
+
+                    图3     广佛都市圈的城镇空间单元
+            Fig. 3 Town units in Guangzhou-Foshan metropolitan area
+
+
+示城镇既有规模的累积循环效应、周边城镇的借用规模效应，判断城镇经济发展的多因
+素耦合机制。
+
+
+4 研究模型与数据来源
+
+4.1 模型设定与变量选取
+    首先考察网络外部性视角下的都市圈城镇区域绩效问题。在德国城市区域分析中，
+Volgmann 以拟合值的残差分析方法解析借用绩效、集聚阴影等特征[16]，结合借用规模理
+论和应用实践，残差为正的城市确实拥有借贷规模，它所呈现的大都市功能比通常预期
+的该规模的城市要多，反之亦然[15]，因此，基于本地经济相对于区域均值的标准差倍数
+的一般逻辑，该测度理念为广佛都市圈的城镇借用规模绩效分析提供了借鉴。选取
+2017—2019 年各城镇的新增企业数、新增企业网络点度指标，分别以其相对于既有人口
+规模的比值 Ei 为分析对象，观察各个城镇计算数值偏离均值的标准化残差，以此表征借
+用规模的区域绩效 （PER）  i ：
+
+                           æ     Eö
+                    PERi = ç Ei - i ÷ /σ    （1）
+                           è     nø
+                                                  2
+
+                           σ = 1∑ç Ei - i ÷
+                                   æ   Eö
+                                                                      （2）
+                               n i è   nø
+9期                赵渺希 等：广佛都市圈网络外部性的城镇借用规模绩效检验                                 2373
+
+式中：σ表示标准差；n 为样本量。基于上述数值，按照人口规模分组比较判别都市圈内
+部不同规模城镇的区域绩效，通过 GIS 分析不同区位的城镇区域绩效。相较于 Volgmann
+基于数据可得性采用就业增长份额、姚常成等将人均 GDP 等作为绩效指标的方法 [16,45]，
+本文以城镇的新增注册企业数、企业网络联系点度为初始测度指标，考察广佛都市区新
+增企业数量的区域绩效，其中企业数量属于外部性研究的常规指标[29]，企业网络点度作
+为绩效指标则体现了 Taylor 等学者“企业是城市间作用主体”的观点[46]。
+    其次，考察多因素耦合网络外部性的作用机制。通过对比地理加权回归和多元回归
+两种模型的 AICC 值，判定模型性能优劣 （具有较低 AICC 值的模型为佳），结果显示两
+种模型的 AICC 值有较大的差异 （地理加权回归 AICC=105.22，多元回归 AICC=98.36），
+多元回归模型将更好地拟合观测数据，因此在既有成果基础上选取城镇既有规模 （ln-
+Pop）、借用规模 （lnBor_Sizeij）、借用绩效 （lnBor_Perij）、本地城区交通网络通达性 （ln-
+Trans）、区域枢纽网络通达性 （lnHub）、多门类通用技术专利数 （lnMul_pat）、跨镇合作
+专利数 （lnCross_pat） 作为解释变量，β0 为常数，β1~β7 分别代表城镇既有规模、借用规
+模、借用绩效、本地城区交通网络通达性、区域枢纽网络通达性、多门类通用技术专利
+数、跨镇合作专利数的回归系数。取自然对数做标准化处理后采用多元回归，从诸因素
+中提取解释作用明显的变量组合：
+              ln PERi = β 0 + β1 ln Pop + β 2 ln Bor_Sizeij + β3 ln Bor_Perij +
+                                                                                （3）
+              β 4 ln Trans + β5 ln Hub + β6 ln Mul_pat + β7 ln Cross_pat
+    上述解释变量中，本地城区交通网络通达性、区域枢纽网络通达性指标能测度基于
+地理邻近性的节点城镇可达性，多门类通用技术专利数、跨镇合作专利数则表征了突破
+物理环境、跨越地理边界的技术知识联系；遵循 Camagni 借用规模 （Bor_Sizeij） 的定
+义，计算其余城镇人口总数与该城镇到其余地区距离比值的总和：
+                                    Bor_Sizeij =∑Pop j /di                      （4）
+                                          j≠i
+
+  类似的，针对借用绩效 （Bor_Per）
+                     i ，计算其余城镇注册企业/企业网络点度与该城镇
+
+到其余地区距离比值的总和：
+                  Bor_Perij =∑Per j /di    （5）
+                                          j≠i
+
+4.2 数据来源
+     研究的对象为广佛都市圈的 73 个空间单元，其中 66 个空间单元属于非主城区的外围
+城镇。考虑到数据的可得性，企业数据选择 2017—2019 年的新增工商企业注册数据库
+（https://www.qcc.com/），并因此而生成企业总部-分支网络 （见图 4） 作为另一个被解释
+变量，既有城镇人口规模选取了全国第六次人口普查的常住人口数据。
+     交通网络的外部性方面，借鉴 Meijers 等交通网络的多尺度思路[15]，在本地城区交通
+网络、区域枢纽交通网络两个层面分析通达性。首先，都市圈的本地交通网络通达性参
+考李涛等对于珠三角交通网络格局演变的研究方法[22]，采用加权平均旅行时间分析广佛
+都市圈的整体网络格局，并以各城镇人口数量为权重，计算加权平均旅行时间作为本地
+城区可达性指标 （反映城镇到达其余城镇的加权可达性，也即本地交通网络通达性计算
+应用的是本城镇以外的人口、但不涉及自身的城镇人口）。其次，区域枢纽网络通达性的
+计算则通过分析各个城市去往区域首位城市以及机场、大型客运站、港口等基础设施的交
+通出行时距，并以各类设施的容纳能力作为权重要素，分析城市在各类网络中的通达性，
+本研究的区域枢纽网络通达性以各城镇去往白云机场、广州南站的出行时距为考察依据。
+     科技创新合作的外部性方面，各类专利数据采用万方的新增发明专利数量 （https://
+www.wanfangdata.com.cn），其中多门类专利数据主要依据发明专利登记的门类进行区
+2374                                  地 理 研 究                                          41 卷
+
+
+
+
+                         图 4 广佛都市圈的企业总部-分支网络
+           Fig. 4 Headquarter-branches network in Guangzhou-Foshan metropolitan area
+
+
+分；跨城镇的合作专利数根据多机构是否跨越镇级空间单元为判定依据。选取专利的适
+用门类数据，以其是否含有 3 种或者 3 种以上应用门类为通用技术的判定标准，以此表征
+各个城镇内部不同产业间创新的外部性，不但回应了马歇尔的溢出效应，也能相对精确
+地检验库姆斯关于行业在技术上紧密关联的预设，即一个行业的技术发明可应用于其他
+行业。从本研究的专利数据来看，广佛都市圈各类专利技术具有非常突出的通用性，以
+医学、计算、电信、有机化学为技术重点，广佛都市圈不同产业门类间逐渐构成强相关
+的网络联系 （见图 5）。
+  将各类数据在 ArcGIS 中进行空间落位，最终得到广佛都市圈各城镇/街道的新增注册
+企业数、企业网络点度、既有人口规模、交通网络通达性、专利合作网络等变量 （表 1，
+见第 2376 页）。参照 Camagni、Merjers 等、姚常成等的做法 [15,33,45]，尝试在逐步回归方程
+纳入人口密度变量，后因多重共线性问题 （VIF 数值 > 5） 而剔除。另外，除了将城镇的
+新增企业数、新增企业网络点度作为因变量，还选取制造业、商贸流通业、租赁和商贸
+服务业、科研和专业服务业作为典型产业的被解释变量进行多元回归分析。
+
+5 结果分析
+
+5.1 区域相对绩效特征
+    首先从整体上考察城镇经济发展 （新增注册企业数、新增企业网络点度） 相对于既
+有人口规模的标准化残值即区域相对绩效。在广佛都市圈的 66 个城镇单元中，城镇既有
+规模越小、区域绩效值越低，说明既有人口低于 10 万的城镇具有明显的区域集聚阴影特
+征，按人口规模分组可见，企业网络点度在各人口分组的规模递增趋势表现更为突出
+9期               赵渺希 等：广佛都市圈网络外部性的城镇借用规模绩效检验                                                         2375
+
+
+
+
+                         图5     广佛都市圈发明专利的多门类技术关联
+     Fig. 5 Technological network across diversified sectors in Guangzhou-Foshan metropolitan area
+
+
+
+（见表 2）。需要指出的是，人口规模为 20 万~50 万的城镇，绩效值之所以出现了低谷，一
+方面是因为像乐从镇 （家具） 和南庄镇 （建材） 等从事不同专业化生产的专业镇，由于
+单一的产业结构导致经济内生增长动力不足，面临转型困境；另一方面，根据企业生命
+周期理论，企业生长存在一定的存活规律。近年来，由于产业结构调整及转型需要，这
+些专业镇出现了企业外迁现象，传统产业优势渐失，部分企业日趋萎缩甚至倒闭，产业
+空心化问题严峻，加之新型企业接续乏力，使得类似城镇的企业功能联系水平降低，这
+也反映于当地政府出台“产业区块线”政策来保护企业发展的管控策略。
+2376                                地 理 研 究                                       41 卷
+
+                                  表1     变量指标释义
+                               Tab. 1 Definition of indicators
+ 类型                 指标名称                    指标释义及量化方法             观察值    均值       标准差
+被解释 ln PERi -城镇新增注册企业数  城镇新增注册的工商企业数量                               66    8.908   1.309
+变量  ln PERi -新增跨镇企业网络点度 城镇新增注册且总部、分支属不同城镇的企业数                       66    5.852   1.412
+自变量 ln Pop                     城镇既有的常住人口                            66   11.643   0.962
+       ln Bor_Sizeij           其余城镇人口总数与该城镇到距离比值的总和                 66   12.576   0.308
+       ln Bor_Perij -注册企业数     其余城镇新增企业数与该城镇距离比值的总和                 66   10.185   0.340
+       ln Bor_Perij -企业网络点度    其余城镇企业网络点度与该城镇距离比值的总和                66    7.310   0.354
+       ln Trans                各城镇人口数量为权重计算到该城镇的旅行时间                66   -0.159   0.742
+       ln Hub                  城镇去往白云机场、高铁南站出行时距                    66    0.778   0.200
+       ln Mul_pat              合作申请人属于不同城镇地域的发明专利数量                 66    3.293   2.231
+       ln Cross_pat            标记 3 种及以上应用门类的发明专利数量                 66    5.449   1.942
+
+
+
+5.1.1 新增注册企业数分析 都市圈            表 2 不同规模城镇的区域绩效分析
+外围城镇的新增企业数量是多中心发      Tab. 2 Performance analysis of borrowed size of different towns
+
+育的形态属性基础。利用新注册企业      人口规模         城镇数量           新增企业数量              企业网络点度
+                        （万）          （个）              的绩效                  的绩效
+名录数据分析可知，2017—2019 年广
+                         ＜5           15              -0.429               -0.676
+佛都市圈新增企业数具有较为明显的
+                        5~10          15              -0.327               -0.302
+集聚特征。南沙在成立自贸区之前仅
+                       10~20          19                0.471               0.236
+有 11 万常住人口，明显低于广佛都
+                       20~50          13                0.060               0.301
+市圈城镇人口的平均规模，近年来新
+                        ＞50            4                0.398               1.572
+增企业数相对既有人口规模非常显
+著；另外，佛山新城所在的乐从镇是
+标准化残差较大的城镇，连同广州开发区所在的黄埔街道，说明广佛都市圈的城镇经济
+增长绩效与国家政策导向也有关联；主城区附近的南村镇、狮岭镇、太和镇等有着突出
+的区域绩效，而偏远区域的更合镇、良口镇具有明显的集聚阴影，区域绩效/阴影的空间
+分布总体呈圈层模式，邻近性递推现象说明广佛地区的城镇发展在一定程度上集聚外部
+性甚于网络外部性 （见图 6）。
+5.1.2 新增跨镇企业网络点度 基于企业网络点度的绩效分布呈现出更为明显的圈层特
+征，即广佛主城区近郊圈城镇的借用规模绩效特征突出，其人口分布也相对聚集。例
+如，广州主城近郊的黄埔街道、花都街道、太和镇、人和镇、番禺街道和南村镇等地
+区，以及佛山主城区近郊的南村镇、太和镇、乐从镇、陈村镇、沙湾镇和顺德街道等主
+城区近郊圈层的部分地区。而广佛都市圈主城区远郊圈层城镇呈现出明显的集聚阴影特
+征。例如，广州主城区远郊圈层的鳌头镇、良口镇、吕田镇、派潭镇、正果镇等地区，
+以及佛山主城远郊圈的更合镇、白坭镇和明城镇等人口规模相对较少的地区集聚阴影特
+征显著 （见图 7）。
+5.2 借用绩效的回归分析
+5.2.1 新增注册企业数的回归检验 将新增注册企业数作为被解释变量，稍借 Meijers 等
+的研究思路[15]，将既有城镇人口规模、借用规模、本地交通网络通达性、区域枢纽网络
+通达性、跨镇合作专利数、多门类专利数等作为解释变量，代入模型进行多元回归分
+析。共线性诊断的逐步回归方程显示，包含 lnPop、lnMul_pat 等解释变量的模型调整决定
+系数达 0.879，说明消除量纲影响后的回归拟合具有较强的解释力 （表 3，见第 2378 页）。
+9期   赵渺希 等：广佛都市圈网络外部性的城镇借用规模绩效检验                                               2377
+
+
+
+
+                图 6 新增注册企业数量的区域绩效分布
+         Fig. 6 Performance distribution of newly-registered enterprises
+
+
+
+
+                     图7      企业网络点度的绩效分布
+     Fig. 7 Performance distribution of degree of node of enterprise network
+2378                                                  地 理 研 究                                                       41 卷
+
+                                        表3     新增注册企业数的多元回归分析
+                       Tab. 3 Multiple regression analysis of the number of newly-registered enterprises
+             解释变量                           模型 1             模型 2              模型 3            模型 4        模型 5
+       ln Pop                               1.113**          1.089**           1.102**         1.167**
+       ln Bor_Sizeij                                         0.429*
+       ln Bor_Perij -注册企业数                                                     0.372*
+       ln Trans                                                                                0.227*      0.246**
+       ln Hub                               0.649*
+       ln Mul_pat                           0.083*           0.035*            0.127*                      0.186**
+       ln Cross_pat                                                                                        0.246*
+       β0                                  -4.831           -9.412           -9.412          -4.649        7.020
+       R2
+                                            0.886            0.885             0.884           0.876       0.641
+       Adjust R   2
+                                            0.881            0.879             0.879           0.872       0.624
+   注：**表示 p＜0.01，*表示 p＜0.05。
+
+
+企业注册数量不但与城镇既有人口规模密切关联，也与区域交通枢纽、借用规模、借用
+绩效、本地城区交通、跨镇合作专利数相关，且弹性系数依次降低。
+     城镇新增企业数表征产业的发展趋势，既有城镇规模是经济增长的重要依托。广佛
+都市圈是国内制造业起步较早的地区，随着企业数量的不断增加，不断吸引外来人口来
+此处就业，从而在企业集聚的地方往往也容易形成较高的就业中心。因此，广佛都市圈
+各个城镇的新增注册企业数与既有人口规模存在高度的相关性。
+     借用规模作为具有一定显著性的解释变量，说明新增企业倾向于选择邻近人口密集
+且通达性较好的城镇。广佛都市圈作为“世界工厂”的核心区域，在改革开放以来，城
+镇经济发展水平和都市圈内部联系不断增强，广州人和镇、南村镇和佛山乐从镇、陈村
+镇等部分城镇凭借其邻近主城区的本地交通网络优势，能显著提升注册企业的市场腹
+地。此外，跨镇合作专利数这一解释变量则表明，跨越地理边界的技术合作通过知识共
+享、匹配、学习促进了广佛都市圈的企业数量增长。
+     进一步选取制造业、商贸流通业、租赁与商务服务业、科技与软件服务业等 4 类典
+型产业的新增注册企业数，开展逐步回归分析，经过多重共线性诊断筛选解释变量，得
+到典型产业城镇企业增长数量的影响因素。这其中，制造业的影响因素为城镇既有规
+模、本地交通可达性、多门类通用专利数，但借用规模相对于其余解释变量没有进入回
+归方程，反映了制造业在广佛都市圈的新增企业选址与城镇间的相互作用不大，但与主
+城区的交通便利有一定关联；但在其余的商贸流通业、租赁与商务服务业、科技与软件
+服务业新增企业方面，借用规模、跨镇专利数均为显著变量 （见表 4）。
+     总体而言，广佛都市圈内部的城镇企业增长，均与城镇的既有人口规模有关，城镇
+间的借用规模效应也相对普遍，同时各城镇之间的技术知识外溢也是重要的影响因素。
+5.2.2 跨镇企业网络点度的回归检验 类似的，跨镇企业网络点度的增长也与城镇既有规
+模、借用规模、跨镇合作专利数显著相关，且出现了更为显著的解释变量——区域枢纽
+网络通达性，包含 4 个解释变量的模型调整决定系数为 0.909。广佛都市圈新增企业网络
+点度不但与城镇既有规模关联，也与区域枢纽可达性、借用规模、借用绩效、跨镇合作
+专利数相关，且弹性系数依次降低 （见表 5）。
+     企业的总部分支机构网络联系紧密，良好的交通基础设施有利于城镇技术知识经济
+9期                          赵渺希 等：广佛都市圈网络外部性的城镇借用规模绩效检验                                                                     2379
+
+                                表4     典型产业部类新增注册企业数的多元回归分析
+              Tab. 4 Multiple regression analysis of the number of newly-registered enterprises in typical sectors
+              解释变量                         制造业             商贸流通业             租赁与商务服务业                   科技与软件服务业
+     ln Pop                                 1.002**           1.010**              1.070**                    1.034**
+     ln Bor_Sizeij                          1.106**
+     ln Bor_Perij -注册企业数                                      0.723*                                          0.091*
+     ln Trans
+     ln Hub                                                                        1.212*
+     ln Mul_pat                                               0.188**              0.189**                    0.164*
+     ln Cross_pat                           0.186*
+     β0                                  -22.023           -14.166                -8.969                    -7.923
+     R2
+                                            0.796             0.776                0.747                      0.721
+     Adjust R   2
+                                            0.786             0.765                0.735                      0.707
+     注：**表示 p＜0.01，*表示 p＜0.05。
+
+
+                                       表5     跨镇企业网络点度的多元回归分析
+                         Tab. 5 Multiple regression analysis of degree of node of enterprise network
+                解释变量                        模型 1              模型 2             模型 3             模型 4                 模型 5
+     ln Pop                                  1.151**          1.144**          1.274**          1.282**
+     ln Bor_Sizeij                                            0.440*           0.516*
+     ln Bor_Perij -企业网络点度                    0.382*                                             0.449*
+     ln Trans                                                                                                    0.596**
+     ln Hub                                  0.796**          0.822**          0.821**          0.789*
+     ln Mul_pat                              0.089**          0.089**
+     ln Cross_pat                                                                                                0.421**
+     β0                                   -11.258           -13.940           -9.412          -12.969            3.654
+     R2
+                                             0.915            0.915            0.904            0.904            0.641
+     Adjust R2                               0.909            0.909            0.900            0.900            0.624
+     注：**表示 p＜0.01，*表示 p＜0.05。
+
+
+的增长。在广佛都市圈，白云机场、广州南站等交通枢纽为吸引企业设立总、分支机构
+提供了良好的环境，结合枢纽附近的会议设施可以实现默会知识的传播、扩散。就一般
+意义而言，城镇企业网络点度属于社会联系的结果，区域枢纽网络通达性反映了都市圈
+对外的交通服务容纳能力，比较前述新增企业数据的影响变量可知，不同形态的城市网
+络、交通可达性耦合技术知识的流动，促使企业在不同城镇设立分支机构，进而扩增都
+市圈的整体绩效。
+  选取上述四类产业的新增企业网络点度进行逐步回归分析，基于多重共线性筛选变
+量后形成解释因素的组合。由于企业总部分支机构数量远少于全部的城镇企业数量，回
+归分析结果显示一定的波动性，但大部分典型产业可纳入城镇既有规模、区域枢纽网络
+通达性、跨镇合作专利数作为解释变量。其中，在 4 类产业中城镇既有规模的影响相对
+稳定，制造业的跨镇企业网络点度中借用规模的弹性系数最高；商贸流通业、科技与软
+件服务业分别增加了借用绩效、多门类通用专利数作为解释变量 （见表 6）。
+  总体而言，全部新增企业网络点度与典型产业企业网络点度的可解释变量均与城镇
+2380                                              地 理 研 究                                                           41 卷
+
+                          表6      典型产业部类跨镇企业网络点度的多元回归分析
+                   Tab. 6 Multiple regression analysis of enterprise network points in typical sectors
+            解释变量                       制造业             商贸流通业             租赁与商务服务业                   科技与软件服务业
+   ln Pop                               0.586**            1.048**              1.099**                   0.796**
+   ln Bor_Sizeij                        1.333**
+   ln Bor_Perij -注册企业数                                     0.555*
+   ln Trans
+   ln Hub                               0.920*             0.949*               0.628*
+   ln Mul_pat                           0.100*             0.074*               0.147**
+   ln Cross_pat                                                                                           0.199*
+   β0                                -21.867            -12.608               -9.412                     -7.923
+   R2                                   0.800              0.881                0.862                     0.740
+   Adjust R   2
+                                        0.787              0.873                0.855                     0.731
+   注：**表示 p＜0.01，*表示 p＜0.05。
+
+
+既有规模、借用规模相关，跨镇合作专利、枢纽网络通达性间或出现为解释变量，反映
+了广佛地区当下城镇企业联系的主要因素。
+
+
+6 结论与讨论
+
+  本文在理论回顾基础上，聚焦于都市圈内部中微观层面的城镇产业增长过程。研究
+发现，网络外部性耦合多因素形成城镇发展的区域绩效或者集聚阴影，区域企业的外溢/
+虹吸过程衍化为城镇间的企业功能联系。实证分析结果显示，城镇人口规模只有达到一
+定临界度才能产生规模效应，区域基础设施网络通达性的提升则有利于促进企业集聚规
+模效应的增强和扩散[18]。与此同时，城镇既有人口规模越小、其区域绩效值越低，既有
+人口规模大于和小于 10 万的城镇分别呈现出区域绩效、集聚阴影特征；另一方面，新增
+注册企业数量和企业网络点度的区域绩效呈现明显的圈层式空间特征，即主城区近郊圈
+层城镇的区域绩效较明显，而远郊圈层城镇的集聚阴影现象显著。
+  根据多元回归检验分析的结果，新增企业网络点度与城镇既有规模、借用规模、枢
+纽交通网络通达性、跨镇合作专利数均存在较高的相关性。区域交通网络的通达性是影
+响区域内部城市间信息、资源等共享的重要因素[20]。广佛都市圈的城镇化起步领先于全
+国大部分地区，产业发展一直保持在高速增长的水平，早期以制造业为基础带动的人口
+规模集聚基础成为推动城市发展的重要动力，并形成了一定的累积循环效应，通过不断
+地提供大量的就业机会吸引外来人口进入，促发了都市圈范围内城镇的借用规模效应。
+特别的，无论是城镇的新增企业数还是新增企业网络点度，区域交通网络始终是重要的
+影响因素。在经济全球化的时代，对外联通的能力和地区间的技术合作能有效促进要素
+集聚，并通过借用规模效应影响区域的经济发展水平。
+  值得讨论的是，一方面，企业网络点度总体上呈现城镇既有规模越小、区域绩效值
+越低的基本特征，但广佛地区部分从事专业生产的城镇由于产业结构调整及转型需要，
+企业外迁现象和凋亡问题严峻，同时既有规模相对较大而导致新增建设用地较少、缺少
+新的制造业入驻空间、却又未能达到服务业增长所需的城镇能级，致使企业网络控制能
+力以及功能合作的可能性降低，因此，人口 20 万~50 万规模等级的城镇内生动力不足，
+9期                           赵渺希 等：广佛都市圈网络外部性的城镇借用规模绩效检验                                                                  2381
+
+区域绩效值反而出现低谷；另一方面，虽然专利类技术知识对于广佛地区的城镇经济增
+长有明显促进作用，但是跨镇合作专利数量在回归分析结果的出现频次明显高于多门类
+通用技术，即区域间科技创新的网络外部性强于区域内部的多样化技术创新，说明在广
+佛都市圈的城镇网络中，马歇尔集聚外部性、雅各布斯多样化外部性等理论均不能独
+立、完整地解释专业镇的经济增长。相对的，融合 Capello、Camagni 网络外部性的综合
+性理论更贴合都市圈的城镇经济增长，如果对照理论模型非严格地判定解释变量的归
+因，广佛地区的分析结果大致反映了集聚外部性 > 网络外部性 > 多样化外部性的区域特
+征，并体现了城镇发展的基本路径：早期专业镇的专门化集聚促进了地区发展，依靠国
+道、省道的“马路经济”加速城镇联系的网络通达性进而吸引资本和技术；另一方面，
+由于广州、佛山主城区经济体量的集聚效应更为明显，交通条件的改善为城镇发展带来
+新的契机，尤其是 2008 年全球金融危机后少数较大城镇依靠产业多元化而得以转型。总
+体而言，经历 40 年发展，珠三角传统专业镇的民营企业已从 1980 年代借脑中心城市“星
+期六工程师”走向新时代的科创合作，如世界 500 强企业美的集团所属的顺德北滘镇，
+2016 年开始兴建 7 号线以直接连接广州高铁南站，显然，在枢纽网络交通的加持下，邻
+近大都市/中心城市的技术知识外溢优势，促进了城镇上下游新企业的持续诞生和企业功
+能联系的频密化。
+    当前发展语境中，地理研究亟需针对经济增长的模式和速度方面开展前瞻性分析[47]。
+本文从普适性规律角度审视珠三角的网络化地方实践，可以预见，松山湖欧洲小镇、顺
+德北滘镇等科创区域在多重外部性共同作用下，将通过网络借用规模优势而成为都市圈
+多中心体系的重要功能组团。
+
+  致谢：真诚感谢匿名评审专家在论文评审中所付出的时间和精力，评审专家对本研
+究中区域绩效的指标测度与分析、借用规模绩效讨论等方面的修改意见，使本文获益
+匪浅。
+
+参考文献（References）
+[ 1 ] 方创琳, 王振波, 马海涛. 中国城市群形成发育规律的理论认知与地理学贡献. 地理学报, 2018, 73(4): 651-665.
+     [Fang Chuanglin, Wang Zhenbo, Ma Haitao. The theoretical cognition of the development law of China's urban agglom-
+     eration and academic contribution. Acta Geographica Sinica, 2018, 73(4): 651-665.]. DOI: 10.11821/dlxb201804005.
+[ 2 ] Alfred Marshall. Principles of Economics. London: Macmillan, 1890: 26.
+[ 3 ] 陆大道. 中速增长: 中国经济的可持续发展. 地理科学, 2015, 35(10): 1207-1219. [Lu Dadao. Moderate-speed growth:
+     Sustainable development of China's economy. Scientia Geographica Sinica, 2015, 35(10): 1207-1219.]. DOI: 10.13249/j.
+     cnki.sgs.2015.10.001.
+[ 4 ] 李松林, 刘修岩. 中国城市体系规模分布扁平化: 多维区域验证与经济解释. 世界经济, 2017, 40(11): 144-169. [Li
+     Songlin, Liu Xiuyan. The flat distribution of city size in China: A multidimensional regional validation and its economic
+     interpretations. The Journal of World Economy, 2017, 40(11): 144-169.]. DOI: CNKI:SUN:SJJJ.0.2017-11-008.
+[ 5 ] 魏守华, 杨阳, 陈珑隆. 城市等级、人口增长差异与城镇体系演变. 中国工业经济, 2020, 38(7): 5-23. [Wei Shouhua,
+     Yang Yang, Chen Longlong. City administrative hierarchy, differential growth of city size and evolution of urban system
+     in China. China Industrial Economics, 2020, 38(7): 5-23.]. DOI: 10.19581/j.cnki.ciejournal.2020.07.012.
+[ 6 ] Fujita M, Krugman P R, Venables A J. The spatial economy : Cities, regions, and international trade. Cambridge: MIT
+     Press, 2001: 36.
+[ 7 ] Cardoso R V, Meijers E J. Contrasts between first-tier and second-tier cities in Europe: A functional perspective. Europe-
+     an Planning Studies, 2016, 24(5): 996-1015. DOI: 10.1080/09654313.2015.1120708.
+[ 8 ] Castells M. The Rise of the Network Society. Oxford: Blackwell Publishers, 1996: 376-482.
+[ 9 ] Taylor P J, Ni P, Derudder B, et al. The way we were: command-and-control centres in the global space-economy on the
+     eve of the 2008 geo-economic transition. Environment and Planning A, 2009, 41(1): 7-12. DOI: 10.1068/a41318.
+2382                                                 地 理 研 究                                                            41 卷
+
+[10] Glaeser E L, Ponzetto G, Zou Y. Urban Networks: Spreading the Flow of Goods, People, and Ideas. In: Barcelona GSE.
+    Barcelona GSE Working Paper Series. Barcelona: Barcelona GSE, 2015: 1-61.
+[11] Meeteren M, Neal Z, Derudder B. Disentangling agglomeration and network externalities: A conceptual typology. Papers
+    in Regional Science, 2016, 95(1): 61-80. DOI: 10.1111/pirs.12214.
+[12] 陆军, 毛文峰. 城市网络外部性的崛起: 区域经济高质量一体化发展的新机制. 经济学家, 2020, 264(12): 64-72. [Lu
+    Jun, Mao Wenfeng. The rise of urban externalities: A new mechanism for the high-quality integrated development of re-
+    gional economy. Economist, 2020, 264(12): 64-72.]. DOI: 10.16158/j.cnki.51-1312/f.2020.12.007.
+[13] 王士君, 廉超, 赵梓渝. 从中心地到城市网络: 中国城镇体系研究的理论转变. 地理研究, 2019, 38(1): 66-76. [Wang
+    Shijun, Lian Chao, Zhao Ziyu. From central place to city network: A theoretical change in China's urban system study.
+    Geographical Research, 2019, 38(1): 66-76.]. DOI: 10.11821/dlyj020180468.
+[14] Meijers E, Hoogerbrugge M, Louw E, et al. City profile: The Hague. Cities, 2014, 41: 92-100. DOI: 10.1016/j.cities.2014.
+    05.012.
+[15] Meijers E, Burger M. Stretching the concept of 'borrowed size'. Urban Studies, 2015. DOI: 10.1177/0042098015597642.
+[16] Volgmann K, Rusche K, JV Weesep. The geography of borrowing size: Exploring spatial distributions for German urban
+    regions. Tijdschrift voor Economisch een Sociale Geografie, 2020, 111(1): 60-79. DOI: 10.1111/tesg.12362.
+[17] Glaeser E L. Triumph of the city: How our greatest invention makes us richer, smarter, greener, healthier, and happier
+    (an excerpt). Journal of Economic Sociology, 2013, 14(4): 75-94. DOI: 10.1111/j.1540-6040.2012.01410.x.
+[18] Meijers E, Dick V. Struggles and strategies of rural regions in the age of the 'urban triumph'. Journal of Rural Studies,
+    2019, 66(2): 21-29. DOI: 10.1016/j.jrurstud.2019.01.027.
+[19] 马赤宇, 张立民, 邵爱云. 对城乡统筹发展规划中公共服务设施体系的思考. 小城镇建设, 2004, 22(8): 52-53. [Ma
+    Chiyu, Zhang Limin, Shao Aiyun. Thoughts on the public service facilities system in the urban-rural integrated planning.
+    Development of Small Cities & Towns, 2004, 22(8): 52-53.]. DOI: 10.3969/j.issn.1002-8439.2004.08.019.
+[20] 张学良.中国交通基础设施促进了区域经济增长吗: 兼论交通基础设施的空间溢出效应. 中国社会科学, 2012, 33
+    (3): 60-77+206. [Zhang Xueliang. Has transport infrastructure promoted regional economic growth: With an analysis of
+    the spatial spillover effects of transport infrastructure. Social Sciences in China, 2012, 33(3): 60-77+206.].DOI: CNKI:
+    SUN:ZSHK.0.2012-03-007.
+[21] 于文学. 集聚规模效益在城市和区域发展中的作用. 经济地理, 1989, 9(4): 256-260. [Yu Wenxue. The role of agglom-
+    eration economies of scale in the development of cities and regions. Economic Geography, 1989, 9(4): 256-260.]. DOI:
+    10.15957/j.cnki.jjdl.1989.04.004.
+[22] 李涛, 曹小曙, 黄晓燕. 珠江三角洲交通通达性空间格局与人口变化关系. 地理研究, 2012, 31(9): 1661-1672. [Li
+    Tao, Cao Xiaoshu, Huang Xiaoyan. The relationship between spatial structure of accessibility and population Change in
+    Pearl River Delta. Geographical Research, 2012, 31(9): 1661-1672.]. DOI: 10.11821/yj2012090012.
+[23] 肖挺. 中国城市交通基础设施建设对本地就业的影响. 中国人口科学, 2016, 30(4): 96-104+128. [Xiao Ting. An anal-
+    ysis of the impact of Chinese urban transportation infrastructure on the local employment. Chinese Journal of Population
+    Science, 2016, 30(4): 96-104+128.]. DOI: CNKI:SUN:ZKRK.0.2016-04-010.
+[24] 孙斌栋, 丁嵩. 大城市有利于小城市的经济增长吗?来自长三角城市群的证据. 地理研究, 2016, 35(9): 1615-1625.
+    [Sun Bindong, Ding Song. Do large cities contribute to economic growth of small cities? Evidence from Yangtze River
+    Delta in China. Geographical Research, 2016, 35(9): 1615-1625.]. DOI: 10.11821/dlyj201609002.
+[25] Capello, Roberta. The city network paradigm: Measuring urban network externalities. Urban Studies, 2000, 37(11):
+    1925-1945. DOI: 10.1080/713707232.
+[26] 林柄全, 谷人旭, 王俊松, 等. 从集聚外部性走向跨越地理边界的网络外部性: 集聚经济理论的回顾与展望.城市发
+    展研究, 2018, 25(12): 82-89. [Lin Bingquan, Gu Renxu, Wang Junsong, et al. From agglomeration externalities to net-
+    work externalities of crossing borders: Frontier progress of agglomeration economics. Urban Development Studies,
+    2018, 25(12): 82-89.]. DOI: CNKI:SUN:CSFY.0.2018-12-033.
+[27] Katz M L, Shapiro C. Network externalities, competition, and compatibility. The American Economic Review, 1985, 75
+    (3): 424-440. DOI: 10.2307/1814809
+[28] 胡慧, 任焰. 制造梦想: 平台经济下众包生产体制与大众知识劳工的弹性化劳动实践: 以网络作家为例. 开放时代,
+    2018, 37(6): 178-195+10. [Hu Hui, Ren Yan. Creating dreams: Flexible labor practice of crowdsourcing production re-
+    gime and the mass knowledge labor in platform economy: A case study of online writers. Open Times, 2018, 37(6): 178-
+    195+10.]. DOI: 10.3969/j.issn.1004-2938.2018.06.013.
+[29] 甄峰, 王波, 陈映雪. 基于网络社会空间的中国城市网络特征: 以新浪微博为例. 地理学报, 2012, 67(8): 1031-1043.
+9期                          赵渺希 等：广佛都市圈网络外部性的城镇借用规模绩效检验                                                               2383
+
+     [Zhen Feng, Wang Bo, Chen Yingxue. China's city network characteristics based on social network space: An empirical
+     analysis of Sina Micro-blog. Acta Geographica Sinica, 2012, 67(8): 1031-1043.]. DOI: CNKI:SUN:DLXB.0.2012-08-005.
+[30] Beaudry C, Schiffauerova A. Who's right, Marshall or Jacobs? The localization versus urbanization debate. Research Pol-
+     icy, 2009, 38(2): 318-337. DOI: 10.1016/j.respol.2008.11.010.
+[31] 孙久文. 雄安新区的意义、价值与规划思路. 经济学动态, 2017, 58(7): 6-8. [Sun Jiuwen. The significance, value and
+     planning idea of the Xiongan New Area. Economic Perspectives. 2017, 58(7) : 6-8.]
+[32] 绽逸博. 城市网络效应对城市经济增长的影响. 长沙: 湖南大学硕士学位论文, 2015: 31. [ZhanYibo. The effect of
+     city network effects on urban economic growth. Changsha: Master Dissertation of Hunan University, 2015: 31.]
+[33] Camagni R. After thoughts on urban economic theory and its focus. Investigaciones Regionales-Journal of Regional Re-
+     search, 2016, 15(36): 87-105.
+[34] Krugman P R. Geography and Trade. Cambridge: MIT Press, 1991: 13. DOI: 10.2307/1060549.
+[35] Partridge M , Bollman R D , Olfert M R, et al. riding the wave of urban growth in the countryside: Spread, backwash, or
+     stagnation? Land Economics, 2007, 83(2): 128-152. DOI: 10.1016/j.jue.2006.08.001.
+[36] Tao M, Huang Y, Tao H. Urban network externalities, agglomeration economies and urban economic growth. Cities,
+     2020, 107(3): 102882. DOI: 10.1016/J.CITIES.2020.102882.
+[37] 任晓红, 王钰, 但婷. 高铁开通对中小城市经济增长的影响. 城市问题, 2020, 39(1): 91-97. [Ren Xiaohong, Wang Yu,
+     Dan Ting. Influences of opening high-speed rail on the economic growth of small and medium-sized cities. Urban Prob-
+     lems, 2020, 39(1): 91-97.]. DOI: 10.13239/j.bjsshkxy.cswt.200110.
+[38] Otsuka A. Inter-regional networks and productive efficiency in Japan. Papers in Regional Science, 2020, 99(1): 115-133.
+     DOI: 10.1111/pirs.12474.
+[39] 王飞. 城市借用规模研究综述. 现代城市研究, 2017, 32(2): 120-124. [Wang Fei. Review on the research of urban bor-
+     rowed size. Modern Urban Research, 2017, 32(2): 120-124.]. DOI: 10.3969/j.issn.1009-6000.2017.02.017.
+[40] 马双, 曾刚. 多尺度视角下中国城市创新网络格局及邻近性机理分析. 人文地理, 2020, 35(1): 95-103. [Ma Shuang,
+     Zeng Gang. Analysis of China's urban innovation network pattern and its proximity mechanism from a multi-scale per-
+     spective. Human Geography, 2020, 35(1): 95-103.]. DOI: 10.13959/j.issn.1003-2398.2020.01.011.
+[41] Jacobs, J. The Economies of Cities. New York: Random House, 1969: 20.
+[42] Alonso W. Urban zero population growth. Daedalus, 1973, 102(4): 191-206.
+[43] Malý J. Small towns in the context of "borrowed size" and "agglomeration shadow" debates: The case of the South Mora-
+     vian Region (Czech Republic). European Countryside, 2016, 8(4): 333-350. DOI: 10.1515/euco-2016-0024.
+[44] 孙斌栋, 丁嵩. 多中心空间结构经济绩效的研究进展及启示. 地理科学, 2017, 37(1): 64-71. [Sun Bindong, Ding
+     Song. Progress and implications for polycentric spatial structure's effect on economic performance. Scientia Geographi-
+     ca Sinica, 2017, 37(1): 64-71.]. DOI: 10.13249/j.cnki.sgs.2017.01.008.
+[45] 姚常成, 宋冬林. 借用规模、网络外部性与城市群集聚经济. 产业经济研究, 2019, 18(2): 76-87. [Yao Changcheng,
+     Song Donglin. Borrowed-size, network externalities and agglomeration economies in the urban agglomerations. Industri-
+     al Economics Research, 2019, 18(2): 76-87.]. DOI: 10.13269/j.cnki.ier.2019.02.007.
+[46] Taylor P J. Specification of the world city network. Geographical Analysis, 2010, 33(2): 181-194. DOI: 10.1111/j.1538-
+     4632.2001.tb00443.x.
+[47] 陆大道, 孙东琪. 关于经济增长支撑系统领域研究的进展. 地球科学进展, 2016, 31(6): 555-559. [Lu Dadao, Sun
+     Dongqi. Progress of research on the support system for economic growth. Advances in Earth Science, 2016, 31(6): 555-
+     559.]. DOI: 10.11867/j.issn.1001-8166.2016.06.0555.
+2384                                              地 理 研 究                                                         41 卷
+
+
+
+       Examining performance of urban borrowed size based on the
+           towns′ network externalities of Guangzhou-Foshan
+                          metropolitan areas
+           ZHAO Miaoxi1, WANG Yankai1, HU Yuke1, GUO Zhensong2, WEI Zhaobin3
+         (1. South China University of Technology, School of Architecture / State Key Laboratory of Subtropical
+        Building Science, Guangzhou 510641, China; 2. Urban Planning & Design Institute of Shenzhen, Shenzhen
+                518055, Guangdong, China; 3. Huizhou University, Huizhou 516007, Guangdong, China)
+
+
+Abstract: In the context of urban network externalities, the borrowed size can empower towns
+to break through the restrictions of geographical distance and size, but realize the joint
+economic growth of cities and towns through network connections. By virtue of the theoretical
+analysis, this research examines, in the framework of network externalities, the role of urban
+borrowed-size performance on urban economic growth from the perspective of the borrowed-
+size effect of urban networks. Based on the review of network externalities theories, this
+research has taken towns in the Guangzhou-Foshan urban area as the object and firstly, adopted
+the deviation from the mean standard deviation multiplier method to investigate the features of
+regional performance and agglomeration shadows. Secondly, it established a multiple
+regression model to test the mechanism of network externalities, by incorporating the coupling
+effects of town size, borrowed size, transportation network accessibility, and science and
+technology innovation spillover, etc., on the economic growth of towns. The research has found
+that (1) with the population size of 100,000 as the cut-off point of performance characteristics,
+the smaller the existing population size of the town, the lower the value of regional
+performance, whereas towns with a population size greater or less than 100,000 showcase
+borrowed-size performance and agglomeration shadow respectively. (2) Regional performance
+based on the number of newly registered enterprises and enterprise network point degree
+demonstrate more notable circled spatial characteristics, and the spatial divergence based on the
+enterprise network point degree test is more prominent; the performance of the suburban near
+the main urban area is quite notable, while the agglomeration shadow phenomenon of the
+distant suburbs near the main urban area is more significant. (3) The performance of the
+number of newly registered enterprises is most closely related to the established size of the
+town, and the elasticity coefficients of such explanatory variables as regional transportation
+hub, borrowed size, borrowed- size performance and cross- town cooperation patent decrease
+decrease in order; besides, the improvement of regional transportation networks and technical
+cooperation channels is conducive to promoting the agglomeration of urban factors and
+influencing the urbanization development of urban areas with network externalities effects.
+Keywords: borrowed size; agglomeration shadow; network externalities; urban network; met-
+ropolitan area
+

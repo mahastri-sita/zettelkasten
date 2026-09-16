@@ -1,0 +1,925 @@
+[PDF Metadata]
+Source PDF: journal/J06-yudhistira-indriyani-pratama-sofiyandi-kurniawan-2019-transportation-network-and-changes-in-urban-structure-evidence-from-the-jakarta-metropolitan-area-10.1016-j.retrec.2018.12.003.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Transportation network and changes in urban structure_ Evidence from the Jakarta Metropolitan Area
+Subject:         Research in Transportation Economics, 74 (2019) 52-63. doi:10.1016/j.retrec.2018.12.003
+Keywords:        The Jakarta metropolitan area; Transportation infrastructure; Suburbanization; Population density; Night light; 
+Author:          Muhammad Halley Yudhistira
+Creator:         Elsevier
+CreationDate:    Thu Jun  6 14:07:20 2019 WIB
+ModDate:         Thu Jun  6 14:07:20 2019 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           12
+Encrypted:       no
+Page size:       595.276 x 793.701 pts
+Page rot:        0
+File size:       1094054 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                                Research in Transportation Economics 74 (2019) 52–63
+
+
+                                                                        Contents lists available at ScienceDirect
+
+
+                                                      Research in Transportation Economics
+                                                           journal homepage: www.elsevier.com/locate/retrec
+
+
+
+
+Transportation network and changes in urban structure: Evidence from the                                                                                         T
+Jakarta Metropolitan Area
+Muhammad Halley Yudhistiraa,∗, Witri Indriyanib, Andhika Putra Pratamaa, Yusuf Sofiyandia,
+Yusuf Reza Kurniawana
+a
+    Institute for Economic and Social Research, Department of Economics, Universitas Indonesia, Indonesia
+b
+    Demographic Institute, Department of Economics, Universitas Indonesia, Indonesia
+
+
+
+
+ARTICLE INFO                                                  ABSTRACT
+
+JEL classification:                                           The Jakarta Metropolitan Area (JMA) has a population of 28 million, a figure which is growing relative quickly.
+O18                                                           This study examines the role of transport infrastructure in explaining the suburbanization process at the com-
+P25                                                           munity level in JMA. Aside from population density, it also uses night light intensity as proxy for economic
+R11                                                           activity. Using population census and night light data for 2000 and 2010, and the instrumental variable (IV)
+Keywords:                                                     strategy, we found that improvements in highway and railway access promote population growth in city suburbs
+The Jakarta metropolitan area                                 and non-city suburbs, respectively confirming the process of transportation-led suburbanization. In contrast,
+Transportation infrastructure                                 suburbanization of night light intensity was only evident in non-city suburbs and is likely to be driven by the
+Suburbanization
+                                                              transportation network stock.
+Population density
+Night light
+
+
+
+
+1. Introduction                                                                                     between 2000 and 2010, indicating that more people were living in the
+                                                                                                    suburbs. In addition, the urban population rose by 90% between 1990
+    By 2015, four billion people were living in cities, accounting for                              and 2010 (Jones et al., 2016), transforming some outer areas of the
+54% of the total world population; a growth of 73% from the 1990                                    JMA into new sub-centres. A similar trend was also seen with regard to
+urban population statistic (UN-Habitat, 2016). Rapid population                                     economic activity, as industrial activity moved from the core of Jakarta
+growth and economic activity leads the expansion of cities and creates                              to the suburbs (Henderson & Kuncoro, 1996).
+vast conurbation areas, comprising urban centres and suburbs. Intern-                                   The changes in the JMA population distribution are partly attributed to
+ally, economic activities in cities expand beyond their administrative                              infrastructure expansion (such as the building of highways and railways).
+borders. More urban development is found in suburbs than in city areas,                             The development of highways and railway lines leads to suburb-urban
+a phenomenon which is observed not only in cities in developed                                      commuting becoming more accessible. Recent transport infrastructure de-
+countries, such as Tokyo (Cybriwsky, 1993), but also in developing                                  velopment also has the potential to promote the relocation of production
+countries (Morichi & Acharya, 2013; Hassan, 2017).                                                  activities to the fringes of Jakarta. A study by Henderson and Kuncoro
+    Rapid suburb development is also evident in the Jakarta                                         (1996) suggests that there was some degree of suburbanization in the
+Metropolitan Area (JMA), the most populous and urbanized region in                                  manufacturing sector from 1990 to 2000 in response to the development of
+Indonesia. Consisting of 13 municipal areas,1 JMA is home to 11% of                                 a toll road running from Jakarta. Identifying the causal relationship between
+Indonesia's population and contributes about 22% of the national gross                              transport infrastructure and changes in the urban spatial structure of the
+domestic product (Indonesian Bureau of Statistics, 2010). Despite                                   Jakarta Metropolitan Area is crucial in examining the extent to which the
+14.5% increase in population, the proportion of people living in Jakarta                            urban structure-transportation network nexus is prevalent in the context of
+decreased from 39.4% to 34.0% out of the total JMA population                                       megacities in developing countries.
+
+
+
+    Corresponding author. Institute for Economic and Social Research, Faculty of Economics and Business, Universitas Indonesia, Indonesia.
+    ∗
+
+    E-mail addresses: m.halley@ui.ac.id (M.H. Yudhistira), witri@ldfebui.org (W. Indriyani), andhika.pratama@lpem-feui.org (A.P. Pratama),
+yusuf.sofiyandi@lpem-feui.org (Y. Sofiyandi,>, reza@lpem-feui.org (Y.R. Kurniawan).
+  1
+    Jakarta consists of six municipalities, namely Central Jakarta, North Jakarta, East Jakarta, South Jakarta, West Jakarta, and Thousand Islands. A further seven
+municipalities are located in the surrounding suburbs, being Bekasi Regency, Bekasi City, Depok City, Bogor Regency, Bogor City, Tangerang Regency, and
+Tangerang City.
+
+https://doi.org/10.1016/j.retrec.2018.12.003
+Received 26 August 2017; Received in revised form 29 November 2018; Accepted 22 December 2018
+Available online 31 December 2018
+0739-8859/ © 2018 Elsevier Ltd. All rights reserved.
+M.H. Yudhistira et al.                                                                                               Research in Transportation Economics 74 (2019) 52–63
+
+
+    Our paper estimates the relationship between improvement in trans-               Table 1
+portation access and changes in the urban structure of the JMA for a sample          Highway development in the JMA.
+of 1483 communities (kelurahan) in years 2000 and 2010; these urban                  Source: Indonesia Highway Authority (2015)
+structure changes are reflected by changes in population density and eco-             Sections                                          Length (km)            Year
+nomic activity. As current economic indicators are unable to measure eco-
+nomic activities at the community level, we use light intensity data as a             Cawang – Tomang – Grogol – Pluit                  23.55                  1987
+                                                                                      Jakarta – Cikampek                                83.00                  1988
+proxy for economic activity. To address the potential simultaneity bias in
+                                                                                      Cawang – Tj. Priuk – Ancol Timur – Pluit          27.05                  1989
+the regression model, we used specifications that measured the improve-               JORR Seksi S                                      14.25                  1995
+ment in transportation access using old transport infrastructure access i.e.,         Serpong – Pondok Aren                             7.25                   1999
+access to the old railway network, old primary roads, and Anyer-Panarukan             Pondok Aren – Ulujami                             5.55                   1999
+                                                                                      JORR W2S                                          5.72                   2005
+Road). Our results suggest that improvement in access to highways and
+                                                                                      JORR E1 Utara Sie.3                               4.35                   2006
+access to railways station has promoted the suburbanization process in the            JORR E3                                           3.75                   2007
+JMA, although the roles differ.                                                       JORR E1 Utara Sie.4                               3.75                   2007
+    Our study contributes to the body of literature relating to trans-
+portation network and urban structure, and the suburbanization pro-                   Total additional highways                         178.22
+
+cess in particular, in two ways. A novel is that we propose night light as
+a proxy for the extent of the transport network in explaining the dy-
+                                                                                     stations in JMA, such as Bogor station (from 156 to 170 trips), Depok
+namics of economic activity. This expands our understanding of the fact
+                                                                                     (from 178 to 223 trips), Serpong (from 46 to 53 trips), Tangerang (from
+that the suburbanization process is not only captured by faster popu-
+                                                                                     20 to 29 trips), and Bekasi (from 85 to 108 trips).2
+lation growth (Baum-Snow, 2007; Garcia-Lopez and Angel., 2012;
+                                                                                         The development of the highway network has directly affected 567
+Garcia-Lopez, Angel, Adelheid Holl, & Viladecans-Marsal, 2015), but is
+                                                                                     communities in JMA, with them becoming 8.78 km closer to highway
+also explained by faster light night intensity growth in suburbs than in
+                                                                                     ramps between 2000 and 2010. Meanwhile, the opening of new railway
+urban ones. Our study is also of international interest, as like other
+                                                                                     lines has brought 942 communities closer to railway stations with an
+metropolitan areas in developing countries, JMA is experiencing a fast-
+                                                                                     average change in distance of 12.69 km during the same period.
+changing spatial structure. The study is of further potential use in un-
+                                                                                     Between 2000 and 2010, three new highway sections were built, two of
+derstanding the suburbanization process in Asian primate cities such as
+                                                                                     which were part of the JORR project. The longest of these was the JORR
+Jakarta. The results confirm that transportation-led suburbanization is
+                                                                                     East (JORR-E) section, which connects some parts of East Jakarta,
+a common phenomenon, not only in cities in developed countries, but
+                                                                                     North Jakarta, and Bekasi with the highway system of JMA. Another
+also in developing countries.
+                                                                                     section completes the Jakarta Inner-Ring Road, namely the Kebon
+    The paper proceeds as follows. Section 2 explains the dynamics of
+                                                                                     Jeruk-Penjaringan section.
+urbanization and the urban transport infrastructure in JMA, while
+                                                                                         Improvements in the transport infrastructure since the late 1980s
+Section 3 presents the method and data. The results are presented in
+                                                                                     have gone hand-in-hand with the economic development process that
+Section 4 and the final section provides the conclusions.
+                                                                                     has taken place in JMA. The rapid development of Jakarta and the
+                                                                                     surrounding regions has intensified during the last two decades, due to
+2. Context: the transport network and urban development in JMA
+                                                                                     the agglomeration effect following the development of several in-
+                                                                                     dustrial estates and residential towns (Hudalah, Dimitra, Tommy &
+    The last two decades have seen a rapid improvement in transport
+                                                                                     Johan, 2013). In 1980, the population of JMA represented around 6
+infrastructure, including both highways and railways, in JMA. This
+                                                                                     percent of the total Indonesia population. By 2010, this figure had in-
+rapid development has improved the accessibility of nearby suburbs
+                                                                                     creased to approximately 11%. The population density of JMA had
+and expanded people's options in terms of relocating to such areas. The
+                                                                                     reached 79.4 inhabitants per hectare by 2010, being particularly con-
+development of highways and railways has decreased the commuting
+                                                                                     centrated in Jakarta and the immediate surrounding suburbs. These
+distance from communities in JMA. The construction of the first section
+                                                                                     figures represent a 14.8 person per hectare increase, or a 23% increase,
+of the JMA highways was the Jagorawi Toll Road in 1973, which was
+                                                                                     over the 2000 figures (see Fig. 1). For comparison, in 2010 the national
+completed in 1978 and has a total length of 59 km. The aim of the
+                                                                                     population density was 1.2 inhabitants per hectare, which had in-
+construction of this toll road was to improve mobility between Jakarta
+                                                                                     creased by 15.2% from 2000 (Indonesian Bureau of Statistics, 2000;
+and Bogor. In 1984, the second section of the JMA highways, namely
+                                                                                     2010). The dense agglomeration process in JMA was also in line with
+the Jakarta-Tangerang Toll Road, was opened, which connects the west
+                                                                                     the concentration of economic activities, as JMA produced about 23.6%
+side of Jakarta with Tangerang City. This section was later extended to
+                                                                                     of national GDP between 2000 and 2010 (Indonesian Bureau of
+Merak, Banten, with the objective of connecting JMA to Merak Port.
+                                                                                     Statistics, 2018). During the 2000s, the JMA economy grew by around
+Between 1987 and 2007, as many as 10 new highway sections were
+                                                                                     5.8% annually, outpacing the national growth rate of 5.2%. By 2016,
+completed across JMA, with a total length of 178.2 km (Table 1 and
+                                                                                     the per capita GDP of JMA had reached 97.6 million rupiahs, or more
+Fig. 1). These new highway sections were mainly part of the Jakarta
+                                                                                     than twice the national figure (Indonesian Bureau of Statistics, 2018).
+Outer Ring Road (JORR) project.
+                                                                                     The middle-income class is growing in JMA, and by 2020, more than 21
+    Improvement in the transport infrastructure of JMA has also oc-
+                                                                                     percent of the national total will be residing in JMA (Rastogi, Eddy,
+curred in the railways. In 1986, the only railway line in the area was the
+                                                                                     Dean & Tunnee, 2013).
+Jakarta – Bogor Line. Between 1986 and 2011, five new lines were
+                                                                                         While the region is experiencing a strong urbanization process as a
+opened across JMA (Table 2 and Fig. 1). These railway lines had al-
+                                                                                     whole, the internal structure of JMA is characterised by a sub-
+ready existed since the Dutch era, but the stations were not opened for
+                                                                                     urbanization process, indicated by the increasing population density in
+commuters until 1987 (Jatinegara – Manggarai Loopline). The first of
+                                                                                     several regions near the border of Jakarta (Fig. 2). The process of urban
+the JMA railway lines, the Jakarta – Bogor line, has a length of 54.8 km
+                                                                                     sprawl is more evident in regions located near the transport infra-
+(the longest line in JMA) and connects North Jakarta with Bogor City,
+                                                                                     structure (highways and railways) and has occurred in Bogor, Depok,
+with 24 stations. The shortest line is the Duri – Tangerang line, which
+                                                                                     Tangerang and Bekasi (Bodetabek). New built-up areas have been more
+has operated since 1997, with a total length of 19.29 km, connecting
+West Jakarta with Tangerang City, with 11 stations. From 2000 to
+2010, there was an increase in the number of daily trips, shown by a
+greater number of passenger trains that passed through several main                   2
+                                                                                          Data taken from PT. Kereta Commuter Jabodetabek.
+
+                                                                                53
+M.H. Yudhistira et al.                                                                                      Research in Transportation Economics 74 (2019) 52–63
+
+
+
+
+Fig. 1. Development of highway and railway networks, 1990-2010
+Source: Indonesia Highway Authority (2015), PT. Kererta Api Indonesia (2016), PT. KAI Commuter Jabodetabek (2016).
+
+
+Table 2                                                                         prevalent on the border of Depok city, Bogor regency and Bogor city.
+Railway development in the JMA.                                                 The population density of these areas increased to 50–150 inhabitants
+Source: PT. Kereta Api Indonesia (2016), PT. KAI Commuter Jabodetabek           per hectare during the period 2000–2010 from less than 50 inhabitants
+(2016)                                                                          per hectare in 2000. Between 2000 and 2010, the average growth in
+  Railway Line                               Length (km)           Year         population density in non-city suburbs (39.0%) was also higher than in
+                                                                                city suburbs (34.3%). The increase in population density was evident in
+  Jatinegara – Manggarai Loopline            2.65                  1987         the area around South Jakarta, Depok and Jakarta following the con-
+  Tanah Abang – Serpong Line                 24.28                 1992
+  Jakarta – Bekasi Line                      27.34                 1992
+                                                                                struction of the East Jakarta Outer Ring Road (JORR). As a result, 37%
+  Duri – Tangerang Line                      19.30                 1997         of urban land in JMA was in the core area of Jakarta by 2010, and it is
+  Tanah Abang – Parung Panjang Line          34.55                 2009         expected that this proportion will decreased further, along with the
+
+
+
+
+Fig. 2. Population density in the JMA
+Source: Indonesian bureau of Stock and Yogo (2005, 2010).
+
+
+                                                                                higher population growth in the suburbs (see Fig. 3).
+                                                                                    We also use night light data as a proxy for general economic activity
+                                                                                to examine the dynamics of the JMA urban structure. The literature is
+                                                                                increasingly using such an approach when real data on economic ac-
+                                                                                tivity, such as GDP, are difficult to obtain (Henderson, Storeygard, and
+                                                                                Weil 2012; Storeygard, 2016). Similar datasets have been used widely
+                                                                                to estimate other variables, such as energy consumption (Elvidge et al.,
+                                                                                1997; Letu et al., 2010; Zhao, Ghosh, & Samson, 2012) and population
+                                                                                (Elvidge et al., 1997; Sutton, RobertsElvidge, & Baugh, 2001; Zhuo
+                                                                                et al., 2009). Fig. 4 presents the dynamics of night light intensity in
+                                                                                JMA between 2000 and 2010. The less-shaded areas represent the areas
+                                                                                with high luminosity levels. Light coverage in 2010 was brighter in
+                                                                                several areas in the JMA and covered a greater area than in 2000.
+Fig. 3. Changes in population density 2000-2010                                 During the period 2000–2010, light levels gradually increased, with the
+Source: Indonesian bureau of Stock and Yogo (2005, 2010).                       greatest increase concentrated in the suburbs adjacent to Jakarta
+
+                                                                           54
+M.H. Yudhistira et al.                                                                                          Research in Transportation Economics 74 (2019) 52–63
+
+
+
+
+Fig. 4. JMA night time lightSource
+National Center
+s for Environmental Information (2016).
+
+
+                                                                                  size is calculated from vector digital maps provided by the Geospatial
+                                                                                  Information Bureau of Indonesia.
+                                                                                      We use the stable-light data obtained by the Defense Meteorological
+                                                                                  Satellite Program from the National Oceanic and Atmospheric Agency
+                                                                                  (NOAA) as a proxy for economic activity. The data has pixel values
+                                                                                  ranging from 0 to 63. We overlay the stable-light data and the Jakarta
+                                                                                  Metropolitan Area map at the community level. Combining both da-
+                                                                                  taset, we generate a light intensity value for each community by
+                                                                                  averaging the value of pixels within each community. The stable-light
+                                                                                  data has resolution ranging from 0.55 to 2.77 km2 for each pixel size.3
+                                                                                  Since the average village area in the JMA is approximately 4.55 km2,
+                                                                                  we believe the night light data remains representative at the commu-
+                                                                                  nity level.
+                                                                                         rihigh = rihigh
+                                                                                                    2010   1990 measures improvement in access to transpor-
+                                                                                                         rihigh
+Fig. 5. Change in night time light 2000-2010                                      tation network highway ramp in kilometre. Meanwhile, rirail measures
+Source: National Centres for Environmental Information (2016).                    the distance to closest railway station in 1990 to capture the frequency
+                                                                                  increase of train services along the line (Garcia-Lopez and Angel.,
+(Fig. 5).                                                                         2012). The access variables are measured as the straight-line distance
+    The combination of transport improvement, middle-income class                 from the centre of a community to the nearest highway ramp or railway
+expansion, and the population growth pattern in suburbs explains the              station. To obtain these variables, we use the same vector digital maps
+shift in the mobility pattern of JMA residents. 73% of trips were made            as for land size calculation, as the maps also provide information on the
+by private modes by 2010, almost double the figure of 2002 (JUTPI,                position of the highways and railways. During the period 1990–2010,
+2012). The presence of highways connecting residential areas in the               45 km of new highways were built, with 26 new ramps. Meanwhile, the
+suburbs with Jakarta city centre encourages private-based commuting.              railway network was extended by 81 km, with 22 new stations opened.
+There was a 50% increase in suburb-to-urban trips in JMA between                      x i represents the vector of control variables. We categorize the
+2002 and 2010 (JUTPI, 2012). Along with the extensive suburbaniza-                control variables according to three groups, namely distance, geo-
+tion process, it is also predicted that suburb-to-urban trips will grow by        graphy, and old population control variables. The distance control
+146% by 2030, a much figure higher than the 104% growth in intra-                 variables include distance to central Jakarta, distance to central district,
+urban trips in the same period (JUTPI, 2012).                                     and distance to coastal line. As were the transport variables, the dis-
+                                                                                  tance control variables are obtained from the vector digital maps pro-
+                                                                                  vided by the Geospatial Information Bureau of Indonesia. The geo-
+3. Identification
+                                                                                  graphy control variables contain the ruggedness variable, land size, and
+                                                                                  elevation. Old population control variable includes 1961 population at
+3.1. Model and data
+                                                                                  the district level and was taken from Winarso (2010). Appendix A
+                                                                                  shows the summary statistics of our variables.
+    To estimate the impact of transportation network improvement on
+                                                                                      Our hypothesis is that improvement in transportation access, re-
+the suburbanization process, we adapt the regression model by Garcia-
+                                                                                  flected by shorter distances to highway ramps or railway stations, will
+Lopez and Angel., 2012, as follows:
+                                                                                  increase both population density and economic activity. Thus, the
+  ln(yi ) =     + 1 rihigh + 2 rirail + x i + ei ,                    (1)
+
+where ln(yi ) = ln(yi2010 ) ln(yi2000 ) is growth of outcome variables at            3
+                                                                                       The DMPS OLS instruments metaview. This page explains the satellites re-
+community i . This study uses two outcome variables at the community              solution at high resolution (0,55 km), and at low resolution (2,7 km) https://
+level to quantify the urban spatial structure, namely population density          www.ngdc.noaa.gov/metaview/page?xml=NOAA/NESDIS/NGDC/STP/
+and night light intensity. We use two waves of population census da-              DMSP/iso/xml/G01119.xml&view=getDataView&header=none. accessed on
+ta—years 2000 and 2010 (Indonesia Bureau of Statistics, 2000;                     22/01/2018. Huang, Yang, Gao, Yang and Zhao (2014) found that the stable
+2010)—to generate population figures at the community level. The land             light images from DMSP satellites has spatial resolution of 1 km.
+
+                                                                             55
+M.H. Yudhistira et al.                                                                                           Research in Transportation Economics 74 (2019) 52–63
+
+
+development of transportation access connecting suburbs may cause the              number of instruments assigned is equal to the number of endogenous
+suburbanization process in the JMA. Being closer to highway ramps or               variables on the right-hand side. Finally, we use Stock-Yogo criteria for
+railway stations, indicated by shorter distances to the ramps/stations,            the weak instruments test for any pair of potential instruments. The null
+decreases travel/commuting time for residents. Similarly, improved                 hypothesis of the weak instruments is rejected if the Kleibergen-Paap F-
+access decreases firms' logistical costs for receiving their inputs or de-         statistic on an instrument exceeds the size and relative bias critical
+livering their products to consumers. If the access effect on sub-                 value (Stock & Yogo, 2005).
+urbanization is present, we also expect that j would be more elastic for               The first-stage and reduced-form estimates are presented in Table 3.
+suburbs than it would be for Jakarta. More elastic j in suburbs in-                Panel A shows the first-stage results for the changes in transportation
+dicates that any transport access improvement will lead to a greater               improvement in terms of the distance to the nearest highway ramp
+increase of population density or night light intensity.                           (shown in the odd columns) and the distance to the nearest railroad
+                                                                                   (shown in the even columns) that took place in the whole of JMA, Ja-
+3.2. Endogeneity and estimation strategy                                           karta, the city suburbs, and other suburbs. Panel B displays the reduced-
+                                                                                   form results of population density and night light intensity.
+    Estimating Equation (1) using the ordinary least square (OLS) will                 Result in Table 3 shows that our instruments perform relatively well
+provide inconsistent distance parameters ( j ) due to the reverse caus-            in the first-stage regression. In most specifications, all instruments are
+ality problem. Improvement in transportation infrastructure may be                 statistically significant in explaining the variation of the improvement
+driven by increases in population density or economic activity that                in distance to highway ramp and distance to railway station. Never-
+create demand for better transport infrastructure. Recent transportation           theless, the result also suggests that the IV strategy does not perfectly
+network is also likely to acknowledge the presence of old infra-                   address endogeneity problem from the OLS. Our choice of instruments
+structures (Duranton & Turner, 2012; Garcia-Lopez et al., 2015;                    may leave some biases as reduced-form result shows some instruments
+Yudhistira and Sofiyandi, 2018). This reasoning seems even truer for               are not statistically significant. For instance, estimates of distance to old
+railways service as the network was developed on 1925 railways net-                railway in the Jakarta and city suburbs samples are not statistically
+work built during period of Dutch colonialization. The 1990 distance to            different from zero. Our 2SLS estimates may still suffer from some
+railway station also tends to be endogenous, as the decision to increase           biases, and hence the correction made by the IV approach should be
+the frequency could have been affected by the increase in population               interpreted cautiously.
+density or economic activity near the stations. To overcome this en-                   Aside from the problem of imperfect instruments, our first-stage and
+dogeneity issue, the instrumental variables (IV) method is applied                 reduced-form regressions further indicate that the choice of instruments
+(Wooldridge, 2010). The idea is to find a set of variables that are                may vary across samples. We use access to the nearest old railway
+strongly correlated with the variables, yet uncorrelated with the error            station as a potential instrument for all specifications as its first-stage
+term.                                                                              coefficients are statistically different from zero in explaining both en-
+    We propose three distance variables as potential IVs: distance to              dogenous variables in all the samples. We choose distance to the Anyer-
+Anyer-Panarukan road, distance to old arterial road, and distance to old           Panarukan road as the second instrument for the JMA sample since it is
+railway station. The Anyer-Panarukan road was constructed at the                   statistically significant in explaining the endogenous variables. As for
+governorship of Herman Willem Daendels (1808–1811) of Dutch co-                    the Jakarta sample, we prefer distance to the Anyer-Panarukan road as
+lonial era, stretching at the northern part of Java island (Nas, and               the second instrument since it provides a better Kleibergen-Paap F-
+Pratiwo, 2002). Our old arterial road extends the Anyer-Panarukan                  statistic than the old primary road for population density and night
+road with arterial roads built in early period of Indonesia's in-                  light intensity. As for the city suburbs, distance to the Anyer-Panarukan
+dependence, such as Sukabumi road and Jakarta-Cirebon road. The old                road and old primary road are both potential as second instrument. We
+railway station was drawn from the station network built during the                check both instruments using the Kleibergen-Paap F-statistic and find
+Nederlandsch Indische Spoorweg Maatschappig (NISM) era (van                        that distance to the Anyer-Panarukan and old primary road are more
+Ballegoijen de Jong, 1993). These variables represent the older trans-             suitable instruments for population density and night light intensity
+port access in the JMA. We argue that these variables must be con-                 specifications, respectively. Similarly, distance to the old primary and
+sidered by planners in developing the highway/railway system in the                Anyer-Panarukan road are more appropriate as second instrument for
+JMA since national regulations state that any new highways must                    population density and night light intensity specifications for other
+consider the existing connectivity of the area. We also argue that these           suburbs sample, respectively.
+variables have no correlation with current population density and night
+light intensity.                                                                   4.2. 2SLS results for population density
+
+4. Results                                                                              Table 4 presents our estimation results for Equation (1). Panel A
+                                                                                   shows the effect of changes in log population density for Jakarta area,
+4.1. First stage and reduced form                                                  while Panels B and C represent the effect for city suburbs and other
+                                                                                   suburbs, respectively. We lump results for the JMA in the Appendix B.
+    We follow Murray (2006, 2010) when choosing the potential in-                       We start our analysis from OLS result presented in Column 1. In
+strument variables. First, we estimate equations that predict transpor-            general, we find that highway and railway system tend to reduce the
+tation improvement (first-stage estimates) and the change in population            population growth in the city centre of the JMA. The coefficients for the
+density and night light intensity (reduced-form estimates) as a function           Jakarta are positive and statistically different from zero. Coefficient for
+of each instrument variable. Next, we select an instrument whose                   highway indicate that improvement in access to nearest highway ramp
+coefficient is significantly different from zero with a sign that justifies        had an adverse impact on population density growth in the Jakarta.
+the following two assumptions: 1) positive or negative first-stage results         Meanwhile, the estimates for city suburbs and other suburbs are sta-
+indicate that transportation improvement is located close to or far from           tistically not different from zero; the presence of highway system does
+the instrument; and 2) negative reduced-form results indicate that                 not hasten the growth of population density in suburbs. Similarly,
+proximity to the instrument accelerates the growth of population den-              coefficient on railway shows that the density in communities of Jakarta
+sity and night light intensity. To avoid over identification problems, the         located further away from the station will grow faster. Similar effect is
+
+
+
+
+                                                                              56
+M.H. Yudhistira et al.                                                                                                                    Research in Transportation Economics 74 (2019) 52–63
+
+
+Table 3
+First-stage regressions and reduced form, OLS.
+                                   A. First stage regressions
+
+                                   First-Stage Regressions
+
+                                   JMA                                    Jakarta                                   City suburbs                              Other suburbs
+
+                                   Δ distance to      distance to         Δ distance to        distance to          Δ distance to         distance to         Δ distance to      distance to
+                                   highway ramp       railway station     highway ramp         railway station      highway ramp          railway station     highway ramp       railway station
+
+  Anyer-Panarukan road             −0.053*            −0.137*             −0.356*              −0.025               −0.373*               0.185*              −0.049*            −0.300*
+                                   (0.008)            (0.019)             (0.043)              (0.063)              (0.039)               (0.042)             (0.010)            (0.026)
+
+  Old primary road                 0.007              0.295*              0.318***             0.325                0.565*                −0.364**            −0.004             0.338*
+                                   (0.015)            (0.051)             (0.169)              (0.202)              (0.125)               (0.161)             (0.015)            (0.053)
+
+  Old railway                      0.073*             0.710*              0.168*               0.492*               −0.296**              0.587*              0.047*             0.439*
+                                   (0.013)            (0.047)             (0.063)              (0.097)              (0.116)               (0.104)             (0.014)            (0.054)
+  ln (1961 district population)    Yes                Yes                 Yes                  Yes                  Yes                   Yes                 Yes                Yes
+  Geographical variables           Yes                Yes                 Yes                  Yes                  Yes                   Yes                 Yes                Yes
+  Distance variables               Yes                Yes                 Yes                  Yes                  Yes                   Yes                 Yes                Yes
+  Observations                     1472               1472                261                  261                  340                   340                 871                871
+  Adjusted R-sq                    0.180              0.857               0.507                0.729                0.537                 0.896               0.250              0.802
+
+  B. Reduced Form
+
+                         Reduced Form
+                         JMA                                    Jakarta                                  City suburbs                               Other suburbs
+                         Δ ln(population     Δ ln(night         Δ ln(population      Δ ln(night          Δ ln(population       Δ ln(night light)    Δ ln(population     Δ ln(night light)
+                         density)            light)             density)             light)              density)                                   density)
+
+  Anyer-Panarukan        −0.001              0.003*             −0.004               0.0001              0.007***              −0.0009**            −0.0009             0.003*
+     road
+                         (0.001)             (0.0006)           (0.003)              (0.0003)            (0.004)               (0.0005)             (0.001)             (0.0007)
+
+  Old primary road       −0.013*             −0.019*            0.075*               0.002**             0.037*                0.006*               −0.007*             −0.009*
+                         (0.002)             (0.002)            (0.018)              (0.001)             (0.014)               (0.002)              (0.002)             (0.002)
+
+  Old railway            −0.004*             −0.009*            0.001                0.0001              −0.004                0.00002              0.0005              −0.003*
+                         (0.002)             (0.001)            (0.006)              (0.000)             (0.009)               (0.001)              (0.002)             (0.001)
+  ln (1961 district      Yes                 Yes                Yes                  Yes                 Yes                   Yes                  Yes                 Yes
+       population)
+  Geographical           Yes                 Yes                Yes                  Yes                 Yes                   Yes                  Yes                 Yes
+       variables
+  Distance variables     Yes                 Yes                Yes                  Yes                 Yes                   Yes                  Yes                 Yes
+  Observations           1472                1472               261                  261                 340                   340                  871                 871
+  Adjusted R-sq          0.220               0.692              0.426                0.926               0.398                 0.971                0.195               0.454
+
+Note: robust standard error in parentheses. ***, **, * indicate statistical significance at 10%, 5%, and 1%. Geographical variables include the ruggedness variable, land
+size, and elevation. Distance variables include the distance to central Jakarta, distance to central district, and distance to coastal line.
+
+
+
+
+also found for the city suburbs, but the estimate was much smaller than                             suburbs corresponds to 3.7–4.8% growth in population density, de-
+it was Jakarta.                                                                                     pending on the set of control variables. However, although the adverse
+    The OLS result, however, is suspected to be invalid due to en-                                  effect was seen in Jakarta and other suburbs, it was only statistically
+dogeneity problem. Columns 2, 3, 4, and 5 of Table 4 provides two-                                  significant for other suburbs' estimates. Increased improvement in
+stage least squares (2SLS) estimates. Column 2 includes transportation                              terms of highway access resulted in lower population density growth in
+variables and lagged population density. Column 3 adds district popu-                               those areas.
+lation at 1961. Columns 4 and 5 add geographical and distance vari-                                     Our estimates for railways show that the improvement in railway
+ables, respectively.                                                                                access is also important for residents' decision to live in other suburbs.
+    Our 2SLS result on population density confirm our hypothesis that                               We found a positive effect that was statistically different from zero for
+improvement in transport infrastructure contributes to the change in                                other suburbs only. A kilometre closer to railway station in other sub-
+urban structure in the Jakarta Metropolitan Area. However, the pattern                              urbs corresponds to 1.3–1.7% growth in population density. The esti-
+was relatively different from its OLS counterparts. In addition, the ef-                            mates for the Jakarta and city suburbs are statistically insignificant
+fects differed according to the type of transport infrastructure. There is                          under full specification model (column 5). This result can be explained
+a tendency of suburbanization led by highways is concentrated in cities                             as railway service is more reliable and saves more travel time for longer
+located in suburbs. Coefficients on highways show that communities                                  distance travel, promoting higher population growth in the other sub-
+with better highway access increase in population density more quickly                              urbs.
+in city suburbs. A kilometre improvement of highway access in city of
+
+
+
+
+                                                                                               57
+M.H. Yudhistira et al.                                                                                                   Research in Transportation Economics 74 (2019) 52–63
+
+
+Table 4
+2SLS regression results for population density.
+                                               Δ ln(population density)
+
+                                               OLS                        IV
+
+                                               (1)                        (2)                        (3)                        (4)                          (5)
+
+  Panel A: Jakarta. Instruments: old railway and Anyer-Panarukan road
+
+  Δ distance to highway ramp                   0.009***                   0.050*                     0.050*                     0.015                        0.013
+                                               (0.005)                    (0.016)                    (0.016)                    (0.011)                      (0.010)
+
+  distance to railway station                  0.011*                     0.042*                     0.042*                     0.023*                       0.014
+                                               (0.004)                    (0.009)                    (0.009)                    (0.008)                      (0.012)
+
+  ln(2000 population density)                  −0.049**                   −0.051**                   −0.051**                   −0.038***                    −0.047**
+                                               (0.019)                    (0.021)                    (0.021)                    (0.021)                      (0.020)
+
+  ln (1961 district population)                Yes                        No                         Yes                        Yes                          Yes
+  Geographical variables                       Yes                        No                         No                         Yes                          Yes
+  Distance variables                           Yes                        No                         No                         No                           Yes
+
+  Observations                                 261                        261                        261                        261                          261
+  K-P-F statistic on instruments                                          21.44                      21.44                      28.84                        10.71
+  Adjusted R-sq                                0.383
+
+  Panel B: City suburbs. Instruments: old railway and Anyer-Panarukan road
+
+  Δ distance to highway ramp                   0.003                      −0.037**                   −0.008                     −0.04***                     −0.048**
+                                               (0.006)                    (0.015)                    (0.154)                    (0.024)                      (0.019)
+
+  distance to railway station                  0.006                      −0.004                     −0.036                     0.012                        −0.031
+                                               (0.006)                    (0.019)                    (0.203)                    (0.039)                      (0.024)
+
+  ln(2000 population density)                  −0.188*                    −0.171*                    −0.241                     −0.122                       −0.178*
+                                               (0.025)                    (0.017)                    (0.405)                    (0.122)                      (0.033)
+
+  ln (1961 district population)                Yes                        No                         Yes                        Yes                          Yes
+  Geographical variables                       Yes                        No                         No                         Yes                          Yes
+  Distance variables                           Yes                        No                         No                         No                           Yes
+
+  Observations                                 340                        340                        340                        340                          340
+  K-P-F statistic on instruments                                          2.299                      0.022                      0.86                         11.26
+  Adjusted R-sq                                0.369
+
+  Panel C: other suburbs. Instruments: old railway and old primary road
+
+  Δ distance to highway ramp                   0.003                      0.206*                     0.089*                     0.145*                       0.150*
+                                               (0.004)                    (0.047)                    (0.025)                    (0.037)                      (0.051)
+
+  distance to railway station                  0.003***                   −0.022*                    −0.017*                    −0.020*                      −0.014***
+                                               (0.001)                    (0.004)                    (0.002)                    (0.003)                      (0.009)
+
+  ln(2000 population density)                  0.036                      −0.120*                    −0.054**                   −0.067***                    −0.067
+                                               (0.027)                    (0.038)                    (0.021)                    (0.034)                      (0.044)
+
+  ln (1961 district population)                Yes                        No                         Yes                        Yes                          Yes
+  Geographical variables                       Yes                        No                         No                         Yes                          Yes
+  Distance variables                           Yes                        No                         No                         No                           Yes
+
+  Observations                                 871                        871                        871                        871                          871
+  K-P-F statistic on instruments                                          17.78                      34.84                      18.64                        9.121
+  Adjusted R-sq                                0.186
+
+Note: robust standard error in parentheses. ***, **, * indicate statistical significance at 10%, 5%, and 1%. Geographical variables include the ruggedness variable, land
+size, and elevation. Distance variables include the distance to central Jakarta, distance to central district, and distance to coastal line. K-P F-statistic corresponds to
+Kleibergen-Paap F-statistic for weak instrument/s identification test. The null of weak instruments is rejected if the K-P F-statistic on the instrument/s passes Stock-
+Yogo critical value.
+
+4.3. 2SLS results for night light intensity                                               evidence of suburbanization of the economic activity using OLS esti-
+                                                                                          mation. The estimates are statistically different from zero and were only
+   Table 5 reports the estimates of Equation (1) for night light in-                      robust for several specifications in other suburbs. Better access to
+tensity. 2SLS estimation result is less intuitive, while we find strong                   railway station tended to promote greater night light growth in the
+
+
+
+
+                                                                                     58
+M.H. Yudhistira et al.                                                                                                   Research in Transportation Economics 74 (2019) 52–63
+
+
+Table 5
+2SLS regression results for night light intensity.
+                                               Δ ln(night light)
+
+                                               OLS                          IV
+
+                                               (1)                          (2)                        (3)                        (4)                         (5)
+
+  Panel A: Jakarta. Instruments: old railway and Anyer-Panarukan road
+
+  Δ distance to highway ramp                   −0.0009*                     0.001                      0.001                      0.0008                      −0.0003
+                                               (0.000)                      (0.002)                    (0.002)                    (0.001)                     (0.001)
+
+  distance to railway station                  0.001*                       −0.0001                    −0.0001                    0.0002                      0.0007
+                                               (0.0003)                     (0.0005)                   (0.0005)                   (0.0006)                    (0.0007)
+
+  ln(2000 night light intensity)               −0.769*                      −0.739*                    −0.739*                    −0.741*                     −0.774*
+                                               (0.022)                      (0.035)                    (0.035)                    (0.031)                     (0.024)
+  ln (1961 district population)                Yes                          No                         Yes                        Yes                         Yes
+  Geographical variables                       Yes                          No                         No                         Yes                         Yes
+  Distance variables                           Yes                          No                         No                         No                          Yes
+
+
+
+  N                                            261                          261                        261                        261                         261
+  K-P-F statistic on instruments                                            22.36                      22.36                      26.95                       9.20
+  Adjusted R-sq                                0.936
+
+  Panel B: City suburbs. Instruments: old railway and old primary road
+
+  Δ distance to highway ramp                   −0.002*                      −0.007*                    0.0001                     0.001                       0.002
+                                               (0.001)                      (0.002)                    (0.006)                    (0.003)                     (0.002)
+
+  distance to railway station                  −0.004*                      −0.003                     −0.010                     −0.007                      0.001
+                                               (0.001)                      (0.002)                    (0.011)                    (0.005)                     (0.003)
+
+  ln(2000 night light intensity)               −0.749*                      −0.668*                    −0.711*                    −0.811*                     −0.767*
+                                               (0.020)                      (0.037)                    (0.029)                    (0.037)                     (0.021)
+
+  ln (1961 district population)                Yes                          No                         Yes                        Yes                         Yes
+  Geographical variables                       Yes                          No                         No                         Yes                         Yes
+  Distance variables                           Yes                          No                         No                         No                          Yes
+  Observations                                 340                          340                        340                        340                         340
+  K-P-F statistic on instruments               –                            7.701                      0.506                      0.929                       7.602
+  Adjusted R-sq                                0.973
+
+  Panel C: other suburbs. Instruments: old railway and Anyer-Panarukan road
+
+  Δ distance to highway ramp                   −0.023*                      0.102*                     0.081*                     0.179*                      0.131**
+                                               (0.002)                      (0.023)                    (0.020)                    (0.046)                     (0.063)
+
+  distance to railway station                  −0.005*                      −0.013*                    −0.025*                    −0.031*                     −0.017**
+                                               (0.001)                      (0.002)                    (0.002)                    (0.005)                     (0.007)
+
+  ln(2000 night light intensity)               −0.300*                      −0.165*                    −0.340*                    −0.427*                     −0.417*
+                                               (0.016)                      (0.021)                    (0.029)                    (0.048)                     (0.060)
+  ln (1961 district population)                Yes                          No                         Yes                        Yes                         Yes
+  Geographical variables                       Yes                          No                         No                         Yes                         Yes
+  Distance variables                           Yes                          No                         No                         No                          Yes
+  Observations                                 871                          882                        882                        882                         882
+  K-P-F statistic on instruments                                            44.47                      47.87                      14.94                       4.837
+  Adjusted R-sq                                0.492
+
+Note: robust standard error in parentheses. ***, **, * indicate statistical significance at 10%, 5%, and 1%. Geographical variables include the ruggedness variable, land
+size, and elevation. Distance variables include the distance to central Jakarta, distance to central district, and distance to coastal line. K-P F-statistic corresponds to
+Kleibergen-Paap F-statistic for weak instrument/s identification test. The null of weak instruments is rejected if the K-P F-statistic on the instrument/s passes Stock-
+Yogo critical value.
+
+other suburbs. On the contrary, the estimates suggest negative effect of                   station. The dependent variable remains 2000–2010 changes in log
+highway improvement the other suburbs.                                                     night light intensity. Odd and even columns represent OLS and 2SLS
+   Table 6 explores the role of transportation stock on night light in-                    estimates, respectively. Columns 1–2, 3–4, and 5–6 are estimates for the
+tensity growth as we argue that the growth may be better explained by                      Jakarta, city suburbs, and non-city suburbs. In general, we find 2SLS
+the stock than the improvement. We estimate the effect of distance in                      and OLS results are relatively similar in coefficient sign but differ in
+2000 distance to the nearest highway ramp and to the nearest railway                       magnitude and significance. The results support previous findings and
+
+
+
+
+                                                                                      59
+M.H. Yudhistira et al.                                                                                                    Research in Transportation Economics 74 (2019) 52–63
+
+
+Table 6
+Alternative specification for night light intensity.
+                                              Jakarta                                      City suburbs                                   Other suburbs
+
+                                              IV                     OLS                   IV                     OLS                     IV                      OLS
+
+                                              (1)                    (2)                   (3)                    (4)                     (5)                     (6)
+
+  2000 distance to highway ramp               0.0003                 0.001**               0.012***               0.001***                −0.009*                 −0.003**
+                                              (0.001)                (0.0004)              (0.006)                (0.0008)                (0.002)                 (0.001)
+
+  2000 distance to railway station            0.0005                 0.0005                −0.003                 0.0005                  −0.005*                 −0.007*
+                                              (0.0006)               (0.0004)              (0.002)                (0.001)                 (0.001)                 (0.001)
+
+  ln(2000 night light intensity)              −0.769*                −0.757*               −0.651*                −0.744*                 −0.391*                 −0.349*
+                                              (0.046)                (0.026)               (0.061)                (0.022)                 (0.021)                 (0.020)
+
+  ln (1961 district population)               Yes                    Yes                   Yes                    Yes                     Yes                     Yes
+  Geographical variables                      Yes                    Yes                   Yes                    Yes                     Yes                     Yes
+  Distance variables                          Yes                    Yes                   Yes                    Yes                     Yes                     Yes
+
+
+
+  Instruments:
+  Old railway                                 Yes                                          Yes                                            Yes
+  Anyer-Panarukan roda                        Yes                                          Yes                                            No
+  Old primary road                            No                                           No                                             Yes
+
+
+
+  Observations                                261                    261                   340                    340                     882                     871
+  K-P-F statistic on instruments              7.755                                        4.777                                          274.6
+  Adjusted R-sq                                                      0.926                                        0.971                                           0.454
+
+Note: robust standard error in parentheses. ***, **, * indicate statistical significance at 10%, 5%, and 1%. Geographical variables include the ruggedness variable, land
+size, and elevation. Distance variables include the distance to central Jakarta, distance to central district, and distance to coastal line. K-P F-statistic corresponds to
+Kleibergen-Paap F-statistic for weak instrument/s identification test. The null of weak instruments is rejected if the K-P F-statistic on the instrument/s passes Stock-
+Yogo critical value.
+
+even suggest stronger evidence of the suburbanization in non-city                        railways service as the new stations in Serpong and Bekasi Line were
+suburbs. Better access to 2000 highway ramps fosters the night light                     mainly opened in less developed communities. As a result, those regions
+growth. This result is supported by the fact that many industrial parks                  experience a better effect of improvement in transportation access than
+were developed in other suburbs, such as in Bekasi regency, exploiting                   more developed regions. A similar reasoning also applies for the dif-
+the Jakarta-Cikampek highways section (Hudalah & Firman, 2012).                          ference of estimates of the effect of highway ramp and railway infra-
+Combining this the finding in the Table 5, we conclude that the                          structure proximities on the change of night light intensity. As the
+highway access will accelerate economic activities in communities near                   transport infrastructure are built in the newly opened location, more
+the ramp. However, as the economic activities near the ramp are so                       people and business activities will move into such location and there-
+dense, any improvement in highway access would prompt more eco-                          fore implies higher electricity use during the night time.
+nomic activities to be located further away from the ramps.
+                                                                                         4.5. Relating the estimates with prior studies
+4.4. Comparing OLS and 2SLS estimates
+                                                                                             We provide empirical evidence of the role of transportation infra-
+    The considerable difference between the OLS and 2SLS estimation                      structure in causing suburbanization in the JMA. Previous studies on
+results further suggests that improvement to the transport infra-                        the urban structure of the JMA only provide descriptive analysis on the
+structure in the JMA is endogenous (Garcia-Lopez et al., 2015). In most                  transportation-urban structure nexus of the JMA (Firman, 2004;
+cases, the 2SLS estimates were larger than were the similar OLS esti-                    Henderson & Kuncoro, 1996; Hudalah & Firman, 2012). Our estimates
+mates. For example, in Panel A of Table 4, at 0.01, this 2SLS estimate                   provide evidence that improvements in transport access as well as the
+for the highway ramp is higher than is the corresponding OLS estimate                    initial condition of transport access promotes suburbanization of both
+of 0.009. In Panel B and Panel C, the difference in magnitude between                    population and economic activity. Specifically, two main findings are
+the 2SLS and OLS estimates are fairly consistent. However, some 2SLS                     provided. Firstly, improvement in highways and better access to rail-
+estimates have a negative coefficient sign.                                              ways led the suburbanization process in such a way that it promoted
+    Among various potential sources of difference discussed by                           greater population density growth and night light intensity in suburbs,
+Duranton and Turner (2012), we argue that reverse causation problem                      although the roles differ. Improvement in highways access promotes
+can explain better these results. Communities where the new roads and                    more people to live in city suburbs, while railway access prompted
+train stations were built likely to have relatively low population den-                  more people to live in other suburbs. Second, suburbanization process
+sity, as well as low population growth, with a small number of economy                   of economic activity, represented by night light intensity, is more evi-
+activities. Instead of the near-city centre location, the government                     dent in other suburbs and rather driven by the stock of the transport
+prefers to build infrastructure in such regions due to a lower cost of land              infrastructure.
+acquisition, e.g. new highways are built by acknowledging the presence                       Our study adds to the literature on infrastructure and sub-
+of old transport infrastructure. Such preference seems even truer for                    urbanization for the case of a city in an emerging country. Despite the
+
+
+
+
+                                                                                    60
+M.H. Yudhistira et al.                                                                                         Research in Transportation Economics 74 (2019) 52–63
+
+
+existing understanding of the transportation-urban structure nexus,              Metropolitan Area (JMA) has experienced dynamic changes in its urban
+data availability issues have meant that empirical evidence has only             spatial structure. This study investigated the extent to which the
+recently been tested. The current literature shows that railways and             changes were driven by transportation infrastructure development in
+highways contribute to urban growth (Atack, Bateman, Haines, &                   the JMA using population data and village-level data from the years
+Margo, 2009; Duranton & Turner, 2012), land use change (Funderburg               2000 and 2010. The novelty of this study lies in using change in night
+et al., 2010), productivity (Datta, 2012; Holl, 2016), drive sub-                light intensity as proxy for economic activity as an alternative variable
+urbanization and decentralization (Baum-Snow, 2007; Garcia-Lopez                 outcome of suburbanization, aside from changes in population density,
+and Angel., 2012; Garcia-Lopez, Holl, and Viladecans-Marsal 2015;                which have been presented by other studies.
+Baum-Snow, Brandt, Vernon Henderson, Turner, & Zhang, 2015;                          By using the instrumental variables approach, we find that highway
+Garcia-López, Hémet, and Viladecans-Marsal 2017), and subcentre                  and railway networks can explain the changes in urban spatial structure
+formation (Garcia-López, Hemet, and Viladecans-Marsal 2017).                     in the JMA. Improvement in highway access leads growth of population
+    Our estimates for the population were relatively small compared to           in city suburbs. In contrast, proximity to the stock of highway access
+the range reported by Garcia-Lopez and Angel. (2012) for highways.               explains why the night light as an alternative proxy of economic ac-
+Nevertheless, our estimates on highways are consistent with other                tivity has positive growth in other suburb areas. Meanwhile, access to
+studies. An additional highway passing city centres has been found to            railways promotes population and night light growth in other suburbs.
+reduce their population by 18% in the USA (Baum-Snow, 2007), 8–9%                    The contribution of this study is relevant as the results provide
+in Spain (Garcia-Lopez, Holl, & Viladecans-Marsal, 2015), and at least           empirical evidence for the case of a typical young primary city in an
+5% in China (Baum-Snow et al., 2015). Furthermore, our estimates for             Asian country. Our analysis is centred on the Jakarta Metropolitan
+railways are rather weak in explaining JMA's suburbanization process,            Area, the primary city in Indonesia, which is characterised by a dis-
+in contrast with 4% increase in population density for each km closer to         proportionately larger population and better transportation infra-
+a railway station in Paris (Garcia-López, Hémet, and Viladecans-Marsal           structure than other urban areas in Indonesia (Morichi & Acharya,
+2017).                                                                           2013). In this case, we found that the improvement of transportation
+    We did not find any closely comparable studies using night light             promotes the sprawling process, the source of which is arguably in-
+intensity as proxy for economic activity and a similar estimation                migration from other provinces. Thus, finding policy packages to bal-
+strategy to explain the suburbanization process. Nonetheless, our re-            ance the sprawl effect and increasing residents' mobility through im-
+sults are in line with a study by Baum-Snow et al. (2015), which finds           proved transportation will be relevant to the local government of the
+that radial railroads displaced industrial GDP as well as employment in          JMA.
+city centres.
+                                                                                 Acknowledgements
+5. Conclusions
+                                                                                    We thank the East Asian Development Network (EADN) Individual
+    As one of the biggest urbanized areas in South East Asia, the Jakarta        Research Grant 2015-2016 for their funding support.
+
+Appendix A. Descriptive Statistics for All Variables
+
+Table A
+Descriptive statistics for all variables.
+
+                                                   JMA                       Jakarta                     City suburbs                    Other suburbs
+
+                                                   Mean        S.D.          Mean           S.D.         Mean             S.D.           Mean             S.D.
+
+  Change in
+    population density (people/hectare)            14.8        19.6          18.9           24.7         27.1             24.0           8.9              11.9
+    night light intensity                          7.8         7.4           0.3            1.4          6.9              7.5            10.5             6.8
+    distance to ramp (kilometers)                  −0.8        2.2           −0.7           1.6          −1.6             3.0            −0.6             1.8
+  Distance to railway station (kilometres)         17.7        13.1          3.3            2.8          11.0             6.6            24.6             11.9
+
+  1961 population at district level (000 people)   1409.5      754.1         2905.0         0.0          1055.4           316.7          1103.4           337.4
+  Distance to coastal line (kilometers)            26.0        15.7          10.5           6.4          26.5             13.3           30.4             15.7
+  Distance to central Jakarta (kilometers)         31.8        15.9          8.4            4.8          26.0             11.1           40.9             10.7
+  Distance to central district (kilometers)        11.9        8.9           4.6            2.4          5.0              2.5            13.7             6.7
+  Ruggedness index                                 19.3        56.8          1.2            2.2          4.8              5.8            30.2             71.5
+  Area size (hectare)                              455.1       469.6         245.3          205.4        252.1            160.2          595.5            547.8
+  Elevation (meter)                                116.1       200.5         18.0           10.7         78.7             94.6           159.5            242.7
+
+  Distance to old railway station (kilometers)     10.8        8.7           2.5            1.9          4.8              2.6            15.5             8.1
+  Distance to Anyer-Panarukan road (kilometers)    11.2        10.2          3.5            3.1          6.5              5.2            15.3             10.8
+  Distance to old primary road (kilometers)        4.9         6.0           0.7            0.6          1.2              1.1            7.5              6.4
+
+
+
+Appendix B. 2SLS results for the JMA
+
+    Table B presents OLS and 2SLS results for the JMA. Focusing on columns 4 and 8, we find improvement of highway access is associated with
+lower population density and night light intensity growth, respectively. In contrast, better railway access increases population density and night light
+intensity growth, respectively. The results for night light intensity also provide early evidence on suburbanization process since quicker growth
+happens in areas far away from the central Jakarta.
+
+
+
+
+                                                                            61
+M.H. Yudhistira et al.                                                                                                                     Research in Transportation Economics 74 (2019) 52–63
+
+
+Table B
+Changes in population density and night light intensity of the JMA.
+
+                                                 Δ ln(population density)                                                        Δ ln(night light)
+
+                                                 OLS                        IV                                                   OLS                     IV
+
+                                                 (1)                        (2)                        (3)                       (4)                     (5)                      (6)
+
+  Instruments: old railway and Anyer-Panarukan road
+
+  Δ distance to highway ramp                     −0.006***                  0.048**                    0.082*                    −0.009*                 −0.020                   0.020
+                                                 (0.003)                    (0.020)                    (0.027)                   (0.002)                 (0.012)                  (0.016)
+
+  distance to railway station                    −0.003*                    −0.007*                    −0.013*                   −0.007*                 −0.005*                  −0.012*
+                                                 (0.001)                    (0.003)                    (0.004)                   (0.001)                 (0.002)                  (0.003)
+
+  ln(2000 population density)                    −0.043*                    −0.097*                    −0.078*
+                                                 (0.013)                    (0.014)                    (0.018)
+
+  ln(2000 night light intensity)                                                                                                 −0.340*                 −0.348*                  −0.359*
+                                                                                                                                 (0.013)                 (0.016)                  (0.017)
+
+  distance to central Jakarta                    −0.003**                   −0.008*                    −0.005**                  0.006*                  0.003***                 0.006*
+                                                 (0.001)                    (0.002)                    (0.002)                   (0.001)                 (0.002)                  (0.002)
+
+  ln (1961 district population)                  Yes                        Yes                        Yes                       Yes                     Yes                      Yes
+  Geographical variables                         Yes                        No                         Yes                       Yes                     No                       Yes
+  Distance variables                             Yes                        No                         Yes                       Yes                                              Yes
+
+  Observations                                   1472                       1472                       1472                      1483                    1483                     1483
+  K-P-F statistic on instruments                                            31.2                       22.99                                             30.7                     19.95
+  Adjusted R-sq                                  0.196                                                                           0.669
+
+Note: robust standard error in parentheses. ***, **, * indicate statistical significance at 10%, 5%, and 1%. Distance variables include distance to central district and
+distance to coastal line. Geographical variables include the ruggedness variable, land size, and elevation. K-P F-statistic corresponds to Kleibergen-Paap F-statistic for
+weak instrument/s identification test. The null of weak instruments is rejected if the K-P F-statistic on the instrument/s passes Stock-Yogo critical value.
+
+Appendix C. Supplementary data
+
+    Supplementary data to this article can be found online at https://doi.org/10.1016/j.retrec.2018.12.003.
+
+
+
+References                                                                                                Regional Science and Urban Economics, 67, 50–63. https://doi.org/10.1016/j.
+                                                                                                          regsciurbeco.2017.07.004.
+                                                                                                      Hassan, Mohammad Mehedy (2017). Monitoring Land Use/Land Cover Change, Urban
+Atack, Jeremy, Bateman, Fred, Haines, Michael, & Margo, Robert A. (2009). Did Railroads                   Growth Dynamics and Landscape Pattern Analysis in Five Fastest Urbanized Cities in
+    Induce or Follow Economic Growth? Urbanization and Population Growth in the                           Bangladesh. Remote Sensing Applications: Society and Environment. https://doi.org/10.
+    American Midwest, 1850-60. NBER Working Paper https://doi.org/10.1215/                                1016/j.rsase.2017.07.001.
+    01455532-2009-024.                                                                                Henderson, Vernon J., Adam, Storeygard, & Weil, David N. (2012). Measuring Economic
+Baum-Snow, Nathaniel, Brandt, Loren, Vernon Henderson, J., Turner, Matthew A., &                          Growth from Outer Space. The American Economic Review, 102(2), 994–1028. https://
+    Zhang, Qinghua (2015). Roads, Railroads and Decentralization of Chinese Cities.                       doi.org/10.1257/aer.102.2.994.
+    Working Paper, no. March: 1–50 https://doi.org/10.1162/REST.                                      Henderson, J Vernon, & Kuncoro, Ari (1996). The Dynamics of Jabotabek Development.
+Baum-Snow, Nathaniel (2007). “Did Highways Cause Suburbanization ? Quarterly Journal                      Bulletin of Indonesian Economic Studies, 32(1), 71–95. https://doi.org/10.1080/
+    of Economics, 122(2), 775–805.                                                                        00074919612331336898.
+Cybriwsky, Roman (1993). City Profile: Tokyo. Cities, 10(1), 2–11.                                    Holl, Adelheid (2016). Highways and Productivity in Manufacturing Firms. Journal of
+Datta, Saugato (2012). The Impact of Improved Highways on Indian Firms. Journal of                        Urban Economics, 93, 131–151. https://doi.org/10.1016/j.jue.2016.04.002.
+    Development Economics, 99(1), 46–57. https://doi.org/10.1016/j.jdeveco.2011.08.                   Huang, Q., Yang, X., Gao, B., Yang, Y., & Zhao, Y. (2014). Application of Dmsp/Ols
+    005.                                                                                                  nighttime light images: A meta-analysis and a systematic literature review. Remote
+Duranton, Gilles, & Turner, Matthew A. (2012). Urban Growth and Transportation, Vols.                     Sensing, 6(8), 6844. https://doi.org/10.3390/rs6086844.
+    1–36.                                                                                             Hudalah, Delik., Viantari, Dimitra, Firman, Tommy, & Woltjer, Johan (2013). Industrial
+Elvidge, C. D., Baugh, K. E., Kihn, E. a., Kroehl, H. W., Davis, E. R., & Davis, C. W. (1997).            land development and manufacturing deconcentration in greater Jakarta. Urban
+    Relation between Satellite Observed Visible-near Infrared Emissions, Population,                      Geography, 34(7), 950–971. https://doi.org/10.1080/02723638.2013.783281.
+    Economic Activity and Electric Power Consumption. International Journal of Remote                 Hudalah, Delik, & Firman, Tommy (2012). “Beyond Property: Industrial Estates and Post-
+    Sensing, 18(6), 1373–1379. https://doi.org/10.1080/014311697218485.                                   Suburban Transformation in Jakarta Metropolitan Region. Cities, 29(1), 40–48.
+Firman, Tommy (2004). New Town Development in Jakarta Metropolitan Region : A                             https://doi.org/10.1016/j.cities.2011.07.003.
+    Perspective of Spatial Segregation. 28, 349–368. https://doi.org/10.1016/S0197-                   Indonesian Bureau of Statistics (2000). Indonesian Population Census 2000.
+    3975(03)00037-7.                                                                                  Indonesian Bureau of Statistics (2010). Indonesian Population Census 2010.
+Funderburg, Richard G., Hilary Nixon, Marlon G. Boarnet, Gavin Ferguson, Craig                        Indonesian Bureau of Statistics (2018). Indonesian Gross Domestic Product.
+    Mcintosh, Timothy Besley, et al. 2010. “New Highways and Land Use Change: Results                 Jones, Gavin W., Rangkuti, Hasnani, Utomo, Ariane, & Mcdonald, Peter (2016).
+    from a Quasi-Experimental Research Design.” Transportation Research Part A: Policy                    Migration, ethnicity, and the educational gradient in the Jakarta Mega-urban Region:
+    and Practice 44 (2): 76–98. https://doi.org/10.1016/j.tra.2009.11.003.                                a spatial analysis. Bulletin of Indonesian Economic Studies, 52(1), 55–76. https://doi.
+Garcia-Lopez, & Angel, Miquel (2012). Urban Spatial Structure, Suburbanization and                        org/10.1080/00074918.2015.1129050.
+    Transportation in Barcelona. Journal of Urban Economics, 72(2–3), 176–190. https://               Letu, Husi, Hara, Masanao, Yagi, Hiroshi, Naoki, Kazuhiro, Tana, Gegen, Nishio,
+    doi.org/10.1016/j.jue.2012.05.003.                                                                    Fumihiko, et al. (2010). Estimating Energy Consumption from Night-Time DMPS/
+Garcia-Lopez, Angel, Miquel, Adelheid Holl, & Viladecans-Marsal, Elisabet (2015).                         OLS Imagery after Correcting for Saturation Effects. International Journal of Remote
+    Suburbanization and Highways in Spain When the Romans and the Bourbons Still                          Sensing, 31(16), 4443–4458. https://doi.org/10.1080/01431160903277464.
+    Shape Its Cities. Journal of Urban Economics, 85, 52–67. https://doi.org/10.1016/j.               Morichi, Shigeru, & Acharya, Surya Raj (2013). Specialties of Asian megacities. In Shigeru
+    jue.2014.11.002.                                                                                      Morichi, & Surya Raj Acharya (Eds.). Transport development in Asian megacities (pp.
+Garcia-López, Àngel, Miquel, Hemet, Camille, & Viladecans-Marsal, Elisabet (2017). Next                   51–77). Berlin: Springer-Verlag.
+    Train to the Polycentric City: The Effect of Railroads on Subcenter Formation.                    Murray, M. P. (2006). Avoiding invalid instruments and coping with weak instruments.
+
+
+                                                                                                 62
+M.H. Yudhistira et al.                                                                                                                  Research in Transportation Economics 74 (2019) 52–63
+
+
+    Journal of Economic Perspectives, 20, 111–132.                                                      International Cooperation Agency (JICA). (2012). Jabodetabek Urban Transportation
+Murray, M. P. (2010). The bad, the weak, and the ugly: avoiding the pitfalls of instrumental            Policy Integration Project in the Republic Of Indonesia (Jutpi). Jakarta.
+    variables estimation. Mimeo.                                                                    UN-Habitat (2016). World Cities Report 2016: Urbanization and Development – Emerging
+Nas, Peter J. M., & Pratiwo (2002). Java and De Groote Postweg, La Grande Route, the                    Futures.
+    Great Mail Road, Jalan Raya Pos. Bijdragen tot de Taal-, Land- en Volkenkunde/Journal           van Ballegoijen de Jong, Michiel (1993). Spoorwegstations Op Java. Amsterdam: de
+    of the Humanities and Social Sciences of Southeast Asia and Oceania, 158.                           Bataafsche Leeuw.
+Rastogi, Vaishali, Tamboto, Eddy, Tong, Dean, & Simburisit, Tunnee (2013). Asia's Next              Winarso, Haryo (2010). Urban dualism in the Jakarta metropolitan area. In A. Sorensen,
+    Big Opportunity: Indonesia's Rising Middle-Class and Affluent Consumers. The Boston                 & J. Okata (Eds.). Megacities: urban form, governance, and sustainability (pp. 163–191).
+    Consulting Group.                                                                                   New York: Springer.
+Stock, James H., & Yogo, Motohiro (2005). Testing for Weak Instruments in Linear IV                 Wooldridge, Jeffrey M. (2010). Econometric Analysis of Cross Section and Panel Data (34
+    Regression. In James H. Stock, & D. W. K. Andrews (Vol. Eds.), Identification and                   2nd edition). Massachusetts: The Mit Press.
+    Inference for Econometric Models, Essays in Honor of Thomas Rothenberg. Vols.                   Yudhistira, M. H., & Sofiyandi, Y. (2018). Seaport status, port access, and regional eco-
+    80–108Cambridge University Press.                                                                   nomic development in Indonesia. Maritime Economics & Logistics, 20(4), 549–568.
+Storeygard, Adam (2016). Farther on down the Road: Transport Costs, Trade and Urban                 Zhao, Naizhuo, Ghosh, Tilottama, Eric, L., & Samson (2012). Mapping Spatio-Temporal
+    Growth in Sub-Saharan Africa. The Review of Economic Studies, 83(3), 1263–1295.                     Changes of Chinese Electric Power Consumption Using Night-Time Imagery.
+    https://doi.org/10.1093/restud/rdw020.                                                              International Journal of Remote Sensing, 33(August), 6304–6320. https://doi.org/10.
+Sutton, P., Roberts, D., Elvidge, C., & Baugh, K. (2001). Census from Heaven: An Estimate               1080/01431161.2012.684076.
+    of the Global Human Population Using Night-Time Satellite Imagery. International                Zhuo, L., Ichinose, T., Zheng, J., Chen, J., Shi, P. J., & Li, X. (2009). Modelling the
+    Journal of Remote Sensing, 22(16), 3061–3076. https://doi.org/10.1080/                              Population Density of China at the Pixel Level Based on DMSP/OLS Non-Radiance-
+    01431160010007015.                                                                                  Calibrated Night-Time Light Images. International Journal of Remote Sensing, 30(4),
+The Coordinating Ministry of Economic AffairsThe Republic Of Indonesia and Japan                        1003–1018. https://doi.org/10.1080/01431160802430693.
+
+
+
+
+                                                                                               63
+

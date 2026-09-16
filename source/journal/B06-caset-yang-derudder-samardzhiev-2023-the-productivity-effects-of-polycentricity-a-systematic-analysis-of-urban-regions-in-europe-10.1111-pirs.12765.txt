@@ -1,0 +1,1125 @@
+[PDF Metadata]
+Source PDF: journal/B06-caset-yang-derudder-samardzhiev-2023-the-productivity-effects-of-polycentricity-a-systematic-analysis-of-urban-regions-in-europe-10.1111-pirs.12765.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           The productivity effects of polycentricity: A systematic analysis of urban regions in Europe
+Subject:         Papers in Regional Science, 102 (2023) 1193-1214. doi:10.1111/pirs.12765 
+Keywords:        agglomeration economies; Europe; polycentricity; productivity; spatial structure
+Author:          Freke Caset
+Creator:         Elsevier
+Producer:        Acrobat Distiller 23.0 (Windows)
+CreationDate:    Tue Dec 19 09:04:57 2023 WIB
+ModDate:         Mon Jan 15 10:31:27 2024 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           22
+Encrypted:       no
+Page size:       484.724 x 697.323 pts
+Page rot:        0
+File size:       679734 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+Received: 27 February 2023         Revised: 7 September 2023   Accepted: 23 October 2023
+
+DOI: 10.1111/pirs.12765
+
+
+
+FULL ARTICLE
+
+
+
+
+The productivity effects of polycentricity: A
+systematic analysis of urban regions in Europe
+
+Freke Caset 1,2                   |       Yuting Yang 1 |         Ben Derudder 1,3,4                   |
+                                      5
+Krasen Samardzhiev
+
+1
+    Department of Geography, Ghent University,
+Ghent, Belgium                                      Abstract
+2
+    Cosmopolis Centre for Urban Research, Vrije     We focus on the extent to which polycentric urban regions
+Universiteit Brussel, Brussels, Belgium             can substitute for the agglomeration economies provided
+3
+    Public Governance Institute, KU Leuven,
+                                                    by large cities. Building on an open-source software tool
+Leuven, Belgium
+4
+                                                    that helps identifying polycentric developments in urban
+    Department of Urban and Regional
+Development Studies, Nicolaus Copernicus            regions, we analyse the spatial structure (in terms of size,
+University, Torun, Poland                           dispersion and polycentricity) of 94 regions across 34
+5
+    Geographic Data Science Lab, University of      European countries and link this to their level of total factor
+Liverpool, Liverpool, UK
+                                                    productivity. We find that both more polycentric regions
+Correspondence                                      and more dispersed regions are associated with lower
+Yuting Yang, Department of Geography,
+Ghent University, Ghent, Belgium.                   productivity levels.
+Email: yutiyang.yang@ugent.be
+                                                    KEYWORDS
+Funding information                                 agglomeration economies, Europe, polycentricity, productivity,
+Fonds Wetenschappelijk Onderzoek,                   spatial structure
+Grant/Award Number: G014119N
+
+                                                    JEL CLASSIFICATION
+                                                    C36, O47, R11, R12, R14, R58
+
+
+
+1       |    I N T RO DU CT I O N
+
+Cities are increasingly embedded into reconfigured urbanized regions, and thereby experience “processes of large-
+scale restructuring and integration of economic activities, spatial forms, and institutional arrangements” (Cardoso &
+Meijers, 2021, p. 1). This worldwide formation of integrated urban regions has become a key area of research in
+urban and regional studies, as illustrated by the emerging popularity of the literature on “city-regions” (Scott, 2019),
+“regional urbanization” (Soja, 2015), “polycentric urban regions” (ESPON 1.1.1, 2004), “extended urbanization”
+(Monte-M
+        or & Castriota, 2018) and “metropolization” (Cardoso & Meijers, 2021).
+       In the European context, the research agenda centred on polycentric urban regions (PURs) is particularly well-
+developed. The PUR concept is used for studying regions that are characterized by synergies between proximate
+
+
+© 2023 The Authors. Papers in Regional Science © 2023 Regional Science Association International.
+
+Pap Reg Sci. 2023;102:1193–1213.                                                  wileyonlinelibrary.com/journal/pirs   1193
+1194                                                                                                         CASET ET AL.
+
+
+
+and densely connected urban centres. This spatial vocabulary is increasingly invoked to examine and explain a range
+of emerging European regional geographies (Harrison et al., 2020, 2023). While PUR research is part of a broader
+research agenda dealing with the resurgence of regions in terms of institution-building, identity formation, and
+emerging spaces of democracy and citizenship, much of the literature has focused on issues of economic develop-
+ment and competitiveness. A key question in this debate centres on describing and explaining the nature of the rela-
+tionship between regional spatial structure and economic productivity (Ouwehand et al., 2022).
+      Despite the relative abundance of spatial-econometric analyses in PUR research, the evidential base remains
+fragmented and uneven (Rauhut, 2017). This is especially striking in this European context, where polycentric devel-
+opment has become a paradigm in regional development policies on a variety of territorial scales (ESPON, 2020;
+Meijers & Sandberg, 2008). Given this, the PUR framework not only serves academic purposes but has increasingly
+“garnered considerable attention for framing territorial politics and governance” around the normative and combined
+goals of achieving territorial cohesion and economic competitiveness (Harrison et al., 2023, p. 1).
+      Nonetheless, empirical evidence for such claims remains scarce and often contradictory (Davoudi, 2007;
+Wegener, 2013), and “urgent questions remain about the veracity of polycentric development as a spatial policy
+tool” (Harrison et al., 2023, p. 3). Against this background, in this paper we build on recent claims (Brezzi &
+Veneri, 2015; Ouwehand et al., 2022; Wang et al., 2019) that it is important to further develop our understanding of
+the relationship between regional spatial structure—focusing on polycentric patterns—and regional economic perfor-
+mance. In so doing, this paper seeks to contribute to an emerging body of research that systematically investigates
+the alleged economic advantages of urban–regional integration at the pan-European scale (Brezzi & Veneri, 2015;
+ESPON, 2012; ESPON 1.1.3, 2006; ESPON 1.4.3, 2007; Meijers et al., 2018; Ouwehand et al., 2022; Vandermotten
+et al., 2007).
+      More specifically, we contribute to this debate by extending recent efforts to analyse polycentric development
+(from a morphological perspective), economic productivity, and their relationship in more innovative ways (see also
+subsection 2.4). First, our analysis builds on more robust, comparative, and reproducible assessments of the spatial
+conditions shaping PURs in a European context. Second, by invoking the method developed by Ouwehand et al.
+(2022), we measure economic productivity in terms of total factor productivity (TFP). Our contribution nonetheless
+extends their work as we: (i) collect data on a more fine-grained territorial level and link this in an innovative way to
+the geographical units constituting our set of PURs; (ii) derive empirical findings for a larger European territory
+including more than twice as many countries; and (iii) verify to extent to which there are spatially dependent rela-
+tions between the variables.
+      We find no empirical evidence for the often-hypothesized positive impact of urban polycentricity on regional
+economic productivity in Europe. We instead observe either a negative or no effect, depending on the inclusion of
+variables reflecting regional population size and spatial dispersion. Our observations thus hint at the continuing
+importance of single-centre agglomeration benefits.
+      The remainder of this paper is organized as follows. We begin by reviewing the key debates relevant to our
+paper. This is followed by a discussion of our research design and subsequently an overview of our empirical results.
+We conclude the paper with an overview of our findings and their implications for a future research agenda.
+
+
+
+2      |       LITERATURE REVIEW
+
+2.1        |    Policy narratives and theoretical foundations
+
+The importance of polycentric development in Europe is emphasized in all key EU strategic documents dealing with
+territorial development: the European Spatial Development Perspective (ESDP, 1999), the EU Territorial Agenda
+2030 (TA, 2030) and the “Pact of Amsterdam” which established an EU Urban Agenda (2016). Many European coun-
+tries also pursue polycentric development policies at the (sub-)national level (Waterhout et al., 2005).
+CASET ET AL.                                                                                                                                                     1195
+
+
+
+        This policy emphasis is fueled by the hypothesis that polycentric urban systems have the potential to reconcile
+the combined goals of more territorial cohesion and more territorial competitiveness (Gløersen, 2007). Theoretical
+substantiation for these policy narratives is largely drawn from scientific debates in the fields of regional science and
+economic geography dealing with the relationship between agglomerations and economic productivity. Here, the
+observation that economic productivity has historically been higher in larger cities is attributed to “agglomeration
+externalities” (see Andersson & Lööf, 2009 for an overview): economic actors may benefit from their presence in
+agglomerations as these offer a diversified and large labour pool, large local markets and strong service provisioning
+(urbanization externalities), as well as advantages that arise from the copresence of actors in the same (localization
+externalities) or another (complexity externalities) economic sector (Van Meeteren, Neal, & Derudder, 2016).
+        However, several studies (e.g., Dijkstra et al., 2013; Meijers & Burger, 2010) suggest that the advantages of
+agglomerations can be “regionalized” and that PURs may reach similar (or even higher) levels of productivity com-
+pared to more monocentric regions with similar populations. This hypothesis was first put forward by Alonso (1973,
+p. 200) through the idea that “small metropoles in megapolitan complexes, such as that on the Atlantic seaboard,
+have much higher incomes than independent metropoles of equivalent size” because these would have access to
+agglomeration benefits of larger neighbouring cities. By referring to the concept of “borrowed size” Alonso argued
+that, while retaining many of the advantages of smaller sized cities, these metropoles “‘enjoy the advantages of
+larger size through their easy access to other centers”’ (Alonso, 1973, p. 200). Recent EU policy papers specifically
+refer to these borrowed size dynamics. For example, ESPON (2020, p. 2) states that polycentric development “is
+about building linkages and joining forces with neighbouring cities and towns in order to ‘borrow’ size and quality, to
+create a stronger critical mass and ensure positive spill-over effects for the development of wider regions.”
+        However, for all this policy emphasis on polycentric development and its supposed advantageous impact on eco-
+nomic productivity, the evidential base remains fragmented. The increasing number of empirical studies investigating
+this link in different countries worldwide (China in particular) and at different geographical scales (within “cities” and
+within “[mega]regions”) has led to an increasingly heterogenous collection of outcomes. Some of these studies find
+evidence that polycentricity is associated with higher economic productivity (e.g., Meijers & Burger, 2010;
+Meijers, 2013 for the case of US metropolitan areas and Veneri & Burgalassi, 2012 for Italian NUTS 2 regions),
+whereas others find negative (e.g., Li et al., 2019 for Chinese prefecture-scale regions and Veneri & Burgalassi, 2011
+for Italian NUTS 3 regions) or no significant relations (e.g., Lee & Gordon, 2007 for the case of US metropolitan
+areas).
+        What is largely absent from this literature are studies that systematically investigate this relationship at the scale
+of the European territory. Additionally, the literature has predominantly focused on the “intra-urban” scale (the orga-
+nization of cities at the local level; Davoudi, 2003), as opposed to analyses at the “interurban” (or regional) scale (Van
+Meeteren, Poorthuis, et al., 2016). From the perspective of the European Union-wide policy agenda on urban devel-
+opment and regional productivity, the latter scale is arguably very important (Meijers, 2008). In the next section, we
+therefore zoom in on the few studies that have linked regional polycentricity and economic productivity in a system-
+atic way at the European scale, and we interpret, compare and discuss their findings.
+
+
+
+2.2          |    Diverging findings at the pan-European level
+
+Table 1 provides an overview of empirical studies that have systematically investigated the link between polycentric
+urban regions and regional economic productivity at the European scale.1 We list their geographic scope, the key
+characteristics of their analytical-operational scheme, and a summary of their main findings.
+
+
+
+
+1
+    While the work of Meijers et al. (2018) (investigating functional, institutional, and cultural integration across PURs in Europe) closely aligns with this
+research purpose, it does not explicitly analyse the relationship between degrees of urban polycentricity and economic productivity.
+                                                                                                                                                                                      1196
+T A B L E 1 Studies linking polycentricity and economic performance at the pan-European level (the “+’, “-” and “ ” signs indicate statistical significance: positive, negative or
+not significant).
+
+                                        Analytical-operational scheme
+
+                                                                                              Measurement of
+                                        Unit of        Scale of         Measurement of        economic            Measurement
+  Source            Geographicscope     analysis       analysis         polycentricity        performance         of relationship   Main findings
+
+  ESPON 1.1.1       29 countries        Functional     National         Polycentricity        GDP/capita          Correlation       More polycentric countries tend to be     +
+    (2004)                                urban                           index                (measured at         analysis         associated with a higher GDP/capita.
+                                          areas                           (morphological, 7    the national                          These correlations are stronger for
+                                                                          subindicators)       level)                                the old EU-15 than for the recently
+                                                                                                                                     accessed countries.
+                                                                                                                                                                              
+  ESPON 1.4.3       29 countries        Functional     National         Polycentricity        GDP/capita:         Correlation       No significant correlation was found,
+    (2007)                                urban          “macro-          index                growth over          analysis         but from the direction of the
+                                          areas          regions”         (morphological, 5    time (measured                        correlation it appears that the more
+                                                                          subindicators)       at the national                       monocentric countries score slightly
+                                                                                               and NUTS 3                            better.
+                                                                                               level)
+  Vandermotten      25 countries        Functional     National         Polycentricity        GDP/capita:         Correlation       More monocentric regions are more         
+    et al. (2007)                         urban          “macro-          index                growth over          analysis         successful, both at the scale of the
+                                          areas          regions”         (morphological, 4    time (measured                        state and of the macro-regions.
+                                                                          subindicators)       at the national
+                                                                                               and NUTS 3
+                                                                                               level)
+  Meijers and       20 countries        Functional     National         Polycentricity        GDP/capita and      Correlation       The more polycentric a country's urban    
+   Sandberg                               urban                           index                unemployment         and               system is, the more there exist
+   (2008)                                 areas                           (morphological, 2    rate: growth         regression        regional disparities in terms of GDP
+                                                                          subindicators)       over time            analysis          per capita within that country.
+                                                                                               (measured at
+                                                                                               the NUTS 2
+                                                                                               level)
+  Brezzi and        29 countries        Functional     National         Primacy and rank-     GDP/capita          Regression        Relatively more monocentric regions       +/
+    Veneri                                urban          regional         size distribution    (measured at         analysis          have higher GDP per capita than their
+    (2015)                                areas                           (morphological)                                             more polycentric counterparts
+                                                                                                                                                                                      CASET ET AL.
+                                                                                                                                                                                  CASET ET AL.
+
+
+
+
+TABLE 1        (Continued)
+
+                                      Analytical-operational scheme
+
+                                                                                            Measurement of
+                                      Unit of         Scale of        Measurement of        economic            Measurement
+ Source             Geographicscope   analysis        analysis        polycentricity        performance         of relationship   Main findings
+
+                                                                                              the OECD TL2                          (regional level). At the country level,
+                                                                                              level)                                however, polycentricity is associated
+                                                                                                                                    with higher GDP per capita
+ Meijers and        27 countries      Functional      Regional        Herfindahl–           Presence of         Correlation       Borrowed size processes appear to           +
+  Burger                                urban                           Hirschman Index       metropolitan        analysis and      occur more frequently in polycentric
+  (2017)                                areas                           (morphological)       functions           regression        as compared to monocentric
+                                                                                              (measured at        analysis          metropolitan areas.
+                                                                                              the LAU2 level)
+                                                                                                                                                                              
+ Ouwehand           16 countries      OECD TL2        Regional        Rank-size             Total factor        Regression        Polycentric urban structures have no
+  et al. (2022)                        regions                          distribution          productivity        analysis and      directly identified impacts on
+                                                                        (morphological)       (TFP) (measured     instrument        productivity and polycentricity
+                                                                                              at the OECD         variables         negatively impacts regional
+                                                                                              TL2 level)          analysis          productivity as size increases.
+ This paper         34 countries      Urban           Regional        Polycentricity        Total factor        (Spatial)         More polycentric regions are associated     
+                                        centres                         index                 productivity        regression       with lower levels of productivity,
+                                        (GHSL                           (morphological, 4     (TFP) (measured     analysis and     especially when the population in
+                                        definition)                     subindicators)        at the NUTS 3       instrument       those regions is also more dispersed.
+                                                                                              level)              variables
+                                                                                                                  analysis
+
+
+
+
+                                                                                                                                                                                  1197
+1198                                                                                                                                              CASET ET AL.
+
+
+
+        It is clear from this exercise that findings diverge significantly. While ESPON 1.1.1 (2004) finds a positive associ-
+ation, ESPON 1.4.3 (2007) does not, and argues that more monocentric countries perform slightly better. The latter
+conclusion is shared by Vandermotten et al. (2007) and Meijers and Sandberg (2008). Brezzi and Veneri (2015), in
+turn, find diverging outcomes at different scales: a positive association at the national level and a negative one at the
+regional level. Contrary to the latter finding, Meijers and Burger (2017) conclude that borrowed size processes
+appear to occur more frequently in more polycentric metropolitan areas. The most recent study by Ouwehand et al.
+(2022) finds no direct impact of polycentricity on productivity and argues that the impact is more markedly negative
+when urban size increases.
+        Part of the reason for this fragmented evidential base is the lack of a common and shared understanding of what
+polycentricity is and how it should be measured. For example, in the case of the two conflicting ESPON report find-
+ings, Meijers (2008a) illustrated that both studies build on different conceptualizations (purely morphological versus
+the inclusion of “functional aspects”2) and measurements (a rank-size distribution versus a primacy or a standard
+deviation-based approach) of polycentricity. In fact, this observation applies to all studies in Table 1 and is evident
+from the variety in analytical-operational schemes; while all studies devised morphological indicators (which measure
+a degree of “balance” between morphologically defined urban centres), the type of subindicators used, their compo-
+sition into an aggregate index, units and scales of analysis all vary. As Derudder et al. (2021) have demonstrated
+empirically, even slight differences in how these elements are defined and operationalized may result in very differ-
+ent empirical outcomes.
+        A similar explanation holds for the way in which economic productivity is measured. Next to differences in geo-
+graphical scales (ranging from the national to a range of regional levels), Table 1 includes different analytical schemes.
+The majority employs (growth in) gross domestic product (GDP) per capita, under the assumption that it proxies a
+region's overall productivity. An evident reason for the abundance of this measure in pan-European studies is its data
+availability across (sub)national scales. More recently, however, Ouwehand et al. (2022) introduced total factor pro-
+ductivity (TFP) as an allegedly “better” measure for analysing differences in regional economic development in a
+European context (see also subsection 2.4). In any case, earlier work in this European context (Brezzi & Veneri, 2015;
+Spiezia, 2003) demonstrated that economic productivity measures are very sensitive to the level of territorial disag-
+gregation at which data are gathered. Additionally, different measures may lead to different outcomes (Meijers &
+Sandberg, 2008).
+        Over and above the observation that different analytical-operational schemes may contribute to different find-
+ings, several other arguments are invoked by the different studies listed in Table 1 to help make sense of these
+diverging outcomes. In the next section, we turn to those empirical findings in Table 1 that seem particularly counter-
+intuitive when reasoning from the optimistic EU policy narrative discussed in the previous section.
+
+
+
+2.3         |     Making sense of nonsignificant and negative associations
+
+Studies that arrive at negative or non-significant relations between the degree of regional polycentricity and produc-
+tivity levels imply that agglomeration economies did not regionalize to the extent anticipated in policy circles. Several
+explanations have been put forward.
+        ESPON 1.4.3 (2007, p. 232) largely avoids discussing plausible explanations for the non-significant correlations
+found, but the authors do indicate that interpretations should be situated “in the framework of a globalization and
+tertiarization of the economy benefiting big cities, which are the strongest integration nodes in the world economy.”
+Vandermotten et al. (2007, p. 56) agree by stating that the negative link “seems consistent with the main present
+trends towards more globalization, which favor the main advanced service nodes of the world-wide economy.” From
+
+
+2
+    Note that these “functional aspects” should not be interpreted as reflecting actual relationships between urban centres. Rather, they pertain to indicators
+that measure the intensity of particular (administrative, cultural, tourism, etc.) functions.
+CASET ET AL.                                                                                                             1199
+
+
+
+this perspective, economic competitiveness is (most) strongly interwoven with the position of cities and regions in
+systems of global production networks (Lambooy, 1998; McCann & Acs, 2011) and less so with a regionalization of
+local agglomeration benefits.
+    Brezzi and Veneri (2015, p. 15) argue that the negative link at the regional scale suggests “that physical dis-
+tance and agglomeration of people and workers have an important role for socio-economic conditions in regions.”
+In other words, regionalized agglomeration economies do not replace single-centre agglomeration effects, because
+“physical proximity is still more important than relational proximity at the regional scale” (Veneri &
+Burgalassi, 2011, p. 4). As pointed out in Meijers and Burger (2017), these outcomes correspond to earlier empirical
+work in the Netherlands in which PURs were linked to lower performance due to a (hypothesized) need for longer
+travel and commodity flows, less convenient information flows, and a duplication of lower order urban functions in
+subcentres due to interurban competition and rivalry (see also Parr, 2004). Besides the continuing importance of
+physical proximity (however, see Hesse, 2014), Parr (2004) mentions the related advantages that urban density
+may bring in terms of face-to-face or unplanned interaction, and suggests that PURs may be loci of “economic
+stress” due to small-scale infrastructure facilities, dispersed urban populations, the lack of high-order business ser-
+vices and competition between centres.
+    Some of these elements are also raised by Partridge et al. (2009) for the United States and Meijers and
+Burger (2017) for Europe, by suggesting that a negative link between PURs and economic performance may be
+attributed to “growth shadow effects” or “agglomeration shadows.” This concept, which emerged in new eco-
+nomic geography (NEG) (Krugman, 1991) circles, describes a situation in which growth near concentrations of
+firms may be limited due to competition effects (for instance, concentration of productive activities in one region
+may drive up land rents and housing prices). As suggested by Meijers and Burger (2017, p. 274), this shadow
+effect of firm agglomeration on surrounding areas can manifest itself in a PUR context, because “neighbouring
+cities may cast an agglomeration shadow, consequently limiting development opportunities.” In other words, the
+existence of agglomeration shadows may prevent urban areas from developing too closely to other (equal or
+larger size) urban areas.
+    Ouwehand et al. (2022, p. 58) do not elaborate on their finding that polycentricity does not have a significant
+positive effect on productivity in European regions, other than stating that “the urbanization externalities derived
+from multiple city cores do not substitute for those achieved with a structure relying on singular, larger cities.” In line
+with Meijers and Burger (2010) and Veneri and Burgalassi (2011) they do however include additional variables cap-
+turing different aspects of regional spatial structure that may help qualify their observations: (i) urban size; and (ii) a
+degree of dispersion. It may indeed make sense to incorporate these characteristics (and examine their interaction
+effects with polycentricity) since the (potential) effect of a polycentric urban–regional structure obviously does not
+operate in isolation of other (potential) spatial effects. In fact, in a European context: (i) the size of the constituent cit-
+ies in a PUR has been associated with higher regional productivity (Meijers & Burger, 2017; Ouwehand et al., 2022;
+Veneri & Burgalassi, 2011); and (ii) the extent to which a region's population is dispersed across its territory may
+impact economic productivity (Veneri & Burgalassi, 2011 found a negative relationship while Ouwehand et al.'s work
+did not yield any significant results). When modelling the combined effects of size and polycentricity, Meijers and
+Burger (2010) and Ouwehand et al. (2022) both find that polycentricity negatively impacts regional productivity as
+size (measured in terms of aggregated regional population) increases. In other words: “polycentricity does not work
+for urban regions with a relatively larger population in particular” (Ouwehand et al., 2022, p. 58). While this seems to
+align with Alonso's (1973) original reflections on borrowed size (in which especially smaller cities in multicentric met-
+ropolitan areas would reap the benefits of agglomeration), Veneri and Burgalassi (2011) find no such evidence and
+Meijers and Burger (2017, p. 284) arrive at a positive interaction effect of size and polycentricity, as “borrowed size
+effects occur more often in larger cities, and especially among those that form part of a polycentric metropolitan
+entity.”
+1200                                                                                                          CASET ET AL.
+
+
+
+2.4        |    Proposed approach
+
+In the previous subsections we took stock of a number of important developments in the literature on territorial gov-
+ernance and the economic productivity/spatial structure nexus, focusing specifically on the European context. In this
+paper, we build on these and at the same time incorporate a number of original contributions which are outlined in
+the next paragraphs.
+      Subsection 2.2 elaborated on the thorny issue of different analytical-operational frameworks possibly leading to
+different outcomes. In terms of the measurement of urban polycentricity, this paper addresses this issue by building
+on recent contributions in the PUR literature (Caset et al., 2022; Derudder et al., 2021) that have culminated in the
+development of an open-source software tool called PURban. This tool brings together the major analytical-
+operational frameworks and datasets in urban polycentricity research and identifies, maps, and analyses degrees of
+morphological polycentricity in European urban systems. It integrates several different measures (such as rank-size
+rule or standard deviation-based approaches) and it allows us to tailor several analytical specifications (such as a max-
+imum spacing between urban centres or a minimum population potential). Additionally, our analysis is not confined
+to administrative urban and regional/national delineations. Thus, unlike a “modular approach” (Ouwehand
+et al., 2022, p. 54) which is employed “for the sake of simplicity” (Brezzi & Veneri, 2015, p. 9) in which cities cannot
+transcend regional borders, our approach is not dictated by administrative territorialities but by the morphological
+realities on the ground. We believe our analysis builds on more robust, comparative and reproducible assessments of the
+spatial conditions shaping PURs in a European context.
+      In terms of measuring economic productivity, we draw on recent work arguing that, in a European context, it
+may be particularly relevant to analyse differences in regional economic development in light of a measure that cap-
+tures technological sophistication and production efficiency: total factor productivity (TFP). This was recently
+suggested by Beugelsdijk et al. (2018, p. 462), who clarified that “contemporary EU Cohesion Policy emphasizes the
+role of technological progress, innovation and knowledge externalities (…), recognizing that improvements in produc-
+tivity are key to enhancing regional economic performance, and that innovation and knowledge creation are critical
+to achieve such productivity gains.” Their work subsequently demonstrated that differences in economic develop-
+ment across subnational regions in Europe can largely be attributed to differences in TFP. Here, we invoke an
+analytical-operational scheme to measure economic productivity in terms of TFP initially developed by Ouwehand et al.
+(2022).
+      While Ouwehand et al. (2022) also calculated TFP and linked this to spatial structure in European regions, our
+work differs in several respects. First, as mentioned in subsection 2.2, economic productivity measures are highly
+sensitive to the level of territorial disaggregation at which data are gathered. Compared to Ouwehand et al., we col-
+lect data on a more fine-grained territorial level (NUTS 3 instead of OECD TL2 level) and link this in an innovative
+way to the geographical units of the urban centres in urban regions (URs) (see subsection 3.3 and the Appendix S1
+for more detail). Briefly summarized, we work with more recent data at a more fine-grained territorial level (the level of
+urban centres and of NUTS 3 regions) and devise a methodology that links both scales and is able to deal with situa-
+tions in which urban centres cross administrative borders. Second, compared to Ouwehand et al. (and the other
+sources in Table 1), we derive empirical findings for a larger European territory, including more than twice as many
+countries as Ouwehand et al. (2022). And third, drawing on spatial-econometric techniques, we verify the extent to
+which there are spatial dependencies between the variables in the models.
+
+
+
+3      |       DATA AND METHODS
+
+Our analysis comprises 34 European countries, focuses on interurban polycentricity at the regional scale, adopts a
+morphological perspective by drawing on the “degree of urbanization” framework (Dijkstra & Poelman, 2014), mea-
+sures economic productivity in terms of TFP, includes additional spatial structure variables (size and dispersion), and
+CASET ET AL.                                                                                                                                                    1201
+
+
+
+
+F I G U R E 1 Empirical scope and degrees of polycentricity for the 94 urban regions under scrutiny (a), and focus on
+three areas with the highest degrees of polycentricity (b, c, d).
+
+
+
+assesses the link between spatial structure and economic productivity by means of regression and instrument vari-
+ables analysis. These key operational aspects are briefly spellt out below.
+
+
+
+3.1          |     Centre definition, polycentricity measurement and field of study
+
+PURban, presented in Caset et al. (2022), defines the building blocks (or “cities”) of PURs on the basis of the Global
+Human Settlement Layer (GHSL) Urban Centre Database (hereafter GHS-UCDB, see Florczyk, Corbane, Schiavina,
+et al., 2019). This database is based on the “degree of urbanization” concept (Dijkstra & Poelman, 2014), which
+devises a consistent definition of urban areas to create a global database of “urban centres” (UCs). By this token,
+each UC is a high-density cluster of contiguous grid cells of 1 km2 with a population density of at least 1,500 inhabi-
+tants per km2 or a built-up area of at least 50%, and a minimum total population of 50,000. In total, the 34 countries
+of our analysis contain 734 UCs3 (see Figure 1a for a geographical representation of all (centroids) urban centres in
+the analysis).
+         To systematically calculate degrees of polycentricity across the European territory, PURban takes an algorithmic
+approach built around the key spatial conditions for morphological polycentricity as outlined by Parr (2004), that is, a
+sizable regional cluster of individual centres that are in close proximity to each other, without pronounced
+
+3
+    We selected all UCs located in EU countries, except for those located on islands (i.e., in Iceland, Corsica, Sardinia, Ibiza, Mallorca and Crete). In addition,
+non-EU UCs that are geographically situated in-between other EU states (i.e., Kaliningrad belonging to Russia and the UCs located in Switzerland, Serbia,
+Albania, and other non-EU Balkan countries) are included.
+1202                                                                                                                                               CASET ET AL.
+
+
+
+differentiation between these centres in terms of size or importance. We translated these conditions into four
+parameters listed below:
+
+
+1. Geographical scale: a maximum travel time between any pair of UCs of 45 min (by road, traffic congestion delays
+       included).4 This maximum limit stems from the need for sustained, face-to-face interaction for borrowed size to
+       occur (Meijers & Burger, 2017), and the 45 min corresponds to an acceptable European travel to work distance
+       (ESPON 1.1.1, 2004; Meijers et al., 2018). The focus on commuting is sensible since (specialized) labour market
+       integration is a significant driver of borrowed size effects (Phelps, 1998).
+2. Minimum number of urban centres: a minimum of two urban centres in a PUR, in line with Meijers et al. (2018),
+       Brezzi and Veneri (2015) and others.
+3. Critical mass: PURs at least have 1.5 million inhabitants. This threshold is derived from the work of McCann and
+       Acs (2011), who demonstrated that an urban agglomeration of 1.5 to 2 million people is a necessary condition for
+       agglomeration externalities to develop.
+4. Balance in importance: this parameter consolidates the four most common indicators from the European PUR lit-
+       erature: a primacy index (Burger et al., 2011), a Herfindahl index (Meijers et al., 2018), a rank-size slope measure
+       (Burger & Meijers, 2012) and a standard deviation-based index (Green, 2007). Combining all indicators, we calcu-
+       late a composite polycentricity index5 that reflects the degree of morphological polycentricity for all PURs that met
+       criteria one to three. The higher the index value the higher the degree of polycentricity. Following Meijers and
+       Burger (2010), we only work with the largest (in terms of total population) four urban centres of each potential
+       PUR to calculate the polycentricity index. As empirically demonstrated by Derudder et al. (2021), this allows for a
+       higher comparability among regions.
+
+
+To summarize, in a first step, we invoke PURban to screen the area around each individual UC to verify if the condi-
+tions set by parameters 1 to 3 are satisfied. In other words, it verifies if a UC is surrounded by other UCs that are
+within a 45 min driving time, and if so, it verifies if the combined population of these UCs is at least 1.5 million. Build-
+ing on this procedure, we identify a total of 94 unique urban regions (URs) located in 10 countries (see Figure 1a).
+This set of URs constitutes the empirical foundation for our analysis.
+        In a second step, we use PURban to calculate a composite polycentricity index (specified in parameter 4) for all
+94 regions. These index values are visualized in Figure 1a. It is clear from this figure that some URs are much more
+polycentric than others, with degrees of polycentricity varying from very low (e.g., URs Warsaw, Madrid, Barcelona
+and Budapest) to very high (e.g., URs Amsterdam, Dusseldorf, Loughborough and Kettering). From Figure 1a, we can
+conclude that the overall geography of more polycentric URs largely corresponds with that in related research
+(e.g., ESPON 2005; Rozenblat, 2009; Meijers et al., 2018). Regions with a high density of closely spaced and bal-
+anced UCs with sufficient population are plentiful along the European “dorsal axis,”, stretching from the north of
+England to Sicily (Rozenblat, 2009). The strongest degrees of polycentricity are situated along this axis, with the Mid-
+lands and the Liverpool–Leeds area in the United Kingdom (Figure 1b), the Randstad in The Netherlands (Figure 1c),
+and the Rhine–Ruhr and Rhine–Main metropolitan areas in Germany (Figure 1d) characterized by both the highest
+prevalence of PURs and the highest polycentricity index values.
+
+
+
+3.2          |    TFP measurement and spatial regression techniques
+
+It is important to note that PURban's algorithmic approach (which loops from the first to the last UC in the database)
+may lead to situations where (partly) overlapping URs are generated. URs that are composed of exactly the same set
+
+4
+    As we only take into consideration car travel, this creates a bias in all areas where a significant proportion of the population commutes by train.
+5
+    The composite index was calculated using a min-max normalization for each of the four indicators. The average of these values was calculated, after which
+another min-max normalization was performed to arrive at a composite index with values ranging from 0 to 1.
+CASET ET AL.                                                                                                                                                 1203
+
+
+
+of urban centres (leading to exactly the same aggregated indicator values) only feature once in the dataset. For the
+94 URs identified, we verify to what extent spatial autocorrelation is present in the data and address this issue by
+means of spatial econometric modelling. We apply the LeSage and Pace (2009) approach, which argues that the spa-
+tial Durbin model is the best point of departure to find out which model is the most likely candidate to explain the
+data. We test several different specifications of this model and find that the spatial autoregressive model (SAR) is
+most suitable for our analysis.6
+        Similar to Ouwehand et al. (2022), the model we outline is a series of factors potentially influencing a region's
+TFP. The calculation of TFP is the result of predicting the residuals of Equation (1a):
+
+                                                                                         
+                                                  ln GVAj ¼ ρ1 Wln GVAj þ κ ln K j þ δ ln Lj þ εj,                                                           ð1aÞ
+
+
+where the production factors capital (K) and labour (L) predict gross value added (GVA) for each PUR j (thereby
+including all economic sectors present in the region). In turn, these residuals reflecting TFP are the dependent vari-
+able for the main model of this paper predicting regional productivity in URs, given by Equation (1b):
+
+                                                                                   
+                                      TFPj ¼ α0 þ ρ2 WTFPj þ α1 POLY j þ α2 ln POPj þ α3 DISPj þ α4 X j þ εj:                                                ð1bÞ
+
+
+        Since the production factors of capital and labour are already incorporated in the computation of TFP itself,
+these are no longer explicitly included in the second model. ρ2 and ρ1 (Equation 1a) are spatial autoregressive
+parameters.
+        W represents the spatial weight matrix, reflecting the structure of the spatial linkages that exists between the
+observational units. Since we deal with an issue of partly overlapping URs, we used a contiguity-based weight matrix
+with the following rule: for any pair of PURs i and j, the elements of the W matrix are defined as:
+
+                                        
+                                            1, in case there is at least one UC that is shared between PURs i and j
+                               W ij ¼
+                                                                          0, otherwise:
+
+
+        The remaining factors that we take into consideration are: “POLY” (the polycentricity index as per
+subsection 3.1), “POP” (the aggregate regional population of all the urban centres in the UR), “DISP” (the degree to
+which POP is dispersed across urban centres in the UR, expressed as the number of urban centres in the UR), and
+“X” (a set of control variables that were derived based on the literature on regional productivity). The control
+variables can be classified into three groups controlling for the potential impact of:
+
+
+1. human capital (“HUM”) (as in Ouwehand et al., 2022), measured here as the number of people employed in
+       knowledge-intensive sectors;
+2. infrastructure connectivity (“ACC”) (as in Meijers, 2007), measured here as the ease with which urban centres in
+       Europe can be accessed by means of different transport modes;
+3. innovation levels (“INNO”) (as in Meijers & Burger, 2010), measured here as the number of 4.0 patents per 1000
+       inhabitants of each region (indexed with respect to the ESPON countries' average).
+
+
+
+
+6
+    First, we calculated the Lagrange multiplier robustness tests to examine the presence of spatial correlation in our data. The results point out that spatial
+effects are indeed present and that a spatial model is to be preferred. We then verify if the spatial Durbin model (SDM), incorporating spatially lagged
+terms for both independent and dependent variables, could be reduced to either a spatial lag model (SLR), which captures spatial lag in the independent
+variables, a spatial autoregressive model (SAR), which includes spatial lag in the dependent variables, or a spatial error model (SEM), which includes spatially
+lagged error terms. Following a likelihood ratio test, the results indicate that SAR is preferred over SLX, SEM or SDM (we refer to Appendix S3 for the
+diagnostics).
+1204                                                                                                                                           CASET ET AL.
+
+
+
+The following subsection provides a detailed list of all data sources and indicators and discusses the data collection
+procedure in more detail.
+        Importantly, while our regression model assumes that polycentricity affects regional TFP, causality (if any) may
+also work in the opposite direction; there is a potential bidirectionality inherent to the structure-productivity relation,
+as regional productivity may itself also influence a region's growth or its spatial organization (Ciccone, 2002;
+Parr, 1979). To estimate to what extent the regressors are exogenous to the model, this paper relies on a generalized
+spatial two-stage least square regression (GS2SLS). GS2SLS uses instrumental variables (IVs) that are uncorrelated
+with the error terms to compute estimated values of the predictor(s) (the first stage), and then uses those computed
+values to estimate a linear regression model of the dependent variable (the second stage). Importantly, the instru-
+ments need to fulfil two conditions: they should be relevant (not weak) and valid (exogenous) (see also Meijers &
+Burger, 2010). In the case these two conditions are satisfied, SAR regression modelling should be preferred over the
+GS2SLS estimations as it is a more efficient predictor.
+        For this purpose and drawing on the approach used in earlier studies (Ciccone, 2002; Meijers & Burger, 2010;
+Ouwehand et al., 2022), we compute instrumental variables based on historical population figures. Based on addi-
+tional coding,7 we calculate historical (for the year 1975) degrees of polycentricity (“POLY_HIST”), regional popula-
+tion sizes (“POP_HIST”) and degrees of dispersion (“DISP_HIST”) (see also Table 2). The key assumption is that these
+IVs were instrumental in shaping today's regional spatial structure but that they are not related to today's degree of
+regional economic productivity.
+
+
+
+3.3         |     Data and data collection procedure
+
+Table 2 provides a detailed overview of all indicators used. Many indicators were constructed based on data pro-
+vided by ESPON, as these data are openly available and provide the most recent evidence at the NUTS 3 territorial
+scale. Importantly, gross fixed capital (CAP) data are only available at the NUTS 2 scale. We disaggregated these data
+to the NUTS 3 scale with the help of a covariate variable “active enterprises,” using an R package for Bayesian
+Spatial Disaggregation Modelling (Nandi et al., 2020).
+        The majority of variables (see Table 2) provide data at the NUTS 3 level. However, since the “urban centres”
+constitute the unit of analysis for the computation of the degrees of polycentricity, we ultimately need to arrive at
+economic and control variables for the same spatial scale (only for POP and DISP there is no issue). In an ideal situa-
+tion, the contours of each UC neatly fall within the contours of one NUTS 3 region. This is the case for many UCs
+and results in a straightforward allocation of data from the NUTS 3 level to the UC in question. There are, however,
+also a number of cases in which this ideal situation does not occur: some NUTS 3 regions host two or more UCs,
+some UCs are located in multiple NUTS 3 regions, and in some situations combinations of both scenarios are pre-
+sent. In order to illustrate how we dealt with these situations, we discuss two examples illustrated in Figure S1. In
+general, we use surface proportions to allocate data in case an UC is located in multiple NUTS regions and/or in case
+multiple UCs are located in one NUTS region. Depending on whether the data reflect absolute values (as with
+“CAP”) or not (as with “ACC”), a different value allocation procedure is implemented. Once these data were gener-
+ated at the level of individual UCs, the values were aggregated to calculate a total indicator score for each PUR.
+Again, depending on whether values are absolute or relative, a different aggregation procedure was followed (see
+also Figure S1).
+
+
+
+
+7
+    In the GHS-UCDB, the population totals of the urban centres for the year 1975 are calculated using the spatial confines of the 2015 urban centres. In
+order to improve the accuracy of these historical estimates, we developed our own set of urban centres for the year 1975 by replicating the methodology
+described by Florczyk, Corbane, Ehrlich et al. (2019).
+TABLE 2           Overview of variables, data sources and descriptive statistics.
+
+                                                                                                            Territorial                                                                          CASET ET AL.
+                                                                                                            unit of       Missing                   Standard
+ Variable                Abbr         Measurement                     Data source         Year of data      analysis      values*         Mean      deviation   Min      Max       Unit
+
+ Total factor            TFP          TFP is the result of            /                   /                 /             /               /         /           /        /         /
+   productivity                         predicting the residuals in
+                                        Equation (1a)
+
+ Gross value added       GVA          EU27: GVA at basic prices       Eurostat            2018              NUTS 3        0.5% (Ticino,   109,779   58,506      22,010   272,414   Million €
+                                                                                                                (2016)        CH)
+
+                                      UK: GVA at current basic        Office for          2018              NUTS 3
+                                        prices                            National                              (2016)
+                                                                          Statistics
+
+ Labour                  LAB          EU27: Total employment          Eurostat            1980–2023         NUTS 3        5% (regions     1779      654         104      3494      500 people
+                                        (workplace-based)                 (Ardeco)                              (2016)        around
+                                                                                                                              Glasgow
+                                      UK: Numbers of persons          Office for          2015–2017         NUTS 3
+                                                                                                                              and
+                                        employed by occupation            National                              (2016)
+                                                                                                                              Edinburgh
+                                        code                              Statistics
+                                                                                                                              + Ticino,
+                                                                                                                              CH)
+
+ Capital                 CAP          Gross fixed capital formation   Eurostat            2015 (capital),   NUTS 3        0,5% (Ticino,   22,671    14,215      2007     65,974    50,000 €
+                                        by NUTS 2 region,                 (capital) and       2014              (2013)        CH)
+                                        disaggregated to the              ESPON               (active)
+                                        NUTS 3 level by using the         database            enterprises
+                                        covariate variable “active        (active
+                                        enterprises’                      enterprises)
+
+ Polycentricity          POLY         Degree of morphological         GHS-UCDB,           2015              Urban         No              0.53      0.22        0.00     1.00      /
+                                        polycentricity                    HERE                                  centre
+                                                                          routing API
+
+ Urban size              POP          Total population of urban       GHS-UCDB                                                            2.86      1.10        1.51     6.55      Million
+                                        centres in the UR                                                                                                                              people
+
+ Dispersion              DISP         Total number of urban           GHS-UCDB                                                            6         2.6         2        13        /
+                                        centres in the UR
+
+                                                                                                                                                                                   (Continues)
+                                                                                                                                                                                                 1205
+TABLE 2            (Continued)
+                                                                                                                                                                                                                              1206
+                                                                                                                  Territorial
+                                                                                                                  unit of        Missing                              Standard
+  Variable               Abbr            Measurement                       Data source        Year of data        analysis       values*             Mean             deviation     Min             Max          Unit
+
+  Human capital          HUM             Indexed indicator reflecting      ESPON              2016                NUTS 3         1% (Ticino, CH      58.67            110.42        3.36            661.50       /
+                                             the amount of people            database                                (2013)         and Zuid-
+                                             employed in knowledge-                                                                 Limburg,
+                                             intensive sectors                                                                      NL)
+
+  Infrastructure         ACC             A composite indicator             MRS ESPON          2014                NUTS 3         No                  1.82             0.47          0.96            2.76         /
+     connectivity                            combining the potential                                                 (2013)
+                                             accessibility by road, rail
+                                             and air, indicating how
+                                             easy it is for people in
+                                             one region to reach other
+                                             European regions
+
+  Innovation level       INNO            Indexed indicator reflecting      ESPON              2010–2015           NUTS 3         No                  6.52             8.11          0.23            43.19        /
+                                             the number of 4.0               database                                (2013)
+                                             patents per 1000
+                                             inhabitants
+
+  Active enterprises     ACTI            Number of enterprises that        ESPON              2014                NUTS 3         No                  25,185           39,901        559             540,045      /
+                                             are active during at least      database                                (2013)
+                                             a part of the reference
+                                             period
+
+  Historical             POLY_HIST       Historical degree of              Own set of         1975                Urban          No                  0.48             0.20          0.00            1.00         /
+     polycentricity                          polycentricity of the UR        UCs,                                    centre
+                                                                             developed
+  Historical urban       POP_HIST        Historical total population of                                                                              2.50             1.08          1.05            6.55         Million
+                                                                             on the basis
+     size                                    urban centres in the UR                                                                                                                                                 people
+                                                                             of GHS-
+  Historical             DISP_HIST       Historical number of urban                                                                                  6                2.4           1               12           /
+                                                                             BUILT
+     dispersion                              centres in the UR
+                                                                             (1975) and
+                                                                             GHS-POP
+                                                                             (1975)
+
+*Some of the datasets included missing values, which were addressed as follows: For “GVA,” we consulted Swiss national statistics to retrieve the value for the Ticino NUTS 3 region, for “LAB,” we ran an expectation
+maximization algorithm in SPSS using “POP” as a covariate variable, for “HUM” (and the missing “CAP” value in Ticino) we estimated the Ticino value (and Zuid–Limburg value) by taking the average of the “HUM” (and “CAP”)
+values of their neighbouring NUTS regions.                                                                                                                                                                                    CASET ET AL.
+CASET ET AL.                                                                                                                                                       1207
+
+
+
+4         |     FINDINGS
+
+The diagnostics, summarized and discussed in Appendix S2, indicate that our instruments are relevant and that all
+independent variables of interest can be treated as exogenous, except for POP. This implies that an SAR estimation
+would not yield consistent results for this variable and that we need to resort to the GS2SLS regression models in
+which (only) POP is instrumented. For POLY and DISP, no issues were detected, allowing us to incorporate these
+variables (and their interaction effects) in SAR regression models.
+         Table 3 displays these (the SAR and GS2SLS) models. We adopted a stepwise regression approach in which vari-
+ables were gradually added or replaced. We tested models in which the independent variables of interest were
+added separately (models (1), (2) and (5)), in which two variables were jointly added (models (3), (6) and (7)), and in
+which interaction terms between two variables were included (models (4), (8) and (9)). Across all models, the spatial
+autoregressive coefficients (Rho) are all statistically significant at the 1% level with a positive sign. This indicates that
+the regional productivity of URs is spatially dependent and has positive externality effects. We now turn to a discus-
+sion of the most important findings across the different models.
+         A first set of findings pertains to the three independent variables of interest. POLY is only significant when
+viewed in isolation (model (1)) or when (only) POP is taken into account (models (6) and (8)). Its coefficient is always
+negative, indicating that higher degrees of polycentricity generally correspond to lower productivity levels at the
+regional level. The latter observation aligns with the results of Brezzi and Veneri (2015), who concluded that region-
+alized agglomeration economies have not replaced single-centre agglomeration effects.
+         When introducing DISP to models with POLY, the effect of the latter however turns non-significant, and DISP is
+always (and negatively) significant in each of the models where it is introduced (in contrast to POP which is never
+significant in any of the models). This indicates that the relationship between a higher degree of dispersion and its
+effects on productivity is particularly important here, with more dispersion negatively impacting TFP.
+         The lack of significance of POP across all models runs counter to what Ouwehand et al. (2022) and Meijers and
+Burger (2010) found, but it is not entirely unexpected when foregrounding differences in operationalization for this
+indicator. In our analysis, we preselected urban regions with a minimum total population of 1.5 million (see
+subsection 3.1), in line with the favourable conditions for the development of agglomeration externalities suggested
+by McCann and Acs (2011). The logic behind this preselection procedure effectuates that it might not make much
+difference if a PUR's total population equals 1.6 or 1.9 million inhabitants, since both fall within the scope of
+favourable circumstances.
+         A second set of findings pertains to the interaction terms. When introducing interaction items separately, we
+find that none of them are significant, except for DISP*POP (Model 9). The coefficient of this term is close to zero,
+which implies that the negative impact of DISP on TFP is slightly more pronounced in those regions that are also
+more populated. This specific interaction effect was not reported by Ouwehand et al. (2022) and Meijers and Burger
+(2010), and it is somewhat surprising given POP's lack of significance in any of the other models. The interaction
+term POP*POLY not being significant is also noteworthy, as this relationship was significant (and negative) in both
+Ouwehand et al.'s (2022) and Meijers and Burger's (2010) work, which implied that the influence of polycentricity is
+contingent on the size of urban regions.
+         A third set of findings pertains to the control variables. We find a positive impact of both HUM and ACC. These
+findings are in line with our expectations. Since high-value and high-growth industries are considered relevant fac-
+tors in influencing regional productivity (Dogaru et al., 2014), it should not come as a surprise that the number of
+people employed in knowledge-intensive sectors (HUM) has a strong positive impact on TFP. Likewise, we expect
+that infrastructural connectivity and resulting accessibility at the European level (ACC) positively impact the effi-
+ciency and intensity with which a region can organize its production internationally.8 Somewhat unexpectedly, high
+
+8
+    Bear in mind that this indicator mainly reflects the external accessibility of a region (as explained in Table 2) and, to a lesser extent, its internal logistic
+efficiency and the intensity with which a region can organize its production. The latter may be important for the regional organization of production but
+was not available for our analysis.
+                                                                                                                                                                                             1208
+
+
+TABLE 3        SAR and GS2SLS regression results.
+
+                     SAR                                                                        GS2SLS
+
+                                                         (3) POLY            (4)                                 (6) POP
+                     (1) POLY          (2) DISP          +DISP               POLY*DISP          (5) POPa         +POLY              (7) POP+DISP       (8) POLY*POP       (9) DISP*POP
+    POLY             0.22(0.08)**                       0.10(0.09)         0.10(0.09)                         0.48(0.12)***                        0.56(0.12)**
+    POP                                                                                         0.00(0.02)         0.00(0.21)         0.02(0.02)         0.02(0.02)         0.01(0.02)
+    DISP                               0.02(0.00)***    0.02(0.00)*        0.02(0.01)*                                           0.04(0.01)***                        0.04(0.01)***
+    HUM               0.00(0.00)*       0.00(0.00)         0.00(0.00)*         0.00(0.00)       0.00(0.00)         0.00(0.00)         0.00(0.00)         0.00(0.00)         0.00(0.00)
+    ACC               0.25(0.07)***     0.26(0.07)***      0.26(0.05)***       0.26(0.07)***    0.38(0.06)***      0.38(0.06)***      0.33(0.05)***      0.43(0.06)***      0.33(0.06)***
+    INNO              0.00(0.02)       0.03(0.01)**     0.02(0.01)         0.02(0.01)        0.02(0.02)         0.02(0.02)         0.00(0.02)         0.00(0.02)         0.00(0.02)
+    POLY*POP                                                                                                                                           0.36(0.11)
+    DISP*POP                                                                                                                                                              0.03(0.01)**
+    POLY*DISP                                                                0.00(0.02)
+    Constant          0.73(0.05)***     0.72(0.09)***      0.77(0.12)***       0.75(0.12)***    0.57(0.10)***      0.57(0.10)***      0.64(0.10)***      0.51(0.10)***      0.65(0.10)***
+        2
+    R                                                                                           0.49               0.49               0.52               0.51               0.51
+    Observationsb    94                94                94                  94                 79               79                 79                 79                 79
+    Log likelihood   69.34             72.48              73.14               73.15
+    Rho               0.74(0.00)***     0.74(0.05)***      0.74(0.05)***       0.74(0.05)***    0.68(0.00)***      0.68(0.00)***      0.69(0.00)**8      0.68(0.00)***      0.68(0.00)***
+    Region           Fixed             Fixed             Fixed               Fixed              Fixed            Fixed              Fixed              Fixed              Fixed
+
+Note: Robust standard errors are shown in parentheses.
+a
+ POP is instrumented in the GS2SLS regression models.
+b
+  The number of observations in the GS2SLS regression is 79 instead of 94. This is due to the fact that some UCs were not identified based on the 1975 data (resulting in a smaller set of
+PURs).
+***p < 0.01,
+**p < 0.05,
+*p < 0.1.
+
+
+                                                                                                                                                                                             CASET ET AL.
+CASET ET AL.                                                                                                          1209
+
+
+
+levels of regional innovative or technological capacity (reflected by INNO) do not seem to impact TFP in any of the
+models. While there are no multicollinearity issues (see above), a potential reason may be that the number of people
+employed in knowledge-intensive sectors tends to be higher in urban regions with high technology levels, meaning
+that HUM may absorb some of the variation in INNO.
+
+
+
+5    |   DISCUSSION AND CONCLUSIONS
+
+In exploring the structure-productivity relation of 94 European URs, we adopted a consistent quantitative approach
+to sketch a broad picture of how regional spatial structure (measured in terms of polycentricity, dispersion and size)
+and economic productivity are related at the level of urban regions.
+    In general terms, and in line with most earlier studies discussed in subsection 2.3, we find no empirical evidence
+for the often-hypothesized positive impact of urban polycentricity on regional economic productivity in Europe.
+Rather, we observe either a negative or no effect of POLY on TFP, depending on the inclusion of additional spatial
+structure variables (POP and DISP) in the models. The combined observations of POLY negatively influencing TFP
+(models (1), (6) and (8)) and of DISP negatively influencing TFP (models (2)–(4), (7) and (9)) both hint at the continuing
+importance of single-centre agglomeration effects.
+    Besides this, our outcomes also highlight the importance of developing analytical frameworks that consider the
+(interaction) effects of several spatial structure variables (next to POLY). As our analyses illustrated, including DISP in
+the models helps qualifying the (negative) effect of POLY on TFP, since DISP appears as a stronger (negative) predic-
+tor of TFP than POLY. While a negative impact of dispersion on productivity was hypothesized by Ouwehand et al.
+(2022) and Meijers and Burger (2010, for the case of US metropolitan areas), both studies did not find any significant
+relationship between dispersion and productivity. It should be noted, however, that DISP is operationalized differ-
+ently compared to the indicators used in these aforementioned studies: whereas the latter reflect the extent to
+which the population of a region is localized outside its urban cores, our measure considers the degree to which
+regional population is dispersed across urban centres. Since our URs do not coincide with administratively defined
+regions (and we therefore cannot calculate a share of population localized outside the UCs but within a regional
+boundary), we resorted to this operationalization of dispersion. We also verified the effects of an alternative take on
+(spatial) dispersion that incorporates geographic distances between the UCs: the median distance between the cen-
+tral UC and all other UCs in the UR. We found no significant effect of this indicator in any of the models, which may
+be explained by the fact that we already preselected those URs that have a “favourable” commuting distance of
+45 min. In other words, within our set of URs, productivity is not significantly impacted when UCs are more strongly
+connected by means of road infrastructure. These examples nonetheless highlight that future research may focus on
+this aspect in particular, and explore to what extent different dispersion measures may impact the results.
+    As suggested in the previous paragraph, our choice to conduct our analysis for regions that do not coincide with
+administratively defined regional boundaries has a number of important implications. A clear positive implication is
+the fact that this approach delineates regions in a “bottom-up” manner, by systematically selecting those spatial pat-
+terns that are deemed favourable for regionalized agglomeration economies to develop (as explained in Section 3.1),
+but without being restricted to administratively defined regionalizations. For example, in the case of Belgium, the
+PURban algorithm identified an UR connecting UC Brussels (largely corresponding with the Brussels Capital Region)
+with UCs in the Flemish administrative region (e.g., Antwerp) and the Walloon administrative region (e.g., La
+Louvière). As demonstrated by Van Meeteren, Boussauw, et al. (2016), these cross-border connections indeed play
+important roles in the connectivity field of the Brussels capital region in terms of commuting flows. In other words,
+when adhering to administrative regions (OECD TL2 in this case) as the unit of analysis (as in Ouwehand
+et al., 2022), important regional dynamics pertaining to economic productivity (and polycentric development) are
+arguably overlooked.
+1210                                                                                                            CASET ET AL.
+
+
+
+    On the other hand, a clear drawback of working with uniquely defined regionalizations involves the post hoc co-
+ordination between those territorial units and those at which the variables of interest have been collected. Although
+the fact that we work with UCs allows us to attune these spatial units with the most fine-grained territorial scale at
+which harmonized EU-wide data is available (the NUTS 3 level), the allocation procedure that we developed to this
+end comes with a number of drawbacks. As explained in subsection 3.3, the available information at the NUTS 3 level
+is apportioned to the UCs on the basis of the surface area covered. A crucial assumption throughout this process is
+that, within each NUTS 3 level, the data captured by the variables in Table 2 is allocated to the territories of the UCs
+only. In other words, we assume that all (economic) activity measured is concentrated within the confines of these
+UCs. Evidently, this assumption will result in an upward bias of estimates at the UC level, since there are a number
+of NUTS 3 regions in which substantial levels of urbanization are located outside the confines of the UCs. In fact, on
+average, 40% of the total population of the NUTS 3 regions in our analysis is located outside the confines of a UC
+(or multiple UCs). In future research, this effect could be moderated by developing a procedure that allocates in
+terms of nighttime light data or population shares instead of surface area covered.
+    The above issues raise further pertinent questions, a first one of which pertains to the usefulness of invoking
+the degree of urbanization framework in the context of understanding the productivity effects of spatial structure at
+the regional scale. As outlined above, we see clear advantages in defining urban territories using non-administrative,
+granular data (as in GHS-UCDB), that is, a higher comparability across regional or national contexts (comparing “likes
+with likes”), more appropriate delineations for policies targeting specific urban geographies, and more appropriate
+delineations that advance scientific understandings about fundamental urban (and regional) questions
+(Duranton, 2021) such as agglomeration economies. However, in order for the GHSL framework to be more usefully
+invoked in spatial-econometric analyses, we believe it should incorporate a wider range of useful socio-economic
+variables at that territorial level (eliminating the need for post hoc imputation of data at different scales).While the
+latter suggestion would arguably also improve the policy relevance of the degree of urbanization concept, deriving
+tailored, region-specific, policy recommendations remain difficult, since the “bottom-up” (and often cross-border)
+regions that we work with generally do not correspond to the territorial units at which regional economic decision-
+making processes take place. Additionally, since spatial-econometric models cannot provide the in-depth detail of
+case studies, deriving tailored recommendations for specific regions is not the purpose of this research. What our
+systematic quantitative approach does allow for, is to sketch a broad picture of how urban–regional structure and
+economic output are generally related at the European scale. Translated to policy, we find evidence for a continuing
+importance of single-centre agglomeration benefits.
+    To conclude, the predominant conceptual focus on morphological polycentricity in previous European analyses
+(see Table 1) does not exclude the possibility that a functional approach would lead to different outcomes
+(Vasanen, 2012). In fact, adopting a functional lens on polycentricity may align better with a focus on economic pro-
+ductivity, as “(i)t is connectivity that makes a network, not mere physical proximity: being adjacent to communica-
+tions infrastructure or to the facilities of a place does not ensure access (…) Interaction, complementarity and some
+institutional action ‘for the region’ underpin the use of the PUR concept as a policy, and so should figure in defini-
+tions and measurements” (Hague & Kirk, 2003, p. 21). (ESPON 1.4.3, 2007, p. 220) also criticized the morphological
+approach as reductionist when arguing that the use of demographic size as the primary indicator of polycentricity
+refers to a limited understanding of urban “systems”: “urban geographers have shown the rank-size analysis is only
+efficient to qualify the hierarchy of a set of cities but not a system of effective relations. (…) it is at best only a very
+indirect indicator of how an urban system might work.” While these and other authors have repeatedly criticized this
+morphological conception, studies at extensive territorial scales such as the pan-European level continue to draw on
+this approach due to a lack of appropriate data (like commuter flows or links between firms) at a European-wide
+scale. Instead of arguing that one therefore has no option but to resort to morphological indices, one might in turn
+question whether, in the absence of sound relational data, additional analyses will significantly increase our knowl-
+edge on the issue.
+CASET ET AL.                                                                                                              1211
+
+
+
+ACKNOWLEDGEMEN TS
+This work has been supported by Fonds Wetenschappelijk Onderzoek (G014119N).
+
+
+ORCID
+Freke Caset     https://orcid.org/0000-0003-1998-986X
+Ben Derudder      https://orcid.org/0000-0001-6195-8544
+
+
+RE FE R ENC E S
+Alonso, W. (1973). Urban zero population growth. Daedalus, 109, 191–206.
+Andersson, M., & Lööf, H. (2009). Agglomeration and productivity: evidence from firm-level data. Annals of Regional Science,
+    46(3), 6010–6020.
+Beugelsdijk, S., Klasing, M. J., & Milionis, P. (2018). Regional economic development in Europe: the role of total factor pro-
+    ductivity. Annals of Regional Studies, 52(4), 461–476.
+Brezzi, M., & Veneri, P. (2015). Assessing polycentric urban systems in the OECD: Country, regional and metropolitan per-
+    spectives. European Planning Studies, 23, 1128–1145. https://doi.org/10.1080/09654313.2014.905005
+Burger, M., & Meijers, E. (2012). Form follows function? Linking morphological and functional polycentricity. Urban Studies,
+    49(5), 1127–1149. https://doi.org/10.1177/0042098011407095
+Burger, M. J., de Goei, B., Van der Laan, L., & Huisman, F. J. (2011). Heterogeneous development of metropolitan spatial
+    structure: Evidence from commuting patterns in English and Welsh city-regions, 1981–2001. Cities, 28(2), 160–170.
+    https://doi.org/10.1016/j.cities.2010.11.006
+Cardoso, R., & Meijers, E. (2021). The long and winding road toward the citification of the region. Urban Geography, 42(1),
+    1–20. https://doi.org/10.1080/02723638.2020.1828558
+Caset, F., Derudder, B., Van Migerode, C., & De Wit, B. (2022). Mapping the spatial conditions of polycentric urban develop-
+    ment in Europe: An open-source software tool. Geographical Analysis, 54, 583–598. https://doi.org/10.1111/gean.
+    12313
+Ciccone, A. (2002). Agglomeration effects in Europe. European Economic Review, 46(2), 213–227. https://doi.org/10.1016/
+    S0014-2921(00)00099-4
+Davoudi, S. (2003). Polycentricity in European spatial planning: From an analytical tool to a normative agenda. European
+    Planning Studies, 11(8), 979–999. https://doi.org/10.1080/0965431032000146169
+Davoudi, S. (2007). Polycentricity: Panacea or pipedream? In N. Cattan (Ed.), Cities and networks in Europe: A critical approach
+    of polycentrism (pp. 65–80). John Libby Eurotext.
+Derudder, B., Liu, X., Wang, W., Zhang, K., Wu, K., & Caset, F. (2021). Measuring polycentric urban development: The impor-
+    tance of accurately determining the “balance” between “centers”. Cities, 111, 103009. https://doi.org/10.1016/j.cities.
+    2020.103009
+Dijkstra, L., Garcilazo, E., & McCann, P. (2013). The economic performance of European cities and city regions: Myths and
+    realities. European Planning Studies, 21(3), 334–354. https://doi.org/10.1080/09654313.2012.716245
+Dijkstra, L., Poelman, H. (2014). A harmonized definition of cities and rural areas: The new degree of urbanization. European
+    Commission. Regional Policy Working Papers No. 01.
+Dogaru, T., van Oort, F., Diodato, D., & Thissen, M. (2014). Agglomeration and knowledge in European regional growth. In S.
+    Conventz, B. Derudder, A. Thierstein, & F. Witlox (Eds.), Hub cities in the knowledge economy (pp. 181–201). Ashgate.
+Duranton, G. (2021). Classifying locations and delineating space: An introduction. Journal of Urban Economics, 125, 103353.
+    https://doi.org/10.1016/j.jue.2021.103353
+ESDP. (1999). European spatial development perspective: Towards balanced and sustainable development of the territory of the
+    European Union. Office for Official Publications of the European Communities. http://ec.europa.eu/regional_policy/
+    sources/docoffic/official/reports/pdf/sum_en.pdf
+ESPON. (2012). POLYCE - Metropolisation and polycentric development in central Europe. Final report.
+ESPON. (2020). Policy brief: Polycentric territorial structures and territorial cooperation. https://www.espon.eu/topics-
+    policy/publications/policy-briefs/polycentric-territorial-structures-and-territorial
+ESPON 1.1.1. (2004). Potentials for polycentric development in Europe. Final Report. Nordregio. https://www.espon.eu/
+    sites/default/files/attachments/fr-1.1.1_revised-full_0.pdf
+ESPON 1.1.3. (2006). Enlargement of the European Union and the Wider European Perspective as Regards its Polycentric
+    Spatial Structure. Final Report: Royal Institute of Technology. https://www.espon.eu/sites/default/files/attachments/
+    full_revised_version_113.pdf
+ESPON 1.4.3. (2007). Study on Urban Functions. Final Report: IGEAT. http://www.espon.eu/main/Menu_Projects/Menu_
+    ESPON2006Projects/Menu_StudiesScientificSupportProjects/urbanfunctions.html
+1212                                                                                                                        CASET ET AL.
+
+
+
+Florczyk, A. J., Corbane, C., Ehrlich, D., Freire, S., Kemper, T., Maffenini, L., Melchiorri, M., Pesaresi, M., Politis, P.,
+    Schiavina, M., Sabo, F., & Zanchetta, L. (2019). GHSL Data Package, EUR 29788 EN. Publications Office of the European
+    Union. JRC 117104. https://doi.org/10.2760/290498, ISBN 978-92-76-13186-1
+Florczyk, A. J., Corbane, C., Schiavina, M., Pesaresi, M., Maffenini, L., Melchiorri, M., Politis, P., Sabo, F., Freire, S., Ehrlich, D.,
+    Kemper, T., Tommasi, P., Airaghi, D., & Zanchetta, L. (2019). GHS Urban Centre Database 2015, Multitemporal and Multi-
+    dimensional Attributes, R2019A. Publications office of the European Union.
+Gløersen, E. (2007). Towards an improved understanding of urban profiles and polycentric development potentials: Reflec-
+    tions on ESPON 1.1.1. In N. Cattan (Ed.), Cities and networks in Europe: A critical approach of polycentrism (pp. 27–37).
+    John Libbey Eurotext.
+Green, N. (2007). Functional polycentricity: A formal definition in terms of social network analysis. Urban Studies, 44(11),
+    2077–2103. https://doi.org/10.1080/00420980701518941
+Hague, C., & Kirk, K. (2003). Polycentricity scoping study. London: Office of the Deputy Prime Minister.
+Harrison, J., Delgado, M., Derudder, B., Anguelovski, I., Montero, S., Bailey, D., & De Propris, L. (2020). Pushing regional
+    studies beyond its borders. Regional Studies, 541, 129–139.
+Harrison, J., Hoyler, M., Derudder, B., Liu, X., & Meijers, E. (2023). Governing polycentric urban regions. Territory, Politics,
+    Governance, 11, 213–221. https://doi.org/10.1080/21622671.2022.2083011
+Hesse, M. (2014). On borrowed size, flawed urbanisation and emerging enclave spaces: The exceptional urbanism of
+    Luxembourg. European Urban and Regional Studies, 23(4), 612–627.
+Krugman, P. (1991). Increasing returns and economic geography. Journal of Political Economy, 99, 483–499. https://doi.org/
+    10.1086/261763
+Lambooy, J. G. (1998). Polynucleation and economic development: The Randstad. European Planning Studies, 64, 457–466.
+    https://doi.org/10.1086/261763
+Lee, B., Gordon, P. (2007). Urban spatial structure and economic growth in US metropolitan areas. Paper presented at the
+    46th annual meeting of the Western Regional Science Association.
+LeSage, J., & Pace, R. K. (2009). Introduction to spatial econometrics. Chapman and Hall/CRC. https://doi.org/10.1201/
+    9781420064254
+Li, W., Sun, B., & Zhang, T. (2019). Spatial structure and labour productivity: Evidence from prefectures in China. Urban Stud-
+    ies, 56(8), 1516–1532. https://doi.org/10.1177/0042098018770077
+McCann, P., & Acs, Z. (2011). Globalization: Countries, cities and multinationals. Regional Studies, 45(1), 17–32. https://doi.
+    org/10.1080/00343404.2010.505915
+Meijers, E. (2007). Clones or complements? The division of labour between the main cities of the Randstad, the Flemish
+    Diamond and the RheinRuhr Area. Regional Studies, 41(7), 889–900.
+Meijers, E. (2008). Measuring polycentricity and its promises. European Planning Studies, 16(9), 1313–1323. https://doi.org/
+    10.1080/09654310802401805
+Meijers, E. (2013). Metropolitan labor productivity and urban spatial structure. In J. Klaesson, B. Johansson, & C. Karlsson
+    (Eds.), Metropolitan regions: Knowledge infrastructures of the global economy (pp. 141–166). Springer. https://doi.org/10.
+    1007/978-3-642-32141-2_7
+Meijers, E., & Burger, M. (2010). Spatial structure and productivity in US metropolitan areas. Environment and Planning A,
+    42(6), 1383–1402. https://doi.org/10.1068/a42151
+Meijers, E., & Burger, M. (2017). Stretching the concept of ‘borrowed size’. Urban Studies, 54(1), 269–291. https://doi.org/
+    10.1177/0042098015597642
+Meijers, E., Hoogerbrugge, M., & Cardoso, R. (2018). Beyond polycentricity: Does stronger integration between cities in
+    polycentric urban regions improve performance? Tijdschrift voor Economische en Sociale Geografie, 109(1), 1–21. https://
+    doi.org/10.1111/tesg.12292
+Meijers, E., & Sandberg, K. (2008). Reducing regional disparities by means of polycentric development: Panacea or placebo?
+    Scienze Regionali, 7(2), 71–96.
+Monte-M   or, R., & Castriota, R. (2018). Extended Urbanization: Implications for urban and regional theory. In A. Paasi, J.
+    Harrison, & M. Jones (Eds.), Handbook on the geographies of regions and territories (pp. 332–345). Edward Elgar Publish-
+    ing. https://doi.org/10.4337/9781785365805.00038
+Nandi, A. K., Lucas, T. C., Arambepola, R., Gething, P., Weiss, D. J. (2020). Disaggregation: An R package for Bayesian spatial
+    disaggregation modelling. arXiv preprint arXiv:2001.04847.
+Ouwehand, W. M., van Oort, F., & Cortinovis, N. (2022). Spatial structure and productivity in European regions. Regional
+    Studies, 56(1), 48–62. https://doi.org/10.1080/00343404.2021.1950912
+Parr, J. (1979). Regional economic change and regional spatial structure: Some interrelationships. Environment and Planning
+    a, 11, 825–837. https://doi.org/10.1068/a110825
+Parr, J. (2004). The polycentric urban region: A closer inspection. Regional Studies, 38(3), 231–240. https://doi.org/10.1080/
+    003434042000211114
+CASET ET AL.                                                                                                             1213
+
+
+
+Partridge, M. D., Olfert, M. R., & Ali, K. (2009). Towards a rural development policy: Lessons from the United States and
+    Canada. Journal of Regional Analysis & Policy, 39(2), 109–125.
+Phelps, N. A. (1998). On the edge of something big: Edge-city economic development in Croydon, South London. Town Plan-
+    ning Review, 69(4), 441–465. https://doi.org/10.3828/tpr.69.4.dv1t387m20078jjp
+Rauhut, D. (2017). Polycentricity: One concept or many? European Planning Studies, 25(2), 332–348.
+Rozenblat, C. (2009). European urban polycentrism: A multiscale typology. Geographica Helvetica, 64, 175–185. https://doi.
+    org/10.5194/gh-64-175-2009
+Scott, A. J. (2019). City-regions reconsidered. Environment and Planning a: Economy and Space, 51(3), 554–580. https://doi.
+    org/10.1177/0308518X19831591
+Soja, E. (2015). Accentuate the regional. International Journal of Urban and Regional Research, 39(2), 372–381. https://doi.
+    org/10.1111/1468-2427.12176
+Spiezia, V. (2003). Measuring regional economies. OECD Statistics Brief (6). https://www.oecd.org/sdd/15918996.pdf
+TA. (2030). Territorial Agenda of the European Union: A future for all places. https://territorialagenda.eu/wp-content/uploads/
+    TA2030_jun2021_en.pdf
+Van Meeteren, M., Boussauw, K., Derudder, B., & Witlox, F. (2016). Flemish Diamond or ABC-Axis? The spatial structure of
+    the Belgian metropolitan area. European Planning Studies, 24(5), 974–995. https://doi.org/10.1080/09654313.2016.
+    1139058
+Van Meeteren, M., Neal, Z., & Derudder, B. (2016). Disentangling agglomeration and network externalities: A conceptual
+    typology. Papers in Regional Science, 95(1), 61–80. https://doi.org/10.1111/pirs.12214
+Van Meeteren, M., Poorthuis, A., Derudder, B., & Witlox, F. (2016). Pacifying Babel's tower: A scientometric analysis of poly-
+    centricity in urban research. Urban Studies, 53(6), 1278–1298. https://doi.org/10.1177/0042098015573455
+Vandermotten, C., Roelandts, M., & Cornut, P. (2007). European polycentrism: Towards a more efficient and/or a more equi-
+    table development? In N. Cattan (Ed.), Cities and networks in Europe: A critical approach of polycentrism (pp. 51–62). John
+    Libbey Eurotext.
+Vasanen, A. (2012). Functional polycentricity: Examining metropolitan spatial structure through the connectivity of urban
+    sub-centres. Urban Studies, 49(16), 3627–3644. https://doi.org/10.1177/0042098012447000
+Veneri, P., Burgalassi, D. (2011). Spatial Structure and productivity in Italian NUTS-3 regions. Working Papers of the Depart-
+    ment of Economics n. 364, Marche Polytechnic University.
+Veneri, P., & Burgalassi, D. (2012). Questioning polycentric development and its effects. Issues definition and measurement
+    for the Italian NUTS-2 regions. European Planning Studies, 20(6), 1017–1037.
+Wang, M., Derudder, B., & Liu, X. (2019). Polycentric urban development and economic productivity in China: A multiscalar
+    analysis. Environment and Planning a: Economy and Space, 51(8), 1622–1643. https://doi.org/10.1177/
+    0308518X19866836
+Waterhout, B., Zonneveld, W., & Meijers, E. (2005). Polycentric development policies in Europe: Overview and debate. Built
+    Environment, 31(2), 163–173. https://doi.org/10.2148/benv.31.2.163.66250
+Wegener, M. (2013). Polycentric Europe: More efficient, more equitable and more sustainable. International Seminar on Wel-
+    fare and Competitiveness in the European Polycentric Urban Structure, 7, 62–64.
+
+
+
+SUPPORTING INFORMATION
+Additional supporting information can be found online in the Supporting Information section at the end of this
+article.
+
+
+
+    How to cite this article: Caset, F., Yang, Y., Derudder, B., & Samardzhiev, K. (2023). The productivity effects
+    of polycentricity: A systematic analysis of urban regions in Europe. Papers in Regional Science, 102(6),
+    1193–1213. https://doi.org/10.1111/pirs.12765
+DOI: 10.1111/pirs.12765
+
+
+
+
+Resumen. El artículo se centra en estudiar la medida en que las regiones urbanas policéntricas pueden sustituir a las
+economías de aglomeración que proporcionan las grandes ciudades. Partiendo de una herramienta informática de
+código abierto que ayuda a identificar los desarrollos policéntricos en las regiones urbanas, se analizó la estructura
+espacial (en términos de tamaño, dispersión y policentricidad) de 94 regiones de 34 países europeos y se relacionó
+con su nivel de productividad total de los factores. Se encontró que tanto las regiones más policéntricas como las
+más dispersas están asociadas a niveles de productividad más bajos.
+
+
+
+抄録: 本稿は、大都市がもたらす集積経済に、多核型の都市地域がどの程度その代替となり得るかということに注
+目する。都市部における多核型の発展を特定する、オープンソースのソフトウェアツールを基に、ヨーロッパの34
+カ国における94の地域の空間構造を(規模、分散性、多核性という観点から)分析し、これをその地域の全要素生
+産性のレベルに関連付ける。多核型と分散型の両方の地域が低い生産性レベルと関連していることが示された。
+
+
+
+
+© 2023 The Authors. Papers in Regional Science © 2023 Regional Science Association International.
+

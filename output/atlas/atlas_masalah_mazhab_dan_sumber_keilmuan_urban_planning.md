@@ -2,11 +2,11 @@
 
 > **Status epistemik:** Atlas konseptual yang dihasilkan AI dari diskusi. Koordinat dan bobot merupakan penilaian *ideal-typical* dan heuristik, bukan hasil pengukuran empiris, estimasi statistik, atau posisi intelektual pengguna yang telah dikonfirmasi.
 
-[Buka atlas interaktif](<Atlas Masalah, Mazhab, dan Sumber Keilmuan Urban Planning - interaktif.html>).
+[Buka atlas interaktif](<atlas_masalah_mazhab_dan_sumber_keilmuan_urban_planning_interaktif.html>).
 
 ## Diagram
 
-![Peta posisi masalah urban planning](<Atlas Masalah, Mazhab, dan Sumber Keilmuan Urban Planning - peta kuadran.png>)
+![Peta posisi masalah urban planning](<atlas_masalah_mazhab_dan_sumber_keilmuan_urban_planning_peta_kuadran.png>)
 
 ## Definisi Sumbu
 
@@ -129,7 +129,7 @@ flowchart LR
 
 ## Hirarki Sumber Keilmuan untuk Sepuluh Mazhab
 
-[Telusuri treemap interaktif](<Atlas Masalah, Mazhab, dan Sumber Keilmuan Urban Planning - interaktif.html#sumber-mazhab>).
+[Telusuri treemap interaktif](<atlas_masalah_mazhab_dan_sumber_keilmuan_urban_planning_interaktif.html#sumber-mazhab>).
 
 Hierarki ini menunjukkan titik temu bacaan pada tingkat disiplin, rumpun epistemik, mazhab, dan bacaan jembatan. Mode ringkas mempertahankan 28 penempatan bacaan inti, sedangkan mode lengkap memperluasnya menjadi 72 penempatan. Dari lapisan lengkap itu, 60 penempatan berada langsung pada sepuluh cabang terminal mazhab—masing-masing enam bacaan—dan 12 sisanya berada pada batang bersama, tingkat rumpun, atau bagian jembatan.
 
@@ -227,7 +227,7 @@ Sumber yang tidak pas ditempatkan di satu rumpun saja; bagian ini mencegah treem
 
 ## Hirarki Sumber Keilmuan untuk Empat Belas Masalah dan Empat Kuadran
 
-[Telusuri treemap interaktif](<Atlas Masalah, Mazhab, dan Sumber Keilmuan Urban Planning - interaktif.html#sumber-masalah>).
+[Telusuri treemap interaktif](<atlas_masalah_mazhab_dan_sumber_keilmuan_urban_planning_interaktif.html#sumber-masalah>).
 
 Hierarki ini menunjukkan hubungan antara korpus bersama, bacaan tingkat kuadran, empat belas keluarga masalah, dan sumber yang paling langsung membantu membingkai masalah. Mode ringkas mempertahankan 33 penempatan bacaan inti, sedangkan mode lengkap memuat 107 penempatan. Dari lapisan lengkap itu, 97 penempatan berada langsung pada empat belas cabang terminal masalah—masing-masing sekurangnya enam bacaan—dan 10 sisanya berada pada batang bersama atau tingkat kuadran. Satu karya dapat muncul lebih dari sekali ketika benar-benar menjembatani beberapa masalah.
 

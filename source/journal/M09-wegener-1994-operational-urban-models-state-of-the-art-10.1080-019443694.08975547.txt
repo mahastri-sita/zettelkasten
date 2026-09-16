@@ -1,0 +1,919 @@
+[PDF Metadata]
+Source PDF: journal/M09-wegener-1994-operational-urban-models-state-of-the-art-10.1080-019443694.08975547.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Operational Urban Models State of the Art
+Subject:         Journal of the American Planning Association 1994.60:17-29
+Author:          Michael Wegener
+Producer:        iText 2.1.5 (by lowagie.com)
+CreationDate:    Wed Jun 26 06:08:04 2013 WIB
+ModDate:         Wed Jun 26 06:08:04 2013 WIB
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           14
+Encrypted:       no
+Page size:       594 x 792 pts
+Page rot:        0
+File size:       1531589 bytes
+Optimized:       no
+PDF version:     1.4
+[Extracted Text]
+This article was downloaded by: [Western Kentucky University]
+On: 25 June 2013, At: 16:08
+Publisher: Routledge
+Informa Ltd Registered in England and Wales Registered Number: 1072954 Registered office: Mortimer
+House, 37-41 Mortimer Street, London W1T 3JH, UK
+
+
+
+                                 Journal of the American Planning Association
+                                 Publication details, including instructions for authors and subscription information:
+                                 http://www.tandfonline.com/loi/rjpa20
+
+                                 Operational Urban Models State of the Art
+                                 Michael Wegener
+                                 Published online: 26 Nov 2007.
+
+
+
+
+To cite this article: Michael Wegener (1994): Operational Urban Models State of the Art, Journal of the American Planning
+Association, 60:1, 17-29
+
+To link to this article: http://dx.doi.org/10.1080/01944369408975547
+
+
+
+PLEASE SCROLL DOWN FOR ARTICLE
+
+Full terms and conditions of use: http://www.tandfonline.com/page/terms-and-conditions
+
+This article may be used for research, teaching, and private study purposes. Any substantial or systematic
+reproduction, redistribution, reselling, loan, sub-licensing, systematic supply, or distribution in any form to
+anyone is expressly forbidden.
+
+The publisher does not give any warranty express or implied or make any representation that the contents
+will be complete or accurate or up to date. The accuracy of any instructions, formulae, and drug doses
+should be independently verified with primary sources. The publisher shall not be liable for any loss, actions,
+claims, proceedings, demand, or costs or damages whatsoever or howsoever caused arising directly or
+indirectly in connection with or arising out of the use of this material.
+                                                                                                                               The diffusion of successful ideas and products tends to fol-
+
+                                                                    Operational                                             low the familiar S-shaped curve from pioneering via take-
+                                                                                                                            off and mass adoption, to market penetration and saturation
+                                                                                                                            (Rogers 1962). This can be seen by noting how faster trans-
+                                                                    Urban Models                                            portation technologies such as the railway or the car super-
+                                                                                                                            seded their slower predecessors (Marchetti 1987) or how
+                                                                                                                            new information technologies such as the telephone or the
+                                                                    State of the Art                                        fax machine conquered their markets. The computer, in par-
+                                                                                                                            ticular the personal computer, is now in the stage of mass
+                                                                                                                            diffusion; and the recent boom in geographical informa-
+                                                                    Michael Wegener                                         tion systems demonstrates the universal validity of the
+                                                                                                                            innovation-diffusionparadigm of product life cycles.
+                                                                                                                               The idea that computer models of urban land use and
+                                                                    Twenty years after Lee’s “Requiem for Large- transportation might contribute to more rational urban plan-
+                                                                    Scale Models,” the urban modeling field is again ning was born in the 1950s and culminated in the 1960s. The
+                                                                    full of life. There exist a dozen or so operational ‘new tools for planning’ (Harris 1965) were thought to be a
+                                                                    urban models of varying degrees of comprehen- major technological breakthrough that would revolutionize
+                                                                    siveness and sophistication, which have been and the practice of urban policy making. However, the diffusion
+                                                                    are being applied to real-life metropolitanregions of urban models faltered soon after the pioneering phase, for
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                    for purposes of research andlor policy analysis. a variety of reasons. Batty’s and Harris’ papers in this issue
+                                                                    The paper views the current state of the art of op- (Batty 1994; Harris 1994) give a broad account of some of
+                                                                    erational “integrated” urban models. It starts by them. The most fundamental probably was that these models
+                                                                    presenting the map of active centers of urban were linked to the rational planning paradigm dominant in
+                                                                    modeling research in the world. Next it defines a most Western countries at that time. They were perhaps the
+                                                                    framework for the classification and evaluation of most ambitious expression of the desire to ‘understand’ as
+                                                                    urban models, using as criteria comprehensive- thoroughly as possible the intricate mechanisms of urban de-
+                                                                    ness, overall structure, theoretical foundations, velopment, and by virtue of this understanding to forecast
+                                                                    modeling techniques, dynamics, data require- and control the future of cities. Since then the attitude
+                                                                    ments, calibration and validation, operationality, towards planning has departed from the ideal of synoptic ra-
+                                                                    and actual and potential applications. The paper tionalism and turned to a more modest, incrementalist inter-
+                                                                    closes by speculating about the most promising pretation of planning; that has at least co-determined the suc-
+                                                                    avenues to further improvement and diffusion of cess or failure of large-scale urban models.
+                                                                    this kind of model.                                        In his “Requiem for Large-Scale Models,” Lee (1973) notes
+                                                                                                                            the widening discrepancy between the models and the
+                                                                                                                            changing planning context and is not surprised that the mod-
+                                                                                                                            els failed to respond to the new developments, because they
+                                                                                                                            “symbolized the last offensive of the technocratic, hypercom-
+                                                                                                                            prehensive mode of planning” (p. 172). But having been in-
+                                                                                                                            volved in modeling himself, his critique of the models is that
+                                                                                                                            of a rationalist and a modeler. His “seven sins of large-scale
+                                                                                                                            models’’-that the models were too comprehensive yet too
+                                                                                                                            gross to be useful for decision makers; that they required
+                                                                                                                            huge amounts of data but contained little theoretical struc-
+                                                                                                                            ture; and that they were complicated, mechanical and expen-
+                                                                                                                            sive-seem from today’s perspective rather ephemeral and
+                                                                                                                            in part rendered irrelevant by twenty years of progress in the-
+                                                                                                                            ory, data availability and computer technology since the pub-
+                                                                    Wegener is Deputy Director of the Institute of Spatial lication of his paper.
+                                                                    Planning at the University of Dortmund, Germany. He        Nevertheless, as a piece of forecasting, Lee’s paper has
+                                                                    started to develop his first urban simulation model in been remarkably successful. Nowhere in the world have
+                                                                    1969 and has since always been involved in urban model- large-scale urban models become a routine ingredient of
+                                                                    ing. He was a member of the International Study Group metropolitan plan-making. Pioneering pilot projects were
+                                                                    on Land-Useflransport Interaction (ISGLUTI) and is a abandoned or simply shelved. The modeling pioneers either
+                                                                    Co-Chairman of the Special Interest Group “Land Use turned to other, more recognized fields of activity or re-
+                                                                    and Transport” of the World Conference on Transport treated to the basements of academia, where some of them
+                                                                    Research.
+                                                                                                                            were able to find a niche to continue to polish their models.
+                                                                    Journal of the American Planning Association, Vol. 60, Lee’s influential paper may even have helped to make its
+                                                                    No. 1, Winter 1994. 0 American Planning Association, forecast come true. Anecdotal evidence of this is my own ex-
+                                                                    Chicago, IL.                                            perience of enclosing a copy of the “Requiem” with a pro-
+
+
+                                                                                                                APA JOURNAL 17 WINTER 1994
+                                                                                                                       MICHAEL WEGENER
+
+
+                                                                    posal for a modeling project for the City of Diisseldorf. Many      pirically tested. The second distinction is that the models
+                                                                    years later I was told that this honesty had contributed to the     must be comprehensive, i. e. they must integrate the most es-
+                                                                    proposal‘s being turned down.                                       sential processes of spatial urban development; this implies
+                                                                       Yet despite the lack of broad success, twenty years after        that they must include at least urban land use and transpor-
+                                                                    the “Requiem” the urban modeling field is again full of life.       tation, where land use denotes a range of land uses such as
+                                                                    There exists a small but tightly knit network of urban model-       residential, industrial and commercial. This excludes partial
+                                                                    ers dispersed across four continents. There exist a dozen or        models addressing only one urban subsystem such as trans-
+                                                                    so operational urban models of varying degrees of compre-           portation, housing or retail. Furthermore, the models must
+                                                                    hensiveness and sophistication that have been and are being         be operational in the sense that they have been implemented,
+                                                                    applied to real-life metropolitan regions for purposes of re-       calibrated and used for policy analysis for at least one metro-
+                                                                    search andlor policy analysis. And there exist, at this very        politan region. This excludes models presented only in theo-
+                                                                    time, exciting opportunities to incorporate new theoretical         retical terms as a set of equations.
+                                                                    developments and methodologies into the field.                         The twenty centers in Figure 1 are numbered from west
+                                                                       The paper aims at an overview of the current state of the        to east and are associated with the following individuals and
+                                                                    art of operational “integrated urban models. It starts by           modeling projects (in some cases two centers in one metro-
+                                                                    presenting the map of active centers of urban modeling re-          politan area are grouped together):
+                                                                    search in the world. Next it defines a framework for the clas-         1 Sun Francisco. The Bay Area is the home of two model-
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                    sification and evaluation of urban models, using as criteria        ing groups. Prastacos’ (1986) Projective Optimization Land
+                                                                    comprehensiveness, overall structure, theoretical founda-           Use Informations System (POLIS) of the San Francisco Re-
+                                                                    tions, modeling techniques, dynamics, data requirements,            gion, developed for the Association for Bay Area Govern-
+                                                                    calibration and validation, operationality, and actual and po-      ments, is one of the few urban models developed outside a
+                                                                    tential applications. It is shown that most of the criticisms of    university. The model is a sophisticated mathematical pro-
+                                                                    the “Requiem” have been taken account of by today’s model-          gramming formulation of the Lowry Model (Lowry 1964)
+                                                                    ers or have been made redundant by advances in data avail-          based on random utility and incorporating the location of
+                                                                    ability and computing technology. The paper closes by specu-        basic employment. The other model, CUFM, the California
+                                                                    lating about the most promising avenues to further improve-         Urban Futures Model (Landis 1992; 1993), a successor to the
+                                                                    ment and diffusion of this kind of model.                           classic BASS (Goldner 1971), was developed at the Institute
+                                                                                                                                        of Urban and Regional Development of the University of
+                                                                    The Map of Urban Modeling                                           California at Berkeley as a disaggregate model of housing de-
+                                                                                                                                        velopment, and is one of the first urban models to utilize geo-
+                                                                       In a recent commentary, Couclelis (1993) associates urban        graphical information system (GIS) technology.
+                                                                    models with late modernism and concludes that their time               2 Urbana. At the Department of Civil Engineering of the
+                                                                    has passed and that the number of urban modelers is “shrink-        University of Illinois at Urbana-Champaign, Boyce devel-
+                                                                    ing fast,” whereas GIs are associated with postmodernity and        oped nonlinear programming equilibrium models of trans-
+                                                                    hence are growing. Her conclusion about the number of               portation and location (Boyce, et al. 1983; 1985; Boyce 1986).
+                                                                    modelers, at least, is not in line with reality. In fact the num-   Since Boyce’s move to Chicago, this tradition has been con-
+                                                                    ber of real-world applications of urban models, while it has        tinued by Kim (1989) and Rho (Rho and Kim 1989) with
+                                                                    not grown as rapidly as originally expected, has increased          combined models of transportation and location in the Chi-
+                                                                    steadily over the last decade. There are more than twenty           cago region incorporating goods movements.
+                                                                    university laboratories, public agencies or private firms on           3 Chicago. The “best studied city in the world” has been
+                                                                    four continents where research and development in urban             modeled in econometric housing market, land use and trans-
+                                                                    modeling is actively being conducted, and there are a dozen         portation models by Anas at Northwestern University (Anas
+                                                                    or so operational urban models of varying comprehensive-            1982; 1984) and also, using the Chicago Area Transportation
+                                                                    ness and sophistication that have been or are being applied         and Land-Use Analysis System (CATLAS), for the Chicago
+                                                                    to real-life metropolitan regions for research andlor policy        Area Transportation Study (Anas 1983b; Anas and Duann
+                                                                    analysis.                                                            1985), before he moved to Buffalo. The Urban Transporta-
+                                                                       In this section, the geographical distribution of contempo-      tion Center of the University of Illinois in Chicago has be-
+                                                                    rary urban modeling research is presented. Figure 1 shows           come the location of Boyce’s group specializing in models of
+                                                                    the map of active urban modeling centers in the late 1980s          location and travel, transportation network equilibrium and
+                                                                    and early 1990s and the names of their principal researchers.       dynamic route guidance systems and in studies of parallel
+                                                                    The map is based on available evidence from the modeling            computing for urban and transportation modeling (Boyce
+                                                                    literature and on personal communications.                           1990 Boyce, et al. 1992).
+                                                                       Before proceeding, it is necessary to define the types of           4 Buffalo.After his move to the State University of New
+                                                                    urban modeling projects considered in this paper. The first         York at Buffalo, Anas developed two microeconomic equilib-
+                                                                    distinction is that the term model is used here to indicate         rium models of urban housing markets, NYSIM, the New
+                                                                    mathematical models implemented on a computer and de-               York Area Simulation Model, which is static and contains
+                                                                    signed to analyze and forecast the development of urban sys-        transportation (Anas 1992), and CPHMM, the Chicago Pro-
+                                                                    tems. This excludes qualitative or hermeneutic representa-          totype Housing Market Model, which is dynamic and does
+                                                                    tions of urban theory irrespective of whether they can be em-       not (Anas and Arnott 1991).Also in Buffalo, at the National
+
+
+                                                                                                                     APA JOURNAL 18 WINTER 1994
+                                                                                                          OPERATIONAL URBAN MODELS
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                                                        1 San Francisco          Landis, Prastacos
+                                                                                                        2 Urbana                 Boyce, Kim, Rho
+                                                                                                        3 Chicago                Anas, Boyce
+                                                                                                        4 Buffalo                Anas, Batty
+                                                                                                        5 Cambridge, MA          Kain. Apgar
+                                                                                                        6 NewYork                Oppenheim
+                                                                                                        7 Philadelphia           Putman
+                                                                                                        8 Caracas                de la Barra
+                                                                                                        9 Santiago de Chile      Martinez
+                                                                                                       10 London                 Mackett
+                                                                                                       11 Cambridge              Echenique, Williams
+                                                                                                       12 Stockholm              Lundqvist, Anderstig, Mattson
+                                                                                                       13 Dortmund               Wegener
+                                                                                                       14 Paris                  Pumain
+                                                                                                       15 Turin                  Bertuglia, Rabino
+                                                                                                       16 Seoul                  Rho
+                                                                                                       17 Tokyoflokohama         Nakamura, Miyamoto
+                                                                                                       18 NagoydGifu             Hayashi, Morisugi
+                                                                                                       19 Kyoto                  Amano, Toda, Abe
+                                                                                                       20 Melbourne              Brotchie. Roy, Young
+
+                                                                    FIGURE 1: The map of active urban modeling centers.
+
+                                                                    Center for Geographic Information and Analysis, Batty has       6 New York. Norbert Oppenheim of the City University of
+                                                                    resumed his former modeling work at Reading and Cardiff,     New York has produced several innovative extensions of
+                                                                    United Kingdom, now for the Buffalo metropolitan area, in    logit-based equilibrium activity-allocation models (Oppen-
+                                                                    research on geographical information systems (Batty 1992).   heim 1986; 1988 1989).
+                                                                       5 Cambridge, MA. HUDS, the Harvard Urban Develop-            7 Philadelphia. The modeling work of Putman (1983;
+                                                                    ment Simulation (Kain and Apgar 1985) is a descendant of     1991) is one of the few success stories of urban modeling.
+                                                                    the NBER urban simulation model, the only model cele-        Originally developed at the University of Pennsylvania, it is
+                                                                    brated by Lee in his “Requiem.” Completely reorganized by    now being performed by S. H. Putman Associates. Putman’s
+                                                                    Kain and Apgar, HUDS was the first large-scale urban simu-   recursive adaptation of the Lowry modeling framework
+                                                                    lation model employing microsimulation techniques.           ITLUP (Integrated Transportation and Land Use Package)
+
+
+                                                                                                                APA JOURNAL 19 WINTER 1994
+                                                                                                                   MICHAEL WEGENER
+
+
+                                                                    has been consistently refined over the last twenty years and, model integrating both urban economics and spatial interac-
+                                                                    according to Putman, has been calibrated for nearly four tion modeling concepts (Bertuglia, et al. 1990), a grand de-
+                                                                    dozen different urbanlmetropolitan regions in the United sign still waiting for implementation.
+                                                                    States and abroad, and used for more actual agency policy         16 Seoul. After his work with Kim in Urbana-Champaign,
+                                                                    applications than any other spatial model.                     Rho returned to Korea and established an urban modeling
+                                                                       8 Caracas. After earning his PhD with Marcia1 Echenique group at Hanyang University in Seoul.
+                                                                    at Cambridge University, de la Barra established Caracas as       17 TokyolYokohama. The group of Nakamura at the Uni-
+                                                                    the first center of urban modeling in Latin America. His versity of Tokyo implemented the hierarchical Computer-
+                                                                    TRANUS (Transporte y Us0 del Suelo) model (de la Barra, Aided Land-Use Transport Analysis System (CALUTAS)
+                                                                    et al. 1984; de la Barra 1989) has been applied for several for the Tokyo metropolitan area (Nakamura, et al. 1983).
+                                                                    Latin American cities, and for simulations of energy use and The group later spread to Yokohama, where Miyamoto in-
+                                                                    urban form with Rickaby of the Open University of Milton dependently developed the Random-Utility URBAN model
+                                                                    Keynes, United Kingdom (Rickaby 1991).                         (RURBAN), an equilibrium land market model (Miyamoto,
+                                                                       9 Santiago de Chile. Martinez (1991; 1992a; 1992b) is a et al. 1986, Miyamoto and Kitazume 1989).
+                                                                    new star on the urban modeling scene. He won the WCTR             18 NagoydGifu. Hayashi, formerly in Nakamura’s Tokyo
+                                                                    Conference Prize at the Sixth World Conference of Trans- group, continued work at Nagoya University with a land-use
+                                                                    port Research in Lyon in 1992 for his 5-Stage Land-Use transportation model of Nagoya based on locational surplus
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                    Transport Model calibrated for Santiago de Chile.              (Hayashi and Doi 1989; 1992). Similar models, with a differ-
+                                                                       10 London. Mackett at University College, London devel- ent concept of locational surplus, have been developed by
+                                                                    oped his Lowry-type LILT (Leeds Integrated Land-Use/ Miyagi (1989) and Morisugi, et al. (1992) at Gifu University.
+                                                                    Transport) model originally for the metropolitan area of Hayashi also developed a microsimulation model of residen-
+                                                                    Leeds (Mackett 1983), but later applied it to several British tial mobility (Hayashi and Tomita 1989).
+                                                                    and foreign cities (Mackett 199Oc; 1991a; 1991b), and devel-      19 Kyoto. The group led by Amano at Kyoto University
+                                                                    oped an urban microsimulation model applied to Leeds has been the origin of a major urban model implemented for
+                                                                    (Mackett 1990a; 1990b).                                        Kyoto (Amano, et al. 1987; 1988) and of a model based on
+                                                                       11 Cambridge. The second success story of urban model- input-output techniques for the Kanto Region, by Ando
+                                                                    ing is Echenique’s MEPLAN, the latest in a sequence of in- (1991).
+                                                                    creasingly versatile urbanlregional models built on a general-   20 Melbourne. The Commonwealth Scientific and Indus-
+                                                                    ization of multiregional input-output techniques (Echenique, trial Research Organization (CSIRO) has produced the
+                                                                    et al. 1990; Hunt and Simmonds 1993). MEPLAN is being TOPAZ (Technique for Optimal Placement of Activities in
+                                                                    applied to more than a dozen urban regions in the world, Zones) optimization model for urban planning (Brotchie, et
+                                                                    including Greater London, by Echenique’s Cambridge part- al. 1980) and a large volume of applied modeling work based
+                                                                    nership and affiliate consultancies in Spain and Italy.        on random utility (e.g., Roy 1992). Another Melbourne con-
+                                                                       12 Stockholm. Stockholm has been a center of urban mod- tribution is the land-use and transportation gaming simula-
+                                                                    eling through a unique constellation of people at the Royal tion LAND developed by Young and colleagues at Monash
+                                                                    Institute of Technology, the City of Stockholm and the Stock- University (Gu, et al. 1992).
+                                                                    holm Regional Planning Office. Besides being the study area      Most of the above modelers know each other personally.
+                                                                    of the TRANSLOC (Transport and Location) modeling sys- Together they form an invisible college of remarkable coher-
+                                                                    tem and later developments (Lundqvist 1978 1979; 1989) as ence. Several of them were members of ISGLUTI, the Inter-
+                                                                    well as more recent efforts (Anderstig and Mattson 1991), the national Study Group of Land Use Transport Interaction,
+                                                                    city has been a test bed for several of the foreign models re- which between 1980 and 1991 under the direction of Web-
+                                                                    viewed in this paper, such as those of Anas (Anas, et al. ster, Bly and Paulley of the United Kingdom Transport and
+                                                                    1987), Boyce (Boyce and Lundqvist 1987), Kim and Rho Road Research Laboratory conducted the largest and most
+                                                                    (Lundqvist, et al. 1992) and Echenique.                        thorough comparative evaluation of large-scale urban mod-
+                                                                       13 Dortmund. At the Institute of Spatial Planning of the els (Webster, et al. 1988; Webster and Paulley 1990; Webster
+                                                                    University of Dortmund (IRPUD), Wegener developed a and Dasgupta 1991). Today, the role of ISGLUTI has been
+                                                                    model of urban housing and land markets, transportation taken over by the Special Interest Group “Land Use and
+                                                                    and land use in the Dortmund region as part of a three-level Transport” of the World Conference on Transport Research,
+                                                                    hierarchy of spatial models (Wegener 1985; 1986a; Wegener, and by smaller, more informal associations in Europe and
+                                                                    et al. 1991).                                                  Japan. Urban modeling has a firm place at conferences of the
+                                                                       14 Paris. Pumain heads a group at the Institut National Regional Science Association, the Association of Collegiate
+                                                                    $Etudes Dkmographiques which applies dynamic bifurca- Schools of Planning (ACSP), the Association of European
+                                                                    tion models in the tradition of Allen (Allen and Sanglier Schools of Planning (AESOP), or more recently at the Inter-
+                                                                    1981) to French cities (Pumain, et al. 1984).                  national Conferences on Computers in Urban Planning and
+                                                                       15 Turin. Bertuglia made the Polytechnic of Turin a center Management.
+                                                                    of urban modeling and stimulated a number of model appli-        In addition, there has been a continuous debate about the
+                                                                    cations of Piedmont and Rome (Lombard0 and Rabino purpose, direction and theoretical basis of urban modeling.
+                                                                    1984).In the late 1980s Bertuglia assembled an international It is worth remembering that some of the most influential
+                                                                    group of scholars to outline a comprehensive dynamic urban theoretical contributions appeared after Lee’s article or too
+
+
+                                                                                                                  MA JOURNAL 20 WINTER 1994
+                                                                                                             OPERATIONAL URBAN MODELS
+
+
+                                                                    shortly before it to be taken account of, for example, entropy-    Immediate change: goods transport, travel. The location of
+                                                                    based spatial interaction (Wilson, 1967; 1970), random-            human activities in space gives rise to a demand for spatial
+                                                                    utility choice (Domencich and McFadden 1975), bifurcation          interaction in the form of goods transport or travel. These
+                                                                    theory (Allen and Sanglier 197811979) and nonlinear optimi-        interactio’ns are the most volatile phenomena of spatial ur-
+                                                                    zation (Wilson, et al. 1981).The speed by which these devel-       ban development; they adjust in minutes or hours to
+                                                                    opments were absorbed by the modeling community was                changing conditions such as congestion or fluctuations in
+                                                                    documented in reviews by Harris (1985), Wegener (1986b;            demand.
+                                                                    1987), Kain (1987), Boyce (1988), Berechman and Small
+                                                                    (1988) and Aoyama (1989) and in volumes edited by Hutch-             There is a ninth subsystem, the urban environment. Its
+                                                                    inson, et al. (1985) and Hutchinson and Batty (1986).             temporal behavior is more complex. The direct impacts of
+                                                                                                                                      human activities such as transportation noise and air pollu-
+                                                                    Model Comparison                                                  tion are immediate; other effects such as water or soil con-
+                                                                                                                                      tamination build up incrementally over time, and still others
+                                                                       This section attempts to assess the current state of the art   such as long-term climate effects are so slow that they are
+                                                                    in urban modeling, taking account as much as possible of the      hardly observable.
+                                                                    criticism Lee put forth in the “Requiem.” To do this, first a        Figure 2 illustrates the main interactions of the eight sub-
+                                                                    framework for the classification and evaluation of urban          systems and their multiple links with the urban environ-
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                    models is established. Then twelve contemporary opera-            ment. It can be seen, for instance, that the location of work-
+                                                                    tional urban models are evaluated, using as criteria compre-      places, i.e. non-residential buildings such as factories, ware-
+                                                                    hensiveness, overall structure, theoretical foundations, mod-     houses, office buildings and shops, depends on the location
+                                                                    eling techniques, dynamics, data requirements, calibration        of other firms and of clients and workers, on access to goods
+                                                                    and validation, operationality, and actual and potential appli-   transport and travel by customers and employees, and on the
+                                                                    cations. It is shown that most of the criticisms of the Re-       availability of land, utilities and housing. All eight subsys-
+                                                                    quiem have been taken account of by today’s modelers or           tems are partly market-driven and partly subject to policy
+                                                                    have been made redundant by advances in data availability         regulation.
+                                                                    and computing technology
+                                                                                                                                      Twelve Urban Models
+                                                                    A Model of Urban Models
+                                                                                                                                         For the comparison, twelve models were selected from the
+                                                                       For the evaluation of operational urban models, an ideal-      work at the twenty modeling centers described above. The
+                                                                    ized urban model will first be sketched out as a benchmark        selection does not imply a judgment on the quality of
+                                                                    by which the existing models can be classified and evaluated.     the models, but was based simply on the availability of infor-
+                                                                    Eight types of major urban subsystem are distinguished. They      mation. These are the twelve models:
+                                                                    are ordered by the speed by which they change, from slow
+                                                                    to fast processes:                                                  POLIS: the Projective Optimization Land Use Information
+                                                                                                                                        System developed by Prastacos for the Association of Bay
+                                                                      Slow change: networks, land use. Urban networks such as           Area Governments (Prastacos 1986).
+                                                                      transportation, communications and utility networks are           CUFM: the California Urban Futures Model developed at
+                                                                      the most permanent elements of the physical structure of          the Institute of Urban and Regional Development of the
+                                                                      cities. Large infrastructure projects require a decade or         University of California at Berkeley (Landis 1992; 1993).
+                                                                      more, and once in place, they are continually updated and         BOYCE: the combined models of location and travel
+                                                                      repaired but rarely abandoned. The land use distribution is       choice developed by Boyce (Boyce, et al. 1983; 1985; Boyce
+                                                                      equally stable; it changes only incrementally and is much         1986; Boyce, et al. 1992).
+                                                                      more permanent than individual buildings.                         KIM: the nonlinear version of the urban equilibrium model
+                                                                      Medium-speed changes:workplaces, housing. Buildings have          developed by Kim (1989) and Rho and Kim (1989).
+                                                                      a lifespan of up to one hundred years and take several years      ITLUP: the Integrated Transportation and Land Use Pack-
+                                                                      from planning to completion. Workplaces (non-residential          age developed by Putman (1983; 1991).
+                                                                      buildings) such as factories, warehouses, shopping centers        HUDS: the Harvard Urban Development Simulation devel-
+                                                                      or offices, theaters or universities exist much longer than       oped by Kain and Apgar (1985).
+                                                                      the firms or institutions that occupy them, just as housing       TRANUS: the transportation and land-use model devel-
+                                                                      exists longer than the households that live in it.                oped by de la Barra (de la Barra, et al. 1984; de la Barra
+                                                                      Fast change: employment, population. Firms are established        1989).
+                                                                      or closed down, expanded or relocated in response to              5 - L W the 5-Stage Land-Use Transport Model developed
+                                                                      changing markets and technologies; this creates new jobs          by Martinez for Santiago de Chile (1991; 1992a; 1992b).
+                                                                      or makes workers redundant and so affects employment.             MEPLAN: the integrated modeling package developed by
+                                                                      Households are created, grow or decline and eventually            Marcia1 Echenique & Partners (Echenique, et al. 1990;
+                                                                      are dissolved, and in each stage in their lifecycle adjust        Hunt and Simmonds 1993).
+                                                                      their housing consumption and location to their changing          LILT the Leeds Integrated Land-UselTransport model de-
+                                                                      needs; this determines the distribution of population.            veloped by Mackett (1983; 199Oc; 1991a; 1991b).
+
+
+                                                                                                                    APA JOURNAL 2 1 WINTER 1994
+                                                                                                                     MICHAEL WEGENER
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                    FIGURE 2: A model of urban models.
+
+                                                                      IRPUD: the model of the Dortmund region developed by            goods transport and travel, while taking account of net-
+                                                                      Wegener (1985; 1986a; Wegener, et al. 1991).                    work congestion.
+                                                                      RURBAN: the Random-Utility URBAN model developed                   All other models disregard one or another subsystem.
+                                                                      by Miyamoto (Miyamoto, et al. 1986; Miyamoto and Kita-          LILT and IRPUD address all subsystems except goods trans-
+                                                                      zume 1989).                                                     port, KIM models goods movements but not physical stock
+                                                                                                                                      and land use, HUDS has a housing supply submodel but does
+                                                                       These twelve models will be classified according to the fol-   not model non-residential buildings. Half of the models, in
+                                                                    lowing criteria: comprehensiveness, overall structure, theo-      the tradition of the original Lowry model, make no distinc-
+                                                                    retical foundations, modeling techniques, dynamics, data re-      tion between activities (population and employment) and
+                                                                    quirements, calibration and validation, operationality, and       physical stock (housing and workplaces), and hence fail to
+                                                                    actual and potential applications. Table 1 summarizes the         model land use. Even more surprising is that of the twelve
+                                                                    comparison for the most important of these criteria.              urban models, four (POLIS, CUFM, HUDS and RURBAN)
+                                                                                                                                      do not consider transportation networks, i. e. fail to model
+                                                                    Comprehensiveness                                                 transportation congestion endogenously. Only three models,
+                                                                       All of the twelve models are comprehensive in the sense        HUDS, LILT and IRPUD, model demographic change and
+                                                                    that they address at least two of the eight subsystems identi-    household formation.
+                                                                    fied in Figure 2. However, it is ironic that twenty years after
+                                                                    Lee, there are only two really comprehensive urban models,        Model Structure
+                                                                    neither of which existed in 1973. Only TRANUS and                   An important distinction between the models refers to
+                                                                    MEPLAN encompass all of the eight subsystems of spatial           overall model structure. Two groups can be distinguished.
+                                                                    urban development identified above. Both of these model           One group of models searches for a unifying principle for
+                                                                    residential and employment location, residential and non-         modeling and linking all subsystems; the others see the city
+                                                                    residential floorspace supply and land consumption, and           as a hierarchical system of interconnected but structurally
+
+
+
+                                                                                                                    APA JOURNAL 22 WINTER 1994
+                                                                                                               OPERATIONAL URBAN MODELS
+
+
+
+                                                                    TABLE 1: Summary of comparison of twelve urban models
+                                                                    Model                   Subsystems modeled                      Model theory                         Policies modeled
+
+                                                                    POLIS                     employment                       random utility                       land-use regulations
+                                                                    composite                 population                       locational surplus                   transportation improvements
+                                                                                              housing
+                                                                                              land use
+                                                                                              travel
+
+                                                                    CUFM                      population                       location rule                        land-use regulations
+                                                                    composite                 land use                                                              environmentalpolicies
+                                                                                                                                                                    public facilities
+                                                                                                                                                                    transportation improvements
+
+                                                                    BOYCE                     employment                      random utility                        transportation improvements
+                                                                    unified                   population                      general equilibrium
+                                                                                              networks
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                                              travel
+
+                                                                    KIM                       employment                      random utility                        transportation improvements
+                                                                    unified                   population                      bid-rent
+                                                                                              networks                        general equilibrium
+                                                                                              goods transport                 input-output
+                                                                                              travel
+                                                                    ITLUP                     employment                       random utility                       land-use regulations
+                                                                    composite                 population                       network equilibrium                  transportation improvements
+                                                                                              land use
+                                                                                              networks
+                                                                                              travel
+                                                                    HUDS                      employment                       bid-rent                             housing programs
+                                                                    composite                 population
+                                                                                              housing
+                                                                    TRANUS                    all subsystems                   random utility                       land-use regulations
+                                                                    composite                                                  bid-rent                             transportation improvements
+                                                                                                                               network equilibrium                  transportation-costchanges
+                                                                                                                               land-use equilibrium
+
+                                                                    5-LUT                     population                       random utility                       transportation improvements
+                                                                    unified                   networks                         bid-rent
+                                                                                              housing                          general equilibrium
+                                                                    LILT                      all subsystems                   random utility                       land-use regulations
+                                                                    composite                 except goods                     network equilibrium                  transportation improvements
+                                                                                              transport                        land-use equilibrium                 travel-cost changes
+                                                                    MEPLAN                    all subsystems                   random utility                       land-use regulations
+                                                                    composite                                                  network equilibrium                  transportation improvements
+                                                                                                                               land-use equilibrium                 transportation-costchanges
+                                                                    IRPUD                     all subsystems                   random utility                       land-use regulations
+                                                                    composite                 except goods                     network equilibrium                  housing programs
+                                                                                              transport                        land-use equilibrium                 transportation improvements
+                                                                                                                                                                    travel-cost changes
+                                                                    ~
+
+
+
+
+                                                                    RURBAN                    employment                      random utility                        land-use regulations
+                                                                    unified                   population                      bid-rent                              transportation improvements
+                                                                                              housing                         general equilibrium
+                                                                                              land use
+
+
+                                                                    autonomous subsystems. The resulting model structure ei-         called “unified,” the latter type “composite” (Wegener, et al.
+                                                                    ther is tightly integrated, “all of one kind,” or consists of    1986). Of the twelve sample models, four (BOYCE, KIM,
+                                                                    loosely coupled submodels, each of which has its own inde-       5-LUT and RURBAN) belong to the unified category, and the
+                                                                    pendent internal structure. The former type of model is          remaining eight are composite. The distinction between uni-
+
+
+                                                                                                                  MA JOURNAL 23 WINTER 1994
+                                                                                                                     MICHAEL WEGENER
+
+
+                                                                    fied and composite model designs has important implica-              Besides these dominant theoretical foundations, several
+                                                                    tions for the modeling techniques applied and for the dy-         other theoretical elements are built into some models.
+                                                                    namic behavior of the model. (See below.)                         TRANUS and MEPLAN use export base theory to link
+                                                                                                                                      population and non-basic employment to exogenous fore-
+                                                                    Theory                                                            casts of export industries. HUDS, LILT and IRPUD apply
+                                                                       Nowhere is the difference between the modeling scene           standard probabilistic concepts of cohort survival analysis in
+                                                                    Lee critiqued and present models greater than in the area of      their demographic and household formation submodels.
+                                                                    theory. Lee was right in criticising the poor theoretical foun-   IRPUD also utilizes ideas from time geography, such as time
+                                                                    dations of the urban models of his time. In the meantime,         and money budgets, to determine action spaces of travelers
+                                                                    however, great advances with respect to appropriate theories      in its transportation submodel.
+                                                                    for explaining spatial choice behavior and in empirical tech-
+                                                                    niques for calibrating spatial choice models have been made.      Modeling Techniques
+                                                                    This has led to a broad consensus about what constitutes a           In all twelve models, the urban region is represented as a
+                                                                    state-of-the-arturban model.                                      set of discrete subareas or zones. The temporal dimension
+                                                                       Except for one (CUFM), all models in some way or other         is represented by subdividing time into discrete periods of
+                                                                    rely on random utility or discrete choice theory to explain       between one and five years. This classifies them as recursive
+                                                                    and forecast the behavior of urban actors such as investors,      simulation models.
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                    households, firms or travelers. Random utility models pre-           However, beyond this commonality is a great variety of
+                                                                    dict choices between alternatives as a function of attributes     modeling techniques. One area of variation is how the equi-
+                                                                    of the alternatives, subject to stochastic dispersion con-        librium between transportation and location in equilibrium
+                                                                    straints that take account of unobserved attributes of the al-    models is found. Here the distinction between unified and
+                                                                    ternatives, differences in taste between the decision makers,     composite models comes into play. Obviously, optimization
+                                                                    or uncertainty or lack of information (Domencich and              techniques can be applied only within one submodel or
+                                                                    McFadden 1975).Anas (1983a) showed that the multinomial           where the whole model is “all of one kind.” In this respect
+                                                                    logit model resulting from random utility maximization is, at     the unified models (BOYCE, KIM, 5-LUT and RURBAN)
+                                                                    equal levels of aggregation, formally equivalent to the           shine. In six of the twelve models (BOYCE, KIM, TRANUS,
+                                                                    entropy-maximizing model proposed by Wilson (1967;                LILT, MEPLAN, RURBAN), transportation and location are
+                                                                     1970); he thus laid the foundation for the convergence and       simultaneously determined in spatial-interaction location
+                                                                    general acceptability of formerly separate strands of theory.     models, in which activities are implicitly located as destina-
+                                                                       Underneath that uniformity, however, there are significant     tions of trips; in the remaining six models transportation in-
+                                                                    differences between the theoretical foundations of the mod-       fluences location via accessibility indicators. In the eight
+                                                                    els. Probably the most important difference is the degree to      models with network representation (all except POLIS,
+                                                                    which the models treat the urban system as a system of mar-       CUFM, HUDS and RURBAN), state-of-the-art modeling
+                                                                    kets. Half of the models (KIM, HUDS, TRANUS, 5-LUT,               techniques with multi-modal network representations are
+                                                                    MEPLAN, RURBAN) model the land (or floorspace or hous-            applied, with network equilibrium the dominant trip assign-
+                                                                    ing) market with endogenous prices and market clearing in         ment method despite its well-known weakness of collapsing
+                                                                    each period; one (IRPUD) has endogenous land and housing          to all-or-nothing assignment in the absence of congestion.
+                                                                    prices with delayed price adjustment. These models are in-        Only ITLUF’,TRANUS and MEPLAN have a multiple-path
+                                                                    debted to microeconomic theory, in particular to Alonso’s         assignment allowing for true route-choice dispersion.
+                                                                    (1964) theory of urban land markets or bid-rent theory. The          For representing intraregional flows of goods, multire-
+                                                                    six models without market equilibrium rely on random util-        gional input-output methods are the standard method. KIM,
+                                                                    ity maximization; however, two of the microeconomic               TRANUS and MEPLAN use input-output coefficients or de-
+                                                                    models (5-LUT and RURBAN) are hybrids between bid-rent            mand functions for determining intersectoral flows, and ran-
+                                                                    and random utility theory. All models with transportation         dom utility or entropy models for their spatial distribution.
+                                                                    submodels use random utility or entropy theory for model-         TRANUS and MEPLAN have generalized this to incorporate
+                                                                    ing destination and mode choice.                                  industries and households as consuming and producing “fac-
+                                                                       Only KIM determines a general equilibrium between              tors” giving rise to goods movements or travel.
+                                                                    transportation and location in the strict economic sense of          With the exception of CUFM and HUDS, all models are
+                                                                    equilibrium between supply and demand with endogenous             aggregate in their input and output at a meso level, i. e. all
+                                                                    prices. The other models are equilibrium models of transpor-      results are given for medium-sized zones and for aggregates
+                                                                    tation only (ITLUF’,IRPUD), of transportation and activity        of households and industries. CUFM and HUDS are entirely
+                                                                    location linked by delays (TRANUS, MEPLAN), or of trans-          disaggregate, i. e. they apply microsimulation techniques to
+                                                                    portation and location combined, but without endogenous           disaggregate input data. HUDS works on a sample of disag-
+                                                                    prices (BOYCE, LILT). The activity-location models of             gregate data of individual households in list form, whereas
+                                                                    POLIS, CUFM, ITLUP and IRPUD are not equilibrium                  CUFM uses detailed land information in map form gener-
+                                                                    models, but apply various concepts of locational surplus          ated by a geographical information system. IRPUD is pecu-
+                                                                    (POLIS), random utility (ITLUF’, IRPUD) or profitability          liar in that it starts with aggregate data but uses microsimula-
+                                                                    (CUFM) to locate activities. ITLUP may be brought to gen-         tion techniques with endogenous sampling in its housing
+                                                                    eral equilibrium, but this is not normally done.                  market submodel.
+
+
+                                                                                                                    APA JOURNAL 24 WINTER 1994
+                                                                                                              OPERATIONAL URBAN MODELS
+
+
+                                                                    Dynamics                                                            equation appears almost an obsession. It would probably be
+                                                                       Recursive simulation models are called quasi-dynamic be-         more effective to concentrate instead on model validation,
+                                                                    cause, although they model the development of a city over           i. e. the comparison of model results with observed data over
+                                                                    time, within one simulation period they are in fact cross-          a longer period. However, remarkably few validation exer-
+                                                                    sectional. This is however only true for strictly unified mod-      cises are reported in the modeling literature-even the
+                                                                    els. Composite models consist of several interlinked submo-         ISGLUTI report (Webster, et al. 1988) deals rather cursorily
+                                                                    dels that are processed sequentially or iteratively once or sev-    with validation issues. In the future, the only real test of a
+                                                                    eral times during a simulation period. This makes composite         model’s performance should be its ability to forecast the es-
+                                                                    models especially suited for taking account of time lags or         sential dynamics of the modeled system over a past period at
+                                                                    delays due to the complex superposition of slow and fast pro-       least as long as the forecasting period. There are only two
+                                                                    cesses of urban development (cf. Wegener, et al. 1986).How-         models in the sample following this philosophy, MEPLAN
+                                                                    ever, this feature is insufficiently used by the models, because    and IRPUD. These models are partly calibrated not by statis-
+                                                                    the typical period of five years has already the effect of an       tical estimation techniques, but by manual fine-tuning in a
+                                                                    implicit time lag-a too-long time lag in most cases.                long, interactive process.
+
+                                                                    Data Requirements                                                   Operationality
+                                                                       It was one of Lee’s major complaints against large-scale            All the models in the sample are operational in the sense
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                    urban models that they were “data-hungry.”This is partly still      that they have been applied to real cities, but they are opera-
+                                                                    true today. The data collection for a model of a large metrop-      tional to different degrees. Some of them still fit Lee’s de-
+                                                                    olis has remained a major effort. However, in many cases the        scription of poorly documented monster programs executed
+                                                                    introduction of computers in local government has gener-            on mainframe computers and understood only by their au-
+                                                                    ated a pool of routinely collected and updated data that can        thors. At the other end of the spectrum are the few models
+                                                                    be used as the information base for a model, in particular in       that are on their way to become standard software for a
+                                                                    the fields of population, housing, land use and transpor-           wider market. Among these, TRANUS stands out as a partic-
+                                                                    tation.                                                             ularly advanced and well documented software running un-
+                                                                       Another factor likely to reduce the data-dependency of ur-       der Windows 3.1, with an attractive user interface in Spanish
+                                                                    ban models is the significant progress made in urban theory         or English. The time seems not far when any planning office
+                                                                    in the last decades. In general, the models of today are more       will be able to buy a complex and versatile urban model with
+                                                                    parsimonious, i. e. can do with less data than their predeces-      full documentation, default values and test data sets for less
+                                                                    sors did twenty years ago. Examples illustrating this are the       than a thousand dollars.
+                                                                    techniques to generate regional input-output matrices from             Not all models have progressed in that direction as far as
+                                                                    national input-output matrices and regional totals through          TRANUS has. The majority of them operate in a middle
+                                                                    biproportional scaling methods; or techniques to create arti-       ground between the two extremes. Many model programs
+                                                                    ficial microdata as samples from multivariate aggregate data.       are currently being ported from mainframe to workstation
+                                                                                                                                        or PC platforms, with the distinction between the two more
+                                                                    Calibration and Validation                                          and more blurred. These models benefit from the vast in-
+                                                                       Lee claimed that it was one of the fundamental flaws of          crease in memory and computing speed and the associated
+                                                                    large-scale models that there did not exist reliable and effi-      gain in autonomy, convenience and graphical capabilities of-
+                                                                    cient techniques for calibrating their parameters, i. e. de-        fered by small computers. However, there is also an opposite
+                                                                    termining those values of the parameters of their equations         movement. Some modelers explore the potential for solving
+                                                                    that yielded the best correspondence of the model results           hitherto intractable computing tasks by turning to the fastest
+                                                                    with observations from reality.                                     super computers available (BOYCE, KIM).
+                                                                       The twelve models of the sample demonstrate that such
+                                                                    methods now exist. All of them have been (or could have             Actual and Potential Applications
+                                                                    been) estimated from observed data, using readily available            If one considers the enormous range of planning problems
+                                                                    computer programs and following well-established methods            facing a typical metropolitan area in industrialized countries
+                                                                    and standards. In particular, maximum-likelihood estimation         today, the spectrum of problems actually addressed with the
+                                                                    of the ubiquitous logit model has become a routine activity.        twelve urban models in the sample is very narrow. The ma-
+                                                                       Nevertheless, in one respect Lee’s criticism is as valid to-     jority of applications answer traditional questions such as
+                                                                    day as it was twenty years ago. While calibration has become        how land use regulations or housing programs would affect
+                                                                    easier, the limits to calibrating a model with data of the past     land use development and transportation, or how transpor-
+                                                                    have become visible. Calibration of cross-sectional models,         tation improvements or changes in travel costs would shift
+                                                                    as it is practised today, provides the illusion of precision, but   the distribution of activities in an urban area.
+                                                                    does little to establish the credibility of models designed to         These are and will continue to be important questions-
+                                                                    look into the far future. There has been almost no progress,        questions that can only be answered with the kind of models
+                                                                    moreover, in the methodology required to calibrate dynamic          discussed here. However, other issues are likely to become
+                                                                    or quasi-dynamic models.                                            prominent in the future, and it will be essential that urban
+                                                                       In the face of this dilemma, the insistence of the authors       models be able to make a significant contribution to their
+                                                                    of some models in the sample on “estimating” every model            rational discussion. Issues that seem to deserve more atten-
+
+
+                                                                                                                     APA JOURNAL 25 WINTER 1994
+                                                                                                                      MICHAEL WEGENER
+
+
+                                                                    tion by urban modelers are equity and environmental issues.        intractable tasks such as network design problems formu-
+                                                                    To forecast the distributional effects of policy measures in       lated as bilevel programming models may pose new magni-
+                                                                    the fields of employment, housing or transportation is well        tudes of computing needs and hence require super computer
+                                                                    within the range of what the models can do if they are made        capabilities. However, study is needed of whether the added
+                                                                    more sensitive to these dimensions. ITLUP and MEPLAN               complexity imposed by parallel computing would impose
+                                                                    contain evaluation modules calculating consumer surplus in-        more restrictive constraints on problem formulation than
+                                                                    dicators for various groups. Environmental applications are        the added speed is worth. Lastly, the speed on a remote super
+                                                                    gaining in importance, as simulations of the energy con-           computer should be weighed against the convenience and
+                                                                    sumption of transportation by models such as TRANUS and            flexibility of slower but autonomous local computing; the ul-
+                                                                    IWUD demonstrate. Other applications addressing ecologi-           timate solution to this conflict may be the desktop super
+                                                                    cal issues such as noise propagation or air pollution are in       computer.
+                                                                    easy reach and are likely to become standard features of ad-          Other methodological innovations of potential benefit to
+                                                                    vanced urban models in the future.                                 urban models are related to developments in the field of geo-
+                                                                       New legislation inspired by growing environmental               graphical information systems (GIs). Despite their recent
+                                                                    awareness may accelerate the greening of urban models. In          popularity, GIs have so far contributed surprisingly little to
+                                                                    the United States the Intermodal Surface Transportation Ef-        methodological innovation in urban analysis. The theoreti-
+                                                                    ficiency Act of 1991 requires that new transport projects in       cal vacuousness of GIs can be remedied only if they are
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                    non-attainment areas must demonstrate that they do not             linked to the analytical capabilities of urban models. How-
+                                                                    have negative impacts on air quality, and the amended Clean        ever, the world of GIS and the urban modeling world are still
+                                                                    Air Act of 1990 demands that air quality forecasting must          far from each other. It would be a challenge to explore what
+                                                                    consider the interaction between transportation and land           forms of analytical models are appropriate for the data struc-
+                                                                    use in a consistent fashion-as can be done only by land-use        tures provided in GIs. One conjecture is that microsimula-
+                                                                    transport models. ITLUP’s link to the air quality model of         tion may have a certain affinity to the way spatially disaggre-
+                                                                    the Environmental Protection Agency may herald a new era           gate microdata are stored as point coverages in GIs. This
+                                                                    of urban models used for environmental analysis.                   might provide additional impetus to recent experiments with
+                                                                                                                                       microsimulation models of spatial behavior going beyond
+                                                                    Conclusion                                                         the rule-based activity location in CUFM (Hayashi and Tom-
+                                                                                                                                       ita 1989; Mackett 1990a; 1990b)
+                                                                       A brief paper like this is much too short to convey an im-         Also of potential interest are knowledge-based or expert
+                                                                    pression of the immense achievement and richness of ap-            systems. Like GIs, knowledge-based systems have so far been
+                                                                    proaches in urban modeling during the last two decades. In         applied mostly to tasks of little interest to urban modelers.
+                                                                    particular, because of the paper’s focus on operational urban      However, this need not be so in the future. Heikkila, et al.
+                                                                    models, it could not do equal justice to the parallel develop-     (1989) report on an interesting project in which an expert
+                                                                    ment of theoretical urban models. However, there has been a        system, a GIS and an instantiation of Putman’s ITLUP were
+                                                                    constant flow of ideas and innovations from theoretical to         coupled to form a decision support system for infrastruc-
+                                                                    applied modeling work in the past, and it can be expected          ture improvements.
+                                                                    that the theoretical field will continue to influence the state       The greatest challenge, however, seems to be to open up
+                                                                    of the art of operational urban models in the future. More-        urban modeling to new problem fields. As has been demon-
+                                                                    over, there exist at this very time exciting opportunities to      strated, urban models have in the past been applied mainly
+                                                                    incorporate new theoretical developments and methodolo-            to a very narrow set of planning problems, and have failed
+                                                                    gies into the field.                                               to adapt to changing perceptions of problems. In particular,
+                                                                       Several avenues seem promising. The likely further in-          models should be made more sensitive to issues of equity and
+                                                                    crease in memory and speed of small computers will con-            of environmental sustainability. Only if the models prove
+                                                                    tinue to lower the barriers to making urban models a routine       that they are able to give meaningful answers to the urgent
+                                                                    tool for the exploration of urban futures by a widening range      questions facing cities on these matters can they establish for
+                                                                    of institutions and individuals, including non-experts. How-       themselves a firm position in the planning process of the
+                                                                    ever, this tendency must be supported by the development of        future.
+                                                                    attractive and efficient user interfaces for interactive manipu-      Some may find it ironic that it requires the urgency of the
+                                                                    lation of inputs and inspection of results. The Windows-           environmental debate to grant urban models a new lease of
+                                                                    based user shell of TRANUS, Young’s gaming simulation              life. It is indeed puzzling to see that even vigorous critics
+                                                                    LAND (Gu, et al. 1992) and Batty’s model visualization sys-        of “rational” models in planning call for just that kind of
+                                                                    tem (Batty 1992) are leading the way in this direction.            method for tackling environmental problems. However, the
+                                                                       On the other end of the computing spectrum, the use-            new respect for models is more than just another twist in the
+                                                                    fulness of super computers for urban modeling has yet to be        intellectual debate about rationality in societal planning. It
+                                                                    ascertained. The question seems to depend very much on             heralds the twilight of postmodernity in the face of growing
+                                                                    whether equilibrium models requiring nonlinear program-            risks of ecological disaster. Urban models have a renewed
+                                                                    ming solutions will continue to be a main target (cf. Harris       chance because they stand for rationality, and rationality is
+                                                                    1993). Boyce (1988) and Kim (1989) argue that new, formerly        again needed.
+
+
+
+                                                                                                                     APA JOURNAL. 26 WINTER 1994
+                                                                                                            OPERATIONAL URBAN MODELS
+
+
+                                                                                         REFERENCES                                 ~,       Beatriz Pkrez and N. Vera. 1984. TRANUS-J: Putting
+                                                                                                                                      Large Models into Small Computers. Environment and
+                                                                    Allen, Peter M. and M. Sanglier. 197811979. Dynamic Mod-          Planning B: Planning and Design 11: 87-101.
+                                                                      els of Urban Growth. journal of Social and Biological Struc- Batty, Michael. 1992. Urban Modelling in Computer-Graphic
+                                                                      tures 1: 265-80 and 2: 269-78.                                  and Geographic Information System Environments. Envi-
+                                                                    ~          and -.            1981. Urban Evolution, Self-         ronment and Planning B 19: 663-88.
+                                                                      Organization, and Decisionmaking. Environment and ~.                     1994. A Chronicle of Scientific Planning: The
+                                                                      Planning 13: 167-83.                                            Anglo-American Modeling Experience. Journal of the
+                                                                    Alonso, William. 1964. Location and Land Use. Cambridge,          American Planning Association (this issue).
+                                                                      MA: Harvard University Press.                                 Berechman, Joseph and K. A. Small. 1988. Research Policy
+                                                                    Amano, Kozo, Tsunekazu Toda and Hirofumi Abe. 1987. De-           and Review 25. Modeling Land Use and Transportation:
+                                                                      velopment and Application of a Hierarchical Land-Use            an Interpretive Review for Growth Areas. Environment
+                                                                      Model. Memoirs of the Faculty of Engineering Kyoto Univer-      and Planning A 2 0 1283-422.
+                                                                      sity XLIX, 4 326-57.                                          Bertuglia, C. S., Giorgio Leonardi and Alan G. Wilson (eds.).
+                                                                    ~,       ~        and ~.        1988. A Land-Use Simulation       1990. Urban Dynamics: Designing an Integrated Model.
+                                                                      Model Based on the Bidding Competition Among Activi-            LondonlNew York Routledge.
+                                                                      ties. Proceedings of the JapanSociety of Civil Engineers 395, Boyce, David E. 1986. Integration of Supply and Demand
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                      IV-9 115-23.                                                    Models in Transportation and Location: Problem Formu-
+                                                                    Anas, Alex. 1982. Residential Location Markets and Urban          lation and Research Questions. Environment and Planning
+                                                                      Transportation. New York Academic Press.                        A 18: 485-89.
+                                                                    ~.        1983a. Discrete Choice Theory, Information Theory ~.           1988. Renaissance of Large-Scale Models. Papers of
+                                                                      and the Multinomial Logit and Gravity Models. Transpor-         the Regional Science Association 65: 1-10.
+                                                                      tation Research 17 B 13-23.                                   ~.       1990. Network Equilibrium Models of Urban Loca-
+                                                                    ~.        1983b. The Chicago Area Transportation and Land-        tion and Travel Choices: New Research Agenda. In New
+                                                                      Use Analysis System. Final Report. Washington, D C U. s.        Frontiers in Regional Science. Essays in Honour of Walter
+                                                                      Department of Transportation.                                   hard, edited by Manas Chatterji and Robert E. Kuenne.
+                                                                    ~.         1984. Discrete Choice Theory and the General           London: Macmillan, Vol. 1,238-56.
+                                                                      Equilibrium of Employment, Housing and Travel Net- ~,                  Kyong S. Chon, M. E. Ferris, Yong J. Lee, K. T. Lin
+                                                                      works in a Lowry-type Model of the Urban Economy. En-           and R. W. Eash. 1985. Implementation and Evaluation of
+                                                                      vironment and Planning A 1 6 1489-502.                          Combined Models of Urban Travel and Location on a Sketch
+                                                                    ~.         1992. W S I M (The New York Area Simulation            Planning Network. Urbana-ChampaignlChicago: Depart-
+                                                                      Model):A Model for Cost-BenefitAnalysis of Transportation       ment of Civil Engineering, University of Illinois at Urbana-
+                                                                      Projects. New York Regional Plan Association.                   Champaign and Chicago Area Transportation Study.
+                                                                    ~        and Richard J. Amott. 1991. Dynamic Housing Mar- ~,             Kyong S. Chon, Yong J. Lee, K.T. Lin and Larry
+                                                                      ket Equilibrium with Taste Heterogeneity, Idiosyncratic         LeBlanc. 1983. Implementation and Computational Issues
+                                                                      Perfect-Foresight and Stock Conversions. Journal of Hous-       for Combined Models of Location, Destination, Mode,
+                                                                      ing Economics 1:2-32.                                           and Route Choice. Environment and Planning A 15, 9
+                                                                    ~,        Goran Cars, Joong Rae Cho, Bjorn HBrsman, Ulf Jir-      1219-30.
+                                                                      low and Folke Snickars. 1987. The Economics of a Regu- ___ and Lars Lundqvist. 1987. Network Equilibrium
+                                                                      lated Housing Market: Policy Perspectives and Modeling          Models of Urban Location and Travel Choices: Alternative
+                                                                      Methods. Stockholm: Swedish Council for Building Re-            Formulations for the Stockholm Region. Papers of the Re-
+                                                                      search.                                                         gional Science Association 61: 93-104.
+                                                                    ~        and Liang S. Duann. 1985. Dynamic Forecasting of -,             M. Tatineni and Y. Zhang. 1992. Scenario Analyses
+                                                                      Travel Demand, Residential Location and Land Develop-           of the Chicago Region with a Sketch Planning Model of
+                                                                      ment. Papers of the Regional Science Association 5 6 37-58.     Origin-Destination Mode and Route Choice. Final Report
+                                                                    Anderstig, Christer and Lars-Goran Mattson. 1991. An Inte-        to Illinois Department of Transportation. Chicago: Ur-
+                                                                      grated Model of Residential Employment Location in a            ban Transportation Center, University of Illinois at
+                                                                      Metropolitan Region. Papers in Regional Science: TheJour-       Chicago.
+                                                                      nal of the RSAI 7 0 167-84.                                   Brotchie, John F., John Dickey and Ron Sharpe. 1980. TO-
+                                                                    Ando, Asao. 1991. Daelopment of a Metropolitan Simulation         PAZ. Lecture Notes in Economics and Mathematical Sys-
+                                                                      Model on Spatial Allocationsof Activities in Flow and Stock     tems 180. BerlinlHeidelberglNew York Springer-Verlag.
+                                                                      Aspects. Kyoto: Department of Transportation Engi- Couclelis, Helen. 1993. The Last Frontier. Environment and
+                                                                      neering, Kyoto University.                                      Planning B: Planning and Design 2 0 1-4.
+                                                                    Aoyama, Yoshitaka. 1989. A Historical Review of Transport Domencich, Thomas A. and Daniel McFadden. 1975. Urban
+                                                                      and Land-Use Models in Japan. Transportation Research           Travel Demand: a Behavioral Analysis. AmsterdamlOx-
+                                                                      23 A 53-61.                                                     ford North Holland Publishing Company.
+                                                                    Barra, Tom& de la. 1989. Integrated Land Use and Transport Echenique, Marcia1 H., Anthony D. J. Flowerdew, John
+                                                                      Modelling. Cambridge: Cambridge University Press.               Douglas Hunt, Timothy R. Mayo, Ian J. Skidmore and Da-
+
+
+
+                                                                                                                   APA JOURNAL 27 WINTER 1994
+                                                                                                                   MICHAEL WEGENER
+
+
+                                                                      vid C. Simmonds. 1990. The MEPLAN Models of Bilbao,             CA Institute of Urban and Regional Development, Uni-
+                                                                      Leeds and Dortmund. TransportReviews 1 0 309-22.                versity of California at Berkeley.
+                                                                    Goldner, William. 1971. The Lowry Model Heritage. Journal       ~.         1993. CUF Model Simulation Results: Alternative Fu-
+                                                                      of the American Institute of Planners 3 7 100-10.                tures for the Greater Bay Area Region. Working Paper 592.
+                                                                    Gu, Quilin, Andrew Haines and William Young. 1992. The             Berkeley, CA Institute of Urban and Regional Develop-
+                                                                      Development of a Land-Use/Transport Interaction Model.           ment, University of California at Berkeley.
+                                                                      Report 2. Melbourne: Department of Civil Engineering,         Lee, Douglass B., Jr. 1973. Requiem for Large-Scale Models.
+                                                                      Monash University.                                              Journal of the American Institute of Planners 3 9 163-78.
+                                                                    Harris, Britton. 1965. New Tools for Planning. Journal of the   Lombardo, S. T. and Giovanni A. Rabino. 1984. Nonlinear
+                                                                      American Institute of Planners 31: 90-95.                       Dynamic Models for Spatial Interaction: The Results of
+                                                                    ___       1985. Urban Simulation Models in Regional Sci-           Some Empirical Experiments. Papers of the Regional Sci-
+                                                                      ence. Journal of Regional Science 25: 545-67.                    ence Association 55: 83-101.
+                                                                    ~.        1994. The Real Issues Concerning Lee’s “Requiem.”     Lowry, Ira S. 1964. A Model of Metropolis. RM-4035-RC.
+                                                                      Journal of the American Planning Association (this issue).       Santa Monica: Rand Corporation.
+                                                                    Hayashi, Yoshitsugu and Kenji Doi. 1989. A Model for Ana-       Lundqvist, Lars. 1978. Planning for Freedom of Action. In
+                                                                      lyzing the Imputation of Commuters’ Benefits to Land             Spatial Interaction Theory and Planning Models, edited by
+                                                                      Property Values. Transport Poliq, Management and Tech-           Anders Karlqvist, Lars Lundqvist, Folke Snickars and Jor-
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                      nology-Towards 2001. Selected Proceedings of the Fifth           gen W. Weibull. Amsterdam: North Holland, 307-34.
+                                                                      World Conference on Transport Research, Yokohama.             ~.         1979. Models of Stockholm: Policy Perspectives. Sis-
+                                                                      Ventura: Western Periodicals, Vol. I, 303- 17.                   temi Urbani 3: 91-99.
+                                                                    ~        and ~.        1992. Benefit Incidence of Outer Urban   ~.          1989. A Model System for Metropolitan Energy
+                                                                      Ring Roads-Theory and Case Study of the Nagoya Ring              Studies. In Spatial Energy Analysis, edited by Lars Lund-
+                                                                      Road. Land Use, Development and Globalisation. Selected          qvist, Lars-Goran Mattson and Erik Anders Eriksson. Al-
+                                                                      Proceedings of the Sixth World Conference on Transport           dershot: Avebury, 245-69.
+                                                                      Research, Lyon. St.-Just-la-Pendue:Presse de 1’Imprimerie     ~,         Tschangho John Kim and Jeong Hyun Rho. 1992.
+                                                                      Chirat.                                                          On the Application of an Integrated Land-Use Transporta-
+                                                                    ~        and Yasuo Tomita. 1989. A Micro-Analytic Residen-         tion Model to Stockholm. Land Use, Development and
+                                                                      tial Mobility Model for Assessing the Effects of Transport       Globalisation. Selected Proceedings of the Sixth World
+                                                                      Improvement. Transport Poliq, Management and Technol-            Conference on Transport Research, Lyon. St.-Just-la-
+                                                                      ogy-Towards 2001. Selected Proceedings of the Fifth              Pendue: Presse de YImprimerie Chirat.
+                                                                      World Conference on Transport Research, Yokohama.             Mackett, Roger L. 1983. The Leeds Integrated Land-Use
+                                                                      Ventura: Western Periodicals, 91-105.                            Transport Model (LILV. Supplementary Report SR 805.
+                                                                    Heikkila, Eric J., James E. Moore and Tschangho John Kim.          Crowthorne: Transport and Road Research Laboratory.
+                                                                       1989. Future Direction for EGIS: Applications to Land        ~.         1990a. MASTER Model (Micro-AnalyticalSimulation
+                                                                      Use and Transportation Planning. In Expert Systems: Ap-          of Transport, Employment and Residence). Report SR 237.
+                                                                      plications to Urban Planning, edited by Tschangho John           Crowthorne: Transport and Road Research Laboratory.
+                                                                       Kim, Lyna L. Wiggins and John R. Wright. New Yorkl           ~.          1990b. Comparative Analysis of Modelling Land-
+                                                                      BerlinlHeidelberg: Springer-Verlag,225-40.                       Use Transport Interaction at the Micro and Macro Levels.
+                                                                    Hunt, John Douglas and David C. Simmonds. 1993. Theory             Environment and Planning A 22: 459-75.
+                                                                       and Application of an Integrated Land-Use and Transport      ~.          199Oc. The Systematic Application of the LILT
+                                                                       Modelling Framework. Environment and Planning B: Plan-          Model to Dortmund, Leeds and Tokyo. Transport Reviews
+                                                                       ning and Design 20: 221-44.                                     1 0 323-38.
+                                                                    Hutchinson, Bruce and Michael Batty (eds.). 1986. Advances      ~.         1991a. A Model-Based Analysis of Transport and
+                                                                       in Urban Systems Modeling. Amsterdam North Holland.             Land-Use Polices for Tokyo. Transport Reviews 11: 1-18.
+                                                                    ~,        Peter Nijkamp and Michael Batty (eds.). 1985. Opti-   ~.         1991b. LILT and MEPLAN: a Comparative Analysis
+                                                                       mization and Discrete Choice in Urban Systems. Berlin1          of Land-Use and Transport Policies for Leeds. Transport
+                                                                      HeidelberglNew York Springer-Verlag.                             Reviews 11: 131-54.
+                                                                    Kain, John E 1987. Computer Simulation Models of Urban          Marchetti, Cesare. 1987. On Transport in Europe: The Last 50
+                                                                      Location. In Handbook of Regional and Urban Economics,           Yearsand the Next 30. Working Paper. Laxenburg: Interna-
+                                                                      Vol. 11, edited byEdwin S. Mills. Amsterdam: Elsevier Pub-       tional Institute for Applied Systems Analysis.
+                                                                       lishers B. V., 847-75.                                       Martinez, Francisco J. 1991. Transport Investments and Land
+                                                                    ~        and William C. Apgar, Jr. 1985. Housing and Neigh-        Values Interaction: The Case of Santiago City. Proceedings
+                                                                       borhood Dynamics: A Simulation Study. Cambridge, MA:            of the PTRC Summer Annual Meeting. London: PTRC,
+                                                                       Harvard University Press.                                       45-58.
+                                                                    Kim, Tschangho John. 1989. Integrated Urban Systems Model-      ~.          1992a. Towards the 5-Stage Land-Use Transport
+                                                                       ing: Theory and Applications. DordrechtlBostonlLondon:          Model. Land Use, Development and Globalisation.Selected
+                                                                       Kluwer Academic Publishers.                                     Proceedings of the Sixth World Conference on Transport
+                                                                    Landis, John D. 1992. BASS 11: A Nay Generation of Metro-          Research, Lyon. St.-Just-la-Pendue:Presse de I’Imprimerie
+                                                                      politan Simulation Models. Working Paper 573. Berkeley,          Chirat, 79-90.
+
+
+                                                                                                                  AF’A JOURNAL 28 WINTER 1994
+                                                                                                            OPERATIONAL URBAN MODELS
+
+
+                                                                    ~.         1992b. The Bid-Choice Land-Use Model: an Inte- Rickaby, P. 1991. Energy and Urban Development in an Ar-
+                                                                      grated Economic Framework. Environment and Planning             chetypical English Town. Environment and Planning B:
+                                                                      A 2 4 871-85.                                                   Planning and Design 18: 153-75.
+                                                                    Miyagi, Toshihiko. 1989. A Combined Residential Location Roy, John R. 1992. Transport Efficiency in Cities with Sub-
+                                                                      and Transport Network Equilibrium Model. TransportPol-          centres. Land Use, Development and Globalisation. Se-
+                                                                       icy, Management and Technology-Towards 2001. Selected          lected Proceedings of the Sixth World Conference on
+                                                                       Proceedings of the Fifth World Conference on Transport         Transport Research, Lyon. St.-Just-la-Pendue: Presse de
+                                                                       Research, Yokohama. Ventura: Western Periodicals,              1'Imprimerie Chirat, 291-302.
+                                                                       123-37.                                                      Rho, Jeong Hyun and Tschangho John Kim. 1989. Solving
+                                                                    Miyamoto, Kazuaki and Keiichi Kitazume. 1989. A Land-Use          a Three- Dimensional Urban Activity Model of Land Use
+                                                                       Model Based on Random Utility I Rent-Bidding Analysis          Intensity and Transport Congestion. Journal of Regional
+                                                                       (RURBAN). Transport Policy, Management and Technol-            Science 29: 595-613.
+                                                                       ogy-Towards 2001. Selected Proceedings of the Fifth Rogers, Everett M. 1962. Diffusionof Innovations. New York
+                                                                       World Conference on Transport Research, Yokohama.              Free Press.
+                                                                       Ventura: Western Periodicals, Vol. IV, 107-21.               Webster, F. Vernon, Philip H. Bly and Neil J. Paulley (eds.).
+                                                                    ~,         Hideo Nakamura and Eihan Shimizu. 1986. A Land         1988. Urban Land-Use and Transport Interaction. Policies
+                                                                       Use Model Based on Disaggregate Behavioral Analyses.           and Models. Report of the International Study Group on
+
+
+
+
+Downloaded by [Western Kentucky University] at 16:08 25 June 2013
+                                                                       Proceedings of the Fourth World Conference on Transport        Land-UselTransport Interaction (ISGLUTI). Aldershot:
+                                                                       Research, 1535-50.                                             Avebury.
+                                                                    Morisugi, Hisa, Eijo Ohno and Toshihiko Miyagi. 1992. Be-      ~         and Mira Dasgupta. 1991. Land Use and Transport
+                                                                       nefit Incidence of Urban Ring Road-Theory and Case             Interactions: Report of the ISGLUTI Study. Crowthorne:
+                                                                       Study of the Gifu Ring Road. Land Use, Development and         Transport and Road Research Laboratory.
+                                                                       Globalisation. Selected Proceedings of the Sixth World      ~         and Neil J. Paulley. 1990. An International Study on
+                                                                       Conference on Transport Research, Lyon. St.-Just-la-           Land-Use and Transport Interaction. Transport Reviews
+                                                                       Pendue: Presse de I'Imprimerie Chirat.                          1 0 287-308.
+                                                                    Nakamura, Hideo, Yoshitsugu Hayashi and Kazuaki Miya- Wegener, Michael. 1985. The Dortmund Housing Market
+                                                                       moto. 1983. Land-Use Transportation Analysis System for        Model: A Monte Carlo Simulation of a Regional Housing
+                                                                       a Metropolitan Area. TransportationResearch Record 931:        Market. In Microeconomic Models of Housing Markets, ed-
+                                                                        12-19.                                                        ited by Konrad Stahl. Lecture Notes in Economic and
+                                                                    Oppenheim, Norbert. 1986. Dynamic Forecasting of Urban            Mathematical Systems 239. BerlinlHeidelberglNew York:
+                                                                       Shopping Travel Demand. Transportation Research 20 B:          Springer-Verlag, 144-9 1.
+                                                                       391-402.                                                     ~.         1986a. Transport Network Equilibrium and Re-
+                                                                    ~.         1988. An Economic Base Equilibrium Model of Ur-        gional Deconcentration. Environment and Planning A 18:
+                                                                       ban Activity Location. Unpublished Working Paper. New          437-56.
+                                                                       York: Department of Civil Engineering, City University of ~.           198613. Integrated Forecasting Models of Urban and
+                                                                       New York.                                                      Regional Systems. London Papers in Regional Science 15,
+                                                                    ~.         1989. Equilibrium Commercial Activity and Travel       Integrated Analysis of Regional Systems, 9-24.
+                                                                       Distribution: Incorporating Endogenous Prices and Travel ~.            1987. Transport and Location in Integrated Spatial
+                                                                       Costs into the Harris-Wilson Framework, with some Nu-          Models. In Transportation Planning in a Changing World,
+                                                                       merical Experiments. Transportation Research 23 B              edited by Peter Nijkamp and Shalom Reichman. Alder-
+                                                                       225-42.                                                        shot: Gower, 208-25.
+                                                                    Paulley, Neil J. and F. Vernon Webster. 1991. Overview of an ~,           Friedrich Gnad and Michael Vannahme. 1986. The
+                                                                       International Study to Compare Models and Evaluate             Time Scale of Urban Change. In Advances in Urban Sys-
+                                                                       Land-Use and Transport Policies. Transport Reviews 11:          tems Modelling, edited by Bruce Hutchinson and Michael
+                                                                        197-222.                                                      Batty. Amsterdam: North Holland, 145-97.
+                                                                    Prastacos, Poulicos. 1986. An Integrated Land-Use-Transpor- ~,            Roger L. Mackett and David C. Simmonds. 1991.
+                                                                       tation Model for the San Francisco Region. Environment         One City, Three Models: Comparison of Land-uselTrans-
+                                                                       and Planning A 18: 307-22 and 511-28.                          port Policy Simulation Models for Dortmund. Transport
+                                                                    Pumain, Denise, T. Saint Julien and L. Sanders. 1984. Dy-         Reviews 11: 107-29.
+                                                                       namics of Spatial' Structure in French Urban Agglomera- Wilson, Alan G. 1967. A Statistical Theory of Spatial Distri-
+                                                                       tions. Papers of the Regional Science Association 55: 71-82.   bution Models. TransportationResearch 1: 253-69.
+                                                                    Putman, Stephen H. 1983. Integrated Urban Models: Policy ~.                1970. Entropy in Urban and Regional Modelling.
+                                                                       Analysis of Transportation and Land Use. London: Pion.         London: Pion.
+                                                                    ~.          1991. Integrated Urban Models 2. New Research ~,              J. D. Coelho, Sally M. Macgill and Huw C.W.L. Wil-
+                                                                        and Applications of Optimization and Dynamics. London:        liams. 1981. Optimization in Locational and Transport
+                                                                        Pion.                                                         Analysis. Chichester: John Wiley & Sons.
+
+
+
+
+                                                                                                                   M A JOURNAL 29 WINTER 1994
+

@@ -1,0 +1,1572 @@
+[PDF Metadata]
+Source PDF: journal/B18-jacobs-crisioni-kompil-dijkstra-2023-big-in-the-neighbourhood-identifying-local-and-regional-centres-through-their-network-position-10.1111-pirs.12727.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Big in the neighbourhood: Identifying local and regional centres through their network position
+Subject:         R11; R12; R14
+Keywords:        central places; city networks; hierarchy; service provision; settlements
+Author:          Chris Jacobsâ€ Crisioni
+Creator:         Elsevier
+Producer:        Acrobat Distiller 6.0 for Windows
+CreationDate:    Sat Apr 22 10:58:43 2023 WIB
+ModDate:         Sat Oct 21 23:56:13 2023 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           38
+Encrypted:       no
+Page size:       484.724 x 697.323 pts
+Page rot:        0
+File size:       2603164 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+Received: 14 July 2022       Revised: 11 March 2023       Accepted: 17 March 2023
+
+DOI: 10.1111/pirs.12727
+
+
+
+FULL ARTICLE
+
+
+
+
+Big in the neighbourhood: Identifying local and
+regional centres through their network position
+
+Chris Jacobs-Crisioni 1 |                      Mert Kompil 1,2                   |    Lewis Dijkstra 3
+
+1
+    European Commission, Joint Research
+Centre (JRC), Ispra, Italy                           Abstract
+2
+    FINCONS Group, 20871, Vimercate, Italy           National city ranks do not describe a settlement's local and
+3
+    European Commission, DG for Regional and         regional relevance adequately. We introduce a method to
+Urban Policy, Brussels, Belgium
+                                                     rank settlements' centrality based on travel time and
+Correspondence                                       settlement size. We investigate the relationship between a
+Mert Kompil, European Commission, Joint              settlement's size, whether it is a local or regional centre,
+Research Centre (JRC), Building 26a/234, Via
+E. Fermi 2749, 21027, Ispra (VA), Italy.             and its service endowment. The approach explains per
+Email: mert.kompil@ext.ec.europa.eu                  capita service endowments in Europe well, adding nuances
+                                                     that national rankings do not fully capture. In addition, it
+                                                     establishes a characterization of service types by empirically
+                                                     discernible preferences in spatial scale. Finally, results
+                                                     suggest that service endowment in settlements can be
+                                                     reshuffled because of faster road connections, with services
+                                                     spatially concentrating in better connected areas.
+
+                                                     KEYWORDS
+                                                     central places, city networks, hierarchy, service provision,
+                                                     settlements
+
+
+                                                     JEL CLASSIFICATION
+                                                     R11, R12, R14
+
+
+
+
+1       |   I N T RO DU CT I O N
+
+While much of the urbanism and economic geography literature focuses on the world's largest cities
+(Bell & Jayne, 2009; ESPON, 2014), a sizeable portion of the world's population lives in small cities, towns
+and rural areas. Counting gridded population counts (Batista e Silva et al., 2021) by degrees of urbanization
+
+
+
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and
+reproduction in any medium, provided the original work is properly cited.
+© 2023 The Authors. Papers in Regional Science published by John Wiley & Sons Ltd on behalf of Regional Science Association
+International.
+
+Pap Reg Sci. 2023;102:421–457.                                                         wileyonlinelibrary.com/journal/pirs        421
+422                                                                                                 JACOBS-CRISIONI ET AL.
+
+
+
+(European Commission, 2020) yields that 63% of the population in the EU and UK do not live in a city (i.e., urban
+centre). Furthermore, according to the functional urban area definition (Dijkstra et al., 2019), some 38% of the EU
+population lives in the vast territory outside these metropolitan areas. The lives of people living outside these metro-
+politan areas are likely to revolve around small towns and villages that provide a cluster of services. Through the
+flows of goods and services to and from those service clusters, those small settlements have a functional tie with
+their hinterland (Klemmer, 1978). Thus, even if their role in labour markets may be very limited, some small settle-
+ments can have a value that considerably exceeds their population size because of their role as hubs for services of
+general interest (Rondinelli, 1983).
+      The provision and delivery of social services of general interest, such as education and health, is one of the main
+mandates of regional, national and supranational governments. In Europe, adequate access to such services is
+guaranteed in the EU pillar of social rights (EU, 2018) and greatly promotes territorial cohesion (EC, 2022; Franco &
+da Costa, 2023; Rauhut et al., 2013). Together with economic services of general interest such as retailers and banks,
+they play an important role in shaping the socio-economic and spatial character of settlements (ESPON, 2017a).
+However the allocation of scarce resources for service provision obliges private and public investors to manage costs
+              pez-Torres & Prior, 2022). The costs of providing services in places with smaller and more dispersed
+efficiently (Lo
+populations are higher due to lower economies of scale and scope, greater travel distances and higher transportation
+costs inter alia (Kompil et al., 2019, 2022). Furthermore, these costs may grow as a consequence of ageing and popu-
+lation decline (OECD, 2021; OECD & JRC, 2021). This calls for a sound identification of the geography of service
+provision in settlements in Europe.
+      Using population grids and universal and harmonized methods (Dijkstra & Poelman, 2014) we can identify
+almost 50,000 settlements across the EU and UK, composed of cities, towns and villages. Some attention has already
+been given to the functional dependencies of those settlements on, for instance, agglomerated labour and housing
+markets (e.g., Dijkstra et al., 2019; Vanderstraeten & Van Hecke, 2019). Much less is known about the value of those
+settlements as central service hubs. According to ESPON (2014) only a part of the EU member states even recog-
+nizes that small settlements can have a significant territorial role. This is problematic because, arguably, policies may
+be much more effective if they are targeted on settlements that “punch above their weight.” Among others, Powe
+and Shaw (2004) confirm that policies that support small market towns can be effective to maintain rural service pro-
+vision. Such policies would require comprehensive and harmonized information on all the public and private services
+provided by different settlements across the EU territory, which to our best knowledge is currently not available.
+      To fill the knowledge gap, this paper proposes a hierarchical classification of centres based on their position in
+settlement networks. It ranks settlements based on their population size compared to other settlements in the vicin-
+ity. A settlement is considered higher-ranking if it takes more time to reach a settlement that has more population,
+so that a settlement that is the largest in a 10-minute car drive is considered lower on the hierarchy than a settle-
+ment that is the largest in a two-hour drive. This local hierarchy ranking has been calculated comprehensively for all
+known settlements across the EU and UK. Combinations with local service provision estimates confirm that local
+hierarchies are a relevant ordering mechanism to understand social and economic service provision throughout
+Europe's territory. In addition, clear hierarchical preferences are identified for several service types, after controlling
+for population size.
+      The objectives of this paper are to introduce a method based on road travel times and settlement population
+counts, in order to infer a hierarchical classification of centrality in settlements, and to present its results for the
+EU27 and UK; to validate its merits by analysing how well the captured hierarchy helps explain the endowment of
+service locations; and to verify whether differences in transport-network efficiency coincide with our ranking and
+endowment of services. For service endowment, we consider both economic and social services of general interest.
+We consider the introduced approach a pragmatic heuristic that allows us to capture a Christallerian hierarchy of
+central places in Europe (Christaller, 1934). It relies only on estimated settlement sizes and road network connectiv-
+ity, so that it can be applied globally in principle. The classification method has been executed using spatial data and
+fast shortest-path algorithms available in the open-source GeoDMS software (ObjectVision, 2014). Statistical
+JACOBS-CRISIONI ET AL.                                                                                                423
+
+
+
+analyses of the settlement classification were performed using SPSS and R. The resulting settlement classification
+results are publicly available through http://data.europa.eu/89h/185f3224-a5f9-46f2-9db7-63eefb5af9a0.
+      The remainder of this paper is structured as follows. In Section 2, earlier contributions to settlement hierarchiza-
+tion are discussed. The methods and data used to create a central settlement hierarchy, and the results of this
+method, are discussed in Section 3. Subsequently, the method to combine settlements with service provision data
+are treated together with analyses of how service endowment varies with settlement types and sizes, the introduced
+hierarchization results, and effective network speeds in Section 4. Finally, some overall conclusions and policy impli-
+cations are discussed in Section 5.
+
+
+
+2     |       S E T T L E M E N T H I E RA R C H I E S I N T H E L I T E RA T U R E
+
+Arbitrary settlement hierarchies abound in regional and national systems, owing to, for instance, political or clerical
+decisions, but those have a limited usage for a universally applicable method. There have been numerous efforts to
+rank settlements objectively, based on their relative global or national sizes, mainly focusing on city size distribution
+(see e.g. Gabaix, 1999; Wang et al., 2021) and returns to scale (see e.g., Bettencourt et al., 2007). Other classification
+attempts focus on global or continental city networks (Hall, 2004; Taylor & Derudder, 2016). However, none of
+these approaches give a satisfying answer on what the service providing functionality is of local settlements for their
+immediate hinterlands, while nevertheless hierarchies do exist among all settlements, not only major cities
+(Batty, 2006).
+      The functional hierarchy of settlements has been a topic of research since the introduction of central place the-
+ory (CPT) by Christaller (1934) and Lösch (1940). For a comprehensive recent overview of research on CPT we refer
+to Mulligan et al. (2012). Essentially, CPT entails a number of assumptions and propositions by which a spatially
+repeating system of retail and service providing clusters can be understood. Those clusters vary in complexity and
+level of specialization, with low complexity and low-specialization clusters occurring often across space, while high
+complexity, high-specialization clusters occur scarcely. The processes that cause these repeated hierarchical systems
+can for instance be described as a spatial evolution (Allen & Sanglier, 1979), or through micro-economics
+(Hotelling, 1929; Mulligan, 1984). Regardless of the underlying processes, service provider roles come about because
+of differentials in consumer choices and service provider decisions (Mulligan et al., 2012). Both aspects feed into a
+set of characteristics by which central settlement hierarchies can possibly be identified.
+
+
+
+2.1       |     Consumer choices
+
+Consumer choices follows a trade-off between closer distances and richer choices. Consumers tend to prefer dis-
+tance minimization for goods that are for example standardized and frequently demanded, while they prefer sizeable
+diverse clusters for goods that are differentiated and demanded less frequently. These consumer choices would lead
+to a spatial system in which services that need to be acquired often are offered in local centres at a high spatial fre-
+quency, while more specialized services tend to cluster in major centres at a low spatial frequency. Some argue that
+small local centres are jeopardized by the ubiquity of automobiles (Jacobs, 2007; Powe & Shaw, 2004); nevertheless,
+local centres are still relevant commercial service providers (Van Leeuwen & Rietveld, 2011).
+
+
+
+2.2       |     Economic service provider decisions
+
+From an economic service-provider perspective follows a trade-off with, on the one hand, the need to be close to
+potential users and maximize distance to potential competitors; and on the other hand, the need to accumulate
+424                                                                                                 JACOBS-CRISIONI ET AL.
+
+
+
+sufficient critical consumer mass to provide the service efficiently or profitably. For public services, returns to scale
+have been shown repeatedly (Kenny, 1982; OECD & JRC, 2021). For commercial services, agglomeration benefits
+may play out through productivity, diversity and competition benefits (De Groot et al., 2016; Jacobs, 1969). Given
+that acceptable distances, needed market size and other agglomeration benefits play out differently depending on
+the provided service or good (Van Leeuwen & Rietveld, 2011), different service providers will have diverging location
+preferences.
+
+
+
+2.3      |   Social service provider decisions
+
+Market considerations also play out in social service provision; Kompil et al. (2019) have recently shown that indeed
+social service provision across Europe can be simulated accurately using multiple service tiers with different thresh-
+olds regarding minimum market size and maximum spatial extents. However, equity considerations also come into
+play when considering social services. Public intervention is likely to maintain spatial access to local facilities despite
+the presumably high cost of maintaining service locations in sparsely populated areas (OECD & JRC, 2021). In fact a
+sizeable strand of literature focuses on finding societally optimal locations for social services such as postal, health
+and education facilities (see e.g., Baik & Murray, 2022; Fortney, 1996; Mercier et al., 2021; Pacheco &
+Casado, 2005). It may therefore be expected that, compared with economic services, social service facilities are
+somewhat less responsive to local market sizes to ensure adequate spatial accessibility.
+
+
+
+2.4      |   Identifying settlement roles in service provision
+
+The most straightforward method to infer settlement roles in service provision would be through observed spatial
+interactions or service provision levels. Such an approach has been applied using commuting data (ESPON, 2014;
+Sýkora & Mulíček, 2009), but taking into account only spatial interactions for employment may bias results, as com-
+muting is not uniform among labour market sizes and educational attainment (Groot et al., 2012), and in any case is
+subject to gender and age-specific labour market participation rates. Ideally, settlement functionality is established
+by employing comprehensive, harmonized and spatially sufficiently detailed data on the acquirement of goods and
+services across the European territory. Unfortunately, currently such data remains evasive for academic inquiries.
+Even currently available data on the provision of services e.g., (e.g., ESPON, 2017b) would be of limited use, as pub-
+licly available data that describes European service providers has a limited scope, and, because many such service
+location data are crowdsourced with considerable spatial variation in degrees of participation, likely suffer from clas-
+sification, commission and omission biases (Johnson et al., 2016; Yeow et al., 2021).
+      Alternatively, settlement functionality may be inferred from modelling, for example through the dynamic model-
+ling approaches that were particularly popular in the 1970s and 1980s. However, models that set out to simulate the
+emergence of functional hierarchies are very complex even when assuming uniform population distributions, and
+accounting for a limited number of sectors or offered goods (Mulligan et al., 2012; White, 1978). Europe's population
+is not distributed uniformly, and in practice, the number of public and commercial goods and services that a
+European settlement may offer is almost boundless, so that a sector-based simulation procedure is impractical for
+our identification aim.
+      A pragmatic solution would be to identify settlement functionality based on population size. Christaller (1934)
+for example offers a rigid set of bounding conditions on market size that supposedly govern the degree of centrality
+of settlements (see Bell & Jayne, 2009, for an overview) and thus could be used for identification. However, these
+static market size estimates do not take into account spatial and temporal dynamics in agglomeration and travel cost,
+which are known to be relevant for the establishment of settlement hierarchies (White, 1977). In addition, Van
+Leeuwen and Rietveld (2011) confirm that the importance of towns with a given population size for shopping differs
+JACOBS-CRISIONI ET AL.                                                                                                        425
+
+
+
+considerably between European countries, seemingly depending on population densities in the towns' broader spa-
+tial contexts. This is in line with the notion that the economic performance of European cities depends partially on
+their capacity to “borrow size” from connected cities (Meijers et al., 2016). In the remainder of this paper we will
+confirm that local size and neighbourhood context are relevant when identifying settlement service provision in a
+hierarchical structure, and extend downwards to the smallest settlements.
+
+
+
+3          |   I D E N T I F Y I N G PO T E N T I A L L O C A L C E N T R E S
+
+We propose to use the relative (population) size of a settlement within a prespecified travel time radius as a proxy of
+centrality. We use our approach to evaluate whether the settlement is a centre for any service of general interest for
+which acceptable travel times coincide with the imposed travel time radius. Travel-time bands thus function as a sim-
+plification of the distance-decay functions often imposed in CPT models (Allen & Sanglier, 1979; White, 1978). We
+establish whether the origin settlement is locally dominant, by verifying whether it is larger than any destination set-
+tlement in the subset. This is done using a travel-time matrix T ij and settlement population counts P considering set-
+tlements of origin i and destination j. Whether the settlement i is the largest locally, given radius t, is then evaluated
+per origin for all the destination settlements in J through L by a product so that:
+
+
+                                                                   Y
+                                                                   J        
+                                                        LðtÞi ¼       Pi ≥ Pj :                                               ð1Þ
+                                                                  T ij < t
+
+
+
+        Presupposing that logical operations yield 1 if true, and 0 if false, this will result in a value of 1 for origin i if all
+the settlements within t minutes driving from the origin settlement are smaller. For example, if we take three
+settlements A, B and C, with 10, 100 and 1,000 inhabitants respectively, and road travel times between settlements
+as shown in Figure 1. Table 1 shows the scores of the L variables for the three settlements at different travel time
+thresholds. At 5 minutes, no other settlement can be reached, so Lð5ÞA , Lð5ÞB and Lð5ÞC all score true. At 30 minutes,
+A is within driving range from B and B is larger, so Lð30ÞA scores false. Even though B is bigger than A, B is also
+within driving range from the bigger settlement C, so from the B point of view it is not the largest settlement, and
+consequently Lð30ÞB is also false. Only Lð30ÞC thus scores true. At 45 minutes, C is the largest settlement within
+reach for all settlements in the system, so again only Lð45ÞC would be true, all others would be false. It is important
+
+
+
+
+FIGURE 1            Hypothetical case of settlement structure, with road travel times given between the settlements.
+
+
+T A B L E 1 L(t) scores for different travel time thresholds per column, with spatial structure and settlement sizes
+corresponding with Figure 1. 1 indicates a true, 0 indicates a false.
+
+    L(t)                        t=5                         t = 15                         t = 30                        t = 45
+    A                           1                           0                              0                             0
+    B                           1                           1                              0                             0
+    C                           1                           1                              1                             1
+426                                                                                                JACOBS-CRISIONI ET AL.
+
+
+
+to note that, if settlements are not completely isolated, the number of settlements that score true on L(t) decreases
+monotonously with higher threshold values. Settlements that score true on a high threshold, will always score true
+on lower thresholds; while the majority of settlements that score true on a low threshold will not score true on a
+very high threshold.
+      The logic behind this classification of locally largest settlements consists of two assumptions that revolve around
+services with a universal demand. The first assumption is that if services have a maximum acceptable travel time
+t for the majority of consumers, there will most likely be a service provider within that radius. If there is insufficient
+market potential within acceptable travel time, providers can diversify, or adjust their consumer prices, or rely on
+public transfers to be maintained. On the other hand, if there is ample market potential, multiple providers may settle
+within the market either in agglomerations or dispersed, depending on characteristics of the offered service and on
+provider strategy (Mulligan et al., 2012).
+      The second assumption is that services likely settle in the largest settlement within a market. There are numer-
+ous conceivable reasons why a service provider would settle in the locally largest settlement. As it has the largest
+population, it would have the biggest direct market, which is attractive given potential spatial competition. In reason-
+ably regular spatial systems, settling in the largest settlement often minimizes aggregate travel times for the entire
+market (OECD & JRC, 2021). In the case of public services, local democratic processes are relevant, which benefits
+the largest settlement as it likely has the most voting power (Bjarnason, 2021). In case of spatial competition,
+Hotelling's (1929) central location considerations may apply as well. And lastly, inertia may be relevant, as in the
+absence of major technological shocks, positive feedback loops apply (Allen & Sanglier, 1979), so that largest settle-
+ments presumably maintain their historical advantage by accumulating population and service providers.
+
+
+
+3.1      |   Data sources and identification in practice
+
+The accurate representation of settlement centrality hinges on the correct identification of settlements as nodes in
+which service providers can plausibly settle. We use settlements that have been identified in the process of esta-
+blishing degrees of urbanization in Europe. This has been done using 1  1km population grids from the 2011 EU
+census, applying universal and harmonized methods that were introduced by Dijkstra and Poelman (2014), computed
+globally and expanded in thematic resolution by Dijkstra et al. (2018, 2021), and recently endorsed by the United
+Nations (European Commission, 2020). The settlements analysed in this paper encompass all physically separate,
+spatially contiguous grid-based population clusters that have sufficient population mass and population density to be
+considered a separate city, town or village. Areas that, due to their low population densities, may be considered sub-
+urban, sparsely populated or uninhabited, are not included. All settlements are described as single areal units that
+were generalized from grid units into vector polygons. Finally, all the cities and towns in the used settlements data-
+base have recently been named (Lecomte & Poelman, 2020), while villages were named generically for the purposes
+of this paper. By means of example, all settlements classified by degree of urbanization in Belgium are shown in
+Figure 2. Belgium is considered a useful example here because it manifests sizeable differences in regional popula-
+tion densities in a limited geography.
+      For the purpose of this study, travel time matrices were calculated for every analysed country separately. Thus,
+central settlements are not expected to impact service endowment across national borders. This is in line with the
+finding that, despite the far-reaching international integration in the EU, cross-border interactions are at a disadvan-
+tage (Jacobs-Crisioni & Koomen, 2017; Rodrik, 2000). On the other hand, discontinuities in for instance regulation or
+taxation across borders may spur cross-border service usage in particular. In addition, cross-border commutes are
+often linked with other cross-border activities, for instance between Belgium and Luxembourg (Carpentier, 2012).
+We therefore verify the impact of being close to a border on service endowment.
+      Fast travel time matrix operations in GeoDMS were taken advantage of to obtain travel times from every settle-
+ment to every other domestic settlement within 2 hours driving. Travel times in T ij were obtained from information
+JACOBS-CRISIONI ET AL.                                                                                          427
+
+
+
+
+FIGURE 2       Villages, towns and urban centres in Belgium.
+
+
+
+
+on network topology and maximum speeds encoded for in-car navigation (TomTom, 2018). In order to get the most
+accurate representation of degrees of separation between settlements, travel times were sought between the
+population-weighted centroids of the settlements involved (see Stępniak & Jacobs-Crisioni, 2017). To obtain settle-
+ment populations in P, population counts according to the 2018 JRC-GeoStat grid (Batista e Silva et al., 2021) were
+aggregated to origin and destination settlements.
+
+
+
+3.2     |    Identification results
+
+Equation (1) has been evaluated repeatedly for all settlements in the EU27 and the UK, with the different threshold
+values in t set from 5 to 120 minutes with 5 minute increments. The results of L(t) for all tested threshold values
+were stored in separate fields. The number of all classified settlements, and the number of settlements that act as
+15-minute, 45-minute and 90-minute centre, is given in Table 2. This table clearly shows the hierarchical nature of
+the classification process, with about 17% of Europe's settlements classified as 15 minute centre; only 1.7% classi-
+fied as 45 minute centre; and not even 0.5% classified as a 90 minute centre.
+      Figure 3 shows the settlement centrality hierarchy for Belgium, according to the highest threshold for which L
+(t) is true. For the sake of comparison, maps showing settlement type and settlement hierarchy in Portugal are
+shown in Appendix Figures A1 and A2. We must emphasize that the identified hierarchy is very distinct from the
+428                                                                                             JACOBS-CRISIONI ET AL.
+
+
+
+T A B L E 2 Results of settlement centrality classification by number of settlements, by country, given different
+thresholds in t.
+
+  Country             All settlements            15 min centre              45 min centre             90 min centre
+  AT                   1,062                       158                       13                          5
+  BE                     771                        71                        3                          1
+  BG                     972                       241                       25                          5
+  CY                      66                        18                        2                          1
+  CZ                   1,465                       197                       14                          4
+  DE                   9,309                       786                       49                        10
+  DK                     620                       143                       11                          5
+  EE                     104                        56                       13                          5
+  EL                   1,278                       361                       75                        37
+  ES                   3,775                       940                       81                        28
+  FI                     422                       229                       51                        14
+  FR                   6,707                     1,019                       84                        21
+  HR                     478                       134                       23                          6
+  HU                   1,536                       293                       20                          4
+  IE                     346                       146                       17                         4
+  IT                   5,721                       950                       69                        20
+  LT                     231                       122                       14                         2
+  LU                      83                          8                       1                         1
+  LV                     167                        87                        9                         4
+  MT                      15                          2                       1                         1
+  NL                   1,082                        87                        5                         2
+  PL                   3,444                       753                       55                        14
+  PT                     791                       200                       15                         5
+  RO                   3,571                       780                       62                        16
+  SE                     824                       362                       61                        16
+  SK                   1,201                       129                       10                         3
+  UK                   3,429                       524                       57                        20
+  Total               49,470                     8,796                      840                       254
+
+
+
+
+sizeable functional urban regions in Belgium that are identified by Vanderstraeten and Van Hecke (2019); we
+believe that our classification is complementary to those functional urban regions and can assist in identifying rele-
+vant centres that are outside of urban agglomerations. For example, one immediate standout result when compar-
+ing Figure 3 with the previous Figure 2 concerns Antwerp. Antwerp is a large city with roughly 580,0000
+inhabitants in the central north of the country, and the centre of an urban region according to Vanderstraeten and
+Van Hecke. Our approach, however, suggests that it has a slightly smaller role as a service provider because it is
+within a 30-minute drive from the significantly larger city of Brussels. In other words, if Antwerp were the largest
+city within a 30-minute drive it would have more services than it does now. By contrast, Arlon, a small town in the
+very southeast with only roughly 12,000 inhabitants is inferred to have a more important role as a service provider
+for its hinterland than would be expected based on its population size. A later section of this paper shows that per
+                                                                                                                                                            JACOBS-CRISIONI ET AL.
+
+
+
+
+FIGURE 3   Inferred hierarchy of centrality of settlements in Belgium, visualized through settlements for which L(t) is true given a range of thresholds.
+                                                                                                                                                            429
+430                                                                                                    JACOBS-CRISIONI ET AL.
+
+
+
+TABLE 3         Number of settlements scoring on different values of L(t), by size of the settlement.
+
+    Size       <1k                1 k - 10 k         10 k–50 k         50 k - 250 k      250 k >            Total
+    N           20,739             24,372            3,537             686                136               49,470
+    L(5)       13,989 (67.5%)     22,636 (92.9%)     3,500 (99.0%)     686 (100.0%)      136 (100.0%)       40,947 (82.8%)
+    L(10)        3,940 (19.0%)    11,450 (47.0%)     2,785 (78.7%)     671 (97.8%)       136 (100.0%)       18,982 (38.4%)
+    L(15)        1,084 (5.2%)      5,027 (20.6%)     1,948 (55.1%)     601 (87.6%)       136 (100.0%)        8,796 (17.8%)
+    L(30)           96 (0.5%)        706 (2.9%)       672 (19.0%)      359 (52.3%)       122 (89.7%)         1,955 (4.0%)
+    L(45)           36 (0.2%)        198 (0.8%)       246 (7.0%)       249 (36.3%)       111 (81.6%)           840 (1.7%)
+    L(60)           19 (0.1%)         98 (0.4%)       115 (3.3%)       162 (23.6%)        99 (72.8%)           493 (1.0%)
+    L(75)           13 (0.1%)         67 (0.3%)         62 (1.8%)      101 (14.7%)        92 (67.6%)           335 (0.7%)
+    L(90)            9 (0.0%)         52 (0.2%)         36 (1.0%)       74 (10.8%)        83 (61.0%)           254 (0.5%)
+    L(120)           6 (0.0%)         32 (0.1%)         25 (0.7%)       41 (6.0%)         65 (47.8%)           169 (0.3%)
+
+
+
+
+capita service endowment is lower in Antwerp than in Arlon, highlighting the role of Arlon as a service provider for
+its wider region.
+        The results from the hierarchy ranking are shown comprehensively in Table 3 by settlement size class. Clearly,
+very large settlements are much more likely to be the largest in the neighbourhood than very small settlements. As
+can be expected, at small values of t, a slightly higher thresholds likely have a much bigger impact on classification
+than at high values of t. Intriguingly, five settlements in the smallest population class, less than 1,000 inhabitants, still
+are the largest settlement within 120 minutes. These settlements are all geographically isolated communities on
+small islands including Tranebjerg in Denmark and Korissia in Greece; with connections from the mainland either
+missing or relatively slow according to the used road network.
+        An attractive feature of the proposed method is that it can help identify local centres even in contexts with low
+population densities. For Figure 4, total population in all settlements within a 45 minute drive are compared with set-
+tlement size for settlements that are, or are not, the largest in 45 minutes. We consider total settlement population
+within 45 minutes an adequate proxy for local population density. Consistently, only the settlements that are at the
+low end of the graph are the largest within 45 minutes, so that the method identifies likely local centres even in very
+low density contexts, while classification approaches based only on national size rankings would presumably omit
+those.
+
+
+
+4       |    I N F E R RE D S E R V I C E P R O V I D E R R O L E A N D S E R V I C E E N D O W M E N T
+
+In order to verify the usefulness of the proposed inference method, service endowment has been analysed for
+ten services of general interest. The aim is to correlate our local centrality classification as comprehensively as
+possible with service locations. The only criterion for selection of service location has been availability of relevant
+points of interest with Europe-wide coverage. The full list of included service types, and some general statistics,
+is given in Table 4. The selected service types include very locally served, for example primary schools and retail;
+and much higher order services, for example universities and cinemas. Some of these services may be considered
+social services (for instance, schools and healthcare facilities) and others economic services (such as retail and cin-
+emas). We also include train stations as a coarse indication of public transport provision in settlements. Train sta-
+tions potentially provide an interesting contrast with the other included services, as network economics instead
+of local market considerations are presumably dominant in the location of train stations (Jacobs-Crisioni &
+Koopmans, 2016).
+                                                                                                                                                                                      JACOBS-CRISIONI ET AL.
+
+
+
+
+F I G U R E 4 The population sizes of settlements versus the total population in all settlements in a 45 minute service area, with indication whether the settlement is (or is not)
+the largest in 45 minutes.
+
+
+
+
+                                                                                                                                                                                      431
+432                                                                                                  JACOBS-CRISIONI ET AL.
+
+
+
+T A B L E 4 Analysed services, source for service locations, total present in the analysed territory and the
+percentage accounted for in this paper after connecting to settlements.
+
+     Service type                   Source                                               N               Accounted (%)
+     Retail                         ESPON (2017a, 2017b)                                 189,836         164,459 (86.6%)
+     Primary schools                ESPON (2017a,2017b)                                  150,633         125,455 (83.3%)
+     Banks                          ESPON (2017a, 2017b)                                  89,546          82,604 (92.2%)
+     Pharmacies                     ESPON (2017a, 2017b)                                  86,789          79,985 (92.2%)
+     Doctors                        ESPON (2017a,2017b)                                   47,822          39,872 (83.4%)
+     Secondary schools              ESPON (2017a, 2017b)                                  37,464          35,168 (93.9%)
+     Train stations                 Poelman and Dijkstra (2015), with later updates       31,156          23,524 (75.5%)
+     Hospitals                      ESPON (2017a, 2017b) + EU member state additions      10,032           9,496 (94.7%)
+     Cinemas                        ESPON (2017a, 2017b)                                     7,800         7,375 (94.6%)
+     Universities                   ETER (2019)                                              3,958         3,677 (92.9%)
+
+
+
+
+        The primary source for service provision locations is the PROFECY project (ESPON, 2017a). The hospital
+data provided by ESPON has been augmented with additions from European member states, collected by
+EUROSTAT-GISCO.1 The data collected by ESPON has chiefly been obtained from the OpenStreetMap database,
+which entails important geographic variation in coverage and quality (Johnson et al., 2016). Train station locations
+were obtained from an updated database described by Poelman and Dijkstra (2015), and university locations were
+provided by the European Tertiary Education Register (ETER). Although to our best knowledge the used data are the
+most complete source of points-of-interest (POI) data available in Europe, there are likely commission and omission
+errors in many of the used datafiles (Yeow et al., 2021) alongside, for example, classification and eligibility discrepan-
+cies that likely exist between countries, linguistic zones and regions. We therefore include country-specific effects
+partially to control for the likely sizeable differences in quality and coverage between European countries; although
+recent evidence suggests that service provision may even differ considerably between regions in some EU member
+states (Franco & da Costa, 2023).
+
+
+
+4.1           |   Measuring service endowment
+
+In order to verify endowment, service locations from POI databases need to be attributed to settlements. However,
+facility locations that serve a settlement are regularly not placed within the bounds of analysed settlements. Services
+have therefore been attributed to the settlement by means of Euclidean distance to the closest grid cell inside a
+selected settlement. These linkages have been stored to visualize the attribution connections. For the sake of visuali-
+zation, those connections are stored as connecting the population-weighted centroid of a settlement, so that these
+do not explicitly visualize the established linkage between facility and grid cell. The attribution and visualization pro-
+cess are shown schematically in Figures 5 and 6.
+        Some observed service locations are in remote locations, fairly distant from any settlement. To ensure that iso-
+lated service locations are not falsely attributed to a settlement, any service that is more than 2.5 km away from the
+closest settlement is not accounted for. In most countries and for most services, this has a limited impact on the ser-
+vice counts in settlements, as Table 4 shows that the vast majority of services could be accounted for through attri-
+bution to the closest settlement. Train stations perform worse here, with only 78% of all observed train stations in
+Europe being within 2.5 km from a settlement border. Closer inspection has shown that many rail stops in, for
+
+1
+    https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/healthcare-services
+                                                                                                                                                                                         JACOBS-CRISIONI ET AL.
+
+
+
+
+F I G U R E 5 Schematic example of the service attribution process. On the left, facilities (stars) are connected (dotted lines) to grid cells (black dots) within a settlement (thick
+black lines). Grid cells outside of a settlement (small circles, filled white) are ignored. On the right, for visualization purposes, the facilities are shown to be connected
+(uninterrupted lines) to the population-weighted centre of the settlement (large grey circle).
+
+
+
+
+                                                                                                                                                                                         433
+                                                                                                                                                                    434
+
+
+
+
+FIGURE 6   Results of attributing hospitals to settlements with connection lines in a part of Belgium (the large settlement in the top right corner is Brussels).
+
+                                                                                                                                                                    JACOBS-CRISIONI ET AL.
+JACOBS-CRISIONI ET AL.                                                                                                 435
+
+
+
+instance, Bulgaria, Croatia, Estonia and Lithuania are situated far from any settlement boundary. Presumably, such
+rail stops are country side stops that serve a wider region.
+      It may be expected that service endowment differs by settlement size. Table 5 clearly shows that, regardless of
+service type, larger settlements more likely have at least one service location present. However, there is considerable
+variation in endowment between services. For instance hardly any of the smallest settlements have a university,
+while 37% of those settlements have a primary school.
+
+
+
+4.2        |   Different settlement types and sizes differ in service endowment
+
+The information gap that this paper tries to bridge is based on the assumption that service endowments are
+not uniformly distributed over different settlement types and sizes. To verify this, we tested whether service
+endowment per 100,000 inhabitants differs significantly between settlement types and between settlement size
+classes. Tests were performed using ANOVA and Tukey comparisons, and results are considered statistically sig-
+nificant at the 95% confidence interval. Our null hypotheses are that there is no significant difference in ser-
+vices per capita between settlement types, or between settlement sizes. Settlement types distinguish villages,
+towns and urban centres, and are inherent to the settlement creation procedure. Settlement sizes are based on
+population and discern four size classes from 25,000 to over 250,000 inhabitants, which were chosen on an ad
+hoc basis.
+      The results of this analysis are discussed in detail in Appendix B. For all included types of services, we can
+reject the null hypothesis. There are statistically significant differences between urban centres, towns and villages
+in terms of average number of services per 100,000 inhabitants. For most services, towns and villages have more
+services per capita. Universities are an exception, as there are significantly more universities per capita in cities. Ser-
+vice endowment is also heterogenous when discerning settlements by population size, for example, settlements
+above 25.000 inhabitants, as for most service types there are significantly more facility locations per capita in the
+smallest discerned settlement category. Surprisingly, the provision of doctors and universities does not show statis-
+tically significant differences between settlements of different size classes. For universities, this is possibly due to
+the very limited number of universities across the territory studied. For the presence of doctors, an explanation
+remains evasive. Potentially data omissions and/or classification issues have a sizeable impact on the results for this
+category.
+
+
+
+
+TABLE 5          Settlements with at least one service present, by settlement size classes.
+
+  Min size                   <1k                 1 k - 10 k            10 k - 50 k            50 k - 250    250 k+
+  N                          20,739               24,372               3,537                  686            136
+  Primary school             7,721 (37.2%)       16,291 (66.8%)        3,350 (94.7%)          679 (99.0%)   135 (99.3%)
+  Retail                     6,312 (30.4%)       16,093 (66.0%)        3,369 (95.3%)          678 (98.8%)   134 (98.5%)
+  Pharmacy                   2,953 (14.2%)       11,959 (49.1%)        3,015 (85.2%)          667 (97.2%)   134 (98.5%)
+  Rail station               2,817 (13.6%)         7,782 (31.9%)       2,551 (72.1%)          639 (93.1%)   133 (97.8%)
+  Bank                       2,748 (13.3%)       10,384 (42.6%)        2,834 (80.1%)          665 (96.9%)   134 (98.5%)
+  Doctor                     2,293 (11.1%)         7,369 (30.2%)       2,059 (58.2%)          569 (82.9%)   134 (98.5%)
+  Secondary school           1,048 (5.1%)          6,488 (26.6%)       2,669 (75.5%)          669 (97.5%)   135 (99.3%)
+  Hospital                     185 (0.9%)          2,163 (8.9%)        1,952 (55.2%)          626 (91.3%)   135 (99.3%)
+  Cinema                       143 (0.7%)          1,893 (7.8%)        1,542 (43.6%)          590 (86.0%)   134 (98.5%)
+  University                    55 (0.3%)           208 (0.9%)          521 (14.7%)           442 (64.4%)   133 (97.8%)
+436                                                                                                        JACOBS-CRISIONI ET AL.
+
+
+
+4.3        |   Inferred centrality and service endowment
+
+Service endowment is not uniform across settlement types and sizes. In Table 6 we list results from the three settle-
+ments indicated in Figure 3. Arlon overshoots Antwerp and Brussels in terms of per capita service endowment. This
+may partly be because of issues with population counts. The population counts only reflect the population within
+settlement clusters, which is less than half of the municipal population in Arlon (12,714 vs roughly 32,000), while the
+Antwerp and Brussels settlement boundaries encompass multiple municipalities, so that the population sizes of the
+latter settlements are probably a better approximation of actual settlement market size. Nevertheless, even when
+taking the Arlon municipality population, its per capita service endowment considerably overshoots the two cities. In
+addition, despite its much bigger size, Brussels has higher per capita service endowment for all service types except
+doctors, which lends some credibility to the earlier suggestion that Antwerp has a slightly smaller service provider
+role due to its proximity to Brussels.
+      As the example with selected Belgian settlement already indicates, the service provider roles inference that is
+proposed in this paper is useful to explain some of the heterogeneity found. Figure 7 clearly shows that villages that
+are the largest settlement within 45 minutes are much more likely to have specific services, with over 50% of all such
+villages having a primary school, retail, a pharmacy and a bank, despite having at most 5,000 inhabitants. Clearly, set-
+tlements that are the largest in a larger geographical area are much more likely to act as a service provision cluster
+for their hinterlands.
+      We expect that service endowment is the outcome of interactions between population size and inferred hierar-
+chical level. In order to analyse the linkages, OLS regressions are used to explain number of services in a settlement,
+so that:
+
+                             lnðY i þ 0:01Þ ¼ αk Ck þ β1lnðPi þ 0:01Þ þ β2Bi þ β3Ii þ δt LðtÞi þ εi ,                        ð2Þ
+
+
+in which the number of locations of a specific service are measured in Y in separate regressions for each service. Logs
+have been taken from Y to reduce the skewness in the distribution of their values, with 0.01 added to all observa-
+tions to avoid null values. C is a vector of dummies indicating in which country a settlement is located; it is used to
+
+
+
+
+TABLE 6         Service endowment per 100,000 inhabitants in Arlon, Brussels and Antwerp.
+
+  Settlement                    Arlon town cluster              Arlon municipality              Brussels              Antwerp
+  Size                          12,714                          32,093                          1,313,840             583,310
+  Type                          Town                            Town                            City                  City
+  Max L(t)                      70                              70                              120                   25
+  Retail                        78.7                            31.2                            32.5                  27.4
+  Primary schools               141.6                           56.1                            23.6                  25.4
+  Banks                         62.9                            24.9                            20.4                  15.4
+  Pharmacy                      47.2                            18.7                            28.4                  14.6
+  Doctors                       7.9                             3.1                             2.4                   4.6
+  Secondary schools             15.7                            6.2                             4.4                   3.1
+  Hospitals                     7.9                             3.1                             2.4                   2.2
+  Rail stations                 15.7                            6.2                             3.2                   2.1
+  Universities                  15.7                            6.2                             1.9                   0.7
+  Cinemas                       15.7                            6.2                             0.9                   0.7
+
+Note: Arlon municipal population counts are from IBZ (2023).
+                                                                                                                                                                               JACOBS-CRISIONI ET AL.
+
+
+
+
+F I G U R E 7 Percentage of villages with specific services, separating villages that are within 45 minutes from a larger settlement, and villages that are the largest in a
+45 minutes' drive.
+
+
+
+
+                                                                                                                                                                               437
+438                                                                                                  JACOBS-CRISIONI ET AL.
+
+
+
+capture overall country-specific differences in service endowment and potential variation in POI data quality.
+P indicates settlement population; 0.01 is added to prevent taking the log from zeroes. To control for cross-border
+interactions, the variable B indicates whether a settlement is located within 10 km of a national border, in Euclidean
+distance. Other cut-off values were taken as well, with border effects typically decreasing with further distance to
+the border in terms of significance and coefficient size. The variable I indicates whether a settlement is on a small,
+isolated network, with less than 24 other settlements reachable in 120 minutes (there are 794.4 settlements within
+120 minutes on average). It is included here primarily to control for biases that arise because of settlements that
+have limited autonomy despite their expected high-order service provision.
+        Finally, L(t)contains dummies that indicate whether the settlements meet the L criterion for a selected number
+of thresholds in t. Multiple dummies for different time thresholds are included simultaneously. These dummies are
+incremental, so that a settlement for which L(15) scores true will also score true on L(5) and L(10). As there is more
+variation in outcomes with low values of t, many values of L are included with low values of t, while only a limited
+number of variables indicate L(t) with high values of t. This particular regression definition with simultaneous centre
+definitions is chosen to capture spatial extent or hierarchy preferences of different service types; the expectation is
+that services that prefer to be close to users, only yield significant effects for local centres, while higher-order ser-
+vices are indifferent to such lower-order centres. The results of the executed regressions are shown in Table 7. The
+country dummy effects captured in C are given in Appendix C (Table A5).
+        As can be expected, settlement size matters for service presence, so that settlements with more population tend
+to have more service locations. From these results it is also immediately clear that, after controlling for population size,
+the proposed centre ranking matters for service provision. In line with central place theories (Christaller, 1934;
+Lösch, 1940; Mulligan et al., 2012), the analysed service types have very diverging preferences with regard to spatial
+extent. Some service types (retail, primary schools, pharmacies) are more likely present in greater numbers in all settle-
+ments that are dominant at low travel time thresholds; while other services (cinemas and universities in particular) are
+mostly indifferent to local centrality, and are only likely present in settlements that are central at high travel time
+thresholds. Figure 8 shows how the results from Table 7 play out when predicting number of services for a non-isolated
+settlement with 10,000 inhabitants, for increasing travel time thresholds at which the settlement is the largest. From
+this Figure, it is easy to discern services that operate on different spatial scales, such as proposed by Kompil et al.
+(2019). On the local scale (discernible preference for centres up to 30 minutes), primary schools, retail and pharmacies.
+On the subregional scale (discernable preference for centres up to 45 minutes), secondary schools, banks and hospitals.
+On the regional scale (discernable preference for centres over 60 minutes), cinemas and universities.
+        The proximity of borders plays out differently for economic and social services of general interest. In general,
+economic services including retail and banks have increased presence close to borders, likely partially to profit from
+discontinuities in regulation and taxation across borders. On the other hand social services, which are often
+restricted to serve only domestic residents, have less presence close to borders, presumably because national bor-
+ders cut into their market. Borders thus disparately affect the quantity of services in border towns in the established
+central hierarchy; but they do not seem to affect the hierarchy itself, as regressions yield similar results for the L(t)
+variables if we leave out all settlements that are close to national borders.2
+        Railway stops are hardly affected by local ranking at all, as travel demand and network path considerations are
+presumably the dominant determinant for railway connectivity. This may mean that suburban settlements in metro-
+politan regions are much more likely to have a train station, while in regions with relatively small settlements, a train
+station is allocated to whichever settlement is on the railway's least cost path between major urban centres. With
+Pearson correlation scores between 0.24 and 0.32, there is little correlation between the number of train stations
+and other services in Europe's settlements. This signals that, despite evidence of its relevance for historical popula-
+tion growth (Koopmans et al., 2012), train accessibility has a limited impact on service provision and thus the
+present-day functionality of settlements; and vice versa, train connections provide little spatial access to services.
+
+2
+    Results are available upon request.
+TABLE 7       Results from regressing Equation (2) on all settlements (n = 49,470).
+
+                 Primary                                                         Rail                  Secondary
+  Y = ln         schools         Retail         Pharmcies         Banks          stations   Doctors    schools     Hospitals   Cinemas    Universities
+  Ln P           1.019**         1.154**        1.082**           0.963**        0.759**    0.630**    0.820**     0.454**     0.382**    0.176**
+                 (0.009)        (0.009)       (0.009)          (0.009)       (0.008)   (0.008)   (0.007)    (0.005)    (0.005)   (0.003)       JACOBS-CRISIONI ET AL.
+
+  Bord.          0.082*         0.085*         0.064             0.073*         0.057     0.074*    0.059*     0.042*     0.033     0.050**
+                 (0.037)        (0.037)       (0.035)          (0.034)       (0.033)   (0.032)   (0.029)    (0.02)     (0.019)   (0.012)
+  Isol.          0.513**        1.155**        0.497**           0.191          0.686**   0.578**   0.592**    0.576**    0.500**   0.862**
+                 (0.119)        (0.121)       (0.114)          (0.111)       (0.108)   (0.103)   (0.092)    (0.065)    (0.063)   (0.039)
+  L(10)          0.157**         0.587**        0.512**           0.480**        0.031      0.266**    0.340**     0.015       0.075**    0.078**
+                 (0.025)        (0.026)       (0.024)          (0.024)       (0.023)   (0.022)   (0.02)     (0.014)    (0.013)   (0.008)
+  L(15)          0.030           0.188**        0.193**           0.224**        0.110**    0.105**    0.448**     0.443**     0.357**    0.018
+                 (0.04)         (0.04)        (0.038)          (0.037)       (0.036)   (0.034)   (0.031)    (0.022)    (0.021)   (0.013)
+  L(20)          0.206**         0.129*         0.164**           0.320**        0.054      0.100*     0.201**     0.477**     0.351**    0.090**
+                 (0.059)        (0.06)        (0.056)          (0.055)       (0.053)   (0.051)   (0.046)    (0.032)    (0.031)   (0.019)
+  L(25)          0.166*          0.024          0.050             0.222**        0.119      0.159*     0.325**     0.438**     0.375**    0.206**
+                 (0.083)        (0.084)       (0.08)           (0.078)       (0.076)   (0.072)   (0.065)    (0.046)    (0.044)   (0.027)
+  L(30)          0.083           0.201*         0.217*            0.187*         0.093      0.092     0.268**     0.557**     0.312**    0.371**
+                 (0.092)        (0.094)       (0.089)          (0.087)       (0.084)   (0.08)    (0.072)    (0.051)    (0.049)   (0.03)
+  L(45)          0.050           0.048          0.186             0.448**        0.164      0.529**    0.218*      0.559**     0.642**    1.288**
+                 (0.129)        (0.131)       (0.124)          (0.121)       (0.118)   (0.112)   (0.101)    (0.071)    (0.069)   (0.042)
+  L(60)          0.135           0.141         0.024            0.085          0.052      0.223      0.127       0.392**     0.339**    0.591**
+                 (0.176)        (0.179)       (0.169)          (0.165)       (0.161)   (0.152)   (0.137)    (0.097)    (0.094)   (0.058)
+  L(90)          0.243          0.334         0.227            0.107          0.025     0.353      0.044      0.083       0.432**    0.921**
+                 (0.265)        (0.27)        (0.254)          (0.249)       (0.242)   (0.229)   (0.207)    (0.146)    (0.141)   (0.087)
+  L(120)         0.058           0.228         0.144            0.079         0.327     0.084     0.21       0.458**     0.205      0.706**
+                 (0.279)        (0.284)       (0.268)          (0.262)       (0.255)   (0.241)   (0.217)    (0.153)    (0.148)   (0.092)
+  Adj. R2        0.56            0.58           0.70              0.73           0.76       0.80       0.84        0.93        0.94       0.98
+
+Note: estimator significance.
+*p < 0.05, **p < 0.01.                                                                                                                                   439
+                                                                                                                                                                         440
+
+
+
+
+F I G U R E 8 Estimated number of service locations in a non-isolated settlement, far from national borders and with 10,000 inhabitants, depending on only significant
+estimators for L(t) in Table 7. For each service, the highest country-specific estimator is used.
+
+
+
+
+                                                                                                                                                                         JACOBS-CRISIONI ET AL.
+JACOBS-CRISIONI ET AL.                                                                                                441
+
+
+
+This may be problematic if personal cars present the only viable mode to access services of general interest, as it
+may reinforce unwanted levels of car dependency. However, other types of public transport that are not considered
+in this study, such as bus services may be utilized to guarantee spatial access to services. Unfortunately, comprehen-
+sive Europe-wide data on public transport remains evasive, so that case studies are called for to fully analyse public
+spatial access to services in Europe.
+      In order to verify whether population size has a residual effect on the results, the regressions in this
+section have been repeated on a subset of the data containing only settlements with less than 25,000 inhabitants.
+The graph in Figure 9 reproduces the effects of L(t) on service provision given small settlement estimators and the
+same assumptions as in Figure 8. Some higher-order services including secondary schools and cinemas do not yield
+significant effects at higher values of L(t), which is somewhat counterintuitive, and is possibly because of the limited
+sample size for those services in small settlements.
+      Finally, the potential explanatory value of country rankings was verified by repeating the regressions in
+Equation (2), and additionally including country-wide percentile-based rankings (in which settlements were scored as
+being the 5th, 10th, … 95th, 99th percentile of settlements when ordered by size). As can be expected, national pop-
+ulation rankings are very strongly correlated with population size, so that they can be used as substitutes for popula-
+tion size, but do not provide complementary explanatory value to the main regression model. Thus, we can confirm
+that the centrality inference proposed in this paper adds a relevant nuance to settlement classifications that are
+based only on national population counts.
+
+
+
+4.4      |   Centrality inference and road speeds
+
+In traditional central place theory, central places are distributed by distance. The ubiquity of personal car transport in
+Europe has made it likely that centrality is now based on travel times. Testing whether service provision is organized
+on distances or travel times is not straightforward, as distances and travel times are typically very correlated. Com-
+paring the usefulness of hierarchization models based on travel time or distances would therefore yield roughly simi-
+lar coefficients and explained variances, so that uncertainty from errors in the underlying POI data remains a much
+larger cause of concern.
+      To verify that travel times, not distances, should be used as the organizing principle for centrality in the alloca-
+tion of services to settlements, we employ cross-sectional differences in effective speed and its relation with service
+provision. Effective travel speeds (seff
+                                     i ) are defined here as a settlement characteristic, and measured as the average
+time needed to reach all settlements within 120 minutes (T ij Þ, relative to the Euclidean distance to those settlements
+                                     P      eucl P
+(deucl
+  ij ), so that effective speed si ¼
+                                 eff
+                                       j¼1 dij =   j¼1 T ij . We subsequently normalize s with its country averages to
+avoid effects from structural differences in effective speeds between countries, leading to the normalized version
+snormeff
+ i       . This indicator can be used as an indicator of transport network service (see Stępniak & Jacobs-Crisioni, 2017),
+similar to indicators such as transport performance (Dijkstra et al., 2018) and network efficiency (Gutiérrez
+et al., 1998). We first verify whether service provision is affected by network performance, by regressing the follow-
+ing equation separately for all services:
+
+
+                           lnðY i þ 0:01Þ ¼ αk Ck þ β1 lnPi þ β2snormeff
+                                                                 i       þ β3Bi þ β4Ii þ β5 lnDi þ εi ,               ð3Þ
+
+
+using, besides effective speeds, country dummies to control for structural variation in service provision, settlement
+population, a dummy for isolation, a dummy indicating whether a settlement is within 10 km Euclidean distance from
+a border, and the number of destinations reachable in 120 minutes. The main results are in Table 8. This regression
+has slightly less observations, as effective speeds could not be computed for all settlements. From the results, it fol-
+lows that settlements tend to have less service locations with higher effective speeds, which we interpret as a conse-
+quence of spatial concentration of services, in which higher speeds allow service providers to serve a larger market
+                                                                                                                                                                               442
+
+
+
+
+F I G U R E 9 Estimated number of service locations in a non-isolated settlement, far from national borders and with 10,000 inhabitants, depending on significant effects of
+values of L(t) estimated only on settlements with less than 25,000 inhabitants. For each service, the highest country-specific estimator is used.
+
+
+
+
+                                                                                                                                                                               JACOBS-CRISIONI ET AL.
+                                                                                                                                                                            JACOBS-CRISIONI ET AL.
+
+
+
+
+T A B L E 8 Service provision in settlements explained by effective speeds, isolation dummy, and number of domestic settlement destinations within 120 minutes
+(n = 49,459).
+
+                 Primary                                                      Rail                           Secondary
+  Y = ln ()      schools        Retail        Pharmacies       Banks          stations        Doctors        schools          Hospitals      Cinemas         Universities
+  ln P           1.080**        1.305**       1.232**          1.160**        0.776**         0.734**        1.011**          0.663**        0.564**         0.279**
+                   (0.008)        (0.008)       (0.007)          (0.007)        (0.007)         (0.007)        (0.006)          (0.004)        (0.004)         (0.003)
+  Eff. S         0.362**        0.175        0.005            0.563**       1.597**         0.259**       0.376**         0.191**       0.259**        0.130**
+                   (0.106)       (0.109)        (0.103)         (0.101)         (0.097)        (0.092)        (0.084)          (0.062)        (0.059)          (0.039)
+  Bord.          0.0002        0.007         0.016            0.082*         0.057          0.023         0.023           0.007         0.012          0.03*
+                  (0.037)         (0.038)       (0.036)          (0.036)       (0.034)         (0.032)        (0.030)          (0.022)        (0.021)         (0.014)
+  Isol.          0.255*         0.382**       0.099            0.299*         0.354**        0.003          0.277**         0.107          0.058           0.121*
+                   (0.130)        (0.133)       (0.126)          (0.123)       (0.118)          (0.113)       (0.103)           (0.076)        (0.072)         (0.047)
+  Ln Dest        0.146**        0.295**      0.226**         0.085**       0.109**        0.079**        0.025           0.059**       0.066**        0.022**
+                   (0.021)       (0.022)       (0.020)          (0.020)        (0.019)          (0.018)       (0.017)          (0.012)        (0.012)         (0.008)
+  Adj. R2        0.55           0.57          0.70             0.73           0.76            0.79           0.83             0.92           0.93            0.97
+
+Note: Estimator significance.
+*p < 0.05, **p < 0.01.
+
+
+
+
+                                                                                                                                                                            443
+                                                                                                                                                                                                   444
+
+
+
+
+T A B L E 9 Comparison of estimator sign and significance for different time thresholds in subsets of settlements with slow effective speeds, compared to the national
+average, vs high effective speeds.
+
+                   Prim.                                                                Rail                               Secondary
+  Y = ln ()        schools          Retail         Pharmacies           Banks           stations         Doctors           schools             Hospitals          Cinemas           Universities
+  L(10)            1/0              1/1            1/1                  1/1             0/1              1/1               1/1                 0/0                0/0               1/ 1
+  L(15)            0/0              1/0            1/0                  1/1             0/1              0/0               1/1                 1/1                1/1               0/0
+  L(20)            1/0              1/0            0/0                  1/1             0/0              1/0               1/1                 1/1                1/1               0/1
+  L(25)            1/0              0/0            0/0                  1/0             0/0              0/1               0/0                 1/1                1/1               0/1
+  L(30)            0/0              1/0            1/0                  0/0             0/0              0/0               1/0                 1/1                1/0               0/1
+  L(45)            0/0              0/0            0/0                  1/0             0/0              0/0               0/0                 1/1                0/0               1/1
+  L(60)            0/0              0/0            0/0                  0/0             0/0              0/1               0/0                 1/0                1/1               0/1
+  L(90)            0/0              0/0            0/0                  0/0             0/0              0/1               0/0                 1/0               1/0              -1/1
+  L(120)           1/0              0/0            0/0                  0/0             0/0              0/0               0/0                 1/0                1/1               1/1
+
+Notes: Values indicate the sign ( or +) and significance (1: significant at the 0.05 level, 0 not significant) for models regressed on settlements with relatively low vs relatively high
+effective speeds (relatively low/relatively high). N = 7,269/N = 6,647 for the low and high effective speeds settlements respectively.
+
+
+
+
+                                                                                                                                                                                                   JACOBS-CRISIONI ET AL.
+JACOBS-CRISIONI ET AL.                                                                                                      445
+
+
+
+and obtain agglomeration benefits through more dispersed service locations or colocation. Primary schools, train sta-
+tions and universities are an exception, as their presence increases with higher effective road speeds. For primary
+schools and universities, this may be related to underlying demographic factors. For train stations, the positive corre-
+lation with effective road speeds may be the consequence of bundled infrastructure presence or the result of corre-
+lation in the market factors that drive road improvements and railway construction, such as population density and
+physical geography (Jacobs-Crisioni & Koopmans, 2016). Borders have roughly the same impact as in the regressions
+introduced earlier. Network context is found relevant as well, with service locations affected negatively by more set-
+tlements in reach for most service types, presumably through increased spatial competition. Primary schools form an
+interesting exception, as more destinations in reach leads to more schools. The reasons for this are not immediately
+clear but may be linked to or a lack of spatial competition in primary school provision.
+        Tests shows that, as can be expected, the probability that a settlement is inferred to be a local centre (at e.g., 10 or
+20 minute thresholds) decreases with higher effective speeds,3 so that faster networks cause sparser inferred regional
+centres. Changes in the road network may thus cause a reshuffling of neighbourhood hierarchies, and service provision
+in cascade. To verify if indeed service provision is organized in settlements with a given time extent, despite the Euclid-
+ean reach of that settlement, we have fitted Equation (2) on two separate subsets of settlements that have an effective
+speed that is at least 11% above or below national average effective speeds. These subsets entail the roughly 15% best
+and worst connected settlements across the European territory. If service provision is fully organized on road travel
+times rather than on distances, we can expect that the same time thresholds affect services equally in both subsets. In
+comparison with overall responses to effective speeds, the results in Table 9 are more mixed. Some services are more
+likely affected by speed improvements than others. Secondary schools and cinemas yield significant positive estimators
+for roughly identical travel-time thresholds, so that it is likely that these service types are organized fully on travel
+times. Services that tend to be close to their user groups, including primary schools, retail and pharmacies, appear much
+less sensitive to travel time thresholds, and are more likely organized on a distance basis.
+
+
+
+5        |     C O N CL U S I O N S
+
+Through their role as service centres for their hinterland, some small settlements have a value that far exceed their
+population count (Bell & Jayne, 2009; Rondinelli, 1983). Existing methods to identify settlement hierarchies are typi-
+cally based only on for instance labour market dependencies or population counts, and to some extent fail to capture
+the service provider roles of smaller settlements. Indeed, service endowment is heterogenous among different settle-
+ment classes and sizes. Through verifying whether a settlement is the most populated in a range of travel time
+thresholds, this paper establishes a method to infer a centre-role or a centrality hierarchy for all roughly 50,000 set-
+tlements identified across the EU27 and UK. Using POI data on a range of services, we validate whether the
+established hierarchies are relevant for explaining the service endowment of settlements.
+        Tests show that the proposed hierarchy is meaningful for service provision. Settlements that are inferred to have a
+local or regional centre role have significantly more service locations than other settlements of the same size. This con-
+firms the notion that European cities depend on both local size and their connected neighbourhood (Meijers
+et al., 2016), and extends it to even the smallest settlements across the EU and UK. The proposed method thus adds
+useful information on Europe's settlement structure. In line with expectations from central place theory
+(Christaller, 1934; Lösch, 1940; Mulligan et al., 2012), we find that different service types operate on different time
+bands. We can establish services at roughly three scale levels, in line with Kompil et al. (2019). Local services including
+schools, retail and pharmacies, prefer settlements that are the largest in a 20-minute range. Supralocal services, includ-
+ing secondary schools, banks and hospitals, prefer the largest settlements in a 30 to 60-minute range. Regional services,
+including cinemas and universities, prefer settlements that are dominant for even larger travel time thresholds.
+
+3
+    Results are available upon request.
+446                                                                                                      JACOBS-CRISIONI ET AL.
+
+
+
+      We consider our classification as complementary to prevailing functional definitions, which typically depend on
+labour market agglomerations e.g., (e.g., Dijkstra et al., 2019; Vanderstraeten & Van Hecke, 2019). Our approach can
+assist in finding small central settlements that, in terms of service provision, punch above their weight and are essen-
+tial for service provision in a more rural context. We therefore believe our approach can be helpful in guiding invest-
+ments for territorial cohesion, as well as for prioritization in strategic national and regional spatial plans. By helping
+to identify the territorial role of settlements, this approach may even assist in local zoning and traffic regulation. We
+must, however, emphasize that the introduced method is an heuristic. It does not take into account many relevant
+factors including historical inertia. It also depends on secondary data that describe population sizes and road travel
+times, which may deviate in practice. In addition, the validation is mostly based on crowdsourced data with likely
+considerable commission and omission errors (Johnson et al., 2016; Yeow et al., 2021). Thus, the presented results
+should not be considered as a substitute for local field work.
+      The hierarchization of settlements is based on road travel times between settlements. As a consequence, settle-
+ments are less likely to maintain a central role in contexts with faster road connections. If services are indeed orga-
+nized on travel times, rather than on distances, this implies that road network improvements could cause a further
+concentration of services. In that case, speeding up networks becomes an Sisyphean task, as reducing travel times
+leads to services moving further away, only increasing the lock-in to fast personal transport (Driscoll, 2014). We con-
+firm that almost all service types are affected by faster networks, so that settlements have less services on average if
+their connections are faster, presumably due to spatial concentration. However, when looking only at settlements
+with relatively slow or relatively fast connections, the picture is more mixed. While some services stick to the same
+time bands regardless of network speeds, other services seem to have different time band preferences depending on
+network speeds. This may be because of spatial structural elements that are unaccounted for, or because these ser-
+vices are not indifferent to distance considerations. More research is needed on this topic to understand the role of,
+for instance, spatial structure and location decisions better.
+
+
+ACKNOWLEDGEMEN TS
+This paper could not have been prepared without Hugo Poelman's many contributions, which we gratefully acknowl-
+edge, and many helpful suggestions from two anonymous reviewers. The views expressed are purely those of the
+authors and may not in any circumstances be regarded as stating an official position of the European Commission.
+
+
+ORCID
+Mert Kompil      https://orcid.org/0000-0002-3547-480X
+
+
+RE FE R ENC E S
+Allen, P. M., & Sanglier, M. (1979). A dynamic model of growth in a central place system. Geographical Analysis, 11, 256–
+    272. https://doi.org/10.1111/j.1538-4632.1979.tb00693.x
+Baik, J., & Murray, A. T. (2022). Locating a facility to simultaneously address access and coverage goals. Papers in Regional
+    Science, 101, 1199–1217. https://doi.org/10.1111/pirs.12693
+Batista e Silva, F., Poelman, H., & Dijkstra, L. (2021). The JRC-GEOSTAT 2018: A novel small-area population estimation for
+    Europe. Presented at European Forum for Geography and Statistics, 7–8 september 2021.
+Batty, M. (2006). Hierarchy in cities and city systems. In D. Pumain (Ed.), Hierarchy in natural and social sciences
+    (pp. 143–168). Springer. https://doi.org/10.1007/1-4020-4127-6_7
+Bell, D., & Jayne, M. (2009). Small cities? Towards a research agenda. International Journal of Urban and Regional Research,
+    33, 683–699. https://doi.org/10.1111/j.1468-2427.2009.00886.x
+Bettencourt, L. M. A., Lobo, J., Helbing, D., Kühnert, C., & West, G. B. (2007). Growth, innovation, scaling, and the pace of life
+    in cities. Proceedings of the National Academy of Sciences, 104, 7301–7306. https://doi.org/10.1073/pnas.0610172104
+Bjarnason, T. (2021). Tunnelling the peninsula of trolls: A case study of road infrastructure improvement and demographic
+    dynamics in Northern Iceland. European Countryside, 13, 368–387. https://doi.org/10.2478/euco-2021-0023
+Carpentier, S. (2012). Cross-border local mobility between Luxembourg and the Walloon region: An overview. European
+    Journal of Transport and Infrastructure Research, 12(2). https://doi.org/10.18757/ejtir.2012.12.2.2961
+Christaller, W. (1934). Die zentralen Orte in Süddeutschland. Wissenschaftliche Buchgesellschaft.
+JACOBS-CRISIONI ET AL.                                                                                                           447
+
+
+
+De Groot, H. L. F., Poot, J., & Smit, M. J. (2016). Which agglomeration externalities matter most and why? Journal of Eco-
+    nomic Surveys, 30(4), 756–782. https://doi.org/10.1111/joes.12112
+Dijkstra, L., Florczyk, A. J., Freire, S., Kemper, T., Melchiorri, M., Pesaresi, M., & Schiavina, M. (2021). Applying the degree of
+    urbanisation to the globe: A new harmonised definition reveals a different picture of global urbanisation. Journal of
+    Urban Economics, 125, 103312. https://doi.org/10.1016/j.jue.2020.103312
+Dijkstra, L., & Poelman, H. (2014). A harmonised definition of cities and rural areas: the new degree of urbanisation. Publications
+    Office of the European Union.
+Dijkstra, L., Poelman, H., & Ackermans, L. (2018). Road transport performance in Europe. Publications Office of the European
+    Union.
+Dijkstra, L., Poelman, H., & Veneri, P. (2019). The EU-OECD definition of a functional urban area. OECD Publishing.
+Driscoll, P. A. (2014). Breaking carbon lock-in path dependencies in large-scale transportation infrastructure projects. Plan-
+    ning Practice and Research, 29(3), 317–330. https://doi.org/10.1080/02697459.2014.929847
+EC. (2022). Cohesion in Europe towards 2050: Eighth report on economic, social and territorial cohesion. Publications Office of
+    the European Union.
+ESPON. (2014). TOWN: Small and medium sized towns in their functional territorial context. Espon.
+ESPON. (2017a). PROFECY: Processes, features and cycles of inner peripheries in Europe. Espon.
+ESPON. (2017b). PROFEC: Processes, features and cycles of inner peripheries in Europe: Annex 2 datasets and database. Espon.
+EU. (2018). European pillar of social rights. Publications Office of the European Union.
+European Commission. (2020). A recommendation on the method to delineate cities, urban and rural areas for international
+    statistical comparisons. Discussion item. United Nations, Statistical Commission
+European Tertiary Education Register (ETER). (2019). European higher education database. https://www.eter-project.com/
+Fortney, J. (1996). A cost-benefit location-allocation model for public facilities: An econometric approach. Geographical Anal-
+    ysis, 28(1), 67–92. https://doi.org/10.1111/j.1538-4632.1996.tb00922.x
+Franco, P., & da Costa, E. M. (2023). Social services of general interest in European regions: a look at “territorial cohesion” in the
+    economic crisis context. European Journal of Spatial Development, 20(1), 1–29. https://doi.org/10.5281/zenodo.7684275
+Gabaix, X. (1999). Zipf's law for cities: An explanation. The Quarterly Journal of Economics, 114(3), 739–767. https://doi.org/
+    10.1162/003355399556133
+Groot, S., De Groot, H. L. F., & Veneri, P. (2012). The educational bias in commuting patterns: micro-evidence for the
+    Netherlands. Tinbergen Institute.
+Gutiérrez, J., Monz  on, A., & Piñero, J. M. (1998). Accessibility, network efficiency, and transport infrastructure planning.
+    Environment and Planning a, 30(8), 1337–1350. https://doi.org/10.1068/a301337
+Hall, P. (2004). European cities in a global world. In F. Eckhardt & D. Hassenpflug (Eds.), Urbanism and globalization
+    (pp. 31–46). Peter Lang.
+Hotelling, H. (1929). Stability in competition. The Economic Journal, 39(153), 41–57. https://doi.org/10.2307/2224214
+IBZ. (2023). Population by municipality (January 2023). https://www.ibz.rrn.fgov.be/nl/bevolking/statistieken-van-bevolking/
+Jacobs, C. G. W. (2007). Een netwerk van winkels. Master's thesis, UvA, Amsterdam
+Jacobs, J. (1969). The economy of cities. Random House.
+Jacobs-Crisioni, C., & Koomen, E. (2017). Population growth, accessibility spillovers and persistent borders: Historical
+    growth in West-European municipalities. Journal of Transport Geography, 62, 80–91. https://doi.org/10.1016/j.jtrangeo.
+    2017.05.008
+Jacobs-Crisioni, C., & Koopmans, C. C. (2016). Transport link scanner: Simulating geographic transport network expansion through
+    individual investments. Journal of Geographical Systems, 18(3), 265–301. https://doi.org/10.1007/s10109-016-0233-y
+Johnson, I. L., Lin, Y., Li, T. J.-J., Hall, A., Halfaker, A., Schöning, J., & Hecht, B. (2016). Not at home on the range: Peer pro-
+    duction and the urban/rural divide. In Association for Computing Machinery (Ed.), Proceedings of the 2016 CHI Confer-
+    ence on Human Factors in Computing Systems (pp. 13–25).
+Kenny, L. W. (1982). Economies of scale in schooling. Economics of Education Review, 2(1), 1–24. https://doi.org/10.1016/
+    0272-7757(82)90046-2
+Klemmer, P. (1978). Methods for the determination of centrality. In R. H. Funck & J. B. Parr (Eds.), The analysis of regional
+    structure: Essays in honour of August Lösch. Pion.
+Kompil, M., Jacobs-Crisioni, C., Dijkstra, L., & Lavalle, C. (2019). Mapping accessibility to generic services in Europe: A
+    market-potential based approach. Sustainable Cities and Society, 47, 101372. https://doi.org/10.1016/j.scs.2018.11.047
+Kompil, M., Jacobs-Crisioni, C., Perpiña Castillo, C., & Lavalle, C. (2022). Accessibility to services in Europe's member states:
+    An evaluation by degree of urbanisation and remoteness. Policy Brief. European Commission, Joint Research Centre
+    JRC 124457
+Koopmans, C., Rietveld, P., & Huijg, A. (2012). An accessibility approach to railways and municipal population growth,
+    1840–1930. Journal of Transport Geography, 25, 98–104. https://doi.org/10.1016/j.jtrangeo.2012.01.031
+Lecomte, L., & Poelman. (2020). Towards a name for each town: A challenge related to the grid-based degree of urbanisation.
+    European Commission.
+448                                                                                                         JACOBS-CRISIONI ET AL.
+
+
+
+L
+ opez-Torres, L., & Prior, D. (2022). Long-term efficiency of public service provision in a context of budget restrictions. An appli-
+    cation to the education sector. Socio-Economic Planning Sciences, 81, 100946. https://doi.org/10.1016/j.seps.2020.100946
+Lösch, A. (1940). Die raumliche ordnung der wirtschaft. Fischer.
+Meijers, E. J., Burger, M. J., & Hoogerbrugge, M. M. (2016). Borrowing size in networks of cities: City size, network connectivity
+    and metropolitan functions in Europe. Papers in Regional Science, 95(1), 181–198. https://doi.org/10.1111/pirs.12181
+Mercier, A., Souche-Le Corvec, S., & Ovtracht, N. (2021). Measure of accessibility to postal services in France: A potential
+    spatial accessibility approach applied in an urban region. Papers in Regional Science, 100(1), 227–249. https://doi.org/10.
+    1111/pirs.12564
+Mulligan, G. F. (1984). Agglomeration and central place theory: A review of the literature. International Regional Science
+    Review, 9(1), 1–42. https://doi.org/10.1177/016001768400900101
+Mulligan, G. F., Partridge, M. D., & Carruthers, J. I. (2012). Central place theory and its reemergence in regional science.
+    Annals of Regional Science, 48(2), 405–431. https://doi.org/10.1007/s00168-011-0496-7
+ObjectVision. (2014). Geo data and model server (GeoDMS). https://github.com/ObjectVision/GeoDMS/wiki
+OECD. (2021). Delivering quality education and health care to all: Preparing regions for demographic change. OECD Publishing.
+    https://doi.org/10.1787/83025c02-en
+OECD, JRC. (2021). Access and cost of education and health services: Preparing regions for demographic change. OECD
+    Publishing.
+Pacheco, J. A., & Casado, S. (2005). Solving two location models with few facilities by using a hybrid heuristic: A real health
+    resources case. Computers & Operations Research, 32(12), 3075–3091. https://doi.org/10.1016/j.cor.2004.04.009
+Poelman, H., & Dijkstra, L. (2015). Measuring access to public transport in European cities. Publications Office of the European
+    Union.
+Powe, N. A., & Shaw, T. (2004). Exploring the current and future role of market towns in servicing their hinterlands: A case
+    study of Alnwick in the North East of England. Journal of Rural Studies, 20(4), 405–418. https://doi.org/10.1016/j.
+    jrurstud.2004.07.003
+Rauhut, D., Smith, C., Humer, A., Ludlow, D., & Borges, L. (2013). Indicators and perspectives for services of general interest
+    in territorial cohesion and development (SeGI), Final Report.
+Rodrik, D. (2000). How far will international economic integration go? The Journal of Economic Perspectives, 14(1), 177–186.
+    https://doi.org/10.1257/jep.14.1.177
+Rondinelli, D. (1983). Towns and small cities in developing countries. Geographical Review, 73, 379–395. https://doi.org/10.
+    2307/214328
+Stępniak, M., & Jacobs-Crisioni, C. (2017). Reducing the uncertainty induced by spatial aggregation in accessibility and spa-
+    tial interaction applications. Journal of Transport Geography, 61, 17–29. https://doi.org/10.1016/j.jtrangeo.2017.04.001
+Sýkora, L., & Mulíček, O. (2009). The micro-regional nature of functional urban areas (FUAs): Lessons from the analysis of
+    the Czech urban and regional system. Urban Research & Practice, 2(3), 287–307. https://doi.org/10.1080/
+    17535060903319228
+Taylor, P. J., & Derudder, B. (2016). World city network: A global urban analysis. Routledge.
+TomTom. (2018). Road networks including link distances, impedances and connectivity in Europe. Proprietary database.
+    TomTom, Amsterdam
+Van Leeuwen, E. S., & Rietveld, P. (2011). Spatial consumer behaviour in small and medium-sized towns. Regional Studies,
+    45(8), 1107–1119. https://doi.org/10.1080/00343401003713407
+Vanderstraeten, L., & Van Hecke, E. (2019). Les régions urbaines en Belgique. Belgeo. http://journals.openedition.org/
+    belgeo/32246. https://doi.org/10.4000/belgeo.32246
+Wang, Y., Sun, B., Wu, S., Li, W., & Zhang, T. (2021). Can the internet reshape the national city size distribution? Cross-
+    country evidence. Papers in Regional Science, 100(5), 1254–1272. https://doi.org/10.1111/pirs.12619
+White, R. W. (1977). Dynamic central place theory: Results of a simulation approach. Geographical Analysis, 9(3), 226–243.
+    https://doi.org/10.1111/j.1538-4632.1977.tb00576.x
+White, R. W. (1978). The simulation of central place dynamics: Two-sector systems and the rank-size distribution. Geograph-
+    ical Analysis, 10(2), 201–208. https://doi.org/10.1111/j.1538-4632.1978.tb00011.x
+Yeow, L. W., Low, R., Tan, Y. X., & Cheah, L. (2021). Point-of-interest (POI) data validation methods: An urban case study.
+    ISPRS International Journal of Geo-Information, 10(11), 735. https://doi.org/10.3390/ijgi10110735
+
+
+
+
+      How to cite this article: Jacobs-Crisioni, C., Kompil, M., & Dijkstra, L. (2023). Big in the neighbourhood:
+      Identifying local and regional centres through their network position. Papers in Regional Science, 102(2),
+      421–457. https://doi.org/10.1111/pirs.12727
+JACOBS-CRISIONI ET AL.                                                             449
+
+
+
+A PP E NDIX A: SETTLEMENTS BY DEGREE OF URBANIZATION TYPE AND BY REGIONAL CENTRE
+CLASSIFICATION
+
+
+
+
+FIGURE A1       Spatial distribution of settlements in Portugal.
+450                                                                  JACOBS-CRISIONI ET AL.
+
+
+
+
+FIGURE A2   Regional centres within 5 to 20 minutes travel by car.
+JACOBS-CRISIONI ET AL.                                                                                                 451
+
+
+
+A PP E NDIX B : SETTLEMENT TYPE MATTERS FOR SERVICE ENDOWMENT
+
+
+The grouping we have tested is based on the classification that is inherent to the settlement definitions that are used
+(European Commission, 2020), discerning urban centres, towns and villages. Table A1 gives descriptive statistics and
+ANOVA test results for each of the nine services used in the study. According to these statistics, for all type of
+
+
+T A B L E A 1 Exploring statistically significant mean difference between the settlement groups with varying
+definitions (urban centres, towns and villages) per service type – descriptive statistics and ANOVA.
+
+                                                                                                    ANOVA
+  Name of the        Settlement                        Std.       Std.
+  service            type           N         Mean     Dev.       Error   Minimum      Maximum      F           Sig.
+  Number of          Urban          823       39.51      21.31    0.74    0            158               5.72   0.003
+    retailers          centres
+  per 100.000        Towns          8,817     59.17      47.38    0.50    0            513
+    inhabitant
+                     Villages       39,790    74.54    525.42     2.63    0            100,000
+                     Total          49,430    71.22    471.89     2.12    0            100,000
+  Number of          Urban          823       20.58      16.17    0.56    0            105               8.26   0.000
+    banks              centres
+  per 100.000        Towns          8,817     30.10      32.15    0.34    0            290
+    inhabitant
+                     Villages       39,790    29.74      70.82    0.36    0            2,174
+                     Total          49,430    29.66      65.02    0.29    0            2,174
+  Number of          Urban          823       20.16      14.18    0.49    0            110               6.38   0.001
+    pharmacies         centres
+  per 100.000        Towns          8,817     27.20      25.01    0.27    0            229
+    inhabitant
+                     Villages       39,790    26.21      60.00    0.30    0            2,174
+                     Total          49,430    26.28      54.90    0.25    0            2,174
+  Number of          Urban          823       31.62      20.48    0.71    0            423              56.85   0.000
+    primary            centres
+    schools          Towns          8,817     45.29      42.01    0.45    0            1,264
+  per 100.000
+    inhabitant       Villages       39,790    65.01    195.23     0.98    0            33,333
+                     Total          49,430    60.94    176.28     0.79    0            33,333
+  Number of          Urban          823        9.82       6.87    0.24    0            52               42.59   0.000
+    secondary          centres
+    schools          Towns          8,817     13.50      16.85    0.18    0            433
+  per 100.000
+    inhabitant       Villages       39,790     9.67      38.52    0.19    0            2,215
+                     Total          49,430    10.35      35.33    0.16    0            2,215
+  Number of          Urban          823        8.81      20.39    0.71    0            415              39.01   0.000
+   doctors             centres
+   (general          Towns          8,817     15.73      36.48    0.39    0            647
+   practitioners)
+   per 100.000       Villages       39,790    20.64      63.26    0.32    0            2,985
+   inhabitant        Total          49,430    19.56      58.91    0.26    0            2,985
+  Number of train    Urban          823        3.24       3.37    0.12    0            43               57.26   0.000
+   stations per        centres
+   100.000           Towns          8,817      9.88      13.02    0.14    0            154
+   inhabitant
+                     Villages       39,790    22.04    118.19     0.59    0            20,000
+
+                                                                                                            (Continues)
+452                                                                                                                              JACOBS-CRISIONI ET AL.
+
+
+
+TABLE A1              (Continued)
+
+                                                                                                                                      ANOVA
+     Name of the              Settlement                                   Std.          Std.
+     service                  type                N            Mean        Dev.          Error      Minimum          Maximum          F             Sig.
+                              Total               49,430       19.56       106.31        0.48       0                20,000
+
+     Number of                Urban               823            2.66          2.17      0.08       0                21               125.63        0.000
+       hospitals                centres
+       (ESTAT)                Towns               8,817          4.24          7.31      0.08       0                143
+     per 100.000
+       inhabitant             Villages            39,790         1.68        14.96       0.07       0                1,075
+                              Total               49,430         2.15        13.81       0.06       0                1,075
+     Number of                Urban               823            1.97          1.48      0.05       0                10                   73.34     0.000
+       cinemas                  centres
+     per 100.000              Towns               8,817          3.09          5.81      0.06       0                60
+       inhabitant
+                              Villages            39,790         1.49        12.25       0.06       0                398
+                              Total               49,430         1.78        11.28       0.05       0                398
+     Number of                Urban               823            1.53          1.61      0.06       0                11                   16.84     0.000
+       universities             centres
+     per 100.000              Towns               8,817          0.63          2.89      0.03       0                63
+       inhabitant
+                              Villages            39,790         0.34          7.64      0.04       0                422
+                              Total               49,430         0.41          6.96      0.03       0                422
+
+
+
+
+services, we can reject the null hypothesis, as there is statistically significant difference between urban centres,
+towns and villages in terms of average number of services per 100,000 inhabitants. Within groups, mean available
+services per inhabitant are higher in villages for the case of retailers, banks, pharmacies, primary schools and doctors.
+Towns have a higher per capita provision of secondary schools, hospitals and cinemas. Cities only score a statistically
+higher per capita provision of universities.
+        To further test the differences among each of the different settlement types (e.g., between towns and villages)
+we applied post hoc tests for multiple comparisons using the Tukey HSD4 methodology, indicating differences
+between settlement types, with results shown in Table A2. In most cases, the number of services per 100,000 inhab-
+itants differs significantly between settlement subgroups. Exceptions like retailers, banks and pharmacies are
+included where there is no significant difference between urban centres and towns or villages for retailers and
+between towns and villages for banks and pharmacies.
+
+
+
+Settlement size matters for service endowment
+
+
+Besides testing differences between degrees of urbanization types, we have also tested settlement service provi-
+sions based on population size classes, for which we discern settlements with: (i) 25,000–50,000 inhabitants;
+(ii) 50,000–100,000 inhabitants; (iii) 100,000–250,000 inhabitants: and (iv) more than 250,000 inhabitants. Here we
+have excluded villages and small/very small towns and tried to focus on the difference between towns and cities
+with at least 25.000 inhabitants. Table A3 gives descriptive statistics and ANOVA test results for each of the nine
+services used in the study per settlement group identified.
+
+
+4
+    Tukey's multiple comparison test is one of several tests that can be used to determine which means amongst a set of means differ from the rest - http://
+www.blackwellpublishing.com/specialarticles/jcn_8_304.pdf.
+JACOBS-CRISIONI ET AL.                                                                                                  453
+
+
+
+TABLE A2        Multiple comparison of means (Tukey HSD) per service type for urban centres, towns and villages.
+
+                                      (A)                   (B)                   (A-B)                          Tukey
+  Dependent variable                  Settlement type       Settlement type       Mean Difference   Std. Error   HSD Sig.
+  Number of retailers                 Urban centres         Towns                 19.66            17.20        0.49
+  per 100.000 inhabitants                                   Villages              35.03            16.62        0.09
+                                      Towns                 Villages              15.37*            5.55        0.02
+  Number of banks                     Urban centres         Towns                  9.51*            2.37        0.00
+  per 100.000 inhabitants                                   Villages               9.16*            2.29        0.00
+                                      Towns                 Villages                0.36             0.77        0.89
+  Number of pharmacies                Urban centres         Towns                  7.03*            2.00        0.00
+  per 100.000 inhabitants                                   Villages               6.04*            1.93        0.01
+                                      Towns                 Villages                0.99             0.65        0.28
+  Number of primary schools           Urban centres         Towns                 13.67             6.42        0.08
+  per 100.000 inhabitants                                   Villages              33.38*            6.20        0.00
+                                      Towns                 Villages              19.71*            2.07        0.00
+  Number of secondary schools         Urban centres         Towns                  3.68*            1.29        0.01
+  per 100.000 inhabitants                                   Villages                0.15             1.24        0.99
+                                      Towns                 Villages                3.83*            0.42        0.00
+  Number of doctors                   Urban centres         Towns                  6.92*            2.15        0.00
+   (general practitioners)                                  Villages              11.82*            2.07        0.00
+   per 100.000 inhabitants
+                                      Towns                 Villages               4.90*            0.69        0.00
+  Number of train stations            Urban centres         Towns                  6.64             3.87        0.20
+  per 100.000 inhabitants                                   Villages              18.80*            3.74        0.00
+                                      Towns                 Villages              12.16*            1.25        0.00
+  Number of hospitals (ESTAT)         Urban centres         Towns                  1.58*            0.50        0.00
+  per 100.000 inhabitants                                   Villages                0.98             0.49        0.11
+                                      Towns                 Villages                2.56*            0.16        0.00
+  Number of cinemas                   Urban centres         Towns                  1.12*            0.41        0.02
+  per 100.000 inhabitants                                   Villages                0.48             0.40        0.44
+                                      Towns                 Villages                1.60*            0.13        0.00
+  Number of universities              Urban centres         Towns                   0.89*            0.25        0.00
+  per 100.000 inhabitants                                   Villages                1.18*            0.25        0.00
+                                      Towns                 Villages                 .28*            0.08        0.00
+
+Note: Bold indicates that the mean difference is not statistically significant.
+*The mean difference is significant at the 0.05 level.
+
+
+
+    With 95% confidence intervals, service endowment per inhabitant differs significantly among settlements with
+varying population sizes for retailers, banks, pharmacies, primary schools, secondary schools, hospitals and cinemas
+(Table A3). Service endowment for doctors (general practitioners) and universities, on the other hand, do not differ
+at all between settlements with different population sizes. In a further step, we apply post hoc tests for multiple com-
+parisons using Tukey HSD methods (Table A4). According to these results, settlements with 25,000 to 50,000 inhab-
+itants differ significantly from much larger settlements in terms of service provision. Those settlements, which can
+be characterized as towns and small cities, usually have higher service endowment per capita. Second, medium to
+large cities, do not differ significantly from even larger cities in terms of service endowment.
+454                                                                                             JACOBS-CRISIONI ET AL.
+
+
+
+T A B L E A 3 Exploring statistically significant mean differences between settlement groups discerned by
+population sizes—descriptive statistics and ANOVA.
+
+                                                                                                     ANOVA
+                                                                  Std.     Std.
+ Name of the service       Settlement type      N        Mean     Dev.     Error   Min.    Max.      F        Sig.
+ Number of retailers       25,000–50,000        853      45.42    29.91    1.02    0       285       8.21     0.000
+ Per 100.000 inhabitant    50,000–100,000       437      39.39    22.75    1.09    0       158
+                           100,000–250,000      249      38.84    18.66    1.18    3       103
+                           more than 250,000    136      39.01    17.92    1.54    0       82
+                           Total                1,675    42.35    26.03    0.64    0       285
+ Number of banks           25,000–50,000        853      23.36    20.50    0.70    0       120       4.07     0.07
+ per 100,000 inhabitant    50,000–100,000       437      19.87    17.03    0.81    0       105
+                           100,000–250,000      249      21.88    16.00    1.01    0       91
+                           more than 250,000    136      19.93    11.66    1.00    0       62
+                           Total                1,675    21.95    18.46    0.45    0       120
+ Number of pharmacies      25,000–50,000        853      23.31    19.16    0.66    0       152       5.10     0.002
+ per 100,000 inhabitant    50,000–100,000       437      19.90    14.89    0.71    0       110
+                           100,000–250,000      249      20.06    13.18    0.84    0       62
+                           more than 250,000    136      21.11    12.25    1.05    0       63
+                           Total                1,675    21.76    16.89    0.41    0       152
+ Number of primary         25,000–50,000        853      37.40    24.70    0.85    0       423       17.53    0.000
+   schools                 50,000–100,000       437      32.68    17.29    0.83    0       112
+ per 100,000 inhabitant
+                           100,000–250,000      249      30.97    12.80    0.81    2       84
+                           more than 250,000    136      25.72     9.27    0.80    0       55
+                           Total                1,675    34.26    20.80    0.51    0       423
+  Number of secondary      25,000–50,000        853      11.23     9.77    0.33    0       79        5.21     0.001
+    schools                50,000–100,000       437       9.83     7.45    0.36    0       52
+  per 100,000 inhabitant
+                           100,000–250,000      249      10.38     6.52    0.41    0       43
+                           more than 250,000    136       8.64     5.26    0.45    0       24
+                           Total                1,675    10.53     8.50    0.21    0       79
+  Number of doctors        25,000–50,000        853      10.16    20.41    0.70    0       247       2.00     0.081
+    (general               50,000–100,000       437       7.64    12.87    0.62    0       107
+  practitioners) per
+    100,000 inhabitant     100,000–250,000      249      11.13    31.73    2.01    0       415
+                           more than 250,000    136       8.10    11.52    0.99    0       97
+                           Total                1,675     9.48    20.42    0.50    0       415
+  Number of train          25,000–50,000        853       4.73     4.38    0.15    0       38        22.82    0.000
+   stations per 100,000    50,000–100,000       437       3.53     3.25    0.16    0       38
+   inhabitant
+                           100,000–250,000      249       3.07     3.78    0.24    0       43
+                           more than 250,000    136       2.59     2.56    0.22    0       25
+                           Total                1,675     4.00     3.97    0.10    0       43
+JACOBS-CRISIONI ET AL.                                                                                                        455
+
+
+
+TABLE A3       (Continued)
+
+                                                                                                             ANOVA
+                                                                         Std.    Std.
+  Name of the service        Settlement type           N        Mean     Dev.    Error    Min.   Max.        F         Sig.
+  Number of hospitals        25,000–50,000             853        3.23    2.95   0.10     0      25          8.67      0.000
+    (ESTAT)                                            437        2.69    2.20   0.11     0      15
+  per 100,000 inhabitant
+                             50,000–100,000            249        2.74    2.14   0.14     0      21
+                             100,000–250,000           136        2.27    1.72   0.15     0      15
+                             more than 250,000         1,675      2.94    2.59   0.06     0      25
+                             Total                     853        2.59    2.56   0.09     0      14
+  Number of cinemas          25,000–50,000             437        2.12    1.74   0.08     0      10          14.42     0.000
+  per 100,000 inhabitant     50,000–100,000            249        1.91    1.22   0.08     0      7
+                             100,000–250,000           136        1.60    0.88   0.08     0      5
+                             more than 250,000         1,675      2.29    2.13   0.05     0      14
+                             Total                     853        1.35    2.67   0.09     0      21
+  Number of universities     25,000–50,000             437        1.46    1.82   0.09     0      11          1.29      0.273
+  per 100,000 inhabitant     50,000–100,000            249        1.66    1.46   0.09     0      11
+                             100,000–250,000           136        1.44    1.07   0.09     0      5
+                             more than 250,000         1,675      1.43    2.22   0.05     0      21
+                             Total                     853      45.42    29.91   1.02     0      285
+
+
+
+T A B L E A 4 Multiple comparison of means (Tukey HSD) per service type for towns and cities with at least 25,000
+inhabitants and more.
+
+                                     (A)                     (B)                 (A-B)                Std.           Tukey
+  Dependent Variable                 Settlement type         Settlement type     Mean Difference      Error          HSD Sig.
+  Number of retailers                25,000–50,000           50,000–100,000       6.03*               1.52           0.00
+  per 100,000 inhabitant                                     100,000–250,000      6.58*               1.86           0.00
+                                                             more than 250,000    6.41*               2.39           0.04
+                                     50,000–100,000          100,000–250,000      0.54                2.05           0.99
+                                                             more than 250,000    0.37                2.54           1.00
+                                     100,000–250,000         more than 250,000   0.17                2.76           1.00
+  Number of banks                    25,000–50,000           50,000–100,000       3.48*               1.08           0.01
+  per 100,000 inhabitant                                     100,000–250,000      1.48                1.33           0.68
+                                                             more than 250,000    3.43                1.70           0.18
+                                     50,000–100,000          100,000–250,000     2.00                1.46           0.52
+                                                             more than 250,000   0.05                1.81           1.00
+                                     100,000–250,000         more than 250,000    1.94                1.96           0.75
+  Number of pharmacies               25,000–50,000           50,000–100,000       3.40*               0.99           0.00
+  per 100,000 inhabitant                                     100,000–250,000      3.24*               1.21           0.04
+                                                             more than 250,000    2.19                1.55           0.49
+                                     50,000–100,000          100,000–250,000     0.16                1.34           1.00
+                                                             more than 250,000   1.20                1.65           0.88
+                                     100,000–250,000         more than 250,000   1.04                1.79           0.94
+
+                                                                                                                    (Continues)
+456                                                                                                  JACOBS-CRISIONI ET AL.
+
+
+
+TABLE A4        (Continued)
+
+                                     (A)                    (B)                   (A-B)              Std.       Tukey
+  Dependent Variable                 Settlement type        Settlement type       Mean Difference    Error      HSD Sig.
+  Number of primary schools          25,000–50,000          50,000–100,000         4.72*             1.21       0.00
+  per 100,000 inhabitant                                    100,000–250,000        6.43*             1.48       0.00
+                                                            more than 250,000     11.67*             1.89       0.00
+                                     50,000–100,000         100,000–250,000        1.70              1.63       0.72
+                                                            more than 250,000      6.95*             2.01       0.00
+                                     100,000–250,000        more than 250,000      5.24              2.19       0.08
+  Number of secondary                25,000–50,000          50,000–100,000         1.40*             0.50       0.03
+    schools                                                 100,000–250,000        0.85              0.61       0.50
+  per 100,000 inhabitant
+                                                            more than 250,000      2.58*             0.78       0.01
+                                     50,000–100,000         100,000–250,000       0.54              0.67       0.85
+                                                            more than 250,000      1.18              0.83       0.48
+                                     100,000–250,000        more than 250,000      1.73              0.90       0.22
+  Number of doctors (general         No significant difference among the means of sub-groups – see previous table with
+  practitioners) per 100,000          ANOVA
+    inhabitants
+  Number of train stations           25,000–50,000          50,000–100,000         1.20*             0.23       0.00
+  per 100,000 inhabitant                                    100,000–250,000        1.66*             0.28       0.00
+                                                            more than 250,000      2.14*             0.36       0.00
+                                     50,000–100,000         100,000–250,000        0.46              0.31       0.44
+                                                            more than 250,000      0.93              0.38       0.07
+                                     100,000–250,000        more than 250,000      0.47              0.42       0.66
+  Number of hospitals (ESTAT)        25,000–50,000          50,000–100,000         0.53*             0.15       0.00
+  per 100,000 inhabitant                                    100,000–250,000        0.49*             0.19       0.04
+                                                            more than 250,000      0.96*             0.24       0.00
+                                     50,000–100,000         100,000–250,000       0.04              0.20       1.00
+                                                            more than 250,000      0.42              0.25       0.33
+                                     100,000–250,000        more than 250,000      0.46              0.27       0.32
+  Number of cinemas                  25,000–50,000          50,000–100,000         0.47*             0.12       0.00
+  per 100,000 inhabitant                                    100,000–250,000        0.67*             0.15       0.00
+                                                            more than 250,000      0.99*             0.19       0.00
+                                     50,000–100,000         100,000–250,000        0.20              0.17       0.61
+                                                            more than 250,000      0.52              0.21       0.06
+                                     100,000–250,000        more than 250,000      0.31              0.22       0.49
+  Number of universities               No significant difference among the means of sub-groups – see previous table with
+  per 100,000 inhabitant                                                    ANOVA
+
+Note: Bold indicates that the mean difference is not statistically significant.
+*The mean difference is significant at the 0.05 level.
+AP PE NDIX C: COUNTRY-SPECIFIC DUMMY EFFECTS FOR REGRESSIONS IN MAIN PAPER
+
+
+TABLE A5        Country-specific effects for results in Table 7.
+           Primary schools      Retail           Pharmacies        Banks       Rail stations   Doctors    Secondary schools   Hospitals   Cinemas    Universities
+  AT        8.779**              8.916**       10.703**          8.132**    7.669**       6.601**    8.631**           7.616**    7.138**   5.750**
+  BE        8.341**             10.139**       10.291**          9.739**    8.948**       8.531**   10.135**           7.415**    7.157**   5.652**
+                                                                                                                                                                    JACOBS-CRISIONI ET AL.
+
+
+  BG       10.668**             12.116**       12.273**         11.464**    8.690**       9.172**   10.336**           7.582**    7.453**   5.808**
+  CY        9.958**             10.194**       10.569**         10.281**   10.307**       8.974**   10.217**           7.572**    7.249**   5.514**
+  CZ        9.380**             10.037**       11.318**         10.914**    7.311**       8.718**   10.123**           7.581**    6.786**   5.803**
+  DE        8.907**              9.872**       10.384**          8.551**    8.642**       7.361**    9.635**           7.545**    7.115**   5.780**
+  DK        8.877**              9.411**       11.973**         10.751**    8.630**       6.666**    9.918**           7.803**    7.064**   5.737**
+  EE        9.661**              9.614**       11.031**         11.197**    8.568**       5.668**    7.980**           7.249**    7.486**   5.742**
+  EL       10.476**             11.325**       11.511**         11.002**    9.591**       8.952**   10.595**           7.690**    7.363**   5.765**
+  ES        8.343**             11.607**       11.187**         10.560**    9.515**       6.209**    8.713**           7.914**    7.438**   5.862**
+  FI        8.485**              9.340**       10.884**         10.253**    9.391**       9.406**   10.148**           8.059**    7.482**   5.907**
+  FR        8.741**             10.331**       10.381**         10.208**    9.061**       8.573**    9.310**           7.569**    6.895**   5.767**
+  HR        9.493**              9.745**       10.137**         10.405**    8.451**       7.230**   10.192**           7.866**    7.171**   5.730**
+  HU        9.940**              9.658**       10.784**         10.728**    8.304**       7.926**   10.516**           7.768**    7.391**   5.837**
+  IE        8.473**              9.444**       10.668**         10.167**    9.265**       8.529**    9.770**           7.589**    7.175**   5.877**
+  IT       10.085**             11.276**       11.095**         10.529**    9.352**       9.156**   10.125**           7.773**    7.223**   5.838**
+  LT       10.468**              9.862**       11.286**         11.314**    9.318**       9.128**    8.434**           7.099**    7.682**   5.808**
+  LU        7.961**             10.751**       10.984**          9.769**    8.810**       8.181**    9.968**           7.596**    7.044**   5.722**
+  LV        9.642**              9.342**       11.037**         11.154**    9.114**       8.721**    9.082**           7.083**    7.607**   5.846**
+  MT        7.793**             10.339**       11.076**         11.086**   10.591**       9.326**   10.014**           7.518**    6.996**   4.857**
+  NL        9.561**             10.161**       11.786**         10.505**    9.643**       8.587**   10.350**           7.876**    7.287**   5.831**
+  PL        9.160**              9.795**       11.029**         10.470**    8.727**       8.466**    9.842**           7.599**    7.222**   5.769**
+  PT         9.338**            10.585**       10.540**          9.903**    9.172**       7.879**    9.545**           7.614**    7.180**   5.678**
+  RO       11.225**             12.296**       10.987**         11.335**    8.720**       9.075**   10.350**           7.740**    7.421**   5.827**
+  SE         8.745**             9.830**       11.816**         11.035**    8.673**       6.832**   10.751**           8.012**    7.190**   5.970**
+  SK         9.494**             9.787**       11.448**         11.053**    8.510**       8.806**   10.238**           7.672**    7.141**   5.803**
+  UK         7.750**            10.013**       11.430**         10.829**    9.185**       8.199**   10.070**           7.549**    7.278**   5.832**
+
+Note: estimator significance.                                                                                                                                       457
+*p < 0.05, **p < 0.01.
+DOI: 10.1111/pirs.12727
+
+
+
+
+Resumen. Las clasificaciones nacionales de ciudades no describen adecuadamente la relevancia local y regional de
+una población. Este estudio introduce un método para clasificar la importancia de las poblaciones en función del
+tiempo de viaje y el tamaño de la población. Se investigó la relación entre el tamaño de una población, si es un centro
+local o regional, y su dotación de servicios. El enfoque explica adecuadamente las dotaciones de servicios per cápita
+en Europa y añade matices que las clasificaciones nacionales no captan plenamente. Además, establece una
+caracterización de los tipos de servicio por preferencias discernibles empíricamente en la escala espacial. Por último,
+los resultados sugieren que la dotación de servicios en las poblaciones puede reorganizarse debido a la mayor rapidez
+de las conexiones por carretera, con servicios que se concentran espacialmente en las zonas mejor conectadas.
+
+
+
+抄録: 国の都市ランキングは、集落の地域的な重要性を適切に説明するものではない。移動時間と集落の規模に
+基づいて集落の中心性をランク付けする手法を導入した。地域の中心であるか否かにかかわらず、集落の規模と
+サービスエンダウメントとの関係を調査する。このアプローチは、ヨーロッパの一人当たりのサービスエンダウ
+メントをうまく説明するもので、国別ランキングでは完全には捉えきれていない微妙な部分が示される。さらに、空
+間スケールで経験的に認識できる選好性によってサービスタイプの特性評価を確立する。結論として、結果からに集
+落のサービスエンダウメントはより速い道路接続によって刷新されることが可能であり、サービスはより良い道路接
+続の地域に空間的に集中することが示唆される。
+
+
+
+
+© 2023 The Authors. Papers in Regional Science published by John Wiley & Sons Ltd on behalf of Regional Science Association
+International.
+

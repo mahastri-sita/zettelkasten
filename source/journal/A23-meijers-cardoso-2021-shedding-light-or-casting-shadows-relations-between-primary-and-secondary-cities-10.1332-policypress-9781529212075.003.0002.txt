@@ -1,0 +1,1206 @@
+[PDF Metadata]
+Source PDF: book/A23-meijers-cardoso-2021-shedding-light-or-casting-shadows-relations-between-primary-and-secondary-cities-10.1332-policypress-9781529212075.003.0002.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Author:          pendras
+Creator:         Microsoft® Word for Microsoft 365
+Producer:        Microsoft® Word for Microsoft 365
+CreationDate:    Thu May 12 14:53:34 2022 WIB
+ModDate:         Thu May 12 14:53:34 2022 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           35
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       1028869 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+  Shedding Light or Casting Shadows? Relations between Primary and Secondary Cities
+
+    Evert Meijers (Utrecht University) & Rodrigo Cardoso (Delft University of Technology)
+
+
+
+
+                      This chapter appeared as chapter 2 in this book:
+    M. Pendras, & C. Williams (Eds.), Secondary Cities: Exploring Uneven Development in
+      Dynamic Urban Regions of the Global North (pp. 25-54). Bristol University Press.
+
+                                       Please cite as:
+  Meijers, E. J., & Ordonhas Viseu Cardoso, R. (2021). Shedding Light or Casting Shadows?
+    Relations between Primary and Secondary Cities. In M. Pendras, & C. Williams (Eds.),
+  Secondary Cities: Exploring Uneven Development in Dynamic Urban Regions of the Global
+                         North (pp. 25-54). Bristol University Press.
+
+
+
+
+Introduction
+
+Until recently, it was rather common to perceive the hinterland of cities as ‘rural’, directing
+
+research to the study of linkages, relations and dependencies between ‘urban’ and ‘rural’ (for
+
+example, see Hoggart, 2005). This widespread traditional conception of cities having a
+
+predominantly rural hinterland needs to be challenged, as processes of spatial upscaling and
+
+expansion have made many cities find other cities in their hinterland, suggesting that a focus on
+
+regional urban–urban relations is just as valid as a focus on urban–rural relations. Put simply: many
+
+functional urban areas or metropolitan areas – terms traditionally used to denote a city and its
+
+surrounding commuting area – are nowadays composed of multiple cities. It makes sense to
+
+address these regions as multicentric urban areas or as ‘polycentric urban regions’ when these
+
+cities do not differ widely in terms of size or overall importance.
+
+       Champion (2001) has distinguished three modes through which such multicentric urban
+
+regions arise. First, he distinguished a ‘centrifugal mode’: some smaller cities in the sphere of
+influence of larger cities may have risen as satellite towns of the latter, as a result of core city
+
+expansion and redistribution. Second, an ‘incorporation mode’ is discerned when a larger city
+
+extends its sphere of influence to include a formerly rather self-sustaining surrounding town or
+
+small city, or a set of several such cities. Third, the ‘fusion mode’ denotes that previously distinct
+
+and independent cities of rather similar size become integrated due to the advancement of
+
+connective infrastructure and technology, and the spatial extension of activity and travel patterns
+
+of people and firms.
+
+       Basing our research on European Spatial Planning Observation Network (ESPON) data
+
+(projects 1.1.1 and 1.4.3 in particular; see ESPON, 2005, 2011), we can calculate that 1,001 out
+
+of the 1,967 European cities are actually located in a multicentric metropolitan area (meaning that
+
+they are located in the sphere of influence of another city and vice versa), whereas the others are
+
+the sole centre of their functional region. In terms of population, the share is even larger: out of
+
+the 265 million inhabitants of these 1,967 cities, almost 192 million people (72.4 per cent) live in
+
+a multicentric urban region, while only 73 million people live in cities that do not have other cities
+
+in their hinterland. Hence, in sharp contrast to popular conceptions, multicentric urban regions are
+
+the dominant mode of urbanization in Europe, not the single city with its more or less suburban
+
+commuting area or rural hinterland. This poses an interesting challenge for researchers and policy-
+
+makers alike, because many of our urban theories still depart from this outdated notion of city plus
+
+hinterland. In policy practice, the complexity of governing multicentric urban regions, with their
+
+overlapping boundaries and powers but shared challenges and priorities, needs little emphasis.
+
+       With the rise of multicentric urban regions, we also require a framework to capture and
+
+describe the unfolding spatial organization of the process of metropolitan integration that they are
+
+experiencing. As is widely known in economic theory and in transport geography, increased
+integration leads to a rearrangement of economic activities, people and urban functions over space,
+
+creating new interactions and interdependencies between the cities making up multicentric urban
+
+regions. It is also known that even though there are socio-economic benefits arising from
+
+integration (the generative effect), these benefits and the costs of integration do not necessarily
+
+spread evenly over a region (a redistributive effect), even when a strong governance framework is
+
+put in place (Lefèvre, 1998; Hincks et al, 2017).
+
+       Recently, a novel framework for capturing the spatial organization of multicentric urban
+
+regions was developed, building on the concepts of ‘borrowed size’ and ‘agglomeration shadows’
+
+(Meijers and Burger, 2017). It is assumed that stronger integration with other cities allows a city
+
+to ‘borrow size’: to tap into the agglomeration benefits of nearby cities if they are sufficiently
+
+integrated. This could become visible in higher growth rates, or in having more, or more
+
+specialized, functions than one would expect given the size of those places. But at the same time,
+
+a process of metropolitan integration may lead to cities being in an ‘agglomeration shadow’ when
+
+the presence of certain economic activities or urban functions in nearby places means that there is
+
+no room to develop these themselves, or when the process of integration empties out these places
+
+of higher-order activities and functions since they can be served from other cities. So far, it has
+
+remained unclear why one city profits from metropolitan integration in the sense of borrowing
+
+size, whereas another may face the agglomeration shadows of nearby cities.
+
+       In this chapter we explore and empirically substantiate this framework of borrowed
+
+size/agglomeration shadows by positioning cities in a classic multicentric urban region, the
+
+Randstad Holland, in the framework developed by Meijers and Burger, and explore which factors
+
+are associated with a position in the ‘agglomeration shadow’ or the ‘borrowing size’ quadrants. It
+
+is not our intention to establish causality at this early stage of exploration, which would also allow
+robust policy recommendations, but rather to seek general characteristics that typify primary and
+
+secondary cities, and hence, what differentiates them, and the challenges they face. These different
+
+points of departure are important to avoid ‘one-size-fits-all’ urban development strategies, not just
+
+with respect to the differences between primary and secondary cities, but also taking the
+
+heterogeneity among secondary cities into account. In the process, we will also test the borrowed
+
+size/agglomeration shadow framework and ultimately develop it further.
+
+        The theory section goes deeper into the process of increased integration between cities and
+
+its associated benefits and costs – so-called ‘network externalities’. Subsequently, we expand the
+
+current ‘borrowed size/agglomeration shadow’ framework and present an empirical exercise that
+
+leads to the classification of places in the Randstad into this framework. This classification is then
+
+associated with six factors, whose relevance we explain later in this chapter: historical importance,
+
+size, sectoral composition of the local economy, social status, network embeddedness and tourism.
+
+Finally, the conclusion synthesizes our findings and sketches a research agenda that emerges from
+
+these results.
+
+
+
+Theory
+
+The basic idea that further integration between cities yields important benefits is widespread. It
+
+would lead to what Capello (2000) has termed ‘urban network externalities’. This concept refers
+
+to the benefits originating from relationships between places (see also Camagni, 1993; Meijers,
+
+2005; Boix and Trullén, 2007; Van Oort et al, 2010; Burger and Meijers, 2016) and can be
+
+described as external economies from which firms and households can benefit by being located in
+
+agglomerations that are well embedded or positioned in networks that connect with other
+
+agglomerations.
+       While an emerging scholarship on the benefits of such networks between cities is
+
+developing, the simple importance of relationships between cities has been stressed many times in
+
+historical accounts of the evolution of the European urban system (for example, De Vries, 1984;
+
+Hohenberg and Lees, 1995). The idea that ‘the spatial organisation in which cities operate is
+
+fundamental to understanding their efficiency, growth, factor productivity and sometimes their
+
+specialisation’ (Capello and Camagni, 2000: 1484) is also at the heart of the urban systems
+
+literature that had its heyday in the 1960s, 1970s and early 1980s (Pred, 1977; Bourne and
+
+Simmons, 1978).
+
+       Currently, we are witnessing a revival of such scholarship as there are five different schools
+
+studying relationships between cities (Peris et al, 2018): one predominantly focusing on the
+
+regional or intra-metropolitan scale and centred on concepts of polycentricity (for example,
+
+Kloosterman and Musterd, 2001; Parr, 2004); one addressing the global scale with a focus on
+
+world city firm and communication networks (see Alderson and Beckfield, 2004; Taylor and
+
+Derudder, 2016); one somewhat diffuse school rooted in urban economics (‘the new economic
+
+geography’) employing economic modelling approaches (for example, Fujita et al, 1999; Partridge
+
+et al, 2008); one school employing simulation and complexity theories to understand the behaviour
+
+of individual and institutional agents building the urban system from the bottom up, often drawing
+
+inspiration from physics (see Batty et al, 1999; Bretagnolle and Pumain, 2010); and, finally, one
+
+seeking regularities (‘laws’) with respect to city size distributions within an urban system (see
+
+Gabaix and Ioannides, 2004; Bettencourt et al, 2007). Despite their many ontological and
+
+epistemological differences, these approaches share a focus on functional and economic types of
+
+relationships and networks between cities.
+       Despite this attention, it is hard to quantify or precisely define the importance of network
+
+embeddedness for individual cities. While studies repeatedly show the importance of a city’s
+
+embeddedness in large-scale networks of all kinds – firms, capital, knowledge, people, goods – for
+
+its performance (Taylor, 2003; Bel and Fageda, 2008; Neal, 2013; Meijers et al, 2016), how such
+
+networks’ importance compares to local factors is largely unknown. Some time ago, scholars
+
+argued that local factors still seem to substantially outweigh network effects (Boix and Trullen,
+
+2007), but it appears that the importance of network externalities is growing as the connectivity of
+
+places has been rapidly increasing in the past decades. McCann and Acs (2011) argue that
+
+nowadays national and international connectivity is more important for performance than size.
+
+This was empirically substantiated by Meijers et al (2016), who found that the presence of
+
+particular metropolitan functions was better explained by connectivity than by local size – for
+
+example, international organizations, headquarters, advanced producer services, banks, fairs,
+
+conferences, patents. It would seem that networks substitute for proximity (Johansson and Quigley,
+
+2004), but this could also be a more complementary relationship – particular local conditions may,
+
+for instance, also foster a good network embeddedness. The nature of the interaction between local
+
+factors and network factors is unknown, and in this light, this chapter associates local factors with
+
+network relatedness and ultimately with the outcome of network integration.
+
+       Some studies have shown the presence of such network externalities in the particular
+
+context of multicentric urban regions (see Maly, 2016). It was found, for instance, that the more
+
+closely cities were integrated, the more network externalities were present, while the lack of
+
+integration between nearby cities would even lead to negative urban network externalities (Meijers
+
+and Burger, 2017). Recently, it was shown that higher levels of functional integration and
+
+institutional integration (metropolitan cooperation) contribute to the presence of more
+agglomeration benefits at the scale of a network of cities within a single urban region (Meijers et
+
+al, 2018).
+
+          However, while positive urban network externalities arise at the level of urban regions as
+
+a whole (or, perhaps better put, at the level of the network of cities), it remains a question whether
+
+individual cities profit from metropolitan integration by definition. It could well be that a
+
+generative effect at the level of urban regions hides an intra-regional distributive effect. Such
+
+effects have been established in transportation studies and in economic theory, most notably the
+
+New Economic Geography. In transportation studies this has been referred to as ‘the two-way road
+
+argument’ (Preston, 2001: 18), meaning that new infrastructure (that is, stronger integration)
+
+between a core and peripheral region can promote outward investment just as easily as inward
+
+investment. The core–periphery models of the New Economic Geography suggest that integration
+
+expands market areas, but also leads to more competition between firms in the periphery and in
+
+the core city. The latter are often producing more advanced products, while the former are losing
+
+their local monopoly. The outcome of integration depends on the balance between centripetal and
+
+centrifugal forces (Krugman, 1991; Fujita et al, 1999), and transportation costs are a central
+
+element in determining this balance. Low costs make it possible to serve the region from one place,
+
+so it then makes sense to profit from agglomeration economies in the largest place. The presence
+
+of such distributive effects of new infrastructure has been shown by, for instance, Meijers et al
+
+(2012).
+
+          Local politicians and policy-makers often pay lip service to the potential generative effects
+
+of city network integration, but are probably most interested in the distributive effects. The simple
+
+fact that the number of functions and activities in any multicentric urban region is not infinite, and
+
+that their distribution basically is a zero-sum game, means that cities compete heavily with other
+cities in their multicentric region, certainly if their tax revenues are mostly comprised of local
+
+taxes.
+
+         Recently, a conceptual framework was introduced that captures the possible outcomes of
+
+further integration in multicentric urban regions (Meijers and Burger, 2017). It builds on two
+
+concepts: ‘borrowed size’ (Alonso, 1973) and ‘agglomeration shadows’ (appropriated from the
+
+New Economic Geography literature, for example Krugman, 1993). Size borrowing occurs when
+
+a city exhibits urban functions and/or performance levels normally associated with larger cities
+
+that enjoy corresponding agglomeration externalities, and this pattern is a consequence of being
+
+integrated with those cities. Agglomeration shadows are essentially the opposite effect, yet are also
+
+the product of integration with nearby or more distant cities. It could be said that a place is under
+
+an agglomeration shadow when it has fewer functions and lower performance levels than expected
+
+given its size, because of competition effects from cities with which it is integrated through
+
+networks and relations. Volgmann and Rusche (2020) draw an interesting parallel with the regional
+
+concept of spread and backwash effects, conceptualized by Myrdal (1957).
+
+
+
+Classifying cities in the Randstad
+
+In this chapter we explore why one city profits from metropolitan integration in the sense of
+
+borrowing size, whereas another may face the agglomeration shadows of nearby cities. We present
+
+a case study of the Randstad Holland region, a classic example of a multicentric metropolitan
+
+region (see Hall, 1966; Kloosterman and Musterd, 2001). We will first classify cities by
+
+positioning them in the ‘borrowed size/agglomeration shadow’ framework. Then, we will seek for
+
+factors that can be associated with this classification.
+       The Randstad is not just a multicentric region, as the rather equal size distribution of its
+
+main cities (Amsterdam, Rotterdam, The Hague, Utrecht) also makes it polycentric. It may seem
+
+that this means that there are no secondary cities in the region, but the opposite is true. There are
+
+many other medium-sized cities (for example, Haarlem, Leiden, Dordrecht, Delft, to name but a
+
+few) as well as numerous smaller ones. There is no precise or formal delimitation of the Randstad
+
+– meaning the population estimate varies between 7 and 8 million inhabitants – and only about a
+
+third of this population lives in the four main cities; thus, the presence of the secondary cities is
+
+very important and the region is truly multicentric. Some proxy the area by the four provinces it
+
+covers, but we adopt a more commonly agreed upon delimitation that excludes the (former) island
+
+of Goeree-Overflakkee, the Noordoostpolder, most of the north of Holland (for example Alkmaar)
+
+and the Noordoostpolder in Flevoland province. ‘Our’ Randstad had 7.46 million inhabitants in
+
+January 2018 (see Figure 2.1). Generally, the cities in the Randstad all have distinct histories and
+
+identities and they share a long trajectory of being related to and also competing with each other.
+
+Only a few places can be considered suburban new towns – but such ‘growth poles’, stemming
+
+from the 1980s, have also developed their own identities that fuel, compete with and are related to
+
+the larger neighbouring city that once acted as their metropolis in the proper Greek meaning of
+
+that word (the mother city from which settlers came). Our unit of analysis will be the 120
+
+municipalities in the Randstad.
+Figure 2.1: The Randstad Holland
+
+
+
+
+These municipalities will be positioned in the ‘borrowed size/agglomeration shadow’ quadrant
+
+matrix, which requires us to assess, first, the connection between their size and the urban functions
+
+present in the city. Second, we explore the connection between their size and their performance in
+
+terms of urban dynamics. We proxy urban functions with two variables: the number of jobs (2016;
+
+data from Statistics Netherlands) and the presence of restaurants (2011, data from the Bedrijfschap
+
+Horeca en Catering). We used 2011 data, as this measurement allowed us to compare the
+
+development of restaurants over the 1996–2011 period. Several studies have used restaurants as a
+
+proxy for the presence of agglomeration benefits, their number to proxy advantages of scale and
+
+their variety to explain advantages of scope (Schiff, 2015; De Vos and Meijers, 2019). Here,
+
+performance was proxied with the population growth (2002–18) and the development of the
+
+number of restaurants (1996–2011).
+       Obviously, one of the omissions of the current ‘borrowed size/agglomeration shadow’
+
+framework is that many places do not have more or less urban functions than expected given their
+
+size, or a development trajectory that is better or worse: many places simply have the expected
+
+number of functions or development dynamics. As such, the four quadrant framework needs to
+
+evolve into a nine square matrix that allows for this classification. Each of the nine squares can be
+
+labelled according to its most defining characteristic. The two squares in the upper right can both
+
+be titled ‘borrowed functions’ and the two in the bottom left both classify as ‘borrowed
+
+performance’. Figure 2.2 presents this extended framework.
+Figure 2.2: The extended ‘borrowed size/agglomeration shadow’ framework
+       To position the cities, we calculated the number of restaurants and jobs per capita for the
+
+120 municipalities in the Randstad. The average number of restaurants per 1,000 people was 0.55
+
+(standard deviation (SD) = 0.30), with a minimum of 0.17 and a maximum of 2.47. The average
+
+number of jobs per 1,000 people was 40.11 (SD = 15.55), with values ranging from 17 to 107.
+
+Those places that had jobs and restaurants above the mean + 0.75 SD were considered to have
+
+more functions than expected. Likewise, those that had greater than 0.75 SD below the average
+
+value, were considered to have fewer functions than expected.
+
+       A similar procedure was applied to explore whether population growth and development
+
+of functions (restaurants) was above or below the expected value. The average population growth
+
+in the Randstad region was 8.4 per cent over the 2002–18 period (SD = 10.79), and the average
+
+increase in restaurants was 9.69 per cent (SD = 29.32). Again, we used deviations in excess of 0.75
+
+SD to determine which places performed better or worse than expected.
+
+       One complication with this procedure is that in quite a few cases a place performs better
+
+according to one indicator, but worse according to another that measures the same dimension. For
+
+instance, a place may have more jobs than expected, but less restaurants than predicted for its size.
+
+In those cases, if a place scores better or worse on one indicator, and as expected on the other, we
+
+categorized it as scoring better or worse. In the unusual case that a place scored better on one
+
+indicator and worse than expected according to the other, we classified it as ‘as expected’ on this
+
+dimension, unless the average standardized score was still above 0.75 SD (categorized as ‘better
+
+than expected) or below 0.75 SD (worse than expected). This resulted in the following
+
+classification of Randstad municipalities (Figure 2.3).
+Figure 2.3: Classification of municipalities in the Randstad
+
+
+                                                                   Connection
+      Dimensions of                                            size → function
+      borrowed size
+                             Fewer functions than             As many functions as              More functions than
+                              expected given size                  expected                     expected given size
+                             Agglomeration shadow
+                               Dronten, Maassluis,
+                Performs       Nissewaard, Strijen,
+                 less well                                      Performance shadow                Borrowed functions
+                               Oegstgeest, Kaag en
+                                                            Blaricum, Huizen, Dordrecht,         Zoeterwoude, Ouder-
+                   than      Braassem, Papendrecht,
+                                                          Montfoort, Veenendaal, Zederik,           Amstel, Laren,
+                expected         Hardinxveld-G.,
+                                                          Bloemendaal, Vlaardingen, Soest             Gorinchem
+                             Oostzaan, Binnenmaas,
+                given size
+                              Korendijk, Oudewater,
+                              Haarlemmerliede en S.
+                                                                     As expected
+                                                               Ridderkerk, Cromstrijen,
+                                                         Zoetermeer, Amstelveen, Leerdam,
+                               Functional shadow
+                                                           Lelystad, Zaanstad, Nieuwkoop,         Borrowed functions
+                               Rhenen, Landsmeer,
+                                                            Zwijndrecht, Capelle a/d IJssel,    Amsterdam, The Hague,
+  Connection                  Heemskerk, Zuidplas,
+                                                           Uithoorn, Oud-Beijerland, Baarn,      Westland, Beverwijk,
+                Performs          Alblasserdam,
+                                                              Hillegom, Woerden, De Bilt,          Renswoude, Zeist,
+   size →                   Voorschoten, IJsselstein,
+                   as             Hellevoetsluis,
+                                                            Beemster, Westvoorne, Brielle,        Haarlem, Hilversum,
+ performance    expected                                  Giessenlanden, Noordwijkerhout,       Wijdemeren, Delft, Lisse,
+                                Heemstede, Lopik,
+                                                         Bodegraven-R., Wassenaar, Weesp,        Noordwijk, Utrechtse
+                              Eemnes, Molenwaard,
+                                                            Krimpenerwaard, Purmerend,           Heuvelrug, Sliedrecht,
+                             Wormerland, Leiderdorp,
+                                                         Katwijk, Alphen a/d Rijn, Teylingen,   Zandvoort, Nieuwegein
+                                Krimpen a/d IJssel
+                                                          Schiedam, Gooise Meren, Stichtse
+                                                           Vecht, De Ronde Venen, Velsen,
+                                                                   Waterland, Gouda
+                              Borrowed performance                                                   Borrowed size
+                Performs        Pijnacker-N., Houten,                                            Barendrecht, Diemen,
+                  better      Lansingerland, Uitgeest,        Borrowed performance                Aalsmeer, Utrecht,
+                             Albrandswaard, Hendrik-      Midden-Delfland, Bunschoten,                  Vianen,
+                   than        Ido-Ambacht, Almere,        Bunnik, Waddinxveen, Edam-             Haarlemmermeer,
+                expected         Wijk bij Duurstede,     Volendam, Leusden, Woudenberg           Rijswijk, Amersfoort,
+                given size   Castricum, Leidschendam-                                             Leiden, Rotterdam
+                                      Voorburg
+Explaining patterns in the Randstad
+
+Research approach
+
+In what follows we will explore which factors correlate with whether a place is able to borrow
+
+performance, functions, size or, instead, faces a performance or functional shadow. In this
+
+explorative phase, we will consider six possible factors using descriptive methods to explore their
+
+association with our classification.
+
+       First, it can be assumed that path dependency plays a role. Places that were traditionally
+
+important centres for their region may have retained that historically established position, even
+
+though other places may have grown faster. For each contemporary municipality, we identified the
+
+largest city and considered its population size in 1849. The first census in the Netherlands is from
+
+this year. We subsequently constructed an indicator that gives the rank of a city in 1849. The higher
+
+ranked (so, the lower the number), the more historically important a city is.
+
+       Second, we simply assume that size plays a role. In line with previous findings (Burger et
+
+al, 2015; Meijers et al, 2016), the general pattern seems to be that larger cities more often borrow
+
+size, while smaller places are more likely to experience an agglomeration shadow. We use
+
+population size for 2016.
+
+       Third, we consider the sectoral composition of the local economy, which has long been
+
+known (Echevarria, 1997) to lead to unbalanced growth (Gardiner et al, 2013). Here, we calculated
+
+the ratio between white-collar workers (employees in the public and private services sector) and
+
+blue-collar workers (employees in construction and manufacturing). We assume that high scores
+
+are associated with function-rich places. Data on sectoral composition of the economy of
+
+municipalities is available through Statistics Netherlands, and refers to the year 2016.
+       Fourth, we include the social status score. This is a composite measure reflecting residents’
+
+level of education, position in the labour market and income, and is calculated by the Netherlands
+
+Institute for Social Research. Since it is calculated at the neighbourhood spatial scale, we
+
+calculated a population-weighted average at the municipal level. Data is for 2016. We assume that
+
+places with a lower social status are more often in the shadow of other places.
+
+       Our fifth factor appeals quite literally to the idea that cities can borrow size in networks
+
+(Meijers et al, 2016), and that networks may substitute for the benefits of agglomeration
+
+(Johansson and Quigley, 2004). We created a network embeddedness factor to find out whether
+
+places that are more strongly related to other places do indeed perform better or have more
+
+functions than expected. In other scientific fields, the co-occurrence of phenomena in texts is used
+
+as an indicator of their relatedness, and likewise we can assume that when two cities are often
+
+mentioned in the same breath, they are related to each other, more so than cities that are hardly
+
+mentioned together. Important to understand is that this conceptualization of relatedness is broader
+
+than connections or physical flows between cities. Our measure of relatedness is based on the co-
+
+occurrence of Dutch place names in all (25 million) websites with the .nl extension (the most
+
+commonly used extension in the Netherlands) – see Meijers and Peris (2019) for its exact
+
+calculation. The absolute pattern of relationships, based on the frequency of co-occurrences, was
+
+explained by applying the gravity model. This allowed us to gain a relative understanding of the
+
+importance of a relationship. For instance, Rotterdam and Amsterdam are the cities that are most
+
+often mentioned together on Dutch websites, but you also expect this to be the case given the sheer
+
+size of both cities and the limited distance between them. If we correct for the size of the places,
+
+and the distance between them, by using the gravity model, we are able to compare predicted
+
+strengths of relationships between places with actual strengths (co-occurrences). Predicted values
+of less than 0, which happened for pairs of small villages far from each other, were set at 0. Our
+
+indicator gives the aggregated difference between all predicted values of the strength of the
+
+relationship with almost 1,700 other Dutch places, and the actual value. To move from place level
+
+to municipal level, we approximated the municipal network embeddedness with the relationships
+
+of the place that gave its name to a municipality, and when no such place name was used, we took
+
+the largest place in that municipality. In the handful of cases where the municipal name is
+
+composed of two place names, we took the average values.
+
+       Sixth, a clear example of a means through which size can be borrowed is tourism, as tourists
+
+temporarily add to the size and hence support base for functions, while this sector has also grown
+
+considerably in many places. Our ‘tourism’ indicator gives the number of hotel beds per capita in
+
+2011 – data is derived from the Bedrijfschap Horeca en Catering.
+
+
+
+Results: aggregate patterns
+
+We explore the association between six categories of our ‘borrowed size/agglomeration shadow’
+
+framework and these six factors through a series of box plots (Figures 2.4–2.9; for visibility, we
+
+leave out the ‘as expected’ category). The colours used refer to the colours given to these categories
+
+in Figures 2.2 and 2.3.
+Figure 2.4: Historical importance
+
+
+
+
+The pattern regarding the historical importance of places is quite clear. Places that were important
+
+170 years ago tend to be relatively more represented in the ‘borrowed size’ and ‘borrowed
+
+function’ category. Most of them seem to have kept their functional centrality and, consequently,
+
+we don’t find the most historically important places in a ‘functional shadow’ or in the ‘borrowed
+
+performance’ category. The historically most important place that is now in an agglomeration
+
+shadow is Maassluis – this former fishing town close to Rotterdam seems to have become
+
+overshadowed by its larger neighbour. On the other side, Haarlemmermeer was totally
+
+insignificant in 1849 (ranked 119 out of 120), and now borrows size. It is the municipality close
+
+to Amsterdam where Schiphol Airport is located – an obvious case of borrowing size indeed.
+
+Places that borrow performance tend to be historically less important. Hence, their growth may be
+
+explained more in terms of suburbanization – actually several growth centres are included here:
+
+for example, Almere, Houten, Lansingerland, Pijnacker-Nootdorp (see Figure 2.5).
+Figure 2.5: Population size
+
+
+
+
+Turning to contemporary importance in terms of size, it is quite obvious that larger cities are more
+
+often in the borrowed size or the borrowed functions category. Almere is growing rapidly and can
+
+be considered in many ways a suburb of Amsterdam, but its position in the borrowed performance
+
+class means that it has not been able to develop functional importance (yet). Smaller cities are
+
+more often in a functional or agglomeration shadow. Nissewaard, including the city of Spijkenisse,
+
+is also not able to live up to the expectations created by its size – this is an example of one of the
+
+earlier growth poles near Rotterdam that grew rapidly due to industrialization in the 1970s and
+
+1980s but has stagnated in more recent years – perhaps in many ways similar to the ‘first suburban
+
+ring’ in the US.
+Figure 2.6: Economic structure
+
+
+
+
+The economic structure does play a role in positioning cities in our framework (see Figure 2.6).
+
+Those in which manufacturing is stronger, and which have relatively fewer services, tend to
+
+experience an agglomeration shadow more often, while the median values of places in
+
+performance and functional shadows suggest the same for those categories. The local economy of
+
+places that ‘borrow’ tends to be more characterized by services.
+Figure 2.7: Social status
+
+
+
+
+In terms of social status, the pattern is rather mixed – or simply absent (see Figure 2.7). The social
+
+status of places in the agglomeration shadow does not seem to differ too much from those that
+
+borrow size. In fact, the place with the lowest social status – Rotterdam – is borrowing size.
+
+Noteworthy perhaps is that places that are growing more tend to have a somewhat higher social
+
+status, while quite a few municipalities that are in a performance shadow are among the socially
+
+weaker. A link can be established with the fact that those places in the borrowed performance
+
+category include more recent suburban areas to which relatively affluent families tend to migrate.
+Figure 2.8: Network embeddedness
+
+
+
+
+The boxplot for network embeddedness is interesting from various perspectives (see Figure 2.8).
+
+First of all, the places that borrow size are much more related to other places, whereas at the
+
+opposite end, those that are in an agglomeration shadow have far fewer relationships with other
+
+places. Second, places that borrow function also seem to be able to do so because they have
+
+stronger relationships. Third, places in a performance shadow also tend to be slightly more related
+
+to other places. This seems to call for further analysis in the types and directions of relationships,
+
+an issue that needs to be taken on board when the toponym co-occurrences method is further
+
+developed. Their opposite – the places that borrow performance – are actually less strongly related
+
+to other places. We had expected that places in a functional shadow would also have stronger
+
+relationships with other places, to make up for the lack of functions locally, but this is not the case.
+Figure 2.9: Tourism
+
+
+
+
+Tourism adds, temporarily, to the size of a place, and is one of the clearest examples of borrowed
+
+size from elsewhere (see Figure 2.9). It obviously has a positive impact on the functions in a place,
+
+as the borrowed size and borrowed function categories are more touristic. However, it does not
+
+lead to borrowed performance. Places in a shadow – whatever type – tend to be less touristy. Note
+
+that our indicator – hotel beds – does not just refer to touristic places; places that are central in
+
+business networks also pop up. The clearest example is Haarlemmermeer (Schiphol).
+
+
+
+Results: functional dimension
+
+Figure 2.10 presents the association between our factors and whether places have more or fewer
+
+functions than expected given their size. When comparing municipalities that have more functions
+
+(N = 30) with those that have fewer functions (N = 38), it turns out that municipalities that punch
+
+above their demographic weight are those that are: (a) historically important: t(66) = -4.0, p = .000;
+(b) larger: t(30) = 2.5, p = .017; (c) have a lower social status: t(66) = -2.2, p = .033; and (d) draw
+
+more tourists: t(32) = 2.4, p = .022. Somewhat counterintuitive is that places with a lower social
+
+status manage to have more functions than expected. Perhaps this is because function-rich larger
+
+cities are often also home to lower social classes, in addition to a comparatively smaller upper
+
+class. While places that do better also seem to have a more services-oriented economy, this
+
+difference between ‘more’ and ‘fewer’ functions was not statistically significant. Finally, and
+
+perhaps most strikingly, places with stronger relationships with other places tend to have more
+
+functions: t(66) = 4.9, p = .000. This provides an important empirical underpinning for the
+
+proposition that networks substitute for size.
+
+       We also ran an ordinal regression model explaining the score on the functional dimension,
+
+and including all six covariates simultaneously. In this model, tourism and network embeddedness
+
+turned out to be significant factors (p <0.05), with historical importance being significant only at
+
+the p <0.10 level.
+
+
+
+Results: performance dimension
+
+When zooming in on just the performance dimension, associations with most of the six factors
+
+become clearer (Figure 2.11). In comparison to places that underperform, places that grow faster
+
+seem to be: (a) historically more important; (b) larger; (c) have a higher social status; (d) have
+
+more service sector jobs; (e) have more visiting tourists; and (f) are more strongly related to other
+
+places. However, comparing the mean scores for the ‘better’ and ‘worse’ categories renders only
+
+the difference in size significant, t(28) = 2.1, p = .046. The difference in tourism is significant only
+
+at the p = .094 level, t(50) = 1.7. Note that there are just 27 municipalities in the ‘better’ category
+
+and 26 in the ‘worse’ category, while at least N = 30 is recommendable for independent samples
+t-tests. All in all, this performance dimension shows weaker differences between the categories in
+
+comparison to the functional dimension.
+
+       An ordinal regression model explaining the score on performance and including again the
+
+six covariates, identified social status as the most significant factor (p = 0.028), followed by
+
+population size (p = 0.052) and network embeddedness (p = 0.091).
+Figure 2.10: Borrowed functions
+Figure 2.11: Borrowed performance
+Conclusion
+
+While much attention has been devoted to understanding city network externalities, as a substitute
+
+and/or complement to agglomeration externalities, research has focused much less on how the
+
+costs and benefits of the further integration of cities in networks are distributed over the cities in
+
+the network of cities. The ‘borrowed size/agglomeration shadow’ framework (Meijers and Burger,
+
+2017) proposed previously to identify the different outcomes of network integration at the scale of
+
+individual cities was taken as a point of departure in this chapter. We have proposed a further
+
+refinement of this original four quadrant matrix, and now identify seven possible local outcomes
+
+of network integration. Cities can: (1) experience an agglomeration shadow; (2) experience a
+
+performance shadow; (3) experience a functional shadow; (4) perform as expected; (5) borrow
+
+functions; (6) borrow performance; and (7) borrow size.
+
+       This elaboration of possible local outcomes was further explored and tested for the
+
+Randstad Holland region, a classic multicentric and polycentric urban region in the Netherlands.
+
+Each of the 120 municipalities in this metropolitan region (7.5 million inhabitants) was positioned
+
+in the elaborated ‘borrowed size/agglomeration shadow’ framework. In terms of the secondary
+
+cities that resemble the definition used in this book (see Chapter 1) most are positioned in very
+
+different quadrants. Some face a ‘performance shadow’ (Dordrecht, Vlaardingen), some perform
+
+as expected (Schiedam, Zaanstad), while others ‘borrow functions’ (Delft, Haarlem, Hilversum)
+
+and two manage to ‘borrow size’ (Amersfoort, Leiden). While it is noteworthy that none of these
+
+cities has fewer functions than expected, these varied positions at the same time suggest that the
+
+group of ‘secondary cities’ is quite heterogeneous, as is also discussed in Chapter 5, this volume.
+
+The ‘first cities’ either borrow functions (Amsterdam, The Hague) or borrow size (Utrecht,
+
+Rotterdam).
+       Given this heterogeneity, it makes sense to explore how local conditions are associated
+
+with the positioning of cities. In this chapter, we associated six factors with this positioning:
+
+historical importance, size, sectoral composition of the local economy, social status, network
+
+embeddedness and tourism. All factors seem to play a role in the positioning. This role is
+
+sometimes easier to understand when looking at the functional and performance dimensions of the
+
+‘borrowed size/agglomeration shadow’ framework separately.
+
+       Places that have more functions than expected are associated with being historically
+
+important, and also with being more populous, while this population on average has a lower social
+
+status. But most particularly, they draw relatively more tourists (a very clear example of borrowing
+
+size of course) and they are much more strongly related to other cities than places that have fewer
+
+functions than expected. This provides clear support for the idea that networks substitute for size.
+
+       Places that witnessed stronger development since the late 1990s, are, in comparison to
+
+places that underperformed, characterized by a greater population size, while they also have a
+
+higher social status and draw more tourists, and more relations with other cities (network
+
+embeddedness). The boxplots in Figure 2.11 presented suggest some evidence for the two
+
+remaining factors.
+
+       While processes of further integration are positive for the region as a whole, the benefits
+
+and costs are not spread evenly over primary and different types of secondary cities. Our results
+
+suggest that local circumstances and path dependencies may influence the capacity to exploit
+
+processes of integration in multicentric metropolitan areas. One could argue that cities have
+
+different roles to play in such a region, after all, the essence of networks is that they allow for
+
+specialization. But this does require insight into the new interdependencies and a regional planning
+strategic framework to make the most of the possibilities of metropolitan network integration,
+
+especially if we are to ensure that costs and benefits of this process are spread more evenly.
+
+        It may have been noted that we refer to those relationships as associations and not as causal
+
+relationships. We believe that this fits better with the explorative nature of the empirical analysis
+
+here presented. But the issue of causality is of great importance, and in many ways deserves further
+
+careful analysis. This analysis may be more a matter of discussing the evolution of secondary cities
+
+in relation to first cities in the region than of mere quantitative statistical analysis to establish
+
+causality, since historical pathways are likely to play a key role. The city of Dordrecht, for instance,
+
+was definitely one of the most important Dutch cities in the 16th and 17th centuries. But it has
+
+gradually been overshadowed by Rotterdam, which, among other factors, enjoyed a more
+
+favourable location for trade and political prioritization, translating into more public investment in
+
+the last century when its large harbour and associated industrial complexes were considered the
+
+economic engine of the Netherlands. Of course, the growth and decline of the most important
+
+economic sectors are likely to play key roles, as is perhaps sheer coincidence. For instance,
+
+Schiphol airport, in the last decades another engine of economic growth, would probably have
+
+been relocated from its current position near Amsterdam to a place near Leiden and The Hague by
+
+the end of the 1930s if the war with Germany had not loomed on the horizon. Therefore, through
+
+such historical accounts, we may get an understanding of why some cities possess the factors that
+
+seem to allow them to borrow size, whereas others lack them.
+
+       Importantly, such accounts will also reveal that there are shifts in the positioning of some
+
+cities – those that borrow size nowadays may have faced agglomeration shadows in the past. It is
+
+very possible that we will witness a shift in the coming decade (2030) – the quick rise of
+
+agglomeration costs in the largest cities (rents, congestion, ‘touristification’ of city centres) already
+leads to many spillover effects in nearby places, a process likely to be further aggravated by the
+
+need for space during pandemics like COVID-19. There is one important difference, though, with
+
+previous patterns in suburbanization. The households and firms that are attached to the urban way
+
+of life do not move to nearby ‘bedroom communities’ that lack urban charm, but ‘hop over’ to
+
+secondary cities that tend to be well connected and rich in functions and that have historical urban
+
+character and identity – an emerging process in the Netherlands that we could perhaps call ‘hop-
+
+over urbanization’. Consequently, in addition to our ‘snapshot’ that was based on a rather limited
+
+number of indicators to capture the functional and performance dimensions of each city, further
+
+research could adopt a dynamic perspective and try to explain shifts in positions of cities, thereby
+
+building on a more comprehensive analysis of: (a) proxies for functions and performance; and (b)
+
+a larger set of factors that can be associated with these two dimensions. It is not unlikely that this
+
+leads to the observation that cities have simultaneous and overlapping experiences with borrowing
+
+and shadowing, demanding a more careful account of their position.
+
+       The issue of causality is also pertinent when it comes to the role of relationships between
+
+pairs of cities and the networks these shape at the scale of the urban system. Do these relationships
+
+develop because of the many functions a city has, or do these relationships indeed substitute for
+
+size and allow a city to sustain more functions? Both explanations are obviously possible, and, for
+
+instance, an instrumented variables approach may add some clarity here. Also, there are many
+
+opportunities to further elaborate the network embeddedness variable, such as considering network
+
+embeddedness on different spatial scales or, in the case of secondary cities, the levels of
+
+relationship with just the first city. There are many exciting research avenues possible that can
+
+build on, and further develop, the approach and the framework presented and explored here.
+References
+
+Alderson, A.S. and Beckfield J. (2004) ‘Power and position in the world city system’, American
+       Journal of Sociology, 109(4): 811–51.
+
+Alonso, W. (1973) ‘Urban zero population growth’, Daedalus, 102(4): 191–206.
+
+Batty, M., Xie, Y. and Sun Z. (1999) ‘Modeling urban dynamics through GIS-based cellular
+       automata’, Computers, Environment and Urban Systems, 23(3): 205–33.
+
+Bel, G. and Fageda, X. (2008) ‘Getting there fast: globalization, intercontinental flights and
+       location of headquarters’, Journal of Economic Geography, 8(4): 471–95.
+
+Bettencourt, L.M.A., Lobo, J., Helbing, D., Kühnert, C. and West, G.B. (2007) ‘Growth,
+       innovation, scaling, and the pace of life in cities’, Proceedings of the National Academy of
+       Sciences of the United States of America, 104(17): 7301–6.
+
+Boix, R. and Trullén, J. (2007) ‘Knowledge, networks of cities and growth in regional urban
+       systems’, Papers in Regional Science, 86(4): 551–74.
+
+Bourne, L.S. and Simmons, J.W. (eds) (1978) Systems of Cities: Readings on Structure, Growth,
+      and Policy, New York: Oxford University Press.
+
+Bretagnolle, A. and Pumain, D. (2010) ‘Simulating urban networks through multiscalar space-time
+       dynamics: Europe and the United States, 17th–20th centuries’, Urban Studies, 47(13):
+       2819–39.
+
+Burger, M.J. and Meijers, E.J. (2016) ‘Agglomerations and the rise of urban network externalities’,
+       Papers in Regional Science, 95(1): 5–15.
+
+Burger, M.J., Meijers, E.J., Hoogerbrugge, M.M. and Tresserra, J.M. (2015) ‘Borrowed size,
+       agglomeration shadows and cultural amenities in north-west Europe’, European Planning
+       Studies, 23(6): 1090–109.
+
+Camagni, R. (1993) ‘From city hierarchy to city networks: reflections about an emerging
+     paradigm’, in T.R. Lakshmanan and P. Nijkamp (eds) Structure and Change in the Space
+     Economy: Festschrift in Honour of Martin Beckmann, Berlin: Springer Verlag, pp 66–87.
+
+Capello, R. (2000) ‘The city network paradigm: measuring urban network externalities’, Urban
+       Studies, 37(11): 1925–45.
+
+Capello, R. and Camagni, R. (2000) ‘Beyond optimal city size: an evaluation of alternative urban
+       growth patterns’, Urban Studies, 37(9): 1479–96.
+Champion, A.G. (2001) ‘A changing demographic regime and evolving polycentric urban regions:
+     consequences for the size, composition and distribution of city populations’, Urban
+     Studies, 38(4): 657–77.
+
+De Vos, D. and Meijers, E. (2019) ‘Information technology and local product variety: substitution,
+      complementarity and spillovers’, Tijdschrift voor Economische en Sociale Geografie,
+      110(4): 486–506.
+
+De Vries, J. (1984) European Urbanization 1500–1800, London: Methuen.
+
+Echevarria, C. (1997) ‘Changes in sectoral composition associated with economic growth’,
+      International Economic Review, 38(2): 431–52.
+
+ESPON (European Spatial Planning Observation Network) (2005) ‘ESPON 1.1.1. Potentials for
+     polycentric development in Europe’, ESPON and Nordregio Project Report (rev. version),
+     Brussels and Stockholm.
+
+ESPON (European Spatial Planning Observation Network) (2011) ‘ESPON 1.4.3 Study on urban
+     functions, 2007’, ULB IGEAT/ESPON Project Report (updated version), Brussels and
+     Luxembourg.
+
+Fujita, M., Krugman, P. and Mori, T. (1999) ‘On the evolution of hierarchical urban
+        systems, European Economic Review, 43(2): 209–51.
+
+Gabaix, X. and Ioannides, Y.M. (2004) ‘The evolution of city size distributions’, in J.V.
+      Henderson and J.-F. Thisse (eds) Handbook of Regional and Urban Economics, vol. 4,
+      Amsterdam: Elsevier, pp 2341–78.
+
+Gardiner, B., Martin, R., Sunley, P. and Tyler, P. (2013) ‘Spatially unbalanced growth in the
+       British economy’, Journal of Economic Geography, 13(6): 889–928.
+
+Hall, P. (1966) The World Cities, London: Weidenfeld & Nicolson.
+
+Hincks, S., Deas, I. and Haughton, G. (2017) ‘Real geographies, real economies and soft spatial
+       imaginaries: creating a “more than Manchester” region’, International Journal of Urban
+       and Regional Research, 41(4): 642–57.
+
+Hoggart, K. (2005) The City’s Hinterland: Dynamism and Divergence in Europe’s Peri-Urban
+      Territories, London: Routledge.
+
+Hohenberg, P.M. and Lees, L.H. (1985) The Making of Urban Europe, 1000–1950, Cambridge,
+      MA: Harvard University Press.
+
+Johansson, B. and Quigley, J. (2004) ‘Agglomeration and networks in spatial economies’, Papers
+       in Regional Science, 83(1): 165–76.
+Kloosterman, R.C. and Musterd, S. (2001) ‘The polycentric urban region: towards a research
+       agenda’, Urban Studies, 38(4): 623–33.
+
+Krugman, P. (1991) Geography and Trade, Cambridge, MA: MIT Press.
+
+Krugman, P. (1993) ‘On the number and location of cities’, European Economic Review, 37(2):
+     293–8.
+
+Lefèvre, C. (1998) ‘Metropolitan government and governance in Western countries: a critical
+       review’, International Journal of Urban and Regional Research, 22(1): 9–25.
+
+McCann, P. and Acs, Z.J. (2011) ‘Globalization: countries, cities and multinationals’, Regional
+     Studies, 45(1): 17–32.
+
+Maly, J. (2016) ‘Small towns in the context of “borrowed size” and “agglomeration shadow”
+       debates: the case of the South Moravian Region (Czech Republic)’, European Countryside,
+       8(4): 333–50.
+
+Meijers, E.J. (2005) ‘Polycentric urban regions and the quest for synergy: is a network of cities
+       more than the sum of the parts?’, Urban Studies, 42(4): 765–81.
+
+Meijers, E.J. and Burger, M.J. (2017) ‘Stretching the concept of “borrowed size”’, Urban Studies,
+       54(1): 269–91.
+
+Meijers, E.J. and Peris, A. (2019) ‘Using toponym co-occurrences to measure relationships
+       between places: review, application and evaluation’, International Journal of Urban
+       Sciences, 23(2): 246–68.
+
+Meijers, E.J., Burger, M.J. and Hoogerbrugge, M.M. (2016) ‘Borrowing size in networks of cities:
+       city size, network connectivity and metropolitan functions in Europe’, Papers in Regional
+       Science, 95(1): 181–98.
+
+Meijers, E.J., Hoogerbrugge, M. and Cardoso, R. (2018) ‘Beyond polycentricity: does stronger
+       integration between cities in polycentric urban regions improve performance?’, Tijdschrift
+       voor Economische en Sociale Geografie, 109(1): 1–21.
+
+Meijers, E.J., Hoekstra, J., Leijten, M., Louw, E. and Spaans, M. (2012) ‘Connecting the periphery:
+       distributive effects of new infrastructure’, Journal of Transport Geography, 22: 187–98.
+
+Myrdal, G. (1957) Economic Theory and Underdeveloped Regions, London: Hutchinson.
+
+Neal, Z. (2013) The Connected City: How Networks are Shaping the Modern Metropolis, New
+       York: Routledge.
+
+Parr, J.B. (2004) ‘The polycentric urban region: a closer inspection’, Regional Studies, 38(3): 231–
+        40.
+Partridge, M.D., Rickman, D.S., Ali, K. and Olfert, M.R. (2008) ‘Lost in space: population growth
+        in the American hinterlands and small cities’, Journal of Economic Geography, 8(6): 727–
+        57.
+
+Peris, A., Meijers, E. and van Ham, M. (2018) ‘The evolution of the systems of cities literature
+        since 1995: schools of thought and their interaction’, Networks and Spatial Economics,
+        18(3): 533–54.
+
+Pred, A. (1977) City-Systems in Advanced Economies: Past Growth, Present Processes, and
+       Future Development Options, New York: Wiley.
+
+Preston, J. (2001) ‘Integrating transport with socio-economic activity: a research agenda for the
+       new millennium’, Journal of Transport Geography, 9(1): 13–24.
+
+Schiff, N. (2015) ‘Cities and product variety: evidence from restaurants’, Journal of Economic
+        Geography, 15(6): 1085–123.
+
+Taylor, P.J. (2003) World City Network: A Global Urban Analysis, London: Routledge.
+
+Taylor, P.J. and Derudder, B. (2016) World City Network: A Global Urban Analysis (2nd edn),
+       Abingdon: Routledge.
+
+Van Oort, F., Burger, M. and Raspe, O. (2010) ‘On the economic foundation of the urban network
+      paradigm: spatial integration, functional integration and economic complementarities
+      within the Dutch Randstad’, Urban Studies, 47(4): 725–48.
+
+Volgmann, K. and Rusche, K. (2020) ‘The geography of borrowing size: exploring spatial
+     distributions for German urban regions’, Tijdschrift Voor Economische En Sociale
+     Geografie, 111(1): 60–79.
+

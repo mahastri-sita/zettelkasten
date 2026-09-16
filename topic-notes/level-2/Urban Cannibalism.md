@@ -20,10 +20,11 @@ Router untuk konsep pengguna tentang tekanan eksternal atau kemungkinan ekstraks
 
 ## Outputs
 
-- [[Draft-Cannibalism-v5.pdf]] - PDF final yang dipertahankan secara byte-identik dari paket Overleaf legacy; bukan Synthesis Product.
+- [[output/kajian/draft_cannibalism_v5.pdf|Draft-Cannibalism-v5.pdf]] - PDF final yang dipertahankan secara byte-identik dari paket Overleaf legacy; bukan Synthesis Product.
 
 ## Evidence and Datasets
 
+- [[C02-widita-ahmad-2026-urban-cannibalism-expanding-agglomeration-shadow-to-function-extraction-in-arrested-transition-10.31235-osf.io-brxn3_v1.pdf]] - Preprint SocArXiv versi 1 milik pengguna; rujukan langsung untuk konsep dan operasionalisasi *urban cannibalism*, bukan bukti independen.
 - [[OpenStreetMap - POI GKS - April 2026]] - Snapshot POI untuk massa ekonomi dan sosial.
 - [[Kemenhub and OpenStreetMap - Road Network GKS - April 2026]] - Snapshot jaringan jalan untuk konteks dan waktu tempuh.
 - [[GKS - Administrative Boundary]] - Boundary canonical untuk unit studi GKS.

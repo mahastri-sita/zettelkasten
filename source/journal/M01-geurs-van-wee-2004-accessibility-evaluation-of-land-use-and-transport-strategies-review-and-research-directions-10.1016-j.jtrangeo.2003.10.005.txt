@@ -1,0 +1,904 @@
+[PDF Metadata]
+Source PDF: journal/M01-geurs-van-wee-2004-accessibility-evaluation-of-land-use-and-transport-strategies-review-and-research-directions-10.1016-j.jtrangeo.2003.10.005.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           doi:10.1016/j.jtrangeo.2003.10.005
+Creator:         Elsevier
+Producer:        Acrobat Distiller 5.0.5 (Windows)
+CreationDate:    Wed Mar 24 17:49:19 2004 WIB
+ModDate:         Wed Mar 24 17:49:19 2004 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           14
+Encrypted:       no
+Page size:       595 x 794 pts
+Page rot:        0
+File size:       365557 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                           Journal of Transport Geography 12 (2004) 127–140
+                                                                                                                www.elsevier.com/locate/jtrangeo
+
+
+
+
+        Accessibility evaluation of land-use and transport strategies:
+                        review and research directions
+                                             Karst T. Geurs a,*, Bert van Wee b
+             a
+                 Netherlands Environmental Assessment Agency, National Institute for Public Health and the Environment, P.O. Box 1,
+                                                       Bilthoven BA 3720, The Netherlands
+                                             b
+                                               Delft University of Technology, Delft, The Netherlands
+
+
+
+Abstract
+    A review of accessibility measures is presented for assessing the usability of these measures in evaluations of land-use and
+transport strategies and developments. Accessibility measures are reviewed using a broad range of relevant criteria, including
+theoretical basis, interpretability and communicability, and data requirements of the measures. Accessibility impacts of land-use and
+transport strategies are often evaluated using accessibility measures, which researchers and policy makers can easily operationalise
+and interpret, such as travelling speed, but which generally do not satisfy theoretical criteria. More complex and disaggregated
+accessibility measures, however, increase complexity and the eﬀort for calculations and the diﬃculty of interpretation. The current
+practice can be much improved by operationalising more advanced location-based and utility-based accessibility measures that are
+still relatively easy to interpret for researchers and policy makers, and can be computed with state-of-the-practice data and/or land-
+use and transport models. Research directions towards theoretically more advanced accessibility measures point towards the
+inclusion of individual’s spatial–temporal constraints and feedback mechanisms between accessibility, land-use and travel behav-
+iour. Furthermore, there is a need for theoretical and empirical research on relationships between accessibility, option values and
+non-user beneﬁts, and the measurement of diﬀerent components of accessibility.
+Ó 2003 Elsevier Ltd. All rights reserved.
+
+Keywords: Accessibility; Land-use; Transport; Policy evaluation
+
+
+
+1. Introduction                                                             Several authors have written review articles on accessi-
+                                                                            bility measures, often focusing on certain perspectives,
+   Accessibility, a concept used in a number of scientiﬁc                   such as location accessibility (e.g. Song, 1996; Handy
+ﬁelds such as transport planning, urban planning and                        and Niemeier, 1997), individual accessibility (e.g. Pirie,
+geography, plays an important role in policy making.                        1979; Kwan, 1998) or economic beneﬁts of accessibility
+However, accessibility is often a misunderstood, poorly                     (e.g. Koenig, 1980; Niemeier, 1997). Our review diﬀers
+deﬁned and poorly measured construct. Indeed, ﬁnding                        from existing review articles in the following ways.
+an operational and theoretically sound concept of                           Firstly, accessibility measures are reviewed from diﬀer-
+accessibility is quite diﬃcult and complex. As a result,                    ent perspectives, and we do not focus on one speciﬁc
+land-use and infrastructure policy plans are often eval-                    perspective. The main purpose is to assess the usability
+uated with accessibility measures which are easy to                         of accessibility measures in evaluations of both land-use
+interpret for researchers and policy makers, such as                        and transport changes, and related social and economic
+congestion levels or travel speed on the road network,                      impacts. Secondly, measures are reviewed according
+but which have strong methodological disadvantages.                         to a broad range of relevant criteria, i.e. (a) theoretical
+This paper presents a thorough review of accessibility                      basis, (b) interpretability and communicability, (c) data
+studies and research directions to improve the current                      requirements and (d) usability in social and economic
+practice of land-use and transport policy appraisal.                        evaluations. This review, based on an extensive litera-
+                                                                            ture study (Geurs and Ritsema van Eck, 2001), will
+                                                                            approach the diﬀerent perspectives and components of
+  *
+   Corresponding author. Tel.: +31-30-274-3918; fax: +31-30-274-
+                                                                            accessibility in Section 2, the accessibility measures in
+4417.                                                                       Section 3 and explore the conclusions in Section 4. Fu-
+  E-mail address: karst.geurs@rivm.nl (K.T. Geurs).                         ture research paths will be outlined in Section 5.
+
+0966-6923/$ - see front matter Ó 2003 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.jtrangeo.2003.10.005
+128                           K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140
+
+2. Accessibility measures: perspectives and components                  travel costs). The demand relates to both passenger
+                                                                        and freight travel.
+   Accessibility is deﬁned and operationalised in several            3. The temporal component reﬂects the temporal con-
+ways, and thus has taken on a variety of meanings.                      straints, i.e. the availability of opportunities at diﬀer-
+These include such well-known deﬁnitions as Ôthe po-                    ent times of the day, and the time available for
+tential of opportunities for interaction’ (Hansen, 1959),               individuals to participate in certain activities (e.g.
+Ôthe ease with which any land-use activity can be reached               work, recreation).
+from a location using a particular transport system’                 4. The individual component reﬂects the needs (depending
+(Dalvi and Martin, 1976), Ôthe freedom of individuals to                on age, income, educational level, household situation,
+decide whether or not to participate in diﬀerent activi-                etc.), abilities (depending on people’s physical condi-
+ties’ (Burns, 1979) and Ôthe beneﬁts provided by a                      tion, availability of travel modes, etc.) and opportuni-
+transportation/land-use system’ (Ben-Akiva and Ler-                     ties (depending on people’s income, travel budget,
+man, 1979). In our study, accessibility measures are seen               educational level, etc.) of individuals. These character-
+as indicators for the impact of land-use and transport                  istics inﬂuence a person’s level of access to transport
+developments and policy plans on the functioning of the                 modes (e.g. being able to drive and borrow/use a car)
+society in general. This means that accessibility should                and spatially distributed opportunities (e.g. have the
+relate to the role of the land-use and transport systems                skills or education to qualify for jobs near their resi-
+in society, which, in our opinion, will give individuals or             dential area), and may strongly inﬂuence the total
+groups of individuals the opportunity to participate in                 aggregate accessibility result. Several studies (e.g. Cer-
+activities in diﬀerent locations. Focusing on passenger                 vero et al., 1997; Shen, 1998; Geurs and Ritsema van
+transport, we deﬁne accessibility as the extent to which                Eck, 2003) have shown that in the case of job accessi-
+land-use and transport systems enable (groups of) indi-                 bility, inclusion of occupational matching strongly af-
+viduals to reach activities or destinations by means of a               fects the resulting accessibility indicators.
+(combination of) transport mode(s). Furthermore, the
+terms Ôaccess’ and Ôaccessibility’ in the literature are                Fig. 1 shows the relationships between these compo-
+often used indiscriminately. Here, access is used when               nents and accessibility (as deﬁned above), and relation-
+talking about a person’s perspective, accessibility when             ships between the components themselves: here, the
+using a location’s perspective.                                      land-use component (distribution of activities) is an
+   A number of components of accessibility can be                    important factor determining travel demand (transport
+identiﬁed from the diﬀerent deﬁnitions and practical                 component) and may also introduce time restrictions
+measures of accessibility that are theoretically important           (temporal component) and inﬂuence people’s opportu-
+in measuring accessibility. Four types of components                 nities (individual component). The individual compo-
+can be identiﬁed: land-use, transportation, temporal and             nent interacts with all other components: a person’s
+individual.                                                          needs and abilities that inﬂuence the (valuation of) time,
+                                                                     cost and eﬀort of movement, types of relevant activities
+1. The land-use component reﬂects the land-use system,               and the times in which one engages in speciﬁc activities.
+   consisting of (a) the amount, quality and spatial dis-            Furthermore, accessibility may also inﬂuence the com-
+   tribution opportunities supplied at each destination              ponents through feedback mechanisms: i.e. accessibility
+   (jobs, shops, health, social and recreational facilities,         as a location factor for inhabitants and ﬁrms (relation-
+   etc.), and (b) the demand for these opportunities at              ship with land-use component) inﬂuences travel demand
+   origin locations (e.g. where inhabitants live), (c) the           (transport component), people’s economic and social
+   confrontation of supply of and demand for opportu-                opportunities (individual component) and the time
+   nities, which may result in competition for activities            needed to carry out activities (temporal component).
+   with restricted capacity such as job and school vacan-               Following our deﬁnition of accessibility, an accessi-
+   cies and hospital beds.                                           bility measure should ideally take all components and
+2. The transportation component describes the transport              elements within these components into account. In
+   system, expressed as the disutility for an individual to          practice, applied accessibility measures focus on one or
+   cover the distance between an origin and a destina-               more components of accessibility, depending on the
+   tion using a speciﬁc transport mode; included are                 perspective taken. Four basic perspectives on measuring
+   the amount of time (travel, waiting and parking),                 accessibility can be identiﬁed.
+   costs (ﬁxed and variable) and eﬀort (including reli-
+   ability, level of comfort, accident risk, etc.). This dis-        1. Infrastructure-based measures, analysing the (ob-
+   utility results from the confrontation between supply                served or simulated) performance or service level of
+   and demand. The supply of infrastructure includes its                transport infrastructure, such as Ôlevel of congestion’
+   location and characteristics (e.g. maximum travel                    and Ôaverage travel speed on the road network’. This
+   speed, number of lanes, public transport timetables,                 measure type is typically used in transport planning.
+                                  K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140                                                       129
+
+
+                                Land-use component                                                                 Transport component
+
+                                   locations and                           travel demand                             passenger and
+                                   characteristics                                                                   freight travel
+                                    of demand
+                                                              available                        travel time,
+                                             demand,          opportunities                     costs, effort       supply       demand
+                               supply
+                                             competition
+
+                                   locations and                                                                       location and
+                                   characteristics                                                                  characteristics of
+                                  of opportunities                                                                    infrastructure
+
+                                                                         Accessibility to
+                                                                         opportunities
+
+
+
+                                 Temporal component                                                                Individual component
+                                 • opening hours of shops                                       needs, abilities
+                                                             time restrictions                                      • income, gender,
+                                   and services                                                 opportunities
+                                 • available time for                                                                 educational level
+                                   activities                                                                       • vehicle ownership, etc.
+                                                                              available time
+
+
+
+
+                              = direct relationship         = indirect relationship            = feedback loop
+
+                                               Fig. 1. Relationships between components of accessibility.
+
+
+2. Location-based measures, analysing accessibility at                                   of measure is founded in the space–time geography
+   locations, typically on a macro-level. The measures                                   of H€agerstrand (1970) that measures limitations on
+   describe the level of accessibility to spatially distrib-                             an individual’s freedom of action in the environment,
+   uted activities, such as Ôthe number of jobs within                                   i.e. the location and duration of mandatory activities,
+   30 min travel time from origin locations’. More com-                                  the time budgets for ﬂexible activities and travel
+   plex location-based measures explicitly incorporate                                   speed allowed by the transport system.
+   capacity restrictions of supplied activity characteris-                            4. Utility-based measures, analysing the (economic) ben-
+   tics to include competition eﬀects. Location-based                                    eﬁts that people derive from access to the spatially
+   measures are typically used in urban planning and                                     distributed activities. This type of measure has its
+   geographical studies.                                                                 origin in economic studies.
+3. Person-based measures, analysing accessibility at the
+   individual level, such as Ôthe activities in which an                                 Table 1 presents a matrix of perspectives on accessi-
+   individual can participate at a given time’. This type                             bility and components. The table shows each perspective
+
+Table 1
+Perspectives on accessibility and components
+  Measure                     Component
+                              Transport component              Land-use component                   Temporal component                  Individual component
+  Infrastructure-based        Travelling speed; vehicle-                                            Peak-hour period; 24-h              Trip-based stratiﬁcation, e.g.
+    measures                  hours lost in congestion                                              period                              home-to-work, business
+  Location-based measures     Travel time and or costs         Amount and spatial                   Travel time and costs may           Stratiﬁcation of the
+                              between locations of             distribution of the demand           diﬀer, e.g. between hours           population (e.g. by income,
+                              activities                       for and/or supply of                 of the day, between days            educational level)
+                                                               opportunities                        of the week, or seasons
+  Person-based measures       Travel time between              Amount and spatial                   Temporal constraints for            Accessibility is analysed at
+                              locations of activities          distribution of supplied             activities and time avail-          individual level
+                                                               opportunities                        able for activities
+  Utility-based measures      Travel costs between             Amount and spatial                   Travel time and costs may           Utility is derived at the
+                              locations of activities          distribution of supplied             diﬀer, e.g. between hours           individual or homogeneous
+                                                               opportunities                        of the day, between days            population group level
+                                                                                                    of the week, or seasons
+130                          K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140
+
+to focus on a certain component, ignoring other relevant            only have a direct impact on accessibility but also an
+elements of accessibility. Infrastructure-based measures            indirect impact, via the transport system. E.g. more
+do not include a land-use component; i.e. they are not              urbanisation in a densely populated area might increase
+sensitive to changes in the spatial distribution of activ-          congestion levels, and so the disutility of travel. This
+ities if service levels (e.g. travel speed, times or costs)         impact is expressed via the transport component.
+remain constant. The temporal component is explicitly               Thirdly, a measure should be sensitive to temporal
+treated in person-based measures and is generally not               constraints of opportunities. Finally, a measure should
+considered in the other perspectives, or treated only               take individual needs, abilities and opportunities into
+implicitly, for example by computing peak and oﬀ-peak               account. In addition, from these general criteria the
+hour accessibility levels. Person-based and utility-based           following ﬁve criteria can be derived according to which
+measures typically focus on the individual component,               an accessibility measure should behave, keeping all
+analysing accessibility on an individual level. Location-           other conditions constant:
+based measures typically analyse accessibility on a
+macro-level, but focus more on incorporating spatial                1. If the service level (travel time, costs, eﬀort) of any
+constraints in the supply of opportunities, usually ex-                transport mode in an area increases (decreases),
+cluded in the other approaches.                                        accessibility should increase (decrease) to any activity
+                                                                       in that area, or from any point within that area.
+                                                                    2. If the number of opportunities for an activity in-
+3. Review of accessibility measures                                    creases (decreases) anywhere, accessibility to that
+                                                                       activity should increase (decrease) from any place.
+3.1. Criteria for accessibility measures                            3. If the demand for opportunities for an activity with
+                                                                       certain capacity restrictions increases (decreases),
+   This section reviews the diﬀerent types of accessibility            accessibility to that activity should decrease (in-
+measures according to relevant criteria. Although there                crease).
+is no best approach for accessibility because diﬀerent              4. An increase of the number of opportunities for an
+situations and purposes demand diﬀerent approaches                     activity at any location should not alter the accessibil-
+(Handy and Niemeier, 1997), several criteria can be                    ity to that activity for an individual (or groups of
+derived to evaluate the usefulness and limitations of                  individuals) not able to participate in that activity
+accessibility measures for diﬀerent study purposes. Such               given the time budget.
+criteria can for example be found in Black and Conroy               5. Improvements in one transport mode or an increase
+(1977), Jones (1981) and Handy and Niemeier (1997).                    of the number of opportunities for an activity should
+Here, we use criteria from the perspective or our deﬁ-                 not alter the accessibility to any individual (or groups
+nition of accessibility and the usefulness of the concept              of individuals) with insuﬃcient abilities or capacities
+of accessibility in evaluations of land-use and transport              (e.g. drivers licence, education level) to use that mode
+changes. Our criteria are: (1) theoretical basis, (2) op-              or participate in that activity.
+erationalisation, (3) interpretability and communicabil-
+ity, and (4) usability in social and economic evaluations.             These criteria should not be regarded as absolute but
+The criteria are described in short below.                          more in the line of what accessibility studies should
+                                                                    strive for. Applying the full set of criteria would imply a
+3.1.1. Theoretical basis                                            level of complexity and detail that can probably never be
+   An accessibility measure should ideally take all                 achieved in practice. However, it is important that the
+components and elements within these components into                implications of violating one or more of theoretical
+account (see Section 2). Thus, an accessibility measure             criteria should be recognised and described.
+should ﬁrstly be sensitive to changes in the transport
+system, i.e. the ease or disutility for an individual to            3.1.2. Operationalisation
+cover the distance between an origin and a destination                 This is the ease with which the measure can be used in
+with a speciﬁc transport mode, including the amount of              practice, for example, in ascertaining availability of
+time, costs and eﬀort. Secondly, an accessibility measure           data, models and techniques, and time and budget. This
+should be sensitive to changes in the land-use system, i.e.         criterion will usually be in conﬂict with one or more of
+the amount, quality and spatial distribution of supplied            the theoretical criteria described above.
+opportunities, and the spatial distribution of the de-
+mand for those opportunities, and the confrontation                 3.1.3. Interpretability and communicability
+between demand and supply (competition eﬀects).                         Researchers, planners and policy makers should be
+Accessibility measures which do not account for com-                able to understand and interpret the measure, otherwise
+petition eﬀects may lead to inaccurate or even mislead-             it is not likely to be used in evaluation studies of land-
+ing results (Shen, 1998). Note that land-use changes not            use and/or transport developments or policies, and will
+                              K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140                      131
+
+thus have no impact on the policy making process.                    accessibility measure may be used as an economic ben-
+However, Pirie (1981) clearly points out that there is no            eﬁt indicator if it can be directly linked to economic
+guaranteed or easy transition from accessibility research            theory, or may serve as input for the calculation of
+to the formulation of public policy and its implemen-                economic beneﬁts of land-use/transport changes.
+tation; public policy on accessibility will only be forth-              The following sections will review infrastructure-
+coming if accessibility is a well-politicised issue.                 based, location-based, person-based and utility-based
+                                                                     measures according to the criteria described above. The
+3.1.4. Accessibility as a social indicator                           review focuses on the question of components being
+   In general, social impacts of land-use and transport              included in the accessibility measures. The question
+changes (e.g. due to investments) for individuals or                 whether the components are incorporated in a theoret-
+societal groups may be very diverse, e.g. changes in vi-             ically correct way is beyond the scope of this article (see
+sual quality, health impacts and social cohesion within              Section 5.5). Table 2 presents the review, showing the
+societies. These can be studied using several methods                positive and negative scores for characteristics of the
+and techniques (e.g. DfT, 2000; Forckenbrock and                     approaches and measures.
+Weisbrod, 2001). Accessibility measures can be used as a
+social indicator if they show the availability of social             3.2. Infrastructure-based accessibility measures
+and economic opportunities for individuals (or groups
+of individuals), i.e. the level of access to essential sources          Infrastructure-based accessibility measures play an
+for human existence such as jobs, food, health and social            important role in current transport policies in many
+services, along with the potential for social interaction            countries, for example, in European countries (Ypma,
+with family and friends. Furthermore, social equity                  2000) and the United States (e.g. see Ewing, 1993).
+impacts, typically analysed in social impact assessments,            Several measures are used to describe the functioning of
+can be evaluated if the accessibility measure is spatially           the transport system, such as travel times, congestion
+diﬀerentiated and disaggregated. Obviously, the mea-                 and operating speed on the road network. For example,
+sure used in social evaluations should satisfy the theo-             policy options from the Dutch National Transport
+retical criteria described above, especially the individual          Policy Plan were evaluated with a national transport
+component of accessibility.                                          model using travelling speed as an accessibility measure
+                                                                     (AVV, 2000). The UK Transport 2010 policy plan
+3.1.5. Accessibility as an economic indicator                        (DETR, 2000) was evaluated using congestion and total
+   Economic impacts of land-use and transport projects               time lost in congestion as accessibility measures. Obvi-
+are also potentially diverse. Economic impacts are usu-              ously, the advantages of this type of accessibility mea-
+ally grouped into (a) direct economic beneﬁts, that is the           sure are related to the criteria of operationalisation and
+economic costs and beneﬁts directly related to a project,            communicability; the necessary data and (transport)
+where travel-cost savings are typically the most impor-              models are often readily available and measures are easy
+tant (user) beneﬁt category for infrastructure projects,             to interpret for researchers and policy makers. However,
+and (b) indirect economic beneﬁts, the (wider) economic              this measure type does not satisfy most of the theoretical
+eﬀects not directly related to the project but resulting             criteria. The most important is that the measures do not
+from the direct impacts, e.g. productivity gains of ﬁrms             incorporate the land-use component, and are not very
+and distributional eﬀects.                                           capable of treating temporal constraints and individual
+   Two basic approaches can be identiﬁed from the lit-               characteristics. This may strongly aﬀect the conclusions
+erature on the economy to measure these beneﬁts: (i)                 on accessibility. For example, Linneker and Spence
+micro-economic methods to analyse the direct economic                (1992) illustrated that inner London has the highest
+impacts, and (ii) macro-economic methods for the                     access costs (in terms of time and vehicle operation
+analysis of the Ôwider’ economic eﬀects. Two classical               costs) in the UK, but the highest level of potential
+economic beneﬁt measures from micro-economic wel-                    accessibility to jobs, despite the high travel cost.
+fare theory are typically used to analyse the direct eco-               Infrastructure-based measures have important short-
+nomic impacts in cost-beneﬁt analysis: (a) Marshallian               comings for accessibility, social and economic evalua-
+consumer surplus (i.e. consumers’ willingness to pay                 tions of land-use and transport changes, as the result of
+above the prevailing market price) and (b) the more                  the exclusion of the land-use component. Firstly, infra-
+exact Hicksian compensation variation (i.e. the income               structure-based measures ignore potential land-use im-
+transfer required to maintain the same utility level). To            pacts of transport strategies, for example the impact of
+analyse the wider economic eﬀects, the production                    improved travelling speed on urban sprawl. Secondly,
+function approach based on macro-economic theories is                infrastructure measures do not correctly measure
+traditionally used with GDP as an economic beneﬁt                    accessibility impacts of land-use strategies, which aﬀect
+measure (see for overviews, Banister and Berechman,                  the spatial distribution of activities. Although the indi-
+2000; Rietveld and Bruinsma, 1998). In general, an                   rect impact of land-use changes via speed on the road
+                                                                                                                                                                                             132
+
+
+
+
+Table 2
+Summary of review of accessibility measures
+  Accessibility measure            Examples of applications           Componentsa                                                 Operation-   Interpretationb   Usability for evaluationc
+                                                                                                                                  alisationb
+                                                                      Transport    Land-use               Temporal   Individual                                  Economic       Social
+                                                                                                                                                                 impacts        impacts
+                                                                                   Demand      Supply
+
+
+
+
+                                                                                                                                                                                             K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140
+  Infrastructure-based measures    Linneker and Spence (1992),        ±            )           )          ±          )            +            +                 ±              )
+                                   AVV (2000), DETR (2000)
+  Location-based measures
+   Contour measure                Ingram (1971), Wickstrom           ±            ±           )          ±          )            +            +                 )              )
+                                   (1971), Wachs and Kumagai
+                                   (1973); Black and Conroy
+                                   (1977), Guy (1983)
+   Potential measure              Stewart (1947), Hansen (1959),     +            +           )          ±          ±            +            ±                 ±              +
+                                   Vickerman (1974); Linneker
+                                   and Spence (1992), Handy
+                                   (1994)
+   Adapted potential measures     Weibull (1976), Shen (1998),       +            +           +          ±          ±            +            ±                 ±              +
+                                   Knox (1978); Joseph and Ban-
+                                   tock (1982), Van Wee et al.
+                                   (2001)
+   Balancing factors              Wilson (1970, 1971), Geurs         +            +           +          ±          ±            +            ±                 ±              +
+                                   and Ritsema van Eck (2001,
+                                   2003)
+  Person-based measures            Miller (1991), Kwan (1998),        +            +           )          +          +            )            )                 )              +
+                                   Recker et al. (2001)
+  Utility-based measures
+   Logsum beneﬁt measure          Koenig (1980), Sweet (1997),       +            +           )          )          ±            +            ±                 +              +
+                                   Niemeier (1997); Handy and
+                                   Niemeier (1997)
+   Space–time measure             Miller (1999)                      +            +           )          +          +            )            ±                 +              +
+   Balancing factor beneﬁt        Martınez (1995), Martınez and    +            +           +          )          ±            +            ±                 +              +
+      measure                      Araya (2000)
+  a
+    Score: + ¼ criterion satisﬁed; ) ¼ not satisﬁed; ± ¼ partly satisﬁed.
+  b
+    Score: + ¼ easy to operationalise or interpret; ) ¼ diﬃcult; ± ¼ moderately diﬃcult.
+  c
+    Score: + ¼ usable as indicator; ) ¼ not usable; ± ¼ (potentially) usable as input for computations.
+                              K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140                       133
+
+network (e.g. more congestion) may be included and                   tour measures clearly do not satisfy most of the theo-
+expressed in these measures, generally speaking and far              retical criteria. Firstly, the measures include elements
+more important, the direct eﬀect is not. Both short-                 from the land-use and transport component, but fail to
+comings limit their use as input for economic appraisal              evaluate their combined eﬀect. Secondly, the measures
+studies. In conventional transport project appraisals,               do not take competition eﬀects into account, i.e. the
+access or travel costs are used as input for the well-               spatial distribution of the demand for an opportunity
+known rule-of-half measure of consumer surplus (Tres-                and possible capacity restrictions of provided opportu-
+sider et al., 1968), estimating the full beneﬁt (diﬀerence           nities (e.g. for jobs, schools, hospitals). Thirdly, the
+in costs) obtained by original travellers for origin–des-            measures do not take individuals’ perceptions and
+tination combinations and half the beneﬁt obtained by                preferences into account, i.e. the measure implies that all
+new travellers or generated traﬃc. However, it has been              opportunities are equally desirable, regardless of the
+repeatedly being pointed out that this method of ap-                 time spent on travelling or the type of opportunity. This
+praisal of accessibility beneﬁts is incorrect if the patterns        creates the well-known problems of the arbitrary selec-
+of land-use are forecast to change as a result of the                tion of the isochrone (or isodistance) of interest and the
+strategy (Neuburger, 1971; Williams (1976); DfT, 2000).              lack of diﬀerentiation between opportunities adjacent to
+                                                                     the origin and those just within the isochrone of interest
+3.3. Location-based accessibility measures                           (Vickerman, 1974; Ben-Akiva and Lerman, 1979). As a
+                                                                     result, applications in evaluations of land-use and
+   Several types of location-based measures are used in              transport changes show that the measure is extremely
+accessibility studies. The distinguishable groups of                 sensitive to travel time changes and are therefore not
+measures are distance and contour, along with potential              very capable of explaining accessibility developments in
+measures and the balancing factors of spatial interaction            time (Geurs and Ritsema van Eck, 2001). Thus the
+models.                                                              measures are not very useful as input in social and
+   Distance measures (also called connectivity measures)             economic evaluations of land-use and transport chan-
+are the simplest class of location-based accessibility               ges.
+measures, e.g. the Ôrelative accessibility’ measures devel-             Potential accessibility measures (also called gravity-
+oped by Ingram (1971). Relative accessibility is deﬁned              based measures) have been widely used in urban and
+as the degree to which two places or points on the same              geographical studies since the late 1940s; well-known
+surface are connected. The simplest measure of relative              studies are from Stewart (1947), Hansen (1959), Ingram
+accessibility is the straight line between two points, but           (1971) and Vickerman (1974). The potential accessibility
+infrastructure-based accessibility measures (average                 measure estimates the accessibility of opportunities in
+travel times, average speed) between two locations can               zone i to all other zones (n) in which smaller and/or
+also be a measure of relative accessibility. Distance                more distant opportunities provide diminishing inﬂu-
+measures are often used in land-use planning as stan-                ences. The measure has the following form, assuming a
+dards for the maximum travel time or distance to a                   negative exponential cost function:
+given location or to transport infrastructure. If more
+                                                                            X
+                                                                            n
+than two possible destinations are analysed, a contour               Ai ¼         Dj ebcij                                  ð1Þ
+measure is derived (Ingram uses the term Ôintegral                          j¼1
+accessibility’). A contour measure, also known as iso-
+chronic measure, cumulative opportunities, proximity                 where Ai is a measure of accessibility in zone i to all
+count or daily accessibility, counts the number of                   opportunities D in zone j, cij the costs of travel between i
+opportunities which can be reached within a given travel             and j, and b the cost sensitivity parameter. The cost
+time, distance or cost (ﬁxed costs), or measure of the               sensitivity function used has a signiﬁcant inﬂuence on
+(average or total) time or cost required to access a ﬁxed            the results of the accessibility measure. For plausible
+number of opportunities (ﬁxed opportunities). This                   results, the form of the function should be carefully
+measure is popular in urban planning and geographical                chosen, and the parameters of the function should be
+studies (e.g. Wickstrom, 1971; Wachs and Kumagai,                    estimated using recent empirical data of spatial travel
+1973; Gutierrez and Urbano, 1996; Bruinsma and                      behaviour in the study area.
+Rietveld, 1998).                                                        Several studies use diﬀerent impedance functions,
+   The advantages of distance and contour measures are               such as power, Gaussian or logistic functions; however,
+related to the operationalisation, interpretability and              the negative exponential function is the most often used
+communicability criteria. These measures are relatively              and also the most closely tied to travel behaviour theory
+undemanding of data and are easy to interpret for                    (Handy and Niemeier, 1997). The potential measure
+researchers and policy makers, as no assumptions are                 overcomes some of the theoretical shortcomings of
+made on a person’s perception of transport, land-use                 the contour measure: the measure evaluates the com-
+and their interaction. However, the distance and con-                bined eﬀect of land-use and transport elements, and
+134                          K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140
+
+incorporates assumptions on a person’s perceptions of               assuming the usual negative exponential demand func-
+transport by using a distance decay function. The mea-              tion:
+sures are appropriate as social indicators for analysing                  X 1
+                                                                           n
+the level of access to social and economic opportunities            ai ¼         Dj ebcij                           ð2Þ
+                                                                              bj
+for diﬀerent socio-economic groups. Potential measures                    j¼1
+
+have the practical advantage that they can be easily                       X
+                                                                           m
+                                                                             1
+computed using existing land-use and transport data,                bj ¼            Oi ebcij                              ð3Þ
+                                                                           i¼1
+                                                                               ai
+and/or models, traditionally employed as input for
+estimating infrastructure-based measures. Potential                 The balancing factors are mutually dependent, so they
+measures may also be used as input for spatial-economic             have to be estimated iteratively. As the balancing factors
+evaluations of transport projects, for example, F€    urst          are dependent and estimated in an iterative procedure,
+et al. (2000). These authors include population poten-              they incorporate the competition on supplied opportu-
+tials in the production functions as explanatory vari-              nities and the competition on demand. Thus, the bal-
+ables for regional GDP, and evaluate the long-term                  ancing factors are useful in analysing accessibility for
+impacts of European transport infrastructure invest-                opportunities where competition eﬀects occur on both
+ments on regional economic growth in the European                   the origin and destination location, such as job acces-
+Union. Disadvantages of potential measures are related              sibility, where workers compete with each other for jobs
+to more diﬃcult interpretation and communicability;                 and employers compete with each other for employees.
+the measure is not easily interpreted and communicated              An advantage of the measure is the operationalisation; it
+as it combines land-use and transport elements, and                 can be computed using state-of-the-practice land-use
+weighs opportunities (according to the cost sensitivity             models and transport demand models. The disadvantage
+function). Theoretical shortcomings are related to the              of the measure are the interpretability and communi-
+exclusion of competition eﬀects and temporal con-                   cability: the measure is relatively complex as it is the
+straints (see Section 2).                                           result of an iterative process, incorporating both the
+    To incorporate competition eﬀects, several authors              locations of demand and supply weighted by a distance
+have adapted potential accessibility measures. Here, we             decay function. Furthermore, the measure is more dif-
+summarise in short the diﬀerent approaches. A more                  ﬁcult to estimate because it requires an iterative esti-
+detailed description is presented elsewhere (Geurs and              mation procedure. These may be reasons why the
+Ritsema van Eck, 2003). Firstly, a number of authors                measure is used relatively seldom as an accessibility
+tried to incorporate the eﬀects of competition on                   measure.
+opportunities in accessibility measures by dividing the
+opportunities within reach from origin zone i (the                  3.4. Person-based accessibility measures
+Ôsupply’ potential) by a demand potential from zone i,
+see, for example, Weibull (1976), Knox (1978) and Van                  Person-based accessibility measures are founded in
+Wee et al. (2001). This approach is useful if the travel            the space–time geography of H€agerstrand (1970). The
+distance between origins and destinations is relatively             measures analyse accessibility from the viewpoint of
+small, such as for elementary schools. A second ap-                 individuals incorporating spatial and temporal con-
+proach is to use the quotient of opportunities within               straints, i.e. whether and how observed or assuming
+reach from origin i (supply potential) and potential de-            individual or household activity programmes can be
+mand of those opportunities from each destination j,                carried out given time restrictions using space–time
+e.g. Breheny (1978), Joseph and Bantock (1982) and                  prisms to describe the travelling patterns in space and
+Shen (1998). This approach is useful for the analysis of            time. These space–time prisms can be regarded as
+accessibility to destinations where competition eﬀects              accessibility measures, i.e. they give the potential areas
+occur on destination locations (e.g. nature areas) or               of opportunities that can be reached given predeﬁned
+where available opportunities have capacity limitations             time constraints. Although space–time approaches seem
+(e.g. in the analysis of recreational or health-care facil-         to have a fast growing interest in travel behaviour re-
+ities). A third, and ﬁnal, approach is based on the bal-            search (see Bhat and Koppelman, 1999; Ettema and
+ancing factors of Wilson’s double constrained spatial               Timmermans, 1997, for overviews), their application in
+interaction model (Wilson, 1970, 1971). The balancing               accessibility studies is relatively rare. Recent applica-
+factor ai and bj ensure that the magnitude of ﬂow (e.g.             tions are taken from Miller (1991, 1999), Dijst and
+trips) originating at zone i and destined at zone j equals          Vidakovic (1997), Kwan (1998) and Recker et al. (2001).
+the number of activity in zones i (e.g. workers) and j                 Person-based measures have great theoretical
+(e.g. jobs). The balancing factors of this model can be             advantages: they satisfy almost all theoretical criteria as
+interpreted as accessibility measures, modiﬁed to ac-               a result of the disaggregate approach taken. Kwan
+count for competition eﬀects (Williams and Senior,                  (1998) demonstrates that space–time-based measures
+1978). The balancing factors have the following form,               capture activity-based contextual eﬀects which are not
+                             K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140                       135
+
+incorporated in traditional location-based accessibility            is based on random utility theory using the denominator
+measures; this allows more sensitive assessment of                  of the multinomial logit model, also known as the log-
+individual variations in accessibility, including gender            sum, as an accessibility measure. The logsum serves as a
+and ethnic diﬀerences. A remaining theoretical short-               summary measure, indicating the desirability of the full
+coming is that up to now person-based approaches do                 choice set (Ben-Akiva and Lerman, 1985):
+not account for competition eﬀects; the measures are                                  !
+                                                                              Xm
+demand-oriented and do not include potential capacity               Ai ¼ ln        Vk
+                                                                                  e ;                                    ð4Þ
+constraints of supplied opportunities (e.g. available                           k¼1
+hospital beds, job vacancies). Clearly, this makes the                                               !
+                                                                          1           X
+                                                                                      m
+measures less suitable for analysis of job accessibility or         Ai ¼  ln               e   Vk
+                                                                                                                            ð5Þ
+other opportunities where competition eﬀects occur.                       k           k¼1
+However, the strongest disadvantages are related to
+                                                                    where Ai denotes the maximum expected utility, and vij
+operationalisation and communicability. Despite ad-
+                                                                    the indirect, or observed transportation, temporal and
+vances in GIS and spatial modelling, operationalisation
+                                                                    spatial components of utility. A serious drawback to this
+of person-based accessibility measures still faces many
+                                                                    approach is that diﬀerent model speciﬁcations cannot be
+diﬃculties, including the detailed individual activity–
+                                                                    compared. This can be overcome by converting acces-
+travel data required, their computational intensity and
+                                                                    sibility to monetary, and thus comparable, units by
+the lack of feasible operational algorithms (Kwan,
+                                                                    dividing Eq. (4) by a travel-cost coeﬃcient (Ben-Akiva
+1998). An important application diﬃculty is that nec-
+                                                                    and Lerman, 1985). If vj is taken as the potential num-
+essary data on an individual’s time budgets are often not
+                                                                    ber of activities (jobs, population) within reach, the
+available from standard travel surveys (Thill and
+                                                                    measure is essentially a monotone increasing function of
+Horowitz, 1997). The applications are often restricted to
+                                                                    the potential accessibility measure. The logsum beneﬁt
+a relatively small region and subset of the population
+                                                                    measure has the advantage that it can be linked to
+because of the large data requirements. As a result, the
+                                                                    micro-economic theory, allowing for calculations of
+results are diﬃcult to aggregate to evaluate accessibility
+                                                                    consumer surplus that can be derived by dividing
+to population groups and/or to a higher geographical
+                                                                    Eq. (4) by a travel-cost coeﬃcient (e.g. Neuburger, 1971;
+scale.
+                                                                    Leonardi, 1978; Williams and Senior, 1978), and to
+   Person-based accessibility measures are potentially
+                                                                    compensation variation, which is derived by dividing the
+very useful for social evaluations of land-use and/or
+                                                                    equation by a marginal utility of income, i.e. ovij =oyi
+transport changes, as individual characteristics and
+                                                                    where yi is the individual’s income (Small and Rosen,
+constraints are accounted for. Furthermore, Miller
+                                                                    1981). The logsum measure is not often used in practical
+(1999) reconciles the person-based and utility-based
+                                                                    applications. Examples are found in Niemeier (1997),
+approaches by deriving space–time accessibility and
+                                                                    who analyses mode-destination accessibility for home-
+beneﬁt measures founded in micro-economic theory,
+                                                                    to-work trips in Washington state, and Levine (1998),
+which opens up the possibility of using person-based
+                                                                    who analyses the inﬂuence of job accessibility on resi-
+accessibility measures in economic evaluations. How-
+                                                                    dential housing locations.
+ever, an important shortcoming for the evaluation of
+                                                                       A second approach to measuring utility-based
+land-use and transport investments is that current state-
+                                                                    accessibility is based on the doubly constrained entropy
+of-the-art activity-based models focus on short-term
+                                                                    model. Martınez (1995) and Martınez and Araya (2000)
+behavioural responses, simulating daily household
+                                                                    obtained the following accessibility measures from
+activity and travel patterns. To date, no disaggregate
+                                                                    Williams’ (1976) integral transport-user beneﬁt measure.
+behavioural framework has been developed to link long-
+term land-use changes (e.g. choices of housing and job                     1
+                                                                    Ai ¼    lnðai Þ;                                       ð6Þ
+location) with daily household activity and travel pat-                    b
+terns (Waddell, 2001).                                                     1
+                                                                    Aj ¼  lnðbj Þ;                                         ð7Þ
+                                                                           b
+3.5. Utility-based accessibility measures
+                                                                           1
+                                                                    Aij ¼  lnðai bj Þ                                      ð8Þ
+   Utility-based accessibility measures interpret accessi-                 b
+bility as the outcome of a set of transport choices.                which represent the expected beneﬁts per trip generated
+Utility theory addresses the decision to purchase one               ðAi Þ, trip attracted ðAj Þ and the trip for between zone i
+discrete item from a set of potential choices, all of which         and j ðAij Þ, for a given transport situation and subject to
+satisfy essentially the same need, and can be used to               trips complying with total trip origins and destinations
+model travel behaviour and the (net) beneﬁts of diﬀerent            from the entropy model. These measures should result in
+users of a transport system. Two types of utility-based             similar measurements of economic beneﬁts as the log-
+measures are used in the literature. An initial approach            sum beneﬁt measure, since multinomial logit and spatial
+136                         K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140
+
+interaction models are equivalent formally (Anas, 1983).           interpret, but which generally do not satisfy theoretical
+The advantage of this balancing factor beneﬁt measure              criteria. We have described a set of theoretical criteria
+compared to the logsum beneﬁt measure is that it allows            related to the diﬀerent components of accessibility from
+the additional interpretation of the balancing factors as          the perspective of evaluating land-use and transport
+utility-based accessibility measures including competi-            changes. In other words, an accessibility measure should
+tion eﬀects. However, there are some caveats if the                be sensitive to changes in the quality of transport ser-
+logsum and balancing factor beneﬁt measures are                    vices (transport component), the amount and distribu-
+interpreted as measures of consumer surplus or welfare:            tion of the supply of and demand for opportunities
+the measures can only be interpreted unambiguously in              (land-use component) and temporal constraints (tem-
+monetary terms if the utility function is linear with re-          poral component). It should also take individual needs,
+spect to income, or the policy changes are suﬃciently              preferences and abilities into account (individual com-
+small so that linear corrections of income eﬀects are              ponent). These criteria are not considered absolute;
+accurate (see McFadden, 2001).                                     applying the full set of criteria would imply a level of
+   Current state-of-the practice utility-based accessibil-         complexity and detail that can probably never be
+ity measures satisfy most of the theoretical criteria, ex-         achieved in practice. Thus in practical applications,
+cept the temporal constraints. There are, however,                 diﬀerent situations and study purposes demand diﬀerent
+eﬀorts to reconcile the space–time approach with the               approaches. However, it is important to recognise the
+utility-based approach. Miller (1999) developed a space–           implications of ignoring one or more of these criteria.
+time utility accessibility measure by including the time               In conclusion, infrastructure-based accessibility
+available for activity participation as a variable in the          measures, such as average speed on the road network,
+utility function of the logsum measure. However, this              are easy to interpret and communicate but are not very
+introduces the problems of the person-based measures               useful for evaluating the accessibility impacts of land-
+related to data availability and complexity. In general,           use and transport policy plans since the measures lack
+the major disadvantages of utility-based measures are              the land-use component, and temporal and individual
+the diﬃcult interpretability and communicability. That             elements. As a result, they may lead to inaccurate or
+is the measures cannot be easily explained without ref-            even misleading results if these shortcomings are not
+erence to relatively complex theories of which most                recognised and described. More complex location- and
+planners and political decision-makers will not have a             utility-based accessibility measures can be considered
+complete understanding (Koenig, 1980). Clearly, an                 eﬀective measures of accessibility, which can also be
+important advantage is their usability in economic                 used as input for social and economic evaluations. That
+evaluations. That is the measures are able to compute              is they overcome the most important shortcomings of
+transport-user beneﬁts of both land-use and transport              infrastructure-based measures, and can be computed
+projects, as accessibility changes may be the result of            with state-of-the-practice land-use and transport data
+transport changes, land-use changes or both. Thus the              and models. Moreover, utility-based measures capture
+measures overcome the shortcomings of using infra-                 the valuation of accessibility by individuals, providing a
+structure-based accessibility measures typically em-               useful basis for user-beneﬁt evaluations of both land-use
+ployed in economic evaluations. Utility-based measures             and transport investments. An important remaining
+also show diminishing returns, i.e. the measures incor-            theoretical shortcoming is the exclusion of individuals’
+porate non-linear relationships between accessibility              spatial–temporal constraints typically included in per-
+improvements and user-beneﬁt changes. As a result, the             son-based accessibility measures. Person-based mea-
+measure may indicate that it is better to improve                  sures are potentially very useful for social evaluations,
+accessibility for individuals at locations with low                and may also be tied to the utility-based approach,
+accessibility levels (e.g. peripheral regions) than at             which opens up the possibility of using them in eco-
+locations that are already well accessible (e.g. central           nomic evaluations. However, person-based measures
+urban areas) (see e.g. Koenig, 1980; Geurs and Ritsema             still have important disadvantages related to data
+van Eck, 2001). This is clearly relevant for social and            availability and complexity, restricting applications to
+economic evaluations of land-use and transport pro-                relatively small regions and subsets of the population.
+jects.                                                             Furthermore, to date, state-of-the-art, activity-based
+                                                                   transport models have not yet been able to link daily
+                                                                   activity patterns with long-term spatial behaviour of
+4. Conclusions                                                     household and ﬁrms, an important shortcoming in
+                                                                   evaluations of land-use and transport investments.
+   Accessibility impacts of land-use and transport                     Clearly, the current practice of accessibility evalua-
+changes, for example, those due to policies, are often             tion of land-use and transport strategies can be much
+evaluated using accessibility measures, which research-            improved by operationalising more advanced accessi-
+ers and policy makers can easily operationalise and                bility measures that are still relatively easy to interpret
+                            K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140                      137
+
+for researchers and policy makers, and can be computed             impacts of land-use and transport policies in diﬀerent
+with state-of-the practice data and/or land-use and                spatial contexts. Recent applications for the Nether-
+transport models. The most important directions for                lands show that incorporation of job competition aﬀects
+further research will be explored in the next section.             accessibility. For example, compared to the potential
+                                                                   measure, the (inverse) balancing factor shows lower
+                                                                   accessibility values, signiﬁcant up to 20–25%, for central
+5. Paths for further research                                      urban and suburban areas, and values in peripheral
+                                                                   (rural) areas that are more than twice as high (Geurs and
+5.1. Interpretability and communicability                          Ritsema van Eck, 2001, 2003). In the case of job
+                                                                   accessibility, there is a need for research analysis of job
+   The literature shows a trend towards more complex               accessibility and competition levels in diﬀerent situations
+and disaggregated accessibility measures, partly in re-            and spatial contexts (e.g. high-density metropolitan
+sponse to the recognition that the aggregate measures              areas vs. low-density rural areas, metropolitan areas in
+lack many important details. However, increased com-               diﬀerent countries (e.g. Tokyo, London, the Randstad
+plexity increases the eﬀort for calculations and the dif-          Area in the Netherlands), and for analysis of the inﬂu-
+ﬁculty of interpretation. For eﬀective evaluations of              ence of land-use and transport policies on job accessi-
+land-use and transport policy evaluations, there is                bility and competition.
+clearly a need for accessibility measures that are rela-              Secondly, there is a need for more research on utility-
+tively easy to interpret for researchers and policy mak-           based accessibility measures in policy evaluations,
+ers, and which can be operationalised with state-of-the            especially for evaluations of land-use projects and
+practice data, and land-use and transport models, as               plans, or combined land-use and infrastructure plans,
+well as satisfy the most important theoretical criteria.           where economic beneﬁts cannot be accurately measured
+   The interpretations of more complex location-based              by infrastructure-based accessibility measures. There
+accessibility measures can ﬁrstly be improved by com-              seems to be surprisingly little experience with utility-
+paring accessibility across place, time or both place and          based accessibility measures in practical evaluations of
+time, rather than focusing on absolute levels of acces-            land-use and transport policy plans or changes, despite
+sibility. Secondly, the interpretation can be much im-             theoretical advantages and their compatibility with
+proved by estimating the separate inﬂuence of the                  state-of-the-practice (multinomial and spatial inter-
+diﬀerent components of accessibility. For example,                 action) transport models.
+Geurs and Ritsema van Eck (2001, 2003) computed the                   Thirdly, more research is needed to include an indi-
+separate inﬂuence of land-use changes, infrastructure              vidual’s spatial–temporal constraints in accessibility
+investments and congestion on the development of (job)             studies allowing more accurate analysis of accessibility.
+accessibility for the Netherlands. Computation of the              However, work on activity-based models from the last
+diﬀerent components of accessibility facilitates both the          decade was primarily directed towards advancing the
+explanation of overall accessibility changes and the rel-          methodological state-of-the-art rather than the state-of-
+ative position of regions. Thirdly, the more complex               the-practice (McNally, 2000). As a result, current
+utility-based accessibility measures can be expressed in           methods are still confronted with large problems of
+monetary values, which strongly improves the inter-                operationalisation and data requirements.
+pretability and communicability to planners and policy                Furthermore, as noted earlier, there is still no activ-
+makers.                                                            ity-based land-use/transport model that is able to link
+                                                                   daily household activity and travel patterns with long-
+5.2. Theoretical improvements                                      term land-use changes. Several research paths to develop
+                                                                   more practical and operational, person-based accessi-
+   The current practice of evaluating accessibility im-            bility measures do seem possible. Firstly, more simpli-
+pacts of land-use and transport policy plans can be                ﬁed activity-based models could be developed which try
+much improved by theoretically operationalising more               to generalise observed or simulated activity patterns to
+advanced measures that can be computed with state-of-              system-wide and regional and/or national-scale fore-
+the practice data and/or land-use and transport models.            casts, avoiding extensive and expensive data collection
+   An initial step towards improved accessibility evalu-           typically required for activity-based models. An example
+ations is to use more advanced location-based accessi-             of such an approach is the RAMBLAS model (Vel-
+bility measures that can be computed with readily                  dhuisen et al., 2000), which uses micro-simulation of
+available information, and include the transport and               daily activity patterns based on readily available travel
+land-use components of accessibility. The role of com-             data and time use data in the Netherlands. A second
+petition eﬀects, for example, in the analysis of accessi-          approach is described by Thill and Horowitz (1997),
+bility to jobs and health care facilities, needs to be             who, in the absence of time budget data, treated tem-
+further assessed in practical accessibility evaluations of         poral constraints as unobservable (at least directly)
+138                          K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140
+
+within a random utility framework by assuming a                     options as a backup for other options or for future use.
+probability distribution of these unobservable time                 For example, car-owners may value the ability to use a
+budgets. Thirdly, and ﬁnally, if location-based and                 public transport service when for whatever reason they
+person-based accessibility approaches cannot be recon-              cannot drive or their car is unavailable. An individual
+ciled in one modelling approach, they might be used to              living near the railway line but who do not (intend to)
+supplement each other. This could be done, ﬁrst, by                 use the rail service with any regularity, may still value
+computing location- or utility-based measures with                  having the option to use the service if they choose.
+state-of-the-practice land-use and transport data and/or            Option values are related to the individual’s attitude to
+models for population groups on a more aggregate level,             uncertainty; in practice, a range of option values is likely
+and second, by further specifying these results on more             to be found within the population (DfT, 2000). The
+disaggregated and spatially detailed level to unravel               second category of beneﬁts, non-user beneﬁts, may re-
+person-speciﬁc characteristics and particular socio-spa-            late to the valuation of the very existence of a choice
+tial contexts.                                                      option for individuals or ﬁrms (e.g. infrastructure, a
+                                                                    nature area), without current or future use, and the
+5.3. The use of land-use and transport models and activity-         valuation of beneﬁts for others (altruistic motives). For
+based modelling                                                     example, transport services may be valued by individu-
+                                                                    als for speciﬁc groups such as the handicapped or elderly
+   The plausibility of an accessibility measure not only            people. Option and non-user beneﬁt motives may form
+depends on how it is operationalised and measured but               an important reason for willingness-to-pay through
+also on the theoretical basis and practical limitations of          public funds so as to subsidise public transport services
+the transport and land-use data and models used. Ide-               (Roson, 2001). Note that both categories can be seen as
+ally, all feedback mechanisms from accessibility to the             a social or economic impact (when expressed in mone-
+diﬀerent components need to be included. In other                   tary terms) as they refer to an individual’s valuation of
+words, accessibility is a location factor for inhabitants           available travel options or opportunities for themselves
+and ﬁrms (relationship with land-use component) and                 or for others. So far, very few studies have been con-
+inﬂuences travel demand (transport component), peo-                 ducted on option values and non-user beneﬁts in rela-
+ple’s economic and social opportunities (individual                 tion to transport, and there are only a few empirical
+component) and the time needed for activities (temporal             studies––local public transport services in Italy and the
+component). The inclusion of feedback mechanisms                    UK (see Roson, 2001; Bristow et al., 1990). Interest-
+between land-use, travel demand and accessibility im-               ingly, the UK Guidance on the Methodology for Multi-
+plies the use of land-use/transport interaction models.             Modal Studies (DfT, 2000), the government’s appraisal
+However, not many evaluation studies of the accessi-                methodology for transport infrastructure investments,
+bility impacts of land-use and transport projects are               includes option values as a sub-indicator of accessibility,
+based on such models. A state-of-the-practice evaluation            although an appropriate appraisal method is lacking.
+would thus involve using a land-use/transport inter-                Therefore, appraisal studies use simpliﬁed methods to
+action model, which up to now incorporates conven-                  evaluate option values. For example, in the London to
+tional trip-based travel-demand models (for recent                  Ipswich Multi-Modal Study (LOIS, 2003) the impact of
+overviews see Wilson, 1998; DSC/ME&P, 1999; We-                     the construction of new railway lines on option values is
+gener and F€ urst, 1999). Besides, activity based modelling         analysed by estimating the number of residents within
+might result in a stronger link between the real needs              an 8 km catchment area of railway stations. However,
+and desires of people to carry out activities at diﬀerent           there is certainly a need for a more thorough theoretical
+places, and accessibility indicators for (changes in) the           and empirical research to analyse the relevance for social
+land-use and transport system.                                      and economic evaluations.
+
+5.4. Option values and non-user beneﬁts                             5.5. The incorporation of the diﬀerent components of
+                                                                    accessibility
+    Traditional cost-beneﬁt analyses focus on the trans-
+port-user beneﬁt changes for consumers and ﬁrms, with                  This review has focused on the question of whether
+travel-time savings as the dominant beneﬁt category                 the diﬀerent components distinguished can be included
+(see, for example, the contributions in the special issue           in the accessibility measures. However, the question of
+of Transport Policy, Vol. 7, No. 1, 2000). However, there           whether the components are included in a theoretically
+are two other types of eﬀects related to transport options          correct manner has not been explored. This is certainly
+and accessibility to opportunities that have received               an area for future research. For example, travel time
+little attention, i.e. option values and non-user beneﬁts           reliability is usually considered very important by trav-
+(see Bateman et al., 2002; Boardman et al., 2001). Op-              ellers, but at present is not included in transport models
+tion values can be described as the valuation of choice             and accessibility analysis (Bates, 2001). Furthermore,
+                                   K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140                                   139
+
+the disutility of travel time might not be constant, as                       implications in the San Francisco Bay Area. Working paper 692,
+traditionally assumed (Blayac and Causse, 2001; Red-                          University of California, Berkeley.
+                                                                          Dalvi, M.Q., Martin, K.M., 1976. The measurement of accessibility:
+mond and Mokhtarian, 2001). And the added value of                            some preliminary results. Transportation 5, 17–42.
+an increase in the number of opportunities within reach                   DETR, 2000. Transport 2010. The background analysis. Department
+might be subject to diminishing returns, an aspect that is                    of the Environment, Transport and the Regions, London.
+only included in utility-based measures (see Section 3).                  DfT, 2000. Guidance on the Methodology for Multi-Modal Studies.
+                                                                              Vol. 1/2. Department for Transport, London. Available from
+                                                                              <www.dft.gov.uk/itwp/mms/vol1/01.htm>.
+                                                                          Dijst, M., Vidakovic, V., 1997. Individual action space in the city. In:
+Acknowledgements                                                              Ettema, D.F., Timmermans, H.J.P. (Eds.), Activity-based Ap-
+                                                                              proaches to Travel Analysis. Pergamon, Kidlington/New York/
+                                                                              Tokyo, pp. 117–134.
+   We acknowledge the partial funding of this research                    DSC/ME&P, 1999. Review of land-use/transport interaction models.
+by Habiforum, the Dutch Expert Network for Multiple                           Reports to The Standing Advisory Committee on Trunk Road
+Space Use, and would also like to thank two anonymous                         Assessment. David Simmonds Consultancy/Marcial Echenique and
+reviewers for their helpful comments and suggestions.                         Partners, London.
+                                                                          Ettema, D.F., Timmermans, H.J.P., 1997. Activity-based Approaches
+                                                                              to Travel Analysis. Pergamon, Kidlington/New York/Tokyo.
+                                                                          Ewing, R., 1993. Transportation service standards––as if people
+References                                                                    matter. Transportation Research Record 1400, 10–17.
+                                                                          Forckenbrock, D.J., Weisbrod, G.E., 2001. Guidebook for assessing the
+Anas, A., 1983. Discrete choice theory, information theory and the            social and economic eﬀects of transportation projects. National Coop-
+   multinomial logit and gravity models. Transportation Research B            erative Highway Research Program. University of Iowa, Iowa City.
+   17 (1), 13–23.                                                         F€urst, F., Sch€urmann, C., Spiekermann, K., Wegener, M., 2000. The
+AVV, 2000. NVVP beleidsopties verkend [the National Traﬃc and                 SASI model: demonstration Examples. Deliverable D15. Berichte
+   Transport Policy options explored]. AVV Transport Research                 aus den Insititut f€ur Raumplanung 51, Universit€at Dortmund,
+   Centre, Rotterdam.                                                         Insititut f€
+                                                                                         ur Raumplanung, Dortmund.
+Banister, D., Berechman, J., 2000. Transport Investment and Eco-          Geurs, K.T., Ritsema van Eck, J.R., 2001. Accessibility measures:
+   nomic Development. University College London Press, London.                review and applications. RIVM report 408505 006, National
+Bateman, I.J., Carson, R.T., et al., 2002. Economic Valuation With            Institute of Public Health and the Environment, Bilthoven. Avail-
+   Stated Preference Techniques: A Manual. Edward Elgar, Chelten-             able from <www.rivm.nl/bibliotheek/rapporten/408505006.html>.
+   ham/Northampton.                                                       Geurs, K.T., Ritsema van Eck, J.R., 2003. Accessibility evaluation of
+Bates, J., 2001. Reliability––The missing model variable. In: Hensher,        land-use scenarios: the impact of job competition land-use and
+   D.A. (Ed.), Travel Behaviour Research: The Leading Edge.                   infrastructure developments for the Netherlands. Environment and
+   Pergamon, Oxford, pp. 527–546.                                             Planning B 30 (1), 69–87.
+Ben-Akiva, M., Lerman, S.R., 1979. Disaggregate travel and mobility       Gutierrez, J., Urbano, P., 1996. Accessibility in the European Union:
+   choice models and measures of accessibility. In: Hensher, D.A.,            the impact of the Trans-European road network. Journal of
+   Sopher, P.R. (Eds.), Behavioural Travel Modelling. Croom Helm,             Transport Geography 4 (1), 15–25.
+   Andover, Hants, pp. 654–679.                                           Guy, C.M., 1983. The assessment of access to local shopping
+Ben-Akiva, M., Lerman, S.R., 1985. Discrete Choice Analysis. MIT              opportunities: a comparison of accessibility measures. Environ-
+   Press, Cambridge, MA.                                                      ment and Planning B 10, 219–238.
+Bhat, C.R., Koppelman, F.S., 1999. Activity-based modelling of travel     H€agerstrand, T., 1970. What about people in regional science? People
+   demand. In: Hall, R. (Ed.), Handbook of Transportation Science.            of the Regional Science Association 24, 7–21.
+   Kluwer Academic Publishers, Norwell.                                   Handy, S., 1994. Regional versus local accessibility: implications for
+Black, J., Conroy, M., 1977. Accessibility measures and the social            non-work travel. Transportation Research Record 1400, 58–66.
+   evaluation of urban structure. Environment and Planning A 9,           Handy, S.L., Niemeier, D.A., 1997. Measuring accessibility: an
+   1013–1031.                                                                 exploration of issues and alternatives. Environment and Planning
+Blayac, T., Causse, A., 2001. Value of travel time: a theoretical             A 29, 1175–1194.
+   legitimization of some nonlinear representative utility in discrete    Hansen, W.G., 1959. How accessibility shapes land use. Journal of
+   choice models. Transportation Research B 35 (4), 391–400.                  American Institute of Planners 25 (1), 73–76.
+Boardman, A.E., Greenberg, D.H., Vining, A.R., Weimer, D.L., 2001.        Ingram, D.R., 1971. The concept of accessibility: a search for an
+   Cost-Beneﬁt Analysis: Concepts and Practice, second ed. Prentice           operational form. Regional Studies 5, 101–107.
+   Hall, Upper Saddle River, NJ.                                          Jones, S.R., 1981. Accessibility measures: a literature review. TRRL
+Breheny, M.J., 1978. The measurement of spatial opportunity in                Report 967, Transport and Road Research Laboratory, Crow-
+   strategic planning. Regional Studies 12, 463–479.                          thorne, Berkshire.
+Bristow, A.L., Hopkinson, P.G., Nash, C.A., Wardman, M., 1990.            Joseph, A.E., Bantock, P.R., 1982. Measuring potential physical
+   Evaluation of the use and non-use beneﬁts of public transport. In:         accessibility to general practitioners in rural areas: a method and
+   PTRC 18th Summer Annual Meeting, University of Sussex,                     case study. Social Science and Medicine 16, 85–90.
+   September 10–14, P335, pp. 1–18.                                       Knox, P.L., 1978. The intraurban ecology of primary medical care:
+Bruinsma, F., Rietveld, P., 1998. The accessibility of European cities;       patterns of accessibility and their policy implications. Environment
+   theoretical framework and comparison of approached. Environ-               and Planning A 10, 415–435.
+   ment and Planning A 30, 499–521.                                       Koenig, J.G., 1980. Indicators of urban accessibility: theory and
+Burns, L.D., 1979. Transportation, Temporal and Spatial Components            applications. Transportation 9, 145–172.
+   of Accessibility. Lexington Books, Lexington/Toronto.                  Kwan, M.-P., 1998. Space–time and integral measures of individual
+Cervero, R., Rood, T., Appleyard, B., 1997. Job accessibility as a            accessibility: a comparative analysis using a point-based frame-
+   performance indicator: An analysis of trends and their social policy       work. Geographical Analysis 30 (3), 191–216.
+140                               K.T. Geurs, B. van Wee / Journal of Transport Geography 12 (2004) 127–140
+
+Leonardi, G., 1978. Optimum facility location by accessibility maxi-     Song, S., 1996. Some tests of alternative accessibility measures: a
+    mising. Environment and Planning A 10, 1287–1305.                       population density approach. Land Economics 72 (4), 474–482.
+Levine, J., 1998. Rethinking accessibility and jobs-housing balance.     Stewart, J.Q., 1947. Empirical mathematical rules concerning the
+    Journal of American Planning Association 64 (2), 12–25.                 distribution and equilibrium of population. Geography Review 37,
+Linneker, B.J., Spence, N.A., 1992. Accessibility measures compared         461–485.
+    in an analysis of the impact of the M25 London orbital motorway      Sweet, R.J., 1997. An aggregate measure of travel utility. Transpor-
+    on Britain. Environment and Planning A 24, 1137–1154.                   tation Research B 31 (5), 403–416.
+LOIS, 2003. Home page of the London to Ipswich Multi Modal Study.        Thill, J.C., Horowitz, J.L., 1997. Travel time contraints in destination
+    Available from <http://212.67.202.71/~loismms/>.                        choice sets. Geographical Analysis 29, 108–123.
+Martınez, F.J., 1995. Access: the transport-land use economic link.     Tressider, J.O., Meyers, D.A., Burrell, J.E., Powell, T.J., 1968. The
+    Transportation Research Part B 29 (6), 457–470.                         London transportation study. Proceedings of the Institute of Civil
+Martınez, F.J., Araya, C., 2000. A note on trip beneﬁts in spatial         Engineers 39, 433–464.
+    interaction models. Journal of Regional Science 40 (4), 789–796.     Van Wee, B., Hagoort, M., Annema, J.A., 2001. Accessibility
+McFadden, D., 2001. Disaggregate behavioural travel demand’s RUM            measures with competition. Journal of Transport geography 9,
+    side: a 30-year retrospective. In: Hensher, D.A. (Ed.), Travel          199–208.
+    Behaviour Research. The Leading Edge. Pergamon, Amsterdam,           Veldhuisen, J., Timmermans, H., Kapoen, L., 2000. RAMBLAS: a
+    pp. 17–63.                                                              regional planning model based on the microsimulation of daily
+McNally, M.G., 2000. The activity-based approach. In: Hensher,              activity travel patterns. Environment and Planning A 32 (3), 427–
+    D.A., Button, K.J. (Eds.), Handbook of Transport Modelling.             443.
+    Pergamon, Amsterdam, pp. 53–70.                                      Vickerman, R.W., 1974. Accessibility, attraction, and potential: a
+Miller, H.J., 1991. Modelling accessibility using space–time prism          review of some concepts and their use in determining mobility.
+    concepts within geographical information systems. International         Environment and Planning A 6, 675–691.
+    Journal of Geographical Systems 5 (3), 287–301.                      Wachs, M., Kumagai, T.G., 1973. Physical accessibility as a social
+Miller, H.J., 1999. Measuring space–time accessibility beneﬁts within       indicator. Socio-Economic Planning Science 6, 357–379.
+    transportation networks: basic theory and computational proce-       Waddell, P., 2001. Towards a behavioural integration of land use and
+    dures. Geographical Analysis 31 (2), 187–212.                           transportation modelling. In: Hensher, D.A. (Ed.), Travel Behav-
+Neuburger, H., 1971. User beneﬁts in the evaluation of transport and        iour Research. The Leading Edge. Pergamon, Amsterdam, pp. 65–
+    land-use plans. Journal of Transport Economics and Policy 5 (1),        95.
+    52–75.                                                               Wegener, M., F€  urst, F., 1999. Land-use transport interaction: state of
+Niemeier, D.A., 1997. Accessibility: an evaluation using consumer           the art. Deliverable D2a of the project TRANSLAND. Berichte
+    welfare. Transportation 24, 377–396.                                    aus den Insititut f€  ur Raumplanung 46, Universit€at Dortmund,
+Pirie, G.H., 1979. Measuring accessibility: a review and proposal.          Insititut f€
+                                                                                       ur Raumplanung, Dortmund.
+    Environment and Planning A 11, 299–312.                              Weibull, J.W., 1976. An axiomatic approach to the measurement of
+Pirie, G.H., 1981. The possibility and potential of public policy on        accessibility. Regional Science and Urban Economics 6, 357–379.
+    accessibility. Transportation Research A 15 (5), 377–381.            Wickstrom, G.V., 1971. Deﬁning balanced transportation––a question
+Recker, W.W., Chen, C., McNally, M.G., 2001. Measuring the impact           of opportunity. Traﬃc Quarterly 25 (3), 337–349.
+    of eﬃcient household travel decisions on potential travel time       Williams, H.C.W.L., 1976. Travel demand models, duality relations
+    savings and accessibility gains. Transportation Research A 35 (4),      and user beneﬁt analysis. Journal of Regional Science 16 (2), 147–
+    339–369.                                                                166.
+Redmond, L.S., Mokhtarian, P.L., 2001. The positive utility of the       Williams, H.C.W.L., Senior, M.L., 1978. Accessibility spatial interac-
+    commute: modeling ideal commute time and relative desired               tion and the spatial beneﬁt analysis of land use––transportation
+    commute amount. Transportation 28 (2), 179–205.                         plans. In: Karlquist, A. (Ed.), Spatial Interaction Theory and
+Rietveld, P., Bruinsma, F.R., 1998. Is Transport Infrastructure             Planning Models. North-Holland, Amsterdam.
+    Eﬀective? Transport Infrastructure and Accessibility: Impacts on     Wilson, A.G., 1970. Entropy in Urban and Regional Modelling.
+    the Space Economy. Springer-Verlag, Berlin.                             PION, London.
+Roson, R., 2001. Assessing the option value of a publicly provided       Wilson, A.G., 1971. A family of spatial interaction models, and
+    service: the case of local transport. Urban studies 38 (8), 1319–       associated developments. Environment and Planning 3 (1), 1–32.
+    1327.                                                                Wilson, A.G., 1998. Land-use/transport interaction models. Past and
+Shen, Q., 1998. Location characteristics of inner-city neighbourhoods       future. Journal of Transport Economics and Policy 32, 3–26.
+    and employment accessibility of low-wage workers. Environment        Ypma, B., 2000. Internationale vergelijking van de plaats van
+    and Planning B 25 (3), 345–365.                                         bereikbaarheid in het verkeer- en vervoerbeleid [International
+Small, K.A., Rosen, H.S., 1981. Applied welfare economics with              comparison of the role of accessibility in transport policy]. B&A
+    discrete choice models. Econometrica 49, 105–129.                       Group, The Hague.
+

@@ -1,0 +1,890 @@
+[PDF Metadata]
+Source PDF: journal/A09-shi-wang-zhang-yu-2025-borrowed-size-and-borrowed-administrative-power-effects-of-high-speed-rail-network-on-industrial-upgrading-and-variegated-externalities-in-the-yangtze-river-delta-china-10.1016-j.jtrangeo.2025.104113.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Borrowed size and borrowed administrative power: Effects of high-speed rail network on industrial upgrading and variegated externalities in the Yangtze River Delta, China
+Subject:         Journal of Transport Geography, 123 (2025) 104113. doi:10.1016/j.jtrangeo.2025.104113
+Keywords:        High-speed rail,Industrial upgrading,Agglomeration externality,Administrative externality,Difference-in-difference-in-differences (DDD) model
+Author:          Dehao Shi
+Creator:         Elsevier
+Producer:        Acrobat Distiller 8.1.0 (Windows)
+CreationDate:    Thu Feb 13 11:39:50 2025 WIB
+ModDate:         Tue Feb 25 20:36:51 2025 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           13
+Encrypted:       no
+Page size:       595.276 x 793.701 pts
+Page rot:        0
+File size:       4624623 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                              Journal of Transport Geography 123 (2025) 104113
+
+
+                                                                   Contents lists available at ScienceDirect
+
+
+                                                         Journal of Transport Geography
+                                                        journal homepage: www.elsevier.com/locate/jtrangeo
+
+
+
+
+Borrowed size and borrowed administrative power: Effects of high-speed
+rail network on industrial upgrading and variegated externalities in the
+Yangtze River Delta, China
+Dehao Shi a,b, Lei Wang c,d,e,* , Xianchun Zhang f,** , Tao Yu a
+a
+  School of Architecture and Urban Planning, Nanjing University, Nanjing, China
+b
+  Department of Geography and Resource Management, The Chinese University of Hong Kong, NT, Hong Kong, SAR, China
+c
+  Key Laboratory of Lake and Watershed Science for Water Security, Nanjing Institute of Geography and Limnology, Chinese Academy of Sciences, Nanjing, China
+d
+  University of Chinese Academy of Sciences, Nanjing, China
+e
+  Department of Planning, Property and Environmental Management, The University of Manchester, Manchester, UK
+f
+  School of Public Affairs, Zhejiang University, Hangzhou, China
+
+
+
+
+A R T I C L E I N F O                                     A B S T R A C T
+
+Keywords:                                                 While the externalities of urban size on regional transportation infrastructure effects have been extensively
+High-speed rail                                           discussed, the role of urban administrative power has received comparatively less scholarly attention. This study
+Industrial upgrading                                      delves into the impact of high-speed rail (HSR) development on urban industrial upgrading and regional
+Agglomeration externality
+                                                          development, focusing on both economic and administrative externalities. By applying the concepts of ‘borrowed
+Administrative externality
+                                                          size’ and ‘agglomeration shadow,’ we analyze the effects of HSR on industrial upgrading in the Yangtze River
+Difference-in-difference-in-differences (DDD)
+model                                                     Delta (YRD) region using panel data from 199 county-level units between 2000 and 2017. Employing multi-stage
+                                                          difference-in-differences (DID) and difference-in-difference-in-differences (DDD) models, our findings reveal that
+                                                          HSR significantly catalyzes industrial upgrading in the YRD, with a notable reduction in the output value of the
+                                                          secondary sector by 4.4 % and an expansion of the tertiary sector by 7.4 %. Additionally, this study indicates a
+                                                          positive correlation between urban size and manufacturing sector exit, while administrative power enhances the
+                                                          service sector’s concentration in HSR-connected regions. These findings not only contribute to the existing body
+                                                          of scholarship on HSR’s role in industrial upgrading but also advance a novel methodological approach that
+                                                          bridges transport geography and urban political economy through the lens of transport infrastructure as a
+                                                          mediating mechanism.
+
+
+
+
+1. Introduction                                                                                Rus and Nombela, 2007; Bracaglia et al., 2020; Tang et al., 2021). These
+                                                                                               findings have justified continued investment in regional transport
+    Large-scale transport infrastructure, particularly the high-speed rail                     infrastructure, such as the inter-regional Shinkansen in Japan, the cross-
+(HSR) systems, has long fascinated scholars in transport geography and                         national Eurostar, and the railway lines connecting China with South-
+regional studies due to its role in driving socioeconomic transformation.                      east Asia. Nonetheless, a growing body of scholarship has unfolded the
+Recent scholarly discourse has placed increasing emphasis on the role of                       complex and diversity about the externalities of HSR effects, broadening
+externalities in shaping transportation development, particularly in                           the research perspective from mere “agglomeration spillovers” to con-
+fostering urban growth and city-regional formations (Wetwitoo and                              cepts such as “borrowed size” and “agglomeration shadow” (Burger
+Kato, 2017). Studies have conceptualized HSR effects as a hybrid of two                        et al., 2015; Meijers and Burger, 2017). These frameworks illuminate
+externalities: agglomeration externalities, viewing HSR stations and                           how peripheral smaller cities can capitalize on the labour and consumer
+routes as critical infrastructure projects, and network externalities,                         markets of neighbouring megacities to facilitate their industrial
+where HSR construction enhances regional transportation networks (De                           upgrading, while potentially also serving as catalysts for the industrial
+
+
+  * Corresponding author at: Key Laboratory of Lake and Watershed Science for Water Security, Nanjing Institute of Geography and Limnology, Chinese Academy of
+Sciences, Nanjing, China.
+ ** Corresponding author at: School of Public Affairs, Zhejiang University, Hangzhou, China.
+    E-mail addresses: dehao.shi@link.cuhk.edu.hk (D. Shi), wanglei@niglas.ac.cn (L. Wang), zhangxianchun@zju.edu.cn (X. Zhang), taoyu@nju.edu.cn (T. Yu).
+
+https://doi.org/10.1016/j.jtrangeo.2025.104113
+Received 14 January 2024; Received in revised form 20 November 2024; Accepted 3 January 2025
+Available online 8 January 2025
+0966-6923/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+D. Shi et al.                                                                                                    Journal of Transport Geography 123 (2025) 104113
+
+
+transformation and development of central cities.                                development, encompassing migration (Wang et al., 2019; Hiramatsu,
+    While economic geography often views agglomeration effects                   2018), fixed asset investment (Qin, 2017; Zhang et al., 2019),
+through the lens of agglomeration economies, emphasizing the mutual              manufacturing transfer (Xiao et al., 2020), service industry aggregation
+causality between urban economic scale and HSR construction (Zhou                (Shao et al., 2017), among others. Scholars have identified several
+and Zhang, 2021; Chang and Zheng, 2022), urban political economy                 mechanisms through which HSR influences socio-spatial evolution, such
+literature suggests that regional infrastructure development and its ef-         as spillover effects, corridor effects, and time-space compression (Chen,
+fects largely depend on local government decision-making and inter-              2012; Dai et al., 2018; Gutiérrez et al., 1998; Huang and Du, 2020;
+governmental bargaining (Zhang et al., 2020b). Higher-ranked city                Vickerman et al., 1999; Wang et al., 2014; Shaw et al., 2014).
+governments possess greater influence in determining HSR routes and                  Traditional economic geography and location theories explain these
+station locations, potentially leveraging HSR construction to shape              effects by focusing on reduced travel time and costs. They posit that HSR
+economic development and regional patterns. Concurrently, research               promotes intra-regional factor mobility, fostering spillover effects and
+has shown that lower-ranked cities can utilize cross-border transport            regional balanced development (Chen and Hall, 2011; Han et al., 2012).
+infrastructure to lease administrative and resource allocation capabil-          For instance, Shen et al. (2014) found that HSR reduced average travel
+ities from nearby higher-ranked cities, thereby integrating their strate-        times in Madrid, which positively impacted urbanization and economic
+gies for land development and industrial transformation into regional            development in cities along HSR corridors. Similarly, through case
+integration processes (Vickerman, 2015; Qin, 2017; Liang et al., 2020).          studies of Córdoba and Zaragoza in Spain and Lille in France, Ureña
+These changes, in turn, promote cross-border governance and adminis-             et al. (2009) found that HSR operations would drive population and
+trative integration (Zhang et al., 2023). This indicates that HSR exter-         industrial outflow from large cities, while small and medium-sized cities
+nalities depend not only on urban scale and agglomeration economies              would experience population inflow and industrial growth.
+but also on the administrative capacity of city governments. Given the               On the other hand, some studies also revealed increasing regional
+increasing focus on the intersection of economic geography and urban             inequalities resulting from transportation infrastructure development,
+political economy (Wang et al., 2024), we explore the extent to which            challenging the traditional location theory. For example, studies by Song
+urban size and administrative power influence the socioeconomic effects          et al. (2015) and Diao (2018) discovered that large Chinese cities
+of HSR network development in externality formation. We argue that               experienced better improvements in accessibility and industrial
+HSR effects exhibit characteristics of both “borrowed size” and “bor-            upgrading after HSR construction, while some small and medium-sized
+rowed administrative power,” with heterogeneity across different in-             cities saw no significant improvements in accessibility and even expe-
+dustrial sectors.                                                                rienced adverse effects. New Economic Geography offers an alternative
+    We conduct this study by focusing on China’s YRD region, one of the          perspective, rooted in the concepts of agglomeration externalities and
+country’s most economically developed areas with the highest density of          increasing returns to scale (Krugman, 1991; Blanquart and Koning,
+HSR networks, encompassing Shanghai Municipality, Jiangsu Province,              2017). This approach suggests that economic activities tend to cluster
+Zhejiang Province, and Anhui Province. In China, the introduction of             due to positive externalities such as technology, factor endowments, and
+HSR stands out as a potent catalyst for urbanization, economic growth,           information sharing. Regions with concentrated production activities
+and industrial evolution (Chen, 2012; Vickerman, 2018). Previous                 may exhibit higher growth rates due to increasing returns to scale.
+studies have demonstrated the multiscale impacts of HSR construction             Furthermore, this perspective interprets regionally balanced develop-
+on urban growth and industrial agglomeration in this region, elucidating         ment facilitated by transportation infrastructure as a crowding-out effect
+intense inter-city competition and cooperation in the YRD region, which          triggered by excessive agglomeration in central cities, rather than a
+profoundly influences HSR construction and its effects (Dai et al., 2018;        simple spillover effect (Blanquart and Koning, 2017; Vickerman, 2018).
+Diao, 2018; Shao et al., 2017; Wang and Duan, 2018; Wang et al., 2018).              Despite these explanations providing analytical frameworks for HSR
+    Using county-level panel data from the YRD from 2000 to 2017, we             effects, two significant challenges persist. First, an increasing number of
+analyze HSR effects on industrial structure and examine whether these            studies have found that regional spatial evolution is not merely char-
+effects vary due to externalities of urban size and administrative power.        acterized by agglomeration effects centred on major cities, but also by
+We employ a multi-stage difference-in-differences (DID) model to                 network effects arising from interactions among peripheral small and
+analyze the causal relationship between HSR and socioeconomic activ-             medium-sized cities - an aspect often underestimated in previous studies
+ities, treating HSR projects as continuous policy shocks. To mitigate bias       (Zhang et al., 2020b; Zhang et al., 2024). Second, industrial upgrading
+from sample selection and model estimation, we use Propensity Score              and HSR construction are considered to have potential endogeneity
+Matching (PSM) (Liang et al., 2020). We also design a difference-in-             problems (Gao and Zheng, 2020; Zheng and Kahn, 2013). For instance, it
+difference-in-differences (DDD) model to reveal the influence of                 is challenging to determine whether HSR affects local urban growth and
+different externalities, including agglomeration economies and admin-            industrial upgrading, or whether regions with inherent economic
+istrative power, on HSR effects on industrial upgrading. Furthermore,            growth potential are more likely to be selected for HSR construction. The
+considering the complexity and heterogeneity of HSR externalities, we            following sections will elaborate on these two limitations and subse-
+focus on industrial structure, disaggregating it into secondary and ter-         quently propose three hypotheses for this study.
+tiary industries.
+    The paper is structured as follows: Section 2 offers a literature re-        2.2. Externality of HSR effects and borrowed size
+view, culminating in three research hypotheses. Section 3 delineates our
+empirical approach, encompassing DID, multi-stage DID, and DDD                       Existing research predominantly focuses on the dynamics of central
+methodologies. Section 4 unveils results and insights, while Section 5           cities, interpreting HSR-driven regional pattern evolution primarily as a
+corroborates findings through robustness tests. We conclude by encap-            regional-scale manifestation of industrial transfer from these central
+sulating key insights and policy implications for HSR-induced industrial         cities (Cheng et al., 2015; Shao et al., 2017; Liang et al., 2020). This
+upgrading.                                                                       central city-centric approach, however, inadvertently overlooks the
+                                                                                 agency and interactions of peripheral small and medium-sized cities,
+2. Literature review and research hypothesis                                     potentially leading to an incomplete understanding of regional dy-
+                                                                                 namics. Recent studies have revealed that small peripheral cities may
+2.1. HSR effects on urban industrial upgrading and regional spatial              not only actively participate in, but also perform remarkably well within
+structure                                                                        regional evolution processes, sometimes outpacing the benefits accrued
+                                                                                 by central large cities (Xu and Yeh, 2013; Liang et al., 2020). Debate
+    Extensive research has explored the diverse effects of HSR                   persists over whether HSR network externalities provide opportunities
+
+                                                                             2
+D. Shi et al.                                                                                                     Journal of Transport Geography 123 (2025) 104113
+
+
+for smaller cities to leverage the market scale of large cities, or if they       intentions between regional and local governments resulted in the most
+face more intense competition and lose development momentum.                      developed large cities potentially possessing the worst station accessi-
+    To address this gap, regional studies literature has begun to employ          bility, while small and medium-sized cities gained superior accessibility.
+the notion of ‘borrowed size’, introduced by Alonso (1973), which                 Although studies have identified the potential influence of administra-
+demonstrates that small cities can benefit from the agglomeration                 tive power on HSR effects, few have conducted detailed investigations
+economies of nearby large cities. ‘Borrowed size’ represents the incon-           comparing the similarities and differences between economic scale and
+sistency between urban size and its performance within a regional sys-            administrative power in influencing HSR outcomes.
+tem, particularly emphasizing how small cities can benefit from the                   This perspective also offers a novel approach to addressing the
+“borrowed” agglomeration economies of nearby large cities (Meijers and            endogeneity between HSR effects and economic development, suggest-
+Burger, 2017). Conversely, the concept of “agglomeration shadow”                  ing that HSR effects are not merely economic considerations but also
+suggests that larger cities may constrain growth in neighbouring smaller          involve significant political factors. Consequently, we posit our second
+cities, resulting in fewer functions and lower performance levels than            research hypothesis:
+expected given their size (Burger et al., 2015).
+                                                                                  Hypothesis 2. HSR effects on industrial upgrading will manifest
+    As urban systems evolve from hierarchical to networked structures,
+                                                                                  diverse externalities, which stem from city size and administrative level.
+regional studies scholars increasingly apply the concept of borrowed size
+to explore the role of small and medium-sized cities in regional pattern               Furthermore, the diverse and sometimes contrasting externalities of
+evolution (Burger et al., 2015; Meijers and Burger, 2017; Volgmann and            HSR effects on different industrial sectors have been widely confirmed
+Rusche, 2020). In hierarchical urban systems, the agglomeration ex-               (Blanquart and Koning, 2017; Vickerman, 2018). Following HSR
+ternalities of specific cities are typically rooted in urban size, with           network construction, central cities tend to attract more service in-
+advanced urban functions, industrial structure, and modernity often               dustries from surrounding areas, while manufacturing industries
+positively correlated with larger urban scale. However, in networked              simultaneously disperse from the core to the periphery (Lin, 2017; Tang
+urban systems, the impact of agglomeration externalities is gradually             et al., 2021; Zhou and Zhang, 2021).
+being superseded by network externalities (Alonso, 1973; Meijers and                   Traditional economic geography explains this phenomenon through
+Burger, 2017). HSR, as a major regional transportation infrastructure,            the agglomeration effects brought by HSR access, which elevate land
+essentially transforms hierarchical urban systems into urban networks.            and housing prices, leading enterprises with varying rent sensitivities to
+Consequently, HSR effects should be understood through the lens of                adopt different locational strategies (Zhang et al., 2021). Specifically,
+network externalities, which can manifest as both positive (borrowed              manufacturing industries characterized by low output per unit land area
+size dominating) and negative (agglomeration shadows dominating)                  and labour intensity are likely to be displaced from central cities, while
+processes (Meijers and Burger, 2017). Inspired by this, we propose our            capital-intensive and knowledge-intensive tertiary industries may more
+first hypothesis:                                                                 prominently agglomerate towards central cities (Yu et al., 2019). New
+                                                                                  Economic Geography concurs that increased urban scale, and rising
+Hypothesis 1. HSR-induced industrial upgrading exhibits network
+                                                                                  rents can displace secondary industries but argues that this crowding-
+externalities, manifesting as either “borrowed size” or “agglomeration
+                                                                                  out effect also impacts tertiary industries. The divergent evolution of
+shadow”.
+                                                                                  these two sectors stems from the varying intensities of agglomeration
+                                                                                  and crowding-out effects produced by equivalent urban scales.
+2.3. From borrowed size to borrowed administrative power: integrating                  While coupling agglomeration and crowding-out effects provides a
+administrative power into externality analysis                                    more comprehensive economic explanation for regional evolution, po-
+                                                                                  litical economy literature has discovered that regions with similar eco-
+    While economic externalities provide insights into the relationship           nomic patterns can exhibit entirely different evolutionary trajectories
+between regional transportation infrastructure, urban development, and            post-HSR construction. For instance, Tang et al. (2021) compared
+regional evolution, analyses focusing solely on economic and market               Beijing-centred and Shanghai-centred city-regions in China, finding that
+behaviours face scrutiny, particularly regarding the endogeneity issue            post-HSR construction, Beijing could formulate various regional spatial
+between HSR construction and economic growth (Phelps, 2004). One                  strategies to attract tertiary industry concentration from surrounding
+approach to resolving this issue involves employing various econometric           areas, while Shanghai lacked this administrative intervention capacity,
+methods, including difference-in-differences and instrumental variables,          preventing it from attracting tertiary industries as prominently as Bei-
+with an increasing number of studies attempting to precisely calculate            jing. Conversely, benefiting from regional integration brought by HSR
+the net effect of HSR on urban development.                                       construction, cities surrounding Shanghai, such as Suzhou, could
+    An alternative solution stems from the political economy of infra-            leverage Shanghai’s public services and infrastructure to attract more
+structure development. Recent literature emphasizes the need to inte-             infrastructure and manufacturing investments.
+grate governmental roles into previously enterprise-centric economic                   While coupling agglomeration and crowding-out effects provides a
+geography analyses (Peck, 2023; Wang et al., 2024). This shift is simi-           more comprehensive economic explanation for regional evolution, po-
+larly reflected in transportation geography and HSR-related research.             litical economy literature has revealed that regions with similar eco-
+Scholars focusing on the political economy of infrastructure have found           nomic patterns can exhibit entirely different evolutionary trajectories
+that HSR construction is not entirely determined by businesses and                post-HSR construction.
+economic activities, but largely depends on local government intentions
+                                                                                  Hypothesis 3. HSR effects exhibit heterogeneous externalities across
+and negotiations between different levels of government (Zhang et al.,
+                                                                                  industrial sectors, with the secondary sector potentially experiencing
+2023; Wu, 2016; Zhang et al., 2024; Xu and Yeh, 2013).
+                                                                                  economic “borrowed size” effects, while the tertiary sector may face
+    Specifically, some scholars argue that higher-ranking city govern-
+                                                                                  “agglomeration shadows” stemming from administrative power.
+ments possess greater administrative power to influence HSR construc-
+tion details, such as route planning, station location, and train
+                                                                                  3. Methodology
+frequency. It leads to HSR development to better serve higher-ranking
+cities compared to surrounding cities of lower administrative status
+                                                                                  3.1. Study area and data source
+(Wang et al., 2018). Conversely, others argued that due to the presence
+of higher-level regional governments, HSR construction may benefit
+                                                                                    This research delves into the Yangtze River Delta (YRD) region,
+small and medium-sized cities more. For instance, Zhang et al. (2020b)‘s
+                                                                                  which is recognized for its early and robust HSR network in China
+investigation of HSR in China’s Pearl River Delta revealed that differing
+
+                                                                              3
+D. Shi et al.                                                                                                      Journal of Transport Geography 123 (2025) 104113
+
+
+
+
+                              Fig. 1. Study area and units potentially affected by agglomeration and administrative externality.
+
+
+(Fig. 1). Spanning 358,000 km2, the YRD region reported a staggering              wide, spanning 199 county-level units within the YRD from 2000
+GDP of 23.72 trillion yuan by 2019 and houses 227 million people,                 through 2017. Such a temporal ambit, encapsulating nine pivotal years
+constituting 2.2 %, 23.9 %, and 19.2 % of China in terms of area, GDP,            pre- and post-2008 HSR inception, is deliberate. Firstly, it furnishes the
+and population, respectively. The YRD, as China’s premier economic                DID model with a robust foundational period, fortifying against the
+hub, has spearheaded significant shifts in industrial structure (Tian             lurking threat of divergent trends. Secondly, the study period deliber-
+et al., 2011). Notably, it initiated China’s first HSR line, leading the          ately excludes the years following 2018, when the Chinese central
+nation in HSR advancements in terms of lines and station density.                 government introduced the YRD integration strategy. This policy rep-
+    To elucidate the diverse externalities stemming from HSR effects as           resents a significant shock to the industrial structure development in the
+posited in our research hypotheses, we have identified potential zones            YRD region (Zhen et al., 2023), which could introduce additional con-
+where these phenomena manifest, focusing on two distinct facets of                founding factors to the HSR effects and is therefore not included in the
+externalities. The “borrowed size” effect is captured through population          study period.
+metrics, with five cities in the YRD region - Shanghai, Nanjing, Hang-                In terms of analytical scale, we have chosen county-level units as the
+zhou, Suzhou, and Hefei - standing out due to their populations                   objects of analysis, rather than prefecture-level units. This choice not
+exceeding 3 million by 2013. County-level units are proximate to these            only presents a finer granularity but also fully considers the character-
+cities’ jurisdictions are earmarked as the “borrowed size group” within           istics of HSR deployment and the structure of administrative power.
+our DDD model framework, representing centres of externalities.                   Chinese HSR deployment uses cities and counties as basic units (Qin,
+Comparatively, the “borrowed administrative power” concept is re-                 2017). Estimating HSR effects at the prefecture-level may introduce
+flected in the administrative echelons of city governance. Cities like            substantial errors. Furthermore, Chinese county governments possess
+Shanghai, Hangzhou, Nanjing, and Ningbo, operating at vice-provincial             independent fiscal systems and the power to formulate spatial strategies,
+or higher administrative tiers, wield substantial autonomy in resource            implying their capacity to negotiate with city and regional governments
+allocation, urban planning, and industrial policymaking. County-level             regarding HSR construction.
+units contiguous to these four administrative centres are designated as               Regarding the data source, the HSR information, including the
+the “borrowed administrative power group” (Fig. 1), representing zones            opening year and city, was collected from the Chinese HSR official
+of administrative power externalities. This dual categorization allows us         website (https://www.12306.cn/index/) and a statistics website (htt
+to examine the differential impacts of economic scale and administrative          p://www.gaotie.cn/). The socioeconomic data comes from the statisti-
+power on HSR-induced industrial structural changes.                               cal yearbooks of counties and cities in the CNKI and EPS data platforms.
+    Delving into the intricacies of HSR construction and its consequential        According to Pearson’s correlation analysis, the dependent variables
+impact on industrial structural metamorphosis, this study casts its net           were significantly correlated with other indicators, ensuring the
+
+
+                                                                              4
+D. Shi et al.                                                                                                            Journal of Transport Geography 123 (2025) 104113
+
+
+reasonability of the selected variable sets. The errors involved in the                HSR effect on the change in industrial structure in city i in year y. The
+adjustment of administrative divisions were also considered. This study                representations of the other variables are the same as those in Equation
+transformed the dependent variables and covariates into a logarithmic                  (1).
+form to reduce potential heteroscedasticity. We also tested the variance                    The second pivotal explanatory variable delves into the externalities
+inflation factor (VIF < 5) to avoid multicollinearity.                                 stemming from the HSR effects on industrial upgrading. This nuanced
+                                                                                       investigation is steered through the DDD model, as articulated in Eq. (3).
+3.2. Methodology                                                                       Central to this exploration is the establishment of the interaction term
+                                                                                       HSRit × BORi, meticulously designed to interlink the HSR effects (HSRit)
+    Various methods have been developed to evaluate the impact of HSR                  with both the “borrowed size” (BS) and “borrowed administrative
+on socioeconomic development, including the difference-in-differences                  power” (BAP) dimensions. The variable BORi assumes pivotal signifi-
+(DID) method, the synthetic control method (Li et al., 2019; Li et al.,                cance, serving as a binary dummy variable that delineates whether city i
+2020; Kunimi and Seya, 2021) and instrumental variable methods                         is potentially ensnared by the ramifications of either “borrowed size” or
+(Faber, 2014; Banerjee et al., 2012). This study employs the DID method                “borrowed administrative power”. If city i is situated within the realms
+due to its widespread application and its foundation in quasi-                         of potential “borrowed groups”, BORi = 1, whereas if not, BORi = 0.
+experimental design principles. The DID approach distinguishes be-                          A significant positive value of τB indicates that the HSR effect on
+tween treatment groups (cities with an HSR station) and control groups                 industrial development will experience borrowed size (or borrowed
+(cities without an HSR station), allowing for the assessment of HSR’s                  administrative power) to county-level units adjacent to the municipal
+impact on specific socioeconomic dimensions across time (pre and post-                 areas. Otherwise, a significantly negative value of τB means that the HSR
+HSR construction).                                                                     effect will experience agglomeration shadow (or administrative
+    Our choice of methodology is further motivated by our research                     shadow).
+hypothesis, which posits that externalities stemming from city size and
+                                                                                       γit = α + τB HSRit × BORi + τB1 Treat i × BORi + τB1 Tt × BORi + β1 Treat i
+administrative tiers influence HSR effects. To incorporate these exter-
+nalities, we extend the DID framework to include a difference-in-                        + β2 Tt + β3 Covit + β4 BORi + μi + δt + εit
+difference-in-differences (DDD) model, as demonstrated by Shangguan                                                                                                  (3)
+and Guo (2022) and Jia et al. (2021). Comparative analyses of the DID
+and DDD results provide a more comprehensive understanding of HSR
+mechanisms.                                                                            3.3. Descriptive statistics and propensity score matching
+    Within the framework of this study, two pivotal explanatory vari-
+ables are delineated: the operational status of HSR within a specified city                Table 1 outlines the panel data variables central to this study. Our
+and the classification of the city within the “borrowed size group.” These             primary dependent variable is industrial structure, represented by γit,
+variables undergo scrutiny within the DID and DDD models, respec-                      which is the ratio of tertiary to secondary sector output in city i during
+tively, to disentangle their nuanced impacts. The crucial dependent                    year t. We also analyze HSR effects on the output magnitudes of both
+variable γit capture the industrial transformation of city i in year t,                sectors individually to uncover the heterogeneity of HSR effects and
+encompassing: (1) the output value of secondary industry, (2) the output               their externalities across different industrial sectors, testing Hypothesis
+value of tertiary industry, and (3) the industrial structure ratio. All data           3. To account for potential confounding factors in industrial structure
+are sourced from official statistical yearbooks. The first salient explan-             evolution, we incorporate a comprehensive set of control variables
+atory variable delves into the HSR construction status, encapsulating                  based on existing literature: These variables encapsulate various socio-
+whether a city has an operational HSR (Treati)and the timing of the HSR                economic and administrative dimensions that can significantly shape
+opening (Tt). Treati is a dummy variable representing at least one HSR                 industrial trajectories. Key control variables include urban administra-
+station in city i. If an HSR station exists, Treati = 1; otherwise, Treati = 0.        tive level (Admin), population size (POP), and economic development
+Tt is a dummy variable indicating the year of HSR station operation. If                level (pGDP), acknowledging the endogeneity between industrial
+the HSR was operated, Tt = 1; otherwise, Tt = 0. The crux of this variable             structure evolution and socioeconomic development. We categorize
+framework is HSRit, meticulously engineered to quantify the HSR-                       cities into five tiers based on China’s administrative hierarchy, ranging
+induced impact on industrial metamorphosis. Mathematically, it is                      from municipality subdistricts to general counties. Following Tang et al.
+rendered as Treati × Tt. The coefficient τ assumes paramount signifi-                  (2021), we examine the influence of population density and economic
+cance, mirroring the variability in HSRit and thereby elucidating the                  robustness on industrial shifts. Real estate investments and urbanization
+transformative imprint of HSR on the industrial fabric. Furthermore,                   rates are considered due to their impact on specific industries such as
+parameters β1 and β2 encapsulate the differential effects of HSR, pre- and             manufacturing, energy, and construction (Wang et al., 2019). Public
+post-operational inception. Concurrently, Covit stands as a repository for             financial expenditure (PFE) and public service provision (PS) are
+a set of control variables, ensuring a holistic analytical perspective.                included as they notably promote the tertiary sector. Variables α and εit
+Variables α and εit indicate the constant and residual items, respectively.            indicate the constant and residual items, respectively. The statistical
+The variable μi is the unit-fixed effect used to control urban heteroge-               analysis was conducted using Stata 15.
+neity, and δt is the time-fixed effect used to manage the time trend.                      As previously discussed, most socioeconomic activities, including
+                                                                                       HSR construction, are not entirely random natural experiments but
+γ it = α + τHSRit + β1 Treati + β2 Tt + β3 Covit + μi + δt + εit            (1)
+                                                                                       rather quasi-natural experiments with inherent endogeneity in site se-
+    Given the continuous opening of HSR stations in cities over time, we               lection. To address potential endogeneity issues in this quasi-natural
+refer to the research of Shao et al. (2017) and Deng et al. (2020),                    experiment, this study employs Propensity Score Matching (PSM), a
+establishing the multi-stage DID model to systematically examine the                   method that can mitigate bias arising from sample selection and model
+dynamic HSR effects. The multi-stage DID model is as follows:                          estimation (Liang et al., 2020). Given our sample size, we implemented
+                                                                                       one-to-one matching using Nearest Neighbour Matching with replace-
+γit = α + τ1 HSR1it + τ2 HSR2it + … + τy HSRyit + β1 Treat ti + β2 Tt + β3 Covit
+                                                                                       ment. Fig. 2 illustrates the PSM results. The top panels show the distri-
+                                +μi + δt + εit
+                                                                                       bution of treated and control units for industrial structure, secondary,
+                                                                            (2)
+                                                                                       and tertiary industries. The upper three panels reflect the randomness of
+    Where HSR1it is a dummy variable, and its value is equal to one if                 the sample and potential errors. Samples labelled “on support” indicate
+year t is the first year of an HSR in city i; otherwise, it is 0. The same             that their inclusion does not significantly affect the randomness and
+assignment standard was used for HSR2it to HSRyit; τy represents the net               individual characteristics of the treatment and control groups.
+
+                                                                                   5
+D. Shi et al.                                                                                                                  Journal of Transport Geography 123 (2025) 104113
+
+
+Table 1
+Definitions and descriptive statistics of variables.
+  Category            Variables                                      Abbreviation   Description                                Mean         Std. Dev.    Min       Max
+
+  Dependent           Industrial structure                           IndS           Tertiary/Secondary Output Ratio            0.84         0.35         0.36      4.49
+   Variables          Secondary Sector Output                        Imd2           100 million RMB                            218.09       580.86       0.52      9251.4
+                      Tertiary Sector Output                         Ind3           100 million RMB                            208.16       884.67       0.85      20,783.47
+  Treatment           HSR City/County Status                         Treat          1 = HSR city, 0 = otherwise                0.41         0.49         0         1
+    Variables         HSR Opening Time                               T              1 = post-HSR, 0 = otherwise                2008.5       5.19         2000      2017
+                      HSR Effect                                     HSR            Treat*T                                    0.13         0.34         0         1
+                      Cities located in ‘borrowed size’ areas        BS             1 = adjacent to municipal area, 0 =        0.14         0.34         0         1
+                                                                                    otherwise
+                      Cities located in ‘borrowed administrative     BAP            1 = adjacent to sub-provincial city, 0 =   0.07         0.25         0         1
+                      power ‘areas                                                  otherwise
+  Covariates          Administrative level                           Admin          City hierarchy (1–5)                       4.3          0.91         1         5
+                      City size                                      Pop            10,000 residents                           101.72       162.68       7.24      2421.47
+                      Economic development level                     pGDP           RMB                                        33,848.01    33,128.08    1681      218,984.1
+                      Real estate investment                         REI            Billion RMB                                57.03        210.44       0         3856.53
+                      Public financial expenditure                   PFE            Billion RMB                                59.07        283.64       0.48      7547.62
+                      Public services provision                      PS             Billion RMB                                10.02        39.49        0.06      874.1
+                      Urbanization rate                              UR             Proportion of non-agricultural industry    83.7         12.26        37.02     99
+
+
+
+
+                                                            Fig. 2. The result of the Propensity Score Matching.
+
+
+Conversely, “off-support” samples suggest unique socioeconomic foun-                     from 2013 onwards, the emphasis of the HSR expansion transitioned
+dations that are difficult to match in the other group. These samples are                towards connecting subsidiary cities and inaugurating specialized
+subsequently removed from the analysis. Notably, the majority of                         routes, exemplified by the Huangshan-Hangzhou Tourism Railway. By
+samples are “on support,” preserving most observations.                                  2017, a notable 17 HSR lines and 116 stations were operational in the
+   To verify the robustness of our matching quality, we conducted                        YRD, significantly fortifying economic ties with adjacent regions. As
+balance tests on all matching variables, as shown in the bottom panels.                  depicted in Table 2, the deployment of new HSR lines progressively
+Before matching, there are significant differences between the treatment                 gravitated towards serving counties post-2014, signalling a strategic
+and control groups. After matching, these differences are substantially                  shift from prefectural to county-level connectivity.
+reduced, as shown by the closer alignment of points to the diagonal line.                    Fig. 3 provides an illustrative depiction of the interplay between HSR
+This improvement in balance enhances the reliability of our subsequent                   development and the industrial metamorphosis within the YRD span-
+analysis.                                                                                ning 2000 to 2017. The advent of the HSR catalysed an accelerated
+                                                                                         spatial reconfiguration of industries. Between 2008 and 2013, urban
+4. Empirical Result                                                                      centres intersecting the HSR nexus witnessed a surge in industrial
+                                                                                         advancement, exemplified by substantial upticks in tertiary sector con-
+4.1. HSR development and industrial upgrading in the YRD                                 tributions, notably in cities like Hangzhou and Hefei. In the subsequent
+                                                                                         period post-2013, cities integrated within the secondary HSR network
+    The development trajectory of the HSR network within the YRD can                     (highlighted in yellow) manifested more pronounced shifts in their in-
+be delineated into two pivotal phases. Initially, spanning from 2008 to                  dustrial landscapes, particularly discernible in the southwestern quad-
+2013, the HSR infrastructure predominantly linked key regional hubs                      rant of the YRD. (See Fig. 4.)
+such as Shanghai, Nanjing, and Hangzhou. This phase laid the founda-                         Delving into externalities, discernible variations in the ramifications
+tional architecture for the broader regional HSR network. Subsequently,                  of HSR development on industrial spillover effects emerge. Notably,
+
+
+                                                                                     6
+D. Shi et al.                                                                                                        Journal of Transport Geography 123 (2025) 104113
+
+
+Table 2
+Number of newly added cities serviced by HSR in the YRD from 2008 to 2017.
+                                         2008        2009         2010         2011         2012        2013        2014         2015          2016          2017
+
+  Number of prefecture-level units       2           5            8            10           3           7           3            11            5             2
+  Number of county-level units           3           10           6            3            1           5           4            16            5             3
+
+
+
+
+                                Fig. 3. HSR construction and industrial structure evolution in the YRD in 2000, 2008, 2013 and 2017.
+
+
+
+
+                                                                  Fig. 4. Results of placebo tests.
+
+
+
+
+                                                                                    7
+D. Shi et al.                                                                                                           Journal of Transport Geography 123 (2025) 104113
+
+
+locales proximate to Hangzhou and Nanjing consistently showcased                       dual mechanism. Specifically, it diminishes the output of the secondary
+enhancements in their industrial fabric, indicative of positive spillover              sector by 4.4 % while stimulating the tertiary sector by 7.4 %. This
+effects catalysing industrial upgrades in these vicinities. Conversely,                enhanced connectivity, facilitated by HSR, potentially catalyzes growth
+while Hefei experienced an internal optimization of its industrial                     within the service, information, and financial sectors. However, it also
+composition, peripheral regions exhibited a discernible contraction in                 engenders ancillary repercussions, such as escalating land values and
+the proportion of tertiary sector contributions, signalling potential                  labour costs, thereby exerting a displacement effect on manufacturing
+adverse spillover effects.                                                             and analogous labour-intensive sectors.
+                                                                                           Further dissecting the results, the Treat variable’s consistently posi-
+                                                                                       tive coefficient accentuates that cities integrated within HSR networks
+4.2. Results from the DID model: HSR effects on industrial upgrading                   manifest a more pronounced trajectory of industrial advancement
+                                                                                       relative to their non-HSR counterparts. This observation resonates with
+    This segment elucidates the outcomes derived from the DID analysis                 the overarching strategic imperatives of the Chinese administration,
+concerning the influence of HSR on industrial structural evolution, as                 prioritizing HSR deployment in locales poised for developmental
+delineated in Table 3. This study adopted a stepwise regression                        ascendancy.
+approach, with results meticulously laid out in Columns 1 through 8.                       Among the covariates, the city populace size (POP) evinces a salient
+Across all regression iterations, the coefficient associated with HSR                  positive association with the dependent variable, underscoring the po-
+consistently registers as positive and statistically significant. The coef-            tency of agglomeration economies in shaping industrial trajectories.
+ficient of HSR in Column 8 is 0.075. This suggests that cities that                    Intriguingly, a converse relationship emerges between cities boasting
+introduced HSR networks experienced a 7.5 % increase in their indus-                   elevated per capita GDP and economic development metrics and their
+trial structure. Notably, a comparison between Columns 7 and 8 reveals                 responsiveness to industrial structural transformation. Such a trend in-
+an intriguing pattern: the introduction of public service expenditure as a             timates that cities entrenched in advanced developmental trajectories
+control variable enhances both the magnitude and statistical signifi-                  might grapple with path-dependent industrial paradigms, thereby
+cance of the HSR coefficient. This finding suggests a potential interplay              attenuating HSR’s transformative impact. Additionally, an unexpected
+between HSR infrastructure and public service provision. Specifically,                 inverse correlation emerges with the administrative echelons of city
+the industrial upgrading effects of HSR connectivity may not materialize               governance (Admin), indicating that cities wielding higher administra-
+without concurrent investment in public service systems by local gov-                  tive stature exhibit muted responsiveness to HSR-induced industrial
+ernments. Once public service expenditure is controlled for, the impact                dynamics. High-level cities might concurrently undertake other pivotal
+of HSR construction on industrial upgrading becomes more pronounced.                   urban development initiatives and infrastructure projects that dilute the
+This indicates that the relationship between HSR infrastructure and                    singular impact of the HSR. In summary, HSR-connected cities show
+specific socioeconomic changes is not simply linear but may be contin-                 more significant industrial upgrading. However, this process involves
+gent upon certain negative confounders or necessary conditions.                        both growth in the tertiary sector and a simultaneous reduction in the
+    Columns 9 and 10 pivot the focus to regression outcomes, with the                  secondary sector, rather than a simple expansion of tertiary industries.
+secondary and tertiary industries serving as the focal dependent vari-
+ables, respectively. The data intimates a dualistic impact of HSR con-
+struction: while it imparts a detrimental effect on the secondary sector, it           4.3. Results from the DDD model: externalities of HSR effects
+concurrently fosters growth within the tertiary sector. Based on the
+coefficients of HSR in columns 9 and 10, which are − 0.044 and 0.074,                     Table 4 delves into whether the HSR-induced industrial evolution is
+respectively, this dynamic suggests that the drive for industrial struc-               shaped by agglomeration (Columns 11–13) and administrative exter-
+tural upgrading, prompted by HSR deployment, functions through a                       nalities (Columns 14–16). In Columns 11–13, the focus is on the
+
+Table 3
+HSR effects on industrial upgrading.
+                 (1)           (2)           (3)             (4)             (5)            (6)            (7)            (8)              9(Ind2)         10
+                                                                                                                                                           (Ind3)
+
+  HSR            0.161***      0.151***      0.102***        0.102***        0.056***       0.035*         0.029*         0.075***         − 0.044***      0.074***
+                 (9.27)        (8.74)        (5.72)          (5.72)          (3.19)         (1.86)         (1.57)         (3.5)            (− 2.89)        (7.13)
+  Treat          − 0.09*       − 0.135**     − 0.061*        − 0.027         0.148*         0.358***       0.381***       0.566***         0.249***        0.502***
+                 (− 1.7)       (− 2.48)      (− 1.05)        (− 0.36)        (1.67)         (3.88)         (4.33)         (5.97)           (2.77)          (8.99)
+  T              − 0.035*      − 0.028       − 0.014*        − 0.014         0.02           0.025          0.028          − 0.016          − 0.011         − 0.031***
+                 (− 1.89)      (− 1.55)      (− 0.77)        (− 0.77)        (1.11)         (1.45)         (1.61)         (− 0.8)          (− 0.69)        (− 2.79)
+  Pop                          0.121***      0.036           0.036           0.041          − 0.005        0.053***       0.037*           0.595***        0.823***
+                               (4.49)        (1.29)          (1.29)          (1.46)         (− 0.14)       (1.49)         (0.85)           (10.84)         (26.08)
+  pGDP                                       − 0.314***      − 0.314***      − 0.241***     − 0.207***     − 0.168***     − 0.319***       1.037***        0.507***
+                                             (− 11.87)       (− 11.87)       (− 9.48)       (− 7.99)       (− 5.65)       (− 8.35)         (22.68)         (18.75)
+  Admin                                                      − 0.033         − 0.172**      − 0.314***     − 0.335***     − 0.494***       − 0.15**        − 0.467***
+                                                             (− 0.56)        (− 2.39)       (− 4.28)       (− 4.66)       (− 6.55)         (− 2.02)        (− 13.11)
+  REI                                                                        − 0.111***     − 0.078***     − 0.07***      − 0.051***       0.078***
+                                                                             (− 12.51)      (− 9.1)        (− 7.7)        (− 5.37)         (12.34)
+  UR                                                                                        − 0.099***     − 0.091***     − 0.109***       0.123***
+                                                                                            (− 10.69)      (− 9.04)       (− 9.73)         (6.19)
+  PFE                                                                                                      − 0.127***     − 0.189***                       − 0.141***
+                                                                                                           (− 3.5)        (− 3.66)                         (− 7.39)
+  PS                                                                                                                      − 0.021                          0.031***
+                                                                                                                          (− 0.7)                          (3.2)
+  Constant       1.018***      0.623***      3.62***         3.753***        3.54***        4.11***        3.704***       5.77***          − 8.4***        − 3.388***
+                 (26.66)       (6.74)        (13.2)          (8.39)          (7.69)         (8.57)         (7.32)         (9.49)           (− 11.04)       (− 8.24)
+  County FE      YES           YES           YES             YES             YES            YES            YES            YES              YES             YES
+  Year FE        YES           YES           YES             YES             YES            YES            YES            YES              YES             YES
+  R2             0.612         0.614         0.639           0.639           0.6677         0.6857         0.6874         0.7214           0.9894          0.994
+
+Symbols *, **, and *** denote significance levels of 0.1, 0.05, and 0.01, respectively.
+
+                                                                                   8
+D. Shi et al.                                                                                                                Journal of Transport Geography 123 (2025) 104113
+
+
+Table 4
+Externalities of HSR effects on industrial structure.
+  Variables                                        Borrowed size                                                    Borrowed administrative power
+
+                                                   (11) (IndS)         (12) (Ind2)            (13) (Ind3)           (14) (IndS)           (15) (Ind2)           (16) (Ind3)
+
+  Before           Control & borrowed              3.71                − 10.679               − 8.842               3.7                   − 10.628              − 8.931
+                   Control & N-borrowed            3.818               − 10.808               − 8.819               3.8                   − 10.769              − 8.907
+                   Treated & borrowed              3.763               − 10.718               − 8.829               3.716                 − 10.669              − 8.941
+                   Treated & N-borrowed            3.737               − 10.717               − 8.837               3.733                 − 10.67               − 8.913
+                   Diff(T-C)                       0.133***            − 0.129***             0.032                 0.083***              − 0.139***            − 0.004
+                                                   (5.43)              (6.77)                 (1.59)                (3.54)                (7.23)                (0.23)
+                   Control & borrowed              3.605               − 10.811               − 8.966               3.687                 − 10.791              − 8.975
+                   Control & N-borrowed            3.837               − 10.996               − 8.848               3.805                 − 10.951              − 8.941
+                   Treated & borrowed              3.867               − 10.901               − 8.74                3.807                 − 10.826              − 8.901
+  After
+                   Treated & N-borrowed            3.933               − 10.875               − 8.687               3.932                 − 10.845              − 8.722
+                                                   0.166***            − 0.212***             0.065                 − 0.007               − 0.141***            − 0.145***
+                   Diff(T-C)
+                                                   (3.61)              (7.18)                 (1.57)                (0.14)                (4.26)                (3.76)
+                                                   0.033               − 0.082**              0.034                 − 0.09**              − 0.002               − 0.14***
+  HSR × BOR
+                                                   (0.62)              (− 2.34)               (0.74)                (− 1.65)              (− 0.04)              (− 3.31)
+                                                   − 0.188***          0.92***                0.876***              − 0.189***            0.918***              0.88***
+  POP
+                                                   (− 10.451)          (90.671)               (73.125)              (− 10.463)            (87.27)               (75.229)
+                                                   − 0.197***          1.11***                0.928***              − 0.196***            1.106***              0.934***
+  pGDP
+                                                   (− 10.576)          (87.412)               (80.177)              (− 10.561)            (85.639)              (81.949)
+                                                   − 0.093***          − 0.024***             − 0.111***            − 0.088***            − 0.028***            − 0.101***
+  Admin
+                                                   (− 9.22)            (− 3.911)              (− 14.055)            (− 8.837)             (− 4.531)             (− 13.126)
+                                                   − 0.059***          0.034***                                     − 0.059***            0.035***
+  REI
+                                                   (− 3.787)           (5.061)                                      (− 3.791)             (4.882)
+                                                   − 0.11***           0.023***                                     − 0.108***            0.026***
+  UR
+                                                   (− 10.432)          (3.388)                                      (− 10.195)            (3.674)
+                                                   0.238***                                   0.101***              0.23***                                     0.094***
+  PFE
+                                                   (7.627)                                    (8.105)               (7.304)                                     (7.282)
+                                                   0.071***                                   0.001                 0.078***                                    − 0.002
+  PS
+                                                   (2.828)                                    (0.067)               (3.062)                                     (− 0.183)
+
+Symbols *, **, and *** denote significance levels of 0.1, 0.05, and 0.01, respectively.
+
+
+agglomeration externality, probing if HSR amplifies industrial structure                 witness subdued industrial upgrading post-HSR compared to their
+transitions due to borrowed size. Notably, Column 11 reveals a non-                      counterparts. Specifically, according to HSR × BOR coefficients for the
+significant coefficient (0.033) for the interaction term HSR × BOR.                      secondary sectors in Column 15 and the tertiary sector in Column 16, it
+This suggests that while small and medium-sized cities in the YRD show                   is evident that this administrative shadow predominantly stymies ter-
+signs of borrowed size effects in industrial adjustments, it doesn’t                     tiary sector growth in these regions, diverting potential progress to
+function in the HSR effect. In more detail, the coefficients of Before-Diff              higher-tier cities.
+(T-C) and After-Diff (T-C) are 0.133 and 0.166, respectively.                                In summary, the findings of this study substantiate our three pro-
+    It appears that the way industrial structures evolve in these regions is             posed hypotheses. First, following HSR implementation, areas proxi-
+notably different from other areas, both before and after the introduc-                  mate to large cities or high-ranking administrative centres experience
+tion of HSR. This suggests that in small and medium-sized cities within                  significant network externalities. Second, urban characteristics exhibit
+the YRD, there’s a clear influence of positive agglomeration externality,                differential impacts: urban size predominantly affects secondary in-
+characterized by ‘borrowed size’. However, it indicates that this ‘bor-                  dustries with limited impact on tertiary industries, while urban admin-
+rowed size’ effect doesn’t directly correlate with the effect of HSR.                    istrative capacity substantially influences tertiary industries with
+Essentially, the industrial upgrading resulting from HSR construction, as                minimal effect on secondary ones. Third, HSR construction induces
+indicated in Column 8, is distinct and separate from those driven by                     heterogeneous industrial effects, notably a crowding-out effect on sec-
+agglomeration externality, as seen in Column 11.                                         ondary industries, particularly pronounced in small and medium-sized
+    Moving to Column 12, a compelling observation emerges: a pro-                        cities near large urban centres. These smaller cities may “borrow” the
+nounced crowding-out effect on the secondary sectors due to HSR is                       population and market scale of larger cities, increasing land values and
+amplified in borrowed-size regions. The significant negative coefficient                 consequently raising costs for manufacturing establishments, thus
+of the interaction term HSR × BOR could be observed. This heightened                     intensifying the displacement of secondary industries. Regarding ter-
+displacement effect stems from increased affluence and consumer ac-                      tiary industries, while HSR generally enhances their attraction to cities,
+tivity from larger cities post-HSR, escalating costs in adjacent cities and              a “siphoning effect” emerges wherein lower-ranked cities lose tertiary
+leading to secondary sector attrition. Conversely, Column 13 indicates                   sector activities to adjacent higher-ranked cities, creating a “shadow
+that the effect on the tertiary sector remains unaffected by agglomera-                  zone” of tertiary industries surrounding higher-ranked cities. In
+tion externality. In sum, this agglomeration externality is primarily                    conclusion, post-HSR construction, secondary industries tend to relocate
+manifested in the crowding-out effect of the secondary sectors after the                 to areas farther from large cities to mitigate HSR-induced land price
+HSR becomes operational. While neighbouring cities see rapid structural                  increases, while tertiary industries concentrate in higher-ranked cities
+shifts, the outcome is a more accelerated decline in secondary sectors                   within the HSR network.
+rather than a transition to the tertiary, potentially impacting these cities’
+overall economic growth.                                                                 5. Robustness analysis
+    Transitioning to administrative externality, Columns 14–16 scruti-
+nize the influence of administrative power gradients on HSR effects.                     5.1. Parallel trend test
+Column 14 reveals a significant negative coefficient for HSR × BOR,
+signalling an administrative shadow of the HSR effect on industrial                         A fundamental prerequisite for employing the DID model is ensuring
+structure. Notably, lower-tier cities around higher administrative hubs                  that the treatment and control groups display consistent trends before
+
+
+                                                                                     9
+D. Shi et al.                                                                                                          Journal of Transport Geography 123 (2025) 104113
+
+
+the intervention(Qin, 2017). This is substantiated through a parallel                industrial structure, and the regression results above are biased.
+trend assessment. The outcomes of the parallel trend analysis are                    Otherwise, product robustness could be accepted.
+delineated in Table 5. Specifically, the coefficients denoted as HSR-Bn                  In this study, the placebo test was iterated 1000 times, with the
+depict alterations in the dependent variables leading up to the nth year             ensuing probability distribution depicted in Fig. 4. Within this figure,
+before the initiation of HSR service. If the coefficients of HSR-Bn are              the line made by red points signifies the p-values from individual pla-
+statistically significant, it suggests that there might be unforeseen factors        cebo tests, while the blue curve signifies their density. Two pivotal
+influencing the estimation outcomes. Conversely, if these coefficients               criteria underpin the robustness of the regression outcomes. Firstly, the
+are not statistically significant, it allows us to discount the influence of         coefficients predominantly hover around zero, signalling their lack of
+factors other than the HSR on industrial upgrading. As Table 5 indicates,            significance under the placebo assumption. Secondly, a majority of p-
+all coefficients remain statistically insignificant, underscoring that there         values surpass the 0 threshold, underscoring their statistical insignifi-
+were no discernible pre-existing disparities between the treatment and               cance across varied fictional implementation timelines. Consequently,
+control groups. This confirms the validity of the parallel trend                     Fig. 4 conclusively ascertains the robustness of the empirical findings
+assumption.                                                                          presented in this study.
+    Furthermore, our analysis reveals two distinct waves of industrial
+upgrading following HSR implementation: one occurring in the inau-                   6. Discussion and conclusions
+gural year and another emerging in the third year of operation. This
+dual-wave pattern can be attributed to heterogeneous time-lag effects                6.1. Discussion
+across different industrial sectors. Specifically, the impact on tertiary
+industries manifests predominantly in the initial year and the year                       The adage “To get rich, build roads first” reflects the efforts of cities,
+following HSR operation, while effects on secondary industries become                especially peripheral ones, to access transportation infrastructure for
+apparent only in the third year. This temporal disparity in response                 economic development and industrial upgrading. As regional trans-
+patterns can be explained by the inherent characteristics of these sectors.          portation infrastructure like HSR, highways, and aviation expands, their
+Tertiary industries, characterized by light assets, demonstrate higher               impacts should be understood through network structures, not merely
+sensitivity to HSR-induced changes such as increased commercial ac-                  hierarchical ones (Wei and Wang, 2020; Wei et al., 2021). This study
+tivities. In contrast, secondary industries, being capital-intensive,                explores HSR effect on urban industrial upgrading and regional
+exhibit a more sluggish response to the cost-benefit alterations                     restructuring through an empirical analysis of the Yangtze River Delta,
+brought by HSR connectivity, likely due to considerations of relocation              China. Our findings indicate that HSR impact on regional industrial
+costs and feasibility (Shao et al., 2017).                                           patterns extends beyond central cities’ agglomeration or spillover ef-
+                                                                                     fects. Peripheral cities also dynamically responded to HSR effects,
+                                                                                     exhibiting characteristics of network effect. Moreover, the network ef-
+5.2. Placebo test
+                                                                                     fect stemmed not only from urban economic scale but was also influ-
+                                                                                     enced by urban administrative power. The interplay of economic and
+    Given that the implementation of HSR is an irreversible event, its
+                                                                                     administrative factors resulted in heterogeneous HSR effects across
+evaluation hinges on counterfactual assumptions. A placebo test is
+                                                                                     different sectors.
+conducted to ascertain the causal impact of HSR and rule out spurious
+                                                                                          First, using the multi-stage DID model, we confirm that cities con-
+relationships. Typically, this involves simulating the policy’s imple-
+                                                                                     nected to HSR network underwent significant industrial upgrading. HSR
+mentation a set number of years prior and gauging resultant changes in
+                                                                                     accessibility, along with subsequent infrastructure and public service
+regression outcomes (Shao et al., 2017). Recognizing that HSR deploy-
+                                                                                     investments, increased tertiary sector activities. This, in turn, elevated
+ment transpires progressively rather than instantaneously, traditional
+                                                                                     real estate investment and land prices, prompting the relocation of the
+placebo testing isn’t directly applicable. As an alternative, a fictitious
+                                                                                     secondary sector to peripheral cities. The finding echoes previous
+implementation year is randomly chosen for repeated DID analyses to
+                                                                                     studies on the industrial impact of HSR development in regional China
+assess consistency in results. If the test still obtains a significant HSR
+                                                                                     (Dai et al., 2018; Lin, 2017; Shao et al., 2017). Additionally, we utilised
+effect on industrial structure change, some unobserved factors affect the
+                                                                                     the concept of “borrowed size” from network externality theory and
+                                                                                     DDD modelling to reveal that HSR effects on regional patterns involve
+Table 5                                                                              not only the dynamics of central cities but also the agency of peripheral
+Results of the parallel trend test.
+                                                                                     cities. Within the HSR network, small and medium-sized cities near large
+  Variables       Industrial structure   Secondary sectors   Tertiary sectors        central cities experienced disproportionate crowding-out effects on
+  HSR-B4          0.003                  − 0.025             0.005                   secondary industries. They may function as residential areas for nearby
+                  (0.13)                 (− 0.76)            (0.15)                  large cities, leveraging their housing market scale to increase land
+  HSR-B3          0.012                  − 0.042             0.040                   development and real estate investment, thereby raising land prices and
+                  (0.6)                  (− 1.05)            (0.93)
+                                                                                     costs to displace manufacturing. A typical example is Jiaxing in the re-
+  HSR-B2          0.025                  − 0.023             0.045
+                  (1.31)                 (− 0.61)            (0.99)                  gion, an inconspicuous city near Shanghai, which attracted Shanghai
+  HSR-B1          0.023                  − 0.047             − 0.014                 commuters through new urban development around its HSR station.
+                  (1.07)                 (− 1.4)             (− 0.29)                Meanwhile, the surge in land prices hindered manufacturers from
+  HSR-treat       0.045***               0.0769              0.041*                  relocating from Shanghai to Jiaxing (Huang and Du, 2021; Zhen et al.,
+                  (2.62)                 (1.31)              (1.94)
+  HSR-1st         − 0.011                − 0.119**           0.026**
+                                                                                     2023).
+                  (− 0.51)               (− 2.01)            (2.17)                       This study examined the HSR-induced development through a po-
+  HSR-2nd         − 0.005                − 0.092**           − 0.014                 litical economy lens, aiming to understand how both economic scale and
+                  (− 0.19)               (− 2.04)            (− 0.53)                administrative power were crucial in shaping HSR effects. The analysis
+  HSR-3rd         0.036**                − 0.122***          − 0.024
+                                                                                     reveals a nuanced picture: areas surrounding cities with higher admin-
+                  (1.98)                 (− 2.94)            (− 1.33)
+  Constant        6.457***               4.970               − 2.510                 istrative power experienced more pronounced tertiary sector shadow
+                  (3.74)                 (2.13)              (− 1.26)                effects, while the impact on secondary sectors was less evident. This
+  County FE       Yes                    Yes                 Yes                     suggests that administrative power primarily influences tertiary in-
+  Year FE         Yes                    Yes                 Yes                     dustries (such as IT, innovation, and finance) through public service
+Symbols *, **, and *** denote significance levels of 0.1, 0.05, and 0.01,            provision, industrial planning, and subsidies. In contrast, secondary
+respectively.                                                                        industries, being more sensitive to land prices, were primarily driven by
+
+                                                                                10
+D. Shi et al.                                                                                                      Journal of Transport Geography 123 (2025) 104113
+
+
+economic cost-benefit factors. Nanjing, the capital of Jiangsu Province            transportation infrastructure commensurate with their sizes. For
+in the region, exemplifies this dynamic. With its high administrative              instance, Suzhou, second only to Shanghai in economic output within
+power, Nanjing leveraged its superior educational and medical facilities           the Yangtze River Delta, has been precluded from constructing its
+after HSR construction to attract high-skilled talent and high-tech in-            airport due to its proximity to Shanghai’s Hongqiao and Pudong air-
+dustries from surrounding areas. Notably, this occurred without signif-            ports, as well as Nanjing’s Pukou airport. Our analysis aligns with the
+icantly siphoning or crowding out manufacturing in neighbouring small              findings of Wang et al. (2020), Zhang et al. (2020a) and Yang et al.
+and middle cities (Luo et al., 2004; Yang et al., 2021).                           (2023), who suggest that the effects of transportation infrastructure in
+    These results indicate that HSR effects on urban development are               China are hierarchical and subject to scalar politics due to administra-
+multifaceted, involving aspects such as transport geography and the                tive orientation.
+political economy of infrastructure development. HSR development                       This study contributes to the existing literature on political economy
+enhances inter-city interactions, affecting both economic activities and           of infrastructure development and its induced development. While
+local government relations. As a result, peripheral regions may need to            higher-ranked cities are more likely to secure HSR stations and train
+tailor their development strategies before integrating into HSR net-               services, this does not necessarily guarantee local industrial upgrading
+works. Cities that are focusing on tertiary industries, transitioning from         and economic growth. Indeed, HSR development can lead to the
+manufacturing to services, or promoting real estate development might              displacement of secondary industries and may intensify the siphoning
+benefit from the HSR construction. On the other hand, cities aiming to             effects of higher-ranked cities, potentially hindering regional economic
+revitalise secondary industries may not gain the maximum benefits from             development. These findings have significant implications for regions
+passenger-dedicated HSR.                                                           such as Southeast Asia, Africa, and India, where governments are
+                                                                                   attempting to restructure economic development, industrial activities,
+6.2. Conclusions                                                                   and regional structures through high-speed transport infrastructure
+                                                                                   construction (Wilmsmeier and Monios, 2016). As our conclusions indi-
+    This study emphasizes that HSR, as a government-led regional                   cate, HSR effects on regional development depends not only on pre-
+infrastructure initiative, generates not only various regional economic            existing economic geography but also significantly on administrative
+development effects (externalities based on urban size) but also                   power structures, offering valuable insights for future transport devel-
+administrative power restructuring (externalities based on urban                   opment in these regions.
+governmental administrative power). By employing transportation                        While this study offers some insights, it is important to acknowledge
+infrastructure as a mediating lens, we offer a novel insight into the              several limitations. This analysis primarily focused on the secondary and
+increasingly discussed convergence of economic geography and urban                 tertiary industries. As highlighted by Shao et al. (2017), the impacts of
+political economy (Jonas and Moisio, 2018; Wang et al., 2024). By                  HSR can vary significantly within specific subcategories of these in-
+examining the externalities of HSR effects, this paper enhances the                dustries. Second, as noted by Wang et al. (2018), factors such as the
+previous understanding of the impact of HSR network development and                frequency of train services and strategic station placements can intro-
+its variations, which has primarily been viewed from the perspective of            duce notable heterogeneity in HSR effects. Third, this study only focused
+accessibility and connectivity (Chen and Hall, 2011; Wang et al., 2018;            on the well-developed Yangtze River Delta region in China. The regional
+Diao, 2018).                                                                       specificity also implies that the conclusions have inherent geographical
+    Our findings demonstrate that HSR network development promoted                 limitations. Given the Yangtze River Delta’s advanced urbanization and
+industrial upgrading in cities along its routes. While previous research           polycentric structure, the effects of HSR construction in this area may
+has established that HSR facilitates the relocation of secondary in-               not be directly applicable to regions in China’s interior or other coun-
+dustries and the concentration of tertiary industries (Blanquart and               tries in the Global South (Jiao et al., 2014). Thus, future research should
+Koning, 2017; Shao et al., 2017; Tang et al., 2021; Zhou and Zhang,                address these limitations by comparing network externalities across
+2021; Chang and Zheng, 2022), our examination reveals nuanced vari-                regions with different political and economic conditions. Additionally,
+ations based on city size and administrative rank. Central cities in the           incorporating qualitative methods to explore the mechanisms of
+HSR network may witness the relocation of secondary industries to non-             administrative externalities would provide an alternative view of HSR
+HSR cities, rather than to other HSR cities. Moreover, while HSR access            transportation-induced urban and regional development.
+attracted tertiary industry agglomeration to smaller cities, it also
+exposed them to the siphoning effects of central cities. As a result,              CRediT authorship contribution statement
+although non-central cities in the HSR network may experience indus-
+trial upgrading, the total volume of tertiary industries may not neces-               Dehao Shi: Writing – review & editing, Writing – original draft,
+sarily grow. It depends on the ability of peripheral cities to mitigate the        Visualization, Validation, Software, Resources, Methodology, Investi-
+siphoning effects of central cities while simultaneously leveraging HSR            gation, Formal analysis, Data curation, Conceptualization. Lei Wang:
+to attract tertiary industries from surrounding non-HSR areas.                     Writing – review & editing, Validation, Funding acquisition, Formal
+    While previous studies often view transport infrastructure develop-            analysis, Conceptualization. Xianchun Zhang: Writing – review &
+ment as synchronous with urban economic growth - a perspective                     editing, Validation, Conceptualization. Tao Yu: Writing – review &
+particularly prevalent in neoliberal developed economies (Vickerman,               editing, Validation, Funding acquisition, Conceptualization.
+2018) - this approach may have limitations in developing economies,
+especially those with strong state intervention. With the rise of                  Declaration of competing interest
+deglobalization and the consideration of national security, govern-
+mental influence on economic and transport development domains may                    We confirm that this manuscript has not been published elsewhere
+further strengthen. Unlike the market-driven infrastructure develop-               and is not under consideration by another journal. The author has no
+ment observed in the US, Europe, and Japan (Vickerman, 2015; Diao,                 conflicts of interest to declare.
+2018), regional transportation network externalities in emerging econ-
+omies manifest in both economic and administrative dimensions, of-                 Acknowledgments
+fering new perspectives on HSR construction and transport policy
+analysis. Higher-ranked cities, even if not geographically large, possess             This research was supported by the National Natural Science Foun-
+the authority to intervene in HSR or other regional transportation                 dation of China (42371191 and 2022000125), the International Part-
+infrastructure planning to align with their development visions.                   nership Program of the Chinese Academy of Sciences
+Conversely, economically large cities may not necessarily obtain                   (045GJHZ2023059FN).
+
+                                                                              11
+D. Shi et al.                                                                                                                              Journal of Transport Geography 123 (2025) 104113
+
+
+Data availability                                                                                  Phelps, N.A., 2004. Clusters, dispersion and the spaces in between: for an economic
+                                                                                                       geography of the banal. Urban Stud. 41, 971–989.
+                                                                                                   Qin, Y., 2017. ‘No county left behind?’The distributional impact of high-speed rail
+    Data will be made available on request.                                                            upgrades in China. J. Econ. Geogr. 17, 489–520.
+                                                                                                   Shangguan, Y., Guo, W., 2022. Is FDI a high-quality investment? Evidence from the
+References                                                                                             changes in the Chinese FDI after HSR opening. Appl. Econ. 54, 6863–6874.
+                                                                                                   Shao, S., Tian, Z., Yang, L., 2017. High speed rail and urban service industry
+                                                                                                       agglomeration: evidence from China’s Yangtze River Delta region. J. Transp. Geogr.
+Alonso, W., 1973. Urban Zero Population Growth. Daedalus, pp. 191–206.                                 64, 174–183.
+Banerjee, A., Duflo, E., Qian, N., 2012. On the Road: Access to Transportation                     Shaw, S.-L., Fang, Z., Lu, S., et al., 2014. Impacts of high speed rail on railroad network
+     Infrastructure and Economic Growth in China. National Bureau of Economic                          accessibility in China. J. Transp. Geogr. 40, 112–122.
+     Research.                                                                                     Shen, Y., de Abreu e Silva, J., Martínez, L.M., 2014. Assessing high-speed Rail’s impacts
+Blanquart, C., Koning, M., 2017. The local economic impacts of high-speed railways:                    on land cover change in large urban areas based on spatial mixed logit methods: a
+     theories and facts. Eur. Transp. Res. Rev. 9.                                                     case study of Madrid Atocha railway station from 1990 to 2006. J. Transp. Geogr.
+Bracaglia, V., D’Alfonso, T., Nastasi, A., et al., 2020. High-speed rail networks, capacity            41, 184–196.
+     investments and social welfare. Transp. Res. A Policy Pract. 132, 308–323.                    Song, W., Zhu, Q., Zhu, Y., et al., 2015. The impacts of high speed railways for different
+Burger, M.J., Meijers, E.J., Hoogerbrugge, M.M., et al., 2015. Borrowed size,                          scale cities. Econ. Geogr. 35, 57–63.
+     agglomeration shadows and cultural amenities in North-West Europe. Eur. Plan.                 Tang, C., Guan, M., Dou, J., 2021. Understanding the impact of high speed railway on
+     Stud. 23, 1090–1109.                                                                              urban innovation performance from the perspective of agglomeration externalities
+Chang, Z., Zheng, L., 2022. High-speed rail and the spatial pattern of new firm births:                and network externalities. Technol. Soc. 67, 101760.
+     evidence from China. Transp. Res. A Policy Pract. 155.                                        Tian, G., Jiang, J., Yang, Z., et al., 2011. The urban growth, size distribution and spatio-
+Chen, C.-L., 2012. Reshaping Chinese space-economy through high-speed trains:                          temporal dynamic pattern of the Yangtze River Delta megalopolitan region, China.
+     opportunities and challenges. J. Transp. Geogr. 22, 312–316.                                      Ecol. Model. 222, 865–878.
+Chen, C.-L., Hall, P., 2011. The impacts of high-speed trains on British economic                  Ureña, J.M., Menerault, P., Garmendia, M., 2009. The high-speed rail challenge for big
+     geography: a study of the UK’s InterCity 125/225 and its effects. J. Transp. Geogr.               intermediate cities: a national, regional and local perspective. Cities 26, 266–279.
+     19, 689–704.                                                                                  Vickerman, R., 2015. High-speed rail and regional development: the case of intermediate
+Cheng, Y.-S., Loo, B.P.Y., Vickerman, R., 2015. High-speed rail networks, economic                     stations. J. Transp. Geogr. 42, 157–165.
+     integration and regional specialisation in China and Europe. Travel Behav. Soc. 2,            Vickerman, R., 2018. Can high-speed rail have a transformative effect on the economy?
+     1–14.                                                                                             Transp. Policy 62, 31–37.
+Dai, X., Xu, M., Wang, N., 2018. The industrial impact of the Beijing-Shanghai high-speed          Vickerman, R., Spiekermann, K., Wegener, M., 1999. Accessibility and economic
+     rail. Travel Behav. Soc. 12, 23–29.                                                               development in Europe. Reg. Stud. 33, 1–15.
+De Rus, G., Nombela, G., 2007. Is investment in high speed rail socially profitable?               Volgmann, K., Rusche, K., 2020. The geography of borrowing size: exploring spatial
+     J. Transp. Econom. Polic. (JTEP) 41, 3–23.                                                        distributions for German urban regions. Tijdschr. Econ. Soc. Geogr. 111, 60–79.
+Deng, T., Wang, D., Hu, Y., et al., 2020. Did high-speed railway cause urban space                 Wang, L., Duan, X., 2018. High-speed rail network development and winner and loser
+     expansion? ——empirical evidence from China’s prefecture-level cities. Res. Transp.                cities in megaregions: the case study of Yangtze River Delta, China. Cities 83, 71–82.
+     Econ. 80.                                                                                     Wang, J., Jiao, J., Jin, F., 2014. Spatial effects of high-speed rails on interurban economic
+Diao, M., 2018. Does growth follow the rail? The potential impact of high-speed rail on                linkages in China. Acta Geograph. Sin. 69, 1833–1846.
+     the economic geography of China. Transp. Res. A Policy Pract. 113, 279–290.                   Wang, L., Yuan, F., Duan, X., 2018. How high-speed rail service development influenced
+Faber, B., 2014. Trade integration, market size, and industrialization: evidence from                  commercial land market dynamics: a case study of Jiangsu province, China.
+     China’s National Trunk Highway System. Rev. Econ. Stud. 81, 1046–1070.                            J. Transp. Geogr. 72, 248–257.
+Gao, Y., Zheng, J., 2020. The impact of high-speed rail on innovation: an empirical test of        Wang, F., Wei, X., Liu, J., et al., 2019. Impact of high-speed rail on population mobility
+     the companion innovation hypothesis of transportation improvement with China’s                    and urbanisation: a case study on Yangtze River Delta urban agglomeration, China.
+     manufacturing firms. World Dev. 127, 104838.                                                      Transp. Res. A Policy Pract. 127, 99–114.
+Gutiérrez, J., Monzon, A., Piñero, J.M., 1998. Accessibility, network efficiency, and            Wang, J., Du, D., Huang, J., 2020. Inter-city connections in China: high-speed train vs.
+     transport infrastructure planning. Environ. Plan. A 30, 1337–1350.                                inter-city coach. J. Transp. Geogr. 82, 102619.
+Han, J., Hayashi, Y., Jia, P., et al., 2012. Economic effect of high-speed rail: empirical         Wang, K., Chung, C.K.L., Xu, J., et al., 2024. Reconceiving China’s urban economic
+     analysis of Shinkansen’s impact on industrial location. J. Transp. Eng. 138,                      transition through symbiotic state-firm dynamics: an integrated perspective from
+     1551–1557.                                                                                        urban governance and global production networks. Cities 150, 104974.
+Hiramatsu, T., 2018. Job and population location choices and economic scale as effects             Wei, S., Wang, L., 2020. Examining the population flow network in China and its
+     of high speed rail: simulation analysis of Shinkansen in Kyushu, Japan. Res. Transp.              implications for epidemic control based on Baidu migration data. Humanities and
+     Econ. 72, 15–26.                                                                                  Social Sciences Communications 7 (1), 145.
+Huang, Z., Du, X., 2020. How does high-speed rail affect land value? Evidence from                 Wei, S., Zheng, W., Wang, L., 2021. Understanding the configuration of bus networks in
+     China. Land Use Policy 105068.                                                                    urban China from the perspective of network types and administrative division
+Huang, Z., Du, X., 2021. How does high-speed rail affect land value? Evidence from                     effect. Transport policy 104, 1–17.
+     China. Land Use Policy 101, 105068.                                                           Wetwitoo, J., Kato, H., 2017. High-speed rail and regional economic productivity
+Jia, R., Shao, S., Yang, L., 2021. High-speed rail and CO2 emissions in urban China: a                 through agglomeration and network externality: a case study of inter-regional
+     spatial difference-in-differences approach. Energy Econ. 99, 105271.                              transportation in Japan. Case Stud. Transp. Polic. 5, 549–559.
+Jiao, J., Wang, J., Jin, F., et al., 2014. Impacts on accessibility of China’s present and         Wilmsmeier, G., Monios, J., 2016. Institutional structure and agency in the governance of
+     future HSR network. J. Transp. Geogr. 40, 123–132.                                                spatial diversification of port system evolution in Latin America. J. Transp. Geogr.
+Jonas, A.E.G., Moisio, S., 2018. City regionalism as geopolitical processes. Prog. Hum.                51, 294–307.
+     Geogr. 42, 350–370.                                                                           Wu, F., 2016. China’s Emergent City-region governance: a new form of state spatial
+Krugman, P., 1991. Increasing returns and economic geography. J. Polit. Econ. 99,                      selectivity through state-orchestrated rescaling. Int. J. Urban Reg. Res. 40,
+     483–499.                                                                                          1134–1151.
+Kunimi, T., Seya, H., 2021. Identification of the geographical extent of an area benefiting        Xiao, F., Zhou, Y., Deng, W., et al., 2020. Did high-speed rail affect the entry of
+     from a transportation project: a generalized synthetic control. J. Transp. Land Use               automobile industry start-ups? Empirical evidence from Guangdong Province, China.
+     14, 25–45.                                                                                        Travel Behav. Soc. 19, 45–53.
+Li, L.S., Yang, F.X., Cui, C., 2019. High-speed rail and tourism in China: an urban                Xu, J., Yeh, A.G.O., 2013. Interjurisdictional Cooperation through Bargaining: The Case
+     agglomeration perspective. Int. J. Tour. Res. 21, 45–60.                                          of the Guangzhou–Zhuhai Railway in the Pearl River Delta, China. China Q. 213,
+Li, X., Wu, Z., Zhao, X., 2020. Economic effect and its disparity of high speed rail in                130–151.
+     China: a study of mechanism based on synthesis control method. Transp. Policy 99,             Yang, L., Chen, W., Wu, F., et al., 2021. State-guided city regionalism: the development
+     262–274.                                                                                          of metro transit in the city region of Nanjing. Territ., Politics, Gov. 1–21.
+Liang, Y., Zhou, K., Li, X., et al., 2020. Effectiveness of high-speed railway on regional         Yang, H., Du, D., Wang, J., et al., 2023. Reshaping China’s urban networks and their
+     economic growth for less developed areas. J. Transp. Geogr. 82.                                   determinants: high-speed rail vs. air networks. Transp. Policy 143, 83–92.
+Lin, Y., 2017. Travel costs and urban specialization patterns: evidence from China’s high          Yu, F., Lin, F., Tang, Y., et al., 2019. High-speed railway to success? The effects of high-
+     speed railway system. J. Urban Econ. 98, 98–123.                                                  speed rail connection on regional economic development in China. J. Reg. Sci. 59.
+Luo, P.-f., Y-l, Xu, Zhang, N.-n., 2004. Study on the impacts of regional accessibility of         Zhang, F., Wang, F., Ou, J., et al., 2019. Role of high-speed rail on social fixed assets
+     high speed rail: a case study of Nanjing to Shanghai region. Econ. Geogr. 24,                     investments in China. J. Chin. Econ. Bus. Stud. 17, 221–244.
+     407–411.                                                                                      Zhang, M., Xu, J., Chung, C.K.L., 2020a. Politics of scale, bargaining power and its spatial
+Meijers, E.J., Burger, M.J., 2017. Stretching the concept of ‘borrowed size’. Urban Stud.              impacts: planning for Intercity railways in the Pearl River Delta, China. China Q.
+     54, 269–291.                                                                                      243, 676–700.
+Peck, J., 2023. Doing economics differently. Environ. Plann. A: Econom. Space 55,                  Zhang, M., Xu, J., Chung, C.K.L., 2020b. Scalar politics and uneven accessibility to
+     1799–1804.                                                                                        Intercity railway in the Pearl River Delta, China. Ann. Am. Assoc. Geogr. 110,
+                                                                                                       1260–1277.
+
+
+
+
+                                                                                              12
+D. Shi et al.                                                                                                                         Journal of Transport Geography 123 (2025) 104113
+
+Zhang, Y., Ma, W., Yang, H., et al., 2021. Impact of high-speed rail on urban residents’         Zhen, Y., Shi, D., Lu, Y., 2023. The impact of regional integration strategies on the
+   consumption in China—from a spatial perspective. Transp. Policy 106, 1–10.                       formation of City regions and its agglomeration shadow: evidence from the Yangtze
+Zhang, X., Shen, J., Sun, Y., et al., 2023. Formation of City regions from bottom-up                River Delta, China. Land 12, 1053.
+   initiatives: investigating coalitional Developmentalism in the Pearl River Delta. Ann.        Zheng, S., Kahn, M.E., 2013. China’s bullet trains facilitate market integration and
+   Am. Assoc. Geogr. 113, 700–716.                                                                  mitigate the cost of megacity growth. Proc. Natl. Acad. Sci. 110, E1248–E1253.
+Zhang, X., Lu Yn, Xu Y., et al., 2024. Governing regional inequality through regional            Zhou, Z., Zhang, A., 2021. High-speed rail and industrial developments: evidence from
+   cooperation? A case study of the Guangdong-Hong Kong-Macau Greater Bay area.                     house prices and city-level GDP in China. Transp. Res. A Policy Pract. 149, 98–113.
+   Appl. Geogr. 162, 103135.
+
+
+
+
+                                                                                            13
+

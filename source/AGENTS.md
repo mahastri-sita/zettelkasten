@@ -19,6 +19,17 @@ AI may create and maintain Source records autonomously when doing so supports an
 - If only metadata, an abstract, a snippet, or excerpts were accessed, do not imply that the full source was read.
 - Use `null` for unavailable metadata. Never infer bibliographic facts without evidence.
 
+## PDF Handling
+
+- Do not automatically convert PDFs into Markdown.
+- When PDF text is requested, default to a `.txt` extraction rather than a PDF-to-Markdown workflow.
+- Use `pdftotext` for PDFs with a native text layer.
+- Use `ocrmypdf` with the appropriate Tesseract language, followed by `pdftotext`, for scanned or image-only PDFs.
+- Preserve the original PDF unchanged and write any OCR/searchable PDF or extracted text as a separate derivative file.
+- Do not invoke the `pdf-to-markdown` skill unless the user explicitly requests PDF-to-Markdown conversion.
+- A Markdown Source record, when requested, is an authored provenance record with a digest and selected excerpts, not an automatic full-PDF mirror.
+- Use `pandoc` only after text extraction when another text-format conversion is explicitly requested; it is not the default PDF text or OCR tool.
+
 ## Required Core Template
 
 Every Source Markdown record must begin with this YAML core, extended by its source-type instruction:

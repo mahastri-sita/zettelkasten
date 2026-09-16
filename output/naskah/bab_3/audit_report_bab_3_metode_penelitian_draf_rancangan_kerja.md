@@ -4,7 +4,7 @@
 - Audited: 2026-08-26
 - Mode: self
 - Rubric: baseline Q1 urban planning conventions
-- Paper: `output/Bab 3 - Metode Penelitian - draf rancangan kerja.md`, sekitar 4.485 kata
+- Paper: `output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja.md`, sekitar 4.485 kata
 
 ## Summary
 

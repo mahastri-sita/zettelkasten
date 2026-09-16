@@ -1,0 +1,1172 @@
+[PDF Metadata]
+Source PDF: journal/A20-guo-liu-zhong-yang-luo-2022-borrowing-size-and-urban-green-development-efficiency-in-the-city-network-of-china-impact-measures-and-size-thresholds-10.3390-land11040493.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Borrowing Size and Urban Green Development Efficiency in the City Network of China: Impact Measures and Size Thresholds
+Subject:         Cities enhance the efficiency of green development among themselves through their borrowing population, economic activities density and advanced functions, but the positive green effect of the borrowing size is affected by the city size. Using panel data of 280 prefecture-level cities in China for the period 2009–2019, this paper measures the borrowing size in three dimensions, namely the borrowing population size, borrowing economic activity density and borrowing advanced functions, and uses the super efficiency slacks-based measure (SBM) model, including non-desired outputs, to measure the urban green development efficiency. After that, this paper empirically examines the effect of the borrowing size on the urban green development efficiency in the Chinese urban network using a double-fixed-effect model. A panel threshold regression with city size as the threshold variable is conducted to evaluate the nonlinear relationship quantitatively between the borrowing size and urban green development efficiency. The results show that all three dimensions of the borrowing size have positive effects on the urban green development efficiency. There is a significant double-threshold effect between the borrowing size and urban green development efficiency; under the threshold of the city size, there is a U-shaped relationship between the borrowing population size, borrowing advanced functions and urban green development efficiency, whereas there is an inverted U-shaped relationship between the borrowing economic activity density and urban green development efficiency. Accordingly, this paper argues that government should pay attention to the role of the borrowing size in promoting urban green development efficiency and reasonably expand the city size.
+Keywords:        borrowing size; urban green development efficiency; urban network; city size; panel threshold model
+Author:          Aijun Guo, Peixian Liu, Fanglei Zhong, Chunlin Yang and Xijing Luo
+Creator:         LaTeX with hyperref
+Producer:        GPL Ghostscript 9.55.0
+CreationDate:    Thu Jul 30 07:03:24 2026 WIB
+ModDate:         Thu Jul 30 07:03:24 2026 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           20
+Encrypted:       no
+Page size:       595 x 842 pts (A4)
+Page rot:        0
+File size:       1620813 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                                                      3.5        6.4
+
+
+
+
+Article
+
+
+Borrowing Size and Urban Green
+Development Efficiency in the City
+Network of China: Impact
+Measures and Size Thresholds
+
+Aijun Guo, Peixian Liu, Fanglei Zhong, Chunlin Yang and Xijing Luo
+
+
+
+
+                                                                     https://doi.org/10.3390/land11040493
+              land
+Article
+Borrowing Size and Urban Green Development Efficiency
+in the City Network of China: Impact Measures and
+Size Thresholds
+Aijun Guo 1 , Peixian Liu 1 , Fanglei Zhong 2, * , Chunlin Yang 1 and Xijing Luo 2
+
+                                          1   School of Economics, Lanzhou University, Lanzhou 730000, China; guoaj@lzu.edu.cn (A.G.);
+                                              liupx20@lzu.edu.cn (P.L.); yangchl21@lzu.edu.cn (C.Y.)
+                                          2   School of Economics, Minzu University of China, Beijing 100081, China; luoxj@bjast.ac.cn
+                                          *   Correspondence: zfl@muc.edu.cn; Tel.: +86-139-9312-7625
+
+
+                                          Abstract: Cities enhance the efficiency of green development among themselves through their
+                                          borrowing population, economic activities density and advanced functions, but the positive green
+                                          effect of the borrowing size is affected by the city size. Using panel data of 280 prefecture-level
+                                          cities in China for the period 2009–2019, this paper measures the borrowing size in three dimensions,
+                                          namely the borrowing population size, borrowing economic activity density and borrowing advanced
+                                          functions, and uses the super efficiency slacks-based measure (SBM) model, including non-desired
+                                          outputs, to measure the urban green development efficiency. After that, this paper empirically
+                                          examines the effect of the borrowing size on the urban green development efficiency in the Chinese
+                                          urban network using a double-fixed-effect model. A panel threshold regression with city size as the
+                                          threshold variable is conducted to evaluate the nonlinear relationship quantitatively between the
+                                          borrowing size and urban green development efficiency. The results show that all three dimensions
+         
+                                   of the borrowing size have positive effects on the urban green development efficiency. There is
+Citation: Guo, A.; Liu, P.; Zhong, F.;    a significant double-threshold effect between the borrowing size and urban green development
+Yang, C.; Luo, X. Borrowing Size and      efficiency; under the threshold of the city size, there is a U-shaped relationship between the borrowing
+Urban Green Development Efficiency        population size, borrowing advanced functions and urban green development efficiency, whereas
+in the City Network of China: Impact      there is an inverted U-shaped relationship between the borrowing economic activity density and
+Measures and Size Thresholds. Land        urban green development efficiency. Accordingly, this paper argues that government should pay
+2022, 11, 493. https://doi.org/           attention to the role of the borrowing size in promoting urban green development efficiency and
+10.3390/land11040493                      reasonably expand the city size.
+Academic Editor: Thomas
+Panagopoulos                              Keywords: borrowing size; urban green development efficiency; urban network; city size; panel
+                                          threshold model
+Received: 22 February 2022
+Accepted: 26 March 2022
+Published: 29 March 2022
+
+Publisher’s Note: MDPI stays neutral      1. Introduction
+with regard to jurisdictional claims in         China’s urbanization has entered the late stage of rapid development, and its devel-
+published maps and institutional affil-   opment process is in the transition period from “size expansion” to “quality improve-
+iations.                                  ment” [1,2]. The main conflict that constrains China’s urbanization is promoting the quality
+                                          of urban development while solving resource and environmental problems that arise in the
+                                          process of urbanization [1,3]. In October 2021, the General Office of the State Council issued
+                                          “Opinions on Promoting Green Development in Urban and Rural Construction”, which
+Copyright: © 2022 by the authors.
+                                          explicitly incorporates green development into the assessment of urban development and
+Licensee MDPI, Basel, Switzerland.
+                                          proposes that “by 2025 the problem of ‘urban disease’ will be alleviated, the green transfor-
+This article is an open access article
+distributed under the terms and
+                                          mation of cities will be effective, and cities will achieve holistic and growth enhancement”.
+conditions of the Creative Commons
+                                          This indicates that urban green development is a necessary part of solving the main conflict
+Attribution (CC BY) license (https://     between China’s urbanization and the promotion of the green and sustainable development
+creativecommons.org/licenses/by/          of cities, as well as the inevitable need to build a quality modern economic system [4,5].
+4.0/).
+
+
+
+
+Land 2022, 11, 493. https://doi.org/10.3390/land11040493                                                       https://www.mdpi.com/journal/land
+Land 2022, 11, 493                                                                                           2 of 19
+
+
+
+
+                            Urban green development efficiency (GDE) is an effective alternative indicator with
+                     which to measure the level of urban green development. It is a comprehensive indicator
+                     that pays more attention to resource input and environmental pollution on the basis of
+                     economic development efficiency. The improvement in urban GDE is considered as an
+                     important way to improve the level of urban green development [6,7]. It has thus become
+                     increasingly important to study how to improve the urban GDE in enhancing the level
+                     of urban development. With the rapid development of transportation interconnection
+                     and the industrial division of labor among cities, the trend of networking among cities
+                     has become increasingly prominent, and the role of the urban network and its external
+                     effects in economic development has become increasingly important [8,9]. Additionally,
+                     the “borrowing size” arising from the interaction between the markets of different cities
+                     can substitute for the local agglomeration economy and thus enhance urban development,
+                     i.e., a city exhibits urban functions or economic performance that is greater than that of
+                     its larger counterpart [10]. Under the constraints of resources and the environment [11],
+                     we ask whether the “borrowing size” based on the city network affects the quality of
+                     urban development. Furthermore, considering the constraints of the cities’ own sizes, we
+                     want to know the effect of the borrowing size on the urban GDE. An in-depth study of
+                     these problems will be helpful in moving on from the long-standing debate on China’s
+                     urbanization development model and will have theoretical and practical importance for
+                     promoting the quality development of new urbanization, the quality development of the
+                     economy and the establishment of an urban ecological civilization in China.
+                            There has been disagreement about how to develop urbanization in China, i.e., whether
+                     to focus on the development of large cities or to focus on small and medium-sized cities
+                     in a polycentric city network [12]. The source of disagreement mainly relates to whether
+                     the agglomeration economy or agglomeration diseconomy dominates in urban expansion.
+                     Supporters of focusing on large cities have mainly viewed urbanization from the perspective
+                     of an agglomeration economy [13,14]; i.e., they hold the belief that the agglomeration
+                     economy benefits urban development increase with the size of cities [15,16]. However, the
+                     agglomeration economy effect of the urban size also has a boundary in that the marginal
+                     payoff of the urban size economy starts to diminish once the urban size development
+                     exceeds a critical point, which may lead to the dilemma of “agglomeration not economy”
+                     and many problems of “big city disease” [17], several of which have been discussed [18,19].
+                     Scholars [20–22] who support a polycentric network development model focusing on small
+                     and medium-sized cities argue that, with the interconnection of a city network, small and
+                     medium-sized cities can borrow the agglomeration economy effects of other cities for their
+                     own urban productivity while avoiding agglomeration costs [23]. In the process of China’s
+                     urban development, the mechanism of inter-city borrowing size provides a reasonable
+                     explanatory logic for the rapid growth of Chinese cities [10].
+                            The relationship between the borrowing size, urban network externality and urban
+                     development have been key topics of research on urban economics [12]. The realization
+                     of the borrowing size depends on the increasing improvement in urban networks; the
+                     borrowing size and urban development need to allow the full play of urban network
+                     externality, and the borrowing size and urban network externality are, in turn, driving
+                     forces of urban development [24,25]. The importance of urban network externality has
+                     increased with the gradual improvement in urban network accessibility and inter-city
+                     connectivity, and the network advantage has become a club product [23,26]. Zonneveld was
+                     the first to propose the study of economies of scale based on inter-city connectivity channels
+                     from the perspective of the “city network” [27]. The concept of “urban network externality”
+                     emerged from frequent economic activities and functional linkages between cities in an
+                     urban network to build a complementary urban network system and to obtain higher
+                     economic benefits through the division of labor and functional complementarity between
+                     cities [26,28]. The borrowing size, which is based on inter-city interconnection, is often
+                     considered a manifestation of positive urban network externality [29], to a certain extent.
+                     This overcomes the dilemma of diminishing returns of increasing the size of cities, replaces
+Land 2022, 11, 493                                                                                             3 of 19
+
+
+
+
+                     the local agglomeration economy and improves urban productivity [10,27]. Liu and Chen
+                     empirically examined the phenomenon of the borrowing size and borrowing functions in
+                     China’s urban system from the perspective of network externality and pointed out that
+                     building a polycentric city network system with complementary functions should become
+                     an important direction of China’s urbanization [30]. Yao and Song examined the effects
+                     of the borrowing size and network externalities on the agglomeration economy of urban
+                     agglomerations using data for prefecture-level cities [24]. Other studies explored the effect
+                     of the borrowing size on the productivity of small and medium-sized cities considering
+                     three dimensions of the borrowing size, namely the population, economic performance
+                     and urban functions [31]. However, the effects of the borrowing size, population and
+                     functions from other cities in an urban network are not necessarily beneficial to urban
+                     development [32]. Rather, the competitive behavior of cities in the urban network may lead
+                     to the “siphoning effect” of some large cities on neighboring cities, which negatively affects
+                     the development of these neighboring cities, and the urban competition leads to a partial
+                     loss of urban development efficiency [33,34]. This negative effect of network externality is
+                     called the agglomeration shadow [35,36]. In the urban network, the borrowing size and
+                     agglomeration shadow may coexist in the same urban development process [37], and there
+                     may be differences in the magnitudes of their effects [24,38]. Many studies have confirmed
+                     the phenomenon of the borrowing size, but no study has directly confirmed the existence
+                     of agglomeration shadows [39,40].
+                          There are three clear gaps in the existing literature. (1) Scholars have empirically tested
+                     the influencing factors of urban GDE from different perspectives [41], but few studies have
+                     linked the urban borrowing size with the urban GDE from the perspective of the urban
+                     network. (2) There is no consensus on any of the research findings regarding the possible
+                     agglomeration economic effect and congestion effect of urban size expansion on urban
+                     green development [32,42]. Green development efficiency is a comprehensive indicator that
+                     considers economic development, resource conservation and pollution emission. However,
+                     few studies have included the urban borrowing size, urban GDE and urban size within the
+                     same research framework. (3) The realization of the borrowing size depends on the urban
+                     network, and the inter-city traffic accessibility largely affects the borrowing size [8]. It is
+                     thus important to set distance weights when measuring the borrowing size. At present,
+                     many scholars choose the spatial Euclidean distance or inter-city train travel time matrix
+                     to measure the accessibility of the urban network, but both methods have limitations.
+                     The present paper expands and extends the existing research in the following respects.
+                     First, the required traffic distance matrix of cities is calculated by crawling the driving
+                     path planning of Gaode Map using the R programming language to make the setting of
+                     weights more realistic and improve the accuracy of the measurement of borrowing size.
+                     Second, this paper uses the data of 280 prefecture-level cities in China to construct the urban
+                     network system from the perspective of urban network externality, and incorporates urban
+                     borrowing size, urban GDE and city size into the same research framework to explore the
+                     effect of borrowing size on the urban GDE. Moreover, considering the possible “threshold
+                     effect” of the city size, a panel threshold model is used to test the nonlinear relationship
+                     between the borrowing size and urban GDE.
+                          The remainder of the paper is structured as follows. Section 2 composes the theoretical
+                     mechanism and proposes research hypotheses. Section 3 introduces the econometric model.
+                     Section 4 conducts an empirical analysis and analyzes the results. Section 5 summarizes
+                     the research findings and proposes policy recommendations accordingly.
+
+                     2. Hypothesis Development
+                           In the urban network, a city’s access to or utilization of the potential size of other
+                     cities by virtue of its own node location and functional connection in the urban network is
+                     called the borrowing size [32,40]. This paper considers three dimensions of the borrowing
+                     size, namely the borrowing population size, borrowing economic activity density and
+                     borrowing advanced functions [24,31]. The realization of the borrowing size requires
+Land 2022, 11, 493                                                                                                4 of 19
+
+
+
+
+                     continual improvement in the urban network [9]. Additionally, the frequent economic
+                     connections between cities and the frequently interacting economic activities between
+                     cities are important carriers through which the borrowing size exerts the externality of
+                     the urban network [30]. Therefore, from the perspective of urban network externality,
+                     inter-city interconnection accelerates the flow of various factors in the flow space of the
+                     urban network, reduces the time cost of factor circulation, improves the efficiency of
+                     factor allocation and flow and reduces the waste of resources [43,44]. Cities participate
+                     in the city network as a kind of club product, which means that not only do the cities
+                     themselves receive the city network externality effect but also the cities affect other cities in
+                     the city network [45]. Instead of emphasizing the disorderly competition between cities,
+                     city network externality focuses on the division of labor, functional complementarity and
+                     synergistic development among cities. In a complementary city network, the borrowing
+                     size depends on the mutual integration of the city network, which not only helps cities
+                     escape from the dilemma of the diminishing returns of increasing the city size in the
+                     development process but also accounts for social and ecological benefits, thus improving
+                     the urban GDE [12,42].
+
+                     Hypothesis 1 (H1). The use of the borrowing size is an effective way to promote urban GDE.
+
+                           In the urban network, the huge borrowing population size provides a potential market
+                     size for urban economic development [26], which breaks the traditional geographical
+                     boundary limitation of the location, the vertical spatial hierarchy, the limitation of the
+                     local spatial locations of cities and the limitation of the local capacity. On the basis that
+                     the interconnection of cities is strengthening, the borrowing population size eliminates
+                     many intermediate links of cooperation and transaction between cities, reduces information
+                     friction and greatly reduces the cost loss due to information asymmetry. Conversely,
+                     it also optimizes the cross-regional allocation of factor and product markets, which is
+                     conducive to improving the matching efficiency of supply and demand and factors in
+                     the market. This decreases the transaction matching cost in the market and thus reduces
+                     the unnecessary efficiency loss and improves the urban GDE [8]. To a certain extent,
+                     the density of economic activities reflects the Jacobs-type externality of urban economic
+                     development [46] and thus the knowledge diffusion and technology spillover among
+                     different industries. The urban GDE can be increased through knowledge diffusion and
+                     technology spillover. Although the public-good nature of knowledge itself determines its
+                     strong spillover, the spillover is still subject to spatial localization effects. In a city network,
+                     inter-city interconnection is conducive to both the breaking of the spatial limitation of
+                     knowledge spillover and a complementary synergy of inter-city functions [29]. Having
+                     dense borrowing economic activity is an effective method of knowledge diffusion and
+                     technology spillover and accelerates inter-city factor flow and technology transfer, resulting
+                     in jumping spatial network spillover effects and better transforming knowledge diffusion
+                     and technology spillover into economic, social and ecological benefits and thus improved
+                     urban GDE [47]. With the increasingly frequent connection of economic activities among
+                     cities, functional linkages and a synergistic relationship among cities have developed. The
+                     borrowing of advanced functions for urban development is mainly realized through the
+                     spatial division of labor in inter-city functional linkages. With the promotion of borrowing
+                     advanced functions, cities can make use of their node status, functional linkages and
+                     role relationships in the urban network to borrow advanced functions and thus realize
+                     the reasonable division of labor and collaboration of cities in the industrial system [48];
+                     promote the networking, rationalization and linking of the inter-city division of labor and
+                     collaboration through the reasonable division of labor and collaboration among products,
+                     industries and industrial chains [49]; and promote the adding of value to products and
+                     industrial upgrades, which are conducive to achieving economies of scale while avoiding
+                     non-essential costs and realizing the inclusive growth of cities, thus improving the urban
+                     GDE. Accordingly, the following hypothesis is proposed.
+Land 2022, 11, 493                                                                                                 5 of 19
+
+
+
+
+                     Hypothesis 2 (H2). Increases in the borrowing population size, borrowing economic activity
+                     density and borrowing advanced functionality are conducive to efficient urban green development.
+
+                          Scholars generally agree that urban development is closely related to local factors
+                     such as the city size [50,51]. In recent years, with the deepening of the urban network,
+                     the borrowing size based on urban networks is considered to be a substitute for the local
+                     agglomeration economy in enhancing urban development. In the new era, the effect of
+                     the borrowing size on the urban GDE may also be constrained by the city size [52]. As
+                     one possibility, the expansion of the urban development size may have an agglomeration
+                     economy effect on the development of an urban green economy, i.e., the positive externality
+                     of the urban size. An expansion of the city size can accelerate the flow of labor and
+                     other factors, reduce matching and market transaction costs, expand the spillover effect of
+                     knowledge and technology and accelerate the cumulative transformation of knowledge and
+                     technology, thus creating higher marginal value-added gains of knowledge and technology.
+                     Additionally, it can realize the efficient industrial division of labor and collaboration,
+                     improve the efficiency of factor utilization and reduce energy consumption and pollution
+                     through synergistic effects [41]. At the same time, the expansion of the city size provides
+                     convenient conditions for industrial spatial agglomeration, which is conducive to large-size
+                     and intensive product production, and thus promotes the inclusive development of the
+                     urban economy and improves the urban GDE [53]. Conversely, there may be a critical point
+                     in the expansion of the urban size, and once the critical point is exceeded, there is negative
+                     externality of the urban size. This negative externality is due to a series of urban diseases
+                     that may be brought about by the expansion of the urban size [54], leading to inefficient
+                     urban economic growth, stricter resource constraints and environmental pollution and,
+                     therefore, lower urban green economic efficiency. Accordingly, the following hypothesis
+                     is proposed.
+
+                     Hypothesis 3 (H3). The effect of the borrowing size on the urban GDE is constrained by the urban
+                     development size, i.e., the expansion of urban development size may expand the positive green effect
+                     of the borrowing size, but there is a critical point which, once exceeded, may lead to a decrease in
+                     urban GDE.
+
+                     3. Models, Variables and Data Specifications
+                     3.1. Models
+                          The present paper investigates the effect of the borrowing size on urban GDE in three
+                     dimensions, namely the borrowing population size, borrowing economic activity density
+                     and borrowing advanced functions. There are individual differences among cities and
+                     the unobservable factors affecting urban GDE vary, and there may also be factors that
+                     change over time. The present paper thus uses a double-fixed-effect model for regression
+                     estimation. The panel model is constructed as follows.
+
+                                 GDEit = α + β1 Bpopit + β2 Bdenit + β3 Bfunit + β4 Xit + µi + σt + εit               (1)
+
+                           In the above equation, the subscripts i and t denote cities and years; α, β1 , β2 , β3
+                     and β4 are the parameters to be estimated; µi denotes city-specific effects that do not
+                     vary with time; σt denotes time-fixed effects; εit is a random disturbance term; Bpopit ,
+                     Bdenit and Bfunit are core explanatory variables; “Bpop” stands for borrowing population
+                     size, “Bden” stands for borrowing economic activity density, “Bfun” stands for borrowing
+                     advanced functions; and Xit is a set of control variables. To eliminate heteroskedasticity,
+                     this paper takes the logarithmic value of the aggregate indicator of the number of patents
+                     per 10,000 people, whereas all other control variables are relative ratio indicators, for which
+                     a logarithmic value need not be taken.
+                           Meanwhile, considering the effect of the urban development size on the urban GDE,
+                     this paper, using the threshold regression model of Hansen [55], constructs a threshold
+                     regression model by the taking city size (CZ) as a threshold variable (in a double-threshold
+Land 2022, 11, 493                                                                                                                 6 of 19
+
+
+
+
+                                    regression model) to examine the constraint mechanism of the borrowing size affecting the
+                                    urban GDE.
+          GDE = α + β Bpop I(CZ ≤ γ ) + β Bpop I(γ < CZ ≤ γ ) + β Bpop I(CZ > γ ) +
+                    it = α≤+γβ)1 Bpop
+              GDEI(CZ
+          β Bden                          it I(CZI(γ
+                                    + β Bden      it ≤ <
+                                                       γ1CZ )+β    γ ) +itβI(γ
+                                                                ≤2 Bpop         1 < CZ
+                                                                             Bden       it ≤>
+                                                                                     I(CZ      γ2γ) +
+                                                                                                    ) +β3 Bpopit I(CZit > γ2 ) +
+              β4 Bdenit I(CZit ≤ γ1 ) + β5 Bdenit I(γ1 < CZit ≤ γ2 ) + β6 Bdenit I(CZit > γ2 ) +                                      (2)
+          β Bfun  I(CZit I(≤CZ
+              β7 Bfun        γ it) ≤    ) + β8I(γ
+                                   + βγ1Bfun    Bfun<it ICZ    < γCZ
+                                                          ( γ1 ≤    ) it+ ≤
+                                                                          βγ 2 ) + I(CZ
+                                                                            Bfun   β9 Bfun >itγI(CZ
+                                                                                                  ) +itβ> Xγ2 )++μβ+  ε it + µi + εit
+                                                                                                                   10 X
+
+                                         In the above equation, i iand t tdenote cities and years whereas I(·) denotes a threshold
+                                  display function. BpopBpopit , BdenBden
+                                                                      it  and BfunitBfun
+                                                                                      are the core explanatory variables affected
+                                                                         CZ   CZ
+                                  by the threshold variable (CZit ); CZit is the threshold variable, which    whichstands for city
+                                          X                                                 CZ   γ
+                                  size. Xit denotes the control variables other than CZit , γ is the specific threshold value,
+                                  µμi is the individual city effect that does not vary over time and εεit is the “white noise”
+                                  disturbance term.
+
+                                  3.2. Measurement of Variables
+                                       (1) Explanatory variable: urban GDE. It is a comprehensive indicator of urban eco-
+                                  nomic growth, resource conservation and environmental pollution. In this paper, a Super-
+                                  SBM model including non-desired outputs is developed to measure the urban GDE of 280
+                                  prefecture-level cities in China. The spatial and temporal distribution of the GDE is shown
+                                  in Figure 1.
+
+
+
+
+                                  Figure 1. Spatial and temporal distributions of the urban green development efficiency.
+
+                                        The model mainly includes the input, desired output and undesired output. Input
+                                  indicators include labor, capital and resources [56], and referring to existing studies, this
+                                  paper chooses to measure labor input by the total number of urban units used at the end
+                                  of the year [57]. Capital is measured as the capital stock calculated using the perpetual
+                                  inventory method, and the depreciation rate is set at 9.6% by referring to the study of
+                                  Zhang Jun et al. [58]. The present study mainly considers resources relating to land, water
+                                  and electricity consumption [59] and uses the corresponding urban construction land area,
+                                  total water supply and city-wide electricity consumption as measures of consumption [60].
+                                  The expected output integrates economic, social and environmental benefits. The gross
+                                  domestic product (GDP) deflator is converted to the real GDP in 2009 as the base period
+                                  to measure economic benefits; the consumer price index is converted to the real average
+                                  wage of employees in 2009 as the base period to characterize social benefits, and the area
+                                  of urban park green space is used to measure environmental benefits. To consider the
+                                  negative impact on the environment, the undesired output is mainly measured as industrial
+                                  wastewater emissions, industrial SO2 emissions and industrial smoke and dust emissions.
+                                  The input–output indicator system and the descriptive statistics of each indicator for the
+                                  GDE of 280 prefecture-level cities in China are given in Table 1 below.
+Land 2022, 11, 493                                                                                                                       7 of 19
+
+
+
+
+                                     Table 1. Urban green development efficiency input–output indicator system and its descriptive
+                                     statistics.
+
+  Standard Layer       Element Layer         Indicator Layer         Unit        Obs       Mean           Std. Dev.       Min         Max
+                         Workforce          City employment      10,000 people   3080    118.1009         166.2015       6.5434     1729.076
+                           Capital            Capital stock         Billion      3080    9895.286         10,552.82     404.403     106,044.4
+                                           Urban construction       Square
+                                                                                 3080    142.5258             209.644     0.37        3203
+                                               land area          kilometers
+ Inputs indicators
+                                            Total water supply   Million tons    3080    15,965.35        31,153.63       213       341,389
+                         Resources
+                                             Total electricity
+                                           consumption of the    Million KW·h    3080    141.1867         194.8007         8          3371
+                                              whole society
+                      Economic benefits         Real GDP            Billion      3080    2116.046         2875.158       87.928     30,764.86
+                                            Average wage of
+    Expectations       Social benefits                               Yuan        3080    32,135.63        8918.847      12,721.22   96,106.13
+                                            urban residents
+      outputs
+                       Environmental
+                                             Park green area       Hectares      3080    1713.353         3147.361         16        35,157
+                          benefits
+                                               Industrial
+                                               wastewater        Million tons    3080    6435.306         8345.916         7        11,0763
+                                                discharge
+    Non-desired      Negative impact on       Industrial SO2
+     outputs          the environment                            Million tons    3080     5.2314              8.5902     0.0081     152.6334
+                                                emissions
+                                             Industrial fume
+                                                                 Million tons    3080     3.1901              13.6201    0.0034     516.8812
+                                           and dust emissions
+
+
+                                          (2) Core explanatory variables: three dimensions of the borrowing size (Bor). Figure 2
+                                     presents the spatiotemporal distribution of the core explanatory variables. This paper
+                                     mainly refers to the study of Gong and Zhong [31] and measures the urban borrowing size
+                                     according to the borrowing population size (Bpop), borrowing economic activity density
+                                     (Bden) and borrowing advanced functions (Bfun), defined as follows.
+
+                                                                                    279 popj,t
+                                                                       Bpopit = ∑j=1             , ∀ i 6= j                                   (3)
+                                                                                         wij,t
+
+                                                                                    279 denj,t
+                                                                       Bdenit = ∑j=1             , ∀ i 6= j                                   (4)
+                                                                                         wij,t
+
+                                                                                    279 funj,t
+                                                                       Bfunit = ∑j=1             , ∀ i 6= j                                   (5)
+                                                                                        wij,t
+                                           In the above equations, cities i and j are not in the same year t, popj is the population
+                                     of city j, denj is the density of economic activities in city j, funj is the advanced functions of
+                                     city j and wij is the transportation distance between cities i and j. This paper calculates denj
+                                     following Yao and Song [24] as follows.
+
+                              total annual urban railway, highway, water and air passenger transport
+                     denj =                                                                          /365                                     (6)
+                                                          built − up areas
+                                          In this paper, the definition of high-end service-oriented industries in the tertiary sector
+                                     mainly refers to relevant studies of Liu and Chen [30]. Such industries mainly include the
+                                     transportation, storage and postal industry, information transmission, computer services
+                                     and software industry, financial industry, real estate industry, leasing and business services
+                                     and scientific research and technical services.
+Land 2022, 11, 493                                                                                                8 of 19
+
+
+
+
+                                                    (a)
+
+
+
+
+                                                    (b)
+
+
+
+
+                                                    (c)
+
+                     Figure 2. Spatiotemporal distribution of the borrowing size. (a) Spatiotemporal distribution of
+                                                     Spatiotemporal distribution of the borrowing economic activity den-
+                     the borrowing population size. (b) Spatiotemporal distribution of the borrowing economic activity
+                     sity.   Spatiotemporal distribution of the borrowing economic activity density.
+                     density. (c) Spatiotemporal distribution of the borrowing economic activity density.
+
+                           (3) Threshold variable: city size (CZ). The city size mainly includes the urban popula-
+                     tion, space and economic size, which can be measured respectively as the urban population
+                     size, administrative district area and level of urban economic development [41]. The size of
+                     urban development studied in this paper is the size of the urban population, and the total
+                     urban population at the end of the year is thus chosen as its measure; this is a common
+                     measure of the urban size that has been used by many scholars.
+                           (4) Other control variables. The level of real fixed asset investment (Invest) is mea-
+                     sured as the ratio of the real fixed asset investment to the GDP of the year. The level of
+                     foreign investment utilization (Fdi) is expressed by the ratio of the amount of foreign direct
+                     investment converted by the exchange rate to the GDP of the year. The level of technology
+                     (Tec) is measured as the logarithm of the number of patents per 10,000 people. The road
+                     area per capita is measured as the infrastructure development of the city (Road). The
+                     degree of government intervention (Gov) is expressed by the share of local general public
+                     budget fiscal expenditure in the GDP. Table 2 shows the measurement methods used for
+                     the variables.
+Land 2022, 11, 493                                                                                                                  9 of 19
+
+
+
+
+                                 Table 2. Variable descriptions.
+
+         Type         Variable                       Meaning                                          Measurement
+     Explanatory                                                                      A Super-SBM model including non-desired
+                       GDE            Urban green development efficiency
+       variable                                                                                     outputs
+
+        Core           Bpop                Borrowing population size                     Refer to the study of Gong and Zhong
+     explanatory       Bden           Borrowing economic activity density                Refer to the study of Gong and Zhong
+      variables
+                       Bfun              Borrowing advanced functions                    Refer to the study of Gong and Zhong
+ Threshold variable     CZ                            City size                     The total urban population at the end of the year
+                                                                                    The ratio of the real fixed asset investment to the
+                      Invest         The level of real fixed asset investment
+                                                                                                     GDP of the year
+                                                                                        The ratio of the amount of foreign direct
+                        Fdi        The level of foreign investment utilization      investment converted by the exchange rate to the
+     Other control                                                                                   GDP of the year
+       variables                                                                      The logarithm of the number of patents per
+                        Tec                    The level of technology
+                                                                                                    10,000 people
+                       Road        The infrastructure development of the city                   The road area per capita
+                                                                                     The share of local general public budget fiscal
+                       Gov          The degree of government intervention
+                                                                                                expenditure in the GDP
+
+
+                                 3.3. Data Sources and Descriptive Statistics
+                                      The macroscopic data were mainly obtained from China City Statistical Yearbook
+                                 (2010–2020). The traffic distance matrix between each city was calculated by crawling
+                                 driving path planning in Gaode Map in the R programming language; total planning was
+                                 conducted 78,400 times. Data gaps for individual cities and years were filled through
+                                 average interpolation. Descriptive statistics for each of the variables are listed in Table 3.
+
+                                 Table 3. Descriptive statistics of variables.
+
+                                     Variable            Obs              Mean           Std. Dev.           Min              Max
+                                       GDE               2800              1.0689         0.3287            0.0715          12.1295
+                                       Bpop              2800            135.7661        106.6669           2.4630          912.0341
+                                       Bden              2800             0.3536          0.6939            0.0011           25.3289
+                                       Bfun              2800             0.1102          0.1656            0.0004            2.1592
+                                        CZ               2800             450.167        319.3643            19.5              3416
+                                        Fdi              2800             0.0175          0.0178         1.77 × 10−6         0.1978
+                                       Road              2800            15.6371          7.7304            0.2751            60.07
+                                      Invest             2800             0.8191          0.3348               0              2.5340
+                                        Gov              2800             0.1965          0.1036            0.0227           1.4852
+                                        Tec              2800             10.3183         23.6400           0.0493          321.2391
+                                       lnTec             2800             1.2585          1.4018           −3.0089           5.7722
+
+
+                                 4. Empirical Results
+                                 4.1. Basic Regression Analysis
+                                       Table 4 gives the regression results for panel data obtained using models having
+                                 different combinations of the city borrowing size and other control variables. In model
+                                 (1), only three dimensions of the core explanatory variable borrowing size are examined
+                                 for their effects on the urban GDE, and it is found that the borrowing population size,
+                                 borrowing economic activity density and borrowing advanced functions have positive
+                                 effects on the urban GDE, indicating that the realization of the role of the borrowing size is
+                                 conducive to the improvement in urban GDE. The inclusion of control variables in model
+                                 (2) alleviates the problem of omitted variables to a certain extent. The results of model
+                                 (2) show that the borrowing population size, borrowing economic activity density and
+Land 2022, 11, 493                                                                                                               10 of 19
+
+
+
+
+                     borrowing advanced functions all have positive effects on the urban GDE after adding
+                     control variables, indicating that cities can realize efficient urban green development
+                     through the borrowing size in the urban network, which is consistent with hypotheses
+                     H1–H2. Models (3)–(5) are used to further examine the effect of the borrowing size on
+                     the urban GDE by dimension. Each of the models is regressed using one of the three
+                     dimensions of the borrowing size, and the results show that each of the three dimensions
+                     of the borrowing size has a significantly positive effect on the urban GDE. No matter
+                     which model is used, the borrowing population size, borrowing advanced functions and
+                     borrowing economic activity density all have positive effects on the urban GDE, and
+                     the effects of core explanatory variables on the explained variables are consistent with
+                     hypotheses H1–H2. Therefore, increasing the borrowing size is indeed conducive to
+                     improving the urban GDE, and cities in the urban network can improve their efficiency
+                     and level of urban green development by increasing the borrowing size.
+
+                     Table 4. Analysis of baseline regression results.
+
+                                                                                    Double-Fixed Effect
+                       Explained Variable: GDE
+                                                           (1)             (2)              (3)              (4)               (5)
+                                                       0.0087 ***      0.0024 *          0.0028 **
+                                  Bpop
+                                                         (5.96)          (1.74)            (2.05)
+                                                       0.0872 ***     0.0641 ***                          0.0639 ***
+                                  Bden                   (5.33)          (4.32)                             (4.29)
+                                                       0.7227 ***     0.3848 ***                                          0.3933 ***
+                                  Bfun                   (6.27)          (3.60)                                              (3.67)
+                                                                      −2.7773 ***       −2.9448 ***      −2.995 ***       −2.8270 ***
+                                   Fdi                                 (−3.17)            (−3.35)          (−3.42)          (−3.22)
+                                                                      −0.0143 ***       −0.0145 ***      −0.0149 ***      −0.0083 ***
+                                    Road                               (−8.07)            (−8.14)          (−8.39)          (−7.94)
+                                                                      0.3033 ***         0.3146 ***       0.3008 ***      0.3177 ***
+                                   Invest
+                                                                         (5.95)             (6.15)           (5.89)          (6.23)
+                                                                      0.9564 ***         1.1136 ***       1.1098 ***      0.9605 ***
+                                     Gov
+                                                                         (4.35)             (5.13)           (5.13)          (4.35)
+                                                                      0.2287 ***         0.2316 ***       0.2357 ***      0.2364 ***
+                                    lnTec                               (14.35)            (14.46)          (15.03)         (15.06)
+                                                         −0.2334        0.2255             0.1940         0.5663 **        0.5454 **
+                                   _cons
+                                                         (−1.17)         (1.18)             (1.01)           (9.69)          (9.27)
+                         Individual fixed effects        Control       Control            Control          Control         Control
+                            Year fixed effects           Control       Control            Control          Control         Control
+                                R-squared                 0.2780        0.2832             0.2771           0.2824           0.2764
+                                     Obs                   2080           2080               2800             2800            2800
+                     Note: ***, ** and * respectively indicate significance at 1%, 5% and 10% levels; data in parenthesis are t-values of
+                     each statistic.
+
+
+                           The coefficient of Fdi is significantly negative, which may be explained by the fact that
+                     the “pollution paradise” hypothesis is more dominant than the “pollution halo” hypothesis.
+                     The pollution paradise hypothesis suggests that foreign enterprises will “vote with their
+                     feet” and choose to invest in areas with more profitable conditions and lower environmental
+                     standards, which may aggravate environmental pollution. The pollution halo hypothesis
+                     suggests that foreign firms have more advanced production technologies and can realize
+                     positive environmental externality through technology spillovers, which will improve
+                     the local environmental conditions. The coefficient of road area per capita is significantly
+                     negative, which may be owing to the rapid expansion of urban construction with the
+                     improvement in the transportation network, the gradual increase in road area per capita
+                     and the consequent increase in motor vehicle ownership, which may increase the volume of
+                     pollutants from motor vehicle emissions and thus reduce the urban GDE. The coefficients of
+                     the fixed asset investment share are all positive, indicating that physical capital, especially
+                     fixed asset investment, is an essential element for the improvement in the urban GDE.
+                     The positive coefficient of fiscal expenditure as a percentage of GDP indicates that the
+                     government’s intervention in the economy enhances the urban GDE, possibly because
+                     the promotion assessment mechanism of government officials is no longer “GDP only”
+Land 2022, 11, 493                                                                                                          11 of 19
+
+
+
+
+                     but pursues the comprehensive benefits of the economy, ecology and environment. The
+                     regression coefficient of the number of patents per 10,000 people that reflects the level
+                     of urban innovation is positive, indicating that the level of urban innovation ability is
+                     positively correlated with the level of urban GDE, and cities with high innovation ability
+                     can improve the urban GDE through knowledge and technology spillover.
+
+                     4.2. Analysis of Panel Threshold Effects
+                           The previous paper mainly analyzed the linear effect of the borrowing size on the
+                     urban GDE [24,31]. However, the city size not only directly affects the urban GDE but
+                     also moderates the effect of the borrowing size on urban green development [52,61]. It is
+                     therefore necessary to examine whether there is a nonlinear panel threshold effect of the
+                     city size between the borrowing size and urban GDE. Considering the possible existence
+                     of nonlinear constraints on the city size, the panel threshold effect is further analyzed in
+                     this paper [55]. Before conducting the test analysis of the panel threshold effect, this paper
+                     shows that the panel data of the variables selected in this paper are smooth in an LLC test
+                     and IPS test. Therefore, the next step of the threshold effect test can be considered.
+                           Before conducting the threshold regression, it is necessary to determine whether it
+                     is feasible to use the city size as the threshold variable. Therefore, a threshold effect test
+                     is conducted to estimate the number of thresholds and the threshold value of the city
+                     size and to test the significance of the threshold effect. Using the panel threshold effect
+                     model, a self-sampling (bootstrap) procedure was conducted 300 times using Stata 16.0
+                     software under the assumption of there being no threshold effect, and the significance of
+                     the threshold effect was tested with the city size as the threshold variable. The results
+                     are given in Table 5. Both single- and double-threshold effects are significant, with the
+                     single-threshold effect being significant at the 5% level and the double-threshold effect
+                     being significant at the 1% level. The triple-threshold effect has a p-value (0.2867) greater
+                     than 0.1, which fails the test and needs to be excluded. The double-threshold model is thus
+                     used for regression analysis in this paper.
+
+                     Table 5. Results of the self-sampling test for the threshold effect.
+
+                      Threshold                                                                           Threshold
+                                             Models               F-Value        p-Value
+                      Variables                                                                   10%        5%            1%
+                                       Single Threshold           708.39          0.0133       191.5864   256.4105      869.9712
+                        City Size      Double Threshold           1880.78         0.0033       137.6118   236.8290      901.3844
+                                       Triple Threshold            84.43          0.2867       122.2499   152.5463      200.6866
+                     Note: p-values and critical values were obtained using the bootstrap method with 300 iterations of sampling.
+
+
+                          Furthermore, the table of double-threshold values for the city size (Table 6) and the
+                     graph of the double-threshold effect test (Figure 3) show that the two threshold estimates
+                     of the double-threshold model for the city size are 343.1000 and 358.9600, and the corre-
+                     sponding 95% confidence intervals are given.
+
+                     Table 6. Results of the self-sampling test for the threshold effect.
+
+                        Threshold                             Threshold            95% Confidence
+                                             Models                                                       F-Value       p-Value
+                        Variables                               Value                 Interval
+                                          Threshold-1         343.1000 **        [341.9000, 353.0000]      708.39        0.0133
+                         City Size
+                                          Threshold-2         358.9600 ***       [347.2000, 362.0000]     1880.78        0.0033
+                     Note: ***, ** and * respectively indicate significance at 1%, 5% and 10% levels.
+Land 2022, 11, 493                                                                                             12 of 19
+
+
+
+
+                     Figure 3. Test chart of the double-threshold effect.
+
+                           In addition, the results of the double-threshold regression model (see Table 7) were
+                     further derived under the premise that the double-threshold effect exists, and the results
+                     show the nonlinear effects of the borrowing size on the urban GDE.
+                           The effect of the borrowing population size on the urban GDE under the city size
+                     threshold. Under the threshold of the city size, there is a U-shaped relationship between
+                     the borrowing population size and urban GDE. Specifically, the regression coefficients of
+                     Bpop are significantly positive at the 1% level when the city size is in the first and third
+                     threshold ranges, but the coefficient of the variable is significantly negative in the second
+                     threshold range. This may be because, although China’s large borrowing population
+                     size provides a sufficient labor pool for urban development, the small and medium-sized
+                     cities have a poor ability to attract and gather people and technology and thus struggle
+                     to efficiently transform the advantages of the borrowing population size in the urban
+                     network into advantages of urban development [62,63]. In particular, the second interval
+                     shows a significant negative correlation for two possible reasons. First, there may be
+                     an agglomeration shadow or siphoning effect of large cities. Second, because there are
+                     many small and medium-sized cities in China’s urban system, these cities face difficulty in
+                     efficiently utilizing the potential market size, which in turn hinders the conversion of the
+                     benefits of the market size and negatively affects the urban GDE. Large cities strongly attract
+                     talent, and their huge borrowing population size provides rich human capital accumulation
+                     for their sustainable development to a certain extent. Additionally, the development levels
+                     of large cities themselves support the conversion of the borrowing population size effect
+                     into economic benefits.
+                           The effect of the borrowing economic activity density on the urban GDE under the
+                     city size threshold. Under the threshold of the city size, the relationship between the
+                     borrowing economic activity density and urban GDE has an inverted U-shape. Specifically,
+                     the coefficient of Bden is positive but insignificant when the city size is in the first threshold
+                     range. This indicates that only when the city size reaches a certain level can the positive
+                     effect of the borrowing economic activity density be brought into full play. When the city
+                     size is in the second and third threshold ranges, the regression coefficients of Bden are
+                     significantly positive at the 1% level but gradually weaken with the further expansion of
+                     the city size, suggesting an unnecessary efficiency loss due to the excessive city size. The
+                     regression coefficient of Bden is largest in the second threshold interval, indicating that the
+                     city size should be controlled within the second threshold interval to achieve the best use
+                     of the borrowing economic activity density.
+Land 2022, 11, 493                                                                                                              13 of 19
+
+
+
+
+                     Table 7. Estimation results of double-threshold regression.
+
+                                     Threshold Variables                                              City Size
+                                                                                                     0.0062 ***
+                                         Bpop (stage 1)
+                                                                                                        (4.23)
+                                                                                                     −0.0130 ***
+                                         Bpop (stage 2)
+                                                                                                       (−8.90)
+                                                                                                     0.0028 ***
+                                         Bpop (stage 3)
+                                                                                                        (2.83)
+                                                                                                        0.0012
+                                         Bden (stage 1)
+                                                                                                        (0.11)
+                                                                                                     4.1659 ***
+                                         Bden (stage 2)
+                                                                                                       (51.83)
+                                                                                                     0.2048 ***
+                                         Bden (stage 3)
+                                                                                                        (4.41)
+                                                                                                     0.4812 ***
+                                          Bfun (stage 1)
+                                                                                                        (5.39)
+                                                                                                      0.3803 **
+                                          Bfun (stage 2)
+                                                                                                        (2.02)
+                                                                                                     0.4336 ***
+                                          Bfun (stage 3)
+                                                                                                        (2.84)
+                                                                                                     −1.7440 ***
+                                                Fdi
+                                                                                                       (−2.88)
+                                                                                                     −0.0134 ***
+                                              Road
+                                                                                                      (−10.86)
+                                                                                                     0.2205 ***
+                                              Invest
+                                                                                                        (6.25)
+                                                                                                     1.0181 ***
+                                               Gov
+                                                                                                        (6.67)
+                                                                                                     0.2091 ***
+                                              lnTec
+                                                                                                       (18.94)
+                                                                                                        0.0907
+                                              _cons
+                                                                                                        (0.62)
+                                                N                                                        2800
+                                                R                                                       0.6382
+                     Note: ***, ** and * respectively indicate significance at 1%, 5% and 10% levels. t-values are given in parentheses.
+
+
+                           The effect of borrowing advanced functions on the urban GDE under the city size
+                     threshold. Under the threshold of the city size, the relationship between the borrowing
+                     advanced functions and urban GDE is U-shaped. The regression coefficients of Bfun are
+                     all positive when the city size is in the first, second and third threshold ranges. However,
+                     the intensity of the effect decreases from 0.4812 to 0.3803 and then increases to 0.4336,
+                     which shows that to give full play to the effect of borrowing advanced functions, the
+                     city size should be controlled to be in the first or third threshold ranges. This may be
+                     because borrowing advanced functions avoids to a certain extent the vicious competition
+                     of homogeneous advanced function industries, allowing small and medium-sized cities to
+                     realize synergistic development among cities through the spatial division of industries and
+                     functions, which is conducive to urban development and reduces the efficiency loss caused
+                     by the fierce competition among homogeneous industries [64]. There are two possible
+                     reasons for the reduction in the impact intensity in the second threshold range. First, the
+                     development of advanced functional industries in medium-sized cities may be affected by
+                     the agglomeration shadow or siphoning effect of large cities, resulting in a loss of efficiency.
+                     Second, medium-sized cities have become increasingly competitive with each other and
+                     may have a common preference for a certain advanced functional industry. Additionally,
+                     there is homogenization of product industries, so that the comparative advantage of each
+                     city is weakened. Furthermore, in the case of fierce competition, market segmentation and
+                     various invisible barriers make it difficult to realize economies of scale in cities, and the
+Land 2022, 11, 493                                                                                                                  14 of 19
+
+
+
+
+                     positive effects of the original advanced functional industry are distorted, which adversely
+                     affects the development of cities.
+
+                     4.3. Robustness Tests
+                          (1) Instrumental variable method. Considering the possible endogeneity problem in
+                     the basic model due to the omission of variables, this paper selects the borrowing size lag of
+                     one period as the instrumental variable and uses the two-stage least squares (2SLS) method
+                     to test the fixed-effect model for endogeneity [65]. The regression results in Table 8 show
+                     the following. In the first stage, there is a significant positive effect of the instrumental
+                     variables on the core explanatory variables, and the results of the F-values (all greater
+                     than 10) indicate that the instrumental variables are valid. In the second stage, the effect
+                     of the three dimensions of the borrowing size on the urban GDE is still positive, and the
+                     regression results of the instrumental variable method remain consistent with the results of
+                     the benchmark regression, indicating that the study results are robust.
+
+                     Table 8. Estimation results of double-threshold regression.
+
+                                                                             Phase I
+                                                                   Bpop                       Bden                        Bfun
+                                                                 0.7859 ***
+                                  L.Bpop
+                                                                  (0.0734)
+                                                                                            0.2907 ***
+                                  L. Bden
+                                                                                              (9.40)
+                                                                                                                       0.4914 ***
+                                  L. Bfun
+                                                                                                                        (0.2519)
+                       CD-Wald F-statistic values                  44.63                      14.80                      15.55
+                                                                           Phase II
+                                                                  0.0036 *
+                                   Bpop
+                                                                  (0.0012)
+                                                                                            0.0025 **
+                                   Bden
+                                                                                            (0.0011)
+                                                                                                                        0.7293 **
+                                    Bfun
+                                                                                                                        (0.2827)
+                            Control variables                     Control                    Control                    Control
+                         Individual fixed effects                 Control                    Control                    Control
+                            Year fixed effects                    Control                    Control                    Control
+                           Number of samples                       2800                       2800                        2800
+                     Note: ***, ** and * respectively indicate significance at 1%, 5% and 10% levels; data in parenthesis are the values of
+                     robust standard errors adjusted for the economic heteroskedasticity of each statistic.
+
+
+                          (2) Dynamic panel model estimation. Considering the possible endogeneity problem
+                     of the model and the stickiness of the urban GDE, this paper adds the lagged period of
+                     the explanatory variables to the model and constructs a systematic generalized method of
+                     moments dynamic panel model [66], as follows.
+
+                        GDEit = α + β0 GDEit−1 + β1 Bpopit + β2 Bdenit + β3 Bfunit + β4 Xit + µi + σt + εit                             (7)
+
+                          The regression results in Table 9 show that the Sargan test conducted to test for the
+                     over-identification of instrumental variables in the dynamic panel model and the AR(1) and
+                     AR(2) tests conducted to test for the presence of serial autocorrelation of the nuisance terms
+                     in the model were both passed. The one-period-lagging coefficients of the explanatory
+                     variables are significantly positive, indicating that there is no stickiness for the urban
+                     GDE. Additionally, the regression coefficients of the core explanatory variables are all
+                     significantly positive, which is consistent with the basic regression results of the previous
+                     section, indicating that the results of this paper are robust.
+Land 2022, 11, 493                                                                                                                   15 of 19
+
+
+
+
+                     Table 9. Results of systematic generalized method of moments estimation.
+
+                                                              (1)                   (2)                  (3)                   (4)
+                                                          0.9586 ***            0.9986 ***           0.9940 ***           1.2439 ***
+                                 L.GDE
+                                                           (0.0823)              (0.0540)             (0.0794)             (0.0470)
+                                                          0.0026 **                                                       0.0426 ***
+                                  Bpop
+                                                           (0.0011)                                                        (0.0129)
+                                                                                0.0477 ***                                0.0435 ***
+                                  Bden
+                                                                                 (0.0129)                                  (0.0131)
+                                                                                                     0.0056 ***            0.0529 *
+                                  Bfun
+                                                                                                      (0.0011)             (0.0288)
+                                                         −1.8062 *            −1.7404 *              −1.7248 *             0.9849 **
+                                   Fdi
+                                                          (0.9396)             (1.0071)               (0.9052)             (0.4834)
+                                                         −0.0192 ***          −0.0115 ***            −0.0116 **           −0.0192 ***
+                                  Road
+                                                          (0.0059)             (0.0020)               (0.0050)             (0.0062)
+                                                           0.1655             0.2377 ***               0.2488               0.1574
+                                 Invest
+                                                          (0.1551)             (0.0738)               (0.1519)             (0.1478)
+                                                         0.7241 ***           −0.8859 ***            −0.8388 **           0.6937 ***
+                                  Gov
+                                                          (0.3334)             (0.1731)               (0.3294)             (0.2467)
+                                                           0.0126               0.0105                 0.0099               0.0117
+                                  lnTec
+                                                          (0.0284)             (0.0205)               (0.0283)             (0.0283)
+                                                         0.5310 ***           0.6678 ***             0.6643 ***           0.5324 ***
+                                 _cons
+                                                          (0.1374)             (0.2169)               (0.1327)             (0.1366)
+                       Individual fixed effects           Control              Control                Control              Control
+                          Year fixed effects              Control              Control                Control              Control
+                               AR (1)                      0.0000               0.0000                 0.0000               0.0000
+                               AR (2)                      0.2638               0.3107                 0.2655               0.2922
+                               Sargan                      0.5449               0.5218                 0.5602               0.7682
+                                 Obs                        2800                 2800                   2800                 2080
+                     Note: ***, ** and * respectively indicate significance at 1%, 5% and 10% levels; data in parenthesis are robust stan-
+                     dard errors for each statistic; the results of the AR(1) and AR(2) statistics and the Sargan test are the corresponding
+                     p-values.
+
+
+                     5. Conclusions and Policy Recommendations
+                     5.1. Conclusions and Discussion
+                           This paper explores the effect of the borrowing size on the urban GDE in a city
+                     network and draws the following conclusions. (1) The effect of all three dimensions of the
+                     borrowing size on the urban GDE is significantly positive, and the effect of each of the
+                     three dimensions of the borrowing size on the urban GDE is significantly positive. This
+                     shows that the borrowing size is indeed beneficial to the improvement in the urban GDE,
+                     and cities can improve their urban GDE through the borrowing size in the urban network.
+                     (2) There is a nonlinear panel threshold effect of the city size between the borrowing size
+                     and urban GDE, and the panel threshold effect is a significant double-threshold effect.
+                     (3) Under the threshold constraint of the city size, there is a U-shaped relationship between
+                     the borrowing population size, borrowing advanced functions and urban GDE, whereas
+                     there is an inverted U-shaped relationship between the borrowing economic activity density
+                     and urban GDE.
+                           Borrowing size provides a new idea for promoting urban development. Based on panel
+                     data of 280 prefecture-level cities in China from 2009 to 2019, this paper explores the impact
+                     of borrowing size on urban GDE from the perspective of urban network externality and
+                     performs panel threshold regression to quantitatively evaluate the nonlinear relationship
+                     between borrowing size and urban GDE using city size as the threshold variable. This paper
+                     provides reliable information for promoting urban GDE in China from a new perspective
+                     of “borrowing size” through theoretical analysis and empirical research. At the same time,
+                     it also provides reference for other countries to study the impact of borrowing size on
+                     urban development and enriches the theory related to the impact of borrowing size on
+                     urban development.
+Land 2022, 11, 493                                                                                               16 of 19
+
+
+
+
+                          However, due to the availability of data and the limited level of this research, this
+                     paper still has some shortcomings: (1) In terms of theoretical mechanism analysis, this paper
+                     has not yet established the corresponding mathematical model from classical theories, but
+                     only conducted some qualitative analysis at the theoretical level. (2) In terms of the research
+                     object, the positive effect of borrowing size depends on microscopic such as individuals and
+                     enterprises. However, the research in this paper does not go deeper into such a micro level.
+                     Of course, theoretical analysis often needs to be combined with classical mathematical and
+                     theoretical models to make its arguments more rigorous and robust. In the future, it will be
+                     necessary to combine macro-city data, micro-enterprise data and meso-industry data on
+                     the basis of the combination of theoretical analysis and quantitative models to achieve deep
+                     interactive integration on the research scale in order to draw more and more meaningful
+                     research conclusions.
+
+                     5.2. Policy Recommendations
+                           The core argument of this paper is that, in the urban network, an increase in the
+                     borrowing size facilitates efficient urban green development. Cities can increase their urban
+                     GDE by leveraging the demographic, economic and functional effects of the borrowing size
+                     in the urban network. Three important points can be made.
+                           First, it is important to improve the infrastructure of the urban network and the ac-
+                     cessibility of urban transportation. Government needs to provide good conditions for
+                     infrastructure to support the play of the borrowing size, implement key projects of com-
+                     prehensive transportation such as highways and railroads to improve the comprehensive
+                     transportation network, accelerate communication links between cities and create good
+                     conditions for the efficient flow of production factors between cities. Additionally, it is
+                     important to actively improve and optimize all kinds of basic hardware and software
+                     facilities, upgrade and expand the urban carrying capacity, make up for the shortcomings
+                     of urban infrastructure, improve the urban network effect and urban operation efficiency
+                     and enhance the comprehensive competitiveness of cities. Second, the city size should
+                     be viewed correctly and coordinated development among cities should be pursued. It is
+                     important to avoid the crowding effect of the city size resulting from having a few mega or
+                     super cities and to reduce the loss of urban GDE resulting from the negative externality
+                     of population benefits. To pursue coordinated development among cities, for small and
+                     medium-sized cities, the city size should be expanded moderately so as to better utilize
+                     the agglomeration effect of the city size and realize the positive population externality
+                     effect in promoting GDE. Good use should be made of the radiation effect and diffusion
+                     effect of the city size to further improve the urban GDE. Third, from the perspective of the
+                     function relationship, a polycentric city network with complementary functions should be
+                     constructed. Looking beyond the dispute over the development of large, medium and small
+                     cities in China, the starting point for analyzing China’s urban problems is the enhancement
+                     of the status of cities as nodes in the urban network and the strengthening of frequent
+                     economic activities among cities. It is important to build a polycentric city network with
+                     complementary functions and to strive to expand the agglomeration advantage of a single
+                     center into a synergistic effect of an inclusive polycentric city network. By integrating into
+                     the urban network, each city can realize a borrowing population, advanced functions and
+                     economic activity density of the city network based on its advantages, node position and
+                     city functions to promote urban GDE.
+
+                     Author Contributions: Conceptualization, A.G. and F.Z.; methodology, A.G. and P.L.; software, P.L.
+                     and C.Y.; writing—original draft preparation, P.L.; writing—review and editing, F.Z.; data curation,
+                     C.Y.; supervision, X.L.; funding acquisition, A.G. All authors have read and agreed to the published
+                     version of the manuscript.
+                     Funding: This research was supported by the Social Science Foundation of China (grant number
+                     20XJL008).
+Land 2022, 11, 493                                                                                                               17 of 19
+
+
+
+
+                                  Data Availability Statement: The publicly available sources for the data used in this study have
+                                  been described in the article; for other data, please contact the corresponding author based on
+                                  reasonable grounds.
+                                  Acknowledgments: The authors appreciate the insightful and constructive comments of the anony-
+                                  mous reviewers.
+                                  Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.    Yu, B. Ecological effects of new-type urbanization in China. Renew. Sustain. Energy Rev. 2021, 135, 110239. [CrossRef]
+2.    Wu, J.; Cheng, D.; Xu, Y.; Huang, Q.; Feng, Z. Spatial-temporal change of ecosystem health across China: Urbanization impact
+      perspective. J. Clean. Prod. 2021, 326, 129393. [CrossRef]
+3.    Zhou, L.; Zhou, C.; Che, L.; Wang, B. Spatio-temporal evolution and influencing factors of urban green development efficiency in
+      China. J. Geogr. Sci. 2020, 30, 724–742. [CrossRef]
+4.    Hu, A.; Zhou, S. Green development: Functional definition, mechanism analysis and development strategy. China Popul. Resour.
+      Environ. 2014, 24, 14–20.
+5.    Chen, S.; Golley, J. ‘Green’ productivity growth in China’s industrial economy. Energy Econ. 2014, 44, 89–98. [CrossRef]
+6.    Hai, A. Non-parametric productivity analysis with undesirable outputs: An application to the Canadian pulp and paper industry.
+      Am. J. Agric. Econ. 2003, 85, 1075–1077.
+7.    Liu, G.; Wang, B.; Zhang, N. A coin has two sides: Which one is driving China’s green TFP growth? Econ. Syst. 2016, 40, 481–498.
+      [CrossRef]
+8.    Banerjee, A.; Duflo, E.; Qian, N. On the Road: Access to Transportation Infrastructure and Economic Growth in China; MIT Department
+      of Economics Working Paper No. 12-06; MIT: Cambridge, MA, USA, 2012.
+9.    Glaeser, E.L.; Ponzetto, G.A.M.; Zou, Y. Urban Networks: Connecting Markets, People, and Ideas. Pap. Reg. Sci. 2016, 95, 17–59.
+      [CrossRef]
+10.   Lu, J.; Mao, W. The Rise of Urban Network Externalities: A New Mechanism for the High-quality Integrated Development of
+      Regional Economy. Economist 2019, 2, 76–87. [CrossRef]
+11.   Almeida, T.A.D.N.; Cruz, L.; Barata, E.; Garcia-Sanchez, I.-M. Economic growth and environmental impacts: An analysis based
+      on a composite index of environmental damage. Ecol. Indic. 2017, 76, 119–130. [CrossRef]
+12.   Boix, R. Networks of cities and growth: Theory, network identification and measurement of the network externality. Citeseer 2003,
+      2003, 13–14.
+13.   Combes, P.-P.; Duranton, G.; Gobillon, L.; Roux, S. Estimating Agglomeration Economies with History, Geology, and Worker
+      Effects. Soc. Sci. Electron. Publ. 2013, 2010, 15–66. [CrossRef]
+14.   Fan, J. Industrial Agglomeration and Difference of Regional Labor Productivity: Chinese Evidence with International Comparison.
+      Econ. Res. 2006, 11, 72–81.
+15.   Ke, S.; Zhao, Y. Industrial Structure, City Size and Urban Productivity in China. Econ. Res. J. 2014, 49, 76–88.
+16.   Lu, M.; Gao, H.; Hiroshi, S. On Urban size and Inclusive Employment. Chin. Soc. Sci. 2012, 10, 47–66.
+17.   Burger, M.J.; Meijers, E.J. Agglomerations and the rise of urban network externalities. Pap. Reg. Sci. 2016, 95, 5–15. [CrossRef]
+18.   Henderson, V.; Becker, R. Political economy of city sizes and formation. J. Urban Econ. 2000, 48, 453–484. [CrossRef]
+19.   Sun, J. The Significance, Value and Planning Idea of the Xiongan New Area. Econ. Dyn. 2017, 7, 6–8.
+20.   Xiao, J. The academic group of territorial development and regional economic development institution in national development
+      and reform commission. Reform 2009, 9, 5–23.
+21.   Wei, H. Polarization Trend and Optimization of Size Distribution in China’s Urbanization Process. Chin. Ind. Econ. 2014, 312,
+      18–30. [CrossRef]
+22.   Guan, X.; Wei, H.; Lu, S.; Deng, Y. Patterns and Driving Mechanism of Spatial Agglomeration During the Urbanization Process in
+      China. Geogr. Res. 2016, 35, 227–241. [CrossRef]
+23.   Camagni, R.; Capello, R.; Caragliu, A. Static vs. dynamic agglomeration economies. Spatial context and structural evolution
+      behind urban growth. Pap. Reg. Sci. 2017, 95, 133–158. [CrossRef]
+24.   Chang, Y.; Dong, S. Borrowed-size, network externalities and agglomeration economics in the urban agglomerations. Ind. Econ.
+      Res. 2019, 2, 76–87. [CrossRef]
+25.   Huang, Y.; Hong, T.; Ma, T. Urban network externalities, agglomeration economies and urban economic growth. Cities 2020, 107,
+      102882. [CrossRef]
+26.   Meijers, E.J.; Burger, M.J.; Hoogerbrugge, M.M. Borrowing size in networks of cities: City size, network connectivity and
+      metropolitan functions in Europe. Pap. Reg. Sci. 2016, 95, 181–198. [CrossRef]
+27.   Hepworth, M. Telecommunications and the future of London. Policy Stud. 1992, 13, 31–45. [CrossRef]
+28.   Capello, R. The City Network Paradigm: Measuring Urban Network Externalities. Urban Stud. 2000, 37, 1925–1945. [CrossRef]
+29.   Alonso, W. Urban zero population growth. Daedalus 1973, 102, 191–206.
+30.   Liu, X.; Chen, Z. Borrowed Size and Borrowed Functions in Urban System: Empirical Research on Agglomeration Economy from
+      the View of Externalities of Networks. Urban Probl. 2017, 12, 12–19. [CrossRef]
+Land 2022, 11, 493                                                                                                                 18 of 19
+
+
+
+
+31.   Gong, X.; Zhong, F. The Impact of Borrowing Size on the Economic Development of Small and Medium-Sized Cities in China.
+      Land 2021, 10, 134. [CrossRef]
+32.   Hesse, M. On borrowed size, flawed urbanisation and emerging enclave spaces: The exceptional urbanism of Luxembourg,
+      Luxembourg. Eur. Urban Reg. Stud. 2014, 23, 612–627. [CrossRef]
+33.   Camagni, R.; Capello, R.; Caragliu, A. The Rise of Second-Rank Cities: What Role for Agglomeration Economies? Eur. Plan. Stud.
+      2015, 23, 1069–1089. [CrossRef]
+34.   Dijkstra, L.; Garcilazo, E.; Mccann, P. The Economic Performance of European Cities and City Regions: Myths and Realities. Eur.
+      Plan. Stud. 2013, 21, 334–354. [CrossRef]
+35.   Meijers, E.J.; Burger, M.J. Stretching the concept of “borrowed size”. Urban Stud. 2017, 54, 269–291. [CrossRef]
+36.   Wang, F. Review on the research of urban borrowed size. Mod. Urban Res. 2017, 02, 120–124.
+37.   Katz, M.L.; Shapiro, C. Network Externalities, Competition, and Compatibility. Am. Econ. Rev. 1985, 75, 424–440.
+38.   Zhang, J.; Su, T.; Sun, C.; Zhang, L. The skeleton and evolution of urban network research–The visualization analysis based on
+      Citespace. Inq. Into Econ. Issues 2019, 4, 97–106.
+39.   Sun, B.; Ding, S. Do large Cities Contribute to the Economic Growth of Small Cities?—Evidence from Yangtze River Delta in
+      China. Geogr. Res. 2016, 35, 1615–1625. [CrossRef]
+40.   Burger, M.J.; Meijers, E.J.; Hoogerbrugge, M.M.; Tresserra, J.M. Borrowed size, agglomeration shadows and cultural amenities in
+      North-West Europe. Eur. Plan. Stud. 2015, 23, 1090–1109. [CrossRef]
+41.   Ding, Y. Study on the influence of city scale on green economy efficiency and spatial effect: Empirical evidence from 285 cities at
+      prefecture level and above in China. Urban Probl. 2021, 12, 88–98. [CrossRef]
+42.   Johansson, B.; Quigley, J.M. Agglomeration and networks in spatial economics. Pap. Reg. Sci. 2004, 83, 165–176. [CrossRef]
+43.   Cheng, Y.; Su, X. Review on the urban network externalities. Prog. Geogr. 2021, 40, 713–720. [CrossRef]
+44.   Wei, C.; Chun, X.; Wen, K.; Zhao, Y.; Ye, W. Hierarchical structures of China’s city network from the perspective of multiple traffic
+      flows. Geogr. Res. 2015, 34, 2073–2083. [CrossRef]
+45.   Boix, R.; Trullén, J. Knowledge, networks of cities and growth in regional urban systems. Pap. Reg. Sci. 2007, 86, 551–574.
+      [CrossRef]
+46.   Beaudry, C.; Schiffauerova, A. Who’s right, Marshall or Jacobs? The localization versus urbanization debate. Res. Policy 2009, 38,
+      318–337. [CrossRef]
+47.   Giuliani, E. The selective nature of knowledge networks in clusters: Evidence from the wine industry. J. Econ. Geogr. 2007, 7,
+      139–168. [CrossRef]
+48.   Hanlon, W.W. Industry Connections and the Geographic Location of Economic Activity. 24 July 2012. Available online:
+      https://doi.org/10.2139/ssrn.2143419 (accessed on 21 February 2022).
+49.   Luo, X.; Hu, L.; Wan, C. Structural Convergence and the Innovation Incentive Effect of the Advantageous Enterprise Support
+      Policy. Manag. World 2018, 34, 181–183.
+50.   Wang, X.; Luo, Z.; Wang, Y. The effect of economic density on the relationship between urban size and economic efficiency:
+      Taking China’s prefecture and above cities. Urban Probl. 2018, 59, 64–71. [CrossRef]
+51.   Lu, Z.; Wang, X. The influence of urban scale and economic density on urban economic efficiency. Urban Probl. 2017, 2, 52–60.
+      [CrossRef]
+52.   Yao, C.; Song, D.; Fan, X. Does the small size of cities restrict economic growth? A re-examination from the perspective of two
+      kinds of ‘borrowed size’. China Popul. Resour. Environ. 2021, 2020, 62–71.
+53.   Hu, W.; Fan, Y.M. City size and energy conservation: Do large cities in China consume more energy? Energy Econ. 2020, 92,
+      104943. [CrossRef]
+54.   Mohajeri, N.; Gudmundsson, A.; French, J.R. CO2 emissions in relation to street—Network configuration and city size. Transp.
+      Environ. 2015, 35, 116–129. [CrossRef]
+55.   Hansen, B.E. Threshold Effects in Non-Dynamic Panels: Estimation, Testing, and Inference. J. Econom. 1999, 93, 345–368.
+      [CrossRef]
+56.   Zhou, C.; Shi, C.; Wang, S.; Zhang, G. Estimation of eco-efficiency and its influencing factors in Guangdong Province based on
+      Super-SBM and panel regression models. Ecol. Indic. 2018, 86, 67–80. [CrossRef]
+57.   Cao, J.; Zhang, W. The influence of urban innovation input on green economy efficiency in different periods: A case study of the
+      Guangdong-Hong Kong-Macao Greater Bay Area. Geogr. Res. 2020, 39, 1987–1999.
+58.   Zhang, J.; Wu, G.; Zhang, J. The estimation of China’s provincial capital stock: 1952–2000. Econ. Res. 2004, 10, 35–44.
+59.   Bai, Y.; Deng, X.; Jiang, S.; Zhang, Q.; Wang, Z. Exploring the relationship between urbanization and urban eco-efficiency:
+      Evidence from prefecture- level cities in China. J. Clean. Prod. 2018, 195, 1487–1496. [CrossRef]
+60.   Yue, L.; Xue, D. Spatiotemporal change of urban green development efficiency in the Yellow River Basin and influencing factors.
+      Resour. Sci. 2020, 42, 2274–2284. [CrossRef]
+61.   Yao, C.; Wu, K. Does polycentric spatical structure realize the coordinated development within urban agglomeration? The new
+      evidence from the perspective of morphological and knowledge polycentricity. Econ. Geogr. 2020, 40, 63–74. [CrossRef]
+62.   Su, H.; Wei, H.; Deng, M. Multi-Dimensional nature and empirical test on urban agglomeration economics. Financ. Trade Econ.
+      2014, 05, 115–126. [CrossRef]
+63.   Su, H.; Wei, H. Density effect, urban optimum density and intensive urbanization. China Ind. Econ. 2013, 10, 5–17. [CrossRef]
+Land 2022, 11, 493                                                                                                                19 of 19
+
+
+
+
+64.   Faggio, G.; Silva, O.; Strange, W.C. Heterogeneous agglomeration. Rev. Econ. Stat. 2017, 99, 80–94. [CrossRef]
+65.   Christopher, F.B.; Mark, E.S.; Steven, S. Instrumental Variables and GMM: Estimation and Testing. Stata J. 2003, 3, 1–31.
+66.   David, R. How to do Xtabond2: An Introduction to Difference and System GMM in Stata. Stata J. 2009, 9, 86–136.
+

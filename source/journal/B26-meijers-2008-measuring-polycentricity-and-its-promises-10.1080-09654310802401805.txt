@@ -1,0 +1,632 @@
+[PDF Metadata]
+Source PDF: journal/B26-meijers-2008-measuring-polycentricity-and-its-promises-10.1080-09654310802401805.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           untitled
+Creator:         Arbortext Advanced Print Publisher 9.1.470/W
+Producer:        iText 4.2.0 by 1T3XT
+CreationDate:    Fri Nov  7 17:38:31 2008 WIB
+ModDate:         Sat Oct  4 18:36:28 2014 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           12
+Encrypted:       no
+Page size:       493.228 x 702.992 pts
+Page rot:        0
+File size:       180853 bytes
+Optimized:       no
+PDF version:     1.4
+[Extracted Text]
+This article was downloaded by: [Dalhousie University]
+On: 04 October 2014, At: 04:36
+Publisher: Routledge
+Informa Ltd Registered in England and Wales Registered Number: 1072954 Registered
+office: Mortimer House, 37-41 Mortimer Street, London W1T 3JH, UK
+
+
+
+                                  European Planning Studies
+                                  Publication details, including instructions for authors and
+                                  subscription information:
+                                  http://www.tandfonline.com/loi/ceps20
+
+                                  Measuring Polycentricity and its
+                                  Promises
+                                                  a
+                                  Evert Meijers
+                                  a
+                                   OTB Research Institute for Housing, Urban and Mobility Studies,
+                                  Delft University of Technology , Delft, The Netherlands
+                                  Published online: 11 Nov 2008.
+
+
+
+
+To cite this article: Evert Meijers (2008) Measuring Polycentricity and its Promises, European
+Planning Studies, 16:9, 1313-1323, DOI: 10.1080/09654310802401805
+
+To link to this article: http://dx.doi.org/10.1080/09654310802401805
+
+
+
+PLEASE SCROLL DOWN FOR ARTICLE
+
+Taylor & Francis makes every effort to ensure the accuracy of all the information (the
+“Content”) contained in the publications on our platform. However, Taylor & Francis,
+our agents, and our licensors make no representations or warranties whatsoever as to
+the accuracy, completeness, or suitability for any purpose of the Content. Any opinions
+and views expressed in this publication are the opinions and views of the authors,
+and are not the views of or endorsed by Taylor & Francis. The accuracy of the Content
+should not be relied upon and should be independently verified with primary sources
+of information. Taylor and Francis shall not be liable for any losses, actions, claims,
+proceedings, demands, costs, expenses, damages, and other liabilities whatsoever or
+howsoever caused arising directly or indirectly in connection with, in relation to or arising
+out of the use of the Content.
+
+This article may be used for research, teaching, and private study purposes. Any
+substantial or systematic reproduction, redistribution, reselling, loan, sub-licensing,
+systematic supply, or distribution in any form to anyone is expressly forbidden. Terms &
+Conditions of access and use can be found at http://www.tandfonline.com/page/terms-
+and-conditions
+                                                                European Planning Studies Vol. 16, No. 9, October 2008
+
+
+
+
+                                                                RESEARCH BRIEFING
+
+
+
+                                                                Measuring Polycentricity and its
+                                                                Promises
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                EVERT MEIJERS
+                                                                OTB Research Institute for Housing, Urban and Mobility Studies, Delft University of Technology, Delft,
+                                                                The Netherlands
+
+
+
+                                                                ABSTRACT Even a decade after the concept of polycentric development became popular and
+                                                                increasingly widespread in Europe as a normative policy stance allegedly leading to cohesion
+                                                                and competitiveness, its empirical basis is still rather weak. This is partly due to a lack of
+                                                                conceptual clearness, which makes its measurement difficult. This research briefing synthesises
+                                                                the results of two recent ESPON projects that aim to create a quantitative measurement of the
+                                                                extent of polycentricity of national urban systems, as well as the links they find between
+                                                                polycentricity and economic and social objectives. Both approaches have their limits and have
+                                                                been, and can be criticized from various perspectives. Some suggestions on how to proceed with
+                                                                this research agenda are presented.
+
+
+                                                                Introduction
+                                                                The concept of polycentric development has gained widespread currency in planning and
+                                                                territorial development strategies, though it remains a rather fuzzy concept as it seems to
+                                                                mean different things to different actors and on different scales (Kloosterman & Musterd,
+                                                                2001; Davoudi, 2003; Hague & Kirk, 2003). The scale on which the concept is applied
+                                                                ranges from individual cities (e.g. Roberts et al., 1999) to city regions (e.g. Hall &
+                                                                Pain, 2006; Parr, 2004; Meijers, 2007a), to nation-states (Waterhout et al., 2005) and,
+                                                                finally, to the European scale (see CEC, 1999). Davoudi (2003) observes that as the
+                                                                scale increases, the concept of polycentricity becomes gradually less analytical, and
+                                                                instead becomes the expression of a normative agenda. Indeed, polycentricity is not just
+                                                                a descriptive term, but also a policy stance prescribing a means to promote and equalize
+                                                                economic growth (Hague & Kirk, 2003). Its main promise is that it would link the
+                                                                seemingly conflicting goals of greater cohesion and competitiveness (Waterhout et al.,
+                                                                2005). The theoretical basis for this, however, is weak, as for instance regional growth
+
+
+                                                                Correspondence Address: Evert Meijers, OTB Research Institute for Housing, Urban and Mobility Studies, Delft
+                                                                University of Technology, P.O. Box 5030, 2600, GA Delft, The Netherlands, Email: e.j.meijers@tudelft.nl
+
+                                                                ISSN 0965-4313 Print=ISSN 1469-5944 Online=08=091313–11            # 2008 Taylor & Francis
+                                                                DOI: 10.1080/09654310802401805
+                                                                1314   E. Meijers
+
+                                                                theories such as the New Economic Geography hardly take the shape of the urban system
+                                                                into account (Meijers & Sandberg, 2008).
+                                                                   The European Spatial Development Perspective (ESDP) presents as a major objective
+                                                                the development of a balanced and polycentric urban system, as the economic fabric of
+                                                                Europe is dominated by one large metropolitan system mainly located in the northwest
+                                                                corner of the continent: the pentagon (CEC, 1999; Krätke, 2001; Copus, 2001). It is
+                                                                argued that “the economic potential of all regions of the EU can only be utilized
+                                                                through the further development of a more polycentric European settlement structure”
+                                                                (CEC, 1999, p. 20). The objective of polycentric development is currently being taken
+                                                                further in the current debate about a European territorial cohesion policy (Faludi, 2005,
+                                                                2006). The EU member states recently agreed on a “Territorial Agenda of the European
+                                                                Union” (EU Ministers responsible for Spatial Development, 2007), which again underlines
+                                                                the importance of strengthening polycentric development. The substance of the concept
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                has not changed much since the ESDP, as it is still about the development of multiple
+                                                                core areas next to one existing core. However, it appears that polycentric development
+                                                                is now relatively more concerned with cohesion rather than competitiveness objectives.
+                                                                   Alongside the European scale, many European countries also individually pursue a
+                                                                polycentric development policy, often addressing the dominance of their prime city to
+                                                                diminish regional disparities (see Waterhout et al., 2005 for an overview). A few examples
+                                                                include France, which has a long tradition of combating the dominance of Paris (see
+                                                                Guigou, 2000; Baudelle & Peyrony, 2005), while Ireland tries to develop “gateway
+                                                                cities” in lagging regions in order to overcome its overdependence on Dublin (DELG,
+                                                                2002; Davoudi & Wishardt, 2005). This does not mean that in all countries where the poly-
+                                                                centricity concept has been used it has become influential in the sense of directing the
+                                                                application of concrete policy instruments. What can be seen, however, are remarkable
+                                                                examples of application in spatial planning documents—spatial visions and perspec-
+                                                                tives—although at the same time implementation is often a weak point.
+                                                                   Within the ESPON (European Spatial Planning Observation Network) framework, there
+                                                                have also been attempts recently to measure polycentricity on the scale of countries and
+                                                                the EU, thus implementing a more analytical than normative approach to polycentric
+                                                                development on these scales (ESPON 1.1.1, 2002– 2004; ESPON 1.4.3, 2006). This is
+                                                                of great importance as it allows for an empirical assessment of the many claims that
+                                                                have been made for the concept of polycentricity on these scales. The empirical assess-
+                                                                ment of the polycentricity concept has become all the more urgent now that polycentricity
+                                                                has won itself this prominent place in many national and European spatial development
+                                                                strategies, which often involve substantial budgets (most notably the European structural
+                                                                and cohesion funds). The possible effectiveness of such policies is also determined by the
+                                                                accuracy of the assumptions on which they build. Therefore, it is both surprising and
+                                                                alarming that a key concept such as polycentric development and its promises of cohesion
+                                                                and competitiveness has so far hardly been assessed empirically on these higher spatial
+                                                                scales.
+                                                                   Part of the explanation for this empirical deficit is the lack of a common and shared
+                                                                understanding of what polycentricity is and how it should be properly measured. One of
+                                                                the major reasons why the concept of polycentricity is still rather vague is that it is
+                                                                sometimes associated with both morphological aspects and functional relationships
+                                                                between cities. As will be explained further on, it is highly advisable to reserve the term
+                                                                for morphological issues and to distinguish it from functional networks between cities. So
+                                                                                                       Measuring Polycentricity and its Promises      1315
+
+                                                                far, the lack of a shared understanding stands in the way of an assessment of its relation
+                                                                with aspects of cohesion and competitiveness. However, two research projects carried
+                                                                out within the ESPON framework have tried to shed light on these matters. The first is
+                                                                the ESPON 1.1.1 project on “Urban areas as nodes in a polycentric development”. The
+                                                                second is the ESPON 1.4.3 project, “Study on Urban Functions” that aims to improve
+                                                                the ESPON 1.1.1 findings. As is common for this early stage of exploration, it appears
+                                                                that researchers have so far not reached consensus on the right approach to measure
+                                                                polycentricity.
+                                                                   In this paper, we first observe the outcomes of both projects. This refers both to their
+                                                                analysis of the extent of polycentricity of European countries, as well as the relationships
+                                                                they have explored in terms of economic competitiveness, cohesion and sustainability.
+                                                                These outcomes are strikingly different, and the section ‘Explaining Differences’ provides
+                                                                explanations for this. Finally, based on the pros and cons of both approaches to measuring
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                polycentricity, some suggestions will be presented on how to proceed with this important
+                                                                research agenda.
+
+                                                                Measuring Polycentricity and its Promises
+                                                                The ESPON research programme aspires to achieve a better understanding of spatial
+                                                                trends, problems and opportunities on a European scale, to monitor them using newly
+                                                                developed indicators and mapping techniques and to provide tools and instruments for a
+                                                                better territorial governance at EU level. The ESPON 1.1.1 project was among the first
+                                                                projects that started in 2002, and focused on “the role, specific situation and potentials
+                                                                of urban areas as nodes in a polycentric development”. Within this comprehensive
+                                                                project an analysis of the extent of polycentricity and monocentricity of countries was
+                                                                made. The project was led by Nordregio, while by the end of the project (2004), 14
+                                                                research organizations from across Europe were involved as main or consultative partners.
+                                                                Carried out at a later stage (2006), the ESPON 1.4.3 project aimed to take forward the
+                                                                analysis of project 1.1.1, in particular the delimitation of functional urban areas (FUAs)
+                                                                and the analysis of polycentricity building on that delimitation. The project was led by
+                                                                IGEAT/Free University of Brussels and the team consisted of two other partners and
+                                                                one other expert. The final report was published in March 2007.
+                                                                   Table 1 presents the results of ESPON 1.1.1’s and ESPON 1.4.3’s analysis of the
+                                                                extent of mono- or polycentricity (both are considered extremes on the same scale) of
+                                                                European countries. Higher scores indicate more polycentricity. There are remarkable
+                                                                differences between their outcomes. In fact, they do not even statistically correlate.
+                                                                For instance, according to ESPON 1.4.3, countries such as Germany, Spain, Italy,
+                                                                the Netherlands, Lithuania, Poland, Romania, the Slovak Republic and most of the
+                                                                Nordic countries are much more polycentric than according to ESPON 1.1.1, while
+                                                                Cyprus, Denmark, Greece, Ireland, Latvia and Slovenia turn out to be much more
+                                                                monocentric.
+                                                                   These scores on polycentricity allow for an assessment of the hypothesized effects
+                                                                of polycentricity. Although not a prime objective, ESPON 1.1.1 briefly explored
+                                                                the links between the extent of polycentricity of European countries and three major
+                                                                objectives of the EU: economic competitiveness, social equity and environmental
+                                                                sustainability. Proxies for these were GDP/capita, the gini coefficient of the GDP
+                                                                per capita measured at the nuts 3 level and total energy consumption for transport
+                                                                1316      E. Meijers
+
+                                                                Table 1. The extent of polycentricity of European countries according to ESPON 1.1.1 and
+                                                                                                       ESPON 1.4.3
+                                                                                       ESPON 1.4.3        ESPON 1.1.1              ESPON 1.1.1 sub indexes
+
+                                                                                         Level of         Polycentricity    Size       Location     Connectivity
+                                                                Project                Polycentricity         index        index        index          index
+
+                                                                Austria                    56.8                57.4        63.3          39.3          77.1
+                                                                Belgium                    69.6                70.3        86.6          60.5          67.1
+                                                                Bulgaria                   73.2                68.5        77.1          80.2          52.6
+                                                                Switzerland                75.4                66.6        82.9          57.9          62.3
+                                                                Cyprus                     51.4                87.3        75.7         100.0          89.1
+                                                                Czech Republic             74.2                63.6        79.2          51.7          63.5
+                                                                Germany                    93.4                71.2        86.4          56.1          75.2
+                                                                Denmark                    56.6                72.5        71.6          90.9          59.3
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                Estonia                    45.6                54.3        64.7          94.8          26.4
+                                                                Spain                      77.6                53.6        81.6          30.7          62.3
+                                                                Finland                    63.6                49.1        73.9          32.1          50.6
+                                                                France                     62.4                67.6        66.4          77.3          60.9
+                                                                Greece                     38.6                63.4        36.6          95.9          73.6
+                                                                Hungary                    54.8                56.1        61.6          57.7          50.4
+                                                                Ireland                    45.8                76.1        63.1         100            70.6
+                                                                Italy                      86.2                66.3        87.5          52            65
+                                                                Lithuania                  72                  48.9        76.5          83.5          18.5
+                                                                Latvia                     32.2                56.3        35.5          97            52.4
+                                                                Netherlands                90.8                72.2        86            60.2          73.8
+                                                                Norway                     66.4                44.4        75.1          22.3          52.7
+                                                                Poland                     85.6                74          84.1          83.1          58.7
+                                                                Portugal                   54.4                58.3        49            55.8          73.3
+                                                                Romania                    77.2                66.3        78.3          80.9          46.6
+                                                                Sweden                     71.8                58.9        80.4          37.3          69
+                                                                Slovenia                   56.8                79.1        76            91.6          72
+                                                                Slovakia                   74.8                64.2        83.5          77            41.6
+                                                                United Kingdom             63.8                66.8        77.3          55.5          70.6
+
+                                                                Sources: ESPON 1.1.1, 2002– 2004; ESPON 1.4.3, 2007.
+
+
+
+                                                                respectively. Some correlations were found. More polycentric countries tend to be
+                                                                associated with a higher GDP/capita and with the use of less energy for transport per
+                                                                unit. However, these countries also tend to have higher income differences within
+                                                                countries. These correlations are stronger for the old EU-15 than for the recently accessed
+                                                                countries.
+                                                                   As with the scores on polycentricity, ESPON 1.4.3 presents quite opposite results. They
+                                                                explore the relationships between the level of polycentricity and the development of the
+                                                                GDP/capita relative to the European average for different time spans. No significant cor-
+                                                                relation was found, but from the direction of the correlation it appears that the more mono-
+                                                                centric countries score slightly better. According to the ESPON 1.4.3 team, this is in line
+                                                                with trends towards globalization that favour the main advanced services nodes operating
+                                                                on a global scale. Also, it conforms to the findings of Meijers and Sandberg (2008),
+                                                                who found no evidence of a polycentric urban system being correlated with less regional
+                                                                disparities within countries.
+                                                                                                          Measuring Polycentricity and its Promises        1317
+
+                                                                Explaining Differences
+                                                                These differences raise questions about the value that should be attached to the outcomes.
+                                                                How is it possible that two research projects that aim to measure a similar feature of urban
+                                                                systems and its effects arrive at such different conclusions? Here, we provide two main
+                                                                explanations. The first concerns the way polycentricity is defined. The second concerns
+                                                                the different emphasis that is placed on the elements that define polycentricity.
+
+
+                                                                The Definition of the Concept of Polycentricity
+                                                                ESPON 1.1.1 departs from the observation that polycentricity is an ambiguous, multi-
+                                                                scalar and ill-defined normative concept. ESPON 1.1.1 stresses that two structural
+                                                                elements are of particular relevance to polycentricity: morphological elements laying
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                out the size and territorial distribution of urban areas in a given territory, and relational
+                                                                elements, based on the networks of flows and co-operation between urban areas on differ-
+                                                                ent scales. Both elements are strongly linked: relations between cities are crucial for poly-
+                                                                centricity, as nodes without relations would not form a polycentric system (ESPON 1.1.1,
+                                                                2004, p. 45). A national urban system is considered more polycentric when the FUAs
+                                                                are more equally sized (see column “size index” in Table 1 for scores), distributed
+                                                                more evenly across the nation’s territory (see column “location index”) and when the
+                                                                accessibility of the FUAs is more equal (see column “connectivity index”). The ESPON
+                                                                1.4.3 team does not depart from an explicit definition of polycentricity, other than empha-
+                                                                sizing that according to them, polycentricity is a purely morphological issue. This implies
+                                                                that both projects depart from a substantially different perspective. The ESPON 1.1.1
+                                                                project includes the aspect of relationships or flows between the FUAs of the urban
+                                                                system, next to morphological indicators such as the size and spacing of the FUAs. The
+                                                                ESPON 1.4.3 focuses solely on the size distribution of FUAs. Not surprisingly, there is
+                                                                a strong correlation between the size index of ESPON 1.1.1 and the outcomes of the
+                                                                ESPON 1.4.3 project.
+
+
+                                                                Measurement Issues
+                                                                The strong discrepancies in the outcomes of the analysis in ESPON 1.1.1 and ESPON 1.4.3
+                                                                also relate to differences in the measurement of polycentricity. Table 2 lists the concrete
+                                                                indicators on which both projects based their measurement of polycentricity. In brackets is
+                                                                the weight given to each indicator in calculating the overall polycentricity score.
+                                                                   Even though both ESPON 1.1.1 and 1.4.3 agree on the fact that the size distribution of
+                                                                FUAs is an important factor in measuring polycentricity, they use different indicators. It is
+                                                                unclear why ESPON 1.4.3 does not build on the ESPON 1.1.1 methodology in this respect.
+                                                                ESPON 1.1.1 starts from the rank-size distribution of FUAs. The more flat this distribution
+                                                                is, and thus the regression line that best fits this distribution, the more polycentric. It would
+                                                                seem that this is a more informative measure than calculating the standard deviation of the
+                                                                population of the FUAs. ESPON 1.1.1’s measure of primacy is also based on the rank-size
+                                                                distribution. There is a difference in the number of FUAs that are included in both ana-
+                                                                lyses. In ESPON 1.1.1 all FUAs with over 50,000 inhabitants, or even just 20,000 inhabi-
+                                                                tants for some countries, have been included when calculating the rank-size distribution
+                                                                and primacy for each country. ESPON 1.4.3 presents some more differentiation in
+                                                                1318     E. Meijers
+
+                                                                    Table 2. Indicators used to measure polycentricity in ESPON 1.1.1 and ESPON 1.4.3
+                                                                ESPON 1.1.1a                                                              ESPON 1.4.3
+
+                                                                A. Distribution of sizes FUAs: (33%)                   A. Distribution of sizes FUAs:
+                                                                1. The slope of the regression line of the rank-       – Part of the main FUA in the total population of
+                                                                   size distribution of FUAs (20%)                       a country (14.3%)
+                                                                2. The degree by which the size of the largest         – Part of the main FUA in the population of the
+                                                                   FUA according to population or GDP                    whole set of FUAs with more than 200,000
+                                                                   deviates from the regression line through the         inhabitants (14.3%)
+                                                                   rank-size distribution (primacy).b (80%)            – Part of the main FUA in the population of the
+                                                                                                                         whole set of FUAs with more than 50,000
+                                                                                                                         inhabitants (14.3%)
+                                                                                                                       – Average of the differences in population
+                                                                                                                         between a FUA and the next smaller FUA in a
+                                                                                                                         country, considering the range of FUAs until a
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                                                                         lower population threshold of 200,000
+                                                                                                                         inhabitants (14.3%)
+                                                                                                                       – Average of the differences in population
+                                                                                                                         between a FUA and the next smaller FUA in a
+                                                                                                                         country, considering the range of FUAs until a
+                                                                                                                         lower population threshold of 50,000
+                                                                                                                         inhabitants (14.3%)
+                                                                                                                       – Standard deviation of the population of the set
+                                                                                                                         of FUAs with more than 200,000 inhabitants
+                                                                                                                         (14.3%)
+                                                                                                                       – Standard deviation of the population of the set
+                                                                                                                         of FUAs with more than 50,000 inhabitants
+                                                                                                                         (14.3%)
+                                                                B. Spacing FUAs: (33%)
+                                                                1. The equality in sizes of service areas (based
+                                                                   on Thiessen polygons) using the Gini
+                                                                   coefficient.
+                                                                C. Connectivity: (33%)
+                                                                1. The slope of the regression line between the
+                                                                   accessibility and the population of FUAs
+                                                                   (50%).
+                                                                2. The Gini coefficient of the accessibility of
+                                                                   FUAs in a country (50%).
+                                                                a
+                                                                 These indicators were developed by Spiekermann and Wegener.
+                                                                b
+                                                                  These indicators have both been calculated for FUAs that were weighted in terms of population and in terms
+                                                                of GDP (each count for 50%).
+
+
+                                                                thresholds. For unclear reasons, ESPON 1.1.1 gives more weight to primacy than to the
+                                                                steepness of the rank-size distribution.
+
+                                                                Towards an Improved Measurement of Polycentricity and its Promises
+                                                                Both ESPON 1.1.1 and ESPON 1.4.3 can be credited and criticized for several reasons.
+                                                                ESPON 1.1.1 has been ground-breaking in terms of exploring for the first time the issue
+                                                                of polycentricity in quantitative terms. Moreover, it departs from a clear, theoretically
+                                                                founded definition of polycentricity. However, it has been criticized for its outcomes.
+                                                                It appears that most commentators feel that the outcomes for several countries do not
+                                                                                                          Measuring Polycentricity and its Promises        1319
+
+                                                                correspond to their tentative impression of the extent of mono- or polycentricity in these
+                                                                cases (see Biot, 2005). Ireland for instance is a case in point. This country came out as one
+                                                                of the most polycentric in ESPON 1.1.1, while many consider it the example par excel-
+                                                                lence of a monocentric country. These concerns were partly the reason to start the
+                                                                ESPON 1.4.3 project. Its outcomes appear more tentatively correct. On the other hand,
+                                                                the project lacks a clear definition of polycentricity and is not very specific about the ratio-
+                                                                nales for using their indicators and their weighting. They also ignore the aspect of the
+                                                                territorial distribution of cities across a nation’s territory. The main questions in measuring
+                                                                polycentricity are whether or not this is just a morphological issue and, if so, whether it is
+                                                                only concerned with size or also with the territorial distribution.
+                                                                   Below, some suggestions are presented which aim to arrive at an improved measure-
+                                                                ment of polycentricity, and subsequently, the more accurate assessment of its promises
+                                                                of cohesion and competition.
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                A Polycentric Urban System is not a Networked Urban System
+                                                                Basically, polycentricity refers to the plurality of centres in a given area and is thus by
+                                                                nature a morphological issue. In a synthesis of the defining conditions of a polycentric
+                                                                urban region, Parr (2004) points to, among others, the separation of cities and the size dis-
+                                                                tribution of cities. It appears that morphological characteristics such as the size and
+                                                                spacing of cities are determining factors in establishing whether or not any given area
+                                                                is polycentric or the opposite, monocentric. Following the ESDP terminology and those
+                                                                of many countries’ policies, a country can be considered more polycentric when:
+
+                                                                . there is less hierarchy in the size of its cities (FUAs), in other words, when the cities are
+                                                                  more equally sized and no city dominates the others;
+                                                                . the cities are more evenly distributed across a country’s territory.
+
+
+                                                                In ESPON 1.1.1, the non-morphological dimension of connectivity in terms of potential
+                                                                accessibility was also included. However, a polycentric urban system cannot be equated
+                                                                with a networked urban system. Elsewhere, I have argued that this is also the case on
+                                                                the regional scale, where a polycentric urban region is not necessarily an urban network
+                                                                (Meijers, 2007b). The latter would be the case when features of what has been labelled
+                                                                the network model of spatial organization (see Batten, 1995; Camagni & Salone, 1993;
+                                                                Meijers, 2007c) are present. This includes for instance the features of complementarity
+                                                                between FUAs, a relative disconnection between size and function of FUAs and also
+                                                                the criss-cross orientation of flows. In fact, the extent to which a polycentric system func-
+                                                                tions as a networked system is a crucial explanation of the performance of this polycentric
+                                                                system. Thus, polycentricity is about morphological features, more particularly the distri-
+                                                                bution of sizes of FUAs and their territorial distribution. This perspective implies that the
+                                                                ESPON 1.1.1 approach was too broad and the ESPON 1.4.3 approach too narrow.
+
+                                                                Focus on the Main Cities
+                                                                An important explanation for the reason that the ESPON 1.1.1 results, even when ignoring
+                                                                the connectivity aspect, do not seem to correspond to general, tentative impressions of the
+                                                                extent of polycentricity of countries, is that the results are based on too many FUAs.
+                                                                In particular in the larger countries, the calculations for the “flatness” of the urban hierarchy
+                                                                1320     E. Meijers
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                               Figure 1. Rank-size distributions of Germany, Sweden and Greece
+                                                                                                Source: Meijers & Sandberg, 2008
+                                                                              Slope regression line: Germany -0,571, Sweden -1,118, Greece -1,894
+
+
+                                                                and primacy are strongly influenced by the many smaller FUAs. For instance, does the size
+                                                                of all 253 FUAs in Italy matter for determining its extent of polycentricity? The extent of
+                                                                mono- or polycentricity is generally judged on the basis of the size and spatial distribution
+                                                                of just the handful of largest cities. In general, sample size can be a fixed number of cities, a
+                                                                fixed size threshold, or a size above which the sample accounts for some given proportion
+                                                                of a country’s population (see also Cheshire, 1999). The latter has disadvantages, as it turns
+                                                                out that the number of FUAs included in the analysis is large for polycentric countries and
+                                                                small for monocentric countries. Hence, the number of FUAs including some given pro-
+                                                                portion of the population is in itself an indicator of mono- or polycentricity and applying
+                                                                such a measure twice would distort the picture. A fixed size threshold, as is used in ESPON
+                                                                1.4.3, is equally less appropriate as in large and more densely populated countries a FUA
+                                                                of say 50,000 inhabitants may be insignificant, while it could be of great importance in
+                                                                small or less populated countries. It could be argued that a city ranked for instance 10th
+                                                                in a country is of importance in that country, despite its possibly small size. Therefore,
+                                                                when measuring polycentricity on the basis of the rank-size distribution, the sample size
+                                                                could best be based on a fixed number of FUAs. The question then is what this number
+                                                                should be. This is open for discussion, but should in any case be limited. However, calcu-
+                                                                lations show that results for a sample size of n¼10 correlate strongly with sample sizes of
+                                                                n¼5 or n¼20 (Meijers & Sandberg, 2008), but differ substantially from the ESPON 1.1.1
+                                                                findings. Figure 1 gives some examples of calculations of the slope of the regression line
+                                                                using n¼10. The measurement of primacy should also be calculated relative to a small, but
+                                                                fixed number of FUAs.
+
+
+                                                                Improve Existing Indicators
+                                                                Some smaller suggested refinements that should be considered when measuring polycen-
+                                                                tricity include:
+                                                                .   Contrary to ESPON 1.1.1, the largest FUA should also be included in the analysis to
+                                                                    calculate the regression line and its slope. However, this largest FUA should be
+                                                                                                           Measuring Polycentricity and its Promises           1321
+
+                                                                  excluded when the regression line is calculated to measure the primacy (as is done in
+                                                                  ESPON 1.1.1).
+                                                                . The advantage of the ESPON 1.1.1 method of measuring primacy is that, through using
+                                                                  the loglinear rank-size distribution, more weight is given to the differences in size
+                                                                  between the largest FUAs compared to the weight given to the difference between,
+                                                                  say, the 8th and 9th ranked city. ESPON 1.4.3 gives these a similar weight.
+                                                                . There does not seem to be any reason for not giving the indicator “slope of the regression
+                                                                  line” and the primacy the same weight (ESPON 1.1.1 employs a 20/80% weighting).
+                                                                . ESPON 1.4.3 gives the highest score found a value of 100, and the lowest a value of 0. In
+                                                                  such a way, it is possible that a small difference in practise is inflated to a huge one in the
+                                                                  calculation. Using standardized z-scores could prevent this.
+                                                                . As is argued in Nordregio et al. (2004), rather than using airline distance to base Thies-
+                                                                  sen polygons on, these could in a next step be based on travel time and/or costs.
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                . The size and spatial distribution of FUAs can be substantially different (see Figure 2).
+                                                                  For instance, the Netherlands is quite polycentric when looking at the size distribution
+                                                                  of cities (using n¼10), but the main cities are all located in the western region, thus
+                                                                  making it rather monocentric from the perspective of the spatial distribution. Some
+
+
+
+
+                                                                Figure 2. The relationship between polycentricity-indicators based on the rank-size distribution and
+                                                                                    the spatial distribution of cities across the national territory
+                                                                                                  Source: Meijers & Sandberg, 2008
+                                                                To calculate the spatial distribution of FUAs across the territory, Meijers and Sandberg consider the
+                                                                extent to which each NUTS2, or, in smaller countries, NUTS3 region possesses over a major city.
+                                                                Therefore, they consider the spread of a number of FUAs that is similar to the number of NUTS2 (or
+                                                                                                     NUTS3) regions in a country
+                                                                1322     E. Meijers
+
+                                                                  countries are polycentric by both standards, for instance Belgium, Romania and Poland.
+                                                                  It seems informative to explore connections with cohesion and competitiveness also for
+                                                                  these subindicators separately rather than solely using their aggregrated index.
+
+
+
+                                                                Final Remarks
+                                                                Polycentric development has rapidly become the buzzword amongst spatial planners in
+                                                                Europe, both in European policies and at the level of European countries. As is generally
+                                                                the case with new concepts, after the initial policy enthusiasm, the concept of polycentric
+                                                                development needs to be tested on its usefulness and validity if it is to be sustained. This
+                                                                requires a clear definition of polycentricity, subsequently allowing for a proper measure-
+                                                                ment of the extent of polycentricity. By reviewing and synthesizing approaches to these
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                issues developed in two ESPON projects, this research commentary aimed to further
+                                                                the discussion on this important matter. It appears that there are at present no conclusive
+                                                                answers regarding the question of whether polycentricity is instrumental to achieving
+                                                                economic competitiveness, territorial cohesion and environmental sustainability. Such
+                                                                empirical assessments would provide a welcome contribution to this debate.
+
+
+                                                                References
+
+                                                                Batten, D. F. (1995) Network cities: Creative urban agglomerations for the 21st century, Urban Studies, 32(2),
+                                                                     pp. 313–327.
+                                                                Baudelle, G. & Peyrony, J. (2005) Striving for equity: Polycentric development policies in France, Built Environ-
+                                                                     ment, 31(2), pp. 103– 111.
+                                                                Biot, V. (2005) Synthesis of comments on the final report ESPON 1.1.1. Synthesis of Comments from ESPON
+                                                                     Contact Points on ESPON First Round Projects (Luxemburg: ESPON Contact Point).
+                                                                Camagni, R. & Salone, C. (1993) Network urban structures in Northern Italy: Elements for a theoretical frame-
+                                                                     work, Urban Studies, 30(6), pp. 1053–1064.
+                                                                CEC (Commission of the European Communities) (1999) European Spatial Development Perspective: Towards
+                                                                     Balanced and Sustainable Development of the Territory of the EU (Luxembourg: Office for Official Publi-
+                                                                     cations of the European Communities).
+                                                                Cheshire, P. (1999) Trends in sizes and structures of urban areas, in: P. Cheshire & E. S. Mills (Eds) Handbook of
+                                                                     Regional and Urban Economics (vol. 3, pp. 1339–1372 (Amsterdam: Elsevier Science).
+                                                                Copus, A. K. (2001) From core-periphery to polycentric development: Concepts of spatial and aspatial periph-
+                                                                     erality, European Planning Studies, 9(4), pp. 539–552.
+                                                                Davoudi, S. (2003) Polycentricity in European spatial planning: From an analytical tool to a normative agenda,
+                                                                     European Planning Studies, 11(8), pp. 979–999.
+                                                                Davoudi, S. & Wishardt, M. (2005) The polycentric turn in the Irish spatial strategy, Built Environment, 31(2),
+                                                                     pp. 122–132.
+                                                                DELG (Department of Environment and Local Government) (2002) National Spatial Strategy for Ireland, 2002–
+                                                                     2020: People, Places and Potentials (Dublin: The Stationery Office).
+                                                                EU Ministers responsible for Spatial Development (2007) Territorial Agenda of the European Union. Agreed on
+                                                                     25 May 2007, Leipzig. Available at: http://www.bmvbs.de/en/Spatial-development/-,2950/Territorial-
+                                                                     Agenda-of-the-EU.htm (accessed 2 January 2008)
+                                                                Faludi, A. (2005) Polycentric territorial cohesion policy, Town Planning Review, 76(1), pp. 107–118.
+                                                                Faludi, A. (2006) The European Spatial Development Perspective shaping the agenda, European Journal of
+                                                                     Spatial Development, Refereed Articles November 2006 – No. 21.
+                                                                Guigou, J. L. (Ed.) (2000) Aménager la France de 2020 (Paris: La Documentation Française).
+                                                                Hague, C. & Kirk, K. (2003) Polycentricity Scoping Study (London: Office of the Deputy Prime Minister).
+                                                                                                               Measuring Polycentricity and its Promises               1323
+
+                                                                Hall, P. & Pain, K. (Eds) (2006) The Polycentric Metropolis: Learning from Mega-city Regions in Europe
+                                                                     (London: Earthscan).
+                                                                IGEAT (Institut de Gestion de l’Environnement et d’Aménagement du Territoire, ULB) (Lead partner) (Ed)
+                                                                     (2007) ESPON 1.4.3: Study on Urban Functions, Final report, Brussels/Luxembourg: ULB/ESPON Moni-
+                                                                     toring Committee. Available at: http://www.espon.eu/mmp/online/website/content/projects/261/420/
+                                                                     index_ EN.html (accessed 2 January 2008).
+                                                                Kloosterman, R. C. & Musterd, S. (2001) The polycentric urban region: Towards a research agenda, Urban
+                                                                     Studies, 38(4), pp. 623–633.
+                                                                Krätke, S. (2001) Strengthening the polycentric urban system in Europe: Conclusions from the ESDP, European
+                                                                     Planning Studies, 9(1), pp. 105–116.
+                                                                Meijers, E. (2007a) Synergy in Polycentric Urban Regions: Complementarity, Organising Capacity and Critical
+                                                                     Mass (Amsterdam/Delft: IOS Press/Delft University Press).
+                                                                Meijers, E. (2007b) Clones or complements? The division of labour between the main cities of the Randstad, the
+                                                                     Flemish Diamond and the RheinRuhr area, Regional Studies, 41(7), pp. 889–900.
+                                                                Meijers, E. (2007c) From central place to network model: Theory and evidence of a Paradigm-change, Tijdschrift
+                                                                     voor Economische en Sociale Geografie, 98(2), pp. 245–259.
+
+
+
+
+Downloaded by [Dalhousie University] at 04:36 04 October 2014
+                                                                Meijers, E. & Sandberg, K. (2008) Reducing regional disparities by means of polycentric development: Panacea
+                                                                     or placebo? Scienze Regionali – The Italian Journal of Regional Science, 7(2), pp. 71–96.
+                                                                Nordregio (Lead partner) (Ed) (2004) ESPON 1.1.1: Potentials for polycentric development in Europe. Project
+                                                                     Report. Stockholm/Luxembourg: Nordregio/ESPON Monitoring Committee. Available at: http://www.
+                                                                     espon. eu/mmp/online/website/content/projects/259/648/index_EN.html (accessed 2 January 2008).
+                                                                Parr, J. B. (2004) The polycentric urban region: A closer inspection, Regional Studies, 38(3), pp. 231–240.
+                                                                Roberts, M., Lloyd-Jones, T., Erickson, B. & Nice, S. (1999) Place and space in the networked city: Conceptua-
+                                                                     lizing the integrated metropolis, Journal of Urban Design, 4(1), pp. 51–66.
+                                                                Waterhout, B., Zonneveld, W. & Meijers, E. (2005) Polycentric development policies in Europe: Overview and
+                                                                     debate, Built Environment, 31(2), pp. 163–173.
+

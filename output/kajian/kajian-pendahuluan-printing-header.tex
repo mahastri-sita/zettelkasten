@@ -1,0 +1,101 @@
+% Compact layout and stable page numbers for the private A4 print copy.
+\usepackage{microtype}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.45em,topsep=2.5pt,itemsep=0.75pt,parsep=0.25pt,partopsep=0pt}
+\setlist[enumerate]{leftmargin=1.7em,topsep=2.5pt,itemsep=0.75pt,parsep=0.25pt,partopsep=0pt}
+
+% Supply the CJK glyphs absent from Latin Modern when compiling with XeLaTeX.
+\ifXeTeX
+  \usepackage{xeCJK}
+  \usepackage{newunicodechar}
+  \usepackage{seqsplit}
+  \usepackage{xstring}
+  \setCJKmainfont[AutoFakeSlant=true,AutoFakeBold=true]{PingFang SC}
+  \setCJKsansfont[AutoFakeSlant=true,AutoFakeBold=true]{PingFang SC}
+  \setCJKmonofont[AutoFakeSlant=true,AutoFakeBold=true]{PingFang SC}
+  \newunicodechar{ﬀ}{ff}
+\fi
+
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\section}{0pt}{8pt plus 1pt minus 1pt}{3pt plus 1pt minus 1pt}
+\titlespacing*{\subsection}{0pt}{6pt plus 1pt minus 1pt}{2pt plus 1pt minus 1pt}
+\titlespacing*{\subsubsection}{0pt}{4pt plus 1pt minus 1pt}{2pt plus 1pt minus 1pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.12em}
+\setlength{\columnsep}{6mm}
+\geometry{landscape,includefoot,margin=10mm}
+\raggedbottom
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{14.5pt}
+\setlength{\footskip}{8mm}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% Make long provenance paths wrap inside the narrow print columns.
+\ifXeTeX
+  \newcommand{\breakabletexttt}[1]{%
+    \IfSubStr{#1}{/}{%
+      \path{#1}%
+    }{%
+      \StrLen{#1}[\breakabletextttlength]%
+      \ifnum\breakabletextttlength>60
+        \begingroup\ttfamily\seqsplit{#1}\endgroup
+      \else
+        \begingroup
+        \ttfamily
+        \CJKfamily{\CJKrmdefault}%
+        #1%
+        \endgroup
+      \fi
+    }%
+  }
+\else
+  \newcommand{\breakabletexttt}[1]{\path{#1}}
+\fi
+\AtBeginDocument{
+  \urlstyle{tt}
+  \let\texttt\breakabletexttt
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue,
+    pdftitle={Kajian Pendahuluan: Review dan Tier List}
+  }
+  \pagenumbering{gobble}
+  \begin{titlepage}
+    \thispagestyle{empty}
+    \pdfbookmark[0]{Sampul}{sampul}
+    \vspace*{\fill}
+    \begin{center}
+      {\Huge\bfseries Kajian Pendahuluan\par}
+      \vspace{1.5em}
+      {\LARGE Review dan Tier List\par}
+      \vspace{2em}
+      {\large 70 review per-kode dalam enam domain penilaian\par}
+    \end{center}
+    \vspace*{\fill}
+  \end{titlepage}
+  \clearpage
+  \pagenumbering{roman}
+  \renewcommand{\contentsname}{Daftar Isi}
+  \setcounter{tocdepth}{1}
+  \pdfbookmark[0]{Daftar Isi}{daftar-isi}
+  \tableofcontents
+  \clearpage
+  \pagenumbering{arabic}
+}

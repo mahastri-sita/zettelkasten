@@ -1,0 +1,960 @@
+[PDF Metadata]
+Source PDF: journal/B25-xiong-yang-2023-the-identification-and-dynamics-of-urban-shadow-areas-from-the-perspective-of-people-flows-a-case-study-of-nanjing-10.3390-buildings13122934.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           The Identification and Dynamics of Urban Shadow Areas from the Perspective of People Flows—A Case Study of Nanjing
+Subject:         Urban shadow areas, formed by long-term unbalanced and inadequate development during the rapid process of urbanization, are of great significance to a city’s overall development. However, relatively little attention has been paid to identifying and characterizing urban shadow areas. Drawing upon a dataset on urban morphology and cellular signaling, and taking Nanjing as a case study, this paper proposes a method to identify urban shadow areas from the perspective of people flows. The empirical results show that there are 19 urban shadow areas within the downtown areas of Nanjing, 11 of which are distributed in the old downtown areas and the rest are relatively scattered in the periphery. As for morphological characteristics, these urban shadow areas differ from each other in terms of indicators such as building density and development intensity. Moreover, the empirical results show that these urban shadow areas are not isolated but closely connected with other parts of Nanjing. Based on the different spatio-temporal distribution patterns of their connections, the 19 urban shadow areas are divided into four types, and the characteristics of each type have been investigated by analyzing a representative shadow area. It is suggested that policies aiming to eliminate the negative effects of urban shadow areas should consider heterogeneity in their spatial distributions within a city, the temporal distribution of their external connections, and their dominant functions.
+Keywords:        urban shadow area; people flow; cellular signaling data; urban morphology; Nanjing
+Author:          Weiting Xiong and Junyan Yang
+Creator:         LaTeX with hyperref
+Producer:        GPL Ghostscript 9.55.0
+CreationDate:    Sat Jul 11 18:27:32 2026 WIB
+ModDate:         Sat Jul 11 18:27:32 2026 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           20
+Encrypted:       no
+Page size:       595 x 842 pts (A4)
+Page rot:        0
+File size:       3901755 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                                                       3.4        5.6
+
+
+
+
+Article
+
+
+The Identification and Dynamics of
+Urban Shadow Areas from the
+Perspective of People Flows—A
+Case Study of Nanjing
+
+Weiting Xiong and Junyan Yang
+
+
+
+
+Special Issue
+Inclusion, Safety, and Resilience in the Construction Industry
+Edited by
+Dr. Sainan Lyu, Dr. Jingyu Yu, Dr. Beibei Zhang, Dr. Xiaoyan Jiang and Dr. Peng Cui
+
+
+
+
+                                                                 https://doi.org/10.3390/buildings13122934
+            buildings
+Article
+The Identification and Dynamics of Urban Shadow
+Areas from the Perspective of People Flows—A Case Study
+of Nanjing
+Weiting Xiong 1, * and Junyan Yang 2
+
+                                         1   Department of Urban Planning, College of Landscape Architecture, Nanjing Forestry University,
+                                             No. 159 Longpan Road, Nanjing 210037, China
+                                         2   Department of Urban Planning, School of Architecture, Southeast University, No. 2 Sipailou, Nanjing 210096,
+                                             China; yjy312@126.com
+                                         *   Correspondence: xwt@njfu.edu.cn
+
+
+                                         Abstract: Urban shadow areas, formed by long-term unbalanced and inadequate development
+                                         during the rapid process of urbanization, are of great significance to a city’s overall development.
+                                         However, relatively little attention has been paid to identifying and characterizing urban shadow
+                                         areas. Drawing upon a dataset on urban morphology and cellular signaling, and taking Nanjing as
+                                         a case study, this paper proposes a method to identify urban shadow areas from the perspective of
+                                         people flows. The empirical results show that there are 19 urban shadow areas within the downtown
+                                         areas of Nanjing, 11 of which are distributed in the old downtown areas and the rest are relatively
+                                         scattered in the periphery. As for morphological characteristics, these urban shadow areas differ
+                                         from each other in terms of indicators such as building density and development intensity. Moreover,
+                                         the empirical results show that these urban shadow areas are not isolated but closely connected
+                                         with other parts of Nanjing. Based on the different spatio-temporal distribution patterns of their
+                                         connections, the 19 urban shadow areas are divided into four types, and the characteristics of each
+                                         type have been investigated by analyzing a representative shadow area. It is suggested that policies
+                                         aiming to eliminate the negative effects of urban shadow areas should consider heterogeneity in their
+Citation: Xiong, W.; Yang, J. The        spatial distributions within a city, the temporal distribution of their external connections, and their
+Identification and Dynamics of
+                                         dominant functions.
+Urban Shadow Areas from the
+Perspective of People Flows—A Case
+                                         Keywords: urban shadow area; people flow; cellular signaling data; urban morphology; Nanjing
+Study of Nanjing. Buildings 2023, 13,
+2934. https://doi.org/10.3390/
+buildings13122934
+
+Academic Editors: Beibei Zhang,          1. Introduction
+Jingyu Yu, Irem Dikmen, Sainan Lyu,
+                                              The “dark-under-the-lights” areas caused by the long-term unbalanced and inadequate
+Xiaoyan Jiang and Peng Cui
+                                         development of urban space have always been sources of pain and difficulty in urban
+Received: 15 October 2023                renewal. So far, scholars have mainly used the concept of “shadow areas” to discuss
+Revised: 13 November 2023                the issue of “darkness under the lamp”, but existing research has mainly focused on the
+Accepted: 21 November 2023               “shadow area” phenomenon on a regional scale [1–3], while relatively little attention has
+Published: 24 November 2023              been paid to the phenomenon of “shadow areas” on an intra-urban scale [4–6]. However,
+                                         since reforming and opening up, many Chinese cities have been faced with the prominent
+                                         problems of unbalanced and even polarized development due to the rapid urbanization
+                                         process. Such unbalanced development has been specifically manifested by the emergence
+Copyright: © 2023 by the authors.
+                                         of urban shadow areas, which are usually close to the urban central areas of a city but are
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+                                         characterized by “low-density buildings, low-end business types, and low-end functions”.
+distributed under the terms and
+                                         For instance, some studies have found that there are urban shadow areas of a certain scale
+conditions of the Creative Commons       within about 500–800 m around a city’s central areas, such as those found in Zhujiang New
+Attribution (CC BY) license (https://    Town and Guangzhou Beijing Road in Guangzhou, Yan’an Road in Hangzhou, Xinjiekou
+creativecommons.org/licenses/by/         in Nanjing, etc. [5].
+4.0/).
+
+
+
+
+Buildings 2023, 13, 2934. https://doi.org/10.3390/buildings13122934                                         https://www.mdpi.com/journal/buildings
+Buildings 2023, 13, 2934                                                                                            2 of 19
+
+
+
+
+                                 In an era of stock planning, urban shadow areas are typical “high-value, low-price”
+                           areas which usually include shantytowns, old communities, industrial relics, and other
+                           spatial types [7]. In terms of spatial characteristics, such as development intensity, building
+                           density, and building height, there is a huge gap between these urban shadow areas and
+                           the surrounding urban central areas, which, to a certain extent, affects the happiness and
+                           well-being of people living and working in these shadow areas. At the same time, while
+                           these shadow areas promote the formation of the core structure of urban central areas, they
+                           also exacerbate the unbalanced and inadequate spatial development of the urban central
+                           areas. With the in-depth implementation of urban renewal policies in many Chinese cities,
+                           how to further deepen the scientific understanding of the spatial development laws of
+                           urban shadow areas has become an important issue that urgently requires more academic
+                           attention [8].
+                                 Existing research on urban shadow areas has mainly analyzed their spatial morpholog-
+                           ical characteristics such as development intensity and building density [5,6]. Some studies
+                           have also focused on how to detect urban shadow areas in remote sensing images by
+                           developing some identification algorithms [9–11]. However, studies merely based on urban
+                           morphology data may not fully reflect the spatial development patterns of urban shadow
+                           areas, which does not help us understand the dynamic mechanisms of the formation of
+                           urban shadow areas. In fact, due to advantages in location and cost, urban shadow areas are
+                           the primary place for the spillover of non-central functions from their surrounding central
+                           areas, such as residences, restaurants, express delivery, retail, and other functions that
+                           provide citizens with security and convenient services. This results in significant flows of
+                           different types of elements, such as people, logistics, and information, creating a dynamic
+                           connection between urban shadow areas and their surrounding central areas. Among
+                           the many types of element flows, people’s daily activities most directly reflect the needs
+                           of different groups of people in urban shadow areas, and the interaction between daily
+                           activities and urban morphology is also the most significant [12]. Therefore, the impact of
+                           daily activities needs to be considered in the definition and identification of urban shadow
+                           areas. At the same time, it is necessary to further explore the connection rules between
+                           urban shadow areas and other parts of a city by analyzing the patterns of people flows,
+                           which helps provide a theoretical basis for promoting the renewal of urban shadow areas
+                           from a humanistic perspective.
+                                 Against this backdrop, this paper takes Nanjing as an example, develops a method
+                           to identify urban shadow areas, and analyzes how urban shadow areas are dynamically
+                           connected with other parts of the city by drawing upon data on urban morphology and
+                           people flows. In addition, policy implications concerning how to eliminate the negative
+                           effects of urban shadow areas are also put forward based on the empirical findings. In doing
+                           so, we aim to contribute to the existing literature by identifying and characterizing urban
+                           shadow areas from both static and dynamic perspectives.
+                                 The remainder of this paper is structured as follows. Section 2 reviews the existing
+                           literature on the definition, identification, and evolution mechanisms of urban shadow
+                           areas. Section 3 describes the data and methodologies used in this study. Section 4
+                           presents the identification results of urban shadow areas in Nanjing. Section 5 analyzes
+                           how urban shadow areas have been connected with the other parts of Nanjing from a
+                           dynamic perspective. Section 6 discusses the empirical findings and puts forward some
+                           policy implications and Section 7 concludes the study.
+
+                           2. Literature Review
+                                 Academic research on the “shadow area” phenomenon can be traced back to the discus-
+                           sion of the “agglomeration shadow” effect in the new economic geography theory [13–15].
+                           It is generally believed that small cities which are close to big cities suffer from many
+                           restrictions in economic and social development because the competition effect is greater
+                           than the “borrowed size” effect [1,16,17]. Recently, scholars have paid increasing attention
+Buildings 2023, 13, 2934                                                                                           3 of 19
+
+
+
+
+                           to the phenomenon of “shadow areas” mainly from three aspects, that is, the definition,
+                           identification, and evolution of “shadow areas”.
+
+                           2.1. The Definition and Characteristics of Shadow Areas
+                                 As for the definition of “shadow area”, scholars have rarely used the concept of
+                           “shadow area”, but usually other concepts such as “agglomeration shadow” [14–16] and
+                           “interplaces between cities” [18,19], to explore the phenomenon of “shadow areas” on
+                           a regional scale. Some scholars have used terms such as “distressed inner-city neigh-
+                           borhoods” [4] and “inner-city suburbanization” [20,21], to explore the phenomenon of
+                           “shadow areas” on in intra-urban scale. In addition to the different concepts used in the
+                           literature, existing studies have different views on whether the development of “shadow
+                           areas” will necessarily be negatively affected by surrounding large cities or surrounding
+                           urban central areas. Some studies believe that small- and medium-sized cities can achieve
+                           better development through “borrowed size” [16], whereas other studies believe that the
+                           development of “distressed inner-city neighborhoods” is restricted by the central area of
+                           the inner city [4].
+                                 In the Chinese context, Zhang and Zhuang have paid attention to the “shadow area”
+                           phenomenon at the regional scale and proposed the concept of a “metropolitan shadow
+                           area” [22]. Recently, some scholars have also proposed concepts such as “development
+                           shadow areas” [23] and “metropolitan multiple shadow areas” [24], while some scholars
+                           have followed the concept of “agglomeration shadows” [25,26]. As the problem of the un-
+                           balanced and inadequate development of urban space becomes increasingly prominent, the
+                           phenomenon of “shadow areas” on an intra-urban scale has gradually attracted academic
+                           attention, resulting in the emergence of concepts such as “city center shadow area” and
+                           “city shadow area” [5–7]. Although there are differences in the use of multiple concepts,
+                           scholars have generally believed that shadow areas have the following four characteristics.
+                           The first one is a development gap phenomenon formed due to different combinations of
+                           agglomeration and radiation in central cities and their surrounding areas [27]. Also, they
+                           believe that shadow areas are scattered spaces that are located in the urban central area of a
+                           city and that exhibit the characteristics of low-end service functions, old building forms,
+                           and a sharp decline in the density and height index of public facilities [5]. The last two
+                           consensual characteristics constitute a phenomenon in which a central city has a negative
+                           effect on the development of its surrounding areas [28], as well as on areas maintaining
+                           weak spatial connections with the central city’s industries [29].
+
+                           2.2. The Identification of Shadow Areas
+                                 Shadow areas at the regional scale have been mainly identified based on the scope
+                           of influence of urban functions with a particular focus on small- and medium-sized cities
+                           located between large cities [14]. Some studies have mainly drawn upon relevant theories in
+                           the fields of regional economics and urban geography, focusing on analysis at the economic
+                           and social development level. Commonly used indicators and methods include sensitivity
+                           and influence coefficients [23], break points and comprehensive connection strength [24,28],
+                           Huff model and spatial autocorrelation analysis [27], etc. In contrast, the identification
+                           of shadow areas on an intra-urban scale has been mainly based on economic and social
+                           development indicators such as housing prices, crime rates, and employment rates [4,21].
+                           Meanwhile, recent studies have explored how to use spatial morphological indicators such
+                           as development intensity and building density to identify shadow areas on an intra-urban
+                           scale [5]. With the use of multi-source big data in urban morphology and cellular signaling,
+                           some studies have expanded their research focus from the urban central area to the whole
+                           city. For instance, Yang and Ma have identified the spatial scope of urban shadow areas in
+                           Shanghai and analyzed their morphological patterns [6]. Sun et al. have used POI data to
+                           study the impact of Shanghai on the distribution of shadow areas of service functions in
+                           small towns in a southern Jiangsu province [29].
+Buildings 2023, 13, 2934                                                                                             4 of 19
+
+
+
+
+                           2.3. The Formation and Evolution Mechanisms of Shadow Areas
+                                                                 ﬀ
+                                 According to agglomeration–diffusion  theory, the formation and evolution of urban
+                                                           ﬀ
+                           shadow areas are essentially affected                                           ﬀ
+                                                                  by the non-equilibrium aggregation and diffusion
+                                                                                           ﬀ
+                           of elements in space, and the forces driving the aggregation and diffusion of spatial
+                                                                                              ﬀ
+                           elements have diversified characteristics. Some studies have discussed     the effects of
+                           specific factors, such as the residential preferences of middle-class families [20], the location
+                           and accessibility of the shadow area [14,30], government planning policies [4], and urban
+                           spatial structure [21,31]. The formation and evolution mechanisms of urban shadow
+                           areas in the Chinese context have mainly been discussed via qualitative analysis. Such
+                           discussions have mainly drawn upon theories such as Friedman’s “Core-edge” theory,
+                                                                                                            ﬀ
+                           Myrdal’s “diffusion-echo” theory, etc., which usually focus on spatial agglomeration–
+                                                                                       ﬀ
+                           diffusion interactions. In terms of specific influencing factors, studies differ from each
+                           other. Some studies have emphasized the policy constraints on the development of shadow
+                           areas from core cities [22,29] and the functional division of labor between the shadow area
+                           as well as its immediately adjacent core city or core area [7]. Meanwhile, other studies
+                           put industrial structures [29], the characteristics of people’s daily activities [6], regional
+                           integration strategies [15], and network externalities [32,33] as the key points.
+
+                           3. Materials and Methods
+                           3.1. The Study Area
+                                 The study area of this paper is the downtown area of Nanjing, the capital city of
+                           Jiangsu Province, China. As the core urbanization area in Nanjing’s future development
+                           process, it is also the main area for Nanjing to shoulder the function as a regional central
+                           city. The downtown area of Nanjing consists of 4 administrative zoning districts, including
+                           Jiangbei, Xianlin, Dongshan, and the main city, covering a total area of 846 km2 and with
+                           a population of about 6.7 million (Figure 1). Although it only accounts for 12.8% of the
+                           administrative area, this area contains 63.2% of the city’s total population.
+
+
+
+
+                           Figure 1. The downtown area of Nanjing.
+Buildings 2023, 13, 2934                                                                                        5 of 19
+
+
+
+
+                           3.2. Data Source and Processing
+                                The data used for this paper include Nanjing urban morphology data and cellular
+                           signaling data. The urban morphology dataset is constructed based on the complete
+                           and accurate vector topographic map of Nanjing’s downtown area, which is calibrated,
+                           corrected, and updated after a field survey carried out by the author’s research group.
+                           The urban morphology data contain detailed information on buildings, land plots, blocks,
+                           roads, and the natural landscape environment (Figure 2). In the ArcGIS 10.3 platform, all
+                           the above information is uniformly projected into the WGS_1984 coordinate system, which
+                           is used to calculate the key indicators of urban morphology.
+
+
+
+
+                           Figure 2. The urban morphology data of the study area.
+
+                                For the cellular signaling data, this paper obtains data provided by China Mobile,
+                           which covers approximately 70% of the share of the entire mobile phone market in Nanjing.
+                           There are 104,247 mobile phone base stations in the downtown area of Nanjing and the
+                           dataset covers 14 days in 2015, including 10 working days and 4 weekends. It is worth
+                           mentioning that network interruption, transmission delay, external environment interfer-
+                           ence, system failure, and other undesirable conditions are inevitable during the generation
+Buildings 2023, 13, 2934                                                                                            6 of 19
+
+
+
+
+                           and collection process of the cellular signaling data, which would generate some invalid
+                           data. After data cleaning and considering the weather conditions, this paper finally selects
+                           the data collected for 11 November (the working day) and 21 November (the weekend),
+                           which have a normal distribution. The number of mobile phone users covered by the data
+                           is more than 2 million per day.
+                                Specifically, the database contains mobile phone base station data and cellular signal-
+                           ing data. The former records the identification code of each base station and its correspond-
+                           ing geographic coordinate information. For each base station, we can obtain the number of
+                           users it records during each two-hour interval. By creating Tyson polygons based on the
+                           location of base stations and allocating each base station to a block, we can then obtain the
+                           number of people for each block during each two-hour interval. The latter data contain   tt
+                           information on people flows. This includes anonymously encrypted mobile phone terminal
+                           IDs, signaling type, and the time that signaling occurs when the phone is connected to the
+                           base station. In order to simplify the data, this paper randomly projects the user’s location
+                           to the adjacent block of the corresponding base station, and then maps all the stay points of
+                           each user to obtain their movement trajectory on that day (Figure 3).
+
+
+
+
+                           Figure 3. Spatial location mapping and trajectory generation of mobile phone users.
+
+                           3.3. Methodology
+                           3.3.1. The Basic Unit of Analysis
+                                This paper selects blocks as the basic unit of analysis, mainly for the following two
+                           reasons. On the one hand, one might argue that grids can be an alternative choice. However,
+                           a grid is only a random division method for urban space, which has no planning significance
+                           and thus cannot fully reflect the purpose of this paper. On the other hand, we think blocks
+                           are a better choice than land plots. First, blocks are enclosed by roads with clear spatial
+                           boundaries and can ttbe regarded as an independent spatial unit in the city. In contrast,
+                           some land plots have human influence factors due to the issue of development rights.
+                           Second, each block unit is relatively complete in form because of the enclosing of the roads.
+                           Meanwhile, a block is, to a certain extent, a basic unit of people’s cognition of urban space.
+                           Third, compared with blocks, land plots are more likely to have extreme or unbalanced
+                           spatial characteristics due to the excessive or low development intensity of local areas,
+                           which may lead to biased identification results. Consequently, this paper considers block
+                           as an ideal unit of analysis for the identification of urban shadow areas. To this end, the
+                           various types of data involved in this study are aggregated to a block level to calculate the
+                           relevant indicators.
+
+                           3.3.2. The Method of Identifying Urban Shadow Areas
+                                In this paper, urban shadow areas are defined as areas that are adjacent to urban
+                           central areas but with lower construction intensity, fewer public service facilities, and
+                           insufficient population vitality. Based on this definition, this paper holds that three factors
+                             ﬃ
+                           should be considered in the identification of its spatial boundary, including construction
+Buildings 2023, 13, 2934                                                                                               7 of 19
+
+
+
+
+                           intensity, the number of public service facilities, and population vitality at the block level.
+                           The expression of each indicator is given as follows:
+
+                                                                          ∑kN=1 f loor_areai,k ×
+                                                           Intensityi =                                                   (1)
+                                                                              block_areai
+
+                                                                           M
+                                                           Facilityi = ∑ j=1 type_numberi,j                               (2)
+
+                                                                           S
+                                                              Popui = ∑l =1 base_popui,l                                  (3)
+                           where Intensityi , Facilityi , and Popui represent the construction intensity, the number of
+                           public service facilities, and the population vitality of block i, respectively. f loor_areai,k and
+                           heighti,k mean the floor area and height of building k in block i. type_numberi,j reflects the
+                           number of public service facilities of type j in block i. base_popui,l represents the number
+                           of mobile phone users recorded by the base station l in block i.
+                                 Specifically, considering that the urban shadow area is a relative concept, we identify
+                           its spatial boundary through exploratory spatial data analysis, a method that has been
+                           commonly adopted in recent studies [34–36]. The technical route of this identification
+                           method is described as follows (Figure 4). For each indicator, we detect the local spatial
+                           autocorrelation pattern of its distribution by calculating the local Moran’s I index. Blocks
+                           with statistically significant values of local Moran’s I can be classified into four categories:
+                           (1) blocks with high values of the indicator surrounded by those with similar high values
+                           (HH); (2) blocks with low values of the indicator surrounded by those with similar low
+                           values (LL); (3) blocks with high values of the indicator surrounded by those with low
+                           values (HL); and (4) blocks with low values of the indicator surrounded by those with high
+                           values (LH).
+
+
+
+
+                           Figure 4. The technical route of the identification method.
+
+                                 Furthermore, blocks that belong to the LH category, at least for two out of the three
+                           indicators, can be regarded as part of potential urban shadow areas. On the one hand,
+                           LH-type blocks suggest that these blocks have relatively lower values of an indicator but
+                           are surrounded by blocks with higher values, which is in line with the definition of urban
+                           shadow areas. On the other hand, we set stricter criteria that blocks should be LH-type
+                           blocks for at least two indicators, which filters out blocks that only belong to the LH type for
+                                                                                  tt                    ﬀ
+                           just one indicator. This criteria helps to identify blocks that are more close to the definition
+                           of urban shadow areas. One might argue for even stricter criteria that a block could only be
+                           considered when it belongs to the LH type for all the three indicators. In fact, we tried these
+                           criteria but found that they were too strict to identify enough urban shadow areas within
+                                                                           ∑     𝑓𝑙𝑜𝑤      𝑓𝑙𝑜𝑤
+                                                          𝑉𝑜𝑙𝑎𝑡𝑖𝑙𝑖𝑡𝑦
+                           the study area, which is not in line  with what we have observed in our field survey either.
+                           In addition, as an urban shadow area should be a continuous one, the LH-type blocks are
+                           further integrated if they are adjacent to each other under the criterion of rook continuity.
+                                                                                    _
+                                 So far, we have identified as urban𝑅𝑎𝑡𝑖𝑜
+                                                                       shadow areas those areas that are purely based on
+                           statistical calculation, some of which might not fully reflect the spatial reality. Therefore,
+                                     𝑉𝑜𝑙𝑎𝑡𝑖𝑙𝑖𝑡𝑦       𝑅𝑎𝑡𝑖𝑜
+                                                                                                 𝑖               𝑓𝑙𝑜𝑤
+                                                                                     𝑡
+                                                                 𝑖                                                         𝑖
+                            𝑓𝑙𝑜𝑤                                                                      𝑖
+Buildings 2023, 13, 2934                                                                                            8 of 19
+
+
+
+
+                           the identification result needs further correction and adjustment. On the one hand, we
+                           filter out the identified urban shadow areas that mainly contain natural landscapes such as
+                           mountains, water bodies, farmlands, and protective green space. Though these landscapes
+                           have relatively lower levels of construction intensity and a lower density of public service
+                           facilities, they are usually not close to urban central areas and thus cannot be regarded as
+                           urban shadow areas. On the other hand, we filter out the identified urban shadow areas
+                           that mainly contain public buildings such as museums, libraries, and schools. Though
+                           these areas usually have relatively low construction intensity, they are often active, vibrant,
+                           and full of people. Therefore, these areas cannot be seen as urban shadow areas either.
+
+                           3.3.3. Indicators Reflecting the Dynamics of Urban Shadow Areas
+                                In this study, we use two indicators to explore the dynamics of urban shadow areas.
+                           One is the volatility of people flows and the other is the day–night ratio of people flows.
+                           Specifically, the former indicator represents the stability of the overall people flows (both
+                           inflow and outflow) of an urban shadow area during 12 time intervals, which can be
+                           measured using the standard deviation method. The latter represents the difference in
+                           the overall people flows between day and night for a certain urban shadow area. The
+                           expressions of the two indicators are given as follows:
+                                                                     v
+                                                                     u                       2
+                                                                     u 12
+                                                                     t ∑t=1 f lowi,t − f lowi
+                                                     Volatilityi =                                                     (4)
+                                                                                  12
+
+                                                                            f low_dayi
+                                                               Ratioi =                                                (5)
+                                                                          f low_nighti
+                           where Volatilityi and Ratioi represent the stability of the overall people flows and the
+                           day–night ratio of people flows for each urban shadow area i, respectively. f lowi,t reflects
+                           the overall people flows at the time interval t, which is the sum of both people inflows
+                           to the urban shadow area i and people outflows from the urban shadow area i. f lowi
+                           means the average people flows of the urban shadow area i over a whole day. f low_dayi
+                           and f low_nighti represent the overall people flows during the daytime and the nighttime,
+                           respectively. The former is measured according to the people flows between 8:00 am and
+                           10:00 am in the morning, while the latter is measured according to the people flows between
+                           2:00 am and 4:00 am at night. The reason for choosing these two periods is that, according
+                           to the habits of most people, these are the periods which best reflect and represent these
+                           two types of behavior. Data on people flows of a certain urban shadow area and during a
+                           certain time interval can be aggregated at the mobile phone base station level.
+
+                           4. The Distribution of Urban Shadow Areas in Nanjing
+                                Based on the above-mentioned data and method, we finally identify 19 urban shadow
+                           areas within the study area, 11 of which are located in the old downtown area of Nanjing.
+                           Table 1 describes the basic morphological information of these urban shadow areas, in-
+                           cluding their areas, the number of blocks that they contain, and their nearby urban central
+                           areas. Overall, these urban shadow areas contain 97 blocks, covering an area of about
+                           13.53 square kilometers. Furthermore, these urban shadow areas have a total building floor
+                           area of about 7.21 square kilometers, and a total building footprint area of about 2.88 square
+                           kilometers. Therefore, the average plot ratio of these urban shadow areas is about 0.53
+                           and the average building density is 0.21. Moreover, we can find that there is remarkable
+                           heterogeneity among these urban shadow areas. For instance, their areas range from 4.19
+                           hectares to 323.59 hectares, and the number of blocks they contain range from 1 to 14.
+                           Despite this heterogeneity, we can see that all these urban shadow areas are close to at least
+                           one urban central area of Nanjing.
+Buildings 2023, 13, 2934                                                                                               9 of 19
+
+
+
+
+                            Table 1. The basic information of 19 identified urban shadow areas in Nanjing.
+
+          Name of Urban                                                                           Name of Nearby Urban
+                                    Area (Hectares)                Number of Blocks
+           Shadow Area                                                                               Central Area
+         Wutang Parcel                   323.59                              1                  Wutang Plaza central area
+      Qingliangmen Avenue                15.93                              1                        Hexi central area
+           Liuhe Parcel                  149.28                             4                        Liuhe central area
+         Baijiahu Parcel                   9.33                              5                     Baijiahu central area
+        Andemen Avenue                   109.70                              6                 Confucius Temple central area
+          Kening Road                    162.68                             11                     Baijiahu central area
+        Fengtainan Road                  289.60                             12                       Hexi central area
+        Shengzhou Road                    34.35                             14                 Confucius Temple central area
+       Huowaxiang Parcel                  28.61                              5                    Xinjiekou central area
+          Youfuxi Street                 18.18                              6                     Xinjiekou central area
+          Hunan Road                      28.48                              3                   Hunan Road central area
+          Pukou Parcel                   16.52                              3                      Jiangbei central area
+          Xianlin Parcel                  69.22                              7                      Xianlin central area
+            Yihe Road                     24.59                             14                   Hunan Road central area
+         Cibeishe Parcel                  12.58                              2                    Xinjiekou central area
+        Yunnanbei Road                     7.79                              2                   Hunan Road central area
+          Qingshi Street                   7.48                              2                    Xinjiekou central area
+         Guyilong Parcel                   4.19                              1                    Xinjiekou central area
+         Jiankang Road                    9.64                              1                  Confucius Temple central area
+
+
+                                 Figure 5 depicts the spatial distribution of urban shadow areas in Nanjing. Overall,
+                            we can see that the distribution is characterized by internal agglomeration and external
+                            dispersion. Specifically, internal agglomeration refers to the relatively dense distribution
+                            of multiple urban shadow areas within the old downtown area of Nanjing, such as the
+                            Xinjiekou central area, the Hunan Road central area, and the Confucius Temple central area.
+                            For instance, urban shadow areas such as Guyilang Parcel, Qingshi Street, Youfuxi Street,
+                            Huaihai Road, Huowaxiang Parcel, and Cibeishe Parcel are all around the Xinjiekou central
+                            area, while urban shadow areas such as Hunan Road and Yunnanbei Road are close to the
+                            Hunan Road central area. In addition, internal agglomeration is reflected by the fact that
+                            these urban shadow areas are mainly clustered along the Zhongshanbei Road, Zhongshan
+                            Road, and Zhongshandong Road, and along the Zhonghua Road to Zhonghuamen Gate,
+                            which is spatially related to the city’s historical context. This may also reflect the historical
+                            factors that influence the phenomenon of urban shadow areas. In fact, the Gulou District
+                            and Qinhuai District within the old downtown area contain the largest number of urban
+                            shadow areas, partly because these two administrative districts have a relatively long
+                            history of development and are among the earliest developed areas in Nanjing. Therefore,
+                            they are more likely to experience unbalanced development.
+                                 External dispersion refers to the fact that the number of urban shadow areas is rela-
+                            tively smaller outside the old downtown area. The distribution of the eight urban shadow
+                            areas shows a relatively scattered layout, which has occurred in some newly developed
+                            areas such as the Hexi central area in the west of Nanjing and the Dongshan central area
+                            in the south of Nanjing. Specifically, urban shadow areas such as Qingliangmen Avenue
+                            and Fengtainan Road are located in the Hexi central area, while the Dongshan central
+                            area mainly contains urban shadow areas such as Baijiahu Parcel and Kening Road. Fur-
+                            thermore, some urban shadow areas are located around the Jiangbei central area and the
+                            Xianlin central area, which are further away from the old downtown area of Nanjing.
+Buildings 2023, 13, 2934                                                                                       10 of 19
+
+
+
+
+                           Figure 5. The spatial distribution of the urban shadow areas of Nanjing.
+
+                           5. The Dynamic Connections between Urban Shadow Areas and Other Parts
+                           of Nanjing                                                                            ‐
+                                 Figure 6 shows the calculation results of the two indicators that we have constructed
+                           to reflect the dynamic connections of the identified urban shadow areas with other parts of
+                           Nanjing. As for the indicator of volatility of people flows, this ranges from 1.80 to 33.86
+Buildings 2023, 13, 2934                                                                                          11 of 19
+
+
+
+
+                           with an average value of 15.27. Specifically, the Wutang Parcel shadow area has the lowest
+                           volatility value, while the Yihe Road shadow area has the highest volatility value. In terms
+                           of the indicator of the day–night ratio of people flows, it has an average value of 5.04, with
+                           the value of the Xianlin Parcel shadow area being the lowest (2.14) and that of the Jiankang
+                           Road shadow area being the largest (9.70).
+
+
+
+
+                           Figure 6. The distribution of two indicators of urban shadow areas.
+
+                                In Figure 6, the two red lines represent the average values of the volatility and day–
+                           night ratio, respectively. With the two average values as the threshold, we can further
+                           divide these urban shadow areas into four types: (1) those with relatively low values of
+                           both volatility and day–night ratio, including Wutang Parcel, Kening Road, Qingliangmen
+                           Avenue, Guyilang Parcel, Hunan Road, Xianlin Parcel, and Liuhe Parcel; (2) those with
+                           relatively low values of volatility but high values of day–night ratio, including Baijiahu
+                           Parcel, Andemen Avenue, Fengtainan Road, and Shengzhou Road; (3) those with relatively
+                           high values of volatility but low values of day–night ratio, including Huowaxiang Parcel,
+                           Yunanbei Road, Pukou Parcel, and Youfuxi Street; and (4) those with relatively high values
+                           of both volatility
+                                           ﬀ and day–night ratio, including Jiankang Road, Qingshi Street, Cibeishe
+                           Parcel, and Yihe Road. For each type, we select one representative shadow area to explore
+                           in detail the characteristics of its dynamic connections with other parts of Nanjing as well
+                           as the underlying mechanisms.
+
+                           5.1. Low in Both Volatility and Day–Night Ratio: Using Wutang Parcel as an Example
+                                For urban shadow areas that have relatively low values of both volatility and day–
+                           night ratio, they generally have weak connections with other parts of Nanjing and these
+                           connections are relatively stable over time. These shadow areas are mainly distributed in the
+                           peripheral areas of Nanjing, which have been dominated by vacant land and agricultural
+                           and forestry land. Therefore, they usually have fragmented spaces and are less attractive
+                           for people.
+                                Here, we take the Wutang Parcel shadow area as an example, which is located to the
+                           north of the old downtown area of Nanjing (Figure 5). Its connections with other parts
+                           of Nanjing at different time intervals is shown in Figure 7. Obviously, this area mainly
+                           connects with its nearby areas, with a relatively lower level of connection strength and
+                           fluctuation. The spatial morphology of this shadow area has two main characteristics,
+Buildings 2023, 13, 2934                                                                                           12 of 19
+
+
+
+
+                           which partly account for the distribution of its dynamic connections. First, this shadow
+                           area is mainly surrounded by district-level urban centers and large residence, while the
+                           area itself is dominated by abandoned plants and agricultural and forestry land. Therefore,
+                           it lacks sufficient public service facilities and the development intensity of this area is
+                              ﬃ
+                           relatively lower than its surrounding areas. Second, the internal traffic network structure
+                                                                                          ﬃ
+                           of this shadow area is relatively broken, which mainly contains small and narrow roads.
+                           Thus, the accessibility of this shadow area is weak, which is not attractive for people either.
+                                                                                             tt
+                           Taken together, we find that this shadow area can only provide very limited employment
+                           opportunities and its public service facilities are not attractive for people to agglomerate.
+                                                                                    tt
+                           Consequently, it is expected to have low values in both volatility and the day–night ratio of
+                           people flows.
+
+
+
+
+                                        (a) 2:00–4:00 am                           (b) 8:00–10:00 am
+
+
+
+
+                                       (c) 12:00–14:00 pm                         (d) 16:00–18:00 pm
+
+                           Figure 7. The dynamic connections of the Wutang Parcel at ﬀ
+                                                                                    different time intervals.
+Buildings 2023, 13, 2934                                                                                             13 of 19
+
+
+
+
+                           5.2. Low in Volatility but High in Day–Night Ratio: Using Baijiahu Parcel as an Example
+                                 For urban shadow areas with low values of volatility but high values of day–night
+                           ratio, their internal spaces are usually homogeneous, most of which are dominated by
+                           production and manufacturing functions with a similar architectural texture. However,
+                           due to the relatively large number of job opportunities these shadow areas can provide,
+                           they usually have more frequent people flows during the daytime and less frequent people
+                           flows during the nighttime.  tt Therefore, the day–night ratio of people flows for these shadow
+                           areas is remarkable.
+                                 This study takes the Baijiahu Parcel as an example to further explore the spatial char-
+                                                                                                                   ﬀ
+                           acteristics of these shadow areas. As shown in Figure 8, there is a remarkable difference     in
+                           people flows between the daytime (8:00–10:00 am) and nighttimett(2:00–4:00 am), suggesting
+                           a relatively high value of day–night ratio. Specifically, the spatial characteristics of the
+                           Baijiahu Parcel shadow area can be discussed from the following aspects. First, since the
+                           shadow area is within the Jiangning Development Zone of Nanjing, it has been dominated
+                           by industrial land. Moreover, this shadow area has attracted   tt many high-tech industries
+                           such as green and intelligent automobile manufacturing, life science, artificial intelligence,
+                           and future networks. Such industries have enjoyed rapid development, which helps this
+                           area provide relatively stable employment opportunities. Second, this shadow area has
+                                              ﬃ
+                           good traffic conditions.   It is adjacent to the Baijiahu central area of Nanjing, the Nanjing
+                           South Station, and Nanjing Lukou International Airport, which ensures that the area has
+                           good accessibility. From the perspective of urban morphology, however, the buildings of
+                           this shadow area are relatively small in scale, being mainly low factory buildings with one–
+                           three floors. Furthermore, there is a large proportion of vacant land due to the requirements
+                           of production protection. In contrast, its surrounding areas contain many commercial
+                           complexes and high-rise residential buildings.
+                                 Influenced by the above-mentioned characteristics, the population type and the pattern
+                           of their daily activities are relatively unitary. Employees working in these manufacturing
+                           factories account for the majority population in this area, leading to a small residential
+                           population base and a relatively low fluctuation rate. In addition, most of the employees
+                           are residents living in nearby areas, which results in regular commuting behaviors. Taken
+                           together, we can expect that the people flows of this shadow area are less fluctuating but
+                           have a relatively high value of day–night ratio.
+
+
+
+
+                                        (a) 2:00–4:00 am                          (b) 8:00–10:00 am
+
+                           Figure 8. Cont.
+Buildings 2023, 13, 2934                                                                                               14 of 19
+
+
+
+
+                                       (c) 12:00–14:00 pm                           (d) 16:00–18:00 pm
+                                                                                                     ﬀ
+                           Figure 8. The dynamic connections of the Baijiahu Parcel shadow area at different time intervals.
+
+                           5.3. High in Volatility but Low in Day–Night Ratio: Using Hunan Road as an Example
+                                 For urban shadow areas with high values of volatility and low values of day–night
+                           ratio, the most typical feature is the complexity of their land use. It not only contains some
+                           dilapidated open space or land under construction, but also a certain amount of commercial
+                           facilities. The lattertthelps attract
+                                                              tt and gather people, resulting in relatively rich types of
+                           people activities. However, due to the relatively weak functions in terms of residences
+                           and employment, there is no significant difference
+                                                                            ﬀ     in people flows during the daytime and
+                           nighttime,tt which  usually  means   a relatively low day–night ratio.
+                                 We select the Hunan Road shadow area as a typical representative of this type of
+                           shadow area (Figure 9). This area used to be an important node of the network of people
+                           flows in Nanjing. It was veryttattractive for people and consumers to visit because it is
+                           close to the Xuanwu Lake and surrounded by many big commercial complexes. However,
+                           with the continuous upgrading of urban development and the increasing of people’s
+                           living demands, the attractiveness of this area is gradually declining and its renewal is
+                                         tt
+                           thus imminent. Under this background, this area has entered the stage of demolition
+                           and reconstruction, leading to large-scale open spaces under construction. Furthermore,
+                           influenced by the decline of its nearby commercial centers, the building density and
+                           development intensity of this shadow area have gradually decreased, making this area
+                           become increasingly less attractive for people to visit.
+                                 tt
+                                 Overall, on the one hand, the Hunan Road shadow area has some scattered commercial,
+                                                                                                          tt
+                           residential, and public service facilities. On the other hand, its development is affected
+                           by neighboring commercial complexes, universities, parks, and hospitals. Influenced by
+                                                                                                                   ﬀ
+                           these two factors, this area has formed a moderate population base. However, the huge
+                           difference between this area and its neighboring areas has led to a high level of volatility in
+                             ﬀ of people flows. In addition, due to the relatively few employment opportunities it
+                           terms
+                           can provide, the differences in people flows of this area during the daytime and nighttime
+                           is thus not remarkable,ﬀleading to a relatively low value of day–night ratio.
+                                tt
+Buildings 2023, 13, 2934                                                                                            15 of 19
+
+
+
+
+                                         (a) 2:00–4:00 am                           (b) 8:00–10:00 am
+
+
+
+
+                                        (c) 12:00–14:00 pm                         (d) 16:00–18:00 pm
+                                                                                                 ﬀ
+                           Figure 9. The dynamic connections of the Hunan Road shadow area at different time intervals.
+
+                           5.4. High in Both Volatility and     ‐
+                                                            Day-Night Ratio: Using Cibeishe Parcel as an Example
+                                 The majority of the urban shadow areas with high values of volatility and day–night
+                           ratio are within the range of the Xinjiekou central area of Nanjing. They are often dominated
+                           by old residences and related public service facilities. Though possessing the advantages of
+                           relatively dense public service facilities and rich job opportunities, these areas are faced
+                           with the disadvantage of relatively high land price and living costs, which leads to a
+                           significant tidal phenomenon of people flows.
+                                 In this paper, the Cibeishe Parcel is selected as a typical representative of this type
+                           of shadow area (Figure 10). This area is adjacent to the Xinjiekou central area and within
+                           walking distance of commercial complexes such as Deji Square and the Jinlun International
+                           Plaza. Therefore, it has an advantageous location and is surrounded by abundant com-
+                           mercial and public service facilities. In terms of urban morphology, this area has many
+                           old communities and historical relics. Therefore, the building height and development
+Buildings 2023, 13, 2934                                                                                                16 of 19
+
+
+
+
+                           intensity in this area is not so high. In fact, most buildings in this area are less than six floors.
+                           Furthermore, the internal road network structure of this area is mainly for residential use
+                           and daily commuting. However, due to its closeness to the Xinjiekou central area, this area
+                           can provide necessary services for daily life, such as logistics delivery, catering, and leisure.
+                           In addition, residents living in this area are also potential employees providing services for
+                           the surrounding areas and even the whole city, which results in a relatively high level of
+                           fluctuation of people flows. Meanwhile, because this area is dominated by residential land,
+                           the employment opportunities it can provide are rather limited, which could also lead to a
+                           relatively high value of day–night ratio in terms of people flows.
+
+
+
+
+                                         (a) 2:00–4:00 am                             (b) 8:00–10:00 am
+
+
+
+
+                                        (c) 12:00–14:00 pm                           (d) 16:00–18:00 pm
+                           Figure 10. The dynamic connections of the Cibeishe Parcel shadow area at ﬀ
+                                                                                                   different time intervals.
+
+                           6. Discussions
+                                In this paper, the existence of urban shadow areas, as well as their dynamic con-
+                           nections with other areas, have been clearly demonstrated in the case of Nanjing. The
+Buildings 2023, 13, 2934                                                                                            17 of 19
+
+
+
+
+                           empirical results of this study suggest that urban shadow areas do exist in cities, which is
+                           in line with other studies that have focused on shadow areas on an intra-urban scale [5–7].
+                           However, these urban shadow areas are not isolated but have dynamic connections with
+                           their neighboring central areas and other parts of the city. Therefore, merely considering
+                           urban shadow areas as isolated and negative spaces may not fully capture the significance
+                           of urban shadow areas to the overall development of a city. In fact, with the rapid develop-
+                           ment of digitization and globalization, flows of people, logistics, capital, and information
+                           have been substantially enhanced, which has also promoted the evolution of urban spatial
+                           structures from a hierarchy to a network [31,33]. In this sense, urban shadow areas cannot
+                           be simply regarded as isolated and negative spaces of a city. Instead, they actually maintain
+                           dynamic connections with other parts of a city and are important nodes of a city’s network
+                           structure [7].
+                                 The empirical results have some policy implications for the planning and design of
+                           urban shadow areas in a city. For policy makers, they should bear it in mind that urban
+                           shadow areas exist at different development stages of a city. In other words, though these
+                           areas may generate negative effects on their surrounding areas, these negative effects
+                           cannot be permanently eliminated through urban planning and design due to the existence
+                           of unbalanced development. The government should actively refine and activate the
+                           characteristic resources of historical relics. Using a series of spatial organization methods,
+                           such as public space and activity tour line, these resources are re-utilized and “darned”
+                           into the overall cultural context of the city, so as to effectively locate or integrate them into
+                           the characteristic space system of the city [6]. In brief, we suggest that policies aiming
+                           to improve the development of urban shadow areas could consider the following three
+                           aspects.
+                                 First, the spatial distribution of urban shadow areas is heterogeneous across different
+                           parts of a city. Such heterogeneity should be considered in the relevant policies. Specifically,
+                           due to their advantageous locations, urban shadow areas in the old downtown areas of
+                           a city usually have frequent people flows. Therefore, it would contribute greatly to the
+                           development of these shadow areas if policies could leverage the important role of their
+                           neighboring central areas to further enhance the vitality of these shadow areas [8]. For
+                           urban shadow areas in the peripheral areas of a city, policies could focus on how to further
+                           strengthen the comparative advantages of these areas so that they can integrate into a city’s
+                           network structure.
+                                 Second, the temporal distribution of the external connections of urban shadow areas is
+                           also heterogeneous. For a certain urban shadow area, the overall volatility and the strength
+                           of people flows are different during different time periods of a day, both of which are
+                           influenced by both the shadow area itself and its nearby central areas. Therefore, it is
+                           necessary to consider such temporal heterogeneity in the planning and design of urban
+                           shadow areas to ensure that they maintain relatively enduring and stable vitality. For
+                           instance, promoting the development of night markets might be a good way to utilize the
+                           temporal characteristics of urban shadow areas, especially for those in the old downtown
+                           areas of a city [23]. This is because these shadow areas are usually less attractive for people
+                           during the nighttime. However, they often have large open spaces which can be utilized
+                           to develop night markets. In doing so, the night markets can not only bring relatively
+                           sustainable people flows to these shadow areas, but also help improve their popularity to a
+                           certain extent.
+                                 Third, urban shadow areas differ from each other in terms of their dominant functions,
+                           which has also resulted in the spatio-temporal heterogeneity of their dynamic connections
+                           with other areas. Therefore, such heterogeneity in dominant functions should be considered
+                           in policies aiming to eliminate the negative effects of shadow areas on a city’s overall
+                           development. For instance, for urban shadow areas dominated by residential functions,
+                           it would be useful to diversify the building types with multiple functions to gradually
+                           promote the formation of a diversified and inclusive community environment. For urban
+                           shadow areas dominated by industrial manufacturing functions, promoting the renewal of
+Buildings 2023, 13, 2934                                                                                                          18 of 19
+
+
+
+
+                                  old and vacant factories and constructing industrial complexes could be an effective way to
+                                  attract people and facilitate land use mixing.
+
+                                  7. Conclusions
+                                       The formation of urban shadow areas is a common phenomenon during the rapid
+                                  process of urbanization. However, relatively few efforts have been made to delineate and
+                                  characterize urban shadow areas in a more quantitative way. In this paper, we propose a
+                                  method to identify urban shadow areas from the perspective of people flows. Taking Nan-
+                                  jing as a case study and drawing upon data on urban morphology and cellular signaling,
+                                  we have identified and investigated the dynamic connections of 19 urban shadow areas
+                                  within its downtown areas. The empirical results show that urban shadow areas differ
+                                  from each other in terms of their morphological characteristics such as building density
+                                  and development intensity. While 11 urban shadow areas are within the old downtown
+                                  areas of Nanjing, the distribution of the rest of the 8 shadow areas are relatively scattered in
+                                  the periphery. Moreover, we find that these urban shadow areas are not isolated but closely
+                                  connected with other parts of Nanjing, though the spatio-temporal distribution patterns
+                                  of their connections differ to some extent. The 19 urban shadow areas are further divided
+                                  into four types by considering their different distribution patterns of connections, each of
+                                  which is investigated by analyzing a representative shadow area. Based on the empirical
+                                  results, we suggest that policies aiming to eliminate the negative effects of urban shadow
+                                  areas should consider heterogeneity in their spatial distributions within a city, the temporal
+                                  distribution of their external connections, and their dominant functions.
+                                       This study has some limitations which could serve as departure points for future
+                                  research. For instance, due to data constraints, we have only investigated the dynamic
+                                  connections of urban shadow areas on a given date. Therefore, future studies could consider
+                                  comparing the connections from an evolutionary perspective. Furthermore, the underlying
+                                  mechanisms behind the formation of different types of urban shadow areas have only been
+                                  qualitatively discussed in this paper. Future studies could further explore the mechanisms
+                                  in a more quantitative way.
+
+                                  Author Contributions: Conceptualization, W.X. and J.Y.; methodology, W.X.; data curation, W.X.;
+                                  writing—original draft preparation, W.X.; writing—review and editing, W.X. and J.Y.; visualization,
+                                  W.X.; funding acquisition, W.X. All authors have read and agreed to the published version of the
+                                  manuscript.
+                                  Funding: This research was funded by the National Natural Science Foundation of China, grant num-
+                                  ber 52208063, the Natural Science Foundation of Jiangsu Province, China, grant number BK20220424
+                                  and Basic Science (Natural Science) Research Projects in Higher Education Institutions in Jiangsu
+                                  Province, grant number 22KJB560025.
+                                  Data Availability Statement: The data presented in this study are available on request from the
+                                  corresponding author. The data are not publicly available due to privacy.
+                                  Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.    Meijers, E.J.; Burger, M.J. Stretching the concept of ‘borrowed size’. Urban Stud. 2017, 54, 269–291. [CrossRef]
+2.    Servillo, L. Tailored polities in the shadow of the state’s hierarchy. The CLLD implementation and a future research agenda. Eur.
+      Plan. Stud. 2019, 27, 678–698. [CrossRef]
+3.    Sun, D.; Zhang, J.; Hu, Y.; Zhou, L.; Yu, Z. The formation of metropolitan shadow from the perspective of industry spatial contacts:
+      A comparison between Changjiang river delta and Beijing-Tianjin-Hebei metropolitan region. Sci. Geol. Sin. 2013, 33, 1043–1050.
+4.    Ryan, B.D.; Weber, R. Valuing new development in distressed urban neighborhoods: Does design matter? J. Am. Plan. Assoc. 2007,
+      73, 100–111. [CrossRef]
+5.    Yang, J.; Hu, X. Study on shadow area of city centers in circle-core structure mode. China City Plan. Rev. 2012, 36, 26–33.
+6.    Yang, J.; Ma, B. Morphological characteristics and pattern mechanism of urban shadow area: A case study of Shanghai’s
+      “human-land-industry” from a multi-source big data perspective. China City Plan. Rev. 2019, 43, 95–106.
+7.    Xiong, W.; Yang, J. Research on the driving force mechanism of the formation of urban shadow areas from the perspective of
+      dynamic network. Archit. Cult. 2021, 1, 165–167.
+Buildings 2023, 13, 2934                                                                                                          19 of 19
+
+
+
+
+8.    Yan, W.; Zhang, L.; Duan, X.; Wu, F. Strategic approaches to realize sustainable neighborhoods in urban renewal: A case study of
+      Banan, Chongqing, China. Sustainability 2023, 15, 3515. [CrossRef]
+9.    Zhou, T.; Fu, H.; Sun, C.; Wang, S. Shadow detection and compensation from remote sensing images under complex urban
+      conditions. Remote Sens. 2021, 13, 699. [CrossRef]
+10.   Chen, Y.; Wen, D.; Jing, L.; Shi, P. Shadow information recovery in urban areas from very high resolution satellite imagery. Int. J.
+      Remote Sens. 2007, 28, 3249–3254. [CrossRef]
+11.   He, Z.; Zhang, Z.; Guo, M.; Wu, L.; Huang, Y. Adaptive unsupervised-shadow-detection approach for remote-sensing image
+      based on multichannel features. Remote Sens. 2022, 14, 2756. [CrossRef]
+12.   Elzeni, M.M.; ELMokadem, A.A.; Badawy, N.M. Impact of urban morphology on pedestrians: A review of urban approaches.
+      Cities 2022, 129, 103840. [CrossRef]
+13.   Krugman, P.R. On the relationship between trade theory and location Theory. Rev. Int. Econ. 1993, 1, 110–122. [CrossRef]
+14.   Sohn, C.; Licheron, J.; Meijers, E. Border Cities: Out of the shadow. Pap. Reg. Sci. 2022, 101, 417–438. [CrossRef]
+15.   Zhen, Y.; Shi, D.; Lu, Y. The impact of regional integration strategies on the formation of city regions and its agglomeration
+      shadow: Evidence from the Yangtze River Delta, China. Land 2023, 12, 1053. [CrossRef]
+16.   Burger, M.J.; Meijers, E.J.; Hoogerbrugge, M.M.; Tresserra, J.M. Borrowed size, agglomeration shadows and cultural amenities in
+      North-West Europe. Eur. Plan. Stud. 2015, 23, 1090–1109. [CrossRef]
+17.   Phelps, N.A.; Fallon, R.J.; Williams, C.L. Small firms, borrowed size and the urban-rural shift. Reg. Stud. 2001, 35, 613–624.
+      [CrossRef]
+18.   Phelps, N.A. Interplaces: An Economic Geography of the Inter-Urban and International Economies; Oxford University Press: Oxford,
+      UK, 2017.
+19.   Phelps, N.A. City systems research: From morphology to relationality and positionality. Int. J. Urban Sci. 2021, 25, 480–500.
+      [CrossRef]
+20.   Frank, S. Inner-city suburbanization–No contradiction in terms. Middle-class family enclaves are spreading in the cities.
+      Raumforsch. Raumordn. Spat. Res. Plan. 2018, 76, 123–132. [CrossRef]
+21.   Spórna, T.; Krzysztofik, R. ‘Inner’ suburbanisation–Background of the phenomenon in a polycentric, post-socialist and post-
+      industrial region. Example from the Katowice Conurbation, Poland. Cities 2020, 104, 102789. [CrossRef]
+22.   Zhang, J.; Zhuang, L. Study on the evolution mechanism and countermeasures of metropolitan shadow area. J. Nanjing Univ.
+      (Nat. Sci. Ed.) 2000, 36, 687–692.
+23.   Sun, J.; Lin, Y. From urban shadow area to frontier area: The effect of administrative division on small towns in the urban shadow
+      area. Urban Plan. Forum 2013, 3, 50–53.
+24.   Shi, Y.; Wang, X.; Chen, X.; Wang, Y. Development strategy for local central city in the shadow area of multiple metropolises:
+      Dingzhou City, Hebei Province. Planners 2019, 35, 5–10.
+25.   Sun, B.; Chen, Y. Xiong’an new area strategy is a sally port of solving the “poverty belt around Beijing and Tianjin” problem. Reg.
+      Econ. Rev. 2017, 5, 67–71.
+26.   Zhang, J.; Chen, H. A study of agglomeration shadow during urbanization in the new era—A case for high-speed Rail. China
+      Econ. Q. 2022, 22, 281–302.
+27.   Pan, J.; Yao, Y. Delimitation of metropolitan shadow area in Beijing-Tianjin-Hebei metropolitan region. J. Hum. Sett. W. China
+      2017, 32, 100–106.
+28.   Rahajeng, A.; Jaya, W.K.; Pangaribowo, E.H.; Darwin, M. Assessment of regional development pattern towards sustainability
+      urban areas: Empirical evidence from Yogyakarta urban areas. Environ. Dev. Sustain. 2023. [CrossRef]
+29.   Sun, D.; Lu, J.; Zhang, M.; Niu, F. Evaluation of service function of small towns in China from the perspective of borrowed size
+      and agglomeration shadow: A case study of southern Jiangsu Province. Prog. Geogr. 2022, 41, 199–213. [CrossRef]
+30.   Cuberes, D.; Desmet, K.; Rappaport, J. Urban growth shadows. J. Urban Econ. 2021, 123, 103334. [CrossRef]
+31.   Yang, W.; Fan, F.; Wang, X.; Yu, H. Knowledge innovation network externalities in the Guangdong–Hong Kong–Macao Greater
+      Bay Area: Borrowing size or agglomeration shadow? Technol. Anal. Strateg. Manag. 2022, 34, 1020–1037. [CrossRef]
+32.   Wang, L.; Zhang, F.; Zang, Y.; Duan, J. Understanding the regional integration process from the perspective of agglomeration and
+      urban networks: Case study in Central China. Int. J. Environ. Res. Public Health 2022, 19, 12834. [CrossRef]
+33.   Huang, Y.; Hong, T.; Ma, T. Urban network externalities, agglomeration economies and urban economic growth. Cities 2020, 107,
+      102882. [CrossRef]
+34.   Li, Y.; Derudder, B. Dynamics in the polycentric development of Chinese cities, 2001–2016. Urban Geogr. 2022, 43, 272–292.
+      [CrossRef]
+35.   Zhu, K.; Tu, M.; Li, Y. Did polycentric and compact structure reduce carbon emissions? A spatial panel data analysis of 286
+      Chinese cities from 2002 to 2019. Land 2022, 11, 185. [CrossRef]
+36.   Li, Y.; Du, R. Polycentric urban structure and innovation: Evidence from a panel of Chinese cities. Reg. Stud. 2022, 56, 113–127.
+      [CrossRef]
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+

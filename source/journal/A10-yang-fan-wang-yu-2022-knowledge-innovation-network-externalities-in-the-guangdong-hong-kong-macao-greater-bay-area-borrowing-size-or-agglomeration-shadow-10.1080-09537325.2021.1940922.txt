@@ -1,0 +1,863 @@
+[PDF Metadata]
+Source PDF: journal/A10-yang-fan-wang-yu-2022-knowledge-innovation-network-externalities-in-the-guangdong-hong-kong-macao-greater-bay-area-borrowing-size-or-agglomeration-shadow-10.1080-09537325.2021.1940922.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Knowledge innovation network externalities in the Guangdong–Hong Kong–Macao Greater Bay Area: borrow
+Subject:         Technology Analysis & Strategic Management, 2021. doi:10.1080/09537325.2021.1940922
+Keywords:        Knowledge innovation; network externalities; agglomeration shadow
+Author:          Wenyi Yang
+Creator:         Servigistics Arbortext Advanced Print Publisher 11.1.4546/W-x64
+Producer:        Acrobat Distiller 8.1.0 (Windows); modified using iTextSharp™ 5.5.8 ©2000-2015 iText Group NV (AGPL-version)
+CreationDate:    Mon Jun 14 20:30:39 2021 WIB
+ModDate:         Mon Jun 14 20:44:11 2021 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           19
+Encrypted:       no
+Page size:       634.32 x 833.04 pts
+Page rot:        0
+File size:       2005666 bytes
+Optimized:       no
+PDF version:     1.4
+[Extracted Text]
+      Technology Analysis & Strategic Management
+
+
+
+
+      ISSN: (Print) (Online) Journal homepage: https://www.tandfonline.com/loi/ctas20
+
+
+
+
+Knowledge innovation network externalities in the
+Guangdong–Hong Kong–Macao Greater Bay Area:
+borrowing size or agglomeration shadow?
+
+Wenyi Yang, Fei Fan, Xueli Wang & Haichao Yu
+
+To cite this article: Wenyi Yang, Fei Fan, Xueli Wang & Haichao Yu (2021): Knowledge
+innovation network externalities in the Guangdong–Hong Kong–Macao Greater Bay Area:
+borrowing size or agglomeration shadow?, Technology Analysis & Strategic Management, DOI:
+10.1080/09537325.2021.1940922
+
+To link to this article: https://doi.org/10.1080/09537325.2021.1940922
+
+
+
+
+       Published online: 15 Jun 2021.
+
+
+
+       Submit your article to this journal
+
+
+
+       Article views: 57
+
+
+
+       View related articles
+
+
+
+       View Crossmark data
+
+
+
+
+                      Full Terms & Conditions of access and use can be found at
+             https://www.tandfonline.com/action/journalInformation?journalCode=ctas20
+TECHNOLOGY ANALYSIS & STRATEGIC MANAGEMENT
+https://doi.org/10.1080/09537325.2021.1940922
+
+
+
+
+Knowledge innovation network externalities in the Guangdong–
+Hong Kong–Macao Greater Bay Area: borrowing size or
+agglomeration shadow?
+Wenyi Yanga, Fei Fan                 b
+                                       , Xueli Wangb and Haichao Yub
+a
+ School of Public Administration, Zhongnan University of Economics and Law, Wuhan, People’s Republic of China;
+b
+ Institute of Regional and Urban-Rural Development, Wuhan University, Wuhan, People’s Republic of China
+
+
+    ABSTRACT                                                                                 ARTICLE HISTORY
+    The Guangdong–Hong Kong–Macao Greater Bay Area (GBA) is one of the                       Received 10 February 2021
+    most active innovation areas in China, but the complex institutional and                 Revised 8 May 2021
+    cultural environment makes innovation cooperation among the cities                       Accepted 3 June 2021
+    challenging. Based on 2001–2019 data, this study analyses the spatial
+                                                                                             KEYWORDS
+    pattern and externalities of GBA’s knowledge innovation network using                    Knowledge innovation;
+    a social network method and spatial econometric model. Results show                      network externalities;
+    that Guangzhou and Hong Kong have always been the cores of                               agglomeration shadow
+    knowledge innovation in network. Shenzhen emerged as an innovation
+    centre after 2012, and other cities have become peripheral areas in the
+    network. Small- and medium-sized cities do not beneﬁt from the
+    innovative development of core cities but are trapped in their
+    agglomeration shadow. Institutional and cultural diﬀerences are the
+    main obstacles hindering innovation cooperation between cities. In
+    comparison, distance has fewer limitations on innovation cooperation.
+    The negative externality of knowledge innovation network indicates
+    that this region should narrow the gap of spatial diﬀerences, optimise
+    the innovation network pattern to improve the network externalities.
+
+
+
+
+1. Introduction
+In the knowledge economy, urban agglomerations have become incubators for regional innovation.
+With the transition from ‘space of place’ to ‘space of ﬂow’ (Castells 1996a, 1996b), the innovative
+spatial pattern of urban agglomerations has gradually evolved from traditional hierarchies to net-
+works. Cities have transformed from independent points in space to hubs in networks, and inter-
+actions between cities have become important factors aﬀecting innovation performance (Cooke
+et al. 2011).
+    The Guangdong–Hong Kong–Macao Greater Bay Area (GBA) is one of the regions with the highest
+degree of openness and the most economic vitality in China. To maintain its competitiveness, the
+Chinese government issued the ‘GBA Planning Outline’ in 2019, aiming to build the area into a
+world-class urban agglomeration and international innovation highland, which considers Guangz-
+hou, Shenzhen, Hong Kong and Macao as four innovation centres.
+    However, it is unclear whether the innovation network of GBA has formed a multi-centre pattern,
+and what its network externality is. Most research on urban networks in GBA analyses from the per-
+spective of economic factor ﬂows (Qiu et al. 2019; Wang et al. 2020). Although some studies have
+examined innovation in this region, including exploring the innovation development path (Gu,
+
+CONTACT Haichao Yu      hcyyyy@whu.edu.cn        Institute of Regional and Urban-Rural Development, Wuhan University, No.
+299 Bayi Road, Wuchang District, Wuhan, Hubei, 430072, People’s Republic of China
+© 2021 Informa UK Limited, trading as Taylor & Francis Group
+2      W. YANG ET AL.
+
+
+Cao, and Yang 2018), measuring the spatial structure of the innovation network and analysing its
+inﬂuencing factors (Ma and Zeng 2020), they have not further explored the network structure’s
+external inﬂuence on regional innovation. We are therefore left to ask, what is the externality of
+the current innovation network pattern? Are cities surrounding innovation centres aﬀected by bor-
+rowing size or agglomeration shadow?
+   Guided by these questions, this study measures the spatial pattern and externality of the GBA
+innovation network to clarify big cities’ eﬀects on regional innovation and provide useful references.
+Compared with other research on urban networks, this article not only analyses the network struc-
+ture, but also studies its spatial eﬀects. Compared with research on innovation, this paper analyses
+the innovation cooperation between cities and focuses on the spatial impact of central cities. The
+remainder of this paper is organised as follows. Section 2 provides a literature review on urban
+network externalities and innovation networks. Section 3 introduces the research scope, data and
+models. Section 4 describes the empirical analysis, and Section 5 discusses the optimisation and
+adjustment of urban network externalities in the GBA and concludes.
+
+
+2. Literature review
+2.1 From agglomeration externality to network externality
+Agglomeration and diﬀusion are contradictory phenomena in the spatial evolution of urban agglom-
+erations. The classic ‘backwash-spread’ theory, proposed by Myrdal, and ‘trickle down’ eﬀect pro-
+posed by Hirschman (1958), both explain the imbalance of regional development. The spatial
+spillover eﬀect of a central place gradually decreases under the constraint of distance. While
+driving the development of surrounding areas, the central place causes peripheral areas to fall
+into a trough (Zhang and Zhuang 2000) and form a ‘core-periphery’ structure. When Friedmann
+(1972) created the core–periphery theory, drawing on Schumpeter’s innovative ideas, he believed
+that development could be regarded as a discontinuous accumulation process from basic innovation
+groups to large-scale innovation systems. Large cities with favourable conditions for innovation
+activities often become the core area of regional innovation, while the surrounding areas are
+reduced to a subordinate position; then, the two together form a complete innovation space
+system. Focusing on the relationship between cities, Alonso (1973) proposed the concept of ‘bor-
+rowed size’. He pointed out that small cities close to metropolitan areas have higher per capita
+income levels than cities of the same scale and independent development. This is because these
+small cities can realise some of the advantages of large cities while avoiding their disadvantages
+by borrowing size. Krugman and Fujita (1995) introduced the concept of ‘aggregation shadow’,
+referring to the situation in which some small cities do not beneﬁt from large neighbouring cities
+but are instead disadvantaged by them (Meijers, Burger, and Hoogerbrugge 2016).
+    Above theories have led many researchers to verify the two-sided externalities of agglomeration.
+Some scholars divided agglomeration economies into localised and urbanised economies and dis-
+cussed their external eﬀects on industries and urban economies (Tao et al. 2019; Wu, Wei, and
+Chen 2020). Other scholars have veriﬁed borrowing size as a positive agglomeration externality (Mar-
+tinus et al. 2021). The essence of borrowing size is the complementarity between the local advan-
+tages of small cities (such as lower rents and less traﬃc congestion) and the advantages of big
+cities (such as a broad market, labour pool and diverse consumption/cultural facilities) (Phelps,
+1998). However, some scholars have also found that big cities have an agglomeration shadow
+eﬀect on small cities. Speciﬁcally, there are signiﬁcant diﬀerences in land use types between metro-
+polises and their shadow areas (Wu, Zhou, and Liu 2020). Per capita income in large cities is much
+higher than surrounding areas, resulting in imbalances in the distribution of labour and the
+spatial pattern of the economy (Au and Henderson 2006; Sun et al. 2019). A 2004 research report
+by the Asian Development Bank introduced the ‘Beijing-Tianjin Poverty Belt’, which refers to a C-
+shaped belt poverty area around Beijing and Tianjin (Luo and Ma 2015). This prompted scholars
+                                                 TECHNOLOGY ANALYSIS & STRATEGIC MANAGEMENT         3
+
+
+to research the formation mechanism of the agglomeration shadow and poverty reduction measures
+(He, Fan, and Li 2018).
+    The progress of technology and the advent of the network society have made various factors,
+such as population, capital, information etc., ﬂow between cities convenient and frequent, and
+mechanisms of interaction between cities are also changing. Cities and the companies within
+them not only beneﬁt from local exchanges, but also increasingly aﬀected by external regions
+(Wang et al. 2020). Access to agglomeration advantages is suﬃcient to the company’s operation
+without having to exist in or be close to the agglomeration area (Speldekamp, Knoben, and Saka-
+Helmhout 2020). However, the perspective of agglomeration externality, based on the centre periph-
+ery theory, cannot explain the agglomeration phenomenon on a larger scale because it conﬁnes the
+city’s inﬂuence on its neighbouring and ignores cross-regional connections (Fan et al. 2021). In view
+of this, Castells (1996a, 1996b) introduced the concept of ‘space of ﬂows’, referring to the spatial
+pattern formed by the ﬂow of various elements. Taylor, Hoyler, and Verbruggen (2010) proposed
+the central ﬂow theory based on the external urban relations to criticise central place theory
+based on interurban hierarchical relations. In the context of space of ﬂow, the intercity ﬂow of
+various elements has shaped connections between cities, shifting the study of regional spatial struc-
+ture from the internal attributes of cities to the external connections (Inostroza and Zepp 2021).
+    Capello introduced ‘network externality’ and found that it improves with an increase of nodes in
+the network. By participating in network, cities can achieve functional complementarity through
+cooperation, obtain economies of scale and reduce uncertainty. By joining the network, cities can
+obtain two eﬀects (Meijers 2005): (1) the horizontal synergy eﬀect, which refers to the scale eﬀect
+brought about by simple cooperation between cities; (2) vertical synergy eﬀect, which refers to
+the division of labour and specialised production between cities. In this context, the realisation of
+borrowing size is no longer based on geographical proximity but through embedded in networks
+(Meijers, Burger, and Hoogerbrugge 2016). Therefore, a city’s ability to establish a network connec-
+tion has become important in realising the borrowing size.
+    In general, the agglomeration economy causes externalities. No matter how the regional spatial
+structure changes, borrowing size and agglomeration shadow together comprise the pros and cons
+of externalities (Meijers, Burger, and Hoogerbrugge 2016). The ﬁnal eﬀect of externalities depends on
+the tradeoﬀ between the two eﬀects. Therefore, analysing the role of externalities is of great signiﬁ-
+cance for objectively evaluating and optimising regional spatial structures.
+
+
+2.2 Innovation network externality
+Generally, the development of innovative activities begins in a non-equilibrium state due to the het-
+erogeneous distribution of innovative resources (Mohnen, DeBresson, and Shiqing 2002). Under the
+eﬀect of path dependence, innovation resources continue to be highly concentrated in a certain
+region ultimately making it an innovation pole. While areas with less innovative resources are inno-
+vation holes, which together with the innovation pole constitute the spatial pattern of innovation
+(Gonçalves, de Matos, and de Araújo 2019). As the connections and interactions involved in inno-
+vation continue to strengthen within the innovation pole, innovation networks are generated and
+continuously expanded. Driven by the promotion of globalisation and knowledge economy, inno-
+vation activities continue to expand, eventually forming an innovation network that brings together
+local and cross-regional interactions (Fan, Lian, and Wang 2020). This type of network structure has
+the characteristics of coexistence, with obvious agglomeration boundaries and openness, making
+the spatial eﬀect of the innovation network uncertain.
+   From the perspective of internal factors, the structure of the innovation network signiﬁcantly
+aﬀects its eﬀectiveness (Taalbi, 2020). The density and centrality of network are positively corre-
+lated with the innovation performance (Bai et al. 2021). Enterprises embedded in innovation
+network have more innovation output than those outside the network (Fan, Lian, and Wang
+2020). The innovation cooperation relationship can be divided into strong and weak connections.
+4      W. YANG ET AL.
+
+
+Strong connections can enhance trust and cooperation and promote resource ﬂow and knowl-
+edge sharing within the network (Hansen 1999). However, some scholars believe that strong con-
+nections will reduce the diversity of members in innovation network, thereby reducing the
+sources of new ideas and technologies. A weak connection has low-cost advantages and
+higher openness, which can extend the connection outside the network and promote cross-
+border communication (Baron and Gomez 2013). Rowley, Behrens, and Krackhardt (2000) found
+that strong ties encourage incremental technological innovation, while weak ties encourage
+breakthrough technological innovation. Capaldo (2007) emphasised innovation networks with
+only strong or weak connections are insuﬃcient for producing external eﬀects, and a two-layer
+network structure with strong internal structures and weak external connections should be con-
+structed. Eisingerich, Bell, and Tracey (2010) measured innovation network structure from two
+aspects of network strength and openness and found that network strength’s positive eﬀect
+on innovation performance decreases with increasing environmental uncertainty, while the posi-
+tive eﬀect of network openness is positively correlated with environmental uncertainty. These
+views mean that the external environment should be considered when discussing the innovation
+network eﬀectiveness.
+    From the perspective of external factors, Boschma and Frenken (2010) demonstrated that cog-
+nitive proximity, social proximity, organisational proximity, institutional proximity and geographi-
+cal proximity are the main factors aﬀecting the spatial evolution of innovation network. Except
+that the spatial eﬀect of network attenuates with distance increasing (Foxon 2014), the spatial
+concentration of innovation is likely to form a stable and rigid closed relationship network, result-
+ing in a negative eﬀect of geographical proximity ‘lock-in’, which is unfavourable to innovation
+(Bathelt, Feldman, and Kogler 2012). However, some scholars believe that the development and
+popularisation of the Internet will lead to ‘a ﬂat world’, thus redeﬁning the spatial network in
+terms of soft innovation (Howells and Bessant 2012). Social and cultural factors are playing
+increasing roles on innovation. There will be more interaction and trust between innovative
+members with closer cultural customs, thereby promoting innovative cooperation (Porter 1998).
+However, the excessive singularity of cultural customs may produce xenophobia and discourage
+innovation diversiﬁcation. Furthermore, institutional proximity reﬂects the degree of similarity of
+enterprises constrained by formal or informal rules. On the one hand, it can reduce the uncer-
+tainty and conﬂict of innovation cooperation (Balland, Belso-Martínez, and Morrison 2016). On
+the other hand, excessive institutional proximity may lead to excessive dependence on organis-
+ations, threaten the protection of intellectual property rights and reduce innovation incentives
+(Molina-Morales et al. 2015).
+    With the advancement of globalisation and technology, innovation cooperation can break
+through geographical boundaries and expand outward. High density and openness have become
+the source of spatial eﬀect of the innovation network, and soft environment factors, such as
+culture and institution, impose signiﬁcant inﬂuences. In China, GBA is one of the most vigorous inno-
+vation regions. However, the special environment of ‘one country, two systems and three customs
+areas’ means its innovation faces more cultural and institutional challenges than other regions. The
+Chinese government plans to establish a polycentric innovation network centred on Guangzhou,
+Shenzhen, Hong Kong and Macao in here. What is the current situation of innovation in this
+region? Is the externality of innovation network a positive borrowing size or negative agglomeration
+shadow? Previous studies have focused on the evolution of network spatial structure (Li, Li, and Qiu
+2019; Ma and Zeng 2020), innovation performance (Wang, Zhang, and Fan 2019; Fan and Lian 2021)
+and inﬂuencing factors (Wen, Deng, and Chen 2017), while ignoring network externalities, so they
+cannot ﬁnd out the truly spatial eﬀect of innovation networks. In view of this, this study focuses
+on analysing the externalities of innovation network under the inﬂuence of distance, cultural and
+institutional diﬀerences to clarify the impact of complex external environments on network
+eﬀects and make up for the existing literatures.
+                                                      TECHNOLOGY ANALYSIS & STRATEGIC MANAGEMENT    5
+
+
+3. Data and methods
+3.1 Research scope
+The GBA was ﬁrst formally proposed in China’s plan for the ‘One Belt and One Road’ in 2015 and was
+subsequently included in the national ‘13th Five-Year Plan’ in 2016. The GBA consists of two special
+administrative regions of Hong Kong and Macau and nine cities of Guangzhou, Foshan, Zhaoqing,
+Jiangmen, Zhongshan, Zhuhai, Shenzhen, Dongguan and Huizhou in Guangdong Province. It oper-
+ates two political systems and three separate customs territories, giving it a unique and complex soft
+environment diﬀerent from other regions in China and bay areas around the world (Figure 1).
+
+
+
+3.2 Data sources
+Indicators of innovation include papers and patents. Paper data can be used to reﬂect knowledge
+innovation, while patent data is more used to represent technological innovation. Therefore, this
+study uses the number of all research papers published in city to reﬂect its knowledge innovation.
+Correspondingly, the collaborative paper between cities can be used to measure the intercity knowl-
+edge innovation cooperation, and papers without cooperation with other cities reﬂect the city’s
+independent knowledge innovation ability. Above three types of paper data comes from the
+‘web of science’. The study period is set to 2001–2019, the reasons are as follows (1) Hong Kong
+and Macau became the two special administrative regions of China in 1997 and 1999 respectively,
+and China joined the World Trade Organization in 2001, all of which greatly promoted cross-border
+cooperation. (2) Although it was not until 2019 that the Chinese government issued the plan of GBA,
+the local governments had already conceived and promoted cooperation at the beginning of the
+twenty-ﬁrst century. Therefore, it is reasonable to set the starting year as 2001.
+   We set up two dummy variables to measure the impact of the GBA’s cultural and institutional
+environment on innovation cooperation. First is the cultural diﬀerence dummy variable (cultureij ),
+
+
+
+
+Figure 1. Map of Guangdong–Hong Kong–Macao Greater Bay Area.
+6      W. YANG ET AL.
+
+
+which uses cities’ dialects to represent cultural diﬀerences. Dialect is divided into three levels from
+large to small: dialect region, dialect district and dialect zone. Cultural diﬀerence dummy variables
+are set from 0 to 3 according to the diﬀerent levels of dialects in every two cities.
+    Second is the institutional diﬀerence dummy variable (institutionij ), which reﬂects the diﬀer-
+ences in political systems, customs territories and administrative hierarchy of cities. There are
+two political systems in the GBA: the socialist system is implemented in nine cities in Guangdong
+province, and the capitalist system is implemented in Hong Kong and Macao. There are three
+customs territories: nine cities in Guangdong Province have the same customs territory, Hong
+Kong and Macau have their own customs territories. The administrative levels of cities are
+divided into three levels: Guangzhou and Shenzhen are sub-provincial cities, other seven cities
+are prefecture-level cities, Hong Kong and Macau are special administrative regions (equivalent
+to provincial level). Accordingly, the dummy variables of institutional diﬀerences between
+every two cities are set from 1 to 4.
+    This study also uses socio-economic indicators as control variables to measure the innovation
+network externalities, which all come from statistical yearbooks of Guangdong Province and each
+city.1
+
+
+
+3.3 Methods
+3.3.1 Social network analysis
+This study uses the social network analysis method and UCINET software to calculate network cen-
+trality and density. The indicator of degree centrality reﬂects the status and inﬂuence of a city in the
+network, which is the sum of the direct connections between one node and other nodes. Density
+reﬂects the closeness of innovation cooperation between cities. The knowledge innovation
+network in this study is an undirected network. Therefore, the relative degree centrality and
+network density formula are as follows:
+                                  Degree centrality = d(i)/(n − 1)                                   (1)
+where d(i) is the number of relationships owned by any node i in the network, and (n − 1) is the
+maximum number of relationships that a node has in the network.
+                                      Density = m/n(n − 1)/2                                         (2)
+   The m represents the total number of relationships contained in the network, and the denomi-
+nator, n(n − 1)/2, is the maximum number relationships of theoretically possible in the network.
+
+
+3.3.2 Spatial econometric model
+We use the spatial econometric model to measure network externalities. We generate three spatial
+weight matrixes based on distance between every two cities, cultural and institutional diﬀerences
+dummy variables. Formulas are as follows:
+                                          
+                                            distanceij , i = j
+                                  Wdis =                                                       (3)
+                                                 0,         i=j
+                                         
+                                           institutionij , i = j
+                                 Wins =                                                        (4)
+                                                 0,          i=j
+                                           
+                                             cultureij , i = j
+                                   Wcul =                                                      (5)
+                                                 0,        i=j
+
+where distanceij is the geographic distance between cities i and j, institutionij and cultureij are the
+institutional and cultural diﬀerences dummy variables of the two cities.
+                                                     TECHNOLOGY ANALYSIS & STRATEGIC MANAGEMENT        7
+
+
+  Since both the LM and robust LM results pass the 1% signiﬁcance test, the following spatial Dubin
+model is used for empirical testing:
+                     paperi,t = ai,t + b1 centralityi,t + dXi,t + uWcentralityi,t + 1i,t              (6)
+
+where paperi,t represents the number of published papers of city i in year t, including three cat-
+egories: total papers, collaborative papers and local papers. W is the spatial weight matrix, including
+the distance, cultural and institutional spatial weight matrix. uWcentralityi,t is the spatial lag of the
+centrality of city i in year t, and its coeﬃcient u can reﬂect the inﬂuence of the city’s position in
+the network on the innovation development of surrounding areas. a is a constant term, bd and u
+are all parameters to be estimated, and 1 is an error term.
+    To further explore the externalities of knowledge innovation networks, we examine the relation-
+ship between cities’ centralities and regional diﬀerences to determine whether the development of
+urban innovation network can help narrow the gap between regions. The speciﬁc model is as
+follows:
+                        gap paperi,j = a + g1 gap centralityi,j + wgap Xi.j + 1                       (7)
+
+where gap paperi,j represents the knowledge innovation gap between cities i and j, gap centralityi,j
+is the gap of centralities between city i and j, and gap Xi.j is the diﬀerence in control variables
+between the two cities.
+    In a nutshell, this article combines social network methods and spatial measurement models to
+test the externalities of knowledge innovation networks. By taking centrality as the core indicator to
+reﬂect city’s status in network and testing its relationship with intercity diﬀerences, we not only
+examine the network’s attributes, but also analyse its spatial eﬀects, which helps to reveal the
+nature of knowledge innovation network and discover its problems, so as to provide useful sugges-
+tions for improving network externalities.
+
+
+
+4. Results and analysis
+4.1 Knowledge innovation network spatial pattern
+We examined the knowledge innovation development trend in the GBA using the total papers, local
+papers and intercity collaborative papers. As Figures 2–4 show, the total number of papers published
+in the GBA from 2001 to 2019 kept increasing. Before 2011, Hong Kong ranked ﬁrst in total papers. In
+2013, Guangzhou’s total and local papers both exceeded Hong Kong; Guangzhou maintained ﬁrst in
+the cooperative papers throughout the study period. After 2012, Shenzhen ranked third in total
+papers, and the gap between it and Hong Kong continued shrinking. However, the number of
+papers in Macao has been relatively small. Therefore, Guangzhou, Hong Kong and Shenzhen are
+the three central cities in the current knowledge innovation network, while Macao has not yet
+shown a high central position in knowledge innovation.
+    The results of social network analysis show that the overall density of GBA’s knowledge inno-
+vation network improved from 2001 to 2019, indicating that the innovation cooperation connections
+among cities are increasing (Figure 5). The overall centrality was calculated using the total number of
+papers published in each city. Hong Kong maintained the highest before 2012, was surpassed by
+Guangzhou after 2013, and then shows a declining trend. Guangzhou showed a rapid growth
+before 2012, but its growth trend slowed after 2013. Shenzhen surpassed Zhongshan in 2013 and
+ranked third. In 2019, Shenzhen’s overall centrality was close to that of Hong Kong. The overall cen-
+trality of other cities is relatively low (Figure 6).
+    Cooperative centrality was calculated using the cooperative papers between every two cities.
+Guangzhou maintained the highest cooperative centrality. Zhongshan ranked second before
+2018, but behind Hong Kong in 2019. Shenzhen ranked fourth in the GBA (Figure 7).
+8        W. YANG ET AL.
+
+
+
+
+Figure 2. Total papers published in the GBA from 2001 to 2019.
+
+
+
+
+Figure 3. Proportion of local papers in each city from 2001 to 2019.
+
+
+    From the situation of overall and cooperative centrality, we see Guangzhou has been the core city
+in the network since 2013. Hong Kong and Shenzhen both have strong innovation capacities but
+their cooperation with other cities has been relatively limited. Macau is relatively weak in overall
+innovation and intercity cooperation.
+    Finally, Figure 8 shows the spatial evolution of the knowledge innovation network. It changed
+from a triangular structure centred on Hong Kong, Guangzhou and Zhongshan in 2001, to a four-
+link structure featuring Guangzhou, Hong Kong, Shenzhen and Zhongshan in 2010. In 2019, a
+diamond structure with Guangzhou, Shenzhen and Guangzhou as three centres and Zhongshan,
+Dongguan and Foshan as the sub-centres was formed.
+
+
+4.2 GBA innovation network externalities
+4.2.1 Innovation cooperation externality
+The spatial eﬀects of the knowledge innovation network pattern on overall, cooperation and inde-
+pendent innovation were measured respectively (Table 1). First, columns 2–4 of Table 1 shows the
+                                                             TECHNOLOGY ANALYSIS & STRATEGIC MANAGEMENT   9
+
+
+
+
+Figure 4. Proportion of collaborative papers in each city from 2001 to 2019.
+
+
+
+
+Figure 5. Knowledge innovation network density from 2001 to 2019.
+
+
+
+
+Figure 6. Overall centrality of knowledge innovation in each city from 2001 to 2019.
+10        W. YANG ET AL.
+
+
+
+
+Figure 7. Cooperative centrality of knowledge innovation in each city from 2001 to 2019.
+
+
+
+
+Figure 8 . (a) GBA knowledge innovation cooperation network in 2001. (b) GBA knowledge innovation cooperation network in
+2010. (c) GBA knowledge innovation cooperation network in 2019.
+
+
+results of network pattern on urban overall innovation. Under the inﬂuence of distance, the city’s
+cooperative centrality has no impact on its own overall innovation, but has a signiﬁcant negative
+impact on the surrounding areas. Under the impact of institutional diﬀerences, the urban coopera-
+tive centrality has an adverse eﬀect both on itself and other cities. The impact of cultural diﬀerences
+is relatively weak, and the degree of urban cooperative centrality has no signiﬁcant impact either on
+itself or the surrounding areas. This shows that the knowledge innovation network in GBA does not
+have positive externalities. More speciﬁcally, cities with high centrality negatively impact innovation
+in surrounding areas, and the adverse eﬀects on cities with large institutional diﬀerences are more
+signiﬁcant.
+                                               TECHNOLOGY ANALYSIS & STRATEGIC MANAGEMENT         11
+
+
+
+
+Figure 8 Continued
+
+
+
+
+Figure 8 Continued
+
+
+   The results of the control variables show that the quality of urban researchers positively aﬀects
+local knowledge innovation, and it becomes insigniﬁcant when cultural diﬀerences are considered.
+Whether under the inﬂuence of distance, institutional diﬀerences or cultural diﬀerences, research
+                                                                                                                                                                                                12
+
+
+
+
+                                                                                                                                                                                                W. YANG ET AL.
+
+
+
+
+Table 1. Results of the externalities of knowledge innovation network.
+Explained variable                     Overall innovation ability                            Cooperative innovation ability                         Independent innovation ability
+Spatial weight matrix      Distance            institution         culture           Distance         institution         culture           Distance          institution        culture
+Centrality              −0.12 (−1.48)        −0.14* (−1.84)     −0.03 (−0.32)      −0.15 (−1.54)    −0.17* (−1.73)     −0.57** (−2.27)    −0.10 (−1.32)     −0.11* (−1.69)    −0.14** (−2.08)
+Lnresearcher             0.09** (2.02)        0.09* (1.90)        0.07 (1.38)       0.09* (1.80)       0.08 (1.53)     −0.90** (−2.38)    0.09** (2.08)      0.08* (1.84)     0.10*** (2.89)
+Lnexpend                  0.05* (1.82)        0.04* (1.92)        0.03 (1.27)        0.05 (1.59)     0.05* (1.72)       0.22** (2.58)     0.05** (2.13)        0.05 (1.14)       0.04 (0.76)
+lngdp                   1.49*** (6.49)      1.28*** (3.64)     1.27*** (3.04)     1.07*** (3.84)     0.77* (1.90)         0.28 (1.14)    1.48*** (7.58)    1.27*** (4.13)      −0.14 (−0.34)
+Popuﬂow                 −0.03** (−2.30)       −0.03 (−1.42)    −0.03* (−1.70)      −0.02 (−1.35)     −0.02 (−1.00)      −0.01 (−0.44)    −0.02** (−2.49)     −0.02 (−0.91)   −0.01*** (−2.96)
+Internet                 0.11** (2.31)       0.07** (2.30)        0.05 (1.38)        0.08 (1.34)       0.05 (1.12)        0.00 (0.64)    0.11*** (2.83)     0.07** (2.46)      −0.00 (−0.68)
+W*centrality            −0.91** (−2.13)      −0.89* (−1.96)       0.44 (0.72)     −0.83* (−1.74)    −0.91* (−1.74)     −4.19** (−2.04)   −0.93** (−2.66)   −0.82** (−2.06)   −1.72*** (−2.73)
+Spatial rho              0.27** (2.32)      −0.25** (−2.28)       0.09 (1.11)     0.49*** (4.23)       0.12 (1.23)    −2.92*** (−4.73)    0.27** (2.67)    −0.38** (−2.50)   −1.50*** (−3.56)
+R-sq                           0.66                  0.69             0.57               0.57              0.53            0.68                 0.68                0.71          0.57
+Notes: Standard errors are in parentheses. ***, ** and * indicate signiﬁcant at the levels of 1%, 5%, and 10%, respectively.
+                                                  TECHNOLOGY ANALYSIS & STRATEGIC MANAGEMENT          13
+
+
+funding positively impacts local innovation, and regions with higher economic levels tend to have
+stronger innovation capabilities. Furthermore, the relationship between population mobility and
+urban knowledge innovation is negatively correlated. The Internet penetration rate has a signiﬁcant
+positive impact on knowledge innovation.
+    Second, Table 1, columns 5–7 show the network structure’s inﬂuence on innovation cooperation
+between cities. The farther the distance between cities, the less cooperation occurs between cities.
+Institutional factors negatively aﬀect cooperation both in local and other cities. This shows that
+urban knowledge innovation cooperation is mainly established between cities under the same insti-
+tutional environment, and the greater the institutional diﬀerence, the less cooperation occurs. The
+impact of cultural diﬀerences is similar to the institutional diﬀerences. Therefore, institutional and
+cultural diﬀerences are the main obstacles hindering knowledge innovation cooperation between
+cities. Although distance limits cooperation, its inﬂuence is relatively small compared to institutional
+and cultural diﬀerences.
+    Third, we test the inﬂuence of urban innovation network structure on city’s independent inno-
+vation (Table 1, columns 8–10). Under distance, institutional and cultural diﬀerences, urban centrality
+not only negatively aﬀects local innovation, but also discourages independent innovation develop-
+ment of surrounding areas, and ﬁnally restrict overall urban innovation development. This further
+proves that the GBA’s knowledge innovation network has negative externalities.
+
+4.2.2 Intercity innovation gap externalities
+Taking the diﬀerence in the total number of papers between every two cities as the explained vari-
+able to further explore the eﬀects of innovation network pattern on the regional innovation gap
+(Table 2). There is a signiﬁcant positive correlation between the gap in urban centrality and inno-
+vation capabilities, indicating that the higher the concentration of innovation network, the
+greater the innovation gap between cities. Distance and institutional diﬀerences aggravate the
+negative externalities of innovation centres, while cultural diﬀerences have relatively little impact.
+In addition, the gap in the Internet development level between cities also widens the innovation
+gap between cities.
+
+
+4.3 Robustness and endogenous tests
+The possible endogenous problem of above models is that there may be a causal relationship
+between the city’s cooperative centrality and its knowledge innovation capabilities. Speciﬁcally,
+the more knowledge innovation cooperation, the more knowledge innovation output; on the con-
+trary, the stronger the knowledge innovation ability of cities, the more innovative cooperation
+relationships there will be. In view of this, we use the lag term of cooperative centrality as an instru-
+mental variable to revise the model. Results are shown in Table 3. The lagging term of urban coop-
+erative centrality also has a negative impact on urban knowledge innovation. Under the distance
+spatial weight matrix, the negative impact of centrality is relatively small and insigniﬁcant. Under
+the spatial weight matrix of cultural and institutional diﬀerences, cooperative centrality both have
+a signiﬁcant negative impact on cities’ overall, and cooperative innovation. These results are consist-
+ent with the previous results, indicating that they are robust and reliable.
+    The above analysis reveals that, in the knowledge innovation network of GBA, central cities have
+signiﬁcant negative externalities to other cities. The reasons for this phenomenon may be the follow-
+ing. First, the large diﬀerence in initial level of innovation between cities essentially determined the
+imbalance of network. In the development of Shenzhen, policy support has played a great role, while
+small and medium-sized cities do not enjoy the same favourable terms, which intensiﬁes the
+resource plundering and development gap of the central city to the surrounding areas. Second,
+cities with higher degree of centrality are more tolerant of cultural and institutional diﬀerences
+than small and medium-sized cities and are leading in cultural diversity and institutional reforms.
+Therefore, a more superior soft environment for knowledge innovation gives the central city a
+                                                                                                                                                                                     14
+
+
+
+
+                                                                                                                                                                                     W. YANG ET AL.
+
+
+
+
+Table 2. Results of externalities on the intercity innovation gap.
+Explained variable                                                                       The gap in knowledge innovation between cities
+Model                                   Model 1                            Model 2                            Model 3                          Model 4              Model 5
+gap_centrality                   1.0007*** (3442.34)                   1.0001*** (1932.15)                0.9979*** (859.12)              1.0002*** (1282.59)   0.9958*** (550.79)
+dis*centrality                                                            0.0006* (2.10)                                                                           0.0010 (1.48)
+ins*centrality                                                                                              0.0013** (2.74)                                       0.0019** (2.56)
+cul*centrality                                                                                                                               0.0003 (0.83)       −0.0001 (−0.17)
+gap_gdp                              0.0000 (−1.46)                     0.0000** (−2.43)                    0.0000 (−1.33)                  0.0000 (−1.51)       0.0000** (−2.41)
+gap_lnresearcher                    −0.0026 (−0.92)                      −0.0021 (−0.79)                   −0.0009 (−0.40)                 −0.0026 (−0.92)         0.0008 (0.90)
+gap_expend                            0.0076 (0.65)                        0.0100 (1.58)                     0.0062 (0.60)                   0.0073 (0.81)        0.0098** (2.67)
+gap_popouﬂow                          0.0018 (0.45)                        0.0010 (0.37)                     0.0006 (0.15)                   0.0022 (0.69)       −0.0014 (−1.30)
+gap_internet                       0.0804** (0.0804)                     0.1071** (2.51)                   0.1092*** (3.55)                  0.1101 (1.70)       0.1574*** (3.17)
+_cons                                 0.0035 (1.10)                       0.0051* (1.95)                   −0.0007 (−0.30)                   0.0045 (1.72)       −0.0003 (−0.29)
+Standard errors are in parentheses. ***, ** and * indicates signiﬁcant at the levels of 1%, 5%, and 10%, respectively.
+                                                            TECHNOLOGY ANALYSIS & STRATEGIC MANAGEMENT                     15
+
+
+Table 3. Results of instrumental variables.
+Spatial weight matrix                         Distance                      Institution                          Culture
+Explained variable: urban overall innovation ability
+L.centrality                           −0.0578 (−0.69)                    −0.1360** (−2.26)                  −0.0437* (−1.76)
+Explained variable: cooperative innovation ability
+L.centrality                           −0.0996 (−1.02)                    −0.1432* (−1.70)                   −0.0763** (−2.28)
+Explained variable: independent innovation ability
+L.centrality                           −0.0393 (−0.52)                    −0.1299** (−2.44)                  −0.0361 (−0.41)
+Standard errors are in parentheses. ***, ** and * indicates signiﬁcant at the levels of 1%, 5%, and 10%, respectively.
+
+
+
+
+greater advantage in attracting innovative talents and resources, which in turn encroaches on the
+innovation development of surrounding cities, resulting in negative externalities.
+
+
+
+5. Conclusion and discussion
+The Chinese government is trying to build GBA into an international polycentric innovation hub.
+Analysis in this paper shows that the knowledge innovation capability and network density of the
+GBA have continuously improved, but the four-centre innovation network pattern in the govern-
+ment plan has not yet been formed. Guangzhou and Hong Kong have always been innovation
+centres in this region. Since 2012, Shenzhen has become another innovation centre. However,
+Macao is not strong enough to be an innovation centre in the network. Although Hong Kong has
+superior innovation strength, under the inﬂuence of institutional and cultural diﬀerences, its inno-
+vation cooperation with mainland cities is relatively limited except for its cooperation with Guangz-
+hou and Shenzhen. Most of the intercity innovation cooperation takes place within Guangdong
+province, especially between Guangzhou and Shenzhen. Consistent with the conclusion of other
+studies, this article also proves that there exists a multi-centre network structure in knowledge inno-
+vation in GBA (Ma and Zeng 2020). The diﬀerence of conclusion lies in that Hong Kong does not have
+a central position if technological innovation is considered (Li and Zhou 2020).
+    Results of spatial econometric models show that the impact of cities’ innovation centrality on sur-
+rounding areas is negative. Small and medium-sized cities do not obtain borrowing size but are in
+the agglomeration shadow of central cities. In terms of inﬂuencing factors, the cultural and insti-
+tutional diﬀerences between cities have far greater negative impacts on innovation than distance.
+Inspired by this, improving soft environment is a prerequisite for reducing the spatial gaps and pro-
+moting regional innovation. On the basis of the above conclusions, we propose the following sug-
+gestions for optimising the spatial eﬀect of knowledge innovation network in GBA.
+    First, it is necessary to reduce the institutional barriers in innovation cooperation between main-
+land cities and Hong Kong/Macao. Hong Kong and Macau are special administrative regions in China
+with diﬀerent political systems compared with the mainland. The current cross-border cooperation
+mechanism is not sound, which hinders the development of innovative cooperation and the free
+ﬂow of elements. In this regard, city managers need to formulate more convenient policies from
+the aspects of personnel mobility, innovation resource sharing and cooperation projects to
+promote the development of innovation cooperation. For small and medium-sized cities, it is necess-
+ary to increase investment in knowledge innovation and institutional reforms to narrow the gap with
+central cities.
+    Second, create a more tolerant social environment that can be compatible with diverse cultures
+and personalities. The interests of immigrant should be safeguarded and make them enjoy the same
+treatment as the local residents, which is a key measure to eliminate the negative eﬀects of cultural
+diﬀerences. Besides, improving the education level of residents will help to enhance the social inclu-
+siveness and acceptance of cultural diﬀerences so as to exert the positive inﬂuence of cultural diver-
+sity on stimulating innovation.
+16         W. YANG ET AL.
+
+
+    Third, reducing the obstacles caused by inadequate infrastructure, such as transportation and
+Internet facilities, is still a task that cannot be ignored. Although great progress has been achieved
+in the construction of transportation networks in recent years, distance still has a certain negative
+impact on the ﬂow of factors. Cities can jointly promote the construction of transportation in
+border areas by carrying out transportation cooperation projects. Among them, the intercity
+traﬃc between mainland cities and Hong Kong/Macao is the most important. In addition to facilitat-
+ing the movement of people, construction of Internet facility is a precondition for information
+exchange and innovation cooperation, which is especially important for small and medium-sized
+cities.
+    It is worth noting that compared with Hong Kong, Guangzhou and Shenzhen, Macau’s knowl-
+edge innovation ability is relatively weak. The development of higher education began late in
+Macau is one of the reasons for this phenomenon. Macau established its ﬁrst modern university,
+the University of Macau, in 1981, which is far later than Hong Kong and Guangzhou. Given this,
+Macao should strengthen scientiﬁc research investment and talent exchange with Hong Kong
+and Guangzhou to strengthen its basic research.
+    Finally, strengthening the protection of property rights is an important measure to safeguard the
+legitimate interests of researchers and stimulate innovation. Hong Kong’s experience and advan-
+tages in intellectual property protection should be fully utilised to establish a regional intellectual
+property protection and transaction centre. At the same time, an intellectual property information
+exchange mechanism and sharing platform should be established in the GBA to promote the
+legal and eﬀective circulation of intellectual property.
+    Future research can be advanced from the following aspects. First, the measurement method of
+network structure can be improved. For example, locally weighted regression is a cutting-edge
+method that can accurately identify the centre of the network by ﬁtting the urban density
+surface. Therefore, it can measure and identify urban innovation network centres more precisely.
+Second, the spatial eﬀect of innovation network structure needs to be deeply analysed. In addition
+to inﬂuencing innovation itself, the innovation network structure will also have an impact on other
+aspects of the economy and society, as well as the urban spatial layout, which provides a wide range
+of topics for future research. Finally, the situation and mechanism of knowledge innovation and tech-
+nological innovation are signiﬁcantly diﬀerent. Therefore, analysing the network externalities from
+the perspective of technological innovation is one of the contents of future work.
+
+
+Note
+     1. In order to maintain the appropriate length, data description and statistical characteristics are not shown in the
+        article.
+
+
+
+Disclosure statement
+No potential conﬂict of interest was reported by the author(s).
+
+
+
+Funding
+This work was supported by the National Science Foundation of China (NSFC) Funded Projects [Grant No. 42071154],
+Ministry of Education Humanities and Social Sciences Planning Fund [Grant No. 20YJA790010], Natural Science Foun-
+dation of Shanghai [Grant No. 21ZR1421100].
+
+
+
+Notes on contributors
+Wenyi Yang, a lecturer at Zhongnan University of Economics and Law. Dr. Yang’s research focuses on urban economics
+and spatial structure.
+                                                         TECHNOLOGY ANALYSIS & STRATEGIC MANAGEMENT                   17
+
+
+Fei Fan, Associate Prof. of Economic Development, Supervisor for Doctor Degree Candidates, Post-doctoral Researcher
+of Economics. Prof. Fan’s research focuses on the science and technology globalisation, the industrial location, theur-
+ban and regional innovation.
+Xueli Wang, a doctoral student in regional economics at Wuhan University. Dr Wang’s research interests are urban
+economy and sustainable development.
+Haichao Yu, a doctoral student in regional economics at Wuhan University. Dr. Yu’s research mainly focuses on the
+regional economic development and regional innovation.
+
+
+
+ORCID
+Fei Fan    http://orcid.org/0000-0001-5350-1800
+
+
+
+References
+Alonso, W. 1973. “Urban Zero Population Growth.” In Daedalus, edited by W. Alonso, 191–206. Cambridge, MA: MIT
+    Press.
+Au, C. C., and J. V. Henderson. 2006. “Are Chinese Cities Too Small?” The Review of Economic Studies 73 (3): 549–576.
+Bai, X., J. X. Wu, Y. Liu, Y. Yang, M.. Wang. 2021. “Research on the Impact of Global Innovation Network on Corporate
+    Performance.” Technology Analysis & Strategic Management. doi:10.1080/09537325.2021.1912317.
+Balland, P. A., J. A. Belso-Martínez, and A. Morrison. 2016. “The Dynamics of Technical and Business Knowledge Networks
+    in Industrial Clusters: Embeddedness, Status, or Proximity?” Economic Geography 92 (1): 35–60.
+Baron, L. F., and R. Gomez. 2013. “Relationships and Connectedness: Weak Ties That Help Social Inclusion Through
+    Public Access Computing.” Information Technology for Development 19 (4): 271–295.
+Bathelt, H., M. Feldman, and D. F. Kogler. 2012. Beyond Territory: Dynamic Geographies of Innovation and Knowledge
+    Creation. Vol. 47. London: Routledge.
+Boschma, R. A., and K. Frenken. 2010. “The Spatial Evolution of Innovation Networks: A Proximity Perspective.” In The
+    Handbook of Evolutionary Economic Geography, (chapter 5), edited by Ron Boschma and Ron Martin, Cheltenham:
+    Edward Elgar Publishing. doi:10.4337/9781849806497.00012.
+Capaldo, A. 2007. “Network Structure and Innovation: The Leveraging of a Dual Network as a Distinctive Relational
+    Capability.” Strategic Management Journal 28 (6): 585–608.
+Castells, M. 1996a. The Rise of the Network Society. Oxford: Blackwell.
+Castells, M. 1996b. “The Space of Flows.” In The Rise of the Network Society, edited by Manuel Castells, 376–482. Oxford:
+    Blackwell.
+Cooke, P., B. Asheim, R. Boschma, and R. Martin. 2011. Handbook of Regional Innovation and Growth. Cheltenham:
+    Edward Elgar Publishing.
+Eisingerich, A. B., S. J. Bell, and P. Tracey. 2010. “How Can Clusters Sustain Performance? The Role of Network Strength,
+    Network Openness, and Environmental Uncertainty.” Research Policy 39 (2): 239–253.
+Fan, F., S. Z. Dai, K. K. Zhang, and H. Q. Ke. 2021. “Innovation Agglomeration and Urban Hierarchy: Evidence from
+    Chinese Cities.” Applied Economics. doi:10.1080/00036846.2021.1937507
+Fan, F., and H. Lian. 2021. “Can Environmental Regulation Promote Urban Green Innovation Eﬃciency? An Empirical
+    Study Based on Chinese Cities.” Journal of Cleaner Production 287 (3): 1–10.
+Fan, F., H. Lian, and S. Wang. 2020. “Can Regional Collaborative Innovation Improve Innovation Eﬃciency? An Empirical
+    Study of Chinese Cities.” Growth and Change 51: 440–463.
+Foxon, T. J. 2014. “Technological Lock-in and the Role of Innovation.” In Handbook of Sustainable Development, edited
+    by Giles Atkinson, Simon Dietz, Eric Neumayer, and Matthew Agarwala, 304–316. Cheltenham: Edward Elgar
+    Publishing.
+Friedmann, J. 1972. A General Theory of Polarized Development, edited by M. Niles. New York, NY: Hansen Free Press,
+    Growth Centres in Regional Economic Development.
+Gonçalves, E., C. M. de Matos, and I. F. de Araújo. 2019. “Path-dependent Dynamics and Technological Spillovers in the
+    Brazilian Regions.” Applied Spatial Analysis and Policy 12: 605–629.
+Gu, S. Z., D. M. Cao, and M. Yang. 2018. “Strategic Thinking on Constructing Innovation Ecosystem in Guangdong-Hong
+   Kong-Macao Greater Bay Area.” China Soft Science (4): 1–9.
+Hansen, M. T. 1999. “The Search-Transfer Problem: The Role of Weak Ties in Sharing Knowledge Across Organization
+   Subunits.” Administrative Science Quarterly 44 (1): 82–111.
+He, R. W., J. Fan, and G. Q. Li. 2018. “Spatiotemporal Evolution and Formation Mechanism of the Poverty Belt Around
+    Beijing and Tianjin.” Economic Geography 38 (6): 1–9.
+Hirschman, A. O. 1958. “Interregional and International Transmission of Economic Growth.” In The Strategy of Economic
+    Development, edited by A. O. Hirschman, 183–201. New Haven: Yale University Press.
+18        W. YANG ET AL.
+
+
+Howells, J., and J. Bessant. 2012. “Introduction: Innovation and Economic Geography: A Review and Analysis.” Journal of
+    Economic Geography 12 (5): 929–942.
+Inostroza, L., and H. Zepp. 2021. “The Metabolic Urban Network: Urbanisation as Hierarchically Ordered Space of Flows.”
+    Cities 109: 103029. doi:10.1016/j.cities.2020.103029.
+Li, W. H., Q. X. Li, and Z. J. Qiu. 2019. “Research on Evolution of Cooperative Technological Innovation About
+    Guangdong-Hong Kong-Macao Greater Bay Area Based on Patent Measurement.” Statistical Research 36 (8): 74–86.
+Li, Y. B., and B. Y. Zhou. 2020. “Bay Area Governance: Innovation Ecosystem of Guangdong-Hong Kong-Macao Greater
+    Bay Area.” China Soft Science (S1): 223–229.
+Luo, J., and Y. K. Ma. 2015. “Poverty Reduction in the Poverty Belt Around Beijing and Tianjin from the Perspective of
+    Urbanization.” China Economist (2): 65–66.
+Ma, S., and G. Zeng. 2020. “Analysis of China’s Urban Innovation Network Pattern and Its Proximity Mechanism from a
+    Multi-scale Perspective.” Human Geography 35 (1): 95–103.
+Martinus, K., T. Sigler, I. Iacopini, and B. Derudder. 2021. “The Brokerage Role of Small States and Territories in Global
+    Corporate Networks.” Growth and Change 52 (1): 12–28.
+Meijers, E. 2005. “Polycentric Urban Regions and the Quest for Synergy: Is a Network of Cities More Than the Sum of the
+    Parts?” Urban Studies 42 (4): 765–781.
+Meijers, E. J., M. J. Burger, and M. M. Hoogerbrugge. 2016. “Borrowing Size in Networks of Cities: City Size, Network
+    Connectivity and Metropolitan Functions in Europe.” Papers in Regional Science 95 (1): 181–198.
+Mohnen, P., C. DeBresson, and X. Shiqing. 2002. “Explaining and Estimating Propensities to Innovate in CHINA in 1993”.
+    The 14th International Conference on Input-Output Techniques, Canada (pp. 1–37).
+Molina-Morales, F. X., J. A. Belso-Martínez, F. Más-Verdú, and L. Martínez-Cháfer. 2015. “Formation and Dissolution of
+    Inter-Firm Linkages in Lengthy and Stable Networks in Clusters.” Journal of Business Research 68 (7): 1557–1562.
+Phelps, N. A. 1998. “On the Edge of Something Big: Edge-City Economic Development in Croydon, South London.” Town
+    Planning Review 69 (4): 441.
+Porter, M. E. 1998. Clusters and the New Economics of Competition (Vol. 76, No. 6, pp. 77–90). Boston: Harvard Business
+    Review.
+Qiu, J. J., Y. H. Liu, H. R. Chen, and F. Gao. 2019. “Urban Network Structure of Guangdong-Hong Kong-Macao Greater Bay
+    Area with the View of Space of Flows: A Comparison Between Information Flow and Transportation.” Economic
+    Geography 39 (6): 7–15.
+Rowley, T., D. Behrens, and D. Krackhardt. 2000. “Redundant Governance Structures: An Analysis of Structural and
+    Relational Embeddedness in the Steel and Semiconductor Industries.” Strategic Management Journal 21 (3): 369–386.
+Speldekamp, D., J. Knoben, and A. Saka-Helmhout. 2020. “Clusters and Firm-Level Innovation: A Conﬁgurational
+    Analysis of Agglomeration, Network and Institutional Advantages in European Aerospace.” Research Policy 49 (3):
+    103921. doi:10.1016/j.respol.2020.103921.
+Sun, B. D., W. Li, Z. Q. Zhang, et al. 2019. “Is Polycentricity a Promising Tool to Reduce Regional Economic Disparities?
+    Evidence from China’s Prefectural Regions.” Landscape and Urban Planning 192 (11): 103667.
+Taalbi, J. 2020. “Evolution and Structure of Technological Systems – An Innovation Output Network.” Research Policy 49
+    (8): 104010.
+Tao, J., C. Y. Ho, S. Luo, and Y. Sheng. 2019. “Agglomeration Economies in Creative Industries.” Regional Science and
+    Urban Economics 77: 141–154.
+Taylor, P. J., M. Hoyler, and R. Verbruggen. 2010. “External Urban Relational Process: Introducing Central Flow Theory to
+    Complement Central Place Theory.” Urban Studies 47 (13): 2803–2818.
+Wang, S., M. Y. Jia, Y. H. Zhou, and F. Fan. 2020. “Impacts of Changing Urban Form on Ecological Eﬃciency in China: A
+    Comparison Between Urban Agglomerations and Administrative Areas.” Journal of Environmental Planning and
+    Management 63 (10): 1834–1856.
+Wang, S., J. Q. Zhang, and F. Fan. 2019. “The Symbiosis of Scientiﬁc and Technological Innovation Eﬃciency and
+    Economic Eﬃciency in China – An Analysis Based on Data Envelopment Analysis and Logistic Model.” Technology
+    Analysis & Strategic Management 31 (1): 67–80.
+Wen, C., H. Deng, and B. Chen. 2017. “Study on Inﬂuencing Factors of Innovation System Evolution of Pearl River Delta
+    Region Based on Structural Equation Model.” Boletin Tecnico/Technical Bulletin 55 (20): 509–515.
+Wu, J. W., Y. D. Wei, and W. Chen. 2020. “Spatial Proximity, Localized Assets, and the Changing Geography of Domestic
+    Mergers and Acquisitions in Transitional China.” Growth and Change 51 (3): 964–976.
+Wu, Y. F., Y. Zhou, and Y. S. Liu. 2020. “Exploring the Outﬂow of Population from Poor Areas and its Main Inﬂuencing
+    Factors.” Habitat International 99: 102161.
+Zhang, J. X., and L. D. Zhuang. 2000. “Mechanism of Metropolitan Shadow Area Evolution and its Countermeasures.”
+    Journal of Nanjing University (Natural Science Edition) 36 (6): 687–692.
+

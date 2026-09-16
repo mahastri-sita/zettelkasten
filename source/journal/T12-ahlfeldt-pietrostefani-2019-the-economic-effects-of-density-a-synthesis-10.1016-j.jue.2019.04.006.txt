@@ -1,0 +1,1194 @@
+[PDF Metadata]
+Source PDF: journal/T12-ahlfeldt-pietrostefani-2019-the-economic-effects-of-density-a-synthesis-10.1016-j.jue.2019.04.006.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           The economic effects of density: A synthesis
+Subject:         Journal of Urban Economics, 111 (2019) 93-107. doi:10.1016/j.jue.2019.04.006
+Keywords:        Compact; City; Density; Meta-analysis; Elasticity; Present value
+Author:          Gabriel M. Ahlfeldt
+Creator:         Elsevier
+Producer:        Acrobat Distiller 10.1.16 (Windows)
+CreationDate:    Sat May  4 06:34:14 2019 WIB
+ModDate:         Sat May  4 06:35:01 2019 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           15
+Encrypted:       no
+Page size:       595.245 x 793.92 pts
+Page rot:        0
+File size:       1562708 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                                  Journal of Urban Economics 111 (2019) 93–107
+
+
+                                                                     Contents lists available at ScienceDirect
+
+
+                                                               Journal of Urban Economics
+                                                              journal homepage: www.elsevier.com/locate/jue
+
+
+
+
+The economic eﬀects of density: A synthesis☆
+Gabriel M. Ahlfeldt a,1,∗, Elisabetta Pietrostefani b
+a
+    London School of Economics and Political Sciences (LSE) and Centre for Economic Policy Research (CEPR), Houghton Street, London WC2A 2AE, United Kingdom
+b
+    London School of Economics and Political Sciences (LSE), Houghton Street, London WC2A 2AE, United Kingdom
+
+
+
+
+a r t i c l e             i n f o                          a b s t r a c t
+
+JEL Classiﬁcation:                                         This paper synthesises the state of knowledge on the economic eﬀects of density. We consider 347 estimates of
+R38                                                        density elasticities of a broad range of outcomes ranging from wages, innovation, rents, various amenities, the
+R52                                                        cost of providing public services, transport- and environment-related outcomes to health and wellbeing. More
+R58
+                                                           than 100 of these estimates have not been previously published and have been provided by authors on request
+Keywords:                                                  or inferred from published results in auxiliary analyses. We contribute original estimates of density elasticities
+Compact                                                    of 16 distinct outcome variables that belong to categories where the evidence base is thin, inconsistent or non-
+City                                                       existent. Along with a critical discussion of the quality and the quantity of the evidence base we present a set
+Density                                                    of recommended elasticities. Applying them to a scenario that roughly corresponds to an average high-income
+Meta-analysis                                              city, we ﬁnd that density seems to be a net-amenity that is associated with positive external welfare eﬀects.
+Elasticity                                                 Densiﬁcation policies may be welfare enhancing, but the distributional eﬀects may be regressive, especially if
+Present value
+                                                           residents are immobile and housing supply is inelastic.
+
+
+
+1. Introduction                                                                                     To our knowledge, no attempt has been made to synthesise the
+                                                                                                evidence on the economic eﬀects of density and to compare the va-
+    The degree of concentration of economic activity in urban areas                             riety of costs and beneﬁts across a comprehensive range of outcome
+is striking as they host more than 50% of the world’s population                                categories. It seems fair to state that the dominating “compact city”
+(United Nations, 2014) on only an approximate 2.7% of the world’s land                          policy paradigm, which aims at shaping the habitat of the urban
+(GRUMP, 2010; Liu et al., 2014).2 There is a consensus among planners                           population over the decades to come, is not well-grounded in evi-
+and policymakers, however, that even higher densities within cities and                         dence. We make four contributions to address this notable gap in the
+urban areas are desirable, at least on average (Boyko and Cooper, 2011;                         literature.
+OECD, 2012). Most countries pursue policies that implicitly or explicitly                           Our ﬁrst contribution is to provide a unique summary of the quan-
+aim at promoting “compact urban form”, reﬂecting the concern that un-                           titative literature on the economic eﬀects of density. Our evidence base
+regulated economic markets will fail to deliver allocations of uses and                         contains 347 estimates (from 180 studies) of the eﬀects of density
+infrastructure that are eﬃcient and equitable (IAU-IDF, 2012; Holman                            on a wide range of outcomes including accessibility (job accessibility,
+et al., 2014). It is diﬃcult to ascertain, however, to what extent this nor-                    accessibility of private and public services), various economic outcomes
+mative statement prevailing in the policy debate can be substantiated                           (productivity, innovation, value of space), various environmental out-
+by evidence (Neuman, 2005).                                                                     comes (open space preservation and biodiversity, pollution reduction,
+
+
+ ☆
+    This work was ﬁnancially supported by the OECD and the WRI. The results presented and views expressed here, however, are exclusively those of the authors.
+We acknowledge the help of 22 colleagues who contributed by suggesting relevant research, assisting with quantitative interpretations of their work, or providing
+additional estimates, including David Albouy, Victor Couture, Pierre-Philippe Combes, Paul Cheshire, Gilles Duranton, Patrick Gaule, Christian Hilber, Filip Matejka,
+Charles Palmer, and Abel Schumann. We also thank conference participants in Bochum (German regional economist meetings), Barcelona (IEB workshop), Copenhagen
+(UEA), New York (UEA) and in particular David Albouy, Felipe Carozzi, Paul Cheshire, Jorge De la Roca, Pierre-Philippe Combes, Gerard Dericks, Steve Gibbons,
+Stephan Heblich, Christian Hilber, Walker Hanlon, Hans Koster, Andrei Potlogea, William Strange (the editor), Olmo Silva, Jens Südekum, Sevrin Waights, Jordy
+Meekes, and two anonymous referees for more general comments and suggestions.
+  ∗
+    Corresponding author.
+    E-mail address: g.ahlfeldt@lse.ac.uk (G.M. Ahlfeldt).
+  1
+    www.ahlfeldt.com.
+  2
+    The estimates of the global urban land reported in the literature vary widely, from less than 0.3 to 3% primarily because of the diﬀerent deﬁnitions of urban
+land and data used (night light data, Landsat data etc.) (Angel et al., 2005; GRUMP 2010; Liu et al., 2014). In 2010, the global urban land was close to 3%, while
+the global built-up area was approximately 0.65%.
+
+https://doi.org/10.1016/j.jue.2019.04.006
+Received 14 October 2017; Received in revised form 18 February 2019
+Available online 18 April 2019
+0094-1190/© 2019 Elsevier Inc. All rights reserved.
+G.M. Ahlfeldt and E. Pietrostefani                                                                                          Journal of Urban Economics 111 (2019) 93–107
+
+
+energy eﬃciency), eﬃciency of public service delivery, health, safety,                interpreted as associations in the data since the causal interpretation
+social equity, transport (ease of traﬃc ﬂow, sustainable mode choice),                would rest on the strong assumption that diﬀerences in density are his-
+and self-reported well-being.                                                         torically determined by factors that have no contemporaneous eﬀects on
+    While the evidence base is shared with a companion paper                          outcomes. A log-point increase in density is associated with (log-point
+(Ahlfeldt and Pietrostefani, 2017), the results presented in the two                  eﬀects in parenthesis) higher patent activity (0.21), consumption vari-
+papers are mutually exclusive. In the companion paper, we analyse                     ety value (0.12), preservation of green spaces (0.28), as well as lower car
+the eﬀects of a variety of compact city characteristics (including                    use (0.05), energy consumption (0.07), crime (0.085), and costs of pro-
+morphological features and land use mix), restricting the interpretation              viding local public services (0.17). Density, however, is also associated
+to qualitative results in order to explore the full evidence base. In                 with higher construction costs (0.55), skill wage gaps (0.035), mortality
+this paper, we focus on a quantitative comparison, and, therefore,                    risk (0.09) as well as lower self-reported well-being (0.004).
+restrict the analysis to results that can be expressed as density elasticity              Studies that are more frequently cited, or use more rigorous meth-
+estimates. For more than 100 cases, we conduct back-of-the-envelope                   ods, ﬁnd less positive density eﬀects (in a normative sense). The esti-
+calculations to convert the results into a comparable metric or obtain                mates also become less positive over time, possibly reﬂecting a trend
+results that had not previously been published from the relevant                      towards the application of more rigorous methods. Although more evi-
+authors. Borrowing techniques from meta-analytic research, we analyse                 dence would be desirable to substantiate our ﬁndings, our analysis re-
+within-category heterogeneity with respect to characteristics such as                 veals some insights into geographic heterogeneity in density elasticity
+the methods used, the citations adjusted for years since publication,                 estimates. For non-high-income countries, the estimated density elas-
+or the geographic setting of the analysis. In some instances, we make                 ticity of wages, at 0.08, is twice as large for high-income countries, on
+admittedly ambitious assumptions to translate results published in                    average. Mode choice is less likely to change with density, whereas the
+ﬁelds such as engineering and medical research into a format that is                  gains from density in terms of domestic energy consumption appear to
+compatible with the conventions in economics and related disciplines.                 be larger. Compared to other developed countries, density in the US
+    Our second contribution is to provide original elasticity estimates               is associated with larger skill wage gaps and higher rather than lower
+where the evidence base is thin or inconsistent. We provide transparent               crime rates. Our review of the literature also suggests that the eﬀect of
+density elasticity estimates based on a consistent econometric frame-                 density on rents may not be log-linear. Estimates of the density elas-
+work and OECD data that refer to 16 distinct outcome variables (from                  ticity of rent increase by 0.063 for every increase in population den-
+10 outcome categories). For some outcomes, such as the density elas-                  sity by 1000 inhabitants per square kilometre. We do not ﬁnd a similar
+ticity of preserved green space, our estimates are without precedent.                 non-linearity in the estimated eﬀects of density on wages, suggesting
+We provide an estimate of the elasticity of density with respect to city              that convex costs lead to a bell-shaped net-agglomeration beneﬁts curve
+size, which facilitates a better comparison of the results from studies               (Henderson, 1974).
+analysing the eﬀects of density and city size. To reconcile the evidence                  In our illustrative scenario, a 1% increase in density leads to an in-
+on the eﬀects of density on wages, rents, and various (dis)amenities,                 crease in the per capita present value (inﬁnite horizon, 5% discount
+we also provide novel estimates of the density elasticity of construction             rate) of wages and rents of $280 ($190 after taxes) and $347. Summing
+costs.                                                                                up the monetary equivalents of all amenity and dis-amenity categories
+    Our third contribution is to condense this broad evidence base into a             we ﬁnd a clearly positive value, which is, however, not as large as the
+set of 15 category-speciﬁc density elasticity estimates. Speciﬁc to each              “compensating diﬀerential” (rent eﬀect – after-tax wage eﬀect). While
+category, we either recommend the weighted (by adjusted citations)                    density seems to be a net amenity, our admittedly imperfect account-
+mean across the elasticity estimates in our evidence base, an estimate                ing also suggests that part of the rent increase may be attributable to
+from a high-quality original research paper or one of our original esti-              the higher cost of providing space in addition to enjoyable amenities.
+mates. Along with the recommended elasticities, we provide a critical                 Policy-induced densiﬁcation may lead to aggregate welfare gains. How-
+discussion of the quality and the quantity of the evidence base, high-                ever, there may be a collateral net-cost to renters and ﬁrst-time buyers.4
+lighting priority areas for further research. The compact presentation of             This eﬀect adds to a potentially regressive distributional impact due to
+a variety of density elasticity estimates in a consistent format is unique in         a widening skill wage gap.
+terms of accessibility and coverage and represents a convenient source                    Our analysis uniﬁes important strands in the economics litera-
+for research engaging with the quantitative interpretation of density ef-             ture on the spatial organisation of economic activity. We provide
+fects.                                                                                an explicit comparison of the magnitude of agglomeration beneﬁts
+    Our fourth contribution is to monetise the economic eﬀects of                     on the production (e.g. Combes et al., 2012) and consumption side
+density. For each of the 15 outcome categories, we compute the per                    (e.g. Couture, 2016), the eﬀects of urban form on innovation (e.g.
+capita present value (PV, at a 5% discount rate) of the eﬀect of a                    Carlino et al., 2007), housing rent (e.g. Combes et al., 2018), quality
+1% increase in density for a scenario that roughly corresponds to an                  of life (e.g. Albouy and Lue, 2015), driving distances (Duranton and
+average metropolitan area in a developed country. For this purpose,                   Turner, 2018), road speeds (Couture et al., 2018), public spending
+we combine our recommended density elasticity estimates with several                  reduction (e.g. Hortas-Rico and Sole-Olle, 2010), energy consump-
+valuations of non-marketed goods such as time, crime and mortality                    tion (Glaeser and Kahn 2010), skill-wage gaps (Baum-Snow and Pa-
+risk, or pollution, among many others. The monetary equivalents allow                 van, 2012) and self-reported well-being (Glaeser et al., 2016), in ad-
+for a novel accounting of the costs and beneﬁts of density and how the                dition to a range of density eﬀects on outcomes that have remained
+net eﬀect of density across a broad range of amenity and dis-amenity                  under-researched in the economics literature. Our ﬁndings also have
+categories aligns with estimates of quality of life based on cost-earning             important policy implications as they suggest that densiﬁcation policies
+diﬀerentials.3                                                                        are likely eﬃcient but not necessarily equitable.
+    Our analysis reveals sizeable beneﬁts and costs of density. A log-                    Some words are due on the limitations of this ambitious synthesis.
+point increase in density leads to (log-point eﬀects in parenthesis) higher           The fundamental challenge the literature faces is to separate the ef-
+wages (0.04), higher rent (0.15) and lower average vehicle mileage                    fects of density from unobserved factors that determine density. As men-
+(0.06), but also higher pollution concentration (0.13) and lower av-                  tioned above, a causal interpretation often requires the strong identify-
+erage speed (0.12). For other outcomes, existing estimates are better                 ing assumption that contemporary density is not endogenous to factors
+
+  3
+    The indirect inference of quality of life from relative wages goes back to
+                                                                                       4
+the work pioneered by Rosen (1979) and Roback (1982) which has spurred a                  To be theoretically consistent this interpretation requires that residents are
+growing literature (see Albouy & Lue 2015 for a review).                              not fully mobile (e.g. because they have location-speciﬁc preferences).
+
+                                                                                 94
+G.M. Ahlfeldt and E. Pietrostefani                                                                                            Journal of Urban Economics 111 (2019) 93–107
+
+
+                                     Table 1
+                                     Variation in density.
+
+                                               (1) FUA, Non-US      (2) FUA, US          (3) FUA, US         (4) Census tract, US
+                                               OECD data            OECD data            Census data         Census data
+                                               Pop. Density         Pop. density         Pop. Density (PD)   Tract PD - FUA mean
+
+                                               Level         Ln     Level      Ln        Level      Ln       Level       Ln
+
+                                      Min      36            3.58   27         3.29      34         3.54     −1947       −10.99
+                                      p1       55            4.01   27         3.29      34         3.54     −1201       −3.18
+                                      p25      330           5.80   100        4.60      163        5.10     369         0.57
+                                      p50      580           6.36   179        5.19      371        5.92     1295        1.44
+                                      p75      994           6.90   386        5.96      648        6.47     2831        2.37
+                                      p99      4652          8.44   1661       7.42      1947       7.57     31,388      4.28
+                                      Max      4851          8.49   1661       7.42      1947       7.57     209,187     5.87
+                                      Mean     814           6.33   274        5.23      451        5.76     2907        1.36
+                                      SD1      798           0.90   268        0.89      370        0.90     5890        1.49
+                                      CV2      98.03%        –      97.81%     –         82.06%     –        202.58%     –
+                                      N        211                  70                   70                  34,123
+
+                                     Notes: Population density in inhabitants per square kilometre. Functional urban area
+                                     (FUA) data from OECD (Columns 1 and 2). Census data matched to FUA shapeﬁles on
+                                     GIS, aggregated to FUA (Columns 3 and 4) – data includes only core FUA, excluding the
+                                     commuting zones around them. City cores are deﬁned using the population grid from the
+                                     global dataset Landscan (2000).
+                                       1
+                                         Standard Deviation.
+                                       2
+                                         Coeﬃcient of variation.
+
+
+
+that have direct eﬀects on outcomes. Moreover, for individual-, ﬁrm-,                    low, the variation, at a coeﬃcient of variation of about one, is similarly
+and unit-based outcomes (e.g. wages, innovation, rent, wellbeing), the                   striking in both samples. Another notable insight from Table 1 is that
+collected density elasticity estimates often capture composition eﬀects.                 the variation in density within US FUAs is about two and a half times
+In general, the quantitative results are best suited for an evaluation of                the variation across FUAs.
+the eﬀects of densiﬁcation policies applied to individual cities (as op-                     Economic theory oﬀers a range of explanations for this large
+posed to all cities in a country) in the long run. Compared to wages                     variation in density. In a world without internal or external scale
+and mode choice, the evidence base for the other outcomes is gener-                      economies, density naturally results from the fundamental productivity
+ally underdeveloped. While for some categories selected high-quality                     and amenity value of a location. Exogenous geographic features such
+contributions are available, the nature of the evidence is at best pre-                  as fertile soil, moderate climate, or access to navigable rivers attract
+liminary for others. Signiﬁcant uncertainty surrounds any quantitative                   economic activity, leading to growing cities. Classic urban economics
+interpretation in the categories urban green, income inequality, health,                 models predict that larger cities will be denser since positive within-city
+and well-being. We view these outcomes as priority areas for further                     transport costs limit horizontal urban expansion (Brueckner, 1987).
+research into the eﬀects of density. In general, the extant evidence base                Urban growth, therefore, drives up the average rent in a city, leading
+consists of point estimates, so that heterogeneity in density eﬀects across              to lower use of space and a substitution eﬀect on the consumption
+contexts and the density distribution remains a key subject for future                   side. Since building taller becomes proﬁtable, higher rents lead to
+original research and reviews.                                                           densiﬁcation due to a more intense use of land and a substitution
+    The remainder of this paper is organised as follows. In Section 2,                   eﬀect on the supply side. Within cities, densities are higher close to
+we provide an introduction into the origins of density and some an-                      desirable locations (such as the CBD) where rents are particularly high
+cillary estimates that help with the interpretation of density eﬀects. In                to oﬀset for transport cost. Transport innovations (e.g. mass-produced
+Section 3, we lay out how the evidence base was collected and clas-                      cars) allow for horizontal expansion and, ceteris paribus, reduce urban
+siﬁed. Section 4 summarises the evidence by outcomes and attributes.                     density.
+Section 5 presents a discussion of our original density elasticity esti-                     Reﬂecting the shift towards knowledge-based urban economies
+mates. Section 6 condenses the evidence (including our original esti-                    (Michaels et al., 2013), recent models feature agglomeration externali-
+mates) to 15 outcome-speciﬁc density elasticity estimates. Section 7 dis-                ties (Lucas and Rossi-Hansberg, 2002; Ahlfeldt et al., 2015) making den-
+cusses the monetary equivalents of an increase in density. The ﬁnal                      sity a cause and an eﬀect of productivity and utility. This class of mod-
+Section 8 concludes. We also provide an extensive technical Supplemen-                   els features multiple equilibria so that cities may be dense and mono-
+tary material 1 with additional results and explanations, which is essen-                centric or polycentric and dispersed. Yet, due to agglomeration-induced
+tial reading for those wishing to use our quantitative results in further                path dependency, contemporary economic geography often follows fea-
+research (recommended elasticities and monetary equivalents).                            tures that were important in the past, e.g. agricultural land suitability
+                                                                                         (Henderson et al., 2018) or portage sites (Bleakley and Lin, 2012). Sim-
+2. Background                                                                            ilarly, the compact monocentric city structure that is characteristic for
+                                                                                         historic cities has been argued to be more resilient to shocks (e.g. natu-
+    In this section, we provide some theoretical background and ancil-                   ral disasters, or transport innovations) in cities that were already large
+lary empirical analyses that will guide the interpretation of the evidence               about a century ago, the time when external returns and mass-produced
+base.                                                                                    cars presumably started to become increasingly important (Ahlfeldt and
+                                                                                         Wendland, 2013).
+2.1. Origins of density                                                                      In practice, and at the heart of the policy dimension of this pa-
+                                                                                         per, density is also determined by various land use regulations, such
+    The ﬁrst columns of Table 1 summarise the distribution of population                 as urban growth boundaries, preservation policies, as well as height,
+density by OECD functional urban areas (FUA), comparing the US to the                    ﬂoor area ratio, and lot size regulations, which often have their ori-
+rest of the world. While, on average, density in US cities is relatively                 gins in history (McMillen and McDonald, 2002; Siodla 2015). For a
+
+
+                                                                                    95
+G.M. Ahlfeldt and E. Pietrostefani                                                                                     Journal of Urban Economics 111 (2019) 93–107
+
+
+comprehensive review of the role of history in urban economics re-                  of a is broadly consistent with the 0.7 estimate for French cities by
+search, see Hanlon and Heblich (2018).                                              Combes et al. (2018). Details related to the estimation of Eq. (1), the
+    Given the endogeneity of density, separating the eﬀects of density              estimation results, and the various transformations used to standardise
+on an economic outcome from the eﬀects of location fundamentals rep-                the results reported in the literature are reported in Section 2 of Supple-
+resents an identiﬁcation challenge. Natural experiments such as the di-             mentary material 1.
+vision of a city due to exogenous political reasons (Ahlfeldt et al., 2015)
+are rare. Plausible instruments for density are often diﬃcult to ﬁnd, al-           2.3. Density and the supply side
+though some researchers have exploited geology as a factor that likely
+impacts on the distribution of economic activity, but not on an economic                As discussed above, the positive city size elasticity of density results
+outcome of interest (Combes et al., 2010). Our reading is that, for the             from an interplay of the demand side and the supply side of the urban
+most part, the literature implicitly exploits the idea that much of the             economy. Higher rents in larger cities lead to higher densities. Higher
+spatial variation in density is rooted in history. Many of the results sum-         densities, in turn, imply that it is more expensive to provide space,
+marised below are informative to the extent that density is determined              pushing rents up. Larger cities are therefore theoretically expected to
+by factors that were relevant in the past and have a limited direct eﬀect           be denser and have higher rents, with the latter being the cause and
+on economic outcomes today.                                                         eﬀect of higher construction costs. The empirical evidence is generally
+                                                                                    in line with these expectations. Helsley and Strange (2008) provide
+2.2. Density and city size                                                          anecdotal evidence of larger cities having taller buildings. Gyourko and
+                                                                                    Saiz (2006) show that constructing a standard home is more expensive
+     The relationship between city size and density is critical to the in-          in denser areas, even after controlling for diﬀerences in geography
+terpretation of our evidence base. Given the theoretical link discussed             (high hills and mountains), regulatory regimes (housing permits,
+above, it is perhaps not surprising that the literature refers to actual            regulatory chatter), and labour market conditions (e.g. wages, union-
+density, the population normalised by the geographic size of a city, and            isation). According to Ellis (2004), midrise stacked ﬂats are twice as
+city size, the total population, interchangeably.                                   expensive to construct as single-family detached housing. Ahlfeldt and
+     Some researchers have attempted to disentangle the eﬀects of                   McMillen (2018) estimate a height elasticity of construction cost of 0.25
+density and city size (Cheshire and Magrini, 2009). At the heart of such            for small structures (ﬁve stories and below), and even higher elasticities
+a separation is the idea that diﬀerent types of agglomeration economies             for taller structures. However, estimates of the eﬀect of density on
+operate at diﬀerent spatial resolutions (Rosenthal and Strange, 2001).              construction cost that capture the changes in the composition of build-
+Separating the eﬀects of city size and density corresponds to separating            ing types (a structure eﬀect) as well as changes in the cost of building
+the eﬀects of diﬀerent agglomeration economies (and diseconomies),                  equivalent units (a location eﬀect) to our knowledge do not exist to date.
+some of which operate over large distances (such that city size matters),               To substantiate the interpretation of our evidence base, we therefore
+while others are more localised (such that density matters). While                  provide novel estimates of the density elasticity of (per-unit) construc-
+separating the eﬀects of density and city size is interesting, it is also           tion costs. We combine a micro-data set on building constructions from
+challenging because the geographic size of an integrated urban area                 Emporis with census tract level population and area data from the 2010
+cannot grow inﬁnitely, which implies that density and city size cannot              US Census and the American Community Survey (ACS). In an alternative
+vary independently.                                                                 approach, we create a construction cost index using structure-type-
+     Our reading of the literature is that in most studies identifying              speciﬁc construction cost estimates from Ellis (2004) and information
+density eﬀects from between-city (as opposed to within-city) compar-                on the structure-type composition from the ACS (Ruggles et al., 2017).
+isons, city population implicitly changes as city density changes (and              This index exclusively captures variation in construction costs due to
+vice versa). The evidence from between-city comparisons reviewed here               the composition of structure types (the structure eﬀect). The estimated
+should be interpreted in that light, since compact-city policies aiming             density elasticity of this index can be combined with the estimated den-
+at changing density while keeping population constant may result in                 sity elasticity of the cost of a standard home (the location eﬀect) from
+smaller eﬀects, if there is a genuine city-size eﬀect that is independent           Gyourko and Saiz (2006) to give an estimate of the gross density eﬀect.
+from density. As an example, if productivity gains from labour mar-                     From the results of both analyses, we conclude that 0.04–0.07 repre-
+ket pooling operated at the city scale over relatively large commuting              sent a conservative range for the density elasticity of construction cost
+distances without spatial decay, increasing density while holding popu-             in the US. This estimate is a gross estimate that includes all structure ef-
+lation constant would not increase productivity. Reassuringly, the esti-            fects and location eﬀects that are associated with density (including dif-
+mates from between-city and within-city studies (which hold population              ferences in regulation, geology and labour market conditions that may
+constant) tend to be quite similar conditional on us making the following           be cause or eﬀects of density). A detailed discussion of the eﬀects of den-
+adjustment.                                                                         sity on construction cost is in Supplementary material 1. We will return
+     To translate estimated city size elasticities from the literature into         to this parameter when reviewing the evidence on the eﬀects of density
+density elasticity estimates, we use an estimate of the elasticity of (pop-         on rents, wages and amenities.
+ulation) density with respect to city size (population) derived from a
+multi-country FUA-level data set (OECD, 2016) and the following em-                 3. The evidence base
+pirical speciﬁcation:
+   (    )       ( )                                                                 3.1. Collection
+ln 𝐴𝑖,𝑐 = 𝑎 ln 𝑃𝑖 + 𝜇𝑐 + 𝜀𝑖,𝑐 ,                                         (1)
+where Ai, c is the geographic area of FUA i in country c, Pi is the land                In line with standard best-practice approaches of meta-analytic re-
+area of the FUA, and 𝜇 c is a country ﬁxed eﬀect. The city size elasticity          search, as reviewed by Stanley (2001), our literature search is carried
+of density is implicitly determined as 𝑑 ln(𝑃𝑖 ∕𝐴𝑖 )∕𝑑 ln(𝑃𝑖 ) = 𝛼 = 1 − 𝑎 .        out in several stages.5 We do not impose any geographical restrictions
+Compared to using the log of density as dependent variable, this esti-              (with respect to the study area) and consider various geographic layers
+mation strategy avoids the mechanical endogeneity problem that arises               (from micro-geographic scale to cross-region comparisons).
+if population shows up on both sides of the equation. Our preferred                     First, we conduct 260 separate searches for various combinations of
+estimate of a is 0.57, which implies a city size elasticity of density of           category-speciﬁc keywords (combinations of outcomes and empirically
+𝛼 = 0.43. Therefore, we expect density elasticity estimates to be slightly
+more than twice as large as population elasticity estimates if the under-            5
+                                                                                       Recent examples of classic meta-analyses in economics include studies by
+lying economic mechanisms are the same. We note that our estimate                   Eckel and Füllbrunn (2015), Melo et al. (2009), and Nitsch (2005).
+
+                                                                               96
+G.M. Ahlfeldt and E. Pietrostefani                                                                                           Journal of Urban Economics 111 (2019) 93–107
+
+
+observed variables) in academic databases (EconLit, Web of Science,                       that naturally use very diﬀerent empirical approaches. The information
+and Google Scholar) and specialist research institute working paper                       we collect is, therefore, somewhat more generic and includes the fol-
+series (NBER, CEPR, CESIfo, and IZA). Second, we expand on relevant                       lowing attributes:
+research strands by conducting an analysis of citation trees. Third, we
+                                                                                                i) The outcome category, one for the 15 categories (see Table A1
+ask colleges in our research networks to recommend relevant research
+                                                                                                   for details, Supplementary material 1 Section 1)
+(by personal mail and a call circulated in social media) and add studies
+                                                                                               ii) The dependent variable, e.g. wages, land value, crime rate
+that were previously known to us or came up in discretionary searches.6
+                                                                                             iii) The study area, including the continent and the country
+We keep track of the stage at which the evidence is added to control for
+                                                                                              iv) The publication venue, e.g. academic journal, working paper,
+a bias due to a potentially selective research network. To prevent publi-
+                                                                                                   book chapter, report
+cation bias, we explicitly consider studies that were published as edited
+                                                                                               v) The disciplinary background, e.g. economics, regional sciences,
+book chapters, PhD theses, reports, in refereed journals or in academic
+                                                                                                   planning, etc.
+working paper series (we were also open to other types of publications).
+                                                                                              vi) The stage (1–3) at which an analysis is added to the evidence
+This process, which is described in more detail in Supplementary mate-
+                                                                                                   base (see Table A2)
+rial 1 to this paper and in Ahlfeldt and Pietrostefani (2017), results in
+                                                                                             vii) The period of analysis
+268 relevant studies, which include 473 conceptually distinct analyses.
+                                                                                            viii) The spatial scale of the analysis, i.e. within-city vs. between-city
+We typically keep multiple estimates (analyses) from the same study if
+                                                                                              ix) The methodological approach as deﬁned by the Scientiﬁc Mary-
+they refer to diﬀerent dependent variables or geographic areas.
+                                                                                                   land Scale (SMS) used by the What Works Centre for Local Eco-
+    A restriction to elasticity estimates that are explicitly reported in
+                                                                                                   nomic Growth (2016)
+publications shrinks the sample by about 50% to 242 analyses in 127
+                                                                                                   The variable can take the following values:
+studies. We make some eﬀort, however, to increase the evidence base.
+                                                                                                    1. Exploratory analyses (e.g. charts). This score is not part of
+We infer density elasticity estimates from reported city size elasticity
+                                                                                                       the original SMS
+estimates using the estimated elasticity of city size with respect to den-
+                                                                                                    2. Unconditional correlations and OLS with limited controls
+sity discussed above. Similarly, we conduct back-of-the-envelope calcu-
+                                                                                                    3. Cross-sectional analysis with comprehensive controls
+lations to approximate density elasticity estimates if results are reported
+                                                                                                    4. Good use of spatiotemporal variation controlling for period
+as estimated marginal eﬀects in levels, semi-elasticities, or in graphical
+                                                                                                       and individual eﬀects, e.g. diﬀerence-in-diﬀerences or panel
+illustrations. We also make some adjustments to allow for a consistent
+                                                                                                       methods
+interpretation within categories. As an example, we convert estimates of
+                                                                                                    5. Exploiting plausibly exogenous variation, e.g. by use of in-
+the density elasticity of land price into estimates of the density elastic-
+                                                                                                       strumental variables, discontinuity designs or natural exper-
+ity of housing rent assuming a Cobb-Douglas housing production func-
+                                                                                                       iments
+tion (Epple et al., 2010) and a land share of 0.25 (Combes et al., 2018;
+                                                                                                    6. Reserved to randomised control trials (not in the evidence
+Ahlfeldt et al., 2015). Finally, some authors kindly provided density elas-
+                                                                                                       base)
+ticity estimates on request, which were not reported in their papers (e.g.
+                                                                                               x) The cumulated number of citations, adjusted for the years since
+Couture, 2016; Tang, 2015; Albouy, 2008). This way, we increase the
+                                                                                                   publication, which we generate using yearly citations counts
+quantitative evidence base by more than 100 estimates to 347 analyses
+                                                                                                   per study from Scopus. For non-journal publications, we im-
+in 180 studies. The ﬁnal quantitative sample is comparable to the full
+                                                                                                   pute the citation index using data from Google Scholar. Expect-
+sample (473 analyses from 268 studies) across a range of characteristics
+                                                                                                   edly, our study-based index is closely correlated with journal
+that we introduce in the next subsections (see Supplementary material
+                                                                                                   quality as measured by the SNIP (Source Normalised Impact
+1 Section 2).
+                                                                                                   per Paper) score (Scopus, 2016) and the SCImago Journal Rank
+    A more complete discussion of the various adjustments made to en-
+                                                                                                   (Scimago, 2017). A detailed discussion is in Supplementary ma-
+sure comparability of the evidence is in Supplementary material 1 Sec-
+                                                                                                   terial 1.
+tion 2. A complete list of studies along with the encoded attributes intro-
+duced in the following sections is provided in Supplementary material 1.                      It is worth pointing out that, in the present context, a higher SMS
+                                                                                          score does not necessarily imply a higher quality of the evidence. While
+3.2. Attributes                                                                           exploiting plausibly exogenous variation (SMS 4) is certainly desirable
+                                                                                          to separate the eﬀects of density from unobserved location fundamen-
+    We choose a quantitative approach to synthesise our broad and di-                     tals, it is less clear that having a greater set of covariates (SMS 2) im-
+verse evidence base. As with most quantitative literature reviews we use                  proves the analysis if the controls are potentially endogenous. One ex-
+statistical approaches to test whether existing empirical ﬁndings vary                    ample frequently found in the literature that gives cause for concerns is
+systematically in the selected attributes of the studies, such as the geo-                the inclusion of multiple variables that capture diﬀerent shades of ur-
+graphic context, the data or the methods used. Therefore, we encode the                   ban compactness such as population density, building density and job
+results and the various attributes of the reviewed studies into variables                 centrality. Similarly, the inclusion of spatial ﬁxed eﬀects (SMS 3) does
+that can be analysed using statistical methods.                                           not improve the identiﬁcation if the fraction of the variation in density
+    The typical approach in meta-analytic research is to analyse the ﬁnd-                 that is most likely exogenous is cross-sectional, because it is determined
+ings in a very speciﬁc literature strand. The results that are subjected to               by history (see discussion in Section 2.1). Given these ambiguities, our
+a meta-analysis are often parameters that have been estimated in rel-                     preferred measure for weighting the elasticities in the evidence base is
+atively similar econometric analyses. In such instances, it is useful to                  the citation index, which captures the impact an analysis has had within
+collect speciﬁc information concerning the econometric setup. In con-                     the research community.
+trast, the scope of our analysis is much broader. Our aim is to synthesise                    In Table 2 we tabulate the distribution of analyses included in this
+the evidence on the economic eﬀects of density across a range of out-                     review by selected attributes (as discussed above, one study can include
+come categories. We consider studies from separate literature strands                     several analyses). While our evidence base to some extent covers most
+                                                                                          world regions, including the global south, there is a strong concentra-
+  6
+    At this stage, we were pointed to a literature on urban scaling in which              tion of studies from high-income countries and, in particular, from North
+city size is related to a variety of outcomes. This literature is not part of this        America. The clear majority of studies have been published in academic
+review, because unlike with the bulk of the evidence base, the analysis is purely         journals. The evidence base is diverse with respect to disciplinary back-
+descriptive and not concerned with density (Bettencourt & Lobo 2016; Batty                ground, with economics as the most frequent discipline, accounting for
+2008; Bettencourt 2013).                                                                  a share of about 30%.
+
+                                                                                     97
+G.M. Ahlfeldt and E. Pietrostefani                                                                                       Journal of Urban Economics 111 (2019) 93–107
+
+
+                                                                                                                    Fig. 1. Distribution of study period and quality
+                                                                                                                    of evidence.
+                                                                                                                    Kernel in the left panel is Gaussian. 2008 is the
+                                                                                                                    median year of publication. Scientiﬁc Methods
+                                                                                                                    Scale (SMS) deﬁned above (higher values indi-
+                                                                                                                    cate more rigorous methods).
+
+
+
+
+Table 2                                                                               such that positive values imply economic eﬀects that are typically con-
+Distribution of analyses by attributes I.                                             sidered to be positive in a normative sense in the relevant literatures.
+ World region                Publication              Discipline                          Given the variety of outcomes we do not discuss each result here but
+                                                                                      leave it to the interested reader to pick their ﬁnding of relevance. We
+ North America       208     Academic Journal   266   Economics            100
+                                                                                      note, however, that there is signiﬁcant variation in the quantity of the
+ Europe              86      Working Paper      62    Transport            72
+ Asia                34      Report             14    Planning             48         evidence base (N) and the quality of the underlying evidence (as well as
+ South America       7       PhD                4     Urban Studies        42         other attributes) and we urge these diﬀerences to be taken into account
+ World               4       Book chapter       1     Other                34         when considering the evidence. Caution is warranted, not only when
+ OECD                3       –                  –     Regional Studies     24
+                                                                                      the evidence base is quantitatively small (small N), but also when it is
+ non-OECD            3       –                  –     Health               14
+ Oceania             1       –                  –     Economic Geography   9
+                                                                                      inconsistent. A useful indicator is a standard deviation (SD) that is large
+ Africa              1       –                  –     Energy               4          compared to the mean, like, for example, pollution reduction. We also
+                                                                                      note that the results summarized in Table 3 cannot generally be inter-
+Notes: Assignment to disciplines based on publication venues. Studies contain
+                                                                                      preted as causal estimates since the estimated density eﬀects, in many
+multiple analyses if density eﬀects refer to multiple outcomes.
+                                                                                      cases, may capture the eﬀects of correlated location fundamentals. For a
+                                                                                      selected set of outcome groups (one per category) we provide a critical
+                                                                                      discussion of the quantity and the quality of the evidence in Section 4 of
+    In Fig. 1, we illustrate the distribution of publication years, the study
+                                                                                      Supplementary material 1. We report the mean elasticity weighted by
+period, and the type of methods used, according to the SMS. The evi-
+                                                                                      our citation index in Table 3. The interested reader will ﬁnd results using
+dence, overall, is very recent, with the great majority of studies having
+                                                                                      alternative weighting schemes in Section 2 of Supplementary material 1.
+been published within the last 15 years, reﬂecting the growing academic
+interest in the topic. Most studies use data from the 1980s onwards. A
+clear majority of studies score two or more on the SMS, which means
+there is usually at least some attempt to disentangle density eﬀects from             4.2. Results by attributes
+other eﬀects, often including unobserved ﬁxed eﬀects and period eﬀects.
+Distinguishing between studies published before or after the median                       For a pooled analysis of the sources of heterogeneity in the evidence
+year of publication (2008) reveals a progression towards more rigorous                base, we normalise category-speciﬁc elasticity estimates so that they
+methods that score three or four on the SMS.                                          have a zero mean and a unit standard deviation within the outcome
+                                                                                      groups listed in Table 3. Fig. 2 reveals that density elasticity estimates
+                                                                                      tend to decline in the year of publication, the citation index, and the
+4. Density elasticity estimates in the literature                                     SMS score. This pattern is in line with the increasing popularity of more
+                                                                                      rigorous methods displayed in Fig. 1.
+4.1. Results by outcome category                                                          In Fig. 3, we illustrate how the distribution of normalised elasticity
+                                                                                      estimates varies in selected attributes. At the bottom of each panel we
+    In Table 3 we summarise the quantitative results in our evidence                  report (two-sided) Kolmogorov-Smirnov test statistics and signiﬁcance
+base. We made an eﬀort to condense the elasticity estimates into a lim-               levels. We ﬁnd a statistically signiﬁcant diﬀerence in the distributions
+ited number of outcome groups. Because of the great variety of outcomes               with respect to publication venue (less positive elasticities in journals)
+in the evidence base we frequently report more than one elasticity per                and citation index (less positive elasticities for higher index values),
+outcome category to which we will refer to in the remainder of the pa-                which may reﬂect publication bias or quality of peer review. Estimated
+per (indicated by ID). Throughout this paper, all outcomes are expressed              elasticities form higher-density contexts are larger, on average.
+
+                                                                                 98
+G.M. Ahlfeldt and E. Pietrostefani                                                                                       Journal of Urban Economics 111 (2019) 93–107
+
+
+
+
+Fig. 2. Normalised elasticity estimates vs. publication year and quality of evidence.
+Elasticity estimates (e) are normalised within outcome elasticity groups (listed in Table 3) to have a mean of zero and a standard deviation of one. Citation index
+deﬁned in Section 2.2. Marker size proportionate to number of observations. Linear ﬁts (dashed lines, parametric results at the bottom) are frequency weighted by
+observations. °/∗ /∗ ∗ /∗ ∗ ∗ indicates insigniﬁcant/signiﬁcant at the 10%/5%/1% level (robust standard errors).
+
+
+
+
+Fig. 3. Distribution of normalised elasticity estimates by attributes.
+Elasticity estimates normalised within outcome elasticity groups (listed in Table 3) to have a mean of zero and a standard deviation of one. Non-high-income
+include low-income and median-income countries according to the World Bank deﬁnition. The citation index (CI) deﬁned in Section 2.2. °/∗ /∗ ∗ /∗ ∗ ∗ indicates
+insigniﬁcant/signiﬁcant at the 10%/5%/1% level based on a two-sample Kolmogorov-Smirnov test for equality of distribution functions.
+
+
+
+                                                                                99
+G.M. Ahlfeldt and E. Pietrostefani                                                                                                             Journal of Urban Economics 111 (2019) 93–107
+
+
+                         Table 3
+                         Density elasticity estimates in the literature.
+
+                                     Elasticity of outcome                        Proportion                                     Med.       Mean      Elasticityg
+                                                                                         a           b           c           d          e         f
+                            ID       with respect to density                N     Poor         Ac.       Econ.       With.       Year       SMS       Mean          S.D.
+
+                            1        Labour productivity                    47    0.19         0.79      0.74        0.06        2007       3.02      0.04          0.04
+                            1        Total factor productivity              15    0.13         0.87      0.80        0.20        2004       2.80      0.06          0.03
+                            2        Patents p.c.                           7     0.00         1.00      0.14        0.00        2006       2.86      0.21          0.11
+                            3        Rent                                   13    0.00         0.69      0.62        0.62        2013       3.00      0.15          0.13
+                            4        Commuting reduction                    36    0.03         0.56      0.08        0.56        2005       2.17      0.06          0.12
+                            4        Non-work trip reduction                7     0.00         0.71      0.00        0.86        2005       2.00      −0.20         0.44
+                            5        Metro rail density                     3     0.00         1.00      0.00        1.00        2010       3.33      0.01          0.02
+                            5        Quality of life                        8     0.38         0.88      1.00        0.13        2014       3.00      0.03          0.07
+                            5        Variety (consumption amenities)        1     0.00         1.00      0.00        0.00        2015       4.00      0.19          –
+                            5        Variety price reduction                2     0.00         0.00      1.00        1.00        2016       4.00      0.12          0.06
+                            6        Public spending reduction              20    0.00         1.00      0.05        0.00        2007       2.00      0.17          0.25
+                            7        90th-10th pct. wage gap reduction      1     0.00         1.00      0.00        0.00        2004       4.00      0.17          –
+                            7        Black-white wage gap reduction         1     0.00         0.00      1.00        0.00        2013       2.00      0.00          –
+                            7        Diss. index reduction                  3     0.00         1.00      0.33        0.00        2009       3.33      0.66          0.94
+                            7        Gini coef. reduction                   1     0.00         1.00      0.00        0.00        2010       4.00      4.56          –
+                            7        High-low skill wage gap reduction      3     0.00         0.67      1.00        0.00        2013       4.00      −0.13         0.07
+                            8        Crime rate reduction                   13    0.00         0.69      0.15        0.92        2014       2.54      0.24          0.47
+                            9        foliage projection cover               1     0.00         1.00      0.00        1.00        2015       1.00      −0.06         –
+                            10       Noise reduction                        1     0.00         1.00      0.00        0.00        2012       1.00      0.04          –
+                            10       Pollution reduction                    18    0.44         0.33      0.33        0.39        2014       2.83      0.04          0.47
+                            11       Energy reduction: Domestic & driving   21    0.10         0.90      0.38        0.24        2010       1.81      0.07          0.10
+                            11       Energy reduction: Public transit       1     0.00         1.00      1.00        0.00        2010       1.00      −0.37         –
+                            12       Speed                                  2     0.00         0.00      1.00        0.00        2016       4.00      −0.12         0.01
+                            13       Car usage (incl. shared) reduction     22    0.00         0.95      0.00        0.95        2004       2.00      0.05          0.07
+                            13       Non-car use                            76    0.05         0.79      0.00        0.86        2006       2.03      0.16          0.24
+                            14       Cancer & other disease reduction       5     0.00         1.00      0.00        0.60        2000       2.40      −0.33         0.20
+                            14       KSI & casualty reduction               4     0.00         1.00      0.00        0.00        2003       2.00      0.01          0.61
+                            14       Mental-health                          1     0.00         1.00      0.00        1.00        2015       2.00      0.01          –
+                            14       Mortality reduction                    3     0.00         1.00      0.00        0.00        2010       2.00      −0.36         0.17
+                            15       Reported health                        3     0.00         1.00      0.00        0.00        2013       1.00      −0.27         0.11
+                            15       Reported safety                        1     0.00         1.00      0.00        1.00        2015       2.00      0.07          –
+                            15       Reported social interaction            6     0.00         0.17      0.83        0.00        2007       3.50      −0.13         0.19
+                            15       Reported wellbeing                     1     0.00         1.00      1.00        0.00        2016       3.00      0.00          –
+                                     Sum                                    347
+
+                         Notes:.
+                           a
+                             Poor countries include low-income and median-income countries according to the World Bank deﬁnition.
+                           b
+                             Published in academic journal.
+                           c Belongs to the economics discipline.
+                           d
+                             Exploits within-city variation.
+                           e
+                             Year of publication.
+                           f
+                             Scientiﬁc Methods Scale (SMS) deﬁned in Section 3.2 (higher values indicate more robust methods).
+                           g
+                             Weighted by the citation index introduced in Section 3.2 and Supplementary material 1 Section 1.2. Outcome cat-
+                         egories correspond to ID as follows: 1: Productivity; 2: Innovation: 3: Value of space; 4: Job accessibility; 5: Services
+                         access; 6: Eﬃciency of public services delivery; 7: Social equity; 8: Safety; 9: Open space preservation and biodiversity;
+                         10: Pollution reduction; 11: Energy eﬃciency; 12: Traﬃc ﬂow: 13: Sustainable mode choice; 14: Health; 15: Well-being.
+
+    Table 4 presents the results of a multivariate analysis simultane-                             evidence base is 0.08 for non-high-income countries (from 9 analyses),
+ously controlling for all attributes considered in Fig. 3. We ﬁrst run                             conﬁrming the 100% premium over high-income countries (see Table
+a pooled regression using the normalised estimated density elasticity                              A11b in Supplementary material 1 for a tabulation of mean elasticity
+as an outcome. Being published in an academic journal decreases                                    estimates by high-income and non-high-income countries).
+the estimated elasticity by a 0.4 standard deviation. In addition, a                                   The important second insight is that if the population density in the
+one standard-deviation increase in the citation index results in a 0.09                            studied area increases by 1000 inhabitants per square kilometre, the
+standard deviation reduction in the estimated elasticity. The condi-                               estimated density elasticity of rent increases by 0.063, on average. This
+tional eﬀect of a high SMS score is insigniﬁcant, but the point estimate                           eﬀect is qualitatively and quantitatively consistent with recent evidence
+is negative. So, in line with Figs. 2 and 3, the overall impression is                             from French cities. Combes et al. (2018) show that the estimated elas-
+that higher quality is associated with less positive density elasticity                            ticity can vary from 0.205 for a small urban area to 0.378 for an urban
+estimates.                                                                                         area of the size of Paris. Applying the 0.063-estimate from Table 4,
+    In the remaining columns of Table 4, we perform meta-analyses                                  column (4), this corresponds to an increase in density by 2750 inhab-
+(Stanley and Jarrell, 1989; Melo et al., 2009) of the raw elasticity esti-                         itants per square kilometre, which in turn corresponds to going from
+mates in some of the more populated outcome categories. The ﬁrst in-                               cities like Grenoble or Lens (1000/km2 ) to a city like Paris (3700/km2 )
+teresting ﬁnding is that once we control for study ﬁxed eﬀects, we ﬁnd                             (Demographia, 2018). In line with Glaeser and Gottlieb (2008), we do
+that the estimated density elasticity of wages in non-high-income coun-                            not ﬁnd a similar eﬀect of density on the estimated density elasticity
+tries is about twice as large as for high-income countries (column 3). It is                       of wages. So it appears that increasing cost of density rather than
+worth noting that this eﬀect is identiﬁed from one multi-country study                             decreasing productivity gains curb agglomeration beneﬁts, leading to a
+covering Brazil, China, and India, in addition to the US (Chauvin et al.,                          bell-shaped net-agglomeration beneﬁts curve (Henderson, 1974).
+2016), which is why we do not add further controls to save degrees                                     The third relevant ﬁnding is that the density elasticity estimates of
+of freedom. However, the unconditional citation-weighted mean in the                               sustainable mode choice are signiﬁcantly lower for non-high-income
+
+
+                                                                                             100
+G.M. Ahlfeldt and E. Pietrostefani                                                                                           Journal of Urban Economics 111 (2019) 93–107
+
+
+ Table 4
+ Meta-analysis of density elasticity estimates.
+
+                                     (1)          (2)              (3)                   (4)             (5)                  (6)                    (7)
+                                     Normalised   Estimated        Estimated             Estimated       Estimated density                           Estimated density
+                                     density      density          density               density         elasticity of        Estimated density      elasticity of
+                                     elasticity   elasticity of    elasticity of         elasticity of   commuting            elasticity of energy   sustainable mode
+                                     estimate     wages            wages                 rent            reduction            use reduction          choice
+   Category ID                       All          1                1                     3               4                    11                     13
+
+   Non-high-income country           −0.111       0.025            0.050∗∗∗              –               −0.247               −0.195                 −0.162∗∗∗
+                                     (0.25)       (0.02)           (0.00)                                (0.21)               (0.26)                 (0.04)
+   Not published in academic         0.401∗∗      0.004                                  −0.021          0.150                0.364∗∗∗               0.164
+     journal
+                                     (0.19)       (0.02)                                 (0.07)          (0.13)               (0.10)                 (0.16)
+   Non-economics discipline          0.043        0.007                                  −0.081          0.041                0.003                  –
+                                     (0.18)       (0.02)                                 (0.07)          (0.07)               (0.06)
+   Round 3a                          0.077        0.022∗                                 −0.109+         0.003                0.101∗                 −0.178∗∗
+                                     (0.18)       (0.01)                                 (0.06)          (0.06)               (0.05)                 (0.07)
+   Within-city variation             −0.136       −0.020+                                −0.146          −0.071               0.187∗∗                −0.085
+                                     (0.18)       (0.01)                                 (0.10)          (0.07)               (0.07)                 (0.11)
+   Citation index normalised by      −0.091∗      −0.005+                                0.307+          0.058                −0.010                 0.030
+     s.d.
+                                     (0.05)       (0.00)                                 (0.18)          (0.05)               (0.01)                 (0.04)
+   SMS >=3                           −0.203       −0.014                                 −0.040          −0.025               0.070                  −0.007
+                                     (0.16)       (0.01)                                 (0.08)          (0.05)               (0.07)                 (0.09)
+   Pop. density in study area        −0.008       −0.005                                 0.063∗∗         0.011                0.017                  −0.001
+     (1000/km2 )
+                                     (0.01)       (0.00)                                 (0.03)          (0.07)               (0.04)                 (0.00)
+   Constant                          0.000        0.048∗∗∗         0.048∗∗∗              0.131∗∗∗        0.051∗∗              0.115∗∗∗               0.183∗∗∗
+                                     (0.05)       (0.01)           (0.00)                (0.02)          (0.02)               (0.02)                 (0.04)
+   Study eﬀects                      –            –                Yes                   –               –                    –                      –
+   N                                 337          47               47                    13              36                   21                     76
+   r2                                0.043        0.126            0.846                 0.805           0.306                0.763                  0.131
+
+ Note: Normalised elasticity estimates in (1) are normalised within outcome groups (those listed in Table 3) to have a zero mean and a unity standard deviation.
+ Citation index normalised by the global standard deviation. All explanatory variables are normalised to have a zero mean within outcome groups. 10 observations
+ drop out in (1) due to normalisation within categories with singular observations. Non-high-income countries include low-income and median-income countries
+ according to the World Bank deﬁnition. Population density in study area is from Demographia World Urban Areas (2018).
+   a
+      Round 3 consists of previously known evidence and recommendations by colleagues. Standard errors (in parentheses) are clustered on studies (one study can
+ contain multiple analyses, the unit of observation).
+   +
+      p < 0.15.
+   ∗
+      p < 0.1.
+   ∗∗
+       p < 0.05.
+   ∗∗∗
+        p < 0.01.
+
+
+countries. A potential explanation that is consistent with the large esti-               and the following regression model:
+mated density elasticity of wages in developing countries is an indirect                                ( )         ( )
+                                                                                           ( )           𝑃𝑖          𝐺𝑖
+income eﬀect that works in the opposite direction of the direct den-                     ln 𝑌𝑖,𝑐 = 𝛽 ln      + 𝜏 ln      + 𝜇𝑐 + 𝜖𝑖,𝑐 ,                                   (2)
+                                                                                                         𝐴𝑖          𝑃𝑖
+sity eﬀect. While a compact urban form ceteris paribus may favour al-
+ternative modes, higher incomes in more urbanised areas increase the                     where Yi, c is an outcome in city i in country c, Pi , Ai , 𝜇 c are popula-
+aﬀordability of car trips. Fourth, the mean estimated density elasticity                 tion, geographic area, and country ﬁxed eﬀects as in Eq. (1), and Gi is
+of energy consumption reduction is much larger when identiﬁed from                       GDP. The coeﬃcient of interest is 𝛽, which gives the estimated density
+studies exploring within-city variation. In this context, it is worth not-               elasticity of an outcome controlling for GDP per capita and unobserved
+ing that the citation-weighted unconditional mean density elasticity of                  cross-country heterogeneity. Where either population or area forms part
+energy consumption reduction, at 0.16, is much larger for non-high-                      of the dependent variable, we instrument population density using the
+income countries than for high-income countries. Given the small num-                    (ln) rank within the national population density distribution as an in-
+bers (two estimates from non-high-income countries), it is diﬃcult to                    strument. Table 5 summarises the key results. Full estimation results, in
+separate the within-city and non-high-income country eﬀects. It may be                   each case for a greater variety of model speciﬁcations, are in Supple-
+that within cities, population density is generally more strongly cor-                   mentary material 1 (Section 3).
+related with the share of multi-family houses, which tend to be more                         We ﬁnd a negative association between well-being and density,
+energy eﬃcient. This relationship might be particularly strong in de-                    which seems to be more pronounced across countries than within. Still,
+veloping countries where often high densities imply formal housing as                    the results support the singular comparable result found in the literature
+opposed to informal housing (Henderson et al., 2016).                                    (Glaeser et al., 2016). Our results further support the average ﬁndings
+                                                                                         in the evidence base, in that innovation (number of patents) increases
+5. Original density elasticity estimates                                                 in density and crime rates, energy use (carbon emissions), and average
+                                                                                         road speeds decrease in density.
+   While the evidence base on the quantitative eﬀects of density sum-                        Conﬂicting with the mean elasticities in the evidence base
+marised above is rich and reasonably consistent for outcomes like pro-                   reported in Table 3, we ﬁnd that pollution concentrations are
+ductivity or mode choice, it is thinner and less consistent for many other               higher in denser cities. At the local level, the eﬀect of concentrat-
+outcomes. To enrich the evidence base in some of the less-developed cat-                 ing sources of pollution in space dominates the eﬀect of reduced
+egories, we contribute some transparent elasticity estimates using data                  aggregate emissions (due to shorter car trips and more energy-
+from the OECD functional urban area and regional statistics database                     eﬃcient housing). Our estimate has been conﬁrmed by two recent
+
+                                                                                   101
+G.M. Ahlfeldt and E. Pietrostefani                                                                                                            Journal of Urban Economics 111 (2019) 93–107
+
+
+Table 5
+Original elasticity estimates.
+
+               Ln patents p.c.a                  Ln broadband p.c.b                               Ln income quintile ratiob                     Ln Gini coeﬃcient b
+                     ∗∗∗                     ∗        ∗∗∗                                                                                ∗∗
+ Ln dens.      0.349                 0.129       0.034                           0.01             0.024                          0.035          −0.007                         0.025∗∗∗
+ FE            –                     Yes         –                               Yes              –                              Yes            –                              Yes
+ IV            –                     Yes         –                               Yes              –                              –              –                              –
+               Ln poverty rateb                  Ln homicides p.c.b                               Ln green densityb                             Ln urban green densitya
+               Ln poverty rateb                                                                   (administrative)                              (functional economic)
+ Ln dens.      −0.013                0.032       −0.166∗∗∗                       −0.048           −0.267∗∗∗                      −0.245∗∗∗      0.283∗∗                        0.761∗
+ FE            –                     Yes         –                               Yes              –                              Yes            –                              Yes
+ IV            –                     Yes         –                               Yes              –                              Yes            –                              Yes
+                                                                                                                                                Ln speeda , d
+               Ln green p.c.c                    Ln pollution (PM2.5)b                            Ln CO2 p.c.b                                  freeway                        arterial
+ Ln dens.      −0.717∗∗∗             −0.239      0.220∗∗∗                        0.124∗∗∗         −0.224∗∗∗                      −0.173∗∗∗      −0.008                         −0.063∗∗∗
+ FE            –                     Yes         –                               Yes              –                              Yes            –                              –
+ IV            –                     Yes         –                               –                –                              Yes            –                              –
+               Ln mortality rateb                Ln mortality rate: transportb                    Ln life expectancy at birthb                  Ln self-reported well-beingb
+
+ Ln dens.      −0.046∗∗∗             −0.017      −0.150∗∗∗                       −0.099∗∗∗        0.013∗∗∗                       0.007∗         −0.023∗∗∗                      −0.007∗∗
+ FE            –                     Yes         –                               Yes              –                              Yes            –                              Yes
+ IV            –                     Yes         –                               Yes              –                              –              –                              –
+
+Notes: Density (dens.) is population density (population / area). All models control for ln GDP p.c. Fixed eﬀects (FE) are by country. IV is rank of a city in the
+population density distribution within a country.
+  a
+     Data from OECD.Stat functional economic areas.
+  b Data from OECD.Stat administrative boundaries (large regions).
+  c
+     Data from OECD.Stat administrative boundaries (small regions, excluding GDP control due to unavailability of data for the US).
+  d
+     Speed data from Lomax et al. (2010). Poverty line is 60% of the national median income. Speeds are measured during peak time.
+  ∗
+     p < 0.1.
+  ∗∗
+      p < 0.05.
+  ∗∗∗
+       p < 0.01, with standard errors clustered on FE where applicable.
+
+
+
+
+studies (Carozzi and Roth, 2018; Borck and Schrauth, 2018). Fur-                                  ﬁxed eﬀects model. The estimated elasticity of per capita green area
+thermore, our results consistently suggest that income inequality                                 with respect to population is negative, as expected. Our preferred elas-
+increases in density. Our results are qualitatively and quantitatively                            ticity estimate (−0.283) is of roughly the same magnitude as the esti-
+(see the results for US cities reported in Section 3.3 in Supplementary                           mated elasticity of green space value with respect to population density
+material 1) consistent with Baum-Snow et al. (2017). But there is some                            of 0.3 (Brander and Koetse, 2011) suggesting that congestion (number
+contrast to the reviewed literature that has found mixed results, with                            of users) and the value of green space increase at roughly the same rate.
+many studies pointing to lower inequalities at higher levels of economic
+density. To reconcile the evidence, we note that the evidence base                                6. Recommended elasticity estimates
+contains several case studies on a within-city scale, but our comparison
+is across economic areas. It seems plausible that the mechanisms                                      In Table 6 we condense the quantitative evidence, including our orig-
+aﬀecting equity dimensions are diﬀerent on a within-city (segregation)                            inal estimates, into recommended density elasticity estimates which we
+and a between-city (skill complementarity) scale, but further research                            provide for each outcome category. Speciﬁc to each category, we either
+is required to substantiate this intuition. We note that the statistically                        recommend a citation-weighted mean across the elasticity estimates in
+insigniﬁcant eﬀect of density on crime (conditional on country ﬁxed                               our evidence base as reported in Table 3, an estimate from a high-quality
+eﬀects), masks heterogeneity across US and non-US cities. In line with                            original research paper or one of our original estimates. The selected
+Glaeser and Sacerdote (1999), we ﬁnd that crime rates increase in                                 dedicated analyses use comprehensive data and make sensible choices
+density for US cities, whereas the opposite is true for other OECD                                in the research design, i.e. they avoid excessive “overcontrolling” for
+countries (see Supplementary material 1).                                                         endogenous variables and exploit plausibly exogenous variation. In gen-
+    Our estimates of the relationship between green coverage and pop-                             eral, we prefer the citation-weighted mean in the evidence base as well
+ulation density are without precedent. The elasticity of green density                            as estimates from dedicated high-quality original research papers over
+with respect to population density qualitatively depends on the spatial                           our original estimates. We also prefer estimates from dedicated high-
+layer of analysis. At regional level (administrative boundaries) the spa-                         quality papers over the weighted means in the evidence base if the ev-
+tial units cover both urban and rural areas. The negative elasticity esti-                        idence base is thin or inconsistent, in particular if the recommended
+mate likely reﬂects that an increase in population implies a larger share                         elasticity estimate is in line with our original analysis of OECD data.
+of urban, at the expense of non-urban land. Functional economic areas                                 Our aim is to provide a compact and accessible comparison of den-
+are designed to cover exclusively urban areas. The positive elasticity                            sity eﬀects across categories. The baseline results are best understood
+estimate likely reﬂects that within an urbanised area, increasing pop-                            as referring to high-income countries. Where possible, we acknowledge
+ulation density preserves space for urban parks and suburban forests.                             cross-country diﬀerences in Table 6. Nevertheless, we wish to remind
+Because we focus on the eﬀects of urban form in this paper, the lat-                              the reader that we likely miss substantial context-speciﬁc heterogene-
+ter is our preferred estimate. We note that the relatively large elastic-                         ity. Moreover, the quality and quantity of the evidence base is highly
+ity estimated conditional on country ﬁxed eﬀects is driven by a sus-                              heterogeneous across categories. We strongly advise to consult section
+piciously large elasticity estimated across US cities (>1.4), whereas the                         4 in Supplementary material 1, which provides a discussion of the ori-
+within-country elasticity estimate for the rest of the world is in line with                      gin of each of the recommended elasticity estimate against the quality
+the baseline elasticity estimate from the cross-sectional model exclud-                           and quantity of the evidence base, before applying any of the elasticity
+ing ﬁxed eﬀects. Therefore, in this case we prefer the conservative non-                          estimates reported in Table 6 in further research. In a nutshell, we see
+
+                                                                                            102
+G.M. Ahlfeldt and E. Pietrostefani                                                                                               Journal of Urban Economics 111 (2019) 93–107
+
+
+ Table 6
+ Recommended elasticity estimates by category.
+
+    ID     Elasticity                                     Value       Comment
+
+    1      Wage                                           0.04        Citation-weighted mean in review, roughly in line with Melo et al. (2009). 0.08 for non-high-income
+                                                                        countries. Net of selection eﬀects, elasticity estimates about halve (Combes and Gobillon 2015).
+    2      Patent intensity                               0.21        Citation-weighed mean in review, in line with original analysis of OECD data.
+    3      Rent                                           0.15        Citation-weighed mean in review. In line with evidence from the US (dedicated analysis based on
+                                                                        Albouy and Lue, 2015 data). Estimated elasticity increases in density (original meta-analysis) and
+                                                                        is 0.21 for France (Combes et al., 2018).
+    4      Vehicle miles travelled (VMT) reduction        0.06        Citation-weighted mean in review, roughly in line with Duranton and Turner (2018) and Ewing and
+                                                                        Cervero (2010).
+    5      Variety value (price index reduction)          0.12        Dedicated analysis on request using data from Couture (2016), in line with Ahlfeldt et al. (2015).
+    6      Local public spending                          0.17        Citation-weighted mean in review, roughly in line with dedicated high-quality paper (Carruthers and
+                                                                        Ulfarsson 2003).
+    7      Inter-quintile wage gap reduction              −0.035      Original analysis of OECD dataa . −0.057 for the US. US estimate in line with dedicated high-quality
+                                                                        paper (Baum-Snow et al., 2017) (Section 3 in Supplementary material 1).
+    8      Crime rate reduction                           0.085       Dedicated analysis on request (Tang 2015), in line with original analysis of OECD non-US city data.
+                                                                        Dedicated high-quality paper (Glaeser and Sacardote) and original analysis suggest a negative
+                                                                        value for the US.
+    9      Green density                                  0.28        Original analysis of OECD data (evidence base non-existent)
+    10     Pollution reduction                            −0.13       Dedicated high-quality paper (Carozzi and Roth 2018). In line with Borck and Schrauth (2018) and
+                                                                        original analysis of OECD data
+    11     Energy use reduction                           0.07        Citation-weighted mean in review
+    12     Average speed                                  −0.12       Citation-weighted mean of two (no further evidence) high-quality papers (Duranton and Turner
+                                                                        2018; Couture et al., 2018)
+    13     Car use reduction                              0.05        Citation-weighted mean in review
+    14     Mortality rate reduction                       −0.09       Dedicated paper (Reijneveld et al., 1999)
+    15     Self-reported well-being                       −0.0037     Only direct estimate in literature (Glaeser et al., 2016). In line with original analysis of OECD data
+
+ Notes: Density elasticity estimates are best understood as referring to large cities in high-income countries. In general, they represent correlations and not
+ necessarily causal estimates. If our recommended elasticities diﬀer between US and non-US cities, we report the former as the baseline and mention the latter in
+ the comments, because, as shown in Table 1, the density distribution of US cities is not representative.
+   a
+     Original analysis uses the wage gap between 80th and the. 20th percentile. 1: Productivity; 2: Innovation: 3: Value of space; 4: Job accessibility; 5: Services
+ access; 6: Eﬃciency of public services delivery; 7: Social equity; 8: Safety; 9: Open space preservation and biodiversity; 10: Pollution reduction; 11: Energy
+ eﬃciency; 12: Traﬃc ﬂow: 13: Sustainable mode choice; 14: Health; 15: Well-being. See Supplementary material 1 section 4 for a critical discussion of the
+ evidence base by category.
+
+
+
+
+suﬃcient evidence that seriously engages with separating the eﬀects of                 7. Monetary equivalents
+density from the eﬀects of correlated unobserved fundamentals to allow
+for a causal interpretation in the following categories: 1: Wage and pro-                  For a quantitative comparison of density eﬀects across categories,
+ductivity; 3: Rent, 4: Vehicle miles travelled; 10: Pollution reduction;               we conduct a series of back-of-the-envelope calculations to express the
+12: Average speed. For the other categories, the estimated elasticities                eﬀects that would result from a 1% increase in density as per capita
+are better interpreted as associations in the data. We stress that signiﬁ-             PV dollar eﬀects, assuming an inﬁnite horizon and a conventional 5%
+cant uncertainty surrounds the eﬀects of density on income inequality,                 discount rate (de Rus, 2010). We summarise the results in Table 7. As
+urban green, health, and self-reported well-being. In general, the recom-              most of the parameters used in the back-of-the envelope calculations are
+mended elasticities are best understood as describing area-based eﬀects                context-dependent, the table is designed to allow for straightforward
+that include composition eﬀects.                                                       adjustments. The monetary eﬀect in the last column (8) is simply the
+     There is an important additional elasticity estimate that is implic-              product over the elasticity (3), the base value (5), the unit value (7),
+itly determined by the elasticity estimates reported in Table 6. Assum-                a 1% increase in density and the inverse of the 5% discount rate (e.g.
+ing perfect mobility and competition in all markets, all beneﬁts and                   0.04 × $35,000 × 1 × 1%/5% for the wage eﬀect). By changing any of the
+costs in urban area oﬀers must be compensated by wages and rents                       factors a context-speciﬁc monetary equivalent can be calculated.
+(Rosen, 1979; Roback, 1982). The relative quality of life of a place                       The exercise summarised in Table 7 is ambitious and there are some
+can be inferred from the relative real wage (income after taxes and                    limitations. First, the monetary equivalents are estimates that most
+housing expenditures) residents are willing to give up to enjoy living                 closely refer to large metropolitan areas in high-income countries. In
+there, i.e. dln𝑄 = 𝜌dln𝑟 − Tdln𝑤, where dlnQ, dlnr,and dlnw are diﬀer-                 drawing conclusions for a speciﬁc institutional context, we strongly ad-
+entials in quality of life, rents, and wages (in natural logs), 𝜌 is the               vise that the assumptions made in Supplementary material 1 section
+housing expenditure share and T is one minus the tax rate. The elas-                   5 are evaluated with respect to their applicability. Second, the results
+ticity of quality of life with respect to density can be expressed as:                 in Table 7 do not necessarily correspond to the short-run eﬀect of a
+   dln𝑄             𝑟             𝑤
+dln(𝑃 ∕𝐴)
+          = 𝜌 dlndln
+                 (𝑃 ∕𝐴)
+                        − T dlndln
+                                (𝑃 ∕𝐴)
+                                       .                                               policy-induced change in density. As an example, an increase in pop-
+    Applying conventional values of 𝜌 = 1∕3 and T = 0.66 (Albouy and                   ulation holding the developed area constant will increase population
+Lue, 2015) and the elasticity estimates reported in Table 6, the resulting             density, but not necessarily the green density. However, the green den-
+quality-of-life elasticity estimate at 0.04 is close to the citation-weighted          sity will be higher than in a counterfactual were the population growth
+mean from the evidence base (0.03). However, we must note that there                   was achieved holding density constant. Third, the eﬀects implied by the
+is considerable variation in the collected quality-of-life elasticity esti-            elasticities apply to marginal changes only, i.e. they should not be used
+mates including both negative (Chauvin et al., 2016) and positive eﬀects               to evaluate the likely eﬀects of extreme changes (e.g. a 100% increase
+(Albouy and Lue, 2015).                                                                in density) in particular settings. Fourth, while for the not genuinely
+
+
+
+                                                                                 103
+G.M. Ahlfeldt and E. Pietrostefani                                                                                                 Journal of Urban Economics 111 (2019) 93–107
+
+
+            Table 7
+            Present valuea of a 1% increase in density I: Category-speciﬁc eﬀects.
+
+              (1)           (2)                   (3)       (4)                       (5)          (6)                     (7)                  (8)
+              Category                                      Quantity, p.c., year                   Unit value                                   PV of 1%
+                                                                                                                                                dens. incr.
+              ID            Outcome               Elast.    Variable                  Value        Unit                    Value                Incr.inc.inc. ($)
+
+              1             Wage                  0.04      Income ($)                35,000       –                       1                    280
+              2             Patent intensity      0.21      Patents (#)               2.06E-04     Patent value ($/#)      793K                 7
+              3             Rent                  0.15      Income ($)                35,000       Expenditure share       0.33                 347
+              4             VMTb reduction        0.06      VMTb (mile)               10,658       Priv. cost $/mile       0.83                 107
+              5             Variety valuec        0.12b     Income ($)                35,000       Expenditure shared      0.14                 115
+              6             Local public          0.17      Total spending ($)        1463         –                       1                    50
+                            spending
+              7             Wage gape             −0.035    Income ($)                35,000       Inequality premium      0.048                −12
+                            reduction
+              8             Crime ratef           0.085     Crimes (#)                0.29         Full cost ($/#)         3224                 16
+                            reduction
+                                                                                  2                                  2
+              9             Green density         0.28      Green area (p.c., m )     540          Park value ($/m )       0.3                  100
+              10            Pollution             −0.13     Rent ($)                  11,550       Rent-poll. elasticity   0.3                  −90
+                            reduction
+              11            Energy use
+                            reduction
+                            (private and social   0.07      Energy (1 M BTU)          121.85       Cost ($/1 M BTU)        18.7                 32
+                            eﬀects)
+                                                  0.07      CO2 emissions (t)         25           Social cost ($/t)       43                   15
+              12            Average speed         −0.12     Driving time (h)          274          VOT ($/h)               10.75                −71
+              13            Car use reduction     0.05      VMTb                      10,658       Social cost ($/mile)g   0.016                2
+              14            Health                −0.09     Mortality risk (#)i       5.08E-04     Value of life ($/#)h    7M                   −64
+              15            Self-reported         −0.004    Income ($)                35,000       Inc.-happ. elasticity   2                    −52
+                            well-beingj
+            Notes: Monetery equivalents represent area-based eﬀects, including selection eﬀects.
+             a
+               The per-capita present value for an inﬁnite horizon and a 5% discount rate.
+             b
+               Vehicle miles travelled.
+             c
+               Reduction in price index of consumption varieties.
+             d
+               Local non-tradeables: home, entertainment, and apparel and services.
+             e
+               Assuming a wage gap of high-skilled vs. low-skilled that corresponds to the 80th vs. 20th percentiles in the wage distribution.
+             f
+               All crimes against individual and households.
+             g
+               Emissions externality.
+             h
+               Statistical value of life.
+             i
+               Pre-mature (> 70) mortality rate.
+             j
+               Self-reported well-being. See Supplementary material 1 section 5 for a discussion of the assumptions on quantities and unit values by category.
+
+
+area-based outcomes we would ideally apply density eﬀects that come                              Given that we have gone a long way in computing category-speciﬁc
+net of selection eﬀects, the literature only oﬀers such estimates in the                     estimates of costs and beneﬁts that are comparable across categories, a
+productivity category. So, for consistency across categories, we strictly                    natural question arises: Do the beneﬁts of density exceed the costs and,
+apply the baseline elasticities capturing area-based eﬀects from Table 6.                    if so, by how much? To address this question, we conduct a simple ac-
+Section 5 in Supplementary material 1 provides a more detailed discus-                       counting exercise in Table 8. We distinguish between private (columns
+sion of the evidence base that should be consulted before there is any                       1–5) and external (column 6) costs and beneﬁts, which residents do not
+further use of the suggested monetary equivalents in Table 7.                                directly experience and likely do not pay for via rents (such as reduc-
+    Despite these limitations, Table 7 oﬀers novel insights into the direc-                  tions in carbon emissions that have global rather than local eﬀects).
+tion and the relative importance of density eﬀects. The density eﬀect on                     To avoid double-counting, we exclude gasoline costs in computing the
+wages, which has been thoroughly investigated in the agglomerations                          beneﬁts of shorter average trips (category 4) as this cost-saving is al-
+literature, is large, but not as large as the eﬀect on rents, on average.7                   ready accounted for by reduced energy consumption (category 11). Also,
+Density generates costs in the form of higher congestion and lower av-                       we correct consumption beneﬁts (category 5) to reﬂect the pure gains
+erage road speeds, which are, however, more than compensated for by                          from variety and not savings due to shorter car trips, which are already
+the cost reductions due to shorter trips. Agglomeration beneﬁts on the                       itemised in category (4). Since health eﬀects are itemised in 14, we use
+consumption side due to larger and more accessible consumption vari-                         an estimate of the health cost arising from density-related pollution from
+ety are quantitatively important and amount to more than one-third of                        Carozzi and Roth (2018) to restrict the pollution eﬀect to an amenity
+agglomeration beneﬁts on the production side (wages). Other quantita-                        channel. The external eﬀect from sustainable mode choice (13) is al-
+tively relevant beneﬁts arising from density include cost savings in the                     ready itemised in the external beneﬁt of reduced energy use (11) and
+provision of local public services, preserved green spaces, lower crime                      is thus not counted separately. In the baseline scenario (Sum row), we
+rates (outside the US), and reduced energy use, which creates a sizeable                     assume that public services are nationally funded. In an alternative ac-
+social beneﬁt (reduced carbon emissions) in addition to private cost sav-                    counting (indicated in the bottom of the table), we assume that public
+ings. Besides the aforementioned congestion eﬀects, the cost of density                      services are locally funded, so that density-induced cost savings fully
+comes in the form of increased pollution concentration, inequality, ad-                      capitalise into rents (via lower taxes).
+verse health eﬀects and reduced well-being.                                                      The standard urban economics framework builds on the spatial equi-
+                                                                                             librium assumption, which implies that individuals are fully mobile and
+                                                                                             competition in all markets is perfect. In this framework, rents reﬂect
+  7
+    The results by Combes at al. (2018) suggest that this result may not apply               the capitalised values of productivity and utility so that the sum over
+to small cities as the rent elasticity increases in city size.                               rents and wages (column 1) amounting $627, p.c. can be interpreted as
+
+                                                                                      104
+G.M. Ahlfeldt and E. Pietrostefani                                                                                                 Journal of Urban Economics 111 (2019) 93–107
+
+
+                              Table 8
+                              Present valuea eﬀects of a 1% increase in density II: Accounting.
+
+                                                                      (1)           (2)           (3)          (4)        (5)         (6)
+                                                                      Factor        Quality       Amenity                             External
+                                     Outcome                          Incomes       of life       value        Eﬀect on               welfare
+
+                                ID   Category                                                                  Owner      Renter
+
+                                1    Wage                             280           −190b         0            190c       190c        0
+                                2    Innovation                       0             0             0            0          0           6
+                                3    Value of space                   347           347           0            0          −347        0
+                                4    Job accessibility                0             0             87d          87d        87d         0
+                                5    Services access                  0             0             99e          99e        99e         0
+                                6    Eﬀ. of pub. services delivery    0             0             0            0          0           50
+                                7    Social equity                    0             0             0            0          0           −12
+                                8    Safety                           0             0             16           16         16          0
+                                9    Urban green                      0             0             100          100        100         0
+                                10   Pollution reduction              0             0             −47f         −47f       −47f        0
+                                11   Energy eﬃciency                  0             0             32           32         32          15
+                                12   Traﬃc ﬂow                        0             0             −71          −71        −71         0
+                                13   Car use reduction                0             0             0            0          0           0g
+                                14   Health                           0             0             −64          −64        −64         0
+                                15   Self-reported well-being         0             0             −52          −52        −52         0
+                                     Sum                              627           152           100          291        −56         60
+                                     Excl. subj. well-being           –             –             152          342        −4          60
+                                     Locally ﬁnanced pubic services   –             106                        340        −6
+                                     Factor incomes and externality   686           –             –            –          –           –
+                                     Locally ﬁnanced pubic services   637           –             –            –          –           –
+
+                              Notes.
+                                a
+                                  The present value per capita for an inﬁnite horizon and a 5% discount rate. All values in $.
+                                b
+                                  Amenity equivalent of after-tax wage increase assuming a marginal tax rate of 32% as in Albouy and Lue (2015).
+                                c
+                                  After-tax wage increase as discussed in b .
+                                d
+                                  Excludes $19.18 of driving energy cost ($0.15/mile gasoline cost) discounted at 5%, which are itemised in 11.
+                                e
+                                  Assumes a 10.2% elasticity to avoid double-counting of road trips already included in 4.
+                                f
+                                  Amenity eﬀect, excludes health eﬀect itemised in 14.
+                                g
+                                  Set to zero to avoid double counting with 11. Numbers reported in the “Locally ﬁnanced pubic services” row
+                              assume that cost savings in local public services are fully passed on to residents via lower taxes.
+
+
+
+
+a welfare gain to which the external welfare eﬀects of $60 in column (6)                   category. Similarly, the gap shrinks if we treat local public services as
+can be added. The spatial equilibrium framework is also the theoretical                    fully locally ﬁnanced, which implies that the savings are passed on to
+fundament for the economic quality-of-life literature mentioned above,                     individuals and are capitalised into rents.
+which infers place-speciﬁc amenity values from compensating diﬀeren-                           To assess the potential relevance of density eﬀects on rents that orig-
+tials. With perfectly elastic demand, an increase in rent that exceeds an                  inate from the supply side, we assume a share of structural value in
+increase in disposable income necessarily reﬂects a positive quality-of-                   housing of 75% (Ahlfeldt et al., 2015; Combes et al., 2018) and com-
+life eﬀect.                                                                                pute a range for the monetary equivalent of the eﬀect of a 1% density
+     If mobility is not perfect and/or there is heterogeneity in the pref-                 increase on construction cost as 0.04–0.07 (estimated density elasticity
+erence for locations, rents will not only reﬂect demand-side conditions                    of construction cost, see Section 2.3) x $35k (income) x 75% (share of
+(here, amenities), but also supply-side conditions, because local demand                   structure value) x 33% (expenditure share on housing) x 1% (change
+is downward-sloping (Arnott and Stiglitz, 1979). Increases in density –                    in density) / 5% (discount rate) = $70–120. Thus, density-induced in-
+or the policies that enforce increased density – may then also increase                    creases in the cost of housing supply are a plausible explanation for the
+rents because the cost of supplying space is higher. By implication, ob-                   gap between the estimated amenity and quality-of-life eﬀects if demand
+served rent increases do not necessarily reﬂect demand-driven capital-                     is locally downward sloping. A complementary channel that strengthens
+ization eﬀects exclusively, but potentially to some extent spatial dif-                    the supply-side argument is a scarcity land rent that results from poli-
+ferences in the slope of the supply curve (Hilber and Vermeulen, 2016;                     cies that restrict the amount of usable land to increase density (Gyourko
+Hilber, 2017). Distinguishing these scenarios is notoriously diﬃcult, but                  et al., 2008; Mayer and Somerville, 2000). A detailed discussion of the
+it is informative to compare the quality-of-life eﬀect inferred from wages                 eﬀects of density on construction costs is in Supplementary material 1
+and rents to the aggregate amenity eﬀects across categories. If the ac-                    section 2.2.
+counting was precise and complete and demand was perfectly elastic,                            In columns (4) and (5) we change the perspective and ask how a
+we would expect the aggregate amenity eﬀect to equal the quality-of-                       policy-induced marginal increase in the density of a city would aﬀect
+life eﬀect.                                                                                residents. Because costs and beneﬁts of density capitalise into rents,
+     The amenity eﬀect reported in column (3) with an PV of $100 per                       the individual net-beneﬁt depends on housing tenure. Given the posi-
+capita, is substantial, but smaller than the after-tax compensating dif-                   tive amenity aﬀect from column (5), it is immediate that homeowners
+ferential ($156) in column (2), suggesting a role for the supply side (as                  gain, on average, as they receive an amenity beneﬁt without having
+long as demand is locally downward-sloping). The role of self-reported                     to pay a higher rent. If they were moving to another area, they would
+well-being is controversial as it is regarded either as a proxy for in-                    leave the amenity gain behind, but would beneﬁt from a higher housing
+dividual utility (Layard et al., 2008) or as a component in the utility                    value. Renters would be negatively compensated for the amenity gain
+function that is traded against the consumption of goods and amenities                     by higher rents, making the implications more ambiguous (Ahlfeldt and
+(Glaeser et al., 2016). Indeed, the amenity eﬀect and the quality-of-life                  Maennig, 2015). The net beneﬁt to homeowners is positive with a com-
+eﬀect are closer if we exclude the well-being eﬀect as a (dis)amenity                      bined amenity and wage eﬀect of $291 or more (if there are tax savings
+
+                                                                                     105
+G.M. Ahlfeldt and E. Pietrostefani                                                                                             Journal of Urban Economics 111 (2019) 93–107
+
+
+or we abstract from the well-being eﬀect). There is a net cost to renters              We provide suggestive evidence that the costs and beneﬁts of ag-
+of up to $56 if we include well-being eﬀects and assume that there are              glomeration may be larger in developing-country cities. However, be-
+no tax eﬀects due to savings in public services. If we exclude the well-            cause the evidence from non-high-income countries is scarce, it is not
+being eﬀect and allow for cost savings in public services to be passed              possible to property evaluate whether our key result that density is a net-
+on to renters via lower taxes, the net beneﬁt remains negative, but is              amenity generalises to non-high-income countries. An important chal-
+close to zero. Of course, the ﬂipside is that there is a positive external          lenge that lies ahead of the research community is to generate a deeper
+beneﬁt to land owners and given the non-linearity in the density eﬀect              understanding of heterogeneity in density eﬀects across contexts and the
+on rent documented in Section 4.2 the eﬀect on renters may be positive              density distribution itself, a necessary condition for inference on optimal
+in supply-elastic markets.                                                          levels of density.
+    Overall, the evidence suggests that density is a net amenity. This does
+not imply, however, that everybody necessarily beneﬁts from densiﬁca-               Supplementary material
+tion policies. Renters may be net losers of densiﬁcation because of rent
+eﬀects that exceed amenity beneﬁts. The negative net-eﬀect is consistent               Supplementary material associated with this article can be found, in
+with a negative density eﬀect on well-being if individuals are attached             the online version, at doi:10.1016/j.jue.2019.04.006.
+to some areas more than others. If one is willing to believe that there
+                                                                                    References
+are strong forces that prevent renters from moving, a supply constrain-
+ing eﬀect of density can shift renters to a lower utility level, consistent         Ahlfeldt, G.M., Redding, S.J., Sturm, D.M., Wolf, N., 2015. The economics of density:
+with a negative eﬀect on well-being (or happiness). This is, however, an                evidence from the Berlin Wall. Econometrica 83 (6), 2127–2189.
+ambitious interpretation of the evidence as it is impossible to claim full          Ahlfeldt, G.M., Maennig, W., 2015. Homevoters vs. leasevoters: a spatial analysis of airport
+                                                                                        eﬀects. J. Urban Econ. 87, 85–99.
+coverage and perfect measurement of amenity eﬀects. It is important to              Ahlfeldt, G.M., McMillen, D., 2018. Tall buildings and land values: height and construction
+acknowledge that the diﬀerence between the amenity eﬀect (in column                     cost elasticities in Chicago, 1870–2010. Rev. Econ. Stat. 100 (5), 861–875.
+3) and the quality-of-life eﬀect (in column 2) of density could simply              Ahlfeldt, G.M., Pietrostefani, E., 2017. The compact city in empirical research: A quantita-
+                                                                                        tive literature review. SERC discussion paper 215. Spatial Economics Research Centre,
+be due to measurement error (e.g. missing items column 3). Research
+                                                                                        London School of Economics and Political Science.
+into the well-being eﬀects of density diﬀerentiated by tenure would be              Ahlfeldt, G.M., Wendland, N., 2013. How polycentric is a monocentric city ? Centers,
+informative, but to our knowledge, has yet to be conducted.                             spillovers and hysteresis. J. Econ. Geogr. 13 (September 2012), 53–83.
+                                                                                    Albouy, D., 2008. Are Big Cities Bad Places to Live? Estimating Quality of Life across
+                                                                                        Metropolitan Areas. National Bureau of Economic Research Working Paper 14472.
+                                                                                    Albouy, D., Lue, B., 2015. Driving to opportunity: local rents, wages, commuting, and
+8. Conclusion                                                                           sub-metropolitan quality of life. J. Urban Econ. 89, 74–92.
+                                                                                    Angel, S., Sheppard, S.C., Civco, D.L., Buckley, R., Chabaeva, A., Gitlin, L., Kraley, A.,
+                                                                                        Parent, J., Perlin, M., 2005. The Dynamics of Global Urban Expansion Washington
+    We provide the ﬁrst quantitative evidence review of the eﬀects of                   D.C.
+density on a broad range of outcomes. Synthesising the reviewed evi-                Arnott, R.J., Stiglitz, J.E., 1979. Aggregate land rents, expenditure on public goods, and
+dence and a range of original estimates, we report recommended den-                     optimal city size. Q. J. Econ. 93 (4), 471–500.
+                                                                                    Batty, M., 2008. The size, scale, and shape of cities. Science 319 (5864), 769–771.
+sity elasticity estimates for 15 distinct outcome categories along with             Baum-Snow, N., Freedman, M., Pavan, R., 2017. Why Has Urban Inequality Increased?
+monetised values of density eﬀects for application in research and pol-                 Am. Econ. J.: Appl. Econ. 10 (4), 1–42.
+icy analysis. While there are sizeable beneﬁts and costs associated with            Baum-Snow, N., Pavan, R., 2012. Understanding the city size wage gap. Rev. Econ. Stud.
+                                                                                        79 (1), 247–253.
+increases in density, the former exceed the latter for a typical large city         Bettencourt, L.M.A., 2013. The origins of scaling in cities. Science 340 (6139), 1438–1441.
+in the developed world.                                                             Bettencourt, L.M.A., Lobo, J., 2016. Urban scaling in Europe. J. Roy. Soc. Interf. 13, 1–14.
+    In general, much work lies ahead of the related research ﬁelds to con-          Bleakley, H., Lin, J., 2012. Portage and path dependence. Q. J. Econ. 127 (2), 587–644.
+                                                                                    Borck, R., Schrauth, P., 2018. Population density and (urban) air quality. Preliminary and
+sistently bring the evidence base to the quantity and quality levels of the             Incomplete Working Paper, University of Potsdam.
+most developed outcome categories productivity and mode choice. For                 Boyko, C.T., Cooper, R., 2011. Clarifying and re-conceptualising density. Progr. Plan. 76
+all other categories, more research is required – even if selected high-                (1), 1–61.
+                                                                                    Brander, L.M., Koetse, M.J., 2011. The value of urban open space: meta-analyses of con-
+quality evidence exists – to substantiate the recommended elasticities.                 tingent valuation and hedonic pricing results. J. Environ. Manage. 92 (, 10 ), 2763–
+At this stage, signiﬁcant uncertainty surrounds any quantitative inter-                 2773.
+pretation in the categories urban green, income inequality, health, and             Brueckner, J.K., 1987. The structure of urban equilibria: a uniﬁed treatment of the
+                                                                                        muth-mills model. Handb. Region. Urban Econ. 2, 821–845.
+well-being.
+                                                                                    Carlino, G.A., Chatterjee, S., Hunt, R.M., 2007. Urban density and the rate of invention.
+    As research progresses and the quantity of the evidence base in-                    J. Urban Econ. 61 (3), 389–419.
+creases, evidence reviews and meta-analyses become a more important                 Carozzi, F., Roth, S., 2018. Dirty Density : Air Quality and the Denisty of American Cities.
+aspect of knowledge generation. Regrettably, the scope of this review                   Preliminary and Incomplete Working Paper, London School of Economics and Political
+                                                                                        Science.
+was constrained because it was frequently not possible to translate re-             Carruthers, J.I., Ulfarsson, G.F., 2003. Urban sprawl and the cost of public services. Envi-
+sults into a comparable metric. To increase the scope of future reviews                 ron. Plan. B: Plan. Desi. 30 (4), 503–522.
+and meta-analyses, we encourage researchers to complement the pre-                  Chauvin, J.P., Glaeser, E.L., Ma, Y., Tobio, K., 2016. What is diﬀerent about urbanization
+                                                                                        in rich and poor countries? Cities in Brazil, China, India and the United States. J.
+sentation of their preferred results by density elasticity estimates that               Urban Econ. 1–33.
+are comparable to those collected here. Minimally, complete summary                 Cheshire, P., Magrini, S., 2009. Urban growth drivers in a Europe of sticky people and
+statistics need to be provided to allow for a conversion of reported                    implicit boundaries. J. Econ. Geogr. 9 (1), 85–115.
+                                                                                    Combes, G., Duranton, P.-P., Gobillon, L., Roux, S., 2010. Estimating agglomeration
+marginal eﬀects. Another feature that hinders comparisons across stud-                  economies with history, geology, and worker eﬀects. In: Glaeser, E.L. (Ed.), Agglom-
+ies is the common practice of analysing more than one aspect of urban                   eration Economics. Chicago University Press, Chicago, pp. 15–66.
+form at once, i.e. simultaneously using multiple spatial variables such             Combes, P.-P., Duranton, G., Gobillon, L., Puga, D., Roux, S., 2012. The productivity ad-
+                                                                                        vantages of large cities: distinguishing agglomeration from ﬁrm selection. Economet-
+as population density, building density and job centrality. Disentangling
+                                                                                        rica 80 (6), 2543–2594.
+the sources of the eﬀects of compact urban form is important. But it is             Combes, P.-P., Gobillon, L., 2015. The empirics of agglomeration economies. Handb. Re-
+diﬃcult to compare such conditional marginal eﬀects estimated under                     gion. Urban Econ. 5, 247–348.
+                                                                                    Combes, P.-P., Duranton, G., Gobillon, L., 2018 The Costs of Agglomeration: House
+the ceteris paribus condition across studies if the measures of urban
+                                                                                        and Land Prices in French Cities, The Review of Economic Studies, rdy063,
+form co-vary in reality because they are simultaneously determined. To                  https://doi.org/10.1093/restud/rdy063.
+facilitate future reviews and meta-analyses we encourage researchers to             Couture, V., 2016. Valuing the Consumption Beneﬁts of Urban Density. Working Paper:
+complement their diﬀerentiated analyses with simple models that ex-                     Univeristy of California, Berkeley, (September).
+                                                                                    Couture, V., Duranton, G., Turner, M.A., 2018. Speed. Rev. Econ. Stat. 100 (4), 735–739.
+clusively consider the most conventional measure of urban form, which               Demographia, 2018. Demographia World Urban Areas: 14th Annual Edition. Demographia
+is density.                                                                             (April).
+
+
+                                                                              106
+G.M. Ahlfeldt and E. Pietrostefani                                                                                                               Journal of Urban Economics 111 (2019) 93–107
+
+
+Duranton, G., Turner, M.A., 2018. Urban form and driving: evidence from US cities. J.                 Liu, Z., He, C., Zhou, Y., Wu, J., 2014. How much of the world’s land has been urban-
+     Urban Econ. 108, 170–191.                                                                             ized, really? A hierarchical framework for avoiding confusion. Landsc. Ecol. 29 (5),
+Eckel, C.C., Füllbrunn, S.C., 2015. Thar SHE blows? Gender, competition, and bubbles in                    763–771.
+     experimental asset markets. Am. Econ. Rev. 105 (2), 906–920.                                     Lomax, T., Schrank, D., Turner, S., Geng, L., Li, Y., Koncz, N., 2011. Real-Timing the 2010
+Ellis, J.G., 2004. Explaning Residential Density. Places 16 (2), 34–43.                                    Urban Mobility Report, University Transportation Center for Mobility, Texas Trans-
+Epple, D., Gordon, B., Sieg, H., 2010. American economic association a new approach to                     portation Institute, The Texas A&M University System College Station, TX.
+     estimating the production function for housing. Am. Econ. Rev. 100 (3), 905–924.                 Lucas, R.E., Rossi-Hansberg, E., 2002. On the internal structure of cities. Econometrica 70
+Ewing, R., Cervero, R., 2010. Travel and the built environment: a synthesis. J. Am. Plann.                 (4), 1445–1476.
+     Assoc. 76 (3), 265–294.                                                                          Mayer, C.J., Somerville, C.T., 2000. Land use regulation and new construction. Reg. Sci.
+Glaeser, E.L., Gottlieb, J.D., 2008. The economics of place-making policies. Brook. Papers                 Urban. Econ. 30 (6), 639–662.
+     Econ. Activ. 2008 (Spring), 155–253.                                                             McMillen, D.P., McDonald, J.F., 2002. Land values in a Newly Zoned City. Rev. Econ. Stat.
+Glaeser, E.L., Gottlieb, J.D., Ziv, O., 2016. Unhappy cities. J. Labor Econ. 34 (2),                       84 (1), 62–72.
+     S129–S182.                                                                                       Melo, P.C., Graham, D.J., Noland, R.B., 2009. A meta-analysis of estimates of urban ag-
+Glaeser, E.L., Kahn, M.E., 2010. The greenness of cities: carbon dioxide emissions and                     glomeration economies. Reg. Sci. Urban. Econ. 39 (3), 332–342.
+     urban development. J. Urban Econ. 67 (3), 404–418.                                               Michaels, G., Rauch, F., Redding, S.J. 2013. Task specialization in us cities from 1880-
+Glaeser, E.L., Sacerdote, B., 1999. Why is there more crime in cities . J. Polit. Econ. 107                2000. Tech. Rep., nber Working Paper No. 18715, National Bureau of Economic Re-
+     (No. S6 December 1999), S225–S258.                                                                    search.
+GRUMP, 2010. Columbia University Socioeconomic Data and Applications Center, Grid-                    Neuman, M., 2005. The compact city fallacy. J. Plan. Educ. Res. 25 (1), 11–26.
+     ded Population of the World and the Global Rural-Urban Mapping Project. CIESIN at                Nitsch, V., 2005. Zipf zipped. J. Urban Econ. 57 (1), 86–100.
+     Columbia University. Available at: http://sedac.ciesin.columbia.edu/data/collection/             OECD, 2012. Compact City Policies: A Comparative Assessment. OECD Green Growth
+     gpw-v4 [Accessed January 7, 2017].                                                                    Studies, OECD Publishing.
+Gyourko, J., Saiz, A., 2006. Construction costs and the supply of housing structure. J.               OECD, 2016. OECD Metropolitan area data.
+     Region. Sci. 46 (4), 661–680.                                                                    Reijneveld, S.A., Verheij, R.A., de Bakker, D.H., 1999. Relative importance of urbanic-
+Gyourko, J., Saiz, A., Summers, A., 2008. A new measure of the local regulatory environ-                   ity, ethnicity and socioeconomic factors regarding area mortality diﬀerences. J. Epi-
+     ment for housing markets: the Wharton Residential Land use regulatory index. Urban                    demiol. Community Health 53 (7), 444–445.
+     Stud. 45 (3), 693–729.                                                                           Roback, J., 1982. Wages, rents, and the quality of life. J. Polit. Econ. 90, 1257–1278.
+Hanlon, W., Heblich, S., 2018. History and Urban Economics. Working Paper, NYU Stern                  Rosen, S., 1979. Wages-based Indexes of Urban Quality of Life. In: Mieszkowski, P.,
+     School of Business & University of Bristol.                                                           Straszheim, M. (Eds.), Current Issues in Urban Economics. John Hopkins Univ. Press,
+Helsley, R.W., Strange, W.C., 2008. A game-theoretic analysis of skyscrapers. J. Urban                     Baltimore.
+     Econ. 64 (1), 49–64.                                                                             Rosenthal, S.S., Strange, W.C., 2001. The determinants of agglomeration. J. Urban Econ.
+Henderson, J.V., Venables, A.J., Regan, T., Samsonov, I., 2016. Building functional cities.                50 (2), 191–229.
+     Sci. (New York, N.Y.) 352 (6288), 946–947.                                                       Ruggles, S., Genadek, K., Goeken, R., Grover, J., Sobek, M..
+Henderson, J.V., Squires, T., Storeygard, A., Weil, D., 2018. The global distribution of              de Rus, G., 2010. Introduction to Cost-Beneﬁt analysis : Looking For Reasonable Shortcuts.
+     economic activity: nature, history, and the role of trade. Q. J. Econ. 133 (1), 357–406.              Edward Elgar, Cheltenham, UK; Northampton, MA.
+Henderson, J.V., 1974. The sizes and types of cities. Am. Econ. Rev. 64 (4), 640–656.                 Scimago, 2017. SJR: Scientiﬁc Journal Rankings. Available at:
+Hilber, C., Vermeulen, W., 2016. The impact of supply constraints on house prices in                       http://www.scimagojr.com/journalrank.php [Accessed 14 September 2017].
+     England. Econ. J. 126 (591), 358–405.                                                            Scopus, 2016. Journal Metrics. Available at: https://journalmetrics.scopus.com/ [Ac-
+Hilber, C.A.L., 2017. The economic implications of house price capitalization: a synthesis.                cessed 14 September 2017].
+     Real Estate Econ. 45 (2), 301–339.                                                               Siodla, J., 2015. Razing San Francisco: the 1906 disaster as a natural experiment in urban
+Holman, N., Mace, A., Paccoud, A., Sundaresan, J., 2014. Coordinating density; working                     redevelopment. J. Urban Econ. 89, 48–61.
+     through conviction, suspicion and pragmatism. Progr. Plan. 101, 1–38.                            Stanley, T.D., 2001. Wheat from chaﬀ: meta-analysis as quantitative literature review. J.
+Hortas-Rico, M., Sole-Olle, A., 2010. Does urban sprawl increase the costs of provid-                      Econ. Perspect. 15 (3), 131–150.
+     ing local public services? Evidence from Spanish municipalities. Urban Stud. 47 (7),             Stanley, T.D., Jarrell, S.B., 1989. Meta-regression analysis: a quantitative method of liter-
+     1513–1540.                                                                                            ature surveys. J. Econ. Surv. 3 (2), 161–170.
+IAU-IDF, 2012. Document d’orientations stratégiques pour le fret en Ile-de-France à                   Tang, C.K., 2015. Urban Structure and Crime. Working Paper. London School of Economics
+     l’horizon 2025. Direction régionale et interdépartementale de l’Équipement et de                      and Political Science.
+     l’Aménagement d’Île-de-France.                                                                   United Nations, 2014. World Urbanization Prospects: The 2014 Revision New York.
+Layard, R., Mayraz, G., Nickell, S., 2008. The marginal utility of income. J. Public Econ.            What Works Centre for Local Economic Growth (WWC), 2016. Guide to Scoring Evidence
+     92 (8–9), 1846–1857.                                                                                  Using the Maryland Scientiﬁc Methods Scale London, UK.
+
+
+
+
+                                                                                                107
+

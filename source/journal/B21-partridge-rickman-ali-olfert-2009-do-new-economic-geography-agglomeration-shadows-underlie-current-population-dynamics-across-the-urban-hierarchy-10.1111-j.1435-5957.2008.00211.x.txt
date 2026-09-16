@@ -1,0 +1,1355 @@
+[PDF Metadata]
+Source PDF: journal/B21-partridge-rickman-ali-olfert-2009-do-new-economic-geography-agglomeration-shadows-underlie-current-population-dynamics-across-the-urban-hierarchy-10.1111-j.1435-5957.2008.00211.x.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Do New Economic Geography agglomeration shadows underlie current population dynamics across the urban hierarchy?*
+Subject:         Papers in Regional Science, 88 (2009) 445-467. doi:10.1111/j.1435-5957.2008.00211.x
+Keywords:        New Economic Geography; agglomeration shadow; population growth; urban hierarchy; Nueva GeografÃ­a EconÃ³mica; sombra de aglomeraciÃ³n; crecimiento de poblaciÃ³n; jerarquÃ­a urbana
+Author:          Mark D. Partridge
+Creator:         Elsevier
+Producer:        PDFlib PLOP 3.0 (.NET/Win32)/Acrobat Distiller 7.0.5 (Windows)
+CreationDate:    Tue Jun 16 13:32:11 2009 WIB
+ModDate:         Fri Nov  3 11:11:02 2023 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           23
+Encrypted:       no
+Page size:       484.7 x 697.3 pts
+Page rot:        0
+File size:       513120 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                                         doi:10.1111/j.1435-5957.2008.00211.x
+
+
+
+
+Do New Economic Geography agglomeration shadows underlie
+current population dynamics across the urban hierarchy?*
+Mark D. Partridge1, Dan S. Rickman2, Kamar Ali3, M. Rose Olfert3
+1
+  AED Economics, Ohio State University, Columbus, OH, USA (e-mail: partridge.27@osu.edu)
+2
+  Department of Economics, Oklahoma State University, Stillwater, OK, USA (e-mail: dan.rickman@okstate.edu)
+3
+  BPB Economics, University of Saskatchewan, Saskatoon, Saskatchewan, Canada (e-mail: kamar.ali@usask.ca,
+  rose.olfert@usask.ca)
+
+Received: 21 September 2007 / Accepted: 17 July 2008
+
+
+
+Abstract. Although the New Economic Geography (NEG) has been used extensively to for-
+mally explain the emergence of the American urban system, few studies investigate its success
+in explaining current population dynamics in a more established urban system. This study
+explores whether proximity to same–sized and higher–tiered urban centres affected the patterns
+of 1990–2006 US county population growth. Rather than casting NEG agglomeration shadows
+on nearby growth, larger urban centres generally appear to have positive growth effects for more
+proximate places of less than 250,000 people. However, there is some evidence the largest urban
+areas cast growth shadows on proximate medium–sized metropolitan areas and of spatial
+competition among small metropolitan areas.
+
+JEL classification: R11, R12
+
+Key words: New Economic Geography, agglomeration shadow, population growth, urban
+hierarchy
+
+
+
+1 Introduction          pirs_211   445..466
+
+
+
+
+The interrelationships among urban centres and between them and their rural fringes are among
+the most visible features of the expanding American urban landscape. Responding to techno-
+logical, economic, and quality–of–life stimuli, households relocate to areas that offer greater net
+utility. Firms’ cost–minimizing location decisions simultaneously influence household decisions
+and also respond to them. The resulting population flows drive the evolution of the hierarchical
+urban system.
+
+   * We thank Jordan Rappaport and Taisuke Nakata of the Federal Reserve Bank of Kansas City for generously
+providing Stata codes for the generalized method of moments (GMM) estimation. We appreciate comments we received
+at presentations at Central Florida University, Oklahoma State University, the 45th Annual Meetings of the Southern
+Regional Science Association in St. Augustine, FL, and the Transatlantic Land Use Conference in Washington, DC.
+
+© 2009 the author(s). Journal compilation © 2009 RSAI. Published by Blackwell Publishing, 9600 Garsington Road,
+Oxford OX4 2DQ, UK and 350 Main Street, Malden MA 02148, USA.
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+446                                                                                           M.D. Partridge et al.
+
+
+    Interest in the spatial dimension of population dynamics burgeoned with the advent of the
+New Economic Geography (NEG) (Krugman 1991), which built on the urban–hierarchy lattice
+from traditional central place theory (CPT) (Christaller 1933). In CPT, lower–tiered places
+depend on higher–tiered places for access to progressively higher–ordered goods and services
+offered at each tier. In extending CPT, the NEG formalizes the role of agglomeration in the
+dynamic formation of an urban system. Both theories prominently feature an urban hierarchy
+based on regional market potential, creating symbiotic interrelationships among tiers, including
+the rural fringe (Fujita et al. 1999). A core prediction of standard NEG formulations is the
+existence of agglomeration shadows preventing urban areas from forming too closely to other
+equal or larger–size urban areas due to fierce spatial price competition.
+    Explaining the emergence of the American urban system through the early 20th Century was
+one of the primary goals of NEG proponents. Despite significant successes in this area, there is
+a need for better empirical understanding of how agglomeration economies influence current
+population mobility (Eeckhout 2004; Tabuchi and Thisse 2006). For example, as a result of the
+declining costs of transporting goods relative to moving people, NEG models may less accu-
+rately predict 21st century US population movements (Glaeser and Kohlhase 2004). Further,
+while growth shadows may define the constraints in terms of equal or higher–tier places
+emerging next to an urban centre, the relationships with smaller tiered places and the rural
+hinterlands may be quite different.
+    Most related research is limited to larger urban centres and metropolitan areas (MAs) (Eaton
+and Eckstein 1997; Glaeser and Maré 2001; Lucas and Rossi–Hansberg 2002; Head and Mayer
+2004, 2006; Brülhart and Koenig 2006; Knaap 2006) with surprisingly little work examining
+spatial interactions beyond major urban areas.1 Partridge et al. (2008b) examined population
+growth for nonmetropolitan and small metropolitan areas for 1950–2000 within the context of
+the urban hierarchy. However, they did not consider interactions among mid–sized and larger
+metropolitan areas, particularly the presence of potential agglomeration shadows on growth, and
+did not focus on the most recent growth experience. Recent changes in transportation costs
+(Glaeser and Kohlhase 2004), technology, and the nature of transactions costs and firm inter-
+actions (McCann and Shefer 2004; McCann 2007), may have caused shifts in spatial growth
+dynamics. Continued policy interests, such as land use management, underscore the need to
+understand the current general applicability of NEG models for growth within the urban
+hierarchy.
+    One implication of NEG (CPT) models is that spatial price competition may limit the
+number of firm births and expansions in areas nearby large urban centres. This could translate
+into population growth being positively related to distance from (other) similar–sized or larger
+urban centres; namely, there are ‘growth shadows’. The landscape of growth in the vicinity of
+urban centres, due to the offsetting effects of positive agglomeration spillovers and spatial price
+competition is, however, not well–understood. With both positive spillovers and ‘growth
+shadow’ effects likely present, the net impact on population growth will in part reflect which one
+of these two effects is greater.
+    Agglomeration economies may have a greater positive geographic reach than is usually
+assumed, with cities being an economic driver far beyond their borders (Partridge et al. 2008b).
+The relationship between lower– and higher–tiered places is increasingly comprised of com-
+muting to (urban) jobs, accessing higher–ordered urban services and amenities, and urban
+sprawl and related centrifugal forces that push residences further into rural exurbia. Improved
+transportation and communication technologies may have extended spatial urban input–output
+
+  1
+    One interesting exception is Stelder (2005) whose simulations examined whether the European urban hierarchy can
+be explained by a NEG model when starting from a uniform population distribution. Though there are some successes,
+NEG has a difficult time explaining ‘clusters’ of cities such as the German Rurhgebiet.
+
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+New Economic Geography agglomeration shadows                                                                  447
+
+
+linkages beyond what is typically presumed. The range of goods and services for which spatial
+competition limits growth will also be closely related to the tier of the nearby urban centre. To
+reveal the spatial richness that underlies agglomeration spillovers and potential growth shadows
+in the urban system, distances and interactions among the full set of proximate higher–tiered
+urban centres must be directly considered.
+    This study fills this void by using both 1990–2000 and 1990–2006 US county level popu-
+lation growth, which allows us to consider interactions among places from the lowest to
+highest–tiered urban centres. Our conceptual departing point from NEG/CPT follows from a
+model of city development, in which we allow for the possibility of commuting and input–
+output externalities outside of the ‘city’ border, along with the desire for proximity to urban
+amenities and services successively available in larger urban centres. With these extended
+commuting or input–output linkages, agglomeration spillovers may prevail over a broader
+geographic area, offsetting or eclipsing growth shadow effects. Population growth in areas
+nearby similar–sized or larger urban areas may be inversely related to distance from the city
+rather than positively related (i.e., growth shadows) as predicted by standard NEG/CPT models.
+    Specifically, we focus on how an individual county’s geographic location in the urban
+hierarchy affects its growth, based on distances to small urban centres all the way up to the
+largest centres. We examine whether nearby similar–sized or larger urban neighbours on net
+provide beneficial access to agglomeration effects, or produce a growth shadow as predicted in
+many NEG/CPT formulations. We conclude that some elements of NEG models appear valuable
+in explaining the evolution and interactions within a more established urban system, but other
+perspectives and models also are needed.
+
+
+2 Theoretical considerations
+
+The distribution of economic activity across the American urban landscape reflects a multitude
+of location decisions by firms and households. A synthesis of theories regarding how these
+decisions cause population to agglomerate into core areas informs our empirical model and
+distinguishes the key competitors from the NEG (CPT) framework (Brülhart 1998).
+    Traditional neoclassical economic theory explains an uneven spatial distribution of eco-
+nomic activity as resulting from regional differences in geography, endowments, and exogenous
+technology. Product and factor market competition limit the degree of economic concentration
+in regions with natural advantages. Continued concentration in many developed areas, and
+development of core areas without natural advantages, require other explanations such as the
+New Economic Geography (NEG) (Krugman 1991, 1993).
+    NEG models incorporate imperfect competition, increasing returns to scale, and mobile
+factors, making the concentration of economic activity endogenous. Labour resides in the region
+of employment and migrants respond mostly to labour demand. Continued agglomeration is
+facilitated by the preference for product variety among labourers. Yet, because it does not fully
+consider the diversity of factors underlying household location such as commuting or access to
+urban amenities, NEG may be limited in explaining 21st century urban hierarchy and core–
+periphery dynamics (Glaeser and Kohlhase 2004). Thus, we also consider competing theories
+for agglomeration of economic activity and the related spatial interactions.
+
+
+2.1 New Economic Geography population dynamics
+
+In NEG models, with their focus on pecuniary effects, close proximity to suppliers of inter-
+mediate inputs and customers lowers firm transportation costs (Venables 1996). Combined with
+
+                                                          Papers in Regional Science, Volume 88 Number 2 June 2009.
+448                                                                                            M.D. Partridge et al.
+
+
+scale economies in the production of non–traded intermediate inputs (Fujita 1988), agglomera-
+tion economies arise. Yet, increased competition associated with proximity of economic activity
+acts as a dispersal force (Combes 2000), limiting agglomeration. Firms in the areas closest to
+agglomeration centres find themselves in a ‘growth shadow’ (Dobkins and Ioannides 2001), in
+which they are competitive in producing only those goods and services where they are not in
+direct competition with nearby higher tiered centres. Small cities serve their local markets, while
+larger cities serve wider markets that include small cities, leading to an urban hierarchy (Fujita
+and Thisse 1996).
+     NEG models predict that population in the distant hinterlands expands to provide the urban
+centre with farm products, until densities are sufficient for a new urban centre to emerge (Fujita
+et al. 1999). In a mature, more established urban system, such as the American urban system
+where the basic structure was defined circa 1920, the hinterlands would be approximately
+uniformly settled (as in CPT), with growth shadow effects as the key NEG mechanism for a
+positive distance–population growth relationship. If agglomeration forces in large urban centres
+dominate other growth factors in nearby areas, growth of the latter may be inhibited.
+     Modern agglomeration patterns reflect improved transportation and communication tech-
+nology, shifts in trade patterns, and industry structural change. Industrial restructuring away
+from goods and towards services could produce vastly different patterns of spatial interactions
+compared with those based on 19th and early 20th century parameters (Glaeser and Kohlhase
+2004). For example, falling transportation costs can have an ambiguous effect on agglomeration
+(Takatsuka and Zeng forthcoming). To the extent that agricultural goods become cheaper to ship
+into core areas, the tendency towards agglomeration increases (Fujita and Thisse 1996). Yet
+falling transportation costs can also disperse manufacturing activity to less congested areas
+(Desmet and Fafchamps 2005). Shifting international trade patterns can cause economic activity
+to move away from historic urban centres to border areas to reduce associated transportation
+costs (Hanson 1997). However, empirical evidence suggests a strong lock–in effect at the top of
+the urban system, with more churning at lower levels (Black and Henderson 2003).2
+
+
+2.2 Moving beyond the NEG framework
+
+The theoretical basis for considering factors beyond those related to NEG derive from the
+application of the compensating differential approach within a growth context. The compensat-
+ing differential approach posits that households and firms respond to spatial differentials in
+consumptive and productive amenities, in which perfect mobility equalizes household utility of
+residence and firm profitability of production in spatial equilibrium (Roback 1982; Blomquist
+et al. 1988; Partridge and Rickman 2003). These other location specific factors can offset NEG
+shadow effects on growth to produce a positive relationship between population growth and
+close proximity to the largest agglomeration centres.
+    In their city model, Lucas and Rossi–Hansberg (2002) postulate that firms weigh the benefits
+derived from spatially concentrating to achieve closer input–output linkages against the gains of
+dispersing into residential areas to reduce commuting costs for their workforce. Extending this
+model to allow commuting and input–output externalities beyond the city captures more exten-
+sive spatial interactions (in which commuting costs rise and externalities decay over distance).
+Within this spatial contour, population growth is inversely related to distance from the urban
+centre rather than directly related as predicted by NEG growth shadows. Besides transport costs,
+  2
+    Some NEG theories suggest catastrophic shocks could generate realignments of the entire urban system (Fujita and
+Mori 1997). However, Davis and Weinstein (2002) show that even the ruinous Allied bombing campaigns against Japan
+during the Second World War did not significantly alter its urban system. For a broader discussion of classical and
+neoclassical location patterns, see McCann (2002).
+
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+New Economic Geography agglomeration shadows                                                                                 449
+
+
+transactions costs such as information costs, about demand and locating trusted suppliers, also
+increase with distance from the core.3 Congestion costs, higher crime, pollution, and land prices
+(Glaeser 1997) likewise may push growth to nearby areas. Allowing for interregional migration
+would further extend the spatial reach of agglomeration.4
+    There also may be desirable urban amenities in higher–tiered urban areas such as greater
+diversity in consumption opportunities (Glaeser et al. 2001). The cost of accessing these ameni-
+ties outside the region increases in terms of greater distances. Thus, an increase in amenities in
+higher–tiered urban areas or an increase in their valuation will make proximate regions more
+attractive to households, increasing net in–migration and population growth, while more remote
+regions may experience net out–migration and population decline (Graves and Mueser 1993;
+Mueser and Graves 1995).
+
+
+2.3 Synthesis of NEG and extensions for spatial population dynamics
+
+The predicted population dynamics of NEG models are altered by these extensions. Though
+subtly different than traditional CPT, many NEG models predict a hierarchy of cities, in which
+the availability of services increases when moving towards the top of the hierarchy (e.g., Fujita
+et al. 1999). This occurs because of rising demand thresholds for higher–order goods and
+services and spatial competition among firms, the latter acting as a nearby dispersal force. Each
+tier of city has services that are available in lower–tier cities plus those for which threshold
+requirements are first met at that tier. The top tier (n) in the hierarchy offers the full range of
+services including the highest–order financial and legal services, with the first or lowest tier
+offering only the most basic such as petrol. Residents and businesses in the first tier travel to the
+nearest higher–tier cities for second, third, and higher orders of services.
+    In NEG models, this hierarchy generates agglomeration growth shadows, where spatial
+competition near higher–tiered centres constrains the growth of local businesses.5 Yet, because
+of the extensions discussed above, spatial–competition shadows may be overcome by offsetting
+positive agglomeration spillovers. Rural areas and smaller urban centres can benefit from close
+proximity to successively higher–tiered centres, while incurring penalties for increasing remote-
+ness, having to travel incrementally farther to access increasingly higher–orders of services and
+to access employment through commuting. While they may not compete with the higher tier
+centres for the local recruitment of the highest order goods and services, a location that affords
+them ready access will have advantages.6
+    The distance penalties/benefits for community i in tier j of n tiers of cities in the urban
+hierarchy evolve as follows. Each consecutive higher–tier of urban areas (j + 1, j + 2 . . . n) has
+successively higher orders of services and urban amenities. Consistent with marginal costs, the
+incremental distance is defined as the difference in the distances between places in the tiers j and
+j + 1; j + 1 and j + 2; j + 2 and j + 3; and so on. For each i, beyond the ‘own’ level j of urban
+centre, let the incremental distance to the nearest place in the higher–tier equal dt and the
+marginal ‘penalty’ for population growth of greater incremental distance from the previous tier
+
+  3
+     Wolf (1997) finds that US domestic goods are shipped an average of 255 miles.
+  4
+     Housing costs have also been added to NEG models, increasing the cost of living in agglomerated areas and acting
+as a centrifugal force limiting their size (Helpman 1998).
+   5
+     In contrast to central place theory, because of its use of the iceberg transport cost assumption, NEG models predict
+an area’s sales to other locations diminish with greater distance. Spatial competition in NEG can lead to the need for
+product differentiation, which can produce a hierarchy of cities where the largest cities specialize in the higher order
+goods and services where they have a cost advantage.
+   6
+     Some of these effects could vary spatially and across regions. For an example of a geographically weighted
+regression approach that partially considered these issues, see Partridge et al. (2007, 2008a).
+
+
+                                                                         Papers in Regional Science, Volume 88 Number 2 June 2009.
+450                                                                                                   M.D. Partridge et al.
+
+
+equal to jt.7 The different jt across tiers allows the total distance response to have different
+segments (not just one linear response for the entire hierarchy). The sum (over all tiers) of the
+accessibility penalties for population growth at location i in the jth tier can be depicted as:
+
+                                                            Penaltyij = Σ t d t ϕ t ,                                   (1)
+
+where the summation is over t = j + 1 to the nth tier. The penalty term reflects the total cost a
+region faces due to cumulative incremental distances as a result of travelling up the hierarchy to
+access progressively higher–order services.
+
+
+
+3 Empirical implementation
+
+The underlying agglomeration mechanisms discussed above vary in their predictions regarding
+the effect of distances from agglomerated core areas on performance of peripheral areas. Our
+primary interest is the impact of geographic position relative to nearby cities (differentiated by
+hierarchical level) on local growth processes.
+    We regress population growth between periods 0 and t on initial period (0) conditions to
+allow for transitions from one equilibrium to another, consistent with related literature
+(Eeckhout 2004; Partridge et al. 2008b).8 Specifying subsequent population growth as a function
+of the (pre–determined) initial–period characteristics mitigates concerns with statistical endo-
+geneity. Regarding the key distance variables, we assume that the US urban hierarchy was well
+established by 1990. This assumption follows Tabuchi and Thisse (2006) in a theoretical NEG
+framework, as well as empirical evidence that suggests that the urban hierarchy has been very
+stable over time (e.g., Eeckhout 2004; Duranton 2007). Thus, distances from a location to its
+higher–tiered urban areas are predetermined and set by prior development of the US urban
+system. Yet, statistical endogeneity in other variables may bias the distance results, a topic we
+consider in more detail below.
+    Population change is examined primarily over the 1990–2000 period, in which sensitivity
+analysis is conducted for 1990–2006. Counties in the lower 48 states and the District of
+Columbia are our units of observation.9 We use multiple sub–samples to examine the different
+transmission mechanisms across the urban hierarchy. Counties occupying the lowest tier in the
+urban hierarchy are those that are not part of either a micropolitan area (MICRO) or a larger
+metropolitan area (MA). MICROs, small ‘urban’ centres of 10,000–50,000 people and counties
+with tight commuting linkages to them, are considered the next tier.10 Moving up the urban
+hierarchy, we next divide the sample into counties in MAs of less than and more than 250,000
+people. NEG theory posits that small and medium–sized urban centres need distance protection
+
+
+   7
+      For the nearest place in higher tier j + 1, the incremental distance equals the actual distance between area i and the
+nearest area in tier j + 1. Section 3 provides specific examples. If there are growth shadows, the ‘penalty’ could revert
+to a benefit.
+   8
+      Examining growth rates has the advantage of differencing out fixed effects associated with levels or the scale of the
+locality (Hanson 2001).
+   9
+      Following the US BEA, there are cases where independent cities are merged with the surrounding county to form
+a more functional economic area (especially in Virginia). Forty–three mostly small rural counties are omitted due to the
+lack of economic data. For details, see Partridge and Rickman (2006).
+   10
+       We generally use the 2003 MA/MICRO definitions, as MICROs were first defined in 2003. An inclusive definition
+of MAs is desired to isolate growth due to changing commuting patterns versus intra urban centre interactions due to
+other factors. Note, excluding the fastest growing recently–acquired outer MA counties from the rural sample, weakens
+any underlying negative rural–distance to urban centre response (actually strengthening our results). Sensitivity analyses
+use earlier 1999 definitions mostly based on 1980s commuting patterns to establish boundaries for the existing (1990)
+MAs, along with MAs newly defined in the 1990s.
+
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+New Economic Geography agglomeration shadows                                                                                  451
+
+
+from the higher–order centres to reduce spatial competition (Fujita et al. 1999). The 250,000
+population threshold (we conduct sensitivity analysis using different thresholds) splits the metro
+sample into two approximately equal groups.
+   The most complete reduced–form specification for county i, located in state s is depicted as:
+
+            %ΔPOPis( t − 0) = α + δ POPDEN is 0 + j GEOG is 0 + θ DEMOG is 0 + yECON is 0
+                                                                                                                              (2)
+                              + gAMENITYis 0 + σ s + ε is( t − 0),
+
+where POPDEN is initial–period population density to control for own–county agglomeration
+or congestion effects. GEOG, DEMOG, ECON, and AMENITY are vectors that represent:
+geographic attributes including distance to different tiers in the urban hierarchy; demographic
+characteristics; economic characteristics; and amenities. The regression coefficients are a, d, j,
+q, y, and g ; ss are state fixed effects that account for common factors within a state; and e is the
+residual.
+     Our analysis begins with more parsimonious models than Equation (2) to assess whether
+potential multicollinearity and endogeneity affect the key results. The most parsimonious
+models include only variables that are clearly exogenous (e.g., climate) or predetermined
+(distance), while additional factors are added in successive models to assess robustness. The
+county residual is assumed to be spatially correlated with residuals for neighbouring counties,
+with the strength of the correlation being inversely related to the distance between the two
+counties. We use a generalized method of moments (GMM) procedure to produce t–statistics
+that are robust to cross–sectional spillovers (Conley 1999).11 Appendix Table 1 presents detailed
+variable definitions, sources, and descriptive statistics.
+     GEOG contains several measures of proximity to higher–tiered urban areas. The first
+measure is distance to the nearest urban centre of any size, which can be either a MA or MICRO.
+If the county is already part of an urban area, this is the distance from the population–weighted
+centre of the county to that of the urban area – for example, for a suburban county of a large MA,
+this would be the distance to the core of the urban area and would reflect various sprawl or
+commuting patterns.12 Because these are intra–urban effects, these within MA distance effects
+are not germane to our discussion of distance effects or growth shadows. Conversely, if the
+county is not part of an MA or MICRO, it is the distance from its centre to that of the nearest
+urban place. Outer counties within MAs or MICROs areas could grow faster due to urban sprawl
+and suburbanization. Yet, greater remoteness to the next higher urban tier may promote or
+detract from growth depending on whether distance is costly or offers protection from spatial
+competition.
+     To reflect ‘penalties’ for remoteness from additional tiers, we include incremental distances
+to higher–tiered urban centres for counties whose nearest city is not the highest tier. First, we
+include the incremental distance from the county to reach an MA.13 Next we include variables
+that measure the incremental distance to reach an urban centre of at least 250,000, at least
+500,000, and >1.5 million people.14 The incremental distances reflect the additional penalty (or
+benefit) a resident or business of a county encounters because they incur costs to access offerings
+  11
+      The bandwidth extends 200 kms, after which zero correlation in county residuals is assumed.
+  12
+      The population weighted centroid of each county is from the US Census Bureau. The population category for MAs
+is based on initial 1990 population. If the urban centre only has one county, this distance is zero.
+   13
+      For example, if rural county A is 40 kms from a MICRO and is 70 kms from the nearest MA, the incremental
+distance to the nearest MA would be 30 kms. Conversely assume county B is located in a MICRO, being 25 kms from
+the centre of its MICRO and 70 kms from the nearest MA. The corresponding incremental value to the nearest MA
+would be 45 kms (70 – 25). For a MA county, the incremental value is zero.
+   14
+      Incremental distance is calculated as before. If the county is already nearest to a MA that is in either a larger or
+same size classification, then the incremental value is zero. For example, if the county’s nearest urban centre of any size
+(or MA of any size) is already over 500,000, then the incremental values for the at least 250,000 and at least 500,000
+categories are both equal to zero.
+
+
+                                                                          Papers in Regional Science, Volume 88 Number 2 June 2009.
+452                                                                                                M.D. Partridge et al.
+
+
+in progressively higher–ordered urban centres. The largest urban tier represents top–tier
+regional/national centres, while the other smaller–centre sizes capture different–size labour
+markets (for commuting) and access to personal and business services.
+    In some MICRO and MA samples, we include distance to the nearest urban centre within the
+same tier. For a given MICRO, this would be the distance to the nearest other MICRO. The sign
+of this coefficient shows the net effect of two offsetting possibilities: (1) spatial competition
+among urban centres within the same tier (akin to a growth shadow), or (2) close proximity to
+another urban centre in the same tier enhancing the regional agglomeration effect. For large
+MAs, the own–tier distances are calculated for population categories of 250,000–500,000,
+500,000–1.5 million, and >1.5 million.
+    The sum of the (marginal) distances equals the distance to a MA with at least 1.5 million
+people. The distance variables in segments are the cost of reaching the nearest highest–tiered
+city. The individual elements of equation (1) show that the impact of distance is decomposed
+into segments to each intervening tier city, potentially producing a non–linear relationship,
+namely, distance effects vary depending on the urban tier is being considered.
+    Figure 1 illustrates the distance measurements for Park County, a rural Montana county
+containing about 15,000 residents in 1990. The nearest urban area is Gallatin County (a
+MICRO), containing the city of Bozeman, located 42 kms away. The nearest MA is Billings,
+located 158 kms away, or an incremental distance of 116 kms (158 – 42). Because Billings is a
+
+
+
+
+                          Fig. 1. Calculation of the distance measures for Park County Montana
+Notes: This figure shows the incremental distance penalties from Park County, Montana, a sparsely populated county
+at the lowest tier of the hierarchy. Bozeman, Montana is the nearest urban area (a micropolitan area) that is 42kms away.
+Using 1990 populations, the subsequently higher–ordered tiers are Billings, MT (an MA < 250,000 population); Boise,
+Idaho (MA population between 250,000–500,000); Salt Lake City, Utah (MA population between 500,000–1.5 million);
+and Denver, Colorado with over 1.5 million population. After Bozeman, the grey hatched segments show the incremental
+distance variables used in the empirical model.
+
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+New Economic Geography agglomeration shadows                                                                                 453
+
+
+small MA, with about a 1990 population of 121,500, Park County residents and businesses are
+also affected by agglomeration economies in the nearest larger MA of at least 250 K, which is
+Boise, Idaho, with 1990 population of 319,500. Boise is 510 kms from Park County, but the
+incremental distance to agglomeration economies not found in Billings is 352 kms (510 – 158).
+The nearest MA of at least 500 K, the next higher tier above Boise, is Salt Lake City, Utah, with
+roughly 768,000 people in 1990. Salt Lake is 559 kms away from Park County, an incremental
+distance of 49 kms (559 – 510). Denver, Colorado is the nearest highest tier city with over 1.5
+million (1990 population of 1.65 million). Denver is 800 kms away from Park County, or an
+incremental distance of 241 kms (800 – 559).
+    Other variables in the GEOG vector include population of the nearest (if a rural county) or
+own (if MICRO or MA county) urban centre. A county may benefit from proximity to a larger
+nearby urban centre if more positive agglomeration effects spill over (labour market effects for
+commuting and proximity to amenities and higher–order services). The existence of growth
+shadows would produce offsetting responses.
+    Analogous to the distance variables, we also include incremental population variables for the
+nearest MA, a MA of at least 250,000, at least 500,000 and at least 1.5 million, people.15 Because
+we already include the incremental distance, these population terms account for any marginal
+population impact. That is, they account for within tier effects of urban size, while the incre-
+mental distance terms account for the penalties of reaching an urban centre of at least the
+specified size (threshold effects).16 Other specifications (below) use the actual rather than
+incremental population, as well as models that omit incremental population altogether, but there
+was almost no change in the key incremental distance results. Finally, some models control for
+the population in surrounding counties within the county’s BEA economic region (see footnote
+a, Appendix Table 1) to account for factors such as agglomeration spillovers and market
+potential (Head and Mayer 2004, 2006).
+    The remaining control variables capture potential causes of population change aside from
+geographic location. First, we account for natural amenities (AMENITY) as measured by
+climate, topography, percent water area, and a related amenity scale constructed by the US
+Department of Agriculture (see Appendix Table 1). Amenities are included in all models as they
+reflect natural location advantages.
+    To examine robustness, we also include numerous demographic and economic variables (in
+1990) in some models. To account for human capital migration effects, we include initial–period
+DEMOG measures of racial composition, past immigration, age, and educational attainment. To
+control for disequilibrium economic migration, some models incorporate the following ECON
+measures: 1989 median household income, 1990 unemployment rate, 1990 employment shares
+in agriculture and in goods production. We also include the 1990–2000 industry mix job growth,
+a common exogenous measure of demand shifts.17 To account for nearby county economic
+spillovers, some models include BEA–region values of median income, unemployment, and
+industry–mix growth measures (excluding the county of interest).
+
+
+   15
+      For example, if the nearest/actual urban centre is 45,000 (MICRO), the next closest urban centre is 600,000, the
+third closest urban centre is 2 million people, then the incremental population of nearest MA is 555,000 the incremental
+population of a MA that is >250,000 is 0, the incremental population of a MA >500,000 is 0, and the incremental
+population of a MA that is at least 1.5 million is 1.4 million (2 – 0.6 million).
+   16
+      For example, for the 250,000 cutoff, the incremental distance to an urban centre variable accounts for penalties to
+reach an urban centre of at least 250,000. The incremental population variable accounts for any marginal spillovers due
+to this urban centre/tier having a population in excess of 250,000.
+   17
+      Industry mix employment growth, derived from the shift–share model, is the sum of the county’s initial industry
+employment shares multiplied by the corresponding national industry growth rates for the period. Because national
+industry growth and initial employment levels should be exogenous to county industry growth, it is a common
+instrument for local job growth (Bartik 1991; Blanchard and Katz 1992; Bound and Holzer 2000).
+
+
+                                                                         Papers in Regional Science, Volume 88 Number 2 June 2009.
+454                                                                                                  M.D. Partridge et al.
+
+
+    In other models, state fixed effects are included to account for factors such as policy
+differences, geographic location with respect to coasts, and settlement period.18 When state fixed
+effects are included, the other regression coefficients are interpreted as the responses to within
+state differences in the explanatory variables.
+
+
+
+4 Empirical results
+
+Descriptive statistics are reported in Appendix Table 1, whereas Appendix Table 2 has
+selected sub–sample statistics. Mean county population growth rates (Appendix Table 2) are
+the lowest for rural counties, followed by micropolitan areas, small and large MAs. The large
+standard deviations reveal there is a great deal of variability within groups, and it is this
+variability that is of primary interest in the analysis that follows. The mean distance to the
+nearest or actual MICRO or MA of 35 kms (Appendix Table 1) is indicative of the mean
+proximity of the counties in our study to some urban centre, while the set of mean incre-
+mental distances to successively higher tier places show that the full urban hierarchy is much
+more remote, additively 258 kms. This total mean distance as well as the mean distance to
+‘own tier’ counties of 43 kms, will be a weighted average of the 1,300 noncore rural counties,
+672 micropolitan counties, 416 that are part of MAs of less than 250,000 population and the
+641 that are greater than 250,000. Table 1 contains the econometric results for the 1990–2000
+period for counties located in noncore rural areas, MICRO areas, small MAs with less than
+250,000 people, and large MAs with population over 250,000. Sensitivity analysis follows
+thereafter.
+
+
+
+4.1 Base regression models
+
+With the exception of the large MA group, we start with a very parsimonious model that only
+includes distance and amenity measures, followed by a second model that adds the urban
+population, economic, and demographic variables, and a third model that adds state fixed
+effects. These models successively test the robustness of the results to alternative causes of
+population change such as initial economic conditions, or econometric concerns regarding
+omitted variables, multicollinearity, endogeneity, or omitted autoregressive processes. Stability
+of our key results across these varied specifications will show that our findings are not an artifact
+of a particular econometric (mis)specification.
+    In Table 1, the key distance results across columns (1)–(3) for rural counties, (4)–(6) for
+MICRO counties, and (7)–(9) for small MA counties are very similar, indicating the robustness
+of the results.19
+    Given their robustness, we describe the results of the fully specified models in columns (3),
+(6), (9), and (10). We start with discussion of the rural areas and then move to discussing the
+smaller urban centres and the largest MAs. We focus our discussion on the distance results due
+to their first–order importance.
+
+
+   18
+      We experimented with also including three indicators for being within 50 kms to the Atlantic Ocean, Pacific Ocean,
+and the Great Lakes. However, our results were essentially unaffected and the ocean/lake proximity variables were
+generally insignificant suggesting that state fixed effects adequately represent these natural advantage effects. Other
+effects such as access to air and rail transportation are part of those urban hierarchy effects we wish to capture with our
+distance measures.
+   19
+      The large MA sample results are also robust, but we do not report all of them for brevity.
+
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+                                                                                                                    Table 1. Dependent variable: percentage change in US county population 1990–2000
+
+                                                            Variables/var groups                              Noncore rural area                                    Micropolitan area                                Small MA with pop ⱕ250,000                 MA > 250,000
+
+                                                                                                   Dist         Add other X        Add state FE         Dist         Add other X        Add state FE          Dist         Add other X       Add state FE         Full model
+
+                                                            Intercept                           -0.508          17.344               19.482            2.200          29.742              45.870*          -3.489           46.031            11.409              55.262**
+                                                                                               (-0.10)          (0.87)               (1.09)           (0.38)          (1.04)              (1.82)          (-0.43)           (1.43)            (0.39)              (2.09)
+                                                            Distance to nearest or actual       -0.075**        -0.092**             -0.102**          0.054           0.216**             0.137**          0.092**          0.082             0.064               0.188**
+                                                              urban centre                     (-4.32)         (-5.98)              (-7.62)           (0.97)          (3.31)              (2.14)           (2.17)           (1.53)            (1.55)              (4.26)
+                                                            Inc Dist to MA                      -0.050**        -0.040**             -0.038**         -0.039**        -0.037**            -0.026**           n.a.               n.a.              n.a.                n.a.
+                                                                                               (-4.87)         (-4.51)              (-4.79)          (-2.99)         (-3.25)             (-2.02)
+                                                            Inc Dist to MA > 250 k              -0.026**        -0.025**             -0.030**         -0.028**        -0.036**            -0.029**         -0.028**         -0.038**          -0.057**               n.a.
+                                                                                               (-4.91)         (-5.67)              (-5.17)          (-3.43)         (-4.95)             (-3.24)          (-2.95)          (-4.17)           (-5.53)
+                                                            Inc Dist to MA > 500 k              -0.006          -0.004               -0.018**         -0.003          -0.008              -0.009            0.004            0.002            -0.027**             0.011
+                                                                                               (-0.71)         (-0.50)              (-2.42)          (-0.25)         (-0.75)             (-0.78)           (0.24)           (0.18)           (-2.23)              (0.72)
+                                                            Inc Dist to MA > 1,500 k            -0.006          -0.007               -0.011**         -2.1E–05         0.004               0.003           -0.001           -0.007            -0.026**            -3.3E–04
+                                                                                               (-1.22)         (-1.32)              (-2.50)           (0.00)          (0.73)              (0.51)          (-0.09)          (-0.92)           (-2.66)             (-0.04)
+                                                            Dist to nearest own tier             0.021          -0.019                0.003            0.026           0.026               0.015            0.020            0.045**           0.044**             0.013
+                                                                                                (0.75)         (-0.83)               (0.15)           (0.87)          (1.30)              (0.85)           (0.99)           (2.69)            (3.14)              (0.74)
+                                                                                                                                                                                                                                                                                  New Economic Geography agglomeration shadows
+
+
+
+                                                            Population density                     N            -0.066**             -0.054*             N            -0.013              -0.023*             N             -0.018**          -0.022**             4.2E–04*
+                                                                                                               (-2.19)              (-1.95)                          (-1.06)             (-1.81)                           (-3.17)           (-4.07)              (1.74)
+                                                            Pop of nearest or actual urban          N            9.3E–07              6.8E–06            N            -5.8E–05**          -2.3E–05             N             1.6E–05           4.6E–05**          -5.0E–07
+                                                              centre                                            (0.18)               (1.49)                          (-2.75)             (-1.18)                            (1.07)            (3.45)             (-1.50)
+                                                            Inc pop of nearest MA                   N           -1.7E–06*            -1.4E–07            N            -1.4E–06            -9.6E–07             N                n.a.              n.a.                n.a.
+                                                                                                               (-1.86)              (-0.18)                          (-1.47)             (-1.14)
+                                                            Inc pop of MA > 250 k                   N           -1.2E–06*            -5.5E–07            N            -6.4E–07            -4.9E–07             N             6.2E–07           8.9E–07*              n.a.
+                                                                                                               (-1.94)              (-0.95)                          (-0.93)             (-0.76)                            (1.08)            (1.79)
+                                                            Inc pop of MA > 500 k                   N           -1.1E–06**           -4.6E–07            N            -4.3E–07            -2.6E–07             N            -1.0E–06**        -2.1E–07            -3.1E–07
+                                                                                                               (-2.00)              (-0.96)                          (-1.13)             (-0.66)                           (-2.25)           (-0.50)             (-0.98)
+                                                            Inc pop of MA > 1,500 k                 N           -6.9E–07**           -2.3E–07            N            -6.2E–07**          -2.3E–07             N            -8.8E–07**         2.2E–07            -5.0E–07**
+                                                                                                               (-3.62)              (-1.07)                          (-4.03)             (-1.44)                           (-2.39)            (0.57)             (-2.69)
+                                                            Pop in surrounding counties             N            2.4E–07             -2.0E–07            N             4.1E–08             2.5E–07             N            -7.6E–08          -4.5E–07             4.0E–07*
+                                                                                                                (0.77)              (-0.74)                           (0.08)              (0.52)                           (-0.19)           (-1.34)              (1.93)
+                                                                             a
+                                                            Weather/Amenity                         Y            Y                    Y                  Y                Y                  Y                 Y                Y                 Y                   Y
+                                                            Economic/Demographicb                   N            Y                    Y                  N                Y                  Y                 N                Y                 Y                   Y
+                                                            Surrounding Econ/Demogc                 N            Y                    Y                  N                Y                  Y                 N                Y                 Y                   Y
+                                                            State fixed effects (FE)                N            N                    Y                  N                N                  Y                 N                N                 Y                   Y
+                                                            R2                                    0.33           0.49                 0.60             0.24            0.52                0.63              0.17            0.51              0.64                0.63
+                                                            No. of counties                       1,300            1,300              1,300             672              672                672               416              416               416                 641
+                                                            F–statistic
+                                                               All MA pop = 0                      N             3.10**               2.00*              N             3.99**              0.53             N                2.87**            2.79**              1.15
+                                                               Inc MA pop = 0                      N             3.70**               0.53               N             2.69**              0.39             N                3.69**            1.03                1.66
+                                                               Inc distance to MA = 0           27.88**         17.19**              12.27**           8.90**         12.23**              4.33**           4.73**           6.04**            7.53**              0.36
+
+                                                            Notes: Robust t–statistics from Conley (1999) estimator are in the parentheses. A ** or * indicates significance at ⱕ5% or ⱕ10% level respectively. N = not included, Y = included. a sunshine hours, January temp,
+                                                            July humidity, typography, amenity ranking, and percent water area.                                                                                                                                                   455
+                                                            b
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+
+
+
+
+                                                              1989 median household income, 1990–2000 industry mix emp. growth, 1990 unemp. rate, 1990 share ag. emp., 1990 share goods emp., 6 age-distribution variables for 1990, 4 education categories for 1990, 5
+                                                            race/ethnicity variables for 1990, and percentage of population immigrated during 1985–90.
+                                                            c
+                                                              weighted average 1989 median household income, 1990–2000 industry mix emp. growth, and 1990 unemp. rate in surrounding counties within a BEA region.
+456                                                                                                  M.D. Partridge et al.
+
+
+4.1.1 Urban–hinterland interactions
+
+The distance to the nearest urban centre coefficient (column 3) suggests that for a rural county,
+every kilometre increase in distance from its nearest urban centre (of any size) is associated with
+0.1% less population growth. When measured at the mean distance of 60 kilometres (Appendix
+Table 2), this translates into about 6% less population growth than a rural county adjacent to the
+urban centre’s core. The influence of the urban hierarchy does not end there. If the nearest urban
+centre is only a MICRO area, the rural county loses an additional 0.038% of population growth
+per incremental kilometre to reach an MA of any size. If this urban centre is a small MA of less
+than 250,000 people, there is another penalty of 0.03% per incremental kilometre to reach a MA
+of at least 250,000. There are corresponding population growth penalties of about 0.02% and
+0.01% per kilometre to reach MAs of at least 500,000 and 1.5 million people. At the mean
+incremental distances (Appendix Table 2), the typical rural county incurs a distance penalty of
+11.9% in population growth during the 1990s for its remoteness from the combined urban
+      20, 21
+tiers.
+    Although it is notable that there are incremental penalties for a hinterland county being
+remote from urban centres up to 1.5 million, the largest marginal penalty is for remoteness
+from any urban centre with population of 10,000 or more. This suggests that accessibility for
+commuting and basic urban services may be of over–riding importance. This is inconsistent with
+an urban growth shadow or with a long–run CPT equilibrium with uniform population growth
+in the hinterlands. Such US settlement patterns illustrate the strong far–reaching regional forces
+that can encourage sprawl into rural areas located near urban areas.
+    The results for the 1990–2006 period are similar, generally being larger in proportion to
+the years added to the analysis (Appendix Table 3). Exceptions include the coefficient for
+population of the nearest urban centre becoming significantly positive and the coefficient for
+population density becoming insignificant.
+
+
+
+4.1.2 Small urban centre spatial interactions
+
+The MICRO and small MA results in columns (6) and (9) reveal that more distant counties
+within an urban centre are growing faster, consistent with sprawl and suburbanization (though
+the small MA result is only marginally significant). This pattern applies even after accounting
+for a host of other characteristics. For MICROs, the incremental distance to the nearest MA
+coefficient implies a 0.026% population penalty per every kilometre farther away. Beyond that,
+only the incremental distance to an urban centre greater than 250,000 has a statistically signifi-
+cant negative impact.
+    For small MAs, the estimates suggest that for increased incremental distance from urban
+centres greater than 250,000, 500,000, and 1.5 million people, small MAs are marginally
+penalized even more than rural counties. For example, at the mean incremental distances
+(Appendix Table 2), small MAs ceteris paribus incur growth penalties of 8.3%. This penalty
+likely relates to a lack of access to higher order services and amenities.
+
+
+   20
+      The results are derived by taking the coefficients from Table 1 multiplied by the means from Appendix Table 2 and
+summing these figures to obtain a distance effect. For the rural distance penalty, when using all coefficients, the results
+correspond to taking the sum of -0.102(59.91) – 0.038(43.47) – 0.030(76.02) – 0.018(45.32) – 0.011(83.45), which
+equals -11.9.
+   21
+      A one standard deviation increase in the distance to the nearest urban centre is associated with an expected 3.1%
+decline in rural county population growth, while a one–standard deviation increase in all of the incremental distance
+terms is associated with 10.5% less growth.
+
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+New Economic Geography agglomeration shadows                                                                                457
+
+
+    The sole evidence of a distance–based growth shadow is for small MAs being too close to
+other small MAs within their tier. So, greater distance of a small MA from other small MAs
+allows it to grow more. For the mean distance between small MAs, population growth is 2%
+slower, in which a one standard deviation increase in the distance increases growth by 2%.
+    The urban–centre population results are more ambiguous. For both MICROs and small
+MAs, county population growth is inversely related to own initial population density. Inconsis-
+tent with growth shadows, the incremental population variables are mostly insignificant. In fact,
+for small MAs, the incremental population of the nearest MA greater than 250,000 positively
+and significantly affects population growth. Yet, neighbouring region population is insignificant
+in the MICRO and small MA models.
+    Expanding the sample to 2006 generally produced comparable results (Appendix Table 3).
+For micropolitan areas, population density became insignificant. The urban hierarchy coeffi-
+cients for small metropolitan areas became more negative by magnitudes which are greater than
+the proportion of the sample period expansion, and much greater than what occurred for noncore
+rural areas and micropolitan areas. Thus, not only were small metropolitan areas penalized more
+for greater distances from high–tiered metropolitan areas, the relative penalty appears to be
+increasing in the most recent years.
+
+
+4.1.3 Large urban centre spatial interactions
+
+Column (10) of Table 1 shows the corresponding results for the counties located in large MAs
+(population >250,000). With the exception of the positive within MA distance coefficient, none
+of the proximity variables are significant. Thus, the general pattern is one of sprawl within a
+given metropolitan area, while proximity to higher–tiered MAs and other same–tiered MAs
+plays little role. The sprawling pattern suggests that two nearby metropolitan areas could
+grow/sprawl into one larger metropolitan area if they are sufficiently close – for example,
+Baltimore–Washington DC – though this sprawl pattern is a very different spatial interaction
+than the process predicted by NEG.
+    The positive own–county population density variable suggests that there are favourable local
+agglomeration effects at the 10% level, consistent with a size threshold where own agglomera-
+tion effects become more important for larger urban centres. The positive and significant (at the
+10% level) neighbouring–county population coefficient suggests that agglomeration benefits are
+also derived regionally. There is now evidence of a growth–shadow effect for counties located
+in MAs of between 250,000 and 1.5 million people when they are close to a MA with population
+over 1.5 million (evidenced by the negative effect of increased population of the large MA).22
+Given the corresponding insignificant distance effects, it may be that only the largest MAs in
+the top tier cast a growth shadow consistent with NEG. The insignificant incremental distance
+findings still are most consistent with no clear spatial interactions between neighbouring cities
+(Ioannides and Overman 2004).23
+    The results for the expanded period of 1990–2006 suggest that urban sprawl appears to be
+pervasive. Population density also has a more significant positive effect on growth, while
+population in surrounding counties is now insignificant. Yet, the general pattern is very similar
+to the shorter 1990–2000 period.
+  22
+      Dividing small and large MAs at 500,000 was considered in sensitivity analysis, but without much affect.
+  23
+      We also considered whether using earlier 1993 and 1999 MA boundaries to define our sample (MICRO areas were
+not defined in 1999) would affect our key distance results (not shown). These boundaries would have included only
+commuting patterns from the 1980s identified in the 1990 Census, while the 1999 boundaries include any new MAs
+defined in the 1990s. In defining these small and large MA samples, either the 1993 or 1999 boundaries are used in
+determining the MA’s particular population category (e.g., less than or greater than 250,000). Nonetheless, the distance
+results were generally robust using these boundaries with only modest changes.
+
+
+                                                                        Papers in Regional Science, Volume 88 Number 2 June 2009.
+458                                                                                             M.D. Partridge et al.
+
+
+4.1.4 Further search for growth shadows
+
+To further search for the existence of growth shadows, we added interactions of the distance
+variables with the corresponding urban centre population (not shown). This tests whether growth
+shadow effects attenuate with distance. These interaction variables were jointly insignificant in
+the MICRO and small MA models, but significant at the 5% level in the rural and large MA
+cases.
+    For rural counties, the negative distance–population interaction coefficients generally
+suggest less population growth the more distant the county is from an urban centre of a
+given population level, which is the opposite of an agglomeration growth shadow. For the
+‘smaller’ large MAs with between 250,000 and 1.5 million people, the positive interaction
+coefficient suggests that greater distance from an urban centre of >1.5 million mitigates the
+adverse population effects described above, consistent with the growth shadow interpretation
+above.
+
+
+4.2 Summary of findings
+
+We generally find that population growth for counties in rural areas, MICROs, and small MAs
+is positively related to proximity to a higher–tier urban centre. This is inconsistent with growth
+shadows of CPT and NEG models. There is less evidence that (regional) market potential is a
+good explanation for population change because the own population density and the neighbour-
+ing county population coefficients have the wrong sign or are insignificant. One reason for the
+mixed pattern could be ‘exports’ from smaller urban centres and the hinterlands are more
+directed to national and international markets than those nearby.
+    For larger MAs, we find surprisingly little evidence that proximity to (even) higher–tier
+urban centres affects their growth. The pattern is consistent with offsetting effects from decaying
+agglomeration effects and CPT factors. There is evidence of growth shadow effects between
+small MAs within the same tier. There also is some evidence that among ‘medium’ MAs of
+250,000 to 1.5 million, there are adverse competition effects (growth shadows) from proximity
+to the very largest urban centres.
+    Examination of 1990–2006 confirms the continued negative effects of a county’s distance
+from higher–tiered urban areas. In fact, the effects for small MAs became more–than–
+proportionately negative (relative to the length of the time period expansion) – namely, they
+appear to be intensifying after 2000. Sprawl also appears to be continuing at the outer fringe of
+MAs with greater than 250,000 people. However, generally the patterns are similar over the
+longer period.
+
+
+4.3 Commuting linkages
+
+The lack of urban growth shadows could relate to tight commuting links between cities, rather
+than geographically–widespread input–output linkages.24 Most agglomeration models suggest
+that urban input/output externalities are a function of thresholds and the size of the urban centre
+(Black and Henderson 2003). Marginal growth in an urban centre would not measurably
+affect the size of its input–output externalities – for example, New York MA’s input–output
+
+  24
+     For example, past research suggests that knowledge spillovers have a much smaller geographic scope, perhaps less
+than a few miles because of their highly personalized nature (Rosenthal and Strange 2001, 2003).
+
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+New Economic Geography agglomeration shadows                                                                                  459
+
+
+externalities would be only marginally affected if it grew by (say) 5%. Yet, if it created 5% more
+jobs, this may create commuting opportunities in nearby counties, increasing their population
+growth.
+    By controlling for job growth in the urban centre, we can ascertain how much of its job
+growth spills over and creates opportunities in neighbouring counties. Thus, if the incremental
+(urban centre) distance coefficients are much smaller in magnitude when the urban commuting
+measures (employment growth) are included in the model, this would suggest that the incre-
+mental distance attenuation affects are mostly due to commuting. Any remaining distance
+effects would more likely be related to spillovers from threshold effects (input/output externali-
+ties and access to urban amenities).
+    To assess this issue, we include measures of urban centre job growth for the same urban–tier
+categories used above. Because commuting effects likely die out after 160 kilometres (100
+miles), we set the corresponding nearest urban centre employment growth equal to zero if it is
+farther than 160 kilometres from the county. Even within 160 kilometres, commuting effects
+will decay with distance. Hence, we also include interactions of the nearest urban centre’s job
+growth with the county’s distance from it. Finally, population and job growth may be simulta-
+neously determined. To account for this, we substitute the relevant 1990–2000 industry mix
+employment growth as an exogenous proxy for local job growth.
+    The results for the four size groupings are reported in Table 2. For each group, the first set
+of results is for the slightly–adjusted base model from Table 1, which is reported only for
+comparative purposes.25 The second model for each group adds the industry mix growth rates for
+the nearest/actual urban centre in each size category and the corresponding industry mix–
+distance interactions.
+    In the noncore rural model, the industry mix terms for the nearest urban centre are consis-
+tently positive and jointly significant at the 5% level, suggesting nearby urban job growth creates
+rural commuting opportunities.26 Likewise, the urban centre distance–industry mix interaction
+terms are all negative and jointly significant at the 5% level. As expected, positive urban
+employment growth effects attenuate with distance. Yet, the incremental distance to urban centre
+coefficients are still jointly significant at the 5% level, while their magnitude declines only
+modestly. The rural pattern suggests that urban job growth spreads out and lifts rural population
+growth through commuting opportunities. However, because the incremental distance coeffi-
+cients remain large, there appear to be important backward–forward externalities that affect rural
+population growth.
+    Regarding the urban centres, the industry mix employment growth terms and corresponding
+distance interactions are almost universally insignificant. So job growth in nearby higher–tier
+urban centres generally has little statistical influence on smaller urban centre growth – suggest-
+ing that commuting ties do not underlie the interactions between urban centres. The pattern
+remains that growth in MICROs and small MAs is inversely related to distance from higher–
+order urban centres, consistent with a predominant role for accessibility to urban centres, one
+that dominates any potential shadow effects. For larger urban centres, the results still suggest
+relatively little spatial interaction. Since commuting does not appear to be a strong contributing
+factor, one of our conclusions is that there are geographically far–reaching backward–forward
+externalities between smaller and larger urban centres.27
+
+   25
+      With the exception of the noncore rural sample, the own–county industry mix measure is also omitted from these
+models as the urban centre’s overall industry mix job growth accounts for localized employment growth.
+   26
+      For the variables reported in the other tables, the coefficients are similar to the base model in Table 1, and are not
+reported for brevity, while the distance to the nearest tier variable is omitted.
+   27
+      The insignificance of the industry mix employment growth variables for the urban samples supports our interpre-
+tation that they reflect commuting linkages and not static spatial input–output linkages, the latter expected to exist
+between urban areas rather than between urban and less–populated rural areas.
+
+
+                                                                          Papers in Regional Science, Volume 88 Number 2 June 2009.
+                                                                                                                   Table 2. Dependent variable: percentage change in US county population 1990–2000
+                                                                                                                                                                                                                                                                                460
+                                                            Variables/var groups                                         Noncore rural                           Micropolitan area                     Small MA ⱕ 250,000                         Large MA > 250,000
+
+                                                                                                              Base model            Full model          Base model            Full model          Base model           Full model           Base model            Full model
+
+                                                            Intercept                                          24.225                25.195               92.418**              62.614**            32.797               28.226               84.577**             77.256**
+                                                                                                               (1.32)                (1.39)               (3.66)                (2.79)              (0.95)               (0.85)               (2.93)               (2.64)
+                                                            Dist to nearest or actual urban center             -0.103**              -0.070**              0.006                -0.144               0.054                0.033                0.173**              0.198**
+                                                                                                              (-7.96)               (-3.50)               (0.09)               (-0.56)              (1.33)               (0.63)               (3.92)               (4.15)
+                                                            Inc Dist to MA                                     -0.039**              -0.015*              -0.034**              -0.043**             n.a.                 n.a.                  n.a.                 n.a.
+                                                                                                              (-5.27)               (-1.67)              (-2.61)               (-2.39)
+                                                            Inc Dist to MA > 250 k pop                         -0.030**              -0.026**             -0.033**              -0.026**            -0.065**             -0.084**               n.a.                 n.a.
+                                                                                                              (-5.77)               (-4.79)              (-3.40)               (-2.54)             (-5.66)              (-5.42)
+                                                            Inc Dist to MA > 500 k pop                         -0.019**              -0.013               -0.009                -0.017              -0.024*              -0.034*              -0.005                0.005
+                                                                                                              (-2.68)               (-1.63)              (-0.69)               (-1.22)             (-1.70)              (-1.90)              (-0.42)               (0.22)
+                                                            Inc Dist to MA > 1,500 k pop                       -0.011**              -0.007                0.006                -0.001              -0.021*              -0.022               -0.004               -0.008
+                                                                                                              (-2.64)               (-1.62)               (0.89)               (-0.12)             (-1.75)              (-1.45)              (-0.54)              (-0.70)
+                                                            Industry mix growth 1990–2000                      98.669**              95.338**                N                   N                     N                    N                    N                    N
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+
+
+
+
+                                                                                                               (6.79)                (6.67)
+                                                            Indmixgr of micropolitan area                         N                   4.675                  N                152.214**                N                    N                    N                    N
+                                                                                                                                     (0.33)                                    (5.99)
+                                                            Indmixgr of MA < 250 k                                 N                 29.895**                N                -20.727                  N                  9.184                  N                    N
+                                                                                                                                     (2.70)                                   (-1.29)                                    (0.33)
+                                                            Indmixgr of MA 250 k to 500 k                          N                 18.638**                N                 15.974                  N                -26.325                  N                 12.958
+                                                                                                                                     (1.99)                                    (1.18)                                   (-1.42)                                    (0.96)
+                                                            Indmixgr of MA 500 k to 1,500 k                        N                 27.499**                N                 14.853                  N                -36.693                  N                 26.755
+                                                                                                                                     (2.38)                                    (1.11)                                   (-1.45)                                    (1.40)
+                                                            Indmixgr of MA > 1,500 k                               N                 61.689**                N                  4.084                  N                -13.440                  N                  8.441
+                                                                                                                                     (3.13)                                    (0.23)                                   (-0.61)                                    (0.41)
+                                                            Dist x Indmixgr of micropolitan area                   N                 -0.083                  N                  0.420                  N                  N                      N                    N
+                                                                                                                                    (-0.85)                                    (0.27)
+                                                            Dist x Indmixgr of MA < 250 k                          N                 -0.217**                N                  0.152                  N                 -0.055                  N                    N
+                                                                                                                                    (-2.92)                                    (1.50)                                   (-0.28)
+                                                            Dist x Indmixgr of MA 250 k to 500 k                   N                 -0.080                  N                 -0.150*                 N                  0.157                  N                 -0.011
+                                                                                                                                    (-1.04)                                   (-1.71)                                    (1.11)                                   (-0.11)
+                                                            Dist x Indmixgr of MA 500 k to 1,500 k                 N                 -0.198**                N                 -0.150*                 N                  0.246*                 N                 -0.109
+                                                                                                                                    (-2.46)                                   (-1.70)                                    (1.68)                                   (-0.87)
+                                                            Dist x Indmixgr of MA > 1,500 k                        N                 -0.376**                N                 -0.067                  N                 -0.021                  N                 -0.030
+                                                                                                                                    (-2.64)                                   (-0.53)                                   (-0.13)                                   (-0.25)
+                                                            R2                                                   0.60                 0.61                0.59                  0.63                 0.62                 0.62                  0.62                0.62
+                                                            No. of counties                                      1,300                1,300             672                      672               416                     416                  641                  641
+                                                            F–statistic
+                                                               Inc distance to MA = 0                          12.72**                   5.45**            6.21**                3.20**              8.06**               9.71**                0.13                0.28
+                                                               Indmixgr of MA = 0                                 N                      5.37**              N                  11.42**                N                  1.27                   N                  0.97
+                                                               Dist x Indmixgr of MA = 0                          N                      4.56**              N                   1.86                  N                  1.04                   N                  0.27        M.D. Partridge et al.
+
+                                                            Notes: t–statistics are in parentheses. They are derived from the Conley (1999) estimator which allows spatial correlation in errors and uses a quadratically declining weighting scheme that becomes zero beyond
+                                                            200 km. ** and * indicate significant at ⱕ5% and ⱕ10% level respectively. N = not included.
+                                                            See the notes to Table 1 for more details.
+New Economic Geography agglomeration shadows                                                                   461
+
+
+    We now assess the direct role of commuting by going back to the models shown in
+Table 1 and adding the initial 1990 percent of the county’s workforce that is employed in the
+county of residence – namely, an inverse measure of commuting. As expected, some of the
+respective distance coefficients are slightly smaller in magnitude (not shown), continuing to
+illustrate that commuting patterns are not the only reason for the reported distance effects.
+These results suggest that every one–percentage point increase in the 1990 share of workers
+employed in the county of residence is associated with between 0.1 to 0.2 percentage point
+less population growth in the subsequent 1990–2000 period (the variable is significant at the
+5% level).
+
+
+
+5 Conclusion
+
+Despite the development of many variants of New Economic Geography (NEG), few studies
+have empirically examined its ability to explain population dynamics in a fairly developed
+mature urban system. In particular, there has been little investigation of the spatial interactions
+among urban areas and between the urban core and peripheral regions. Therefore, this study
+examined US population dynamics across the urban hierarchy, specifically the link between
+county population growth and geographic proximity to successively higher–tiered urban areas
+as well as between areas within the same tier of the hierarchy.
+     We find that rural counties and smaller urban centres have significant positive interactions
+with their nearest higher–tiered urban areas. We found successive penalties in terms of lower
+growth the farther a rural or smaller urban county was from each higher tier of urban centre.
+Further analysis suggested that urban job growth stimulated rural population growth in part
+through commuting opportunities, illustrating the strong forces supporting urban sprawl. We
+found little evidence consistent with NEG growth shadows, the exception being spatial compe-
+tition among small MAs.
+     For counties located in larger MAs, spatial interactions with higher–tiered urban areas were
+much less evident. We found evidence of urban growth shadows only around the highest–tier
+MAs, which were being cast on proximate MAs with population between 250,000 and 1.5
+million. The general lack of growth shadows suggest that some predictions of NEG and CPT are
+not particularly germane for describing the continued evolution of the American urban system.
+Likewise, commuting linkages likely play only a small role in describing interactions for the
+smallest MAs and no role for describing the interactions between larger MAs. Instead, the
+evidence is most consistent with lower–ordered places benefiting from closer accessibility in
+their backward–forward linkages and access to urban amenities. Finally, we found that decon-
+centration and sprawl remain key features of intra urban area settlement patterns for large MAs,
+ceteris paribus.
+     In terms of policy, these findings have implications for understanding land–use and settle-
+ment patterns. Proximity and access to larger urban areas is critical in shaping the size and
+growth of rural counties and urban areas with less than 1.5 million people. Indeed, these
+proximity effects are large, appearing to trump other factors such as own size and even
+amenities. Further analysis for the most recent years revealed that these trends show no signs of
+abating. Clearly, planners should consider these much broader regional interactions in their
+development strategies. In addition, to facilitate this process, further research should assess how
+the distance effects are changing over time and more closely appraise the household and
+firm–side paths through which these effects are transmitted.
+
+
+
+
+                                                           Papers in Regional Science, Volume 88 Number 2 June 2009.
+462                                                                                                 M.D. Partridge et al.
+
+
+                       Appendix Table 1. Variable definitions and descriptive statistics (full sample)
+
+Variable                                           Description                 Source            Mean         St. dev.
+
+Population change          Percentage change in population over          1990 2000 Census           11.22          16.00
+                             1990–2000
+Dist to nearest/actual     Distance (in km) between centroid of          1990 Census,               34.61          32.44
+  urban centre               a county and population weighted              C–RERL
+  (micropolitan or           centroid of the nearest urban centre,
+  metropolitan area)         if the county is not in an urban
+                             centre. It is the distance to the
+                             centroid of its own urban centre if
+                             the county is a member of an urban
+                             centre (in kms).
+Inc dist to metro          Incremental dist. to the nearest/actual       Authors’ est.              36.68          49.06
+                             MA in kms
+Inc dist to metro >250 k   Incremental distance to the                   Authors’ est.              56.29          97.27
+                             nearest/actual MA with >250,000
+                             population, in 1990 in kms
+Inc dist to metro >500 k   Incremental distance to the                   Authors’ est.              40.67          66.83
+                             nearest/actual MA with >500,000
+                             population in 1990 in kms
+Inc dist to metro >1,500 k Incremental distance to the                   Authors’ est.              89.77         111.47
+                             nearest/actual MA with >1,500,000
+                             population in 1990 in kms
+Dist to nearest own tier   Distance in kms to the nearest own            Authors’ est.              42.85          32.18
+                             tier county/urban area. For an urban
+                             area, this is the distance from the
+                             centre of the urban county to the
+                             population–weighted centre of the
+                             nearest own–tier urban area.
+Population density         1990 county population per square             1990 Census               207.83       1,593.40
+                             mile
+Nearest/actual urban       1990 population of the nearest/actual         Authors’ est.        374,271.3     1,377,909.3
+  centre pop                 urban centre measured as a MICRO
+                             or MA.
+Inc pop of nearest metro   Incremental pop. of the nearest/actual        Authors’ est.        186,155.0      457,600.8
+                             MA, 1990
+Inc pop of metro >250 k    Incremental population of the                 Authors’ est.            n.a.          n.a.
+Inc pop of metro >500 k      nearest/actual MA with >250,000
+Inc pop of metro >1,500 k    population; with >500,000
+                             population; or >1.5 million
+                             population in 1990.
+Weather/Amenity            Vector includes: mean January sun             ERS, USDA                n.a.          n.a.
+                             hours; mean January temperature
+                             (degree F); mean July relative
+                             humidity (%); typography score 1
+                             to 24, in which 24 represents the
+                             most mountainous; natural amenity
+                             rank 1 to 7, with 7 being the
+                             highest; % of county area covered
+                             by water
+Economic/Demographic
+Median HH inc              Median household income 1989                  1990 Census            23,842.7        6,388.8
+Industry mix growth        Industry mix employment growth,               1990, 2000 BEA,             0.16           0.04
+                             calculated by multiplying each                Authors’ est.
+                             industry’s national employment
+                             growth (between 1990 and 2000) by
+                             the initial period (1990) industry
+                             employ. shares in each sector
+Unemployment rate          1990 Civilian unemployment rate (%)           1990 Census                 6.67              3.02
+Agriculture share          1990 Percent employed in agriculture          1990 Census                 8.45              8.20
+                             sector
+Goods share                1990 Percent empl. in (nonfarm)               1990 Census                27.28          10.19
+                             goods sector
+
+
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+New Economic Geography agglomeration shadows                                                                                 463
+
+
+                                            Appendix Table 1. Continued
+
+Variable                                     Description                         Source                Mean             St. dev.
+
+Age Shares                      Percent of 1990 population <6 years;        1990 Census                     n.a.             n.a.
+                                  7–17 years; 18–24 years; 55–59
+                                  years; 60–64 years; and >65 years.
+Educational Attainment          % of 1990 population 25 years and           1990 Census                     n.a.             n.a.
+                                  over that are high school graduates;
+                                  have some college; have an
+                                  associate degree; and are 4 year
+                                  college graduates.
+Race/Ethnic                     % of 1990 population Hispanic;              1990 Census                     n.a.             n.a.
+                                  Black; Asian and Pacific Islands;
+                                  Native American; other race.
+Percent immig 1985–90           Percent of 1990 pop. immigrated over        1990 Census                     0.48             0.96
+                                  1985–90
+Surrounding Variables
+Population density_surr         Weighted average population density         1990 Census,                 663.44        1,553.27
+                                 in surrounding counties within a             Authors’ est.
+                                 BEA regiona
+Median HH inc_surr              Weighted average median household           1990 Census,             26,753.7           4795.7
+                                 income in surrounding counties               Authors’ est.
+                                 within a BEA regiona
+Industry mix growth_surr        Weighted average industry mix               1990 BEA,                       0.19             0.02
+                                 employment growth in surrounding             Authors’ est.
+                                 counties within a BEA regiona
+Unemployment rate_surr          Weighted average total civilian             1990 Census,                    6.25             1.55
+                                 unemployment rate in surrounding             Authors’ est.
+                                 counties within a BEA regiona
+No. of counties                                                                                       3,029
+
+Notes: Centroids are population weighted. The metropolitan/micropolitan definitions follow from the 2003 definitions.
+BEA = Bureau of Economic Analysis, Regional Economic Information Service; ERS, USDA = Economic Research
+Services, U.S. Department of Agriculture; C–RERL = Canada Rural Economy Research Lab, University of
+Saskatchewan. See Partridge and Rickman (2006) for more details of the variable sources and sample selection.
+a
+  The surrounding BEA region variables are calculated as the average of the region net of the county in question. The
+BEA economic regions are 177 functional economic areas constructed by the BEA.
+
+
+
+               Appendix Table 2. Mean (standard deviations) of major variables by population group
+
+Variables                            Noncore rural         Micropolitan            MA ⱕ 250,000                 MA > 250,000
+
+Population change                           6.17                10.21                     15.69                        19.62
+                                          (13.44)              (13.18)                   (15.20)                      (19.39)
+Distance to nearest or actual              59.91                 4.63                     17.76                        28.60
+  urban center                            (30.56)               (9.63)                   (18.60)                      (19.52)
+Inc dist to MA                             43.47                78.46                     n.a.                        n.a.
+                                          (49.93)              (46.97)
+Inc dist to MA > 250,000                   76.02                48.96                    93.23                        n.a.
+                                         (115.19)              (83.41)                  (93.26)
+Inc dist to MA > 500,000                   45.32                38.17                    36.87                         36.29
+                                          (68.95)              (59.87)                  (59.07)                       (73.34)
+Inc dist to MA > 1,500,000                 83.45                99.81                    78.54                         99.37
+                                         (106.24)             (119.29)                 (115.44)                      (139.88)
+Dist to nearest own tier                   42.60                50.26                    45.99                         33.53
+                                          (22.43)              (34.47)                  (44.38)                       (34.69)
+Population density                         23.01                61.14                   119.96                        793.46
+                                          (20.06)              (45.95)                 (123.82)                    (3,399.82)
+No. of counties                         1,300                  672                      416                           641
+
+Notes: The categories are determined using 2003 definitions.
+
+
+                                                                         Papers in Regional Science, Volume 88 Number 2 June 2009.
+464                                                                                                M.D. Partridge et al.
+
+
+                     Appendix Table 3. Dependent variable: 1990–2006 %D in US county population
+
+                                         Noncore Rural Areas   Micropolitan Areas       Small MAs          Large MAs
+
+Intercept                                        8.628              4.609              -12.677             65.602
+                                                (0.31)             (0.12)              (-0.24)             (1.45)
+Distance to nearest or actual                   -0.150**            0.200**              0.107              0.303**
+  urban center                                 (-7.85)             (2.13)               (1.28)             (3.61)
+Inc Dist to MA                                  -0.053**           -0.039**                n.a.               n.a.
+                                               (-4.82)            (-2.05)
+Inc Dist to MA > 250,000                        -0.041**           -0.037**             -0.095**               n.a.
+                                               (-4.72)            (-2.98)              (-5.16)
+Inc Dist to MA > 500,000                        -0.027**           -0.021               -0.050**            0.015
+                                               (-2.28)            (-1.26)              (-2.46)             (0.53)
+Inc Dist to MA > 1,500,000                      -0.015**            0.006               -0.060**           -0.008
+                                               (-2.45)             (0.63)              (-3.27)            (-0.55)
+Dist to nearest own tier                        -0.014              0.034                0.065**            0.013
+                                               (-0.53)             (1.25)               (2.63)             (0.36)
+Population density                              -0.014             -0.027               -0.037**            0.001**
+                                               (-0.30)            (-1.22)              (-3.85)             (2.30)
+Pop of nearest or actual                         1.2E–05*          -3.2E–05              7.4E–05**         -9.3E–07
+  urban center                                  (1.93)            (-0.98)               (3.13)            (-1.37)
+Inc pop of nearest MA                            7.5E–07           -3.8E–07              n.a.               n.a.
+                                                (0.61)            (-0.28)
+Inc pop of MA > 250 k                           -5.1E–08           -6.3E–07              1.4E–06            n.a.
+                                               (-0.05)            (-0.63)               (1.64)
+Inc pop of MA > 500 k                           -4.4E–07           -2.1E–07             -5.0E–07           -9.1E–07
+                                               (-0.67)            (-0.35)              (-0.66)            (-1.44)
+Inc pop of MA > 1,500 k                         -2.8E–07           -3.0E–07              4.9E–07           -8.6E–07**
+                                               (-0.90)            (-1.13)               (0.78)            (-2.25)
+Pop in surrounding counties                     -4.8E–07            1.9E–07             -8.4E–07            5.5E–07
+                                               (-1.23)             (0.25)              (-1.41)             (1.20)
+Weather/Amenitya                                   Y                  Y                     Y                  Y
+Economic/Demographicb                              Y                  Y                     Y                  Y
+Surrounding Econ/Demogc                            Y                  Y                     Y                  Y
+State fixed effects (FE)                           Y                  Y                     Y                  Y
+R2                                               0.61               0.61                 0.61               0.60
+No. of counties                              1,300                672                  416                641
+F–statistic
+   All MA pop = 0                                 2.43**             0.31                2.26*              0.94
+   Inc MA pop = 0                                 0.46               0.17                0.92               1.39
+   Inc distance to MA = 0                        10.85**             3.14**              6.99**             0.43
+
+Notes: Robust t–statistics from Conley (1999) estimator are in the parentheses.
+A ** or * indicates significant at ⱕ5% or ⱕ10% level respectively.
+N = not included, Y = included.
+a
+  sunshine hours, January temp, July humidity, typography, amenity ranking, and percent water area.
+b
+  1989 median household income, 1990–2000 industry mix emp. growth, 1990 unemp. rate, 1990 share ag. emp., 1990
+share goods emp., 6 age-distribution variables for 1990, 4 education categories for 1990, 5 race/ethnicity variables for
+1990, and percentage of population immigrated during 1985–1990.
+c
+  weighted average 1989 median household income, 1990–2000 industry mix emp. growth, and 1990 unemp. rate in
+surrounding counties within a BEA region.
+
+
+
+References
+
+Bartik, TJ (1991) Who benefits from state and local economic development policies? W. E. Upjohn Institute for
+     Employment Research, Kalamazoo, MI
+Black D, Henderson V (2003) Urban evolution in the USA. Journal of Economic Geography 3: 342–372
+
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+New Economic Geography agglomeration shadows                                                                               465
+
+
+Blanchard OJ, Katz LF (1992) Regional evolutions. Brookings Papers on Economic Activity 1: 1–75
+Blomquist G, Berger M, Hoehn J (1988) New estimates of the quality of life in urban areas. American Economic Review
+     78: 89–107
+Bound J, Holzer HJ (2000) Demand shifts, population adjustments, and labor market outcomes in the 1980s. Journal of
+     Labor Economics 18: 20–54
+Brülhart M (1998) Economic geography, industry location and trade: The evidence. The World Economy 21: 775–801
+Brülhart M, Koenig P (2006) New Economic Geography meets Comecon. Economics of Transition 14: 245–267
+Christaller W (1933) Central places in Southern Germany. Translated from Die Zentralen Orte in Süddeutschland by
+     Charles W. Baskin. Prentice Hall, Englewood Cliffs, NJ
+Combes P–P (2000) Economic structure and local growth: France, 1984–1993. Journal of Urban Economics 47:
+     329–355
+Conley TG (1999) GMM estimation with cross sectional dependence. Journal of Econometrics 92: 1–45
+Davis D, Weinstein D (2002) Bones, bombs, and break points: The geography of economic activity. American Economic
+     Review 92: 1269–1289
+Desmet K, Fafchamps M (2005) Changes in the spatial concentration of employment across US counties: A sectoral
+     analysis 1972–2000. Journal of Economic Geography 5: 261–284
+Dobkins LH, Ioannides YM (2001) Spatial interactions among cities. Regional Science and Urban Economics 31:
+     701–731
+Duranton G (2007) Urban evolutions: The fast, the slow, and the still. American Economic Review 97: 197–221
+Eaton J, Eckstein Z (1997) Cities and growth: Theory and evidence from France and Japan. Regional Science and Urban
+     Economics 27: 443–474
+Eeckhout J (2004) Gibrat’s law for (all) cities. American Economic Review 94: 1429–1451
+Fujita M (1988) A monopolistic competition model of spatial agglomeration. Regional Science and Urban Economics
+     18: 87–124
+Fujita M, Mori T (1997) Structural stability and evolution of urban systems. Regional Science and Urban Economics 27:
+     399–442
+Fujita M, Krugman P, Mori T (1999) On the evolution of hierarchical urban systems. European Economic Review 43:
+     209–251
+Fujita M, Thisse J–F (1996) Economics of agglomeration. Journal of the Japanese and International Economies 10:
+     339–378
+Glaeser EL (1997) Are cities dying? Journal of Economic Perspectives 12: 139–160
+Glaeser EL, Maré DC (2001) Cities and skills. Journal of Labor Economics 19: 316–342
+Glaeser EL, Kohlhase JE (2004) Cities, regions and the decline of transport costs. Papers in Regional Science 83:
+     197–228
+Glaeser EL, Kolko J, Saiz A (2001) Consumer city. Journal of Economic Geography 1: 27–50
+Graves P, Mueser P (1993) The role of equilibrium and disequilibrium in modeling regional growth and decline:
+     A critical reassessment. Journal of Regional Science 33: 69–84
+Hanson GH (1997) Increasing returns, trade and the regional structure of wages. Economic Journal 107: 113–133
+Hanson GH (2001) Scale economies and geographic concentration of industry. Journal of Economic Geography 1:
+     255–276
+Head K, Mayer T (2004) The empirics of agglomeration and trade. In: Henderson V, Thisse JF (eds) Handbook of
+     regional and urban economics. Vol. 4. Elsevier, San Diego
+Head K, Mayer T (2006) Regional wage and employment responses to market potential in the EU. Regional Science and
+     Urban Economics 36: 573–594
+Helpman E (1998) The size of regions. In: Pines D, Sadka E, Zilcba I (eds) Topics in public economics: Theoretical and
+     applied analysis. Cambridge, Cambridge University Press
+Ioannides YM, Overman HG (2004) Spatial evolution of the US urban system. Journal of Economic Geography 4:
+     131–156
+Knaap T (2006) Trade, location, and wages in the United States. Regional Science and Urban Economics 36: 595–612
+Krugman P (1991) Increasing returns and economic geography. Journal of Political Economy 99: 483–499
+Krugman P (1993) First nature, second nature, and metropolitan location. Journal of Regional Science 33: 129–144
+Lucas RE, Rossi–Hansberg E (2002) On the internal structure of cities. Econometrica 70: 1445–1476
+McCann P (2002) Classical and neo–classical location production models. In: McCann P (ed) Industrial location
+     economics. Edward Elgar, Cheltenham
+McCann P (2007) Sketching out a model of innovation, face–to–face interaction and economic geography. Spatial
+     Economic Analysis 2: 117–134
+McCann P, Shefer D (2004) Location, agglomeration and infrastructure. Papers in Regional Science 83: 177–196
+Mueser P, Graves P (1995) Examining the role of economic opportunity and amenities in explaining population
+     redistribution. Journal of Urban Economics 37: 176–200
+
+
+
+                                                                       Papers in Regional Science, Volume 88 Number 2 June 2009.
+466                                                                                           M.D. Partridge et al.
+
+
+Partridge MD, Rickman DS (2003) Do we know economic development when we see It? The Review of Regional
+     Studies 33: 17–39
+Partridge MD, Rickman DS (2006) The geography of American poverty: Is there a role for place based policy? W.E.
+     Upjohn Employment Institute, Kalamazoo, MI
+Partridge MD, Rickman DS, Ali K, Olfert MR (2007) The landscape of urban influence on US county job growth.
+     Review of Agricultural Economics 29: 381–389
+Partridge MD, Rickman DS, Ali K, Olfert MR (2008a) The geographic diversity of US nonmetropolitan growth
+     dynamics: A geographically weighted regression approach. Land Economics 84: 241–266
+Partridge MD, Rickman DS, Ali K, Olfert MR (2008b) Lost in space: population dynamics in the American hinterlands
+     and small cities. Journal of Economic Geography 8: 727–757
+Roback J (1982) Wages, rents, and the quality of life. Journal of Political Economy 90: 1257–1278
+Rosenthal SS, Strange WC (2001) The determinants of agglomeration. Journal of Urban Economics 50: 191–229
+Rosenthal SS, Strange WC (2003) Evidence on the nature and sources of agglomeration economies. Prepared for the
+     Handbook of urban and regional economics, Vol. 4. Accessed from URL: www.rotman.utoronto.ca/~strange on 22
+     November, 2005
+Stelder D (2005) Where do cities form? A geographical agglomeration model for Europe. Journal of Regional Science
+     45: 657–680
+Tabuchi T, Thisse JF (2006) Regional specialization, urban hierarchy, and commuting costs. International Economic
+     Review 47: 1295–1317
+Takatsuka H, Zeng DZ (Forthcoming) Dispersion forms: An interaction of market access, competition, and urban costs.
+     Journal of Regional Science. Published online: 24 October 2008 DOI:10.1111/j1467-9787.2008.00588.x
+Venables AJ (1996) Equilibrium locations of vertically linked industries. International Economic Review 37: 341–359
+Wolf HC (1997) Patterns of intra– and inter–state trade. NBER Working Paper No. 5939
+
+
+
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+                                                                         doi:10.1111/j.1435-5957.2009.00211.x
+
+
+
+
+¿Son las sombras de aglomeración de la Nueva Geografía
+Económica la raíz de las dinámicas de población actuales de la
+jerarquía urbana?
+Mark D. Partridge, Dan S. Rickman, Kamar Ali, M. Rose Olfert,
+
+
+Resumen. Aunque la Nueva Geografía Económica (NEG, por sus siglas en inglés) ha sido
+utilizada ampliamente para explicar de modo formal el surgimiento del sistema urbano esta-
+dounidense, pocos estudios investigan su éxito en explicar las dinámicas de población actuales
+en un sistema urbano más establecido. Este estudio explora la posibilidad de que centros
+urbanos del mismo tamaño y de elevada magnitud afectó a los patrones de crecimiento pobla-
+cional en condados de los EE.UU. en 1990-2006. En lugar de proyectar sombras de aglomer-
+ación de acuerdo a la NEG sobre el crecimiento cercano, los centros urbanos más grandes
+parecen tener en general efectos de crecimiento positivos en lugares cercanos de menos de
+250,000 habitantes. Sin embargo, existen indicios de que las áreas urbanas más grandes
+proyectan sombras de crecimiento sobre áreas metropolitanas próximas de tamaño mediano y de
+competencia espacial entre áreas metropolitanas pequeñas.
+
+JEL classification: R11, R12
+
+Palabras clave: Nueva Geografía Económica, sombra de aglomeración, crecimiento de
+población, jerarquía urbana
+
+
+
+
+© 2009 the author(s). Journal compilation © 2009 RSAI. Published by Blackwell Publishing, 9600 Garsington Road,
+Oxford OX4 2DQ, UK and 350 Main Street, Malden MA 02148, USA.
+
+Papers in Regional Science, Volume 88 Number 2 June 2009.
+

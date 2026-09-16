@@ -1,0 +1,800 @@
+[PDF Metadata]
+Source PDF: journal/A14-de-vos-lindgren-van-ham-meijers-2020-does-broadband-internet-allow-cities-to-borrow-size-evidence-from-the-swedish-labour-market-10.1080-00343404.2019.1699238.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Does broadband internet allow cities to ‘borrow size’? Evidence from the Swedish labour market
+Subject:         Regional Studies, 2019. doi:10.1080/00343404.2019.1699238
+Keywords:        broadband internet; agglomeration economies; borrowed size; commuting; employment
+Author:          Duco de Vos
+Creator:         Arbortext Advanced Print Publisher 10.0.1465/W Unicode
+Producer:        iText 4.2.0 by 1T3XT
+CreationDate:    Wed Jan  8 20:28:04 2020 WIB
+ModDate:         Sat Jan 18 09:14:19 2020 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           13
+Encrypted:       no
+Page size:       634.32 x 833.04 pts
+Page rot:        0
+File size:       2830682 bytes
+Optimized:       no
+PDF version:     1.4
+[Extracted Text]
+      Regional Studies
+
+
+
+
+      ISSN: 0034-3404 (Print) 1360-0591 (Online) Journal homepage: https://www.tandfonline.com/loi/cres20
+
+
+
+
+Does broadband internet allow cities to ‘borrow
+size’? Evidence from the Swedish labour market
+
+Duco de Vos, Urban Lindgren, Maarten van Ham & Evert Meijers
+
+To cite this article: Duco de Vos, Urban Lindgren, Maarten van Ham & Evert Meijers (2020):
+Does broadband internet allow cities to ‘borrow size’? Evidence from the Swedish labour market,
+Regional Studies, DOI: 10.1080/00343404.2019.1699238
+
+To link to this article: https://doi.org/10.1080/00343404.2019.1699238
+
+
+
+
+       © 2020 The Author(s). Published by Informa
+       UK Limited, trading as Taylor & Francis
+       Group
+
+       View supplementary material
+
+
+
+       Published online: 09 Jan 2020.
+
+
+
+       Submit your article to this journal
+
+
+
+       Article views: 366
+
+
+
+       View related articles
+
+
+
+       View Crossmark data
+
+
+
+
+                      Full Terms & Conditions of access and use can be found at
+             https://www.tandfonline.com/action/journalInformation?journalCode=cres20
+REGIONAL STUDIES
+https://doi.org/10.1080/00343404.2019.1699238
+
+
+
+
+Does broadband internet allow cities to ‘borrow size’? Evidence
+from the Swedish labour market
+Duco de Vosa                     , Urban Lindgrenb                           , Maarten van Hamc                               and Evert Meijersd
+
+    ABSTRACT
+    Borrowed size refers to the idea that small cities near larger metropolitan centres can reap the advantages of large
+    agglomerations, but without the costs of agglomeration. The study explores whether broadband internet helps such
+    smaller cities to enjoy the labour market beneﬁts of a larger city. Using Swedish micro-data from 2007 to 2015,
+    together with unique data on broadband, suggestive evidence is found that broadband indeed allows smaller cities to
+    reap such beneﬁts. Borrowed size is primarily driven by the overall penetration of broadband in the place of residence,
+    rather than by broadband availability at the residence.
+    KEYWORD
+    broadband internet; agglomeration economies; borrowed size; commuting; employment
+
+
+JEL L96, O3, O18, R11
+HISTORY Received 8 March 2019; in revised form 11 November 2019
+
+
+INTRODUCTION                                                                               mechanisms that allow borrowed size to occur – just proxi-
+                                                                                           mity is stressed. Yet, there is evidence for integration and
+In 1973, William Alonso coined the concept of ‘borrowed                                    interaction between cities more generally playing a key
+size’, referring to the situation ‘whereby a small city or metro-                          role (e.g., Meijers, Hoogerbrugge, & Cardoso, 2018;
+politan area exhibits some of the characteristics of a larger                              Phelps, Fallon, & Williams, 2001) and a particular empha-
+one if it is near other population concentrations’ (Alonso,                                sis has also been put on data infrastructure allowing the
+1973, p. 200). He argued that to reap the beneﬁts of agglom-                               transfer of information. For instance, Phelps (1992,
+eration in large cities, it is often not necessary to locate in                            p. 44) notes that ‘information costs … have played an
+these cities themselves, but it sufﬁces to be within reasonable                            increasing role in constraining the geographical availability
+proximity. Recently, this concept has been used to explain                                 of external economies over time’; Dijkstra et al. (2013,
+why medium-sized cities in Europe do not perform worse                                     p. 334) argue that in Europe, ‘improvements in the access
+than the largest cities, contrary to the theory of agglomera-                              to services, including broadband, outside large cities may
+tion economies (Dijkstra, Garcilazo, & McCann, 2013;                                       have facilitated the higher growth rates of smaller centres
+Meijers & Burger, 2017). Even while large cities are increas-                              and rural regions’; and Hesse (2016, p. 617) even contends
+ingly perceived as engines of economic growth, it is argued                                that ‘borrowing size or signiﬁcance no longer relies on
+that Europe’s medium-sized cities can continue to ﬂourish,                                 physical proximity between the cities, but on embedded-
+provided they are within reasonable proximity of larger                                    ness in overarching networks between and within poly-
+urban areas (Dijkstra et al., 2013).                                                       centric city-regions, via corporate relations, market
+    In the original conceptualization of borrowed size                                     pervasion and, last but not least, information and com-
+(Alonso, 1973), not much attention is paid to the                                          munication networks’. Thus, the idea that broadband
+
+
+
+CONTACT
+a
+  (Corresponding author)              d.w.devos@tudelft.nl
+Faculty of Architecture and the Built Environment, Delft University of Technology, Delft, the Netherlands.
+b
+     urban.lindgren@umu.se
+Department of Geography and Economic History, Umeå University, Umeå, Sweden.
+c
+     m.vanham@tudelft.nl
+Faculty of Architecture and the Built Environment, Delft University of Technology, Delft, the Netherlands; and School of Geography and Sustainable
+Development, University of St Andrews, St Andrews, UK.
+d
+     e.j.meijers@tudelft.nl
+Faculty of Architecture and the Built Environment, Delft University of Technology, Delft, the Netherlands.
+    Supplemental data for this article can be accessed at https://doi.org/10.1080/00343404.2019.1699238
+
+© 2020 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted
+use, distribution, and reproduction in any medium, provided the original work is properly cited.
+2    Duco de Vos et al.
+
+
+
+internet and borrowed size are related is pervasive, but to      LITERATURE REVIEW
+date there is no empirical work that investigates this
+relationship. The main aim of the present paper is to ﬁll        Borrowed size in labour markets
+in this gap.                                                     Alonso (1973) understood borrowed size as a process in
+    We expect the effects of the local availability of broad-    which small places have some characteristics of larger
+band internet on borrowed size to be highly pronounced           nearby cities. Meijers and Burger (2017) distil ﬁve features
+when it comes to labour market relations. High-speed             of borrowed size from Alonso’s original description. Bor-
+internet allows workers to live further from spatial concen-     rowed size is (1) an analytical concept, (2) concerning
+trations of employment opportunities. This may arise             small cities, (3) in geographical proximity of larger metro-
+because broadband internet enables people to work from           politan areas, (4) that retain the advantages of smaller cities
+home one or more days per week, which in turn makes              but enjoy the beneﬁts of agglomeration nearby (5) through
+them accept longer commutes on the other days (de Vos,           accessibility and network connectivity. Broadband connec-
+Meijers, & van Ham, 2018). In addition, high-speed               tions are a clear example of infrastructure that allows for
+internet allows for a more efﬁcient (online) job-search pro-     both accessibility and network connectivity. It appears rel-
+cess (Autor, 2001), for instance because ‘word of mouth’ on      evant to distinguish an accessibility effect for individuals,
+labour market opportunities is moving online, and because        which can be captured with broadband availability at the
+a speciﬁc search for jobs in a particular place is now often     residential location, and a network connectivity effect
+replaced with search for jobs within a certain radius. Like-     that affects the local economy, which can be captured by
+wise, this gives entrepreneurs more freedom to settle in         the share of broadband connections in the place of
+smaller cities. Phelps et al. (2001) show that ﬁrms can          residence.
+locate to small towns while still accessing specialized labour       As mentioned in the introduction, several authors
+and informational external economies of larger nearby            suggest that borrowed size can be derived from fast internet
+places. This all increases labour market accessibility overall   (Dijkstra et al., 2013; Hesse, 2016; Phelps, 1992). We
+and may lead to higher employment rates, especially in           expect the effect of broadband internet on borrowed size
+smaller cities at some distance from larger metropolitan         to be most pronounced when it comes to labour market
+areas.                                                           outcomes. As Alonso (1973) put it, labour markets of
+    The present paper analyses the relation between              small cities in large metropolitan regions ‘enjoy a wider
+broadband internet and labour market outcomes across             and more ﬂexible range of demand and supply’ (p. 200)
+space more in detail. It uses a unique data set that traces      than isolated cities, but in the literature on borrowed size
+the spatial diffusion of broadband internet technologies         labour market outcomes has received little attention com-
+in Sweden between 2007 and 2015, and it combines                 pared with outcomes for business services (Phelps, 1998;
+this with register data on all Swedish working-age indi-         Phelps et al., 2001) and access to urban functions such as
+viduals. We ﬁrst assess whether broadband internet               shopping and leisure amenities (Meijers & Burger, 2017;
+improved labour accessibility outside of Sweden’s large          Meijers, Burger, & Hoogerbrugge, 2015). Therefore, in
+cities. Second, we assess whether the local introduction         this paper we measure whether broadband enables bor-
+of broadband leads to higher employment rates outside            rowed size by looking at the differential effects of broad-
+of the largest cities.                                           band on employment rates across urban and non-urban
+    In our empirical approach we distinguish between the         areas.
+effect of broadband availability at the residence location           With borrowed size likely being a result of interaction
+and place level. The former measure should pick up broad-        between cities, it makes sense to consider commuting as
+band effects on individual labour market decisions, whereas      an enabler of borrowed size on the labour market, with
+the latter should pick up effects on the local economic          different effects on the level of individuals and of places.
+environment. We estimate the effects of changes in broad-        On the individual level, we expect longer commutes as
+band on changes in labour market outcomes – commuting            high-quality internet is a precondition for working from
+and employment – using ﬁxed effects models. Because it           home. Interestingly, recent evidence conﬁrms the long-
+takes time for people to adapt their labour market status        standing hypothesis that home-based teleworking using
+to a new situation, we focus on the effect of broadband          the internet leads to longer commutes, and an increased
+two years after its introduction. To uncover potential ‘bor-     geographical scale of labour markets for several different
+rowed size’ interactions, we allow the effects of broadband      jobs. Using data from the Netherlands, de Vos et al.
+to differ between urban cores, urban regions and rural           (2018) ﬁnd that working from home at least two days per
+regions, and across distance from the nearest urban core.        month allows people to accept a 5% longer commute,
+    The paper is structured as follows. In the literature        and over time this can increase to 32%. This means that
+review, we discuss the literatures that deal with interactions   for those able to work from home,1 labour market accessi-
+between information technology (IT), borrowed size,              bility increases signiﬁcantly with the advent of broadband
+ommuting, and local economic performance. Next, we               internet. On the place level, it could be that commuting
+introduce the data. The methodology section discusses            distances actually decrease. On the one hand, broadband
+the empirical approach in more detail. We then present           internet allows the beneﬁts of agglomeration to spread
+the results; the ﬁnal section concludes.                         over a larger territory, enabling ﬁrms to locate in smaller
+
+
+REGIONAL STUDIES
+                              Does broadband internet allow cities to ‘borrow size’? Evidence from the Swedish labour market   3
+
+
+
+places at some distance from larger cities, and perhaps clo-      outside core regions (Mack & Grubesic, 2009; Sohn,
+ser to workers, while still being able to tap into the agglom-    Kim, & Hewings, 2003). More recent research highlights
+eration beneﬁts of the larger city. On the other hand,            the manner in which broadband technologies substitute
+broadband internet may lead to a more efﬁcient job-search         the agglomeration beneﬁts of large cities in rural and
+process that eliminates the extent of excess commuting.           remote areas. For instance, Mack (2014) ﬁnds that broad-
+This may especially be relevant in large cities with a lot        band is correlated with the presence of agricultural and
+of employment opportunities, and possibilities to shorten         rural ﬁrms, in line with the hypothesis that IT substitutes
+the commute. By assessing the direct, reduced-form relation       face-to-face contact.
+between internet connections and commuting distance, the              Atasoy (2013) is perhaps most similar to the current
+current paper also adds to the literature on teleworking and      study. That study estimates the effect of broadband expan-
+commuting.                                                        sion on labour market outcomes in the United States
+                                                                  between 1999 and 2007. In this study broadband pen-
+Local performance and IT                                          etration is measured as the share of the county population
+While there are no studies on the relationship between            living in an area where broadband internet is available.
+internet and borrowed size, several studies investigated to       The main ﬁnding is that broadband is associated with a
+what extent advances in digital technology complement             1.8 percentage point higher employment rate, with larger
+or substitute agglomeration economies (Gaspar & Glaeser,          effects in more remote areas.
+1998; Sinai & Waldfogel, 2004). These studies focused on              We add to the literature on the relation between inter-
+the effects on product variety, and the importance of face-       net and employment by paying attention to potential het-
+to-face contact, but the effects of information technology        erogeneous effects across space. Speciﬁcally, we allow the
+on labour market outcomes have been ignored. However,             effect of internet connections on employment to differ
+there are studies that go into the relationship between           between urban, suburban and rural areas, and assess the
+information technology and more efﬁcient matching on              intermediating effect of distance to urban cores. We ana-
+the labour market, without reference to spatial issues.           lyse the effect of broadband availability on employment at
+Autor (2001) discusses the potential consequences of              a ﬁner geographical scale than Atasoy (2013) and, impor-
+improved worker–ﬁrm communications through the inter-             tantly, we disentangle the effects of broadband penetration
+net, stressing the effect on matching between employers           at the level of places and broadband availability at the resi-
+and employees. He provides several arguments of why               dential location.
+search costs in the labour market are lower when using
+the internet. One of the main ﬁndings of basic labour mar-        Hypotheses
+ket search theory is that lowering the cost of ﬁnding a job       Here we deﬁne our hypotheses for the effects of broadband
+increases productivity through higher match quality.              on commuting and employment, and what we interpret as
+    While there are several empirical studies on the link         evidence for borrowed size. First, based on the working-
+between the internet and (labour) productivity, only a lim-       from-home mechanism (de Vos et al., 2018), we expect
+ited number of studies have taken the proposed relationship       residential broadband availability to increase commuting
+between the internet and better matching to the data, with        distances. We also expect a positive effect on employment
+inconclusive results. Kuhn and Skuterud (2004) use data           rates, because distant employment opportunities become
+from the 1998 and 2000 US Current Population Survey               more accessible. Second, we expect that as place-level
+and ﬁnd that among online job searchers, unemployment             broadband rates increase, places become more attractive
+spells are not shorter, and possibly even longer than their       to ﬁrms, consistent with Phelps et al. (2001) and Mack
+ofﬂine counterparts. In contrast, a follow-up on this             and Grubesic (2009). This should lead to an increase in
+study that uses 2005–08 data ﬁnds that online searchers           local employment (Atasoy, 2013), and it may correlate
+ﬁnd jobs about 25% more quickly (Kuhn & Mansour,                  negatively with commuting because more people can ﬁnd
+2014). Kroft and Pope (2014) use the geographical pen-            a job nearby. Third, we consider it evidence of borrowed
+etration of the local advertising website Craigslist. They        size if the effects of broadband are largest at some distance
+ﬁnd evidence that Craigslist crowded out traditional job          from larger cities rather than close by, namely in places that
+advertising outlets, but they ﬁnd no effect on the unem-          were at the edge of labour market areas but that have
+ployment rate. Czernich (2014) uses an instrumental vari-         become more closely incorporated through broadband
+ables strategy based on technical constraints of telephone        internet. Note that borrowed size can either arise through
+connections to assess the effects of broadband penetration        workers being increasingly able to ﬁnd a job in the nearby
+on unemployment in Germany, and ﬁnds no signiﬁcant                city or through the place becoming more attractive for ﬁrms
+effect.                                                           to locate.
+    Research on the link between broadband provision and
+ﬁrm location behaviour does suggest that broadband is             DATA
+associated with new ﬁrm establishment. The strength of
+the relationship appears to vary over space (Tranos &             ASTRID data
+Mack, 2016) and over different industries (Mack & Gru-            We use longitudinal register data from the Swedish
+besic, 2009). Importantly, early research pointed out that        ASTRID database at Umeå University. The data include
+the urban bias of IT may have hampered ﬁrm location               all Swedish individuals aged 18–64 years, between 2007
+
+                                                                                                               REGIONAL STUDIES
+4    Duco de Vos et al.
+
+
+
+and 2015, with information on earnings, education, demo-         Using this cut-off point we may measure the employment
+graphics, residential location and workplace data, including     rate with an error, because, for instance, students or part-
+ﬁrm and establishment identiﬁcation, location, industry,         time workers may be considered unemployed. However,
+sector and size.                                                 as the cut-off point is lower than the lowest collectively
+    The earnings variable denotes annual income from             agreed income (Andersson Joona & Wadensjö, 2013), we
+working. Education levels are given according to the Svensk      do not expect the error to differ between years. Therefore,
+Utbildningsnomenklatur (SUN). This classiﬁcation includes        we expect the measurement error related to changes in the
+seven levels that range from primary school to doctorate-        employment rate to be limited. The distribution of this
+level education. Demographic variables include sex and           variable is shown in Figure 1(b).
+age. The residential location is available with great geo-           Using the ASTRID data, we measure aggregate socio-
+graphical detail, with an accuracy of 100 m. We recode           economic indicators and industrial structure at the level of
+the data to 250*250 m grid cells so they can easily be           local labour market areas (lokala arbetsmarknadsregioner of
+matched to the grid level data of broadband availability.        Funktionell analysregion regions). This regional division
+For every worker we have ID variables for both the estab-        was constructed by the Swedish Agency for Economic
+lishment and the ﬁrm at which the worker works. A unique         and Regional Growth (Tillväxtverket) and consists of 60
+feature of the ASTRID data is that there is information on       regions. Note that this regional division covers the whole
+the location of the exact workplace, which is especially         of Sweden, and is different from the functional urban
+relevant for multi-plant ﬁrms. Industry information is           area (FUA) deﬁnition we use to delineate cities and their
+available according to the Standard för Svensk näringsgren-      hinterlands. On average, these labour market regions
+sindelning 2007 (SNI 2007), which corresponds with inter-        have a working-age population of 100,000.
+national standards. We take into account two digits, so we
+end up with 21 industries.                                       Broadband data
+    We use the register data to construct relevant control       Broadband penetration data come from annual surveys of
+variables, and to measure commuting and employment.              internet suppliers, conducted by the Swedish Post and Tel-
+Having both information on residential and work locations        ecom Authority (PTS) starting from 2007. The internet
+allows one to calculate the (Euclidean) commuting distance       suppliers are requested to produce a list of all addresses
+for every working individual. The Euclidean measure of           that have a connection, by connection type. These data
+distance may introduce a measurement error, but it is not        are used by the PTS to construct a geographically refer-
+clear in which direction, because short distances are gener-     enced data set that expresses the availability of broadband
+ally associated with lower travel speeds (Duranton & Over-       internet in 250*250 m grid cells. Broadband internet is
+man, 2005). However, Combes and Lafourcade (2005)                considered available if at least one address in a grid cell
+show that Euclidean distance correlates strongly (0.97)          has a broadband connection. We use data on the number
+with generalized transportation costs, so we do expect           of addresses in each grid to construct a measure of broad-
+this measurement error to be limited. For every grid cell        band penetration for each grid. Figure 2 shows time vari-
+we record the average commuting distance of all working          ation in the penetration rate of different internet
+individuals. The distribution of this variable is shown in       technologies across grid cells in Sweden. While DSL access
+Figure 1(a).                                                     (high-speed internet through telephone lines) is almost
+    We measure the employment rate at the level of grid          ubiquitous, 3G mobile access has increased signiﬁcantly
+cells, and following Andersson Joona and Wadensjö                between 2007 and 2009, and broadband access through
+(2013) we deﬁne every individual with an annual income           cable and glass ﬁbre has increased in the years after, with
+higher than 160,000 SEK (about €15,000) as employed.             a signiﬁcant bump after 2014.
+
+
+
+
+Figure 1. Distributions of (a) commuting distance and (b) employment rate across grid cells.
+
+REGIONAL STUDIES
+                                Does broadband internet allow cities to ‘borrow size’? Evidence from the Swedish labour market    5
+
+
+
+                                                                    METHODOLOGY
+
+                                                                    To investigate the effect of broadband availability on com-
+                                                                    muting and employment rates, we aggregate the data to the
+                                                                    level of 250 *250 m grid cells and we assess whether access
+                                                                    to broadband is associated with the outcomes. To estimate
+                                                                    the effect of time variation in broadband availability on time
+                                                                    variation in outcomes, we use a ﬁxed effects model. The
+                                                                    models are speciﬁed as follows:
+
+                                                                                               p
+                                                                           Ogt = aBgt
+                                                                                   r
+                                                                                      + bBlt + gXglrt + hg + ut + egt            (1)
+
+                                                                    where Ogt denotes the outcome (commuting distance or
+Figure 2. Penetration of different internet technologies.           employment) in grid cell g at time t; Br is a residential
+                                                                    broadband dummy; Bp is the place-level broadband pen-
+    The main results are based on a dummy variable that             etration rate; Xglrt are control variables at the grid cell,
+indicates any ﬁxed connection at the residential location           place and regional level; hg are grid cell ﬁxed effects; ut
+(DSL, cable or glass ﬁbre). While according to the Bred-            are time ﬁxed effects; and e is the error term.
+bandskartläggning report of 2011 (Swedish Post and Tele-                To assess whether the effects are larger in areas sur-
+com Authority, 2012) the average speed of DSL is slower             rounding large cities, we estimate a model including inter-
+than the speed of cable and ﬁbre (14 versus 100 mbit/s),            actions between broadband and an indicator for urban core,
+in the sensitivity analysis we show that models based on            urban hinterland and rural region. We deﬁne these areas
+the fastest ﬁxed connection deliver similar results, and the        using the Organisation for Economic Co-operation and
+effects of DSL and cable/ﬁbre are comparable. In our                Development’s (OECD) FUA deﬁnition.2 It is somewhat
+models, we also estimate the effect of the introduction of          unfortunate that these FUAs are deﬁned from a mono-
+mobile internet. Because of the limited speed (6.5 mbit/            centric perspective, deﬁning the commuting zone of a
+s), we expect 3G internet to have a smaller effect on work-         single city. These zones sometimes touch each other,
+ing from home and the attractiveness of places for business,        while in reality they probably overlap to some extent
+and thus a smaller effect on commuting and employment.              (e.g., Linköping and Norrköping; see Figure A1 in Appen-
+                                                                    dix A in the supplemental data online). However, the
+                                                                    OECD’s deﬁnition has the important advantage of being
+Summary statistics                                                  readily available and consistent, which allows the reproduc-
+Table 1 shows the summary statistics. The average employ-           tion of results. Finally, we interact the broadband variables
+ment rate in grid cells is about 64%. This is consistent with       with a more ﬂexible measure of urbanization based on dis-
+other sources, for instance the Swedish Labour Force Sur-           tance to the nearest FUA.
+vey of 2017 reports an employment rate of 67.6%. The                    There are several identiﬁcation problems when analys-
+average commuting distance in grid cells is 23.6 km,                ing the relationship between broadband internet and com-
+which is slightly higher than usual values reported in the lit-     muting distance and employment rates. First, there may be
+erature because low-density grid cells (with longer commu-          omitted variables that correlate with both broadband adop-
+tes) have equal weights as high-density grid cells.                 tion and the outcomes, without there being a direct causal
+Broadband penetration levels are close to 100% on average           relationship. For instance, the introduction of broadband
+in both grid cells and in places, but especially at the grid cell   in a place may be part of a larger development project,
+level there is still a lot of variation. Table 1 also reports a     that may include new infrastructure or new housing. We
+summary of control variables at the grid cell level and at          tackle this issue to a large extent by controlling for several
+the local labour market level. These control variables are          variables, including income and population at the level of
+similar to the ones used in Atasoy (2013). At the level of          grid cells, and a socioeconomic indicators and industrial
+grid cells, we include population and median income to              structure at the level of local labour market areas. Speciﬁ-
+control for the effects of population dynamics that may             cally, changes in broadband availability in grid cells may
+coincide with, or even cause, broadband adoption. At the            be correlated with broadband penetration in the place of
+level of local labour markets, we include variables on demo-        residence, so the broadband indicator may pick up on
+graphic structure, education and ﬁrm dynamics to control            effects of broadband penetration on the local economy.
+for changes in demographic and economic structure that              Therefore, we include broadband penetration at the level
+may coincide with broadband expansions. Since broadband             of the place3 to which the grid cell belongs to isolate the
+internet has been more common in urban areas, we include            effect on personal outcomes from the effects of broadband
+the share of urban population as a control variable. Omitted        availability on the local structure of the economy. We
+from Table 1 are 21 variables that indicate employment              report the effects of both variables, where the effects of resi-
+shares in different industries, which should control for            dential broadband are more likely to be causal. The effects
+further changes in economic structure.                              of the place level broadband rate should be interpreted with
+
+                                                                                                                 REGIONAL STUDIES
+6     Duco de Vos et al.
+
+
+
+Table 1. Summary statistics.
+                                                     (1)                        (2)                         (3)               (4)
+Variables                                           Mean                        SD                       Minimum            Maximum
+250 m grid cell
+Employment rate                                      0.639                    0.208                          0                   1
+Avg. commuting distancea                             23.60                    29.06                       0.0354               500.0
+Broadband (res.)                                     0.975                    0.158                          0                   1
+Cable/ﬁbre (res.)                                    0.393                    0.489                          0                   1
+DSL (res.)                                           0.581                    0.493                          0                   1
+Mobile (3G)                                          0.926                    0.262                          0                   1
+Population                                           53.29                    111.3                          1                 3058
+Median income                                      238,005                   105,639                        0               11,353,600
+
+Place
+Broadband (place)                                    0.986                    0.0826                        0                    1
+DSL (place)                                          0.490                    0.383                         0                    1
+Cable/ﬁbre (place)                                   0.496                    0.383                         0                    1
+
+Labour market area
+Share male                                           0.510                   0.00681                      0.501                0.548
+Share low educated                                  0.0308                    0.0101                     0.00706              0.0591
+Share medium educated                                0.185                    0.0257                      0.115                0.282
+Share high educated                                  0.520                    0.0447                      0.447                0.648
+Share college educated                               0.250                    0.0526                      0.121                0.344
+Share young                                          0.297                    0.0147                      0.241                0.360
+Share old                                            0.299                    0.0295                      0.257                0.421
+Number of ﬁrms                                      39,647                    49,448                       190              147,185
+Total payroll (in millions)                         11,514                    15,028                  21.00                 48,840
+Employees/establishment (avg.)                       8.555                     1.040                  4.190                    11.14
+Population                                         495,546                   587,662                1,588                   1,720,469
+Urban population                                   242,294                   327,414                    0                   955,805
+Income                                              23,267                     2499                 10,710                  32,160
+N                                                                                            871,688
+Note: aOwing to grid cells without employment, there are only 837.368 commuting distance observations.
+
+
+
+some caution due to potential confounders such as new                      Sweden by 2025’ (Government Ofﬁces of Sweden,
+infrastructure or housing projects.                                        2017). While the effort of communities for broadband
+    Second, commuting behaviour and employment levels                      initiatives may not be random, the timing of these initiat-
+may also drive broadband adoption, instead of the other                    ives, and of the arrival of broadband in rural municipalities
+way around. We tackle this issue to a large extent by taking               (in one year or the next) may have an element of random-
+the two-year lag of broadband (penetration) as our inde-                   ness, which increases the likelihood that our estimates can
+pendent variable of interest. It should be noted that we ana-              be interpreted as causal effects. To the extent that local
+lyse the effects of changes in broadband penetration on                    effort is endogenous, our results should be interpreted as
+changes in employment rates and commuting. Although                        upper bounds of the effect of broadband introduction.
+current and future outcomes may be correlated, it is less
+straightforward that future changes in these outcomes                      RESULTS
+drive current changes in broadband penetration.
+    Finally, the institutional setting in Sweden is such that              Broadband and labour market outcomes
+broadband adoption is not dependent on market forces                       Our ﬁrst hypothesis wat that residential broadband avail-
+alone. Public funding supports broadband initiatives of                    ability increases commuting distances as it enables working
+rural municipalities that lack commercial incentives to                    from home, and increases employment rates because dis-
+invest.4 Sweden’s wish to provide broadband to all its citi-               tant employment opportunities become more accessible.
+zens is one of the main reasons for the existence of the                   Table 2 shows the results of six regression models with
+broadband data that we use, and it is reﬂected in the recent               commuting distance (columns (1–3)) and the employment
+broadband strategy titled ‘A Completely Connected                          rate (columns (4–6)) as dependent variables. In all models
+
+REGIONAL STUDIES
+                   Table 2. Regression results.
+                                                                              (1)                            (2)                           (3)                            (4)                              (5)                             (6)
+                   Variables                                                                    Commuting distance                                                                               Employment rate
+                   Broadband (res.) (t)                                  −1.721***                                                                                   0.00843***
+                                                                          (0.302)                                                                                     (0.00141)
+                   Broadband (res.) (t − 2)                                                             −1.149***                        −0.708                                                        0.00344*                         0.00117
+                                                                                                         (0.377)                         (0.431)                                                       (0.00177)                       (0.00201)
+                   Broadband (place) (t − 2)                                                                                           −1.750**                                                                                        0.00920**
+                                                                                                                                        (0.826)                                                                                        (0.00389)
+                   Mobile (3G) (t)                                        0.480***                                                                                    0.00122*
+                                                                           (0.140)                                                                                   (0.000678)
+                   Mobile (3G) (t − 2)                                                                   −0.0505                        −0.0741                                                      0.00206***                       0.00219***
+                                                                                                         (0.143)                        (0.144)                                                      (0.000685)                       (0.000687)
+                   Constant                                                −203.1                        −263.0*                        −260.0                         −0.0541                         1.702**                          1.686**
+                                                                           (137.7)                       (158.6)                        (158.6)                        (0.669)                         (0.763)                          (0.763)
+                   Control variables                                        Yes                             Yes                           Yes                            Yes                              Yes                             Yes
+                   Year and grid cell ﬁxed effects                          Yes                             Yes                           Yes                            Yes                              Yes                             Yes
+                   Observations                                           825,353                         634,033                       634,033                        844,449                          646,345                         646,345
+                   R2                                                       0.530                          0.579                          0.579                          0.732                           0.764                            0.764
+                   Note: Standard errors are shown in parentheses. ***p < 0.01, **p < 0.05, *p < 0.1. Control variables include Population (log) and Income (log) at the grid cell level, and Population (log), Income (log), Share urban population,
+                   Share male, Share lower, medium, higher and college educated, Share young and old, Number of establishments, Number of employees per establishment, aggregate income and 21 industry share variables at the level of labour
+                   market areas. For the full regression results, see Tables A1 and A2 in Appendix A in the supplemental data online.
+                                                                                                                                                                                                                                                        Does broadband internet allow cities to ‘borrow size’? Evidence from the Swedish labour market
+
+
+
+
+                                                                                                                                                                                                                                                                7
+REGIONAL STUDIES
+8    Duco de Vos et al.
+
+
+
+observations correspond to grid cells. As our control vari-      Moving from no connections to 100% connectivity
+ables at the local labour market level have several multicol-    increases employment by 0.9 percentage points, about
+linearity problems that affect their coefﬁcients, we only        1.4% of the average employment rate. Across these three
+focus on the effects of our independent variables of interest,   models, 3G introduction has a positive and signiﬁcant
+that have consistently low variance inﬂation factor (VIF)        but small effect on employment rates.
+values. Column (1) shows a regression of commuting dis-              In summary, we ﬁnd that overall, changes in the avail-
+tance in year t on the broadband indicator in the same           ability of broadband internet affect commuting distance
+year. According to this model, the introduction of broad-        negatively and employment rates positively. These effects
+band internet in a grid cell coincides with a 1.7 km decrease    are primarily driven by the penetration of broadband in
+in commuting distance on average. This model also shows          the place of residence, rather than by the availability of
+that the introduction of 3G internet correlates positively       broadband at the residence. The effect on commuting dis-
+with commuting distance. The high r 2 of 0.530 is mainly         tance is relatively small: every 10 percentage point increase
+due to the ﬁxed effects. Table A1 in Appendix A in the           in broadband connection is associated with an average
+supplemental data online shows that a model without con-         decrease of 0.18 km in commuting distance. Our estimate
+trol variables has an r 2 of 0.525.                              of the effect of residential broadband availability on
+    In column (2) we take the two-year lag of the broad-         employment is lower than the estimates by Atasoy (2013)
+band indicator and the mobile (3G) variable. As argued           (0.8 versus 1.8 percentage point). This may be because
+in the methodology section, changes in commuting dis-            the estimates of Atasoy (2013) refer to the period 1999–
+tance and employment may cause broadband adoption                2007, and regions that stand to gain most from broadband
+rather than the other way around, but it is unlikely that cur-   may be expected to connect earlier rather than later. When
+rent changes in these behaviours affect broadband adoption       taking lags and controlling for the place-level broadband
+in the past. According to this model, the introduction of        rate, mobile (3G) internet does not affect commuting dis-
+broadband in year t − 2 coincides with a decrease in com-        tance, but it has a small effect on the employment rate.
+muting distance of 1.15 km on average in year t. The effect
+of 3G internet is not signiﬁcant.                                Broadband and borrowed size
+    The ﬁndings of these models run counter to our ﬁrst          In the preceding section we have assumed that broadband
+hypothesis. Most likely, broadband availability at the resi-     affects commuting and employment similarly across the
+dence in grid cells is correlated with the overall broadband     urban hierarchy and across space. However, this is not
+penetration in a place. Therefore, our broadband variable        straightforward, for instance if there are interaction effects
+may pick up on the effect of broadband on local economic         between information technology, agglomeration and bor-
+structure and business climate (Eriksson, Hansen, &              rowed size (Gaspar & Glaeser, 1998; Hesse, 2016; Sinai
+Lindgren, 2014). Especially outside of central cities, broad-    & Waldfogel, 2004). Our third hypothesis stated that the
+band availability may improve the business environment           effects of broadband are largest at some distance from lar-
+and attract more ﬁrms (which results in higher employ-           ger cities rather than close by, namely in places that were at
+ment, our second hypothesis). This may explain why we            the edge of labour market areas, but that have become more
+ﬁnd a negative effect of broadband on commuting, as a            closely incorporated through broadband internet. Table 3
+higher share of people may be able to ﬁnd employment             estimates the models again, taking into account this spatial
+locally rather than further away. In column (3), therefore,      heterogeneity in two ways. First, by allowing the effect of
+we include the two-year lag of place-level broadband pen-        the availability of broadband to differ between urban
+etration (share of connected individuals in places) as an        cores, the remainder of their urban regions, and rural
+additional independent variable. Consistent with our             areas. Second, by allowing the effect of broadband to
+hypothesis, the negative effect of broadband internet on         depend on distance to the nearest urban core.
+commuting is largely driven by place-level broadband pen-            Column (1) is similar to Table 2, column (3), except
+etration, rather than the residential availability of broad-     that the effects of both broadband measures are estimated
+band for households. A 0.1 increase in the share of              separately for grid cells within FUA cores, outsides of
+connected individuals at the place level (slightly more          cores within FUAs and outside of FUAs. There seems to
+than 1 SD) leads to a small decrease of commuting distance       be a great deal of heterogeneity. First, we ﬁnd no signiﬁcant
+by 0.18 km, or about 0.8% of average commuting distance.         effects of broadband on commuting within urban cores.
+    In columns (4–6) we repeat the steps above with the          Second, in the urban regions surrounding urban cores, we
+employment rate as dependent variables. Column (4)               ﬁnd that residential broadband availability reduces com-
+shows that the introduction of broadband in grid cells           muting distances (by 2.2 km), while it increases commut-
+coincides with a 0.8 percentage point employment increase        ing distances (1.3 km, only signiﬁcant at the 10%
+on average. Taking the two-year lag in column (5), this          conﬁdence level) outside of urban regions, in rural areas.
+effect is only 0.3 percentage points. If we take into account    These effects may seem modest, but since the average com-
+the two-year lag of the place-level broadband rate, in col-      muting distance in our sample is 23.6 km, a 2.2 (1.3) km
+umn (6) again we ﬁnd that broadband penetration at the           increase means that commutes are 9.3% (5.5%) longer.
+place level drives this effect. The effect is rather small, as   This is in line with estimates of the effect of working
+a 0.1 increase in the share of connections corresponds           from home on commuting distance (de Vos et al., 2018).
+with a 0.09 percentage point increase in employment.             Third, the effects of place-level broadband are only present
+
+REGIONAL STUDIES
+                                    Does broadband internet allow cities to ‘borrow size’? Evidence from the Swedish labour market                      9
+
+
+
+Table 3. Spatial heterogeneity.
+                                                        (1)                          (2)                          (3)                           (4)
+Variables                                                 Commuting distance                                            Employment rate
+Functional urban area (FUA) core
+Broadband (res.) (t − 2)                              −0.933                                                   0.00365
+                                                      (1.058)                                                 (0.00506)
+Broadband (place) (t − 2)                             −1.605                                                    0.143*
+                                                      (15.33)                                                  (0.0741)
+FUA outside core
+Broadband (res.) (t − 2)                           −2.175***                                                   0.00223
+                                                    (0.615)                                                   (0.00288)
+Broadband (place) (t − 2)                            0.316                                                    0.0140**
+                                                      (1.191)                                                 (0.00564)
+Outside FUA
+Broadband (res.) (t − 2)                            1.304*                                                   −0.000732
+                                                    (0.699)                                                  (0.00323)
+Broadband (place) (t − 2)                          −4.325***                                                  0.00529
+                                                    (1.202)                                                  (0.00562)
+Distance decay                                                                  Figure 3(a)                                                 Figure 3(b)
+
+
+Mobile (3G) (t − 2)                                  −0.0680                     −0.0600                     0.00205***                    0.00215***
+                                                     (0.144)                     (0.144)                     (0.000690)                    (0.000688)
+Constant                                             −261.8*                     −264.9*                       1.693**                       1.635**
+                                                     (158.6)                     (158.6)                       (0.763)                       (0.763)
+Control variables                                      Yes                         Yes                           Yes                           Yes
+Year and grid cell ﬁxed effects                        Yes                         Yes                           Yes                           Yes
+Observations                                         634,033                     634,033                       646,345                       646,345
+R2                                                    0.579                        0.579                        0.764                          0.764
+Note: Standard errors are shown in parentheses. ***p < 0.01, **p < 0.05, *p < 0.1. Control variables include Population (log) and Income (log) at the grid
+cell level, and Population (log), Income (log), Share urban population, Share male, Share lower, medium, higher and college educated, Share young and old,
+Number of establishments, Number of employees per establishment, aggregate income and 21 industry share variables at the level of labour market areas.
+For the full regression results, see Tables A1 and A2 in Appendix A in the supplemental data online.
+
+
+
+outside of urban regions. Here, moving from 0% to 100%                         cores, between 20 and 30 km. This suggests that high-
+connected individuals leads to a 4.3 km decrease in com-                       speed internet makes the places at this distance part of
+muting distance on average. The reason for this may                            the labour market area of the urban core, while they were
+again be that local employment growth due to broadband                         previously not or only weakly integrated with this labour
+leads to a larger share of local workers compared with                         market. This is a clear sign of ‘borrowed size’ as these places
+longer distance commuters. In this model mobile (3G)                           can now reap the advantages of being part of the larger
+internet has no signiﬁcant effect.                                             urban labour market. For the places up until 20 km that
+     Column (2) and Figure 3(a) show the results of a                          were probably already included in this labour market, the
+regression in which the effects of broadband are allowed                       general availability of broadband in a place does not alter
+to differ over distance categories from the nearest FUA                        the situation much. This also holds for the places at greater
+core. The closest category includes the urban core itself.                     distance (50 km and more away), that are still too distant to
+Figure 3 offers two broad conclusions. First, the effect of                    really integrate in the labour market.
+residential broadband availability on commuting distance                           In column (3) we allow the effect of broadband on
+is small and negative up until 30 km from urban cores,                         employment to differ across urban cores, urban regions and
+while in the more distant places, from 50 km and onwards,                      rural regions. Here the only signiﬁcant broadband effects
+it is positive and slightly larger. In these more distant areas,               come from place-level broadband penetration. In urban
+the availability of broadband at the residence (blue line)                     cores, increasing the broadband share with 0,1 results in
+leads to a 4.3 km increase in commuting distance on aver-                      1.4% higher employment rates, while within FUAs outside
+age. This effect may well be driven by working from home                       of urban cores a 0.1 increase results in a much smaller
+(de Vos et al., 2018). Second, the overall penetration of                      0.14% increase in employment. These results may indicate
+broadband at the place level (red line) is associated with                     that broadband not only allows people to search and maintain
+longer commutes at intermediate distance from urban                            jobs at longer distances but also that it limits the extent of
+
+                                                                                                                                    REGIONAL STUDIES
+10    Duco de Vos et al.
+
+
+
+
+Figure 3. Distance decay of broadband effects on (a) commuting distance and (b) employment rate.
+Note: FUA, functional urban area.
+
+
+excess commuting at the local scale. In more remote places,    Sensitivity analysis: internet technologies
+such a borrowed size effect cannot be seen, suggesting that    Up until now we have made no distinction in the speed of
+it is indeed available only in reasonable proximity to an      broadband internet. In this subsection we show the robust-
+urban core. The effect of mobile (3G) internet is again        ness of our results to accounting for the difference in speed
+small and similar to the result from Table 2, column (6).      between DSL technology (14 mbit/s) and cable and ﬁbre
+    Column (4) and Figure 3(b) show the results of a           technologies (100 mbit/s). Table A4 in Appendix A in
+regression in which the effects of broadband on employ-        the supplemental data online includes two dummies that
+ment are allowed to differ with distance from FUA cores.       denote the fastest ﬁxed connection at the residence, being
+We can conclude from Figure 3 that broadband availability      either DSL or cable/ﬁbre, instead of a simple broadband
+at the residential location (blue line) leads to increased     dummy. We also include the mobile (3G) variable and
+employment rates only near and in the urban core; this is      allow it to vary over space. We still include the overall
+where broadband internet connection seems to lead to bet-      place-level broadband penetration rate as a separate vari-
+ter matching. However, the effects of the overall pen-         able, and again we lag the internet variables by two years.
+etration of broadband in places (red line) on employment       Column (1) again shows that the only positive effects of
+rates are signiﬁcant at intermediate distances from urban      broadband at the residence are found outside FUAs, and
+cores, between 20 and 50 km. Again, this suggests that         it seems this is driven by cable/ﬁbre technologies. Column
+effect of broadband internet are largest in the ‘expansion     (3) shows that the employment effects of broadband are
+zone’ of the labour market – the area that gets added to,      driven by place-level broadband rates rather than residen-
+or more integrated with, the urban labour market area          tial availability. This effect is only present in intermediate
+through broadband.                                             areas (within FUA, outside core) and in these areas mobile
+
+
+
+
+Figure 4. Distance decay of technology effects on (a) commuting distance and (b) employment rate.
+Note: FUA, functional urban area.
+
+REGIONAL STUDIES
+                              Does broadband internet allow cities to ‘borrow size’? Evidence from the Swedish labour market   11
+
+
+
+(3G) internet has a small but signiﬁcant effect on employ-         capture a lot of these potential confounders, but more
+ment. Figure 4 shows that the respective decay patterns of         research is needed into the causal nature of this effect.
+the effects of the different technologies on commuting dis-        Third, we measure better matching in the labour market
+tance (a) and employment (b) are very similar, to each other       using the employment rate, but this may also translate
+and to the earlier estimates. Compared with the ﬁxed tech-         into a better ﬁt between workers and employers (lower
+nologies, mobile (3G) internet has a consistently smaller          overeducation, higher salaries). Future research may
+effect, and shows the least variability over space. The results    uncover whether there are also effects of broadband on
+are thus robust to accounting for differences in speed of          these measures. Fourth, while we believe that working
+broadband technologies.                                            from home is a highly plausible explanation of the effect
+                                                                   on broadband internet on commuting distance in remote
+CONCLUSIONS                                                        regions, we lacked data on working from home rates or
+                                                                   the number of commutes, that may give more conclusive
+In this paper we have estimated the relation between               evidence. Fifth, the small positive effects of mobile (3G)
+broadband penetration and commuting behaviour and                  internet on employment suggest that during the study
+employment. The main goal was to test the hypothesis               period mobile internet was not a strong substitute for
+that broadband internet aids the process of borrowed size          broadband internet, but with the arrival of 4G this may
+(Dijkstra et al., 2013; Hesse, 2016; Phelps, 1992). To             have changed. Finally, the concept of borrowed size
+this end we estimated the effect separately for urban              needs further empirical substantiation, most notably
+cores, urban areas and rural areas, and we allowed the effect      explaining how local factors affect the capacity to borrow
+to differ with distance to the nearest core of a FUA. We           size and a better view of which agglomeration beneﬁts
+innovated by explicitly modelling a potential mechanism            can be ‘borrowed’. And while this paper is one of the ﬁrst
+behind borrowed size (broadband) by using time variation           to explicitly model an underlying, other studies could
+in broadband, and by distinguishing between broadband              explore other mechanisms potentially driving processes of
+effects at the residence and place level.                          borrowed size.
+    The results suggest that residential broadband avail-              We distil three policy implications from our research.
+ability is associated with longer commutes in remote               First, if governments aim to increase the economic fortunes
+areas, which can be explained as a working-from-home effect        of places by introducing broadband, they should be aware
+(de Vos et al., 2018). Within urban cores, residential             that, at least in the short run, the effects on employment
+broadband has a positive effect on employment, which               are small and vitally dependent on proximity to other
+suggests that broadband has enabled better labour market           employment centres. Second, the results suggest that gov-
+searching and matching in and closely around urban                 ernments should consider prioritizing ﬁxed connections, as
+cores (Autor, 2001). Considering the absence of signiﬁcant         the effects of mobile internet are much smaller (but note
+results in proximity of urban cores, our results suggest no        that this was before the introduction of 4G). At the same
+causal relation between residential broadband connections          time we do not see effects of broadband upgrades from
+and ‘borrowed size’ in the labour market.                          DSL to cable or ﬁbre. Finally, outside cities we ﬁnd no
+    The spatial variation in the effect of place-level broad-      effects of residential broadband availability on employment
+band penetration on employment does show a clear bor-              prospects for residents, but we do ﬁnd signiﬁcant effects of
+rowed size pattern. Growth in broadband penetration                place-level broadband penetration on these prospects. This
+only affects employment rates in areas between 20 and              suggests that policies that aim to connect rural regions to
+50 km from urban cores, and commuting distances in                 fast internet to increase employment prospects should
+areas between 20 and 30 km from urban cores. This                  initially prioritize connecting places rather than connecting
+suggests that increased broadband penetration makes                every single inhabitant.
+these places more attractive for ﬁrms and people to locate.
+From these locations they can tap into the beneﬁts of the
+urban labour market nearby. Broadband internet thus                ACKNOWLEDGEMENTS
+seems an important driver behind the spatial expansion
+of the urban labour market. This is consistent with the            The authors thank Jens Ingman, Swedish Post and Tele-
+assertion of Dijkstra et al. (2013) that broadband access          com Authority PTS, for help with the broadband data.
+has aided the growth of small and medium-sized cities in
+proximity of larger cities.                                        FUNDING
+    There are limitations to the research approach of this
+paper that could inspire further research. First, Sweden is        This work beneﬁted from a VIDI grant provided by the
+a speciﬁc country with a very high urbanization rate, com-         Nederlandse Organisatie voor Wetenschappelijk Onder-
+bined with long distances between central and remote               zoek (NWO) [grant number 452-14-004].
+places. Future research should uncover whether our results
+also hold in other countries. Second, growth in broadband          DISCLOSURE STATEMENT
+rates may be correlated with other dynamics that promote
+employment in cities, including new infrastructure and             No potential conﬂict of interest was reported by the
+housing projects. We note that our control variables               authors.
+
+                                                                                                                REGIONAL STUDIES
+12     Duco de Vos et al.
+
+
+
+NOTES                                                                        afe9f1cfeaac4e39abcdd3b82d9bee5d/sweden-completely-
+                                                                             connected-by-2025-eng.pdf
+                                                                         Hesse, M. (2016). On borrowed size, ﬂawed urbanisation and emer-
+1. In 2012, about 23% of commuting-based workers per-
+                                                                             ging enclave spaces: The exceptional urbanism of Luxembourg,
+formed telework regularly (Vilhelmson & Thulin, 2016).                       Luxembourg. European Urban and Regional Studies, 23(4), 612–
+2. See http://www.oecd.org/cfe/regional-policy/Sweden.                       627. doi:10.1177/0969776414528723
+pdf/.                                                                    Kroft, K., & Pope, D. G. (2014). Does online search crowd out tra-
+3. We use Statistics Sweden’s tätorter (localities) and småor-               ditional search and improve matching efﬁciency? Evidence from
+ter (smaller localities) to deﬁne places. Localities are places              Craigslist. Journal of Labor Economics, 32(2), 259–303. doi:10.
+with at least 200 inhabitants and less than 200 m between                    1086/673374
+                                                                         Kuhn, P., & Mansour, H. (2014). Is internet job search still ineffec-
+buildings. Smaller localities have between 50 and 200 inhabi-
+                                                                             tive? Economic Journal, 124(581), 1213–1233. doi:10.1111/ecoj.
+tants and no more than 150 m between buildings.                              12119
+4. See        https://ec.europa.eu/digital-single-market/en/             Kuhn, P., & Skuterud, M. (2004). Internet job search and unemploy-
+country-information-sweden/.                                                 ment durations. American Economic Review, 94(1), 218–232.
+                                                                             doi:10.1257/000282804322970779
+                                                                         Mack, E. A. (2014). Businesses and the need for speed: The impact of
+                                                                             broadband speed on business presence. Telematics and Informatics,
+ORCID                                                                        31(4), 617–627. doi:10.1016/j.tele.2013.12.001
+                                                                         Mack, E. A., & Grubesic, T. H. (2009). Broadband provision and
+Duco de Vos http://orcid.org/0000-0002-5161-3101                             ﬁrm location in Ohio: An exploratory spatial analysis.
+Urban Lindgren http://orcid.org/0000-0003-2796-3547                          Tijdschrift voor Economische en Sociale Geograﬁe, 100(3), 298–
+Maarten van Ham http://orcid.org/0000-0002-2106-0702                         315. doi:10.1111/j.1467-9663.2008.00487.x
+                                                                         Meijers, E. J., & Burger, M. J. (2017). Stretching the concept of ‘bor-
+Evert Meijers http://orcid.org/0000-0002-0031-6828                           rowed size’. Urban Studies, 54(1), 269–291. doi:10.1177/
+                                                                             0042098015597642
+REFERENCES                                                               Meijers, E. J., Burger, M. J., & Hoogerbrugge, M. M. (2015).
+                                                                             Borrowing size in networks of cities: City size, network connec-
+Alonso, W. (1973). Urban zero population growth. Daedalus, 102(4),           tivity and metropolitan functions in Europe. Papers in Regional
+    191–206. Retrieved from https://www.jstor.org/stable/20024174            Science, 95(1), 181–198. doi:10.1111/pirs.12181
+Andersson Joona, P., & Wadensjö, E. (2013). The best and the             Meijers, E. J., Hoogerbrugge, M., & Cardoso, R. (2018). Beyond
+    brightest or the least successful? Self-employment entry among           polycentricity: Does stronger integration between cities in poly-
+    male wage-earners in Sweden. Small Business Economics, 40(1):            centric urban regions improve performance? Tijdschrift voor
+    155–172. doi:10.1007/s11187-011-9365-0                                   Economische en Sociale Geograﬁe, 109(1), 1–21. doi:10.1111/tesg.
+Atasoy, H. (2013). The effects of broadband internet expansion on            12292
+    labor market outcomes. ILR Review, 66(2), 315–345. doi:10.           Phelps, N. A. (1992). External economies, agglomeration and ﬂexible
+    1177/001979391306600202                                                  accumulation. Transactions of the Institute of British Geographers,
+Autor, D. H. (2001). Wiring the labor market. Journal of Economic            17(1), 35–46. doi:10.2307/622635
+    Perspectives, 15(1), 25–40. doi:10.1257/jep.15.1.25                  Phelps, N. A. (1998). On the edge of something big: Edge-city econ-
+Combes, P. P., & Lafourcade, M. (2005). Transport costs: Measures,           omic development in Croydon, South London. Town Planning
+    determinants, and regional policy implications for France. Journal       Review,         69(4),       441–465.        doi:10.3828/tpr.69.4.
+    of Economic Geography, 5(3), 319–349. doi:10.1093/jnlecg/lbh062          dv1t387m20078jjp
+Czernich, N. (2014). Does broadband internet reduce the unemploy-        Phelps, N. A., Fallon, R. J., & Williams, C. L. (2001). Small ﬁrms,
+    ment rate? Evidence for Germany. Information Economics and               borrowed size and the urban–rural shift. Regional Studies, 35(7),
+    Policy, 29, 32–45. doi:10.1016/j.infoecopol.2014.10.001                  613–624. doi:10.1080/00343400120075885
+de Vos, D., Meijers, E., & van Ham, M. (2018). Working from home         Sinai, T., & Waldfogel, J. (2004). Geography and the internet:
+    and the willingness to accept a longer commute. Annals of Regional       Is the internet a substitute or a complement for cities?
+    Science, 61(2), 375–398. doi:10.1007/s00168-018-0873-6                   Journal of Urban Economics, 56(1), 1–24. doi:10.1016/j.jue.
+Dijkstra, L., Garcilazo, E., & McCann, P. (2013). The economic               2004.04.001
+    performance of European cities and city regions: Myths and rea-      Sohn, J., Kim, T. J., & Hewings, G. J. D. (2003). Information tech-
+    lities. European Planning Studies, 21(3), 334–354. doi:10.1080/          nology and urban spatial structure: A comparative analysis of the
+    09654313.2012.716245                                                     Chicago and Seoul regions. Annals of Regional Science, 37, 447–
+Duranton, G., & Overman, H. G. (2005). Testing for localization using        462. doi:10.1007/s00168-003-0164-7
+    micro-geographic data: A new approach. Review of Economic            Swedish Post and Telecom Authority. (2012). PTS
+    Studies, 72(4), 1077–1106. doi:10.1111/0034-6527.00362                   bredbandskartläggning     2011-En       geograﬁsk    översikt    av
+Eriksson, R. H., Hansen, H. K., & Lindgren, U. (2014). The impor-            bredbandstillgången i Sverige (No. PTS-ER-2012_11).
+    tance of business climate and people climate on regional perform-        Stockholm. Retrieved from https://statistik.pts.se/media/1105/
+    ance. Regional Studies, 48(6), 1135–1155. doi:10.1080/                   bredbandskartlaeggning_2011.pdf
+    00343404.2013.770140                                                 Tranos, E., & Mack, E. A. (2016). Broadband provision and knowl-
+Gaspar, J., & Glaeser, E. L. (1998). Information technology and the          edge-intensive ﬁrms: A causal relationship? Regional Studies, 50
+    future of cities. Journal of Urban Economics, 43(1), 136–156.            (7), 1113–1126. doi:10.1080/00343404.2014.965136
+    doi:10.1006/juec.1996.2031                                           Vilhelmson, B., & Thulin, E. (2016). Who and where are the ﬂexible
+Government Ofﬁces of Sweden. (2017). A completely connected Sweden           workers ? Exploring the current diffusion of telework in Sweden.
+    by 2025 − A broadband strategy. Retrieved from https://www.              New Technology, Work and Employment, 31(1), 77–96. doi:10.
+    government.se/496173/contentassets/                                      1111/ntwe.12060
+
+
+
+
+REGIONAL STUDIES
+

@@ -1,0 +1,979 @@
+[PDF Metadata]
+Source PDF: journal/B14-li-sun-zhang-zhang-2022-polycentric-spatial-structure-and-its-economic-performance-evidence-from-meta-analysis-10.1080-00343404.2021.2012142.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Polycentric spatial structure and its economic performance: evidence from meta-analysis
+Creator:         Servigistics Arbortext Advanced Print Publisher 11.1.4546/W-x64
+Producer:        Acrobat Distiller 8.1.0 (Windows); modified using iTextSharp™ 5.5.8 ©2000-2015 iText Group NV (AGPL-version)
+CreationDate:    Thu Oct 13 18:12:55 2022 WIB
+ModDate:         Thu Oct 13 18:15:15 2022 WIB
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           16
+Encrypted:       no
+Page size:       634.32 x 833.04 pts
+Page rot:        0
+File size:       1761892 bytes
+Optimized:       no
+PDF version:     1.4
+[Extracted Text]
+      Regional Studies
+
+
+
+
+      ISSN: (Print) (Online) Journal homepage: https://www.tandfonline.com/loi/cres20
+
+
+
+
+Polycentric spatial structure and its economic
+performance: evidence from meta-analysis
+
+Wan Li, Bindong Sun, Tinglin Zhang & Zhifan Zhang
+
+To cite this article: Wan Li, Bindong Sun, Tinglin Zhang & Zhifan Zhang (2022) Polycentric spatial
+structure and its economic performance: evidence from meta-analysis, Regional Studies, 56:11,
+1888-1902, DOI: 10.1080/00343404.2021.2012142
+
+To link to this article: https://doi.org/10.1080/00343404.2021.2012142
+
+
+
+
+       Published online: 18 Jan 2022.
+
+
+
+       Submit your article to this journal
+
+
+
+       Article views: 369
+
+
+
+       View related articles
+
+
+
+       View Crossmark data
+
+
+
+       Citing articles: 2 View citing articles
+
+
+
+
+                      Full Terms & Conditions of access and use can be found at
+             https://www.tandfonline.com/action/journalInformation?journalCode=cres20
+REGIONAL STUDIES
+2022, VOL. 56, NO. 11, 1888–1902
+https://doi.org/10.1080/00343404.2021.2012142
+
+
+
+
+Polycentric spatial structure and its economic performance:
+evidence from meta-analysis
+Wan Lia             , Bindong Sunb              , Tinglin Zhangc                and Zhifan Zhangd
+
+    ABSTRACT
+    Although there seems to be a widely shared expectation that polycentricity increases economic competitiveness, the
+    empirical ﬁndings are inconsistent. As the ﬁrst meta-analysis, this paper examines whether emerging empirical
+    evidence provides an insight into the polycentricity–productivity effect. Based on 139 estimates, we ﬁnd no
+    compelling evidence to support that polycentricity is either beneﬁcial or detrimental for economic development.
+    Further meta-logit regressions show that the measurement of polycentricity and the control of agglomeration
+    economies indeed affect the polycentricity–productivity effect. In contrast, measuring polycentricity from different
+    perspectives and the potential endogeneity do not appear to signiﬁcantly inﬂuence this effect.
+    KEYWORDS
+    spatial structure; polycentricity; economic performance; meta-analysis
+
+
+JEL O1, O2, R1
+HISTORY Received 18 September 2020; in revised form 7 November 2021
+
+INTRODUCTION                                                             better spatial layouts in terms of economic performance
+                                                                         (Li et al., 2019; Li & Liu, 2018; Meijers & Burger,
+Polycentricity has been a favoured spatial pattern since the             2010; Zhang et al., 2017).
+issuing of the European Spatial Development Perspective                      Insightful attempts have been made to explain this
+(Commission of the European Communities (CEC),                           inconclusiveness. Brezzi and Veneri (2015) suggested
+1999), and the establishment of China’s Xiong’an New                     that the conceptual deﬁnition of polycentricity (i.e., mor-
+Area in 2017 has made polycentric spatial structure a hot                phology or function) and the choice of geographical scale
+topic again. This constant interest is fuelled by the shared             (i.e., micro, meso or macro) could produce variations in
+expectation that polycentricity is an effective tool to                  empirical ﬁndings. A very recent study conducted by
+enhance economic competitiveness (CEC, 1999; Davoudi,                    Wang et al. (2019) conﬁrmed that the impacts of polycen-
+2003; Vandermotten et al., 2008; Waterhout et al., 2005;                 tricity on economic productivity are opposite in different
+Wegener, 2013). However, the empirical evidence for the                  territorial scales under the same analytic frame. Unfortu-
+economic effects of spatial structure is quite inconclusive.             nately, these efforts are far from sufﬁcient to fully clarify
+Although some studies have found that polycentric spatial                the differing results, for example, how to explain the
+structure, or its monocentric counterpart, barely affects                different results of Lee and Gordon (2007) and Meijers
+economic performance (Lee & Gordon, 2007, 2011; Rau-                     and Burger (2010), which shared the same geographical
+hut et al., 2018; Veneri & Burgalassi, 2012), others have                scale and employed the same conceptual deﬁnition of
+supported spatial structure affecting economic perform-                  polycentricity.
+ance in conﬂicting directions. In other words, both poly-                    The article aims to render more lucid the relationship
+centricity and monocentricity have been found to be                      between polycentricity and economic performance with
+
+
+CONTACT
+a
+     lw1436@163.com
+ Business School, Zhengzhou University, Zhenzhou, China; and Research Center for China Administrative Division, East China Normal University,
+Shanghai, China.
+b
+  (Corresponding author)            bdsun@re.ecnu.edu.cn
+ Research Center for China Administrative Division, Future City Lab, The Center for Modern Chinese City Studies, School of Urban and Regional
+Science, Institute of Eco-Chongming, East China Normal University, Shanghai, China.
+c
+     ztlbjy@126.com
+ School of Urban and Regional Science, East China Normal University, Shanghai, China.
+d
+     frankzzf@126.com
+ School of Urban and Regional Science, East China Normal University, Shanghai, China.
+This article has been corrected with minor changes. These changes do not impact the academic content of the article.
+
+© 2022 Regional Studies Association
+                                   Polycentric spatial structure and its economic performance: evidence from meta-analysis   1889
+
+
+
+meta-analysis. This approach provides an objective way             less an empirical question, but also one that needs to be
+to systematically review the empirical studies, summarize          explored with meta-analysis.
+the often-conﬂicting results, and examine the effect of
+different study characteristics on the empirical results
+                                                                   Empirical model for the polycentricity–
+(Stanley & Doucouliagos, 2012; Stanley & Jarrell,
+                                                                   productivity effect
+2005). To the best of our knowledge, our work is the
+                                                                   The standard approach to estimating the polycentricity–
+ﬁrst meta-analysis of the increasing number of empirical
+                                                                   productivity effect is based on an extended Cobb–Douglas
+studies of polycentric spatial structure and its economic
+                                                                   production framework (Li et al., 2019; Meijers & Burger,
+performance. This study contributes to this ﬁeld in at
+                                                                   2010; Zhang et al., 2017). Speciﬁcally, the total output (Y )
+least two important ways. First, this paper helps to
+                                                                   is produced as a function of capital (K), labour (L), human
+answer the fundamental question of the extent to which
+                                                                   capital (H ) and an efﬁciency parameter (A):
+polycentricity matters for its economic performance.
+Due to the conﬂicting research ﬁndings in previous                                        Y = AK k Ll H h ,                   (1)
+studies, there is unlikely to be a short and clear answer
+to this question. Here, we attempt to provide an objective         where A represents a vector of exogenous factors on the
+and comprehensive summary and an evaluation of the                 output, which can reﬂect the inﬂuence of polycentricity.
+polycentricity–productivity effects. Additionally, poten-          In other words, within this framework, polycentricity
+tial publication selection bias is ﬁltered out to obtain an        impacts economic output because it is a component of efﬁ-
+unbiased assessment. Second, this paper provides a quan-           ciency. By assuming constant returns to scale and calculat-
+titative analytic assessment of why broad variation exists         ing natural logarithms on both sides, a typical linear
+in polycentricity–productivity effects. By collecting 139          speciﬁcation can be given as:
+estimates reported in 31 studies, we systematically exam-                                                 
+                                                                           ln (Y /L) = b0 + b1 ln(Poly) +    bj ln(Zj )
+ine three potential explanations for why polycentricity
+can promote economic development or, conversely, why                                    + kln(K /L) + hln(H /L) + 1i ,        (2)
+polycentricity fails. Other characteristics of the primary
+                                                                   where Poly is the focal independent variable; and Zj is a set
+studies, such as the form and period of data, sample
+                                                                   of control variables that can be correlated with Poly. The
+location and size, and publication-speciﬁc features, are
+                                                                   coefﬁcient of interest is b1 , which is the estimate of the
+also considered.
+                                                                   effect of polycentricity on economic production. A signiﬁ-
+                                                                   cantly positive sign implies that polycentricity is beneﬁcial
+                                                                   for economic competitiveness, and vice versa. In addition
+OVERVIEW OF THE LITERATURE
+                                                                   to the Cobb–Douglas production function, other esti-
+                                                                   mation approaches have been used. For example, Lee
+Polycentricity and economic performance
+                                                                   and Gordon (2007) adopted a supply-side urban economic
+It is widely believed that a polycentric spatial layout is con-
+                                                                   growth model to analyse how polycentricity affects popu-
+ducive to better economic performance, and there are two
+                                                                   lation and employment growth.
+theoretical justiﬁcations for this conviction. First, cities
+within polycentric regions are usually smaller in size and
+therefore less prone to agglomeration diseconomies such            Measurement of polycentricity
+as congestion, high housing prices, environmental pol-             One of the most critical research dimensions consists of
+lution and crime (Meijers & Burger, 2010). Second, cities          the measures of the key independent variable, that is,
+within a polycentric region can borrow ‘size’ and/or ‘func-        polycentricity, which can serve as a vital source for inclus-
+tion’ from each other due to the generally effective net-          ive ﬁndings of the polycentricity–productivity effect.
+work of linkages (Alonso, 1973; Meijers & Burger,                  Although polycentricity has long been criticized for its
+2017). However, in consideration of agglomeration econ-            undifferentiated catchall characteristics, there have been
+omies, some scholars argue that the economic performance           two dominant and distinct approaches, morphological
+of monocentric spatial structures, which is the counterpart        and functional, to understand it (Hall & Pain, 2006;
+of polycentric spatial layout, should be better (Li et al.,        Van Meeteren et al., 2016). As Burger and Meijers
+2019; Veneri & Burgalassi, 2011). Speciﬁcally, a typical           (2012, p. 1128) stated, ‘a balance in the size distribution
+monocentric spatial structure tends to feature a high              of centers does not necessarily imply that there are func-
+level of agglomeration economies, and its accompanying             tional linkages between the different centers, let alone an
+sharing, matching and learning effects can make mono-              equal distribution of these linkages and the existence of
+centricity more efﬁcient. In addition, while individual            multidirectional ﬂow patterns’. Hence, using different
+cities within a polycentric region can also generate               approaches to measure polycentricity can naturally lead
+agglomeration economies, some studies question that a              to variation across studies. Most previous studies, however,
+collection of nearby cities cannot provide a substitute for        focused on measuring polycentricity from the perspective
+the agglomeration economies of a single larger city (Mei-          of morphology, rather than function, due to the poor avail-
+jers, 2005). Thus, it is difﬁcult to verify theoretically that a   ability of interaction data.
+polycentric spatial structure leads to higher economic per-            Furthermore, the measurement methods introduced to
+formance. This not only makes this relationship more or            assess the degree of polycentricity – in both the
+
+                                                                                                                 REGIONAL STUDIES
+1890    Wan Li et al.
+
+
+
+morphological and functional sense – may also lead to dis-      for agglomeration economies (Combes & Gobillon,
+tinct ﬁndings. According to Bartosiewicz and Marcińczak         2015).
+(2020) and Derudder et al. (2020), different indicators
+may not point to a similar pattern of polycentricity. Draw-     Estimation strategies for endogeneity
+ing on the classiﬁcation of these two articles, we dis-         Estimation strategies can also yield conﬂicting ﬁndings.
+tinguish four groups of measures of polycentricity: (1)         Endogeneity, the major concern in the empirical study
+proportion-based indicators, for example, the primacy           of polycentricity and its performance, can arise when the
+index; (2) rank size-based indicators; (3) standard devi-       variable Poly is associated with the random component
+ation-based indicators, for example, the ordinary polycen-      1i , and the primary source of endogeneity is the potential
+tricity proposed by Green (2007); and (4) other indicators,     of reverse causation. Speciﬁcally, higher productivity
+for example, the number of centres. In addition, there has      affects the spatial pattern of cities by attracting more
+been a tradition of distinguishing between a ﬁxed number        ﬁrms and workers to some speciﬁc locations and dispersing
+of centres or all of them when measuring polycentricity         people and ﬁrms into smaller cities with low land and real
+(Meijers & Burger, 2010; Zhang & Derudder, 2019).               estate prices. A common approach is to introduce appro-
+    Another critical aspect of polycentricity is its scale      priate instrumental variables and run the two-stage least
+dependence: a system that can be monocentric on one geo-        squares regression. Moreover, two different sets of instru-
+graphical scale can be polycentric when measured on             ments have been used in previous studies.
+another (Hall & Pain, 2006; Möck & Küpper, 2020; Tay-                First, consider the historical instruments, that is, the
+lor et al., 2008). This scale dependence of polycentricity is   long-lagged values of polycentricity (Li et al., 2019; Mei-
+considered the most evident source for the inconsistent         jers & Burger, 2010). In practice, historical instruments
+estimations. For example, Brezzi and Veneri (2015)              are usually found to be perfectly relevant but to have ques-
+showed that polycentric regions have lower gross domestic       tionable exogeneity, which is especially true when the lag is
+product (GDP) per capita among Organisation for Econ-           not sufﬁciently long. Second, geological instruments, such
+omic Co-operation and Development (OECD) metropo-               as the average distances of subcentres to the main centre in
+litan areas and territorial level 2 (TL2) regions but higher    each city (Zhang et al., 2017), the average value of the
+GDP per capita at the OECD national level. Considering          slope, and the standard deviation of the landform curva-
+China’s two different urban scales, Wang et al. (2019)          ture (Wang & Gao, 2018), have been used. Geological
+found that both monocentricity at the intraurban level          variables are believed to be extremely exogenous but are
+and polycentricity at the interurban level are linked to        criticized for not being sufﬁciently powerful to explain
+higher levels of labour productivity. Additionally, other       instrumented variables.
+subtle treatments, such as the choice of centres (Möck &             Overall, this section identiﬁes three often-criticized
+Küpper, 2020; Zhang & Derudder, 2019), reference data           speciﬁcation differences: the measurement of polycentri-
+(Li et al., 2018) and indicators (Li et al., 2019; Zhang        city (morphology or function; proportion-based indicator,
+et al., 2017), inﬂuence the measurement of polycentricity.      rank size-based indicator, or standard deviation-based
+                                                                indicator; micro, meso or macro), the presence or absence
+Control variable for agglomeration economies                    of the control variable of agglomeration economies, and
+The inclusiveness of the polycentricity–productivity effect     whether or not the potential endogeneity of polycentricity
+in empirical studies might also come from the different         is addressed. These three aspects not only cover all impor-
+sets of control variables (Zj ), especially whether they con-   tant aspects of an empirical analysis model (the measure-
+trol for the ‘agglomeration economies’ variable. According      ment of key variables, the selection of control variables,
+to Anas et al. (1998), Davoudi (2003) and Boussauw et al.       and the adoption of methodologies), but are also recog-
+(2018), the polycentric pattern can emerge when agglom-         nized considerations from previous studies that may result
+eration economies are exceeded by agglomeration diseco-         in different ﬁndings. Nonetheless, other characteristics of
+nomies. Nevertheless, this assumption does not mean             the primary studies, such as the form and period of data,
+that polycentricity does not appreciate agglomeration           the size and location of the sample, and the publication-
+economies. In fact, polycentricity is widely regarded as a      speciﬁc features, could also lead to variation in research.
+pattern of ‘concentrated decentralization’ (Davoudi,
+2003; Kloosterman & Musterd, 2001). After all, economic         STUDY IDENTIFICATION AND DATA
+activities still prefer to relocate to concentrated centres,    CODING
+taking advantage of agglomeration economies, rather
+than being sparsely distributed (Anas et al., 1998). Fur-       Meta-analysis is now widely used to review and assess pre-
+thermore, agglomeration economies also serve as a critical      viously published or reported empirical studies on a given
+mechanism in answering whether polycentricity performs          hypothesis or empirical effect (Stanley & Doucouliagos,
+better in terms of economic productivity. Li et al.             2012). The ﬁrst challenge to any meta-analysis is the
+(2019), for example, found that agglomeration dominates         identiﬁcation of relevant studies. We begin by reviewing
+its cost in China’s prefectural region; thus, monocentricity    the reference and citation list of a well-known empirical
+enjoys a higher level of labour productivity. In addition, in   study of polycentricity and its economic performance
+the econometric speciﬁcation, both the density and size of      (for example, Meijers & Burger, 2010). In addition, we
+the population or employment are used as proxy variables        use Web of Science, Google Scholar and Cnki to detect
+
+REGIONAL STUDIES
+                                  Polycentric spatial structure and its economic performance: evidence from meta-analysis      1891
+
+
+
+related papers with keywords such as ‘polycentric*’, ‘mono-           number of retail stores or universities or pharmacies
+centric*’ or ‘spatial structure’ combined with ‘economic              or hospital beds’ (Rauhut et al., 2018). Similarly,
+performance’, ‘economic growth’ or ‘growth’. Eventually,              increasing the pool of primary empirical studies is the
+we arrived at a sample of 139 observations from 31 differ-            chief consideration.
+ent studies (Table 1).                                            .   Multiple sampling is employed: taking multiple esti-
+    The following should be noted.                                    mates from a single study is favourable for the power
+                                                                      of the subsequent statistical tests and helps to produce
+.   Studies written in either English or Chinese are                  more accurate estimates.
+    included. As a small and emerging research topic, we          .   Lee and Gordon (2011) is excluded because they
+    would like to include as many primary empirical studies           reported only the interaction term of polycentricity.
+    as possible to ensure the effectiveness and robustness of     .   Studies of urban concentration and its economic
+    follow-up analysis. Moreover, the notion of polycentri-           growth are also not considered in our analysis. The
+    city is gaining wide currency in China today (Cheng &             key variable ‘urban concentration’ in studies such as
+    Shaw, 2018), and an increasing number of high-quality             by Henderson (2003) is a similar measure to polycentri-
+    studies are being published in Chinese academic                   city, but it usually takes both the linear and squared
+    journals (Liu et al., 2017; Zhang & Sun, 2017).                   terms to capture possible nonlinear effects.
+    Additionally, this difference can be modelled in the
+    meta-regression analysis by including a dummy variable             As having a focused theme is one of the keys to design-
+    or setting an all-English subgroup.                           ing a high-quality meta-analysis, we use CiteSpace, a tool
+.   The term ‘economic performance’ is used in its general        for visualizing progressive knowledge domains, to conduct
+    sense. We include papers with explanatory variables           a thematic analysis (Chen, 2004). Based on the keywords
+    such as ‘labor productivity’ (Meijers & Burger, 2010),        of the selected 31 studies (Table 1),1 we obtain a keyword
+    ‘GDP per capita’ (Li & Liu, 2018), ‘TFP’ (total factor        network of 76 nodes and 199 links (Figure 1). We ﬁnd
+    productivity) (Ouwehand, 2018), ‘population or                each keyword node is tied to the identical network. This
+    employment growth’ (Lee & Gordon, 2007) and ‘the              suggests that the 31 articles we selected share a focused
+                                                                  topic. Furthermore, according to the keywords with a
+                                                                  higher centrality, polycentricity (0.82) and economic per-
+Table 1. Studies coded and included in the meta-analysis.         formance (0.82) truly dominate the network.
+Brezzi and Veneri (2015)                                               After selecting the reference studies, how to code the
+                                                                  effect size is of pivotal importance in the next step. In this
+Cai (2014)
+                                                                  paper, we extract three different types of effect sizes to sig-
+Chen (2016)
+                                                                  nify the relationship between polycentricity and economic
+Hou and Sun (2016)                                                development: elasticity, t-statistics and categorical result.
+Hua (2017)                                                        As the most widely used measure of empirical economic
+Hua and Sun (2015)                                                effect, elasticity is only available when the original econo-
+Kwon and Seo (2018)                                               metric model is estimated in double-log form. In our
+Lee and Gordon (2007, 2011)                                       sample, we can collect only 98 elasticities from 20 studies.
+Li and Liu (2018)                                                 Such a considerable reduction in the sample is the main
+                                                                  reason we resort to other types of effect sizes. T-statistics
+Li et al. (2018, 2019)
+                                                                  also have been commonly used to identify and correct for
+Liu et al. (2017)
+                                                                  publication bias. However, the interpretation of t-statistics
+Meijers (2008, 2013)                                              is limited in terms of economic meaning because it is just
+Meijers and Burger (2010)                                         a statistical measure rather than an economic measure. Cat-
+Miao et al. (2016)                                                egorical result is the last effect size used in this paper to indi-
+Ouwehand (2018)                                                   cate the relationship between dependent and independent
+Rauhut et al. (2018)                                              variables. Unlike previous continuous effects, this type of
+Sun and Li (2016)                                                 effect size focuses on whether a certain type of result is
+                                                                  observed. In this way, the effect size of categorical result
+Sun et al. (2015)
+                                                                  can include as many studies as possible.
+Veneri and Burgalassi (2011, 2012)
+Wang (2016)                                                       DOES POLYCENTRICITY MATTER TO
+Wang and Gao (2018)                                               ECONOMIC PERFORMANCE?
+Wang et al. (2019)
+Yang et al. (2011)                                                Vote count
+Zhang (2012)                                                      Vote count is a method of simply counting and comparing
+Zhang et al. (2017)                                               the number of estimates or studies that are signiﬁcantly
+                                                                  positive and those that are negative or insigniﬁcant. This
+Zhang and Sun (2017)
+                                                                  approach provides a rough summary of the distribution
+Zhang and Yi (2012)
+                                                                  of ﬁndings. Table 2 shows the results of vote counting
+
+                                                                                                                 REGIONAL STUDIES
+1892      Wan Li et al.
+
+
+
+
+Figure 1. Visualization of the keyword networks.
+Note: Each node represents one keyword; the thickness of the node is proportional to the frequency of the keyword; wide circles
+of the nodes indicate that the centrality of the keyword is > 1, and shades of grey from light to dark indicate years from 2007 to
+2019. The line between the nodes represents the co-occurrence of the keyword; the thickness of the line is proportional to the
+co-occurrence of the keyword; and the colour of the line represents the year in which the two keywords ﬁrst appeared together.
+The detailed settings for CiteSpace are time slice: one year, node type: keyword and selection criteria: g-index (k ¼ 25).
+
+
+
+Table 2. Vote count of the polycentricity–productivity effect based on the three main speciﬁcation differences.
+                                                             Signiﬁcantly                                   Signiﬁcantly
+                                                               negative             Insigniﬁcant              positive
+                                                                   Estimates Studies           Estimates Studies           Estimates Studies
+Measurement of                    Morphology                            50            13            28            12            43     13
+polycentricity                    Function                              14             3             3             2             1      1
+                                  Rank size-based                       27            11            17            10            22      9
+                                  measures
+                                  Proportion-based                      27             4             6             3             5      2
+                                  measures
+                                  SD-based measures                      9             4             6             2            16      5
+                                  Micro                                 12             4             0             0            19      5
+                                  Meso                                  37             9            15             6             9      6
+                                  Macro                                 15             6            16             7            16      4
+Control variable                  With_agg                              55            14            19             9            38     12
+                                  Without_agg                            9             2            12             4             6      2
+Methodology                       Treated_endo                          26             6             8             6            16      5
+                                  Untreated_endo                        38            15            23            10            28     12
+Studies written in English                                              43             9            21             8            16      5
+Total studies                                                           64            16            31            13            44     14
+Note: Calculated based on 139 estimates from 31 studies; the number of studies is multi-counted if the study reported mixed results.
+
+
+REGIONAL STUDIES
+                                  Polycentric spatial structure and its economic performance: evidence from meta-analysis   1893
+
+
+
+with respect to the polycentricity–productivity effect based      standard errors, 1/SE) and is the most common graph
+on the three main speciﬁcation differences.                       used in meta-analysis (Stanley & Doucouliagos, 2012).
+    Overall, while there is a weak tendency to support the        The primary use of funnel plots is to illustrate publication
+negative effects of polycentricity, there is no deﬁnitive         bias in the literature, but they can also show, rather vividly,
+agreement as to whether polycentricity is an effective            the wide variation in reported empirical results. Figure 2
+tool for promoting economic growth. According to                  presents a funnel graph of polycentricity elasticity for
+Table 2, the number of estimates in the ‘signiﬁcantly nega-       economic performance.
+tive’ category is higher both in the total studies and studies        As shown in Figure 2, there is a large cluster of obser-
+written in English. However, a relatively large number of         vations around zero, and most of the polycentricity elas-
+signiﬁcant negative estimates may occur when some nega-           ticities for economic performance are in the range of −1
+tive-effect studies reported robust results beyond the aver-      to 1. This suggests a near-zero association between poly-
+age number. This is conﬁrmed by the only slightly higher          centricity and economic performance. Furthermore,
+number of studies in the ‘signiﬁcantly negative’ category.        while the average economic elasticity of polycentricity
+Regarding the speciﬁc speciﬁcation differences, 78% of            based on 98 initial estimates is −0.065, the estimate at
+estimates with functional polycentricity, 71% of estimates        the top of the funnel, which is regarded as the most accu-
+with proportion-based measures, and 61% of the estimates          rate or as precise elasticity, is −0.042. This result implies
+made at the meso-level found signiﬁcantly negative results;       a weak tendency for poorer economic performance of
+that is, functional, proportion-based, and meso-level poly-       polycentricity. All these outcomes are in line with the
+centricity tends to depress economic growth.                      vote counting ﬁndings; that is, while a slight tendency
+                                                                  to support the negative effects of polycentricity exists,
+Funnel plot                                                       there are no strong signs that polycentricity is an effective
+A funnel plot is a scatter diagram of all empirical estimates     tool to promote or inhibit economic development. More-
+versus their precision (i.e., the inverse of the estimates’       over, regarding the three main speciﬁcation differences,
+
+
+
+
+Figure 2. Funnel graphs of polycentricity elasticity for economic performance.
+Note: Only studies with log–log are included in the funnel plot (98 estimations from 20 studies).
+
+                                                                                                                REGIONAL STUDIES
+1894     Wan Li et al.
+
+
+
+functional, proportion-based, and meso-level polycentri-          polycentric structure on economic development in speciﬁc
+city and studies written in English presents a more               cases cannot be negated.
+noticeable negative tendency, which is also consistent
+with the observations made in vote counting. In addition,
+Figure 2 provides a rough approximation of the expected
+inverted funnel shape, which serves as a positive sign of         WHY A WIDE VARIATION EXISTS IN
+the absence of publication bias, especially when outliers         POLYCENTRICITY–PRODUCTIVITY
+with elasticities > 1 are excluded.                               EFFECTS
+
+                                                                  Meta-logit regression
+Precision-effect test                                             Meta-regression analysis, a multivariate empirical investi-
+While fairly straightforward, conclusions derived from            gation of the existing pool of studies on a given empirical
+vote counts and funnel graphs cannot be statistically vali-       effect, can be used to quantify the impact of different study
+dated. Here, we turn to a meta-regression model to assess         characteristics on research ﬁndings. Using the categorical
+the ‘genuine’ effect beyond publication selection bias and        result as the dependent variable, we group the polycentri-
+to reidentify publication bias. A more formal test based          city–productivity estimates into signiﬁcantly negative,
+on t-statistics is conducted:                                     insigniﬁcant, and signiﬁcantly positive and label them 1,
+                                                                  2 and 3, respectively. Our basic meta regression equation
+               Tij = b1 + b0 (1/SEij ) + vij ,             (4)
+                                                                  takes the following multinomial logit form:
+where Tij is the t-value of the estimated polycentricity–
+                                                                      mlogit(Poly result) = F(TCCSC, OSIC, PRC),           (3)
+productivity elasticity from estimate i of study j; and SEij
+is the corresponding standard deviation. Publication bias             The ﬁrst group of explanatory variables primarily con-
+or a ‘genuine’ empirical effect exists if the constant b1 or      sists of the three commonly criticized speciﬁcation charac-
+slope b0 are signiﬁcantly different from zero, respectively.      teristics (TCCSC):
+Table 4 reports the test results for both the total sample
+and for subgroups by the three main speciﬁcation                  .   We introduce a dummy variable (Meas_morph) taking a
+differences.                                                          value of 1 if polycentricity is quantiﬁed from the per-
+    According to the insigniﬁcant slope coefﬁcient (b0 )              spective of morphology.
+in the ﬁrst column of Table 3, there is no general genu-          .   We classify the measurement methods of polycentricity
+ine empirical effect after correcting for the potential dis-          into four groups (Dum_method): proportion-based indi-
+tortion, irrespective of whether the outliers are                     cator, rank size-based indicator, standard deviation-
+considered. In other words, we ﬁnd no statistical evi-                based indicator or others. A dummy variable (Num-
+dence of the polycentricity–productivity effect. More-                b_all) is coded to capture whether the measurement is
+over, the corresponding intercept (b1 ) is statistically              based on all centres or a ﬁxed number of them.
+non-signiﬁcant, suggesting an absence of publication              .   We differentiate the scale into three categories (Dum_s-
+bias in the polycentricity–productivity studies. This                 cale): micro, meso and macro.
+result conﬁrms our visual impression of the funnel
+graphs and is a positive sign that the expectation of poly-           In light of the pool of primary empirical studies, we
+centricity did not appear to inﬂuence the integrity of            take polycentricity measured in Italian NUTS-3, Chinese
+academic studies in this area.                                    prefect proper and Korean city as the micro-scale; polycen-
+    For the three main speciﬁcation differences, the              tricity measured in the European TL2, Italian NUTS-2,
+regression results for most subgroups (columns 3–12) are          Dutch Wet Gemeenschappelijke Regelingen (WGR)
+generally consistent with the total and all-English samples       region, US metropolitan area, Chinese prefectural region
+(columns 1 and 2). Notably, the polycentricity–pro-               and Korean functional urban region (FUR) as the meso-
+ductivity effects at the micro-level and in the subgroup          scale; and polycentricity measured in European countries,
+without treating endogeneity are slightly skewed toward           European TL1, Chinese provincial region, Chinese urban
+negative values. Conversely, the weak negative tendency           agglomeration region and Chinese neighbouring prefec-
+of the functional, proportion-based and meso-level poly-          tural city region as the macro-scale. Considering the
+centricity shown in the vote count and funnel graph fails         high relevance of scale and geography, we bound the
+the precision-effect test. Additionally, there is a possibility   three scale with speciﬁc geographical context (Asia,
+of publication bias in the previous empirical studies at the      Europe and North America).
+micro- and meso-levels. Notably, due to the limited
+sample size, the analysis of the three main speciﬁcation          .   A dummy variable (Control_agg) is coded for whether
+differences requires further validation.                              primary studies control for population or density.
+    Overall, there is no compelling evidence that polycen-        .   We mark the estimate with a dummy variable (Endo_-
+tricity is either beneﬁcial or detrimental for economic               treated) if it overcomes the endogeneity problem.
+development. Notably, this ﬁnding is a post-offsetting
+outcome between the positive and negative effects of poly-           The next set of explanatory variables involves other
+centric structure on the economy, and the inﬂuence of             study-invariant characteristics (OSIC).
+
+REGIONAL STUDIES
+                   Table 3. Precision-effect test.
+                                                                (1)                         (2)                           (3)                   (4)           (5)            (6)
+                   Y¼T                                     All studies                    English                     Morphology             Rank size    Proportion         SD
+
+
+
+
+                                                                                                                                                                                         Polycentric spatial structure and its economic performance: evidence from meta-analysis
+                   Inv_stand_error (b0 )                     −0.043                      −0.010                           −0.041              −0.069     −0.025             −0.027
+                                                            (−1.59)                      (−0.40)                         (−1.32)             (−1.34)     (−0.51)           (−0.65)
+                   Intercept (b1 )                            0.203                      −1.292                            0.635               1.311     −3.120              0.925
+                                                              (0.16)                     (−0.95)                          (0.44)              (0.65)     (−2.19)            (0.66)
+                   Number of estimates                        98                         60                               82                  48         20                29
+                   Adjusted R 2                                0.019                     −0.014                            0.011               0.039     −0.034            −0.005
+                   F                                           2.513                     0.157                             1.749               1.802     0.262               0.425
+
+                                                               (7)                       (8)                               (9)                 (10)           (11)           (12)
+                   Y¼T                                        Micro                      Meso                             Macro              With_agg    Treated_endo   Untreated_endo
+                   Inv_stand_error (b0 )                     −0.061*                     0.012                            −0.030              −0.045     −0.016             −0.076*
+                                                            (−2.05)                      (0.53)                          (−0.34)             (−1.43)     (−0.57)           (−1.93)
+                   Intercept (b1 )                             2.377*                    −2.741***                          1.483               0.283    −0.721               1.275
+                                                              (2.40)                     (−4.22)                           (0.64)              (0.20)    (−0.48)             (1.00)
+                   Number of estimates                       25                          48                               25                  89         36                 62
+                   Adjusted R 2                                0.161                     −0.017                           −0.037                0.018    −0.025               0.063
+                   F                                           4.206                     0.276                              0.118               2.045    0.329                3.707
+                   Note: Robust t-statistics are shown in parentheses, clustered at the study level.
+                   ***p < 0.01, **p < 0.05, *p < 0.1.
+                   Four potential outliers are estimated elasticity > 1.
+                   The regression does not converge when only calculating the estimates without controlling the variable of agglomeration.
+
+
+
+
+REGIONAL STUDIES
+                                                                                                                                                                                         1895
+1896    Wan Li et al.
+
+
+
+Table 4. Moderator variables for meta-regression analysis (observations ¼ 139).
+Dimension                         Moderator variable                         Deﬁnition                  Mean (SD)
+Explained variable          Poly_result                       1 ¼ if the ﬁndings of polycentricity in   1.856 (0.873)
+                                                              the primary study are signiﬁcantly
+                                                              negative
+                                                              2 ¼ if the ﬁndings of polycentricity in
+                                                              the primary study are non-signiﬁcant
+                                                              (base)
+                                                              3 ¼ if the ﬁndings of polycentricity in
+                                                              the primary study are signiﬁcantly
+                                                              positive
+Three commonly criticized   Measurement of     Meas_morph     ¼ 1 if the polycentricity is measured     0.870 (0.336)
+speciﬁcation                polycentricity                    in a morphological way
+characteristics (TCCSC)                        Dum_method     ¼ 1 if the polycentricity is measured     2.007 (0.785)
+                                                              based on proportion
+                                                              ¼ 2 if the polycentricity is measured
+                                                              based on rank size (base)
+                                                              ¼ 3 if the polycentricity is measured
+                                                              based on standard deviation
+                                                              ¼ 4 if the polycentricity is measured
+                                                              based on other method
+                                               Numb_All       ¼ 1 if the polycentricity is measured     1.331 (0.472)
+                                                              based on all number of centres
+                                                              ¼ 0 if the polycentricity is measured
+                                                              based on ﬁxed number of centres
+                                               Dum_scale      ¼ 1 if the primary study is conducted     4.633 (2.329)
+                                                              at the micro-level in Asia
+                                                              ¼ 2 if the primary study is conducted
+                                                              at the micro-level in Europe
+                                                              ¼ 3 if the primary study is conducted
+                                                              at the micro-level in North America
+                                                              (no sample)
+                                                              ¼ 4 if the primary study is conducted
+                                                              at the meso-level in Asia
+                                                              ¼ 5 if the primary study is conducted
+                                                              at the meso-level in Europe
+                                                              ¼ 6 if the primary study is conducted
+                                                              at the meso-level in North America
+                                                              ¼ 7 if the primary study is conducted
+                                                              at the macro-level in Asia
+                                                              ¼ 8 if the primary study is conducted
+                                                              at the macro-level in Europe (base)
+                                                              ¼ 9 if the primary study is conducted
+                                                              at the macro-level in North America
+                                                              (no sample)
+                            Control variable   Control_agg    ¼ 1 if the study controlled a proxy for   0.806 (0.397)
+                                                              agglomeration economies
+                                                              (population or density); 0 otherwise
+                            Estimation         Endo_treated   ¼ 1 if the estimate addresses             0.360 (0.482)
+                            strategies                        potential endogeneity; 0 otherwise
+
+
+                                                                                                             (Continued )
+
+
+REGIONAL STUDIES
+                                 Polycentric spatial structure and its economic performance: evidence from meta-analysis   1897
+
+
+
+Table 4. Continued.
+Dimension                            Moderator variable                         Deﬁnition                       Mean (SD)
+Other study-invariant        Control_y                            ¼ 1 if the explained variable in             0.799 (0.402)
+characteristics (OSIC)                                            primary studies is GDP per capita or
+                                                                  per labour; 0 otherwise
+                             Panel                                ¼ 1 if estimate relates to panel data;       0.280 (0.451)
+                                                                  0 otherwise
+                             Time                                 Average year of used data                2006.151 (4.135)
+                             Num                                  Sample size of primary studies            372.381 (604.634)
+Publication-related          Published                            ¼ 1 if the estimate comes from a            0.726 (0.447)
+characteristics (PRC)                                             study in an academic journal
+                             Pub_year                             Year in which the primary study is       2015.993 (2.793)
+                                                                  published
+                             Dum_Eng                              ¼ 1 if the study is written in English       0.580 (0.496)
+
+
+.   Since we adopt a general sense of ‘economic perform-         Table 5, the pseudo-R 2 for the three commonly criticized
+    ance’, introducing a dummy variable (Control_y) to           speciﬁcation differences can explain approximately 40%
+    differentiate the GDP per capita/labour-dominated            of the variation. In contrast, other study-invariant dimen-
+    explanatory variable from others is necessary.               sions, or the standard set of moderators that are commonly
+.   We divide the initial estimates into three categories        controlled for in the meta-regression analysis, account for
+    (Dum_region): Asia, Europe and North America.                20% of the conﬂicting results. Furthermore, the publi-
+.   The characteristics of data, especially whether they are     cation-related characteristics constitute only 12% of the
+    panel or cross-section data, directly determine the          inconclusive ﬁndings.
+    source of variation. We therefore capture this infor-            Speciﬁcally, the measurement methods of polycentricity
+    mation with a dummy variable (Panel).                        and whether agglomeration economies are taken as control
+.   The year the data (Time) helps to trace the evolution of     variables affect the polycentricity–productivity effect. Com-
+    the effect size, emphasizing trends and possible struc-      pared with rank size-based polycentricity, the standard
+    tural breaks in the literature.                              deviation-based indicators (Method_std. dev) are more likely
+.   Sample size (Num) may play a vital role in every empiri-     to be signiﬁcant, with both positive and negative ﬁndings.
+    cal result.                                                  Polycentricity in Asia both at the micro- and meso-levels
+                                                                 also has a slight tendency to inﬂuence the polycentricity–
+   The third category of variables relates mainly to the         productivity, which is conﬁrmed by the coefﬁcient of
+publication characteristics (PRC) of the primary studies.        Meso_Asian and by the stepwise regression keeping the vari-
+                                                                 able of Micro_Asian. Moreover, when considering the
+.   We differentiate published studies with a dummy vari-        agglomeration economies (Control_agg), we ﬁnd a rather
+    able (Published).                                            robust signiﬁcant polycentricity–productivity effect as well.
+.   We code the information of the year when the studies             However, the measure of polycentricity from different
+    are published (Pub_year).                                    perspectives (Meas_morph) and whether potential endo-
+.   A dummy variable is introduced to identify studies           geneity is addressed (Endo_treated) do not appear to
+    written in English (Dum_Eng). Table 4 provides the           have noticeable effects on the estimated economic per-
+    integrated list of variables used in our meta-analysis.      formance. The insigniﬁcance of Meas_morph might be
+                                                                 partly due to 87% of the extracted estimations in our
+                                                                 study being based on morphological polycentricity.
+Estimation results                                               Further research with functional polycentricity is greatly
+Table 5 reports the estimation results of the meta-logit         needed. The insigniﬁcance of Endo_treated is predictable
+regression analysis with different speciﬁcations. While col-     because the reconstruction of spatial patterns is a long-
+umns (1–3) separately consider the three different sets of       term process characterized by high path dependence
+study characteristics, column (4) considers all three sets       (Lee, 2006; Lee & Gordon, 2007). In this sense, the
+of moderator variables. Column (5) conducts the backward         spatial structure can be treated as exogenous; hence, recur-
+stepwise regression to ﬁlter out the critical variables, and     sive causality is not as severe as expected.
+on top of that column (6) performs the meta-logit                    Regarding other moderators, we ﬁnd that studies with
+regression with only English samples (or the likelihood          panel or the most recent data (Panel, Time) and published
+maximization algorithm fails to converge).                       earlier (Pub_year) have a higher probability of ﬁnding a
+    In terms of the three oft-criticized speciﬁcation differ-    signiﬁcantly result. While the odds of ﬁnding a signiﬁ-
+ences, we do believe they play an important role in explain-     cantly negative estimate are higher for studies with a
+ing the polycentricity–productivity effect. As shown in          large size (Num), the odds of ﬁnding a signiﬁcantly
+
+                                                                                                               REGIONAL STUDIES
+1898     Wan Li et al.
+
+
+
+Table 5. Estimates of meta-analysis with the polynomial logit model.
+                          (1)                (2)               (3)                 (4)              (5)           (6)
+                        TCCSC               OSIC              PRC                  All           Stepwise       English
+Panel A1: The ﬁndings of polycentricity–productivity effect in primary studies are signiﬁcantly negative
+Meas_morph             −1.666                                                    2.555
+                        (−1.62)                                                  (0.75)
+Method_prop              2.673**                                                 4.391
+                         (2.57)                                                  (1.53)
+Method_std. dev.         0.659                                                   8.987            7.632***     23.93
+                         (0.52)                                                  (0.24)            (3.73)        (0.00)
+Method_other           −1.970                                                  −3.406*           −3.900**      −6.015***
+                           (−1.30)                                              (−1.71)            (−2.47)      (−2.69)
+Numb_All                  −2.344**                                             −4.028
+                           (−2.47)                                              (−1.47)
+Micro_Asian               16.16                                                11.46              7.085        −5.005
+                            (0.02)                                               (0.01)            (0.00)       (−0.00)
+Micro_Euro                16.38                                                20.04
+                            (0.00)                                               (0.00)
+Meso_Asian                  2.443***                                             5.401*
+                            (2.83)                                               (1.84)
+Meso_Euro                 −0.795                                                 0.801
+                           (−0.89)                                               (0.18)
+Meso_N-America           −17.13                                               −15.91
+                           (−0.01)                                              (−0.00)
+Control_agg                 1.546*                                               6.977**          8.473***     28.79
+                            (1.69)                                               (2.41)            (4.60)        (0.01)
+Endo_treated                0.368                                              −1.552
+                           (0.49)                                                (−1.19)
+Control_y                                     1.715***                            1.942
+                                             (2.64)                               (0.51)
+Panel                                         1.024                               9.598           8.099***      –
+                                             (1.50)                               (0.26)           (4.08)
+Time                                          0.223***                            1.450***        1.592***      2.668***
+                                             (2.86)                               (3.15)           (4.37)        (3.66)
+Num                                           0.005***                            0.029***        0.0364***     0.0509***
+                                             (3.25)                              (2.97)            (4.65)        (4.07)
+Published                                                       0.0954         −6.426**          −5.152***    −11.00
+                                                               (0.16)           (−2.32)           (−3.59)       (−1.64)
+Pub_year                                                        0.282***       −1.430***         −1.380***     −2.021***
+                                                               (3.19)           (−2.79)           (−3.81)       (−3.49)
+Dum_Eng                                                       −0.165             0.759
+                                                              (−0.31)            (0.02)
+
+Panel A2: The ﬁndings of polycentricity–productivity effect in primary studies are signiﬁcantly positive
+Meas_morph               1.656                                                   2.917
+                         (1.13)                                                  (0.98)
+Method_prop               −0.228                                                 1.383
+                           (−0.20)                                               (0.52)
+Method_std. dev.            0.915                                                4.932            3.000*        3.285
+                            (0.74)                                               (0.13)            (1.83)        (0.00)
+
+                                                                                                                (Continued )
+
+
+
+REGIONAL STUDIES
+                                       Polycentric spatial structure and its economic performance: evidence from meta-analysis   1899
+
+
+
+Table 5. Continued.
+                               (1)                  (2)                  (3)                   (4)         (5)               (6)
+                             TCCSC                 OSIC                  PRC                   All      Stepwise           English
+Method_other                −2.824*                                                         0.891      −1.974           −23.28
+                             (−1.73)                                                        (0.20)      (−1.09)           (−0.00)
+Numb_All                    −1.449                                                        −3.232
+                             (−1.64)                                                       (−1.18)
+Micro_Asian                 16.82                                                         20.57        16.91              19.72
+                              (0.02)                                                        (0.01)       (0.01)             (0.00)
+Micro_Euro                    1.013                                                       10.31
+                              (0.00)                                                        (0.00)
+Meso_Asian                   0.583                                                          5.232*
+                             (0.67)                                                         (1.86)
+Meso_Euro                 −17.37                                                         −15.09
+                            (−0.01)                                                        (−0.00)
+Meso_N-America             −0.688                                                         12.33
+                            (−0.63)                                                         (1.61)
+Control_agg                  1.506                                                          1.244        2.536**          27.27
+                             (1.41)                                                         (0.47)        (2.13)            (0.00)
+Endo_treated                  0.419                                                       −0.416
+                              (0.56)                                                       (−0.37)
+Control_y                                           2.121***                                0.653
+                                                   (3.05)                                   (0.45)
+Panel                                               1.321**                                 2.974        3.874***           –
+                                                   (2.00)                                   (0.08)        (3.12)
+Time                                                0.193***                                0.200        0.237*             1.335**
+                                                   (2.66)                                   (0.76)        (1.66)             (2.19)
+Num                                                 0.001                                 −0.001        0.003              0.013
+                                                   (0.77)                                  (−0.09)       (0.98)             (1.45)
+Published                                                               1.473**           −1.292        0.431             −6.369
+                                                                       (2.27)              (−0.51)       (0.42)            (−1.03)
+Pub_year                                                                0.137               0.856      −0.208             −0.871**
+                                                                       (1.39)               (1.02)      (−1.18)            (−2.10)
+Dum_Eng                                                               −1.723***           −5.024
+                                                                      (−3.01)              (−0.13)
+
+Observations               139                  139                  139                 139          139                 80
+Number of studies          31                   31                   31                   31           31                17
+Pseudo-R 2                  0.40                 0.20                 0.12                 0.70         0.58              0.71
+Log-likelihood            −87.47              −116.95              −129.31               −43.41       −61.77            −23.69
+Note: ***p < 0.01, **p < 0.05, *p < 0.1.
+t-statistics are shown in parentheses.
+Moderator variables of Micro_N-America, Meso_Asia and Panel are omitted because of collinearity.
+
+
+
+positive estimate are higher for studies published earlier                 or helped to understand the differing results. Worse, this
+(Pub_year).                                                                inconclusiveness can cause substantial trouble because
+                                                                           the conception of polycentricity is closely related to
+CONCLUSIONS                                                                urban planning practice. Therefore, this paper attempts
+                                                                           to systematically review and analyse previous studies by
+Currently, there is a growing number of studies that have                  means of a meta-analysis and to clarify the relationship
+evaluated the effect of polycentric spatial structure on                   between polycentricity and economic performance.
+economic performance. However, the ﬁndings of the poly-                        As the ﬁrst meta-analysis in this ﬁeld, we sample 139
+centric–productivity effect have been quite inconclusive,                  estimates from 31 primary studies. After analysing the
+and little work on this topic has generalized across studies               vote count, funnel plot and precision-effect test, we ﬁnd
+
+                                                                                                                     REGIONAL STUDIES
+1900     Wan Li et al.
+
+
+
+no compelling evidence to support that polycentricity is         DISCLOSURE STATEMENT
+either beneﬁcial or detrimental for economic develop-
+ment. Additionally, we ﬁnd no evidence of publication            No potential conﬂict of interest was reported by the
+selection bias. Further meta-logit regressions conﬁrm            authors.
+that the inﬂuences of the three oft-criticized speciﬁcation
+differences do play an important role. Speciﬁcally, the          FUNDING
+measurement methods of polycentricity and adopting
+agglomeration economies as a control variable affect the         This work is supported by the National Natural Science
+polycentricity–productivity effect. In contrast, the             Foundation of China [grant numbers 41901184 and
+measure of polycentricity from different perspectives            42071210]; the China Postdoctoral Science Foundation
+and whether potential endogeneity is addressed do not            [grant numbers 2019M650080 and 2020T130194]; the
+have noticeable effects on the estimated economic                Major Program of the National Social Science Foundation
+performance.                                                     of China [grant number 17ZDA068]; the Fundamental
+    Our ﬁnding of no evidence to support the idea that           Research Funds for the Central Universities [grant num-
+polycentricity is either favourable or harmful to economic       ber 2019ECNU-HWFW002]; and the Key Scientiﬁc
+development calls for critical reﬂection. In fact, previous      Research Program of Higher Education Institutions in
+studies have already questioned the positive effects of poly-    Henan Province [grant number 22A170006].
+centricity, which are largely based on individual empirical
+research or observations that lack a theoretical basis           NOTE
+(Brezzi & Veneri, 2015; Davoudi, 2003; Meijers & Sand-
+berg, 2008). In this paper, we conﬁrm that there is no solid     1. Five studies did not have keywords, and we extracted
+evidence for polycentricity promoting economic develop-          these terms from the titles and abstracts of these studies.
+ment. However, this paper does not generally invalidate          Speciﬁcally, the keywords extracted for Meijers (2008)
+the utility of polycentricity. First, our ﬁnding is an overall   were polycentric urban region, provision of amenities,
+result of the offsetting positive and negative effects of        monocentricity and Dutch region; the keywords
+polycentric structure on the economy, and the inﬂuence           extracted for Meijers and Burger (2010) were spatial
+of polycentric structure on economic development is              structure, productivity, agglomeration, monocentricity,
+more than likely to be signiﬁcant in speciﬁc cases. Second,      polycentricity and US metropolitan area; the keywords
+there could be other reasons for pursuing polycentric            extracted for Veneri and Burgalassi (2012) were poly-
+development, such as reducing disparities or promoting           centric development, functional and morphological
+the environmental sustainability. Third, this paper is an        polycentricity, economic performance, and Italian
+account of only a handful of empirical studies, and the          NUTS-2 region; the keywords extracted for Brezzi
+meta results will be more credible when drawing on con-          and Veneri (2015) were polycentric urban system, econ-
+siderable empirical studies. Nevertheless, there is a press-     omic implication, polycentricity, spatial scale and
+ing need for more empirical examinations of the                  OECD countries; and the keywords extracted for
+relationship between polycentricity and its various per-         Ouwehand (2018) were polycentricity, spatial organiz-
+formances, especially from the perspective of functional         ation, productivity, polycentric city networks and Euro-
+polycentricity.                                                  pean TL2 region.
+    Our ﬁndings also provide helpful guidance for future
+research in this area. First, achieving a universally
+accepted deﬁnition and identiﬁcation of polycentricity           ORCID
+and thus increasing the comparability of studies remains
+a worthwhile challenge in this ﬁeld. According to our            Wan Li http://orcid.org/0000-0003-0680-2680
+meta-logit regression, the measurement method and                Bindong Sun http://orcid.org/0000-0002-3190-4497
+scale of polycentricity do affect the relationship between       Tinglin Zhang http://orcid.org/0000-0002-4445-8254
+polycentricity and economic development, and the insig-          Zhifan Zhang http://orcid.org/0000-0002-6970-4298
+niﬁcance of morphological polycentricity may be due to
+the limitation of samples. Second, the effect of agglom-         REFERENCES
+eration economies on polycentricity–productivity must
+not be overlooked. The analysis shows that agglomeration         Alonso, W. (1973). Urban zero population growth. Daedalus, 102
+economies constitute a critical control variable, and               (4), 191–206. https://www.jstor.org/stable/20024174?casa_
+studies are more likely to ﬁnd a negative polycentricity–           token=AW4uZDcfHlwAAAAA%3AK2ukZcQa0dlm_qVy
+productivity effect when considering agglomeration econ-            5YZoB9gVRdriyohy7isS7Ne9KlGpUIpvcxPfhxb2xGSpaA
+omies. Third, endogeneity bias of the polycentricity–pro-           M2RCBLZEC_gyQtSOpZeSX06UESqYc2YDyTyqeUDOs
+                                                                    ZhybwsAMS5Lti&seq=1#metadata_info_tab_contents
+ductivity effect may not be a signiﬁcant issue. Treatment
+                                                                 Anas, A., Arnott, R., & Small, K. A. (1998). Urban spatial structure.
+of the endogeneity of polycentricity does not appear to             Journal of Economic Literature, 36(3), 1426–1464. https://www.
+produce any signiﬁcant difference. Future studies do not            jstor.org/stable/2564805?casa_token=1GO9sAdM1WIAAAA
+need to worry excessively about the issue of reverse                A%3AgiQIw8KxVc7EdON_GbfCD0qAF9Quc2oMu69EZv
+causality.                                                          Epn8CSw2OkrcqtJHKgOFmGCstcau9xoARtyi6YM3l4Gq3j5
+
+REGIONAL STUDIES
+                                       Polycentric spatial structure and its economic performance: evidence from meta-analysis            1901
+
+
+
+    Vz7OwmDO1MHokHSiGFxb-HpV28z6ddC&seq=1#meta                            Kloosterman, R. C., & Musterd, S. (2001). The polycentric urban
+    data_info_tab_contents                                                    region: Towards a research agenda. Urban Studies, 38(4), 623–
+Bartosiewicz, B., & Marcińczak, S. (2020). Investigating polycentric          633. https://doi.org/10.1080/00420980120035259
+    urban regions: Different measures – Different results. Cities,        Kwon, K., & Seo, M. (2018). Does the polycentric urban region con-
+    105, 102855. https://doi.org/10.1016/j.cities.2020.102855                 tribute to economic performance? The case of Korea.
+Boussauw, K., Van Meeteren, M., Sansen, J., Meijers, E., Storme,              Sustainability, 10(11), 4157. https://doi.org/10.3390/su10114157
+    T., Louw, E., Derudder, B., & Witlox, F. (2018). Planning             Lee, B. (2006). Urban spatial structure, commuting, and growth in US
+    for agglomeration economies in a polycentric region:                      metropolitan areas [Doctoral dissertation]. University of
+    Envisioning an efﬁcient metropolitan core area in Flanders.               Southern California.
+    European Journal of Spatial Development, 69, 1–26. http://doi.        Lee, B., & Gordon, P. (2007). Urban spatial structure and economic
+    org/10.30689/EJSD2018:69.1650-9544                                        growth in US metropolitan areas. 46th Annual Meetings of the
+Brezzi, M., & Veneri, P. (2015). Assessing polycentric urban systems          Western Regional Science Association, Newport Beach, CA.
+    in the OECD: Country, regional and metropolitan perspectives.         Lee, B., & Gordon, P. (2011). Urban structure: Its role in urban
+    European Planning Studies, 23(6), 1128–1145. https://doi.org/             growth, net new business formation and industrial churn.
+    10.1080/09654313.2014.905005                                              Région et Developpement, 33, 137–159. https://d1wqtxts1xzle7.
+Burger, M., & Meijers, E. (2012). Form follows function? Linking              cloudfront.net/42017045/URBAN_STRUCTURE_ITS_
+    morphological and functional polycentricity. Urban Studies, 49            ROLE_IN_URBAN_GROWTH20160203-31224-6d3l25.
+    (5), 1127–1149. https://doi.org/10.1177/0042098011407095                  pdf?1454565740=&response-content-disposition=inline%3B
+Cai, Y. Y. (2014). Urban spatial structure and economic growth: Based         +ﬁlename%3DURBAN_STRUCTURE_ITS_ROLE_IN_
+    on analysis of Chinese cities [Master’s dissertation]. East China         URBAN_GROWTH.pdf&Expires=1640014841&Signature=
+    Normal University.                                                        IwMW2POTMjGMk~u3zjbzszA5zEtdgxtaRf2uwhSavvrL8
+Chen, C. (2004). Searching for intellectual turning points:                   AoOkIjWL33uihNdch1p-20khbwuq5CYa4gZg2-Neeyg2GM
+    Progressive knowledge domain visualization. Proceedings of the            0xwhOvi6bxgoSxQ1d1CEBLDML-p4-9wDksVDpnrbvTfdn
+    National Academy of Sciences, 101(Supplement 1), 5303–5310.               51ld8OUx7UTefNDdwhZoVOUxuBKmhDK5K15OpV9ayQ
+    https://doi.org/10.1073/pnas.0307513100                                   PHxRXfSN8WfMng0i9jRRoi-Q6B6UECR5UHavsQ2aNP
+Chen, J. Y. (2016). Study on the spatial structure of urban agglomera-        WI43-UOPduDpa-brWoY5NyGy89vz2pwgSSbw10533Wij
+    tion in China and its inﬂuence on economic efﬁciency [Doctoral dis-       B1WMNhOQxyZTdbXlRVHlVMzRHzDcKx45psnjsZ2tRV
+    sertation]. Northeast Normal University.                                  6k~iwSe1zPzYtxgJPmphMe~uG9Zwyn7TJqhg__&Key-Pair-
+Cheng, H., & Shaw, D. (2018). Polycentric development practice in             Id=APKAJLOHF5GGSLRBV4ZA
+    master planning: The case of China. International Planning Studies,   Li, W., Sun, B., & Zhang, T. (2019). Spatial structure and labour
+    23(2), 163–179. https://doi.org/10.1080/13563475.2017.1361318             productivity: Evidence from prefectures in China. Urban
+Combes, P. P., & Gobillon, L. (2015). The empirics of agglomera-              Studies,     56(8),      1516–1532.       https://doi.org/10.1177/
+    tion economies. In G. Duranton, J. V. Henderson & W. C.                   0042098018770077
+    Strange (Eds.), Handbook of regional and urban economics              Li, W., Sun, B., Zhao, J., & Zhang, T. (2018). Economic perform-
+    (Vol. 5, pp. 247–348). Elsevier.                                          ance of spatial structure in Chinese prefecture regions: Evidence
+Commission of the European Communities (CEC). (1999).                         from night-time satellite imagery. Habitat International, 76, 29–
+    European spatial development perspective: Towards balanced and            39. https://doi.org/10.1016/j.habitatint.2018.05.006
+    sustainable development of the territory of the EU. Ofﬁce for         Li, Y., & Liu, X. (2018). How did urban polycentricity and dis-
+    Ofﬁcial Publications of the European Communities.                         persion affect economic productivity? A case study of 306
+Davoudi, S. (2003). European brieﬁng: Polycentricity in European              Chinese cities. Landscape and Urban Planning, 173, 51–59.
+    spatial planning: From an analytical tool to a normative agenda.          https://doi.org/10.1016/j.landurbplan.2018.01.007
+    European Planning Studies, 11(8), 979–999. https://doi.org/10.        Liu, X. Y., Li, S. L., & Qin, M. (2017). Urban spatial structure and
+    1080/0965431032000146169                                                  regional economic efﬁciency: On the selection of China’s urban-
+Derudder, B., Liu, X., Wang, M., Zhang, W., Wu, K., & Caset, F.               ization development patterns. Management World, 1, 51–64.
+    (2020). Measuring polycentric urban development: The impor-               https://doi.org/10.3969/j.issn.1002-5502.2017.01.006           [in
+    tance of accurately determining the ‘balance’ between ‘centers’.          Chinese]
+    Cities, 103009. https://doi.org/10.1016/j.cities.2020.103009          Meijers, E. (2005). Polycentric urban regions and the quest for
+Green, N. (2007). Functional polycentricity: A formal deﬁnition in            synergy: Is a network of cities more than the sum of the parts?
+    terms of social network analysis. Urban Studies, 44(11), 2077–            Urban Studies, 42(4), 765–781. https://doi.org/10.1080/
+    2103. https://doi.org/10.1080/00420980701518941                           00420980500060384
+Hall, P. G., & Pain, K. (Eds.). (2006). The polycentric metropolis:       Meijers, E. (2008). Summing small cities does not make a large city:
+    Learning from mega-city regions in Europe. Routledge.                     Polycentric urban regions and the provision of cultural, leisure
+Henderson, V. (2003). The urbanization process and economic                   and sports amenities. Urban Studies, 45(11), 2323–2342.
+    growth: The so-what question. Journal of Economic Growth, 8               https://doi.org/10.1177/0042098008095870
+    (1), 47–71. https://doi.org/10.1023/A:1022860800744                   Meijers, E. J. (2013). Metropolitan labor productivity and urban
+Hou, Y., & Sun, T. S. (2016). Economic performance of urban                   spatial structure. In J. Klaesson, B. Johansson & C. Karlsson
+    agglomeration spatial structure in China – empirical analysis             (Eds.), Metropolitan regions (pp. 141–166). Springer.
+    based on panel data. Inquiry Into Economic Issues, 2, 80–88.          Meijers, E. J., & Burger, M. J. (2010). Spatial structure and pro-
+    https://doi.org/CNKI:SUN:JJWS.0.2016-02-012 [in Chinese]                  ductivity in US metropolitan areas. Environment and Planning
+Hua, J. Y. (2017). Spatial evolution and economic performance of city         A: Economy and Space, 42(6), 1383–1402. https://doi.org/10.
+    clusters in China from morphologically mono- and polycentric per-         1068/a42151
+    spective [Master’s Dissertation]. East China Normal University.       Meijers, E. J., & Burger, M. J. (2017). Stretching the concept of
+Hua, J. Y., & Sun, B. D. (2015). Economic performance of the poly-            ‘borrowed size’. Urban Studies, 54(1), 269–291. https://doi.org/
+    centric metropolitan spatial structure in China. Urban Problems,          10.1177/0042098015597642
+    9, 68–73. https://doi.org/CNKI:SUN:CSWT.0.2015-09-012                 Miao, H. L., Zeng, B., & Zhang, B. (2016). Spatial structure and
+    [in Chinese]                                                              economic efﬁciency of urban agglomeration: Empirical evidence
+
+
+
+                                                                                                                           REGIONAL STUDIES
+1902      Wan Li et al.
+
+
+
+    from China. Social Sciences in Ningxia, 5, 129–137. https://doi.      Wang, L., & Gao, Q. (2018). The economic performance of urban
+    org/CNKI:SUN:LXSK.0.2016-05-022 [in Chinese]                             cluster spatial structure in the Yangtze River middle reaches.
+Möck, M., & Küpper, P. (2020). Polycentricity at its boundaries:             Human Geography, 33(6), 96–102. https://doi.org/CNKI:SUN:
+    Consistent or ambiguous? European Planning Studies, 28(4),               RWDL.0.2018-06-013 [in Chinese]
+    830–849. https://doi.org/10.1080/09654313.2019.1666802                Wang, M., Derudder, B., & Liu, X. (2019). Polycentric urban
+Ouwehand, W. (2018). The impact of spatial organization on regional          development and economic productivity in China: A multiscalar
+    productivity in Europe. Working paper.                                   analysis. Environment and Planning A: Economy and Space, 51(8),
+Rauhut, D., Palma, P., & Humer, A. (2018). Can polycentrism                  1622–1643. https://doi.org/10.1177/0308518X19866836
+    stimulate the provision of social services of general interest?       Wang, T. (2016). The characteristics, inﬂuencing factors and economic
+    Social Science Spectrum, 4(1), 1–15. http://socialspectrum.in/           performance of spatial structure of city clusters in China: From the
+    index.php/sp/article/view/121/110                                        perspective of functional connection [Master’s dissertation]. East
+Stanley, T. D., & Doucouliagos, H. (2012). Meta-regression analysis          China Normal University. http://cdmd.cnki.com.cn/article/
+    in economics and business. Routledge.                                    cdmd-10269-1016146052.htm
+Stanley, T. D., & Jarrell, S. B. (2005). Meta-regression analysis: A      Waterhout, B., Zonneveld, W., & Meijers, E. (2005). Polycentric
+    quantitative method of literature surveys. Journal of Economic           development policies in Europe: Overview and debate. Built
+    Surveys, 19(3), 299–308. https://doi.org/10.1111/j.0950-0804.            Environment, 31(2), 163–173. https://doi.org/10.2148/benv.
+    2005.00249.x                                                             31.2.163.66250
+Sun, B. D., & Li, W. (2016). City size distribution and economic          Wegener, M. (2013). Polycentric Europe: More efﬁcient, more equitable
+    performance: Evidence from city-regions in China. Scientia               and more sustainable. International Seminar on Welfare and
+    Geographica Sinica, 36(3), 328–334. https://doi.org/10.13249/j.          Competitiveness in the European Polycentric Urban Structure,
+    cnki.sgs.2016.03.002 [in Chinese]                                        Florence, Italy, June.
+Sun, B. D., Wang, X. H., & Cai, Y. Y. (2015). An empirical study          Yang, Q. S., Du, X., Zhang, P., & Zhao, Y. C. (2011). The urban
+    on the economic performance of polycentric spatial structure of          population spatial structure and labor productivity of administra-
+    mega-cities in China. City Planning Review, 39(8), 39–45.                tive region of cities in the northeast China. Scientia Geographica
+    https://doi.org/10.11819/cpr20150806a [in Chinese]                       Sinica, 31(11), 1301–1306. https:/doi.org/CNKI:SUN:DLKX.
+Taylor, P. J., Evans, D. M., & Pain, K. (2008). Application of               0.2011-11-004 [in Chinese]
+    the interlocking network model to mega-city-regions: Measuring        Zhang, H. R., & Yi, B. Z. (2012). Spatial structure and economic
+    polycentricity within and beyond city-regions. Regional Studies,         performance in Chinese urban agglomerations. Economic
+    42(8), 1079–1093. https://doi.org/10.1080/00343400701874214              Review, 1, 42–47, 115. https:/doi.org/CNKI:SUN:JJPL.0.
+Vandermotten, C., Halbert, L., Roelandts, M., & Cornut, P. (2008).           2012-01-004 [in Chinese]
+    European planning and the polycentric consensus: Wishful              Zhang, P. (2012). The study on economic efﬁciency of urbanization
+    thinking? Regional Studies, 42(8), 1205–1217. https://doi.org/           spatial structure in China [Doctoral Dissertation]. Northeast
+    10.1080/00343400701874206                                                Normal University. http://cdmd.cnki.com.cn/Article/CDMD-
+Van Meeteren, M., Poorthuis, A., Derudder, B., & Witlox, F.                  10200-1013142129.htm
+    (2016). Pacifying babel’s tower: A scientometric analysis of poly-    Zhang, T., Sun, B., & Li, W. (2017). The economic performance of
+    centricity in urban research. Urban Studies, 53(6), 1278–1298.           urban structure: From the perspective of polycentricity and
+    https://doi.org/10.1177/0042098015573455                                 monocentricity. Cities, 68, 18–24. https://doi.org/10.1016/j.
+Veneri, P., & Burgalassi, D. (2011). Spatial structure and productivity      cities.2017.05.002
+    in Italian NUTS-3 regions. Università Politecnica delle Marche,       Zhang, T. L., & Sun, B. D. (2017). The interaction between urban
+    Dipartimento di Scienze Economiche e Sociali. https://www.               spatial structure and economic development. Geographica Sinica,
+    siecon.org/sites/siecon.org/ﬁles/oldﬁles/uploads/2011/04/                37(4), 512–518. https://doi.org/10.13249/j.cnki.sgs.2017.04.
+    Veneri-Burgalassi1.pdf                                                   004 [in Chinese]
+Veneri, P., & Burgalassi, D. (2012). Questioning polycentric              Zhang, W., & Derudder, B. (2019). How sensitive are measures of
+    development and its effects. Issues of deﬁnition and measurement         polycentricity to the choice of ‘centres’? A methodological and
+    for the Italian NUTS-2 regions. European Planning Studies, 20            empirical exploration. Urban Studies. https://doi.org/10.1177/
+    (6), 1017–1037. https://doi.org/10.1080/09654313.2012.673566             0042098019843061
+
+
+
+
+REGIONAL STUDIES
+

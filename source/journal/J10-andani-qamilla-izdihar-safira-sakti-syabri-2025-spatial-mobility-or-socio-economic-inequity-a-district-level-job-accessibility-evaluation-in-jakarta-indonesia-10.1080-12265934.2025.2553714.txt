@@ -1,0 +1,1338 @@
+[PDF Metadata]
+Source PDF: journal/J10-andani-qamilla-izdihar-safira-sakti-syabri-2025-spatial-mobility-or-socio-economic-inequity-a-district-level-job-accessibility-evaluation-in-jakarta-indonesia-10.1080-12265934.2025.2553714.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Spatial, mobility, or socio-economic inequity? A district level job accessibility evaluation in Jaka
+Subject:         International Journal of Urban Sciences, . doi:10.1080/12265934.2025.2553714
+Keywords:        Job accessibility; equity; Gini coefficient; mobility; Palma ratio; Theil index
+Author:          I Gusti Ayu Andani
+Creator:         Servigistics Arbortext Advanced Print Publisher 11.1.4546/W-x64
+Producer:        PDFlib+PDI 9.0.7p3 (C++/Win64); modified using iTextSharp™ 5.5.8 ©2000-2015 iText Group NV (AGPL-version)
+CreationDate:    Tue Sep  9 00:17:23 2025 WIB
+ModDate:         Tue Sep  9 00:37:47 2025 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           30
+Encrypted:       no
+Page size:       634.32 x 833.04 pts
+Page rot:        0
+File size:       2055903 bytes
+Optimized:       no
+PDF version:     1.5
+[Extracted Text]
+       International Journal of Urban Sciences
+
+
+
+
+       ISSN: 1226-5934 (Print) 2161-6779 (Online) Journal homepage: www.tandfonline.com/journals/rjus20
+
+
+
+
+Spatial, mobility, or socio-economic inequity?
+A district level job accessibility evaluation in
+Jakarta, Indonesia
+
+I Gusti Ayu Andani, Nadia Qamilla, Rakan Pramoe Izdihar, Maya Saﬁra, Anjar
+Dimara Sakti & Ibnu Syabri
+
+To cite this article: I Gusti Ayu Andani, Nadia Qamilla, Rakan Pramoe Izdihar, Maya Saﬁra,
+Anjar Dimara Sakti & Ibnu Syabri (15 Sep 2025): Spatial, mobility, or socio-economic inequity?
+A district level job accessibility evaluation in Jakarta, Indonesia, International Journal of Urban
+Sciences, DOI: 10.1080/12265934.2025.2553714
+
+To link to this article: https://doi.org/10.1080/12265934.2025.2553714
+
+
+
+
+       Published online: 15 Sep 2025.
+
+
+
+       Submit your article to this journal
+
+
+
+       Article views: 295
+
+
+
+       View related articles
+
+
+
+       View Crossmark data
+
+
+
+       Citing articles: 2 View citing articles
+
+
+
+
+                       Full Terms & Conditions of access and use can be found at
+              https://www.tandfonline.com/action/journalInformation?journalCode=rjus20
+INTERNATIONAL JOURNAL OF URBAN SCIENCES
+https://doi.org/10.1080/12265934.2025.2553714
+
+
+
+
+Spatial, mobility, or socio-economic inequity? A district level
+job accessibility evaluation in Jakarta, Indonesia
+I Gusti Ayu Andani a, Nadia Qamillaa, Rakan Pramoe Izdihara, Maya Safiraa,
+Anjar Dimara Saktib and Ibnu Syabric
+a
+ School of Architecture, Planning and Policy Development, Bandung Institute of Technology, Bandung,
+Indonesia; bFaculty of Earth Sciences and Technology, Bandung Institute of Technology, Bandung,
+Indonesia; cUrban and Regional Planning Department, Sumatera Institute of Technology, Lampung,
+Indonesia
+
+
+    ABSTRACT                                                                          ARTICLE HISTORY
+    Jakarta, a rapidly urbanizing megacity in Southeast Asia, faces                   Received 6 March 2025
+    persistent challenges in ensuring equitable access to employment                  Accepted 24 August 2025
+    opportunities. This study evaluates spatial, socio-economic, and
+                                                                                      KEYWORDS
+    modal inequities in job accessibility by examining how disparities                Job accessibility; equity; Gini
+    manifest across three transport modes – car, motorcycle, and                      coefficient; mobility; Palma
+    public transport – and different income groups. Using a cumulative                ratio; Theil index
+    opportunity approach within a 41.2-minute travel threshold, the
+    analysis draws on travel time data collected from the Google Maps
+    API and origin-destination matrices derived from a microsimulation
+    model. Results show that job accessibility is highly centralized, with
+    significantly lower access in peripheral and low-density areas.
+    Motorcycles provide the broadest and most equitably distributed
+    access, especially for low- and medium-income populations, while
+    public transport shows the most severe inequality. The Theil index
+    reveals that job accessibility inequity in Jakarta is driven primarily
+    by disparities within population density groups, highlighting the
+    need for localized, neighbourhood-level interventions rather than
+    broad spatial or income-based approaches. Notably, Gini
+    coefficients across income groups are nearly identical, suggesting
+    that transport inequity in Jakarta is shaped more by geography
+    and network design than by socio-economic category alone. These
+    findings highlight the need for expanding mass public transport
+    coverage, improving first- and last-mile connectivity, and
+    implementing       localized     interventions     in     underserved
+    neighbourhoods. The study contributes empirical evidence to the
+    literature on urban accessibility and equity in the Global South and
+    supports the integration of multi-dimensional equity metrics into
+    transport planning practices.
+
+
+
+
+Highlights
+
+.   District-level analysis of job accessibility inequity in Jakarta, Indonesia.
+.   Spatial centrality drives unequal job access, disadvantaging peripheral areas.
+
+CONTACT I Gusti Ayu Andani        g.a.andani@itb.ac.id   School of Architecture, Planning and Policy Development,
+Bandung Institute of Technology, Jalan Ganesha No. 10, Bandung, Jawa Barat 40132, Indonesia
+© 2025 The Institute of Urban Sciences
+2       I. G. A. ANDANI ET AL.
+
+
+.   Motorcycle mobility delivers most equitable access across income groups.
+.   Public transport access is highly unequal, concentrated in limited corridors.
+.   Inequity shaped more by geography and mode than by socio-economic class.
+
+
+
+1. Introduction
+The increasing rate of urbanization has brought significant mobility challenges, par­
+ticularly concerning how urban populations travel, the available transportation oppor­
+tunities, and its accessibility level. Hansen (1959) initially defined accessibility as the
+potential for opportunities to interact. Subsequently, accessibility has been defined
+in a variety of ways. For instance, Dalvi and Martin (1976) defined accessibility as
+the convenience with which any activity (land use) can be accessed using the existing
+transportation system. Access to activities is the primary goal of transportation,
+influenced by factors such as individual mobility, the quality of available transpor­
+tation modes, transportation network connectivity, as well as population density
+and land use variation (Litman, 2013).
+    Among the diverse indicators of accessibility, job accessibility emerges as a central
+focus due to its critical role in socio-economic outcomes. Jobs are a fundamental
+driver of economic mobility and social inclusion. Access to employment opportunities
+directly affects individuals’ economic well-being, making job accessibility a key indicator
+for understanding spatial and socio-economic inequalities (Guzman et al., 2017; Lucas,
+2012). Although many studies on transportation equity evaluate access to healthcare
+or education (e.g. Lardier et al., 2023; Sharma & Patil, 2021; Tiznado-Aitken et al.,
+2021), job accessibility is frequently used due to its direct impact on economic outcomes
+and daily commuting needs (Bastiaanssen et al., 2021; Lucas et al., 2016; Martens, 2016).
+Unlike healthcare, which may be needed less frequently, jobs require consistent and
+reliable access, making employment-related trips a critical factor in transportation
+planning.
+    Numerous studies have demonstrated the uneven distribution of job accessibility in
+many large cities worldwide. For instance, Dodson et al. (2011) in several Australian
+cities, Teunissen et al. (2015) in Bogota, Hernandez (2018) in Montevideo, Kawabata
+(2003) in Tokyo, and (Kawabata & Shen, 2007) in the US metropolitan areas. This
+unequal job accessibility and its association with limited opportunities in certain areas
+and social interaction exacerbate pre-existing socio-economic inequalities (Blanco &
+Apaolaza, 2018; Golub & Martens, 2014). Identifying the most affected or marginalized
+groups and areas is crucial to evaluating the role of transportation systems in promoting
+equity (Lucas et al., 2016). Recent transportation studies have shown interest in measur­
+ing differences in job accessibility and its impact on socially marginalized groups (see for
+example, Boisjoly et al., 2017; Grisé et al., 2019; Liu & Kwan, 2020).
+    Despite this growing body of work, limited research focuses on the Global South – par­
+ticularly Southeast Asia – where transport systems are characterized by mixed modal pat­
+terns and the dominance of informal and motorcycle-based mobility. Moreover, few
+studies have applied multidimensional equity indicators to capture both modal and
+socio-economic disparities in job accessibility. In Asian countries, such as Indonesia,
+evaluations of job accessibility are not widely conducted or able to explore how
+                                                 INTERNATIONAL JOURNAL OF URBAN SCIENCES       3
+
+
+accessibility is distributed across socio-economic strata and transport modes. The study
+by Andani et al. (2021) on accessibility to employment in Indonesia in the context of eval­
+uating toll road construction, for example, does not accommodate the aspect of mode
+choice. In fact, the characteristics of mobility in Asian countries are very unique and
+different from countries on other continents. For example, the use of (semi) automatic
+motorbikes with low engine capacity (below 150 cc) is very widespread in Indonesia
+and other developing countries such as Vietnam and Thailand (Hsu et al., 2003). This
+is in contrast to motorbike users in Europe and the United States. Ride-hailing services
+with motorbikes are also more popular in Southeast Asia, and have been found to
+improve mobility in urban communities (Irawan et al., 2020; Phun et al., 2019; Wadud,
+2020). Ride-hailing services provide a more flexible alternative for low-income commu­
+nities that rely heavily on public transport (Qiao & Gar-On Yeh, 2023).
+    The government of Indonesia has prioritized the development of mass public transport
+in the past years as part of their strategy to boost mobility and accessibility. As of the end of
+2019, types of mass public transport such as Bus Rapid Transit, MRT, and LRT were oper­
+ational in Jakarta. It is said that transportation services in addition to what existed before
+were able to service about 90 percent of the people. However, there has been no analysis of
+how the expansion of these services has affected access to employment or reduced socio-
+economic inequities in mobility. This study seeks to address that gap by evaluating inequi­
+ties in job accessibility across socio-economic groups and transport modes in Jakarta.
+    The unequal distribution of resources or opportunities among population groups or
+places, such as public transport accessibility between central and periphery districts, is
+called inequality in transport (Arellana et al., 2021). Inequity emphasizes fairness and
+justice beyond inequality (Litman, 2015). Systemic limitations to transportation services
+can prevent disadvantaged populations from participating in critical activities like job, edu­
+cation, and healthcare. While inequality can be quantified by statistical measures like the
+Gini coefficient, inequity necessitates assessing whether observed discrepancies are fair or
+unfair based on ethical and socio-economic factors (van Wee & Geurs, 2011). This study
+investigates inequities in job accessibility to identify gaps and offer recommendations that
+promote fairness in mobility and opportunity distribution across districts and social groups.
+    This research provides critical empirical evidence from Jakarta, a highly relevant case in
+the Global South, using equity metrics rarely applied in the region. It examines job acces­
+sibility inequity through the combined lens of spatial, socio-economic, and modal dispar­
+ities in a city where motorcycles dominate mobility and public transport systems are still
+emerging. While previous studies have focused on transit affordability or infrastructure dis­
+tribution in other cities, this paper uses the Gini coefficient, Palma ratio, and Theil index to
+evaluate job accessibility from a multidimensional perspective. By doing so, the study pro­
+vides one of the first empirical analyses of accessibility inequity in Indonesia that considers
+the interplay of income levels, geographic location, and mode of transport. It responds to
+recent calls in the literature for more nuanced and context-sensitive assessments of trans­
+port-related inequality (Lucas, 2019; Pereira et al., 2016; Uteng & Lucas, 2017).
+    This paper is organized as follows: Section 2 presents a literature review focused on
+transportation equity and job accessibility, highlighting essential metrics employed in
+the assessment of inequities. Section 3 outlines the research methodology, including
+data collection, travel time analysis, and the computation of accessibility and inequity
+indicators. Section 4 presents the results and includes a comprehensive discussion that
+4      I. G. A. ANDANI ET AL.
+
+
+compares the findings with existing literature. Section 5 concludes the paper by summar­
+izing key insights and providing policy recommendations aimed at enhancing equitable
+job access in Jakarta.
+
+2. Literature review
+To examine inequity in urban transport systems, this study is guided by a conceptual
+framework that integrates three key dimensions of transport-related disparities: spatial
+inequity, socio-economic inequity, and mobility inequity (Figure 1). These dimensions
+represent distinct but interconnected pathways through which access to employment
+is shaped by geographic location, income status, and modal availability. All three
+influence individuals’ ability to reach job opportunities, conceptualized in this study
+as job accessibility. This framework also links each dimension of inequity with suitable
+distributional equity indicators: the Gini coefficient and Lorenz curve for overall
+inequality, the Palma ratio for disparities between extremes, and the Theil index for
+analysing within- and between-group differences. This multi-metric approach
+enables a nuanced evaluation of transport-related exclusion in Jakarta. Each com­
+ponent of the framework is discussed in detail in the following subsections.
+
+2.1. Understanding transport inequity and its dimensions
+Transport inequity refers to the unfair or unjust distribution of transport services, infra­
+structure, and the opportunities they enable. It differs from inequality, which is
+
+
+
+
+Figure 1. Conceptual framework.
+                                                INTERNATIONAL JOURNAL OF URBAN SCIENCES       5
+
+
+descriptive in nature, by introducing a normative evaluation of whether the observed dis­
+parities are ethically or socially acceptable (Litman, 2015; van Wee & Geurs, 2011).
+Transport equity concerns whether individuals and communities – regardless of
+income, location, or demographic characteristics – can access opportunities and partici­
+pate fully in society. This study focuses on three key and interrelated dimensions of trans­
+port inequity, which are spatial, socio-economic, and mobility inequities. The terms
+spatial inequity, socio-economic inequity, and mobility inequity address disparities in
+opportunities and resources, each emphasizing distinct dimensions.
+    Spatial inequity arises from geographic disparities in the distribution of transport
+infrastructure and services. In many cities, central or high-income areas benefit from
+dense networks and high service levels, while peripheral or low-density zones often
+face limited connectivity and longer travel times (Arellana et al., 2021; Panzera & Post­
+iglione, 2020). Spatial inequity is assessed through the analysis of the distribution of
+resources, services, and opportunities across various geographical regions. Indicators
+of significance encompass access to public services, including healthcare and education,
+income inequality, unemployment rates, housing quality, and employment opportunities
+(Lawal & Anyiam, 2019; Morasae et al., 2012).
+    Socio-economic inequity concerns disparities in access based on income, education,
+or employment status. Lower-income groups may face financial barriers, longer commu­
+tes, and reduced modal choice, which constrain their access to urban opportunities
+(Lucas, 2012). Socioeconomic inequity is assessed by analysing disparities in social and
+economic status across different demographic groups, including factors such as
+income, education, and occupation. Common measures encompass income distribution,
+the percentage of the population residing below the poverty line, and variations in
+employment rates or educational attainment (Hertel & Groh-Samberg, 2019).
+    Mobility inequity entails two primary domains: socioeconomic mobility and geo­
+graphic or physical mobility. Socioeconomic mobility examines the ease with which indi­
+viduals can enhance their social and economic status throughout their lives or across
+generations, shaped by elements such as educational access, job quality, and inheritances
+(Chetty et al., 2014; Corak, 2013). In contrast, geographic or physical mobility refers to
+the capacity of individuals to navigate within a city or region, influenced by factors such
+as the availability of transport options (Brockmann et al., 2006). Limited access to reliable
+public transit or car ownership can restrict geographic and physical mobility, which in
+turn limits individuals’ access to job opportunities, education, and essential services,
+thereby impeding socioeconomic mobility. Assessment is conducted based on factors
+including the availability, affordability, and quality of transport, average commuting
+times, vehicle ownership rates, and the accessibility of destinations through walking,
+cycling, or public transport. This study examines mobility inequity as a type of transpor­
+tation-related disparity.
+    Spatial inequity, socioeconomic inequity, and physical mobility inequity are inter­
+related concepts that influence one another in intricate manners. Spatial inequity influ­
+ences socio-economic inequity by determining the distribution of resources and
+opportunities among various social groups, often resulting in the concentration of
+wealth and services in particular regions while leaving others underserved (Gezici &
+Hewings, 2007; J. J. Shen et al., 2022). Spatial inequity restricts physical mobility, as indi­
+viduals in regions with inadequate transport access encounter difficulties in accessing
+6      I. G. A. ANDANI ET AL.
+
+
+employment opportunities or essential services, thereby perpetuating socio-economic
+disparities (Petersen et al., 2010).
+   Socioeconomic inequity significantly influences the disparities in spatial and physical
+mobility. Individuals from lower socioeconomic backgrounds often experience restricted
+access to reliable transport, which impedes their mobility within urban or regional areas
+(Tomasiello et al., 2022). The limitation of physical mobility can exacerbate socio-econ­
+omic disparities by hindering access to education, healthcare, and employment opportu­
+nities, thereby obstructing socio-economic mobility (Morasae et al., 2012).
+   In addition, disparities in physical mobility can exacerbate spatial and socioeconomic
+inequalities. Disparities in access to transport infrastructure can result in spatial divides,
+leading to the marginalization of specific areas due to inadequate connectivity (Sun et al.,
+2020). The absence of physical mobility options can isolate communities from economic
+opportunities and essential services, thereby perpetuating socio-economic disparities and
+spatial inequalities. These three forms of inequity are interconnected and function in a
+cyclical manner. Spatial inequity restricts physical mobility and intensifies socio-econ­
+omic inequity, whereas socio-economic inequity can hinder physical mobility and
+sustain spatial inequity.
+
+
+2.2. Accessibility and job accessibility as analytical lenses
+Accessibility is a key concept in transport planning and equity analysis. It refers to the ease
+with which people can reach desired destinations, such as jobs, education, healthcare, or
+other essential services (Dalvi & Martin, 1976; Hansen, 1959). Unlike mobility – which
+focuses on the capacity to move – accessibility highlights the relationship between trans­
+port systems, land use, and the spatial distribution of opportunities (Litman, 2013). In
+equity evaluations, accessibility offers a more outcome-oriented perspective, as it reflects
+people’s ability to participate in socio-economic life.
+    Among different types of accessibility, job accessibility is especially significant due to
+its direct implications for economic welfare and inclusion. Employment access is a daily
+necessity, and the quality of this access can influence income levels, time poverty, and
+long-term socio-economic mobility (El-Geneidy et al., 2016; Lucas et al., 2016). While
+many transport equity studies have examined access to healthcare (e.g. Jin et al., 2022;
+Sharma & Patil, 2021; J. J. Shen et al., 2022) or education (e.g. Pizzol et al., 2021;
+Tiznado-Aitken et al., 2021), job accessibility is more sensitive to daily transport con­
+ditions and often exposes deep-rooted spatial and socio-economic divides. For
+example, Boisjoly et al. (2017) examined job accessibility in São Paulo, Brazil, found
+that access is predominantly concentrated in high-income areas, primarily attributable
+to employment informality and the unequal distribution of public transport services.
+    Similar other studies also indicates that low-income populations in big cities in Aus­
+tralia, Brazil, Uruguay, Great Britain, the United States, and many more face extended
+commutes, elevated transport costs, and restricted access to public transit, which
+limits their employment opportunities (see, for example, El-Geneidy et al., 2016; Fan
+et al., 2012; Guzman et al., 2017; Kawabata & Shen, 2007; Sharma & Patil, 2021; Q.
+Shen, 2001; Smith et al., 2020; Teunissen et al., 2015). These studies address spatial mis­
+match and modal inequity, while also highlight the significance of affordable transport
+and high-quality network infrastructure.
+                                               INTERNATIONAL JOURNAL OF URBAN SCIENCES       7
+
+
+   In cities of the Global South – particularly in Southeast Asia – there is a relative scar­
+city of research that examines job accessibility in a comprehensive, multi-dimensional
+way. Urban mobility in these contexts is shaped by unique modal mixes, including
+motorcycles and informal transport services, and rapidly evolving infrastructure
+systems. This study addresses these gaps by assessing job accessibility across income
+groups and transport modes in Jakarta, where motorcycles and ride-hailing services
+are widely used and public transport remains unevenly distributed.
+
+
+2.3. Operationalizing accessibility-based inequity: metrics and indicators
+Accessibility measures are crucial for analysing transportation inequity as they reveal the
+varying effects of transportation systems on different socio-economic groups (Golub &
+Martens, 2014). Nonetheless, they possess certain limitations. Metrics like the Gini coeffi­
+cient and Lorenz curve (Gini, 1936) offer general evaluations of inequality; however, they
+may fail to reflect nuanced disparities among particular subgroups. These measures do
+not consider individuals’ socioeconomic status, making it impossible to determine
+whether inequalities disproportionately affect disadvantaged populations. They also
+lack directionality, meaning they cannot distinguish between progressive and regressive
+changes in accessibility. To address this issue, various metrics such as the Theil index
+(Conceição & Ferreira, 2000) and Palma ratio (Palma, 2011) can be integrated to offer
+a more comprehensive understanding of inequities related to accessibility.
+   The Gini coefficient is used to assess overall inequality in the distribution of job acces­
+sibility. It provides a single summary statistic that reflects the concentration of access
+among the population, where higher values indicate greater inequity (Delbosc &
+Currie, 2011). The Palma ratio assesses the accessibility distribution between the top
+10% and the bottom 40% of the population, emphasizing disparities at the extremes
+(Guzman & Oviedo, 2018). The Theil index decomposes overall inequity into within-
+group and between-group components, facilitating an analysis of inequity variation
+within and between categories, such as population density groups (Jin et al., 2022).
+   These indicators translate abstract inequity concepts into observable and comparable
+patterns across transport modes, zones, and population groups. By applying them to job
+accessibility outcomes – disaggregated by income group, transport mode, and spatial
+zone – the study offers a structured and quantifiable assessment of transport-related
+exclusion. This operational framework builds on global best practices while adapting
+to the specific urban and modal characteristics of a Southeast Asian megacity.
+
+
+3. Data and methods
+The analytical framework of this study integrates spatial and temporal travel data with
+job distribution metrics to evaluate job accessibility and its inequity in Jakarta. As illus­
+trated in Figure 2, the methodology comprises two main stages: accessibility estimation
+and inequity measurement. In the first stage, accessibility is calculated using the cumu­
+lative opportunities method within a 41.2-minute travel time threshold (Jakarta’s average
+commuting time – JICA, 2019). This involves combining travel time data – parametrized
+by mode and collected via Google Maps API on November 2, 2020 at 10:00 AM – with
+job distribution data derived from origin-destination (OD) matrices. The second stage
+8      I. G. A. ANDANI ET AL.
+
+
+
+
+Figure 2. Analytical framework.
+
+
+applies equity indicators (Gini coefficient, Palma ratio, and Theil index) to assess the dis­
+tribution of accessibility across disaggregated variables, including transport modes,
+income levels, and population density. This integrated approach enables a nuanced
+evaluation of spatial, socio-economic, and modal inequities in job accessibility across
+Jakarta. More detailed descriptions of the data sources, accessibility calculation, and
+equity assessment techniques are provided in the following subsections.
+
+
+3.1. Study area and traffic analysis zone (TAZ)
+Jakarta was selected as the case study for this research due to its complex urban mor­
+phology, rapidly growing population, and persistent challenges related to transport
+inequity. As Indonesia’s capital and largest city, Jakarta presents a highly relevant
+context for investigating accessibility disparities, particularly in light of its evolving trans­
+port landscape, which includes recent investments in mass public transport such as the
+MRT, LRT, and BRT (Abiad et al., 2019; Hasibuan & Mulyani, 2022; Martinez & Masron,
+2020). The city is also characterized by a high degree of modal heterogeneity, where
+formal systems coexist with informal and motorcycle-based travel. These characteristics
+make Jakarta a representative and policy-relevant case for understanding how geography,
+infrastructure distribution, and socio-economic diversity shape job accessibility out­
+comes in a Global South megacity.
+   Jakarta Province, comprising five administrative cities: North Jakarta, South Jakarta,
+East Jakarta, West Jakarta, and Central Jakarta. The study area (Figure 3) is segmented
+into Traffic Analysis Zones (TAZs), facilitating a comprehensive evaluation of travel
+behaviour throughout the region. The definition of TAZs follows the methodology estab­
+lished by the Japan International Cooperation Agency (JICA, 2019).
+   It indicates that the distribution of framework data for formulating traffic analysis
+zones utilizes a combination of multi-regression analysis and a GIS-based ‘development
+potential model’, incorporating various statistical and spatial data. These methods enable
+                                                     INTERNATIONAL JOURNAL OF URBAN SCIENCES   9
+
+
+
+
+Figure 3. Traffic analysis zones (TAZ) in Jakarta.
+
+
+the spatial distribution of projected population and other critical socioeconomic indi­
+cators within the study area. The TAZ was established through the aggregation of mul­
+tiple district administrative levels, resulting in a total of 131 TAZ within the study area.
+
+
+3.2. Zone characteristics
+One of the parameters to assess the characteristics of an area is the population and
+population density (see Figure 4). The areas with the highest population density are
+dispersed, specifically on the east, west, and south sides of Jakarta. Regions with high
+population density on the east side are well-connected by the public transportation
+network. Population density refers to the number of people residing in an area
+(population/km2).
+
+
+3.3. Jobs measurement
+The OD matrices were derived from the travel demand forecast model developed using a
+microsimulation process as part of the JABODETABEK Urban Transportation Policy
+Integration Project Phase 2 (JICA, 2019). The report obtained a proportion of work-
+related trips of 65% based on OD interview data, with business trips accounting for
+33.9% and work trips for 31.1% (see more details in Table 1). This proportion is
+further used as a basis to measure job accessibility for the population from their
+10        I. G. A. ANDANI ET AL.
+
+
+
+
+Figure 4. Visual representations of the socioeconomic characteristics in this study: (a) Population
+Density, (b) Number of Population.
+
+Table 1. Total number of trips and proportions by modes and income levels.
+                             Car              Motorcycle         Public transport         All modes
+High-income            737,695 (5.25%)     1,593,206 (11.34%)      277,343 (1.97%)    2,608,244 (18.56%)
+Medium income        2,163,569 (15.40%)    4,813,441 (34.26%)      692,321 (4.93%)    7,669,331 (54.59%)
+Low-income           1,064,557 (7.58%)     2,375,155 (16.91%)      332,574 (2.37%)    3,772,286 (26.85%)
+All income levels   3,965,820 (28.23%)    8,781,802 (62.50%)    1,302,238 (9.27%)    14,049,860 (100%)
+
+
+respective origins using OD matrices of private vehicles (cars and motorcycles) and
+public transport.
+   According to Table 1, trips are dominated by medium-income households with a pro­
+portion of 54.59%, followed by low-income households of 26.85% and high-income
+households of 18.56%. This distribution of trips highlights the central role of medium-
+income individuals in shaping travel patterns in Jakarta. Motorcycle trips exhibit a sig­
+nificant level of dominance among all transport modes. Medium-income households,
+in particular, account for a substantial proportion of motorcycle trips, reflecting their
+preference for this mode of transportation.
+   In this study, we assume that the measurement of jobs within a given TAZ can be
+approximated through the utilization of trip attraction data which reflects the volume
+of trips directed toward the designated area as their destination. Figure 5 shows the dis­
+tribution of jobs in Jakarta.
+
+
+3.4. Accessibility measurement
+Infrastructure-based, location-based, person-based, and utility-based accessibility
+measures are usually used (Geurs & van Wee, 2004). Infrastructure-based measures
+focus on transport infrastructure and can include supply-oriented metrics like the dis­
+tance to the next toll gate or demand-and-supply indicators like road network travel
+times (van Wee et al., 2001). Location-based accessibility estimates cumulative opportu­
+nities within a specified travel time or distance or evaluates opportunities at destination
+locations from an origin, weighted by distance decay. This study employs both infrastruc­
+ture-based and location-based measures. The infrastructure-based approach assesses the
+performance of transport infrastructure, focusing on service levels, such as travel times
+                                                  INTERNATIONAL JOURNAL OF URBAN SCIENCES    11
+
+
+
+
+Figure 5. Visual representation of job distribution in Jakarta Province.
+
+
+on road networks for private vehicles and public transport. Details of the travel time esti­
+mation process are provided in the following section.
+   Job accessibility refers to the ease with which jobs distributed across different locations
+can be accessed from a specific point. Cumulative job accessibility is calculated using the
+following formula:
+                                               􏽘
+                                    Ai,m,o,s =    Oj f (Ci,j,m )                           (1)
+                                                   j
+
+
+Ai,m,o,s is accessibility in zone i, transport mode m, to activity o in travel time threshold s.
+O j is the number of activities in zone j. Ci,j,m is the travel time between zone i and j with
+transport mode m. The impedance function f (Ci,j,m ) is defined as:
+                                         􏼚
+                                           1, if Ci,j,m ≤ 41.2 minutes
+                           f (Ci,j,m ) =                                                    (2)
+                                                  0, otherwise
+
+   This binary function assigns a value of 1 to destinations reachable within 41.2 min
+and 0 otherwise. The 41.2-minute threshold reflects the average commuting time in
+Jakarta, based on data from the Jakarta Urban Mobility survey (2019) and corrobo­
+rated by Google Maps’ mobility statistics. This threshold provides a locally grounded
+benchmark for evaluating realistic commuting behaviour across different transport
+modes and socio-economic groups. It ensures consistency in comparing accessibility
+outcomes while remaining aligned with observed travel patterns in the city.
+12      I. G. A. ANDANI ET AL.
+
+
+   However, the threshold-based cumulative accessibility approach has certain limit­
+ations. First, it imposes a rigid cut-off, which may oversimplify the gradual decline in
+willingness to travel beyond the threshold. In reality, individuals’ tolerance for travel
+time may vary depending on income, trip purpose, and transport availability. Second,
+the binary nature of the measure does not account for the qualitative experience of
+travel – such as reliability, comfort, or safety – factors which may influence accessibility
+but are not captured in this model. Lastly, the threshold does not consider time-of-day
+variation or congestion effects, which could lead to under- or over-estimation of
+actual accessibility during peak hours. Despite these limitations, the threshold method
+remains a widely used and interpretable measure for highlighting spatial disparities in
+access and guiding comparative equity assessments.
+   For the purpose of this research, job accessibility will be calculated for each zone and
+assessed across transportation modes and income levels, spanning low to high income.
+Accessibility maps will be categorized into five classes (‘very low’ to ‘very high’) using
+the natural breaks classification in ArcGIS Pro software. Natural breaks classification
+(Jenks) organizes data into categories based on natural groupings within the dataset.
+Class breaks are determined to group similar values effectively while maximizing the dis­
+tinctions between different categories. The categorization method was chosen as it effec­
+tively categorizes accessibility into distinct classes based on significant differences in data
+values, maximizing interpretability with standardized classification for easier comparison
+across different variables compared to other methods.
+
+
+3.5. Travel time between zones
+This study obtained travel time data for Jakarta’s 133 Traffic Analysis Zones (TAZs)
+using the Google Maps Distance Matrix API, capturing estimates for car, motorcycle,
+and public transport travel. The data collection process involved the following steps:
+
+(1) Zone Identification and Centroid Mapping
+
+The study utilized 133 TAZs covering the Jakarta Province, with centroid coordinates
+identified based on spatial aggregation derived from JICA’s urban transport planning
+framework (JICA, 2019). These centroids were used as origin and destination points
+for travel time estimation.
+
+(2) Google Maps API Configuration and Access
+
+A valid API key from the Google Maps Platform was acquired, enabling access to the Dis­
+tance Matrix API, which provides travel time estimates incorporating both real-time and
+historical traffic data.
+
+(3) OD Pair Construction
+
+All possible origin-destination pairs between zones were constructed, yielding 17,689
+unique combinations (133 × 133). For each pair, travel time data were retrieved for
+three transport modes: car, motorcycle, and public transport.
+                                             INTERNATIONAL JOURNAL OF URBAN SCIENCES     13
+
+
+(4) Parameterization of API Requests
+
+API queries included the following specifications:
+
+.   Mode of transport: driving, two_wheeler, or transit
+.   Departure time: Monday, November 2nd, 2020, at 10:00 am, representing typical mid-
+    morning conditions and avoiding peak-hour distortions.
+.   Traffic model: Set to ‘best_guess’ for motorized modes to reflect realistic congestion.
+
+
+(5) Batch Processing and Rate Limiting
+
+
+Given the volume of API calls, data collection was automated using Python scripts with
+looping and batch execution. Rate limiting and error-handling procedures ensured com­
+pliance with API quotas and robustness in data retrieval.
+
+
+(6) Data Extraction and Structuring
+
+
+API responses in JSON format were parsed to extract travel times, distances, and (for
+public transport) route information. These data were organized in structured formats
+(e.g. CSV) for integration into the accessibility analysis.
+
+
+(7) Integration into Accessibility Model
+
+
+The processed travel time matrices were used to compute cumulative job accessibility for
+each mode using a 41.2-minute threshold, reflecting Jakarta’s average commute duration.
+This dataset formed the foundation for the study’s spatial, socio-economic, and mobility
+inequity analyses.
+   Figure 6 displays the travel time data obtained from the Google Maps API. An
+individual is travelling from the centroid zone ‘Monas’ to the nearest centroid zone
+‘Dukuh Atas 1’. Various transportation modes were considered, including car, motor­
+cycle, public transit, walking, or cycling. Travel time data were specifically collected
+for car, motorcycle, dan public transit. Public transit assumed that access and
+egress trips could have been completed by walking due to limitations in the data pro­
+vided by the Google API. In practice, access and egress trips could have been com­
+pleted by cycling or via ride-hailing services. The travel time data were retrieved on
+Monday, November 2nd, 2020, at 10:00 am via Indonesia’s Google Maps route
+search service. This time window reflected typical mid-morning conditions, avoiding
+peak-hour congestion, and the data were collected prior to any COVID-19-related
+mobility restrictions. Therefore, the dataset reflected normal, undisturbed traffic con­
+ditions and could be considered representative of baseline travel behaviour in urban
+Jakarta. This approach followed the same methodology and time reference as used
+in a related study (Safira & Chikaraishi, 2023), ensuring consistency and comparability
+across findings.
+14       I. G. A. ANDANI ET AL.
+
+
+
+
+Figure 6. Illustration of travel time data provided by Google API.
+
+3.6. Inequity metrics
+3.6.1. Gini coefficient and Lorenz curve
+The Gini coefficient measures inequality by comparing the area between the Lorenz curve
+and the line of perfect equality (a 45-degree line) to the total area beneath it. On a scale of
+0 to 1, 0 means everyone has the same share and 1 means all values are concentrated in
+one person or group.
+   The Lorenz curve, developed by Lorenz (1905), shows the population’s cumulative
+distribution of a variable like wealth or income. The Gini coefficient quantifies inequality,
+while the Lorenz curve illustrates it (see Figure 7). Area A between the Lorenz curve and
+the line of equality is divided by the entire area under the line of equality (A + B) to deter­
+mine the coefficient. This method permits mathematical inequality comparison across
+distributions. Lorenz curves and the Gini coefficient can be used on any cumulative dis­
+tribution, including accessibility levels vs population proportion, as in this case. They are
+usually employed for income.
+   The Gini coefficient can be mathematically estimated using the following formula:
+                                             􏽘
+                                             n
+                                  G1 = 1 −         (Xk − Xk− 1 )(Yk − Yk− 1 )              (3)
+                                             k=1
+
+In this context, Xk represents the cumulated proportion of the population variable, where
+k = 0, … , n, with X0 = 0, Xn = 1. Similarly, Yk denotes the cumulated proportion of the
+access levels, for k = 0, … , n, with Y0 = 0, Yn = 1 (Delbosc & Currie, 2011).
+
+3.6.2. Palma ratio
+Palma (2011) introduced the Palma ratio to compare the income share of the richest
+10% to that of the poorest 40%. However, as zone-level income data is unavailable in
+                                              INTERNATIONAL JOURNAL OF URBAN SCIENCES       15
+
+
+
+
+Figure 7. Lorenz curve example.
+
+
+this context, the ratio is adapted to evaluate disparities in job accessibility. Specifically,
+this study calculates the ratio using the average accessibility of the 10% most densely
+populated TAZs and the 40% least densely populated TAZs. This approach shifts
+focus away from middle-density groups, emphasizing disparities between the
+extremes.
+                                           ̅ itop10
+                                           A
+                                        P=̅                                               (4)
+                                          Aibottom40
+̅ itop10 is the average accessibility of the areas with the highest 10% population density,
+A
+̅
+Aibottom40 is the average accessibility of the areas with the lowest 40% population density
+     A Palma ratio of 2.0 suggests that the top 10% of areas, ranked by population density,
+have job access levels that are double those of the bottom 40%.
+
+3.6.3. Theil index
+This study utilized the Theil index to assess inequity in job accessibility. The Theil index
+is particularly effective for this analysis because it allows the inequity to be broken down
+into components representing disparities within and between different population
+groups. The study adopts a stratification based on three population density groups in
+16      I. G. A. ANDANI ET AL.
+
+
+Jakarta: low density (< 17,090 population/km²), medium density (17,090 - 50,123 popu­
+lation/km²), and high density (≥ 50,124 population/km²).
+    The overall Theil index T, along with its within-group (TWG) and between-group
+(TBG) components can be determined using the following formula:
+                                 􏽘 Ai 􏼒Ai 􏼓
+                                1 N
+                           T=           ln      = TBG + TWG                       (5)
+                               N i A       A
+
+                                               􏽘
+                                               K             􏼒 􏼓
+                                                              Ak
+                                    TBG =               Ak ln nk                         (6)
+                                               k=1                 N
+                                                    􏼢                  􏼠A 􏼡􏼣
+                                         􏽘
+                                         K              􏽘 Aki            ki
+                                                                        Ak
+                                 TWG =         Ak                  ln   1                (7)
+                                         k=1            i[gk
+                                                               A        nk
+
+   In this context, N represents the total number of grids; Ai is the accessibility value of
+grid i; A denotes the average accessibility of all the grids. The parameter K indicates the
+number of groups, with gk representing the set of grids whose centroids fall within the
+group k, and nk being the total number of grids in gk. In addition, Aki and Ak correspond
+to the proportion of the total accessibility for grid i and group k respectively (Jin et al.,
+2022).
+
+
+4. Results and discussion
+4.1. Patterns of job accessibility in Jakarta
+Job accessibility will be quantified for each Traffic Analysis Zone (TAZ) by determin­
+ing the number of jobs reachable within a specified time travel threshold by the
+population residing in the corresponding TAZ. The threshold used for this analysis
+is determined by averaging the time travel data across all transport modes (car,
+motorcycle, and public transport), resulting in a threshold of 41.2 min. Utilizing
+the number of jobs available in a TAZ by trip attraction data, as discussed in
+section 3.4, we further calculate the number of jobs that each TAZ, serving as an
+origin, can access within the established 41.2-minute time frame. Figure 8 shows
+the compilation of maps providing a general comparison of job access levels across
+various means of travel and income levels.
+
+4.1.1. Spatial distribution of job accessibility
+The spatial distribution of job accessibility in Jakarta reveals pronounced centrality, with
+the highest accessibility concentrated in the city’s urban core, particularly in Central,
+South, and parts of West Jakarta. These areas host Jakarta’s primary employment clus­
+ters, commercial centres, and administrative districts, making them critical focal
+points for commuting flows. Accessibility consistently declines toward the northern,
+eastern, and peripheral southern areas, especially in zones where infrastructure is
+inadequate or disconnected from public transport networks.
+   Among all transport modes, motorcycles offer the widest spatial coverage, enabling
+access to a broad range of jobs from both central and peripheral areas. This spatial
+                                               INTERNATIONAL JOURNAL OF URBAN SCIENCES        17
+
+
+
+
+Figure 8. Visual comparison and average values of job access levels by transport modes and income
+levels in Jakarta.
+
+
+flexibility allows motorcycles to reach job centres not only in well-developed districts
+but also in semi-urban or informal settlements where public transport coverage is
+weak. This pattern reflects broader trends in Global South cities, where informal
+or two-wheeler modes bridge spatial gaps in formal transport systems (Uteng &
+Lucas, 2017).
+   Conversely, public transport accessibility is spatially limited, primarily concentrated
+along a few high-capacity transit corridors served by bus rapid transit (BRT) and com­
+muter rail lines. While accessibility is relatively high near these corridors, it quickly
+declines in areas located beyond the limited reach of trunk lines and transfer points.
+The absence of a comprehensive feeder system and inadequate first- and last-mile infra­
+structure contribute to the spatially selective nature of public transport access, reinfor­
+cing exclusion for residents in underserved peripheral districts.
+   Car accessibility exhibits spatial selectivity, concentrated in areas with high-quality
+road infrastructure and less congestion. However, Jakarta’s chronic traffic delays and
+18      I. G. A. ANDANI ET AL.
+
+
+poor road network in dense informal settlements constrain car-based accessibility, par­
+ticularly in lower-income neighbourhoods.
+
+4.1.2. Modal contributions to job accessibility
+The mode of transport is a critical determinant of job accessibility outcomes. Motorcycles
+emerge as the dominant enabler, accounting for 62.5% of all jobs reached in the region.
+Their role is particularly important for medium- and low-income populations, who
+together rely on motorcycles to access over 7 million jobs. The efficiency, affordability,
+and adaptability of motorcycles in Jakarta’s congested and often fragmented urban
+fabric make them a cornerstone of urban mobility (Joewono & Kubota, 2007).
+   This study demonstrates that motorcycles markedly improve job accessibility for all
+socio-economic groups, supporting the findings of Irawan et al. (2020), which indicate
+that motorcycle ride-hailing services enhance urban mobility for lower-income house­
+holds. However, this equity comes at a cost. Motorcycles are also associated with high
+emissions, road safety risks, and unregulated traffic behaviours, raising critical questions
+about the sustainability of equity gains achieved through informal transport (Gutierrez &
+Mohan, 2020; Kalifa et al., 2024; Mahesh et al., 2019; Yousif et al., 2020). This duality
+shows the complex trade-offs facing urban transport policy in rapidly motorizing cities
+– where motorcycles function both as an equalizer and a sustainability challenge.
+   The heavy reliance on motorcycles also reflects systemic deficiencies in the formal
+transport system, particularly in delivering broad, inclusive access to employment.
+Motorcycles fill the vacuum left by inadequate public transport coverage, especially in
+areas beyond the reach of trunk routes.
+   In contrast, public transport plays a minimal role, facilitating access to only 9.27% of
+total jobs. Even for the most advantaged group (medium-income), public transport
+allows access to just 692,000 jobs (4.93%). The system’s limited geographic coverage,
+weak integration, and low service frequency constrain its potential to equitably
+connect residents with economic opportunities (as also argued by Basso et al., 2020;
+Bueno Rezendede Castro et al., 2022). These issues disproportionately affect low-
+income residents who are most dependent on affordable public transit options.
+   Car-based accessibility, while more substantial than public transport in absolute
+numbers, also reveals inequality. Medium-income users benefit the most (2.16 million
+jobs), but high-income users access significantly fewer jobs (737,000) despite greater
+ownership rates (Sefriyadi et al., 2023). This counterintuitive pattern likely stems from
+spatial mismatch between elite residential enclaves and job centres, along with the limit­
+ations of Jakarta’s car-oriented infrastructure in accommodating efficient, long-distance
+commuting (Oviedo & Guzman, 2020; Saraiva & Barros, 2022).
+
+4.1.3. Income-level differences in job accessibility
+Income level is closely intertwined with both spatial and modal patterns of job accessi­
+bility. Medium-income individuals consistently demonstrate the highest levels of job
+accessibility, reaching over 7.67 million jobs (54.59%). This outcome is attributable to
+both spatial self-selection and greater modal flexibility. Unlike high-income groups,
+medium-income individuals are often willing to reside in modest housing conditions
+closer to employment centres, striking a balance between affordability and accessibility
+(Adeniran et al., 2024; Friedman et al., 2020; Levine, 1998). Their neighbourhoods are
+                                             INTERNATIONAL JOURNAL OF URBAN SCIENCES      19
+
+
+frequently located in older, mid-density areas that remain well-connected to road and
+transport networks.
+   High-income residents, although financially advantaged, access fewer jobs (18.56%)
+due to residing in low-density, exclusive zones, often on the periphery or in gated com­
+munities. Aritenang (2022)observed that residents with higher incomes, despite living in
+peripheral zones, often commute to central urban areas. These locations prioritize
+privacy and housing quality over proximity to work and are often disconnected from
+both public and informal transport routes. As a result, their effective job accessibility
+remains constrained.
+   Low-income residents – while potentially located closer to the city core – face barriers
+of a different kind. Limited financial capacity, inadequate infrastructure, and dependence
+on low-cost, informal transport restrict their job access to 3.77 million jobs (26.85%). The
+minimal contribution of public transport for this group further reinforces structural dis­
+advantages, as they are priced out of formal alternatives and often face longer travel
+times, safety issues, and regulatory uncertainties (Bergman et al., 2024).
+
+
+4.2. Distributional assessment using inequity metrics
+While the previous section detailed variations in job accessibility by mode, income group,
+and location, such descriptive analysis alone is insufficient to understand the deeper pat­
+terns of transport-related disadvantage. Not all differences in accessibility are inherently
+unfair; therefore, to assess whether these disparities reflect systemic inequities, it is
+necessary to apply formal distributional metrics. Inequity indicators offer a quantitative
+lens to measure the extent to which job accessibility is unevenly distributed across
+different population groups and spatial units, and to identify whether these differences
+are disproportionately concentrated among certain social or geographic categories.
+   The measurement of inequity in job accessibility is based on three indices: the Gini
+coefficient, the Palma ratio, and the Theil index. Analysis of these metrics reveals that
+access to employment via public transport demonstrates the greatest degree of inequality
+relative to other transportation modes.
+   The Gini coefficient and Palma ratio are calculated for each income level, allowing for
+an analysis of accessibility distribution across different socioeconomic strata. The metrics
+highlight ongoing challenges in attaining equitable job access, with public transport
+demonstrating the greatest level of inequality across all income brackets. Furthermore,
+the Theil index utilizes population density groupings to examine access disparities, dis­
+tinguishing between within-group and between-group inequalities.
+
+4.2.1. Gini coefficient and Lorenz curve
+As shown in Table 2, job accessibility by public transport exhibits the highest Gini coeffi­
+cient (0.417), in contrast to lower values for car (0.140) and motorcycle (0.109). These
+results highlight that access via public transport is the most unevenly distributed.
+Figure 9 further visualizes this disparity; the Lorenz curve for public transport deviates
+furthest from the line of equality, indicating that a large share of job access is concen­
+trated in a small subset of zones.
+   These findings align with research from Global South cities, where public transport
+networks often serve dense, high-income corridors while peripheral or informal
+20       I. G. A. ANDANI ET AL.
+
+
+              Table 2. Gini coefficients of job accessibility distribution.
+              Income level            Car          Motorcycle          PT      All modes
+              High-income            0.137           0.108           0.424       0.116
+              Medium income          0.142           0.110           0.414       0.117
+              Low-income             0.140           0.109           0.421       0.117
+              All income levels      0.140           0.109           0.417       0.117
+
+
+
+
+Figure 9. Lorenz curve of job accessibility distribution by transport modes.
+
+
+settlements remain underserved, exacerbating spatial inequity (Boisjoly et al., 2020;
+Gumbo & Moyo, 2020). In contrast, the motorcycle curve lies much closer to the line
+of equality, consistent with its lower Gini coefficient and reinforcing its role in bridging
+formal service gaps due to affordability and geographic reach (Carrales, 2024; Irawan et
+al., 2020).
+    Interestingly, the Gini coefficients remain remarkably consistent across income
+groups for each mode of transport. For instance, public transport access yields a Gini
+of 0.424 for high-income, 0.414 for medium-income, and 0.421 for low-income users.
+                                                 INTERNATIONAL JOURNAL OF URBAN SCIENCES    21
+
+
+This indicates that there are no significant differences in the distribution of job accessi­
+bility levels across high-, medium-, and low-income individuals, suggesting that the
+structure of inequity is similar across socio-economic strata. A comparable trend is
+observed for motorcycles and cars, where the values vary only slightly across income
+levels.
+   These results imply that inequity is not inherently tied to income class, but rather to
+mode-specific characteristics and spatial transport infrastructure. Each income group
+exhibits internal stratification, where some zones benefit substantially more than
+others. As such, transport equity policies must go beyond income targeting and also
+address intra-group, neighbourhood-level disparities that exist even within the same
+socio-economic classifications.
+
+4.2.2. Palma ratio
+The Palma ratio provides additional insight into distributional extremes by comparing
+the share of job accessibility held by the top 10% of zones to that of the bottom 40%.
+As shown in Table 3, the Palma ratios for car (1.610), motorcycle (1.442), and public
+transport (7.361) all exceed 1.0, indicating that accessibility is concentrated among the
+most advantaged zones across all modes. However, the disparity is most severe for
+public transport, where the top 10% of zones capture more than seven times the acces­
+sibility of the bottom 40%.
+   This finding is consistent with spatial mismatch theory (Andersson et al., 2011), which
+posits that low-income households in peripheral or low-access zones are spatially discon­
+nected from employment opportunities, especially when high-quality public transport is
+concentrated in central districts. In the case of Jakarta, the spatial mismatch is not necess­
+arily due to cost barriers, as observed in cities like Bogota (Guzman & Oviedo, 2018), but
+rather due to limited network coverage and inadequate integration between transit
+modes. While public transport may be nominally affordable, its geographic inaccessibility
+renders it functionally exclusionary for large segments of the population.
+   Moreover, these results align with those from the Gini coefficient analysis, reinforcing
+that public transport is the most unequal mode in terms of accessibility distribution. In
+contrast, motorcycle accessibility is the most evenly distributed, with a relatively low
+Palma ratio and Gini coefficient. This again emphasizes the unique role motorcycles
+play in expanding access in areas poorly served by formal transport modes.
+   Similar with the Gini results, the Palma ratios for all three income groups (low,
+medium, and high) show minimal variation, suggesting that inequities in accessibility
+are not strongly differentiated by income strata. Rather, they reflect a broader pattern
+of modal and spatial exclusion, confirming earlier observations that transport inequity
+in Jakarta is shaped more by geography and network design than by socio-economic cat­
+egory alone.
+
+            Table 3. Palma ratio of job accessibility distribution.
+            Income level            Car         Motorcycle            PT    All modes
+            High-income            1.584           1.429          7.616       1.501
+            Medium income          1.622           1.448          7.233       1.513
+            Low-income             1.609           1.442          7.486       1.505
+            All income levels      1.610           1.442          7.361       1.508
+22       I. G. A. ANDANI ET AL.
+
+
+              Table 4. Theil index of job accessibility distribution.
+              Theil                          Car             Motorcycle            PT
+              Within Group (TW)          0.032 (91%)         0.018 (92%)       0.265 (96%)
+              Between Group (TB)         0.003 (9%)          0.002 (8%)        0.010 (4%)
+              Theil Index (TB + TW)      0.036               0.019             0.275
+
+
+
+4.2.3. Theil index: within-group vs. between-group inequity
+The Theil index adds another layer of insight by decomposing inequity into within-group
+and between-group disparities. As shown in Table 4 and Figure 10, 96% of total inequal­
+ity in public transport access arises within population density groups, compared to only
+4% between them. Similar patterns are observed for cars (91% within-group) and motor­
+cycles (92% within-group).
+   This shows that inequality cannot solely be caused by variations between high- and
+low-density locations; it’s also caused by variances within each group. This means that
+some neighbourhoods in dense areas remain without access to jobs because of inadequate
+connectivity or gaps in infrastructure. Thus, broad spatial categories like ‘central vs. per­
+ipheral’ or ‘dense vs. sparse’ may obscure crucial differences that are only found in certain
+areas. City-wide or corridor-scale changes alone are unlikely to render mobility more
+fair. Fine-grained improvements at the district or subdistrict level, including feeder
+routes, pedestrian access to stations, or micro-mobility infrastructure, may work better
+to reduce spatial exclusion.
+   These results go against the popular belief in urban planning that density alone assures
+access and show how important it is to make changes at the neighbourhood level. Policies
+for public transit in cities frequently focus on expanding the network. However, this
+study implies that making access easier and consolidating it in places that are already
+‘served’ is just as important. This entails making stations work better together,
+
+
+
+
+Figure 10. Theil index of job accessibility distribution by transport modes.
+                                              INTERNATIONAL JOURNAL OF URBAN SCIENCES       23
+
+
+running more often, and connecting different modes of transportation in areas where
+public transportation is available but fails to deliver equitable outcomes.
+
+
+5. Conclusion
+This study offers a comprehensive, multi-dimensional assessment of job accessibility in
+Jakarta, analysing spatial, modal, and income-related disparities through the use of a
+cumulative opportunities framework and equity metrics, including the Gini coefficient,
+Palma ratio, and Theil index. The results indicate a significant spatial centrality in job
+accessibility, with residents of Jakarta’s urban core having considerably more access to
+employment opportunities than those in peripheral and low-density areas and remaining
+underserved. Transportation mode plays a critical role in this divide.
+    Motorcycles offer the most comprehensive and equitable employment accessibility
+among all modes. They are a critical means of access for medium- and low-income
+groups due to their flexibility and reach into both central and peripheral zones. Never­
+theless, this dependence on motorcycles also underscores the systemic deficiencies in
+Jakarta’s formal transportation infrastructure and raises long-term concerns regarding
+safety, sustainability, and regulation.
+    Conversely, public transportation exhibits the most severe inequality. Accessibility via
+public transport is spatially concentrated in a small number of well-served zones and
+does not extend effectively to underserved areas. This is evidenced by its high Gini coeffi­
+cient (0.417), extreme Palma ratio (7.361), and Theil index, which suggests that over 90%
+of inequality is concentrated within population density groupings rather than between
+them. These findings suggest that spatial exclusion in Jakarta is not only a result of
+large-scale urban structure but also of neighbourhood-level service deficiencies, reinfor­
+cing the need for localized, fine-grained improvements such as feeder services, pedestrian
+access, and micro-mobility infrastructure.
+    While medium-income individuals enjoy the highest average access, the similarity in
+Gini coefficients across income categories indicates that income alone is not the domi­
+nant factor shaping inequity. Instead, geographic location and transport mode are
+more influential, pointing to spatial and modal exclusion as the primary drivers of job
+accessibility disparities in Jakarta.
+    Beyond its empirical contributions, this study makes three important additions to the
+transport equity literature. First, it presents a replicable framework for evaluating job
+accessibility in the Global South using formal, multidimensional equity metrics,
+offering one of the first such applications in a Southeast Asian megacity. Second, it inte­
+grates spatial, socio-economic, and modal dimensions into a unified analytical approach,
+enabling a more comprehensive understanding of transport-related disadvantage. Third,
+it draws attention to context-specific mobility patterns – such as motorcycle dependence
+and fragmented transit networks – that are often overlooked in global accessibility
+research. In doing so, the study responds directly to the need, articulated in the literature,
+for context-sensitive and data-driven assessments of transport inequality in emerging
+urban regions.
+    The findings highlight the urgency of expanding an inclusive and integrated public
+transport network, improving first- and last-mile connections, and extending service
+coverage to underserved districts. While motorcycles may continue to serve as an
+24       I. G. A. ANDANI ET AL.
+
+
+adaptive mobility solution, long-term transport planning should prioritize the transition
+toward safer, low-emission, and more reliable public modes. Embedding equity metrics
+into transport planning and investment decisions is essential to identify and address
+intra-urban disparities and ensure that accessibility gains are equitably shared.
+   Future research should explore how job accessibility and transport equity evolve over
+time, especially in response to Jakarta’s ongoing investments in MRT, LRT, and BRT
+systems. Longitudinal studies comparing pre- and post-intervention conditions would
+provide evidence on whether infrastructure investments effectively reduce inequity.
+Further research should also incorporate more granular socio-demographic variables –
+such as gender, age, employment type, and disability status – to examine how different
+groups experience transport exclusion. Methodologically, the development of dynamic
+accessibility models that reflect real-time service variability could enhance the realism
+of future assessments. Lastly, future work should explore the intersection of housing
+affordability, land use, and transport accessibility, particularly to assess the equity
+impacts of urban regeneration and transit-oriented development strategies in Jakarta.
+
+
+Declaration of generative AI and AI-assisted technologies in the writing
+process
+During the preparation of this work, the authors used Quillbot, developed by Learneo,
+Inc., to assist with paraphrasing and refining the language in certain sections. After
+using this tool, the authors reviewed and edited the content as needed and take full
+responsibility for the final content of the publication.
+
+
+
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+
+
+Funding
+This work was supported by Bandung Institute of Technology, Indonesia [grant number
+SAPPK.PN-6-05-2023].
+
+
+ORCID
+I Gusti Ayu Andani        http://orcid.org/0000-0002-4243-9359
+
+
+References
+Abiad, A., Farrin, K., & Hale, C. (2019). Sustaining transit investment in Asia’s cities : A beneficiary-
+  funding and land value capture perspective. Mandaluyong City, Metro Manila: Asian
+  Development Bank. https://doi.org/10.22617/ARM190085-2.
+Adeniran, A. O., Adeniran, A. A., Adedigba, I., & Ng, A. O. A. (2024). Choice determinants of
+  housing in Akure, Nigeria. Journal of Contemporary Research in Social Sciences, 6(1), 39–47.
+  https://doi.org/10.55214/26410249.V6I1.1033
+                                                  INTERNATIONAL JOURNAL OF URBAN SCIENCES           25
+
+
+Andani, I., La Paix Puello, L. C., Rachmat, S. Y., Syabri, I., & Geurs, K. (2021). Job access and
+   spatial equity of a toll road. In D. Levinson & A. Ermagun (Eds.), Applications of Access (pp.
+   239–260). University of Sydney. https://ses.library.usyd.edu.au/handle/2123/26890
+Andersson, F. D., Haltiwanger, J. C., Kutzbach, M., Pollakowski, H. O., & Weinberg, D. H. (2011).
+   Job displacement and the duration of joblessness: The role of spatial mismatch. Review of
+   Economics and Statistics, 100(2), 203–218. https://doi.org/10.1162/REST_a_00707
+Arellana, J., Alvarez, V., Oviedo, D., & Guzman, L. A. (2021). Walk this way: Pedestrian accessi­
+   bility and equity in Barranquilla and Soledad, Colombia. Research in Transportation Economics,
+   86, 101024. https://doi.org/10.1016/J.RETREC.2020.101024
+Aritenang, A. (2022). Examining socio-economic inequality among commuters: The case of the
+   Jakarta Metropolitan Area. Urban Planning, 7(3), 172–184. https://doi.org/10.17645/UP.V7I3.5271
+Basso, F., Frez, J., Martínez, L., Pezoa, R., & Varas, M. (2020). Accessibility to opportunities based
+   on public transport gps-monitored data: The case of Santiago, Chile. Travel Behaviour and
+   Society, 21, 140–153. https://doi.org/10.1016/J.TBS.2020.06.004
+Bastiaanssen, J., Johnson, D., & Lucas, K. (2021). Does better job accessibility help people gain
+   employment? The role of public transport in Great Britain. Urban Studies, 59(2), 301–322.
+   https://doi.org/10.1177/00420980211012635
+Bergman, P., Raj, C, Stefanie, D, Nathaniel, H, Lawrence, K, & Christopher, P. (2024). Creating
+   moves to opportunity: Experimental evidence on barriers to neighborhood choice. American
+   Economic Review, 114(5), 1281–1337. https://doi.org/10.3386/W26164.
+Blanco, J., & Apaolaza, R. (2018). Socio-territorial inequality and differential mobility. Three key
+   issues in the Buenos Aires Metropolitan Region. Journal of Transport Geography, 67, 76–84.
+   https://doi.org/10.1016/j.jtrangeo.2017.07.008
+Boisjoly, G., Moreno-Monroy, A. I., & El-Geneidy, A. (2017). Informality and accessibility to jobs
+   by public transit: Evidence from the São Paulo Metropolitan Region. Journal of Transport
+   Geography, 64, 89–96. https://doi.org/10.1016/J.JTRANGEO.2017.08.005
+Boisjoly, G., Serra, B., Oliveira, G. T., & El-Geneidy, A. (2020). Accessibility measurements in São
+   Paulo, Rio de Janeiro, Curitiba and Recife, Brazil. Journal of Transport Geography, 82, 102551.
+   https://doi.org/10.1016/J.JTRANGEO.2019.102551
+Brockmann, D., Hufnagel, L., & Geisel, T. (2006). The scaling laws of human travel. Nature,
+   439(7075), 462–465. https://doi.org/10.1038/nature04292
+Bueno Rezendede Castro, A., Ortega Sandoval, A. D., & Odamtten, G. (2022). Up around the bend?
+   How transport poverty can lead to social exclusion in a low-income community in Lagos, Nigeria.
+   Journal of Transport Geography, 102, 103388. https://doi.org/10.1016/J.JTRANGEO.2022.103388
+Carrales, J. C. (2024). Governance through storytelling and possible futures: Motorcycle-cab
+   service planning in Mexico City. Journal of Environmental Planning and Management, 67(2),
+   291–308. https://doi.org/10.1080/09640568.2022.2113045
+Chetty, R., Hendren, N., Kline, P., & Saez, E. (2014). Where is the land of opportunity? The geogra­
+   phy of intergenerational mobility in the United States. The Quarterly Journal of Economics,
+   129(4), 1553–1623. https://doi.org/10.1093/QJE/QJU022
+Conceição, P., & Ferreira, P. (2000). The Young person’s guide to the Theil index: Suggesting intui­
+   tive interpretations and exploring analytical applications.
+Corak, M. (2013). Income inequality, equality of opportunity, and intergenerational mobility.
+   Journal of Economic Perspectives, 27(3), 79–102. https://doi.org/10.1257/JEP.27.3.79
+Dalvi, M. Q., & Martin, K. M. (1976). The measurement of accessibility: Some preliminary results.
+   Transportation, 5(1), 17–42. https://doi.org/10.1007/BF00165245
+Delbosc, A., & Currie, G. (2011). Using Lorenz curves to assess public transport equity. Journal of
+   Transport Geography, 19(6), 1252–1259. https://doi.org/10.1016/J.JTRANGEO.2011.02.008
+Dodson, J., Burke, M. I., Evans, R., & Sipe, N. (2011). How will we get there? Analyzing access of
+   low-socioeconomic-status households to destinations in Australian cities. Transportation
+   Research Record, 2242(1), 90–97. https://doi.org/10.3141/2242-11
+El-Geneidy, A., Levinson, D., Diab, E., Boisjoly, G., Verbich, D., & Loong, C. (2016). The cost of
+   equity: Assessing transit accessibility and social disparity using total travel cost. Transportation
+   Research Part A: Policy and Practice, 91, 302–316. https://doi.org/10.1016/J.TRA.2016.07.003
+26       I. G. A. ANDANI ET AL.
+
+
+Fan, Y., Guthrie, A., & Levinson, D. (2012). Impact of light rail implementation on labor market
+   accessibility: A transportation equity perspective. Journal of Transport and Land Use, 5(3), 28–
+   39. https://doi.org/10.5198/JTLU.V5I3.240
+Friedman, S., Kurtulus, A., & Koc, I. (2020). Housing outcomes in Turkey: How do middle-income
+   households fare? City and Community, 19(4), 1038–1059. https://doi.org/10.1111/cico.12483
+Geurs, K. T., & van Wee, B. (2004). Accessibility evaluation of land-use and transport strategies:
+   Review and research directions. Journal of Transport Geography, 12(2), 127–140. https://doi.
+   org/10.1016/J.JTRANGEO.2003.10.005
+Gezici, F., & Hewings, G. J. D. (2007). Spatial analysis of regional inequalities in Turkey. European
+   Planning Studies, 15(3), 383–403. https://doi.org/10.1080/09654310601017091
+Gini, C. (1936). On the Measure of Concentration with Special Reference to Income and Statistics.
+   (General Series No. 208, pp. 73–79). Colorado College Publication.
+Golub, A., & Martens, K. (2014). Using principles of justice to assess the modal equity of regional
+   transportation plans. Journal of Transport Geography, 41, 10–20. https://doi.org/10.1016/j.
+   jtrangeo.2014.07.014
+Grisé, E., Boisjoly, G., Maguire, M., & El-Geneidy, A. (2019). Elevating access: Comparing acces­
+   sibility to jobs by public transport for individuals with and without a physical disability.
+   Transportation Research Part A: Policy and Practice, 125, 280–293.
+Gumbo, T., & Moyo, T. (2020). Exploring the interoperability of public transport systems for sus­
+   tainable mobility in developing cities: Lessons from Johannesburg Metropolitan City, South
+   Africa. Sustainability, 12(15), 5875. https://doi.org/10.3390/SU12155875
+Gutierrez, M. I., & Mohan, D. (2020). Safety of motorized two-wheeler riders in the formal and
+   informal transport sector. International Journal of Injury Control and Safety Promotion,
+   27(1), 51–60. https://doi.org/10.1080/17457300.2019.1708408
+Guzman, L. A., & Oviedo, D. (2018). Accessibility, affordability and equity: Assessing ‘pro-poor’
+   public transport subsidies in Bogotá. Transport Policy, 68, 37–51. https://doi.org/10.1016/j.
+   tranpol.2018.04.012
+Guzman, L. A., Oviedo, D., & Rivera, C. (2017). Assessing equity in transport accessibility to work
+   and study: The Bogotá region. Journal of Transport Geography, 58, 236–246. https://doi.org/10.
+   1016/J.JTRANGEO.2016.12.016
+Hansen, W. G. (1959). How accessibility shapes land use. Journal of the American Institute of
+   Planners, 25(2), 73–76. https://doi.org/10.1080/01944365908978307
+Hasibuan, H. S., & Mulyani, M. (2022). Transit-oriented development: Towards achieving sustain­
+   able transport and urban development in Jakarta Metropolitan. Indonesia. Sustainability, 14(9),
+   5244. https://doi.org/10.3390/SU14095244
+Hernandez, D. (2018). Uneven mobilities, uneven opportunities: Social distribution of public
+   transport accessibility to jobs and education in Montevideo. Journal of Transport Geography,
+   67, 119–125. https://doi.org/10.1016/j.jtrangeo.2017.08.017
+Hertel, F. R., & Groh-Samberg, O. (2019). The relation between inequality and intergenerational
+   class mobility in 39 countries. American Sociological Review, 84(6), 1099–1133. https://doi.org/
+   10.1177/0003122419885094
+Hsu, T.-P., Sadullah, E. A. F. M., & Dao, I. N. X. (2003). A comparison study on motorcycle traffic
+   development in some Asian countries – Case of Taiwan, Malaysia and Vietnam.
+Irawan, M. Z., Belgiawan, P. F., Tarigan, A. K. M., & Wijanarko, F. (2020). To compete or not
+   compete: Exploring the relationships between motorcycle-based ride-sourcing, motorcycle
+   taxis, and public transport in the Jakarta metropolitan area Keywords Motorcycle-based ride-
+   sourcing. Transportation, 47(5), 2367–2389. https://doi.org/10.1007/s11116-019-10019-5
+Japan International Cooperation Agency (JICA). (2019). JABODETABEK Urban Transportation
+   Policy Integration Project Phase 2 in the Republic of Indonesia: Annex 02: JABODETABEK
+   Urban Transportation Master Plan (Detailed RITJ). Japan International Cooperation Agency.
+Jin, T., Cheng, L., Wang, K., Cao, J., Huang, H., & Witlox, F. (2022). Examining equity in acces­
+   sibility to multi-tier healthcare services across different income households using estimated
+   travel time. Transport Policy, 121(March), 1–13. https://doi.org/10.1016/j.tranpol.2022.03.014
+                                                   INTERNATIONAL JOURNAL OF URBAN SCIENCES            27
+
+
+Joewono, T., & Kubota, H. (2007). User perceptions of private paratransit operation in Indonesia.
+   Journal of Public Transportation, 10(4), 99–118. https://doi.org/10.5038/2375-0901.10.4.5
+Kalifa, M., Özdemir, A., & Banar, M. (2024). Life cycle comparison of the environmental and econ­
+   omic performance of an informal low-capacity passenger transport system. Transportation
+   Research Record, 2678(9), 1–17. https://doi.org/10.1177/03611981231224745
+Kawabata, M. (2003). A GIS-based analysis of jobs, workers, and job access in Tokyo (Discussion
+   Paper No. 57). Center for Spatial Information Science, The University of Tokyo.
+Kawabata, M., & Shen, Q. (2007). Commuting inequality between cars and public transit: The case
+   of the San Francisco Bay Area, 1990-2000. Urban Studies, 44(9), 1759–1780. https://doi.org/10.
+   1080/00420980701426616
+Lardier, D. T., Blackwell, M. A., Beene, D., & Lin, Y. (2023). Social vulnerabilities and spatial access
+   to primary healthcare through car and public transportation system in the Albuquerque, NM,
+   metropolitan area: Assessing disparities through GIS and multilevel modeling. Journal of Urban
+   Health, 100(1), 88–102. https://doi.org/10.1007/s11524-022-00701-y
+Lawal, O., & Anyiam, F. E. (2019). Modelling geographic accessibility to Primary Health Care
+   Facilities: Combining open data and geospatial analysis. Geo-Spatial Information Science,
+   22(3), 174–184. https://doi.org/10.1080/10095020.2019.1645508
+Levine, J. (1998). Rethinking accessibility and jobs-housing balance. Journal of the American
+   Planning Association, 64(2), 133–149. https://doi.org/10.1080/01944369808975972
+Litman, T. (2013). The new transportation planning paradigm. In Journal (Vol. 83).
+Litman, T. (2015). Evaluating transportation equity. World Transport Policy & Practice, 8(2), 50–65.
+Liu, D., & Kwan, M. P. (2020). Measuring spatial mismatch and job access inequity based on
+   transit-based job accessibility for poor job seekers. Travel Behaviour and Society, 19, 184–193.
+Lorenz, M. O. (1905). Methods of measuring the concentration of wealth. Publications of the
+   American Statistical Association, 9(70), 209–219. https://doi.org/10.1080/15225437.1905.
+   10503443
+Lucas, K. (2012). Transport and social exclusion: Where are we now? Transport Policy, 20, 105–
+   113. https://doi.org/10.1016/j.tranpol.2012.01.013
+Lucas, K. (2019). A new evolution for transport-related social exclusion research? Journal of
+   Transport Geography, 81, 102529. https://doi.org/10.1016/J.JTRANGEO.2019.102529
+Lucas, K., van Wee, B., & Maat, K. (2016). A method to evaluate equitable accessibility: Combining
+   ethical theories and accessibility-based approaches. Transportation, 43(3), 473–490. https://doi.
+   org/10.1007/s11116-015-9585-2
+Mahesh, S., Ramadurai, G., & Shiva Nagendra, S. M. (2019). Real-world emissions of gaseous pol­
+   lutants from motorcycles on Indian urban arterials. Transportation Research Part D: Transport
+   and Environment, 76, 72–84. https://doi.org/10.1016/J.TRD.2019.09.010
+Martens, K. (2016). Transport justice: Designing fair transportation systems. Routledge.
+Martinez, R., & Masron, I. N. (2020). Jakarta: A city of cities. Cities, 106, 102868. https://doi.org/10.
+   1016/J.CITIES.2020.102868
+Morasae, E. K., Forouzan, A. S., Majdzadeh, R., Asadi-Lari, M., Noorbala, A. A., & Hosseinpoor, A.
+   R. (2012). Understanding determinants of socioeconomic inequality in mental health in Iran’s
+   capital, Tehran: A concentration index decomposition approach. International Journal for
+   Equity in Health, 11(1), 1–13. https://doi.org/10.1186/1475-9276-11-18
+Oviedo, D., & Guzman, L. A. (2020). Revisiting accessibility in a context of sustainable transport:
+   Capabilities and inequalities in Bogotá. Sustainability, 12(11), 4464. https://doi.org/10.3390/
+   SU12114464
+Palma, J. G. (2011). Homogeneous middles vs. heterogeneous tails, and the end of the “inverted-U”:
+   It’s all about the share of the rich. Development and Change, 42(1), 87–153. https://doi.org/10.
+   1111/j.1467-7660.2011.01694.x
+Panzera, D., & Postiglione, P. (2020). Measuring the spatial dimension of regional inequality: An
+   approach based on the Gini correlation measure. Social Indicators Research, 148(2), 379–394.
+   https://doi.org/10.1007/s11205-019-02208-7
+Pereira, R., Schwanen, T., & Banister, D. (2016). Distributive justice and equity in transportation.
+   Transport Reviews, 37(2), 170–191. https://doi.org/10.1080/01441647.2016.1257660
+28       I. G. A. ANDANI ET AL.
+
+
+Petersen, C. B., Thygesen, L. C., Grønbæk, M., Tolstrup, J. S., & Helge, J. W. (2010). Time trends in
+   physical activity in leisure time in the Danish population from 1987 to 2005. Scandinavian
+   Journal of Public Health, 38(2), 121–128. https://doi.org/10.1177/1403494809357098
+Phun, V. K., Kato, H., & Chalermpong, S. (2019). Paratransit as a connective mode for mass transit
+   systems in Asian developing cities: Case of Bangkok in the era of ride-hailing services. Transport
+   Policy, 75, 27–35. https://doi.org/10.1016/j.tranpol.2019.01.002
+Pizzol, B., Giannotti, M., & Tomasiello, D. B. (2021). Qualifying accessibility to education to inves­
+   tigate spatial equity. Journal of Transport Geography, 96, 103199. https://doi.org/10.1016/J.
+   JTRANGEO.2021.103199
+Qiao, S., & Gar-On Yeh, A. (2023). Is ride-hailing competing or complementing public transport?
+   A perspective from affordability. Transportation Research Part D: Transport and Environment,
+   114, 103533. https://doi.org/10.1016/J.TRD.2022.103533
+Safira, M., & Chikaraishi, M. (2023). The impact of online food delivery service on eating-out
+   behavior: A case of Multi-Service Transport Platforms (MSTPs) in Indonesia. Transportation,
+   50(6), 2253–2271. https://doi.org/10.1007/s11116-022-10307-7
+Saraiva, M., & Barros, J. (2022). Accessibility in São Paulo: An individual road to equity? Applied
+   Geography, 144, 102731. https://doi.org/10.1016/J.APGEOG.2022.102731
+Sefriyadi, I., Andani, I. G. A., Raditya, A., Belgiawan, P. F., & Windasari, N. A. (2023). Private car
+   ownership in Indonesia: Affecting factors and policy strategies. Transportation Research
+   Interdisciplinary Perspectives, 19, 100796. https://doi.org/10.1016/J.TRIP.2023.100796
+Sharma, G., & Patil, G. R. (2021). Public transit accessibility approach to understand the equity for
+   public healthcare services: A case study of Greater Mumbai. Journal of Transport Geography, 94,
+   103123. https://doi.org/10.1016/j.jtrangeo.2021.103123
+Shen, J. J., Upadhyay, S., Burston, B., & Lee, S. (2022). Spatial and socioeconomic inequalities in
+   accessibility to healthcare services in South Korea. Healthcare, 10(10), 2049. https://doi.org/10.
+   3390/HEALTHCARE10102049
+Shen, Q. (2001). A spatial analysis of job openings and access in a U.S. metropolitan area. Journal of
+   the American Planning Association, 67(1), 53–68. https://doi.org/10.1080/01944360108976355
+Smith, D. A., Shen, Y., Barros, J., Zhong, C., Batty, M., & Giannotti, M. (2020). A compact city for
+   the wealthy? Employment accessibility inequalities between occupational classes in the London
+   metropolitan region 2011. Journal of Transport Geography, 86, 102767. https://doi.org/10.1016/
+   j.jtrangeo.2020.102767
+Sun, Y., Hu, X., Huang, Y., & Chan, T. O. (2020). Spatial patterns of childhood obesity prevalence
+   in relation to socioeconomic factors across England. ISPRS International Journal of Geo-
+   Information, 9(10), 599. https://doi.org/10.3390/IJGI9100599
+Teunissen, T., Sarmiento, O., Zuidgeest, M., & Brussel, M. (2015). Mapping equality in access: The
+   case of Bogotá’s sustainable transportation initiatives. International Journal of Sustainable
+   Transportation, 9(7), 457–467. https://doi.org/10.1080/15568318.2013.808388
+Tiznado-Aitken, I., Muñoz, J. C., & Hurtubia, R. (2021). Public transport accessibility accounting
+   for level of service and competition for urban opportunities: An equity analysis for education in
+   Santiago de Chile. Journal of Transport Geography, 90, 102919. https://doi.org/10.1016/J.
+   JTRANGEO.2020.102919
+Tomasiello, D. B., Pereira, R. H. M., Vieira, J. P. B., Parga, J. P. F. A., & Servo, L. M. S. (2022). Racial
+   and income inequalities in access to health in Brazilian cities. Journal of Transport and Health,
+   34, 101722. https://doi.org/10.1016/j.jth.2023.101722
+Uteng, T. P., & Lucas, K. (2017). Urban mobilities in the global south. In Urban Mobilities in the
+   Global South. https://doi.org/10.4324/9781315265094
+van Wee, B., Hagoort, M., & Annema, J. A. (2001). Accessibility measures with competition.
+   Journal of Transport Geography, 9(3), 199–208. https://doi.org/10.1016/S0966-6923(01)00010-2
+van Wee, B., & Geurs, K. (2011). Discussing equity and social exclusion in accessibility evaluations.
+   European Journal of Transport and Infrastructure Research, 11(4), 350–367. https://doi.org/10.
+   18757/ejtir.2011.11.4.2940.
+                                                INTERNATIONAL JOURNAL OF URBAN SCIENCES        29
+
+
+Wadud, Z. (2020). The effects of e-ridehailing on motorcycle ownership in an emerging-country
+  megacity. Transportation Research Part A: Policy and Practice, 137, 301–312. https://doi.org/10.
+  1016/j.tra.2020.05.002
+Yousif, M. T., Sadullah, A. F. M., & Kassim, K. A. A. (2020). A review of behavioural issues con­
+  tribution to motorcycle safety. IATSS Research, 44(2), 142–154. https://doi.org/10.1016/J.
+  IATSSR.2019.12.001
+

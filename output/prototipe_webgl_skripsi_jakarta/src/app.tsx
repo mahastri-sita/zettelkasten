@@ -22,7 +22,7 @@ import {
   gates,
   provenance,
   scenarios,
-} from './model/demoData';
+} from './model/demo_data';
 import type {
   CenterMetrics,
   DiagnosisClass,
@@ -31,7 +31,7 @@ import type {
   Thresholds,
   ViewMode,
 } from './model/types';
-import { DeckOverlay } from './map/DeckOverlay';
+import { DeckOverlay } from './map/deck_overlay';
 import { buildLayers, classColors } from './map/layers';
 
 const INITIAL_VIEW = {
@@ -212,7 +212,7 @@ export default function App() {
     const controller = new AbortController();
     const base = import.meta.env.BASE_URL;
 
-    fetch(`${base}data/jabodetabek-boundaries.geojson`, { signal: controller.signal })
+    fetch(`${base}data/jabodetabek_boundaries.geojson`, { signal: controller.signal })
       .then((response) => {
         if (!response.ok) throw new Error('Batas lokal tidak dapat dibaca.');
         return response.json();
@@ -290,7 +290,7 @@ export default function App() {
         <Map
           ref={mapRef}
           initialViewState={INITIAL_VIEW}
-          mapStyle={`${import.meta.env.BASE_URL}map-style.json`}
+          mapStyle={`${import.meta.env.BASE_URL}map_style.json`}
           minZoom={7.1}
           maxZoom={12}
           maxPitch={68}

@@ -1,0 +1,764 @@
+[PDF Metadata]
+Source PDF: journal/T09-arthur-1990-silicon-valley-locational-clusters-when-do-increasing-returns-imply-monopoly-10.1016-0165-4896-90-90064-E.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           PII: 0165-4896(90)90064-E
+Creator:         Acrobat 3.0 Capture Plug-in
+Producer:        Acrobat 3.0 Import Plug-in
+CreationDate:    Fri Sep 21 23:23:54 2001 WIB
+ModDate:         Sun Dec 16 12:34:23 2001 WIB
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           17
+Encrypted:       no
+Page size:       468 x 684 pts
+Page rot:        0
+File size:       1196881 bytes
+Optimized:       yes
+PDF version:     1.2
+[Extracted Text]
+Mathematical Social Sciences 19 (1990) 235-25 I                                                      235
+North-Holland
+
+
+
+
+       ‘SILICON VALLEY’ LOCATIONAL CLUSTERS:                                      WHEN        DO
+       INCREASING  RETURNS IMPLY MONOPOLY?
+
+       W. Brian ARTHUR
+       Dean and Virginia Morrison Professor of Population Studies and Economics, F. R.I., Stanford
+       University, Stanford CA 94305-6084 U.S.A., and Santa Fe Institute, 1120 Canyon Rd. Santa Fe,
+       NM 875OI. U.S.A.
+
+       Communicated by M. Shubik
+       Received 14 January 1988
+       Revised 13 November 1989
+
+
+          It is often argued that the presence of increasing returns implies that one product, or one
+       technology, out of several possible must come to dominate a market. This paper examines this
+       argument in the context of regional economics. It constructs a model of industry location where
+       firms choosing among regions are attracted by agglomeration economies due to the presence of
+       other firms in these regions, and where ‘historical accident’ enters because firms are hetero-
+       geneous and enter the industry in random order. It asks: When do economies of agglomeration
+       lead to a ‘Silicon Valley’ - a single dominant location or region monopolizing the industry?
+          The paper shows that: (i) Where there is no upper bound to locational increasing returns due
+       to agglomeration, there will indeed be a monopoly outcome: industry will cluster in one dominant
+       region, with probability one. (Which region depends both on geographical attractiveness and ac-
+       cidental historical order of firm entry.) (ii) Where there is an upper bound to increasing returns
+       due to agglomeration, certain sequences of firm entry can produce dominance by one region;
+       others can produce regional sharing of the industry exactly as if the agglomeration effects were
+       absent.
+          Construed more generally in economics, the results show that increasing returns, if bounded,
+       do not guarantee monopoly outcomes.
+
+       Key words: Path-dependent dynamics; location theory; stochastic processes; strong laws; in-
+       creasing returns; non-convex economics; monopoly; regional disparity; economic geography.
+
+
+
+1. Introduction
+
+   It is often argued in economics that the presence of increasing returns - decreasing
+costs, or network externalities - implies that one product or one technology out of
+several possible must come to dominate a market. This paper examines this argu-
+ment in the context of industrial location and regional economics.
+   Increasing returns occur in regional economics in the form of agglomeration
+economies - net benefits of firms being close to other firms. Where firms entering
+an industry benefit from the presence of other firms, a predominant share of the
+industry may cluster in a single region, or district, or location - a ‘Silicon Valley’
+
+Ol65-489619OG3.50 @ l990-Elsevier       Science Publishers B.V. (North-Holland)
+‘36                         It’.B. Arthur / ‘Silicon Val1e.v’locational clusters
+
+
+ - not necessarily because of any intrinsic advantage of that particular location, but
+ because ‘historical accident’ placed certain firms there initially and this concentra-
+ tion of firms in turn attracted a high proportion of subsequent entrants.
+    This argument, that a single region may come to monopolize an industry due to
+agglomeration economies combined with ‘historical accidents’, is not new. It goes
+back to the early decades of this century. Several of the less-known members of the
+German School of regional economics, in particular Englander (1926), Ritschl
+(1927), and Palander (1935), viewed observed locational patterns not as the solution
+to a unique-equilibrium spatial-economic problem, but rather as the result of an
+historically-dependent   process; with new industry attracted by existing agglomera-
+tions, laid down stratum by stratum upon inherited, previous locational formations,
+and often clustering where early firms put down.’ Their viewpoint never quite took
+hold, however, because it was never properly articulated. Agglomeration economies
+introduced analytical difficulties: when one or a few regions might end up with the
+entire industry, which regions might come to dominate, as Isard (1956) noted, was
+not determinate. The problem was non-convex and there were multiple equilibria.
+How one equilibrium - one regional pattern - came to be ‘selected’ was not at all
+clear when there were multiple candidate regional patterns of industry location.
+    This paper attempts to resolve the problem of industry location under agglomera-
+tion economics by asking two main questions: (i) Under what circumstances do
+economies of agglomeration lead to the emergence of a ‘Silicon Valley’ - a single
+dominant location or region? (ii) Where agglomeration economies cause there to be
+multiple asymptotic ‘solutions’ to the locational problem, how does one solution
+come to be ‘selected’? It sets up a model of the dynamics of industrial location that
+allows ‘historical accidents’ in the shape of heterogeneous firms entering the in-
+dustry in random order, and where regions with higher proportions of the industry
+exert agglomeration attraction on subsequent entrants.
+    The results show that increasing returns to agglomeration, if unbounded, indeed
+cause monopoly by a single region or location, and that ‘historical accident’ is all-
+important in selecting which region achieves dominance. However, increasing
+returns, if bounded, do not necessarily cause a ‘Silicon Valley’ monopoly outcome:
+where there are upper limits to the agglomeration benefits, certain combinations of
+‘historical accident’ can produce a single dominant region; others can produce
+regional dispersion of the industry exactly as if agglomeration effects were absent.
+   ’ By this argument, Santa Clara County in California, the actual Silicon Valley, has a high concentra-
+tion of the U.S. electronics industry not necessarily because it is close to Pacific sources of supplies or
+has better access to advances in academic engineering research than elsewhere, but rather because certain
+key people - the Hewletts, the Varians, the Shockleys of the industry - happened to set up near Stanford
+University in the 1940s and 1950s. and the local labor expertise and inter-firm market they helped to
+create made subsequent location in Santa Clara County extremely advantageous for the thousand or SO
+firms that followed them (see Cohen, 1984). Similar arguments appear in the regional-disparity literature:
+Myrdal(1957), Faini (1984); and in the ‘growth pole’ theories of Perroux (1955) and others in the 1950s.
+Allen and Sanglier (1981) use simulation techniques to show the importance of agglomeration economies
+in determining locational patterns.
+                      W.B. Arthur / ‘Silicon Valley’ locational clusrers            237
+
+
+And, paradoxically,   agglomeration     effects can easily cause regional separation of
+the industry.
+
+
+2. A model
+
+   First, some preliminaries. I will say there are economies of agglomeration (Weber,
+1909; Hoover, 1937) if net benefits to being in a location together with other firms
+increase with the number of firms in the location. The sources are several: as a loca-
+tion gains firms, it also gains useful infrastructure. Its labor markets deepen (David,
+1984a). Specialized legal and financial services appear. Spare parts and out-of-stock
+items become locally available, reducing inventory costs. And social networks come
+into being where information, expertise, and contracts can be easily exchanged.
+D&economies of agglomeration - net benefits that decrease with increasing numbers
+of other firms - may also occur. The location may become congested; land may
+become expensive; or firms that sell locally may find themselves in monopolistic
+competition with nearby firms as in Liisch (1941). And of course, besides ag-
+glomeration effects, there may be benefits or costs due to geographical differences
+- in transportation cost, in the availability of raw materials, in factor prices, in
+climate, or in proximity to markets.
+   I now set up a model where firms in an industry decide on locating in one of N
+possible regions, or sites, or cities. Each firm is well informed on profits or returns
+- the net present value of siting in each location - at the time of its choice; each
+chooses what, for it, is the maximum return location and then stays there. I assume
+that new firms are added slowly and the future is discounted so that initially we can
+ignore expectational problems and assume that new firms decide to locate at their
+sites of present maximum return.
+   The firms in an industry differ in product mix or in manufacturing process -
+hence in locational needs. In this simple model I condense all benefits or returns,
+rj, to firm i for locating in site j, into two components:
+
+
+
+where qj is the geographical benefit to firm i for siting in location j (returns in the
+absence of other firms); and g(_Yj)is the net agglomeration benefit from having ,Yj
+firms already located there at the time of choice. (I will speak of firm tastes,
+understanding these to be geographical preferences in the absence of other firms’
+settlement. Where the agglomeration function, g, is increasing, we have economies
+of agglomeration; where decreasing, diseconomies of agglomeration.)
+   Firms enter the industry at different times. Thus, we may think of them as arriv-
+ing in sequence to make their choice. I introduce ‘historical accident’ by supposing
+that the sequence of firm types that enter is unknown to an observer. Thus, we can
+represent each new firm as a random ‘drawing’, of a vector q = (q,, q2, . . . , qN)
+which denotes that firm’s locational tastes for each possible site, from a given
+238                     W. B. Arthur / ‘Silicon Valley’ locational clusters
+
+
+distribution F of potential firms over locational tastes. (Thus, F determines the fre-
+quency of arrival of different firm types, and in general there is a continuum of
+possible firm types.) I assume that the vector of tastes, 4, has finite support. Note
+that since we can add a positive constant to all q’s without changing location deci-
+sions, we can treat q as always positive. Sites that are frequently preferred (in the
+absence of agglomeration economies) I will call attractive and I include in the
+analysis only sites that would be chosen with positive probability.
+   This model has been kept deliberately simple so as not to complicate the subse-
+quent analysis. It could be modified to specify how new firms are generated (see Ar-
+thur, 1988) and how other industries might affect locational returns. A later section
+discusses several extensions.
+   Given the above assumptions, we can compute the probability that an entering
+firm chooses location j. Suppose there are yl,y2 , . . . ,yN firms already in locations 1
+through N, respectively. Then the probability that the next firm ‘drawn’ prefers J’
+over all other sites is:
+
+             Pj = Prob{[qj+g(Yj)l > [4i+g(Y,)l all i #:i)-                                (2)
+We can calculate this probability       as the (Lebesgue-Stieltjes)           integral:
+
+
+
+
+where the region of integration Vi= (-~,zi+g(yj)               -g(y;)]  for i#i and ~j=
+(-00, 00). I will call p = (pI,p2, . . . , pN) the probability vector of locational choice.
+Notice that through the agglomeration function g these probabilities p of an addi-
+tion to locations 1 through N are a function of the current configuration of the in-
+dustry, as we would expect.
+   The problem is now to derive and examine the locational pattern - the proportion
+of the industry in regions 1 through N - under different assumptions about
+geographical benefits and increasing returns due to agglomeration economies.
+
+
+
+3. Dynamics of the locational process
+
+   We proceed by tracing the locational pattern of the industry as it forms, and as
+firms of different types enter it. We would expect this pattern to fluctuate somewhat
+because of the randomness in entry of firm type; and we would expect its movement
+to depend upon its present state, because locational choices depend on the current
+placement of firms.
+   Starting from a given number of firms in each location (which, for convenience,
+we set at zero), the industry forms by the addition of one firm at a time, distributed
+to one and only one location. We can describe the spatial configuration of the in-
+dustry at ‘time’ n, after n firms in total have located, by the vector of firms in the
+N locations Y, = ( yi (n), . . . , y&r)). An equivalent but more convenient description
+                          W.B. Arthur / ‘Silicon Valley’ locational clusters             239
+
+
+is the vector of locations’ shares or proportions of the industry, X,=(X,(~), . . . .
+xN(n)), where X, = Y,,/n. The vector of probabilities of locational choice, p, is a
+function of Y or, equivalently, a (continuous) function of the locational shares of
+the industry, X, and of n.
+   Now, the industry forms by the addition of one firm at a time, so that the vector
+of firm numbers in the potential locations evolves as:
+
+             Yn+l   =   r,+Nn;&h               Y(0) = 0,                                 (4)
+where b is the jth unit vector with probability pj(“; X,).
+   Then, dividing (4) by n + 1, the vector of proportions of the industry in sites 1
+through N, or locational shares, evolves as:
+
+             X n+l =xn+        --&   [b(n;X,)-X,1;            x, = 0.                    (5)
+
+We can rewrite (5) in the form:
+
+             Xn+l   =xn+                                                       x, = 0,   (6)
+
+where P is defined as the random vector:
+
+             An;X,,)     = b(n;X,)-p(n;X,,).
+Equation (6) is the description of the dynamics of loational shares that we want.
+Mathematically it has the form of a stochastic approximation.
+   Notice that the conditional expectation of p with respect to the current state X,
+is zero, hence we can derive the expected motion of the locational shares as:
+
+
+             JWG., 1-‘M-x,           =   & [P(n;&)-X,I.
+We see that, if the probabilitypj(X,J     of an addition to locationj is greater than the
+current proportion of the industry Xi(n) in location j, this location’s share should
+increase - at least on an expected basis. Conversely, if the probability is less than
+the current proportion, it should decrease.
+    Equation (6) therefore tells us that locational shares are driven by an expected mo-
+tion effect (the second term on the right) that derives from locations’ relative attrac-
+tiveness and current agglomeration pull, together with a perturbation effect (the
+third term) that derives from randomness in entry. Both expected motions and fluc-
+tuations have less effect on shares as the industry grows. Both die away at the rate
+ l/n; hence we might expect locational shares to settle down as the industry becomes
+large.
+    We can get some idea of how locational shares might settle down, for a given loca-
+tional probability function p, if we plot expected motions on the unit simplex of
+locations’ shares (as in Fig. 1).
+ 210                       W. B. Arthur   / ‘Silicon   Valley’   locarional   clusters
+
+
+
+
+                 Fig. 1. Expected motions for a given locational probability function.
+
+
+   Depending upon the function p - and ultimately on the distribution of firm tastes
+and the agglomeration function - there may be several points x (several locational
+patterns) at which expected motion is zero. These are the fixed points of p, where
+p(x) =x. Some of these are attractor points, some are repellor points. We might con-
+jecture that, if choices in a given problem are ‘driven’ by a locational probability-of-
+choice function p, the locational pattern will converge to a fixed point of p on the
+simplex of locational shares, and to one that is an attractor. Furthermore, if there
+are multiple attractors, they might all be candidates for the limiting locational pat-
+tern, with the locational distribution of the industry falling into the orbit of one of
+these by ‘historical accidents’ of sequence of entry.
+   A recent set of theorems for path-dependent processes like (6), due to Arthur, Er-
+moliev and Kaniovski (1983, 1986, 1987a. 1987b) (referred to here as AEK and ap-
+plicable to a broad variety of nonconvex problems in economics and physics)
+confirms these conjectures. Under certain technical conditions:2 (i) X,, converges
+with probability one to a fixed point where p(x) =x; (ii) X,, can converge to ‘attrac-
+tor’ or stable fixed points (points on the simplex that expected motions are toward);
+
+  ’ AEK require that the set of fixed points of p have a finite number of connected components. Recent
+work (Arthur, Ermoliev and Kaniovski, 1987b) allows non-unit increments and discontinuities in p. For
+a non-technical introduction with applications in various fields see Arthur, Ermoliev and Kaniovski
+(1987a). The N=2 case was analyzed by Hill, Lane and Sudderth (1980).
+                       W.B. Arthur / ‘Silicon Valley’ locafional clusrers            241
+
+
+and (iii) X,, cannot converge with positive probability to ‘repellor’ or unstable fixed
+points (points on the simplex that expected motions lead away from). Where the
+function p varies with time n as in our locational case, this generalized strong-law
+theorem still goes through, provided that the dynamics ‘settle down’ to stationarity
+- that is, provided that the set of ‘driving’ probabilities {p,} tends to a limit func-
+tion p.
+   Notice that the standard strong law of large numbers makes statements about
+limiting shares when increments are added independently of present state of the pro-
+cess. AEK is thus a generalization of the strong law of large numbers for the case
+of path-dependent increments.
+
+
+4. Locational   patterns in several cases
+
+   I have described the spatial formation of the industry as a process where unit in-
+crements (firms) are added to one of N categories (candidate locations) with a pro-
+bability vector p (of an addition to category 1 through N) that in general is a
+function of the current proportions X, in the N categories: p=p(x;n).         We now
+seek limiting vectors of locational shares, and we start with a trivial but useful
+benchmark case.
+   Suppose agglomeration economies are absent, so that g is zero and only
+geographical considerations q count. We see from (3) that the probabilities of choice
+p, are constant and are therefore independent of locational shares at all times. Thus,
+increments are added independently of current proportions, and we can invoke the
+standard strong law of large numbers to show that the locational shares X,, con-
+verge to p. We then have
+
+Theorem 1. Where there are no economies or diseconomies of agglomeration (that
+is, g = 0), then, with probability one, locational shares tend to fixed, predictablepro-
+portions in the limit as the industry becomes large.
+
+   In this ‘pure attractiveness’ case, locational dispersion of the industry takes place
+to the degree the industry is heterogeneous in taste. If all firms are alike, each will
+choose the same maximal location and the industry will cluster. Thus, dense concen-
+trations of the film industry near Los Angeles may not necessarily be evidence of
+the presence of agglomeration economies. They may simply reflect homogeneity of
+early needs - for cheap real estate, dry weather, and good outdoor lighting. Ag-
+glomeration economies are not a necessary condition for spatial clustering.
+
+4. I. Unbounded agglomeration economies
+
+   In our more general case where agglomeration economies are present, increments
+to locations are not independent - the probability of adding firms depends upon
+past additions - so that the standard strong law is not usable. We now examine this
+242                   W.B. Arthur / ‘Silicon Valley’ locational clusters
+
+
+case assuming first that additions of firms always confer net benefits on a location,
+without upper limit. We might expect that if one location gets sufficiently ahead in
+industry share by ‘historical accident’, it will build up an unassailable advantage and
+eventuahy monopolize the industry. This indeed happens.
+
+Theorem 2. Where there are unbounded economies of agglomeration such that the
+agglomeration function increases at least at the rate ag/ay> ey“, where p> - 1,
+then, with probability one, in the limit as the industry becomes large, one location
+takes ail but a finite set of firms. Locational shares tend to zero in all but one
+location.
+
+Proof. The argument consists in showing that if n is large enough, for points in the
+simplex of locational shares the location of highest share must be chosen with pro-
+bability one. Thereafter that location is repeatedly chosen; the process is locked-in
+to it and its share of the industry goes to 100%.
+    Consider the set B = (XE SN: two or more elements of x are maximal} (see
+Fig. 2); and B,, its z-neighborhood.      Points in SN\ B, then represent locational
+shares with a unique maximal element, with index J say (of the nearest vertex). Par-
+tition SN \ I?, into separate sets CJ designated by the nearest vertex J. Now con-
+sider a given point z in CJ. The fact that g is increasing and unbounded guarantees
+that there exists a finite time n(z) such that returns (qJ+g(n(z)).zJ)>(qr+g(n(z)+zr),
+
+                                             I
+
+
+
+
+        2                                                                       3
+            Fig. 2. Expected motions under unbounded agglomeration economies.
+                                W. B. Arthur    / ‘Silicon   Valley    locational    clusters                           243
+
+
+all I#J. Furthermore, it is easy to show that n(z) has an upper bound n’ in C’.
+Therefore, if the process X,, is in CJ at a time n greater than nJ, location J will
+have maximal returns for all firm types; it will then be chosen with probability one;
+it will continue to be chosen with probability one; the process will never exit CJ
+and it will converge to 100% share for location J.
+   Alternatively, the process might not enter a set C’; it could stay within B,
+forever. Consider ‘balanced’ points 0, defined to be points in the simplex where
+locations outside the subset K have zero proportion and those inside K have equal
+proportions. No ‘unbalanced points’ in B, can be sustained: beyond some finite
+time locations with least share will be shut out as before. Furthermore, the process
+cannot cycle: unbalanced points cannot be recovered once they are shut out. X,,
+can then stay within B, indefinitely only by converging to a ‘balanced point’ 13,.
+However, direct calculation shows that, under the condition stated for g in the
+theorem, balanced points 0, are unstable. That is to say, we can show that as long
+as ag/ay> EJJ~,with p > - 1, then any given BKsatisfies the instability criterion that
+there exists within K a symmetric matrix C, and parameters I and v>O, such
+that (C,~(~),Z-~~)~~(C(Z-~~),Z-~~)*~“+~,,             where C, &<a,       for z in a
+neighborhood of 0,. By Theorem 3 of Arthur, Ermoliev and Kaniovski (1989), the
+instability of 0, ensures that Prob(X, -+ 0,) = 0. The process cannot converge to
+OK. It must exit B, in finite time and must therefore converge to some vertex J. The
+theorem follows.3 Notice that the limiting probability function p becomes a step
+function (with element pJ= 1 for points with nearest vertex J and with each vertex
+an attracting fixed point).     0
+
+   In this unbounded-agglomeration    case the locational process eventually ‘locks in’
+to a ‘Silicon Valley’ outcome - a monopoly of one location. Which location this is,
+of course, depends on the order of entry of firm types and very much on early
+locators’ relative preferences for locations. The process is path-dependent (more
+precisely, non-ergodic) in that a slightly different order-of-choice history early on
+could sway the outcome to a different location becoming predominant. An attrac-
+tive location will likely be favored by many firms early in the choice order, and
+therefore it has a larger probability of predominating. Attractiveness, interacting
+with historical accidents of choice-order, determines the outcome.
+   It may seem obvious that monopoly must result in this unbounded agglomeration
+case. Yet it is easy to construct entry-sequences that lead to locations sharing the
+industry indefinitely; and to show that there is an infinity of such sequences. The
+power of this theorem lies in its showing that such nonmonopoly outcomes have
+measure zero in the sample space of all possible outcomes.
+
+
+
+  3 In reality,   of course,   industries   do not grow forever.      It is best to construe    this theorem   as a law-of-
+large-numbers     result in the usual sense that the larger the eventual            size of the industry,   the more likely
+locational   shares will lie in the neighborhood    of a vertex.
+244                    W.B. Arthur / ‘Silicon Valley’ locational clusters
+
+
+Remark 1. Where the density function f of geographical         preferences has infinite
+‘tails’ in all directions instead of bounded support, it is easy to check that the ver-
+tices remain the only stable attractors, and the above theorem again goes through:
+a single location again monopolizes.
+
+4.2. Bounded agglomeration economies
+    In our next case, where the increasing returns - the agglomeration economies -
+ are bounded, monopoly no longer occurs with probability one. In this case, loca-
+ tions could, with positive probability, share the industry exactly as if agglomeration
+ economies were absent.
+    To see why this should be so, suppose agglomeration economies g are increasing
+ but bounded above by the constant h: thus, adding firms enhances a location’s ad-
+ vantages, but not without limit. Suppose two regions only. Now it may happen that
+ if enough firms that prefer region A occur early in the queue of entries, A will move
+ sufficiently ahead to dominate B for all subsequent choosers. As before, one loca-
+tion will take all. Suppose, however, that firms preferring A and firms preferring
+B arrive more or less evenly in the sequence. Then regions A and B will be bid up-
+ ward in tandem; both regions will reach the agglomeration upper bound and neither
+will be sufficiently ahead to shut out the other (see Fig. 3). But now the agglomera-
+tion economies realized will be equal; they will cease to matter in locational choice
+and so eventually both regions will share the industry, with shares that will equal
+the proportion of firm types that prefer A and B in the absence of agglomeration
+economies. Whether monopoly or locational sharing takes place depends, of course,
+on ‘historical accident’ of the entry sequence.
+    Our N location case is more complicated. We must first determine the ‘candidate’
+sets of locations that if bid upward together could shut the other locations out and
+thus together dominate the industry.
+    Consider the (random) vector of returns n = q+g(y),         for a given vector y of
+firms. Important in what follows is the support of these returns, which we will
+designate QY. (The support Qy indicates the region in N-dimensional preference (or
+returns) space over which firm types are spread.) As settlement takes place and ag-
+glomeration economies accrue to locations that are chosen, the returns support Q,,
+will shift. If it enters a region where some subset of locations always have maximum
+returns, all firms will choose locations in this subset, other locations will never be
+chosen, and the process will be then locked-in to this subset of locations.
+    Now, let K be a set of locations, and let MK be the cone of vectors in 8ZN with
+maximal element in the set K. Let QK be the support of the returns vector q + yK,
+where the vector yK has O-elements for locations not in K and h-elements for loca-
+tions in K. (This is where returns would eventually lie if locations in set K only were
+to receive firms.) We will say that K is a potential lock-in set if (i) QKCMK and (ii)
+QKCMK* for any KICK. We will say that K is a potentially dominant set if there
+also exists some finite sequence of arrivals that causes Q,, to belong to QEKCMK,
+where Qf is any given &-neighborhood of QK.
+                       W.B. Arthur / ‘Silicon Valley’ locational clusters             245
+
+
+        Returns:
+        Location 1
+
+
+
+
+                                                                Returns: Location 2
+                Fig. 3. Support sets of firms’ returns for a two-location problem.
+
+
+
+Theorem 3. Suppose economies of agglomeration g are increasing and bounded
+above. Then in the limit as the industry becomes large, one set of locations from
+the collection of potentially dominant sets will take 100% of the industry, with pro-
+bability one, and each such set K has positive probability of being this monopolizing
+set. Furthermore, locations in the monopolizing set share the industry exactly as if
+no agglomeration economies had been present and they were the only locations
+available at the outset.
+
+Proof. First, the process must converge with probability one to non-zero propor-
+tions in some subset J. One firm is added each time, and so some set J of locations
+must continue to receive firms ad infinitum. Locations in this set would be bid to
+their agglomeration ceiling. Probabilities of additions to locations in J therefore
+become independent of current proportions; and by the strong law of large
+numbers, the process must converge.
+   Now suppose the process converges to non-zero proportions in a non-potentially-
+dominant set J. The non-dominance of J implies either that some locations in J
+receive firms when their locational probability is zero, or that choices outside J
+occur with positive probability. Either way convergence to J is contradicted.
+   Finally, consider a set K of locations that is potentially dominant. By definition,
+there may occur with positive probability a finite sequence of arrivals that causes
+returns Q,, to lie within @in the cone IV&. Once returns lie within this set, loca-
+tions other than those in K cannot be preferred and the process locks in to this set
+K. Therefore the set K can monopolize the locational process with positive pro-
+bability, with location proportions X, converging to the relative proportions of
+firms that prefer each location within K. The theorem follows.         Cl
+246                    W.B. Arthur / ‘Silicon Valley’ locational clusters
+
+
+   In this bounded agglomeration case, industry can be shared by several locations.
+The reason is not so much that agglomeration is overpowered by heterogeneity, but
+rather that certain choice-orders cause several locations to accumulate firms at more
+or less the same rate, and therefore agglomeration forces remain balanced enough
+as the industry forms for heterogeneity of tastes to spread the firms over these loca-
+tions. Thus, the monopolizing tendencies of increasing-return effects may be over-
+come by even a small degree of heterogeneity. Historical choice-order once again
+matters greatly here - it ‘selects’ the set of dominant locations that will share the
+industry. But once this set is decided and ‘locked-in’, the locational process proceeds
+as if the agglomeration effects were entirely absent. There are two extreme cases
+worth mentioning. First, agglomeration forces may be too weak to cause any
+monopolizing of the industry by subsets of locations at all:
+
+Corollary 1. If h~Min,(ci(Q,,M~))           then all locations share the industry, with
+probability one, in the proportions        that would have occurred if agglomeration
+economies were absent.
+
+   (Here d is the set-distance operator.) In this case potential agglomeration
+economies are not great enough to overcome heterogeneity of preferences. Equi-
+valently, there are always some firm types that do not switch their ‘natural’ choice
+to the populated locations. All locations eventually reach the agglomeration ceiling,
+and so agglomeration forces may as well not be present at all. In this special case
+history does not matter.
+   Second, conditions might exist under which a single location must monopolize the
+industry even though agglomeration effects are bounded. To illustrate this, let Qb
+be the support of the returns when one firm only has chosen and is in location j.
+
+Corollary  2. If QdCM~j~ for all j, then one location takes all the industry with
+probability one.
+
+   In this extreme illustrative case agglomeration economies drive the support
+straight into the dominance region of the location that receives the first firm. Prac-
+tically speaking, this can happen when preferences are tightly clustered, and when
+agglomeration effects at the outset are strong.
+   In the results above, it was crucial that firms’ tastes had bounded support. Sup-
+pose now they have unbounded support - that is, that the distribution function F
+of geographical preferences has infinite tails in all directions.
+
+Theorem 4. Where preferences F have unbounded support, and the agglomeration
+function g is bounded above, then all locations share the industry, with probability
+ one, in the proportions that would have occurred if agglomeration economies were
+absent.
+                      W.B. Arthur / ‘Silicon Valley’ locational clusters              247
+
+
+Proof. In this case no subset can ever become dominant - there is always a positive
+probability of a location outside the subset being chosen. Locations are added until
+all have been bid up to their agglomeration bound. We may subtract this agglomera-
+tion advantage equally from all locations; the dynamics then proceed as if no ag-
+glomeration component were present, and all locations share the industry according
+to their natural probabilities of being chosen.    Cl
+
+
+5. Locational   orphaning and spatial separation
+
+   Many industries are not concentrated, Silicon Valley fashion, into a dominant
+location. Firms are spread out with some spatial regularity. The usual, Loschian ex-
+planation for spreading and separation invokes spatial monopolistic competition:
+firms distance themselves from their rivals for local markets. That is, diseconomies
+of agglomeration cause firms to separate spatially.
+   Strangely enough, economies of agglomeration can also cause separation and
+spreading. The reason is that locations with large numbers of firms are preferred
+to geographically similar, neighboring locations with few firms. Locations with
+large numbers of firms therefore cast an ‘agglomeration shadow’ in which little or
+no settlement takes place. This causes separation of the industry.
+   To see this in more detail, consider now a two-dimensional landscape with returns
+q for any given firm-type varying continuously over the surface - reflecting climate
+variation or transportation costs, say. (To preserve finiteness of the number of loca-
+tions we can treat potential locations as points on a fine grid. The industry is still
+heterogeneous, so that tastes q are distributed as before in the density functionf.)
+Tastes are uniformly continuous in the sense that (for all firm types) tastes for two
+neighboring sites always differ by less than some E.
+   Consider two locations, a and a’, separated by d units (under a suitable metric),
+having k and k’ firms respectively. Location a, with more firms, will dominate loca-
+tion a’ for all firm types if g(k) + q(a) >g(k’) + q(a’) + E. d, so that site a’ will not
+receive any future firms. When attractiveness varies smoothly over the landscape,
+then places near a location with a larger number of firms are similar to this location
+geographically; and they are not sufficiently more attractive to overcome the ag-
+glomeration advantage of their dominant neighbor. These places have become
+dynamically orphaned, and we can say that they lie within the agglomeration
+shadow of their dominant neighbor.
+   As a location receives firms its agglomeration shadow grows; it shuts out further
+neighbors and it thereby enlarges the domain of tastes - the ‘gravitational region’
+- from which it receives further firms. The result of this, in the realistic case where
+agglomeration economies are bounded, is that neighboring locations cannot share
+the industry but that sufficiently separated regions can.
+   Agglomeration economies have caused separation and dispersion. And once again
+which locations gain the industry and which become orphaned is a matter of
+historical accident.
+248                    W.B. Arthur / ‘Silicon Valley’ locational clusters
+
+
+6. Remarks    and extensions
+
+   I have shown in a simple model that where agglomeration economies are present,
+historical ‘accidents’ of choice-order select a limiting spatial pattern from a possibly
+large collection of candidate spatial patterns. The following are brief remarks on
+various possible extensions:
+   (1) Suppose there were eventual net diseconomies of agglomeration, so that
+disamenities of industry ultimately outweighed agglomeration benefits. In this case
+g would eventually decrease and be unbounded below. Locations would fill up, part-
+ly by historical accident, the attractive ones first, until diminishing returns set in.
+Then industry would begin to site in the less attractive locations, and still less attrac-
+tive, until all locations showed diminishing returns. I leave it to the reader to con-
+firm that the point x=(1/N,...,     l/N) would be the only attractor of the limiting
+locational probability function, and therefore that the industry would eventually be
+shared equally between all locations, with probability one. Under diseconomies of
+agglomeration, historical accident would not count.
+   (2) Suppose firms were affected not just by the presence of other firms only in
+the same locality but by the entire configuration of firms in all other locations. Total
+returns would then become:
+
+             r;=qj+g(y,,yz,...._Y/v).                                                 (8)
+
+with the wider agglomeration function g also possibly location- or firm-type-specific
+if necessary. This form would allow cases of more genera1 agglomeration or
+deglomeration effects (such as the L6schian monopolistic-competition        case where
+neighboring competitors cut into a firm’s demand to a degree that varies with
+distance). Analysis in this entire-configuration  framework would be similar to that
+above - the AEK strong law for example handles this case directly - but calculation
+of the probabilities of locational choice would now be more complicated. I would
+expect findings similar to the above.
+   (3) Suppose transaction costs to moving were zero, so that firms could move, and
+thus ‘recontract’ their locational decisions. Now after each new entrant’s choice
+there would be a round of relocations of settled firms that could improve their
+returns. Firms would tend to move, from places they settled in that received firms
+early on but which have now by ‘chance’ become orphaned or left behind in ag-
+glomeration, to places that are currently heavily populated with firms. Again there
+would be multiple potential outcomes, with ‘accidents’ of choice-order in moving
+as well as in entry selecting an ultimate locational pattern. ‘Historical accident’
+would still count.
+   (4) Suppose entering firm-types were not independent, but that there was se-
+quence ‘linkage’: certain entrants might attract complementary producers; later en-
+trants might differentiate their firm-type to fit with earlier entrants; and particular
+stages of an industry’s technological development might be associated with the entry
+                       W. B. Arthur / ‘Silicon Valley’ locational clusters            249
+
+
+of a characteristic type of firm. Firm-type arrivals would then be serially correlated;
+and path-dependence would extend now to firm-types and to recent arrivals, as well
+as to previous locational choices. It would be simple to formulate this case, but
+analysis would require more general path-dependent techniques than the ones used
+here.
+   (5) Suppose present choosers were affected by future firms’ location decisions.
+We might then assume that firms form beliefs about the type of stochastic process
+they find themselves in, in the shape of conditional probabilities of future states of
+the locational process. Expectations would therefore change as the settlement pro-
+cess worked itself out. In choosing, firms would create an actual stochastic process,
+which would be in rational expectations equilibrium if it were identical to the believ-
+ed stochastic process (cf. Lucas, 1972). Preliminary results (see Arthur, 1989) show
+that expectations would exacerbate monopoly tendencies. An unattractive location
+that was lucky early on could come to dominate as choosing firms increasingly
+enhanced their beliefs of that location’s success.
+
+
+7. Conclusion
+
+    This study investigated conditions under which increasing returns in the form of
+agglomeration economies cause monopoly - in this case ‘Silicon Valley’ clustering.
+ It showed that if agglomeration economies are unbounded, then a single region or
+location selected by ‘historical accident’ indeed monopolizes the industry. But con-
+trary to conventional beliefs, agglomeration economies are not sufficient to
+guarantee a single-location dominant outcome. If agglomeration economies are
+ bounded, even a small amount of heterogeneity can cause regions to share the in-
+dustry as if agglomeration economies were absent. Increasing returns do not
+necessarily imply monopoly.
+    If locational increasing returns are present in the industry location problem, static
+equilibrium analysis is not enough. Settlement patterns are path-dependent; we are
+forced to follow the locational structure as it forms, and this requires dynamic
+analysis. Interestingly, the picture that emerges is more Darwinian than equilibra-
+tional in nature, with geographical attractiveness bestowing ‘selectional advantage’;
+locations ‘selected’ early on by chance becoming locked-in or ‘fixed’; and some
+locations exercising ‘competitive exclusion’ on others by appropriating the available
+agglomeration economies.
+    The locational analysis of this paper would apply to both the product differentia-
+tion and standardization literature, in the case where products like Sony Betamax”
+or standards like the ASCI code enjoy network externalities in the sense that their
+appeal widens as their market share of user-base grows (see Farrell and Saloner,
+1985; Katz and Shapiro, 1985; and Arthur, 1989). We might ask under what cir-
+cumstances heterogeneity of taste for differentiated products or for competing stan-
+dards might overcome such network-externality            increasing returns, to prevent
+250                        W.B. Arthur / ‘Silicon Valley’ locational clusters
+
+
+monopoly and therefore loss of product diversity, or to prevent emergence of a de
+facto, possibly inferior standard. Many of the results would transfer directly.4
+
+
+
+Acknowledgments
+
+   I am grateful to the Center for Economic Policy Research at Stanford for finan-
+cial support, and to Paul David and Yuri Kaniovski for discussions. An earlier ver-
+sion of this paper appeared as C.E.P.R. Publication No. 84, June 1986, Stanford,
+under the title ‘Industry Location Patterns and the Importance of History’.
+
+
+   4 They transfer most directly to the case of competition between differentiated products that are not
+priced strategically, or between generic, ‘non-sponsored’, competing standards. Strategic maneuvering
+would correspond in our problem to locations offering incentives, in what ‘David (1984b) calls a ‘loca-
+tional tournament’. This would add a game-theoretic overlay.
+
+
+
+References
+
+
+P. Allen and M. Sanglier. Urban evolution, self-organization, and decision-making, Environment and
+   Planning A, 13 (1981) 167-183.
+W.B. Arthur, Urban systems and historical path dependence, in: J.H. Ausubel and R. Herman, eds.,
+   Cities and their Vital Systems (National Academy Press, Washington, D.C., 1988a).
+W.B. Arthur, Self-reinforcing mechanisms in economics, in: P.W. Anderson, K.J. Arrow and D. Pines,
+   eds.. The Economy as an Evolving Complex System (Addison-Wesley, 1988b).
+W.B. Arthur, Competing technologies, increasing returns, and lock-in by historical events, Econom. J.
+   99 (1989) 116-131.
+W.B. Arthur, Yu.M. Ermoliev and Yu.M. Kaniovski. A generalized urn problem and its applications,
+   Kibernetika (trans. in Cybernetics) 19 (1983) 61-71.
+W.B. Arthur, Yu.M. Ermoliev and Yu.M. Kaniovski, Strong laws for a class of path-dependent urn pro-
+   cesses, in: Proc. Int’l. Conf. on Stochastic Optimization, Kiev, 1984 (Springer Lecture Notes in Con-
+   trol and Info. Sciences, No. 81) (1986) 287-300.
+W.B. Arthur, Yu.M. Ermoliev and Yu.M. Kaniovski, Path-dependent processes and the emergence of
+   macro-structure, Europ. J. Op. Res. 30 (1987a) 294-303.
+W.B. Arthur, Yu.M. Ermoliev and Yu.M. Kaniovski, Non-linear urn processes: Asymptotic behavior
+   and applications, I.I.A.S.A. Working Paper 87-85, Laxenburg, Austria (1987b).
+W.B. Arthur, Yu.M. Ermoliev and Yu.M. Kaniovski. A generalized urn scheme with arbitrary in-
+   crements, Santa Fe lnstitute (1989), mimeo.
+D.L. Cohen, Locational patterns in the electronics industry: A survey, Stanford (1984). mimeo.
+P. David, The Marshallian dynamics of Industrialization: Chicago, 1850-1890, Stanford (1984a),
+  mimeo.
+P. David, High technology centers and the economics of locational tournaments, Stanford (1984b).
+   mimeo.
+0. Englinder. Kritisches und Positives zu einer allgemeinen reinen Lehre vom Standort, Zeitschrift fiir
+   Volkswirtschaft und Sozialpolitik, Neue Folge, 5 (1926).
+R. Faini, Increasing returns, non-traded inputs and regional development, Econom. J. 94 (1984)
+  308-323.
+                         W. B. Arthur / ‘Silicon Valley locational clusters                      251
+
+
+J. Farrell and G. Saloner, Standardization, compatibility, and innovation, Rand. J. Econom. 16 (1985)
+   70-83.
+B. Hill, D. Lane and W. Sudderth, Strong convergence for a class of urn schemes, Ann. Probability 8
+   (1980) 214-226.
+E.M. Hoover, Location Theory and the Shoe and Leather Industries (Harvard, 1937).
+W. Isard, Location and Space-Economy (Wiley, 1956).
+M. Katz and C. Shapiro, Network externalities, competition, and compatibility, Am. Econom. Rev. 75
+   (1985) 424-440.
+A. Losch, The Economics of Location (Yale Univ. Press, 1941).
+R. Lucas, Expectations and the neutrality of money, J. Econom. Theory 4 (1972) 103-124.
+G. Myrdal, Economic Theory and Underdeveloped Regions (Duckworth, 1957).
+T. Palander, Beitrlge zur Standortstheorie (Almqvist and Wicksell, 1935).
+F. Perroux, Note sur la Notion de Pole de Croissance, Economic Appliquee 7 (1955) 307-320.
+H. Ritschl, Reine und historische Dynamik des Standortes der Erzeugungszweige, Schmollers Jahrbuch
+   51 (1927) 813-870.
+A. Weber, Theory of the Location of Industries (1909) (Univ. of Chicago Press, 1929).
+

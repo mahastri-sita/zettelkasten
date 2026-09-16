@@ -1,0 +1,1415 @@
+[PDF Metadata]
+Source PDF: journal/A17-otsuka-2025-borrowed-size-and-agglomeration-shadows-in-japan-a-spatial-econometric-analysis-of-regional-productivity-10.1007-s41685-025-00398-2.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Borrowed size and agglomeration shadows in Japan: a spatial econometric analysis of regional productivity
+Subject:         Asia-Pacific Journal of Regional Science, https://doi.org/10.1007/s41685-025-00398-2
+Keywords:        Total factor productivity; Agglomeration shadow; Borrowed size; Spatial econometrics; Japan
+Author:          Akihiro Otsuka 
+Creator:         Springer
+Producer:        Acrobat Distiller 10.1.8 (Windows)
+CreationDate:    Mon Sep  8 08:57:56 2025 WIB
+ModDate:         Mon Nov 17 15:52:51 2025 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           30
+Encrypted:       no
+Page size:       439.37 x 666.142 pts
+Page rot:        0
+File size:       1173560 bytes
+Optimized:       yes
+PDF version:     1.4
+[Extracted Text]
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+https://doi.org/10.1007/s41685-025-00398-2
+
+    ARTICLE
+
+
+
+Borrowed size and agglomeration shadows in Japan:
+a spatial econometric analysis of regional productivity
+
+Akihiro Otsuka1
+
+Received: 3 June 2025 / Accepted: 27 August 2025 / Published online: 8 September 2025
+© The Japan Section of the Regional Science Association International 2025
+
+
+
+Abstract
+This study examined the influence of spatial interdependencies on regional total fac-
+tor productivity in Japan by focusing on the contrasting effects of borrowed size and
+agglomeration shadows. Using panel data from 47 Japanese prefectures between
+2000 and 2018, we compared the manufacturing and non-manufacturing sectors
+by estimating the Spatial Durbin Model and the Spatial Durbin–SARAR Model.
+These models enable a detailed decomposition of productivity effects into direct
+(within region) and indirect (spillover) components across space. The results indi-
+cated that industrial agglomeration and transport capital positively influence local
+productivity in both sectors. However, negative spillovers, interpreted as agglom-
+eration shadow effects, were also observed, where the concentration in neighboring
+regions suppressed local performance. Human capital exerted a consistently posi-
+tive impact on manufacturing, with evidence of interregional spillover effects. These
+findings highlight the sector-specific spatial dynamics and indicate the need for dif-
+ferentiating regional policy responses. For the manufacturing sector, promoting net-
+worked industrial clustering and labor mobility can enhance productivity but must
+be balanced against the risks of overconcentration. In the non-manufacturing sector,
+decentralized service economies and spatially equitable infrastructure investments
+are critical for reducing competitive displacement from urban cores. By clarifying
+the conditions under which borrowed size and agglomeration shadow effects prevail,
+this study contributes to spatial productivity theory and offers actionable insights for
+designing regionally differentiated development strategies.
+
+Keywords Total factor productivity · Agglomeration shadow · Borrowed size ·
+Spatial econometrics · Japan
+
+JEL Classification R11 · R12 · C21 · O47 · R15
+
+
+
+* Akihiro Otsuka
+  otsuka@yokohama-cu.ac.jp
+1
+      Association of International Arts and Sciences, Yokohama City University, 22‑2 Seto,
+      Kanazawa‑ku, Yokohama 236‑0027, Japan
+
+
+                                                                                        Vol.:(0123456789)
+1116                                  Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+1 Introduction
+
+This study investigates the influence of interregional spillover effects on regional
+total factor productivity (RTFP). Two contrasting spatial mechanisms mediate
+these effects: borrowed size and agglomeration shadows.
+   Borrowed size refers to the phenomenon in which a region experiences pro-
+ductivity gains by leveraging the external influence of economic resources avail-
+able in neighboring regions, such as industrial agglomeration, human capital, and
+transport capital. These three elements are conceptualized as the core compo-
+nents of borrowed size, and their spatial spillover effects on RTFP are empirically
+examined using spatial econometric models.
+   Rooted in the theory of external economies introduced by Alonso (1973, p.
+200), Burger et al. (2015) further developed the concept of borrowed size. This
+view is based on the premise that small cities can transcend their physical con-
+straints and achieve growth by leveraging the economic benefits of nearby large
+cities, including population size, critical market mass, and functional diversity.
+This perspective suggests that agglomeration economies can transcend adminis-
+trative boundaries into broader regional spaces (Parr 2002).
+   This outlook provides a theoretical foundation for urban growth mechanisms
+that do not rely on conventional factors such as population size or administra-
+tive status. Several studies have shown that extensive interregional networks and
+infrastructure can enhance functional specialization and increase productivity,
+overcoming the limitations of geography (Camagni 1993; Capello 2000; Hall and
+Pain 2006; Boix and Trullén 2007; Burger and Meijers 2016). Moreover, agglom-
+eration economies have been shown to foster innovation and productivity growth,
+particularly in urban settings, where dense interactions promote knowledge spill-
+overs (Carlino and Kerr 2015).
+   Advanced transportation infrastructure, such as high-speed rail networks and
+airports, can stimulate interregional knowledge exchange, thereby promoting
+knowledge diffusion and expanding the spatial scope of external economies (Ma
+and Liu 2022; Tian et al. 2022). These high-quality networks enhance the speed
+and frequency of knowledge flows, generating productivity gains for individual
+economic agents and through positive spillovers to surrounding regions.
+   However, interregional network formation does not always yield beneficial
+outcomes. As Hesse (2014) argues, network-based urban growth may strengthen
+the concentration of resources in large cities, creating a siphoning effect on the
+periphery. Echoing this concern, Dijkstra et al. (2013) suggested that interur-
+ban competition can widen growth disparities and undermine overall economic
+efficiency.
+   This dynamic was formalized in the concept of the agglomeration shadow
+introduced by Fujita et al. (1999). This describes a situation in which large,
+highly agglomerated urban centers absorb talent and resources from neighbor-
+ing small- and medium-sized cities, thereby hindering their autonomous devel-
+opment (Fujita and Thisse 2002). Although borrowed size and agglomeration
+shadows seem to be opposing forces, they can operate either complementarily or
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                         1117
+
+
+competitively, shaping the spatial dynamics of regional economies (Phelps and
+Ozawa 2003; Meijers 2005; Burger and Meijers 2016).
+   The simultaneous presence of benefits and constraints is a common phenomenon
+in real-world regional development, where proximity to large cities either promotes
+or inhibits local economic activity. This duality reflects the distinction between static
+and dynamic agglomeration economies, where immediate productivity gains may
+be accompanied by long-term structural disparities, depending on the spatial con-
+text (Camagni et al. 2015). When borrowed size effects are strong, they may offset
+the negative impacts of agglomeration shadows and support autonomous regional
+growth. Conversely, when agglomeration shadows dominate, they may restrain the
+borrowed size effects and exacerbate regional disparities.
+   However, this dual mechanism has gained scholarly attention, as empirical
+research on the simultaneous operation of borrowed size and agglomeration shadow
+effects remains limited. Most existing studies tend to analyze these mechanisms in
+isolation, often focusing on either positive externalities from urban networks or neg-
+ative spillovers from concentrated agglomerations. This fragmented approach has
+hampered the comprehensive understanding of how these forces interact in space.
+   Despite the increasing interest in these concepts, the operationalization of bor-
+rowed size remains inconsistent and ambiguous. Recent empirical studies explored
+how spatial externalities and structural embeddedness shape regional economic out-
+comes in the context of urbanization and systemic shocks. Crescenzi et al. (2022)
+emphasized the role of territorial embeddedness in fostering local development,
+showing how region-specific assets can amplify or mediate external effects. Sim-
+ilarly, Capello and Caragliu (2023) examined the economic impact of COVID-19
+in cross-border regions, revealing the uneven spatial vulnerability of regions and
+the importance of structural conditions in regional resilience. Guo (2025) offered
+a novel perspective on urban productivity by investigating the relationship between
+urban wage premiums and spatial equilibrium, contributing to a broader understand-
+ing of scale effects and agglomeration benefits.
+   These recent contributions reinforce the relevance of analyzing positive and nega-
+tive spatial spillovers in productivity, particularly through frameworks that capture
+complex spatial interdependencies, such as those employed in this study. Some
+studies equate this with functional connectivity or urban performance (Meijers and
+Burger 2015; Meijers et al. 2015; Volgmann and Rusche 2020), whereas others
+emphasize specific spillover channels, such as commuting patterns or infrastructure
+networks (Partridge et al. 2009; Hesse 2014). These analyses frequently adopt sin-
+gle-dimensional frameworks and are largely centered on European urban systems.
+Conversely, empirical evidence from non-Western, mature regional systems, such as
+Japan, is limited despite rich regional heterogeneity and established regional hierar-
+chies. As Hornbeck et al. (2024) noted, the conditions under which borrowed size
+dominates agglomeration shadows remain largely unresolved.
+   This study addresses these gaps by employing spatial econometric models to
+identify the pathways through which industrial specialization, human capital, and
+transport capital mediate spatial spillovers. By jointly estimating the borrowed
+size and agglomeration shadow effects, this analysis offers a multidimensional
+1118                                   Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+and contextually grounded contribution to our understanding of regional produc-
+tivity dynamics in Japan.
+   Recent studies in regional science have clarified the roles of these three pillars
+in shaping local productivity. Regarding industrial specialization, de Souza Silva
+et al. (2024) analyzed the links between occupational specialization and wage
+premiums in Brazil, highlighting the productivity implications of skill matching
+within urban labor markets. Leitão et al. (2024) revisited the structure of Mar-
+shallian districts in Portugal, offering new methodological insights into the spa-
+tial organization of industries.
+   Regarding human capital, a growing body of literature emphasizes cross-
+border spillovers and place-specific dynamics. For instance, Jardon et al. (2024)
+showed how human capital accumulation interacts with administrative bounda-
+ries to shape regional performance, whereas Biedka et al. (2022) provided evi-
+dence from Poland regarding the impact of EU cohesion policy investments on
+local human capital and development outcomes. Raya and Resosudarmo (2024)
+further highlighted the institutional roots of human capital disparities, illustrating
+how historical legacies continue to shape regional capacity building.
+   Finally, recent research on transport capital focused on investment volumes
+and spatial impact asymmetries. Arachovas et al. (2025) examined the timing and
+spatial distribution of public capital spikes in Greece, underscoring the uneven
+benefits of infrastructure across regions. Similarly, Centurião et al. (2024) evalu-
+ated road infrastructure investments along the Latin American Integration Route,
+highlighting differentiated regional gains depending on the network position and
+accessibility profiles.
+   These recent contributions strengthen the conceptual underpinnings of this
+analysis and provide a broader empirical backdrop for understanding the struc-
+tural sources of RTFP variation.
+   This study makes a threefold contribution to the existing literature.
+   First, while previous studies examined borrowed size or agglomeration shad-
+ows individually, this study is among the first to jointly identify and quantify both
+effects within a unified spatial econometric framework. By applying the Spatial
+Durbin Model (SDM) and the Spatial Durbin–SARAR Model (SDM-SARAR),
+the analysis disentangled the positive and negative spatial spillovers associated
+with industrial specialization, human capital, and transport capital, enabling
+the structural identification of borrowed size and agglomeration shadow effects
+across space.
+   Second, unlike studies that operationalize borrowed size through regional con-
+nectivity or functional centrality (e.g., Meijers and Burger 2015; Meijers et al. 2015;
+Volgmann and Rusche 2020), this study decomposes spatial externalities into three
+distinct channels—industrial specialization, human capital, and transport capital—
+to offer a granular understanding of spillover pathways.
+   Third, existing empirical literature focuses primarily on European or North
+American regional systems, whereas this study provides novel evidence from Japan,
+a non-Western context characterized by a high urbanization rate and polycentric
+regional structure. The applicability and limitations of established spatial economic
+theories in different institutional and geographical settings were critically assessed.
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                             1119
+
+
+   The remainder of this paper is organized as follows: Sect. 2 outlines the empir-
+ical framework, including definitions of key variables, model specifications, esti-
+mation strategies, and data. Section 3 provides the preliminary analysis, includ-
+ing tests for spatial autocorrelation and regional fixed effects. Section 4 presents
+the estimation results and discusses their interpretation and policy implications.
+Finally, Sect. 5 concludes the paper and suggests directions for future research.
+
+
+
+2 Methodology
+
+2.1 Definition of key variables
+
+This study elucidates the influence of interregional spillover effects on RTFP,
+focusing on the impact of three key regional economic resources: industrial spe-
+cialization (LQ), human capital (HC), and transport capital (TC). These variables
+were statistically examined to assess their impact on productivity.
+   RTFP was calculated following the methodology proposed by Good et al.
+(1997), as applied to regional data by Otsuka (2024a, b). The relative RTFP level
+of a given industry in region j at time t, denoted as lnRTFPjt , is defined as follows:
+                             (             ) ∑t (                    )
+                 lnRTFPjt ≡ lnYjt − lnYt +             lnYs − lnYs−1
+                                                              s=1
+
+
+              1                                      1
+     [∑n        (          )(             ) ∑t ∑ n (              )(              )]
+   −             Sijt + Sit lnXijt − lnXit +           Sis + Sis−1 lnXis − lnXis−1 ,
+          i=1 2                              s=1 i=1 2
+                                                                                          (1)
+where Yjt denotes the output of region j at time t, Xijt is the input of factor i in region j
+at time t, and Sijt is the cost share of input i. The overbars represent the interregional
+averages of the respective variables. This formulation enables consistent compari-
+sons of productivity levels across regions and over time. It measures not only the rel-
+ative deviations from the national average but also the dynamic evolution of regional
+productivity trajectories in response to national trends.
+    The location quotient (LQ), which measures the degree of industrial speciali-
+zation in a region, was defined according to Glaeser et al. (1992)
+                                           ( ) ( )
+                                             Ykr      Y
+                                  LQkr ≡           ∕ k ,                                  (2)
+                                             Yr        Y
+
+where Ykr is the output of industry k in region r; Yr is the total output of region r; Yk
+is the national output of industry k; and Y is the total national output. A value greater
+than 1 implies that the share of that industry in the regional economy surpasses the
+national average, indicating regional specialization. Firms in such regions benefit
+from localized external economies (Rosenthal and Strange 2004; Combes and Gob-
+illon 2015). These effects can include knowledge spillovers through direct interac-
+tion and labor mobility, contributing to higher RTFP. However, high specialization
+1120                                   Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+in neighboring regions may siphon away resources, creating an agglomeration
+shadow.
+   Human capital (HC) serves as a proxy for workforce education and skill levels.
+As no official composite index was available, the following wage-weighted measure
+was constructed:
+                                     ∑ ∑
+                                            wsnt ∗Lsnt
+                             HCjt ≡ n s                ,                      (3)
+                                            Ljt
+
+where wsnt is the relative wage for workers of gender s and education level n, Lsnt
+denotes the number of such workers, and Ljt represents the total workforce in region
+j at time t. Regions with a greater proportion of highly educated workers (e.g., uni-
+versity graduates with above-average wages) will exhibit higher HC values. Con-
+versely, low HC values indicate educational disadvantages. Human capital enhances
+productivity directly and through spillover effects (Habib et al. 2019; Ghosh and
+Parab 2021).
+   Transport capital (TC) indicates the infrastructure stock that supports economic
+activities, particularly transportation. In this study, it is defined as the aggregate
+social capital stock for roads, ports, and airports. The study data were sourced from
+official Japanese statistics on public capital formation. A well-developed transporta-
+tion infrastructure facilitates the movement of goods, reduces costs, and improves
+productivity (Eberts and McMillen 1999; Bröcker et al. 2019). Such infrastructure
+enhances the productivity of local firms and strengthens their capacity to participate
+in interregional economic networks.
+
+2.2 Strategy for model selection
+
+To account for spatial economic interdependence, this study adopted the SDM and
+SDM-SARAR models. These models are suitable for analyzing regional produc-
+tivity patterns where observable characteristics and unobserved spatial factors are
+likely to generate interregional spillovers.
+   Traditional spatial econometric approaches, such as the Spatial Autoregressive
+Model (SAR), which introduces a spatial lag of the dependent variable, and the
+Spatial Error Model (SEM), which incorporates spatial autocorrelation in the error
+term, have been widely used. However, each model captures only one aspect of spa-
+tial dependence and thus has limitations.
+   The SAR model is useful for modeling situations in which the RTFP in neighbor-
+ing regions directly affects the local RTFP. However, it does not account for spatial
+spillovers that operate through explanatory variables, such as the influence of neigh-
+boring regions’ human capital or industrial structures. Conversely, the SEM model
+addresses spatially correlated unobserved factors but does not capture the impact of
+the observed variables in neighboring regions.
+   The SDM overcomes these limitations by including the spatial lags of both
+dependent and explanatory variables. This structure enables simultaneous estima-
+tion of the direct (within-region) and indirect (between-region) effects of industrial
+specialization (LQ), human capital (HC), and transport capital (TC) on regional
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                         1121
+
+
+productivity. Moreover, by encompassing spatially lagged regressors, the SDM
+nests both SAR and SEM models as special cases under specific parameter restric-
+tions, positioning it as a generalized and robust spatial model (Anselin 1988; Elhorst
+2014).
+   While the SDM can address the observed spatial heterogeneity, it does not fully
+capture the latent sources of spatial dependence. The SDM-SARAR model extends
+the SDM by introducing spatial autocorrelation in the error term via a spatial autore-
+gressive parameter (λ). This addition enables the model to account for unobserved
+spatial dependence arising from the institutional context, cultural characteristics, or
+omitted geographic factors. By modeling observable and unobservable sources of
+spatial dependence, SDM-SARAR enhances identification and improves the consist-
+ency of parameter estimation.
+   Overall, the SDM and SDM-SARAR models offer the following methodological
+advantages over conventional spatial econometric approaches: (1) they support the
+explicit modeling of spatial spillover effects; (2) they jointly consider both observ-
+able and latent spatial dependence; and (3) they are general and inclusive frame-
+works that nest SAR and SEM models. Given these strengths, they are well suited
+for capturing the nuanced spatial interdependencies that shape regional productivity.
+
+
+2.3 Estimation models
+
+1. Spatial Durbin Model (SDM)
+
+   The SDM enables the explicit estimation of spatial spillover effects by incorpo-
+rating the spatial lags of dependent and independent variables. This feature is use-
+ful for analyzing regional productivity, which may be influenced by local conditions
+and neighboring characteristics. The model is expressed as follows:
+
+                               Y k = 𝜌WY k + X k 𝛽 + WX k 𝜃 + 𝜇 + 𝜀,                 (4)
+where Y k is a vector[ of the RTFP   ] for industry k (manufacturing or non-manufac-
+turing), and X k = LQk , HC, TC is the matrix of explanatory variables, including
+location quotient (LQ), human capital (HC), and transport capital (TC). W denotes
+the spatial weight matrix; ρ is the spatial autoregressive coefficient; β captures
+the impact of local explanatory variables; θ represents the effects of neighboring
+regions’ explanatory variables (that is, spillover effects); μ is a vector of region-spe-
+cific fixed effects; and ε is the error term.
+   The coefficients in θ reflect the impact of “borrowed size” from the neighboring
+regions. A positive value (θ > 0) indicates positive spillovers, namely, that external
+resources concentrated in nearby areas enhance local productivity. Conversely, a
+negative value (θ < 0) implies that economic resources are drawn away toward neigh-
+boring regions, resulting in a reduction in local productivity due to an “agglomera-
+tion shadow.”
+1122                                   Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+   The SDM nests the SAR and SEM as special cases under specific parameter
+constraints (Anselin 1988), making it a general and flexible framework for cap-
+turing different types of spatial dependence (Elhorst 2014).
+
+2. Spatial Durbin–SARAR model (SDM-SARAR)
+
+   The SDM-SARAR Model extends the SDM by incorporating spatial autocor-
+relation into the error term. Assuming that the error follows a spatial autoregres-
+sive process, the model is specified as follows:
+
+                 Y k = 𝜌WY k + X k 𝛽 + WX k 𝜃 + 𝜇 + u, u = 𝜆Wu + 𝜀,                           (5)
+where λ is the spatial autoregressive coefficient in the error term, capturing unob-
+served spatial dependence arising from institutional settings, cultural background,
+or unmeasured geographic features. Thus, the SDM-SARAR allows for a richer rep-
+resentation of spatial dependence by modeling observable spillovers (via WX) and
+latent dependence (via λWu).
+    As noted by Elhorst (2010), the SDM-SARAR model may be subject to identi-
+fication issues under specific conditions. However, this study addresses these con-
+cerns by employing the full Durbin specification (that is, applying spatial lags to
+all explanatory variables) and using a panel dataset with sufficient spatiotemporal
+variation to ensure a stable estimation. The empirical performance of the model
+is further examined in the results section.
+    The SDM and SDM-SARAR models were estimated by applying maximum-
+likelihood (ML) methods based on prefecture-level panel data with regional fixed
+effects. ML has been widely adopted in spatial econometrics (Ord 1975; Haining
+1990, 2003), and the balanced panel used in this study provides adequate obser-
+vations for consistent estimation.
+    These models incorporate three common sources of spatial correlation: spatial
+lag of the dependent variable (WY), spatial lag of explanatory variables (WX),
+and spatial autocorrelation in the error term (λWu). Each of these sources can
+introduce endogeneity. Specifically, a spatial lag of the dependent variable may
+result in simultaneity bias. However, the ML estimator was designed to account
+for this endogeneity, and yielded consistent estimates.
+    Moreover, the Durbin specification facilitates the identification of spatial spill-
+over effects through WX, whereas the SARAR structure helps control for spa-
+tially correlated omitted variables. This combination enhanced the credibility of
+the estimated relationships between regional productivity and spatial drivers.
+    In summary, estimating the SDM and SDM-SARAR using ML provides a the-
+oretically grounded and empirically robust approach for evaluating spatial exter-
+nalities. These models enable a statistically reliable analysis of how borrowed
+size mechanisms, industrial agglomeration, human capital, and transport infra-
+structure affect regional productivity across Japanese prefectures.
+
+3. Impact evaluation
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                          1123
+
+
+   In spatial econometric models with lag structures, changes in an explanatory vari-
+able in one region can affect that region as well as other regions through spatial link-
+ages. This feature introduces complexity in interpreting model coefficients, as the
+estimated parameters (such as β and θ) do not directly represent the full magnitude
+of influence across space.
+   To address this problem, LeSage and Pace (2009) proposed decomposing the
+estimated effects into three components: direct, indirect, and total. Currently,
+this approach is the standard for analyzing spatial models, such as SDM and
+SDM-SARAR.
+   The direct effect refers to the average impact of a change in a region’s explanatory
+variable on its dependent variable (RTFP). This reflects localized mechanisms, such
+as agglomeration economies and internal policy interventions.
+   The indirect effect (that is, the spatial spillover effect) measures the average influ-
+ence of changes in explanatory variables in neighboring regions on the RTFP of a
+given region. This component captures the interregional externalities that are central
+to evaluating the balance between positive and negative agglomeration shadows.
+   The total effect is the sum of the direct and indirect effects and represents the
+overall spatial impact of a given variable.
+   In the general SDM-SARAR framework, these effects are computed numerically
+using the following impact matrix:
+
+                                 𝜕Y k           −1
+                                                                                      (6)
+                                                   (              )
+                                      = (I − 𝜌W)    𝛽 X I + 𝜃 X W   ,
+                                 𝜕X k
+where 𝛽X and 𝜃X are the coefficients associated with the local and spatially lagged
+explanatory variables, respectively. The average of the diagonal elements represents
+the direct effect, the average of the off-diagonal elements represents the indirect
+effect, and the overall mean represents the total effect.
+   For instance, if all three effects are positive, this suggests that the variable in
+question, such as human capital or transport capital, not only improves local produc-
+tivity but also generates positive spillovers to other regions. These findings support
+the presence of borrowed size effects through interregional connectivity.
+   Conversely, if a variable exhibits a significantly negative indirect effect, it indi-
+cates the presence of an agglomerated shadow. In this case, strong concentrations
+of industrial specialization (LQ), human capital (HC), or transport capital (TC) in
+neighboring areas drain productive resources, thereby reducing RTFP in adjacent
+regions despite local efforts to improve productivity.
+   This impact decomposition provides a rigorous analytical basis for understand-
+ing the role of uneven spatial distribution of economic resources in shaping regional
+development outcomes. By distinguishing between local and spillover effects, this
+analysis highlights the dual role of agglomeration: it can either facilitate or constrain
+regional growth, depending on how benefits and burdens are spatially distributed.
+   Thus, the SDM-SARAR model is a powerful tool for quantifying these dynam-
+ics and enables a comprehensive empirical investigation of the spatial propagation
+mechanisms that drive regional productivity in Japan.
+1124                                    Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+2.4 Spatial weight matrix
+
+This study constructed a binary queen-type contiguity matrix to represent the geo-
+graphical proximity between Japan’s prefectures (Anselin 1988). In this matrix, two
+prefectures are considered neighbors if they share either a common border or a sin-
+gle point of contact. The matrix is square and symmetric, with a value of 1 assigned
+to adjacent pairs and 0 otherwise. The diagonal elements are set to zero, indicating
+that a prefecture is not its own neighbor.
+   Compared to the rook-type matrix, which only includes edge-sharing units, the
+queen-type matrix incorporates corner contiguity, providing an inclusive representa-
+tion of spatial connectivity. This is particularly relevant for Japan, where prefectural
+boundaries are often irregular and fragmented. The queen approach better reflects
+real-world spatial interactions, including broad-area effects such as resource alloca-
+tion pressures and spillover mechanisms, which are the central themes of this study.
+   A specific adjustment was applied to Okinawa Prefecture, which is geographi-
+cally isolated and does not share direct borders with the other prefectures. To avoid
+numerical issues caused by zero-row isolation, Okinawa is considered adjacent to
+Kagoshima Prefecture, which is its geographically nearest mainland counterpart.
+This procedure follows established practices in applied spatial econometrics (LeS-
+age and Pace 2009; Elhorst 2014), in which spatial islands are connected to the clos-
+est unit to ensure full participation in spatial structures.
+   The adjacency matrix was subsequently row-standardized to form the spa-
+tial weight matrix used in the estimation models (LeSage and Pace 2009). In this
+process, each non-zero element is divided by the number of neighbors for the cor-
+responding row unit, such that all row sums are equal to one. This normalization
+allows for comparability across regions and prevents regions with more neighbors
+from exerting a disproportionately large influence.
+
+
+2.5 Data
+
+This study analyzes the determinants of regional productivity in the manufactur-
+ing and non-manufacturing sectors using panel data for all 47 prefectures in Japan
+between 2000 and 2018. All data sources are publicly available and based on official
+national statistics.
+   The dependent variable, RTFP, was calculated using the Regional-Level Japan
+Industrial Productivity Database (R-JIP) published by the Research Institute of
+Economy, Trade, and Industry (RIETI). This database was developed to overcome
+the limitations of regional and industry-consistent data availability in Japan. In this
+study, prefecture- and industry-level RTFP were estimated under consistent defini-
+tions for the full sample period.
+   The analysis period ended in 2018, which is the latest year available in the R-JIP
+database. Other key explanatory variables, including public capital stock, were
+obtained from official Cabinet Office data, with the most recent available year being
+2020. These limitations stem from the deliberate emphasis on research transparency
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                      1125
+
+
+and reproducibility using reliable open datasets. Therefore, the absence of post-
+COVID observations reflects current institutional constraints rather than a lack of
+theoretical or policy relevance.
+   In the RTFP calculation, output (Y) was measured as the real value added. Input
+(X) comprises labor and capital, with labor measured in hours worked and capital as
+the real capital stock. Cost shares (S) were derived from labor and capital cost data
+included in the R-JIP.
+   The LQ was constructed using real value added by industry and prefecture and
+was sourced from the R-JIP. HC was calculated using employment and wage data
+disaggregated by educational attainment from the Basic Survey on Employment
+Structure (Statistics Bureau of Japan) and the Basic Survey on Wage Structure
+(Ministry of Health, Labour and Welfare). TC, which serves as a proxy for infra-
+structure investment, is based on the Cabinet Office’s Statistics on Social Capital
+Stock. Table 1 summarizes the descriptive statistics for all the variables.
+   A comparison of the mean RTFP values indicates that manufacturing sectors
+exhibit higher productivity than non-manufacturing sectors, indicating pronounced
+technological advancement and efficiency gains. The standard deviation is also
+greater for manufacturing, reflecting stronger regional disparities.
+   The average LQ in manufacturing slightly exceeded 1.0, indicating regional
+concentration, whereas the non-manufacturing LQ was closer to 1.0, suggesting a
+uniform distribution across regions. The standard deviation of the LQ was notably
+higher in the manufacturing sector, reinforcing the presence of spatially clustered
+industrial activities.
+   The HC index showed relatively stable averages but substantial variation across
+regions. The gap between the maximum and minimum values reflects a spa-
+tial imbalance in educational attainment, with potential implications for local
+productivity.
+   TC, which represents infrastructure investment, exhibited a moderate upward
+trend in its mean value. However, a high standard deviation suggests uneven infra-
+structure development, with some regions benefiting from substantial transport
+investments.
+   Overall, the descriptive statistics reveal sectoral contrasts in productivity and
+significant regional imbalances in economic structure and resource allocation. The
+combination of high variance in RTFP and LQ in manufacturing underscores the
+importance of agglomeration mechanisms. These findings provide empirical motiva-
+tion for examining spatial externalities, both positive (borrowed size) and negative
+(agglomeration shadow), in the subsequent econometric analysis.
+   Figures 1 and 2 present the geographic distribution of the average RTFP during
+the study period (2000–2018) for manufacturing and non-manufacturing sectors,
+respectively. While the manufacturing sector exhibits a dispersed pattern, with mul-
+tiple high-RTFP regions in western and central Japan, the non-manufacturing sector
+shows strong centralization, particularly around Tokyo and Osaka. Peripheral areas
+in both maps tend to have lower RTFP levels, suggesting potential agglomeration
+shadow effects. These spatial differences underscore the need for sector-specific
+analysis in subsequent empirical modeling.
+                                                                                                                                                                  1126
+
+Table 1  Descriptive statistics
+                                  Regional total factor productivity                  Location quotient                      Human capital   Traffic capital
+
+                                  Manufacturing sector     Non-manufacturing sector   Manufacturing sector   Non-manufac-
+                                                                                                             turing sector
+                                  RTFP (index)             RTFP (index)               LQ (index)             LQ (index)      HC (index)      TC (million yen)
+
+2000–05      Mean                  0.140                   −0.002                     1.022                  0.993           0.765            4,750,858
+             Standard deviation    0.220                     0.112                    0.384                  0.114           0.051            3,467,150
+             Max                   0.866                     0.568                    1.960                  1.251           0.895           18,752,129
+             Min                  −0.436                   −0.188                     0.183                  0.715           0.639            1,612,596
+2006–11      Mean                  0.263                   −0.018                     1.066                  0.981           0.732            5,093,742
+             Standard deviation    0.195                     0.127                    0.385                  0.112           0.054            3,675,046
+             Max                   0.836                     0.579                    2.107                  1.257           0.879           19,530,940
+             Min                  −0.253                   −0.212                     0.172                  0.695           0.603            1,873,695
+2012–18      Mean                  0.381                   −0.005                     1.094                  0.973           0.825            5,244,527
+             Standard deviation    0.178                     0.135                    0.408                  0.116           0.035            3,713,090
+             Max                   0.902                     0.619                    2.056                  1.233           0.934           20,199,760
+             Min                  −0.246                   −0.211                     0.183                  0.693           0.732            1,944,639
+2000–18      Mean                  0.267                   −0.008                     1.062                  0.982           0.776            5,041,015
+             Standard deviation    0.221                     0.126                    0.395                  0.114           0.061            3,630,888
+             Max                   0.902                     0.619                    2.107                  1.257           0.934           20,199,760
+             Min                  −0.436                   −0.212                     0.172                  0.693           0.603            1,612,596
+                                                                                                                                                                Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                             1127
+
+
+
+
+Fig. 1  Geographic distribution of average RTFP (manufacturing sector, 2000–2018)
+
+
+
+
+Fig. 2  Geographic distribution of average RTFP (non-manufacturing sector, 2000–2018)
+1128                                                Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+3 Preliminary analysis
+
+3.1 Spatial autocorrelation
+
+A preliminary step in spatial econometric analysis is to assess the presence of spatial
+autocorrelation in the dependent variable, RTFP. This assessment clarifies whether
+productivity levels exhibit geographic clustering, which suggests spatial spillovers,
+concentration effects, or random distributions.
+   This study employed Moran’s I (Moran 1950) as a measure of spatial autocorrela-
+tion. Moran’s I is a spatial analog of Pearson’s correlation coefficient and is used to
+measure the similarity of values among neighboring regions. This measure is par-
+ticularly useful, because it is sensitive to spatial lags in the dependent variable, spa-
+tial autocorrelation in the error term, and heteroscedasticity (Anselin and Griffith
+1988; Anselin and Rey 1991; Florax and de Graaff 2004).
+   A positive Moran’s I value indicates that neighboring regions tend to exhibit sim-
+ilar levels of industrial activity, implying spatial clustering. Conversely, a negative
+
+
+
+Table 2  Moran’s I test results
+                  Manufacturing sector                             Non-Manufacturing sector
+Year              Moran’s I       Z score    P value               Moran’s I      Z score     P value
+
+2000                0.45          4.41       0.00          ***     0.18           2.11        0.02        **
+2001                0.41          4.08       0.00          ***     0.19           2.17        0.01        **
+2002                0.42          4.15       0.00          ***     0.22           2.47        0.01        **
+2003                0.38          3.72       0.00          ***     0.25           2.87        0.00        ***
+2004                0.36          3.51       0.00          ***     0.26           2.89        0.00        ***
+2005                0.33          3.34       0.00          ***     0.24           2.69        0.00        ***
+2006                0.21          2.15       0.02          **      0.26           2.93        0.00        ***
+2007                0.29          2.88       0.00          ***     0.27           3.01        0.00        ***
+2008                0.27          2.71       0.00          ***     0.28           3.09        0.00        ***
+2009                0.19          1.99       0.02          **      0.30           3.32        0.00        ***
+2010                0.13          1.43       0.08          *       0.34           3.66        0.00        ***
+2011                0.21          2.13       0.02          **      0.33           3.61        0.00        ***
+2012                0.18          1.89       0.03          **      0.25           2.82        0.00        ***
+2013                0.16          1.71       0.04          **      0.23           2.59        0.00        ***
+2014                0.06          0.80       0.21                  0.22           2.47        0.01        **
+2015              −0.02           0.00       0.50                  0.20           2.23        0.01        **
+2016                0.02          0.38       0.35                  0.19           2.19        0.01        **
+2017                0.01          0.28       0.39                  0.20           2.22        0.01        **
+2018                0.13          1.45       0.07          *       0.22           2.44        0.01        **
+Time average        0.30          3.00       0.00          ***     0.26           2.89        0.00        ***
+
+Note: statistical significance levels are indicated as follows: ***p < 0.01 (highly significant), **p < 0.05
+(strongly significant), *p < 0.10 (statistically significant), and no symbol (p ≥ 0.10) indicates not signifi-
+cant
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                        1129
+
+
+value suggests spatial dispersion in which adjacent areas display divergent industrial
+patterns. Table 2 presents the calculated Moran’s I values for RTFP by sector.
+   In the manufacturing sector, Moran’s I has remained consistently around 0.4 since
+2000 and is statistically significant. This implies strong and persistent clustering of
+regional productivity. Although a slight decline was observed in 2003 (0.38), spatial
+autocorrelation overall remained stable.
+   In contrast, the values of Moran’s I for the non-manufacturing sector range from
+approximately 0.18 to 0.25, indicating weaker spatial clustering. The non-manufac-
+turing sector displays spatial dependence, and its intensity is clearly lower than that
+of the manufacturing sector. However, since 2003, Moran’s I increased, suggesting a
+gradual intensification of spatial concentration.
+   These results indicate that the manufacturing sector consistently exhibited strong
+clustering, whereas the non-manufacturing sector exhibited relatively dispersed
+clustering. This distinction provides an important context for interpreting the bor-
+rowed size effects. In areas with strong agglomeration shadows, peripheral regions
+adjacent to industrial hubs may experience development constraints and negative
+spatial externalities in terms of RTFP. Given the statistical significance of Moran’s I
+in both sectors, the use of spatial econometric models rather than conventional OLS
+is warranted.
+   Figure 3 illustrates the trends reported in Table 2 to explore the temporal dynam-
+ics of the spatial autocorrelation.
+   The economic interpretation of these patterns and the decline in Moran’s I in
+the manufacturing sector during the early 2000s reflects a temporary weaken-
+ing of interregional industrial links, potentially caused by offshoring. As capi-
+tal, technology, and labor resources were relocated abroad, the spatial sharing of
+production inputs, which is central to the borrowed size effect, diminished. Con-
+sequently, spillover effects that enhance local productivity may have weakened,
+
+
+
+
+Fig. 3  Moran’s I over time for manufacturing and non-manufacturing sectors
+1130                                  Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+reducing spatial autocorrelation. The recovery of Moran’s I between 2017 and
+2018 indicates that high-value-added manufacturing activities returned to Japan,
+thereby revitalizing interregional linkages in capital and labor and strengthening
+regional industrial clusters.
+    In the non-manufacturing sector, the upward trend in Moran’s I reflects spillo-
+ver benefits from the agglomeration of advanced service industries in the Tokyo
+metropolitan area. Contiguous regions, such as neighboring parts of the capi-
+tal region and major provincial cities, may benefit from their proximity to ser-
+vice hubs. Knowledge-intensive sectors, including finance, IT, and professional
+services, are likely to facilitate the diffusion of industrial advantages, thereby
+expanding service clusters to nearby areas.
+    These borrowed size effects encompass the benefits of neighboring agglom-
+erations. In manufacturing, the formation of industrial clusters fosters competi-
+tion, deepens labor markets, and promotes technological spillovers. The recent
+recovery in Moran’s I suggests the reemergence of cluster-driven spillovers with
+the strengthening of industrial linkages. For instance, in automotive hubs such
+as Aichi and Hiroshima, supply chain integration and technology transfer may
+enhance productivity in the surrounding areas.
+    In non-manufacturing areas, agglomeration economies in metropolitan areas
+are likely to facilitate knowledge spillovers, which contribute to productivity
+improvements in nearby regions. For example, companies headquartered in cen-
+tral Tokyo may have expanded their operations to surrounding prefectures, such
+as Saitama, Chiba, and Kanagawa. These peripheral areas may have benefited
+from enhanced access to specialized labor and business networks. The sustained
+increase in Moran’s I reflects a broader diffusion of agglomeration benefits.
+    Agglomeration shadows, where concentrated industrial development in core
+regions inhibits growth in neighboring areas (Fujita et al. 1999), may also be pre-
+sent. In the manufacturing sector, the decrease in Moran’s I in the early 2000s
+may reflect these effects. As offshoring weakened the major manufacturing hubs,
+existing clusters may have become fragmented, and peripheral industrial bases
+may have deteriorated. For instance, strong industrial concentrations in regions,
+such as Aichi, Shizuoka, and Osaka, may have constrained the development of
+other areas through resource competition.
+    Among non-manufacturing areas, the rising dominance of the Tokyo metropol-
+itan area may have placed pressure on regional economies. The agglomeration of
+finance, IT, and professional services in Tokyo may have undermined the compet-
+itiveness of similar sectors in provincial cities, thereby producing an agglomera-
+tion shadow. Consequently, productivity gaps between urban centers and periph-
+eral areas may have widened, suppressing broader regional growth.
+    These observations reinforce the relevance of spatial modeling in explaining
+regional productivity dynamics. Section 4 applies spatial econometric models to
+quantify the influence of borrowed size effects and agglomeration shadows on
+RTFP.
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                                             1131
+
+
+3.2 Testing for region‑specific effects
+
+Accounting for unobserved region-specific heterogeneity is vital for spatial
+econometric analysis at the prefectural level. Time-invariant characteristics, such
+as geographic conditions, industrial composition, labor market structures, and
+local policy environments, may systematically influence RTFP. If such heteroge-
+neity is ignored, the model estimates may suffer from omitted variable biases and
+inconsistencies.
+   To address this issue, this study evaluates whether fixed effects (FE) or random
+effects (RE) should be adopted in a panel data framework. Specifically, an F test
+for individual effects and the Hausman test for model consistency were conducted
+to guide the specification choice. These tests help determine whether unobserved
+regional differences should be treated as correlated with explanatory variables
+(FE) or as uncorrelated (RE), thereby improving estimation validity. The results
+are summarized in Table 3.
+   In the manufacturing and non-manufacturing sectors, F-statistics are highly
+significant, rejecting the null hypothesis of homogeneous regional effects. This
+confirms the presence of non-negligible cross-sectional heterogeneity and sup-
+ports the need for region-specific effects.
+   The Hausman test results confirmed this conclusion. In both sectors, the test
+statistics are sufficiently large to reject the null hypothesis that the RE model pro-
+vides consistent estimates. This outcome indicates that unobserved regional char-
+acteristics are likely to correlate with the explanatory variables, thereby validat-
+ing the use of the FE model.
+   Overall, the test results strongly favor the fixed-effects specification. Therefore,
+Eqs. (4) and (5) are estimated under the fixed-effects framework in the spatial
+econometric analysis presented in Sect. 4.
+
+
+
+
+Table 3  Model specification test                                     Manufacturing           Non-manufac-
+results: F test and Hausman test                                      sector                  turing sector
+
+                                     F test                           72.59                   125.83
+                                                                      (0.00)                  (0.00)
+                                     Hausman test                     3812.47                 102.33
+                                                                      (0.00)                  (0.00)
+                                     Model selection results          FE                      FE
+
+                                     Note: F test is the F-test statistic; Hausman test is the χ-square value.
+                                     Values in parentheses are p values. Model selection results represent
+                                     a fixed-effects model (FE) or a random-effects model (RE)
+1132                                         Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+Table 4  Estimation results of               Manufacturing sector           Non-manufacturing
+the SDM-FE model                                                            sector
+
+                                 Intercept   −0.122              (0.109)    −0.279         ***   (0.050)
+                                 LQ          0.514        ***    (0.026)    0.364          ***   (0.042)
+                                 HC          0.712        ***    (0.084)    0.053                (0.033)
+                                 TC          0.176        ***    (0.019)    0.094          ***   (0.008)
+                                 WLQ         −0.452       ***    (0.028)    −0.368         ***   (0.044)
+                                 WHC         −0.455       ***    (0.105)    0.075          *     (0.042)
+                                 WTC​        −0.158       ***    (0.021)    −0.073         ***   (0.008)
+                                 Rho         0.725        ***    (0.021)    0.836          ***   (0.014)
+                                 Lambda      N.A.                           N.A.
+                                 AIC         −1414.4                        −2967.4
+                                 LogL        716.2                          1492.7
+                                 LR test     623.5        ***               1081.5         ***
+                                 LM test     4.871        **                16.210         ***
+                                 Wald test   1207.1       ***               3534.4         ***
+
+                                 Note: standard errors are reported in parentheses
+                                 The LR test compares the SDM with a nested model, such as SAR
+                                 or SEM
+                                 The LM test assesses remaining spatial error correlation
+                                 The Wald test assesses the joint significance of the model’s coeffi-
+                                 cients
+                                 The spatial weight matrix used in the estimation is of the Queen type
+                                 All estimations were performed in R
+                                 AIC Akaike Information Criterion, LogL log-likelihood, N.A. not
+                                 applicable (parameter not estimated in SDM model)
+                                 Significance levels: *p < 0.10, **p < 0.05, ***p < 0.01
+
+
+
+
+4 Results
+
+4.1 Estimation results
+
+Tables 4 and 5 present the estimation results for the spatial econometric models.
+Table 4 presents the results from the SDM, and Table 5 displays the results from the
+SDM-SARAR.
+   First, the estimates from the SDM and SDM-SARAR indicate that many of the
+key explanatory variables are statistically significant at the 1% level and align with
+theoretical expectations. Specifically, LQ and TC exhibit consistently positive and
+significant effects in the manufacturing and non-manufacturing sectors. Conversely,
+in the non-manufacturing sector, the coefficients for HC and its spatial lag (WHC)
+are either statistically insignificant or exhibit weak effects, indicating limited contri-
+bution of human capital in clarifying productivity variation in this sector.
+   Subsequently, a comparison of the model fit using the Akaike Information Cri-
+terion (AIC) and log-likelihood values (LogL) revealed that the SDM-SARAR
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                                            1133
+
+
+Table 5  Estimation results of                    Manufacturing sector          Non-manufacturing
+the SDM-SARAR-FE Model                                                          sector
+
+                                     Intercept        −1.288 ***     (0.435)       −0.180 ***        (0.041)
+                                     LQ                0.461 ***     (0.023)         0.374 ***       (0.042)
+                                     HC                0.752 ***     (0.075)         0.045           (0.033)
+                                     TC                0.158 ***     (0.017)         0.092 ***       (0.008)
+                                     WLQ              −0.144 ***     (0.043)       −0.376 ***        (0.043)
+                                     WHC               0.082         (0.153)         0.051           (0.040)
+                                     WTC​             −0.038         (0.028)       −0.079 ***        (0.008)
+                                     Rho              −0.203 **      (0.076)         0.891 ***       (0.014)
+                                     Lambda            0.807 ***     (0.028)       −0.269 ***        (0.063)
+                                     AIC          −1417.9                       −2980.9
+                                     LogL            718.9                       1500.4
+                                     LR test         678.3     ***               1213.2        ***
+
+                                     Note: standard errors are reported in parentheses
+                                     The LR test compared the SDM-SARAR model with the SDM to
+                                     assess the need for spatial error dependence
+                                     The spatial weight matrix used in the estimation is of the Queen type
+                                     All estimations were performed in R
+                                     AIC Akaike Information Criterion, LogL log-likelihood
+                                     Significance levels: *p < 0.10, **p < 0.05, ***p < 0.01
+
+
+
+consistently outperformed the SDM, yielding lower AIC and higher LogL val-
+ues. Furthermore, the likelihood ratio (LR) test, which evaluates the fit differ-
+ence between the constrained (SDM) and unconstrained (SDM-SARAR) mod-
+els, rejects the null hypothesis of equal model fit at the 1% significance level for
+both sectors. This indicates that the SDM-SARAR specification is statistically
+superior.
+   Residual diagnostics further supported this finding. The LM test results also
+detected significant residual spatial autocorrelation in the SDM for both sectors
+(p < 0.05, p < 0.01), supporting the appropriateness of including a spatially auto-
+correlated error term, as in the SDM-SARAR model. In addition, the Wald test
+confirmed the joint significance of all explanatory variables in the baseline SDM.
+Together, these results validate the SDM-SARAR model both theoretically and
+empirically.
+   Based on these findings, the estimated parameters of the SDM-SARAR were
+evaluated. The coefficient of LQ is positive and significant in both sectors, confirm-
+ing that agglomeration contributes to productivity gains. In contrast, the spatial lag
+of agglomeration (WLQ) is negative and significant across both sectors, indicating
+a potential “agglomeration shadow” effect, whereby concentration of resources in
+neighboring regions suppresses local productivity.
+   In manufacturing, the coefficient for HC is positive and significant, but insignifi-
+cant in non-manufacturing, implying that the role of human capital is limited in the
+1134                                    Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+latter. The spatial lag of human capital (WHC) is insignificant in both sectors, indi-
+cating negligible potential spillovers of human capital from neighboring regions.
+    TC has a significant positive effect in both sectors. However, in the non-manufac-
+turing sector, the spatial lag of transport capital (WTC) exerts a significantly nega-
+tive effect, suggesting that spatial disparities in infrastructure investment may create
+interregional competition rather than shared benefits.
+    Finally, the spatial error component (λ) is positive and significant in manufac-
+turing, but negative and significant in non-manufacturing. This asymmetry suggests
+complementary unobserved factors in the manufacturing industries and competitive
+interactions in the non-manufacturing industries.
+    Generally, the results suggest that while industrial agglomeration boosts produc-
+tivity, excessive spatial concentration may induce negative externalities through the
+agglomeration shadow mechanism. The nature and strength of the borrowed size
+effects vary across sectors, with adverse spatial spillovers observed in the non-man-
+ufacturing sector. The negative spatial spillovers from transport capital highlight the
+need for careful regional coordination of infrastructure investment policies.
+    Although the SDM-SARAR model is theoretically flexible, it raises potential
+identification concerns. Particularly, when spatially lagged explanatory variables
+and spatial error terms are constructed using the same spatial weight matrix, it can
+be difficult to distinguish their impacts because of possible multicollinearity (Elhorst
+2010).
+    To mitigate this risk, this study estimated the full SDM-SARAR specification
+using the sacsarlm() function in the spatialreg package in R by applying a maxi-
+mum-likelihood estimation. Durbin terms were included for all explanatory vari-
+ables, and the panel data structure ensured sufficient information richness across the
+spatial and temporal dimensions. The estimation was numerically stable for manu-
+facturing and non-manufacturing models, and most of the key parameters were sta-
+tistically significant.
+    These results suggest that appropriate model specifications, the use of rich spatial
+panel data, and the adoption of a Queen-type contiguity matrix contribute to stable
+estimation performance. Despite theoretical concerns regarding collinearity, empiri-
+cal evidence supports the validity of the SDM-SARAR model in this context.
+    In conclusion, this specification successfully captures complex spatial interac-
+tions, including observable spillovers and unobserved spatial dependencies, without
+encountering convergence or instability. These findings underscore the practical util-
+ity of the model in analyzing regional productivity under spatial interdependence.
+
+
+4.2 Robustness check
+
+To assess the robustness of the spatial effects identified in the SDM-FE model,
+we re-estimated the model using an alternative spatial weight matrix based on
+the K-nearest neighbors (KNN) approach with K = 4. While the original analy-
+sis employed a contiguity-based matrix defined by the Queen criterion, the KNN
+specification provides a complementary perspective by imposing a fixed number
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                                            1135
+
+
+Table 6  Robustness check of the                  Manufacturing sector          Non-manufacturing
+SDM-FE Model                                                                    sector
+
+                                     Intercept        −0.077          (0.115)      −0.319 ***        (0.055)
+                                     LQ                 0.437 ***     (0.025)        0.477 ***       (0.042)
+                                     HC                 0.626 ***     (0.076)        0.096 ***       (0.032)
+                                     TC                 0.201 ***     (0.019)        0.087 ***       (0.008)
+                                     WLQ              −0.373 ***      (0.027)       −0.484 ***       (0.043)
+                                     WHC              −0.321 ***      (0.096)        0.048           (0.040)
+                                     WTC​             −0.186 ***      (0.020)       −0.064 ***       (0.009)
+                                     Rho                0.716 ***     (0.021)        0.810 ***       (0.015)
+                                     Lambda            N.A.                          N.A.
+                                     AIC          −1347.9                       −2840.9
+                                     LogL            682.9                       1429.5
+                                     LR test         562.8      ***                933.8       ***
+                                     LM test            0.914                        0.834
+                                     Wald test      1110.2      ***              2868.7        ***
+
+                                     Note: standard errors are reported in parentheses
+                                     The LR test compares the SDM with a nested model, such as SAR
+                                     or SEM
+                                     The LM test assesses remaining spatial error correlation
+                                     The Wald test assesses the joint significance of the model’s coeffi-
+                                     cients
+                                     The spatial weight matrix used in the estimation was of the K-near-
+                                     est neighbor type (K = 4)
+                                     All estimations were performed in R
+                                     AIC Akaike Information Criterion, LogL log-likelihood, N.A. not
+                                     applicable (parameter not estimated in SDM model)
+                                     Significance levels: *p < 0.10, **p < 0.05, ***p < 0.01
+
+
+of neighbors for each region, thereby mitigating the influence of spatial outli-
+ers and ensuring a balanced spatial representation across sparsely populated
+prefectures.
+   The estimation results under the KNN specification (Table 6) are broadly con-
+sistent with those obtained using the Queen-type matrix. The spatial lag coef-
+ficients for manufacturing and non-manufacturing sectors remain statistically sig-
+nificant, and the signs and magnitudes of the key explanatory variables—location
+quotient, human capital, and transport capital—are preserved across the model
+specifications, supporting the stability of the key relationships. This consistency
+suggests that the observed spatial structures are insensitive to the specifications
+of the spatial weight matrix.
+   Additionally, the LM test for residual spatial autocorrelation in the SDM-FE
+model under the KNN specification is not statistically significant for either sec-
+tor. This result indicates that the SDM-FE model adequately captures the relevant
+spatial dependence, lending further support to the model’s robustness.
+1136                                           Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+Table 7  Robustness check of the               Manufacturing sector             Non-manufacturing
+SDM-SARAR-FE Model                                                              sector
+
+                                   Intercept       −0.517           (0.342)          −0.362 ***      (0.081)
+                                   LQ               0.423 ***       (0.023)           0.475 ***      (0.042)
+                                   HC               0.664 ***       (0.074)           0.098 ***      (0.032)
+                                   TC               0.188 ***       (0.018)           0.088 ***      (0.008)
+                                   WLQ             −0.211 ***       (0.049)          −0.483 ***      (0.043)
+                                   WHC              0.058           (0.168)           0.059          (0.044)
+                                   WTC​            −0.126 ***       (0.028)          −0.061 ***      (0.009)
+                                   Rho              0.111           (0.129)           0.786 **       (0.033)
+                                   Lambda            0.676 ***      (0.065)           0.088          (0.096)
+                                   AIC         −1347.2                          −2839.8
+                                   LogL           683.6                          1429.9
+                                   LR test        607.6     ***                  1072.2       ***
+
+                                   Note: standard errors are reported in parentheses
+                                   The LR test compared the SDM-SARAR model with the SDM to
+                                   assess the need for spatial error dependence
+                                   The spatial weight matrix used in the estimation was of the K-near-
+                                   est neighbor type (K = 4)
+                                   All estimations were performed in R
+                                   AIC Akaike Information Criterion, LogL log-likelihood
+                                   Significance levels: *p < 0.10, **p < 0.05, ***p < 0.01
+
+
+
+   We also estimated a more flexible spatial specification using the SDM-
+SARAR-FE model, which includes spatial lag and spatial error components
+(Table 7). The results suggest partial asymmetry: in manufacturing, the spatial
+error parameter (Lambda) is significant, while the spatial lag parameter (Rho) is
+not; in contrast, in non-manufacturing, Rho is significant, but Lambda is not. This
+divergence is not unexpected given the increased complexity and flexibility of the
+SDM-SARAR specification and may reflect sector-specific spatial spillover mech-
+anisms, such as supply chain networks in manufacturing and service diffusion in
+non-manufacturing. Importantly, the main explanatory variables and spatial lag
+
+
+Table 8  Impact effects from the                                  Effect type   LQ        HC        TC
+SDM-SARAR Model
+                                   Manufacturing sector           Direct         0.455    0.748      0.157
+                                                                  Indirect      −0.147    0.076     −0.035
+                                                                  Total          0.308    0.824      0.122
+                                   Non-manufacturing sector       Direct         0.373    0.045      0.092
+                                                                  Indirect      −0.079    0.049     −0.078
+                                                                  Total          0.294    0.094      0.014
+
+                                   Note: this table reports the estimated impacts derived from the Spa-
+                                   tial Durbin SARAR (SDM-SARAR) model
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                           1137
+
+
+terms remain statistically significant and directionally stable, indicating that the
+core findings of this study are robust to alternative spatial specifications.
+   Overall, these robustness checks confirm the stability and reliability of the main
+results, reinforcing the empirical credibility and theoretical relevance of the identi-
+fied borrowed size and agglomeration shadow effects.
+
+4.3 Impact assessment
+
+Based on the estimation results of the SDM-SARAR model (Table 5), the direct,
+indirect, and total effects of LQ, HC, and TC on RTFP were calculated using Eq. (6)
+(LeSage and Pace 2009). Table 8 presents the decomposed impact measures for the
+manufacturing and non-manufacturing sectors.
+    We first examined the manufacturing sector. Regarding direct effects, industrial
+agglomeration has a significantly positive impact, indicating that local clustering
+contributes to improvements in RTFP by facilitating technological spillovers and
+production efficiency. Human capital also exerts a positive and significant direct
+effect, with a magnitude exceeding that of agglomeration, highlighting the critical
+role of skilled labor in driving productivity. Transport capital similarly shows a sig-
+nificant direct effect, indicating that local infrastructure investment enhances pro-
+duction logistics and input accessibility.
+    Regarding indirect effects, industrial agglomeration exerts a significant negative
+influence, indicating the presence of an agglomeration shadow—a dynamic in which
+neighboring industrial hubs siphon away labor, capital, and technological inputs,
+thereby suppressing local productivity. In contrast, human capital demonstrates a
+significant positive spillover, implying the existence of interregional labor market
+integration and knowledge diffusion. The indirect effect of transport capital is nega-
+tive and significant, implying that infrastructure in neighboring regions may inten-
+sify competition for mobile inputs or markets.
+    In terms of total effects, agglomeration and human capital contribute positively
+overall. However, the negative spatial spillover from industrial agglomeration is par-
+ticularly pronounced, underscoring the importance of accounting for external pres-
+sure when formulating regional industrial strategies.
+    Next, we consider the non-manufacturing sector. Direct effects show that indus-
+trial agglomeration has a positive but weaker impact than in manufacturing, imply-
+ing that while clustering supports productivity, it does not produce the same scale of
+technological spillovers. Human capital has an insignificant direct effect, suggesting
+that labor quality is less central in non-skill-intensive activities. In contrast, TC has a
+strong and direct effect, signifying that infrastructure development facilitates access
+to services and consumer markets in this sector.
+    As for the indirect effects, industrial agglomeration exhibits a negative effect,
+consistent with agglomeration shadows attributable to consumer and labor migra-
+tion to urban centers. The indirect effect of human capital is positive but not statisti-
+cally significant, whereas transport capital shows a significantly negative spillover,
+indicating that investment in core areas may draw economic activity away from the
+surrounding regions.
+1138                                    Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+   Regarding the total effects, industrial agglomeration and TC contribute positively
+to the non-manufacturing sector; however, the role of human capital remains mar-
+ginal. The agglomeration shadow appears to be more binding in the non-manufac-
+turing sector, where local compensating mechanisms, such as endogenous knowl-
+edge accumulation, are weaker and exposure to interregional competition is greater.
+   In summary, the decomposition of the spatial effects revealed sector-specific spa-
+tial dynamics. In manufacturing, endogenous growth drivers and positive spillovers
+from skilled labor strengthen resilience to spatial competition. In contrast, non-man-
+ufacturing sectors appear vulnerable to negative spillovers, as productivity depends
+on internal demand and physical infrastructure rather than on localized innovation
+or skill accumulation.
+
+
+4.4 Policy implications
+
+The findings suggest that effective spatial policies should be sector-specific and
+spatially adaptive. Given the observed asymmetries in spillover effects between the
+manufacturing and non-manufacturing sectors, a uniform approach is unlikely to
+achieve balanced regional development. Instead, different strategies tailored to the
+spatial dynamics of each sector are required.
+   The direct positive effects of agglomeration and human capital in the manufac-
+turing sector imply that regional productivity can be enhanced by reinforcing local
+clustering and skill accumulation. This underscores the need for industrial policies
+that foster geographical collaboration and innovation. Simultaneously, negative
+spillovers from neighboring industrial hubs and evidence of agglomeration shadow
+effects highlight the risk of overconcentration. Therefore, policies should aim to pro-
+mote regionally distributed cluster networks rather than singular industrial poles.
+   The agglomeration shadow effects identified in this study are likely to reflect spe-
+cific structural mechanisms in Japan. For example, intensified interregional competi-
+tion for skilled labor may drain talent from peripheral areas, whereas market siphon-
+ing effects concentrate demand in urban centers at the expense of nearby regions.
+Additionally, technological dependence on core regions may inhibit the development
+of independent innovation capabilities in less-developed prefectures. These mecha-
+nisms suggest that shadow effects are not merely statistical artifacts but manifesta-
+tions of unequal regional interdependencies that merit targeted policy interventions.
+   To support this, regional growth strategies should include investments in mid-
+sized regional cities, which can function as secondary cores and help retain human
+capital. Educational and labor policies must also emphasize interregional mobility
+and integration, building broader functional labor markets that facilitate efficient tal-
+ent matching across space.
+   Regarding transport infrastructure, the finding of negative spatial spillovers in
+manufacturing suggests that mere expansion may unintentionally weaken peripheral
+productivity. Thus, infrastructure planning should prioritize connectivity and com-
+plementarities over scale, with an emphasis on regional accessibility, multimodal
+integration, and the minimization of resource diversion.
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                         1139
+
+
+   In the non-manufacturing sector, policy challenges are acute. Spatial competition
+is pronounced, and the benefits of local agglomeration are weaker. The results high-
+light the need for policies that decentralize economic activity and strengthen place-
+based service economies such as tourism, culture, and local entrepreneurship.
+   To reduce dependence on metropolitan centers, peripheral regions should be sup-
+ported in developing locally rooted economic identities bolstered by improvements
+in institutional capacity, quality of life, and public services. As human capital has a
+limited impact on this sector, higher returns can be achieved through strategic infra-
+structure investment, market expansion policies, and demand-side interventions,
+such as boosting local consumption through income stabilization.
+   Moreover, the potentially adverse impacts of metropolitan infrastructure on con-
+tiguous areas underscore the importance of evaluating the unintended spatial conse-
+quences of major public investments. Transport policies should be designed with a
+regionally differentiated lens to prevent the displacement of economic activity and
+strengthen economic resilience in non-core regions.
+   These implications reinforce the need for a spatially nuanced, sectorally targeted,
+and equity-conscious policy framework. Balancing growth with interregional fair-
+ness requires an integrated perspective that recognizes the opportunities and con-
+straints created by spatial interdependence.
+
+
+
+5 Conclusion
+
+This study employed spatial econometric models to examine the influence of geo-
+graphic and interregional factors on RTFP, focusing on the differences between the
+manufacturing and non-manufacturing sectors. Using panel data for 47 Japanese pre-
+fectures, the RTFP was calculated based on consistent measures of output and input
+and analyzed with respect to industrial specialization, human capital, and transport
+capital. By applying an SDM with spatial error components (SDM-SARAR), this
+study identified direct (local) and indirect (spillover) effects that are typically over-
+looked by conventional models.
+   A key insight from this analysis is that spatial interdependencies manifest dif-
+ferently across sectors and shape productivity outcomes through distinct spillover
+mechanisms. Industrial agglomeration exerts a positive effect on RTFP in both sec-
+tors, while negative spillovers from neighboring regions, interpreted as agglomera-
+tion shadow effects, are also statistically significant. Broadly, human capital contrib-
+utes positively to productivity, particularly in the manufacturing sector. In contrast,
+the effect of transport capital is modest and occasionally negative, especially through
+spatial spillovers.
+   From theoretical and methodological perspectives, this study contributes to
+the literature by operationalizing the concepts of borrowed size and agglomera-
+tion shadow within a unified econometric framework. The SDM-SARAR model
+enables the simultaneous estimation of spatial spillovers and latent interregional
+dependencies, offering a comprehensive overview of how localized and external
+forces jointly shape regional productivity. This approach also advances empirical
+1140                                  Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+spatial analysis by incorporating sectoral distinctions into the assessment of spa-
+tial externalities.
+    Several directions for future research must be explored. First, the mechanisms
+underlying spatial spillovers warrant further investigation. Although the SDM-
+SARAR model improves estimation by capturing spatial error dependence, future
+studies should consider identifying channels of interregional influence, namely,
+knowledge diffusion, labor mobility, and institutional interactions. Specifically,
+the conditions under which agglomeration shadows emerge, such as interre-
+gional competition for skilled labor or asymmetric innovation capacity, should be
+explored in detail.
+    Second, temporal dynamics should be incorporated. As the impacts of agglom-
+eration, human capital, and infrastructure may evolve over time, dynamic spatial
+models are required to capture lagged adjustments and intertemporal spillover
+effects. Such extensions would offer a complete picture of regional development
+trajectories.
+    Third, a simulation-based policy analysis can enhance the practical relevance
+of spatial econometric findings. By modeling the potential effects of changes in
+industrial structure, educational attainment, or infrastructure investment, future
+studies could provide quantitative policy scenarios to inform spatial planning and
+regional development strategies.
+    While the present study provides robust empirical evidence of agglomeration
+shadow effects across Japanese prefectures, specific transmission mechanisms,
+such as labor competition, market centralization, and technological dependence,
+cannot be fully identified within the constraints of a macro-level spatial econo-
+metric framework. Addressing these channels requires complementary research
+designs, including case studies and qualitative institutional analyses, which fall
+outside the scope of this study. Nevertheless, the findings presented here lay
+an empirical foundation for future investigations by highlighting where and for
+which sectors shadow effects are most pronounced.
+    Despite the context-specific nature of the Japanese case, future studies should
+examine whether these findings can be generalized to other national or subna-
+tional settings, especially those with different institutional structures or spatial
+hierarchies, to assess the broader relevance of the borrowed size and agglomera-
+tion shadow frameworks proposed in this study.
+    Although the current analysis was limited to the pre-COVID-19 period due
+to data availability, the observed spatial patterns were consistent across multiple
+model specifications and weighting schemes. This stability suggests that the iden-
+tified mechanisms, borrowed size and agglomeration shadow, are likely to hold
+beyond the study period.
+    Future studies should extend this framework to the post-2018 period, particu-
+larly to explore how regional productivity responded to the disruptions and recov-
+ery trajectories of the COVID-19 pandemic. Such extensions will provide deeper
+insights into the resilience and adaptability of Japan’s regional economies under
+unprecedented conditions.
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                                               1141
+
+
+6 Data sources
+
+The study data were accessed from publicly available sources (published in
+Japanese):
+
+– Regional-Level Japan Industrial Productivity Database (R-JIP)
+	  Research Institute of Economy, Trade, and Industry (RIETI)
+	 https://​www.​rieti.​go.​jp/​jp/​datab​ase/r-​jip/
+– Employment Status Survey
+	  Statistics Bureau of Japan
+	 https://​www.​stat.​go.​jp/​data/​shugy​ou/​kako/​index.​html
+– Basic Survey on Wage Structure
+	  Ministry of Health, Labour and Welfare
+	 https://​www.​mhlw.​go.​jp/​toukei/​list/​ching​inkou​zou.​html
+– Social Capital Stock Estimates
+	  Cabinet Office of Japan
+	 https://​www5.​cao.​go.​jp/​keiza​i2/​ioj/​result/​ioj_​data.​html
+
+
+
+
+Funding This study was supported by the Japan Society for the Promotion of Science under Grant No.
+22K01501.
+
+Data availability Datasets used and/or analyzed in this study are available from the corresponding author
+upon request.
+
+Declarations
+Conflict of interest The author has no conflicts of interest to declare.
+
+Ethical approval This manuscript has not been published previously. The funding agency was not involved
+in the study design, data collection, analysis, interpretation, manuscript writing, or the decision to publish.
+
+
+
+
+References
+Alonso W (1973) Urban zero population growth. Daedalus 102(4):191–206
+Anselin L (1988) Spatial econometrics: methods and models. Kluwer Academic, Dordrecht
+Anselin L, Griffith DA (1988) Do spatial effects really matter in regression analysis? Pap Reg Sci
+     65(1):11–34. https://​doi.​org/​10.​1007/​BF022​94278
+Anselin L, Rey SJ (1991) Properties of tests for spatial dependence in linear regression models. Geogr
+     Anal 23(2):112–131. https://​doi.​org/​10.​1111/j.​1538-​4632.​1991.​tb002​28.x
+Arachovas C, Christopoulos D, Rovolis A (2025) Public capital investment spike events: the regional
+     dimension in Greece. Ann Reg Sci 74(1):1–14. https://​doi.​org/​10.​1007/​s00168-​024-​01338-2
+Biedka W, Herbst M, Rok J, Wojcik P (2022) The local-level impact of human capital investment within
+     the EU cohesion policy in Poland. Pap Reg Sci 101(2):303–326. https://​doi.​org/​10.​1111/​pirs.​1264
+Boix R, Trullén J (2007) Knowledge, networks of cities and growth in regional urban systems. Pap Reg
+     Sci 86(4):551–574. https://​doi.​org/​10.​1111/j.​1435-​5957.​2007.​00139.x
+1142                                              Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+Bröcker J, Dohse D, Rietveld P (2019) Infrastructure and regional development. In: Capello R, Nijkamp
+      P (eds) Handbook of regional growth and development theories. Edward Elgar Publishing, Chelten-
+      ham, pp 172–197
+Burger MJ, Meijers E (2016) Agglomerations and the rise of urban network externalities. Pap Reg Sci
+      95(1):5–15. https://​doi.​org/​10.​1111/​pirs.​12223
+Burger MJ, Meijers EJ, Hoogerbrugge MM, Tresserra JM (2015) Borrowed size, agglomeration shad-
+      ows and cultural amenities in North-West Europe. Eur Plan Stu 23(6):1090–1109. https://​doi.​org/​10.​
+      1080/​09654​313.​2014.​905002
+Camagni R (1993) From city hierarchy to city networks: reflections about an emerging paradigm. In:
+      Lakshmanan LRT, Nijkamp P (eds) Structure and change in the space economy: Festschrift in hon-
+      our of Martin Beckmann. Springer-Verlag, pp 66–87
+Camagni R, Capello R, Caragliu A (2015) Static vs. dynamic agglomeration economies: spatial context
+      and structural evolution behind urban growth. Pap Reg Sci 95(1):133–158. https://​doi.​org/​10.​1111/​
+      pirs.​12182
+Capello R (2000) The city network paradigm: measuring urban network externalities. Urban Stud
+      37(11):1925–1945. https://​doi.​org/​10.​1080/​71370​7232
+Capello R, Caragliu A (2023) Economic costs of COVID-19 for cross-border regions. Reg Sci Policy
+      Pract 15(8):1688–1701. https://​doi.​org/​10.​1111/​rsp3.​12590
+Carlino GA, Kerr WR (2015) Agglomeration and innovation. In: Duranton G, Henderson JV, Strange WC
+      (eds) Handbook of regional and urban economics, vol 5A. Elsevier, pp 349–404. https://​doi.​org/​10.​
+      1016/​B978-0-​444-​59517-1.​00006-4
+Centurião D, Abrita MB, Neto AR, Camilo AP, Vignandi RS, Junior GE, Maciel RF (2024) Impacts of
+      road transport infrastructure investments on the Latin American integration route. Reg Sci Policy
+      Pract 16(8):100061. https://​doi.​org/​10.​1016/j.​rspp.​2024.​100061
+Combes PP, Gobillon L (2015) The empirics of agglomeration economies. In: Duranton G, Henderson
+      JV, Strange WC (eds) Handbook of regional and urban economics, vol 5A. Elsevier, pp 247–348.
+      https://​doi.​org/​10.​1016/​B978-0-​444-​59517-1.​00005-2
+Crescenzi R, De Filippis F, Giua M (2022) Geographical indications and local development: the strength
+      of territorial embeddedness. Reg Stud 56(3):381–393. https://​doi.​org/​10.​1080/​00343​404.​2021.​
+      19464​99
+de Souza Silva E, da Silva DLG, de Moraes Rocha R (2024) Occupational specialization, skills,
+      and urban wage premium in Brazil. Ann Reg Sci 73(4):2019–2057. https://​doi.​org/​10.​1007/​
+      s00168-​024-​01318-6
+Dijkstra L, Garcilazo E, McCann P (2013) The economic performance of European cities and city
+      regions: myths and realities. Eur Plan Stud 21(3):334–354. https://​doi.​org/​10.​1080/​09654​313.​2012.​
+      716245
+Eberts RW, McMillen DP (1999) Agglomeration economies and urban public infrastructure. In: Hender-
+      son JV, Thisse J-F (eds) Handbook of regional and urban economics, vol 3. Elsevier, Amsterdam, pp
+      1455–1495. https://​doi.​org/​10.​1016/​S1574-​0080(99)​80038-0
+Elhorst JP (2010) Applied spatial econometrics: raising the bar. Spat Econ Anal 5(1):9–28. https://​doi.​
+      org/​10.​1080/​17421​77090​35417​72
+Elhorst JP (2014) Spatial econometrics: from cross-sectional data to spatial panels. Springer
+Florax RJGM, de Graaff T (2004) The performance of diagnostic tests for spatial dependence in linear
+      regression models: a meta-analysis of simulation studies. In: Anselin L, Florax RJGM, Rey SJ (eds)
+      Advances in spatial econometrics. Springer-Verlag, Berlin, pp 29–65
+Fujita M, Thisse JF (2002) Economics of agglomeration: cities, industrial location, and regional growth.
+      Cambridge University Press, Cambridge
+Fujita M, Krugman PR, Mori T (1999) On the evolution of hierarchical urban systems. Eur Econ Rev
+      43(2):209–251. https://​doi.​org/​10.​1016/​S0014-​2921(98)​00066-X
+Ghosh T, Parab PM (2021) Assessing India’s productivity trends and endogenous growth: new evidence
+      from technology, human capital, and foreign direct investment. Econ Model 97:182–195. https://​doi.​
+      org/​10.​1016/j.​econm​od.​2021.​02.​003
+Glaeser EL, Kallal HD, Scheinkman JA, Shleifer A (1992) Growth in cities. J Polit Econ 100(6):1126–
+      1152. https://​doi.​org/​10.​1086/​261856
+Good DH, Nadiri MI, Sickles RC (1997) Index number and factor demand approaches to the estimation
+      of productivity. In: Pesaran HM, Schmidt P (eds) Handbook of applied econometrics: microecono-
+      metrics. Blackwell Publishers, pp 13–74
+Asia-Pacific Journal of Regional Science (2025) 9:1115–1144                                            1143
+
+
+Guo N (2025) Urban wage premium and spatial equilibrium. SSRN Working Paper. https://​ssrn.​com/​abstr​
+      act=​51243​90
+Habib M, Abbas J, Noman R (2019) Are human capital, intellectual property rights, and research and
+      development expenditures really important for total factor productivity? An empirical analysis. Int J
+      Soc Econ 46(6):756–774. https://​doi.​org/​10.​1108/​IJSE-​09-​2018-​0472
+Haining R (1990) Spatial data analysis in the social and environmental sciences. Cambridge University
+      Press, Cambridge
+Haining R (2003) Spatial data analysis: theory and practice. Cambridge University Press, Cambridge
+Hall P, Pain K (2006) The polycentric metropolis: learning from mega-city regions in Europe. Earthscan,
+      New York
+Hesse M (2014) On borrowed size, flawed urbanisation and emerging enclave spaces: the exceptional
+      urbanism of Luxembourg, Luxembourg. Eur Urban Reg Stud 23(4):612–627. https://​doi.​org/​10.​
+      1177/​09697​76414​528723
+Hornbeck R, Michaels G, Rauch F (2024) Identifying agglomeration shadows: long-run evidence from
+      ancient ports (NBER Working Paper No. 32634). National Bureau of Economic Research. https://​
+      doi.​org/​10.​3386/​w32634
+Jardon CM, Martinez-Cobas X, Shakina E (2024) Human capital and border effect: the case of Minho
+      River area. Pap Reg Sci 103(4):100035. https://​doi.​org/​10.​1016/j.​pirs.​2024.​100035
+Leitão J, Ferreira J, Pereira D (2024) Are there Marshallian industrial districts in Portugal? Revisiting the
+      Canello and Pavone algorithm. Reg Sci Policy Pract 16(11):100132. https://​doi.​org/​10.​1016/j.​rspp.​
+      2024.​100132
+LeSage JP, Pace RK (2009) Introduction to spatial econometrics. Chapman & Hall/CRC, Boca Raton, FL
+Ma J, Liu T (2022) Does the high-speed rail network improve economic growth? Pap Reg Sci
+      101(1):183–208. https://​doi.​org/​10.​1111/​pirs.​12641
+Meijers EJ (2005) Polycentric urban regions and the quest for synergy: is a network of cities more than
+      the sum of the parts? Urban Stud 42(4):765–781. https://​doi.​org/​10.​1080/​00420​98050​00603​84
+Meijers EJ, Burger MJ (2015) Stretching the concept of ‘borrowed size.’ Urban Stud 52(5):918–935.
+      https://​doi.​org/​10.​1177/​00420​98015​597642
+Meijers EJ, Burger MJ, Hoogerbrugge MM (2015) Borrowing size in networks of cities: city size, net-
+      work connectivity and metropolitan functions in Europe. Pap Reg Sci 95(1):181–198. https://​doi.​
+      org/​10.​1111/​pirs.​12181
+Moran PAP (1950) Notes on continuous stochastic phenomena. Biometrika 37(1/2):17–23. https://​doi.​
+      org/​10.​1093/​biomet/​37.1-​2.​17
+Ord JK (1975) Estimation methods for models of spatial interaction. J Am Stat Assoc 70(349):120–126.
+      https://​doi.​org/​10.​1080/​01621​459.​1975.​10480​272
+Otsuka A (2024a) Impacts of enhancing regional network economies on regional productivity and pro-
+      ductive efficiency in Japan: evaluation from stochastic frontier analysis. Asia-Pac J Reg Sci 8(1):25–
+      43. https://​doi.​org/​10.​1007/​s41685-​023-​00321-7
+Otsuka A (2024b) Regional convergence of total factor productivity in Japanese industries: evidence from
+      the twenty-first century industry data. Asia-Pac J Reg Sci 8(1):165–184. https://​doi.​org/​10.​1007/​
+      s41685-​023-​00323-5
+Parr JB (2002) Agglomeration economies: ambiguities and confusions. Environ Plan A 34(4):717–732.
+      https://​doi.​org/​10.​1068/​a34106
+Partridge MD, Rickman DS, Ali K, Olfert MR (2009) Do new economic geography agglomeration shad-
+      ows underlie current population dynamics across the urban hierarchy? Pap Reg Sci 88(2):445–466.
+      https://​doi.​org/​10.​1111/j.​1435-​5957.​2008.​00211.x
+Phelps NA, Ozawa T (2003) Contrasts in agglomeration: Proto-industrial, industrial and post-industrial
+      forms compared. Prog Hum Geogr 27(5):583–604. https://​doi.​org/​10.​1191/​03091​32503​ph449​oa
+Raya UR, Resosudarmo BP (2024) Traditional slavery institutions and democratization: insights into
+      intercaste human capital disparities in Sumba Island’s rural areas, Indonesia. Reg Sci Policy Pract
+      16(5):100011. https://​doi.​org/​10.​1016/j.​rspp.​2024.​100011
+Rosenthal SS, Strange WC (2004) Evidence on the nature and sources of agglomeration economies.
+      In: Henderson JV, Thisse JF (eds) Handbook of regional and urban economics, vol 4. Elsevier, pp
+      2119–2171. https://​doi.​org/​10.​1016/​S1574-​0080(04)​80006-3
+Tian M, Wang Y, Wang Y (2022) High-speed rail network and urban agglomeration economies: research
+      from the perspective of urban network externalities. Socio-Econ Plan Sci 85:101442. https://​doi.​org/​
+      10.​1016/j.​seps.​2022.​101442
+1144                                              Asia-Pacific Journal of Regional Science (2025) 9:1115–1144
+
+
+Volgmann K, Rusche K (2020) The geography of borrowing size: exploring spatial distributions for Ger-
+    man urban regions. Tijdschr Econ Soc Geogr 111(1):60–79. https://​doi.​org/​10.​1111/​tesg.​12362
+
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps
+and institutional affiliations.
+
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under
+a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted
+manuscript version of this article is solely governed by the terms of such publishing agreement and
+applicable law.
+

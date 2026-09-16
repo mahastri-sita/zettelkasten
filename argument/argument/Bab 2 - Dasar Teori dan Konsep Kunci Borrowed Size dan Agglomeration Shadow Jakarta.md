@@ -4,7 +4,7 @@
 
 ## Kedudukan dokumen
 
-Dokumen ini diturunkan dari arah penelitian dalam [[Skripsi S1 - Borrowed Size dan Agglomeration Shadow Jakarta]], struktur Bab 2 pada [[source/official-document/Template TGA Penelitian 2026.docx|Template TGA Penelitian 2026]], batas klaim dalam [[output/skenario-akses-data-metodologis-revisi.pdf]] dan [[output/skenario-akses-data-64.pdf]], serta pilihan bacaan perencanaan dalam [[output/Atlas Masalah, Mazhab, dan Sumber Keilmuan Urban Planning - interaktif.html]].
+Dokumen ini diturunkan dari arah penelitian dalam [[Skripsi S1 - Borrowed Size dan Agglomeration Shadow Jakarta]], struktur Bab 2 pada [[source/official-document/Template TGA Penelitian 2026.docx|Template TGA Penelitian 2026]], batas klaim dalam [[output/permohonan_data/skenario_akses_data_metodologis_revisi.pdf]] dan [[output/permohonan_data/skenario_akses_data_64.pdf]], serta pilihan bacaan perencanaan dalam [[output/atlas/atlas_masalah_mazhab_dan_sumber_keilmuan_urban_planning_interaktif.html]].
 
 Struktur template memisahkan tiga pekerjaan yang memang tampak mirip, tetapi mempunyai fungsi berbeda:
 

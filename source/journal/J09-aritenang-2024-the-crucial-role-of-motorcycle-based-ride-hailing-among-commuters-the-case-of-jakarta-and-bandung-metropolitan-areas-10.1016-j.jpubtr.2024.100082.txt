@@ -1,0 +1,753 @@
+[PDF Metadata]
+Source PDF: journal/J09-aritenang-2024-the-crucial-role-of-motorcycle-based-ride-hailing-among-commuters-the-case-of-jakarta-and-bandung-metropolitan-areas-10.1016-j.jpubtr.2024.100082.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           The crucial role of motorcycle-based ride-hailing among commuters: The case of Jakarta and Bandung metropolitan areas
+Subject:         Journal of Public Transportation, 26 (2024) 100082. doi:10.1016/j.jpubtr.2024.100082
+Keywords:        Motorcycle-based ride-hailing,Metropolitan,Commuters,Sharing economy,Indonesia
+Author:          Adiwan Fahlan Aritenang
+Creator:         Elsevier
+Producer:        Acrobat Distiller 8.1.0 (Windows)
+CreationDate:    Mon Dec 16 09:29:58 2024 WIB
+ModDate:         Mon Dec 16 09:41:35 2024 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           10
+Encrypted:       no
+Page size:       595.276 x 793.701 pts
+Page rot:        0
+File size:       2467539 bytes
+Optimized:       no
+PDF version:     1.7
+[Extracted Text]
+                                                               Journal of Public Transportation 26 (2024) 100082
+
+
+                                                                    Contents lists available at ScienceDirect
+
+
+                                                        Journal of Public Transportation
+                                        journal homepage: www.journals.elsevier.com/journal-of-public-transportation
+
+
+
+
+The crucial role of motorcycle-based ride-hailing among commuters: The
+case of Jakarta and Bandung metropolitan areas
+Adiwan Fahlan Aritenang
+Urban and Regional Planning Program, Transportation Program, School of Architecture, Planning and Policy Development, Institut Teknologi Bandung, Indonesia
+
+
+
+
+A R T I C L E I N F O                                     A B S T R A C T
+
+Keywords:                                                 In Indonesia, issues in the metropolitan transportation sector are considered severe. For instance, peripheral
+Motorcycle-based ride-hailing                             districts in the Jakarta metropolitan area (JMA), such as Bogor, Depok, Tangerang and Bekasi, contribute to the
+Metropolitan                                              high mobility rate within the metropolitan area. This article examines the extent of motorcycle-based ride-
+Commuters
+                                                          hailing for commuting in the JMA and Bandung metropolitan areas (BMA). In particular, this study explores ride-
+Sharing economy
+Indonesia
+                                                          hailing users’ characteristics—social, economic and spatial—and their proportion to the total commuter mobility
+                                                          in a metropolitan area. The study employed descriptive statistical models using commuter data in the JMA and
+                                                          BMA, respectively. Our results indicate that young and lower-income commuters are the dominant users of ride-
+                                                          hailing services. As motorcycle taxi services are relatively cheaper and accessible, young and lower-income
+                                                          commuters, including informal workers, prefer ride-hailing services. The study also suggests the impact of the
+                                                          intensification of inter-peri-urban mobilities of post-suburbanisation on the increasing demand for ride-hailing.
+                                                          In this sense, the study proposes that the long-overdue strengthening of metropolitan-scale governance is ur­
+                                                          gently required. It is also crucial for metropolitan governments to issue appropriate inter-district public trans­
+                                                          portation policies and engage in development.
+
+
+
+
+Introduction                                                                                   described as an ‘urban nightmare’ due to the absence of a good and
+                                                                                               reliable public transport system, leading to an increase in private vehi­
+    The rapid development of urban areas has sprawled into their sur­                          cles (Steinberg, 2007). On the other hand, there is a relatively high share
+rounding areas due to factors like migration, population growth, infra­                        of motorcycles in Bandung and Jakarta metropolitan areas, 70% and
+structure expansion, and high land prices. Urban areas have transformed                        60%, respectively (BPS, 2018).
+into metropolitan areas with a persistent tight relationship and con­                              In developing countries, such as Southeast Asian countries, with poor
+nectivity between core and peripheral regions. This has increased the                          public transportation, motorcycle taxis play an important role in
+demand for transportation modes and infrastructure in metropolitan                             mobility. Previous studies in the Jakarta metropolitan area suggested
+areas, leading to continuous expansion and diversification, such as                            that commuters also use motorcycle taxis as an alternative to commuter
+highways in US metropolises, commuter trains in Europe, and bus rapid                          train and bus rapid transit (Medeiros et al., 2018). Thus, with the growth
+transit in developing country cities like Bogota (Colombia) and Jakarta                        of sharing platforms, fierce competition arises between conventional
+(Indonesia).                                                                                   motorcycle taxis and ride-sourcing services (Irawan et al., 2020). In
+    In Indonesia, problems in the metropolitan transportation sector are                       Indonesia, conflicts between online ride-hailing platforms and tradi­
+considered severe. For instance, in the JMA, there are more than 1.3                           tional ride-sharing drivers have led to bans on online drivers entering
+million private cars, 2.6 million motorcycles, and 800,000 buses and                           specific residential areas due to intense competition.1
+trucks, coupled with heavy traffic in areas with limited road space (i.e.,                         Presently, there is a lack of studies on the sharing economy, partic­
+less than 10% of the surface, while internationally the applicable stan­                       ularly ride-hailing, and its significance for commuters’ mobility in
+dard is 20–25%). Meanwhile, peripheral districts in the JMA, such as                           Indonesian metropolitan areas. Existing studies on ride-hailing focus on
+Bogor, Depok, Tangerang and Bekasi, have contributed to the high                               the economic and legal implications of competition and predatory
+mobility rate within the metropolitan area. Jakarta’s traffic is often                         pricing (Azzuhri et al., 2018; Aggriawan, 2019), or how the emergence
+
+
+
+     E-mail address: a.aritenang@itb.ac.id.
+ 1
+     https://metro.tempo.co/read/692356/inilah-kawasan-anti-gojek-yang-wajib-diketahui-driver-gojek/full&view=ok
+
+https://doi.org/10.1016/j.jpubtr.2024.100082
+Received 29 September 2022; Received in revised form 21 December 2023; Accepted 20 February 2024
+Available online 1 March 2024
+1077-291X/© 2024 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+A.F. Aritenang                                                                                                     Journal of Public Transportation 26 (2024) 100082
+
+
+of ride-hailing has led to an imagined community represented by the               contrasted from the conventional economy assumption of scarcity,
+green colour in jackets and helmets, fostering solidarity, trust and safety       enabling people to collaboratively leverage underutilised inventory
+for drivers (Natadjaja and Setyawan, 2016). Meanwhile, studies on                 through cost-based sharing (Zervas, 2017). Leveraging technological
+metropolitan transportation primarily focus on commuter characteris­              advancement with information technology platforms, the sharing
+tics (Susantono et al., 2011), travel and mode choice (Ilahi et al., 2021;        economy empowers users to share and take advantage of things that
+Liu et al., 2020; Rizki, Joewono, and Belgiawan, 2019), and willingness           were not used before (Quattrone et al., 2016).
+to pay (Belgiawan, Ilahi, and Axhausen, 2019). There is also a growing                In this sense, collaborative consumption adheres to a lifestyle more
+interest in metropolitan infrastructure governance, such as the impor­            concerned with ‘sharing’ than owning the goods or services. Consumers
+tant role of the state-owned company PT Jasamarga on toll road                    would have higher benefits because the costs incurred to consume an
+development (Firman, 2012), the issue of sources of clean water of the            item or service will be cheaper, while waste will be reduced or avoided
+North Bandung Area (Kawasan Bandung Utara or KBU) (Argo, 2015)                    (Gutierrez et al., 2016). These peer-to-peer or sharing economy plat­
+and the recent call to address the fragmented transportation planning             forms have entered various sectors of the economy, such as the trans­
+problem (Miharja et al., 2021).                                                   portation, finance and accommodation (Quattrone et al., 2016). For
+    Recent studies have attempted to integrate the issues mentioned,              instance, Uber has pioneered the sharing economy in transportation,
+revealing that ride-sourcing services support the existence of public             Kickstarter in the financial sector (particularly crowdfunding), and
+transport in the JMA, as shown by Medeiros et al. (2018) and Irawan               Airbnb in accommodation. Here, we examine the cross-section between
+et al. (2020). However, there is a dearth of studies examining the                metropolitan areas and the sharing economy, focusing on commuters’
+importance of ride-sourcing for metropolitan commuters.                           mobility. Commuters perceive digital platforms as important tools for
+    This study examines the importance of motorcycle-based ride-hailing           identifying needs and enabling more efficient use of transport modes,
+as a commuting mode in the JMA and BMA. With a higher share of users              considering high levels of inequality. This may also alleviate traffic and
+and a growing debate on motorcycle-based ride-hailing (Anggriawan,                guide policymakers to understand the most appropriate transport for
+2019; Irawan et al., 2019; Senbil et al., 2006; Roberto, 2016), this study        each region (CIPPEC, 2018).
+focuses on the importance of ride-hailing as a commuting mode in the                  The seminal book by Sundarajan (2016) argues five characteristics of
+JMA and BMA.                                                                      the sharing economy that disrupt the current economy. The implications
+    While the JMA stands as Indonesia’s largest metropolitan and eco­             of each characteristic could be applied to the ride-hailing applications.
+nomic centre, the BMA is a relatively small metropolitan area, with               Firstly, the predominantly market-based economy has led to
+Bandung recognized as a tourism destination and education hub. Both               peer-to-peer exchange of goods and services, allowing limited space for
+case studies are expected to shed light on the extent to which com­               government regulations. For instance, safety and price are negotiated
+muters’ socio-economic and mobility characteristics determine ride-               between peers in a way that does not necessarily follow regulations.
+hailing use. They addressed several interrelated questions: What deter­           Secondly, high-impact capital, due to new opportunities for assets, skills,
+minant factors foster or hinder ride-hailing among commuters? How                 time and money for peers, is involved in the exchange of services. The
+does the spatial form of metropolitan areas affect the importance of ride-        sharing of resources between peers allows cost minimisation and, thus,
+hailing for commuters? Finally, what policy implications may arise from           increases revenue. Thirdly, crowd-based ‘networks’ rather than cen­
+the increasing importance of ride-hailing in metropolitan areas?                  tralised institutions or ‘hierarchies’ allow further deployment of sharing
+    To address these questions, we employed quantitative descriptive              resources between peers. Fourthly, there is a blurring line between the
+statistics and logistic regressions using the Commuter Household Survey           personal and the professional as the supplies of labour and services are
+2017 for BMA and 2019 for JMA, purchased from the Statistics Agency               often commercialised. Lastly, vagueness exists between fully employed
+(Badan Pusat Statistik/BPS). The data included sample respondents from            and casual labour, independent and dependent employment, and work
+all 18 districts in Jakarta and Bandung metropolitan areas, representing          and leisure. These grey lines raise questions about the effect on the
+2459,990 and 403,063 commuters in JMA and BMA, respectively.2 In                  peers, whether they are ride-hailing users (Irawan et al., 2020) or the
+these metropolitan areas, the population growth rate of the surrounding           drivers (Fanggidae et al., 2016).
+districts is significantly higher than that of the core cities (Firman,               However, the impact of the arrival of such disruptors in markets and
+Kombaitan, and Pradono, 2007).                                                    ecosystems remains a question. For instance, the literature suggests that
+    This article is structured as follows. First, we critically review the        socio-demographic characteristics, including age, gender, income and
+emergence of the sharing economy and expansion of metropolitan areas.             educational level, are key predictors of ride-sharing adoption. Ride-
+Next, we elaborate on the present metropolitan area’s present socio-              sharing consumers are typically young, well-educated and predomi­
+economic, spatial and infrastructure characteristics. In the subsequent           nantly from middle-income groups (Dias et al., 2017; Rayle et al., 2016;
+section, we present research data and methodologies. In the analysis              Pongprasert and Kubota, 2017). They are also likely to undertake short
+section, we highlight the importance of population socio-economic and             trips (Tuffour and Appiagyei, 2014). There is also a wide body of liter­
+infrastructure characteristics in contributing to the expansion of                ature that examines the regulations and institutions required to govern
+metropolitan areas through ride-hailing. The final section concludes the          the new economy model (Ferreira et al., 2018) and the social conflicts
+discussion.                                                                       that arise from this sharing economy model (Natadjaja and Setyawan,
+                                                                                  2016).
+Literature framework
+                                                                                  Metropolitan areas and sharing economy
+    The phenomenon of the ‘sharing economy’ arises from technological
+developments that simplify ‘sharing’ activities, encompassing sharing                 The phenomenon of metropolitan areas and megacities is the most
+goods and services in physical or non-physical form through information           attractive factor in urbanism (Kotkin, 2014). Megacities result from
+systems on the Internet. Also known as collaborative consumption, it              agglomeration in urban areas following the availability of amenities,
+involves peer-to-peer activities to access, provide, or share goods and           socio-economic opportunities, and the benefits of agglomeration, which
+services, coordinated through community-based online services                     increases urban competitiveness (Kourtit and Nijkamp, 2013). As such,
+(Hamari et al., 2015). Fundamentally, the sharing economy has                     megacities are not only a result of large-scale urbanisation but are also a
+                                                                                  result of globalisation processes and competition. With the onset of the
+                                                                                  increasing connectivity between countries and the investments from
+  2
+    We attempted to use the Surabaya metropolitan area; however, the data         globalisation, this leads to the issue of urban competitiveness of
+shows very small number of samples that uses ride-hailing.                        megacities.
+
+                                                                              2
+A.F. Aritenang                                                                                                        Journal of Public Transportation 26 (2024) 100082
+
+
+    As such, in the recent decade, there has been a need for urban                commuting between peripheral regions. These figures suggest Jakarta,
+management to navigate urban growth as well as risk and dysfunction,              as the core metropolitan area, serves as the employment centre and also
+either through market processes, education, planning, technology or               hosts a significant population of lower-income individuals.
+infrastructure provision (Sorensen and Okata, 2011). As Pojani (2020)                 Various studies have examined the growing number of real-estate
+argued, the problem with transportation planning and development is               assets, gated communities and residential areas, and their impact on
+implementing the acquired knowledge into practice to realise local                the economic and social segregation in the JMA (Roitman and Recio,
+urban transport sustainability in Indonesia, the Philippines and                  2020; Herlambang et al., 2019; Ellisa, 2014). The phenomenon’s cause
+Thailand. The problems above have increased the importance of sus­                lies in the observable polarisation of middle- and upper-income resi­
+tainability notions such as global climate change, technological                  dents, drawn to exclusive lifestyles, heightened security, first-class fa­
+advancement and governance change to reduce environmental foot­                   cilities and urban designs within new towns that limit interaction
+prints. Furthermore, the literature also suggests that the issue has              between the upper-middle class and lower-upper class (Firman, 2004).
+become magnified in developing countries as infrastructures are                   Examples include projects like Bukit Sentul, Lido Lake Resort in Bogor,
+neglected for a large share of the population with urban issues, including        Kota Legenda, and Lippo Cikarang in the Bekasi district, featuring
+poverty, sickness and congestion.                                                 diverse housing, industrial estates, office buildings, and other resort
+    However, there is a lack of communication between government                  facilities (Kenichiro, 2001). As these new towns are dominated by
+regulations and the sharing economy. This may be a sign that there are            relatively young commuters, this has led the metropolitan area to face
+no incentives to increase shared mobility market penetration or shared            various urban problems, including traffic congestion contributing to the
+mobility can provide no clear benefits. Literature suggests several rea­          increasing fiscal issues and losses.
+sons; firstly, there is no clarity on the impacts on the sustainability of            Jakarta’s total losses due to congestion reached Rp 67.5 trillion,
+shared mobility. There are contrary implications between car-sharing              according to the Jabodetabek Transportation Management Agency
+and bike-sharing that may reduce CO2 by limiting users to purchasing              report (2017). Meanwhile, the accumulation of vehicles and congestion
+a private car, and ride-hailing (such as Uber, Lyft) may induce more trips        in Jakarta has led to an alarming level of pollution (Steinberg, 2007). To
+(Castellanos, Grant-Muller and Wright, 2021; Santos, 2018).                       overcome this problem, the DKI Jakarta government has implemented
+    Secondly, the government and planners believe that shared-mobility            several strategies on public transportation, including those on bus rapid
+services cannot replace public and mass rapid transport (Di Bartolo               transit (BRT) TransJakarta and commuter railway. Presently, the BRT
+et al., 2020). For instance, a comparison study by McKenzie (2020)                system runs to the south (from University of Indonesia to Manggarai),
+shows that ride-hailing could not escape traffic congestion that increases        east (Pondok Kelapa–Blok M) and the Jabodetabek Integration Corridor
+time travel, especially on weekends, suggesting micro-mobility services           Busway (Jakarta–Tangerang, Jakarta–Bekasi and Jakarta–Depok/
+are faster in the city than ride-hailing automobiles in large cities.             Bogor). To strengthen the BRT connectivity in the metropolitan area,
+    Thirdly, there exists a knowledge gap between the government and              feeder buses operate on the existing highways that run between Jakarta
+planners regarding how the community engages with on-demand ride-                 and peripheral districts, including Poris Plawad (Tangerang City), Bumi
+sharing services. This bottom-up market planning shapes the future of             Serpong Damai (South Tangerang City), Depok Terminal (Depok City),
+urban environments. Presently, literature and policies have neglected             Botani Park (Bogor City) and Bulak Kapal (Bekasi City).3
+the physical space and urban projects essential for constructing a shared             The Bandung metropolitan area has long been identified, with Ban­
+identity and brand positioning of a sharing city (Sánchez-Vergara,               dung City being the core (red) and surrounding Bandung, West Bandung
+Ginieis, and Papaoikonomou, 2021). The case in Australia, for example,            and Sumedang Regencies, as well as Cimahi City, as the peripherals
+questions how this market consumption in sharing cities may disrupt the           (green) (Fig. 2). Argo (2015) found that Bandung City comprised more
+provision of public transportation (Curtis et al., 2019). Studies have            than 44% of the metropolitan area’s GRDP, revealing the peripherals’
+shown that governments should closely examine whether ride-hailing                high dependence on and connectivity to Bandung City as the metro­
+services may reduce vehicle use and ownership while attracting more               politan core. The Bandung metropolitan sprawling area develops with
+customers (Gerhrke, Felix, and Reardon, 2019; Rayle et al., 2016).                the expansion of built-up areas that follow the road system, especially
+                                                                                  the east-west axis. Particularly, the west axis is thicker than the east axis,
+Jakarta and Bandung metropolitan areas                                            indicating that the connection to Jakarta and Cimahi Cities is more
+                                                                                  intensive than the connection to Sumedang.
+    The Jakarta metropolitan area (JMA) is considered the second-                     Chapman and Prothero (2012) found that a significant portion of
+largest metropolitan city in the world, with the fastest urbanisation             commuters lived in Cimahi and worked in Bandung. A recent study by
+rate in Southeast Asia. Jakarta city forms the core metropolitan area             Rustiadi et al. (2020) suggested that better accessibility and a lack of
+(highlighted in red), while surrounding districts constitute the periph­          land-use control capacity had led to the emergence of potential conur­
+eral regions (highlighted in green) (Fig. 1). There is a significant wage         bation between Jakarta and Bandung metropolitan areas, including the
+disparity among JMA districts, with average wages in bordering districts          districts in between: Cianjur, Karawang and Purwakarta Regencies.
+being less than 5 million IDR, whereas non-bordering districts’ wages             Nevertheless, there is also potential for further development towards the
+exceed 7 million IDR. Consequently, this disparity affects transportation         west with high-speed rail in South Bandung (Hudalah et al., 2021),
+modes, as nearly 60% of motorcycle users earn a minimum wage, and                 population growth and housing development in Bandung Regency
+73% of the population with a minimum wage own a motorcycle for                    (Vitriana, 2020), and the presence of universities in Sumedang Regency
+commuting, while others rely on public transportation (Aritenang,                 (Maulina and Rizal, 2017).
+2022). The study also reveals that the poorest group, with a salary of less           Both metropolitan areas have developed spatially and economically,
+than 2 million IDR, is the highest group that uses public transportation,         confirming the decline of urban primacy in core regions, high urban
+with motorcycle (51%), minibus (20%) and commuter train (17%). This               population growth, and strong linkages to the global economy, as pre­
+preference for buses over ride-hailing for lower-income people was also           dicted by Firman, Kombaitan, and Pradono (2007). The economic and
+observed by Irawan et al. (2020).                                                 spatial growth also intersects with another body of literature on
+    A recent study revealed that 63% of commuters from peripheral                 metropolitan issues of social justice and inequality. In Indonesia findings
+districts travel daily to Jakarta for work and school (Aritenang, 2022).          about the gender link with ride-hailing use are inconclusive. Belgiawan,
+Furthermore, a higher percentage of commuters in the lower-income                 Joewono, and Irawan (2022) found no significant relationship between
+group travel compared to those with higher income within Jakarta,
+accounting for 44% and 37%, respectively. On the other hand, the study
+also showed a higher share of higher-income group commuters                        3
+                                                                                       See https://transjakarta.co.id/peta-rute/
+
+                                                                              3
+A.F. Aritenang                                                  Journal of Public Transportation 26 (2024) 100082
+
+
+
+
+                 Fig. 1. The Jakarta Metropolitan Area (JMA).
+
+
+
+
+                 Fig. 2. The Bandung Metropolitan Area (BMA).
+
+
+                                      4
+A.F. Aritenang                                                                                                     Journal of Public Transportation 26 (2024) 100082
+
+
+ride-sharing use in Bandung, while studies in Jakarta and Jogjakarta               Data
+found a relationship between gender, education and income, either
+directly or indirectly through income, education, and service quality                  The Commuter Household Survey provided a general overview of
+(Irawan et al., 2020b; Irawan et al., 2020a). On the other hand, there is          transportation in Jakarta and Bandung metropolitans. The data included
+evidence that gender differences influence BRT use, particularly among             comprehensive information on commuters’ residential location, eco­
+women, leading to initiatives aimed at increasing female ridership, such           nomic and social characteristics (income, job details, educational
+as offering female-only BRT carriages (Gaduh et al.; Witoelar et al.,              background, and health conditions) and daily commuting activities
+2017).                                                                             (destination and transportation modes). The Commuter Household
+                                                                                   Survey benefits from two earlier statistic surveys (Sofiyandi and Siregar,
+The emergence of the sharing economy                                               2020). First, he Indonesia’s 2010 population census data to determine
+                                                                                   spatial stratified sampling strategy with a two-stage sampling selection
+    Sharing economy platforms in Indonesia have grown rapidly in the               method at the sub-district level, and second, the annual Indonesia Na­
+last decade. Previous studies have highlighted that transportation pol­            tional Labour Force Survey (Survei Angkatan Kerja Nasional/SAKERNAS)
+icies, such as congestion charges and value capture, have rarely been              to determine the sample distribution.
+adopted. Additionally, integrated physical infrastructure needs                        The JMA commuter household survey data in 2019 covered thirteen
+improvement; for instance, mass transit development was not accom­                 districts, comprising eight municipalities and three regencies from three
+panied by accessibility and maintenance of pedestrian routes that lead to          different provinces within the JMA: DKI Jakarta Province (i.e., Central
+stations (Gaduh, Gračner, and Rothenberg, 2022; Pojani, 2020). As such,           Jakarta, North Jakarta, South Jakarta, East Jakarta and West Jakarta) as
+ride-hailing provides alternative transportation modes, as motorcycle              the core metropolitan area, and the West Java Province (i.e., Depok,
+taxis are easier to locate and access, thereby allowing users to reach their       Bogor, Bogor City, Bekasi and Bekasi City) and Banten Province (i.e.,
+destinations more efficiently, thus giving them shorter travel times               Tangerang, Tangerang City and South Tangerang) as the peripheral re­
+(Irawan et al., 2020).                                                             gions. This delineation of the JMA follows previous studies conducted
+    The platforms offer new services in addition to the main trans­                elsewhere (Aritenang, 2021; Hudalah and Aritenang, 2017; Hudalah
+portation services, such as food delivery and financial services (Wirawan          et al., 2013). The BMA commuter household survey data for 2017
+and Oktivera, 2015). Specifically, in e-ride-hailing, key considerations           included five districts: Bandung City (core metropolitan area), as well as
+for choosing an online motorcycle taxi for daily transportation needs are          Bandung, West Bandung, Sumedang Regencies, and Cimahi City (pe­
+technical support and price transparency. The increasingly congested               ripheral regions), following Vitriana (2020) and Miharja et al. (2021).
+road conditions, especially during peak hours, make online motorcycle                  The data included more than 4000 respondents, representing more
+taxis an alternative. For instance, Gojek and Grab, both bike ride-sharing         than 2.7 million commuters across the metropolitan areas. These data
+platform companies that initially connected riders and prospective                 were aggregated at the district level in each metropolitan area, which
+passengers, have expanded in size to multisided platforms (MSPs).                  allowed for descriptive and comparative analyses.
+    The survey report by Afrina et al. (2017) showed that the main
+reasons for using motorcycle taxis are shorter travel time, avoiding               Research methodology
+traffic congestion and jostling in public transportation. This study also
+indicated that public interest in using public transportation is still sub­            The following table presents the number of commuter respondents
+stantial (65%), provided it is available in greater quantity and better            from the peripherals of the JMA and BMA, totalling 2856 (representing
+service quality. The study revealed that price was not a priority in               2236,609 commuters) and 1112 (representing 580,921 commuters),
+considering the choice of transportation type, and ride-hailing emerged            respectively (Table 1). The table indicates that the largest share of pe­
+as an alternative solution for users in dense and congested urban areas.           ripheral commuters was from Bogor Regency, Depok and Bekasi Cities,
+    However, the emergence of e-ride hailing was problematic. Ride-                constituting more than 56% of the commuters to the core metropolitan
+hailing in Surabaya, for instance, revealed the rejection of Uber. The             area. In the Bandung metropolitan area, more than 75% of peripheral
+company was banned from public places such as airports, bus stations               commuters were from Bandung and West Bandung Regencies, suggest­
+and railway stations. Although Uber drivers were allowed to take cus­              ing these districts served as dormitory areas surrounding Bandung City.
+tomers to these places, they were prohibited from picking up customers                 The graphs below depict movement flows from peripherals to core
+there. Nevertheless, customers continued to choose Uber as an airport              metropolitan areas. In the Jakarta metropolitan area, the graph shows
+transportation alternative due to its low price (Saadah, Yasmine, and              that the number of commuters within the core metropolitan area (DKI
+Mubah, 2017). In another case, Depok City, a peripheral city in the JMA,           Jakarta Province) was higher than the number of commuters from each
+became the first city to have regulations regarding online motorcycle              peripheral district (Fig. 3A). On the other hand, only a small fraction of
+taxis, i.e., Depok Mayor Regulation Number 11 of 2017 (Afrina et al.,              people from the core metropolitan area commuted to the peripheral
+2017). This regulation was a response to the increasing tensions between           districts. The graph also reveals that the largest share of commuters to
+online motorcycle taxi drivers and drivers of other modes of trans­                the core metropolitan area was from Depok City, Bekasi City and Bogor
+portation. The regulation stipulates that online motorcycle taxi com­
+pany owners must provide special parking places for drivers, and those             Table 1
+drivers are expected not to park or hang out on the side of the road, such         The number of Commuters to Core Metropolitans, BMA 2017 and JMA 2019.
+as at bus stops, road shoulders or other public locations. The regulation           Peripheral Districts        Core Metropolitan          Number of Commuters
+also prohibits picking up customers in bus terminals and along roads
+                                                                                    Bogor Regency               Jakarta Province           483,053
+which are travel routes of public transportation.
+                                                                                    Bekasi Regency                                         225,379
+                                                                                    Bogor City                                              86,347
+Data and methodology                                                                Bekasi City                                            374,188
+                                                                                    Depok city                                             405,945
+   This section discusses the data and methodology applied in the study,            Tangerang Regency                                      227,937
+                                                                                    Tangerang City                                         236,358
+using commuter household data to illustrate the socio-economic and                  South Tangerang City                                   197,402
+geographic dynamics in the metropolitan areas of Jakarta and Bandung.               Bandung Regency             Bandung city               301,252
+                                                                                    Sumedang Regency                                        54,459
+                                                                                    West Bandung Regency                                   141,698
+                                                                                    Cimahi City                                             83,512
+
+
+                                                                               5
+A.F. Aritenang                                                                                                 Journal of Public Transportation 26 (2024) 100082
+
+
+
+
+                                          Fig. 3. The JMA (A) and BMA (B) Commuter Flows, 2017 and 2019.
+
+
+Regency, implying a significantly larger share of commuters from West
+                                                                               Table 2
+Java Province districts than those from Banten Province districts.
+                                                                               Proportion of Commuters to Core Metropolitans, BMA 2017 and JMA 2019.
+Interestingly, the graph also indicates strong connectivity between
+neighbouring districts, such as between Bekasi City and Regency and                                  Jakarta Metropolitan Area    Bandung Metropolitan Area
+                                                                                                     (JMA) (%)                    (BMA) (%)
+between Tangerang City and Regency.
+    The second graph presents the commuting mobility in the Bandung             Motorcycle-based
+metropolitan area (Fig. 3B). The largest share of commuters to the core          Ride Hailing
+                                                                                                      4.62                        3.27
+metropolitan area (Bandung City) was from Bandung Regency, followed
+by commuters from West Bandung Regency and Cimahi City. Contrarily,             Wage
+the graph further shows that most commuters were from the core                  < 2 mio IDR           4.54                        4.03
+metropolitan era towards Bandung Regency and Cimahi City. Further­              2–2.9 mio IDR         3.78                        3.54
+                                                                                3–3.9 mio IDR         2.54                        0.28
+more, we found a large share of commuters from West Bandung Regency
+                                                                                4–4.9 mio IDR         4.71                        3.73
+to Cimahi City, considering its proximity to Bandung City.                      Status
+    Overall, the graphs suggest the process of post-suburbanisation with        Informal             11.74
+the diversity of commuting destinations in the JMA and BMA, featuring           Labour/Employee       4.05                        2.48
+a higher proportion of peripheral commuters traveling to other pe­
+ripheral districts within the metropolitan areas.
+                                                                               The share of ride-hailing commuters in the JMA was slightly higher than
+    This paper conducted two analyses. First, we analysed the charac­
+                                                                               that in the BMA, at 4.62% and 3.27%, respectively. We also examined
+teristics of motorcycle-based ride-hailing users using descriptive anal­
+                                                                               the minimum wage in each metropolitan area. In the JMA, the minimum
+ysis to investigate commuters’ characteristics and commuting behaviour
+                                                                               wage was Rp4.7 million, indicating that commuters earning minimum
+in both JMA and BMA. Second, logistic regressions were performed to
+                                                                               wages tended to use ride-hailing more than lower-wage earners.
+examine determinants of the probability of using motorcycle-based ride-
+                                                                               Meanwhile, In the BMA, with a minimum wage of Rp3.7 million, the
+hailing in both metropolitan areas. The dependent variable is the cate­
+                                                                               proportion of commuters declined with increasing wages, suggesting
+gorical variable indicating ride-hailing use (0/1), and independent
+                                                                               that higher wage earners preferred other transportation modes, such as
+variables include three main aspects: socio-economic conditions (age,
+                                                                               private motorcycles or public transportation, for commuting. However,
+sex, type of activities, salary, job type), commuting pattern (commuting
+                                                                               the share of commuters who travelled with ride-hailing was much higher
+distance, time of commuting) and destination (from or to core/periph­
+                                                                               among those earning Rp4–4.9 million in both the JMA and BMA, indi­
+eral regions).
+                                                                               cating other factors attracting them to use this mode, such as higher
+                                                                               reliability than public transportation or a better ability to confront
+Ride-hailing commuters’ characteristics and proportion in the
+                                                                               traffic congestion.
+metropolitan areas
+                                                                                   The employment status revealed interesting findings, with more than
+                                                                               11.7% of informal workers using ride-hailing in the JMA, a figure much
+   This section examines the characteristics of commuters who used
+                                                                               higher than the 4% share among workers/employees. This suggests that
+ride-hailing and their proportion to overall commuters in the Jakarta
+                                                                               income certainty allows employees to consider other transportation
+and Bandung metropolitan areas.
+                                                                               options, such as private or company vehicles. In the BMA, the figure was
+   First, we analysed the importance of ride-hailing by examining the
+                                                                               smaller, with only 2.45% of commuters from the peripherals using ride-
+proportion of commuters using the mode in the JMA and BMA (Table 2).
+
+
+                                                                           6
+A.F. Aritenang                                                                                                      Journal of Public Transportation 26 (2024) 100082
+
+
+hailing. However, the survey did not provide data on the number of                 users.
+commuters working in the informal sector in the BMA. The table further                 Next, the wage figure range suggested that the commuters who use
+reveals that only 5% and 3.46% of commuters from peripherals used                  motorcycle ride-hailing in the BMA are dominated by commuters with
+ride-hailing to travel to core metropolitan areas in the JMA and BMA,              wages below the regional minimum wage (Upah Minimum Regional/
+respectively.                                                                      UMR), contrary to Jakarta where the figures are 56.8% and 27.3%,
+    Second, we analysed the socio-economic conditions and spatial flow             respectively. Nevertheless, it should be noted the wide gap in UMR
+of motorcycle ride-hailing commuters (Table 3). In the JMA, commuters              thresholds between the two metropolitan areas—4.9 million IDR in JMA
+using motorcycle ride-hailing were predominantly in the working age                and 2.8 million IDR in BMA. This may suggest other factors attracting
+range of 23–40 years old, followed by young adults and teenagers.                  the use of motor-based ride-hailing between metropolitan areas, such as
+Meanwhile, in the BMA, motorcycle ride-hailing commuters were                      higher reliability compared to public transportation (Irawan et al.,
+mainly young adults and teenagers (below 23 years old), constituting               2019) or a better ability to confront traffic congestion to some extent
+more than 43 percent of total commuters using this service. Further­               (Aritenang, 2022).
+more, in both metropolitan areas, senior adults aged 40–60 and those                   The employment status revealed that employees or workers were
+above 60 were the least represented among commuters using motorcycle               likelier to use motorcycle ride-hailing to commute compared self-
+ride-hailing.                                                                      employed workers. The employment status revealed that only 4.34%
+    In both metropolitan areas, the number of female commuters                     of informal workers use ride-hailing in the JMA. The proportion of
+significantly exceeded male commuters. This suggests an imbalance in               employees or workers using motorcycle ride-hailing is significantly
+gender proportion in metropolitan areas. For commuting purposes, work              higher in the JMA than in the BMA, being 75% and 59.8%, respectively.
+was the primary activity in both areas (approximately 51–56%), fol­                In addition, despite the lack of data on the sample of informal workers,
+lowed by students commuting to school (43–48%). Ride-hailing was                   we could still identify a small proportion of informal workers as users of
+preferred for its speed, accessibility, and convenience, confirming the            motorcycle ride-hailing. It to be noted that the survey did not have
+reliability of motorcycle ride-hailing amid congestion, as indicated in            samples of commuters that work in the informal sector in BMA.
+previous studies (Irawan et al., 2019; Sunitiyoso et al., 2022). Interest­             This finding confirms the distinct characteristics of both metropol­
+ingly, safety and cost were not the primary concerns for ride-hailing              itan areas: the JMA is dominated by offices and business premises, while
+                                                                                   Bandung City, the core of the BMA, is renowned for its schools and
+                                                                                   universities.
+Table 3                                                                                We also examined the spatial mobility of motorcycle ride-hailing. he
+Proportion of Ride-hailing Commuters to Core Metropolitans by Socio-economic       distance figures suggest that the proportion of short-distance commuting
+and Spatial Flow, BMA 2017 and JMA 2019.                                           is much lower in the JMA, with commuting distances of less than 20 km
+                         Jakarta Metropolitan Area   Bandung Metropolitan          accounting for more than 72%. In contrast, short-distance commuting
+                         (JMA)                       Area (BMA)                    makes up 89% in the BMA. In the JMA, over 27% of commuters using
+  Age                                                                              motorcycle ride-hailing are on long-distance travels (> 20 km) daily.
+  <18 yo                 37.19                       25.48                         Furthermore, the share of commuters that travel less than one hour is
+  18–23 yo               17.62                       38.02
+                                                                                   similar between the metropolitan areas, about 89%. However, the data
+  23–40 yo               24.47                       13.74
+  40–60 yo               20.71                       22.75
+                                                                                   reveals that the share of commuters in the JMA using ride-hailing for less
+  >60 yo                  0.01                       0.01                          than 30 minutes is much higher than in the BMA, 66.3% and 47%,
+  Sex                                                                              respectively.
+  Male                   40.88                       29.83                             A comparison was made in the commuter destination between the
+  Female                 59.12                       70.17
+                                                                                   core and peripherals. The figures reveal that the commuter flow in the
+  Activities
+  Work                   51.21                       56.41                         JMA was more diverse, with 1218,944 commuters (less than 59%) from
+  School                 48.79                       43.69                         peripheral areas commuting to Jakarta, with 33,233 (2,65%) commuters
+  Informal Education/     0.01                       0.01                          using motorcycle-based ride-hailing. Meanwhile, 350,055 commuters
+    Courses
+                                                                                   (68.12%) from peripherals commute to Bandung city, with 13,549
+  Reason
+  Faster                 59.91                       31.68
+                                                                                   (3.87%) commuters using motorcycle-based ride-hailing.
+  Convenient             19.79                       5.14
+  Safety                  0.00                       1.57                          Determinants of using motorcycle-based ride hailing
+  Cost                    1.59                       1.84
+  Easy to access/        18.7                        59.76
+    Practicality
+                                                                                       The following table presents the descriptive statistics of variables
+  Others                  0.01                       0.01                          used in the logistic regression (Table 4).
+  Wage                                                                                 Our analysis examines the determinants of odds ratio using ride-
+  Below UMR              27.34                       56.82                         hailing in both metropolitan areas (Table 5). The socio-economic vari­
+  Above UMR              72.66                       43.18
+                                                                                   ables suggest similar determinants of using ride-hailing; the odds ratio of
+  Status
+  Informal                5.86                       -                             using ride-hailing are lower with older commuters, with the probability
+  Labour/Employee        75.24                       59.79                         of using ride-hailing reduced to 0.98 as a person’s age increase by 1 year.
+  Self Employed/         18.9                        40.21                         The odds of using ride-hailing are significantly higher among women,
+    Entrepreneur                                                                   with 10.1 and 12.4 higher probabilities in Jakarta and Bandung
+  Travel Distance
+  <10 km                 52.36                       55.66
+                                                                                   metropolitan areas, respectively. However, in Jakarta metropolitan, the
+  10–19 km               20.11                       33.12                         odds of using ride-hailing are high for commuters working in the formal
+  >20 km                 27.54                       11.21                         sector and those with a higher salary. In Bandung, formal workers tend
+  Travel Time                                                                      to have lower odds of using ride-hailing, and salary is an insignificant
+  <30 minute             66.38                       47.21
+                                                                                   variable.
+  30–60 minute           22.76                       41.23
+  >60 minute             10.86                       11.56                             Furthermore, commuting patterns reveal a slight difference in ride-
+  Destination                                                                      hailing users in JMA and BMA. In JMA, the odds ratio to commute
+  Peripherals to core     2.65                       3.87                          using ride-hailing is higher (0.924) compared to BMA (0.454) for
+  Peripherals to          2.67                       2.80                          commuting distances less than 10 km. The odds ratio for using ride-
+    peripherals
+                                                                                   hailing is lower for early-hour (before 7 am) commuters in JMA. In
+
+                                                                               7
+A.F. Aritenang                                                                                                                Journal of Public Transportation 26 (2024) 100082
+
+
+Table 4                                                                                   bus system and a focus on developing a mass rapid transportation (MRT)
+Descriptive Statistics, BMA 2017 and JMA 2019 BMA, 2017.                                  system.
+                                     Mean       SD            Min       Max                   Metropolitan development in Indonesia has been closely linked to
+                                                                                          the suburbanisation debate, extensively explored in prior studies,
+  Mode (dummy)                                                0         1
+  Age (year)                         31.49      13.69         6         85                particularly on the JMA (Hudalah and Firman, 2012; Hudalah et al.,
+  Gender (M/F) dummy                                          1         2                 2013; LeGates and Hudalah, 2014; Firman and Fahmi, 2017; Aritenang,
+  Job formal/non-formal                                       0         1                 2023). Limited research focuses on the BMA, though some studies
+    (dummy)                                                                               recognise the metropolitan area to some extent (Webster, Cai, and
+  Salary (IDR mio)                   3536,210   3176,461      0         50,000,000
+  Commuting distance (km)                                     1         7
+                                                                                          Muller, 2014; Hudalah, Talitha, and Lestari, forthcoming). Our study
+    (range dummy)                                                                         confirmed the above literature, as shown by a strong connectivity be­
+  Commuting before 7 am                                       0         1                 tween peripheral regions in the JMA and the persistent high dependence
+    (dummy)                                                                               on the core metropolitan area in the BMA.
+  Destination (dummy)                                         0         1
+  Cost                               11,592     10190         0         100,000
+  JMA, 2019                                                                               Social justice, metropolitan areas and the sharing economy
+                                     Mean       SD            Min       Max
+  Mode (dummy)                                                0         1                     Our study confirmed the irony of ride-hailing among commuters. The
+  Age (year)                         37.63      11.58         17        83
+  Gender (M/F) dummy                                          1         2
+                                                                                          main reason for preferring ride-hailing was its speed and practicality,
+  Job formal/non-formal                                       0         1                 also found by previous studies (Afrina et al., 2017; Irawan et al., 2020).
+    (dummy)                                                                               Meanwhile, the urban van (angkutan kota/angkot) was banned.
+  Salary)IDR mio)                    5518,431   5080,476      300,000   100,000,000       Ride-hailing became more tolerated and even emerged as an alternative
+  Commuting distance (km)            21,02      15,34         0         160
+                                                                                          transportation mode despite it being regarded as an informal mode of
+  Commuting before 7 am                                       0         1
+    (dummy)                                                                               transportation (Medeiros et al., 2018; Syabri et al., 2013). Additionally,
+  Destination (dummy)                                         0         1                 ride-hailing is more convenient due to the availability of alternative
+  Cost                               127,761    143,168.4     0         2500,000          electronic payment, the presence of a complaint mechanism and dis­
+                                                                                          counted prices (Afrina et al., 2017). Our study found that convenience
+                                                                                          and practicality remained the main reasons for using ride-hailing,
+BMA, the odds ratio is also significantly lower for early-hour commuters
+                                                                                          despite the government’s pledge to enhance accessibility and reduce
+after 8 am. Lastly, destination variables suggest similar findings with
+                                                                                          commuting time, which was to be achieved by 2010 (SITRAM, 2004).
+commuting to core metropolitan areas and a higher ratio of travel cost to
+                                                                                          Interestingly, these reasons were not considered the most important in
+household expenditure, indicating a higher odds ratio for using ride-
+                                                                                          neighbouring countries such as Malaysia, where avoiding driving while
+hailing. This implies commuters from the lower- and middle-income
+                                                                                          under alcohol and parking prices were the most important. In Southeast
+groups have a higher probability as consumers.
+                                                                                          Asia countries, price, safety and convenience were the main de­
+                                                                                          terminants for using ride-hailing (Chalermpong et al., 2022).
+Discussion
+                                                                                              Our study also touched on another body of literature on the metro­
+                                                                                          politan issues of social justice and inequality. In both metropolitan
+   This section provides an elaborative discussion of the findings and
+                                                                                          areas, commuters from the lower- and middle-income groups have a
+analyses presented in the previous section.
+                                                                                          higher probability of using ride-hailing. More than 82% of commuters
+                                                                                          spent less than Rp 200,000 for ride-hailing, both conventional and on­
+High socio-economic connectivity, poor infrastructure accessibility                       line. Given that this was less than 6% of their monthly expenditure, it is
+                                                                                          no wonder that the mode became an alternative commuter mode in the
+    Jakarta’s transportation problems have been widely discussed in                       JMA and BMA. This advantage made ride-hailing the primary alterna­
+previous studies. Afif (2002) investigated the lengthy process of                         tive transportation mode for lower-income commuters, informal
+attempting to solve Jakarta’s transportation problems across various                      workers and employees in both the JMA and BMA. In the JMA and BMA,
+studies, which are yet to provide any comprehensive solutions. For                        the share of the lowest-income group was 29% and 67%, respectively.
+instance, the paper argued that the studies did not understand the ‘bus                   Nevertheless, this underscores the problem identified in Metro Boston,
+priority’ concept, viewing bus priority projects as temporary solutions.                  suggesting that the government should be concerned with the quality of
+This led to reluctance in proposing significant changes to the existing                   public transportation if lower-income households are willing to pay for
+
+Table 5
+Determinants of Using motorcycle-based Ride-hailing Commuters, BMA 2017 and JMA 2019.
+                                                Jakarta                                                         Bandung
+
+                                                Coefficient             Odds Ratio           Std Error          Coefficient               Odds Ratio               Std Error
+
+  Socio-Economic
+  Age (year)                                     -0.020                 0.980***             (0.00)              -0.024                   0.977***                 (0.00)
+  Gender (M/F)                                    2.314                 10.118***            (0.09)               2.518                   12.400***                (0.31)
+  Job Formal/Informal                             1.611                 5.006***             (0.17)              -0.854                   0.426***                 (0.01)
+  Salary (IDR Mio)                                0.316                 1.357***             (0.01)               0.021                   1.022                    (0.02)
+  Commuting Pattern
+  Distance (KM)                                  -0.079                 0.924***             (0.00)              -0.790                   0.454***                 (0.01)
+  Commute before 7 am                            -0.496                 0.609***             (0.01)               0.038                   1.039                    (0.02)
+  Destination
+  Commuting to core                               0.949                 2.582***             (0.03)               0.581                   1.787***                 (0.04)
+  Travel cost ratio to Expenditure                1.464                 4.325***             (0.02)               1.442                   4.231***                 (0.06)
+  const                                         -26.580                 -                    -                  -19.410                   -                        -
+  No. of Observation                                                    2.459.990                                                         403.063
+  Adj R2                                                                0.323                                                             0.309
+
+* p<0.05; ** p<0.01; *** p<0.001.
+
+                                                                                      8
+A.F. Aritenang                                                                                                          Journal of Public Transportation 26 (2024) 100082
+
+
+short trips (MAPC, 2018).                                                           This paper makes several contributions to the literature and policy
+    As such, commuters have neglected safety and cost, suggesting that          implications. Firstly, it empirically enhances the urban regime literature
+online motorcycle taxis are an alternative solution for urban areas, and        by emphasising the intensified commuting during the post-
+they do not object to paying more for less time travel. Particularly, in        suburbanisation process in the JMA. Over 40% of peripheral com­
+JMA, the odds ratio to commute using ride-hailing is higher than BMA            muters now travel to other peripheral districts within the metropolitan
+for shorter commuting distance, suggesting the lack of active or decent         area. On the other hand, the BMA case reveals a strong reliance of pe­
+public transportation in the metropolitan area.                                 ripheral districts on the core metropolitan area, with less than 25% of
+    Related to gender, we found a significant number of female com­             peripheral commuters travelling to other peripheral districts. Addi­
+muters using ride-hailing. Limited studies have examined the gender             tionally, the study contributes to the metropolitan studies literature in
+aspect of commuters in metropolitan areas. However, research on                 the global south, providing evidence that long-distance and -hour ride-
+gender-based ride-hailing indicates a higher proportion of female com­          hailing intensifies traffic congestion, especially in cities lacking public
+muters in cities such as Tehran (Etminani-Ghasrodashti and Hamidi,              transportation modes like Jakarta and Bandung. The study also adds to
+2019) and across Southeast Asia (Chalermpong et al., 2022; Lim and              the current sharing economy by highlighting the importance of ride-
+Fernandez, 2022). Furthermore, IFC (2020) highlighted several reasons           sourcing as an alternative transportation mode for public transport,
+for the high share of female riders. For example, ride-hailing enhances         particularly for lower- and middle-income group commuters.
+women’s mobility and independence, with lower costs being crucial as                Secondly, the study proposes several policy implications. (i)
+they consider disposable income. In Indonesia, Irfan and Nooraeni               Considering the importance of ride-hailing as a transportation mode,
+(2019) shed light on the characteristics of female commuters. The 25–44         there is a need for government policies to ensure safety and affordability
+age group is dominated by female commuters at 56.55%, followed by               for commuters who use the service on a daily basis, along with legal
+the 15–24 age group at 25.18%. The percentage of female workers                 frameworks to regulate inter-district online ride-hailing. Additionally,
+commuting for over 90 minutes was low at 28%. These figures may                 (ii) evidence of post-suburbanisation in the JMA, with a high share of
+explain the large proportion of female ride-hailing users, as female            inter-peri-urban mobilities, highlights the increasing importance of
+commuters were mainly young and had relatively short commuting                  safety and affordability policies for ride-hailing users. Improved acces­
+times.                                                                          sibility and convenience in public transportation are also crucial for
+                                                                                commuters. This may also apply to other global metropolitan areas that
+Conclusion                                                                      are experiencing post-suburbanisation following the intensification of
+                                                                                inter-peri-urban mobilities. Ride-hailing may provide an accessible and
+    This paper contributes to the current literature on metropolitan            convenient alternative to public transportation for commuters.
+studies and travel behaviour concerning the ride-hailing services. The              (iii) Thus, the long-overdue strengthening of metropolitan-scale
+study identifies the characteristics of commuters who use ride-hailing          governance is urgently required. This study confirms the presence of a
+and the importance of the transportation mode in the JMA and BMA.               diversity of mobility of commuters between peripheral districts, not
+Our study was conducted with sample data on commuter respondents in             solely towards core metropolitan areas, indicating an ongoing process of
+the JMA and BMA. To the best knowledge of the authors, this is the first        post-suburbanisation in both the JMA and BMA, albeit at different
+research to examine commuter data, revealing the critical role of the           levels. Furthermore, metropolitan governance should enhance the pro­
+ride-hailing service in Indonesian metropolitan areas.                          vision of secure, convenient and cost-effective public transportation
+    Our results indicate specific characteristics of ride-hailing service       facilities. In particular, there is a need for stronger metropolitan-level
+users among commuters in both metropolitan areas. Analyses report that          authority and partnerships with the private sector, especially in the
+young and lower-income commuters were the dominant users of the                 sharing economy sector, to effectively coordinate planning
+ride-hailing service. Within the sharing-economy framework, motor­              collaboration.
+cycle taxis, being relatively cheaper and accessible (either through
+conventional informal pools/ojek or online), were preferred by young
+and lower-income commuters, including informal workers. However,                Declaration of Competing Interest
+the preference for ride-hailing services increased in both metropolitan
+areas once the salary exceeded the minimum wage, despite a decrease in              None.
+the share of ride-hailing services by income. This confirms our other
+findings on the importance of ride-hailing services for work activities.        References
+This may be explained by the reliability of ride-hailing services in con­
+fronting prolonged and fatigued traffic congestion in metropolitan areas,       Afrina, E., Peters, R., Fanggidae, V., Lauranti, M., 2017. Go-Jek: Kemacetan, Informalitas
+                                                                                    dan Inovasi Transportasi Perkotaan di Indonesia. Perkumpulan PRAKARSA,, Jakarta.
+especially for high-income earners who are mobile. Furthermore, our             Anggriawan, R., 2019. E-Hailing Transportation and the Issue of Competition in
+study also revealed a gender bias, where more than 72% of commuters                 Indonesia. Indones. Comp. Law Rev. 2 (1), 56–66.
+who used ride-hailing services were females in both metropolitan areas.         Argo, T.A. 2015. Case Study Metropolitan Governance Metropolitan Bandung, Indonesia.
+                                                                                    United Nations Human Settlements Programme (Un-Habitat) - Deutsche Gesellschaft
+    The study also suggested the impact of metropolitan form on travel              Für Internationale Zusammenarbeit (GIZ).
+behaviour. The JMA has a larger size and a lower proportion of com­             Aritenang, A.F., 2021. The contribution of foreign investment and industrial
+muters traveling within the metropolitan area, while the BMA has a                  concentration to firm competitiveness in Jakarta Megacity. Cities 113.
+                                                                                Aritenang, A.F., 2023. Identifying post-suburbanization: The case of the Jakarta
+relatively smaller size and a higher percentage of commuters heading to             metropolitan area (JMA). Habitat Int. 138, 102857.
+the core metropolitan area. Our study showed the process of post-               Aritenang, A., 2022. Examining Socio-Economic Inequality Among Commuters: The Case
+suburbanisation with strong connectivity between the peripherals in                 of the Jakarta Metropolitan Area. Urban Plan. 7 (3), 172–184.
+                                                                                Azzuhri, A.A., Syarafina, A., Yoga, F.T., Reski, Amalia, 2018. A Creative, Innovative, and
+the JMA, such as between Bekasi City and Regency, and between Tan­                  Solutive Transportation for Indonesia with Its Setbacks and How to Tackle Them: A
+gerang City and Regency. On the other hand, Bandung City remained the               Case Study of the Phenomenal GOJEK. Rev. Integr. Bus. Econ. Res. 7, 1.
+main destination for commuters from the peripheral districts. Further­          Belgiawan, P.F., Ilahi, A., Axhausen, K.W., 2019. Influence of pricing on mode choice
+                                                                                    decision in Jakarta: A random regret minimization model. Case Stud. Transp. Policy
+more, the presence of highways and alternative roads between the dis­
+                                                                                    7 (1), 87–95.
+tricts might also contribute to high connectivity between the peripheral        Belgiawan, P.F., Joewono, T.B., Irawan, M.Z., 2022. Determinant factors of ride-sourcing
+districts in the JMA. The analysis also exposed shorter distances and               usage: A case study of ride-sourcing in Bandung. Indones. Case Stud. Transp. Policy 10
+durations for ride-hailing services among BMA commuters. In contrast,               (2), s831–s840.
+                                                                                Castellanos, S., Grant-Muller, S., Wright, K., 2021. Technology, transport, and the
+ride-hailing commuters in the JMA averaged more than one hour of                    sharing economy: towards a working taxonomy for shared mobility. Transp. Rev.
+travel covering 20 km daily.                                                        1–19.
+
+
+                                                                            9
+A.F. Aritenang                                                                                                                                Journal of Public Transportation 26 (2024) 100082
+
+Chalermpong, S., Kato, H., Thaithatkul, P., Ratanawaraha, A., Fillone, A., Hoang-                    Liu, R., Palm, M., Shalaby, A., Farber, S., 2020. A social equity lens on bus bridging and
+     Tung, N., Jittrapirom, P., 2022. Ride-hailing applications in Southeast Asia: A                      ride-hailing responses to unplanned subway disruptions. J. Transp. Geogr. 88,
+     literature review. Int. J. Sustain. Transp. 1–21.                                                    102870.
+Chapman, M., Prothero, R.M., 2012. Themes of Circular Migration in the Third World in                McKenzie, G., 2020. Urban mobility in the sharing economy: A spatiotemporal
+     Circulation in the Third World Countries, by R.M. Prothero and Murray Chapman.                       comparison of shared mobility services. Comput., Environ. Urban Syst. 79, 101418.
+     Routledge,, London.                                                                             MAPC. 2018. Fare Choices: A Survey of Ride-hailing Passengers in Metro Boston Report #1.
+Curtis, C., Stone, J., Legacy, C., & Ashmore, D. (2019). Governance of future urban                       Boston Metropolitan Area Planning Council.
+     mobility: A research agenda. Urban Policy and Research.                                         Maulina, E., Rizal, M., 2017. The Development of Jatinangor as Creative Industry Model
+Di Bartolo, C., Bosetti, S., De Stasio, C., & Malgieri, P.. Cities towards Mobility 2.0:                  in West Java. Review of Integrative Business and Economics. Research Vol. 6 (2),
+     connect, share and go. Smart Choices for Cities. Available online: 〈https://civitas.eu/c             359–366.
+     ontent/civitas-policy-note-smart-choices-citiescities-towards-mobility-20-connect               Miharja, M., Woltjer, J., Arsallia, S., Diab, A.H., 2021. Bandung Metropolitan
+     -share-and-go-en〉 (accessed on 23 October 2020).                                                     Transportation Planning Collaboration and Perceived Transaction Cost Changes after
+Dias, F.F., Lavieri, P.S., Garikapati, V.M., Astroza, S., Pendyala, R.M., Bhat, C.R., 2017.               2 Decades of Decentralization. Int. J. Technol. 12 (3), 506–517.
+     A behavioral choice model of the use of car-sharing and ride-sourcing services.                 Medeiros, R.M., Duarte, F., Achmad, F., Jalali, A., Merging, I.C.T., 2018. Informal
+     Transportation 44 (6), 1307–1323.                                                                    Transp. Jkt. ’S. ojek Syst. Transp. Plan. Technol. 41 (3), 336–352.
+Ellisa, E., 2014. The entrepreneurial city of Kelapa Gading, Jakarta. J. Urban.: Int. Res.           Natadjaja, L., Setyawan, P.B., 2016. Creating Community through Design: The Case of
+     Place. Urban.Sustain. 7 (2), 130–151.                                                                Go-Jek Online. Int. J. Cult. Creat. Ind. 4, 1.
+Etminani-Ghasrodashti, R., Hamidi, S., 2019. Individuals’ Demand for Ride-hailing                    Pojani, D., 2020. Planning for Sustainable Urban Transport in Southeast Asia. Springer
+     Services: Investigating the Combined Effects of Attitudinal Factors, Land Use, and                   International Publishing,.
+     Travel Attributes on Demand for App-based Taxis in Tehran, Iran. Sustainability 11              Pongprasert, P., Kubota, H. 2017. Switching from motorcycle taxi to walking: A case
+     (20), 5755.                                                                                          study of transit station access in Bangkok, Thailand. IATSS Research.
+Fanggidae, V., Sagala, M.P., Ningrum, D.R., 2016. On-Demand Transport Workers in                     Quattrone, G., Proserpio, D., Quercia, D., Capra, L., Musolesi, M. (2016). Who Benefits
+     Indonesia: Towards Understanding the Sharing Economy in Emerging Markets.                            from The “Sharing” Economy of Airbnb?. International World Wide Web Conference
+     Perkumpulan Prakarsa,.                                                                               Committee. Montréal, Québec, Canada. ACM 978-1-4503-4143-1/16/04. Via htt
+Ferreira, M.A., Franco, F., Giuli, A. and Franco, F. 2018. Politics, polity and policy of                 p://dx.doi.org/10.1145/2872427.2874815.
+     ridesourcing regulation in São Paulo in Urban Transport in the Sharing Economy Era             Rayle, L., Dai, D., Chan, N., Cervero, R., Shaheen, S., 2016. Just a better taxi? A survey-
+     Collaborative Cities. CIPPEC.                                                                        based comparison of taxis, transit, and ridesourcing services in San Francisco.
+Firman, T., 2004. New town development in Jakarta Metropolitan Region: a perspective                      Transp. Policy 45, 168–178.
+     of spatial segregation. Habitat Int. 28 (3), 349–368.                                           Rizki, M., Joewono, T.B., Belgiawan, P.F., 2019. Travel Experience and Multitasking of
+Firman, T., 2012. Continuity and Change in the Development of Jakarta Metropolitan                        Toll Road Users in Jakarta Metropolitan Area, Indonesia: An Investigation for
+     Area (Jabodetabek): Towards a Post-Suburbanisation. Population Association of                        Passenger of Private Car, Taxi, and Ride-sourcing. J. East. Asia Soc. Transp. Stud. 13,
+     America Annual Meeting Program,.                                                                     523–541.
+Firman, T., Kombaitan, B., Pradono, P., 2007. The Dynamics of Indonesia’s Urbanisation,              Roberto, I.: The phenomena of motorcycle-taxi or ojek as public transportation in Jakarta
+     1980–2006. Urban Policy Res. 25 (4), 433–454.                                                        and its legiti- macy according to traffic and transportation law. Problematika Hukum
+Firman, T., Fahmi, F.Z., 2017. The Privatization of Metropolitan Jakarta’s (Jabodetabek)                  2(1), 35–45 (2016).
+     Urban Fringes: The Early Stages of “Post-Suburbanization” in Indonesia. J. Am. Plan.            Roitman, S., Recio, R.B., 2020. Understanding Indonesia’s gated communities and their
+     Assoc. 83 (1), 68–79.                                                                                relationship with inequality. Hous. Stud. 35 (5), 795–819.
+Gaduh, A., Gračner, T., Rothenberg, A.D., 2022. Life in the slow lane: Unintended                   Saadah, K., Yasmine, S.E., Mubah, A.S., 2017. Digital collaborative consumption and
+     consequences of public transit in Jakarta. Journal Urban Econ. 128, 103411.                          social issues: The clash of taxi and Uber driver in Surabaya and Taipei. Masy., Kebud.
+Gutierrez, J., Romanillos, G., Garcia-Palomares, J., Salas-Olmedo, M., 2016. Airbnb in                    Dan. Polit. 30 (4), 333–343.
+     Tourist Cities: Comparing Spatial Patterns of Hotels and Peer-To-Peer                           Sánchez-Vergara, J.I., Ginieis, M., Papaoikonomou, E., 2021. The emergence of the
+     Accommodation. Tour. Manag. 62, 278–291.                                                             sharing city: A systematic literature review to understand the notion of the sharing
+Herlambang, S., Leitner, H., Tjung, L.J., Sheppard, E., Anguelov, D., 2019. Jakarta’s                     city and explore future research paths. J. Clean. Prod. 295, 126448.
+     great land transformation: Hybrid neoliberalisation and informality. Urban Stud. 56             Santos, G., 2018. Sustainability and shared mobility models. Sustainability 10 (9), 3194.
+     (4), 627–648.                                                                                   Senbil, M., Zhang, J., Fujiwara, A.: Motorcycle Ownership and Use in Jabotabek
+Hudalah, D., Firman, T., 2012. Beyond property: Industrial estates and post-suburban                      (Indonesia) Metro- politan Area. 〈http://home.hiroshima-u.ac.jp/~hicec/coe/
+     transformation in Jakarta Metropolitan Region. Cities 29 (1), 40–48.                                 products/DP2006/DP2006-3.pdf〉 (2006). Accessed 26 July 2018.
+Hudalah, D., Viantari, D., Firman, T., Woltjer, J., 2013. Industrial Land Development and            SITRAM. 2004. The Study on Integrated Transportation Master Plan for Jabodetabek
+     Manufacturing Deconcentration in Greater Jakarta. Urban Geogr. 34 (7), 950–971.                      (SITRAM). Japan International Cooperation Agency (JICA) – National Planning
+Hudalah, D., Aritenang, A.F., 2017. Industrial economies on the edge of Southeast Asian                   Agency (Badan Perencanaan Pembangunan Nasional/BAPPENAS).
+     metropoles: from gated to resilient economies in Andrew McGregor. In: Law, Lisa,                Sofiyandi, Y. and Siregar, A.A. 2020. Exploring the Changes of Commuting Patterns,
+     Miller, Fiona (Eds.), Routledge Handbook of Southeast Asian Development.                             Commuting Flows, And Travel-To-Work Behaviour in the Jakarta Metropolitan Area
+     Routledge,, London.                                                                                  From 2014 To 2019: A Comparative Analysis of Two Cross-Sectional Commuting
+Hudalah, D., Talitha, T., & Lestari, S.F. (2021). Pragmatic state rescaling: The dynamics                 Surveys. LPEM-FEB UI Working Paper 054.
+     and diversity of state space in Indonesian megaproject planning and governance.                 Sundarajan, A., 2016. The Sharing Economy: The End of Employment and the Rise of
+     Environment and Planning C: Politics and Space.                                                      Crowd-Based Capitalism. MIT Press,.
+Ilahi, A., Belgiawan, P.F., Balac, M., Axhausen, K.W., 2021. Understanding travel and                Sunitiyoso, Y., Rahayu, W.A., Nuraeni, S., Nurdayat, I.F., Pambudi, N.F., Hadiansyah, F.,
+     mode choice with emerging modes; a pooled SP and RP model in Greater Jakarta,                        2022. Role of ride-hailing in multimodal commuting. Case Studies on. Transp. Policy
+     Indonesia. Transp. Res. Part A: Policy Pract. 150, 398–422.                                          10, 1283–1298.
+IFC, 2020. Gender-Segregated Transportation in Ride-Hailing: Navigating the Debate.                  Susantono, B., Santosa, W., Budiyono, A., 2011. Kepemilikan Kendaraan dan Pola
+     International Financial Corporation,.                                                                Perjalanan di Wilayah Jabodetabek. J. Transp. 11 (3).
+Irawan, M.Z., Belgiawan, P.F., Tarigan, A.K.M., 2020. To compete or not compete:                     Tuffour, Y.A., Appiagyei, D.K.N., 2014. Motorcycle taxis in public transportation services
+     exploring the relationships between motorcycle-based ride-sourcing, motorcycle                       within the Accra Metropolis. Am. J. Civ. Eng. 2 (4), 117–122.
+     taxis, and public transport in the Jakarta metropolitan area. Transportation 47,                Vitriana, A., 2020. The growth of Metropolitan Bandung Raya (MBR) and the increase of
+     2367–2389.                                                                                           urban housing matters. IOP Conf. Ser.: Earth Environ. Sci. 419, 012024.
+Irfan, M.A., Nooraeni, R., 2019. Karakteristik Pekerja Komuter Perempuan Yang                        Webster, D., Cai, J., Muller, L., 2014. The New Face of Peri-Urbanization in East Asia:
+     Mengalami Perjalanan Durasi Panjang Jabodetabek. Seminar Nasional Official                           Modern Production Zones, Middle-Class Lifesytles, and Rising Expectations. J. Urban
+     Statistics 2019: Pengembangan Official Statistics dalam mendukung Implementasi                       Aff. 36 (sup1), 315–333.
+     SDG’s,.                                                                                         Syabri, I., Pradono and Soegijanto, B. 2013. “Embracing Paratransit in Bandung
+Kenichiro, A., 2001. Only Yesterday in Jakarta: Property Boom and Consumptive Trends                      Metropolitan Area, West Java, Indonesia.” Case Study Prepared for United Nations
+     in the Late New Order Metropolitan City. Southeast Asian Stud. 38 (4), 481–511.                      Habitat Global Report of Human Settlement 2013. United Nations. Accessed August
+Legates, R., Hudalah, D., 2014. Peri-Urban Planning for Developing East Asia: Learning                    30, 2017. 〈https://unhabitat.org/wpcontent/uploads/2013/06/GRHS.2013.Case_.St
+     from Chengdu, China and Yogyakarta/Kartamantul, Indonesia. J. Urban Aff. 36                          udy_.Bandung.Indonesia.pdf〉.
+     (sup1), 334–353.                                                                                Wirawan, F.W., Oktivera, E.: Analysis on the implementation of digital marketing
+Lim, E.S., Fernandez, J.L., 2022. Determinants of using ride-hailing service: Evidence                    towards motorbike transport service case study: Go-Jek (online taxi motorbike)
+     from Malaysia. Malays. J. Econ. Stud. 59 (1), 27–48.                                                 Jakarta, Indonesia. International Conference on Information Technology Systems
+                                                                                                          and Innovation (ICITSI), November 16-19, 2015. Bandung Institute of Technology,
+                                                                                                          Bandung, Indonesia (2015).
+
+
+
+
+                                                                                                10
+

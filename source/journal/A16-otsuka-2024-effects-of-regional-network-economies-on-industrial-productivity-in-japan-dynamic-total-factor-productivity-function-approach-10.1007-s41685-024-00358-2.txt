@@ -1,0 +1,1139 @@
+[PDF Metadata]
+Source PDF: journal/A16-otsuka-2024-effects-of-regional-network-economies-on-industrial-productivity-in-japan-dynamic-total-factor-productivity-function-approach-10.1007-s41685-024-00358-2.pdf
+Extracted on: 2026-08-31
+Extraction method: pdftotext -layout
+Metadata from pdfinfo:
+
+Title:           Effects of regional network economies on industrial productivity in Japan: dynamic total factor productivity function approach
+Subject:         Asia-Pacific Journal of Regional Science, https://doi.org/10.1007/s41685-024-00358-2
+Keywords:        Inter-regional network; Borrowed size; Total factor productivity; Panel data; Japan
+Author:          Akihiro Otsuka 
+Creator:         Springer
+Producer:        Acrobat Distiller 10.1.8 (Windows)
+CreationDate:    Wed Nov 13 22:08:20 2024 WIB
+ModDate:         Mon Nov 18 02:35:01 2024 WIB
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           24
+Encrypted:       no
+Page size:       439.37 x 666.142 pts
+Page rot:        0
+File size:       1094475 bytes
+Optimized:       yes
+PDF version:     1.4
+[Extracted Text]
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+https://doi.org/10.1007/s41685-024-00358-2
+
+    ARTICLE
+
+
+
+Effects of regional network economies on industrial
+productivity in Japan: dynamic total factor productivity
+function approach
+
+Akihiro Otsuka1
+
+Received: 16 July 2024 / Accepted: 30 October 2024 / Published online: 13 November 2024
+© The Author(s) 2024
+
+
+
+Abstract
+Improving productivity performance is essential for achieving regional economic
+sustainability. With the advent of the network society, regional economic agents
+have benefited not only from local within-region interactions but also from exter-
+nal out-of-region economies. However, it remains unclear whether localized exter-
+nal economies or spillovers of externalities through inter-regional networks are more
+significant in improving productivity performance. Therefore, this study examined
+the relationships between productivity performance and geographical externalities
+from an industry perspective using regional economic data for Japan and employed
+a dynamic total factor productivity function approach. It also assessed the impact
+of high-quality transportation infrastructure improvements on productivity catch-
+up. The results revealed the long-run effects of inter-regional networks on the pro-
+ductivity performance of industries. Furthermore, it revealed that, as a geographi-
+cal externality, the “borrowed size” effect contributed significantly to productivity
+improvements in both manufacturing and non-manufacturing industries. These find-
+ings suggest that enhancing both high-quality transportation infrastructure and
+inter-regional transportation networks is likely to improve industry productivity
+performance.
+
+Keywords Inter-regional network · Borrowed size · Total factor productivity · Panel
+data · Japan
+
+JEL Classification R10 · R11
+
+
+
+
+* Akihiro Otsuka
+  otsuka@yokohama-cu.ac.jp
+1
+      Association of International Arts and Science, Yokohama City University, 22‑2 Seto, Kanazawa,
+      Yokohama 236‑0027, Japan
+
+
+                                                                                      Vol.:(0123456789)
+1112                                   Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+1 Introduction
+
+This study explores the role of geographical externalities as determinants of the pro-
+ductivity performance of regional economies and statistically identifies their effects.
+    Advances in technology and networked societies have altered inter-regional
+exchange mechanisms and significantly affected the productivity performance of
+economic agents (Castells 1996). Economic agents in a region not only benefit
+from local, within-region interactions but also from external economies outside
+the region. Consequently, regional economies shift from being spatially inde-
+pendent areas to network hubs and region–region interactions affect the produc-
+tivity performance of regional economies (Cooke et al. 2011).
+    Traditional arguments on economies of agglomeration have suggested that
+the geographical agglomeration of economic agents affects the productivity per-
+formance of the regional economy as external economies (Combes and Gobil-
+lon 2015; Rosenthal and Strange 2004). Several empirical studies (e.g., Acs et al.
+2002; Carlino and Kerr 2015; Varga 1999) have shown that innovative activities
+responsible for productivity performance improvements tend to be spatially clus-
+tered and localized. Knowledge spillover depends on various factors, including
+tacit dimensions of knowledge, proximity of different types, and labor mobility
+(Grillitsch and Nilsson 2015). Tacit knowledge has been considered a localized
+factor, as knowledge transfer over long distances is difficult (Lam 2000).
+    However, non-geographically bound forms of knowledge spillovers exist, such
+as those based on cognitive, technological, and social proximities, through which
+several studies have indicated the possibility of knowledge exchange at a distance.
+For example, Asheim and Coenen (2006) and Trippl (2011) argue that acquiring
+localized knowledge is insufficient for innovation activities and that combining
+and complementing localized knowledge with knowledge acquired from distant
+sources is crucial. That is, collaboration between distant locations is considered
+an important factor for successful productivity performance improvement, and in
+this sense, traditional geographic proximity is neither a necessary nor a sufficient
+condition for productivity improvements (Boschma 2005).
+    The “borrowed size” concept—a theory on geographical externalities (Burger
+et al. 2015) proposed by William Alonso (1973)—theoretically explains the
+impact of such distant collaboration on the productivity performance of regional
+economies. According to this concept, regions adjacent to a central region can
+benefit from the latter’s external economies by borrowing the economies of scale
+generated therein (Meijers and Burger 2017). Inter-regional networks allow
+regions to acquire complementary capabilities through collaboration and bene-
+fit from economies of scale as external advantages from other regions (Capello
+2000; Phelps et al. 2001). As a result, the economic growth of regions is influ-
+enced not only by the traditional significance of geographical closeness but also
+by their capacity to form connections with major urban centers (Meijers et al.
+2016). Several studies (e.g., Camagni et al. 2015, 2016; Johansson and Quigley
+2003; Melo et al. 2017; Otsuka 2018, 2020a, b, 2024a) have provided empirical
+evidence on these effects from a regional economic system perspective.
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                          1113
+
+
+    However, previous studies have not provided sufficient empirical evidence on
+regional industrial activity. Regional industries can be classified into export-oriented
+(core) and intra-regional (non-core) industries. In many cases, manufacturing indus-
+tries represent export-oriented industries, which form an efficient production sys-
+tem in a wide-area network to meet demand from outside their regions. For exam-
+ple, the supply chains of advanced industries, such as the semiconductor sector, are
+constructed outside their regions, and inter-regional divisions of labor in produc-
+tion develop, likely improving inter-regional collaboration in industrial innovation
+activities. Intra-regional industries, however, include non-manufacturing industries,
+mainly service sectors. In these industries, the construction of production systems
+is limited to the region to efficiently respond to demand within the region. In other
+words, the production bases of these industries are localized; hence, the industries’
+innovation activities are likely to be localized as well. To clarify the effects of inter-
+regional networks that differ across industries, this study quantitatively evaluates
+the factors of geographical externalities that affect productivity performance using
+industry data.
+    Using Japanese industry-specific data, this study significantly contributes to eval-
+uating regional industrial policy in Japan. In the 2000s, the period under observa-
+tion, regional policies were continuously implemented to promote industrial location
+and strengthen inter-regional networks. In 2001, the Ministry of Economy, Trade
+and Industry (METI) launched the “Industrial Cluster Plan,” followed by the Min-
+istry of Education, Culture, Sports, Science and Technology (MEXT) initiating the
+“Knowledge Cluster Creation Project” in 2002. These initiatives were designed to
+enhance regional economic productivity by fostering connections among businesses,
+academic institutions, and research organizations across traditional administrative
+boundaries.
+    Such policies may improve productivity by enabling new technological and prod-
+uct developments through network formation, even in regions with scarce man-
+agement resources. A research study conducted in France demonstrated that firms
+within competitive industrial clusters exhibited comparatively higher total fac-
+tor productivity (TFP) than those outside such clusters (Abdesslem and Chiappini
+2019). In other words, assuming Japan’s regional policies have been as successful
+as policymakers anticipated, the overall productivity of the area may have improved,
+with less productive regions potentially catching up to their more economically
+advanced counterparts. Therefore, to verify the validity of these policies, it is crucial
+to examine the effects of inter-regional networks on productivity performance.
+    This study empirically analyzes geographical externalities by industry based on
+2000–2018 data from 47 prefectures. The analysis method utilizes dynamic panel
+analysis based on dynamic TFP functions, allowing us to capture both short- and
+long-term effects of inter-regional networks on productivity performance. That is,
+it is possible to assess whether the formation of inter-regional networks has helped
+low-productivity regions to catch up with high-productivity regions over different
+timescales.
+    The structure of this paper is as follows. The connection between productivity
+performance and geographical externalities is explored in Sect. 2. Section 3 outlines
+the analytical approach, including the definition of the TFP indicator and a detailed
+1114                                      Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+explanation of the analytical model and data. Section 4 discusses the findings from
+the estimation and provides an interpretation of the analytical outcomes. The study
+concludes in Sect. 5, summarizing the research and addressing unresolved issues.
+
+
+2 Conceptualization
+
+2.1 Productivity
+
+Productivity is defined as the ratio of inputs to outputs. The higher the productivity,
+the more output is obtained from a given input, or the less input is required to pro-
+duce a given amount of output. Generally, input is a production factor, such as labor
+or capital, and output is the value added.
+    Labor productivity, which is commonly used as a measure of productivity, is
+defined as the output per unit of labor. It is also simply referred to as factor produc-
+tivity because it considers only labor as an input. This indicator is effective when the
+composition ratio of input goods is almost the same among economic agents. How-
+ever, in regional economies, the composition ratio of input goods differs depend-
+ing on the industrial structure of each region. In this case, labor productivity can-
+not accurately evaluate the productivity performance of the regional economy. For
+example, the labor productivity of economic agents that use capital-intensive tech-
+nology tends to be higher; therefore, regions specializing in capital-intensive indus-
+tries tend to have higher labor productivity. This raises the concern that it is not
+possible to distinguish whether this is because industries that use labor resources
+efficiently are concentrated in the region or because industries with a high capi-
+tal–labor ratio are concentrated in the region.
+    In contrast, TFP is defined as the ratio of aggregate inputs to aggregate outputs
+and encompasses both labor productivity and capital productivity. Therefore, it does
+not face concerns that arise with factor productivity (Otsuka and Goto 2016).
+    Table 1 shows the TFP content. TFP consists of direct technological progress,
+such as research and development (R&D), knowledge stocks, knowledge spillovers,
+
+
+Table 1  Contents of TFP      Types of technological progress                Contents
+
+                              Direct technological progress                  R&D investment,
+                                                                              Knowledge stock,
+                                                                              Knowledge spillover
+                              Indirect technological progress                Economies of scale
+                                                                             Capital maturity
+                                                                               improvement
+                                                                             Human capital effects
+                                                                             Infrastructure
+                                                                             Geographical exter-
+                                                                               nalities (agglom-
+                                                                               eration and network
+                                                                               economies)
+
+                              Watanabe (2001) and Otsuka (2008)
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                      1115
+
+
+and indirect technological progress, such as in external economies (Watanabe 2001;
+Otsuka 2008).
+   Table 1
+   Direct technological progress mainly involves R&D investment by economic
+agents. R&D investment and the stock of knowledge directly improve the productiv-
+ity of economic agents. In addition, knowledge spillovers, in which some knowledge
+of other economic agents contributes to technological progress, also improve the
+productivity performance of economic agents.
+   Indirect technological progress includes technological progress embodied in capi-
+tal and labor. For example, when old capital stock is replaced with new capital stock
+through capital investment, even if the total amount of capital stock remains the
+same, the new capital stock can potentially produce more output than the old capi-
+tal stock due to the addition of new functions and the increase in capital expertise.
+Similarly, when a more skilled worker replaces one worker, more outputs can be
+generated even if the number of workers remains the same. In addition, if economies
+of scale exist, productivity performance will improve due to the benefits of mass
+production. Productivity performance will also improve if managerial efficiency
+increases—that is, if operational efficiency improves due to a review and accelera-
+tion of the decision-making process. Furthermore, if industries are geographically
+connected, geographical externalities will be strengthened due to agglomeration
+economies or inter-regional network economies. Consequently, productivity perfor-
+mance in the regional economy will improve.
+
+
+2.2 Borrowed size
+
+The concept of borrowed size integrates population, function, and critical mass
+effects for both demand and supply, proposing that smaller urban areas can benefit
+from nearby larger agglomerations without experiencing their drawbacks, such as
+congestion. This theory suggests that the advantages of urban clustering are not con-
+fined to a city’s physical limits but can extend to surrounding regions. This frame-
+work explains why smaller cities might operate more efficiently than their larger
+counterparts and why rural areas can maintain effective urban structures by “bor-
+rowing” agglomeration economies from the broader urban network (Parr 2002).
+   As urban agglomeration externalities broaden their reach, their influence extends
+beyond traditional city limits. This expansion suggests that the notion of borrowed
+size could potentially elucidate the growth of regional economies on a larger scale,
+encompassing areas well outside urban centers. That is, the borrowed size concept
+can overcome the limitations of the conventional geographical approach that only
+cities adjacent to a metropolis can experience increased efficiency, and argues that
+scale is not the only determinant of productivity and economies of agglomeration.
+Incorporating long-distance cooperation agreements throughout the urban network,
+along with the presence of advanced functions, could increase urban productivity
+despite the limited size of cities (Boix and Trullén 2007; Camagni 1993; Capello
+2000; Camagni and Capello 2004; Hall and Pain 2006; Huang et al. 2020).
+1116                                    Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+   Establishing efficient transportation systems enhances these borrowed-size effects
+by reducing travel expenses for innovators and expanding opportunities for eco-
+nomic interactions. A well-developed transportation infrastructure not only boosts
+the efficiency of its direct users but also benefits related parties by accelerating and
+increasing the frequency of information exchange. This means that the geographical
+reach of externalities grows as knowledge spreads beyond regional boundaries. Con-
+sequently, creating an advanced transportation network amplifies network externali-
+ties by enabling innovators to move more freely between the regions (Ma and Liu
+2022; Tian et al. 2022).
+
+
+2.3 Agglomeration shadow
+
+Nevertheless, some scholars contend that establishing regional networks may not
+always benefit urban development (Hesse 2016). The rivalry among cities that
+emerges from these networks can result in a “siphoning effect,” where larger urban
+centers extract resources from their smaller neighbors, impeding the growth of these
+surrounding cities. Consequently, this inter-urban competition may decrease the
+overall efficiency of urban development processes (Dijkstra et al. 2013).
+   Fujita et al. (1999) theoretically explained this phenomenon as the “agglomera-
+tion shadow.” An agglomeration shadow is a phenomenon in which large cities and
+regions with strong economic agglomeration have an economic impact on neighbor-
+ing smaller regions (Fujita and Thisse 2002). Specifically, it refers to a situation in
+which the economic activities of small cities and suburbs near large cities are sup-
+pressed or inhibited from growth due to large cities absorbing resources, including
+human resources, from those neighboring regions. The agglomeration shadow effect
+and the borrowed size effect are related and affect the economic dynamics between
+regions (Meijers 2005; Phelps and Ozawa 2003; Burger and Meijers 2016).
+   The two concepts may have a complementary relationship. Small cities and sub-
+urban areas located near large cities can be overwhelmed by the economic activities
+of large cities, but they can also grow using the resources and infrastructure of the
+large cities. In other words, while some economic activities are suppressed, others
+can benefit.
+   However, it is also possible that a competitive relationship will arise between the
+two concepts. On the one hand, if the borrowed size effect is fully demonstrated, the
+impact of the agglomeration shadow will weaken, and the surrounding areas may
+achieve more independent economic growth. On the other hand, if the agglomera-
+tion shadow has a strong effect, the borrowed size effect will be canceled out, and
+the growth of the surrounding areas will be severely restricted.
+   These relationships are an important point of discussion in formulating regional
+policies and urban planning; however, as discussed by Hornbeck et al. (2004), the cir-
+cumstances under which the agglomeration shadow becomes dominant have not been
+fully clarified owing to the complexity of the analytical approach. Nevertheless, a com-
+plex relationship exists between the borrowed size effect and agglomeration shadow. In
+other words, the borrowed size effect can be strengthened or weakened by the agglom-
+eration shadow. To avoid the difficulty of interpreting agglomeration shadows, this
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                                                  1117
+
+
+study does not explicitly consider agglomeration shadows but instead focuses on the net
+effect of geographical externalities from a regional macroperspective and statistically
+examines the impact of the borrowed size effect on the productivity performance of
+regional economies.
+
+2.4 Research focus
+
+This study statistically clarifies the effects of inter-regional network formation on the
+productivity performance of regional economies relative to conventional geographical
+externalities.
+   Research has shown conflicting results regarding the relationship between inter-
+regional network externalities and traditional geographical externalities. Some studies
+indicate that these two types of externalities complement each other (Boix and Trul-
+lén 2007; Tian et al. 2022; Wetwitoo and Kato 2017). Conversely, other research sug-
+gests that network externalities can substitute conventional geographical externalities
+(Fu et al. 2023; Huang et al. 2020; McCann and Acs 2011; Tang et al. 2021). Notably,
+recent investigations in China have provided substantial evidence that network exter-
+nalities exert a greater influence on innovation activities within special economic zones
+compared to traditional geographical externalities (Jiang et al. 2022; Liu et al. 2023;
+Yang et al. 2022; Zheng et al. 2023).
+   To contribute to the discussion of previous research, this study clarifies the effects of
+borrowed size on productivity performance improvements from an industrial perspec-
+tive. In particular, using a dynamic production function approach clarifies the short-
+and long-term effects of geographical network economies on the productivity perfor-
+mance of industries.
+
+
+3 Methods
+
+3.1 TFP index
+
+This study calculates TFP using the methodologies outlined by Good et al. (1997),
+Aw et al. (2001), and Otsuka (2018, 2024a; b). The approach measures an individual
+economic agent’s TFP as a relative deviation from a representative economic agent,
+which is defined as having average input and output levels at a specific point in time.
+By accounting for changes in the representative agent’s TFP over time, this method
+enables the comparison of an individual economic agent’s TFP across different periods.
+   Let us assume a particular industrial sector. In this case, the relative TFP level of
+region j ( j = 1, ⋯ , N ) for time t (t = 1, ⋯ , P) or 𝑙𝑛TFPjt is expressed as follows:
+             (              ) ∑t (                 )
+   ln TFPjt = ln Yjt − ln Yt +     ln Ys − ln Ys−1
+                                         s=1
+                [ n                                                    t   n
+                                                                                                              ]
+                 ∑ 1(                   )(                      )     ∑   ∑   1
+                                                                                (         )(                )
+            −              Sijt + Sit        ln Xijt − ln Xit       +            S + Sis−1 ln Xis − ln Xis−1 .
+                 i=1
+                       2                                              s=1 i=1
+                                                                              2 is
+                                                                                                              (1)
+1118                                       Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+   In this equation, Yjt represents the output of region j at time t , while Xijt denotes
+the input factor i (i = 1, ⋯ , n) in region j at time t . In addition, Sijt signifies the cost
+share of input factor i in region j at time t . The superscript lines positioned above
+each symbol represent the average of each variable across regions. Equation (1)
+demonstrates that regional TFP levels can be evaluated in terms of relative TFP lev-
+els at specific times and locations and by considering TFP level changes over time.
+
+
+3.2 Determinants model on TFP index
+
+Equation (2) is assumed to be the conventional panel model used to evaluate the
+effect of geographical externalities on TFP performance:
+         lnTFPjt = bBS lnBSjt + bDS lnDSjt + bTC lnTCjt + bHC lnHCjt + cj + ujt ,                 (2)
+where all variables are logarithmic: j is the region and t is the time, TFP is the TFP
+index defined in Eq. (1), the BS variable is an index capturing the effect of borrowed
+size, and the DS variable measures population density. The TC variable represents
+the traffic capital stock, the HC variable measures the pool of skilled laborers, c is a
+constant term on individual effects, and u is the error term. In the variables for geo-
+graphical externalities explaining TFP performance, the BS variable complements
+externalities that spill over across regions, while the non-BS variables complement
+localized externalities.
+   The definitions of each determinant with respect to geographical externalities are
+explained below.
+   First, the BS variable is defined as follows:
+                                             ∑ GRPkt
+                                    BSjt ≡                ,
+                                             k≠j
+                                                   djkt
+
+   where GRP is the regional value added, and djkt is the distance resistance (travel
+time distance). This variable is characterized by its unique approach to measuring
+cluster proximity, which considers cluster size and distance resistance. The varia-
+ble’s magnitude is influenced by the borrowed size from clusters in other regions,
+factoring in the distance resistance to these clusters. As clusters in other regions
+grow larger, the corresponding variable increases in value. In addition, the BS vari-
+able’s value rises when the distance resistance to clusters in other regions decreases.
+   GRP is a proxy variable for cluster size. Previous studies have used population
+size and density as proxy variables for cluster size (Camagni et al. 2015, 2016). For
+Japan, however, there are concerns about following the methods employed in previ-
+ous studies. For example, many residents of Kanagawa Prefecture, which is adjacent
+to Tokyo, commute to Tokyo. In this case, the population size is large relative to
+the economic size of Kanagawa Prefecture, resulting in an overestimation of the BS
+variable. Therefore, GRP is preferable to population size or density as an indicator
+that adequately expresses the economic scale.
+   Distance resistance, which constitutes the BS variable, is the travel time dis-
+tance between the regions. Previous studies have used physical distance as
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                               1119
+
+
+distance resistance (Hansen 1959; Camagni et al. 2015, 2016). However, travel
+time distance should be preferable to physical distance to accurately measure the
+magnitude of traffic between the regions in a business. This is because remote
+regions with a well-developed, high-quality transportation network can access the
+core region more quickly.
+   The calculation of distance resistance d involves a two-step process. Initially,
+the proportion of passengers using each transportation mode (air, rail, and car) is
+determined for every possible origin–destination pair. Subsequently, the distance
+resistance is computed by calculating a weighted average of the travel time for
+each mode, using the previously determined proportions as weights. This calcula-
+tion is represented by a mathematical equation as follows:
+      djkt = Ajkt × air travel time + Bjkt × rail travel time + Cjkt × car travel time,
+
+   Where Ajkt , Bjkt , and Cjkt are the transportation shares in year t, with region j
+as the origin and region k as the destination; A denotes air, B denotes rail, and C
+denotes car.
+   Population density, represented by the DS variable, serves as a proxy for meas-
+uring economies of density. This variable is calculated by dividing the population
+by the habitable land area. Research by Ciccone and Hall (1996) and Ciccone
+(2002) indicates a positive correlation between density and productivity, referred
+to as economies of density. Rosenthal and Strange (2004) found that a twofold
+increase in employment density leads to a 5% to 6% rise in labor productivity,
+attributable to these density-related economic benefits.
+   The TC variable represents the aggregate of transportation-related social
+infrastructure, encompassing the social capital stock of roads, ports, and air-
+ports. Firms in regions with superior transportation infrastructure can benefit
+from reduced travel times, lower transportation expenses, and increased shipping
+capacities (Aschauer 1989). This infrastructure development enhances industries’
+productive potential, allowing them to source inputs more efficiently and opti-
+mize their production facilities, decreasing production costs. Research has dem-
+onstrated that areas with high-quality social capital stocks exhibit greater TFP or
+the Solow residual (Bröcker et al. 2019; Eberts and McMilen 1999; Otsuka and
+Goto 2015; Otsuka 2017).
+   The HC variable is an indicator representing the pool of skilled laborers. Since
+no official statistics exist, the indicator is created by defining it using the follow-
+ing equation:
+                                        ∑ ∑
+                                                wsnt × Lsnt
+                                HCjt ≡ n s                  ,
+                                                Ljt
+
+where j is the region, t is the time, n is the education level (universities, junior col-
+leges, high school), and s is the gender (male or female). w is the wage-to-average
+wage ratio by education level. L is the number of laborers by education. The wages
+of laborers with a university degree or higher are relatively high compared to the
+average wage. Therefore, the HC variable is higher in regions where the number of
+1120                                   Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+laborers with a college degree or higher is higher, and the HC variable is lower in
+regions with many laborers with a high school education or lower.
+   Conventional economic theory recognizes that educational investments enhance
+workers’ human capital and boost productivity. The link between human capital
+and TFP growth has been extensively examined by scholars such as Schultz (1961),
+Becker (1964), Welch (1970), and Maudos et al. (1999). Investing in human capital
+increases employment and per capita income by enabling the workforce to effec-
+tively utilize knowledge, subsequently facilitating knowledge dissemination (Huang
+et al. 2019). Consequently, human capital significantly and enduringly influences
+TFP (Ghosh and Parab 2021; Habib et al. 2019).
+
+
+3.3 Estimation model
+
+There are endogeneity concerns with the estimation of Eq. (2) (Graham 2009). In
+the field of geographical externalities, researchers often assume that the error terms
+in the equation are independent of the regression coefficients. However, this assump-
+tion becomes invalid when dealing with endogenous regression coefficients. The
+factors involved in geographical externalities are linked to productivity and may
+themselves be endogenous variables.
+   Many previous studies have addressed this concern through two-step least squares
+methods with instrumental variables. However, some have reported that the esti-
+mates are unlikely to be biased even if geographical externalities are endogenous.
+For example, Ciccone (2002) and Ciccone and Hall (1996) have shown that esti-
+mating geographical externalities with instrumental variables slightly differs from
+estimating them with the least squares method. Studies by Henderson (2003) and
+Rosenthal and Strange (2004) have also determined that endogenous regression
+coefficients have a minimal effect. However, Combes and Gobillon (2015) have
+pointed out that the issue should be effectively addressed even though solid evidence
+that bias arises from endogeneity is lacking.
+   In this study, we address this concern using dynamic panel estimation, in which
+lags of the explained variable are introduced to the explanatory variables (Arellano
+and Bond 1991). This method addresses the concern that the explanatory variables
+and the error terms will be correlated and inconsistent in the usual ordinary least
+squares estimation (Cameron and Trivedi 2009). This analytical approach is well
+suited for numerous individual effects and limited time-series data scenarios. It
+particularly applies to our research, given that our dataset encompasses a relatively
+brief time frame (18 years) and a wide array of cross-sectional units (47 in total).
+   The estimation model for dynamic panel estimation for Eq. (2) is as follows:
+   ΔlnTFPjt = 𝛼ΔlnTFPjt−1 + 𝛽ΔlnBSjt + 𝛾ΔlnDSjt + 𝛿ΔlnTCjt + 𝜆ΔlnHCjt + Δ𝜀jt ,
+                                                                                   (3)
+where Δ represents the difference. The Greek letters of the regression coefficients in
+the equation are the estimated parameters.
+   If the effect of borrowed size is significant, the sign of β is positive. When the
+effect of population density is manifest, the sign of γ is positive, but when the
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                         1121
+
+
+negative external effect associated with overcrowding is manifest, the sign of γ is
+negative. The sign of δ is positive because traffic capital, as a geographical external-
+ity, raises the productivity of the industry. However, when negative external effects
+such as traffic congestion are large, the sign of δ is negative because transportation
+capital overcrowding reduces the industry’s productivity. The sign of λ is positive
+because an increase in the educational capacity of laborers increases the industry’s
+productivity performance.
+    Short- and long-run elasticities are obtained from the estimated results of Eq. (3).
+We assume that short-run TFP is less responsive to geographical externalities than
+long-run TFP because, while some changes in the production system, such as the
+operation of plants and equipment, can be adjusted immediately, others, such as
+adjustments in the amount of employment or location, cannot. That is, we cannot
+expect the production system to change quickly in response to geographical exter-
+nalities. Therefore, short-term output may deviate from the optimal output in the
+long run. The production system will not adjust immediately to the long-run equi-
+librium but should converge to the optimal level over time if producers are rational.
+    Traditional TFP functions typically omit the lag variable for TFP in their estima-
+tions due to the absence of an adjustment process for productivity performance. This
+approach assumes that production at different time points is unrelated, resulting in
+no lag in the adjustment process. The standard TFP function presumes that expec-
+tations do not incur costs that influence current decisions, which is not a realistic
+assumption. In contrast, the dynamic TFP function model incorporates the adjust-
+ment process of productivity performance, thus including the lag variable of TFP
+in its estimation. This model allows for a gradual adjustment between the optimal
+long-term productivity level and the short-term productivity level. Consequently,
+researchers can derive both short-term and long-term elasticities by utilizing the
+dynamic TFP function model, such as Eq. (3).
+
+
+3.4 Data
+
+The study employs panel data from 2000 to 2018, examining all industries, manu-
+facturing and non-manufacturing industries. The analysis covers 47 prefectures, as
+illustrated in Fig. 1. All original data in this study are accessible to the public and
+can be obtained at no cost.
+    To measure TFP, the study utilizes the Regional-Level Japan Industrial Produc-
+tivity Database (R-JIP), which is published by the Research Institute of Economy,
+Trade and Industry (RIETI). In Japan, few TFP analyses target industries (e.g., Goto
+et al. 2018) because the data for measuring TFP have not been well developed. By
+employing a database that has been newly compiled by the RIETI, we can measure
+TFP by industry from 2000 to 2018. In our analysis, we employ real value added as
+the output (Y) while utilizing labor and capital input as the inputs (X). Labor input
+is quantified through labor hours, and capital input is measured using real capital
+stock. To calculate the cost share of inputs (S), we rely on the labor and capital costs
+recorded in the database.
+1122                                             Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+
+
+Fig. 1  47 Prefectures in Japan. Otsuka (2021)
+
+
+   Data for the BS variables, specifically time–distance data, are sourced from
+the National Integrated Traffic Analysis System (NITAS), which is managed by
+the Ministry of Land, Infrastructure, Transport and Tourism (MLIT). Meanwhile,
+the DS variables utilize population and area statistics from the Social and Demo-
+graphic Statistics System, operated by the Statistics Bureau within the Ministry
+of Internal Affairs and Communications. Data on social capital stock related to
+transportation are from the Cabinet Office. The data on the number of laborers by
+education and wages by education used to create the variables related to the pool
+of skilled laborers are from the Basic Survey on Employment Structure (Statistics
+Bureau, Ministry of Internal Affairs and Communications) and the Basic Survey
+on Wage Structure (Ministry of Health, Labour and Welfare).
+   Descriptive statistics, including the mean, standard deviation, highest and low-
+est values, and the range, are presented in Table 2 at decade-long intervals for the
+dataset. The average TFP for all industries was 0.035 in the 2000s and 0.075 in
+the 2010s, indicating an increase throughout the observation period. The range—
+the difference between the maximum and minimum values of TFP by region—is
+0.727 for the 2000s and 0.761 for the 2010s, showing that TFP for all industries
+in Japan was increasing while simultaneously widening regional disparities.
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                                          1123
+
+
+Table 2  Descriptive statistics
+            TFP index                             BS              DS            TC              HC
+            ALL          MANU       NMANU         (million yen)   (person/ha)   (million yen)   (index)
+
+2000–09
+ Mean           0.035       0.179    – 0.007      128,885,317     13.714         4,878,493      0.744
+ S.D            0.124       0.216   0.118          32,576,330     16.574         3,547,188      0.057
+ Max            0.545       0.866   0.579         236,486,388     93.436        19,414,919      0.895
+ Min          – 0.182     – 0.436    – 0.188       71,952,719      2.522         1,612,596      0.603
+ Range          0.727       1.302   0.767         164,533,669     90.914        17,802,323      0.292
+2010–18
+ Mean           0.075       0.366    – 0.009      129,044,564     13.642         5,221,596      0.812
+ S.D            0.136       0.182   0.134          32,707,597     17.353         3,713,347      0.043
+ Max            0.600       0.902   0.619         241,103,250     97.697        20,199,760      0.934
+ Min          – 0.160     – 0.246    – 0.212       68,708,207      2.366         1,923,977      0.681
+ Range          0.761       1.149   0.831         172,395,043     95.332        18,275,783      0.253
+2000–18
+ Mean           0.054       0.267    – 0.008      128,960,750     13.680         5,041,015      0.776
+ S.D            0.131       0.221   0.126          32,638,672     16.948         3,630,888      0.061
+ Max            0.600       0.902   0.619         241,103,250     97.697        20,199,760      0.934
+ Min          – 0.182     – 0.436    – 0.212       68,708,207      2.366         1,612,596      0.603
+ Range          0.783       1.338   0.831         172,395,043     95.332        18,587,164      0.331
+
+ALL all industries, MANU manufacturing industries, and NMANU represents non-manufacturing indus-
+tries
+
+
+
+    The TFP trends across industries reveal that the manufacturing industry has
+consistently outperformed the non-manufacturing industry in terms of productiv-
+ity. The manufacturing industry experienced continuous growth in TFP through-
+out the study period, whereas the non-manufacturing industry showed mini-
+mal improvement. In addition, the range of TFP in the manufacturing industry
+decreased over time, suggesting a reduction in regional disparities. In contrast,
+the non-manufacturing industry’s TFP range expanded, indicating an increase in
+regional productivity disparities throughout the observation period.
+    In addition, Table 2 displays descriptive statistics for variables related to geo-
+graphical externalities, which influence industry-based TFP. The BS variable
+increased throughout the observation period. While its maximum value increased,
+its minimum value decreased, suggesting that regional disparities in the borrowed
+size may have widened. The DS variable did not change significantly throughout
+the observation period, but its maximum value increased significantly, indicating
+that regional disparities were widening. Both the TC and HC variables increased
+throughout the observation period. However, the difference between the maxi-
+mum and minimum values of the TC variable is widening, while the range of the
+HC variable is shrinking. This suggests that improvements in laborers’ skills are
+progressing nationwide due to the increasing number of highly educated laborers.
+1124                                               Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+4 Results and discussion
+
+The estimation results for Eq. (3) are presented in Table 3. The table displays data
+for three categories: ALL, encompassing all industries; MANU, representing the
+manufacturing industry; and NMANU, denoting the non-manufacturing industry.
+When performing dynamic panel estimation, ensuring that the error terms do not
+exhibit serial correlation is crucial. A reliable estimator can only be achieved when
+this requirement is met. Therefore, an Arellano–Bond test must be performed, and
+while the first-order autocorrelations are allowed to be significant, the second-order
+autocorrelations are not. The results show that the estimation satisfies this condition
+for all models. Furthermore, we conduct a Sargan–Hansen test, an exogenous test for
+instrumental variables; the results indicate that the number of instrumental variables
+is not excessive, so the conditions for dynamic panel estimation are satisfied. The
+calculated coefficients represent elasticities since both the independent and depend-
+ent variables are expressed in logarithmic form. Consequently, a higher estimated
+coefficient value indicates a stronger influence of the independent variable on the
+dependent variable.
+   We first evaluate the estimation results for all industries and find that the signs
+of all regression coefficients are positive, and all variables related to geographi-
+cal externalities positively affect TFP performance; the BS variable is statistically
+
+
+
+
+Table 3  TFP regression in Japan (2000–2018)
+Dependent variable: ΔlnTFP(t)
+                                ALL                                MANU                    NMANU
+
+Regressors
+ ΔlnTFP(t-1)                    0.424 ** (0.034)                   0.446** (0.018)         0.381** (0.051)
+ ΔlnBS                          0.153 * (0.066)                    0.190* (0.085)          0.169** (0.022)
+ ΔlnDS                          0.402 ** (0.048)                   – 0.015 (0.152)         0.151* (0.061)
+ ΔlnTC                          0.244** (0.037)                    0.909** (0.031)         – 0.130** (0.015)
+ ΔlnHC                          0.187 ** (0.001)                   0.132** (0.039)         0.130** (0.016)
+Number of observations          799                                799                     799
+ J-Statistic                    44.458                             44.413                  41.100
+ Prob (J-statistic)             0.369                              0.370                   0.157
+ m-Statistic (AR(1))            – 5.098 **                         – 3.039**               – 3.987**
+ m-Statistic (AR(2))            – 0.510                            1.025                   – 1.011
+Instruments                     ΔTFP(t-2), One period lag of explanatory variables
+
+The regressions are estimated using panel data for all prefectures
+ALL all industries, MANU manufacturing industries, NMANU represents non-manufacturing industries
+The two-step first-difference GMM estimation method is used, and the standard errors are given in paren-
+theses under the coefficients. The statistical significance of the coefficients is noted at either the 1% (**)
+or 5% (*) level. The J-statistic results are obtained from a Sargan–Hansen test of the over-identifying
+restrictions for the two-step GMM estimators. The m-statistics refer to tests for first- and second-order
+serial correlations
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                                  1125
+
+
+significant, and externalities due to inter-regional networks have a positive impact on
+TFP performance. The DS, TC, and HC variables, which represent localized exter-
+nalities, are also statistically significant. In particular, the regression coefficient for
+the DS variable is the largest, indicating that population density strongly influences
+TFP. The TC and HC variables also significantly exceed the borrowed size effect,
+indicating that localized externalities are larger than inter-regional spillovers on pro-
+ductivity performance for all industries and that each relationship is complemen-
+tary. These results support those of previous studies (i.e., Boix and Trullén 2007;
+Tian et al. 2022; Wetwitoo and Kato 2017), suggesting complementary relationships
+between network and localized externalities.
+    Next, we evaluate the estimation results for two industries and find that, on the
+one hand, the BS variable is positive and statistically significant for both the manu-
+facturing and non-manufacturing industries. Further, the regression coefficients
+are larger for the manufacturing industry than for the non-manufacturing industry,
+indicating that the effect of borrowed size on TFP is larger for the manufacturing
+industry. On the other hand, the effects of population density and traffic capital stock
+differ significantly between the manufacturing and non-manufacturing industries;
+the regression coefficients for the DS variable are statistically significant only for
+the non-manufacturing industry. This result suggests that the effect of population
+agglomeration on TFP performance is stronger for the non-manufacturing industry,
+supporting the fact that the non-manufacturing industry is an intra-regional industry.
+The effect of traffic capital stock is large for the manufacturing industry and posi-
+tively affects TFP; since the value of the regression coefficient for the TC variable
+is the largest among the explanatory variables, it is inferred that the enriched trans-
+portation infrastructure has had the greatest influence in the manufacturing indus-
+try’s TFP performance. The effect on the pool of skilled laborers is positive for both
+manufacturing and non-manufacturing industries, but the magnitude of the regres-
+sion coefficient on the HC variable is small, and its effect on TFP performance is the
+least significant among the explanatory variables.
+    Table 4 shows the magnitude of the short- and long-run elasticities to TFP for each
+variable, calculated based on the estimates in Table 3. For all variables, long-run elas-
+ticities exceed short-run ones. For example, the impact of the BS variable is greatest
+in the long run for the manufacturing industry. This indicates that the impact of inter-
+regional network formation on TFP is greater in the manufacturing industry in the long
+run. In particular, the long-term impact of the TC variable on TFP improvement is
+
+
+Table 4  Elasticities
+                ALL                             MANU                     NMANU
+Variables       Short-run       Long-run        Short-run     Long-run   Short-run      Long-run
+
+BS              0.153           0.265             0.190        0.343      0.169          0.274
+DS              0.402           0.697           – 0.015       – 0.028     0.151          0.244
+TC              0.244           0.424             0.909        1.639     – 0.130        – 0.210
+HC              0.187           0.324             0.132        0.237      0.130          0.209
+
+ALL all industries, MANU manufacturing industries, NMANU non-manufacturing industries
+1126                                                Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+substantial. This result indicates that developing high-quality transportation infrastruc-
+ture is likely to significantly improve the productivity performance of the manufactur-
+ing industry through enhanced intra-regional and inter-regional externalities. On the
+other hand, the DS variable has a positive long-run impact only for the non-manufac-
+turing industry. This suggests that the non-manufacturing industry is likely to benefit
+significantly from the size effect of local demand as the increase in population agglom-
+eration results in more efficient sales channel formation.
+   The estimation results for a restricted observation period are presented in Table 5,
+demonstrating the robustness of the findings. Both the serial correlation and Sar-
+gan–Hansen tests yield results that meet the necessary criteria for assessing dynamic
+panel estimation. None of the models shows significant changes in the relative mag-
+nitude of the regression coefficients. Furthermore, the statistical significance of the
+regression coefficients does not show significant change. In other words, the results of
+the models in this study are stable.
+   Finally, using the estimation results in Table 3, the contribution of the BS variable to
+TFP improvement was evaluated based on the following equation:
+                                                   𝛽
+                            Contributionj ≡           × Δ ln BSj,2018−2000
+                                                  1−𝛼
+   where 𝛽∕(1 − 𝛼) denotes the long-run elasticities on the BS variable.
+
+
+
+Table 5  TFP regression in Japan (2000–2015)
+Dependent variable: ΔlnTFP(t)
+                                  ALL                               MANU                    NMANU
+
+Regressors
+ ΔlnTFP(t-1)                      0.294** (0.033)                   0.370** (0.015)         0.401** (0.059)
+ ΔlnBS                            0.248** (0.075)                   0.401** (0.060)         0.212** (0.027)
+ ΔlnDS                            0.398** (0.036)                   – 0.344 (0.152)         0.227* (0.094)
+ ΔlnTC                            0.320** (0.039)                   1.151** (0.023)         – 0.100** (0.023)
+ ΔlnHC                            0.224** (0.056)                   0.197** (0.037)         0.146** (0.020)
+ Number of observations           658                               658                     658
+ J-Statistic                      44.000                            45.060                  34.051
+ Prob (J-statistic)               0.387                             0.345                   0.165
+ m-Statistic (AR(1))              – 4.900**                         – 1.751**               – 3.891**
+ m-Statistic (AR(2))              – 1.350                           0.581                   – 0.935
+ Instruments                      ΔTFP(t-2), One period lag of explanatory variables
+
+The regressions are estimated using panel data for all prefectures
+ALL all industries, MANU manufacturing industries, NMANU represents non-manufacturing industries.
+The two-step first-difference GMM estimation method is used, and the standard errors are given in paren-
+theses under the coefficients
+The statistical significance of the coefficients is noted at either the 1% (**) or 5% (*) level. The J-statistic
+results are obtained from a Sargan–Hansen test of the over-identifying restrictions for the two-step GMM
+estimators. The m-statistics refer to tests for first- and second-order serial correlations
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                                   1127
+
+
+    Figures 1, 2 and 3 show the contribution of the BS variables from 2000 to 2018
+on the vertical axis and TFP in 2000 on the horizontal axis. Figure 2 shows the
+results for all industries, Fig. 3 for manufacturing, and Fig. 4 for non-manufacturing.
+If the relationship between the two variables in each figure is negative, i.e., the rela-
+tionship is declining to the right, it means that the contribution of the BS variable
+was higher in regions where productivity was relatively low at the beginning of the
+period. In other words, the BS variable reduced the TFP disparity throughout the
+observation period. In all figures, a clear rightward relationship is observed.
+    Table 6 shows the correlation test results for the two variables in Figs. 2, 3 and 4.
+In all the cases, the correlation coefficients are negative and statistically significant.
+This result indicates that, in all cases, the BS variable may have reduced regional
+disparities in TFP.
+    Table 6
+    In Japan, Shinkansen lines (bullet train) were extended in the Tohoku and Kyushu
+regions in the 2000s, and the Kyushu Shinkansen line was fully opened in the 2010s,
+significantly reducing the extended regions’ travel time for accessing large met-
+ropolitan areas. Therefore, it is highly likely that the productivity performance of
+industries located in the Tohoku and Kyushu regions, which had low productivity
+in the early 2000s, has improved significantly due to the development of high-qual-
+ity transportation. The results of this study suggest that developing a high-quality
+
+
+
+
+Fig. 2  Relationship between contribution of the BS index and initial TFP. (All industries)
+1128                                            Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+
+
+Fig. 3  Relationship between contribution of the BS index and initial TFP. (Manufacturing)
+
+
+transportation network may significantly contribute to improving industries’ produc-
+tivity performance.
+
+
+5 Conclusion
+
+To assess the effect of inter-regional networks on industries’ productivity perfor-
+mance, this study statistically evaluates geographical externalities affecting TFP
+using a dynamic TFP function approach. In particular, this study examines the
+importance of localized and inter-regional spillover externalities in determining
+Industry-based TFP. The results indicate that the borrowed size effect influences
+the TFP of both manufacturing and non-manufacturing industries. In particular, the
+long-run effect of borrowed size was larger for manufacturing industries, indicating
+that geographical externalities interact across regional boundaries in the long run
+as high-quality transportation networks expand the geographic scope of production
+activities.
+   The study also finds that the contribution of borrowed size effects to TFP
+improvement differs significantly across regions, with the impact of these
+effects being greater in less productive regions than in more productive ones. In
+other words, low-productivity regions may improve their TFP by connecting to
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                                          1129
+
+
+
+
+Fig. 4  Relationship between contribution of the BS index and initial TFP. (Non-manufacturing)
+
+Table 6  Correlation statistics in                            ALL          MANU                  NMANU
+Figs. 1, 2, and 3
+                                     Correlation coef-        – 0.427      – 0.368               – 0.369
+                                      ficient
+                                     t-value                  3.164        2.657                 2.663
+                                     p-value                  0.003        0.011                 0.011
+
+                                     ALL represents all industries, MANU represents manufacturing
+                                     industries, NMANU represents non-manufacturing industries
+
+
+inter-regional networks and strengthening their relationships with other regions,
+allowing the externalities of other regions to spill over inward through increased
+opportunities for interactions among regions.
+   Furthermore, this study confirms the importance of localized externalities for
+both manufacturing and non-manufacturing industries. The impact of localized
+external economies on TFP performance is particularly large in the non-manufac-
+turing industry; therefore, this reflects how the non-manufacturing market is limited
+within the region. Thus, we conclude that the borrowed size effect complements the
+localized external economy within the region.
+   The results of this study suggest that to effectively improve the productivity
+performance of industries, both strategically strengthening individual regions and
+1130                                                Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+developing a high-quality transportation network that connects regions are essen-
+tial. Connecting clusters with a high-quality rapid transit network and strengthening
+inter-regional linkages will result in significant between-region externality spillo-
+vers, which were previously region-bound. A high-quality transportation network
+can expand externalities over a wider area through enhanced borrowed size effects.
+   Furthermore, many developed countries aim to enhance economic sustainability
+by promoting regional innovation. If the desired growth strategy is formulated from
+the perspective of the location environment, the development of skilled laborers will
+likely increase industrial competitiveness across all industries. The results of this
+study confirm that improving labor skills contributes to improving the productiv-
+ity performance of industries. Policy support for regional universities and research
+institutes can effectively increase an industry’s productivity performance.
+   While this study provides unique insights, we could not fully discuss the possibil-
+ity of spatial autocorrelation; nevertheless, spatial interactions exist in the produc-
+tion activities of economic agents (Rice et al. 2006). A credible, dynamic panel esti-
+mation that considers spatial autocorrelation has not been fully developed, making it
+difficult to statistically address the possibility of spatial autocorrelation in this study.
+This issue should be addressed by developing analytical methods in the future.
+
+
+Funding This study was supported by the Japan Society for the Promotion of Science under Grant No.
+22K01501.
+
+ Data availability The datasets used and/or analyzed during the current study are available from the cor-
+responding author on request. Data Source: The data utilized in this study is accessible to the public at
+the following web address:Regional-Level Japan Industrial Productivity Database (R-JIP) (in Japanese)
+https://​www.​rieti.​go.​jp/​jp/​datab​ase/r-​jip/, NITAS (National Integrated Transport Analysis System) (in
+Japanese) https://​www.​mlit.​go.​jp/​sogos​eisaku/​soukou/​sogos​eisaku_​soukou_​tk_​000055.​html, Social and
+Demographic Statistics System (in Japanese) https://​www.​stat.​go.​jp/​data/​ssds/​index.​html, Social Capital
+Stock Estimation Data (in Japanese) https://​www5.​cao.​go.​jp/​keiza​i2/​ioj/​result/​ioj_​data.​html, Basic Sur-
+vey on Employment Structure (in Japanese) https://​www.​stat.​go.​jp/​data/​shugy​ou/​kako/​index.​html, Basic
+Survey on Wage Structure (in Japanese) https://​www.​mhlw.​go.​jp/​toukei/​list/​ching​inkou​zou.​html.
+
+Declarations
+Conflict of interest The author declares that this manuscript has no conflicts of interest.
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License,
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permis-
+sion directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/
+licenses/by/4.0/.
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                                            1131
+
+
+References
+Abdesslem AB, Chiappini R (2019) Cluster policy and firm performance: a case study of the French
+     Optic/Photonic industry. Reg Stud 53(5):692–705. https://​doi.​org/​10.​1080/​00343​404.​2018.​14703​24
+Acs ZJ, Anselin L, Varga A (2002) Patents and innovation counts as measures of regional production of
+     new knowledge. Res Policy 31:1069–1085. https://​doi.​org/​10.​1016/​S0048-​7333(01)​00184-6
+Alonso W (1973) Urban zero population growth. Daedalus 102(4):191–206
+Arellano M, Bond SR (1991) Some tests of specification for panel data: Monte Carlo evidence and an
+     application to employment equations. Rev Econ Stud 58(2):277–297. https://​doi.​org/​10.​2307/​22979​
+     68
+Aschauer DA (1989) Is public expenditure productive? J Monet Econ 23(2):177–200. https://​doi.​org/​10.​
+     1016/​0304-​3932(89)​90047-0
+Asheim BT, Coenen L (2006) Contextualising regional innovation systems in a globalising learning
+     economy: on knowledge bases and institutional frameworks. J Technol Transfer 31:163–173.
+     https://​doi.​org/​10.​1007/​s10961-​005-​5028-0
+Aw BY, Chen X, Roberts MJ (2001) Firm-level evidence on productivity differentials and turnover in
+     Taiwanese manufacturing. J Develop Econ 66(1):51–86. https://​doi.​org/​10.​1016/​S0304-​3878(01)​
+     00155-9
+Becker GS (1964) Human capital: A theoretical and empirical analysis with special reference to edu-
+     cation. National Bureau of Economic Research (NBER), New York
+Boix R, Trullén J (2007) Knowledge, networks of cities and growth in regional urban systems. Pap
+     Reg Sci 86:551–574. https://​doi.​org/​10.​1111/j.​1435-​5957.​2007.​00139.x
+Boschma R (2005) Proximity and innovation: a critical assessment. Reg Stud 39:61–74. https://​doi.​
+     org/​10.​1080/​00343​40052​00032​0887
+Bröcker J, Dohse D, Rietveld P (2019) Infrastructure and regional development. In: Capello R,
+     Nijkamp P (eds) Handbook of regional growth and development theories. Edward Elgar Publish-
+     ing, Cheltenham, pp 172–197
+Burger MJ, Meijers E (2016) Agglomerations and the rise of urban network externalities. Pap Reg Sci
+     95:5–15. https://​doi.​org/​10.​1111/​pirs.​12223
+Burger MJ, Meijers EJ, Hoogerbrugge MM, Tresserra JM (2015) Borrowed size, agglomeration shad-
+     ows and cultural amenities in North-West Europe. Eur Plan Stud 23(6):1090–1109. https://​doi.​
+     org/​10.​1080/​09654​313.​2014.​905002
+Camagni R (1993) From city hierarchy to city networks: Reflections about an emerging paradigm. In:
+     Lakshmanan LTR, Nijkamp P (eds) Structure and change in the space economy: Festschrift in
+     honour of Martin Beckmann. Springer Verlag, Berlin, pp 66–87
+Camagni R, Capello R (2004) The city network paradigm: Theory and empirical evidence. Contrib
+     Econom Anal 266:495–529. https://​doi.​org/​10.​1016/​S0573-​8555(04)​66016-0
+Camagni R, Capello R, Caragliu A (2015) The rise of second-rank cities: what role for agglomeration
+     economies? Eur Plan Stud 23(6):1069–1089. https://​doi.​org/​10.​1080/​09654​313.​2014.​904999
+Camagni R, Capello R, Caragliu A (2016) Static vs. dynamic agglomeration economies. Spatial con-
+     text and structural evolution behind urban growth. Pap Reg Sci 95(1):133–158. https://​doi.​org/​
+     10.​1111/​pirs.​12182
+Cameron CA, Trivedi PK (2009) Microeconometrics using Stata. Stata Press, College Station
+Capello R (2000) The city network paradigm: Measuring urban network externalities. Urban Stud
+     37(11):1925–1945. https://​doi.​org/​10.​1080/​71370​7232
+Carlino G, Kerr WR (2015) Agglomeration and innovation. In: Duranton G, Henderson JV, Strange W
+     (eds) The handbook of regional and urban economics, vol 5A. Elsevier, Amsterdam, pp 349–404
+Castells M (1996) The rise of the network society. Blackwell Publishing, Oxford
+Ciccone A (2002) Agglomeration effects in Europe. Eur Econ Rev 46(2):213–227. https://​doi.​org/​10.​
+     1016/​S0014-​2921(00)​00099-4
+Ciccone A, Hall R (1996) Productivity and the density of economic activity. Am Econ Rev
+     86(1):54–70
+Combes PP, Gobillon L (2015) The empirics of agglomeration economies. In: Duranton G, Henderson
+     JV, Strange W (eds) The handbook of regional and urban economics, vol 5A. Elsevier, Amster-
+     dam, pp 247–348
+Cooke P, Asheim B, Boschma R, Martin R (2011) Handbook of regional innovation and growth.
+     Edward Elgar Publishing, Cheltenham
+1132                                              Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+Dijkstra L, Garcilazo E, McCann P (2013) The economic performance of European cities and city
+      regions: Myths and realities. Eur Plan Stud 21(3):334–354. https://​doi.​org/​10.​1080/​09654​313.​
+      2012.​716245
+Eberts RW, McMilen DP (1999) Agglomeration economies and urban public infrastructure. In:
+      Cheshir P, Mill ES (eds) Handbook of regional and urban economics, vol 3. Elsevier, Amster-
+      dam, pp 1455–1495
+Fu W, Luo C, Yan M (2023) Does urban agglomeration promote the development of cities? Evidence
+      from the urban network externalities. Sustainability 15(12):9850. https://​doi.​org/​10.​3390/​su151​
+      29850
+Fujita M, Thisse J (2002) Economics of agglomeration. Cambridge University Press, Cambridge
+Fujita M, Krugman PR, Mori T (1999) On the evolution of hierarchical urban systems. Eur Econ Rev
+      43(2):209–251. https://​doi.​org/​10.​1016/​S0014-​2921(98)​00066-X
+Ghosh T, Parab PM (2021) Assessing India’s productivity trends and endogenous growth: new evidence
+      from technology, human capital, and foreign direct investment. Econ Model 97:182–195. https://​doi.​
+      org/​10.​1016/j.​econm​od.​2021.​02.​003
+Good DH, Nadiri MI, Sickles RC (1997) Index number and factor demand approaches to the estimation
+      of productivity. In: Pesaran Hashem M, Schmidt P (eds) Handbook of applied econometrics: micro-
+      econometrics 2. Blackwell Publishers, Oxford, pp 13–74
+Goto M, Atris AM, Otsuka A (2018) Productivity change and decomposition analysis of Japanese
+      regional economies. Reg Stud 52(11):1537–1547. https://​doi.​org/​10.​1080/​00343​404.​2017.​14132​38
+Graham DJ (2009) Identifying urbanization and localization externalities in manufacturing and service
+      industries. Pap Reg Sci 88(1):63–84. https://​doi.​org/​10.​1111/j.​1435-​5957.​2008.​00166.x
+Grillitsch M, Nilsson M (2015) Innovation in peripheral regions: Do collaborations compensate
+      for a lack of local knowledge spillovers? Ann Reg Sci 54:299–321. https://​doi.​org/​10.​1007/​
+      s00168-​014-​0655-8
+Habib M, Abbas J, Noman R (2019) Are human capital, intellectual property rights, and research and
+      development expenditures really important for total factor productivity? An empirical analysis. Int J
+      Soc Econ 46(6):756–774. https://​doi.​org/​10.​1108/​IJSE-​09-​2018-​0472
+Hall P, Pain K (2006) The polycentric metropolis: Learning from mega-city regions in Europe. Earthscan,
+      London
+Hansen WG (1959) How accessibility shapes land use. J Am Inst Plan 25:73–76. https://​doi.​org/​10.​1080/​
+      01944​36590​89783​07
+Henderson JV (2003) Marshall’s scale economies. J Urban Econ 53(1):1–28. https://​doi.​org/​10.​1016/​
+      S0094-​1190(02)​00505-3
+Hesse M (2016) On borrowed size, flawed urbanisation and emerging enclave spaces: The exceptional
+      urbanism of Luxembourg. Luxembourg Eur Urban Reg Stud 23(4):612–627. https://​doi.​org/​10.​
+      1177/​09697​76414​528723
+Hornbeck R, Michaels G, Rauch F (2024) Identifying agglomeration shadows: long-run evidence from
+      ancient ports. NBER Working Paper 32634
+Huang J, Cai X, Huang S, Tian S, Lei H (2019) Technological factors and total factor productivity in
+      China: evidence-based on a panel threshold model. China Econ Rev 54:271–285. https://​doi.​org/​10.​
+      1016/j.​chieco.​2018.​12.​001
+Huang Y, Tao H, Tao M (2020) Urban network externalities, agglomeration economies and urban eco-
+      nomic growth. Cities 107:102882. https://​doi.​org/​10.​1016/j.​cities.​2020.​102882
+Jiang J, Xu Z, Lu J, Sun D (2022) Does network externality of urban agglomeration benefit urban eco-
+      nomic growth—A case study of the Yangtze River delta. Land 11(4):586. https://​doi.​org/​10.​3390/​
+      land1​10405​86
+Johansson B, Quigley JM (2003) Agglomeration and networks in spatial economies. Pap Reg Sci
+      83(1):165–176. https://​doi.​org/​10.​1007/​s10110-​003-​0181-z
+Lam A (2000) Tacit knowledge, organizational learning and societal institutions: An integrated frame-
+      work. Organ Stud 21:487–513. https://​doi.​org/​10.​1177/​01708​40600​213001
+Liu H, Li X, Li S, Tian S, Gong Y, Guan Y, Sun H (2023) Agglomeration externalities, network exter-
+      nalities and urban high-quality development: a case study of urban agglomeration in the middle
+      reaches of the Yangtze River. ISPRS Int J Geo Inf 11(11):555. https://​doi.​org/​10.​3390/​ijgi1​11105​55
+Ma J, Liu T (2022) Does the high-speed rail network improve economic growth? Pap Reg Sci 101:183–
+      208. https://​doi.​org/​10.​1111/​pirs.​12641
+Maudos J, Pastora JM, Serranoa L (1999) Total factor productivity measurement and human capital in
+      OECD countries. Econ Lett 6(6):389–392. https://​doi.​org/​10.​1080/​13504​85993​53159
+Asia-Pacific Journal of Regional Science (2024) 8:1111–1134                                           1133
+
+
+McCann P, Acs ZJ (2011) Globalization: countries, cities and multinationals. Reg Stud 45(1):17–32.
+     https://​doi.​org/​10.​1080/​00343​404.​2010.​505915
+Meijers EJ (2005) Polycentric urban regions and the quest for synergy: Is a network of cities more than
+     the sum of the parts? Urban Studies 42(4):765–781. https://​doi.​org/​10.​1080/​00420​98050​00603​84
+Meijers EJ, Burger MJ (2017) Stretching the concept of ‘borrowed size.’ Urban Stud 54(1):269–291.
+     https://​doi.​org/​10.​1177/​00420​98015​597642
+Meijers EJ, Burger MJ, Hoogerbrugge M (2016) Borrowing size in networks of cities: City size, net-
+     work connectivity and metropolitan functions in Europe. Pap Reg Sci 95:181–198. https://​doi.​org/​
+     10.​1111/​pirs.​12181
+Melo PS, Graham DJ, Levinson D, Aarabi S (2017) Agglomeration, inter-regional networks and produc-
+     tivity: evidence for large metropolitan areas in the US. Urban Stud 54(1):179–195. https://​doi.​org/​
+     10.​1177/​00420​98015​624850
+Otsuka A (2017) Regional determinants of total factor productivity in Japan: stochastic frontier analy-
+     sis. Ann Reg Sci 58(3):579–596. https://​doi.​org/​10.​1007/​s00168-​017-​0808-7
+Otsuka A (2018) Dynamics of agglomeration, accessibility, and total factor productivity: evidence
+     from Japanese regions. Econ Innov New Tech 27(7):611–627. https://​doi.​org/​10.​1080/​10438​599.​
+     2017.​13841​10
+Otsuka A (2020a) Inter-regional networks and productive efficiency in Japan. Pap Reg Sci 99(1):115–
+     133. https://​doi.​org/​10.​1111/​pirs.​12474
+Otsuka A (2020b) A new approach to inter-regional network economies in Japan. Reg Sci Policy Pract
+     13(3):1051–1067. https://​doi.​org/​10.​1111/​rsp3.​12291
+Otsuka A (2021) A new driver of regional sustainability in Japan. Springer Singapore. https://​doi.​org/​
+     10.​1007/​978-​981-​16-​3709-4
+Otsuka A (2024a) Impacts of enhancing regional network economies on regional productivity and
+     productive efficiency in Japan: evaluation from stochastic frontier analysis. Asia-Pacific J Reg
+     Sci 8(1):25–43. https://​doi.​org/​10.​1007/​s41685-​023-​00321-7
+Otsuka A (2024b) Regional convergence of total factor productivity in Japanese industries: evidence
+     from the twenty-first century industry data. Asia-Pacific J Reg Sci 8(1):165–184. https://​doi.​org/​
+     10.​1007/​s41685-​023-​00323-5
+Otsuka A, Goto M (2015) Agglomeration economies in Japanese industries: the Solow residual
+     approach. Ann Reg Sci 54(2):401–416. https://​doi.​org/​10.​1007/​s00168-​015-​0659-z
+Otsuka A, Goto M (2016) Total factor productivity and the convergence of disparities in Japanese
+     regions. Ann Reg Sci 56(2):419–432. https://​doi.​org/​10.​1007/​s00168-​016-​0745-x
+Otsuka A (2008) Economic analysis of industrial agglomeration. Daikagu Kyoiku Shuppan, Okayama.
+     (in Japanese)
+Parr JB (2002) Agglomeration economies: ambiguities and confusions. Environ Plan A 34(4):717–
+     732. https://​doi.​org/​10.​1068/​a34106
+Phelps NA, Ozawa T (2003) Contrasts in agglomeration: Proto-industrial, industrial and post-indus-
+     trial forms compared. Prog Human Geogr 27(5):583–604. https://​doi.​org/​10.​1191/​03091​32503​
+     ph449​oa
+Phelps N, Fallon R, Williams C (2001) Small firms, borrowed size and the urban-rural shift. Reg Stud
+     35(7):613–624. https://​doi.​org/​10.​1080/​00343​40012​00758​85
+Rice P, Venables AJ, Patacchini E (2006) Spatial determinants of productivity: Analysis for the
+     regions of Great Britain. Reg Sci Urban Econ 36(6):727–752. https://​doi.​org/​10.​1016/j.​regsc​
+     iurbe​co.​2006.​03.​006
+Rosenthal S, Strange W (2004) Evidence on the nature and sources of agglomeration economies. In:
+     Henderson JV, Thisse JF (eds) The handbook of regional and urban economics, vol 4. Elsevier,
+     Amsterdam, pp 2119–2171
+Schultz TW (1961) Investment in human capital. Am Econ Rev 51(1):1–17
+Tang C, Guan M, Dou J (2021) Understanding the impact of high speed railway on urban innova-
+     tion performance from the perspective of agglomeration externalities and network externalities.
+     Technol Soc 67:101760. https://​doi.​org/​10.​1016/j.​techs​oc.​2021.​101760
+Tian M, Wang Y, Wang Y (2022) High-speed rail network and urban agglomeration economies:
+     research from the perspective of urban network externalities. Socio-Econ Plan Sci 85:101442.
+     https://​doi.​org/​10.​1016/j.​seps.​2022.​101442
+Trippl M (2011) Regional innovation systems and knowledge-sourcing activities in traditional indus-
+     tries—evidence from the Vienna food sector. Environ Plan A 43:1599–1616. https://​doi.​org/​10.​
+     1068/​a4416
+1134                                           Asia-Pacific Journal of Regional Science (2024) 8:1111–1134
+
+
+Varga A (1999) Time-space patterns of US innovation: stability or change? In: Fisher MM, Suarez-
+    Villa L, Steiner M (eds) Innovation, networks and localities. Springer Publishing, New York, pp
+    215–234
+Watanabe C (2001) Measurement and analysis of technological innovation. JUSE Press, Tokyo (in
+    Japanese)
+Welch F (1970) Education in Production J Pol Econ 78(1):35–59. https://​doi.​org/​10.​1086/​259599
+Wetwitoo J, Kato H (2017) Inter-regional transportation and economic productivity: a case study of
+    regional agglomeration economies in Japan. Ann Reg Sci 59(2):321–344. https://​doi.​org/​10.​1007/​
+    s00168-​017-​0833-6
+Yang W, Fan F, Wang X, Yu H (2022) Knowledge innovation network externalities in the Guangdong-
+    Hong Kong–Macao Greater Bay Area: Borrowing size or agglomeration shadow? Technol Anal
+    Strateg Manag 34(9):1020–1037. https://​doi.​org/​10.​1080/​09537​325.​2021.​19409​22
+Zheng X, Zhang X, Fan D (2023) Research on the coordinated development of innovation ability
+    and regional integration in Guangdong-Hong Kong–Macao Greater Bay Area. Sustainability
+    15(4):3426. https://​doi.​org/​10.​3390/​su150​43426
+
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps
+and institutional affiliations.
+
