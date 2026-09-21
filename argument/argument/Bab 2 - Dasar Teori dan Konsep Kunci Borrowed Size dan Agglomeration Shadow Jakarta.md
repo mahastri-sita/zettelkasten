@@ -4,7 +4,7 @@
 
 ## Kedudukan dokumen
 
-Dokumen ini diturunkan dari arah penelitian dalam [[Skripsi S1 - Borrowed Size dan Agglomeration Shadow Jakarta]], struktur Bab 2 pada [[source/official-document/Template TGA Penelitian 2026.docx|Template TGA Penelitian 2026]], batas klaim dalam [[output/permohonan_data/skenario_akses_data_metodologis_revisi.pdf]] dan [[output/permohonan_data/skenario_akses_data_64.pdf]], serta pilihan bacaan perencanaan dalam [[output/atlas/atlas_masalah_mazhab_dan_sumber_keilmuan_urban_planning_interaktif.html]].
+Dokumen ini diturunkan dari arah penelitian dalam [[Skripsi S1 - Borrowed Size dan Agglomeration Shadow Jakarta]], struktur Bab 2 pada [[source/official-document/Template TGA Penelitian 2026.docx|Template TGA Penelitian 2026]], batas klaim dalam [[output/naskah/bab_1/bab_1_pendahuluan_draf|Bab 1]] dan [[output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja|Bab 3]], serta pilihan bacaan perencanaan dalam [[output/atlas/atlas_masalah_mazhab_dan_sumber_keilmuan_urban_planning_interaktif.html]].
 
 Struktur template memisahkan tiga pekerjaan yang memang tampak mirip, tetapi mempunyai fungsi berbeda:
 
@@ -15,6 +15,12 @@ Struktur template memisahkan tiga pekerjaan yang memang tampak mirip, tetapi mem
 | **2.3 Kerangka teori/konseptual** | Mengapa dan melalui mekanisme apa antarkonsep dapat berhubungan? | Rantai mekanisme, konstruk, indikator, proposisi, batas klaim, dan diagram | Mengulang definisi 2.1 atau langsung melompat ke indeks tanpa mekanisme |
 
 Dengan demikian, **konsep kunci adalah kosakata penelitian**, sedangkan **kerangka teori adalah tata hubungan dan mekanisme yang menghubungkan kosakata tersebut**.
+
+## Arah pengukuran yang ditetapkan
+
+Penelitian ini sepenuhnya bertumpu pada proksi dan sumber terbuka, tanpa ketergantungan pada permohonan data tertutup. Data pemerintah yang terbuka tetap dapat digunakan. Pemilihan sumber mengikuti kesesuaian konstruk, cakupan spasial dan temporal, keterulangan pengolahan, serta biaya pemerolehan; status resmi tidak menjadi ukuran mutu dengan sendirinya.
+
+Desain penelitian bersifat multitemporal sesuai bukti: perubahan dianalisis pada indikator dengan seri yang sebanding, sedangkan indikator lain dianalisis pada periode yang tersedia. Tahun dasar dan rentang analisis ditetapkan per modul setelah audit; panel lengkap dan satu tahun jangkar untuk semua sumber tidak diasumsikan. Konstruk teoretis tetap dipisahkan dari indikatornya. Proksi yang dibangun dari lokasi usaha, atribut layanan, bangunan, jaringan, dan informasi operator dapat menjadi pengukuran utama, termasuk estimasi pekerjaan dan relasi. Validasi dapat menggunakan sumber terbuka independen dan pemeriksaan terarah; tidak mensyaratkan data tertutup.
 
 ## Keputusan arsitektur teoretis
 
@@ -284,7 +290,7 @@ Jika desain Bab 3 mendukung pengujian inferensial, proposisi berikut dapat diuba
 
 Label *borrowed size* atau *agglomeration shadow* hanya digunakan jika empat syarat terpenuhi:
 
-1. **Bukti relasional:** ada hubungan dengan Jakarta, bukan hanya kedekatan atau waktu tempuh.
+1. **Bukti relasional:** hubungan dengan Jakarta ditopang pengamatan atau estimasi yang diperiksa terhadap bukti independen; jarak atau waktu tempuh saja belum mengidentifikasi hubungan yang terealisasi.
 2. **Pembanding substantif:** fungsi aktual dibandingkan dengan ekspektasi ukuran pada unit yang memadai.
 3. **Kompatibilitas:** unit, periode, wilayah tangkapan, populasi sasaran, dan konstruk cukup sepadan.
 4. **Ketahanan:** hasil tidak bergantung pada satu proksi lemah atau satu keputusan teknis.
@@ -293,7 +299,7 @@ Jika salah satu syarat utama tidak terpenuhi, gunakan istilah seperti “aksesib
 
 ### 2.3.6 Klaim yang dapat dan tidak dapat dibuat
 
-**Dapat dibuat dengan desain *status quo* dan sensitivitas:** pola spasial, asosiasi, arus, aksesibilitas potensial, surplus/defisit relatif, tipologi relasional, multidimensionalitas, serta kestabilan klasifikasi.
+**Dapat dibuat dengan desain multitemporal sesuai bukti dan sensitivitas:** pola spasial, asosiasi, arus, aksesibilitas potensial, surplus/defisit relatif, tipologi relasional, multidimensionalitas, perubahan pada seri sebanding, serta kestabilan klasifikasi. Estimasi relasi dan fungsi tetap dilabeli menurut cara pembentukannya; perubahan pencatatan tidak disamakan dengan perubahan fenomena.
 
 **Belum dapat dibuat tanpa desain tambahan:** Jakarta secara kausal “mengisap” pusat tertentu; integrasi menyebabkan produktivitas; perubahan bobot pada WebGL memprediksi masa depan; terdapat radius optimal universal; atau batas administratif harus diubah.
 

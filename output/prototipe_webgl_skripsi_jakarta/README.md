@@ -1,5 +1,8 @@
 # Medan Relasional Jakarta
 
+> **Rekaman historis — arah metodologis digantikan pada 18 September 2026.** Isi berikut merekam eksplorasi atau penilaian atas rancangan lama. Rancangan aktif sepenuhnya memakai proksi dan sumber terbuka serta multitemporal sesuai bukti; lihat [[output/naskah/bab_1/bab_1_pendahuluan_draf|Bab 1]] dan [[output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja|Bab 3]]. Hierarki akses, kewajiban data tertutup, dan batas potong lintang dalam rekaman ini bukan arahan kerja aktif. Locator halaman lama tetap merujuk dokumen yang dahulu diaudit, bukan naskah terbaru.
+
+
 Prototipe WebGL satu layar untuk memperkenalkan rancangan skripsi tentang integrasi metropolitan, residual fungsi, manfaat–beban, dan ketahanan diagnosis. Antarmuka dibuat sebagai instrumen presentasi, bukan sebagai dashboard hasil analisis.
 
 > **Ilustrasi prototipe — bukan hasil penelitian.** Seluruh nilai titik, arus, klasifikasi, dan perubahan antarskenario adalah data sintetis untuk mendemonstrasikan logika metode.
@@ -42,7 +45,7 @@ Klasifikasi mengikuti aturan kerja rancangan: `borrowed size`, `agglomeration sh
 - Titik `Pusat A–F`, seluruh metrik, dan seluruh arus dibuat khusus sebagai data demo. Nama kota pada basemap hanya membantu orientasi; titik tidak mengklaim delineasi pusat sekunder final.
 - Batas administratif lokal menggunakan geoBoundaries `gbOpen` Indonesia ADM2, boundary ID `IDN-ADM2-22746128`, tahun representasi 2020, lisensi `CC BY 3.0 IGO`. Metadata lengkap tersimpan di `public/data/boundary_metadata.json`. Geometri hanya dipakai sebagai konteks kartografis.
 - Basemap menggunakan gaya Positron dari OpenFreeMap, dengan data OpenStreetMap/OpenMapTiles dan atribusi tetap tersedia pada peta. Basemap memerlukan internet; bila tile gagal, batas lokal dan seluruh layer demo tetap ditampilkan.
-- Rujukan substantif utama adalah `../naskah/kompilasi/bab_1_3_skenario_metodologis_dasar_teori_penelitian_terdahulu_dan_metode_penelitian_printable.pdf`. PDF dan catatan riset lain tidak diubah.
+- Rujukan substantif aktif adalah `../naskah/bab_1/bab_1_pendahuluan_draf.md` dan `../naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja.md`. Prototipe ini mempertahankan ilustrasi skenario lama sebagai rekaman eksplorasi.
 
 ## Teknologi dan batas performa
 

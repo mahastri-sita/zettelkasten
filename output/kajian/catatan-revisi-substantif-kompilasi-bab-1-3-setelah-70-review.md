@@ -1,16 +1,22 @@
 # Catatan Revisi Substantif Kompilasi Bab 1-3 Setelah 70 Review
 
+> **Rekaman historis — arah metodologis digantikan pada 18 September 2026.** Isi berikut merekam eksplorasi atau penilaian atas rancangan lama. Rancangan aktif sepenuhnya memakai proksi dan sumber terbuka serta multitemporal sesuai bukti; lihat [[output/naskah/bab_1/bab_1_pendahuluan_draf|Bab 1]] dan [[output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja|Bab 3]]. Hierarki akses, kewajiban data tertutup, dan batas potong lintang dalam rekaman ini bukan arahan kerja aktif. Locator halaman lama tetap merujuk dokumen yang dahulu diaudit, bukan naskah terbaru.
+
 > **Status:** memo usulan revisi substantif, bukan naskah Bab 1-3 final.
 >
 > **Tanggal:** 10 September 2026.
 >
 > **Fokus:** koherensi antara pertanyaan, konstruk, operasi analitis, tipologi, dan klaim dalam kompilasi lama. Memo ini tidak menilai kemungkinan diperoleh atau tidak diperolehnya data.
 
+## Implikasi bagi rancangan aktif
+
+Revisi 18 September 2026 mempertahankan kebutuhan pengujian asosiasi, pemisahan konstruk, pencegahan sirkularitas, dan ketidakpastian. Lantai M2/U2 tidak digunakan sebagai syarat berdasarkan jenis sumber: estimasi relasi serta fungsi dapat menjadi dasar analisis apabila pemeriksaan independen dan kesesuaian konstruk mendukung. Data beberapa tahun digunakan pada seri yang sebanding. Penilaian memo di bawah tetap merupakan penilaian historis, bukan audit atas revisi terbaru.
+
 ## Bahan Tinjauan
 
 Tinjauan ini membandingkan:
 
-- `output/naskah/kompilasi/bab_1_3_skenario_metodologis_dasar_teori_penelitian_terdahulu_dan_metode_penelitian_printable.pdf`;
+- kompilasi metodologis lama (berkas dihapus pada 18 September 2026; locator historis);
 - `output/kajian/tier-list-kajian-pendahuluan.md`;
 - `output/kajian/prioritas-penelitian-terdahulu-10-20-30.md`;
 - 70 file `output/kajian/review-<kode>.md` yang mendasari kedua sintesis tersebut;

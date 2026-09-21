@@ -1,200 +1,62 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
-\documentclass[
-  indonesian,
-  11pt,
-  a4paper,
-  oneside,
-  openany]{report}
-\usepackage{xcolor}
-\usepackage{amsmath,amssymb}
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\usepackage{iftex}
-\ifPDFTeX
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \usepackage{unicode-math} % this also loads fontspec
-  \defaultfontfeatures{Scale=MatchLowercase}
-  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-\usepackage{lmodern}
-\ifPDFTeX\else
-  % xetex/luatex font selection
-  \setmainfont[]{Charter}
-  \setsansfont[]{Arial}
-  \setmonofont[]{Menlo}
-\fi
-% Use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
-\usepackage{longtable,booktabs,array}
-\usepackage{caption}
-\captionsetup[table]{skip=6pt}
-\newcounter{none} % for unnumbered tables
-\usepackage{calc} % for calculating minipage widths
-% Correct order of tables after \paragraph or \subparagraph
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
-\makeatother
-% Allow footnotes in longtable head/foot
-\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
-\makesavenoteenv{longtable}
-\ifLuaTeX
-\usepackage[bidi=basic,shorthands=off,provide=*]{babel}
-\else
-\usepackage[bidi=default,shorthands=off,provide=*]{babel}
-\fi
-\ifPDFTeX
-\else
-\babelfont{rm}[]{Charter}
-\fi
-\ifLuaTeX
-  \usepackage{selnolig} % disable illegal ligatures
-\fi
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-% Gaya formal monokrom untuk draf Bab 3.
+\documentclass[11pt,a4paper,oneside,openany,indonesian]{report}
 \usepackage[a4paper,top=25mm,bottom=25mm,left=30mm,right=25mm,headheight=16pt,headsep=7mm,footskip=12mm]{geometry}
-\usepackage{microtype}
-\usepackage{setspace}
-\usepackage{ragged2e}
-\usepackage{titlesec}
-\usepackage{enumitem}
-\usepackage{needspace}
-\usepackage{etoolbox}
-\usepackage{array}
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{tabularx}
-\usepackage{adjustbox}
-\usepackage{float}
-\usepackage{fancyhdr}
-\usepackage{newunicodechar}
-\newunicodechar{∅}{\ensuremath{\varnothing}}
+\usepackage{iftex}
+\ifLuaTeX
+  \usepackage[bidi=basic,shorthands=off,provide=*]{babel}
+\else
+  \usepackage[bidi=default,shorthands=off,provide=*]{babel}
+\fi
+\ifPDFTeX\else\babelfont{rm}[]{Charter}\fi
+\usepackage{hyperref}
+\input{tga-preamble.tex}
 
-\definecolor{Ink}{HTML}{222222}
-\definecolor{RuleGray}{HTML}{666666}
-\definecolor{LinkGray}{HTML}{222222}
-
-\AtBeginDocument{%
-  \hypersetup{
-    linkcolor=Ink,
-    citecolor=Ink,
-    urlcolor=LinkGray,
-    pdfborder={0 0 0}
-  }%
-  \urlstyle{same}%
-}
-
-\setstretch{1.18}
-\setlength{\parindent}{1.1em}
-\setlength{\parskip}{0.28em}
-\setlength{\emergencystretch}{2.5em}
-\raggedbottom
-\clubpenalty=10000
-\widowpenalty=10000
-\displaywidowpenalty=10000
-
-\setlist[itemize]{leftmargin=1.7em,itemsep=0.25em,topsep=0.35em}
-\setlist[enumerate]{leftmargin=1.9em,itemsep=0.25em,topsep=0.35em}
-
-\titleformat{\chapter}[display]
-  {\normalfont\bfseries\centering\color{Ink}}
-  {}
-  {0pt}
-  {\Large\hyphenpenalty=10000\exhyphenpenalty=10000}
-\titlespacing*{\chapter}{0pt}{-6pt}{18pt}
-\titleformat{\section}{\Needspace{4\baselineskip}\large\bfseries\color{Ink}}{\thesection}{0.7em}{}
-\titleformat{\subsection}{\Needspace{3\baselineskip}\normalsize\bfseries\color{Ink}}{\thesubsection}{0.7em}{}
-\titleformat{\subsubsection}{\Needspace{3\baselineskip}\normalsize\bfseries\color{Ink}}{\thesubsubsection}{0.7em}{}
-
-\pagestyle{plain}
-\fancyhf{}
-\fancyfoot[C]{\thepage}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\fancypagestyle{plain}{%
-  \fancyhf{}
-  \fancyfoot[C]{\thepage}
-  \renewcommand{\headrulewidth}{0pt}
-}
-
-\renewcommand{\arraystretch}{1.28}
-\setlength{\extrarowheight}{1pt}
-\setlength{\tabcolsep}{4pt}
-\setlength{\LTpre}{0.5em}
-\setlength{\LTpost}{0.8em}
-\AtBeginEnvironment{longtable}{\footnotesize\setlength{\tabcolsep}{3pt}\setlength{\extrarowheight}{1pt}}
-
-\AtBeginEnvironment{quote}{\small\setlength{\leftskip}{1.2em}\setlength{\rightskip}{1.2em}}
-\usepackage{bookmark}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same}
-% fallback for those not using the hyperref driver hyperxmp:
-\makeatletter
-\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
-\makeatother
 \hypersetup{
-  pdftitle={Bab 3 - Metode Penelitian},
+  pdftitle={Bab 3 Metode Penelitian},
+  pdfauthor={Mahastri Laksita Sam Widita},
   pdflang={id-ID},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-
-\title{Bab 3 - Metode Penelitian}
-\usepackage{etoolbox}
-\makeatletter
-\providecommand{\subtitle}[1]{% add subtitle to \maketitle
-  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+  hidelinks
 }
+
+\title{\textbf{Borrowed Size atau Agglomeration Shadow?}\\[0.4em]
+Analisis Hubungan Integrasi Metropolitan dengan Kematangan Pusat-Pusat Sekunder di Kawasan Aglomerasi Jakarta}
+\providecommand{\subtitle}[1]{\gdef\thesubtitle{#1}}
+\subtitle{Bab 3 Metode Penelitian}
+\author{Mahastri Laksita Sam Widita\\NIM 22/503065/TK/54947\\[0.5em]
+Pembimbing: Rendy Bayu Aditya\\[0.5em]
+Program Studi Perencanaan Wilayah dan Kota\\
+Departemen Teknik Arsitektur dan Perencanaan\\
+Fakultas Teknik\\
+Universitas Gadjah Mada}
+\date{Kabupaten Sleman, Daerah Istimewa Yogyakarta\\2026}
+
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{titlepage}
+    \centering
+    {\Large\bfseries TUGAS AKHIR\par}
+    \vfill
+    {\LARGE\bfseries \@title\par}
+    \vspace{1.2cm}
+    {\large \thesubtitle\par}
+    \vfill
+    {\large \@author\par}
+    \vfill
+    {\large \@date\par}
+  \end{titlepage}}
 \makeatother
-\subtitle{Draf rancangan metode Borrowed Size dan Agglomeration Shadow
-pada Kawasan Aglomerasi Jakarta}
-\author{}
-\date{18 September 2026}
 
-
-\providecommand{\passthrough}[1]{#1}
-
-\providecommand{\passthrough}[1]{#1}
-
-\providecommand{\passthrough}[1]{#1}
-
-\providecommand{\passthrough}[1]{#1}
 \begin{document}
 \maketitle
-\renewcommand*\contentsname{Daftar Isi}
-\setcounter{tocdepth}{2}
-\tableofcontents\clearpage
-\begin{quote}
-\textbf{Arah aktif, 18 September 2026:} proksi dan sumber terbuka
-sebagai fondasi utama; multitemporal sesuai bukti. Draf rancangan ini
-tidak menyatakan bahwa semua sumber telah diperoleh atau divalidasi.
-\end{quote}
+\tableofcontents
+\clearpage
+\setcounter{chapter}{2}
+\chapter{Metode Penelitian}
+\section{Pendekatan penelitian}\label{pendekatan-penelitian}
 
-\section{3.1 Pendekatan penelitian}\label{pendekatan-penelitian}
+\subsection{Pilihan pendekatan}\label{pilihan-pendekatan}
 
-\subsection{3.1.1 Pilihan pendekatan}\label{pilihan-pendekatan}
-
-Penelitian ini menggunakan \textbf{pendekatan kuantitatif (deduktif)
-dengan analisis spasial-relasional}. Konstruk integrasi metropolitan,
+Penelitian ini menggunakan pendekatan kuantitatif deduktif dengan
+analisis spasial-relasional. Konstruk integrasi metropolitan,
 fungsi relatif, manfaat, beban, serta gerbang penggunaan label
 \emph{borrowed size} dan \emph{agglomeration shadow} diturunkan dari
 kerangka konseptual Bab 2 sebelum klasifikasi dilakukan. Pendekatan ini
@@ -206,7 +68,7 @@ variasi asumsi.
 Pendekatan ini tidak berarti semua konstruk harus direduksi menjadi satu
 angka. Integrasi, fungsi relatif, manfaat, ketergantungan, dan beban
 dipertahankan sebagai dimensi yang dapat dibaca bersama. Statistik
-deskriptif, pemetaan, analisis jaringan, tolok ukur, residual, dan uji
+deskriptif, pemetaan, analisis jaringan, tolok ukur, residu, dan uji
 sensitivitas digunakan sesuai jenis bukti yang tersedia.
 
 Audit dokumen dan audit asal-usul data merupakan prosedur penjaminan
@@ -214,12 +76,12 @@ mutu. Prosedur ini digunakan untuk memeriksa definisi, tahun, unit,
 cakupan, cara pembentukan, nilai hilang, dan batas penggunaan data.
 Pemeriksaan dokumen tersebut tidak menjadikan penelitian ini penelitian
 campuran karena dokumen tidak dianalisis sebagai data untuk menjawab
-pertanyaan substantif Angka dalam laporan publik dapat diekstrak sebagai
+pertanyaan substantif. Angka dalam laporan publik dapat diekstrak sebagai
 data sekunder apabila tabel atau pernyataan sumber, unit, dan periodenya
 dapat ditelusuri. Kekosongan angka tidak diisi dengan dugaan yang
 disamarkan sebagai pengamatan.
 
-\subsection{3.1.2 Alasan kesesuaian dengan pertanyaan
+\subsection{Alasan kesesuaian dengan pertanyaan
 penelitian}\label{alasan-kesesuaian-dengan-pertanyaan-penelitian}
 
 Kesesuaian pendekatan dengan pertanyaan penelitian diringkas sebagai
@@ -268,7 +130,7 @@ relatif}, \emph{ketergantungan yang konsisten dengan data}, dan
 \emph{ketahanan klasifikasi}, bukan ``dampak kausal'' kecuali desain
 kelak benar-benar diperkuat.
 
-\subsection{3.1.3 Fondasi pengukuran}\label{fondasi-pengukuran}
+\subsection{Fondasi pengukuran}\label{fondasi-pengukuran}
 
 Penelitian ini sepenuhnya bertumpu pada proksi dan sumber terbuka, tanpa
 ketergantungan pada permohonan data tertutup. Data pemerintah yang
@@ -279,82 +141,77 @@ sendirinya. Sumber alternatif dapat lebih sesuai daripada data resmi
 agregat yang tersedia, tetapi keunggulan tersebut diuji per konstruk dan
 tidak diasumsikan berlaku universal.
 
-\section{3.2 Desain penelitian}\label{desain-penelitian}
+\section{Desain penelitian}\label{desain-penelitian}
 
-\subsection{3.2.1 Bentuk desain}\label{bentuk-desain}
+\subsection{Bentuk desain}\label{bentuk-desain}
 
-Desain penelitian adalah \textbf{studi kasus tunggal kuantitatif-spasial
-dengan desain multitemporal sesuai bukti, diagnosis relasional, dan
-analisis sensitivitas}. Kasus tunggal dipilih agar pusat-pusat sekunder
+Penelitian dirancang sebagai studi kasus tunggal kuantitatif-spasial
+dengan pengamatan multitemporal sesuai bukti, diagnosis relasional, dan
+analisis sensitivitas. Kasus tunggal dipilih agar pusat-pusat sekunder
 dapat dibandingkan di dalam satu sistem metropolitan tanpa memperlakukan
 perbedaan antarmetropolitan sebagai variasi yang setara. Sabuk
 pembanding fungsional hanya digunakan untuk memperluas tolok ukur
 apabila definisi, unit, dan periodenya kompatibel.
 
-Desain memiliki tiga lapisan:
+Desain ini bekerja melalui tiga lapisan:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \textbf{Lapisan pengukuran:} observasi langsung atau agregat, proksi,
+  Lapisan pengukuran membedakan observasi langsung atau agregat, proksi,
   serta hasil estimasi yang dibedakan secara eksplisit pada unit dan
   periode yang tercantum dalam manifest.
 \item
-  \textbf{Lapisan diagnosis:} pengukuran integrasi, fungsi relatif,
+  Lapisan diagnosis mengukur integrasi, fungsi relatif,
   manfaat, beban, dan tipologi dari satu konfigurasi bukti yang
   dibekukan.
 \item
-  \textbf{Lapisan ketahanan dan eksplorasi:} perubahan konfigurasi
+  Lapisan ketahanan dan eksplorasi menguji perubahan konfigurasi
   bukti, spesifikasi model, atau nilai skenario yang dibatasi dan selalu
   dilaporkan terhadap garis dasar tanpa menimpa data observasi.
 \end{enumerate}
 
-\subsection{3.2.2 Urutan kerja
+\subsection{Urutan kerja
 penelitian}\label{urutan-kerja-penelitian}
 
-Urutan penelitian sementara adalah sebagai berikut.
+Penelitian dilaksanakan melalui delapan tahap yang saling terkait.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Menetapkan pertanyaan, konstruk, definisi kerja, dan aturan klaim
-  sebelum melihat hasil klasifikasi.
+  Menginventarisasi sumber dan mencatat asal-usul setiap data.
 \item
-  Menginventarisasi berkas dan mencatat asal-usul data setiap modul.
+  Mengaudit konstruk, tahun, unit, cakupan, lisensi, nilai hilang, dan
+  batas penggunaan.
 \item
-  Mengaudit tahun, unit, cakupan, definisi, nilai hilang, reliabilitas,
-  dan batas publikasi.
+  Mengharmonisasi geometri dan tabel, kemudian membekukan konfigurasi
+  bukti garis dasar.
 \item
-  Mengharmonisasi geometri dan tabel korespondensi tanpa melakukan
-  disagregasi semu.
+  Membentuk kandidat pusat, wilayah tangkapan, relasi terarah, dan
+  residu fungsi per domain.
 \item
-  Menetapkan kandidat pusat sekunder dan wilayah tangkapan fungsional
-  berdasarkan bukti fungsi atau hubungan yang tersedia.
+  Menganalisis asosiasi, manfaat, beban, dan ketergantungan tanpa
+  meleburkan dimensi yang berbeda.
 \item
-  Mengukur atau mengestimasi relasi terarah; pisahkan aksesibilitas
-  potensial, estimasi arus, dan arus teramati.
+  Menerapkan gerbang bukti sebelum memberi label diagnosis.
 \item
-  Mengukur atau mengestimasi fungsi lokal per domain dan membentuk
-  residual fungsi--ukuran.
+  Menguji sensitivitas indikator, bobot, ambang, unit, dan konfigurasi
+  bukti.
 \item
-  Memisahkan profil manfaat atau \emph{functional upgrading} dari profil
-  beban atau ketergantungan.
-\item
-  Menguji asosiasi relasi--fungsi, heterogenitas antarpusat, dan
-  perubahan pada seri sebanding sebelum menyusun gradien serta kelas.
-\item
-  Menjalankan diagnostik spasial dan uji sensitivitas.
-\item
-  Menerjemahkan model yang sama ke WebGL dengan garis dasar, skenario,
-  selisih, dan peta ketahanan.
-\item
-  Mengunci manifest, tabel indikator, parameter, dan batas klaim untuk
-  reproduksi.
+  Menyusun tabel, peta, keluaran WebGL, manifest, dan batas klaim yang
+  dapat diperiksa ulang.
 \end{enumerate}
 
-\subsection{3.2.3 Kelebihan dan keterbatasan
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/bab3_alur_analisis.png}
+  \caption{Alur analisis dari inventarisasi sumber hingga penyusunan keluaran dan batas klaim. Setiap tahap dapat menurunkan tingkat klaim jika mutu atau keterbandingan bukti tidak memadai.}
+  \label{fig:bab3-alur-analisis}
+\end{figure}
+
+\subsection{Kelebihan dan keterbatasan
 desain}\label{kelebihan-dan-keterbatasan-desain}
 
 Desain memungkinkan pengukuran spasial terperinci dan pengamatan
@@ -370,7 +227,7 @@ Pemeriksaan independen, harmonisasi, serta propagasi ketidakpastian
 digunakan untuk mengukur pengaruhnya. Data multitemporal tidak dengan
 sendirinya mengidentifikasi sebab-akibat.
 
-\subsection{3.2.4 Perbedaan diagnosis dan
+\subsection{Perbedaan diagnosis dan
 skenario}\label{perbedaan-diagnosis-dan-skenario}
 
 Nilai \emph{status quo} dibekukan sebagai garis dasar. Perubahan
@@ -380,15 +237,15 @@ menyimpan konfigurasi indikator, bobot, ambang, nilai yang diubah, dan
 alasan substantif perubahan.
 
 Perubahan karena sumber data diperoleh, hilang, atau turun mutu dicatat
-sebagai \textbf{skenario bukti}. Perubahan bobot, ambang, atau
+sebagai skenario bukti. Perubahan bobot, ambang, atau
 spesifikasi dalam konfigurasi bukti yang sama dicatat sebagai
-\textbf{skenario parameter}. Perubahan nilai indikator untuk pertanyaan
+sebagai skenario parameter. Perubahan nilai indikator untuk pertanyaan
 \emph{what-if} merupakan eksplorasi kondisional tambahan. Ketiganya
 tidak boleh ditampilkan sebagai jenis perubahan yang sama.
 
-\section{3.3 Ruang lingkup penelitian}\label{ruang-lingkup-penelitian}
+\section{Ruang lingkup penelitian}\label{ruang-lingkup-penelitian}
 
-\subsection{3.3.1 Ruang lingkup spasial}\label{ruang-lingkup-spasial}
+\subsection{Ruang lingkup spasial}\label{ruang-lingkup-spasial}
 
 Kasus utama adalah Jabodetabek sebagai kawasan utama penelitian, dengan
 sabuk Wilayah Statistik Metropolitan sebagai pembanding fungsional
@@ -402,9 +259,8 @@ diperlakukan sebagai satu inti dalam klasifikasi eksternal.
 
 Wilayah di luar DKI tidak disebut sebagai ``wilayah Jakarta'' hanya
 karena masuk dalam gradien analisis. Istilah yang digunakan adalah
-\textbf{jejak fungsional Jakarta}, \textbf{zona analitis keterkaitan
-metropolitan}, atau \textbf{gradien integrasi-ketergantungan
-metropolitan}. Istilah tersebut bukan zonasi legal RTRW dan tidak
+jejak fungsional Jakarta, zona analitis keterkaitan metropolitan, atau
+gradien integrasi-ketergantungan metropolitan. Istilah tersebut bukan zonasi legal RTRW dan tidak
 mengubah kewenangan pemerintah daerah.
 
 Seluruh wilayah administratif di sekitar Jakarta tidak diasumsikan
@@ -412,7 +268,7 @@ otomatis menjadi unit analisis yang tepat. Delineasi akhir harus
 menjelaskan sumber, tahun, definisi, dan alasan memasukkan atau
 mengeluarkan setiap unit.
 
-\subsection{3.3.2 Ruang lingkup temporal}\label{ruang-lingkup-temporal}
+\subsection{Ruang lingkup temporal}\label{ruang-lingkup-temporal}
 
 Desain penelitian bersifat multitemporal sesuai bukti: perubahan
 dianalisis pada indikator dengan seri yang sebanding, sedangkan
@@ -429,7 +285,7 @@ tidak diproyeksikan ke masa lalu tanpa model dan bukti. Seri tidak
 sebanding dianalisis terpisah; interpolasi, jika digunakan, diberi label
 estimasi dan tidak menambah jumlah observasi independen.
 
-\subsection{3.3.3 Ruang lingkup
+\subsection{Ruang lingkup
 substantif}\label{ruang-lingkup-substantif}
 
 Penelitian mencakup:
@@ -461,10 +317,10 @@ rekomendasi perubahan batas administrasi, pembuktian kausal seluruh
 kebijakan metropolitan, atau klaim produktivitas penuh jika fungsi
 ekonomi pada unit yang sesuai tidak tersedia.
 
-\section{3.4 Unit amatan dan unit
+\section{Unit amatan dan unit
 analisis}\label{unit-amatan-dan-unit-analisis}
 
-\subsection{3.4.1 Unit amatan}\label{unit-amatan}
+\subsection{Unit amatan}\label{unit-amatan}
 
 Unit amatan adalah satuan tempat setiap observasi dicatat pada sumber.
 Satuan tersebut dapat berupa desa/kelurahan, kecamatan, kabupaten/kota,
@@ -477,7 +333,7 @@ Kecamatan tidak dipaksakan ketika data kritis hanya tersedia pada
 kabupaten/kota atau zona model. Dalam keadaan tersebut, perhitungan
 dilakukan pada unit sumber atau sebagai analisis paralel multiresolusi.
 Alokasi nilai kabupaten/kota ke kecamatan, kisi, atau titik hanya
-dilakukan dengan model eksplisit berbasis informasi lokal, pemeriksaan
+dilakukan dengan model eksplisit menggunakan informasi lokal, pemeriksaan
 independen, dan ketidakpastian; hasil tetap merupakan estimasi, bukan
 observasi rinci.
 
@@ -488,7 +344,7 @@ didukung titik atau raster. Resolusi keluaran mengikuti kemampuan
 pengukuran; koordinat rinci tidak otomatis menjamin ketepatan nilai
 atribut.
 
-\subsection{3.4.2 Unit analisis
+\subsection{Unit analisis
 substantif}\label{unit-analisis-substantif}
 
 Unit analisis substantif adalah kandidat pusat sekunder beserta wilayah
@@ -509,7 +365,7 @@ digunakan pada kedua tahap, ketahanan klasifikasi diuji kembali dengan
 mengeluarkan indikator tersebut agar penetapan pusat tidak menjadi
 pembuktian sirkular.
 
-\subsection{3.4.3 Aturan keterbandingan
+\subsection{Aturan keterbandingan
 unit}\label{aturan-keterbandingan-unit}
 
 Setiap indikator dicatat dengan unit asli, unit perhitungan, unit
@@ -537,7 +393,7 @@ secara sah. Harmonisasi mengikuti aturan:
   kondisi tanpa menyatakan perbedaan sumber dan unitnya.
 \end{enumerate}
 
-\subsection{3.4.4 Populasi, cakupan, dan validasi
+\subsection{Populasi, cakupan, dan validasi
 manual}\label{populasi-cakupan-dan-validasi-manual}
 
 Populasi analisis adalah seluruh kandidat pusat dan wilayah tangkapan
@@ -553,9 +409,9 @@ independen. Kriteria pemilihan pusat validasi dicatat sebelum
 pemeriksaan. Validasi terbatas tersebut bukan sampel inferensial dan
 tidak digeneralisasikan sebagai sensus seluruh kawasan.
 
-\section{3.5 Metode pengumpulan data}\label{metode-pengumpulan-data}
+\section{Metode pengumpulan data}\label{metode-pengumpulan-data}
 
-\subsection{3.5.1 Prinsip pengumpulan
+\subsection{Prinsip pengumpulan
 data}\label{prinsip-pengumpulan-data}
 
 Penelitian ini sepenuhnya bertumpu pada proksi dan sumber terbuka, tanpa
@@ -575,7 +431,7 @@ Terlihat publik tidak otomatis berarti tersedia sebagai unduhan terbuka
 atau dapat dibagikan ulang; kemampuan akuisisi dan reproduksi dicatat
 per sumber.
 
-\subsection{3.5.2 Kelompok sumber dan konstruksi
+\subsection{Kelompok sumber dan konstruksi
 data}\label{kelompok-sumber-dan-konstruksi-data}
 
 Tabel berikut adalah rancangan sumber yang perlu diperiksa. Penyebutan
@@ -635,7 +491,7 @@ dan uji alternatif yang masuk akal. Penelitian tidak menunggu jawaban
 instansi untuk menggunakan modul lain yang sudah dapat
 dipertanggungjawabkan.
 
-\subsection{3.5.3 Instrumen pengumpulan dan dokumentasi
+\subsection{Instrumen pengumpulan dan dokumentasi
 data}\label{instrumen-pengumpulan-dan-dokumentasi-data}
 
 Karena penelitian menggunakan data sekunder, instrumen pengumpulan bukan
@@ -667,7 +523,7 @@ lunak, versi, parameter, dan tanggal pengolahan dicatat setelah
 perangkat benar-benar digunakan; Bab 3 tidak mengunci perangkat yang
 belum dipakai.
 
-\subsection{3.5.4 Audit dan status mutu
+\subsection{Audit dan status mutu
 bukti}\label{audit-dan-status-mutu-bukti}
 
 Setiap berkas dicatat dalam registri asal-usul data sekurang-kurangnya
@@ -713,7 +569,7 @@ berstatus A untuk penelitian berkecamatan; jaringan dapat berstatus P
 untuk integrasi aktual; dan tabel bangkitan-tarikan dapat berstatus S
 atau A jika tidak memuat pasangan arus teramati.
 
-\subsection{3.5.5 Harmonisasi spasial dan
+\subsection{Harmonisasi spasial dan
 temporal}\label{harmonisasi-spasial-dan-temporal}
 
 Harmonisasi dilakukan setelah audit, bukan sebelum audit. Tahun dasar
@@ -728,7 +584,7 @@ kecamatan dapat dilakukan bila definisi, kode, dan cakupan mendukung.
 Disagregasi nilai kabupaten/kota ke kecamatan dilarang kecuali ada model
 eksplisit, asumsi terlihat, validasi, dan pelabelan sintetis.
 
-\subsection{3.5.6 Konstruksi proksi dan
+\subsection{Konstruksi proksi dan
 estimasi}\label{konstruksi-proksi-dan-estimasi}
 
 Pekerjaan dapat diestimasi dari jenis dan skala usaha, bangunan yang
@@ -739,7 +595,7 @@ wilayah atau periode lain diuji rentangnya; angka tidak dibuat sekadar
 untuk melengkapi tabel. Jika koefisien belum memiliki dasar, keluaran
 sementara tetap berupa fungsi atau skala usaha.
 
-Relasi asal--tujuan dapat diestimasi dengan model gravitasi atau
+Relasi asal dan tujuan dapat diestimasi dengan model gravitasi atau
 radiasi. Penyeimbangan IPF/Furness digunakan hanya jika marginal asal
 dan tujuan kompatibel dan totalnya konsisten atau penyesuaiannya
 beralasan. Ketidakpastian fungsi hambatan, massa tujuan, pilihan moda,
@@ -754,7 +610,7 @@ asumsi frekuensi, operasi, serta keterisian untuk memperkirakan
 penggunaan. CCTV memerlukan audit akses rekaman, lokasi, jam, kelas
 kendaraan, serta cakupan pengamatan. SUMO dapat digunakan untuk simulasi
 terkalibrasi bila kebutuhan tersebut terpenuhi, tetapi simulasi tidak
-menciptakan pengamatan arus atau asal--tujuan yang belum tersedia.
+menciptakan pengamatan arus atau pasangan asal dan tujuan yang belum tersedia.
 
 Validasi menggunakan sumber terbuka dengan jalur pencatatan berbeda,
 pengamatan terarah, atau data yang disisihkan dari kalibrasi. Jika
@@ -762,7 +618,7 @@ pemeriksaan independen belum tersedia, keluaran relasional dilaporkan
 sebagai estimasi eksploratif dengan rentang ketidakpastian; keterbatasan
 ini tidak menghentikan modul fungsi atau aksesibilitas yang valid.
 
-\subsection{3.5.7 Etika, lisensi, dan
+\subsection{Etika, lisensi, dan
 keamanan}\label{etika-lisensi-dan-keamanan}
 
 Data yang dapat diakses publik tetap diperiksa syarat pemakaian,
@@ -773,9 +629,9 @@ data yang boleh dipublikasikan, agregasi yang sah, atau proksi yang
 diberi label. Nilai penggeser tidak boleh mengungkap data mentah atau
 memungkinkan rekonstruksi unit sensitif.
 
-\section{3.6 Metode analisis data}\label{metode-analisis-data}
+\section{Metode analisis data}\label{metode-analisis-data}
 
-\subsection{3.6.1 Langkah 1: audit, dokumentasi, dan pembekuan garis
+\subsection{Langkah 1: audit, dokumentasi, dan pembekuan garis
 dasar}\label{langkah-1-audit-dokumentasi-dan-pembekuan-garis-dasar}
 
 Analisis dimulai dengan tabel audit yang menghubungkan konstruk,
@@ -789,7 +645,7 @@ mengganggu keterbandingan, ketidakcocokan unit, atau ketidakjelasan
 definisi. Pengeluaran indikator dicatat sebagai keputusan metodologis,
 bukan dihapus tanpa jejak.
 
-\subsection{3.6.2 Langkah 2: delineasi pusat sekunder dan wilayah
+\subsection{Langkah 2: delineasi pusat sekunder dan wilayah
 tangkapan
 fungsional}\label{langkah-2-delineasi-pusat-sekunder-dan-wilayah-tangkapan-fungsional}
 
@@ -808,7 +664,7 @@ perubahan tersebut harus diberi versi dan tidak boleh ditampilkan
 sebagai perubahan kondisi metropolitan. Wilayah tangkapan merupakan
 konstruksi analitis, bukan batas administratif baru.
 
-\subsection{3.6.3 Langkah 3: pengukuran integrasi
+\subsection{Langkah 3: pengukuran integrasi
 metropolitan}\label{langkah-3-pengukuran-integrasi-metropolitan}
 
 Relasi metropolitan diukur melalui tiga bentuk bukti yang tidak disusun
@@ -883,7 +739,7 @@ digunakan, setiap komponen, polaritas, bobot, dan aturan normalisasi
 disimpan. Integrasi yang tinggi tidak otomatis berarti manfaat tinggi
 karena dapat berdampingan dengan beban dan ketergantungan.
 
-\subsection{3.6.4 Langkah 4: pengukuran fungsi lokal dan fungsi
+\subsection{Langkah 4: pengukuran fungsi lokal dan fungsi
 relatif}\label{langkah-4-pengukuran-fungsi-lokal-dan-fungsi-relatif}
 
 Fungsi lokal dibangun per domain dari titik usaha dan fasilitas, atribut
@@ -899,7 +755,7 @@ dan cakupan usaha diteruskan ke rentang nilai fungsi. Produktivitas
 tidak disimpulkan hanya dari jumlah POI atau intensitas cahaya.
 
 Fungsi relatif dihitung terpisah untuk setiap konstruk \(k\), misalnya
-fungsi layanan atau pekerjaan, agar residual pada satu konstruk tidak
+fungsi layanan atau pekerjaan, agar residu pada satu konstruk tidak
 diberi nama konstruk lain. Secara umum, tingkat fungsi yang diharapkan
 dapat dinyatakan sebagai
 
@@ -911,21 +767,21 @@ dengan \(Y_{ik}\) sebagai nilai fungsi yang diukur atau diestimasi pada
 konstruk \(k\), \(S_i\) sebagai ukuran lokal, \(\mathbf{X}_i\) sebagai
 karakteristik lokal yang ditetapkan sebelum klasifikasi, serta
 \(g_k(\cdot)\) dan \(h(\cdot)\) sebagai transformasi yang dipilih
-berdasarkan skala pengukuran serta diagnostik data. Residual fungsi
+berdasarkan skala pengukuran serta diagnostik data. Residu fungsi
 dihitung sebagai
 
 \[
 R_{ik}=g_k(Y_{ik})-\widehat{g_k(Y_{ik})}.
 \]
 
-Residual positif berarti surplus relatif dan residual negatif berarti
-defisit relatif pada konstruk \(k\). Residual layanan tidak disebut
+Residu positif berarti surplus relatif dan residu negatif berarti
+defisit relatif pada konstruk \(k\). Residu layanan tidak disebut
 surplus produktivitas; nilai titik minat tidak disebut pekerjaan; dan
 potret satu tahun tidak disebut \emph{functional upgrading} temporal.
 
 Pemilihan tolok ukur dilakukan sebelum tipologi dibentuk. Model
 fungsi-ukuran digunakan hanya jika jumlah unit efektif, bentuk
-distribusi, residual, dan pengaruh pencilan memadai untuk konstruk yang
+distribusi, residu, dan pengaruh pencilan memadai untuk konstruk yang
 dimodelkan. Jika syarat tersebut tidak terpenuhi, tingkat yang
 diharapkan dibentuk melalui kelompok pembanding ukuran yang transparan
 atau ringkasan pembanding lain yang dapat direproduksi. Pilihan model,
@@ -934,7 +790,7 @@ Jika tolok ukur hanya memakai pusat internal kawasan studi, hasil
 disebut relatif terhadap kawasan studi dan tidak digeneralisasikan
 sebagai ukuran universal.
 
-\subsection{3.6.5 Langkah 5: pemisahan manfaat, ketergantungan, dan
+\subsection{Langkah 5: pemisahan manfaat, ketergantungan, dan
 beban}\label{langkah-5-pemisahan-manfaat-ketergantungan-dan-beban}
 
 Manfaat dan beban tidak dipaksa masuk ke satu sumbu yang saling
@@ -951,10 +807,11 @@ yang ditopang bukti.
 
 Komuter dapat berarti akses yang meningkat sekaligus beban perjalanan.
 Industrialisasi dapat berarti \emph{upgrading} atau fungsi subordinat.
-Oleh karena itu, polaritas ditetapkan per konstruk dan tidak disimpulkan
+Karena setiap gejala dapat mempunyai lebih dari satu makna, polaritas
+ditetapkan per konstruk dan tidak disimpulkan
 dari tanda positif atau negatif mentah.
 
-\subsection{3.6.6 Langkah 6: diagnosis tipologi dan
+\subsection{Langkah 6: diagnosis tipologi dan
 gradien}\label{langkah-6-diagnosis-tipologi-dan-gradien}
 
 Diagnosis dimulai dari vektor profil multidimensi, kemudian diringkas
@@ -1001,15 +858,15 @@ Relatif independen & hubungan dengan inti berada di bawah ambang
 integrasi, sedangkan fungsi lokal tidak menunjukkan defisit yang berarti
 & bukan bukti autarki atau tidak adanya hubungan metropolitan \\
 Pola konsisten dengan \emph{borrowed size} & bukti relasional berada di
-atas ambang dan residual fungsi pada konstruk yang diuji positif &
+atas ambang dan residu fungsi pada konstruk yang diuji positif &
 istilah ketat hanya digunakan setelah empat gerbang bukti terpenuhi;
 ``integrasi produktif'' bukan sinonim otomatis \\
-Campuran atau transisional & arah residual berbeda antarkonstruk, atau
+Campuran atau transisional & arah residu berbeda antarkonstruk, atau
 manfaat dan beban sama-sama tinggi & perbedaan dimensi harus tetap
 terlihat dan tidak dirata-ratakan menjadi label tunggal \\
 Pola konsisten dengan \emph{agglomeration shadow} & bukti relasional
-berada di atas ambang dan residual fungsi pada konstruk yang diuji
-negatif; bukti beban dapat memperkuat diagnosis & tidak membuktikan
+berada di atas ambang dan residu fungsi pada konstruk yang diuji
+negatif; bukti beban dapat mendukung diagnosis & tidak membuktikan
 bahwa Jakarta menyebabkan defisit tersebut \\
 Periferi lemah & hubungan dengan inti dan fungsi lokal sama-sama rendah
 & tidak disebut \emph{shadow} Jakarta tanpa hubungan relasional yang
@@ -1040,12 +897,12 @@ dapat dipakai bila empat gerbang berikut terpenuhi:
   pada satu proksi bermasalah.
 \end{enumerate}
 
-Jika satu gerbang gagal, istilah yang dipakai adalah \textbf{profil},
-\textbf{surplus/defisit relatif}, atau \textbf{pola yang konsisten
-dengan} konstruk tertentu. Penurunan klaim menjadi bagian dari hasil
+Jika satu gerbang gagal, istilah yang dipakai adalah profil,
+surplus atau defisit relatif, atau pola yang konsisten dengan konstruk
+tertentu. Penurunan klaim menjadi bagian dari hasil
 metodologis.
 
-\subsection{3.6.7 Langkah 7: diagnostik spasial dan ketahanan
+\subsection{Langkah 7: diagnostik spasial dan ketahanan
 hasil}\label{langkah-7-diagnostik-spasial-dan-ketahanan-hasil}
 
 Paket diagnostik minimum mencakup korelasi dan duplikasi indikator,
@@ -1071,7 +928,7 @@ perubahan perlu ditampilkan. Kategori ``tidak terselesaikan'' adalah
 keluaran yang sah ketika spesifikasi menghasilkan kesimpulan berbeda
 secara substantif.
 
-\subsection{3.6.8 Langkah 8: skenario, sensitivitas, dan implementasi
+\subsection{Langkah 8: skenario, sensitivitas, dan implementasi
 WebGL}\label{langkah-8-skenario-sensitivitas-dan-implementasi-webgl}
 
 Analisis membedakan tiga keluarga perubahan.
@@ -1080,18 +937,18 @@ Analisis membedakan tiga keluarga perubahan.
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \textbf{Skenario bukti (\texttt{EV-*})} menguji hasil ketika sumber
+  Skenario bukti (\texttt{EV-*}) menguji hasil ketika sumber
   atau status mutu bukti berubah. Setiap skenario menyimpan sumber,
   tahun, unit, status D/A/S/P/\(\varnothing\), indikator yang aktif, dan
   klaim yang diperbolehkan. Perbedaan kelas antarskenario bukti
   menunjukkan ketergantungan kesimpulan pada bukti, bukan perubahan
   kondisi metropolitan.
 \item
-  \textbf{Skenario parameter (\texttt{P-*})} menguji bobot, ambang,
+  Skenario parameter (\texttt{P-*}) menguji bobot, ambang,
   normalisasi, indikator, atau spesifikasi lain dalam satu konfigurasi
   bukti yang sama. Skenario ini merupakan analisis sensitivitas model.
 \item
-  \textbf{Skenario nilai indikator} mengubah nilai dalam rentang
+  Skenario nilai indikator mengubah nilai dalam rentang
   terkalibrasi untuk pertanyaan \emph{what-if}. Skenario ini merupakan
   eksplorasi kondisional, bukan bagian dari diagnosis \emph{status quo}
   atau prediksi kausal kebijakan.
@@ -1105,15 +962,15 @@ diberi tampilan seolah-olah merupakan observasi, dan kombinasi yang
 tidak masuk akal secara substantif ditolak oleh aturan validasi. Batas
 administratif DKI selalu terlihat sebagai lapisan tetap.
 
-Keluaran empiris utama-tabel, profil, peta diagnosis, dan audit
-ketahanan-harus dapat dihasilkan tanpa WebGL. WebGL menerapkan model
+Keluaran empiris utama, yaitu tabel, profil, peta diagnosis, dan audit
+ketahanan, harus dapat dihasilkan tanpa WebGL. WebGL menerapkan model
 yang sama sebagai antarmuka keluaran kedua. Keluaran minimalnya adalah
 peta garis dasar, peta skenario, peta selisih, daftar unit yang
 berpindah kelas, dan peta ketahanan atau ketidakpastian. Penghitungan
 ulang serta visualisasi interaktif tidak disebut data waktu nyata atau
 prediksi masa depan.
 
-\subsection{3.6.9 Keterlacakan pertanyaan dan analisis
+\subsection{Keterlacakan pertanyaan dan analisis
 asosiasi}\label{keterlacakan-pertanyaan-dan-analisis-asosiasi}
 
 {\def\LTcaptype{none} % do not increment counter
@@ -1138,8 +995,8 @@ dan asimetri; aksesibilitas disajikan terpisah & Profil relasi dengan
 status pengukuran dan ketidakpastian. \\
 Q2: fungsi relatif dan perubahan & Fungsi terukur atau terestimasi,
 massa lokal, tolok ukur per domain, seri yang lolos harmonisasi &
-Residual per domain dan perubahan pada periode sebanding. \\
-Q3: asosiasi relasi--fungsi & Hubungkan dimensi relasi dengan residual
+Residu per domain dan perubahan pada periode sebanding. \\
+Q3: asosiasi relasi dan fungsi & Hubungkan dimensi relasi dengan residu
 fungsi; periksa masukan bersama dan alternatif penjelasan & Arah,
 besaran, dan ketidakpastian asosiasi. \\
 Q4: heterogenitas & Bandingkan spesialisasi, hierarki, status
@@ -1148,10 +1005,10 @@ manfaat, beban, dan konfigurasi antarpusat; tipologi jika stabil. \\
 \end{longtable}
 }
 
-Untuk Q3, residual fungsi per domain dianalisis terhadap dimensi relasi
+Untuk Q3, residu fungsi per domain dianalisis terhadap dimensi relasi
 terarah, dengan kovariat lokal yang beralasan dan jumlah parameter yang
 sesuai jumlah unit efektif. Paparan relasional tidak dimasukkan ke tolok
-ukur utama fungsi--ukuran. Jika sampel tidak mendukung regresi,
+ukur utama fungsi dan ukuran. Jika sampel tidak mendukung regresi,
 perbandingan profil atau kelompok digunakan dengan batas interpretasi
 eksplisit. Bentuk nonlinier dan heterogenitas diuji apabila dukungan
 data memadai.
@@ -1164,18 +1021,18 @@ integrasi. Galat koefisien, pencocokan, cakupan, serta estimasi arus
 dipropagasikan melalui penghitungan ulang pada rentang asumsi yang
 beralasan.
 
-\subsection{3.6.10 Analisis multitemporal dan batas
+\subsection{Analisis multitemporal dan batas
 keterbandingan}\label{analisis-multitemporal-dan-batas-keterbandingan}
 
-Buat daftar cakupan pusat--indikator--tahun. Pilih jendela perbandingan
+Buat daftar cakupan pusat, indikator, dan tahun. Pilih jendela perbandingan
 per domain berdasarkan definisi, geometri, dan mekanisme pencatatan yang
 sebanding. Gunakan batas wilayah bersama atau korespondensi yang dapat
 diperiksa, tangani duplikasi serta perubahan kategori, dan bedakan waktu
 perekaman dari waktu kejadian. Kekosongan historis tidak diisi dengan
 nol atau inventaris masa kini.
 
-Perubahan fungsi dan residual dihitung hanya untuk pasangan periode yang
-lolos audit. Pembanding fungsi--ukuran yang tetap digunakan untuk
+Perubahan fungsi dan residu dihitung hanya untuk pasangan periode yang
+lolos audit. Pembanding fungsi dan ukuran yang tetap digunakan untuk
 membaca perubahan terhadap acuan yang sama; tolok ukur per tahun, bila
 digunakan, diberi interpretasi posisi relatif pada masing-masing tahun.
 Keduanya tidak dicampur. Estimasi panel hanya dipilih jika jumlah pusat,
@@ -1190,16 +1047,16 @@ Perbandingan sumber yang mengubah konstruk dilaporkan sebagai
 triangulasi atau perubahan objek estimasi, bukan sensitivitas yang
 ekuivalen.
 
-\subsection{3.6.11 Validitas, reliabilitas, dan
+\subsection{Validitas, reliabilitas, dan
 reproduktibilitas}\label{validitas-reliabilitas-dan-reproduktibilitas}
 
-\textbf{Validitas konstruk} dijaga dengan memisahkan ukuran lokal,
+Validitas konstruk dijaga dengan memisahkan ukuran lokal,
 hubungan relasional, aksesibilitas potensial, fungsi, kinerja, manfaat,
 dan beban. Titik minat, waktu tempuh, atau jumlah fasilitas tidak
 langsung diperlakukan sebagai produktivitas, integrasi aktual, atau
 kematangan ekonomi.
 
-\textbf{Validitas analitis dan reliabilitas hasil} dijaga melalui aturan
+Validitas analitis dan reliabilitas hasil dijaga melalui aturan
 transformasi yang terdokumentasi, tolok ukur yang ditetapkan sebelum
 klasifikasi, pemeriksaan duplikasi indikator, pengeluaran satu indikator
 secara bergiliran, serta variasi bobot, ambang, unit, dan status bukti.
@@ -1208,7 +1065,7 @@ menghasilkan keluaran yang sama. Ketidaksesuaian antarsumber dilaporkan
 dan tidak diselesaikan dengan memilih sumber yang menghasilkan
 klasifikasi yang diinginkan.
 
-\textbf{Validitas eksternal} dibatasi pada unit, tahun, dan kawasan yang
+Validitas eksternal dibatasi pada unit, tahun, dan kawasan yang
 benar-benar tercakup. Hasil kabupaten/kota tidak digeneralisasikan ke
 kecamatan; hasil pemeriksaan pada pusat terpilih tidak digeneralisasikan
 ke seluruh kawasan; dan pola dalam sistem Jakarta tidak otomatis berlaku
@@ -1235,7 +1092,7 @@ Paket reproduksi minimal memuat:
   manifest keluaran, sumber, dan syarat reproduksi atau penyebarluasan.
 \end{enumerate}
 
-\subsection{3.6.12 Aturan keputusan, keluaran, dan batas
+\subsection{Aturan keputusan, keluaran, dan batas
 klaim}\label{aturan-keputusan-keluaran-dan-batas-klaim}
 
 Setiap sumber terbuka diproses melalui pemeriksaan isi, metadata, unit,
@@ -1274,5 +1131,6 @@ secara ketat hanya setelah empat gerbang bukti terpenuhi. Jika tidak,
 hasil ditulis sebagai pola yang ``konsisten dengan'' atau ``tidak
 konsisten dengan'' konstruk tersebut pada unit, periode, dan konfigurasi
 bukti yang disebutkan.
+
 
 \end{document}

@@ -1,0 +1,22 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial", "primaryColor": "#EAF1F8", "primaryTextColor": "#17202A", "primaryBorderColor": "#496780", "lineColor": "#607487", "secondaryColor": "#F4E7DA", "tertiaryColor": "#E7F0E7"}}}%%
+block-beta
+    columns 4
+    A["1. Inventarisasi sumber<br/>dan provenance"] B["2. Audit konstruk, unit,<br/>periode, cakupan, lisensi"] C["3. Harmonisasi dan<br/>pembekuan baseline"] D["4. Relasi terarah dan<br/>residu fungsi per domain"]
+    H["8. Tabel, peta, WebGL,<br/>manifest, batas klaim"] G["7. Uji sensitivitas dan<br/>perpindahan kelas"] F["6. Gerbang label dan<br/>diagnosis status quo"] E["5. Asosiasi, manfaat,<br/>beban, ketergantungan"]
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+
+    classDef audit fill:#F4E7DA,stroke:#9B6B43,color:#17202A,stroke-width:1.3px;
+    classDef process fill:#EAF1F8,stroke:#496780,color:#17202A,stroke-width:1.3px;
+    classDef decision fill:#FFF6D8,stroke:#9A7B20,color:#17202A,stroke-width:1.5px;
+    classDef limited fill:#F8E3E3,stroke:#9B5454,color:#17202A,stroke-width:1.3px;
+    classDef output fill:#E7F0E7,stroke:#557B5D,color:#17202A,stroke-width:1.3px;
+    class A,B audit;
+    class C,D,E,G process;
+    class F decision;
+    class H output;

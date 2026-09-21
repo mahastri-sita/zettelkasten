@@ -399,7 +399,7 @@ Pertanyaan berikut dapat digunakan untuk menguji kecocokan akademik dan kerja se
 2. Apakah orientasi komuter WSM 2024 pada tingkat kecamatan dan Podes 2024 cukup untuk menghasilkan pola yang “konsisten dengan” *borrowed size* atau *agglomeration shadow*?
 3. Apakah model fungsi-ukuran dan residual layak digunakan untuk membandingkan pusat sekunder?
 4. Apakah unit kecamatan realistis, atau penelitian sebaiknya dibatasi pada tiga sampai lima pusat beserta wilayah tangkapannya?
-5. Apakah beliau bersedia membantu jalur permohonan data BPS, BPTJ, atau JUTPI?
+5. Apakah beliau bersedia membantu mengaudit konstruksi proksi, estimasi relasi, dan validasi sumber terbuka BPS, BPTJ, OSM, atau operator transportasi?
 6. Seberapa besar analisis citra temporal perlu dimasukkan: sebagai analisis utama, validasi silang, atau tidak digunakan?
 7. Bagaimana format draf, frekuensi bimbingan, mekanisme umpan balik, dan artefak teknis yang beliau harapkan?
 

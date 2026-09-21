@@ -2,7 +2,7 @@
 
 > **Status:** checklist kerja untuk mengendalikan penelitian, penulisan, dan persiapan TGA. Berkas ini bukan naskah skripsi final.
 >
-> **Diperbarui:** 28 Agustus 2026
+> **Diperbarui:** 18 September 2026
 >
 > **Aturan utama:** kotak hanya dicentang setelah pekerjaan menghasilkan artefak atau keputusan yang dapat diperiksa. Data yang direncanakan tidak boleh ditulis sebagai data yang sudah diterima atau valid.
 
@@ -10,7 +10,7 @@
 
 Gunakan sumber berikut sebagai dasar kerja, dengan tetap mengikuti arahan terbaru dosen pembimbing dan kanal resmi TGA:
 
-- `output/naskah/kompilasi/bab_1_3_skenario_metodologis_dasar_teori_penelitian_terdahulu_dan_metode_penelitian_printable.pdf`
+- `output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja.md`
 - [[source/official-document/Panduan_TGA[1].pdf|Panduan TGA]]
 - [[source/official-document/Template TGA Penelitian 2026.docx|Template TGA Penelitian 2026]]
 - `output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja.md`
@@ -34,13 +34,17 @@ Panduan yang tersedia memuat rujukan tahun 2023, sedangkan template penelitian b
 
 ### 1.2 Posisi penelitian yang sedang dipertahankan
 
+Penelitian ini sepenuhnya bertumpu pada proksi dan sumber terbuka, tanpa ketergantungan pada permohonan data tertutup. Data pemerintah yang terbuka tetap dapat digunakan. Pemilihan sumber mengikuti kesesuaian konstruk, cakupan spasial dan temporal, keterulangan pengolahan, serta biaya pemerolehan; status resmi tidak menjadi ukuran mutu dengan sendirinya.
+
+Desain penelitian bersifat multitemporal sesuai bukti: perubahan dianalisis pada indikator dengan seri yang sebanding, sedangkan indikator lain dianalisis pada periode yang tersedia. Tahun dasar dan rentang analisis ditetapkan per modul setelah audit; panel lengkap dan satu tahun jangkar untuk semua sumber tidak diasumsikan.
+
 - Kasus utama adalah Jabodetabek/Kawasan Aglomerasi Jakarta.
 - DKI Jakarta diperlakukan sebagai satu inti untuk hubungan eksternal, dengan batas administratif tetap.
 - Wilayah Statistik Metropolitan (WSM) digunakan sebagai sabuk pembanding fungsional jika definisi, unit, dan periodenya kompatibel.
-- Baseline dominan direncanakan pada 2024. Data 2023, 2025, atau tahun lain tetap diberi label tahun dan tidak dilebur tanpa alasan.
+- Tahun dan rentang analisis ditetapkan per modul setelah audit kesebandingan; setiap data tetap memuat periode observasinya.
 - Unit utama ditargetkan pada kecamatan hanya jika bukti kritis kompatibel. Kabupaten/kota tetap menjadi konteks kebijakan dan tanggung jawab pemerintahan.
 - Titik dan raster dipakai pada resolusi asalnya sebagai lapisan pendukung. Nilai agregat tidak diturunkan secara semu menjadi variasi kecamatan, grid, atau titik.
-- Baseline terbuka dan konfigurasi data terbatas diperlakukan sebagai dua konfigurasi bukti yang dapat dibandingkan.
+- Proksi, estimasi, dan data pemerintah terbuka dinilai melalui kesesuaian konstruk dan validasi, bukan hierarki status lembaga.
 - Tipologi deskriptif boleh dibangun sesuai data. Label ketat *borrowed size* atau *agglomeration shadow* hanya digunakan setelah empat gerbang bukti terpenuhi.
 - WebGL adalah keluaran kedua untuk eksplorasi dan komunikasi. WebGL tidak menggantikan tabel, peta, audit, atau analisis empiris utama.
 
@@ -56,7 +60,7 @@ Urutan ini menjadi jalur utama. Jika satu gerbang belum valid, kembali ke tahap 
 
 1. Kesiapan administratif dan pembimbingan.
 2. Penguncian judul, pertanyaan, ruang lingkup, dan batas klaim.
-3. Pengumpulan data terbuka dan permohonan data secara paralel.
+3. Akuisisi sumber terbuka, konstruksi proksi, dan perancangan pemeriksaan independen.
 4. Audit mutu bukti, harmonisasi, dan pembekuan baseline.
 5. Validitas data dan Progres 1.
 6. Delineasi pusat sekunder, wilayah tangkapan, dan unit perhitungan.
@@ -97,21 +101,19 @@ Kanal rujukan yang tercantum dalam panduan: `https://sites.google.com/ugm.ac.id/
 
 ### 3.3 Pengumpulan data, validitas data, dan Progres 1
 
-- [ ] Menjalankan baseline terbuka tanpa menunggu seluruh permohonan data selesai.
-- [ ] Mengirim permohonan data formal hanya melalui jalur dan dukungan yang disepakati dengan pembimbing/DTAP.
-- [ ] Mencatat tanggal pengiriman setiap permohonan agar batas waktu tunggu dapat diaudit.
-- [ ] Memeriksa isi berkas yang diterima; persetujuan permohonan tidak sama dengan data yang layak dianalisis.
-- [ ] Membuat registri sumber, versi berkas, tahun observasi, unit, cakupan, definisi, metode pembentukan, *missingness*, reliabilitas, lisensi, dan batas publikasi.
-- [ ] Menetapkan status mutu setiap modul sebagai langsung (D), agregat (A), sintetis (S), proksi (P), atau dikeluarkan (∅) berdasarkan isi berkas.
-- [ ] Menyelesaikan audit data sebelum mengunci indikator, unit, dan keluarga metodologis.
-- [ ] Menyiapkan bahan Progres 1 yang menunjukkan hasil pengumpulan data, bukan hanya daftar dataset yang direncanakan.
-- [ ] Mengikuti mekanisme Progres 1 yang ditetapkan dosen pembimbing.
-- [ ] Jika data dinyatakan tidak valid, memperbaiki pengumpulan atau audit lalu mengulang validasi sebelum analisis.
+- [ ] Mengumpulkan sumber terbuka lintas Jabodetabek sesuai konstruk dan kemampuan akuisisi sebenarnya.
+- [ ] Mencatat versi, periode observasi, tanggal akses, unit, cakupan, definisi, metode pembentukan, nilai hilang, serta syarat penggunaan.
+- [ ] Membedakan observasi, agregat, estimasi, dan proksi; label D/A/S/P menjelaskan bentuk bukti, bukan ranking mutu.
+- [ ] Menyusun daftar cakupan pusat–indikator–tahun dan memilih seri yang sebanding.
+- [ ] Memeriksa duplikasi usaha, pencocokan fasilitas, atribut kapasitas atau akreditasi, dan dasar koefisien pekerjaan.
+- [ ] Memisahkan data kalibrasi dari pemeriksaan independen; periksa apakah sumber pembanding menyalin data yang sama.
+- [ ] Menyiapkan bahan Progres 1 berupa data dan audit yang benar-benar tersedia, beserta batasnya.
+- [ ] Mengikuti mekanisme validasi dan Progres 1 dari pembimbing; perbaiki modul yang belum memenuhi syarat.
 
 ### 3.4 Analisis, validitas hasil, dan Progres 2
 
 - [ ] Membekukan nilai baseline dan manifest konfigurasi bukti sebelum menjalankan sensitivitas.
-- [ ] Menjalankan analisis sesuai tingkat bukti M0-M3 dan U0-U3.
+- [ ] Menjalankan analisis sesuai konstruk, bentuk pengukuran, hasil validasi, dan ketidakpastian tiap modul.
 - [ ] Menyimpan skrip, langkah transformasi, parameter, tabel antara, dan keluaran setiap konfigurasi.
 - [ ] Menyiapkan bahan Progres 2 yang memperlihatkan hasil analisis, keterbatasan, dan keputusan interpretasi.
 - [ ] Mengikuti mekanisme Progres 2 yang ditetapkan dosen pembimbing.
@@ -182,100 +184,42 @@ Catatan dari panduan yang tersedia:
 
 ### 3.9 Rencana penggunaan 10 bimbingan
 
-Minimal 10 kali bimbingan harus tercatat dan diverifikasi sebelum pendaftaran pra-sidang. Angka tersebut adalah syarat minimum, bukan alasan untuk menumpuk semua bimbingan setelah data lengkap. Target kerja yang lebih aman adalah menyiapkan 12 slot: sesi 1-10 menjadi minimum yang harus dipenuhi, sedangkan sesi 11-12 menjadi cadangan untuk data terlambat, revisi besar, atau verifikasi akhir. Sesi Progres 1 dan Progres 2 tidak otomatis menggantikan bimbingan; status pencatatannya harus dikonfirmasi kepada dosen pembimbing dan kanal TGA.
+Jumlah minimal dan pencatatan bimbingan mengikuti panduan TGA yang tersedia serta verifikasi kanal resmi. Rencana berikut menyediakan bahan substantif untuk sepuluh pertemuan; Progres 1/2 tidak otomatis menggantikan bimbingan.
 
-Gunakan pembagian berikut sebagai urutan kerja, bukan sebagai jadwal resmi. Setiap sesi harus menghasilkan artefak atau keputusan yang dicatat pada log bimbingan. Jika data belum lengkap, bawa baseline terbuka, log permohonan, audit literatur, atau keputusan metode; jangan membatalkan bimbingan hanya karena masih menunggu jawaban instansi.
-
-| Sesi | Status | Waktu pemakaian | Fokus dan keluaran minimum |
-|---|---|---|---|
-| 1 | Wajib | Sebelum proposal dikunci | Judul kerja, masalah, Q1-Q4, ruang lingkup, dan batas klaim; hasilnya adalah daftar keputusan awal yang perlu dikonfirmasi. |
-| 2 | Wajib | Setelah umpan balik awal | Teori, gap, istilah *borrowed size* dan *agglomeration shadow*, serta bukti tandingan; hasilnya adalah arsitektur argumen sementara. |
-| 3 | Wajib | Saat desain metode disusun | Unit, pusat, *catchment*, indikator, enam pintu data, baseline terbuka, dan instrumen audit; hasilnya adalah draf metode dan daftar kebutuhan data. |
-| 4 | Wajib | Setelah proposal disetujui | Mengunci versi proposal, jalur permohonan formal, dan aturan survei; hasilnya adalah daftar permohonan P, C, S, D, J, dan G serta tanggal pengiriman. |
-| 5 | Wajib | Selama menunggu jawaban | Menunjukkan log akses, baseline terbuka, audit literatur, kamus data, dan rencana *crosswalk*; hasilnya adalah keputusan pekerjaan paralel yang dapat dilanjutkan. |
-| 6 | Wajib | Pada respons pertama atau checkpoint H+7/H+14 | Menilai berkas yang datang, atau menunjukkan bahwa belum ada respons; hasilnya adalah registri awal dan skenario kerja sementara tanpa menganggap data sudah valid. |
-| 7 | Wajib | Setelah audit awal data | Memeriksa unit, tahun, konstruk, cakupan, dan status D/A/S/P/∅; hasilnya adalah keputusan validitas awal serta tingkat M dan U yang dapat dipertanggungjawabkan. |
-| 8 | Wajib | Menjelang atau sekitar Progres 1 | Menunjukkan hasil pengumpulan, audit, baseline yang akan dibekukan, dan deskripsi awal; hasilnya adalah bahan Progres 1 dan verifikasi cara penghitungan bimbingan. |
-| 9 | Wajib | Setelah Progres 1 | Menguji Q1-Q3 secara awal, benchmark fungsi, *catchment*, dan batas interpretasi; hasilnya adalah keluaran analisis awal yang dapat dikritik. |
-| 10 | Wajib | Menjelang Progres 2 | Membawa sensitivitas, hasil utama sementara, konfigurasi yang gagal, dan keterbatasan; hasilnya adalah bahan Progres 2 dan keputusan kelayakan menuju pra-sidang. |
-| 11 | Cadangan | Jika data terlambat atau ada revisi besar | Mengaudit berkas baru, membuat versi manifest baru, dan mengulang modul yang terdampak; hasilnya adalah perbandingan yang dapat dilacak tanpa menimpa provenance lama. |
-| 12 | Cadangan | Menjelang pendaftaran pra-sidang | Memeriksa naskah, PDF, logbook, jumlah bimbingan, nilai Progres, dan persetujuan pembimbing; hasilnya adalah paket pendaftaran yang siap diperiksa. |
-
-Aturan praktisnya adalah memakai sesi 1-4 untuk mengunci arah dan meluncurkan permohonan, sesi 5-7 untuk tetap produktif selama masa tunggu, serta sesi 8-10 untuk mengubah bukti yang sudah diaudit menjadi analisis. Sesi 11-12 tidak boleh dianggap sebagai syarat tambahan, tetapi sebaiknya disiapkan sejak awal agar keterlambatan data tidak menghabiskan seluruh ruang sebelum pra-sidang.
-
-### 3.10 Alur masa tunggu dan prakiraan akses data
-
-Tidak ada *service level agreement*, riwayat respons, atau tanggal pengembalian yang cukup untuk memastikan instansi mana yang akan lebih dahulu mengirim data atau menolak permohonan. Karena itu, tabel ini merupakan prakiraan kerja untuk mengatur keputusan, bukan janji waktu dari instansi. Urutan yang dapat dikendalikan adalah baseline terbuka, pengajuan paralel, pemeriksaan respons pertama, audit, pembekuan konfigurasi, dan pemrosesan data terlambat.
-
-#### 3.10.1 Checkpoint internal
-
-| Titik kerja | Tindakan | Keputusan yang harus dicatat |
+| Sesi | Fokus | Bahan yang dibawa |
 |---|---|---|
-| H0: proposal disetujui | Mengirim P, C, S, D, J, dan G secara paralel melalui jalur yang disepakati; memulai baseline terbuka; membuat satu baris log untuk setiap pintu. | Proposal, surat, dan tanggal pengiriman menjadi artefak awal. |
-| H+7: pemeriksaan penerimaan | Memeriksa apakah permohonan diterima, perlu dilengkapi, salah kanal, atau belum dijawab; meminta konfirmasi penerimaan jika memungkinkan. | Status akses administratif diperbarui tanpa menetapkan mutu data. |
-| H+14: tindak lanjut pertama | Mengirim klarifikasi atau tindak lanjut; melanjutkan audit literatur, baseline, kamus data, *crosswalk*, dan rancangan skrip. | Permohonan tetap terbuka atau jalur alternatif dicatat; penelitian tidak berhenti. |
-| H+21: checkpoint konfigurasi sementara | Menentukan bukti yang tersedia untuk analisis berjalan dan memilih *fallback* yang paling konservatif. | Skenario sementara, indikator yang belum tersedia, dan klaim yang ditunda dicatat. |
-| Menjelang Progres 1 | Membekukan manifest versi pertama hanya setelah berkas yang dipakai diaudit; data yang belum ada tidak ditulis sebagai data diterima. | Bahan Progres 1 menunjukkan bukti aktual dan keterbatasannya. |
-| Setelah pembekuan | Jika data datang kemudian, membuat versi manifest baru dan menguji modul yang terdampak sebagai skenario bukti. | Provenance versi lama dipertahankan dan perubahan hasil tidak disajikan sebagai perubahan kondisi metropolitan. |
+| 1 | Pertanyaan dan batas klaim | Bab 1, arah proksi dan sumber terbuka, desain multitemporal sesuai bukti. |
+| 2 | Teori dan bukti tandingan | Kerangka Bab 2, gap terbatas korpus, perbedaan relasi dan fungsi. |
+| 3 | Sumber dan unit | Inventaris sumber terbuka, cakupan pusat–indikator–tahun, calon unit. |
+| 4 | Konstruksi pengukuran | Pencocokan usaha/bangunan, atribut layanan, dasar koefisien pekerjaan. |
+| 5 | Relasi metropolitan | Jaringan, informasi operator, kendala estimasi OD, rencana validasi. |
+| 6 | Kesebandingan waktu | Seri yang layak, perubahan pencatatan, geometri dan kategori. |
+| 7 | Validitas awal | Hasil pemeriksaan independen, ketidakpastian, bahan Progres 1. |
+| 8 | Fungsi relatif dan asosiasi | Tolok ukur, residual, pemeriksaan sirkularitas, hasil Q1–Q3. |
+| 9 | Heterogenitas dan ketahanan | Hasil Q4, sensitivitas, konfigurasi gagal, bahan Progres 2. |
+| 10 | Kelayakan naskah | Bab yang selaras, batas inferensi, kesiapan pra-sidang. |
 
-H+7, H+14, dan H+21 adalah target pengendalian internal yang dapat disesuaikan dengan kanal permohonan dan arahan pembimbing. Ketiganya bukan batas waktu resmi dan bukan dasar untuk menyatakan sebuah permohonan telah ditolak.
+Pertemuan tambahan digunakan sesuai kebutuhan revisi dan verifikasi administrasi, tanpa bergantung pada respons permohonan data.
 
-#### 3.10.2 Prakiraan konservatif berdasarkan bentuk data
+### 3.10 Urutan akuisisi dan keputusan data
 
-Prakiraan berikut hanya mengatur risiko kerja. Ia tidak menggantikan jawaban resmi dan tidak boleh dimasukkan ke naskah sebagai fakta akses.
-
-| Pintu | Risiko yang perlu diasumsikan untuk perencanaan | Jalur konservatif jika keluaran terbatas |
-|---|---|---|
-| P | Data layanan dapat datang pada unit atau cakupan yang lebih kasar daripada unit utama. | Gunakan status A atau P sesuai audit; pertahankan fungsi layanan pada resolusi sumber dan jangan menurunkannya secara semu. |
-| C | Data survei dapat memiliki resolusi diseminasi, variabel, atau batas publikasi yang lebih sempit daripada kebutuhan OD rinci. | Gunakan M2 atau profil beban pada resolusi yang sah; jangan mengarang arus antarpusat dari tabulasi agregat. |
-| S | Pekerjaan menurut lokasi kerja dapat terbatas oleh reliabilitas, unit, atau kategori sektor. | Gunakan A atau U2 pada unit yang sah; jangan memperluasnya menjadi benchmark ekonomi seluruh kecamatan. |
-| D | Matriks atau tabulasi OD mungkin memerlukan metadata, zona, dan definisi pembentukan yang kompatibel. | Aktifkan M3 hanya setelah audit; jika tidak, turun ke M2 atau M1 sesuai isi berkas dan tetap gunakan baseline terbuka. |
-| J | OD, TAZ, *crosswalk*, jaringan, atau keluaran model dapat datang tidak lengkap atau dengan aturan kalibrasi yang terbatas. | Bedakan arus teramati dari keluaran sintetis; gunakan M3, M2, atau M1 hanya sesuai provenance aktual. |
-| G | Tabulasi Disnaker dan DPMPTSP mungkin hanya mencakup 3-5 pusat dan harus dicatat sebagai dua jawaban terpisah. | Gunakan sebagai validasi lokal pada pusat yang benar-benar tercakup; jangan menggeneralisasikannya sebagai sistem metropolitan. |
-
-Prakiraan urutan kerja yang paling defensif adalah: (1) baseline terbuka menjadi bukti pertama yang dapat diproses; (2) keluaran P, C, S, D, J, atau G yang datang lebih dahulu diperiksa tanpa menunggu pintu lain; (3) keluaran yang lengkap tetapi agregat atau sintetis diturunkan tingkat klaimnya; dan (4) permohonan yang terlambat, ditolak, atau tidak merespons digantikan sementara oleh keluarga yang sudah dipetakan dalam dokumen skenario. Tidak ada dasar yang cukup untuk mengurutkan respons aktual keenam instansi secara pasti.
-
-#### 3.10.3 Keputusan berdasarkan hasil permohonan
-
-Pisahkan status akses administratif dari status mutu bukti. Jawaban `1` hanya berarti ada keluaran yang dapat diperiksa, sedangkan status D/A/S/P/∅ ditetapkan setelah isi berkas diaudit.
-
-| Hasil akses | Perlakuan metodologis | Skenario atau keluaran kerja |
-|---|---|---|
-| Berkas lengkap dan kompatibel | Audit provenance, unit, periode, konstruk, reliabilitas, dan lisensi sebelum mengaktifkan indikator. | D atau A dapat dipakai sesuai isi; `EV-AKT` baru diisi setelah audit. |
-| Berkas tersedia tetapi parsial atau agregat | Pertahankan hanya bagian yang dapat dibandingkan dan turunkan resolusi atau klaim. | Status A atau P; pilih keluarga M/U yang sesuai, bukan memaksakan desain penuh. |
-| Berkas merupakan hasil model atau proksi | Tampilkan asumsi pembentukan dan batas konstruk yang diukur. | Status S atau P; label keluaran sebagai sintetis, proksi, potensi interaksi, atau aksesibilitas potensial. |
-| Penolakan resmi | Catat pintu sebagai tidak menghasilkan keluaran untuk konfigurasi tersebut dan periksa apakah modul memiliki pengganti yang sah. | Gunakan kegagalan tunggal `EV-P0`, `EV-C0`, `EV-S0`, `EV-D0`, `EV-J0`, atau `EV-G0` jika relevan; jangan mengubah semua bukti menjadi nol. |
-| Tidak ada respons pada checkpoint | Tandai sebagai belum tersedia untuk konfigurasi kerja saat itu dan lanjutkan dengan *fallback*; tetap lakukan tindak lanjut sesuai arahan. | Jangan langsung memberi status ∅ dan jangan menyebutnya penolakan tanpa bukti resmi atau aturan cutoff yang disepakati. |
-| Berkas datang setelah baseline dibekukan | Audit ulang hanya modul yang terdampak dan simpan versi manifest baru. | Bandingkan sebagai skenario bukti; jangan menimpa baseline atau provenance sebelumnya. |
-
-Jika seluruh permohonan gagal, `EV-OPEN` tetap merupakan keluaran yang sah untuk profil orientasi/aksesibilitas dan fungsi proksi sesuai batas bukti. Jika hanya sebagian pintu gagal, gunakan skenario prioritas dalam `output/permohonan_data/skenario_akses_data_metodologis_revisi.pdf`; jangan menulis 64 kombinasi akses sebagai 64 desain substantif.
-
-#### 3.10.4 Pekerjaan yang dapat dilakukan selama menunggu
-
-- [ ] Memperbarui log P, C, S, D, J, dan G dengan tanggal, kanal, isi permohonan, respons, dan tindak lanjut.
-- [ ] Menyelesaikan baseline terbuka tanpa mengubah aksesibilitas potensial menjadi arus aktual.
-- [ ] Mengaudit literatur, definisi konstruk, tahun, unit, dan keterbatasan sumber prioritas.
-- [ ] Menyiapkan kamus data, *crosswalk*, formulir audit, manifest skenario, dan lembar validasi manual.
-- [ ] Menyiapkan skrip reproduksi dan struktur tabel tanpa menulis hasil yang belum dihitung atau belum diaudit.
-- [ ] Menulis bagian metode dan kerangka Bab 4-6 yang tidak bergantung pada angka final.
-- [ ] Menyiapkan bahan bimbingan berikutnya dari artefak yang sudah dihasilkan, bukan hanya menanyakan status permohonan.
-- [ ] Tidak melakukan survei lapangan sebelum proposal dan izin yang diperlukan disetujui.
-- [ ] Tidak mengunci indikator, unit, kelas, atau label *borrowed size*/*agglomeration shadow* sebelum audit data dan empat gerbang klaim selesai.
+- [ ] Dahulukan sumber yang mencakup seluruh wilayah dengan definisi sebanding; periksa keunggulan cakupan, jangan mengasumsikannya.
+- [ ] Ambil sampel ekstraksi untuk memastikan lokasi, kategori, tahun, dan cara reproduksi sebelum pengumpulan skala kawasan.
+- [ ] Bangun modul fungsi, relasi, dan temporal secara bertahap; kegagalan satu modul tidak menghentikan modul lain.
+- [ ] Jika sumber tidak dapat digunakan, cari sumber terbuka lain yang mengukur konstruk sejenis atau nyatakan batas modul.
+- [ ] Jika data hanya mutakhir, gunakan untuk analisis periode tersebut; jangan menganggapnya inventaris historis.
+- [ ] Bekukan konfigurasi setelah audit dan simpan perubahan versi tanpa menimpa hasil sebelumnya.
+- [ ] Evaluasi CCTV/SUMO hanya jika akses, cakupan, serta kebutuhan kalibrasi memadai; keduanya opsional.
 
 ## 4. Gerbang substantif penelitian
 
 ### 4.1 Penguncian pertanyaan dan klaim
 
-- [ ] Mengonfirmasi judul kerja dengan dosen pembimbing.
-- [ ] Menetapkan Q1 tentang derajat, arah, dan beban hubungan metropolitan.
-- [ ] Menetapkan Q2 tentang fungsi/kinerja lokal dibandingkan dengan tingkat yang diharapkan dari ukuran dan karakteristik lokal.
-- [ ] Menetapkan Q3 tentang kombinasi integrasi, surplus/defisit fungsi, manfaat, dan beban menjadi tipologi atau gradien *status quo*.
-- [ ] Menetapkan Q4 tentang kestabilan hasil terhadap indikator, unit, bobot, ambang, status bukti, dan spesifikasi.
-- [ ] Menegaskan bahwa Q1-Q3 menghasilkan diagnosis *status quo*, sedangkan Q4 menghasilkan analisis ketahanan dan skenario.
-- [ ] Menetapkan istilah klaim sebelum melihat hasil klasifikasi.
-- [ ] Menghapus bahasa kausal seperti “Jakarta menyebabkan” kecuali strategi identifikasi tambahan benar-benar disetujui dan dilaksanakan.
-- [ ] Menegaskan perbedaan integrasi aktual, orientasi, aksesibilitas potensial, fungsi lokal, kinerja, manfaat, ketergantungan, dan beban.
-- [ ] Menentukan apakah penelitian memakai istilah “kematangan fungsi lokal”, “kematangan layanan”, atau istilah yang lebih sempit sesuai bukti.
+- [ ] Gunakan empat pertanyaan aktif pada Bab 1: Q1 relasi terarah, Q2 fungsi relatif dan perubahan pada seri sebanding, Q3 asosiasi relasi–fungsi, Q4 heterogenitas antarpusat serta manfaat dan beban.
+- [ ] Tempatkan sensitivitas sebagai pemeriksaan lintas pertanyaan, bukan Q4 tersendiri.
+- [ ] Pertahankan perbedaan pengamatan relasi, estimasi relasi, aksesibilitas potensial, fungsi, kinerja, dan kesejahteraan.
+- [ ] Tetapkan konstruk, unit, dan batas interpretasi sebelum melihat hasil klasifikasi.
+- [ ] Jangan menyebut asosiasi atau perubahan temporal sebagai sebab-akibat tanpa strategi identifikasi tambahan.
 
 ### 4.2 Audit literatur
 
@@ -288,34 +232,19 @@ Jika seluruh permohonan gagal, `EV-OPEN` tetap merupakan keluaran yang sah untuk
 - [ ] Memastikan setiap klaim rinci hanya memakai sumber yang benar-benar telah diperiksa dan sitasinya dapat ditelusuri.
 - [ ] Memasukkan bukti tandingan bahwa kedekatan dengan pusat besar tidak otomatis menghasilkan *agglomeration shadow*.
 
-### 4.3 Audit jalur data
+### 4.3 Audit sumber dan konstruksi indikator
 
-Enam pintu permohonan dicatat terpisah dari mutu keluaran:
-
-| Kode | Pintu data | Fungsi yang diminta |
-|---|---|---|
-| P | Podes 2024 | layanan lokal dan kehadiran fasilitas yang dapat diagregasikan secara sah |
-| C | Survei Komuter Jabodetabek 2023 | OD, orientasi, karakteristik komuter, dan beban perjalanan pada resolusi yang sah |
-| S | Sakernas Agustus 2024 | pekerjaan menurut lokasi kerja dan sektor pada unit dengan reliabilitas memadai |
-| D | Kemenhub/DJITM | matriks atau tabulasi OD Kajian Transportasi Jabodetabek 2023 beserta metadata |
-| J | JUTPI 2/3 | OD antarzona, TAZ/crosswalk, jaringan, waktu tempuh, kalibrasi, dan validasi |
-| G | Disnaker/DPMPTSP | tabulasi pekerjaan atau fungsi ekonomi pusat sekunder prioritas |
-
-- [ ] Mencatat jawaban P, C, S, D, J, dan G tanpa menganggap angka akses 1/0 sebagai mutu bukti.
-- [ ] Memisahkan keluaran Disnaker dan DPMPTSP setelah berkas diterima.
-- [ ] Mempertahankan baseline terbuka meskipun permohonan data berhasil.
-- [ ] Memberi status D/A/S/P/∅ berdasarkan unit, periode, konstruk, cakupan, dan cara pembentukan aktual.
-- [ ] Menetapkan M0-M3 untuk bukti mobilitas dan relasi metropolitan.
-- [ ] Menetapkan U0-U3 untuk bukti fungsi dan kematangan lokal.
-- [ ] Menyimpan manifest skenario yang memuat indikator aktif, indikator dikeluarkan, unit, tahun, status bukti, klaim yang diperbolehkan, dan versi berkas.
-- [ ] Mengaktifkan `EV-AKT` hanya setelah kombinasi bukti aktual diaudit.
-- [ ] Mempertahankan `EV-OPEN` sebagai baseline ketika seluruh permohonan gagal.
-- [ ] Menambahkan skenario kegagalan tunggal atau *stress test* hanya jika mengubah indikator, unit, metode, atau klaim.
-- [ ] Tidak menulis 64 kombinasi akses sebagai 64 desain substantif yang berbeda.
+- [ ] Petakan sumber usaha/bangunan, fasilitas beserta atributnya, jaringan/operator, massa lokal, dan pengamatan multitemporal.
+- [ ] Gunakan data pemerintah terbuka apabila cocok; jangan jadikan status resmi sebagai standar kebenaran tunggal.
+- [ ] Periksa cakupan spasial dan historis OSM, Google Maps, direktori lain, serta sumber pemda pada unit yang sama.
+- [ ] Tetapkan prosedur akuisisi, deduplikasi, pencocokan lokasi, klasifikasi sektor, dan dokumentasi asal data.
+- [ ] Tetapkan koefisien estimasi yang memiliki dasar dan rentang pengujian; koefisien belum tersedia berarti estimasi belum siap, bukan izin mengarang angka.
+- [ ] Simpan konfigurasi bukti dengan sumber, tahun, unit, asumsi, indikator aktif, validasi, ketidakpastian, dan batas klaim.
+- [ ] Bandingkan sumber menurut kemampuan mengukur konstruk serta biaya dan keterulangan pemerolehannya.
 
 ### 4.4 Isu data yang wajib diselesaikan
 
-- [ ] Meminta atau memperoleh klarifikasi atas konflik ambang WSM 2024 yang tercatat sebagai 7% dan 15%.
+- [ ] Memeriksa konflik ambang WSM 2024 dalam inventaris terdahulu melalui dokumen publik; uji alternatif yang beralasan tanpa menunggu klarifikasi instansi.
 - [ ] Memastikan tahun rujukan penduduk dan versi dokumen WSM yang dipakai.
 - [ ] Menyatakan bahwa persentase orientasi WSM bukan matriks OD antarpusat.
 - [ ] Menyatakan bahwa tabel bangkitan-tarikan BPTJ bukan pasangan arus OD yang teramati.
@@ -323,7 +252,7 @@ Enam pintu permohonan dicatat terpisah dari mutu keluaran:
 - [ ] Menyatakan bahwa POI, fasilitas, kawasan industri, morfologi terbangun, cahaya malam, dan direktori adalah proksi sesuai konstruknya masing-masing.
 - [ ] Menolak pengisian nilai hilang sebagai nol tanpa alasan substantif dan aturan yang terdokumentasi.
 - [ ] Menolak disagregasi nilai kabupaten/kota atau zona kasar menjadi variasi kecamatan/grid tanpa model eksplisit, asumsi, validasi, dan label sintetis.
-- [ ] Menyimpan data terbatas secara terpisah dari keluaran WebGL publik.
+- [ ] Memastikan keluaran WebGL mengikuti syarat publikasi sumber dan tidak memuat identitas sensitif.
 
 ## 5. Operasionalisasi metode
 
@@ -332,7 +261,7 @@ Enam pintu permohonan dicatat terpisah dari mutu keluaran:
 - [ ] Mendefinisikan unit amatan sebagai satuan tempat observasi dicatat pada sumber.
 - [ ] Mendefinisikan unit perhitungan sebagai satuan bersama yang sah dalam konfigurasi bukti tertentu.
 - [ ] Mendefinisikan unit analisis sebagai pusat sekunder beserta wilayah tangkapan fungsionalnya.
-- [ ] Menentukan kandidat pusat dari sumber resmi atau dokumen perencanaan sebelum menguji bukti tambahan.
+- [ ] Menentukan kandidat pusat dari konsentrasi aktivitas dan fungsi sumber terbuka, dengan dokumen perencanaan sebagai pembanding.
 - [ ] Menetapkan aturan kandidat dan *catchment* sebelum menghitung fungsi relatif dan tipologi.
 - [ ] Memisahkan variabel delineasi dari variabel hasil sejauh data memungkinkan.
 - [ ] Jika indikator yang sama dipakai untuk delineasi dan hasil, menjalankan pemeriksaan dengan indikator tersebut dikeluarkan.
@@ -341,30 +270,17 @@ Enam pintu permohonan dicatat terpisah dari mutu keluaran:
 - [ ] Mengeluarkan modul apabila keterbandingan tidak dapat dipertanggungjawabkan.
 - [ ] Mencatat validasi manual tiga sampai lima pusat prioritas sebagai pemeriksaan purposif, bukan sampel inferensial.
 
-### 5.2 Pengukuran integrasi metropolitan
+### 5.2 Pengukuran relasi metropolitan
 
-- [ ] Menetapkan tingkat M3 jika OD antarkecamatan, TAZ, atau antarpusat kompatibel dan dapat dibuktikan sebagai relasi yang digunakan.
-- [ ] Menghitung orientasi ke inti jika matriks OD mendukung:
-
-  $$
-  O_i = \frac{\sum_{j \in J} F_{ij}}{\sum_j F_{ij}}
-  $$
-
-- [ ] Menetapkan bahwa $F_{ij}$ adalah arus dari unit $i$ menuju unit $j$, sedangkan $J$ adalah himpunan zona inti Jakarta yang ditetapkan sebelum perhitungan.
-- [ ] Menghitung *self-containment* hanya jika definisi perjalanan, zona, populasi, dan arus internal mendukung.
-- [ ] Menetapkan tingkat M2 untuk orientasi komuter, OD kabupaten/kota, atau tabulasi agregat pada resolusi sumber.
-- [ ] Menetapkan tingkat M1 untuk OD sintetis, marginal bangkitan-tarikan, jaringan, jarak, atau waktu tempuh.
-- [ ] Memberi nama “potensi interaksi” atau “aksesibilitas potensial” pada keluaran M1, bukan integrasi aktual.
-- [ ] Menyimpan polaritas, bobot, normalisasi, fungsi hambatan, dan populasi pembanding jika indeks ringkas digunakan.
-- [ ] Memisahkan manfaat akses dari beban dan ketergantungan; integrasi tinggi tidak otomatis berarti manfaat tinggi.
-
-Jika hanya jaringan atau waktu tempuh tersedia, bentuk aksesibilitas potensial dapat dicatat sebagai:
-
-$$
-A_i = \sum_j W_j f(c_{ij})
-$$
-
-Nilai tersebut tetap diberi label potensial dan diuji terhadap fungsi hambatan, massa tujuan, serta asumsi model.
+- [ ] Pisahkan pengamatan relasi, estimasi OD, dan aksesibilitas potensial.
+- [ ] Bangun jaringan dan biaya perjalanan dari sumber terbuka; catat perbedaan moda dan periode.
+- [ ] Bedakan rute, frekuensi, armada, kapasitas, jumlah penumpang, volume kendaraan, dan pasangan asal–tujuan.
+- [ ] Estimasikan OD dengan model gravitasi atau radiasi; gunakan IPF/Furness hanya jika marginal kompatibel.
+- [ ] Hitung orientasi, arus masuk–keluar, asimetri, dan *self-containment* apabila definisi populasi dan arus internal mendukung; labeli hasil estimasi.
+- [ ] Periksa estimasi terhadap data yang tidak digunakan untuk kalibrasi. Kecocokan marginal tidak menjamin ketepatan pasangan OD.
+- [ ] Uji fungsi hambatan, massa tujuan, keterisian, pilihan moda, dan ketidakpastian arus.
+- [ ] Cegah penggunaan variabel tujuan yang sama sebagai pembentuk relasi dan hasil tanpa pemeriksaan sirkularitas.
+- [ ] Sajikan aksesibilitas potensial sebagai konstruk tersendiri; evaluasi CCTV/SUMO sebagai opsi setelah audit kelayakan.
 
 ### 5.3 Pengukuran fungsi relatif
 
@@ -387,9 +303,13 @@ Nilai tersebut tetap diberi label potensial dan diuji terhadap fungsi hambatan, 
 
 - [ ] Menafsirkan residual positif sebagai surplus relatif pada konstruk $k$ dan residual negatif sebagai defisit relatif pada konstruk $k$.
 - [ ] Tidak menyebut residual layanan sebagai surplus produktivitas.
-- [ ] Tidak menyebut titik minat sebagai pekerjaan.
+- [ ] Estimasikan pekerjaan dari usaha/bangunan dan koefisien beralasan; laporkan asumsi, rentang, serta validasi, bukan menyamakan jumlah titik dengan pekerja.
 - [ ] Tidak menyebut potret satu tahun sebagai *functional upgrading* temporal.
 - [ ] Menetapkan aturan prediksi, ketidakpastian, transformasi, dan populasi pembanding sebelum klasifikasi.
+
+- [ ] Analisis perubahan hanya pada seri yang definisi, batas, kategori, dan cakupannya sebanding.
+- [ ] Bedakan perubahan fenomena dari perubahan pemetaan; jangan mengisi masa lalu dengan inventaris masa kini.
+- [ ] Teruskan ketidakpastian pengukuran ke residual dan asosiasi; bedakan acuan tetap dan pembanding per tahun.
 
 ### 5.4 Manfaat, ketergantungan, dan beban
 
@@ -421,7 +341,7 @@ Nilai tersebut tetap diberi label potensial dan diuji terhadap fungsi hambatan, 
 
 Label ketat hanya boleh digunakan jika seluruh gerbang berikut terlewati:
 
-- [ ] **Gerbang 1 - Bukti relasional:** tersedia hubungan dengan Jakarta atau jaringan pusat, bukan hanya jarak, kedekatan, atau waktu tempuh.
+- [ ] **Gerbang 1 - Bukti relasional:** hubungan dengan Jakarta atau jaringan pusat didukung pengamatan atau estimasi yang diperiksa independen; kedekatan saja belum cukup.
 - [ ] **Gerbang 2 - Pembanding substantif:** fungsi aktual dibandingkan dengan ekspektasi berdasarkan ukuran dan karakteristik lokal pada unit yang memadai.
 - [ ] **Gerbang 3 - Kompatibilitas:** unit, wilayah tangkapan, periode, populasi sasaran, dan konstruk integrasi-fungsi dapat dihubungkan secara sah.
 - [ ] **Gerbang 4 - Ketahanan:** label tidak runtuh pada sensitivitas utama dan tidak bergantung pada satu proksi bermasalah.
@@ -500,15 +420,15 @@ Template menyatakan bahwa judul bab, subbab, dan konten dapat disesuaikan dengan
 - [ ] Menulis `3.1` sebagai pendekatan kuantitatif/deduktif dengan analisis spasial-relasional.
 - [ ] Menjelaskan mengapa pendekatan tersebut sesuai dengan Q1-Q4.
 - [ ] Menyatakan bahwa audit dokumen dan provenance adalah prosedur mutu data, bukan alasan untuk menyebut penelitian campuran.
-- [ ] Menulis `3.2` sebagai studi kasus tunggal kuantitatif, potret potong lintang antarruang, diagnosis relasional, dan sensitivitas.
+- [ ] Menulis `3.2` sebagai studi kasus tunggal kuantitatif, multitemporal sesuai bukti, diagnosis relasional, dan sensitivitas.
 - [ ] Menjelaskan kelebihan, keterbatasan, dan cara pengelolaan keterbatasan tanpa menghapusnya.
-- [ ] Menulis `3.3` dengan batas spasial Jabodetabek/BPTJ, WSM sebagai pembanding jika kompatibel, baseline 2024, tahun pembanding berlabel, dan batas substantif.
+- [ ] Menulis `3.3` dengan batas spasial Jabodetabek/BPTJ, WSM sebagai pembanding jika kompatibel, tahun dasar per modul dan seri sebanding berlabel, dan batas substantif.
 - [ ] Menjelaskan bahwa jejak fungsional bukan perluasan yurisdiksi Jakarta.
 - [ ] Menulis `3.4` dengan pemisahan unit amatan, unit perhitungan, unit analisis, pusat sekunder, *catchment*, dan lapisan administrasi.
-- [ ] Menulis `3.5` dengan dua jalur pengumpulan: baseline terbuka dan akses kelembagaan.
-- [ ] Menjelaskan instrumen sekunder: log akses, formulir audit, kamus data, crosswalk, manifest, lembar validasi manual, dan skrip reproduksi.
+- [ ] Menulis `3.5` sebagai akuisisi sumber terbuka, konstruksi proksi, estimasi, dan pemeriksaan independen.
+- [ ] Menjelaskan instrumen kerja: log akses, formulir audit, kamus data, crosswalk, manifest, lembar validasi manual, dan skrip reproduksi.
 - [ ] Menjelaskan populasi/cakupan, aturan sampel jika ada, serta status validasi manual sebagai purposif.
-- [ ] Menjelaskan status D/A/S/P/∅, tingkat M0-M3/U0-U3, lisensi, keamanan, dan perlindungan data terbatas.
+- [ ] Menjelaskan bentuk bukti D/A/S/P/∅, asumsi estimasi, pemeriksaan independen, lisensi, serta privasi.
 - [ ] Menulis `3.6` secara berurutan dari audit dan pembekuan baseline sampai keluaran WebGL.
 - [ ] Menyertakan aturan hitung integrasi, fungsi relatif, residual, skor ringkas jika dipakai, nilai hilang, ambang, klasifikasi, dan sensitivitas.
 - [ ] Menyertakan matriks keterlacakan Q1-Q4: pertanyaan, konstruk, bukti minimum, unit, operasi, keluaran, dan batas klaim.
@@ -551,7 +471,7 @@ Template menyatakan bahwa judul bab, subbab, dan konten dapat disesuaikan dengan
 - [ ] Menulis rekomendasi kebijakan yang sesuai dengan tingkat bukti dan kewenangan pemerintah yang relevan.
 - [ ] Tidak mengubah jejak fungsional menjadi rekomendasi perubahan batas administratif tanpa analisis kelembagaan tambahan.
 - [ ] Menulis keterbatasan desain, data, unit, proksi, waktu, dan generalisasi secara jujur.
-- [ ] Menyusun peluang riset lanjutan untuk data temporal, OD rinci, kinerja ekonomi, kapasitas kelembagaan, atau desain kausal.
+- [ ] Menyusun peluang riset lanjutan untuk perluasan seri waktu yang sebanding, validasi OD, kinerja ekonomi, kapasitas kelembagaan, atau desain kausal.
 
 ### 6.8 Daftar pustaka dan lampiran
 
@@ -560,7 +480,7 @@ Template menyatakan bahwa judul bab, subbab, dan konten dapat disesuaikan dengan
 - [ ] Menambahkan nomor halaman pada kutipan langsung dan memastikan format kutipan konsisten.
 - [ ] Memeriksa DOI, judul, tahun, volume, nomor, halaman, dan jenis sumber.
 - [ ] Menyimpan tabel audit data, kamus data, log akses, crosswalk, manifest, parameter, dan daftar data yang dikeluarkan sebagai lampiran jika sesuai dengan lisensi.
-- [ ] Menyimpan surat izin/permohonan penelitian dan dokumen administrasi yang boleh dilampirkan.
+- [ ] Menyimpan dokumen administrasi TGA yang relevan dan log sumber terbuka; paket permohonan data lama tidak dipakai.
 - [ ] Tidak melampirkan data terbatas yang melanggar perjanjian penggunaan atau memungkinkan rekonstruksi data sensitif.
 
 ## 7. Pembuatan versi LaTeX printable
@@ -614,7 +534,7 @@ Markdown adalah checklist utama dan sumber isi. LaTeX/PDF hanya representasi tat
 - [ ] Tidak ada data agregat yang diturunkan secara semu ke unit lebih rinci.
 - [ ] Tidak ada label *borrowed size* atau *agglomeration shadow* tanpa empat gerbang bukti.
 - [ ] Tidak ada perubahan skenario yang disajikan sebagai perubahan kondisi metropolitan.
-- [ ] Tidak ada klaim kausal, temporal, prediktif, atau perubahan yurisdiksi yang melampaui desain.
+- [ ] Tidak ada klaim kausal, temporal, prediktif, atau perubahan yurisdiksi yang melampaui desain multitemporal sesuai bukti.
 - [ ] Tahun sumber, unit, status mutu, dan batas klaim terlihat pada tabel/peta utama.
 - [ ] Hasil campuran dan ketidakstabilan tidak disembunyikan demi satu label tunggal.
 - [ ] Semua keputusan yang masih bersyarat ditandai dan dibawa ke pembimbingan.
@@ -628,7 +548,7 @@ Gunakan log ini untuk menjaga agar perubahan dari pembimbingan tidak hilang dari
 
 | Ke | Tanggal | Agenda/bahan | Arahan atau keputusan dosen | Dampak pada naskah/data | Tindak lanjut | Bukti/tautan |
 |---|---|---|---|---|---|---|
-| 1 |  |  |  |  |  |  |
+| 1 |  | 18 September 2026 | Proksi dan sumber terbuka sebagai fondasi; multitemporal sesuai bukti | Keputusan pengguna | Bab 1–3, Argument, roadmap, panduan | Ketersediaan dan mutu per modul |
 | 2 |  |  |  |  |  |  |
 | 3 |  |  |  |  |  |  |
 | 4 |  |  |  |  |  |  |

@@ -63,7 +63,7 @@ Terima kasih, Pak.
 | Pra-TA | Pendekatan awal, pengiriman ringkasan, tindak lanjut | Meminta waktu untuk berdiskusi dan menanyakan kemungkinan bimbingan |
 | Awal bimbingan | Perkenalan, penetapan fokus, penjadwalan | Menyepakati cara kerja dan keputusan awal |
 | Proposal | Pengiriman draf, permintaan umpan balik, klarifikasi | Menghasilkan proposal yang koheren |
-| Permohonan data | Meminta arahan tentang jalur permohonan, dukungan surat, dan pembaruan status | Menjaga proses akses data tetap formal dan tercatat |
+| Sumber terbuka dan proksi | Membahas konstruksi indikator, hasil akuisisi, dan validasi | Menjaga pengukuran dapat ditelusuri dan direplikasi |
 | Masa tunggu | Mengerjakan baseline terbuka, meninjau literatur, atau menyiapkan keputusan metode | Tetap bekerja tanpa mengklaim data yang belum tersedia |
 | Analisis | Membawa hasil sementara, kendala, dan sensitivitas | Menguji bukti dan batas klaim |
 | Progres dan prasidang | Meminta persetujuan, memeriksa catatan bimbingan, dan menyiapkan berkas | Memenuhi persyaratan akademik dan administratif |
@@ -254,55 +254,37 @@ Terima kasih atas arahannya, Pak.
 
 Jangan menulis "arahan Bapak berubah-ubah". Tunjukkan catatan yang Anda miliki, lalu tanyakan pilihan mana yang perlu dipakai.
 
-### 4.13 Meminta arahan tentang permohonan data
+### 4.13 Membahas arah data dan metode
 
 **Bicara langsung**
 
-> Pak, enam kebutuhan data sudah saya kelompokkan menjadi P, C, S, D, J, dan G. Sambil mengurus permohonannya, saya tetap mengerjakan baseline terbuka. Saya ingin meminta arahan tentang jalur permohonan yang sebaiknya saya tempuh. Apakah saya juga memerlukan surat atau pengantar dari DTAP?
+> Pak, saya menggunakan proksi dan sumber terbuka sebagai fondasi utama, termasuk data pemerintah yang terbuka apabila sesuai. Desainnya multitemporal sesuai bukti. Saya ingin membahas konstruksi indikator, kesebandingan tahun, dan validasinya.
 
 **WhatsApp**
 
 ```text
-Pak Retno, enam kebutuhan data sudah saya kelompokkan menjadi P, C, S, D, J, dan G. Sambil mengurus permohonannya, saya tetap mengerjakan baseline terbuka.
+Pak Retno, saya sudah memetakan kebutuhan pengukuran lokasi usaha, atribut fasilitas, jaringan, informasi operator, dan massa lokal. Rancangan tidak bergantung pada permohonan data tertutup.
 
-Saya ingin meminta arahan tentang jalur permohonan yang sebaiknya saya tempuh. Apakah saya juga memerlukan surat atau pengantar dari DTAP? Ringkasan kebutuhan datanya ada di sini: [tautan].
+Saya ingin membahas prioritas sumber yang benar-benar tersedia dan asumsi untuk estimasi pekerjaan atau relasi metropolitan. Ringkasan sumber, periode, dan keterbatasannya: [tautan].
 ```
 
-### 4.14 Melaporkan data yang diterima sebagian, ditolak, atau belum merespons
-
-**Bicara langsung**
-
-> Pak, status terakhir [pintu data] adalah [diterima sebagian, ditolak, atau belum merespons]. Saya belum akan menggunakan data yang diterima sebelum selesai memeriksa unit, tahun, konstruk, dan cakupannya. Agar jadwal tetap berjalan, untuk sementara saya menyiapkan skenario [EV-OPEN, EV-MIN, atau EV lainnya]. Apakah skenario ini dapat saya lanjutkan sambil tetap mencatat proses permohonannya?
-
-**WhatsApp**
+### 4.14 Melaporkan hasil akuisisi dan audit
 
 ```text
-Pak Retno, berikut status permohonan data saya:
+Pak Retno, berikut hasil akuisisi sumber terbuka:
 
-- [Pintu]: [status akses]
-- [Pintu]: [status akses]
-- [Pintu]: [status akses]
+- [Sumber]: [berkas, unit, periode, cakupan, dan mutu yang telah diperiksa].
+- [Sumber]: [hasil dan kendala].
 
-Saya belum akan menggunakan data yang diterima sebelum selesai memeriksa unit, tahun, konstruk, dan cakupannya. Agar jadwal tetap berjalan, saya menyiapkan [skenario] untuk sementara. Apakah skenario ini dapat saya lanjutkan sambil tetap mencatat permohonan yang belum selesai?
+Saya mengusulkan [konstruksi indikator] dengan asumsi [asumsi] dan pemeriksaan independen [pemeriksaan]. Bagian yang belum dapat diverifikasi adalah [bagian]. Saya ingin membahas dampaknya bagi analisis.
 ```
 
-Gunakan "belum merespons" untuk menyebut status komunikasi. Jangan menulis "ditolak" sebelum ada penolakan resmi atau aturan penutupan yang dapat dibuktikan.
-
-### 4.15 Melaporkan pekerjaan saat masih menunggu data
-
-**Bicara langsung**
-
-> Pak, walaupun belum ada jawaban dari [pintu data], saya sudah menyelesaikan [baseline, audit literatur, kamus data, atau crosswalk]. Saya juga menyiapkan pertanyaan tentang [isu metode]. Pada bimbingan ini, saya ingin membahas isu tersebut sambil melaporkan status permohonan data.
-
-**WhatsApp**
+### 4.15 Melaporkan progres konstruksi data
 
 ```text
-Pak Retno, selama menunggu jawaban dari [pintu data], saya sudah menyelesaikan:
-1. [hasil 1]
-2. [hasil 2]
-3. [hasil 3]
+Pak Retno, saya telah menyelesaikan [ekstraksi, pencocokan lokasi, audit seri, atau estimasi awal]. Hasilnya tersedia di [tautan].
 
-Saya juga menyiapkan pertanyaan metode tentang [isu]. Bahan lengkapnya ada di [tautan].
+Pada bimbingan berikutnya, saya ingin membahas [isu metode] dan pilihan [unit, koefisien, rentang tahun, atau validasi]. Modul yang sudah layak tetap berjalan, sementara keterbatasan modul lain dicatat secara terbuka.
 ```
 
 ### 4.16 Laporan kemajuan singkat
@@ -766,7 +748,7 @@ Jangan menulis "Mohon dicek semuanya". Sebutkan bagian yang perlu dibaca dan kep
 Saya terutama memerlukan arahan tentang hal-hal berikut:
 1. Apakah unit analisis tetap kecamatan?
 2. Apakah baseline terbuka dapat digunakan untuk Progres 1?
-3. Apakah permohonan [pintu data] perlu ditindaklanjuti melalui surat tambahan?
+3. Apakah asumsi estimasi dan bukti pemeriksaan independen untuk [modul] sudah memadai?
 ```
 
 ### 8.2 Gunakan nama versi berkas
@@ -818,10 +800,10 @@ Pak, saya memahami arah revisinya. Agar saya bisa menyesuaikan jadwal, apakah pe
 
 ### 8.8 Jika berkomunikasi tentang data
 
-- Tulis status "permohonan dikirim", "belum merespons", "diterima", "diterima sebagian", atau "ditolak" secara terpisah.
-- Jangan menulis "data sudah ada" jika baru ada surat persetujuan.
+- Laporkan apa yang ditemukan, berhasil diekstrak, sudah diaudit, dan masih belum terverifikasi secara terpisah.
+- Jangan menulis "data lengkap" jika baru menemukan portal atau judul dataset.
 - Jangan menjanjikan hasil analisis sebelum unit, tahun, konstruk, dan mutu data diperiksa.
-- Siapkan rencana cadangan ketika berkonsultasi dengan dosen. Jangan hanya membawa masalah.
+- Bawa pilihan konstruksi indikator dan validasi berbasis sumber terbuka beserta konsekuensi masing-masing.
 
 ### 8.9 Jika menerima informasi dari kakak tingkat atau teman
 

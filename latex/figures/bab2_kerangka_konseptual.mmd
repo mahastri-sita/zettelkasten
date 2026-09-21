@@ -1,0 +1,39 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial", "primaryColor": "#EAF1F8", "primaryTextColor": "#17202A", "primaryBorderColor": "#496780", "lineColor": "#607487", "secondaryColor": "#F4E7DA", "tertiaryColor": "#E7F0E7", "clusterBkg": "#F7F8FA", "clusterBorder": "#A6B0BA"}, "flowchart": {"curve": "basis", "nodeSpacing": 28, "rankSpacing": 38}}}%%
+flowchart TB
+    subgraph L1[Landasan lokal]
+        A[Massa lokal S] --- B[Karakteristik lokal X]
+        B --- C[Biaya dan tekanan lokal]
+    end
+
+    subgraph L2[Hubungan metropolitan]
+        D[Aksesibilitas potensial] --> E[Relasi yang terealisasi I]
+        E --> F[Arah dan asimetri arus]
+    end
+
+    A --> G[Fungsi yang diharapkan F-hat]
+    B --> G
+    H[Fungsi aktual per domain F] --> I[Residu fungsi relatif R]
+    G --> I
+    E --> J[Asosiasi integrasi dengan R]
+    I --> J
+
+    K[Hierarki, spesialisasi,<br/>status administratif,<br/>posisi jaringan] --> J
+    J --> L[Manfaat akses]
+    J --> M[Beban dan ketergantungan]
+    L --> N{Diagnosis per domain}
+    M --> N
+    N --> O[Surplus terkait jaringan]
+    N --> P[Defisit terkait jaringan]
+    N --> Q[Hasil campuran]
+    N --> R[Belum terklasifikasi]
+
+    classDef local fill:#F4E7DA,stroke:#9B6B43,color:#17202A,stroke-width:1.3px;
+    classDef relation fill:#EAF1F8,stroke:#496780,color:#17202A,stroke-width:1.3px;
+    classDef moderator fill:#EEE8F6,stroke:#716188,color:#17202A,stroke-width:1.3px;
+    classDef diagnostic fill:#FFF6D8,stroke:#9A7B20,color:#17202A,stroke-width:1.5px;
+    classDef result fill:#E7F0E7,stroke:#557B5D,color:#17202A,stroke-width:1.3px;
+    class A,B,C,G,H,I local;
+    class D,E,F,J,L,M relation;
+    class K moderator;
+    class N diagnostic;
+    class O,P,Q,R result;

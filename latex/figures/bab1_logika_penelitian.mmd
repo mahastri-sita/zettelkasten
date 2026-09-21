@@ -1,0 +1,24 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial", "primaryColor": "#EAF1F8", "primaryTextColor": "#17202A", "primaryBorderColor": "#496780", "lineColor": "#607487", "secondaryColor": "#F4E7DA", "tertiaryColor": "#E7F0E7", "clusterBkg": "#F7F8FA", "clusterBorder": "#A6B0BA"}, "flowchart": {"curve": "basis", "nodeSpacing": 32, "rankSpacing": 42}}}%%
+flowchart LR
+    A[Perkembangan pusat<br/>di luar DKI Jakarta] --> B{Apakah bentuk fisik<br/>diikuti hubungan fungsional?}
+    B --> C[Relasi metropolitan terarah<br/>arus, daya tarik, asimetri]
+    A --> D[Fungsi aktual per domain<br/>pekerjaan, layanan, bisnis]
+    E[Massa dan karakteristik lokal] --> F[Fungsi yang diharapkan]
+    D --> G[Residu fungsi relatif]
+    F --> G
+    C --> H[Uji hubungan relasi<br/>dengan residu fungsi]
+    G --> H
+    I[Beban, ketergantungan,<br/>dan kondisi lokal] --> H
+    H --> J{Gerbang bukti<br/>dan uji sensitivitas}
+    J --> K[Borrowed size]
+    J --> L[Agglomeration shadow]
+    J --> M[Campuran atau<br/>belum terselesaikan]
+
+    classDef context fill:#F4E7DA,stroke:#9B6B43,color:#17202A,stroke-width:1.4px;
+    classDef measure fill:#EAF1F8,stroke:#496780,color:#17202A,stroke-width:1.4px;
+    classDef decision fill:#FFF6D8,stroke:#9A7B20,color:#17202A,stroke-width:1.6px;
+    classDef outcome fill:#E7F0E7,stroke:#557B5D,color:#17202A,stroke-width:1.4px;
+    class A,E,I context;
+    class C,D,F,G,H measure;
+    class B,J decision;
+    class K,L,M outcome;

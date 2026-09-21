@@ -455,7 +455,7 @@ Jangan menjadikan pertemuan awal sebagai presentasi semua pekerjaan. Prioritaska
 | Pendekatan awal | Perkenalan, alasan pemilihan, dan permintaan diskusi | Menanyakan kemungkinan bimbingan tanpa memaksa |
 | Pertemuan awal | Penjelasan masalah, pertanyaan, indikator, dan risiko data | Mengunci arah dan ruang lingkup sementara |
 | Proposal | Pengiriman draf, permintaan umpan balik, dan klarifikasi | Menghasilkan proposal yang koheren |
-| Data | Meminta arahan jalur permohonan dan melaporkan status | Menjaga akses data formal dan dapat dilacak |
+| Data | Membahas konstruksi proksi, audit sumber terbuka, dan validasi | Menjaga pengukuran dapat diperiksa dan direplikasi |
 | Masa tunggu | Melaporkan baseline terbuka dan audit | Tetap bekerja tanpa menulis data yang belum diterima |
 | Analisis | Membawa hasil sementara dan uji sensitivitas | Menguji metode, interpretasi, dan batas klaim |
 | Progres 1/2 | Melaporkan artefak dan keputusan yang belum selesai | Memastikan gerbang validitas berjalan |
@@ -609,35 +609,31 @@ Gunakan pembagian ini sebagai urutan kerja, bukan jadwal resmi. Setiap sesi haru
 ### 9.2 Pesan untuk meminta keputusan metode
 
 ```text
-Pak, saya sudah membandingkan dua jalur metode untuk pertanyaan ini.
+Pak, arah penelitian saya menggunakan proksi dan sumber terbuka sebagai fondasi utama, termasuk data pemerintah yang terbuka apabila sesuai. Desainnya multitemporal sesuai bukti: perubahan dianalisis pada seri yang sebanding, sementara indikator lain memakai periode yang tersedia.
 
-Jalur minimum menggunakan data terbuka untuk memetakan aksesibilitas potensial dan fungsi layanan. Jalur yang lebih kuat memerlukan data komuter atau OD agar hubungan dengan Jakarta dapat dibaca sebagai relasi aktual.
-
-Untuk perubahan ruang, saya dapat memakai citra temporal sebagai konteks, tetapi tidak akan menyebutnya sebagai bukti kausal. Menurut Bapak, untuk TGA ini sebaiknya saya memprioritaskan jalur aksesibilitas-fungsi lokal atau memasukkan perubahan ruang sebagai lapisan utama?
+Saya ingin membahas konstruksi [indikator], asumsi estimasi [pekerjaan/relasi], dan pemeriksaan independennya. Berikut perbandingan pilihan sumber yang benar-benar tersedia: [tautan]. Bagian yang memerlukan keputusan adalah [unit, rentang waktu, atau asumsi].
 ```
 
 ## 10. Komunikasi Data dan Batas Klaim
 
-### 10.1 Meminta arahan tentang permohonan data
+### 10.1 Membahas prioritas sumber terbuka
 
 ```text
-Pak Rendy, saya sudah mengelompokkan kebutuhan data menjadi: (1) batas dan unit, (2) relasi komuter atau OD, (3) pekerjaan dan sektor, (4) layanan/fasilitas, (5) jaringan dan aksesibilitas, serta (6) perubahan ruang.
+Pak Rendy, kebutuhan pengukuran saya mencakup lokasi usaha dan bangunan, atribut fasilitas, jaringan dan informasi operator, massa lokal, serta seri waktu yang sebanding.
 
-Sambil menyiapkan permohonan sesuai jalur resmi, saya tetap mengerjakan baseline terbuka. Saya ingin meminta arahan Bapak tentang sumber mana yang perlu diprioritaskan dan apakah permohonan atau surat pengantar tertentu diperlukan. Ringkasan kebutuhannya ada di sini: [tautan].
+Saya telah memeriksa [sumber] untuk [konstruk]. Sumber ini dapat memberikan [informasi], sedangkan keterbatasannya [batas]. Saya ingin membahas prioritas ekstraksi dan validasi berikutnya. Rancangan ini tidak bergantung pada permohonan data tertutup.
 ```
 
-### 10.2 Melaporkan data yang diterima sebagian
+### 10.2 Melaporkan hasil akuisisi
 
 ```text
-Pak, berikut status sementara sumber data saya:
+Pak, berikut hasil akuisisi sumber terbuka saya:
 
-- [Sumber 1]: [permohonan dikirim/belum merespons/diterima/diterima sebagian/ditolak secara resmi]
-- [Sumber 2]: [status]
-- [Sumber 3]: [status]
+- [Sumber 1]: [berkas yang tersedia, cakupan, periode, dan hasil audit]
+- [Sumber 2]: [hasil dan kendala]
+- [Sumber 3]: [hasil dan kendala]
 
-Saya belum akan memakai data sebagai indikator final sebelum memeriksa unit, tahun, konstruk, cakupan, kelengkapan, dan batas penggunaannya. Untuk menjaga pekerjaan berjalan, saya menyiapkan [baseline atau skenario] sebagai sementara.
-
-Apakah skenario tersebut dapat saya lanjutkan sambil menunggu atau mengaudit data yang lain?
+Untuk [modul], saya mengusulkan konstruksi [indikator/model] dan pemeriksaan [bukti independen]. Bagian yang belum dapat diverifikasi adalah [bagian]. Saya ingin membahas konsekuensinya bagi unit dan batas interpretasi.
 ```
 
 ### 10.3 Melaporkan hasil audit data
@@ -659,8 +655,8 @@ Dengan kondisi tersebut, indikator [nama indikator] belum aman dipakai untuk kla
 
 | Jangan tulis | Tulis |
 |---|---|
-| "Data sudah ada" ketika baru ada surat persetujuan | "Permohonan disetujui; isi berkas masih perlu diperiksa" |
-| "Data ditolak" ketika belum ada jawaban | "Belum merespons sampai [tanggal]" |
+| "Data sudah lengkap" ketika baru menemukan portal | "Sumber ditemukan; cakupan dan isinya masih diaudit" |
+| "Seri tahunan tersedia" ketika hanya ada riwayat suntingan | "Riwayat pencatatan tersedia; kesebandingan waktu kejadian belum diverifikasi" |
 | "Aksesibilitas penduduk" dari jarak jaringan saja | "Aksesibilitas potensial berbasis jaringan" |
 | "Fungsi ekonomi" dari titik POI saja | "Kehadiran fungsi yang diproksikan oleh POI" |
 | "Jakarta menyebabkan sprawl" dari perbandingan citra | "Perubahan spasial yang berasosiasi dengan periode atau lokasi infrastruktur; hubungan kausal belum dibuktikan" |
@@ -879,7 +875,7 @@ Setahuku, informasi itu masih berdasarkan pengalaman, bukan pengumuman resmi. Ak
 | "Sudah dibaca, Pak?" | Tindak lanjut yang menyebut tanggal pengiriman dan kebutuhan arahan |
 | "Saya memilih Bapak karena paper Bapak sama persis" | "Saya melihat irisan pada aksesibilitas, jaringan, infrastruktur, dan analisis spasial" |
 | "Metode Bapak pasti cocok untuk saya" | "Saya ingin menguji kecocokan metode tersebut dengan unit dan data saya" |
-| "Data ditolak" ketika belum ada jawaban | "Belum merespons sampai [tanggal]" |
+| "Seri tahunan tersedia" ketika hanya ada riwayat suntingan | "Riwayat pencatatan tersedia; kesebandingan waktu kejadian belum diverifikasi" |
 | "Aksesibilitas penduduk" dari jaringan saja | "Aksesibilitas potensial berbasis jaringan" |
 | "Toll road menyebabkan *shadow*" dari citra | "Pola perubahan ruang di sekitar koridor; hubungan kausal belum dibuktikan" |
 | "Saya pasti menemukan radius optimal" | "Saya ingin mengidentifikasi pola sepanjang gradien integrasi jika datanya mendukung" |

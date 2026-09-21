@@ -1,5 +1,7 @@
 # you asked
 
+> **Rekaman historis — arah metodologis digantikan pada 18 September 2026.** Isi berikut merekam eksplorasi atau penilaian atas rancangan lama. Rancangan aktif sepenuhnya memakai proksi dan sumber terbuka serta multitemporal sesuai bukti; lihat [[output/naskah/bab_1/bab_1_pendahuluan_draf|Bab 1]] dan [[output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja|Bab 3]]. Hierarki akses, kewajiban data tertutup, dan batas potong lintang dalam rekaman ini bukan arahan kerja aktif. Locator halaman lama tetap merujuk dokumen yang dahulu diaudit, bukan naskah terbaru.
+
 Kalau kita sekarang fokus ke fase A terlebih dahulu dan topik 3 (angglomeration shadow) yang saya choose. Ini agak OOT, saya ingin visualialisasinya sangat mengesankan memungkinkan ga saya bangun sejenis 3d? dan selain 3d apa lagi yang bisa pamer able banget. Ini saya sadar kok bukan terlalu essential, tapi saya penasaran aja, dan saya jujur aja, saya butuh signaling yang kuat, dan pandangan yang amazed. Berikan saya listnya bukan image generation, list posibility apa saja yang bisa saya realisasikan untuk memamerkan topik 3 ini secara visual, tau lah kalau di indo kalau ga 3d itu terkesan kurang real, paradigma aneh sih
 
 ---
