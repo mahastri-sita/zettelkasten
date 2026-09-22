@@ -107,19 +107,16 @@ Alasan menggunakan pendekatan kuantitatif-spasial
 Q1 & Arah, intensitas, dan asimetri hubungan metropolitan & Pengamatan
 dan estimasi relasi dari sumber terbuka dibandingkan pada unit yang
 sah. \\
-Q2 & Fungsi per domain relatif terhadap massa lokal dan perubahannya
-pada seri sebanding & Pengukuran atau estimasi fungsi dibandingkan
-dengan tolok ukur, disertai ketidakpastian. \\
-Q3 & Asosiasi relasi metropolitan dengan surplus atau defisit fungsi &
-Konstruk bersama, sirkularitas, dan penjelasan alternatif diperiksa
-sebelum interpretasi. \\
-Q4 & Heterogenitas hubungan, manfaat, beban, dan fungsi antarpusat &
-Spesialisasi, hierarki, status administratif, posisi jaringan, dan
-kondisi lokal digunakan untuk membaca perbedaan. \\
+Q2 & Fungsi relatif, manfaat, beban, dan perubahan pada seri sebanding &
+Pengukuran atau estimasi fungsi dibandingkan dengan tolok ukur, sementara
+manfaat dan beban dilaporkan pada penerima serta penanggungnya. \\
+Q3 & Hubungan integrasi dan fungsi relatif serta konfigurasi hasil &
+Asosiasi, heterogenitas antarpusat, sirkularitas, kondisi lokal, dan
+penjelasan alternatif diperiksa sebelum diagnosis. \\
 \end{longtable}
 }
 
-Sensitivitas menjadi pemeriksaan lintas keempat pertanyaan, bukan
+Sensitivitas menjadi pemeriksaan lintas ketiga pertanyaan, bukan
 pertanyaan substantif tersendiri.
 
 Pendekatan ini tidak cukup untuk menyatakan dampak kausal pembangunan
@@ -149,9 +146,12 @@ Penelitian dirancang sebagai studi kasus tunggal kuantitatif-spasial
 dengan pengamatan multitemporal sesuai bukti, diagnosis relasional, dan
 analisis sensitivitas. Kasus tunggal dipilih agar pusat-pusat sekunder
 dapat dibandingkan di dalam satu sistem metropolitan tanpa memperlakukan
-perbedaan antarmetropolitan sebagai variasi yang setara. Sabuk
-pembanding fungsional hanya digunakan untuk memperluas tolok ukur
-apabila definisi, unit, dan periodenya kompatibel.
+perbedaan antarmetropolitan sebagai variasi yang setara. Populasi
+pembanding utama adalah pusat-pusat sekunder di dalam Jabodetabek yang
+memiliki konstruk, unit, dan periode sebanding. DKI Jakarta dikeluarkan
+dari pembentukan ekspektasi karena kedudukannya sebagai inti. Sabuk
+pembanding di luar kawasan studi hanya digunakan sebagai pemeriksaan
+sensitivitas apabila definisi, unit, dan periodenya kompatibel.
 
 Desain ini bekerja melalui tiga lapisan:
 
@@ -200,8 +200,9 @@ Penelitian dilaksanakan melalui delapan tahap yang saling terkait.
   Menguji sensitivitas indikator, bobot, ambang, unit, dan konfigurasi
   bukti.
 \item
-  Menyusun tabel, peta, keluaran WebGL, manifest, dan batas klaim yang
-  dapat diperiksa ulang.
+  Menyusun tabel, peta, manifest, dan batas klaim yang dapat diperiksa
+  ulang; Web GIS interaktif hanya disiapkan jika keluaran inti telah
+  selesai dan waktu penelitian memungkinkan.
 \end{enumerate}
 
 \begin{figure}[H]
@@ -210,6 +211,24 @@ Penelitian dilaksanakan melalui delapan tahap yang saling terkait.
   \caption{Alur analisis dari inventarisasi sumber hingga penyusunan keluaran dan batas klaim. Setiap tahap dapat menurunkan tingkat klaim jika mutu atau keterbandingan bukti tidak memadai.}
   \label{fig:bab3-alur-analisis}
 \end{figure}
+
+\subsection{Rancangan analisis minimum}\label{rancangan-analisis-minimum}
+
+Rancangan minimum dibatasi pada satu periode yang kompatibel, satu bukti
+relasi komuter terarah, satu domain fungsi yang dibentuk secara
+independen, tolok ukur internal Jabodetabek, serta pembacaan hubungan
+antara relasi dan residu fungsi. Domain pekerjaan menjadi pilihan utama
+jika pasangan arus komuter diamati tanpa dibentuk dari estimasi pekerjaan
+yang sama. Layanan berorde tinggi dapat menjadi domain kedua apabila
+atributnya lolos audit dan tidak digunakan untuk membentuk relasi.
+
+Jika jumlah pusat efektif tidak memadai untuk regresi, keluaran minimum
+berupa profil terarah dan perbandingan kelompok. Analisis multitemporal,
+domain kedua, CCTV, SUMO, dan Web GIS interaktif dilaksanakan setelah
+rantai utama tersebut berjalan dan tidak menjadi syarat untuk menjawab
+pertanyaan inti. Kategori diagnosis hanya dibentuk jika keempat gerbang
+bukti terpenuhi; hasil lain tetap sah sebagai profil relasi serta surplus
+atau defisit fungsi relatif.
 
 \subsection{Kelebihan dan keterbatasan
 desain}\label{kelebihan-dan-keterbatasan-desain}
@@ -239,7 +258,7 @@ alasan substantif perubahan.
 Perubahan karena sumber data diperoleh, hilang, atau turun mutu dicatat
 sebagai skenario bukti. Perubahan bobot, ambang, atau
 spesifikasi dalam konfigurasi bukti yang sama dicatat sebagai
-sebagai skenario parameter. Perubahan nilai indikator untuk pertanyaan
+skenario parameter. Perubahan nilai indikator untuk pertanyaan
 \emph{what-if} merupakan eksplorasi kondisional tambahan. Ketiganya
 tidak boleh ditampilkan sebagai jenis perubahan yang sama.
 
@@ -247,9 +266,10 @@ tidak boleh ditampilkan sebagai jenis perubahan yang sama.
 
 \subsection{Ruang lingkup spasial}\label{ruang-lingkup-spasial}
 
-Kasus utama adalah Jabodetabek sebagai kawasan utama penelitian, dengan
-sabuk Wilayah Statistik Metropolitan sebagai pembanding fungsional
-apabila datanya kompatibel. Kasus ini dipilih karena memungkinkan
+Kasus utama adalah Jabodetabek sebagai kawasan utama penelitian. Tolok
+ukur utama dibentuk dari pusat sekunder yang sebanding di dalam kawasan
+ini. Sabuk Wilayah Statistik Metropolitan di luar cakupan hanya menjadi
+pemeriksaan sensitivitas apabila datanya kompatibel. Kasus ini dipilih karena memungkinkan
 hubungan antara satu inti dan kandidat pusat sekunder lintas batas
 administratif diperiksa di dalam sistem metropolitan yang sama. DKI
 Jakarta diperlakukan sebagai satu inti untuk hubungan eksternal, dengan
@@ -293,29 +313,38 @@ Penelitian mencakup:
 \begin{itemize}
 \tightlist
 \item
-  integrasi atau eksposur metropolitan;
+  Integrasi atau eksposur metropolitan;
 \item
-  fungsi lokal dan fungsi relatif terhadap ukuran serta karakteristik
-  lokal;
+  Fungsi lokal dan fungsi relatif pada satu atau paling banyak dua
+  domain inti;
 \item
-  manfaat akses, \emph{functional upgrading}, dan potensi retensi
-  manfaat;
+  Manfaat akses yang dapat diamati atau diproksikan secara sah;
 \item
-  beban komuter, ketergantungan, kebocoran nilai, dan defisit fungsi;
+  Beban komuter dan ketergantungan yang diukur terpisah dari residu
+  fungsi;
 \item
-  tipologi \emph{borrowed size}, campuran/transisional,
-  \emph{agglomeration shadow}, relatif independen, dan periferi lemah;
+  Tipologi \emph{borrowed size}, campuran,
+  \emph{agglomeration shadow}, terintegrasi tetapi tertinggal, relatif
+  independen, periferi lemah, dan tidak terselesaikan;
 \item
-  sensitivitas indikator, bobot, ambang, unit, dan status mutu bukti;
+  Sensitivitas indikator, bobot, ambang, unit, dan status mutu bukti;
   serta
 \item
-  penyajian hasil dalam atlas, tabel, peta, dan WebGL.
+  Penyajian hasil dalam atlas, tabel, dan peta; Web GIS interaktif dapat
+  ditambahkan sebagai media komunikasi.
 \end{itemize}
 
 Penelitian tidak mencakup penetapan radius geometris Jakarta,
 rekomendasi perubahan batas administrasi, pembuktian kausal seluruh
 kebijakan metropolitan, atau klaim produktivitas penuh jika fungsi
 ekonomi pada unit yang sesuai tidak tersedia.
+
+Kematangan dalam penelitian ini berarti kematangan fungsi lokal pada
+domain yang benar-benar diukur. Konstruk tersebut tidak disamakan dengan
+kesejahteraan penduduk, keterjangkauan layanan, mutu pelayanan secara
+menyeluruh, ketahanan ekonomi, atau keberhasilan pembangunan. Akses,
+manfaat, dan beban dilaporkan terpisah dan tidak digunakan untuk
+memperluas arti residu fungsi.
 
 \section{Unit amatan dan unit
 analisis}\label{unit-amatan-dan-unit-analisis}
@@ -378,18 +407,18 @@ secara sah. Harmonisasi mengikuti aturan:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  gunakan unit asli untuk perhitungan awal;
+  Gunakan unit asli untuk perhitungan awal;
 \item
-  gunakan tabel korespondensi resmi jika tersedia;
+  Gunakan tabel korespondensi resmi jika tersedia;
 \item
-  agregasikan unit rinci ke unit lebih kasar bila operasi tersebut sah;
+  Agregasikan unit rinci ke unit lebih kasar bila operasi tersebut sah;
 \item
-  jalankan analisis paralel bila unit tidak dapat disetarakan;
+  Jalankan analisis paralel bila unit tidak dapat disetarakan;
 \item
-  keluarkan modul jika keterbandingan tidak dapat dipertanggungjawabkan;
+  Keluarkan modul jika keterbandingan tidak dapat dipertanggungjawabkan;
   dan
 \item
-  jangan membandingkan skor lintas konfigurasi bukti sebagai perubahan
+  Jangan membandingkan skor lintas konfigurasi bukti sebagai perubahan
   kondisi tanpa menyatakan perbedaan sumber dan unitnya.
 \end{enumerate}
 
@@ -408,6 +437,15 @@ sumber agar dua salinan data yang sama tidak dianggap dua bukti
 independen. Kriteria pemilihan pusat validasi dicatat sebelum
 pemeriksaan. Validasi terbatas tersebut bukan sampel inferensial dan
 tidak digeneralisasikan sebagai sensus seluruh kawasan.
+
+Untuk tolok ukur fungsi, populasi pembanding garis dasar menggunakan
+seluruh pusat sekunder yang lolos aturan keterbandingan pada domain yang
+sama. Nilai suatu pusat diperkirakan dari pusat pembanding lain dengan
+prosedur \emph{leave-one-out} agar pengamatan yang sedang dinilai tidak
+menentukan ekspektasinya sendiri. Jika jumlah pusat tidak mendukung model
+fungsi-ukuran, pembanding dibentuk dari kelompok ukuran atau tetangga
+ukuran terdekat yang transparan. Kedua prosedur tetap menghasilkan
+posisi relatif di dalam Jabodetabek.
 
 \section{Metode pengumpulan data}\label{metode-pengumpulan-data}
 
@@ -479,9 +517,9 @@ WorldPop, VIIRS, citra terbuka & Konteks sektor, keterbangunan, dan
 aktivitas; produktivitas hanya diestimasi apabila pembilang dan penyebut
 kompatibel. \\
 Pemeriksaan tambahan & Sumber terbuka independen, dokumentasi lokasi,
-CCTV yang dapat digunakan & Periksa cakupan waktu dan lokasi; CCTV/SUMO
-merupakan opsi yang memerlukan audit, bukan syarat terlaksananya
-penelitian. \\
+dan rekaman CCTV yang tersedia & Periksa cakupan waktu dan lokasi;
+deteksi serta pelacakan objek dan SUMO merupakan penguatan yang harus
+melewati audit dan validasi, bukan syarat terlaksananya penelitian. \\
 \end{longtable}
 }
 
@@ -501,20 +539,20 @@ kuesioner atau panduan wawancara. Instrumen kerja terdiri atas:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  log akses untuk mencatat alamat sumber, tanggal akses, dan syarat
+  Log akses untuk mencatat alamat sumber, tanggal akses, dan syarat
   penggunaan;
 \item
-  formulir audit berkas dan registri asal-usul data;
+  Formulir audit berkas dan registri asal-usul data;
 \item
-  kamus data yang memuat definisi variabel, unit, tahun, nilai hilang,
+  Kamus data yang memuat definisi variabel, unit, tahun, nilai hilang,
   dan polaritas;
 \item
-  tabel korespondensi kode serta geometri antarversi;
+  Tabel korespondensi kode serta geometri antarversi;
 \item
-  manifest konfigurasi bukti dan parameter; serta
+  Manifest konfigurasi bukti dan parameter; serta
 \item
-  lembar pemeriksaan manual untuk kampus dan rumah sakit pada pusat
-  prioritas.
+  Lembar pemeriksaan manual untuk kampus dan rumah sakit, serta untuk
+  sampel hasil penghitungan objek apabila modul CCTV dijalankan.
 \end{enumerate}
 
 Skrip akuisisi, pembersihan, transformasi, dan analisis diperlakukan
@@ -607,10 +645,26 @@ Laporan tahunan dan berita dapat menyediakan informasi armada,
 perjalanan, kapasitas, atau penumpang; setiap angka harus memiliki
 periode, unit, dan rujukan yang jelas. Kapasitas kendaraan memerlukan
 asumsi frekuensi, operasi, serta keterisian untuk memperkirakan
-penggunaan. CCTV memerlukan audit akses rekaman, lokasi, jam, kelas
-kendaraan, serta cakupan pengamatan. SUMO dapat digunakan untuk simulasi
-terkalibrasi bila kebutuhan tersebut terpenuhi, tetapi simulasi tidak
-menciptakan pengamatan arus atau pasangan asal dan tujuan yang belum tersedia.
+penggunaan.
+
+Rekaman CCTV yang telah tersedia dapat digunakan untuk mengestimasi arus
+pada titik dan interval waktu tertentu. Model YOLO pralatih mendeteksi
+kelas objek, sedangkan pelacak objek mempertahankan identitas antarbingkai
+agar satu kendaraan tidak dihitung berulang. Penghitungan dilakukan pada
+garis atau wilayah pengamatan yang dibekukan, kemudian diagregasi menurut
+kamera, waktu, arah, dan kelas objek. Sepeda motor, mobil, bus, truk,
+sepeda, atau pejalan kaki hanya digunakan jika kelas tersebut dapat
+dibedakan secara memadai pada rekaman.
+
+Kelayakan modul CCTV ditentukan melalui sampel berlabel manual yang
+mewakili kamera, kepadatan, cuaca, pencahayaan, sudut pandang, dan tingkat
+oklusi. Pemeriksaan mencakup ketepatan deteksi, kehilangan atau pertukaran
+identitas, galat jumlah, serta sensitivitas terhadap ambang keyakinan dan
+aturan pelacakan. Hasilnya disebut estimasi hitungan berbasis rekaman,
+bukan observasi tanpa galat dan bukan matriks asal dan tujuan. SUMO dapat
+menggunakan hitungan yang kompatibel untuk kalibrasi simulasi; simulasi
+tetap tidak menciptakan arus aktual atau pasangan asal dan tujuan yang
+belum diamati.
 
 Validasi menggunakan sumber terbuka dengan jalur pencatatan berbeda,
 pengamatan terarah, atau data yang disisihkan dari kalibrasi. Jika
@@ -622,9 +676,9 @@ ini tidak menghentikan modul fungsi atau aksesibilitas yang valid.
 keamanan}\label{etika-lisensi-dan-keamanan}
 
 Data yang dapat diakses publik tetap diperiksa syarat pemakaian,
-privasi, dan hak penyebarluasan turunannya. Pengamatan CCTV hanya
-menyimpan statistik yang diperlukan, bukan identitas individu. Keluaran
-WebGL mengikuti izin publikasi setiap sumber. Peta publik hanya memuat
+privasi, dan hak penyebarluasan turunannya. Pengolahan CCTV menyimpan
+hitungan agregat dan metadata yang diperlukan, bukan wajah, pelat nomor,
+atau identitas individu. Keluaran Web GIS mengikuti izin publikasi setiap sumber. Peta publik hanya memuat
 data yang boleh dipublikasikan, agregasi yang sah, atau proksi yang
 diberi label. Nilai penggeser tidak boleh mengungkap data mentah atau
 memungkinkan rekonstruksi unit sensitif.
@@ -739,6 +793,17 @@ digunakan, setiap komponen, polaritas, bobot, dan aturan normalisasi
 disimpan. Integrasi yang tinggi tidak otomatis berarti manfaat tinggi
 karena dapat berdampingan dengan beban dan ketergantungan.
 
+Untuk analisis minimum, satu matriks komuter yang kompatibel digunakan
+untuk menurunkan profil relasi yang tetap: intensitas arus terhadap
+populasi asal, orientasi menuju DKI, pangsa arus ke pusat sekunder lain,
+rasio arus masuk dan keluar, \emph{self-containment}, serta asimetri
+pasangan jika komponen tersebut didukung sumber. Proporsi menuju DKI
+tidak dipakai sendirian sebagai ukuran integrasi. Domain pekerjaan hanya
+dipasangkan dengan profil ini apabila arus komuter diamati secara
+independen. Relasi layanan atau bisnis yang tidak teramati tidak
+direkonstruksi dari komuter dan tidak digunakan untuk membuat klaim
+mekanisme khusus domain tersebut.
+
 \subsection{Langkah 4: pengukuran fungsi lokal dan fungsi
 relatif}\label{langkah-4-pengukuran-fungsi-lokal-dan-fungsi-relatif}
 
@@ -779,31 +844,34 @@ defisit relatif pada konstruk \(k\). Residu layanan tidak disebut
 surplus produktivitas; nilai titik minat tidak disebut pekerjaan; dan
 potret satu tahun tidak disebut \emph{functional upgrading} temporal.
 
-Pemilihan tolok ukur dilakukan sebelum tipologi dibentuk. Model
-fungsi-ukuran digunakan hanya jika jumlah unit efektif, bentuk
-distribusi, residu, dan pengaruh pencilan memadai untuk konstruk yang
-dimodelkan. Jika syarat tersebut tidak terpenuhi, tingkat yang
-diharapkan dibentuk melalui kelompok pembanding ukuran yang transparan
-atau ringkasan pembanding lain yang dapat direproduksi. Pilihan model,
-populasi pembanding, transformasi, prediksi, dan ketidakpastian dicatat.
-Jika tolok ukur hanya memakai pusat internal kawasan studi, hasil
-disebut relatif terhadap kawasan studi dan tidak digeneralisasikan
-sebagai ukuran universal.
+Pemilihan tolok ukur dilakukan sebelum tipologi dibentuk. Tolok ukur
+utama memakai pusat-pusat sekunder Jabodetabek yang lolos aturan
+keterbandingan pada domain yang sama; DKI Jakarta tidak ikut membentuk
+garis ekspektasi. Model fungsi-ukuran dengan prediksi
+\emph{leave-one-out} digunakan hanya jika jumlah unit efektif, bentuk
+distribusi, residu, dan pengaruh pencilan memadai. Jika syarat tersebut
+tidak terpenuhi, tingkat yang diharapkan dibentuk melalui kelompok
+ukuran atau tetangga ukuran terdekat yang transparan dan dapat
+direproduksi. Hasil selalu disebut relatif terhadap kawasan studi.
+Pembanding eksternal hanya menjadi sensitivitas tambahan dan tidak
+menentukan kelayakan analisis utama.
 
 \subsection{Langkah 5: pemisahan manfaat, ketergantungan, dan
 beban}\label{langkah-5-pemisahan-manfaat-ketergantungan-dan-beban}
 
 Manfaat dan beban tidak dipaksa masuk ke satu sumbu yang saling
-meniadakan. Profil manfaat dibentuk dari akses pekerjaan, surplus
-fungsi, produktivitas atau upah, keragaman fungsi, dan kemampuan
-memenuhi kebutuhan lokal hanya jika indikator tersebut benar-benar
-teramati atau memiliki proksi yang diberi label. Profil beban dibentuk
-dari orientasi yang sangat bergantung pada inti, durasi atau biaya
-perjalanan, dan defisit fungsi pada unit yang kompatibel. Kebocoran
-nilai, \emph{upgrading}, atau spesialisasi subordinat tidak menjadi
-indikator operasional apabila data yang diperlukan tidak tersedia;
-istilah tersebut hanya dapat digunakan sebagai interpretasi terbatas
-yang ditopang bukti.
+meniadakan. Residu fungsi dipertahankan sebagai dimensi tersendiri dan
+tidak dihitung kembali sebagai manfaat atau beban. Profil manfaat hanya
+dibentuk dari akses pekerjaan, waktu yang dihemat, upah atau
+produktivitas jika tersedia, dan indikator penggunaan manfaat yang
+benar-benar teramati atau memiliki proksi berlabel. Profil beban hanya
+dibentuk dari indikator yang terpisah dari residu, seperti orientasi
+yang sangat bergantung pada inti, durasi atau biaya perjalanan,
+ketidakseimbangan arus, serta tekanan infrastruktur yang terukur.
+Kebocoran nilai, \emph{upgrading}, atau spesialisasi subordinat tidak
+menjadi indikator operasional apabila data yang diperlukan tidak
+tersedia; istilah tersebut hanya dapat digunakan sebagai interpretasi
+terbatas yang ditopang bukti.
 
 Komuter dapat berarti akses yang meningkat sekaligus beban perjalanan.
 Industrialisasi dapat berarti \emph{upgrading} atau fungsi subordinat.
@@ -854,20 +922,26 @@ Batas interpretasi
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Relatif independen & hubungan dengan inti berada di bawah ambang
-integrasi, sedangkan fungsi lokal tidak menunjukkan defisit yang berarti
+Relatif independen & keseluruhan bukti relasional metropolitan berada
+di bawah ambang, sedangkan fungsi lokal tidak menunjukkan defisit yang berarti
 & bukan bukti autarki atau tidak adanya hubungan metropolitan \\
 Pola konsisten dengan \emph{borrowed size} & bukti relasional berada di
-atas ambang dan residu fungsi pada konstruk yang diuji positif &
+atas ambang, residu fungsi pada konstruk yang diuji positif, dan beban
+independen tidak tinggi &
 istilah ketat hanya digunakan setelah empat gerbang bukti terpenuhi;
 ``integrasi produktif'' bukan sinonim otomatis \\
-Campuran atau transisional & arah residu berbeda antarkonstruk, atau
-manfaat dan beban sama-sama tinggi & perbedaan dimensi harus tetap
-terlihat dan tidak dirata-ratakan menjadi label tunggal \\
+Campuran atau \emph{contested} & arah residu berbeda antarkonstruk,
+atau surplus fungsi hadir bersama beban yang tinggi & perbedaan substantif
+antardimensi harus tetap terlihat; ketidakstabilan model tidak disebut
+campuran \\
 Pola konsisten dengan \emph{agglomeration shadow} & bukti relasional
-berada di atas ambang dan residu fungsi pada konstruk yang diuji
-negatif; bukti beban dapat mendukung diagnosis & tidak membuktikan
-bahwa Jakarta menyebabkan defisit tersebut \\
+berada di atas ambang, residu fungsi pada konstruk yang diuji negatif,
+dan terdapat bukti beban atau ketergantungan yang diukur terpisah dari
+residu & tidak membuktikan bahwa Jakarta menyebabkan defisit tersebut \\
+Terintegrasi tetapi tertinggal & bukti relasional berada di atas ambang
+dan residu fungsi negatif, tetapi beban atau ketergantungan independen
+rendah atau belum terbukti & belum cukup bukti untuk label
+\emph{agglomeration shadow} \\
 Periferi lemah & hubungan dengan inti dan fungsi lokal sama-sama rendah
 & tidak disebut \emph{shadow} Jakarta tanpa hubungan relasional yang
 memadai \\
@@ -884,35 +958,46 @@ dapat dipakai bila empat gerbang berikut terpenuhi:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  ada bukti relasional terhadap Jakarta dari pengamatan atau estimasi
+  Ada bukti relasional terhadap Jakarta dari pengamatan atau estimasi
   yang diperiksa secara independen, bukan hanya jarak atau waktu tempuh;
 \item
-  ada tolok ukur fungsi relatif yang mengukur konstruk substantif pada
+  Ada tolok ukur fungsi relatif yang mengukur konstruk substantif pada
   unit yang memadai;
 \item
-  bukti relasional dan fungsi dapat dihubungkan pada unit, wilayah
+  Bukti relasional dan fungsi dapat dihubungkan pada unit, wilayah
   tangkapan, dan periode yang sebanding; dan
 \item
-  label tidak runtuh pada uji sensitivitas utama atau tidak bergantung
+  Label tidak runtuh pada uji sensitivitas utama atau tidak bergantung
   pada satu proksi bermasalah.
 \end{enumerate}
+
+Khusus label \emph{agglomeration shadow}, residu negatif harus disertai
+indikator beban atau ketergantungan yang tidak dibentuk dari residu
+tersebut. Tanpa bukti independen itu, kelas yang digunakan adalah
+terintegrasi tetapi tertinggal.
 
 Jika satu gerbang gagal, istilah yang dipakai adalah profil,
 surplus atau defisit relatif, atau pola yang konsisten dengan konstruk
 tertentu. Penurunan klaim menjadi bagian dari hasil
 metodologis.
 
+Istilah \emph{transisional} hanya digunakan apabila unit yang sama
+menunjukkan perpindahan keadaan pada sedikitnya dua periode yang lolos
+audit kesebandingan. Perbedaan antardomain pada satu periode disebut
+campuran, sedangkan perubahan kelas akibat spesifikasi disebut tidak
+terselesaikan.
+
 \subsection{Langkah 7: diagnostik spasial dan ketahanan
 hasil}\label{langkah-7-diagnostik-spasial-dan-ketahanan-hasil}
 
-Paket diagnostik minimum mencakup korelasi dan duplikasi indikator,
-pengeluaran satu indikator secara bergiliran
-(\emph{leave-one-indicator-out}), variasi bobot dan ambang, serta
-perubahan unit ketika perbandingan multiresolusi dapat dilakukan secara
-sah. Pergantian observasi, agregat, estimasi, atau proksi dibandingkan
-sebagai konfigurasi bukti terpisah; status tersebut bukan tangga mutu
-otomatis. Perubahan definisi pusat atau wilayah tangkapan diuji apabila
-lebih dari satu delineasi dapat dipertanggungjawabkan.
+Paket diagnostik minimum mencakup pemeriksaan duplikasi indikator,
+satu spesifikasi alternatif tolok ukur internal, dan variasi ambang jika
+kategori digunakan. \emph{Leave-one-indicator-out} hanya dijalankan
+apabila suatu dimensi memang memuat lebih dari satu indikator. Perubahan
+unit, delineasi, bobot, atau konfigurasi bukti diuji hanya ketika
+alternatifnya telah tersedia dari pengolahan utama dan dapat
+dipertanggungjawabkan; penelitian tidak membuat dataset baru semata-mata
+untuk memperbanyak sensitivitas.
 
 Autokorelasi global dan pengelompokan lokal hanya dihitung apabila
 jumlah unit, geometri, dan matriks bobot spasial memadai. Definisi
@@ -928,10 +1013,13 @@ perubahan perlu ditampilkan. Kategori ``tidak terselesaikan'' adalah
 keluaran yang sah ketika spesifikasi menghasilkan kesimpulan berbeda
 secara substantif.
 
-\subsection{Langkah 8: skenario, sensitivitas, dan implementasi
-WebGL}\label{langkah-8-skenario-sensitivitas-dan-implementasi-webgl}
+\subsection{Langkah 8: penyusunan keluaran dan penguatan
+opsional}\label{langkah-8-penyusunan-keluaran-dan-penguatan-opsional}
 
-Analisis membedakan tiga keluarga perubahan.
+Keluaran inti pada tahap ini terdiri atas tabel, profil, peta diagnosis,
+manifest data, hasil sensitivitas minimum, dan batas klaim. Jika analisis
+sensitivitas diperluas atau Web GIS dikembangkan, perubahan dibedakan ke
+dalam tiga keluarga berikut.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -962,13 +1050,12 @@ diberi tampilan seolah-olah merupakan observasi, dan kombinasi yang
 tidak masuk akal secara substantif ditolak oleh aturan validasi. Batas
 administratif DKI selalu terlihat sebagai lapisan tetap.
 
-Keluaran empiris utama, yaitu tabel, profil, peta diagnosis, dan audit
-ketahanan, harus dapat dihasilkan tanpa WebGL. WebGL menerapkan model
-yang sama sebagai antarmuka keluaran kedua. Keluaran minimalnya adalah
-peta garis dasar, peta skenario, peta selisih, daftar unit yang
-berpindah kelas, dan peta ketahanan atau ketidakpastian. Penghitungan
-ulang serta visualisasi interaktif tidak disebut data waktu nyata atau
-prediksi masa depan.
+Keluaran empiris utama harus dapat dihasilkan tanpa Web GIS. Jika dibuat,
+prototipe Web GIS memakai hasil model yang sama sebagai media eksplorasi
+tambahan. Isinya dapat mencakup peta garis dasar, peta skenario, peta
+selisih, daftar unit yang berpindah kelas, serta peta ketahanan atau
+ketidakpastian. Penghitungan ulang dan visualisasi interaktif tidak
+disebut data waktu nyata atau prediksi masa depan.
 
 \subsection{Keterlacakan pertanyaan dan analisis
 asosiasi}\label{keterlacakan-pertanyaan-dan-analisis-asosiasi}
@@ -993,15 +1080,15 @@ Keluaran
 Q1: relasi terarah & Pengamatan atau estimasi relasi, arah, intensitas,
 dan asimetri; aksesibilitas disajikan terpisah & Profil relasi dengan
 status pengukuran dan ketidakpastian. \\
-Q2: fungsi relatif dan perubahan & Fungsi terukur atau terestimasi,
-massa lokal, tolok ukur per domain, seri yang lolos harmonisasi &
-Residu per domain dan perubahan pada periode sebanding. \\
-Q3: asosiasi relasi dan fungsi & Hubungkan dimensi relasi dengan residu
-fungsi; periksa masukan bersama dan alternatif penjelasan & Arah,
-besaran, dan ketidakpastian asosiasi. \\
-Q4: heterogenitas & Bandingkan spesialisasi, hierarki, status
-administratif, posisi jaringan, kondisi lokal, serta aktor & Profil
-manfaat, beban, dan konfigurasi antarpusat; tipologi jika stabil. \\
+Q2: fungsi relatif, manfaat, dan beban & Fungsi terukur atau terestimasi,
+massa lokal, tolok ukur per domain, seri yang lolos harmonisasi, serta
+indikator manfaat dan beban & Residu per domain, distribusi manfaat dan
+beban, serta perubahan pada periode sebanding. \\
+Q3: hubungan dan konfigurasi hasil & Hubungkan dimensi relasi dengan
+residu fungsi; bandingkan spesialisasi, hierarki, status administratif,
+posisi jaringan, kondisi lokal, dan penjelasan alternatif & Arah,
+besaran, heterogenitas, ketidakpastian asosiasi, serta tipologi jika
+stabil. \\
 \end{longtable}
 }
 
@@ -1010,15 +1097,19 @@ terarah, dengan kovariat lokal yang beralasan dan jumlah parameter yang
 sesuai jumlah unit efektif. Paparan relasional tidak dimasukkan ke tolok
 ukur utama fungsi dan ukuran. Jika sampel tidak mendukung regresi,
 perbandingan profil atau kelompok digunakan dengan batas interpretasi
-eksplisit. Bentuk nonlinier dan heterogenitas diuji apabila dukungan
-data memadai.
+eksplisit.
 
-Jika POI atau pekerjaan tujuan dipakai untuk membentuk OD sekaligus
-menjadi variabel hasil, lakukan spesifikasi yang mengeluarkan komponen
-bersama dan gunakan pemeriksaan relasi independen. Asosiasi yang
-terutama dihasilkan masukan model tidak dijadikan bukti pengaruh
-integrasi. Galat koefisien, pencocokan, cakupan, serta estimasi arus
-dipropagasikan melalui penghitungan ulang pada rentang asumsi yang
+Pasangan utama untuk Q3 menggunakan arus komuter yang diamati dan fungsi
+pekerjaan yang dibentuk dari sumber berbeda. Jika arus teramati pada unit
+yang kompatibel tidak tersedia, OD sintetis boleh digunakan untuk
+eksplorasi setelah pemeriksaan independen, tetapi tidak boleh diuji
+terhadap fungsi pekerjaan yang menjadi massa tujuannya. Dalam keadaan
+itu, pasangan yang masih diperbolehkan hanya memakai domain fungsi yang
+tidak menjadi masukan OD, misalnya layanan berorde tinggi, dan klaim
+diturunkan apabila mekanisme relasinya tidak dapat ditunjukkan. Asosiasi
+yang terutama dihasilkan oleh masukan model tidak dijadikan bukti
+hubungan integrasi. Galat koefisien, pencocokan, cakupan, serta estimasi
+arus dipropagasikan melalui penghitungan ulang pada rentang asumsi yang
 beralasan.
 
 \subsection{Analisis multitemporal dan batas
@@ -1077,19 +1168,19 @@ Paket reproduksi minimal memuat:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  kamus data, log akses, dan registri asal-usul data;
+  Kamus data, log akses, dan registri asal-usul data;
 \item
-  geometri serta tabel korespondensi versi analisis;
+  Geometri serta tabel korespondensi versi analisis;
 \item
-  skrip atau langkah transformasi dan analisis;
+  Skrip atau langkah transformasi dan analisis;
 \item
-  nilai garis dasar dan parameter skenario;
+  Nilai garis dasar dan parameter skenario;
 \item
-  tabel indikator, bobot, ambang, dan versi model;
+  Tabel indikator, bobot, ambang, dan versi model;
 \item
-  daftar data yang dikeluarkan beserta alasannya; dan
+  Daftar data yang dikeluarkan beserta alasannya; dan
 \item
-  manifest keluaran, sumber, dan syarat reproduksi atau penyebarluasan.
+  Manifest keluaran, sumber, dan syarat reproduksi atau penyebarluasan.
 \end{enumerate}
 
 \subsection{Aturan keputusan, keluaran, dan batas
@@ -1111,8 +1202,9 @@ menjadi nol.
 Keluaran utama penelitian adalah tabel audit dan manifest mutu bukti;
 peta serta profil hubungan metropolitan atau aksesibilitas; peta fungsi
 aktual dan fungsi relatif; profil manfaat serta beban; gradien atau
-tipologi \emph{status quo}; tabel dan peta sensitivitas; serta
-penjelajah WebGL garis dasar-skenario-selisih-ketahanan. Hasil juga
+tipologi \emph{status quo}; serta tabel dan peta sensitivitas. Jika
+dikembangkan, prototipe Web GIS menampilkan garis dasar, skenario,
+selisih, dan ketahanan tanpa menghasilkan klaim empiris baru. Hasil juga
 dilaporkan menurut lapisan administrasi untuk membantu interpretasi
 tanggung jawab tanpa mengubah batas kewenangan.
 
@@ -1123,7 +1215,7 @@ diukur, tipologi deskriptif, gradien, dan stabilitas hasil terhadap
 asumsi yang diuji. Penelitian tidak dapat menyatakan bahwa Jakarta
 secara kausal menyebabkan ketergantungan, bahwa satu radius merupakan
 batas metropolitan yang benar, bahwa pusat sekunder pasti mengalami
-\emph{upgrading}, atau bahwa perubahan nilai dalam WebGL memprediksi
+\emph{upgrading}, atau bahwa perubahan nilai dalam Web GIS memprediksi
 dampak kebijakan masa depan.
 
 Klaim \emph{borrowed size} dan \emph{agglomeration shadow} digunakan

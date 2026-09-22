@@ -1,6 +1,8 @@
 # BAB 3 METODE PENELITIAN
 
-> **Arah aktif, 18 September 2026:** proksi dan sumber terbuka sebagai fondasi utama; multitemporal sesuai bukti. Draf rancangan ini tidak menyatakan bahwa semua sumber telah diperoleh atau divalidasi.
+> **Arsip draf:** arahan metodologis dalam berkas ini telah digantikan oleh `latex/Bab 3 - Metode Penelitian - final.tex` pada 21 September 2026. Naskah aktif memakai tiga pertanyaan penelitian, istilah Web GIS interaktif, dan rancangan penghitungan objek dari rekaman CCTV dengan deteksi YOLO serta pelacakan objek. Berkas ini dipertahankan sebagai rekaman penyusunan.
+
+> **Arah pada draf, 18 September 2026:** proksi dan sumber terbuka sebagai fondasi utama; multitemporal sesuai bukti. Draf ini tidak menyatakan bahwa semua sumber telah diperoleh atau divalidasi.
 
 ## 3.1 Pendekatan penelitian
 

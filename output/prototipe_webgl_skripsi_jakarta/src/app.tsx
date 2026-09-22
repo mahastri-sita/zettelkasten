@@ -286,7 +286,7 @@ export default function App() {
         Lewati peta
       </a>
 
-      <section className="map-stage" aria-label="Peta WebGL Medan Relasional Jakarta">
+      <section className="map-stage" aria-label="Web GIS Medan Relasional Jakarta">
         <Map
           ref={mapRef}
           initialViewState={INITIAL_VIEW}
@@ -346,7 +346,7 @@ export default function App() {
       <header className="title-card glass-panel">
         <div className="title-card__meta">
           <span className="eyebrow">Eksperimen spasial · Skripsi 2026</span>
-          <span className="live-mark"><i /> WebGL</span>
+          <span className="live-mark"><i /> Web GIS</span>
         </div>
         <h1>Medan Relasional<br />Jakarta</h1>
         <p className="title-card__thesis">

@@ -147,7 +147,7 @@
 \title{Roadmap Skripsi TGA\\[0.35em]
   \large Borrowed Size dan Agglomeration Shadow Jakarta}
 \author{}
-\date{18 September 2026}
+\date{22 September 2026}
 
 
 \providecommand{\passthrough}[1]{#1}
@@ -166,7 +166,7 @@
 \textbf{Status:} checklist kerja untuk mengendalikan penelitian,
 penulisan, dan persiapan TGA. Berkas ini bukan naskah skripsi final.
 
-\textbf{Diperbarui:} 18 September 2026
+\textbf{Diperbarui:} 22 September 2026
 
 \textbf{Aturan utama:} kotak hanya dicentang setelah pekerjaan
 menghasilkan artefak atau keputusan yang dapat diperiksa. Data yang
@@ -182,14 +182,18 @@ arahan terbaru dosen pembimbing dan kanal resmi TGA:
 \begin{itemize}
 \tightlist
 \item
-  bab 3 metode penelitian draf rancangan kerja
+  Bab 1 Pendahuluan final
+\item
+  Bab 2 Kajian Pustaka final
+\item
+  Bab 3 Metode Penelitian final
+\item
+  Bab 4 Gambaran Umum Lokasi Penelitian final
 \item
   {[}{[}source/official-document/Panduan\_TGA{[}1{]}.pdf\textbar Panduan
   TGA{]}{]}
 \item
   Template TGA Penelitian 2026
-\item
-  bab 3 metode penelitian draf rancangan kerja
 \item
   Skripsi S1 - Borrowed Size dan Agglomeration Shadow Jakarta
 \item
@@ -256,8 +260,9 @@ satu tahun jangkar untuk semua sumber tidak diasumsikan.
   DKI Jakarta diperlakukan sebagai satu inti untuk hubungan eksternal,
   dengan batas administratif tetap.
 \item
-  Wilayah Statistik Metropolitan (WSM) digunakan sebagai sabuk
-  pembanding fungsional jika definisi, unit, dan periodenya kompatibel.
+  Tolok ukur utama menggunakan pusat sekunder Jabodetabek yang
+  sebanding; DKI tidak membentuk garis ekspektasi. WSM di luar cakupan
+  hanya menjadi sensitivitas jika kompatibel.
 \item
   Tahun dan rentang analisis ditetapkan per modul setelah audit
   kesebandingan; setiap data tetap memuat periode observasinya.
@@ -277,11 +282,39 @@ satu tahun jangkar untuk semua sumber tidak diasumsikan.
   \emph{borrowed size} atau \emph{agglomeration shadow} hanya digunakan
   setelah empat gerbang bukti terpenuhi.
 \item
-  WebGL adalah keluaran kedua untuk eksplorasi dan komunikasi. WebGL
-  tidak menggantikan tabel, peta, audit, atau analisis empiris utama.
+  Web GIS interaktif adalah keluaran tambahan setelah analisis minimum
+  selesai. Keluaran ini dapat ditiadakan tanpa mengubah jawaban
+  penelitian.
 \end{itemize}
 
-\subsection{1.3 Tesis kerja}\label{tesis-kerja}
+\subsection{1.3 Rancangan minimum yang
+dikunci}\label{rancangan-minimum-yang-dikunci}
+
+Rantai utama penelitian dibatasi pada:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Satu periode yang kompatibel;
+\item
+  Satu bukti relasi komuter terarah;
+\item
+  Satu domain fungsi yang dibentuk secara independen, dengan pekerjaan
+  sebagai pilihan utama;
+\item
+  Tolok ukur internal Jabodetabek;
+\item
+  Residu fungsi relatif dan hubungannya dengan profil relasi; serta
+\item
+  Diagnosis hanya jika empat gerbang bukti terpenuhi.
+\end{enumerate}
+
+Domain kedua, analisis multitemporal, CCTV, SUMO, pembanding eksternal,
+dan Web GIS merupakan penguatan opsional. Jika jumlah pusat efektif
+tidak mendukung regresi, gunakan profil dan perbandingan kelompok.
+
+\subsection{1.4 Tesis kerja}\label{tesis-kerja}
 
 \begin{quote}
 Penelitian ini mengukur apakah integrasi dengan Jakarta memungkinkan
@@ -320,7 +353,8 @@ penulisan bab.
 \item
   Delineasi pusat sekunder, wilayah tangkapan, dan unit perhitungan.
 \item
-  Pengukuran integrasi, fungsi relatif, manfaat, beban, dan tipologi.
+  Pengukuran relasi komuter, fungsi relatif pada maksimal dua domain,
+  manfaat, beban, dan diagnosis bersyarat.
 \item
   Sensitivitas, validitas hasil, dan Progres 2.
 \item
@@ -661,8 +695,8 @@ geometri dan kategori. \\
 Progres 1. \\
 8 & Fungsi relatif dan asosiasi & Tolok ukur, residual, pemeriksaan
 sirkularitas, hasil Q1--Q3. \\
-9 & Heterogenitas dan ketahanan & Hasil Q4, sensitivitas, konfigurasi
-gagal, bahan Progres 2. \\
+9 & Heterogenitas dan ketahanan & Hasil Q3, perbandingan antarpusat,
+sensitivitas, konfigurasi gagal, bahan Progres 2. \\
 10 & Kelayakan naskah & Bab yang selaras, batas inferensi, kesiapan
 pra-sidang. \\
 \end{longtable}
@@ -695,8 +729,9 @@ data}\label{urutan-akuisisi-dan-keputusan-data}
   Bekukan konfigurasi setelah audit dan simpan perubahan versi tanpa
   menimpa hasil sebelumnya.
 \item[$\square$]
-  Evaluasi CCTV/SUMO hanya jika akses, cakupan, serta kebutuhan
-  kalibrasi memadai; keduanya opsional.
+  Uji penghitungan objek dari rekaman CCTV dengan deteksi YOLO,
+  pelacakan objek, garis hitung, dan sampel validasi manual; gunakan
+  SUMO hanya jika data kalibrasinya memadai.
 \end{itemize}
 
 \section{4. Gerbang substantif
@@ -708,12 +743,12 @@ klaim}\label{penguncian-pertanyaan-dan-klaim}
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Gunakan empat pertanyaan aktif pada Bab 1: Q1 relasi terarah, Q2
-  fungsi relatif dan perubahan pada seri sebanding, Q3 asosiasi
-  relasi--fungsi, Q4 heterogenitas antarpusat serta manfaat dan beban.
+  Gunakan tiga pertanyaan aktif pada Bab 1: Q1 relasi terarah; Q2 fungsi
+  relatif, manfaat, beban, dan perubahan; Q3 hubungan integrasi dengan
+  fungsi relatif serta konfigurasi hasil antarpusat.
 \item[$\square$]
-  Tempatkan sensitivitas sebagai pemeriksaan lintas pertanyaan, bukan Q4
-  tersendiri.
+  Tempatkan sensitivitas sebagai pemeriksaan lintas pertanyaan, bukan
+  pertanyaan substantif tersendiri.
 \item[$\square$]
   Pertahankan perbedaan pengamatan relasi, estimasi relasi,
   aksesibilitas potensial, fungsi, kinerja, dan kesejahteraan.
@@ -817,8 +852,8 @@ diselesaikan}\label{isu-data-yang-wajib-diselesaikan}
   variasi kecamatan/grid tanpa model eksplisit, asumsi, validasi, dan
   label sintetis.
 \item[$\square$]
-  Memastikan keluaran WebGL mengikuti syarat publikasi sumber dan tidak
-  memuat identitas sensitif.
+  Memastikan keluaran Web GIS interaktif mengikuti syarat publikasi
+  sumber dan tidak memuat identitas sensitif.
 \end{itemize}
 
 \section{5. Operasionalisasi metode}\label{operasionalisasi-metode}
@@ -871,27 +906,36 @@ metropolitan}\label{pengukuran-relasi-metropolitan}
 \item[$\square$]
   Pisahkan pengamatan relasi, estimasi OD, dan aksesibilitas potensial.
 \item[$\square$]
+  Gunakan pasangan arus komuter teramati sebagai bukti relasi utama
+  jika unit dan periodenya kompatibel.
+\item[$\square$]
   Bangun jaringan dan biaya perjalanan dari sumber terbuka; catat
   perbedaan moda dan periode.
 \item[$\square$]
   Bedakan rute, frekuensi, armada, kapasitas, jumlah penumpang, volume
   kendaraan, dan pasangan asal--tujuan.
 \item[$\square$]
-  Estimasikan OD dengan model gravitasi atau radiasi; gunakan
-  IPF/Furness hanya jika marginal kompatibel.
+  Hitung intensitas arus, orientasi ke DKI, pangsa arus ke pusat
+  sekunder lain, arus masuk--keluar, asimetri, dan
+  \emph{self-containment} dari satu matriks yang sama apabila
+  definisinya mendukung.
 \item[$\square$]
-  Hitung orientasi, arus masuk--keluar, asimetri, dan
-  \emph{self-containment} apabila definisi populasi dan arus internal
-  mendukung; labeli hasil estimasi.
+  Jangan memakai proporsi menuju DKI sendirian sebagai ukuran
+  integrasi.
+\item[$\square$]
+  Estimasikan OD hanya sebagai jalur eksploratif jika pasangan arus
+  teramati tidak memadai; gunakan IPF/Furness hanya jika marginal
+  kompatibel.
 \item[$\square$]
   Periksa estimasi terhadap data yang tidak digunakan untuk kalibrasi.
   Kecocokan marginal tidak menjamin ketepatan pasangan OD.
 \item[$\square$]
-  Uji fungsi hambatan, massa tujuan, keterisian, pilihan moda, dan
-  ketidakpastian arus.
+  Jangan menguji OD sintetis terhadap fungsi pekerjaan jika pekerjaan
+  dipakai sebagai massa tujuan.
 \item[$\square$]
-  Cegah penggunaan variabel tujuan yang sama sebagai pembentuk relasi
-  dan hasil tanpa pemeriksaan sirkularitas.
+  Pasangkan relasi komuter dengan pekerjaan hanya jika keduanya dibentuk
+  dari sumber yang independen; domain lain tidak diberi klaim mekanisme
+  khusus tanpa relasi yang sesuai.
 \item[$\square$]
   Sajikan aksesibilitas potensial sebagai konstruk tersendiri; evaluasi
   CCTV/SUMO sebagai opsi setelah audit kelayakan.
@@ -902,20 +946,27 @@ relatif}\label{pengukuran-fungsi-relatif}
 
 \begin{itemize}
 \item[$\square$]
-  Menetapkan konstruk fungsi \(k\) secara terpisah, misalnya layanan,
-  pekerjaan, fungsi orde tinggi, atau aktivitas tertentu.
+  Batasi analisis inti pada satu atau paling banyak dua domain:
+  pekerjaan sebagai pilihan utama dan layanan berorde tinggi sebagai
+  pilihan kedua jika lolos audit.
 \item[$\square$]
   Menentukan fungsi aktual \(Y_{ik}\), ukuran lokal \(S_i\), dan
   karakteristik lokal \(X_i\) sebelum klasifikasi.
 \item[$\square$]
+  Gunakan seluruh pusat sekunder Jabodetabek yang kompatibel sebagai
+  populasi pembanding; keluarkan DKI dari pembentukan ekspektasi.
+\item[$\square$]
   Memilih model fungsi-ukuran hanya jika jumlah unit efektif, bentuk
   distribusi, pencilan, residual, dan diagnostik memadai.
 \item[$\square$]
-  Menggunakan benchmark kelompok ukuran atau pembanding transparan jika
-  model fungsi-ukuran tidak layak.
+  Gunakan prediksi \emph{leave-one-out}; jika model tidak layak, gunakan
+  kelompok ukuran atau tetangga ukuran terdekat yang transparan.
 \item[$\square$]
   Menyatakan jika benchmark hanya relatif terhadap kawasan studi dan
   bukan ukuran universal.
+\item[$\square$]
+  Gunakan pembanding eksternal hanya sebagai sensitivitas tambahan dan
+  jangan menjadikannya syarat analisis.
 \item[$\square$]
   Menetapkan bentuk umum fungsi yang diharapkan:
 
@@ -961,14 +1012,17 @@ beban}\label{manfaat-ketergantungan-dan-beban}
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Membentuk profil manfaat dari indikator yang benar-benar teramati atau
-  proksi yang diberi label, misalnya akses pekerjaan, surplus fungsi,
-  upah/produktivitas jika tersedia, keragaman fungsi, atau kemampuan
-  memenuhi kebutuhan lokal.
+  Pertahankan residu fungsi sebagai dimensi tersendiri; jangan hitung
+  surplus sebagai manfaat atau defisit sebagai beban untuk kedua
+  kalinya.
 \item[$\square$]
-  Membentuk profil beban dari indikator yang benar-benar tersedia,
-  misalnya orientasi sangat bergantung pada inti, durasi/biaya
-  perjalanan, atau defisit fungsi pada unit yang kompatibel.
+  Bentuk profil manfaat dari indikator terpisah yang benar-benar
+  tersedia, misalnya akses pekerjaan, penghematan waktu, atau
+  upah/produktivitas jika kompatibel.
+\item[$\square$]
+  Bentuk profil beban dari indikator terpisah, misalnya orientasi sangat
+  bergantung pada inti, durasi/biaya perjalanan, ketidakseimbangan arus,
+  atau tekanan infrastruktur terukur.
 \item[$\square$]
   Memeriksa apakah komuter menunjukkan akses, beban, atau keduanya.
 \item[$\square$]
@@ -1012,14 +1066,26 @@ label}\label{tipologi-dan-empat-gerbang-label}
   label sesuai harapan.
 \item[$\square$]
   Mempertahankan kelas relatif independen, pola konsisten dengan
-  \emph{borrowed size}, campuran/transisional, pola konsisten dengan
-  \emph{agglomeration shadow}, periferi lemah, dan tidak terselesaikan
-  sesuai bukti.
+  \emph{borrowed size}, campuran, pola konsisten dengan
+  \emph{agglomeration shadow}, terintegrasi tetapi tertinggal, periferi
+  lemah, dan tidak terselesaikan sesuai bukti.
 \item[$\square$]
   Menetapkan bahwa ``relatif independen'' bukan bukti autarki.
 \item[$\square$]
+  Gunakan label \emph{borrowed size} hanya jika relasi tinggi, residu
+  positif, dan beban independen tidak tinggi.
+\item[$\square$]
   Menetapkan bahwa kelas campuran dapat memuat manfaat dan beban yang
   sama-sama tinggi atau residual yang berbeda antarkonstruk.
+\item[$\square$]
+  Gunakan istilah \emph{transisional} hanya untuk perubahan antarperiode
+  yang sebanding; ketidakstabilan spesifikasi masuk kelas tidak
+  terselesaikan.
+\item[$\square$]
+  Gunakan label \emph{agglomeration shadow} hanya jika integrasi tinggi,
+  residu negatif, dan beban atau ketergantungan independen terbukti;
+  jika bukti terakhir tidak ada, gunakan kelas terintegrasi tetapi
+  tertinggal.
 \item[$\square$]
   Menetapkan bahwa kelas tidak terselesaikan adalah keluaran sah ketika
   komponen wajib hilang, unit tidak kompatibel, atau hasil tidak stabil.
@@ -1060,15 +1126,18 @@ skenario}\label{sensitivitas-dan-skenario}
 \item[$\square$]
   Menetapkan sensitivitas indikator dan pemeriksaan korelasi/duplikasi.
 \item[$\square$]
-  Menjalankan \emph{leave-one-indicator-out} jika jumlah indikator dan
-  unit memungkinkan.
+  Jalankan \emph{leave-one-indicator-out} hanya jika satu dimensi
+  benar-benar memuat lebih dari satu indikator.
 \item[$\square$]
-  Menguji bobot alternatif.
+  Uji satu spesifikasi alternatif tolok ukur internal sebagai
+  pemeriksaan minimum.
+\item[$\square$]
+  Menguji bobot alternatif hanya jika skor komposit digunakan.
 \item[$\square$]
   Menguji ambang alternatif.
 \item[$\square$]
-  Menguji unit atau agregasi alternatif hanya jika operasi agregasinya
-  sah.
+  Menguji unit, agregasi, atau delineasi alternatif hanya jika alternatif
+  tersebut sudah tersedia dari pengolahan utama dan operasinya sah.
 \item[$\square$]
   Menguji definisi pusat dan \emph{catchment} alternatif jika lebih dari
   satu definisi dapat dipertanggungjawabkan.
@@ -1082,6 +1151,9 @@ skenario}\label{sensitivitas-dan-skenario}
   terselesaikan, dan alasan perubahan.
 \item[$\square$]
   Tidak meringkas ketahanan hanya sebagai persentase kelas yang sama.
+\item[$\square$]
+  Jangan membuat dataset atau model baru semata-mata untuk memperbanyak
+  analisis sensitivitas.
 \end{itemize}
 
 Pisahkan tiga jenis perubahan:
@@ -1243,20 +1315,21 @@ Penelitian}\label{bab-3---metode-penelitian}
   Menulis \texttt{3.1} sebagai pendekatan kuantitatif/deduktif dengan
   analisis spasial-relasional.
 \item[$\square$]
-  Menjelaskan mengapa pendekatan tersebut sesuai dengan Q1-Q4.
+  Menjelaskan mengapa pendekatan tersebut sesuai dengan Q1-Q3.
 \item[$\square$]
   Menyatakan bahwa audit dokumen dan provenance adalah prosedur mutu
   data, bukan alasan untuk menyebut penelitian campuran.
 \item[$\square$]
-  Menulis \texttt{3.2} sebagai studi kasus tunggal kuantitatif,
-  multitemporal sesuai bukti, diagnosis relasional, dan sensitivitas.
+  Menulis \texttt{3.2} sebagai studi kasus tunggal kuantitatif dengan
+  rancangan minimum satu periode, satu relasi komuter, satu domain
+  fungsi independen, dan tolok ukur internal.
 \item[$\square$]
   Menjelaskan kelebihan, keterbatasan, dan cara pengelolaan keterbatasan
   tanpa menghapusnya.
 \item[$\square$]
-  Menulis \texttt{3.3} dengan batas spasial Jabodetabek/BPTJ, WSM
-  sebagai pembanding jika kompatibel, tahun dasar per modul dan seri
-  sebanding berlabel, dan batas substantif.
+  Menulis \texttt{3.3} dengan batas spasial Jabodetabek, pembanding
+  internal sebagai garis dasar, WSM eksternal hanya sebagai
+  sensitivitas, dan maksimal dua domain inti.
 \item[$\square$]
   Menjelaskan bahwa jejak fungsional bukan perluasan yurisdiksi Jakarta.
 \item[$\square$]
@@ -1277,17 +1350,18 @@ Penelitian}\label{bab-3---metode-penelitian}
   pemeriksaan independen, lisensi, serta privasi.
 \item[$\square$]
   Menulis \texttt{3.6} secara berurutan dari audit dan pembekuan
-  baseline sampai keluaran WebGL.
+  baseline sampai keluaran inti; Web GIS interaktif ditempatkan sebagai
+  keluaran tambahan.
 \item[$\square$]
   Menyertakan aturan hitung integrasi, fungsi relatif, residual, skor
   ringkas jika dipakai, nilai hilang, ambang, klasifikasi, dan
   sensitivitas.
 \item[$\square$]
-  Menyertakan matriks keterlacakan Q1-Q4: pertanyaan, konstruk, bukti
+  Menyertakan matriks keterlacakan Q1-Q3: pertanyaan, konstruk, bukti
   minimum, unit, operasi, keluaran, dan batas klaim.
 \item[$\square$]
-  Menempatkan WebGL sebagai implementasi keluaran kedua, bukan sumber
-  klaim empiris baru.
+  Menempatkan Web GIS interaktif sebagai implementasi tambahan yang
+  dapat ditiadakan, bukan sumber klaim empiris baru.
 \item[$\square$]
   Mengintegrasikan validitas, reliabilitas, reproduktibilitas, dan
   aturan keputusan ke bagian metode yang relevan.
@@ -1331,7 +1405,7 @@ Pembahasan}\label{bab-5---temuan-dan-pembahasan}
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Menyusun temuan berdasarkan Q1-Q4, bukan berdasarkan urutan dataset.
+  Menyusun temuan berdasarkan Q1-Q3, bukan berdasarkan urutan dataset.
 \item[$\square$]
   Menampilkan tabel audit dan manifest konfigurasi bukti yang digunakan
   sebagai dasar hasil.
@@ -1362,7 +1436,7 @@ Pembahasan}\label{bab-5---temuan-dan-pembahasan}
   Tidak menyebut hubungan sebagai kausal, temporal, atau prediktif
   melampaui desain multitemporal sesuai bukti.
 \item[$\square$]
-  Tidak mengubah hasil WebGL menjadi prediksi kebijakan atau ramalan
+  Tidak mengubah hasil Web GIS menjadi prediksi kebijakan atau ramalan
   masa depan.
 \end{itemize}
 
@@ -1372,7 +1446,7 @@ Rekomendasi}\label{bab-6---kesimpulan-dan-rekomendasi}
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Menjawab Q1-Q4 secara ringkas dan parafrastik.
+  Menjawab Q1-Q3 secara ringkas dan parafrastik.
 \item[$\square$]
   Membedakan temuan yang langsung didukung data dari interpretasi yang
   bersyarat.
@@ -1519,7 +1593,7 @@ Persetujuan/cek
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Proposal & judul, Q1-Q4, tujuan, ruang lingkup, desain, kebutuhan data,
+Proposal & judul, Q1-Q3, tujuan, ruang lingkup, desain, kebutuhan data,
 batas klaim & dosen pembimbing \\
 Data & log akses, registri provenance, kamus data, geometri/crosswalk,
 audit mutu & validitas data/Progres 1 \\

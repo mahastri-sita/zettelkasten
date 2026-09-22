@@ -8,7 +8,7 @@ Penelitian ini sepenuhnya bertumpu pada proksi dan sumber terbuka, tanpa keterga
 
 Desain penelitian bersifat multitemporal sesuai bukti: perubahan dianalisis pada indikator dengan seri yang sebanding, sedangkan indikator lain dianalisis pada periode yang tersedia. Tahun dasar dan rentang analisis ditetapkan per modul setelah audit; panel lengkap dan satu tahun jangkar untuk semua sumber tidak diasumsikan.
 
-Keputusan ini menggantikan jalur permohonan paralel dan hierarki versi desain berdasarkan akses kelembagaan. Rujukan operasional aktif adalah [[output/naskah/bab_1/bab_1_pendahuluan_draf|Bab 1]] dan [[output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja|Bab 3]].
+Keputusan ini menggantikan jalur permohonan paralel dan hierarki versi desain berdasarkan akses kelembagaan. Rujukan operasional aktif adalah `latex/Bab 1 - Pendahuluan - final.tex` sampai `latex/Bab 4 - Gambaran Umum Lokasi Penelitian - final.tex`.
 
 ## Keputusan utama
 
@@ -18,7 +18,7 @@ Dalam percakapan lanjutan, pilihan ini dikonfirmasi secara eksplisit ketika peng
 
 - skripsi S1 berfokus pada **Kawasan Aglomerasi Jakarta**;
 - pertanyaan substantifnya adalah apakah integrasi dengan Jakarta menghasilkan manfaat produktif atau ketergantungan fungsional;
-- penelitian mempunyai dua keluaran yang saling terhubung: **diagnosis relasional dan perubahan pada seri sebanding** dan **penjelajah skenario–sensitivitas spasial berbasis WebGL**;
+- keluaran wajib penelitian adalah **diagnosis relasional dan fungsi relatif**; Web GIS, CCTV, SUMO, domain kedua, dan analisis multitemporal menjadi penguatan opsional setelah rantai utama berjalan;
 - batas administratif Jakarta diperlakukan tetap, sedangkan jejak keterkaitan metropolitan diperlakukan dinamis;
 - ide tentang audit keputusan Bappenas menjadi **implikasi kebijakan**, bukan pertanyaan riset kedua;
 - ide tentang pemekaran/territorial readiness disimpan sebagai agenda riset jangka panjang.
@@ -41,7 +41,7 @@ Tesis ini menetapkan tiga pemisahan penting:
 
 1. **Ukuran lokal berbeda dari fungsi metropolitan.** Pusat sekunder dapat memiliki fungsi lebih besar atau lebih kecil daripada yang diperkirakan dari ukuran lokalnya.
 2. **Geografi fungsional berbeda dari yurisdiksi.** Pengaruh dan aliran metropolitan dapat melintasi batas, tetapi kewenangan, pelayanan, dan tanggung jawab fiskal tetap harus dibaca menurut wilayah administrasi masing-masing.
-3. **Diagnosis berbeda dari skenario.** Status quo diukur dari observasi dan estimasi yang dilabeli; perubahan indikator, bobot, atau ambang pada WebGL adalah eksplorasi kondisional dan sensitivitas, bukan ramalan kausal otomatis.
+3. **Diagnosis berbeda dari skenario.** Status quo diukur dari observasi dan estimasi yang dilabeli; perubahan indikator, bobot, atau ambang pada Web GIS interaktif adalah eksplorasi kondisional dan sensitivitas, bukan ramalan kausal otomatis.
 
 ## Kerangka konseptual Bab 1
 
@@ -64,14 +64,13 @@ Bab 1 tidak perlu berangkat dari anggapan bahwa perluasan Jakarta pasti buruk at
 
 > Bagaimana hubungan metropolitan terarah berkaitan dengan fungsi relatif pusat-pusat sekunder di Kawasan Aglomerasi Jakarta, dan dalam kondisi apa hubungan tersebut menunjukkan konfigurasi surplus fungsi, defisit fungsi, manfaat akses, beban, ketergantungan, atau hasil campuran?
 
-Pertanyaan utama tersebut dijabarkan menjadi empat pertanyaan penelitian:
+Pertanyaan utama tersebut dijabarkan menjadi tiga pertanyaan penelitian:
 
 1. Bagaimana arah, intensitas, dan asimetri relasi pusat-pusat sekunder dengan Jakarta serta dengan pusat sekunder lain berdasarkan pengamatan dan estimasi dari sumber terbuka?
-2. Pada setiap domain fungsi yang diteliti, bagaimana fungsi suatu pusat yang diukur atau diestimasi dibandingkan dengan fungsi yang diharapkan berdasarkan massa dan karakteristik lokalnya, serta bagaimana perbandingan tersebut berubah pada indikator yang memiliki seri sebanding?
-3. Bagaimana dimensi relasi metropolitan terarah berasosiasi dengan surplus atau defisit fungsi relatif pada setiap domain, setelah tumpang tindih antarkonstruk dan penjelasan alternatif yang relevan diperiksa?
-4. Bagaimana spesialisasi fungsi, hierarki, status administratif, posisi jaringan, dan kondisi lokal membedakan hubungan, manfaat, beban, ketergantungan, serta konfigurasi hasil antarpusat?
+2. Bagaimana fungsi relatif, manfaat, dan beban pada setiap pusat sekunder dan domain yang diteliti, serta bagaimana nilainya berubah pada indikator yang memiliki seri sebanding?
+3. Bagaimana integrasi metropolitan berhubungan dengan fungsi relatif pusat-pusat sekunder setelah kondisi lokal dan penjelasan alternatif diperiksa, serta konfigurasi apa yang konsisten dengan *borrowed size*, *agglomeration shadow*, hasil campuran, atau hasil yang belum terselesaikan?
 
-Analisis sensitivitas tidak ditempatkan sebagai pertanyaan substantif yang berdiri sendiri. Analisis tersebut digunakan untuk menilai kepercayaan terhadap jawaban keempat pertanyaan melalui perubahan unit, delineasi, indikator, transformasi, tolok ukur, bobot, ambang, dan spesifikasi yang masih mengestimasi objek sejenis. Perubahan sumber atau konstruk yang menghasilkan estimand berbeda dilaporkan sebagai triangulasi atau perubahan estimand, bukan sebagai sensitivitas model yang ekuivalen.
+Analisis sensitivitas tidak ditempatkan sebagai pertanyaan substantif yang berdiri sendiri. Analisis tersebut digunakan untuk menilai kepercayaan terhadap jawaban ketiga pertanyaan melalui perubahan yang memang tersedia dari pengolahan utama. Penelitian tidak membuat dataset atau model baru semata-mata untuk memperbanyak sensitivitas.
 
 ### Tujuan penelitian aktif
 
@@ -80,10 +79,8 @@ Tujuan umum penelitian ini adalah menganalisis hubungan antara relasi metropolit
 Tujuan khusus penelitian adalah:
 
 1. mengukur dan memetakan arah, intensitas, serta asimetri relasi pusat-pusat sekunder dengan Jakarta dan dengan pusat sekunder lain;
-2. mengukur atau mengestimasi fungsi per domain, membandingkannya dengan ekspektasi berdasarkan massa serta karakteristik lokal, dan membaca perubahannya pada indikator dengan seri sebanding;
-3. menguji asosiasi antara dimensi relasi metropolitan terarah dan surplus atau defisit fungsi relatif per domain dengan memperhatikan ketidakpastian serta penjelasan alternatif;
-4. menjelaskan perbedaan konfigurasi hubungan, manfaat, beban, ketergantungan, dan fungsi relatif menurut spesialisasi fungsi, hierarki, status administratif, posisi jaringan, serta kondisi lokal; dan
-5. menilai ketahanan temuan melalui analisis sensitivitas yang sesuai serta menyajikan tipologi ringkas hanya apabila pola, ambang, dan stabilitas empirisnya memadai.
+2. mengukur atau mengestimasi fungsi relatif, manfaat, dan beban pada setiap pusat sekunder dan domain yang diteliti, serta membaca perubahannya pada indikator dengan seri sebanding; dan
+3. menganalisis hubungan integrasi metropolitan dengan fungsi relatif setelah kondisi lokal dan penjelasan alternatif diperiksa, lalu mengidentifikasi konfigurasi yang konsisten dengan *borrowed size*, *agglomeration shadow*, hasil campuran, atau hasil yang belum terselesaikan.
 
 ### Batas klaim Bab 1
 
@@ -95,9 +92,12 @@ Perluasan jejak fungsional Jakarta tidak dianggap intrinsik buruk. Hubungan metr
 
 1. **Independent** — hubungan dengan Jakarta masih lemah dan fungsi lokal relatif berdiri sendiri.
 2. **Borrowed size / productive integration** — daerah memperoleh manfaat skala metropolitan, tetapi juga mengalami penguatan fungsi lokal dan hubungan yang produktif.
-3. **Mixed / contested integration** — manfaat akses metropolitan dan beban ketergantungan sama-sama tinggi atau berbeda arahnya menurut dimensi.
-4. **Agglomeration shadow / asymmetric dependency** — penduduk, perumahan, industri, atau logistik dapat tumbuh, tetapi fungsi bernilai tinggi dan kapasitas lokal tertinggal sehingga ketergantungan pada core menguat.
-5. **Weakly integrated periphery** — integrasi dan kematangan fungsi lokal sama-sama lemah; keadaan ini tidak boleh keliru disebut *agglomeration shadow* jika hubungan dengan Jakarta juga lemah.
+3. **Mixed / contested integration** — manfaat akses metropolitan dan beban ketergantungan sama-sama tinggi atau residu berbeda arah antardomain pada periode yang sama.
+4. **Agglomeration shadow / asymmetric dependency** — integrasi tinggi disertai residu fungsi negatif serta beban atau ketergantungan yang diukur secara independen dari residu.
+5. **Integrated but lagging** — integrasi tinggi dan residu fungsi negatif, tetapi beban atau ketergantungan independen belum terbukti; kategori ini belum cukup untuk disebut *shadow*.
+6. **Weakly integrated periphery** — integrasi dan kematangan fungsi lokal sama-sama lemah; keadaan ini tidak boleh keliru disebut *agglomeration shadow* jika hubungan dengan Jakarta juga lemah.
+
+Istilah *transisional* hanya digunakan apabila unit yang sama berpindah keadaan pada periode yang benar-benar sebanding. Ketidakstabilan akibat spesifikasi dilaporkan sebagai belum terselesaikan.
 
 Istilah “parasit”, “parasitik”, atau “cannibalism” dipertahankan sebagai intuisi atau metafora interpretatif. Istilah tersebut bukan nama kategori empiris utama karena mengandung penilaian normatif dan klaim kausal yang lebih kuat daripada yang dapat dibuktikan oleh diagnosis status quo.
 
@@ -128,33 +128,25 @@ Skripsi juga tidak perlu memaksakan penemuan satu angka “radius optimal” ata
 
 > identifikasi pola *borrowed size* dan *agglomeration shadow* sepanjang gradien integrasi metropolitan Jakarta.
 
-## Dua keluaran penelitian
+## Keluaran inti dan penguatan opsional
 
 ### Keluaran 1 — diagnosis status quo
 
-Keluaran pertama adalah atlas/profil empiris kondisi relasional Jakarta dan pusat-pusat sekundernya pada periode observasi yang ditetapkan. Diagnosis sekurang-kurangnya memisahkan:
+Keluaran wajib adalah atlas/profil empiris kondisi relasional Jakarta dan pusat-pusat sekundernya pada periode observasi yang ditetapkan. Diagnosis sekurang-kurangnya memisahkan:
 
 - derajat integrasi atau eksposur metropolitan;
-- manfaat akses dan *functional upgrading*;
-- kematangan atau kekuatan fungsi lokal;
+- manfaat akses yang benar-benar dapat diukur;
+- kematangan fungsi lokal pada satu atau paling banyak dua domain inti;
 - beban dan ketergantungan asimetris; dan
 - posisi relatif terhadap fungsi/kinerja yang diharapkan berdasarkan ukuran lokal.
 
-Hasilnya bukan klasifikasi biner, melainkan tipologi dan gradien yang dapat memuat kondisi produktif, campuran, shadow, relatif independen, dan periferi lemah.
+Residu fungsi tidak dihitung kembali sebagai manfaat atau beban. Hasil utama berupa profil; tipologi hanya dibentuk jika aturan klasifikasi dan keempat gerbang bukti terpenuhi.
 
-### Keluaran 2 — penjelajah skenario dan sensitivitas spasial
+### Penguatan opsional — Web GIS
 
-Keluaran kedua adalah **penjelajah skenario–sensitivitas spasial berbasis WebGL**. Nilai status quo dibekukan sebagai baseline. Antarmuka dapat mengubah tiga jenis asumsi yang harus dibedakan:
+Web GIS dapat dikembangkan setelah keluaran inti selesai. Antarmuka ini merupakan media komunikasi dan dapat ditiadakan tanpa mengubah jawaban penelitian. Nilai status quo dibekukan sebagai baseline, sedangkan perubahan bobot, ambang, atau nilai skenario tetap diberi label eksploratif.
 
-1. **bobot indikator**, untuk menguji pengaruh pilihan kepentingan relatif;
-2. **ambang klasifikasi**, untuk menguji kerapuhan batas antarkategori; dan
-3. **nilai indikator skenario dalam rentang terkalibrasi**, untuk menjalankan pertanyaan kondisional *what-if*.
-
-Keluaran interaktif minimal mencakup peta baseline, peta skenario, perubahan dari baseline, unit yang berpindah kelas, dan peta ketahanan/ketidakpastian klasifikasi. “Real-time” merujuk pada penghitungan ulang dan rendering interaktif, bukan data langsung, prediksi masa depan, atau simulasi kausal kebijakan.
-
-Benchmark dan parameter normalisasi baseline harus tetap tersimpan ketika skenario dijalankan agar perubahan absolut tidak tersembunyi oleh normalisasi ulang. Rentang slider dan kombinasi perubahan juga perlu dibatasi agar tidak menghasilkan skenario yang secara substantif mustahil.
-
-Batas administratif DKI harus selalu terlihat sebagai lapisan tetap. Permukaan gradien yang berubah merepresentasikan perubahan **area yang memenuhi kondisi analitis**, bukan perubahan yurisdiksi atau tanggung jawab fiskal.
+Antarmuka tidak menghasilkan data langsung, prediksi masa depan, simulasi kausal, atau perubahan yurisdiksi.
 
 ## Rencana analitis sementara
 
@@ -172,11 +164,11 @@ Batas administratif DKI harus selalu terlihat sebagai lapisan tetap. Permukaan g
 
 | Komponen | Contoh hal yang ingin diamati |
 |---|---|
-| Integrasi metropolitan | komuter, akses ke pasar kerja, waktu/jarak perjalanan, konektivitas jaringan, interaksi ekonomi |
-| Manfaat *borrowed size* | produktivitas/upah, akses pekerjaan, akses layanan, pasar, koneksi ke perusahaan dan tenaga kerja |
-| *Functional upgrading* | pertumbuhan pekerjaan bernilai tinggi, business services, pendidikan tinggi, keragaman fungsi, peningkatan kapasitas pusat lokal |
-| Risiko *agglomeration shadow* | ketergantungan core, beban komuter, defisit fungsi lokal, dominasi hunian/warehouse/industri berfungsi subordinat |
-| Kematangan pusat sekunder | kemampuan memenuhi kebutuhan lokal, self-containment relatif, fungsi ekonomi, layanan, dan hubungan produktif dengan core |
+| Relasi metropolitan utama | pasangan arus komuter, intensitas, orientasi ke DKI, arus antarpusat, daya tarik masuk, *self-containment*, dan asimetri |
+| Fungsi inti | pekerjaan; layanan berorde tinggi hanya sebagai domain kedua jika lolos audit |
+| Manfaat | akses pekerjaan, penghematan waktu, atau hasil lain yang tersedia dan terpisah dari residu fungsi |
+| Beban/ketergantungan | orientasi pada inti, durasi atau biaya perjalanan, ketidakseimbangan arus, dan tekanan infrastruktur terukur |
+| Kematangan fungsi lokal | posisi relatif fungsi pada domain inti; bukan ukuran kesejahteraan, mutu layanan menyeluruh, atau keberhasilan pembangunan |
 | Ukuran dan ekspektasi lokal | penduduk, pekerjaan, massa ekonomi, kepadatan, struktur sektor, dan karakteristik yang digunakan untuk memperkirakan tingkat fungsi yang wajar |
 | Lapisan administratif | identitas kecamatan/kabupaten/kota/provinsi, locus pelayanan, serta agregasi hasil untuk membaca tanggung jawab pemerintahan |
 
@@ -188,16 +180,15 @@ Waktu tempuh atau kedekatan jaringan saja mengukur **potensi aksesibilitas**, bu
 
 ### Arsitektur metode sementara
 
-Desain dasarnya adalah **penelitian kuantitatif-spasial relasional** dengan desain multitemporal sesuai bukti, diagnosis relasional, dan analisis skenario–sensitivitas interaktif. Urutan metode yang sedang dipertimbangkan:
+Desain dasarnya adalah **penelitian kuantitatif-spasial relasional**. Urutan minimum yang dikunci:
 
 1. **Audit dan harmonisasi data** — menetapkan tahun/periode, resolusi, unit spasial, sumber, missingness, serta keterbandingan indikator.
 2. **Delineasi pusat dan *catchment*** — mengidentifikasi pusat sekunder dan wilayah keterkaitannya dari kepadatan aktivitas/fungsi serta, jika tersedia, arus perjalanan atau pasar kerja. Pusat tidak ditetapkan hanya dari status administratif.
-3. **Pengukuran integrasi metropolitan** — membangun profil integrasi dari komuter, waktu tempuh, aksesibilitas pasar kerja, konektivitas jaringan, dan/atau arus ekonomi yang tersedia.
-4. **Pengukuran kematangan serta fungsi relatif** — membandingkan fungsi/kinerja aktual dengan tingkat yang diharapkan dari ukuran dan karakteristik lokal. Opsi yang lebih kuat adalah memakai residual model fungsi–ukuran; opsi minimum adalah benchmark transparan yang diuji sensitivitasnya.
-5. **Pemisahan manfaat dan ketergantungan** — membangun skor/profil *benefit-functional upgrading* dan *burden-dependency* secara terpisah sebelum menyusun tipologi.
-6. **Klasifikasi status quo** — menyilangkan integrasi, fungsi relatif, kematangan, manfaat, dan ketergantungan dalam tipologi yang transparan. Analisis gradien diprioritaskan; kelas diskret digunakan untuk komunikasi, bukan untuk menutupi kontinuitas.
-7. **Diagnostik spasial dan ketahanan** — memeriksa autokorelasi spasial, perubahan akibat unit/skala, korelasi dan duplikasi indikator, *leave-one-indicator-out*, serta sensitivitas terhadap bobot dan ambang.
-8. **Implementasi WebGL** — menerjemahkan model yang sama ke antarmuka baseline–skenario–delta–robustness. WebGL tidak menciptakan model substantif baru dan tidak boleh menghaluskan data melebihi resolusi aslinya.
+3. **Pengukuran relasi metropolitan** — membangun profil dari satu matriks komuter yang kompatibel; proporsi menuju DKI tidak dipakai sendirian.
+4. **Pengukuran fungsi relatif** — membandingkan satu domain fungsi dengan ekspektasi internal dari pusat sekunder Jabodetabek menggunakan prediksi *leave-one-out* atau kelompok ukuran yang transparan.
+5. **Pengujian hubungan** — memasangkan relasi dan fungsi yang dibentuk dari sumber independen. OD sintetis tidak diuji terhadap fungsi pekerjaan jika pekerjaan dipakai sebagai massa tujuan.
+6. **Pemisahan manfaat dan beban** — memakai indikator yang terpisah dari residu fungsi.
+7. **Diagnosis bersyarat** — membuat tipologi hanya jika empat gerbang bukti terpenuhi; keluaran minimum tetap sah sebagai profil.
 
 Secara konseptual, fungsi relatif dapat ditulis sebagai:
 
@@ -207,7 +198,7 @@ fungsi aktual = fungsi yang diharapkan dari ukuran dan karakteristik lokal + res
 
 Residual positif menunjukkan surplus fungsi relatif; residual negatif menunjukkan defisit fungsi relatif. Namun residual baru dapat dibaca sebagai *borrowed size* atau *agglomeration shadow* setelah dikaitkan dengan intensitas dan arah integrasi metropolitan. Defisit fungsi pada wilayah yang tidak terhubung kuat dengan Jakarta tidak otomatis merupakan shadow Jakarta.
 
-Benchmark ideal memakai pusat pembanding yang cukup sebanding tetapi tidak seluruhnya berada dalam sistem Jakarta. Jika skripsi hanya mampu memakai pembanding internal, hasil harus disebut surplus/defisit relatif di dalam kawasan studi dan klaim generalisasinya dibatasi.
+Benchmark utama memakai pusat sekunder Jabodetabek yang sebanding dan tidak memasukkan DKI ke garis ekspektasi. Hasil disebut surplus/defisit relatif di dalam kawasan studi. Pembanding eksternal hanya menjadi sensitivitas opsional.
 
 [[Gravity-Based Urban Center Classification]] dapat menjadi prekursor metodologis untuk logika *local strength*, *external pull*, tipologi, dan uji sensitivitas. Metode tersebut tidak boleh dipindahkan begitu saja: indikator, bobot, parameter, data Jakarta, serta benchmark fungsi relatif harus dikalibrasi ulang, dan indeks tekanan eksternal tidak dengan sendirinya membuktikan *agglomeration shadow*.
 
@@ -225,7 +216,7 @@ Karena skripsi S1 tidak boleh terlalu eksperimental:
 - gunakan metode yang dapat diaudit dan dijelaskan secara konvensional;
 - perlakukan *turning point* sebagai kemungkinan yang diuji, bukan hasil yang harus ditemukan;
 - jika data tidak mendukung klaim threshold, gunakan tipologi atau analisis gradien yang lebih aman;
-- WebGL adalah keluaran analitis kedua untuk skenario dan sensitivitas sekaligus lapisan komunikasi, tetapi bukan pengganti metode empiris inti;
+- Web GIS interaktif adalah penguatan opsional setelah analisis inti selesai dan dapat ditiadakan tanpa mengubah jawaban penelitian;
 - pertahankan nilai dimensi dan ketidakpastian yang mendasari peta agar visual 3D/gradien tidak menghasilkan presisi semu.
 
 ## Hubungan dengan dua ide lain
@@ -335,7 +326,7 @@ Penelusuran pada putaran pertama belum menemukan sumber terbuka, mutakhir, serag
 
 ### Jalur data terbuka untuk OD sintetis
 
-Data terbuka dapat dikumpulkan untuk membangun **estimasi OD sintetis atau potensi interaksi**, tetapi tidak dapat dengan sendirinya menghasilkan OD aktual yang teramati. Perbedaannya harus dipertahankan dalam metode dan antarmuka WebGL.
+Data terbuka dapat dikumpulkan untuk membangun **estimasi OD sintetis atau potensi interaksi**, tetapi tidak dapat dengan sendirinya menghasilkan OD aktual yang teramati. Perbedaannya harus dipertahankan dalam metode dan antarmuka Web GIS interaktif.
 
 | Komponen model terbuka | Sumber yang dapat dipakai | Peran |
 |---|---|---|
@@ -397,7 +388,7 @@ Tahun per modul, daftar pusat, cakupan historis usaha, kelengkapan pemetaan anta
 4. Memilih indikator manfaat, *functional upgrading*, kematangan lokal, dan ketergantungan yang realistis untuk S1 serta menguji polaritas gandanya.
 5. Memutuskan apakah unit utama berupa kecamatan, pusat–catchment, grid/hexagon, atau kombinasi bertingkat yang tidak menghasilkan presisi semu.
 6. Menetapkan rentang analisis per indikator dalam desain multitemporal sesuai bukti.
-7. Menetapkan apa yang boleh dimanipulasi pada WebGL: bobot, ambang, nilai skenario, atau kombinasi terbatas dengan constraint yang masuk akal.
+7. Menetapkan apa yang boleh dimanipulasi pada Web GIS interaktif: bobot, ambang, nilai skenario, atau kombinasi terbatas dengan constraint yang masuk akal.
 8. Menguji ulang judul, rumusan masalah, tujuan, dan batas klaim bersama pembimbing setelah audit data.
 9. Memastikan klaim tentang Bappenas, RIPKA, data resmi, regulasi, dan literatur ditelusuri ke sumber primer sebelum masuk proposal.
 

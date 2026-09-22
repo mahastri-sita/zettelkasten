@@ -59,7 +59,7 @@ Bab ini menjelaskan wilayah yang menjadi konteks pengukuran dan alasan pemilihan
 
 Jabodetabek merupakan kawasan metropolitan yang terbentuk dari hubungan harian antara Jakarta dan wilayah di sekitarnya. Hubungan itu melampaui batas provinsi dan batas kewenangan satu pemerintah daerah. Jakarta berperan sebagai inti dengan konsentrasi fungsi pemerintahan, jasa tingkat tinggi, kegiatan ekonomi, dan simpul transportasi. Bogor, Depok, Tangerang, dan Bekasi menampung perumahan, pekerjaan, industri, pendidikan, perdagangan, serta fasilitas yang tumbuh dengan tingkat kemandirian yang berbeda. Kabupaten di sekeliling kota tersebut juga memuat kawasan industri, perumahan baru, lahan pertanian yang tersisa, dan jaringan jalan antarkota.
 
-Pilihan Jabodetabek sebagai kasus memberi kesempatan untuk menguji pertanyaan penelitian dalam satu sistem yang memiliki inti dominan, beberapa kota besar, dan hubungan lintas batas yang terdokumentasi. Literatur tentang perkembangan Jabotabek telah menunjukkan bahwa proses tersebut bukan sekadar perluasan permukiman, melainkan perubahan struktur pekerjaan, industri, jaringan, dan hubungan antarsubwilayah \parencite{henderson1996,hudalahfirman2012,hudalahetal2013}. Penelitian yang lebih baru juga menemukan bahwa hubungan antarsuburban tidak dapat dibaca hanya dari jarak ke pusat atau status administratif \parencite{sadewoetal2023,aritenang2023}. Karena itu, lokasi penelitian diperlakukan sebagai sistem relasional, sedangkan administrasi dipakai sebagai unit pembacaan dan pelaporan.
+Pilihan Jabodetabek sebagai kasus memberi kesempatan untuk menguji pertanyaan penelitian dalam satu sistem yang memiliki inti dominan, beberapa kota besar, dan hubungan lintas batas yang terdokumentasi. Literatur tentang perkembangan Jabotabek mencatat perluasan permukiman sekaligus perubahan struktur pekerjaan, industri, jaringan, dan hubungan antarsubwilayah \parencite{henderson1996,hudalahfirman2012,hudalahetal2013}. Penelitian yang lebih baru juga menemukan bahwa jarak ke pusat dan status administratif belum cukup untuk menjelaskan hubungan antarsuburban \parencite{sadewoetal2023,aritenang2023}. Karena itu, lokasi penelitian diperlakukan sebagai sistem relasional, sedangkan administrasi dipakai sebagai unit pembacaan dan pelaporan.
 
 Laporan JUTPI 3 menggambarkan Jabodetabek sebagai wilayah kebijakan transportasi yang membutuhkan koordinasi lintas pemerintah. Laporan tersebut memuat Bogor, Depok, Tangerang, dan Bekasi bersama Jakarta dalam struktur pelaksanaan dan pembahasan jaringan transportasi \parencite{jica2025jutpi}. Hal ini membantu menetapkan cakupan geografis penelitian, tetapi tidak otomatis menjadikan setiap rencana jaringan sebagai kondisi aktual. Rencana jaringan, jaringan yang beroperasi, dan arus perjalanan aktual dipisahkan pada tahap audit bukti.
 
@@ -76,7 +76,16 @@ Batas geografis pada peta kerja diambil dari geometri ADM2 geoBoundaries untuk I
   \label{fig:bab4-admin}
 \end{figure}
 
-Gambar \ref{fig:bab4-admin} memperlihatkan posisi relatif sembilan unit. Peta ini berfungsi sebagai peta batas tetap untuk pelaporan. Ia tidak menyatakan bahwa hubungan ekonomi, perjalanan, atau pelayanan berhenti pada garis administrasi. Garis tersebut justru menjadi alat untuk menilai bagaimana fungsi dan integrasi melintasi kewenangan yang berbeda.
+Gambar \ref{fig:bab4-admin} memperlihatkan posisi relatif sembilan unit dan menjadi peta batas tetap untuk pelaporan. Hubungan ekonomi, perjalanan, dan pelayanan dapat melintasi garis tersebut. Batas administrasi digunakan untuk menempatkan hasil pada kewenangan yang sesuai.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.98\textwidth]{bab4_status_administratif.png}
+  \caption{Status administratif wilayah penelitian. Sumber geometri: geoBoundaries gbOpen Indonesia ADM2, build 2023 dengan batas tahun 2020. Kelas membedakan inti DKI, kota penyangga, dan kabupaten untuk kebutuhan pelaporan; kelas tersebut bukan ukuran morfologi terbangun atau kematangan pusat.}
+  \label{fig:bab4-status-administratif}
+\end{figure}
+
+Gambar \ref{fig:bab4-status-administratif} membedakan status administrasi yang akan digunakan sebagai kondisi kontekstual. Kota dan kabupaten memiliki luas, kepadatan, kewenangan, serta komposisi wilayah yang berbeda. Perbedaan tersebut perlu diperiksa ketika hasil antarpusat dibandingkan, tetapi status kota tidak dengan sendirinya menetapkan suatu unit sebagai pusat sekunder.
 
 \subsection{Cakupan wilayah dan aturan pembacaan}
 
@@ -110,22 +119,15 @@ Kota Tangerang Selatan & 1.399,50 & Proyeksi 2024 BPS Banten; kota administratif
 \parbox{\textwidth}{\footnotesize Catatan: angka Jawa Barat diambil dari tabel perbandingan kabupaten/kota pada \emph{Kota Depok Dalam Angka 2025}; angka Banten diambil dari tabel perbandingan kabupaten/kota pada \emph{Kota Tangerang Dalam Angka 2024}. Satuan, tahun, dan cakupan mengikuti sumber masing-masing \parencite{bpsjabar2025,bpsbanten2024}. Angka DKI tidak dijumlahkan ulang di tabel ini karena publikasi DKI memecahnya pada kota administrasi dan menggunakan tabel sektoral yang berbeda; rujukan auditnya adalah \emph{Provinsi DKI Jakarta Dalam Angka 2025} \parencite{bpsdki2025}.}
 \end{table}
 
-Tabel \ref{tab:bab4-populasi} menunjukkan bahwa massa lokal tidak hanya terkumpul di DKI. Kabupaten Bogor, Kabupaten Tangerang, Kabupaten Bekasi, Kota Bekasi, dan Kota Depok memiliki jumlah penduduk yang besar dalam proyeksi 2024. Angka tersebut tidak cukup untuk menyatakan bahwa unit-unit itu memiliki fungsi metropolitan yang setara dengan Jakarta. Angka hanya menyediakan pembagi awal untuk menguji apakah fungsi yang teramati atau diperkirakan sebanding dengan massa lokalnya.
+Tabel \ref{tab:bab4-populasi} menunjukkan massa lokal yang besar di beberapa wilayah luar DKI, terutama Kabupaten Bogor, Kabupaten Tangerang, Kabupaten Bekasi, Kota Bekasi, dan Kota Depok. Angka tersebut belum menunjukkan bahwa unit-unit itu memiliki fungsi metropolitan yang setara dengan Jakarta. Dalam analisis berikutnya, jumlah penduduk menjadi pembagi awal untuk menilai apakah fungsi yang teramati atau diperkirakan sebanding dengan massa lokalnya.
 
 Perbedaan massa lokal juga penting bagi interpretasi hasil. Pusat dengan penduduk besar dapat memiliki fungsi yang tampak tinggi secara absolut tetapi biasa saja setelah dibandingkan dengan ukurannya. Sebaliknya, pusat dengan penduduk lebih kecil dapat menunjukkan fungsi khusus atau akses ke jaringan metropolitan tanpa memiliki jumlah fasilitas terbesar. Perbandingan relatif pada Bab 5 karena itu akan menggunakan indikator dengan unit dan tahun yang dijelaskan, serta menyertakan pemeriksaan sensitivitas terhadap pilihan pembagi.
 
 \section{Morfologi terbangun dan jaringan transportasi}
 
-Morfologi Jabodetabek terbentuk dari gabungan inti perkotaan padat, koridor jalan dan rel, kawasan industri, perumahan berskala besar, serta ruang terbuka yang tersisa di antara kawasan terbangun. Bentuk tersebut berubah melalui perluasan kawasan industri dan perumahan, pembangunan jalan tol dan jalan arteri, penguatan jaringan rel, serta pertumbuhan pusat perdagangan dan jasa. Studi tentang dekonsentrasi manufaktur dan transformasi pascasuburban menunjukkan bahwa perkembangan tersebut berlangsung tidak seragam antarwilayah \parencite{hudalahetal2013,hudalahfirman2012}. Karena itu, peta batas administrasi perlu dilengkapi dengan lapisan bangunan, jaringan, fasilitas, dan lokasi aktivitas pada tahap pengukuran.
+Morfologi Jabodetabek terbentuk dari gabungan inti perkotaan padat, koridor jalan dan rel, kawasan industri, perumahan berskala besar, serta ruang terbuka yang tersisa di antara kawasan terbangun. Bentuk tersebut berubah melalui perluasan kawasan industri dan perumahan, pembangunan jalan tol dan jalan arteri, penguatan jaringan rel, serta pertumbuhan pusat perdagangan dan jasa. Studi tentang dekonsentrasi manufaktur dan transformasi pascasuburban menunjukkan bahwa perkembangan tersebut berlangsung tidak seragam antarwilayah \parencite{hudalahetal2013,hudalahfirman2012}.
 
-Gambar \ref{fig:bab4-morphology} merupakan peta konteks untuk mengatur lapisan tersebut. Warna membedakan inti DKI, kota penyangga, dan kabupaten penyangga. Warna bukan ukuran tutupan terbangun, kepadatan, atau tingkat kematangan. Ukuran morfologi yang digunakan dalam penelitian harus dibentuk dari lapisan terbuka yang memiliki definisi dan tahun jelas, misalnya jejak bangunan, raster tutupan terbangun, jaringan jalan, serta lokasi fasilitas. Jika salah satu lapisan tidak memiliki seri waktu sebanding, indikator tersebut dilaporkan untuk periode yang tersedia.
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.98\textwidth]{bab4_morphology.png}
-  \caption{Kerangka wilayah untuk audit morfologi. Sumber geometri: geoBoundaries gbOpen Indonesia ADM2, build 2023. Proyeksi visual WGS84 geografis; peta memuat skala dan orientasi. Warna hanya mengatur lapisan kerja administratif dan bukan klasifikasi tutupan lahan atau hasil analisis kepadatan.}
-  \label{fig:bab4-morphology}
-\end{figure}
+Peta morfologi baru disusun setelah jejak bangunan atau raster tutupan terbangun lolos audit tahun, resolusi, klasifikasi, lisensi, dan cakupan. Naskah ini tidak memakai kelas administratif pada Gambar \ref{fig:bab4-status-administratif} sebagai pengganti morfologi. Jika lapisan yang lolos audit hanya tersedia untuk satu periode, hasilnya menjadi potret morfologi pada periode tersebut. Perubahan hanya dihitung apabila produk dan definisinya dapat disejajarkan.
 
 Jaringan transportasi memberi jalur yang memungkinkan hubungan metropolitan terbentuk, tetapi keberadaan jaringan tidak sama dengan penggunaan. Laporan JUTPI 3 membahas jaringan publik masa depan dengan horizon 2045 dan menampilkan MRT, LRT, KCI, BRT, dan trem dalam peta usulan \parencite{jica2025jutpi}. Peta itu berguna untuk membaca arah kebijakan dan kemungkinan konektivitas, sedangkan analisis penelitian memerlukan pembedaan antara jaringan yang sudah beroperasi, jaringan yang direncanakan, frekuensi layanan, kapasitas, dan arus penumpang.
 
@@ -136,7 +138,7 @@ Jaringan transportasi memberi jalur yang memungkinkan hubungan metropolitan terb
   \label{fig:bab4-network}
 \end{figure}
 
-Peta jaringan JUTPI 3 memperlihatkan mengapa integrasi metropolitan tidak tepat direduksi menjadi kedekatan geometris. Hubungan antarwilayah dibentuk oleh simpul, koridor, waktu tempuh, kapasitas, pertukaran moda, dan hambatan perjalanan. Variabel jaringan aktual pada Bab 5 akan dipilih setelah audit terhadap data operator dan sumber terbuka. CCTV dan simulasi SUMO dapat dipakai sebagai penguatan jika akses, resolusi waktu, lisensi, dan validasi manualnya layak; keduanya bukan ketergantungan dasar penelitian.
+Peta jaringan JUTPI 3 memperlihatkan mengapa integrasi metropolitan tidak tepat direduksi menjadi kedekatan geometris. Hubungan antarwilayah dibentuk oleh simpul, koridor, waktu tempuh, kapasitas, pertukaran moda, dan hambatan perjalanan. Variabel jaringan aktual pada Bab 5 dipilih setelah audit terhadap data operator dan sumber terbuka. Rekaman CCTV yang tersedia dapat diolah dengan deteksi YOLO, pelacakan objek, dan garis hitung untuk mengestimasi arus pada titik serta waktu tertentu. SUMO digunakan hanya jika jaringan, permintaan, dan data kalibrasinya memadai.
 
 \section{Industri, pusat pelayanan, dan aktivitas ekonomi}
 
@@ -161,20 +163,31 @@ Gambar \ref{fig:bab4-candidates} menempatkan Jakarta inti, Tangerang dan Tangera
 
 Hubungan transportasi dan komuter dipakai untuk membaca hubungan fungsional. Survei Komuter Jabodetabek 2023 dari BPS menjadi rujukan terbuka untuk definisi dan tabulasi komuter, sementara laporan operator, berita resmi, dan data jaringan dapat digunakan untuk memeriksa layanan pada periode lain. Data perjalanan aktual tidak disimpulkan dari peta rencana. Jika data asal-tujuan terbuka tersedia, arus tersebut dilaporkan sebagai observasi. Jika hanya kapasitas armada, frekuensi, atau jumlah perjalanan yang tersedia, informasi tersebut digunakan sebagai batas atas, indikator kapasitas, atau bahan estimasi dengan asumsi yang ditulis.
 
-Penggunaan CCTV dan SUMO ditempatkan sebagai penguatan bersyarat. CCTV dapat membantu menghitung arus pada titik tertentu apabila sudut pandang, interval pengamatan, privasi, dan izin penggunaan dapat dipastikan. SUMO dapat digunakan untuk simulasi skenario ketika jaringan, permintaan, dan parameter kalibrasi tersedia. Hasil simulasi tidak disebut arus aktual dan tidak menggantikan observasi.
+Penggunaan CCTV dan SUMO ditempatkan sebagai penguatan bersyarat. Hitungan dari rekaman CCTV harus diuji pada sampel manual yang mewakili perbedaan kamera, kepadatan, cuaca, pencahayaan, sudut pandang, dan oklusi. Hasilnya dilaporkan sebagai estimasi menurut kamera, waktu, arah, dan kelas objek. Hitungan tersebut bukan matriks asal dan tujuan. SUMO dapat digunakan untuk simulasi skenario ketika jaringan, permintaan, dan parameter kalibrasi tersedia. Hasil simulasi tidak disebut arus aktual dan tidak menggantikan observasi.
 
 \section{Audit sumber dan periode}
 
 Audit sumber pada Tabel \ref{tab:bab4-audit} menjadi penghubung antara gambaran lokasi dan metode pengukuran. Tahun pada tabel adalah tahun observasi, tahun proyeksi, tahun geometri, atau tahun publikasi sesuai keterangan. Satu baris tidak boleh dipakai untuk menyiratkan seri waktu yang tidak ada.
 
-\begin{table}[H]
-\centering
-\caption{Audit sumber terbuka dan periode untuk Bab 4}
-\label{tab:bab4-audit}
-\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.21\textwidth} >{\raggedright\arraybackslash}p{0.18\textwidth} >{\raggedright\arraybackslash}p{0.16\textwidth} >{\raggedright\arraybackslash}X}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.19\textwidth} >{\raggedright\arraybackslash}p{0.17\textwidth} >{\raggedright\arraybackslash}p{0.15\textwidth} >{\raggedright\arraybackslash}p{0.41\textwidth}}
+\caption{Audit sumber terbuka dan periode untuk Bab 4}\label{tab:bab4-audit}\\
 \toprule
 Konstruk/lapisan & Sumber & Tahun/periode & Status bukti dan batas penggunaan \\
 \midrule
+\endfirsthead
+\caption[]{Audit sumber terbuka dan periode untuk Bab 4 (lanjutan)}\\
+\toprule
+Konstruk/lapisan & Sumber & Tahun/periode & Status bukti dan batas penggunaan \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\footnotesize Dilanjutkan pada halaman berikutnya}\\
+\endfoot
+\bottomrule
+\endlastfoot
 Batas administratif & geoBoundaries gbOpen ADM2 & build 2023; geometri 2020 & Observasi geometri konteks. Tidak menetapkan batas fungsional atau daerah tangkapan \parencite{geoboundaries2023}. \\
 Massa penduduk Jawa Barat & BPS, tabel kabupaten/kota dalam \emph{Kota Depok Dalam Angka 2025} & Proyeksi 2021--2025; digunakan 2024 & Angka proyeksi dalam ribu jiwa; unit kabupaten/kota. \\
 Massa penduduk Banten & BPS, tabel kabupaten/kota dalam \emph{Kota Tangerang Dalam Angka 2024} & Proyeksi 2020--2024; digunakan 2024 & Angka proyeksi dalam ribu jiwa; unit kabupaten/kota. \\
@@ -183,10 +196,10 @@ Jaringan dan skenario transportasi & JICA Expert Team, JUTPI 3 & Laporan 2025; j
 Komuter & BPS, Survei Komuter Jabodetabek & 2023 & Definisi dan tabulasi komuter. Cakupan, unit, dan tabel yang dipakai dicatat kembali pada manifest data. \\
 Bangunan dan tutupan terbangun & sumber raster atau jejak bangunan terbuka yang lolos audit & periode mengikuti produk & Akan dipakai hanya jika tahun, resolusi, lisensi, dan metode ekstraksi dapat ditelusuri. \\
 Lokasi usaha dan fasilitas & pemerintah daerah, OpenStreetMap, direktori usaha, dan situs operator & tanggal akses per ekstraksi & Observasi titik dengan bias cakupan. Deduplikasi dan pemeriksaan sampel wajib dicatat. \\
+Rekaman lalu lintas titik & Rekaman CCTV yang telah tersedia & Periode mengikuti metadata setiap rekaman; belum diaudit & Video merupakan observasi mentah. Hitungan YOLO dan pelacakan objek berstatus estimasi turunan serta memerlukan validasi manual menurut kamera, waktu, arah, dan kelas objek. \\
 Kandidat pusat & gabungan lapisan terbuka dan literatur & label awal Bab 4 & Status operasional; bukan hasil klasifikasi dan tidak menjadi bukti tunggal fungsi. \\
-\bottomrule
-\end{tabularx}
-\end{table}
+\end{longtable}
+\endgroup
 
 Tabel tersebut sengaja memisahkan sumber yang sudah memiliki angka dari sumber yang baru menjadi rujukan konteks. Peta JUTPI 3, misalnya, dapat memperlihatkan arah jaringan dan lokasi simpul yang direncanakan, tetapi tidak dapat dipakai untuk menghitung integrasi aktual tanpa data operasi. Demikian pula, direktori usaha dapat membantu menemukan lokasi dan perubahan keberadaan, tetapi tidak langsung mengukur omzet, jumlah pekerja, atau jumlah pengunjung.
 
