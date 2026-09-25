@@ -24,7 +24,7 @@ Router untuk konsep pengguna tentang tekanan eksternal atau kemungkinan ekstraks
 
 ## Evidence and Datasets
 
-- [[C02-widita-ahmad-2026-urban-cannibalism-expanding-agglomeration-shadow-to-function-extraction-in-arrested-transition-10.31235-osf.io-brxn3_v1.pdf]] - Preprint SocArXiv versi 1 milik pengguna; rujukan langsung untuk konsep dan operasionalisasi *urban cannibalism*, bukan bukti independen.
+- [[Widita and Ahmad - 2026 - Urban Cannibalism]] - Preprint SocArXiv versi 1 milik pengguna; rujukan langsung untuk konsep dan operasionalisasi *urban cannibalism*, bukan bukti independen.
 - [[OpenStreetMap - POI GKS - April 2026]] - Snapshot POI untuk massa ekonomi dan sosial.
 - [[Kemenhub and OpenStreetMap - Road Network GKS - April 2026]] - Snapshot jaringan jalan untuk konteks dan waktu tempuh.
 - [[GKS - Administrative Boundary]] - Boundary canonical untuk unit studi GKS.

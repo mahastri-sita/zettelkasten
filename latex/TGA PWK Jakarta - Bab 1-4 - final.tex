@@ -6,7 +6,7 @@
 \else
   \usepackage[bidi=default,shorthands=off,provide=*]{babel}
 \fi
-\ifPDFTeX\else\babelfont{rm}[]{Charter}\fi
+\ifPDFTeX\else\babelfont{rm}[]{Times New Roman}\fi
 \usepackage{hyperref}
 \input{tga-preamble.tex}
 \graphicspath{{figures/}}
@@ -22,27 +22,41 @@
 Analisis Hubungan Integrasi Metropolitan dengan Kematangan Pusat-Pusat Sekunder di Kawasan Aglomerasi Jakarta}
 \providecommand{\subtitle}[1]{\gdef\thesubtitle{#1}}
 \subtitle{Naskah Bab 1--4}
-\author{Mahastri Laksita Sam Widita\\NIM 22/503065/TK/54947\\[0.5em]
-Pembimbing: Rendy Bayu Aditya\\[0.5em]
-Program Studi Perencanaan Wilayah dan Kota\\
-Departemen Teknik Arsitektur dan Perencanaan\\
-Fakultas Teknik\\
-Universitas Gadjah Mada}
+\author{Mahastri Laksita Sam Widita}
+\newcommand{\studentnumber}{22/503065/TK/54947}
+\newcommand{\advisorname}{Rendy Bayu Aditya}
 \date{Kabupaten Sleman, Daerah Istimewa Yogyakarta\\2026}
 
 \makeatletter
 \renewcommand{\maketitle}{%
   \begin{titlepage}
     \centering
+    \vspace*{0.8cm}
+    {\Large \@title\par}
+    \vspace{0.55cm}
     {\Large\bfseries TUGAS AKHIR\par}
+    \vspace{0.25cm}
+    {\normalsize \thesubtitle\par}
+    \vspace{0.3cm}
+    {\normalsize Program Studi Perencanaan Wilayah dan Kota\par}
+    \vspace{0.65cm}
+    {\normalsize Disusun sebagai salah satu persyaratan akademik pada Program Studi\\
+      Perencanaan Wilayah dan Kota\par}
+    \vspace{0.55cm}
+    \includegraphics[width=4.4cm]{lambang_ugm_hitam.png}\par
+    \vspace{0.45cm}
+    {\normalsize\@author\par}
+    \vspace{0.15cm}
+    {\normalsize NIM \studentnumber\par}
+    {\normalsize Pembimbing: \advisorname\par}
     \vfill
-    {\LARGE\bfseries \@title\par}
-    \vspace{1.2cm}
-    {\large \thesubtitle\par}
-    \vfill
-    {\large \@author\par}
-    \vfill
-    {\large \@date\par}
+    {\normalsize\bfseries
+      PROGRAM STUDI PERENCANAAN WILAYAH DAN KOTA\\
+      DEPARTEMEN TEKNIK ARSITEKTUR DAN PERENCANAAN\\
+      FAKULTAS TEKNIK\\
+      UNIVERSITAS GADJAH MADA\par}
+    \vspace{0.45cm}
+    {\normalsize \@date\par}
   \end{titlepage}}
 \makeatother
 
@@ -51,7 +65,7 @@ Universitas Gadjah Mada}
 \tableofcontents
 \clearpage
 
-\chapter{Pendahuluan}
+\chapter{Bab 1 Pendahuluan}
 
 \section{Latar belakang}
 
@@ -160,7 +174,7 @@ Bab 3 menjelaskan pendekatan dan desain penelitian, ruang lingkup, unit amatan d
 
 \clearpage
 
-\chapter{Kajian Pustaka}
+\chapter{Bab 2 Kajian Pustaka}
 
 \section{Penjelasan konsep-konsep kunci}
 
@@ -404,7 +418,7 @@ Bab 3 menerjemahkan kerangka ini ke dalam operasionalisasi. Observasi dipisahkan
 
 \clearpage
 
-\chapter{Metode Penelitian}
+\chapter{Bab 3 Metode Penelitian}
 \section{Pendekatan penelitian}\label{pendekatan-penelitian}
 
 \subsection{Pilihan pendekatan}\label{pilihan-pendekatan}
@@ -1580,7 +1594,7 @@ bukti yang disebutkan.
 
 \clearpage
 
-\chapter{Gambaran Umum Lokasi Penelitian}
+\chapter{Bab 4 Gambaran Umum Lokasi Penelitian}
 
 Bab ini menjelaskan wilayah yang menjadi konteks pengukuran dan alasan pemilihan unit analisis. Uraian disusun untuk membantu pembaca membaca hubungan antara Jakarta, kota-kota penyangga, kabupaten dengan perkembangan perkotaan cepat, serta jaringan transportasi yang menghubungkannya. Bab ini tidak menyajikan diagnosis \emph{borrowed size} atau \emph{agglomeration shadow}. Label pusat sekunder yang muncul di sini adalah label kerja untuk audit data; statusnya diuji kembali pada Bab 5.
 
@@ -1684,7 +1698,7 @@ Penelitian tidak menetapkan pusat sekunder hanya karena sebuah wilayah berstatus
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.98\textwidth]{bab4_candidates.png}
-  \caption{Kandidat pusat sekunder sebagai label operasional awal. Nomor menunjukkan lokasi kerja dan garis putus-putus menunjukkan pasangan relasi yang perlu diaudit, bukan hasil klasifikasi atau arus perjalanan aktual. Sumber geometri: geoBoundaries gbOpen Indonesia ADM2; proyeksi visual WGS84 geografis dengan skala dan orientasi.}
+  \caption{Lokasi audit kandidat pusat sekunder. Huruf I menandai inti Jakarta, angka 1--5 menandai kandidat, dan garis putus-putus menandai pasangan relasi yang perlu diaudit; semuanya bukan hasil klasifikasi atau arus perjalanan aktual. Sumber geometri: geoBoundaries gbOpen Indonesia ADM2; proyeksi visual WGS84 geografis dengan skala dan orientasi.}
   \label{fig:bab4-candidates}
 \end{figure}
 

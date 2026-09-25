@@ -33,6 +33,8 @@ Router untuk studi komparatif kota yang dikelilingi kabupaten, terutama hubungan
 - [[BPS - 2025 - Kota Mojokerto Dalam Angka]] - Record metadata-only untuk citation canonical Output.
 - [[BPS - 2025 - Kabupaten Solok Dalam Angka]] - Record metadata-only untuk citation canonical Output.
 - [[BPS - 2025 - Kota Solok Dalam Angka]] - Record metadata-only untuk citation canonical Output.
+- [[Widita and Ahmad - 2026 - Enclave City]] - Preprint versi 1; sumber langsung untuk tipologi nasib fungsional Solok dan Mojokerto, dengan akses terbatas pada abstrak.
+- [[Widita and Ahmad - 2026 - Urban Cannibalism]] - Preprint pembanding untuk tekanan metropolitan dan pemisahan fungsi di Mojokerto; bukan bukti independen.
 - [[Kota dan Kabupaten Solok - Administrative Boundaries]] - Boundary kota-kabupaten Solok dengan beberapa keterbatasan CRS.
 - [[Kota dan Kabupaten Mojokerto - Administrative Boundaries]] - Snapshot boundary kota-kabupaten Mojokerto.
 - [[WorldPop - Global Project Population Data - 100m]] - Dataset population raster yang dipakai sebagai proksi dalam dasymetric mapping; record masih metadata-only.

@@ -1,4 +1,4 @@
-%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial", "primaryColor": "#EAF1F8", "primaryTextColor": "#17202A", "primaryBorderColor": "#496780", "lineColor": "#607487", "secondaryColor": "#F4E7DA", "tertiaryColor": "#E7F0E7", "clusterBkg": "#F7F8FA", "clusterBorder": "#A6B0BA"}, "flowchart": {"curve": "basis", "nodeSpacing": 28, "rankSpacing": 38}}}%%
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial", "primaryColor": "#E6E6E6", "primaryTextColor": "#000000", "primaryBorderColor": "#000000", "lineColor": "#000000", "secondaryColor": "#D9D9D9", "tertiaryColor": "#F2F2F2", "clusterBkg": "#F2F2F2", "clusterBorder": "#000000", "background": "#FFFFFF", "edgeLabelBackground": "#FFFFFF"}, "flowchart": {"curve": "basis", "nodeSpacing": 28, "rankSpacing": 38}}}%%
 flowchart TB
     subgraph L1[Landasan lokal]
         A[Massa lokal S] --- B[Karakteristik lokal X]
@@ -27,11 +27,11 @@ flowchart TB
     N --> Q[Hasil campuran]
     N --> R[Belum terklasifikasi]
 
-    classDef local fill:#F4E7DA,stroke:#9B6B43,color:#17202A,stroke-width:1.3px;
-    classDef relation fill:#EAF1F8,stroke:#496780,color:#17202A,stroke-width:1.3px;
-    classDef moderator fill:#EEE8F6,stroke:#716188,color:#17202A,stroke-width:1.3px;
-    classDef diagnostic fill:#FFF6D8,stroke:#9A7B20,color:#17202A,stroke-width:1.5px;
-    classDef result fill:#E7F0E7,stroke:#557B5D,color:#17202A,stroke-width:1.3px;
+    classDef local fill:#F2F2F2,stroke:#000000,color:#000000,stroke-width:1.2px;
+    classDef relation fill:#E6E6E6,stroke:#000000,color:#000000,stroke-width:1.4px;
+    classDef moderator fill:#F2F2F2,stroke:#000000,color:#000000,stroke-width:1.2px,stroke-dasharray:5 3;
+    classDef diagnostic fill:#D9D9D9,stroke:#000000,color:#000000,stroke-width:1.8px;
+    classDef result fill:#E6E6E6,stroke:#000000,color:#000000,stroke-width:2px;
     class A,B,C,G,H,I local;
     class D,E,F,J,L,M relation;
     class K moderator;
