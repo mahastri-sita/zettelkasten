@@ -6,16 +6,16 @@ Router untuk Argument MBA Mojokerto, metode yang menopangnya, dan Source kompara
 
 ## Argument
 
-- [[Mojokerto - Morfologi, Infrastruktur, dan Rencana Lahan]] - Argument aktif yang memuat posisi pengguna tentang morfologi, pergeseran pusat, kegagalan perencanaan, dan rencana pendidikan/perumahan.
-- [[Enclave City - Comparative Fates]] - Argument komparatif yang menempatkan Mojokerto bersama Solok dan Magelang dalam studi enclave city.
-- [[Urban Cannibalism in GKS]] - Argument tentang tekanan eksternal dan kemungkinan ekstraksi fungsional di kawasan Gerbangkertosusila.
+- [[mojokerto_morfologi_infrastruktur_dan_rencana_lahan|Mojokerto - Morfologi, Infrastruktur, dan Rencana Lahan]] - Argument aktif yang memuat posisi pengguna tentang morfologi, pergeseran pusat, kegagalan perencanaan, dan rencana pendidikan/perumahan.
+- [[enclave_city_comparative_fates|Enclave City - Comparative Fates]] - Argument komparatif yang menempatkan Mojokerto bersama Solok dan Magelang dalam studi enclave city.
+- [[urban_cannibalism_in_gks|Urban Cannibalism in GKS]] - Argument tentang tekanan eksternal dan kemungkinan ekstraksi fungsional di kawasan Gerbangkertosusila.
 
 ## Calculations
 
-- [[Location Quotient, Shift-Share, and Klassen Typology]] - Metode untuk mengubah PDRB sektoral menjadi ukuran spesialisasi, pertumbuhan relatif, dan tipologi.
-- [[Sectoral Competitiveness Correlation by Era]] - Metode untuk membandingkan struktur daya saing sektoral Mojokerto dengan kabupaten dan Surabaya per era.
-- [[Gravity-Based Urban Center Classification]] - Metode untuk mengubah POI dan waktu tempuh menjadi ukuran local strength, external pull, dan tipologi pusat.
-- [[Potential Exportable Rice Surplus]] - Calculation pembanding Solok yang relevan untuk hubungan kota-kabupaten dan aliran komoditas.
+- [[location_quotient_shift_share_and_klassen_typology|Location Quotient, Shift-Share, and Klassen Typology]] - Metode untuk mengubah PDRB sektoral menjadi ukuran spesialisasi, pertumbuhan relatif, dan tipologi.
+- [[sectoral_competitiveness_correlation_by_era|Sectoral Competitiveness Correlation by Era]] - Metode untuk membandingkan struktur daya saing sektoral Mojokerto dengan kabupaten dan Surabaya per era.
+- [[gravity_based_urban_center_classification|Gravity-Based Urban Center Classification]] - Metode untuk mengubah POI dan waktu tempuh menjadi ukuran local strength, external pull, dan tipologi pusat.
+- [[potential_exportable_rice_surplus|Potential Exportable Rice Surplus]] - Calculation pembanding Solok yang relevan untuk hubungan kota-kabupaten dan aliran komoditas.
 
 ## Outputs
 
@@ -24,14 +24,14 @@ Router untuk Argument MBA Mojokerto, metode yang menopangnya, dan Source kompara
 
 ## Datasets
 
-- [[BPS - PDRB ADHK Regional - 2014-2024]] - Input BPS dengan dua varian raw yang menopang analisis LQ, DLQ, dan shift-share.
-- [[BPS - Population Solok Mojokerto - 2010-2025]] - Input populasi tahunan untuk empat wilayah Solok dan Mojokerto.
-- [[BPS - Population by Kecamatan GKS - 2020-2025]] - Input populasi tingkat kecamatan untuk analisis Gerbangkertosusila dan dasymetric.
-- [[OpenStreetMap - POI GKS - April 2026]] - Snapshot POI GKS untuk massa ekonomi dan sosial pada Gravity Calculation.
-- [[OpenStreetMap - Railway GKS - April 2026]] - Snapshot jaringan rel GKS sebagai konteks jaringan/infrastruktur.
-- [[Kemenhub and OpenStreetMap - Road Network GKS - April 2026]] - Composite jaringan jalan GKS untuk kebutuhan jaringan dan konteks spasial.
-- [[GKS - Administrative Boundary]] - Delineasi authoritative UC/GKS dengan discrepancy CRS yang masih terbuka.
-- [[Kota dan Kabupaten Mojokerto - Administrative Boundaries]] - Snapshot boundary yang digunakan untuk membaca enclave administratif Mojokerto.
+- [[bps_pdrb_adhk_regional_2014_2024|BPS - PDRB ADHK Regional - 2014-2024]] - Input BPS dengan dua varian raw yang menopang analisis LQ, DLQ, dan shift-share.
+- [[bps_population_solok_mojokerto_2010_2025|BPS - Population Solok Mojokerto - 2010-2025]] - Input populasi tahunan untuk empat wilayah Solok dan Mojokerto.
+- [[bps_population_by_kecamatan_gks_2020_2025|BPS - Population by Kecamatan GKS - 2020-2025]] - Input populasi tingkat kecamatan untuk analisis Gerbangkertosusila dan dasymetric.
+- [[openstreetmap_poi_gks_april_2026|OpenStreetMap - POI GKS - April 2026]] - Snapshot POI GKS untuk massa ekonomi dan sosial pada Gravity Calculation.
+- [[openstreetmap_railway_gks_april_2026|OpenStreetMap - Railway GKS - April 2026]] - Snapshot jaringan rel GKS sebagai konteks jaringan/infrastruktur.
+- [[kemenhub_and_openstreetmap_road_network_gks_april_2026|Kemenhub and OpenStreetMap - Road Network GKS - April 2026]] - Composite jaringan jalan GKS untuk kebutuhan jaringan dan konteks spasial.
+- [[gks_administrative_boundary|GKS - Administrative Boundary]] - Delineasi authoritative UC/GKS dengan discrepancy CRS yang masih terbuka.
+- [[kota_dan_kabupaten_mojokerto_administrative_boundaries|Kota dan Kabupaten Mojokerto - Administrative Boundaries]] - Snapshot boundary yang digunakan untuk membaca enclave administratif Mojokerto.
 
 ## Evidence and Comparative Sources
 
@@ -44,9 +44,9 @@ Router untuk Argument MBA Mojokerto, metode yang menopangnya, dan Source kompara
 - [[Firman - 2014 - Inter-local-government Partnership for Urban Management]] - Kerja sama antarpemerintah lokal dan masalah koordinasi metropolitan.
 - [[Shin - 2016 - Economic Transition and Speculative Urbanization in China]] - Urbanisasi spekulatif, dispossession, dan path dependency sebagai pembanding.
 - [[Simone - 2015 - The Urban Poor and Their Ambivalent Exceptionalities]] - Ekonomi urban heterogen dan posisi ambivalen kelompok miskin.
-- [[WorldPop - Global Project Population Data - 100m]] - Dataset population raster yang digunakan sebagai proksi dalam pembacaan morfologi; belum ada raw raster di target.
-- [[Kementerian Keuangan DJPK - 2026 - Portal Data APBD]] - Source portal untuk konteks fiskal Kota/Kabupaten Mojokerto; angka aktual belum ditarik sebagai raw data.
-- [[Republik Indonesia - 2022 - Perpres 66 KSN Perkotaan Gresik Bangkalan Mojokerto Surabaya Sidoarjo Lamongan]] - Dokumen normatif untuk konteks spasial Gerbangkertosusila.
-- [[Pemerintah Kabupaten Mojokerto - 2012 - RTRW Kabupaten Mojokerto 2012-2032]] - Dokumen normatif RTRW untuk PKLp, kawasan strategis, dan alokasi kawasan industri; bukan bukti implementasi ruang.
-- [[Pemerintah Kabupaten Mojokerto - 2021 - RPJMD Kabupaten Mojokerto 2021-2026]] - Record resmi terpisah untuk RPJMD 2021-2026; saat ini metadata-only.
-- [[Badan Informasi Geospasial - 2019 - Indeks Rupabumi Indonesia Skala 1-25,000]] - Proksi RBI yang dipakai pada bagian komparatif; tidak memverifikasi penggunaan lahan terkini.
+- [[worldpop_global_project_population_data_100m|WorldPop - Global Project Population Data - 100m]] - Dataset population raster yang digunakan sebagai proksi dalam pembacaan morfologi; belum ada raw raster di target.
+- [[kementerian_keuangan_djpk_2026_portal_data_apbd|Kementerian Keuangan DJPK - 2026 - Portal Data APBD]] - Source portal untuk konteks fiskal Kota/Kabupaten Mojokerto; angka aktual belum ditarik sebagai raw data.
+- [[republik_indonesia_2022_perpres_66_ksn_perkotaan_gresik_bangkalan_mojokerto_surabaya_sidoarjo_lamongan|Republik Indonesia - 2022 - Perpres 66 KSN Perkotaan Gresik Bangkalan Mojokerto Surabaya Sidoarjo Lamongan]] - Dokumen normatif untuk konteks spasial Gerbangkertosusila.
+- [[pemerintah_kabupaten_mojokerto_2012_rtrw_kabupaten_mojokerto_2012_2032|Pemerintah Kabupaten Mojokerto - 2012 - RTRW Kabupaten Mojokerto 2012-2032]] - Dokumen normatif RTRW untuk PKLp, kawasan strategis, dan alokasi kawasan industri; bukan bukti implementasi ruang.
+- [[pemerintah_kabupaten_mojokerto_2021_rpjmd_kabupaten_mojokerto_2021_2026|Pemerintah Kabupaten Mojokerto - 2021 - RPJMD Kabupaten Mojokerto 2021-2026]] - Record resmi terpisah untuk RPJMD 2021-2026; saat ini metadata-only.
+- [[badan_informasi_geospasial_2019_indeks_rupabumi_indonesia_skala_1_25_000|Badan Informasi Geospasial - 2019 - Indeks Rupabumi Indonesia Skala 1-25,000]] - Proksi RBI yang dipakai pada bagian komparatif; tidak memverifikasi penggunaan lahan terkini.

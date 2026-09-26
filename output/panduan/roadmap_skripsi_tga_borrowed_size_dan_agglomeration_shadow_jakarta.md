@@ -10,13 +10,13 @@
 
 Gunakan sumber berikut sebagai dasar kerja, dengan tetap mengikuti arahan terbaru dosen pembimbing dan kanal resmi TGA:
 
-- `latex/Bab 1 - Pendahuluan - final.tex`
-- `latex/Bab 2 - Kajian Pustaka - final.tex`
-- `latex/Bab 3 - Metode Penelitian - final.tex`
-- `latex/Bab 4 - Gambaran Umum Lokasi Penelitian - final.tex`
+- `latex/bab_1_pendahuluan_final.tex`
+- `latex/bab_2_kajian_pustaka_final.tex`
+- `latex/bab_3_metode_penelitian_final.tex`
+- `latex/bab_4_gambaran_umum_lokasi_penelitian_final.tex`
 - [[source/official-document/Panduan_TGA[1].pdf|Panduan TGA]]
 - [[source/official-document/Template TGA Penelitian 2026.docx|Template TGA Penelitian 2026]]
-- `argument/argument/Skripsi S1 - Borrowed Size dan Agglomeration Shadow Jakarta.md`
+- `argument/argument/skripsi_s1_borrowed_size_dan_agglomeration_shadow_jakarta.md`
 - `output/kajian/kajian_penelitian_terdahulu_borrowed_size_dan_agglomeration_shadow_jakarta_bahan_bab_2_2.md`
 
 Panduan yang tersedia memuat rujukan tahun 2023, sedangkan template penelitian bertahun 2026. Persyaratan administratif, formulir, jadwal, dan mekanisme ujian harus diperiksa ulang pada laman TGA sebelum pendaftaran.

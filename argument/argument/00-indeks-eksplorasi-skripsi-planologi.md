@@ -2,7 +2,7 @@
 
 Percakapan ini dipecah berdasarkan perubahan fokus pertanyaan. Arsip lengkap dihapus sesuai permintaan; isi percakapan dipertahankan dalam fase-fase berikut.
 
-Titik mulai yang direkomendasikan untuk chat baru: [[Skripsi S1 - Borrowed Size dan Agglomeration Shadow Jakarta]].
+Titik mulai yang direkomendasikan untuk chat baru: [[skripsi_s1_borrowed_size_dan_agglomeration_shadow_jakarta|Skripsi S1 - Borrowed Size dan Agglomeration Shadow Jakarta]].
 
 | Fase | Fokus | File |
 |---|---|---|

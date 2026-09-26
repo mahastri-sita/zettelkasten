@@ -4,7 +4,7 @@
 >
 > **Diperbarui:** 13 September 2026
 >
-> **Dasar analisis:** [[output/panduan/rendy-bayu/rendy-bayu-pemetaan-dosen|Pemetaan Profil Akademik Rendy Bayu Aditya]], [[output/panduan/rendy-bayu/rendy-bayu-ikn-spatium.pdf|Harnessing Open Data and Technology for the Study of Accessibility]], [[output/panduan/rendy-bayu/rendy-bayu-toll-road-tataloka.pdf|Identification of Sprawl Development Typologies around Toll Road Gates in Java]], [[argument/argument/Skripsi S1 - Borrowed Size dan Agglomeration Shadow Jakarta|Argument Skripsi S1]], [[output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja|Draf Bab 3]], dan sumber profil kelembagaan yang dicantumkan pada bagian akhir.
+> **Dasar analisis:** [[output/panduan/rendy-bayu/rendy-bayu-pemetaan-dosen|Pemetaan Profil Akademik Rendy Bayu Aditya]], [[output/panduan/rendy-bayu/rendy-bayu-ikn-spatium.pdf|Harnessing Open Data and Technology for the Study of Accessibility]], [[output/panduan/rendy-bayu/rendy-bayu-toll-road-tataloka.pdf|Identification of Sprawl Development Typologies around Toll Road Gates in Java]], [[argument/argument/skripsi_s1_borrowed_size_dan_agglomeration_shadow_jakarta|Argument Skripsi S1]], [[output/naskah/bab_3/bab_3_metode_penelitian_draf_rancangan_kerja|Draf Bab 3]], dan sumber profil kelembagaan yang dicantumkan pada bagian akhir.
 >
 > **Aturan interpretasi:** publikasi dapat menunjukkan tema dan kecenderungan metodologis, tetapi tidak cukup untuk menyimpulkan kepribadian, ketersediaan waktu, kualitas bimbingan, cara memberikan umpan balik, atau kesediaan menerima mahasiswa.
 

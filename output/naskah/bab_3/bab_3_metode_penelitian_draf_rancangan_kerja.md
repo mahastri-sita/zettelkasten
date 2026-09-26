@@ -1,6 +1,6 @@
 # BAB 3 METODE PENELITIAN
 
-> **Arsip draf:** arahan metodologis dalam berkas ini telah digantikan oleh `latex/Bab 3 - Metode Penelitian - final.tex` pada 21 September 2026. Naskah aktif memakai tiga pertanyaan penelitian, istilah Web GIS interaktif, dan rancangan penghitungan objek dari rekaman CCTV dengan deteksi YOLO serta pelacakan objek. Berkas ini dipertahankan sebagai rekaman penyusunan.
+> **Arsip draf:** arahan metodologis dalam berkas ini telah digantikan oleh `latex/bab_3_metode_penelitian_final.tex` pada 21 September 2026. Naskah aktif memakai tiga pertanyaan penelitian, istilah Web GIS interaktif, dan rancangan penghitungan objek dari rekaman CCTV dengan deteksi YOLO serta pelacakan objek. Berkas ini dipertahankan sebagai rekaman penyusunan.
 
 > **Arah pada draf, 18 September 2026:** proksi dan sumber terbuka sebagai fondasi utama; multitemporal sesuai bukti. Draf ini tidak menyatakan bahwa semua sumber telah diperoleh atau divalidasi.
 

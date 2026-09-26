@@ -1,6 +1,6 @@
 # BAB 1 PENDAHULUAN
 
-> **Arsip draf:** arahan metodologis dan struktur pertanyaan dalam berkas ini telah digantikan oleh `latex/Bab 1 - Pendahuluan - final.tex` pada 21 September 2026. Naskah aktif memakai tiga rumusan masalah dan tiga tujuan khusus yang saling berpasangan. Berkas ini dipertahankan sebagai rekaman penyusunan dan tidak menjadi rujukan naskah final.
+> **Arsip draf:** arahan metodologis dan struktur pertanyaan dalam berkas ini telah digantikan oleh `latex/bab_1_pendahuluan_final.tex` pada 21 September 2026. Naskah aktif memakai tiga rumusan masalah dan tiga tujuan khusus yang saling berpasangan. Berkas ini dipertahankan sebagai rekaman penyusunan dan tidak menjadi rujukan naskah final.
 
 > **Status:** draf substantif untuk peninjauan pengguna dan pembimbing, bukan naskah final.
 >

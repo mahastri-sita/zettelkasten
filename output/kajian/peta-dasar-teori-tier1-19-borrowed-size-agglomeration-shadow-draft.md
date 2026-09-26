@@ -680,7 +680,7 @@ Jika gerbang tidak terpenuhi, gunakan istilah yang lebih sempit seperti `aksesib
 
 - `output/kajian/database_sitasi_dasar_teori.md`
 - `output/kajian/kajian_penelitian_terdahulu_borrowed_size_dan_agglomeration_shadow_jakarta_bahan_bab_2_2.md`
-- `argument/argument/Bab 2 - Dasar Teori dan Konsep Kunci Borrowed Size dan Agglomeration Shadow Jakarta.md`
+- `argument/argument/bab_2_dasar_teori_dan_konsep_kunci_borrowed_size_dan_agglomeration_shadow_jakarta.md`
 - `graphify-lab/runs/tier1-19-txt/graphify-out/graph.json`
 - `graphify-lab/runs/tier1-19-txt/graphify-out/graph-directed.json`
 - `graphify-lab/runs/tier1-19-txt/graphify-out/.graphify_extract_reviewed.json`
