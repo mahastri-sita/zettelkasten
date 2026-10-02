@@ -16,12 +16,12 @@ temporal_coverage: null
 unit_of_observation: "administrative boundary feature"
 data_format: "GeoJSON and QGIS metadata, projected and lon/lat variants"
 raw_files:
-  - "source/dataset/EC-info-adm-kota-slk.geojson"
-  - "source/dataset/EC-info-adm-kota-slk.qmd"
-  - "source/dataset/EC-info-adm-kab-slk.geojson"
-  - "source/dataset/EC-info-adm-kab-slk.qmd"
-  - "source/dataset/EC-info-adm-kota-slk-wgs84.geojson"
-  - "source/dataset/EC-info-adm-kab-slk-wgs84.geojson"
+  - "source/dataset/ec_info_adm_kota_slk.geojson"
+  - "source/dataset/ec_info_adm_kota_slk.qmd"
+  - "source/dataset/ec_info_adm_kab_slk.geojson"
+  - "source/dataset/ec_info_adm_kab_slk.qmd"
+  - "source/dataset/ec_info_adm_kota_slk_wgs84.geojson"
+  - "source/dataset/ec_info_adm_kab_slk_wgs84.geojson"
 checksum: null
 ---
 
@@ -51,30 +51,30 @@ Pengguna mengidentifikasi boundary EC/Solok sebagai authoritative untuk corpus t
 ## Known Limitations
 
 - Dua varian `wgs84` tidak memiliki deklarasi CRS eksplisit; suffix filename dan bentuk koordinat menjadi petunjuk, bukan verifikasi formal.
-- `EC-info-adm-kota-slk.qmd` menyatakan EPSG:32747 tetapi metadata identitas dan extent kosong.
-- `EC-info-adm-kab-slk.qmd` tidak memiliki CRS yang terisi.
+- `ec_info_adm_kota_slk.qmd` menyatakan EPSG:32747 tetapi metadata identitas dan extent kosong.
+- `ec_info_adm_kab_slk.qmd` tidak memiliki CRS yang terisi.
 - Varian projected dan lon/lat tidak boleh diperlakukan sebagai dua boundary berbeda tanpa pemeriksaan geometri.
 - Boundary Mojokerto, GKS, dan land-cover Solok tidak termasuk dalam record ini.
 
 ## Raw File Inventory
 
-- `source/dataset/EC-info-adm-kota-slk.geojson`
-  - Legacy source: `Porto-Enclave-City/info/EC-info-adm-kota-slk.geojson`
+- `source/dataset/ec_info_adm_kota_slk.geojson`
+  - Legacy source: `Porto-Enclave-City/info/ec_info_adm_kota_slk.geojson`
   - SHA-256: `6897284b6dd040ff2d5800a4c4559e0d1b4bd86f2e8c62109306f3fd4d9f8eec`
-- `source/dataset/EC-info-adm-kota-slk.qmd`
-  - Legacy source: `Porto-Enclave-City/info/EC-info-adm-kota-slk.qmd`
+- `source/dataset/ec_info_adm_kota_slk.qmd`
+  - Legacy source: `Porto-Enclave-City/info/ec_info_adm_kota_slk.qmd`
   - SHA-256: `0eab8a229b8bfc7b3d6a054bc1863305c33bc0a33a6994b4315a78f827d11986`
-- `source/dataset/EC-info-adm-kab-slk.geojson`
-  - Legacy source: `Porto-Enclave-City/info/EC-info-adm-kab-slk.geojson`
+- `source/dataset/ec_info_adm_kab_slk.geojson`
+  - Legacy source: `Porto-Enclave-City/info/ec_info_adm_kab_slk.geojson`
   - SHA-256: `a47ecabb72874e86d2a66bc1e86f3b69042d850de2cf3c6f858664d9509dc912`
-- `source/dataset/EC-info-adm-kab-slk.qmd`
-  - Legacy source: `Porto-Enclave-City/info/EC-info-adm-kab-slk.qmd`
+- `source/dataset/ec_info_adm_kab_slk.qmd`
+  - Legacy source: `Porto-Enclave-City/info/ec_info_adm_kab_slk.qmd`
   - SHA-256: `61d70b15a81dee393825e72641cf4490bd60c754386e40d4dbb204bbef66518a`
-- `source/dataset/EC-info-adm-kota-slk-wgs84.geojson`
-  - Legacy source: `Porto-Enclave-City/info/EC-info-adm-kota-slk-wgs84.geojson`
+- `source/dataset/ec_info_adm_kota_slk_wgs84.geojson`
+  - Legacy source: `Porto-Enclave-City/info/ec_info_adm_kota_slk_wgs84.geojson`
   - SHA-256: `02da838d81cb73e43877e4f5c2cbe93b57d029824bf4ce93d2bc6a23547f36a6`
-- `source/dataset/EC-info-adm-kab-slk-wgs84.geojson`
-  - Legacy source: `Porto-Enclave-City/info/EC-info-adm-kab-slk-wgs84.geojson`
+- `source/dataset/ec_info_adm_kab_slk_wgs84.geojson`
+  - Legacy source: `Porto-Enclave-City/info/ec_info_adm_kab_slk_wgs84.geojson`
   - SHA-256: `e802357c5bc417b2cd7f83294e5cab3b0308179a45201157a80701022b08b5e8`
 
 ## Provenance Notes

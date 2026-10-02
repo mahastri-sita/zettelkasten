@@ -15,7 +15,7 @@ Use this folder for externally obtained datasets and their provenance records.
 
 ## Naming
 
-Use `Creator - Dataset - Version.md` for the companion record, omitting the version only when none exists. Preserve original raw filenames unless a rename is needed for unambiguous provenance.
+Use the semantic pattern `creator_dataset_version.md` for companion records, omitting the version only when none exists. All record, raw-data, and derivative filenames in this folder use lowercase ASCII `snake_case` with a lowercase extension. Preserve raw bytes; when an approved naming normalization renames a raw file, retain its original filename in the companion record's provenance notes or legacy-source path.
 
 ## Type-Specific YAML
 

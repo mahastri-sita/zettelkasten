@@ -17,7 +17,7 @@ temporal_coverage: "2020, 2023, 2025"
 unit_of_observation: "baris kecamatan dengan kolom populasi tahun 2020, 2023, dan 2025"
 data_format: "CSV"
 raw_files:
-  - "source/dataset/UC-info-penduduk.csv"
+  - "source/dataset/uc_info_penduduk.csv"
 checksum: "6d6a114701cbfe09abaf0fb305803d64f000f15c68f2e327780157810ee72b49"
 ---
 
@@ -57,8 +57,8 @@ Pengguna mengidentifikasi file sebagai BPS. Publikasi, URL, versi rilis, definis
 
 ## Raw File Inventory
 
-- `source/dataset/UC-info-penduduk.csv`
-  - Legacy source: `Porto-City-Cannibalism/info/UC-info-penduduk.csv`
+- `source/dataset/uc_info_penduduk.csv`
+  - Legacy source: `Porto-City-Cannibalism/info/uc_info_penduduk.csv`
   - SHA-256: `6d6a114701cbfe09abaf0fb305803d64f000f15c68f2e327780157810ee72b49`
 
 ## Provenance Notes

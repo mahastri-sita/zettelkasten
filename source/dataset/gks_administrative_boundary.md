@@ -16,8 +16,8 @@ temporal_coverage: null
 unit_of_observation: "administrative boundary feature"
 data_format: "GeoJSON and QGIS metadata"
 raw_files:
-  - "source/dataset/UC-info-adm-GKS.geojson"
-  - "source/dataset/UC-info-adm-GKS.qmd"
+  - "source/dataset/uc_info_adm_gks.geojson"
+  - "source/dataset/uc_info_adm_gks.qmd"
 checksum: null
 ---
 
@@ -52,11 +52,11 @@ Authority dan cakupan corpus berasal dari konfirmasi pengguna. Creator, institus
 
 ## Raw File Inventory
 
-- `source/dataset/UC-info-adm-GKS.geojson`
-  - Legacy source: `Porto-City-Cannibalism/info/UC-info-adm-GKS.geojson`
+- `source/dataset/uc_info_adm_gks.geojson`
+  - Legacy source: `Porto-City-Cannibalism/info/uc_info_adm_gks.geojson`
   - SHA-256: `c2240d1f3dc3adeeffcfd5cfb1fc06e38e343eac31927e17d88dc1472dd4f565`
-- `source/dataset/UC-info-adm-GKS.qmd`
-  - Legacy source: `Porto-City-Cannibalism/info/UC-info-adm-GKS.qmd`
+- `source/dataset/uc_info_adm_gks.qmd`
+  - Legacy source: `Porto-City-Cannibalism/info/uc_info_adm_gks.qmd`
   - SHA-256: `ba8b25d41b5024b3c02ecfbeb34d943c5fa5e64b3b4b1edfb2eb8ff04969bb76`
 
 ## Provenance Notes

@@ -18,9 +18,9 @@ temporal_coverage: "April 2026 composite snapshot"
 unit_of_observation: "road geometry feature"
 data_format: "GeoJSON, CRS84 and EPSG:32749 variants"
 raw_files:
-  - "source/dataset/UC-info-jalan-arteru.geojson"
-  - "source/dataset/UC-info-jalan-mgl.geojson"
-  - "source/dataset/UC-info-jalan-tol-gks.geojson"
+  - "source/dataset/uc_info_jalan_arteru.geojson"
+  - "source/dataset/uc_info_jalan_mgl.geojson"
+  - "source/dataset/uc_info_jalan_tol_gks.geojson"
 checksum: null
 ---
 
@@ -38,7 +38,7 @@ Ketiga file terutama memuat geometry `LineString` dan atribut `fid`. Atribut sum
 
 - Cakupan spasial: Gerbangkertosusila.
 - Unit observasi: geometry jalan per feature.
-- `UC-info-jalan-arteru.geojson` dan `UC-info-jalan-mgl.geojson` menggunakan CRS84/WGS84; `UC-info-jalan-tol-gks.geojson` menggunakan EPSG:32749.
+- `uc_info_jalan_arteru.geojson` dan `uc_info_jalan_mgl.geojson` menggunakan CRS84/WGS84; `uc_info_jalan_tol_gks.geojson` menggunakan EPSG:32749.
 
 ## Collection or Production Method
 
@@ -54,14 +54,14 @@ Pengguna mengidentifikasi dataset sebagai data resmi Kementerian Perhubungan yan
 
 ## Raw File Inventory
 
-- `source/dataset/UC-info-jalan-arteru.geojson`
-  - Legacy source: `Porto-City-Cannibalism/info/UC-info-jalan-arteru.geojson`
+- `source/dataset/uc_info_jalan_arteru.geojson`
+  - Legacy source: `Porto-City-Cannibalism/info/uc_info_jalan_arteru.geojson`
   - SHA-256: `528db44a14b6b3ed1dc58931a75542e7433eb6aaf984cc21ee8947b594e9f603`
-- `source/dataset/UC-info-jalan-mgl.geojson`
-  - Legacy source: `Porto-City-Cannibalism/info/UC-info-jalan-mgl.geojson`
+- `source/dataset/uc_info_jalan_mgl.geojson`
+  - Legacy source: `Porto-City-Cannibalism/info/uc_info_jalan_mgl.geojson`
   - SHA-256: `1997c0cd9b54178f2b6dc87f47cfde195547956d5ba90aaf1ebcb3b0e288f7a5`
-- `source/dataset/UC-info-jalan-tol-gks.geojson`
-  - Legacy source: `Porto-City-Cannibalism/info/UC-info-jalan-tol-gks.geojson`
+- `source/dataset/uc_info_jalan_tol_gks.geojson`
+  - Legacy source: `Porto-City-Cannibalism/info/uc_info_jalan_tol_gks.geojson`
   - SHA-256: `e2f7b02797fb75379f267c2320e1c4728ec235aa7e7aef998be7b37dc41783a4`
 
 ## Provenance Notes

@@ -17,8 +17,8 @@ temporal_coverage: "April 2026 extraction"
 unit_of_observation: "OSM feature"
 data_format: "GeoJSON, projected and WGS84 variants"
 raw_files:
-  - "source/dataset/UC-info-poi-industry.geojson"
-  - "source/dataset/UC-info-poi-industry-wgs84.geojson"
+  - "source/dataset/uc_info_poi_industry.geojson"
+  - "source/dataset/uc_info_poi_industry_wgs84.geojson"
 checksum: null
 ---
 
@@ -52,11 +52,11 @@ Pengguna mengidentifikasi data sebagai ekstraksi OpenStreetMap pada April 2026. 
 
 ## Raw File Inventory
 
-- `source/dataset/UC-info-poi-industry.geojson`
-  - Legacy source: `Porto-City-Cannibalism/info/UC-info-poi-industry.geojson`
+- `source/dataset/uc_info_poi_industry.geojson`
+  - Legacy source: `Porto-City-Cannibalism/info/uc_info_poi_industry.geojson`
   - SHA-256: `6396ec59e524f433cd214391f99f06ed37b296060910630486cf72411f47a884`
-- `source/dataset/UC-info-poi-industry-wgs84.geojson`
-  - Legacy source: `Porto-City-Cannibalism/info/UC-info-poi-industry-wgs84.geojson`
+- `source/dataset/uc_info_poi_industry_wgs84.geojson`
+  - Legacy source: `Porto-City-Cannibalism/info/uc_info_poi_industry_wgs84.geojson`
   - SHA-256: `281250613d745a8897777139aeade7a88a466c5da59e52e9a9457ca2d4531991`
 
 ## Provenance Notes

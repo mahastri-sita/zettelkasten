@@ -17,7 +17,7 @@ temporal_coverage: "April 2026 extraction"
 unit_of_observation: "OSM railway feature"
 data_format: "GeoJSON"
 raw_files:
-  - "source/dataset/UC-info-rel-ka.geojson"
+  - "source/dataset/uc_info_rel_ka.geojson"
 checksum: "fd7d42bf8eebe3d33b034fe7d44ab7372509a58c904f39cb3e237a95aaa98e9a"
 ---
 
@@ -49,8 +49,8 @@ Pengguna mengidentifikasi data sebagai ekstraksi OpenStreetMap pada April 2026. 
 
 ## Raw File Inventory
 
-- `source/dataset/UC-info-rel-ka.geojson`
-  - Legacy source: `Porto-City-Cannibalism/info/UC-info-rel-ka.geojson`
+- `source/dataset/uc_info_rel_ka.geojson`
+  - Legacy source: `Porto-City-Cannibalism/info/uc_info_rel_ka.geojson`
   - SHA-256: `fd7d42bf8eebe3d33b034fe7d44ab7372509a58c904f39cb3e237a95aaa98e9a`
 
 ## Provenance Notes

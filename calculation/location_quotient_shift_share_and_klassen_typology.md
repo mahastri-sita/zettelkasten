@@ -102,7 +102,7 @@ Belum dilakukan. Pemeriksaan yang diperlukan mencakup rekonsiliasi `Delta X_ir =
 - Shift-share bersifat deskriptif dan tidak mengidentifikasi mekanisme kausal.
 - Nilai positif `D_ij` tidak cukup untuk menyimpulkan bahwa suatu kebijakan atau sektor telah menjadi mesin pertumbuhan.
 - Data legacy dan hasil turunan belum memiliki provenance lengkap di target.
-- `EC-info-bps-new.csv` tetap dipertahankan sebagai snapshot raw, tetapi laporan masalah pada `Kategori` membuatnya tidak aman dipakai sebagai tabel kategori analitis tanpa rekonsiliasi. `EC-info-econ.md` adalah tabel terolah pengguna yang dipakai pipeline chart legacy, bukan raw canonical.
+- `ec_info_bps_new.csv` tetap dipertahankan sebagai snapshot raw, tetapi laporan masalah pada `Kategori` membuatnya tidak aman dipakai sebagai tabel kategori analitis tanpa rekonsiliasi. `EC-info-econ.md` adalah tabel terolah pengguna yang dipakai pipeline chart legacy, bukan raw canonical.
 
 ## Legacy Provenance
 

@@ -17,8 +17,8 @@ temporal_coverage: "2014-2024"
 unit_of_observation: "wilayah-tahun-sektor-kategori"
 data_format: "CSV, dua varian legacy"
 raw_files:
-  - "source/dataset/EC-info-bps-new.csv"
-  - "source/dataset/UC-info-econ-pdrb.csv"
+  - "source/dataset/ec_info_bps_new.csv"
+  - "source/dataset/uc_info_econ_pdrb.csv"
 checksum: null
 ---
 
@@ -50,20 +50,20 @@ Pengguna mengidentifikasi dataset ini sebagai BPS. Publikasi BPS, URL, versi ril
 
 ## Known Limitations
 
-- `EC-info-bps-new.csv` dan `UC-info-econ-pdrb.csv` diperlakukan sebagai dua varian raw BPS, bukan digabungkan.
+- `ec_info_bps_new.csv` dan `uc_info_econ_pdrb.csv` diperlakukan sebagai dua varian raw BPS, bukan digabungkan.
 - Pada baris total, salah satu varian menggunakan kategori kosong sedangkan varian lain menggunakan `komposit`.
 - File `Porto-Enclave-City/info/EC-info-econ.md` adalah olahan pengguna dan tidak diperlakukan sebagai raw Source.
-- Handoff legacy `03-Work/MBA-Drafts/handoff-EC-charts.md` melaporkan bahwa `EC-info-bps-new.csv` memiliki masalah pada kolom `Kategori`; laporan tersebut belum diaudit ulang secara independen dalam target. File tetap dipertahankan sebagai snapshot raw immutable, tetapi tidak diperlakukan sebagai tabel kategori yang aman untuk analisis tanpa rekonsiliasi.
+- Handoff legacy `03-Work/MBA-Drafts/handoff-EC-charts.md` melaporkan bahwa `ec_info_bps_new.csv` memiliki masalah pada kolom `Kategori`; laporan tersebut belum diaudit ulang secara independen dalam target. File tetap dipertahankan sebagai snapshot raw immutable, tetapi tidak diperlakukan sebagai tabel kategori yang aman untuk analisis tanpa rekonsiliasi.
 - Nilai, satuan, definisi kategori, dan kesesuaian dengan publikasi BPS belum diverifikasi secara independen.
 - Raw files disalin sebagai snapshot immutable ke `source/dataset/`; file legacy tetap dipertahankan sebagai provenance asal.
 
 ## Raw File Inventory
 
-- `source/dataset/EC-info-bps-new.csv`
-  - Legacy source: `Porto-Enclave-City/info/EC-info-bps-new.csv`
+- `source/dataset/ec_info_bps_new.csv`
+  - Legacy source: `Porto-Enclave-City/info/ec_info_bps_new.csv`
   - SHA-256: `e651a38dfb131da598900d76b9a2a063c005f7bf031e72fb1d9934106239e180`
-- `source/dataset/UC-info-econ-pdrb.csv`
-  - Legacy source: `Porto-City-Cannibalism/info/UC-info-econ-pdrb.csv`
+- `source/dataset/uc_info_econ_pdrb.csv`
+  - Legacy source: `Porto-City-Cannibalism/info/uc_info_econ_pdrb.csv`
   - SHA-256: `51266297f8914b4db9f7515428fcd247264f205c2d47bb469957c1af076a804d`
 
 ## Provenance Notes

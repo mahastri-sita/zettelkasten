@@ -5,7 +5,7 @@ creators:
   - "William & Mary GeoLab"
 year: 2023
 identifier: "IDN-ADM2"
-url: "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IDN/ADM2/geoBoundaries-IDN-ADM2_simplified.geojson"
+url: "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IDN/ADM2/geoboundaries_idn_adm2_simplified.geojson"
 date_accessed: 2026-09-19
 access_basis: raw-data
 publisher: "William & Mary GeoLab; source organizations listed by geoBoundaries: BPS, WFP, and OCHA ROAP"
@@ -17,7 +17,7 @@ temporal_coverage: "Boundary year represented: 2020"
 unit_of_observation: "Administrative level 2 polygon"
 data_format: "GeoJSON"
 raw_files:
-  - "geoBoundaries-IDN-ADM2_simplified.geojson"
+  - "geoboundaries_idn_adm2_simplified.geojson"
 checksum: "sha256: 146653d488331086ddc43d159a261b01ea6dd08c7ed422e34a9886c3c690430c"
 ---
 
@@ -45,7 +45,7 @@ Geometri disederhanakan sehingga tidak boleh dipakai untuk pengukuran luas yang 
 
 ## Raw File Inventory
 
-- `geoBoundaries-IDN-ADM2_simplified.geojson`: salinan raw GeoJSON yang diakses pada 19 September 2026.
+- `geoboundaries_idn_adm2_simplified.geojson`: salinan raw GeoJSON yang diakses pada 19 September 2026.
 
 ## Provenance Notes
 

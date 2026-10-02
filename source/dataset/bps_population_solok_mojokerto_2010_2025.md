@@ -17,7 +17,7 @@ temporal_coverage: "2010-2025"
 unit_of_observation: "wilayah-tahun"
 data_format: "Markdown table"
 raw_files:
-  - "source/dataset/EC-info-population.md"
+  - "source/dataset/ec_info_population.md"
 checksum: "7b5f5167706ddc8cbfc8c9f9645d2abfff957c26ea644c24dc617f5f4d21e605"
 ---
 
@@ -53,8 +53,8 @@ Pengguna mengidentifikasi file sebagai BPS. Publikasi, URL, versi rilis, definis
 
 ## Raw File Inventory
 
-- `source/dataset/EC-info-population.md`
-  - Legacy source: `Porto-Enclave-City/info/EC-info-population.md`
+- `source/dataset/ec_info_population.md`
+  - Legacy source: `Porto-Enclave-City/info/ec_info_population.md`
   - SHA-256: `7b5f5167706ddc8cbfc8c9f9645d2abfff957c26ea644c24dc617f5f4d21e605`
 
 ## Provenance Notes
