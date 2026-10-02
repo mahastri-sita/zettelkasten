@@ -22,6 +22,11 @@ document_number: null
 
 Record ini mengindeks publikasi statistik resmi BPS Kabupaten Bekasi. Isi tabel dan temuan publikasi belum diringkas pada putaran migrasi ini.
 
+**Pembaruan 2 Oktober 2026 (pemeriksaan agen):**
+
+- **Tabel 12.3 (hlm. 278; PDF hlm. 290; halaman berupa gambar, dibaca visual):** distribusi persentase PDRB ADHB menurut lapangan usaha, 2020–2024. Nilai 2024 (angka sangat sementara): C Industri Pengolahan 76,96%; G Perdagangan Besar dan Eceran 5,65%; F Konstruksi 6,14%; H Transportasi dan Pergudangan 1,56%.
+- PDF ini hampir seluruhnya berupa gambar tanpa lapisan teks.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

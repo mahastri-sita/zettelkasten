@@ -1,0 +1,25 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial, Helvetica, sans-serif", "fontSize": "15px", "primaryColor": "#E6E6E6", "primaryTextColor": "#000000", "primaryBorderColor": "#000000", "lineColor": "#000000", "secondaryColor": "#D9D9D9", "tertiaryColor": "#F2F2F2", "clusterBkg": "#FAFAFA", "clusterBorder": "#000000", "background": "#FFFFFF", "edgeLabelBackground": "#FFFFFF"}, "flowchart": {"curve": "basis", "nodeSpacing": 30, "rankSpacing": 40, "htmlLabels": true, "wrappingWidth": 330}}}%%
+flowchart LR
+    subgraph U["Spesifikasi utama"]
+        U1["Layanan: Podes 2024,<br/>141 kecamatan"]
+        U2["Batas kecamatan HDX 2020<br/>dengan kode BPS 2024"]
+        U3["Lapisan Google<br/>hanya jumlah"]
+        U4["Model binomial negatif"]
+        U5["Pekerjaan: volume<br/>nonhunian GHSL"]
+        U6["Perutean jaringan OSM"]
+        U7["Screenline CCTV<br/>di batas DKI"]
+        U8["Regresi residu<br/>terhadap integrasi"]
+    end
+    U1 -- "Podes Kota Bekasi tidak ada<br/>dan pengganti tidak setara" --> K1["K1: model layanan 129 kecamatan;<br/>Kota Bekasi sebagai profil terpisah"]
+    U2 -- "kode atau batas<br/>tidak cocok" --> K2["K2: batas desa BIG digabung<br/>atau unit 2020 disatukan"]
+    U3 -- "biaya, cakupan, atau<br/>kepatuhan gagal" --> K3["K3: tanpa Google<br/>menjadi utama"]
+    U4 -- "tidak konvergen atau<br/>diagnostik buruk" --> K4["K4: Poisson kuasi-likelihood<br/>atau log-linear"]
+    U5 -- "salah klasifikasi<br/>besar" --> K5["K5: jejak bangunan<br/>nonhunian OSM/Overture"]
+    U6 -- "perutean tidak<br/>dapat dijalankan" --> K6["K6: jarak jaringan dengan<br/>asumsi kecepatan"]
+    U7 -- "rekaman/izin tidak ada<br/>atau galat tinggi" --> K7["K7: modul CCTV dikeluarkan"]
+    U8 -- "autokorelasi spasial atau<br/>heterogenitas kab/kota" --> K8["K8: model galat spasial<br/>atau efek tetap kab/kota"]
+
+    classDef main fill:#E6E6E6,stroke:#000000,color:#000000,stroke-width:1.4px;
+    classDef fallback fill:#FFFFFF,stroke:#000000,color:#000000,stroke-width:1.4px,stroke-dasharray:5 3;
+    class U1,U2,U3,U4,U5,U6,U7,U8 main;
+    class K1,K2,K3,K4,K5,K6,K7,K8 fallback;

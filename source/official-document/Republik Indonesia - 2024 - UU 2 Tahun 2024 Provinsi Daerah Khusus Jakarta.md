@@ -24,6 +24,13 @@ document_number: "2/2024"
   - Sinkronisasi dilakukan melalui dokumen rencana tata ruang dan dokumen perencanaan pembangunan.
 - **Pasal 52** (halaman PDF 36) menyatakan sinkronisasi tata ruang dilakukan melalui rencana tata ruang kawasan strategis nasional yang mencakup seluruh atau sebagian Kawasan Aglomerasi.
 
+**Pembaruan 2 Oktober 2026 (pemeriksaan agen):**
+
+- **Pasal 51 ayat (2)** (hlm. -36-): Kawasan Aglomerasi "mencakup minimal wilayah Provinsi Daerah Khusus Jakarta, Kabupaten Bogor, Kabupaten Tangerang, Kabupaten Bekasi, Kabupaten Cianjur, Kota Bogor, Kota Depok, Kota Tangerang, Kota Tangerang Selatan, dan Kota Bekasi."
+- **Pasal 53** (hlm. -36- sampai -37-): rencana induk pembangunan Kawasan Aglomerasi, dengan program minimal: transportasi, pengelolaan sampah, pengelolaan lingkungan hidup, penanggulangan banjir, air minum, B-3 dan limbah B-3, infrastruktur wilayah, penataan ruang, dan energi.
+- **Pasal 55** (hlm. -38-): pembentukan **Dewan Kawasan Aglomerasi** untuk mengoordinasikan penataan ruang kawasan strategis nasional dan dokumen perencanaan pembangunan pada Kawasan Aglomerasi.
+- **Pasal 63 (hlm. -41-) dan Pasal 73 (hlm. -43- atau sesudahnya)**: Provinsi DKI Jakarta tetap berkedudukan sebagai ibu kota negara sampai Keputusan Presiden tentang pemindahan ibu kota ditetapkan, dan undang-undang ini "mulai berlaku pada saat ditetapkan Keputusan Presiden mengenai pemindahan Ibu Kota Negara". Vault tidak memuat bukti apakah keputusan presiden itu telah ditetapkan; publikasi BPS sampai *Provinsi DKI Jakarta Dalam Angka 2026* masih memakai nama "Provinsi DKI Jakarta".
+
 ### Evidence and Method
 
 Norma hukum. Bukan bukti empiris tentang kondisi wilayah.

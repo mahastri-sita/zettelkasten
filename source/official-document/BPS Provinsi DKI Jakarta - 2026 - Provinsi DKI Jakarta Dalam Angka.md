@@ -22,6 +22,11 @@ document_number: null
 
 Record ini mengindeks publikasi statistik resmi BPS Provinsi DKI Jakarta. Isi tabel dan temuan publikasi belum diringkas pada putaran migrasi ini.
 
+**Pembaruan 2 Oktober 2026 (pemeriksaan agen):**
+
+- **Tabel 13.1.3 (distribusi PDRB ADHB menurut lapangan usaha, 2021–2025; hlm. 845 dst., PDF hlm. 926–930):** nilai 2024 untuk DKI Jakarta: C Industri Pengolahan 11,49%; F Konstruksi 10,91%; G Perdagangan Besar dan Eceran 18,00%; H Transportasi dan Pergudangan 4,54%; K Jasa Keuangan dan Asuransi 11,09%. Angka 2024 di edisi ini berstatus revisi/sementara sesuai tanda bintang publikasi.
+- Publikasi ini masih memakai nama "Provinsi DKI Jakarta".
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

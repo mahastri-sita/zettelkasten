@@ -22,6 +22,12 @@ document_number: null
 
 Record ini mengindeks publikasi statistik resmi BPS Provinsi Banten. Isi tabel dan temuan publikasi belum diringkas pada putaran migrasi ini.
 
+**Pembaruan 2 Oktober 2026 (pemeriksaan agen):**
+
+- **Tabel 3.1.1 (hlm. 111–115; PDF hlm. 175–179):** jumlah penduduk (ribu jiwa), laju pertumbuhan, persentase, kepadatan, dan rasio jenis kelamin menurut kab/kota; 2020 (SP2020), 2024, dan 2025 (proyeksi).
+- Nilai 2024 (penduduk ribu jiwa; kepadatan jiwa/km²): Kabupaten Tangerang 3.400,49 / 3.309; Kota Tangerang 1.963,97 / 11.012; Kota Tangerang Selatan 1.399,50 / 8.489.
+- Kepadatan Kota Tangerang (12.314 → 11.012) dan Kota Tangerang Selatan (9.201 → 8.489) turun antara 2020 dan 2024 meskipun penduduknya naik. Dasar luas wilayah berubah; kepadatan tidak dibandingkan antartahun.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

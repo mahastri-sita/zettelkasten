@@ -22,6 +22,10 @@ document_number: null
 
 Record ini mengindeks publikasi statistik resmi BPS Kota Depok. Isi tabel dan temuan publikasi belum diringkas pada putaran migrasi ini.
 
+**Pembaruan 2 Oktober 2026 (pemeriksaan agen):**
+
+- **Tabel 12.3 (hlm. 344; PDF hlm. 388):** distribusi persentase PDRB ADHB menurut lapangan usaha, 2020–2024. Nilai 2024 (angka sangat sementara): C Industri Pengolahan 29,16%; G Perdagangan Besar dan Eceran 20,96%; F Konstruksi 20,72%; H Transportasi dan Pergudangan 4,80%.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

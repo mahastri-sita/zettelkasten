@@ -22,6 +22,10 @@ document_number: null
 
 Record ini mengindeks publikasi statistik resmi BPS Kabupaten Bogor. Isi tabel dan temuan publikasi belum diringkas pada putaran migrasi ini.
 
+**Pembaruan 2 Oktober 2026 (pemeriksaan agen):**
+
+- **Tabel 12.3 (hlm. 582; PDF hlm. 634):** distribusi persentase PDRB ADHB menurut lapangan usaha, 2020–2024. Nilai 2024 (angka sangat sementara): C Industri Pengolahan 51,65%; G Perdagangan Besar dan Eceran 12,31%; F Konstruksi 10,10%; H Transportasi dan Pergudangan 4,65%.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

@@ -22,6 +22,11 @@ document_number: null
 
 Record ini mengindeks publikasi Statistik Potensi Desa BPS Kota Tangerang Selatan tahun 2025. Isi tabel dan temuan publikasi belum diringkas pada putaran migrasi ini.
 
+**Pembaruan 2 Oktober 2026 (pemeriksaan agen):**
+
+- Edisi 2025 bersumber dari **Pemutakhiran Data Perkembangan Desa 2025 (Potensi Desa 2025)**, bukan Podes 2024 lengkap. Tabel fasilitas per kecamatan tetap ada (misalnya akademi/perguruan tinggi, rumah sakit, puskesmas, kelompok pertokoan dan pasar, akomodasi, bank), dengan nomor bab yang berbeda (sekitar 8.5–11.4).
+- Definisi berubah. Tabel rumah sakit edisi ini tidak lagi berbentuk "rumah sakit dan rumah sakit bersalin", dan muncul kategori klinik utama. Karena itu edisi 2025 dipakai sebagai pemeriksa stabilitas hitungan Podes 2024, bukan sebagai titik waktu kedua untuk analisis perubahan (jaraknya juga hanya satu tahun).
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

@@ -1,7 +1,7 @@
 # Evaluasi Substansi dan Eksekusi Naskah Bab 1–4 (draf)
 
 > **Status:** draf kerja, bukan keputusan pembimbing.
-> **Tanggal:** 27 September 2026.
+> **Tanggal:** 27 September 2026; diperbarui 2 Oktober 2026 (§15: verifikasi data dan revisi `.tex`).
 > **Objek:** `latex/tga_pwk_jakarta_bab_1_4_final.tex` (Bab 1–4, pra-TA).
 > **Penyusun:** evaluasi AI (Claude) yang ditanggapi pengguna pada tanggal yang sama, dalam dua putaran tanggapan.
 > **Catatan kerja induk:** [[skripsi_s1_borrowed_size_dan_agglomeration_shadow_jakarta]]
@@ -89,7 +89,7 @@ Kelemahan utama ada pada perumusan desain. Bab 3 masih berupa kumpulan aturan be
 | C3 | Desain dua tingkat | Diputuskan (putaran 3) |
 | C4 | Dimensi waktu | Disepakati |
 | C5 | Cakupan melebar | Diubah: SUMO keluar (kecuali dengan CCTV); Web GIS dan *what-if* tetap, penyebutan dikurangi |
-| C6 | Kunci desain dan tabel operasionalisasi | Disepakati |
+| C6 | Kunci desain dan tabel operasionalisasi | Disepakati; diterapkan di Bab 3 (2 Oktober 2026, §15) |
 | C7 | Bab 4 tipis sebagai gambaran umum | Disepakati; unduh berkas dulu |
 | C8 | Judul vs Kabupaten Cianjur | Diputuskan: judul memakai "Jabodetabek"; Cianjur tidak dicakup |
 | C9 | Google Maps Platform untuk fasilitas | Diputuskan pengguna; perlu desain kepatuhan |
@@ -639,3 +639,70 @@ Setiap berkas disimpan di `source/` dengan catatan pendamping sesuai `source/AGE
 - [BPS Kota Bogor — Statistik Potensi Desa Kota Bogor 2024](https://bogorkota.bps.go.id/en/publication/2024/12/31/88486e40df9103aefbc1763b/publikasi-statistik-potensi-desa-kota--bogor-2024.html)
 
 **PDF Jakarta Utara (putaran 2):** yang dibaca hanya halaman PDF 1–12 (sampul, kata pengantar, daftar isi, daftar tabel), 84–85 (Tabel 4.4), dan 234–237 (catatan teknis serta Tabel 20.1–20.2), ditambah ekstraksi lapisan teks yang hanya memuat narasi. Tabel lain belum diperiksa satu per satu. Catatan sumbernya ada di `source/official-document/`.
+
+
+## 15. Putaran 6 — verifikasi data dan revisi naskah (2 Oktober 2026)
+
+Sesi cloud. Pengguna mengonfirmasi bahwa **inti penelitian tetap DKI Jakarta dan WSM hanya salah satu sumber**, lalu meminta seluruh rencana dikerjakan dengan keputusan terbaik bila belum diputuskan. Semua angka di bawah dibaca dari PDF di `source/official-document/` dan dicatat locatornya di catatan sumber masing-masing.
+
+### 15.1 Hasil verifikasi butir "perlu dicek"
+
+| Butir | Hasil | Akibat bagi desain |
+|---|---|---|
+| Jumlah kecamatan non-DKI (C3, C6) | **141** (WSM 2024, Lampiran 13, kode BPS 2024) | N tingkat 1 = 141; 129 bila cadangan K1 berlaku |
+| Definisi "inti" WSM (C2) | Kawasan inti perkotaan **morfologis** (grid ≥1.500 jiwa/km², SP2020). KIP 1 mencakup seluruh DKI, Kota Bekasi, Depok, Kota Tangerang, dan Tangsel, serta kecamatan padat di tiga kabupaten (hlm. 28–29, 60) | % WSM berstatus A, bukan "% ke DKI". Uji sensitivitas memakai $I^{DKI}$ = WSM × pangsa kab/kota ke DKI 2023 |
+| Anomali ambang 15% vs 7% (C2) | Bukan anomali: 7% dipilih BPS dengan merujuk Bosker dkk. (2021), sedangkan 15% adalah praktik OECD/UE (hlm. 12, 33–34) | Nilai kontinu dipakai; kelas delineasi tidak dijadikan kebenaran dasar |
+| Nilai WSM untuk kecamatan inti | Tersedia untuk semua 141 kecamatan (1,9–47,8%); 105 inti, 27 periferi, 9 bukan WSM | Integrasi kecamatan dapat dihitung untuk seluruh unit |
+| Matriks asal–tujuan komuter (C1) | **Ada** di ketiga edisi (Tabel 2). 2023: matriks pergerakan harian 13×13 + luar Jabodetabek; 2014/2019: arus komuter antarkab/kota. Semua jumlah baris dan kolom cocok dengan total | Q1 dan perubahan antarperiode terjawab dengan data teramati; OD sintetis tidak diperlukan |
+| Durasi dan biaya rata-rata (C1, C6) | Hanya **distribusi kelas** (Tabel 20 dan 35), bukan rata-rata | Beban T2 = pangsa ≥90 menit dan ≥Rp25.000 |
+| Upah per kab/kota (C1) | Tabel 51 Komuter 2023: distribusi penghasilan komuter bekerja per kab/kota asal. Tabel upah provinsi hanya sebagian (formal Banten tidak ada) | Manfaat T2 = pangsa komuter berpenghasilan ≥Rp5 juta; tabel upah menjadi konteks |
+| Total komuter 2023 (C7) | 4.414.974 komuter (14,9%), dengan 3.614.673 bekerja; Kabupaten Bogor 584.041 (459.775 bekerja). Angka "3,6 juta" di evaluasi awal adalah komuter **bekerja** | Bab 4 memakai kedua angka |
+| Keterbandingan Podes (C2) | Tabel jumlah fasilitas per kecamatan setara di tujuh kab/kota (edisi 2024). Kota Bekasi tidak punya Podes, dan Tabel 4.2.1 *Dalam Angka*-nya hanya memuat **banyaknya kelurahan yang memiliki** fasilitas | Cadangan K1 |
+| Edisi 2025 *Statistik Potensi Desa* | Bersumber dari Pemutakhiran Data Perkembangan Desa 2025; definisi sebagian tabel berubah | Hanya pemeriksa stabilitas, bukan seri |
+| Seri komuter (C4) | Definisi 2023 dirumuskan ulang; bulan (Mei 2014, April 2019, Oktober 2023) dan kerangka sampel berbeda | Perubahan dibaca sebagai arah estimasi survei |
+| Penduduk kecamatan | WSM Lampiran 3 (sumber: *Daerah Dalam Angka 2024*): lima unit Jawa Barat persis sama dengan proyeksi 2024; tiga unit Banten berselisih 2–3% | ❓ Cek basis Banten sebelum ambang massa dibekukan |
+| PDRB sektor (C7) | Publikasi PDRB kab/kota hanya memuat total. Pangsa sektor diambil dari Tabel 12.3 *Dalam Angka* kab/kota. Tabel 13.1.3 DKI edisi 2025 rusak (baris bergeser), sehingga dipakai edisi 2026 | Tabel 4.2 |
+| Nama wilayah inti | BPS sampai 2026 masih memakai "Provinsi DKI Jakarta"; UU 2/2024 Pasal 73 mengaitkan saat berlakunya dengan Keppres pemindahan ibu kota | "DKI Jakarta" dengan catatan kaki |
+
+Pola deskriptif yang muncul (hanya konteks Bab 4, bukan hasil): pangsa komuter Bodetabek yang menuju DKI turun dari 61,1% (2014) ke 58,0% (2019) dan 53,0% (2023), sedangkan pangsa antarpinggiran naik dari 36,1% ke 39,4% dan 44,6%. Pembacaannya dibatasi oleh perbedaan definisi antaredisi.
+
+### 15.2 Keputusan agen atas mandat pengguna
+
+Keputusan berikut diambil agen karena pengguna meminta "ambil keputusan terbaik". Semuanya boleh dikoreksi.
+
+| Butir terbuka | Keputusan | Alasan |
+|---|---|---|
+| OD sintetis | Dihapus dari rantai | Matriks teramati tersedia untuk tiga edisi; OD sintetis hanya menambah risiko sirkular |
+| Nama wilayah inti | "DKI Jakarta" dengan catatan kaki UU 2/2024 | Konsisten dengan seluruh data; status hukum nama baru bergantung pada Keppres |
+| Satu sumber kebenaran | File `.tex` per bab dihapus | File gabungan sudah menjadi target revisi; file per bab sudah tidak sinkron |
+| Letak "perubahan" | Dipindah dari Q2 ke Q1 | Perubahan hanya tersedia pada relasi; C4 mengizinkan kedua opsi |
+| Aturan massa | Kuartil teratas penduduk **atau** volume terbangun hunian (GHSL total − NRES); P66/P80 sebagai sensitivitas. Semua 141 kecamatan tetap dianalisis | Volume hunian tidak tumpang tindih dengan proksi pekerjaan (NRES). Analisis seluruh unit menghindari seleksi |
+| Komposisi layanan utama | RS + perguruan tinggi + bank umum (Podes 2024); pertokoan, pasar, dan akomodasi menjadi sensitivitas | Mewakili layanan antarkecamatan; akomodasi condong ke kawasan wisata (Puncak) |
+| Residu | $R = \ln(F + c) - \ln(\hat F_{(-i)} + c)$, dengan $c = 0{,}5$ untuk hitungan | Tetap terdefinisi saat $F = 0$ |
+| Titik acuan beban T1 | Bundaran HI; kecamatan DKI terdekat sebagai sensitivitas | Pusat CBD yang lazim; perlu konfirmasi |
+| Ambang akses | 60 menit (45 dan 90 sebagai sensitivitas) | Kisaran komuter dominan (Tabel 20: 30–59 menit terbanyak) |
+| Gerbang *shadow* | "Beban tinggi" dinilai di antara unit dengan integrasi serupa | Waktu tempuh ke inti berkorelasi negatif dengan integrasi |
+| Tipologi | Tujuh kategori; residu bertanda hanya bila selang tidak memuat nol | Memasukkan ketidakpastian dan menyeragamkan tabel |
+| Tabel siap-*join* | Tidak dibuat di `calculation/`; tabel 141 kecamatan berkode BPS ditaruh di catatan sumber WSM | Catatan sumber boleh dikelola agen; tidak menambah objek *calculation* tanpa izin |
+| Duplikat PDF | 36 salinan `dataset/` dihapus setelah checksum identik | Publikasi statistik termasuk `official-document`; riwayat git menyimpan salinan lama |
+| J21/J26 | Dibiarkan | Kode korpus dirujuk berkas review |
+
+### 15.3 Yang berubah di naskah
+
+Rincian per bab ada di TODO §1–§7. Inti perubahannya:
+- **Bab 3** ditulis ulang menjadi spesifikasi utama dua tingkat dengan cadangan K1–K8.
+- **Bab 4** diisi angka terverifikasi (Tabel 4.1–4.4).
+- **Bab 1–2** diselaraskan:
+  - judul "Jabodetabek";
+  - konteks Kawasan Aglomerasi;
+  - proposisi P1–P4;
+  - tipologi tujuh kategori;
+  - penjelasan alternatif bernama.
+- Bibliografi diperbaiki, dan diagram dirender ulang.
+
+### 15.4 Batas putaran ini
+
+- Angka Bab 4 adalah kutipan atau aritmetika sederhana dari tabel publikasi, belum analisis Bab 5.
+- Ambang penduduk P75 (36 kecamatan) bersifat sementara.
+- Kompilasi cloud memakai font pengganti; kompilasi final dilakukan di lokal.
+- Isi publikasi selain tabel yang disebut belum dibaca penuh.

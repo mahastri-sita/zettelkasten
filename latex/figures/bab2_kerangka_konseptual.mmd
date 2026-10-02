@@ -1,39 +1,32 @@
-%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial", "primaryColor": "#E6E6E6", "primaryTextColor": "#000000", "primaryBorderColor": "#000000", "lineColor": "#000000", "secondaryColor": "#D9D9D9", "tertiaryColor": "#F2F2F2", "clusterBkg": "#F2F2F2", "clusterBorder": "#000000", "background": "#FFFFFF", "edgeLabelBackground": "#FFFFFF"}, "flowchart": {"curve": "basis", "nodeSpacing": 28, "rankSpacing": 38}}}%%
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial, Helvetica, sans-serif", "fontSize": "15px", "primaryColor": "#E6E6E6", "primaryTextColor": "#000000", "primaryBorderColor": "#000000", "lineColor": "#000000", "secondaryColor": "#D9D9D9", "tertiaryColor": "#F2F2F2", "clusterBkg": "#FAFAFA", "clusterBorder": "#000000", "background": "#FFFFFF", "edgeLabelBackground": "#FFFFFF"}, "flowchart": {"curve": "basis", "nodeSpacing": 30, "rankSpacing": 40, "htmlLabels": true, "wrappingWidth": 330}}}%%
 flowchart TB
-    subgraph L1[Landasan lokal]
-        A[Massa lokal S] --- B[Karakteristik lokal X]
-        B --- C[Biaya dan tekanan lokal]
+    subgraph L1["Garis dasar lokal"]
+        S["Massa lokal S"]
+        X["Karakteristik lokal X"]
     end
-
-    subgraph L2[Hubungan metropolitan]
-        D[Aksesibilitas potensial] --> E[Relasi yang terealisasi I]
-        E --> F[Arah dan asimetri arus]
+    S --> FH["Fungsi harapan F̂ = f(S, X)"]
+    X --> FH
+    F["Fungsi aktual F<br/>per domain: layanan, pekerjaan"] --> R["Residu fungsi relatif<br/>R = ln F − ln F̂"]
+    FH --> R
+    I["Integrasi metropolitan I<br/>arus teramati"] --> T["Kemiringan R terhadap I"]
+    R --> T
+    Z["Penjelasan alternatif Z"] --> T
+    subgraph L3["Pengukuran sejajar"]
+        A["Manfaat A<br/>akses, penghasilan"]
+        D["Beban D<br/>waktu, durasi, biaya"]
     end
-
-    A --> G[Fungsi yang diharapkan F-hat]
-    B --> G
-    H[Fungsi aktual per domain F] --> I[Residu fungsi relatif R]
-    G --> I
-    E --> J[Asosiasi integrasi dengan R]
-    I --> J
-
-    K[Hierarki, spesialisasi,<br/>status administratif,<br/>posisi jaringan] --> J
-    J --> L[Manfaat akses]
-    J --> M[Beban dan ketergantungan]
-    L --> N{Diagnosis per domain}
-    M --> N
-    N --> O[Surplus terkait jaringan]
-    N --> P[Defisit terkait jaringan]
-    N --> Q[Hasil campuran]
-    N --> R[Belum terklasifikasi]
+    T --> G{"Gerbang bukti"}
+    A --> G
+    D --> G
+    G --> K["Kategori Tabel 2.2<br/>pola konsisten dengan borrowed size · campuran ·<br/>pola konsisten dengan agglomeration shadow ·<br/>terintegrasi tetapi tertinggal · relatif independen ·<br/>periferi lemah · tidak terselesaikan"]
 
     classDef local fill:#F2F2F2,stroke:#000000,color:#000000,stroke-width:1.2px;
     classDef relation fill:#E6E6E6,stroke:#000000,color:#000000,stroke-width:1.4px;
-    classDef moderator fill:#F2F2F2,stroke:#000000,color:#000000,stroke-width:1.2px,stroke-dasharray:5 3;
+    classDef alt fill:#F2F2F2,stroke:#000000,color:#000000,stroke-width:1.2px,stroke-dasharray:5 3;
     classDef diagnostic fill:#D9D9D9,stroke:#000000,color:#000000,stroke-width:1.8px;
-    classDef result fill:#E6E6E6,stroke:#000000,color:#000000,stroke-width:2px;
-    class A,B,C,G,H,I local;
-    class D,E,F,J,L,M relation;
-    class K moderator;
-    class N diagnostic;
-    class O,P,Q,R result;
+    classDef result fill:#FFFFFF,stroke:#000000,color:#000000,stroke-width:2px;
+    class S,X,FH,F,R local;
+    class I,T,A,D relation;
+    class Z alt;
+    class G diagnostic;
+    class K result;

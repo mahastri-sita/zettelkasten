@@ -43,6 +43,12 @@
 \AtBeginBibliography{\small\setlength{\bibitemsep}{0.15em}}
 
 \newunicodechar{∅}{\ensuremath{\varnothing}}
+
+% Placeholder untuk gambar yang dibuat manual (peta GIS). Ganti dengan \includegraphics setelah berkas target tersedia.
+\newcommand{\GambarPlaceholder}[2][7cm]{%
+  \fbox{\parbox[c][#1][c]{0.92\linewidth}{\centering\small
+    \textbf{PLACEHOLDER GAMBAR}\\[0.6em]#2}}}
+
 \definecolor{Ink}{HTML}{222222}
 \definecolor{RuleGray}{HTML}{666666}
 

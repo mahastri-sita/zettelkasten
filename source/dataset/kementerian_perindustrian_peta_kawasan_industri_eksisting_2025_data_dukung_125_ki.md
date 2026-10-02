@@ -48,6 +48,8 @@ Kolom DBF (hasil baca agen):
 - Contoh kawasan di Jabodetabek: Pulogadung, KBN Cakung, MM2100, Jababeka, GIIC, Lippo Cikarang, EJIP, Millennium, Cikupamas, dan Taman Tekno BSD.
 - CRS menurut `.prj`: GCS WGS 1984.
 
+- **Ringkasan Jabodetabek (dihitung agen 2 Oktober 2026 dari DBF; Cikembar dikeluarkan):** 30 record dengan 21 nama kawasan unik. Kabupaten Bekasi 19 record (10 nama; jumlah `Luas_IUKI` 6.419,6); Kabupaten Tangerang 6 (6; 1.724,3); Kabupaten Bogor 2 (2; 316,7); Kota Jakarta Timur 1 (433,0); Kota Jakarta Utara 1 (177,0); Kota Tangerang Selatan 1 (160,0). Tidak ada record untuk Kota Bogor, Kota Depok, Kota Bekasi, dan Kota Tangerang. Satuan luas tidak didokumentasikan (kemungkinan hektare), dan record berganda per kawasan dijumlahkan apa adanya.
+
 ## Collection or Production Method
 
 Tidak didokumentasikan dalam berkas yang diperiksa. Judul dataset menyebut skala 1:50.000.

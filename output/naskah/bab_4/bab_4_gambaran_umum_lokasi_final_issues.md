@@ -1,5 +1,7 @@
 # Daftar isu peninjauan Bab 4
 
+> **Historis (2 Oktober 2026).** Berkas ini mencatat peninjauan naskah per bab sebelum revisi. File `.tex` per bab sudah dihapus; naskah tunggal yang berlaku adalah `latex/tga_pwk_jakarta_bab_1_4_final.tex`. Status revisi terkini ada di `output/naskah/todo_revisi_bab_1_4.md` dan `output/naskah/evaluasi_substansi_dan_eksekusi_bab_1_4_draf.md`.
+
 **Status:** naskah final tahap peninjauan. Gambaran lokasi memberi konteks bagi pengukuran dan tidak mendahului diagnosis Bab 5.
 
 ## Pemeriksaan selesai

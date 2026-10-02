@@ -1,151 +1,92 @@
 ---
-session_id: 2026-10-02-01
-parent_session_id: null
-branch: main
-commits_since_parent: 0
-date: 2026-10-02T19:53:42+07:00
+session_id: 2026-10-02-02-cloud
+parent_session_id: 2026-10-02-01
+branch: claude/quirky-maxwell-s334gn
+commits_since_parent: 1
+date: 2026-10-02T23:50:00+07:00
 ---
 
 # Handoff: Revisi Naskah TGA Bab 1–4 (Jabodetabek)
 
-> Baca file ini lebih dulu, lalu `AGENTS.md` di root. Sesi cloud **tidak** membawa memori lokal; semua konteks ada di file dalam repo ini.
+> Baca file ini lebih dulu, lalu `AGENTS.md` di root. Sesi cloud tidak membawa memori lokal; semua konteks ada di file dalam repo ini.
 >
-> **Sifat dokumen ini:** penjaga konteks, bukan naskah perintah. Rencana di sini disusun sebelum isi data dibaca. Jelajahi datanya, bertanyalah kepada pengguna, dan usulkan perubahan rencana bila perlu.
+> **Sifat dokumen ini:** penjaga konteks, bukan naskah perintah.
 
 ## Active goal
 
-Merevisi naskah pra-TA `latex/tga_pwk_jakarta_bab_1_4_final.tex` (Bab 1–4; *Borrowed Size atau Agglomeration Shadow?*) berdasarkan evaluasi 27 September – 2 Oktober 2026.
-
-Pra-TA hanya mewajibkan Bab 1–4 tanpa eksekusi analisis. Targetnya naskah yang desainnya jelas dan dapat dipertahankan, bukan hasil perhitungan.
+Menyelesaikan naskah pra-TA `latex/tga_pwk_jakarta_bab_1_4_final.tex` (*Borrowed Size atau Agglomeration Shadow? … Pusat-Pusat Sekunder Jabodetabek*). Pra-TA hanya mewajibkan Bab 1–4 tanpa eksekusi analisis.
 
 ## Where we left off
 
-- [x] Evaluasi substansi dan eksekusi selesai: `output/naskah/evaluasi_substansi_dan_eksekusi_bab_1_4_draf.md` (§2 keputusan pengguna, §3 status per butir, C6 draf tabel operasionalisasi, §13 keputusan).
-- [x] Peta kerja revisi tersusun: `output/naskah/todo_revisi_bab_1_4.md`.
-- [x] Sumber non-BPS diunduh dan diberi catatan sumber (UU 2/2024, Perpres 60/2020, BPTJ 2024, Kemenperin, GTFS, GHSL).
-- [x] Sumber BPS ada di repo (commit `14fccdd` dan `34af8cf`): Komuter 2014/2019/2023, WSM 2024, PDRB, Dalam Angka provinsi dan delapan kab/kota, Statistik Potensi Desa 2024/2025 untuk tujuh kab/kota, Keadaan Angkatan Kerja 2023, serta data upah (DKI, Jawa Barat, dan sebagian Banten).
-- [x] Data dari laptop lain sudah di-push (`34af8cf`) dan sudah dicocokkan dengan TODO §0.1.
-- [ ] **Masih kurang:**
-  - 12 *Kecamatan Dalam Angka* Kota Bekasi, sebagai pengganti publikasi Podes yang tidak ada;
-  - tabel upah formal Banten (tidak tersedia);
-  - batas kecamatan (HDX), yang sengaja tidak di-commit karena ukurannya.
-- [ ] **Repo perlu dirapikan** (TODO §0.5): 38 PDF BPS terduplikasi antara `source/dataset/` dan `source/official-document/`. Pakai salinan `official-document/`, yang punya catatan sumber.
-- [ ] **Belum ada satu pun perubahan pada `.tex`.**
+Sesi cloud 2 Oktober 2026 mengerjakan seluruh rencana di `output/naskah/todo_revisi_bab_1_4.md`. Rincian dan alasannya ada di evaluasi §15.
 
-## Working mode
+- [x] **Verifikasi data:**
+  - 141 kecamatan non-DKI;
+  - definisi inti WSM (morfologis, lebih luas dari DKI);
+  - matriks asal–tujuan komuter 2014/2019/2023 (ditranskripsi dan dicocokkan dengan total);
+  - durasi dan biaya berupa distribusi kelas;
+  - penghasilan komuter (Tabel 51);
+  - keterbandingan Podes;
+  - PDRB, penduduk, dan kepadatan 2024.
+- [x] **Catatan sumber diperbarui** dengan locator dan transkripsi tabel: Komuter 2014/2019/2023, WSM (Lampiran 3 dan 13, 141 kecamatan berkode BPS), Podes, *Dalam Angka*, PDRB, UU 2/2024, dan Kemenperin.
+- [x] **Repo dirapikan:** 36 duplikat PDF dan berkas sampah dihapus; tiga publikasi dipindah ke `official-document/`; empat CSV upah diberi catatan sumber.
+- [x] **Naskah direvisi:**
+  - Bab 3 ditulis ulang (spesifikasi utama dua tingkat dan cadangan K1–K8);
+  - Bab 4 diisi angka terverifikasi;
+  - Bab 1–2 diselaraskan;
+  - bibliografi diperbaiki dan dilengkapi;
+  - makro `\GambarPlaceholder` ditambahkan.
+- [x] **Diagram** `.mmd` (Gambar 1.1, 2.1, 3.1, 3.2) ditulis ulang dan dirender ke PNG.
+- [x] **Uji kompilasi** di cloud dengan font pengganti: 62 halaman, tanpa galat, tanpa rujukan atau sitasi yang tidak terdefinisi.
+- [x] File `.tex` per bab dihapus (satu sumber kebenaran); berkas isu per bab ditandai historis.
 
-Pengguna menginginkan sesi yang eksploratif dan dialogis:
+## Next concrete action (untuk pengguna)
 
-1. **Jelajahi dulu.** Isi publikasi dan data belum pernah dibaca agen: tabel apa yang tersedia, pada unit apa, untuk tahun berapa. Banyak butir rencana bergantung pada jawabannya.
-2. **Laporkan dan diskusikan.** Sampaikan temuan dan artinya bagi desain. Bertanya kepada pengguna itu diharapkan (pakai alat tanya bila ada).
-3. **Edit per bagian**, setelah arahnya disepakati.
-4. **Jaga konteks.** Jika rencana berubah, perbarui TODO dan file evaluasi supaya sesi berikutnya tidak kehilangan jejak.
-
-**Terkunci (keputusan pengguna; jangan diubah tanpa bertanya):** lihat daftar "Terkunci" di awal TODO dan evaluasi §13.
-
-**Lentur:** indikator dan sumber spesifik, isi tabel operasionalisasi, bentuk model, isi Bab 4, daftar gambar, dan urutan kerja.
-
-## Next concrete action
-
-**Di lokal, sebelum membuka sesi cloud:**
-1. Commit dan push `HANDOFF.md`, `output/naskah/todo_revisi_bab_1_4.md`, dan `output/naskah/evaluasi_substansi_dan_eksekusi_bab_1_4_draf.md`. Ketiganya belum ada di GitHub.
-2. Pasang setup script OCR di pengaturan environment cloud (lihat "Cloud environment").
-3. Opsional: unduh 12 *Kecamatan Dalam Angka* Kota Bekasi (tautan di TODO §0.1), dan putuskan perapian duplikat (TODO §0.5).
-
-**Di sesi cloud, usulan langkah pertama (bukan urutan wajib):**
-1. Baca `HANDOFF.md`, `AGENTS.md`, lalu bagian awal `output/naskah/todo_revisi_bab_1_4.md`.
-2. Inventarisasi apa yang benar-benar ada di `source/` dan baca publikasi kuncinya. Pertanyaan yang perlu dijawab:
-   - Berapa jumlah kecamatan non-DKI?
-   - Bagaimana WSM 2024 mendefinisikan "inti", dan tabel apa yang tersedia per kecamatan?
-   - Apakah *Statistik Komuter* memuat tabel asal–tujuan kab/kota serta durasi dan biaya?
-   - Tabel fasilitas apa yang ada di *Statistik Potensi Desa*, dan apakah sebanding antar kab/kota?
-3. Laporkan temuannya kepada pengguna, dan usulkan penyesuaian tabel operasionalisasi (evaluasi C6) bila perlu.
-4. Setelah disepakati, mulai revisi. Bab 3 disarankan lebih dulu karena Bab 1, 2, dan 4 mengacu ke desainnya.
-5. **Figure:** agen hanya mengedit diagram `.mmd`. Peta GIS dibuat manual oleh pengguna; agen memasang `\GambarPlaceholder` dengan caption dan label final (TODO §7).
-
-**Prompt pembuka yang disarankan untuk sesi cloud:**
-
-> Baca `HANDOFF.md` dan `AGENTS.md`. Kita akan merevisi `latex/tga_pwk_jakarta_bab_1_4_final.tex`. Mulailah dengan menjelajahi data dan publikasi di `source/` yang relevan, lalu laporkan apa yang kamu temukan dan apa artinya bagi rencana di `output/naskah/todo_revisi_bab_1_4.md`. Diskusikan dengan saya sebelum mengedit, dan silakan bertanya kapan saja. Saya memberi izin mengedit `.tex` dan `latex/references.bib` per bagian setelah arahnya kita sepakati. Jangan ubah keputusan yang ditandai terkunci tanpa bertanya; selebihnya boleh kamu usulkan perubahannya.
-
-## Cloud environment
-
-Menurut dokumentasi Claude Code (dicek 2 Oktober 2026), sesi cloud berjalan di VM Ubuntu 24.04 x86_64 dengan 4 vCPU, 16 GB RAM, dan 30 GB disk. `pdftotext`, Tesseract, `ocrmypdf`, dan LaTeX **tidak** terpasang bawaan, tetapi dapat dipasang.
-
-**Setup script.** Pengguna mengisinya di pengaturan environment di claude.ai/code. Skrip berjalan sebagai root sebelum sesi dimulai, dan hasilnya di-*cache* bila selesai dalam sekitar 5 menit:
-
-```bash
-#!/bin/bash
-apt update && apt install -y poppler-utils tesseract-ocr tesseract-ocr-ind ocrmypdf || true
-pip install pymupdf pdfplumber pandas openpyxl || true
-```
-
-- Akses jaringan bawaan ("Trusted") sudah mengizinkan arsip Ubuntu dan PyPI, jadi skrip di atas berjalan tanpa pengaturan tambahan.
-- Jika setup script belum dipasang, agen boleh menjalankan perintah yang sama di tengah sesi. Hasilnya tidak terbawa ke sesi berikutnya.
-- Agen sebaiknya memeriksa dulu dengan `which pdftotext tesseract ocrmypdf` dan `check-tools`.
-
-**Cara membaca tabel yang berupa gambar** (banyak publikasi BPS):
-1. Coba `pdftotext -layout` lebih dulu. Sebagian tabel punya lapisan teks, misalnya Tabel 7.1 BPTJ dan *Kota Bekasi Dalam Angka*.
-2. Bila tidak ada teks, jalankan OCR: `ocrmypdf -l ind+eng --sidecar hasil.txt masuk.pdf keluar.pdf`. PDF asli tidak boleh ditimpa; tulis turunannya sebagai berkas terpisah (`source/AGENTS.md`).
-3. Alat baca PDF milik agen (per halaman, visual) dapat membaca tabel gambar secara langsung. Ini cara yang paling andal untuk tabel kecil, dan dipakai untuk memeriksa hasil OCR.
-4. **Angka hasil OCR wajib diverifikasi.** Cocokkan jumlah per kolom dengan baris total pada tabel (misalnya baris "KOTA JAKARTA UTARA"), dan periksa sampel secara visual. Angka yang belum lolos pemeriksaan tidak boleh masuk naskah.
-5. Catat halaman PDF dan halaman isi untuk setiap tabel yang diambil.
-
-**Yang tidak ikut ke cloud:**
-- Pengaturan tingkat pengguna di `~/.claude/` (memori, skill pribadi seperti `handoff` dan `graphify`, hook) tidak terbawa. Yang terbawa hanya isi repo, termasuk `AGENTS.md`.
-- Domain di luar daftar bawaan (misalnya `data.humdata.org` dan server GHSL) perlu ditambahkan lewat akses jaringan "Custom" atau "Full". Situs BPS tetap menolak unduhan otomatis.
-- LaTeX dapat dipasang (`texlive-xetex`, `biber`), tetapi ukurannya besar sehingga berisiko melewati batas 5 menit, dan font Times New Roman tidak tersedia. Rencana aman tetap: kompilasi di lokal.
+1. **Tinjau keputusan agen** di evaluasi §15.2. Yang paling perlu dikonfirmasi:
+   - ambang massa P75;
+   - titik acuan beban di Bundaran HI;
+   - komposisi layanan RS + perguruan tinggi + bank;
+   - pemindahan "perubahan" dari Q2 ke Q1;
+   - penghapusan OD sintetis.
+2. **Kompilasi lokal** dengan Times New Roman (XeLaTeX + Biber), lalu periksa PDF per halaman.
+3. **Unduh** 12 *Kecamatan Dalam Angka* Kota Bekasi (tautan di TODO §0.1) dan batas kecamatan COD-AB HDX (jangan di-commit).
+4. **Buat peta manual** G4.1–G4.8 (TODO §7.2). Data kecamatan siap-*join* ada di catatan sumber WSM (`source/official-document/BPS - 2026 - Wilayah Statistik Metropolitan Indonesia 2024.md`), dan matriks komuter di catatan sumber Komuter 2023.
+5. **Cek basis penduduk kecamatan Banten** di WSM Lampiran 3 (selisih 2–3% dari proyeksi kab/kota).
 
 ## Open questions
 
-- **OD sintetis** (gravitasi/IPF; `tex:1004-1010`, `tex:1470-1481`): opsional atau dihapus? Rantai inti kini memakai OD kab/kota teramati dan WSM.
-- **Nama wilayah inti:** "DKI Jakarta" atau "Daerah Khusus Jakarta"? Data Kemenperin 2025 sudah memakai nama baru.
-- **Satu sumber kebenaran:** file `.tex` per-bab menduplikasi file gabungan dan sudah tidak sinkron. Dihapus atau dibuat ulang?
-- **Kota Bekasi:** publikasi Podes tidak ditemukan. Penggantinya (*Kecamatan Dalam Angka 2025*; Tabel 4.2.3 *Kota Bekasi Dalam Angka 2025*) belum dicek keterbandingannya.
-- **Tabel siap-*join* untuk QGIS:** bolehkah agen membuat CSV per kecamatan di `calculation/`? Perlu izin eksplisit.
-- **Pembimbing:** konfirmasi Rendy Bayu Aditya belum tercatat di vault.
-- **Duplikat PDF** di `source/dataset/` dan `source/official-document/`: salinan mana yang dihapus? (TODO §0.5)
-- **Isi publikasi** belum pernah dibaca agen, kecuali cuplikan yang tercatat di catatan sumber. Temuannya mungkin mengubah sebagian rencana.
+- ❓ Keputusan agen pada evaluasi §15.2 (lihat di atas).
+- ❓ `argument/argument/skripsi_s1_…md` masih menyebut file `.tex` per bab sebagai "rujukan operasional aktif". Memperbaruinya butuh izin eksplisit untuk mengedit Argument.
+- ❓ J21/J26 (Henderson dkk.) berisi PDF identik dengan tahun J26 salah. Rapikan kode korpus atau biarkan?
+- ❓ Pembimbing: naskah menulis Rendy Bayu Aditya; konfirmasinya belum tercatat di vault.
+- Metadata yang belum diverifikasi: volume dan halaman `sadewoetal2021` dan `volgmannrusche2020`; judul buku `andani2021`; satuan luas Kemenperin.
 
-## Decisions made this session
+## Decisions made (kumulatif)
 
-Rinciannya ada di evaluasi §2–§3 dan §13.
-
-- **Sikap data:** sumber terbuka dan OSM lebih dulu. Data resmi dipakai bila terbuka. Tidak membeli data BPS dan tidak bergantung pada pengajuan.
-- **Judul** memakai "Jabodetabek". Kabupaten Cianjur tidak dicakup; konteks Kawasan Aglomerasi (UU 2/2024 Pasal 51) ditempatkan di Bab 1.
-- **Desain dua tingkat:** kecamatan non-DKI (utama; Q2–Q3) dan kab/kota (pendalaman; Q1–Q2).
-- **Dua domain utama:** layanan dan pekerjaan. Usulan proksi saat ini (lentur):
-  - layanan: jumlah fasilitas Podes 2024, Google Places, dan SIRS/PDDikti;
-  - pekerjaan: volume nonhunian GHSL R2023A (epoch 2020, interpolasi dari observasi 2018), dengan pangsa kawasan industri sebagai pembeda.
-- **Inferensi Q3** adalah kemiringan residu terhadap integrasi di dalam Jabodetabek. Tipologi hanya ringkasan.
-- **Pemilihan pusat** berdasarkan massa, bukan fungsi.
-- **Satu indikator satu peran:** beban tidak memakai orientasi arus.
-- **Kawasan hunian** dapat menjadi korban *shadow*; domain layanan menjadi pembedanya.
-- **Alat:** CCTV untuk *screenline* terarah di batas DKI. SUMO keluar, kecuali dikombinasikan dengan CCTV. Web GIS dan *what-if* tetap, tetapi dijelaskan sekali saja di Bab 3.
-- **Google Places** hanya untuk menghitung. Yang disimpan *place ID*, kode kecamatan, dan kategori sendiri.
-- **Perubahan antarperiode** sejauh ini hanya didukung data komuter 2014/2019/2023. GHSL dan seri Podes tidak mendukungnya.
-- **Ditolak pengguna (jangan diangkat lagi):** kritik "skala" *borrowed size*, dan perluasan wilayah ke Cianjur.
-- **Preferensi kerja:** rencana tidak boleh mengekang. Eksplorasi dan diskusi diutamakan; yang penting konteks tidak hilang.
+- **Terkunci oleh pengguna:** lihat awal TODO. Tambahan 2 Oktober 2026: inti penelitian tetap DKI Jakarta, dan WSM hanya salah satu sumber.
+- **Diambil agen atas mandat pengguna:** lihat evaluasi §15.2. Semua dapat dikoreksi.
 
 ## Dragons
 
-- **Izin edit.** `AGENTS.md` melarang mengedit naskah tanpa niat edit eksplisit. Prompt pembuka di atas sudah memuat izin itu, dengan syarat arah tiap bagian disepakati dulu.
-- **Nomor baris bergeser.** Rujukan `tex:NNN` mengacu ke versi 27 September. Setelah edit pertama, cari dengan kata kunci.
-- **Tabel BPS berupa gambar.** Banyak PDF BPS tidak punya lapisan teks pada tabelnya, sehingga `pdftotext` saja tidak cukup. Ikuti bagian "Cloud environment" di atas: pasang OCR, baca visual, dan verifikasi angka terhadap baris total.
-- **Kompilasi LaTeX.** Naskah memakai XeLaTeX + Biber dan font Times New Roman, dan lingkungan cloud mungkin tidak punya keduanya. `AGENTS.md` juga melarang build tanpa permintaan. Rencana aman: edit di cloud, kompilasi di lokal.
+- **Izin edit.** `AGENTS.md` melarang mengedit Argument, Output, dan Calculation tanpa niat edit eksplisit. Sesi ini bekerja di bawah mandat "kerjakan semuanya seperti yang sudah direncanakan". Mandat itu tidak mencakup mengedit catatan Argument.
+- **Penomoran gambar.** Diagram keputusan cadangan muncul lebih dulu sehingga menjadi Gambar 3.1, dan alur analisis menjadi Gambar 3.2. ID di TODO (G3.1/G3.2) adalah ID kerja, bukan nomor PDF.
+- **Tabel BPS berupa gambar.** Banyak tabel tidak punya lapisan teks yang benar; pada Komuter 2023, misalnya, pengodean font nama wilayah rusak. Baca secara visual, lalu cocokkan dengan baris atau kolom total. Tabel 13.1.3 *DKI Dalam Angka 2025* memuat baris yang bergeser; pakai edisi 2026.
+- **Angka Bab 4 bersifat deskriptif.** Analisis Q1–Q3 belum dijalankan. Ambang P75 (36 kecamatan) masih sementara.
+- **Kompilasi LaTeX.** Naskah memakai Times New Roman, yang tidak ada di cloud. Uji cloud memakai TeX Gyre Termes pada salinan di scratchpad; berkas repo tidak diubah fontnya.
 - **Situs BPS menolak `curl` (HTTP 403).** Unduhan BPS dilakukan pengguna.
-- **Sparse checkout lokal.** Di mesin lokal, PDF dan ZIP terlacak git tetapi tidak tampil di disk; ambil dengan `git show "HEAD:<path>" > berkas`. Klon cloud biasa memuat semuanya.
-- **Batas kecamatan belum ada di vault.** geoBoundaries tidak punya ADM3 untuk Indonesia. Sumbernya HDX COD-AB (BPS, 2020), berukuran 219–498 MB, sehingga tidak boleh di-commit (TODO §0.4).
-- **Bibliografi salah metadata.** `otsuka2025`, `sadewoetal2021`, `sadewoetal2023`, dan `burgermeijers2016` perlu diperbaiki (TODO §6).
-- **Figure tanpa skrip.** PNG diagram dibuat dari `.mmd` tanpa perintah render tercatat, dan peta Bab 4 tidak punya skrip SVG→PNG.
-- **Klaim yang belum diverifikasi** di evaluasi ditandai "perlu dicek". Jangan diperlakukan sebagai fakta.
+
+## Cloud environment (yang berhasil di sesi ini)
+
+- `apt-get install tesseract-ocr tesseract-ocr-ind poppler-utils` dan `pip install pymupdf pdfplumber pandas openpyxl` berjalan tanpa pengaturan tambahan.
+- XeLaTeX dan Biber dapat dipasang: `apt-get install texlive-xetex texlive-latex-extra texlive-bibtex-extra biber texlive-lang-other texlive-lang-european fonts-texgyre` (sekitar 10 menit, di latar belakang).
+- Mermaid CLI dapat dipasang dengan `npm install @mermaid-js/mermaid-cli`. Render memakai `-p` berisi `{"executablePath":"/opt/pw-browsers/chromium","args":["--no-sandbox"]}`.
+- Tabel gambar paling andal dibaca dengan render halaman (pymupdf, 110–150 dpi) dan pembacaan visual, lalu dicocokkan dengan total.
 
 ## References
 
-- **Peta kerja:** `output/naskah/todo_revisi_bab_1_4.md` (awal file: terkunci vs lentur; §0 data; §7 gambar dan placeholder).
-- **Keputusan dan alasan:** `output/naskah/evaluasi_substansi_dan_eksekusi_bab_1_4_draf.md` (C6 draf tabel operasionalisasi; §10 draf proposisi P1–P4; §13 keputusan).
-- **Naskah:** `latex/tga_pwk_jakarta_bab_1_4_final.tex`, `latex/references.bib`, `latex/tga-preamble.tex`, `latex/figures/`.
+- **Peta kerja:** `output/naskah/todo_revisi_bab_1_4.md`.
+- **Keputusan dan alasan:** `output/naskah/evaluasi_substansi_dan_eksekusi_bab_1_4_draf.md` (§13 keputusan awal; §15 verifikasi dan keputusan 2 Oktober 2026).
+- **Naskah:** `latex/tga_pwk_jakarta_bab_1_4_final.tex`, `latex/references.bib`, `latex/tga-preamble.tex`, `latex/figures/` (`.mmd` dan PNG).
+- **Data terverifikasi:** catatan sumber di `source/official-document/`, terutama Komuter 2014/2019/2023, WSM 2024, dan *Dalam Angka* serta PDRB.
 - **Catatan kerja induk** (jangan diedit tanpa izin): `argument/argument/skripsi_s1_borrowed_size_dan_agglomeration_shadow_jakarta.md`.
-- **Sumber:** `source/official-document/` dan `source/dataset/`, masing-masing dengan catatan `.md` pendamping.
-- **PLAN.md dan napkin.md:** tidak dipakai di vault ini. Fungsinya digantikan oleh file evaluasi dan peta kerja di atas.
-- **Arsip `handoff/`:** tidak dibuat, karena `AGENTS.md` melarang menambah folder baru.
-- **Commit terakhir saat handoff:** `34af8cf refactor: normalize dataset filenames`. Berkas di `source/dataset/` kini memakai snake_case.
+- **Commit induk:** `8926ba6 docs(naskah): add revision handoff and update evaluation and todo`.

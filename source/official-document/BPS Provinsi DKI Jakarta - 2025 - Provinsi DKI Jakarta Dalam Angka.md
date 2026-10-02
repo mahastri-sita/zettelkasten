@@ -22,6 +22,11 @@ document_number: null
 
 Record ini mengindeks publikasi statistik resmi BPS Provinsi DKI Jakarta. Isi tabel dan temuan publikasi belum diringkas pada putaran migrasi ini.
 
+**Pembaruan 2 Oktober 2026 (pemeriksaan agen):**
+
+- **Tabel 3.1.1 (hlm. 98–101):** penduduk 2024 (proyeksi pertengahan tahun) Kepulauan Seribu 28.809; Jakarta Selatan 2.230.653; Jakarta Timur 3.086.010; Jakarta Pusat 1.044.297; Jakarta Barat 2.479.571; Jakarta Utara 1.815.606; DKI Jakarta 10.684.946. Kepadatan 2024 DKI Jakarta 16.165 jiwa/km² (Jakarta Pusat 21.955; Kepulauan Seribu 2.686).
+- **Peringatan mutu:** Tabel 13.1.3 (distribusi PDRB ADHB menurut lapangan usaha; PDF hlm. 925–929) di edisi ini memiliki baris yang bergeser. Misalnya baris "C Industri Pengolahan" tercetak 0,00 untuk 2020–2023 dan 11,49 untuk 2024. Pakai edisi 2026 untuk distribusi sektor.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

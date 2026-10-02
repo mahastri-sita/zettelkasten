@@ -22,6 +22,10 @@ document_number: null
 
 Record ini mengindeks publikasi statistik resmi BPS Kabupaten Tangerang. Isi tabel dan temuan publikasi belum diringkas pada putaran migrasi ini.
 
+**Pembaruan 2 Oktober 2026 (pemeriksaan agen):**
+
+- **Tabel 12.3 (hlm. 363; PDF hlm. 399):** distribusi persentase PDRB ADHB menurut lapangan usaha, 2020–2024. Nilai 2024 (angka sangat sementara): C Industri Pengolahan 33,74%; G Perdagangan Besar dan Eceran 11,35%; F Konstruksi 16,36%; H Transportasi dan Pergudangan 3,61%.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.
