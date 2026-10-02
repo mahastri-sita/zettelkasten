@@ -245,8 +245,9 @@ Gagasan pengguna tentang cara memperlakukan kawasan hunian dengan lebih baik dap
   - Tabelnya berupa gambar tanpa lapisan teks, sehingga perlu OCR (`ocrmypdf`) atau entri manual. Halaman isi p berada di halaman PDF p + 22.
 - **Ketersediaan:**
   - Publikasi serupa tahun 2024 terverifikasi ada untuk Kabupaten Bogor (40 kecamatan) dan Kota Bogor.
-  - Untuk Kabupaten dan Kota Bekasi, Kabupaten dan Kota Tangerang, Kota Tangerang Selatan, serta Kota Depok **perlu dicek**.
-- **Seri waktu:** kata pengantar menyebut seri ini terbit tiga kali dalam sepuluh tahun (siklus Podes). Edisi 2018 dan 2021 berpotensi memberi seri fungsi per kecamatan untuk C4, **jika** definisi tabelnya sebanding (**perlu dicek**).
+  - **Pembaruan 2 Oktober 2026:** edisi 2024 dan 2025 sudah diunduh pengguna untuk tujuh kab/kota (Kabupaten dan Kota Bogor, Depok, Kabupaten Bekasi, Kabupaten dan Kota Tangerang, Tangerang Selatan).
+  - **Kota Bekasi:** publikasi Podes tidak ditemukan. Penggantinya *Kecamatan Dalam Angka 2025* untuk 12 kecamatan (data 2024) dan Tabel 4.2.3 *Kota Bekasi Dalam Angka 2025* (rumah sakit dan puskesmas per kecamatan). Keterbandingan definisinya dengan Tabel 19–21 kab/kota lain **perlu dicek**.
+- **Seri waktu:** kata pengantar menyebut seri ini terbit tiga kali dalam sepuluh tahun (siklus Podes). **Pembaruan 2 Oktober 2026:** edisi 2018 dan 2021 tingkat kab/kota tidak ditemukan lewat pencarian di kedelapan situs BPS; yang ada hanya edisi 2024 dan 2025. Karena itu, seri ini **tidak mendukung** analisis perubahan fungsi layanan, dan C4 tetap bertumpu pada data komuter 2014/2019/2023.
 - **Konsekuensi:**
   - Jumlah fasilitas Podes per kecamatan menjadi sumber **fungsi layanan dasar sampai menengah** yang bersifat sensus dan terbuka.
   - Google Places dan OSM/Overture melengkapi fungsi yang tidak dicakup Podes (layanan bisnis, klinik spesialis, perkantoran) sekaligus menjadi pemeriksa silang.

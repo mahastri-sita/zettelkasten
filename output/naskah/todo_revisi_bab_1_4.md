@@ -2,9 +2,46 @@
 
 > **Objek:** `latex/tga_pwk_jakarta_bab_1_4_final.tex`. Rujukan baris `tex:NNN` mengacu ke versi 27 September 2026 dan akan bergeser setelah edit pertama. Kerjakan dari bawah ke atas, atau cari ulang dengan kata kunci.
 > **Dasar:** `output/naskah/evaluasi_substansi_dan_eksekusi_bab_1_4_draf.md`. Kode dalam kurung (B1, C6, D, …) merujuk ke butir evaluasi itu.
-> **Status:** daftar kerja. Belum ada perubahan pada `.tex`.
+> **Status:** peta kerja, bukan kontrak. Belum ada perubahan pada `.tex`.
 
 Penanda: 📥 = butuh berkas yang belum diunduh; ❓ = butuh keputusan pengguna.
+
+## Cara memakai daftar ini
+
+Daftar ini disusun **sebelum** isi data dan publikasi dibaca. Fungsinya menjaga konteks dan arah, bukan mengunci langkah.
+
+**Terkunci (keputusan pengguna; jangan diubah tanpa bertanya):**
+- Sikap data: sumber terbuka dan OSM lebih dulu; tidak membeli data BPS; tidak bergantung pada pengajuan.
+- Judul memakai "Jabodetabek"; Cianjur tidak dicakup.
+- Desain dua tingkat (kecamatan dan kab/kota) dengan dua domain utama (layanan dan pekerjaan).
+- Inferensi Q3 lewat kemiringan residu terhadap integrasi, bukan tanda residu.
+- Pusat dipilih berdasarkan massa.
+- Satu indikator satu peran.
+- Kawasan hunian dapat menjadi korban *shadow*.
+- CCTV untuk *screenline*; SUMO keluar kecuali dikombinasikan dengan CCTV; Web GIS dan *what-if* tetap.
+- Data Google hanya untuk menghitung.
+- Dua butir yang ditolak pengguna tidak diangkat lagi: kritik "skala" *borrowed size* dan perluasan ke Cianjur.
+
+**Lentur (usulan awal; boleh berubah setelah data dibaca dan didiskusikan):**
+- indikator spesifik, sumber per indikator, dan isi tabel operasionalisasi;
+- bentuk model statistik dan daftar sensitivitas;
+- isi dan jumlah subbab Bab 4;
+- daftar gambar dan pembagian pembuatnya;
+- urutan pengerjaan dan rujukan baris `tex:NNN`.
+
+**Mode kerja yang diharapkan:**
+1. Jelajahi dulu data dan publikasi yang relevan di `source/`.
+2. Laporkan apa yang ditemukan dan apa artinya bagi rencana ini.
+3. Diskusikan dengan pengguna; bertanya itu diharapkan, bukan dihindari.
+4. Baru setelah itu mengedit, per bagian.
+
+Jika data bertentangan dengan suatu butir di daftar ini, angkat ke pengguna dan sesuaikan daftarnya. Jangan memaksakan butirnya, dan jangan diam-diam menyimpang.
+
+**Membaca tabel publikasi.** Banyak tabel BPS berupa gambar. Alat OCR dan aturan verifikasi angkanya ada di `HANDOFF.md` bagian "Cloud environment". Angka hasil OCR dicocokkan dengan baris total sebelum dipakai.
+
+**Status data per commit `34af8cf` (2 Oktober 2026).** Data dari laptop lain sudah di-push dan sudah dicocokkan dengan §0.1.
+- Publikasi BPS ada di **dua tempat** dengan isi identik: `source/official-document/` (nama "Institusi - Tahun - Judul", dengan catatan sumber) dan `source/dataset/` (nama snake_case, tanpa catatan). Pakai salinan `official-document/` sampai duplikatnya dirapikan (§0.5).
+- Yang masih kurang: 12 *Kecamatan Dalam Angka* Kota Bekasi, dan tabel upah formal Banten (tidak tersedia).
 
 ## 0. Prasyarat
 
@@ -12,24 +49,51 @@ Penanda: 📥 = butuh berkas yang belum diunduh; ❓ = butuh keputusan pengguna.
 
 Simpan di `source/official-document/`. Catatan sumber dapat dibuat agen setelah berkasnya ada.
 
-- [ ] *Statistik Komuter Jabodetabek 2023*: https://www.bps.go.id/id/publication/2024/03/28/33b6bef825944e576e7ea3ba/statistik-komuter-jabodetabek-hasil-survei-komuter-jabodetabek-2023.html
-- [ ] *Statistik Komuter Jabodetabek 2019*: https://www.bps.go.id/assets/publication/2019/12/04/eab87d14d99459f4016bb057/statistik-komuter-jabodetabek-2019.html
-- [ ] *Statistik Komuter Jabodetabek 2014*: https://www.bps.go.id/id/publication/2014/03/17/c0deaf751b807b56681a9860/statistik-komuter-jabodetabek--hasil-survei-komuter-jabodetabek-2014-.html
-- [ ] *Wilayah Statistik Metropolitan Indonesia 2024*: https://www.bps.go.id/id/publication/2026/05/29/61f2317887bfbf98ce596e5c/wilayah-statistik-metropolitan-indonesia-2024.html
+- [x] *Statistik Komuter Jabodetabek 2023*: https://www.bps.go.id/id/publication/2024/03/28/33b6bef825944e576e7ea3ba/statistik-komuter-jabodetabek-hasil-survei-komuter-jabodetabek-2023.html
+- [x] *Statistik Komuter Jabodetabek 2019*: https://www.bps.go.id/assets/publication/2019/12/04/eab87d14d99459f4016bb057/statistik-komuter-jabodetabek-2019.html
+- [x] *Statistik Komuter Jabodetabek 2014*: https://www.bps.go.id/id/publication/2014/03/17/c0deaf751b807b56681a9860/statistik-komuter-jabodetabek--hasil-survei-komuter-jabodetabek-2014-.html
+- [x] *Wilayah Statistik Metropolitan Indonesia 2024*: https://www.bps.go.id/id/publication/2026/05/29/61f2317887bfbf98ce596e5c/wilayah-statistik-metropolitan-indonesia-2024.html
 - [ ] *Statistik Potensi Desa/Kelurahan 2024* untuk delapan kab/kota Bodetabek. Cari "Statistik Potensi Desa 2024" di masing-masing situs BPS kab/kota:
-  - [ ] Kabupaten Bogor: https://bogorkab.bps.go.id/id/publication/2024/12/24/1066acf5488fadafaa98eb72/statistik-potensi-desa-kabupaten-bogor.html
-  - [ ] Kota Bogor: https://bogorkota.bps.go.id/en/publication/2024/12/31/88486e40df9103aefbc1763b/publikasi-statistik-potensi-desa-kota--bogor-2024.html
-  - [ ] Kota Depok (depokkota.bps.go.id)
-  - [ ] Kabupaten Bekasi (bekasikab.bps.go.id)
-  - [ ] Kota Bekasi (bekasikota.bps.go.id)
-  - [ ] Kabupaten Tangerang (tangerangkab.bps.go.id)
-  - [ ] Kota Tangerang (tangerangkota.bps.go.id)
-  - [ ] Kota Tangerang Selatan (tangselkota.bps.go.id)
-  - [ ] Opsional: edisi 2021/2018 untuk memeriksa keterbandingan seri (C4)
-- [ ] *Provinsi DKI Jakarta Dalam Angka 2025*, *Jawa Barat Dalam Angka 2025*, dan *Banten Dalam Angka 2025*: penduduk, luas, dan kepadatan kab/kota.
-- [ ] *Dalam Angka* kedelapan kab/kota: penduduk per kecamatan 2024. Termasuk *Kota Depok Dalam Angka 2025* dan *Kota Tangerang Dalam Angka 2024*, yang menjadi sumber Tabel 4.1 saat ini.
-- [ ] *PDRB Kabupaten/Kota di Indonesia 2020–2024*: https://www.bps.go.id/id/publication/2025/06/10/ca543e942579ced46afd603b/produk-domestik-regional-bruto-kabupaten-kota-di-indonesia-2020-2024.html
-- [ ] Tabel penduduk bekerja per kab/kota 2023 (publikasi angkatan kerja provinsi) dan tabel upah rata-rata pekerja formal per kab/kota, bila ada.
+  - [x] Kabupaten Bogor: https://bogorkab.bps.go.id/id/publication/2024/12/24/1066acf5488fadafaa98eb72/statistik-potensi-desa-kabupaten-bogor.html
+  - [x] Kota Bogor: https://bogorkota.bps.go.id/en/publication/2024/12/31/88486e40df9103aefbc1763b/publikasi-statistik-potensi-desa-kota--bogor-2024.html
+  - [x] Kota Depok (depokkota.bps.go.id)
+  - [x] Kabupaten Bekasi (bekasikab.bps.go.id)
+  - [ ] Kota Bekasi (bekasikota.bps.go.id) — **publikasi Podes tidak ditemukan** (pencarian 2 Oktober 2026). Pengganti: *Kecamatan Dalam Angka 2025* untuk 12 kecamatan (data 2024), ditambah Tabel 4.2.3 *Kota Bekasi Dalam Angka 2025* (rumah sakit dan puskesmas per kecamatan).
+    - Edisi 2025 (data 2024):
+      - [ ] Bekasi Barat: https://bekasikota.bps.go.id/en/publication/2025/09/26/988fa1683590a87f810c6d14/kecamatan-bekasi-barat-dalam-angka-2025.html
+      - [ ] Bekasi Selatan: https://bekasikota.bps.go.id/en/publication/2025/09/26/84b7f19ce05eb31a59de0bd0/kecamatan-bekasi-selatan-dalam-angka-2025.html
+      - [ ] Bekasi Timur: https://bekasikota.bps.go.id/en/publication/2025/09/26/88f5d7ea28ad538a191114d3/kecamatan-bekasi-timur-dalam-angka-2025.html
+      - [ ] Rawalumbu: https://bekasikota.bps.go.id/id/publication/2025/09/26/de57d2a5e5ce577fb1844fb1/kecamatan-rawalumbu-dalam-angka-2025.html
+      - [ ] Jatiasih: https://bekasikota.bps.go.id/en/publication/2025/09/26/b248aa1726d5b343daa68fe6/jatiasih-district-in-figures-2025.html
+      - [ ] Jatisampurna: https://bekasikota.bps.go.id/en/publication/2025/09/26/f23690b309af303d9512d617/jatisampurna-district-in-figures-2025.html
+      - [ ] Bantargebang: https://bekasikota.bps.go.id/en/publication/2025/09/26/d901ae5b51f62c976db8db12/bantargebang-district-in-figures-2025.html
+      - [ ] Mustikajaya: https://bekasikota.bps.go.id/en/publication/2025/09/26/18d81764fd0548eba554196c/kecamatan-mustikajaya-dalam-angka-2025.html
+      - [ ] Pondokmelati: https://bekasikota.bps.go.id/en/publication/2025/09/26/eb56ee0ccee33d134c232c12/kecamatan-pondokmelati-dalam-angka-2025.html
+    - Edisi 2025 belum ditemukan; tautan edisi 2024 (cek edisi 2025 di https://bekasikota.bps.go.id/id/publication):
+      - [ ] Bekasi Utara: https://bekasikota.bps.go.id/en/publication/2024/09/26/554c33fc11a60bf7865f47fb/bekasi-utara-district-in-figures-2024.html
+      - [ ] Medan Satria: https://bekasikota.bps.go.id/en/publication/2024/09/26/222d2ed041be6da0d1e212d3/medan-satria-district-in-figures-2024.html
+      - [ ] Pondokgede: https://bekasikota.bps.go.id/en/publication/2024/09/26/c8909d6a52d96096bdcdfdb3/kecamatan-pondokgede-dalam-angka-2024.html
+  - [x] Kabupaten Tangerang (tangerangkab.bps.go.id)
+  - [x] Kota Tangerang (tangerangkota.bps.go.id)
+  - [x] Kota Tangerang Selatan (tangselkota.bps.go.id)
+  - [ ] Opsional: edisi 2021/2018 untuk memeriksa keterbandingan seri (C4) — **tidak ditemukan** untuk kedelapan kab/kota (pencarian 2 Oktober 2026). Seri tingkat kab/kota tampaknya baru ada sejak edisi 2024, sehingga perubahan fungsi layanan antarperiode tidak didukung seri ini.
+- [x] *Provinsi DKI Jakarta Dalam Angka 2025*, *Jawa Barat Dalam Angka 2025*, dan *Banten Dalam Angka 2025*: penduduk, luas, dan kepadatan kab/kota.
+- [x] *Dalam Angka* kedelapan kab/kota: penduduk per kecamatan 2024. Termasuk *Kota Depok Dalam Angka 2025* dan *Kota Tangerang Dalam Angka 2024*, yang menjadi sumber Tabel 4.1 saat ini.
+- [x] *PDRB Kabupaten/Kota di Indonesia 2020–2024*: https://www.bps.go.id/id/publication/2025/06/10/ca543e942579ced46afd603b/produk-domestik-regional-bruto-kabupaten-kota-di-indonesia-2020-2024.html
+- [x] *Keadaan Angkatan Kerja* Agustus 2023 untuk Jawa Barat, Banten, dan DKI (penduduk bekerja per kab/kota).
+- [ ] Tabel upah per kab/kota: **sebagian besar sudah ada** di `source/dataset/` (commit `34af8cf`). Isi PDF belum diperiksa.
+  - [x] DKI, upah pekerja formal per kota 2025 (CSV) dan pekerja informal 2024 (CSV).
+  - [x] DKI, *Worker Profile of DKI Jakarta Province 2023* (PDF).
+  - [x] Jawa Barat, *Pekerja Formal dan Informal* 2023 dan 2024 (PDF). Perlu dicek apakah memuat upah per kab/kota.
+  - [x] Banten, pendapatan pekerja informal 2023 (CSV) dan UMK 2023 (CSV).
+  - [ ] Banten, upah pekerja formal per kab/kota: tidak ditemukan. Pakai UMK sebagai konteks dan catat keterbatasannya.
+  - Tautan asal:
+  - [ ] Jawa Barat, *Pekerja Formal dan Informal 2024*: https://jabar.bps.go.id/en/publication/2025/06/23/7cf2d590c18b1d5d35749a64/pekerja-formal-dan-informal-provinsi-jawa-barat-2024.html
+  - [ ] Jawa Barat, edisi 2023: https://jabar.bps.go.id/en/publication/2024/06/21/981d64e62ad058a22979ebfa/pekerja-formal-dan-informal-provinsi-jawa-barat-2023.html
+  - [ ] DKI, *Profil Pekerja Provinsi DKI Jakarta 2023*: https://jakarta.bps.go.id/en/publication/2024/11/29/a29e22b34b24c47e608039a1/profil-pekerja-provinsi-dki-jakarta-2023.html
+  - [ ] Banten, pendapatan pekerja informal per kab/kota 2023: https://banten.bps.go.id/en/statistics-table/1/ODYjMQ==/rata-rata-pendapatan-bersih-sebulan-pekerja-informal-menurut-kabupaten-kota-dan-lapangan-pekerjaan-utama-di-provinsi-banten-rupiah-2023.html
+  - [ ] Banten, UMK per kab/kota: https://banten.bps.go.id/en/statistics-table/2/NDkxIzI=/upah-minimum-menurut-kabupaten-kota-di-provinsi-banten.html
+  - Tabel upah formal per kab/kota untuk Banten tidak ditemukan.
 
 ### 0.2 Sudah diunduh agen (27 September 2026)
 
@@ -43,6 +107,28 @@ Simpan di `source/official-document/`. Catatan sumber dapat dibuat agen setelah 
 - [ ] Periksa apakah publikasi komuter memuat tabel asal–tujuan 13×13 dan durasi/biaya per kab/kota asal (C1).
 - [ ] Periksa tabel upah per kab/kota (C1).
 - [ ] ❓ **Nama wilayah inti:** data Kemenperin 2025 sudah memakai "Daerah Khusus Jakarta". Pastikan status resmi per 2026, "DKI Jakarta" atau "Provinsi Daerah Khusus Jakarta", lalu seragamkan istilah di seluruh naskah.
+
+### 0.4 Batas kecamatan (untuk peta dan analisis tingkat kecamatan)
+
+geoBoundaries tidak menyediakan batas kecamatan (ADM3) untuk Indonesia; yang ada di vault hanya ADM2.
+
+- [ ] Unduh *Indonesia - Subnational Administrative Boundaries* (COD-AB) dari HDX: https://data.humdata.org/dataset/cod-ab-idn
+  - Sumber BPS; batas per April 2020; memuat Admin 3 (7.069 kecamatan); lisensi CC BY-IGO.
+  - Ukuran 219 MB (GDB) sampai 498 MB (SHP). **Jangan di-commit**, karena melebihi batas 100 MB per berkas di GitHub. Simpan di lokal untuk QGIS; di vault cukup catatan sumber berisi URL dan versi.
+  - Alternatif: layanan batas desa BIG (`geoservices.big.go.id/rbi/rest/services/BATASWILAYAH/Administrasi_AR_KelDesa_10K`), digabung ke kecamatan.
+- [ ] Cocokkan daftar kecamatan pada batas 2020 dengan daftar kecamatan di publikasi 2024 (kemungkinan ada pemekaran atau perubahan nama).
+
+### 0.5 Kebersihan repo (butuh keputusan pengguna; agen tidak menghapus berkas data)
+
+- [ ] ❓ **38 PDF duplikat** (sekitar 600 MB): isi identik antara `source/dataset/*.pdf` dan `source/official-document/BPS … .pdf`. Menurut `source/AGENTS.md`, publikasi statistik resmi termasuk `official-document`. Usul: hapus salinan di `dataset/`.
+- [ ] Tiga PDF baru yang hanya ada di `dataset/` (dua *Pekerja Formal dan Informal* Jawa Barat dan *Worker Profile* DKI) adalah publikasi. Usul: pindahkan ke `official-document/` dan buatkan catatan sumber.
+- [ ] Empat CSV upah baru belum punya catatan sumber pendamping (URL, tanggal akses).
+- [ ] Berkas sampah yang ikut ter-commit:
+  - `source/dataset/statistik_potensi_desa_kabupaten_bogor_2025_qedoefda.pdf.part` (unduhan tidak selesai);
+  - `source/official-document/Pembekalan-Kerja-Praktik-2025.pptx-1.pdf:Zone.Identifier`.
+- [ ] Berkas kembar lain:
+  - dua CSV upah formal Jawa Barat 2019 dengan isi sama;
+  - J21 dan J26 (Henderson dkk. 1996) di `source/journal/`.
 
 ## 1. Keputusan global (berlaku di semua bab)
 
@@ -154,20 +240,68 @@ Simpan di `source/official-document/`. Catatan sumber dapat dibuat agen setelah 
 
 ## 7. Figure (F)
 
-- [ ] **Gambar 1.1:** kotak pertanyaan biasa (bukan belah ketupat besar); maksimal 2 domain; beban langsung ke gerbang; kelas hasil sama dengan tipologi; ekspor vektor; simpan perintah `mmdc`.
-- [ ] **Gambar 2.1:** notasi $S, X, F, \hat F, R, I, Z$; manfaat dan beban sebagai pengukuran sejajar; nama hasil mengikuti Tabel 2.2; perbaiki label "F-hat" yang terpotong.
-- [ ] **Gambar 3.1:** diagram alir vertikal dengan gerbang dan cabang dua tingkat; istilah Indonesia.
-- [ ] **Gambar 4.1 + 4.2:** satu peta dengan proyeksi UTM 48S, isi laut, kabupaten tetangga termasuk Cianjur, inset Jawa, catatan Kepulauan Seribu, koma desimal, label tidak menabrak batas; catat skrip SVG→PNG.
-- [ ] **Gambar 4.3:** gambar ulang jaringan eksisting (garis penuh) dan rencana JUTPI (garis putus); cantumkan halaman sumber.
-- [ ] **Gambar 4.4:** ganti dengan peta kecamatan berdasarkan massa; titik diturunkan dari koordinat, bukan piksel manual.
-- [ ] **Peta baru:**
-  - kepadatan per kecamatan;
-  - % komuter ke inti (WSM);
-  - arus OD kab/kota 2023;
-  - volume nonhunian GHSL;
-  - kawasan industri;
-  - diagram keputusan cadangan di Bab 3.
-- [ ] **Gaya seragam:** satu font dan palet; format caption "Judul. Sumber: … (hlm.)".
+### 7.1 Aturan placeholder
+
+Peta GIS dan gambar ulang jaringan dibuat **manual oleh pengguna** (QGIS atau perangkat lain). Agen tidak membuatnya. Agen memasang placeholder di `.tex` supaya penomoran, rujukan silang, dan tata letak tetap stabil.
+
+- [ ] Tambahkan makro ke `latex/tga-preamble.tex`:
+
+```latex
+\newcommand{\GambarPlaceholder}[2][7cm]{%
+  \fbox{\parbox[c][#1][c]{0.92\linewidth}{\centering\small
+    \textbf{PLACEHOLDER GAMBAR}\\[0.6em]#2}}}
+```
+
+- [ ] Untuk setiap gambar manual, tulis caption dan label final sekarang; hanya isi gambarnya yang ditunda:
+
+```latex
+\begin{figure}[H]
+  \centering
+  \GambarPlaceholder{Peta kepadatan penduduk per kecamatan, 2024.\\
+    Berkas target: \texttt{figures/bab4\_kepadatan\_kecamatan.pdf}}
+  \caption{Kepadatan penduduk per kecamatan di Jabodetabek, 2024. Sumber: …}
+  \label{fig:bab4-kepadatan}
+\end{figure}
+```
+
+- Setelah gambar jadi: simpan di `latex/figures/` dengan nama berkas target, ganti `\GambarPlaceholder{…}` dengan `\includegraphics[width=\textwidth]{…}`, lalu centang di tabel 7.2.
+- **Gambar lama yang isinya bertentangan dengan keputusan baru** (diagram 1.1, 2.1, 3.1 dan peta kandidat 4.4) langsung diganti placeholder.
+- **Gambar lama yang isinya tidak salah** (peta administratif, peta JUTPI) tetap dipakai sementara dan ditandai "sementara" di tabel 7.2.
+
+### 7.2 Daftar gambar
+
+| ID | Berkas target (`latex/figures/`) | Isi | Pembuat | Data | Sementara di naskah | Selesai |
+|---|---|---|---|---|---|---|
+| G1.1 | `bab1_logika_penelitian` | Logika penelitian: kotak pertanyaan biasa; 2 domain; beban langsung ke gerbang; kelas hasil mengikuti tipologi | **Agen** mengedit `.mmd`; render dengan `mmdc` (di lokal bila cloud tidak bisa) | — | Placeholder sampai dirender | [ ] |
+| G2.1 | `bab2_kerangka_konseptual` | Kerangka konseptual: notasi $S, X, F, \hat F, R, I, Z$; manfaat dan beban sejajar; nama hasil mengikuti Tabel 2.2 | **Agen** (`.mmd`) + render | — | Placeholder | [ ] |
+| G3.1 | `bab3_alur_analisis` | Diagram alir vertikal dua tingkat dengan gerbang bukti; istilah Indonesia | **Agen** (`.mmd`) + render | — | Placeholder | [ ] |
+| G3.2 | `bab3_keputusan_cadangan` (baru) | Diagram keputusan: spesifikasi utama → cadangan bernama → pemicunya | **Agen** (`.mmd`) + render | — | Placeholder | [ ] |
+| G4.1 | `bab4_admin_status` | Batas dan status administratif (gabungan Gambar 4.1 dan 4.2) | **Manual** | `source/dataset/geoboundaries_idn_adm2_simplified.geojson` | Gambar lama `bab4_status_administratif.png`; `bab4_admin.png` dihapus dari naskah | [ ] |
+| G4.2 | `bab4_kepadatan_kecamatan` (baru) | Kepadatan penduduk per kecamatan, 2024 | **Manual** | Batas kecamatan (lihat §0.4) + penduduk dan luas per kecamatan dari *Dalam Angka* kab/kota | Placeholder | [ ] |
+| G4.3 | `bab4_komuter_od_2023` (baru) | Arus komuter antar kab/kota 2023 (peta alir atau diagram kord) | **Manual** | Tabel asal–tujuan *Statistik Komuter 2023* + batas ADM2 | Placeholder | [ ] |
+| G4.4 | `bab4_komuter_ke_inti_kecamatan` (baru) | Persentase komuter ke inti per kecamatan | **Manual** | WSM 2024 + batas kecamatan | Placeholder | [ ] |
+| G4.5 | `bab4_terbangun_nonhunian` (baru) | Volume terbangun total dan nonhunian (GHSL, epoch 2020 hasil interpolasi) | **Manual** | Dua ZIP `GHS_BUILT_V_*_R10_C29` di `source/dataset/` | Placeholder | [ ] |
+| G4.6 | `bab4_jaringan_eksisting` | Jaringan eksisting (KRL, MRT, LRT Jabodebek, TransJakarta, tol) garis penuh; rencana JUTPI 2045 garis putus | **Manual** | OSM (rel dan tol), `transjakarta_file_gtfs_2026_09_27.zip`, PDF JUTPI 3 (catat halaman sumber) | Gambar lama `bab4_network_jutpi.png` | [ ] |
+| G4.7 | `bab4_kawasan_industri` (baru) | Kawasan industri formal dan kota baru skala besar | **Manual** | `data_dukung_kawasan_industri_125_ki.zip` (keluarkan Cikembar, Sukabumi); kota baru didigitasi dari OSM/literatur | Placeholder | [ ] |
+| G4.8 | `bab4_pusat_berdasarkan_massa` | Kecamatan kandidat pusat berdasarkan massa (pengganti peta kandidat lama) | **Manual** | Penduduk per kecamatan + luas terbangun GHSL + batas kecamatan; ambang massa dari Bab 3 | Placeholder; `bab4_candidates.png` dihapus dari naskah | [ ] |
+
+**Spesifikasi untuk semua peta manual:**
+- Proyeksi UTM 48S (EPSG:32748); *extent* sama untuk semua peta.
+- Laut diisi warna; kabupaten tetangga (termasuk Cianjur) abu-abu sebagai konteks; inset Pulau Jawa; catatan Kepulauan Seribu.
+- Skala batang dan arah utara; koordinat tepi memakai koma desimal ("6,2° LS").
+- Label tidak menabrak garis batas; penamaan konsisten ("Kota Depok", "Kota Tangerang Selatan").
+- Satu font dan satu palet untuk semua gambar.
+- Ekspor PDF vektor, atau PNG minimal 300 dpi pada lebar 160 mm.
+- Sumber dan tahun data ditulis di caption, bukan di dalam gambar.
+
+**Dukungan agen untuk peta manual:**
+- [ ] ❓ Menyiapkan tabel siap-*join* (CSV per kecamatan dan per kab/kota dengan kode wilayah) dari publikasi BPS, supaya pengguna tinggal menggabungkannya di QGIS. Ini transformasi data, jadi tempatnya di `calculation/` dan **perlu izin eksplisit** pengguna.
+- [ ] Menuliskan caption, sumber, dan catatan batas tafsir untuk setiap gambar di `.tex`.
+
+### 7.3 Gaya seragam
+
+- [ ] Format caption: "Judul. Sumber: … (hlm.)".
+- [ ] Catat perintah render diagram (`mmdc -i <berkas>.mmd -o <berkas>.pdf`) dan langkah ekspor peta, supaya dapat diulang.
 
 ## 8. Penutup revisi
 
