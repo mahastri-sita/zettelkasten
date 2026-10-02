@@ -17,3 +17,6 @@ latex/.build/
 
 # Temporary render and review artifacts
 tmp/
+
+# Windows download metadata
+*:Zone.Identifier
