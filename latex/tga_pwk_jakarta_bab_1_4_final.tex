@@ -9,6 +9,8 @@
 \ifPDFTeX\else\babelfont{rm}[]{Times New Roman}\fi
 \usepackage{hyperref}
 \input{tga-preamble.tex}
+\usepackage{titletoc}
+\titlecontents{chapter}[0pt]{\addvspace{1em}\bfseries}{}{}{\hfill\contentspage}
 \graphicspath{{figures/}}
 
 \hypersetup{
@@ -31,6 +33,7 @@ Analisis Hubungan Integrasi Metropolitan dengan Kematangan Pusat-Pusat Sekunder 
 \renewcommand{\maketitle}{%
   \begin{titlepage}
     \centering
+    \setstretch{1.0}
     \vspace*{0.8cm}
     {\Large \@title\par}
     \vspace{0.55cm}
@@ -65,12 +68,14 @@ Analisis Hubungan Integrasi Metropolitan dengan Kematangan Pusat-Pusat Sekunder 
 % ditambah penyelarasan keterangan gambar dan sisa istilah Bab 1 oleh Claude Opus 5.5 (Anthropic).
 % Berdasarkan audit GPT Sol, GPT Luna, dan Claude Opus; gambar dan tata letak dipertahankan.
 \maketitle
+\pagenumbering{roman}
 \tableofcontents
 \clearpage
 \listoftables
 \clearpage
 \listoffigures
 \clearpage
+\pagenumbering{arabic}
 
 \chapter{Bab 1 Pendahuluan}
 
@@ -139,7 +144,7 @@ Penelitian ini memakai pendekatan kuantitatif dengan analisis spasial-relasional
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{figures/bab1_logika_penelitian.png}
-  \caption{Logika masalah dan objek pengukuran penelitian. Relasi, fungsi relatif per domain, peluang, beban, dan ketergantungan diukur terpisah. Beban dan ketergantungan hanya dipakai pada syarat penggunaan label (pada diagram disebut gerbang bukti), label \textit{shadow} hanya diberikan berdasarkan layanan berorde tinggi (rumah sakit dan perguruan tinggi), dan kelas hasil mengikuti Tabel \ref{tab:tipologi}.}
+  \caption[Logika masalah dan objek pengukuran penelitian]{Logika masalah dan objek pengukuran penelitian. Relasi, fungsi relatif per domain, peluang, beban, dan ketergantungan diukur terpisah. Beban dan ketergantungan hanya dipakai pada syarat penggunaan label (pada diagram disebut gerbang bukti), label \textit{shadow} hanya diberikan berdasarkan layanan berorde tinggi (rumah sakit dan perguruan tinggi), dan kelas hasil mengikuti Tabel \ref{tab:tipologi}.}
   \label{fig:bab1-logika}
 \end{figure}
 
@@ -323,7 +328,7 @@ Hubungan antarlapisan tidak diasumsikan berjalan satu arah. Pusat yang sama dapa
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/bab2_kerangka_konseptual.png}
-  \caption{Kerangka konseptual. Massa $S$ dan karakteristik lokal $X$ membentuk fungsi harapan $\widehat F$; kemiringan fungsi terhadap integrasi $I$ diestimasi bersama $S$, $X$, dan $Z$, sedangkan residu $R$ menunjukkan posisi setiap kecamatan. Peluang, beban, dan ketergantungan diukur sejajar dan terpisah. Kawasan industri menjadi moderator pada domain pekerjaan. Nama hasil mengikuti Tabel \ref{tab:tipologi}. Panah menunjukkan urutan pengukuran, bukan hubungan kausal yang telah terbukti.}
+  \caption[Kerangka konseptual]{Kerangka konseptual. Massa $S$ dan karakteristik lokal $X$ membentuk fungsi harapan $\widehat F$; kemiringan fungsi terhadap integrasi $I$ diestimasi bersama $S$, $X$, dan $Z$, sedangkan residu $R$ menunjukkan posisi setiap kecamatan. Peluang, beban, dan ketergantungan diukur sejajar dan terpisah. Kawasan industri menjadi moderator pada domain pekerjaan. Nama hasil mengikuti Tabel \ref{tab:tipologi}. Panah menunjukkan urutan pengukuran, bukan hubungan kausal yang telah terbukti.}
   \label{fig:bab2-kerangka-konseptual}
 \end{figure}
 
@@ -629,7 +634,7 @@ Subbab \ref{metode-analisis-data}:
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.6\textwidth]{figures/bab3_alur_analisis.png}
-  \caption{Alur analisis dua tingkat dari audit sumber hingga keluaran. Pemeriksaan syarat penggunaan label (pada diagram disebut gerbang bukti) dapat menurunkan kekuatan klaim, dan alternatif analisis berkode (pada diagram disebut cadangan bernama) hanya dipakai bila pemicunya terpenuhi. Spesifikasi pembanding berorientasi DKI ditulis sebagai kembar I-DKI pada diagram.}
+  \caption[Alur analisis dua tingkat dari audit sumber hingga keluaran]{Alur analisis dua tingkat dari audit sumber hingga keluaran. Pemeriksaan syarat penggunaan label (pada diagram disebut gerbang bukti) dapat menurunkan kekuatan klaim, dan alternatif analisis berkode (pada diagram disebut cadangan bernama) hanya dipakai bila pemicunya terpenuhi. Spesifikasi pembanding berorientasi DKI ditulis sebagai kembar I-DKI pada diagram.}
   \label{fig:bab3-alur-analisis}
 \end{figure}
 
@@ -1713,7 +1718,7 @@ Wilayah penelitian terdiri atas sembilan satuan administratif: DKI Jakarta, Kabu
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/bab4_admin_status.png}
-  \caption{Batas dan status administratif wilayah penelitian. Kelas membedakan inti DKI, kota, dan kabupaten untuk pelaporan; kelas tersebut bukan ukuran morfologi atau kematangan pusat. Kabupaten tetangga, termasuk Cianjur, ditampilkan sebagai konteks. Sumber: batas \textcite{hdxcodab2020}; proyeksi UTM 48S.}
+  \caption[Batas dan status administratif wilayah penelitian]{Batas dan status administratif wilayah penelitian. Kelas membedakan inti DKI, kota, dan kabupaten untuk pelaporan; kelas tersebut bukan ukuran morfologi atau kematangan pusat. Kabupaten tetangga, termasuk Cianjur, ditampilkan sebagai konteks. Sumber: batas \textcite{hdxcodab2020}; proyeksi UTM 48S.}
   \label{fig:bab4-status-administratif}
 \end{figure}
 
@@ -1753,7 +1758,7 @@ Pada tingkat kecamatan, penduduk 141 kecamatan non-DKI berkisar dari sekitar 28 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/bab4_kepadatan_kecamatan.png}
-  \caption{Kepadatan penduduk per kecamatan di Jabodetabek. Sumber: \textcite[Lampiran 3]{bpswsm2024}; batas kecamatan \textcite{hdxcodab2020}.}
+  \caption[Kepadatan penduduk per kecamatan di Jabodetabek]{Kepadatan penduduk per kecamatan di Jabodetabek. Sumber: \textcite[Lampiran 3]{bpswsm2024}; batas kecamatan \textcite{hdxcodab2020}.}
   \label{fig:bab4-kepadatan}
 \end{figure}
 
@@ -1863,14 +1868,14 @@ Pada tingkat kecamatan, persentase komuter menuju kawasan inti WSM berkisar dari
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/bab4_komuter_od_2023.png}
-  \caption{Arus komuter antarkabupaten/kota di Jabodetabek yang berjumlah sedikitnya 20.000 orang, 2023. Lima kota administrasi DKI digabung menjadi satu simpul; tebal panah sebanding dengan jumlah komuter, dan garis lengkung menghubungkan asal dan tujuan, bukan rute perjalanan. Sumber: \textcite[Tabel 2]{bpskomuter2023}.}
+  \caption[Arus komuter antarkabupaten/kota di Jabodetabek yang berjumlah sedikitnya 20.000 orang, 2023]{Arus komuter antarkabupaten/kota di Jabodetabek yang berjumlah sedikitnya 20.000 orang, 2023. Lima kota administrasi DKI digabung menjadi satu simpul; tebal panah sebanding dengan jumlah komuter, dan garis lengkung menghubungkan asal dan tujuan, bukan rute perjalanan. Sumber: \textcite[Tabel 2]{bpskomuter2023}.}
   \label{fig:bab4-komuter-od}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/bab4_komuter_ke_inti_kecamatan.png}
-  \caption{Persentase komuter menuju Kawasan Inti Perkotaan 1 per kecamatan, Agustus 2024. Kawasan inti WSM lebih luas daripada DKI Jakarta; arsir merah menandai kecamatan yang tidak termasuk kawasan inti. Sumber: \textcite[Lampiran 13]{bpswsm2024}; batas \textcite{hdxcodab2020}.}
+  \caption[Persentase komuter menuju Kawasan Inti Perkotaan 1 per kecamatan, Agustus 2024]{Persentase komuter menuju Kawasan Inti Perkotaan 1 per kecamatan, Agustus 2024. Kawasan inti WSM lebih luas daripada DKI Jakarta; arsir merah menandai kecamatan yang tidak termasuk kawasan inti. Sumber: \textcite[Lampiran 13]{bpswsm2024}; batas \textcite{hdxcodab2020}.}
   \label{fig:bab4-komuter-inti}
 \end{figure}
 
@@ -1881,7 +1886,7 @@ Morfologi Jabodetabek terbentuk dari inti perkotaan padat, koridor jalan dan rel
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/bab4_terbangun_nonhunian.png}
-  \caption{Volume terbangun total dan nonhunian di Jabodetabek, epoch 2020 hasil interpolasi dengan observasi terdekat 2018, dalam skala logaritmik. Sumber: \textcite{ghsl2023builtv}; batas \textcite{hdxcodab2020}.}
+  \caption[Volume terbangun total dan nonhunian di Jabodetabek, epoch 2020]{Volume terbangun total dan nonhunian di Jabodetabek, epoch 2020 hasil interpolasi dengan observasi terdekat 2018, dalam skala logaritmik. Sumber: \textcite{ghsl2023builtv}; batas \textcite{hdxcodab2020}.}
   \label{fig:bab4-terbangun}
 \end{figure}
 
@@ -1890,14 +1895,14 @@ Jaringan transportasi memberi jalur bagi hubungan metropolitan, tetapi keberadaa
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/bab4_jaringan_eksisting.png}
-  \caption{Jaringan jalan tol, rel kereta, MRT, dan LRT yang beroperasi di Jabodetabek. Sumber: \textcite{osm2026}; batas \textcite{hdxcodab2020}.}
+  \caption[Jaringan jalan tol, rel kereta, MRT, dan LRT yang beroperasi di Jabodetabek]{Jaringan jalan tol, rel kereta, MRT, dan LRT yang beroperasi di Jabodetabek. Sumber: \textcite{osm2026}; batas \textcite{hdxcodab2020}.}
   \label{fig:bab4-jaringan-eksisting}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.90\textwidth]{bab4_network_jutpi.png}
-  \caption{Peta jaringan angkutan umum masa depan yang diusulkan JUTPI 3 untuk Jabodetabek. Sumber: JICA Expert Team dalam \emph{Project Completion Report} 2025, Gambar 2.1 \parencite[hlm.~2-6]{jica2025jutpi}. Peta dibaca sebagai skenario kebijakan, bukan jaringan yang beroperasi atau arus aktual.}
+  \caption[Peta jaringan angkutan umum masa depan yang diusulkan JUTPI 3 untuk Jabodetabek]{Peta jaringan angkutan umum masa depan yang diusulkan JUTPI 3 untuk Jabodetabek. Sumber: JICA Expert Team dalam \emph{Project Completion Report} 2025, Gambar 2.1 \parencite[hlm.~2-6]{jica2025jutpi}. Peta dibaca sebagai skenario kebijakan, bukan jaringan yang beroperasi atau arus aktual.}
   \label{fig:bab4-network}
 \end{figure}
 
@@ -1910,7 +1915,7 @@ Kota baru swasta berskala besar, seperti Bumi Serpong Damai (BSD), Lippo Karawac
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/bab4_kawasan_industri.png}
-  \caption{Kawasan industri formal dan kota baru skala besar di Jabodetabek. Titik kota baru bersifat indikatif hasil \emph{geocoding}. Sumber: \textcite{kemenperin2025ki}; titik kota baru \textcite{osm2026}; batas \textcite{hdxcodab2020}.}
+  \caption[Kawasan industri formal dan kota baru skala besar di Jabodetabek]{Kawasan industri formal dan kota baru skala besar di Jabodetabek. Titik kota baru bersifat indikatif hasil \emph{geocoding}. Sumber: \textcite{kemenperin2025ki}; titik kota baru \textcite{osm2026}; batas \textcite{hdxcodab2020}.}
   \label{fig:bab4-industri}
 \end{figure}
 
@@ -1927,7 +1932,7 @@ Empat dari tujuh kecamatan yang hanya memenuhi kriteria volume hunian memuat kot
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/bab4_pusat_berdasarkan_massa.png}
-  \caption{Kecamatan non-DKI yang ditandai sebagai pusat sekunder berbasis massa. Sumber: penduduk dari \textcite[Lampiran 3]{bpswsm2024}; volume terbangun hunian dari \textcite{ghsl2023builtv}; batas \textcite{hdxcodab2020}; ambang dari Bab 3.}
+  \caption[Kecamatan non-DKI yang ditandai sebagai pusat sekunder berbasis massa]{Kecamatan non-DKI yang ditandai sebagai pusat sekunder berbasis massa. Sumber: penduduk dari \textcite[Lampiran 3]{bpswsm2024}; volume terbangun hunian dari \textcite{ghsl2023builtv}; batas \textcite{hdxcodab2020}; ambang dari Bab 3.}
   \label{fig:bab4-pusat-massa}
 \end{figure}
 
@@ -1978,7 +1983,7 @@ K9 & Bank Kota Tangerang Selatan & Tabel bank menurut kecamatan tidak tercetak d
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{figures/bab3_keputusan_cadangan.png}
-  \caption{Diagram keputusan spesifikasi utama dan alternatif analisis berkode (pada diagram disebut cadangan bernama). Setiap alternatif hanya aktif bila pemicunya terpenuhi; selain itu spesifikasi utama dipertahankan. Kotak bergaris tebal (K1, K6, K9) adalah alternatif yang sudah aktif pada tahap desain.}
+  \caption[Diagram keputusan spesifikasi utama dan alternatif analisis berkode]{Diagram keputusan spesifikasi utama dan alternatif analisis berkode (pada diagram disebut cadangan bernama). Setiap alternatif hanya aktif bila pemicunya terpenuhi; selain itu spesifikasi utama dipertahankan. Kotak bergaris tebal (K1, K6, K9) adalah alternatif yang sudah aktif pada tahap desain.}
   \label{fig:bab3-keputusan-cadangan}
 \end{figure}
 
