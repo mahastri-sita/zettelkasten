@@ -314,3 +314,7 @@ F0 ✓ → F1 ✓ → F2 (agen; 2.7 pengguna, paralel) → F3 → F4.1–4.2 →
 
 - Setelah F6: substansi final untuk pra-TA, dengan catatan peta Bab 4 dan K1 Kota Bekasi bergantung pada unduhan pengguna.
 - Setelah F7: siap diserahkan.
+
+## 10. Putaran 8 — revisi pascaaudit (3 Oktober 2026)
+
+Dipindah ke file tersendiri: `output/naskah/todo_revisi_audit_bab_1_4.md`. Keputusan baru D9 (layanan utama RS + PT; bank terpisah) dan D10 (kemiringan dari model satu tahap) disetujui pengguna; D9 mengubah D7.
