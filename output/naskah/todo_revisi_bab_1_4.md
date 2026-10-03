@@ -59,7 +59,7 @@ Penanda: 📥 = butuh berkas yang belum diunduh; ❓ = butuh keputusan pengguna;
 ### 0.2 Sumber non-BPS
 
 - [x] UU 2/2024 (Pasal 51–55 dan 73 sudah dicatat), Perpres 60/2020, BPTJ 2024, Kemenperin 2025 (ringkasan Jabodetabek dihitung: 21 KI), GTFS TransJakarta, dan GHSL R2023A.
-- [ ] Opsional: catat halaman peta jaringan 2045 di PDF JUTPI 3 (Gambar 4.7).
+- [x] Halaman peta jaringan 2045 JUTPI 3: Gambar 2.1, hlm. 2-6 (PDF hlm. 18), ditemukan lewat OCR tesseract; locator ditambahkan ke caption. Semula: catat halaman peta jaringan 2045 di PDF JUTPI 3 (Gambar 4.7).
 - [ ] 📥 Ekstrak OSM Jawa (Geofabrik) dan rilis Overture bertanggal, untuk perutean dan uji kelengkapan. (Jalan tol dan rel untuk peta G4.6 sudah diambil lewat Overpass, 3 Oktober 2026; ekstrak perutean baru dibutuhkan saat analisis Bab 5.)
 - [ ] 📥 SIRS dan PDDikti (pembobot orde layanan; sensitivitas).
 - [x] Arsip *Google Maps Platform Service Specific Terms* (HTML, versi 10 Juni 2026, diakses 3 Oktober 2026) di `source/official-document/`. Places §14.2 dan Routes §19.2 melarang pemakaian bersama peta non-Google → lapisan Google tidak masuk Web GIS. Arsip ulang pada tanggal pengambilan data sebenarnya.
