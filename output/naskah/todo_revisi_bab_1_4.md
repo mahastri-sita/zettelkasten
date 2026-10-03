@@ -295,10 +295,10 @@ Gerbang F3: pencarian istilah konsisten di seluruh naskah (I, beban, ketergantun
 - [x] 6.1 Evaluasi §16 "Putaran 7": D1–D8, hasil F2, perubahan, batas.
 - [x] 6.2 Centang §9 ini dan tulis ulang `HANDOFF.md`.
 - [ ] 6.3 ❓ Catatan Argument masih merujuk `.tex` per bab (§8). Perlu izin eksplisit pengguna.
-- [ ] 6.4 Commit per fase (F3, F4, F6 terpisah).
+- [x] 6.4 Commit per kelompok: catatan sumber (`1182c61`), naskah (`b3f4a17`), dokumentasi (`a0014cb`), bahasa (F7).
 
 **F7 — Bahasa (terakhir)**
-- [ ] 7.1 `humanizer-academic-id` + EYD setelah substansi terkunci.
+- [x] 7.1 `humanizer-academic-id` + EYD (3 Oktober 2026): kosakata AI nyaris tidak ada; "karena itu" dikurangi dari 20 ke 9; penolakan di ekor kalimat (", bukan ...") dikurangi dari 57 ke 43 (sisanya batas klaim di sel tabel); "berbasis" di luar istilah teknis diganti; pindai EYD umum bersih. Sekaligus diperbaiki satu inkonsistensi: $I^{DKI}$ di Langkah 3 masih disebut uji sensitivitas, kini spesifikasi kembar. Pemolesan per paragraf yang lebih dalam tetap terbuka untuk pengguna.
 
 ### 9.4 Urutan dan status
 
