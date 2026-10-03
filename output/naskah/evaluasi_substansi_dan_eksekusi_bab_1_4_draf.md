@@ -757,3 +757,34 @@ Catatan hitungan: rasio dan asimetri dihitung agen dari matriks yang sudah ditra
 - Kriteria volume hunian untuk penanda pusat dan seluruh hitungan GHSL menunggu batas kecamatan (COD-AB HDX, unduhan pengguna).
 - Enam peta Bab 4 masih placeholder (R6), dan K1 Kota Bekasi menunggu unduhan *Kecamatan Dalam Angka*.
 - Penyuntingan bahasa (humanizer/EYD) belum dijalankan.
+
+## 17. Putaran 7b — tugas yang semula diserahkan ke pengguna (3 Oktober 2026)
+
+Atas instruksi "kerjakan semuanya", agen mengerjakan sendiri butir yang sebelumnya ditandai 🖐/📥/❓.
+
+### 17.1 Temuan yang mengubah naskah
+
+| Butir | Hasil | Akibat |
+|---|---|---|
+| Ketentuan umum Google Maps Platform (26 Agustus 2026) | §3.2.3(c)(iv) **melarang** memakai lintang/bujur Places API untuk analisis *point-in-polygon*. §3.2.3(a)–(b) melarang menyimpan atau mengunduh massal hasil *directions/distance matrix* dan informasi tempat di luar izin *cache* | Desain kepatuhan putaran 7 (titik Places ditumpangkan ke poligon; waktu tempuh Routes disimpan) **melanggar** ketentuan. Diganti: Places Aggregate API (jumlah per poligon, *cache* ≤30 hari, hanya nilai turunan disimpan; syarat khusus §13). Untuk Routes, pemicu K6 terpenuhi sejak desain, sehingga beban kecamatan memakai OSM arus bebas + GTFS dan disyaratkan sejalan dengan beban teramati tingkat 2 |
+| Biaya Places Aggregate API | Batas pemakaian gratis 5.000 permintaan per bulan; kebutuhan sekitar 850 (141 kecamatan × ±6 jenis) | Biaya diperkirakan nol; uji coba satu kab/kota tetap dijalankan |
+| Kota Bekasi (K1) | Dua *Kecamatan Dalam Angka 2025* (Bekasi Barat, Bekasi Selatan) diunduh lewat Chrome headless; keduanya hanya memuat banyaknya kelurahan yang memiliki fasilitas. Sepuluh lainnya ditolak BPS (HTTP 403) | K1 berlaku; publikasi diarsipkan |
+| Batas kecamatan (K2) | COD-AB HDX (GDB, batas April 2020) diunduh; 141/141 kode BPS 2024 cocok, dengan sebaran per kab/kota identik dengan WSM | K2 tidak terpicu |
+| Volume GHSL per kecamatan | Total 4.818,6 juta m³; NRES 11,6%; 22,1% NRES berada di dalam poligon kawasan industri. NRES di luar kawasan industri terbesar: Cikarang Barat, Jatiuwung, Cikupa, Kosambi, Cileungsi | Bab 4 diperbarui; tabel 141 kecamatan di catatan dataset GHSL |
+| Kriteria massa kedua | P75 volume hunian = 44,58 juta m³. Penanda pusat sekunder P75 (penduduk atau volume hunian) = **43 kecamatan** (29 keduanya, 7 penduduk saja, 7 volume hunian saja). Korelasi penduduk–volume hunian 0,86 | Bab 4 dan Gambar 4.8 |
+
+### 17.2 Yang dikerjakan
+
+- **Delapan peta Bab 4** (G4.1–G4.8) dibuat dengan Python (geopandas, rasterio, matplotlib) dalam UTM 48S, Times New Roman, dan koma desimal. Semua peta memuat laut, kabupaten tetangga termasuk Cianjur, inset Jawa, skala, arah utara, dan sumber. Disimpan sebagai PNG 300 dpi. Tidak ada lagi `\GambarPlaceholder`.
+  - G4.6 (jaringan tol, rel, MRT/LRT) dari OSM Overpass, basis data 3 Oktober 2026. Peta JUTPI tetap sebagai gambar rencana terpisah.
+  - G4.7 memakai titik kota baru indikatif dari *geocoding* Nominatim. Sebagian titik jatuh pada objek di dalam kawasan (misalnya sekolah di BSD), sehingga captionnya menyebut titik ini indikatif.
+- Catatan sumber baru: Google Maps Platform Terms of Service; dua *Kecamatan Dalam Angka* Kota Bekasi. Catatan dataset GHSL ditambah tabel turunan 141 kecamatan.
+- Bibliografi: `googlemaps2026tos`, `googlemaps2026pricing`, `osm2026`.
+- Catatan Argument: hanya rujukan file yang diperbarui (dari `.tex` per bab ke file gabungan).
+- Kompilasi lokal: 70 halaman, tanpa galat, tanpa rujukan/sitasi tak terdefinisi.
+
+### 17.3 Batas
+
+- Skrip zonal dan peta disimpan di `latex/figures/scripts/` mengikuti preseden skrip peta lama, bukan sebagai objek `calculation/` (yang butuh izin pengguna).
+- Ekstrak OSM untuk perutean, SIRS/PDDikti, dan data Google belum diambil. Semuanya input analisis Bab 5, bukan syarat naskah Bab 1–4.
+- Sepuluh *Kecamatan Dalam Angka* Kota Bekasi tidak terunduh. Kesimpulan K1 bersandar pada dua publikasi kecamatan dan tabel kota.

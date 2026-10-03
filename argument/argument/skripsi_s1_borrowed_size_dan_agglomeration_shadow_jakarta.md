@@ -8,7 +8,7 @@ Penelitian ini sepenuhnya bertumpu pada proksi dan sumber terbuka, tanpa keterga
 
 Desain penelitian bersifat multitemporal sesuai bukti: perubahan dianalisis pada indikator dengan seri yang sebanding, sedangkan indikator lain dianalisis pada periode yang tersedia. Tahun dasar dan rentang analisis ditetapkan per modul setelah audit; panel lengkap dan satu tahun jangkar untuk semua sumber tidak diasumsikan.
 
-Keputusan ini menggantikan jalur permohonan paralel dan hierarki versi desain berdasarkan akses kelembagaan. Rujukan operasional aktif adalah `latex/bab_1_pendahuluan_final.tex` sampai `latex/bab_4_gambaran_umum_lokasi_penelitian_final.tex`.
+Keputusan ini menggantikan jalur permohonan paralel dan hierarki versi desain berdasarkan akses kelembagaan. Rujukan operasional aktif adalah `latex/tga_pwk_jakarta_bab_1_4_final.tex` (file `.tex` per bab dihapus pada 2 Oktober 2026 dan digabung ke file ini).
 
 ## Keputusan utama
 

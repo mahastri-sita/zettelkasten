@@ -38,7 +38,7 @@ Penanda: 📥 = butuh berkas yang belum diunduh; ❓ = butuh keputusan pengguna;
 - [x] *Statistik Komuter Jabodetabek* 2014, 2019, 2023. Matriks asal–tujuan (Tabel 2) ada di ketiga edisi dan sudah ditranskripsi serta dicocokkan dengan total di catatan sumbernya.
 - [x] *Wilayah Statistik Metropolitan Indonesia 2024*. Lampiran 3 (penduduk, luas, dan kepadatan) dan Lampiran 13 (% komuter ke inti dan delineasi) untuk 141 kecamatan sudah ditranskripsi ke catatan sumber, lengkap dengan kode BPS.
 - [x] *Statistik Potensi Desa* 2024 dan 2025 untuk tujuh kab/kota. Tabel jumlah fasilitas per kecamatan setara antar-kab/kota (nomor tabel bergeser antara edisi kota dan kabupaten).
-- [ ] 📥 **Kota Bekasi:** publikasi Podes tidak ada. Tabel 4.2.1 *Kota Bekasi Dalam Angka 2025* hanya memuat banyaknya kelurahan yang **memiliki** fasilitas, bukan jumlah fasilitas, sehingga tidak setara. Unduh 12 *Kecamatan Dalam Angka 2025* untuk dicek; jika tidak setara, cadangan K1 berlaku (model layanan dengan 129 kecamatan).
+- [x] **Kota Bekasi (selesai 3 Oktober 2026; K1 berlaku):** publikasi Podes tidak ada. Dua *Kecamatan Dalam Angka 2025* (Bekasi Barat, Bekasi Selatan) diunduh lewat Chrome headless dan diarsipkan di `source/official-document/`; keduanya hanya memuat banyaknya kelurahan yang memiliki fasilitas. Sepuluh lainnya ditolak situs BPS (HTTP 403) dan tidak lagi diperlukan untuk keputusan K1. Tabel 4.2.1 *Kota Bekasi Dalam Angka 2025* hanya memuat banyaknya kelurahan yang **memiliki** fasilitas, bukan jumlah fasilitas, sehingga tidak setara. Unduh 12 *Kecamatan Dalam Angka 2025* untuk dicek; jika tidak setara, cadangan K1 berlaku (model layanan dengan 129 kecamatan).
   - Edisi 2025 (data 2024):
     - Bekasi Barat: https://bekasikota.bps.go.id/en/publication/2025/09/26/988fa1683590a87f810c6d14/kecamatan-bekasi-barat-dalam-angka-2025.html
     - Bekasi Selatan: https://bekasikota.bps.go.id/en/publication/2025/09/26/84b7f19ce05eb31a59de0bd0/kecamatan-bekasi-selatan-dalam-angka-2025.html
@@ -59,8 +59,8 @@ Penanda: 📥 = butuh berkas yang belum diunduh; ❓ = butuh keputusan pengguna;
 ### 0.2 Sumber non-BPS
 
 - [x] UU 2/2024 (Pasal 51–55 dan 73 sudah dicatat), Perpres 60/2020, BPTJ 2024, Kemenperin 2025 (ringkasan Jabodetabek dihitung: 21 KI), GTFS TransJakarta, dan GHSL R2023A.
-- [ ] Opsional: catat halaman peta jaringan 2045 di PDF JUTPI 3 (Gambar 4.6 sementara).
-- [ ] 📥 Ekstrak OSM Jawa (Geofabrik) dan rilis Overture bertanggal, untuk perutean dan uji kelengkapan.
+- [ ] Opsional: catat halaman peta jaringan 2045 di PDF JUTPI 3 (Gambar 4.7).
+- [ ] 📥 Ekstrak OSM Jawa (Geofabrik) dan rilis Overture bertanggal, untuk perutean dan uji kelengkapan. (Jalan tol dan rel untuk peta G4.6 sudah diambil lewat Overpass, 3 Oktober 2026; ekstrak perutean baru dibutuhkan saat analisis Bab 5.)
 - [ ] 📥 SIRS dan PDDikti (pembobot orde layanan; sensitivitas).
 - [x] Arsip *Google Maps Platform Service Specific Terms* (HTML, versi 10 Juni 2026, diakses 3 Oktober 2026) di `source/official-document/`. Places §14.2 dan Routes §19.2 melarang pemakaian bersama peta non-Google → lapisan Google tidak masuk Web GIS. Arsip ulang pada tanggal pengambilan data sebenarnya.
 
@@ -75,7 +75,7 @@ Penanda: 📥 = butuh berkas yang belum diunduh; ❓ = butuh keputusan pengguna;
 
 ### 0.4 Batas kecamatan
 
-- [ ] 🖐 Unduh COD-AB HDX (https://data.humdata.org/dataset/cod-ab-idn; 219–498 MB; **jangan di-commit**). Cocokkan kode 2020 dengan kode BPS 2024 di WSM Lampiran 13; bila tidak cocok, cadangan K2 berlaku.
+- [x] COD-AB HDX (GDB 219 MB) diunduh agen 3 Oktober 2026 ke scratchpad, tidak di-commit. Seluruh 141 kode cocok dengan kode BPS 2024 → K2 tidak terpicu. (Teks asli: unduh COD-AB HDX (https://data.humdata.org/dataset/cod-ab-idn; 219–498 MB; **jangan di-commit**).) Cocokkan kode 2020 dengan kode BPS 2024 di WSM Lampiran 13; bila tidak cocok, cadangan K2 berlaku.
 - [x] Tabel siap-*join* tidak dibuat di `calculation/`. Penggantinya adalah tabel 141 kecamatan **dengan kode BPS** (penduduk, luas, kepadatan, % komuter ke inti, dan delineasi) di catatan sumber WSM (`source/official-document/BPS - 2026 - Wilayah Statistik Metropolitan Indonesia 2024.md`). Tabel itu bisa disalin ke CSV untuk QGIS.
 
 ### 0.5 Kebersihan repo (selesai 2 Oktober 2026)
@@ -167,14 +167,14 @@ Nomor gambar di PDF mengikuti urutan kemunculan: diagram keputusan cadangan menj
 | G2.1 | `bab2_kerangka_konseptual` | Kerangka konseptual $S, X, F, \hat F, R, I, Z$ | Agen (`.mmd`) | Dirender PNG | [x] |
 | G3.1 | `bab3_alur_analisis` | Alur dua tingkat dengan gerbang | Agen (`.mmd`) | Dirender PNG (Gambar 3.2 di PDF) | [x] |
 | G3.2 | `bab3_keputusan_cadangan` | Spesifikasi utama → K1–K8 | Agen (`.mmd`) | Dirender PNG (Gambar 3.1 di PDF) | [x] |
-| G4.1 | `bab4_admin_status` | Batas dan status administratif | 🖐 Manual | **Sementara**: `bab4_status_administratif.png` | [ ] |
-| G4.2 | `bab4_kepadatan_kecamatan.pdf` | Kepadatan per kecamatan 2024 | 🖐 Manual; data WSM Lampiran 3 | Placeholder | [ ] |
-| G4.3 | `bab4_komuter_od_2023.pdf` | Arus komuter kab/kota 2023 | 🖐 Manual; data catatan sumber Komuter 2023 | Placeholder | [ ] |
-| G4.4 | `bab4_komuter_ke_inti_kecamatan.pdf` | % komuter ke inti per kecamatan | 🖐 Manual; data WSM Lampiran 13 | Placeholder | [ ] |
-| G4.5 | `bab4_terbangun_nonhunian.pdf` | Volume terbangun total dan nonhunian | 🖐 Manual; GHSL | Placeholder | [ ] |
-| G4.6 | `bab4_jaringan_eksisting` | Jaringan eksisting dan rencana 2045 | 🖐 Manual | **Sementara**: `bab4_network_jutpi.png` | [ ] |
-| G4.7 | `bab4_kawasan_industri.pdf` | Kawasan industri dan kota baru | 🖐 Manual | Placeholder | [ ] |
-| G4.8 | `bab4_pusat_berdasarkan_massa.pdf` | Pusat berbasis massa | 🖐 Manual (setelah volume hunian dihitung) | Placeholder | [ ] |
+| G4.1 | `bab4_admin_status` | Batas dan status administratif | 🖐 Manual | Selesai: `bab4_admin_status.png` | [x] |
+| G4.2 | `bab4_kepadatan_kecamatan.pdf` | Kepadatan per kecamatan 2024 | 🖐 Manual; data WSM Lampiran 3 | Selesai: `bab4_kepadatan_kecamatan.png` | [x] |
+| G4.3 | `bab4_komuter_od_2023.pdf` | Arus komuter kab/kota 2023 | 🖐 Manual; data catatan sumber Komuter 2023 | Selesai: `bab4_komuter_od_2023.png` | [x] |
+| G4.4 | `bab4_komuter_ke_inti_kecamatan.pdf` | % komuter ke inti per kecamatan | 🖐 Manual; data WSM Lampiran 13 | Selesai: `bab4_komuter_ke_inti_kecamatan.png` | [x] |
+| G4.5 | `bab4_terbangun_nonhunian.pdf` | Volume terbangun total dan nonhunian | 🖐 Manual; GHSL | Selesai: `bab4_terbangun_nonhunian.png` | [x] |
+| G4.6 | `bab4_jaringan_eksisting` | Jaringan eksisting dan rencana 2045 | 🖐 Manual | Selesai: `bab4_jaringan_eksisting.png + JUTPI terpisah` | [x] |
+| G4.7 | `bab4_kawasan_industri.pdf` | Kawasan industri dan kota baru | 🖐 Manual | Selesai: `bab4_kawasan_industri.png` | [x] |
+| G4.8 | `bab4_pusat_berdasarkan_massa.pdf` | Pusat berbasis massa | 🖐 Manual (setelah volume hunian dihitung) | Selesai: `bab4_pusat_berdasarkan_massa.png` | [x] |
 
 **Spesifikasi peta manual** (tidak berubah):
 - UTM 48S (EPSG:32748) dengan *extent* yang sama;
@@ -195,7 +195,7 @@ Nomor gambar di PDF mengikuti urutan kemunculan: diagram keputusan cadangan menj
 - [x] Uji kompilasi di cloud (XeLaTeX + Biber, font pengganti TeX Gyre Termes) berhasil: 62 halaman, tanpa galat, tanpa rujukan atau sitasi yang tidak terdefinisi, tiga *overfull box* <3 pt.
 - [x] Kompilasi final lokal dengan Times New Roman (3 Oktober 2026): 66 halaman, tanpa galat (§9 F5).
 - [x] Berkas isu per bab ditandai historis.
-- [ ] ❓ `argument/argument/skripsi_s1_…md` masih menyebut file `.tex` per bab sebagai "rujukan operasional aktif". Mengedit Argument perlu izin eksplisit.
+- [x] `argument/argument/skripsi_s1_…md` diperbarui 3 Oktober 2026 (hanya rujukan file; atas instruksi "kerjakan semuanya"). Sebelumnya menyebut file `.tex` per bab sebagai "rujukan operasional aktif". Mengedit Argument perlu izin eksplisit.
 
 ## 9. Putaran 7 — tambal regresi dan kunci substansi (3 Oktober 2026)
 
@@ -249,7 +249,7 @@ Yang **bukan** regresi: penghapusan OD sintetis, peta kandidat lima titik, dan *
 - [x] 2.5 Bibliografi: verifikasi `sadewoetal2021`, `volgmannrusche2020`, `andani2021`; cek sampel perbaikan bundle (`otsuka2025`, `burgermeijers2016`, `sadewoetal2023`).
 - [x] 2.6 Jumlah kawasan industri tidak konsisten: TODO §5 menulis **21 KI**, sedangkan Tabel 3.3 naskah menulis **30 rekaman**. Cek ulang shapefile Kemenperin dan seragamkan; catat juga satuan `Luas_IUKI` (§0.3).
   - Hasil: 30 rekaman = 21 kawasan unik (19 di luar DKI); `Luas_IUKI` ≈ hektare luas izin; masker memakai poligon.
-- [ ] 2.7 🖐 Unduh 12 *Kecamatan Dalam Angka* Kota Bekasi (§0.1) dan COD-AB HDX (§0.4). Menentukan K1/K2; tidak menahan F3.
+- [x] 2.7 Kota Bekasi: 2 dari 12 diunduh, format terkonfirmasi → K1 berlaku. COD-AB HDX diunduh; 141/141 kode cocok → K2 tidak terpicu.
 
 Gerbang F2: 2.1–2.4 dan 2.6 selesai; temuan yang mengubah desain dibawa kembali ke F1.
 
@@ -284,7 +284,7 @@ Gerbang F3: pencarian istilah konsisten di seluruh naskah (I, beban, ketergantun
 **F4 — Gambar dan bibliografi**
 - [x] 4.1 (agen) Perbarui `.mmd` Gambar 1.1, 2.1, 3.x bila alur berubah (ketergantungan, moderator kawasan industri); render ulang.
 - [x] 4.2 (agen) Perbaikan bib dari F2.5; entri syarat Google Routes.
-- [ ] 4.3 🖐 Peta G4.1–G4.8 (§7.2). Prioritas: G4.2 kepadatan, G4.4 % komuter ke inti, G4.8 pusat berbasis massa. Ini satu-satunya penahan status "draf" (R6).
+- [x] 4.3 Peta G4.1–G4.8 dibuat agen (3 Oktober 2026; Python/geopandas, UTM 48S, Times New Roman, PNG 300 dpi). Semula: peta G4.1–G4.8 (§7.2). Prioritas: G4.2 kepadatan, G4.4 % komuter ke inti, G4.8 pusat berbasis massa. Ini satu-satunya penahan status "draf" (R6).
 
 **F5 — Kompilasi dan pemeriksaan (agen, lokal)**
 - [x] 5.1 XeLaTeX + Biber dengan Times New Roman; tanpa galat dan tanpa rujukan/sitasi tak terdefinisi (menggantikan 🖐 di §8).
@@ -294,7 +294,7 @@ Gerbang F3: pencarian istilah konsisten di seluruh naskah (I, beban, ketergantun
 **F6 — Dokumentasi (agen)**
 - [x] 6.1 Evaluasi §16 "Putaran 7": D1–D8, hasil F2, perubahan, batas.
 - [x] 6.2 Centang §9 ini dan tulis ulang `HANDOFF.md`.
-- [ ] 6.3 ❓ Catatan Argument masih merujuk `.tex` per bab (§8). Perlu izin eksplisit pengguna.
+- [x] 6.3 Rujukan file di catatan Argument diperbarui (hanya satu kalimat).
 - [x] 6.4 Commit per kelompok: catatan sumber (`1182c61`), naskah (`b3f4a17`), dokumentasi (`a0014cb`), bahasa (F7).
 
 **F7 — Bahasa (terakhir)**

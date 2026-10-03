@@ -148,7 +148,7 @@ Hasil penelitian bersifat observasional dan asosiasional. Penelitian ini tidak m
 
 \section{Metode penelitian}
 
-Penelitian ini memakai pendekatan kuantitatif dengan analisis spasial-relasional dalam desain studi kasus tunggal Jabodetabek. Tingkat kecamatan memakai persentase komuter menuju kawasan inti sebagai integrasi, jumlah fasilitas berorde tinggi dan volume terbangun nonhunian di luar kawasan industri sebagai fungsi, serta penduduk sebagai massa. Fungsi harapan dibentuk dari kecamatan lain di luar DKI melalui prediksi \emph{leave-one-out}, lalu residu fungsi diregresikan terhadap integrasi dengan kontrol penjelasan alternatif. Beban diukur dari waktu tempuh jam sibuk menuju pusat Jakarta. Tingkat kabupaten/kota memakai matriks asal-tujuan komuter 2014, 2019, dan 2023 untuk membaca arah, asimetri, relasi antarpinggiran, dan perubahannya. Rincian sumber, operasionalisasi, dan langkah analisis disajikan pada Bab 3.
+Penelitian ini memakai pendekatan kuantitatif dengan analisis spasial-relasional dalam desain studi kasus tunggal Jabodetabek. Tingkat kecamatan memakai persentase komuter menuju kawasan inti sebagai integrasi, jumlah fasilitas berorde tinggi dan volume terbangun nonhunian di luar kawasan industri sebagai fungsi, serta penduduk sebagai massa. Fungsi harapan dibentuk dari kecamatan lain di luar DKI melalui prediksi \emph{leave-one-out}, lalu residu fungsi diregresikan terhadap integrasi dengan kontrol penjelasan alternatif. Beban diukur dari waktu tempuh jaringan menuju pusat Jakarta dan dicocokkan dengan beban perjalanan yang dilaporkan komuter. Tingkat kabupaten/kota memakai matriks asal-tujuan komuter 2014, 2019, dan 2023 untuk membaca arah, asimetri, relasi antarpinggiran, dan perubahannya. Rincian sumber, operasionalisasi, dan langkah analisis disajikan pada Bab 3.
 
 \section{Manfaat penelitian}
 
@@ -415,7 +415,7 @@ Label \textit{borrowed size} atau \textit{agglomeration shadow} digunakan hanya 
   \item Arah hubungan tidak bergantung pada satu proksi lemah atau satu keputusan teknis.
 \end{enumerate}
 
-Khusus label \textit{agglomeration shadow}, defisit fungsi pada domain layanan harus disertai beban \emph{atau} ketergantungan yang diukur terpisah dari residu \emph{dan} dari integrasi. Beban diambil dari waktu tempuh jam sibuk, durasi, atau biaya perjalanan. Ketergantungan diambil dari asimetri pasangan arus dengan DKI dan rasio arus masuk terhadap arus keluar pada tingkat kabupaten/kota. Orientasi arus menuju inti tidak dipakai sebagai beban maupun ketergantungan, karena gejala yang sama sudah membentuk integrasi. Tanpa bukti tersebut, hasil disebut terintegrasi tetapi tertinggal. Jika salah satu syarat gagal, istilah yang dipakai adalah aksesibilitas potensial, surplus atau defisit fungsi relatif, ketergantungan komuter, atau pola yang belum terklasifikasi.
+Khusus label \textit{agglomeration shadow}, defisit fungsi pada domain layanan harus disertai beban \emph{atau} ketergantungan yang diukur terpisah dari residu \emph{dan} dari integrasi. Beban diambil dari waktu tempuh jaringan, durasi, atau biaya perjalanan. Ketergantungan diambil dari asimetri pasangan arus dengan DKI dan rasio arus masuk terhadap arus keluar pada tingkat kabupaten/kota. Orientasi arus menuju inti tidak dipakai sebagai beban maupun ketergantungan, karena gejala yang sama sudah membentuk integrasi. Tanpa bukti tersebut, hasil disebut terintegrasi tetapi tertinggal. Jika salah satu syarat gagal, istilah yang dipakai adalah aksesibilitas potensial, surplus atau defisit fungsi relatif, ketergantungan komuter, atau pola yang belum terklasifikasi.
 
 Sebelum label dipakai, penjelasan alternatif berikut diperiksa (Tabel \ref{tab:penjelasan-alternatif}).
 
@@ -432,7 +432,7 @@ Kawasan industri formal & Diperlakukan sebagai jalur produksi yang diuji. Volume
 Kota baru swasta skala besar (misalnya BSD, Lippo Karawaci, Lippo Cikarang, Jababeka, Sentul) & Penanda keberadaan dari sumber terbuka dan literatur\\
 Status administratif dan usia daerah otonom (misalnya pembentukan Kota Tangerang Selatan pada 2008) & Kontrol kota/kabupaten dan tahun pembentukan\\
 Ketersediaan lahan & Pangsa lahan terbangun\\
-Aksesibilitas jaringan tol dan rel & Tidak dipakai sebagai integrasi. Akses kumulatif ke tempat kerja menjadi manfaat, sedangkan waktu tempuh jam sibuk ke pusat Jakarta menjadi beban; satu ukuran tidak memegang kedua peran\\
+Aksesibilitas jaringan tol dan rel & Tidak dipakai sebagai integrasi. Akses kumulatif ke tempat kerja menjadi manfaat, sedangkan waktu tempuh ke pusat Jakarta menjadi beban; satu ukuran tidak memegang kedua peran\\
 Bias cakupan pemetaan OSM & Pemeriksaan kelengkapan terhadap Overture dan jumlah fasilitas Podes\\
 Topografi Kabupaten Bogor bagian selatan & Kemiringan lereng rata-rata dari DEM terbuka\\
 \bottomrule
@@ -568,7 +568,8 @@ Rantai inti penelitian dikunci sebagai satu spesifikasi utama:
   penjelasan alternatif $Z$, dan label \emph{shadow} hanya ditarik dari
   domain layanan;
 \item
-  beban kecamatan adalah waktu tempuh jam sibuk menuju pusat Jakarta; dan
+  beban kecamatan adalah waktu tempuh jaringan menuju pusat Jakarta yang
+  urutannya harus sejalan dengan beban teramati tingkat 2; dan
 \item
   relasi tingkat 2, termasuk relasi antarpinggiran dan ketergantungan,
   dibaca dari matriks asal-tujuan komuter 13 unit.
@@ -596,10 +597,10 @@ Kode & Bagian rantai & Pemicu & Cadangan \\
 \endlastfoot
 K1 & Layanan Kota Bekasi & Publikasi Statistik Potensi Desa Kota Bekasi tidak tersedia; tabel \emph{Kecamatan Dalam Angka} tidak memuat jumlah fasilitas dengan definisi Podes & Model layanan memakai 129 kecamatan; 12 kecamatan Kota Bekasi dilaporkan dari lapisan Google dan OSM sebagai profil terpisah \\
 K2 & Batas kecamatan & Kode atau batas kecamatan HDX (2020) tidak cocok dengan kode BPS 2024 & Gabungkan batas desa BIG ke kecamatan; jika tetap tidak cocok, satukan kecamatan pemekaran ke unit 2020 dan catat korespondensinya \\
-K3 & Lapisan Google Places & Biaya, cakupan, atau kepatuhan syarat layanan tidak dapat dipenuhi & Lapisan Places dikeluarkan; analisis ``tanpa Google'' menjadi spesifikasi utama domain layanan \\
+K3 & Lapisan Google (Places Aggregate API) & Biaya, cakupan, atau kepatuhan syarat layanan tidak dapat dipenuhi & Lapisan Google dikeluarkan; analisis ``tanpa Google'' menjadi spesifikasi utama domain layanan \\
 K4 & Model layanan & Model binomial negatif tidak konvergen atau diagnostik residunya buruk & Model Poisson kuasi-\emph{likelihood}; jika tetap gagal, regresi log-linear pada $\ln(F+0{,}5)$ \\
 K5 & Proksi pekerjaan & Sampel validasi menunjukkan salah klasifikasi nonhunian GHSL yang besar & Luas jejak bangunan nonhunian OSM/Overture setelah pemeriksaan kelengkapan \\
-K6 & Beban dan akses tingkat 1 & Waktu tempuh jam sibuk Google Routes tidak dapat diperoleh karena biaya, kuota, atau syarat layanan & Waktu tempuh arus bebas hasil perutean OSM, diberi label beban potensial; bila perutean OSM juga gagal, jarak jaringan dengan asumsi kecepatan per kelas jalan \\
+K6 & Beban dan akses tingkat 1 & Waktu tempuh dengan lalu lintas tidak dapat diperoleh secara sah; \textbf{pemicu terpenuhi pada tahap desain} karena syarat layanan Google melarang menyimpan dan mengunduh massal hasil Routes API & Waktu tempuh arus bebas hasil perutean OSM, diberi label beban potensial, ditambah waktu tempuh terjadwal GTFS; bila perutean OSM gagal, jarak jaringan dengan asumsi kecepatan per kelas jalan \\
 K7 & Modul CCTV & Rekaman tidak tersedia, izin tidak diperoleh, atau galat hitung di atas ambang yang ditetapkan & Modul CCTV dikeluarkan; Q1 tingkat koridor tidak dijawab dan Q1 hanya dibaca dari matriks kabupaten/kota \\
 K8 & Inferensi Q3 & Residu menunjukkan autokorelasi spasial kuat atau heterogenitas antarkabupaten/kota & Model galat spasial atau efek tetap kabupaten/kota sebagai spesifikasi pembanding; kemiringan dibaca dari keduanya \\
 K9 & Bank Kota Tangerang Selatan & Tabel bank menurut kecamatan tidak tercetak dalam publikasi Statistik Potensi Desa Kota Tangerang Selatan 2024 & Jumlah bank umum per kecamatan dari edisi 2025, diberi catatan beda sumber; uji ketahanan tanpa bank untuk seluruh kecamatan \\
@@ -909,19 +910,18 @@ Statistik Komuter Jabodetabek \parencite{bpskomuter2014,bpskomuter2019,bpskomute
 Wilayah Statistik Metropolitan Indonesia 2024 \parencite{bpswsm2024} & MPD Agustus 2024 & Kecamatan & Persentase komuter menuju kawasan inti (Lampiran 13); penduduk, luas, dan kepadatan (Lampiran 3). Tersedia. \\
 Statistik Potensi Desa/Kelurahan 2024 per kab/kota \parencite{bpspodeskabbogor2024,bpspodeskotabogor2024,bpspodesdepok2024,bpspodeskabbekasi2024,bpspodeskabtangerang2024,bpspodeskotatangerang2024,bpspodestangsel2024} & Podes 2024 & Kecamatan & Jumlah rumah sakit, perguruan tinggi, dan bank per kecamatan pada bab infrastruktur. Tersedia untuk tujuh kab/kota; tidak ada untuk Kota Bekasi; tabel bank Kota Tangerang Selatan tidak tercetak (K9). \\
 Statistik Potensi Desa 2025 per kab/kota & 2025 & Kecamatan & Pemutakhiran 2025; pemeriksa stabilitas jumlah fasilitas. Tersedia; definisi sebagian tabel berubah. \\
-\emph{Kota Bekasi Dalam Angka 2025} \parencite{bpskotabekasi2025} dan \emph{Kecamatan Dalam Angka 2025} & 2024 & Kecamatan & Pengganti layanan Kota Bekasi. Tabel kesehatan \emph{Dalam Angka} hanya memuat banyaknya kelurahan yang memiliki fasilitas; \emph{Kecamatan Dalam Angka} belum diunduh. \\
+\emph{Kota Bekasi Dalam Angka 2025} \parencite{bpskotabekasi2025} dan \emph{Kecamatan Dalam Angka 2025} & 2024 & Kecamatan & Pengganti layanan Kota Bekasi. Tabel kesehatan, pendidikan, dan bank pada \emph{Dalam Angka} kota maupun \emph{Kecamatan Dalam Angka} (Bekasi Barat dan Bekasi Selatan diperiksa) hanya memuat banyaknya kelurahan yang memiliki fasilitas, sehingga cadangan K1 berlaku. \\
 GHSL GHS-BUILT-V R2023A \parencite{ghsl2023builtv} & Epoch 2020 & Sel 3 detik busur & Volume terbangun total dan nonhunian. Tersedia; lisensi CC BY 4.0. \\
 Peta Kawasan Industri Eksisting \parencite{kemenperin2025ki} & 2025 & Poligon & 30 rekaman untuk 21 kawasan industri formal di Jabodetabek, 19 di antaranya di luar DKI. Luas izin tercatat dalam hektare; masker memakai poligon. Tersedia; lisensi pakai ulang tidak tercantum. \\
-Google Maps Platform, Places API & Tangkapan 2026 & Titik, disimpan sebagai jumlah per kecamatan & Layanan bisnis, klinik spesialis, dan tempat kerja. Belum diambil; tunduk pada syarat layanan. \\
-Google Maps Platform, Routes API & Tangkapan 2026, hari kerja jam sibuk pagi & Pasangan titik berat kecamatan--titik acuan & Waktu tempuh dengan lalu lintas sebagai beban tingkat 1. Belum diambil; uji biaya pada satu kab/kota lebih dulu; tunduk pada syarat layanan. \\
-OpenStreetMap dan Overture & Tangkapan bertanggal & Titik, garis, poligon & Jaringan jalan dan rel untuk perutean, pemeriksaan kelengkapan, dan masker fasilitas layanan. Belum diunduh untuk seluruh wilayah. \\
+Google Maps Platform, Places Aggregate API & Tangkapan 2026 & Jumlah per poligon kecamatan, disimpan paling lama 30 hari & Layanan bisnis, klinik spesialis, dan tempat kerja; yang disimpan hanya nilai turunan. Belum diambil; uji biaya pada satu kab/kota lebih dulu. \\
+OpenStreetMap dan Overture & Tangkapan bertanggal & Titik, garis, poligon & Jaringan jalan dan rel untuk perutean, pemeriksaan kelengkapan, dan masker fasilitas layanan. Jalan tol dan rel diambil lewat Overpass (3 Oktober 2026) untuk peta Bab 4; ekstrak untuk perutean belum diunduh. \\
 GTFS statis TransJakarta \parencite{transjakarta2026gtfs} & Berkas 2026 & Rute dan halte & Waktu tempuh angkutan umum terjadwal sebagai sensitivitas. Tersedia; lisensi belum jelas. \\
 SIRS Kemenkes dan PDDikti & Tangkapan 2026 & Fasilitas & Kelas rumah sakit, tempat tidur, dan perguruan tinggi untuk pembobot orde layanan. Belum diambil. \\
 Laporan BPTJ \parencite{bptj2024} & Kajian 2023--2024 & 182 kecamatan & Bangkitan dan tarikan perjalanan (Tabel 7.1) sebagai pemeriksa proksi pekerjaan. Tersedia. \\
 Keadaan Angkatan Kerja Agustus 2023 \parencite{bpskakdki2024,bpskakjabar2024,bpskakbanten2024} & 2023 & Kab/kota & Penduduk bekerja untuk kalibrasi pekerjaan menurut tempat kerja. Tersedia. \\
 Tabel upah dan upah minimum BPS & 2019--2025 & Kab/kota & Konteks manfaat. Tersedia sebagian; upah formal Banten tidak ada. \\
 \emph{Dalam Angka} provinsi dan kab/kota; PDRB kab/kota \parencite{bpsdki2025,bpsjabar2025,bpsbanten2025,bpspdrb2025} & 2024 & Kab/kota & Penduduk, kepadatan, PDRB, dan struktur sektor untuk Bab 4. Tersedia. \\
-Batas kecamatan HDX COD-AB \parencite{hdxcodab2020} & Batas 2020 & Kecamatan & Geometri untuk agregasi dan peta. Belum diunduh; terlalu besar untuk disimpan di repositori. \\
+Batas kecamatan HDX COD-AB \parencite{hdxcodab2020} & Batas 2020 & Kecamatan & Geometri untuk agregasi dan peta. Diunduh 3 Oktober 2026; seluruh 141 kode kecamatan BPS 2024 cocok, sehingga K2 tidak terpicu. Tidak disimpan di repositori karena ukurannya. \\
 Rekaman CCTV lalu lintas & Sesuai rekaman & Titik ruas & Hitungan terarah di batas DKI. Sumber, izin, dan cakupan waktu belum dicatat. \\
 \end{longtable}
 \endgroup
@@ -961,13 +961,13 @@ Integrasi $I$ & Persentase komuter menuju Kawasan Inti Perkotaan 1 & WSM 2024, L
  & Integrasi khusus DKI $I^{\mathrm{DKI}}$ & WSM 2024 dan Statistik Komuter 2023 & 2023--2024 & S & Spesifikasi kembar Q3 \\
 Fungsi layanan $F_L$ & Jumlah rumah sakit, perguruan tinggi, dan bank umum & Statistik Potensi Desa 2024 & Podes 2024 & D & Hasil, domain layanan \\
  & Kelas rumah sakit dan tempat tidur; perguruan tinggi terakreditasi & SIRS; PDDikti & 2026 & D & Pembobot orde (sensitivitas) \\
- & Jumlah layanan bisnis dan klinik spesialis & Google Places, hanya jumlah per kecamatan & 2026 & P & Hasil tambahan, orde tinggi \\
+ & Residu jumlah layanan bisnis dan klinik spesialis & Google Places Aggregate API; jumlah mentah dihapus dalam 30 hari & 2026 & P & Hasil tambahan, orde tinggi \\
 Fungsi pekerjaan $F_P$ & Volume terbangun nonhunian di luar poligon kawasan industri & GHSL R2023A, komponen NRES; Kemenperin 2025 & Epoch 2020 & P & Hasil, domain pekerjaan \\
  & Volume nonhunian total, termasuk kawasan industri & GHSL R2023A & Epoch 2020 & P & Sensitivitas \\
- & Jumlah tempat kerja Google; tarikan perjalanan BPTJ & Google Places; BPTJ & 2026; 2023 & D/S & Pemeriksa $F_P$, bukan hasil \\
+ & Korelasi jumlah tempat kerja Google dengan $F_P$; tarikan perjalanan BPTJ & Google Places Aggregate API; BPTJ & 2026; 2023 & D/S & Pemeriksa $F_P$, bukan hasil \\
 Fungsi harapan dan residu & $\widehat F_{ik}$ dari $S_i$ dan $X_i$ dengan prediksi \emph{leave-one-out}; $R_{ik}$ selisih logaritmik & Perhitungan & -- & S & Hasil Q2; variabel terikat Q3 \\
 Manfaat $A$ & Akses kumulatif ke volume nonhunian dalam 60 menit waktu tempuh jaringan & OSM, perutean, GHSL & 2026 & P & Profil manfaat \\
-Beban $D$ & Waktu tempuh jam sibuk pagi hari kerja dari titik berat penduduk ke Bundaran HI & Google Routes API; cadangan OSM arus bebas (K6) & 2026 & P & Profil beban; gerbang \emph{shadow} \\
+Beban $D$ & Waktu tempuh jaringan arus bebas dari titik berat penduduk ke Bundaran HI (beban potensial); waktu tempuh terjadwal angkutan umum & OSM, perutean (K6); GTFS TransJakarta & 2026 & P & Profil beban; gerbang \emph{shadow} bila sejalan dengan beban tingkat 2 \\
 \end{longtable}
 \endgroup
 
@@ -1126,8 +1126,9 @@ mewakili layanan kesehatan, pendidikan tinggi, dan keuangan yang
 melayani lebih dari satu kecamatan. Pertokoan, pasar, dan akomodasi
 dikeluarkan dari spesifikasi utama karena lebih dekat dengan layanan
 harian atau wisata, tetapi diuji sebagai sensitivitas. Nilai nol tetap
-ikut dianalisis. Lapisan Google Places menambahkan layanan bisnis dan
-klinik spesialis yang tidak dicakup Podes. Tabel bank menurut kecamatan
+ikut dianalisis. Lapisan Google Places Aggregate API menambahkan layanan bisnis
+dan klinik spesialis yang tidak dicakup Podes, dalam bentuk nilai
+turunan sesuai syarat layanannya. Tabel bank menurut kecamatan
 tidak tercetak dalam publikasi Kota Tangerang Selatan 2024, sehingga
 jumlah bank tujuh kecamatan di kota tersebut diambil dari edisi 2025
 (cadangan K9). Komposisi gabungan selalu diuji juga per jenis fasilitas,
@@ -1155,54 +1156,59 @@ eksplorasi \emph{what-if}. Statusnya penguatan opsional.
 \subsection{Etika, lisensi, dan
 keamanan}\label{etika-lisensi-dan-keamanan}
 
-\textbf{Google Maps Platform.} Data Google hanya dipakai untuk
-menghitung. Syarat khusus layanan versi 10 Juni 2026 mengizinkan
-\emph{place ID} disimpan, membatasi penyimpanan koordinat paling lama
-30 hari, dan melarang konten Places API maupun Routes API dipakai
-bersama peta non-Google \parencite[§3, §14, §19]{googlemaps2026terms}.
-Ketentuan umum layanan tentang penyimpanan atribut lain belum diperiksa
-dan diperlakukan secara hati-hati. Desain kepatuhannya adalah sebagai
-berikut:
+\textbf{Google Maps Platform.} Ketentuan layanan Google Maps Platform
+versi 26 Agustus 2026 melarang lintang dan bujur dari Places API dipakai
+sebagai masukan analisis \emph{point-in-polygon}, melarang mengunduh
+massal hasil \emph{directions}, \emph{distance matrix}, dan informasi
+tempat, serta melarang menyimpan konten Google di luar izin
+\emph{cache} \parencite[§3.2.3]{googlemaps2026tos}. Syarat khusus layanan
+juga melarang konten Places dan Routes dipakai bersama peta non-Google
+\parencite[§14, §19]{googlemaps2026terms}. Karena itu, penghitungan
+fasilitas dengan menumpangkan titik Places ke poligon kecamatan tidak
+dipakai, dan waktu tempuh Routes tidak disimpan per kecamatan.
+
+Jalur yang tersisa adalah Places Aggregate API, yang mengembalikan
+jumlah tempat menurut jenis untuk suatu area tanpa memberikan titiknya.
+Syarat khususnya mengizinkan jumlah tersebut disimpan paling lama 30 hari
+hanya untuk menghitung nilai turunan milik pengguna yang sudah diubah
+secara substansial dan tidak dapat dipakai sebagai pengganti jumlah
+aslinya \parencite[§13]{googlemaps2026terms}. Desain kepatuhannya adalah
+sebagai berikut:
 
 \begin{enumerate}
 \tightlist
 \item
-  titik dari Places API langsung ditumpangkan ke poligon kecamatan dalam
-  proses yang sama, jauh di bawah batas 30 hari;
+  jumlah layanan bisnis, klinik spesialis, dan tempat kerja diminta per
+  poligon kecamatan dari Places Aggregate API;
 \item
-  yang disimpan hanya tabel berkolom \texttt{place\_id},
-  \texttt{kode\_kecamatan}, dan \texttt{kategori\_penelitian}, skrip,
-  tanggal pengambilan, dan daftar jenis tempat yang dicari, sedangkan
-  koordinat, nama, dan alamat tidak disimpan;
+  dalam 30 hari, jumlah tersebut diubah menjadi residu terhadap massa
+  lokal dan korelasi pemeriksa; yang disimpan hanya nilai turunan itu,
+  sedangkan jumlah mentah dihapus;
 \item
-  deduplikasi antarpotongan area pencarian memakai \emph{place ID};
+  nilai turunan tidak ditampilkan pada Web GIS atau peta berpeta dasar
+  non-Google, dan hanya dilaporkan dalam tabel dan analisis statistik;
+  dan
 \item
-  lapisan turunan Google tidak ditampilkan pada Web GIS atau peta
-  berpeta dasar non-Google; nilainya hanya dilaporkan dalam tabel dan
-  analisis statistik; dan
-\item
-  berbagi data dilakukan dalam bentuk tabel agregat dan daftar
-  \emph{place ID}.
+  tanggal permintaan, jenis tempat, dan skrip disimpan untuk
+  dokumentasi, tetapi jumlah mentah tidak dibagikan.
 \end{enumerate}
 
-Penyimpanan pasangan \emph{place ID} dengan kode kecamatan dan kategori
-buatan sendiri merupakan wilayah abu-abu dalam syarat layanan dan
-dinyatakan terbuka di sini. Pengambilan ulang lewat \emph{place ID}
-dapat menghasilkan isi yang berubah, sehingga reproduktibilitasnya
-terbatas. Uji coba dilakukan pada satu kabupaten/kota untuk mengukur
-jumlah panggilan sebelum seluruh Jabodetabek diproses.
+Dengan 141 kecamatan dan sekitar enam jenis tempat, kebutuhan
+permintaan diperkirakan sekitar 850 permintaan, di bawah batas pemakaian
+gratis bulanan 5.000 permintaan pada daftar harga Oktober 2026
+\parencite{googlemaps2026pricing}. Uji coba pada satu kabupaten/kota
+tetap dijalankan untuk memastikan jumlah permintaan sebenarnya.
 
-\textbf{Google Routes API.} Waktu tempuh jam sibuk diminta untuk satu
-pasangan titik per kecamatan, yaitu titik berat penduduk menuju
-Bundaran HI, pada hari kerja pagi, sehingga jumlah panggilan kecil.
-Yang disimpan hanya nilai waktu tempuh per kecamatan beserta tanggal dan
-jam permintaan, tanpa geometri rute dan tanpa koordinat dari layanan.
-Apakah nilai turunan ini masih tergolong konten Google tidak dinyatakan
-dalam syarat khusus layanan, sehingga penyimpanannya dinyatakan terbuka
-sebagai wilayah abu-abu. Sesuai larangan pemakaian bersama peta
-non-Google, waktu tempuh ini tidak dipetakan di atas peta dasar OSM dan
-hanya muncul dalam tabel serta analisis. Bila biaya atau syarat layanan
-tidak dapat dipenuhi, cadangan K6 berlaku.
+Batas waktu 30 hari membuat jumlah mentah tidak dapat diperiksa ulang
+oleh pihak lain, sehingga lapisan ini hanya menjadi pelengkap. Analisis
+utama domain layanan tetap memakai Podes, dan analisis tanpa lapisan
+Google selalu dilaporkan. Bila biaya atau syarat layanan berubah,
+cadangan K3 berlaku.
+
+\textbf{Waktu tempuh.} Karena hasil Routes API tidak boleh disimpan atau
+diunduh massal, pemicu cadangan K6 sudah terpenuhi pada tahap desain.
+Beban kecamatan diukur dari perutean OSM dan GTFS (Langkah 5), dan
+Google tidak dipakai untuk waktu tempuh.
 
 \textbf{Lisensi lain.} GHSL berlisensi CC BY 4.0. Batas COD-AB HDX
 berlisensi CC BY-IGO. Status lisensi GTFS TransJakarta dan data kawasan
@@ -1384,15 +1390,19 @@ A_i = \sum_{j} V_j \,\mathbf{1}\bigl(t_{ij} \leq 60\ \text{menit}\bigr),
 Jabodetabek, termasuk DKI, dan $t_{ij}$ sebagai waktu tempuh jaringan
 arus bebas dari titik berat penduduk kecamatan $i$ hasil perutean OSM.
 Ambang 45 dan 90 menit diuji sebagai sensitivitas. Beban adalah waktu
-tempuh jam sibuk pagi hari kerja dari titik berat penduduk kecamatan ke
-titik acuan inti DKI, yaitu Bundaran Hotel Indonesia, menurut Google
-Routes API dengan lalu lintas. Waktu tempuh ke kecamatan DKI terdekat
-menjadi sensitivitas. Waktu tempuh arus bebas OSM tidak memuat
-kemacetan dan hampir setara dengan jarak, sehingga hanya dipakai
-sebagai cadangan K6 dengan label beban potensial. Waktu tempuh terjadwal
-GTFS TransJakarta dipakai sebagai pemeriksa moda angkutan umum. Akses
-kumulatif $A_i$ tetap memakai perutean OSM agar beban dan manfaat tidak
-dibentuk dari satu ukuran yang sama. Keduanya berstatus P.
+tempuh jaringan dari titik berat penduduk kecamatan ke titik acuan inti
+DKI, yaitu Bundaran Hotel Indonesia, hasil perutean OSM. Waktu tempuh
+dengan lalu lintas tidak dapat dipakai karena syarat layanan Google
+melarang menyimpan hasil Routes API (cadangan K6, Subbab
+\ref{etika-lisensi-dan-keamanan}). Waktu tempuh arus bebas tidak memuat
+kemacetan dan hampir setara dengan jarak, sehingga diberi label beban
+potensial. Waktu tempuh ke kecamatan DKI terdekat menjadi sensitivitas,
+dan waktu tempuh terjadwal GTFS TransJakarta dipakai sebagai pemeriksa
+moda angkutan umum. Akses kumulatif $A_i$ dan beban sama-sama dihitung
+dari perutean OSM, tetapi keduanya konstruksi berbeda: akses
+menjumlahkan peluang dalam ambang waktu, sedangkan beban mengukur jarak
+waktu ke satu titik inti. Korelasi keduanya dilaporkan, dan keduanya
+berstatus P.
 
 \textbf{Tingkat 2.} Beban adalah pangsa komuter dengan lama perjalanan
 sedikitnya 90 menit dan pangsa komuter dengan biaya pergi-pulang
@@ -1533,7 +1543,7 @@ Uji ketahanan berikut dijalankan pada garis dasar yang sama:
   integrasi khusus DKI hasil estimasi $I^{\mathrm{DKI}}$, yang juga
   dilaporkan sebagai spesifikasi kembar;
 \item
-  beban arus bebas OSM sebagai pengganti beban jam sibuk;
+  waktu tempuh terjadwal GTFS sebagai pengganti waktu tempuh arus bebas;
 \item
   kemiringan di dalam kabupaten/kota (efek tetap);
 \item
@@ -1689,12 +1699,12 @@ Wilayah penelitian terdiri atas sembilan satuan administratif: DKI Jakarta, Kabu
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.98\textwidth]{bab4_status_administratif.png}
-  \caption{Batas dan status administratif wilayah penelitian (gambar sementara). Sumber geometri: geoBoundaries gbOpen Indonesia ADM2, build 2023 dengan batas tahun 2020 \parencite{geoboundaries2023}. Kelas membedakan inti DKI, kota, dan kabupaten untuk pelaporan; kelas tersebut bukan ukuran morfologi atau kematangan pusat. Peta final memakai proyeksi UTM 48S dan memuat kabupaten tetangga, termasuk Cianjur, sebagai konteks.}
+  \includegraphics[width=\textwidth]{figures/bab4_admin_status.png}
+  \caption{Batas dan status administratif wilayah penelitian. Kelas membedakan inti DKI, kota, dan kabupaten untuk pelaporan; kelas tersebut bukan ukuran morfologi atau kematangan pusat. Kabupaten tetangga, termasuk Cianjur, ditampilkan sebagai konteks. Sumber: batas \textcite{hdxcodab2020}; proyeksi UTM 48S.}
   \label{fig:bab4-status-administratif}
 \end{figure}
 
-Batas administrasi dipakai untuk menempatkan hasil pada kewenangan yang sesuai. Hubungan ekonomi, perjalanan, dan pelayanan dapat melintasi garis tersebut. Geometri ADM2 hanya dipakai untuk peta konteks. Analisis tingkat kecamatan memakai batas kecamatan BPS (Bab 3).
+Batas administrasi dipakai untuk menempatkan hasil pada kewenangan yang sesuai. Hubungan ekonomi, perjalanan, dan pelayanan dapat melintasi garis tersebut. Peta memakai batas COD-AB HDX berkode BPS (batas April 2020). Seluruh 141 kode kecamatan BPS 2024 pada WSM cocok dengan kode batas tersebut, sehingga cadangan K2 tidak diperlukan.
 
 \section{Demografi dan massa lokal}
 
@@ -1729,8 +1739,7 @@ Pada tingkat kecamatan, penduduk 141 kecamatan non-DKI berkisar dari sekitar 28 
 
 \begin{figure}[H]
   \centering
-  \GambarPlaceholder{Peta kepadatan penduduk per kecamatan, 2024.\\
-    Berkas target: \texttt{figures/bab4\_kepadatan\_kecamatan.pdf}}
+  \includegraphics[width=\textwidth]{figures/bab4_kepadatan_kecamatan.png}
   \caption{Kepadatan penduduk per kecamatan di Jabodetabek. Sumber: \textcite[Lampiran 3]{bpswsm2024}; batas kecamatan \textcite{hdxcodab2020}.}
   \label{fig:bab4-kepadatan}
 \end{figure}
@@ -1840,38 +1849,42 @@ Pada tingkat kecamatan, persentase komuter menuju kawasan inti WSM berkisar dari
 
 \begin{figure}[H]
   \centering
-  \GambarPlaceholder{Peta alir komuter antarkabupaten/kota, 2023.\\
-    Berkas target: \texttt{figures/bab4\_komuter\_od\_2023.pdf}}
-  \caption{Arus komuter antarkabupaten/kota di Jabodetabek, 2023. Sumber: \textcite[Tabel 2]{bpskomuter2023}.}
+  \includegraphics[width=\textwidth]{figures/bab4_komuter_od_2023.png}
+  \caption{Arus komuter antarkabupaten/kota di Jabodetabek yang berjumlah sedikitnya 20.000 orang, 2023. Lima kota administrasi DKI digabung menjadi satu simpul; tebal panah sebanding dengan jumlah komuter. Sumber: \textcite[Tabel 2]{bpskomuter2023}.}
   \label{fig:bab4-komuter-od}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \GambarPlaceholder{Peta persentase komuter menuju kawasan inti per kecamatan, 2024.\\
-    Berkas target: \texttt{figures/bab4\_komuter\_ke\_inti\_kecamatan.pdf}}
-  \caption{Persentase komuter menuju Kawasan Inti Perkotaan 1 per kecamatan, Agustus 2024. Kawasan inti WSM lebih luas daripada DKI Jakarta. Sumber: \textcite[Lampiran 13]{bpswsm2024}.}
+  \includegraphics[width=\textwidth]{figures/bab4_komuter_ke_inti_kecamatan.png}
+  \caption{Persentase komuter menuju Kawasan Inti Perkotaan 1 per kecamatan, Agustus 2024. Kawasan inti WSM lebih luas daripada DKI Jakarta; arsir merah menandai kecamatan yang tidak termasuk kawasan inti. Sumber: \textcite[Lampiran 13]{bpswsm2024}; batas \textcite{hdxcodab2020}.}
   \label{fig:bab4-komuter-inti}
 \end{figure}
 
 \section{Morfologi terbangun dan jaringan transportasi}
 
-Morfologi Jabodetabek terbentuk dari inti perkotaan padat, koridor jalan dan rel, kawasan industri, perumahan berskala besar, serta ruang terbuka yang tersisa di antaranya. Studi tentang dekonsentrasi manufaktur dan perluasan jalan tol menunjukkan bahwa perkembangan tersebut tidak seragam antarwilayah \parencite{hudalahetal2013,pratamaetal2022}. Volume terbangun total dan nonhunian dari GHSL R2023A memperlihatkan potret kapasitas fisik tersebut \parencite{ghsl2023builtv}. Data epoch 2020 merupakan hasil interpolasi dengan observasi terdekat 2018, sehingga dibaca sebagai potret, bukan perubahan.
+Morfologi Jabodetabek terbentuk dari inti perkotaan padat, koridor jalan dan rel, kawasan industri, perumahan berskala besar, serta ruang terbuka yang tersisa di antaranya. Studi tentang dekonsentrasi manufaktur dan perluasan jalan tol menunjukkan bahwa perkembangan tersebut tidak seragam antarwilayah \parencite{hudalahetal2013,pratamaetal2022}. Volume terbangun total dan nonhunian dari GHSL R2023A memperlihatkan potret kapasitas fisik tersebut \parencite{ghsl2023builtv}. Data epoch 2020 merupakan hasil interpolasi dengan observasi terdekat 2018, sehingga dibaca sebagai potret, bukan perubahan. Di 141 kecamatan non-DKI, volume terbangun berjumlah sekitar 4,82 miliar m³, dan 11,6 persen di antaranya nonhunian. Sekitar 22 persen volume nonhunian tersebut berada di dalam poligon kawasan industri formal, terutama di Kabupaten Bekasi. Di luar kawasan industri, volume nonhunian terbesar terdapat di Cikarang Barat, Jatiuwung, Cikupa, Kosambi, dan Cileungsi (dihitung dari \textcite{ghsl2023builtv} dan \textcite{kemenperin2025ki}).
 
 \begin{figure}[H]
   \centering
-  \GambarPlaceholder{Peta volume terbangun total dan nonhunian (GHSL R2023A, epoch 2020).\\
-    Berkas target: \texttt{figures/bab4\_terbangun\_nonhunian.pdf}}
-  \caption{Volume terbangun total dan nonhunian di Jabodetabek, epoch 2020 hasil interpolasi dengan observasi terdekat 2018. Sumber: \textcite{ghsl2023builtv}.}
+  \includegraphics[width=\textwidth]{figures/bab4_terbangun_nonhunian.png}
+  \caption{Volume terbangun total dan nonhunian di Jabodetabek, epoch 2020 hasil interpolasi dengan observasi terdekat 2018, dalam skala logaritmik. Sumber: \textcite{ghsl2023builtv}; batas \textcite{hdxcodab2020}.}
   \label{fig:bab4-terbangun}
 \end{figure}
 
-Jaringan transportasi memberi jalur bagi hubungan metropolitan, tetapi keberadaan jaringan tidak sama dengan penggunaannya. Jaringan yang beroperasi meliputi KRL Commuter Line, MRT Jakarta, LRT Jabodebek, TransJakarta, dan jalan tol, sedangkan JUTPI 3 menyusun usulan jaringan angkutan umum dengan horizon 2045 \parencite{jica2025jutpi}. Pada peta final, jaringan eksisting dari OSM dan GTFS TransJakarta digambar dengan garis penuh dan rencana 2045 dengan garis putus. Peta usulan JUTPI 3 di bawah dipakai sementara sebagai konteks kebijakan.
+Jaringan transportasi memberi jalur bagi hubungan metropolitan, tetapi keberadaan jaringan tidak sama dengan penggunaannya. Jaringan yang beroperasi meliputi KRL Commuter Line, MRT Jakarta, LRT Jabodebek, TransJakarta, dan jalan tol, sedangkan JUTPI 3 menyusun usulan jaringan angkutan umum dengan horizon 2045 \parencite{jica2025jutpi}. Gambar \ref{fig:bab4-jaringan-eksisting} memperlihatkan jaringan jalan tol dan rel yang beroperasi menurut OpenStreetMap. Jalan tol membentang ke timur melewati Cikarang dan ke barat melewati Balaraja, sedangkan rel KRL menghubungkan DKI dengan Bogor, Bekasi, Tangerang, dan Serpong. MRT dan LRT masih terpusat di DKI, dengan LRT Jabodebek menjangkau Bekasi dan Cibubur. Usulan JUTPI 3 pada Gambar \ref{fig:bab4-network} ditempatkan terpisah karena merupakan rencana, bukan jaringan yang beroperasi. Rute TransJakarta tidak digambar pada peta ini; datanya dipakai untuk waktu tempuh terjadwal (Bab 3).
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/bab4_jaringan_eksisting.png}
+  \caption{Jaringan jalan tol, rel kereta, MRT, dan LRT yang beroperasi di Jabodetabek. Sumber: \textcite{osm2026}; batas \textcite{hdxcodab2020}.}
+  \label{fig:bab4-jaringan-eksisting}
+\end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.90\textwidth]{bab4_network_jutpi.png}
-  \caption{Peta jaringan angkutan umum masa depan yang diusulkan JUTPI 3 untuk Jabodetabek (gambar sementara). Sumber: JICA Expert Team dalam \emph{Project Completion Report} 2025 \parencite{jica2025jutpi}. Peta dibaca sebagai skenario kebijakan, bukan jaringan yang beroperasi atau arus aktual.}
+  \caption{Peta jaringan angkutan umum masa depan yang diusulkan JUTPI 3 untuk Jabodetabek. Sumber: JICA Expert Team dalam \emph{Project Completion Report} 2025 \parencite{jica2025jutpi}. Peta dibaca sebagai skenario kebijakan, bukan jaringan yang beroperasi atau arus aktual.}
   \label{fig:bab4-network}
 \end{figure}
 
@@ -1883,21 +1896,19 @@ Kota baru swasta berskala besar, seperti Bumi Serpong Damai (BSD), Lippo Karawac
 
 \begin{figure}[H]
   \centering
-  \GambarPlaceholder{Peta kawasan industri formal dan kota baru skala besar.\\
-    Berkas target: \texttt{figures/bab4\_kawasan\_industri.pdf}}
-  \caption{Kawasan industri formal dan kota baru skala besar di Jabodetabek. Sumber: \textcite{kemenperin2025ki}; lokasi kota baru dari OSM dan literatur.}
+  \includegraphics[width=\textwidth]{figures/bab4_kawasan_industri.png}
+  \caption{Kawasan industri formal dan kota baru skala besar di Jabodetabek. Titik kota baru bersifat indikatif hasil \emph{geocoding}. Sumber: \textcite{kemenperin2025ki}; titik kota baru \textcite{osm2026}; batas \textcite{hdxcodab2020}.}
   \label{fig:bab4-industri}
 \end{figure}
 
 \section{Pusat sekunder berbasis massa}
 
-Pusat sekunder ditandai dengan aturan massa yang ditetapkan pada Bab 3, yaitu kuartil teratas penduduk atau volume terbangun hunian di antara 141 kecamatan non-DKI. Berdasarkan penduduk saja, ambang kuartil teratas adalah 193.899 jiwa, dan 36 kecamatan berada pada atau di atas ambang tersebut. Delapan di antaranya berada di Kota Bekasi, tujuh di Kabupaten Bekasi, enam di Kabupaten Bogor, lima di Kota Depok, tiga masing-masing di Kota Bogor, Kabupaten Tangerang, dan Kota Tangerang Selatan, dan satu di Kota Tangerang \parencite[dihitung dari Lampiran 3]{bpswsm2024}. Basis penduduk kecamatan Banten telah diperiksa, sehingga ambang penduduk ini dibekukan. Daftar akhir ditetapkan setelah kriteria volume terbangun hunian dihitung pada batas kecamatan. Penandaan ini tidak memakai fungsi, kawasan industri, atau arus, sehingga kecamatan hunian berpenduduk besar ikut terpilih.
+Pusat sekunder ditandai dengan aturan massa yang ditetapkan pada Bab 3, yaitu kuartil teratas penduduk atau volume terbangun hunian di antara 141 kecamatan non-DKI. Berdasarkan penduduk saja, ambang kuartil teratas adalah 193.899 jiwa, dan 36 kecamatan berada pada atau di atas ambang tersebut. Delapan di antaranya berada di Kota Bekasi, tujuh di Kabupaten Bekasi, enam di Kabupaten Bogor, lima di Kota Depok, tiga masing-masing di Kota Bogor, Kabupaten Tangerang, dan Kota Tangerang Selatan, dan satu di Kota Tangerang \parencite[dihitung dari Lampiran 3]{bpswsm2024}. Basis penduduk kecamatan Banten telah diperiksa, sehingga ambang penduduk ini dibekukan. Ambang kuartil teratas volume terbangun hunian adalah sekitar 44,6 juta m³ per kecamatan. Dengan kedua kriteria, 43 kecamatan ditandai sebagai pusat sekunder berbasis massa: 29 melampaui kedua ambang, 7 hanya ambang penduduk (antara lain Babelan, Cibitung, dan Rajeg), dan 7 hanya ambang volume hunian (antara lain Serpong, Serpong Utara, dan Kelapa Dua). Empat dari tujuh kecamatan yang hanya lolos ambang volume hunian memuat kota baru skala besar, yaitu Serpong, Serpong Utara, Kelapa Dua, dan Cikarang Selatan. Korelasi penduduk dan volume hunian antarkecamatan adalah 0,86 (Gambar \ref{fig:bab4-pusat-massa}). Penandaan ini tidak memakai fungsi, kawasan industri, atau arus, sehingga kecamatan hunian berpenduduk besar ikut terpilih.
 
 \begin{figure}[H]
   \centering
-  \GambarPlaceholder{Peta kecamatan yang ditandai sebagai pusat sekunder berbasis massa.\\
-    Berkas target: \texttt{figures/bab4\_pusat\_berdasarkan\_massa.pdf}}
-  \caption{Kecamatan non-DKI yang ditandai sebagai pusat sekunder berbasis massa. Sumber: penduduk dari \textcite[Lampiran 3]{bpswsm2024}; volume terbangun hunian dari \textcite{ghsl2023builtv}; ambang dari Bab 3.}
+  \includegraphics[width=\textwidth]{figures/bab4_pusat_berdasarkan_massa.png}
+  \caption{Kecamatan non-DKI yang ditandai sebagai pusat sekunder berbasis massa. Sumber: penduduk dari \textcite[Lampiran 3]{bpswsm2024}; volume terbangun hunian dari \textcite{ghsl2023builtv}; batas \textcite{hdxcodab2020}; ambang dari Bab 3.}
   \label{fig:bab4-pusat-massa}
 \end{figure}
 
