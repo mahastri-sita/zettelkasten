@@ -3,10 +3,10 @@ flowchart TB
     L1["1. Audit sumber, registri asal-usul,<br/>pembekuan garis dasar"] --> L2["2. Penandaan pusat sekunder<br/>berbasis massa (penduduk, volume hunian)"]
     L2 --> L3a["3a. Integrasi kecamatan<br/>% komuter ke kawasan inti (WSM 2024)<br/>× status inti; kembar I-DKI"]
     L2 --> L3b["3b. Relasi kab/kota<br/>matriks komuter 2014, 2019, 2023<br/>orientasi, antarpinggiran, ketergantungan"]
-    L3a --> L4["4. Fungsi harapan dan residu per domain<br/>layanan: binomial negatif · pekerjaan: log-linear<br/>prediksi leave-one-out"]
-    L4 --> L5["5. Manfaat, beban, ketergantungan<br/>indikator terpisah, dua tingkat"]
+    L3a --> L4["4. Fungsi harapan dan residu per hasil<br/>RS+PT, bank: binomial negatif (129) · stok nonhunian: Poisson QML (141)<br/>prediksi leave-one-out untuk profil kecamatan"]
+    L4 --> L5["5. Peluang, beban, ketergantungan<br/>indikator terpisah, dua tingkat"]
     L3b --> L5
-    L5 --> L6["6. Kemiringan residu terhadap integrasi<br/>kontrol Z; label shadow hanya dari layanan"]
+    L5 --> L6["6. Kemiringan model satu tahap<br/>I × status inti; wild cluster bootstrap<br/>label shadow hanya dari RS + PT"]
     L6 --> G1{{"Gerbang bukti terpenuhi?"}}
     G1 -- ya --> L6b["Tipologi ringkasan<br/>tujuh kategori"]
     G1 -- tidak --> L6c["Klaim diturunkan:<br/>profil, surplus/defisit relatif"]

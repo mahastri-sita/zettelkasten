@@ -1,4 +1,4 @@
-%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial, Helvetica, sans-serif", "fontSize": "15px", "primaryColor": "#E6E6E6", "primaryTextColor": "#000000", "primaryBorderColor": "#000000", "lineColor": "#000000", "secondaryColor": "#D9D9D9", "tertiaryColor": "#F2F2F2", "clusterBkg": "#FAFAFA", "clusterBorder": "#000000", "background": "#FFFFFF", "edgeLabelBackground": "#FFFFFF"}, "flowchart": {"curve": "basis", "nodeSpacing": 30, "rankSpacing": 40, "htmlLabels": true, "wrappingWidth": 330}}}%%
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial, Helvetica, sans-serif", "fontSize": "18px", "primaryColor": "#E6E6E6", "primaryTextColor": "#000000", "primaryBorderColor": "#000000", "lineColor": "#000000", "secondaryColor": "#D9D9D9", "tertiaryColor": "#F2F2F2", "clusterBkg": "#FAFAFA", "clusterBorder": "#000000", "background": "#FFFFFF", "edgeLabelBackground": "#FFFFFF"}, "flowchart": {"curve": "basis", "nodeSpacing": 30, "rankSpacing": 40, "htmlLabels": true, "wrappingWidth": 330}}}%%
 flowchart TB
     subgraph L1["Garis dasar lokal"]
         S["Massa lokal S"]
@@ -6,14 +6,14 @@ flowchart TB
     end
     S --> FH["Fungsi harapan F̂ = f(S, X)"]
     X --> FH
-    F["Fungsi aktual F<br/>layanan; pekerjaan di luar kawasan industri"] --> R["Residu fungsi relatif<br/>R = ln F − ln F̂"]
+    F["Fungsi aktual F<br/>RS + PT; bank terpisah;<br/>stok nonhunian di luar kawasan industri"] --> R["Residu fungsi relatif<br/>R = ln F − ln F̂"]
     FH --> R
     I["Integrasi metropolitan I<br/>arus teramati; interaksi status inti"] --> T
-    M["Kawasan industri<br/>moderator (domain pekerjaan)"] -.-> T["Kemiringan R terhadap I"]
+    M["Kawasan industri<br/>moderator (domain pekerjaan)"] -.-> T["Kemiringan F terhadap I<br/>model satu tahap dengan S, X, Z"]
     R --> T
     Z["Penjelasan alternatif Z"] --> T
     subgraph L3["Pengukuran sejajar"]
-        A["Manfaat A<br/>akses, penghasilan"]
+        A["Peluang A<br/>akses potensial; profil penghasilan"]
         D["Beban D<br/>waktu tempuh, durasi, biaya"]
         GG["Ketergantungan G<br/>asimetri, rasio masuk/keluar"]
     end

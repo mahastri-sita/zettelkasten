@@ -9,3 +9,5 @@ Dibuat 3 Oktober 2026 (putaran 7b). Urutan:
 Lingkungan: Python 3.11 dengan geopandas 1.2, rasterio 1.4, rasterstats, matplotlib, pyogrio (GDAL 3.12). Raster GHSL dan ZIP Kemenperin diekstrak dari `source/dataset/` ke `<work>/ghsl` dan `<work>/ki`.
 
 `bps_link.js` (puppeteer) hanya mengambil tautan "Unduh Publikasi" dari halaman BPS; situs menolak akses beruntun.
+
+Catatan prosedur (3 Oktober 2026): `zonal.py` menjumlahkan sel GHSL asli (EPSG:4326) dengan aturan pusat sel (`all_touched=False`), tanpa reproyeksi dan tanpa bobot pecahan luas. Sensitivitas `all_touched=True` menaikkan total 5,7% (batas atas efek tepi). Uraian ini sama dengan Bab 3 §Harmonisasi dan catatan dataset GHSL.

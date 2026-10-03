@@ -35,8 +35,11 @@
 \usepackage{bookmark}
 \usepackage{xurl}
 \usepackage{csquotes}
-\usepackage[backend=biber,style=authoryear,maxcitenames=2,maxbibnames=99,uniquelist=false]{biblatex}
+\usepackage[backend=biber,style=authoryear,maxcitenames=2,maxbibnames=99,uniquelist=false,uniquename=false]{biblatex}
 \DeclareLanguageMapping{indonesian}{english}
+\DefineBibliographyStrings{english}{and={dan},andothers={dkk\adddot}}
+\DefineBibliographyStrings{indonesian}{and={dan},andothers={dkk\adddot}}
+\AtBeginDocument{\renewcommand*{\finalnamedelim}{\addspace dan\space}}
 \addbibresource{references.bib}
 \DeclareFieldFormat{title}{#1}
 \DeclareFieldFormat[article,inbook,incollection,inproceedings,inreference,patent,thesis,unpublished]{title}{#1}
@@ -57,7 +60,7 @@
   \urlstyle{same}%
 }
 
-\setstretch{1.18}
+\setstretch{1.5}
 \setlength{\parindent}{1.1em}
 \setlength{\parskip}{0.28em}
 \setlength{\emergencystretch}{2.5em}
@@ -88,11 +91,13 @@
   \renewcommand{\headrulewidth}{0pt}
 }
 
-\renewcommand{\arraystretch}{1.28}
+\renewcommand{\arraystretch}{1.2}
 \setlength{\extrarowheight}{1pt}
 \setlength{\tabcolsep}{4pt}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setlength{\LTpre}{0.5em}
 \setlength{\LTpost}{0.8em}
-\AtBeginEnvironment{longtable}{\footnotesize\setlength{\tabcolsep}{3pt}\setlength{\extrarowheight}{1pt}}
+\AtBeginEnvironment{longtable}{\footnotesize\setstretch{1.0}\setlength{\tabcolsep}{3pt}\setlength{\extrarowheight}{1pt}}
+\AtBeginEnvironment{table}{\setstretch{1.0}}
+\AtBeginEnvironment{figure}{\setstretch{1.0}}
 \AtBeginEnvironment{quote}{\small\setlength{\leftskip}{1.2em}\setlength{\rightskip}{1.2em}}
