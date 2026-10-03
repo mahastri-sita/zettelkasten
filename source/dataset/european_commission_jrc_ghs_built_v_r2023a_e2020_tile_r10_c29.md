@@ -72,7 +72,9 @@ Jumlah zonal raster GHS-BUILT-V total dan NRES (epoch 2020, m³ per sel 3 detik 
 - Total 141 kecamatan: 4.818,6 juta m³; NRES 561,0 juta m³ (11,6%); NRES di luar kawasan industri 437,1 juta m³ (kawasan industri memuat 22,1% NRES).
 - Ambang P75 volume hunian: 44.576.052 m³ (P66 34.628.213; P80 47.281.100). Ambang P75 penduduk: 193.899 jiwa.
 - Penanda pusat sekunder P75 (penduduk **atau** volume hunian): 43 kecamatan (P+V 29, P saja 7, V saja 7). Korelasi penduduk–volume hunian 0,86.
-- Batas: epoch 2020 adalah interpolasi (observasi terdekat 2018); batas kecamatan 2020 dipakai untuk unit 2024 tanpa koreksi pemekaran karena kodenya identik.
+- Batas: epoch 2020 adalah interpolasi (observasi terdekat 2018). Kode batas kecamatan 2020 identik dengan kode BPS 2024, dan luas poligon berselisih median 1,7% dari luas WSM Lampiran 3 (P90 5,0%). Hanya Kosambi (−12,5%) dan Benda (+18,5%), di sekitar Bandara Soekarno-Hatta, berselisih >10%; keduanya ditandai.
+- **Prosedur (koreksi 3 Oktober 2026):** penjumlahan memakai sel asli EPSG:4326 dengan aturan pusat sel, tanpa reproyeksi dan tanpa bobot pecahan luas sel. Aturan "setiap sel yang tersentuh" (`all_touched=True`) menaikkan total 141 kecamatan sebesar 5,7% (median per kecamatan 5,5%; maksimum 18,3% di Sukawangi). Angka ini batas atas efek tepi, karena sel tepi terhitung di dua kecamatan.
+- **Nilai nol:** enam kecamatan bervolume NRES tepat 0 (Tenjolaya, Cijeruk, Cariu, Tanjungsari, Ciseeng di Kabupaten Bogor; Jambe di Kabupaten Tangerang). Volume sel terisi terkecil di luar kawasan industri adalah 914 m³.
 
 | Kode | Kecamatan | Kab/kota | Total (juta m³) | Nonhunian | Hunian | Nonhunian di luar KI | KI di/sekitar | Pusat P75 |
 |---|---|---|---|---|---|---|---|---|
