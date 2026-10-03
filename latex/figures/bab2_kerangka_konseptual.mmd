@@ -6,18 +6,21 @@ flowchart TB
     end
     S --> FH["Fungsi harapan F̂ = f(S, X)"]
     X --> FH
-    F["Fungsi aktual F<br/>per domain: layanan, pekerjaan"] --> R["Residu fungsi relatif<br/>R = ln F − ln F̂"]
+    F["Fungsi aktual F<br/>layanan; pekerjaan di luar kawasan industri"] --> R["Residu fungsi relatif<br/>R = ln F − ln F̂"]
     FH --> R
-    I["Integrasi metropolitan I<br/>arus teramati"] --> T["Kemiringan R terhadap I"]
+    I["Integrasi metropolitan I<br/>arus teramati; interaksi status inti"] --> T
+    M["Kawasan industri<br/>moderator (domain pekerjaan)"] -.-> T["Kemiringan R terhadap I"]
     R --> T
     Z["Penjelasan alternatif Z"] --> T
     subgraph L3["Pengukuran sejajar"]
         A["Manfaat A<br/>akses, penghasilan"]
-        D["Beban D<br/>waktu, durasi, biaya"]
+        D["Beban D<br/>waktu jam sibuk, durasi, biaya"]
+        GG["Ketergantungan G<br/>asimetri, rasio masuk/keluar"]
     end
     T --> G{"Gerbang bukti"}
     A --> G
     D --> G
+    GG --> G
     G --> K["Kategori Tabel 2.2<br/>pola konsisten dengan borrowed size · campuran ·<br/>pola konsisten dengan agglomeration shadow ·<br/>terintegrasi tetapi tertinggal · relatif independen ·<br/>periferi lemah · tidak terselesaikan"]
 
     classDef local fill:#F2F2F2,stroke:#000000,color:#000000,stroke-width:1.2px;
@@ -26,7 +29,7 @@ flowchart TB
     classDef diagnostic fill:#D9D9D9,stroke:#000000,color:#000000,stroke-width:1.8px;
     classDef result fill:#FFFFFF,stroke:#000000,color:#000000,stroke-width:2px;
     class S,X,FH,F,R local;
-    class I,T,A,D relation;
-    class Z alt;
+    class I,T,A,D,GG relation;
+    class Z,M alt;
     class G diagnostic;
     class K result;

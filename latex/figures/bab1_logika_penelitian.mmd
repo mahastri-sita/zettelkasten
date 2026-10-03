@@ -1,24 +1,25 @@
 %%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial, Helvetica, sans-serif", "fontSize": "15px", "primaryColor": "#E6E6E6", "primaryTextColor": "#000000", "primaryBorderColor": "#000000", "lineColor": "#000000", "secondaryColor": "#D9D9D9", "tertiaryColor": "#F2F2F2", "clusterBkg": "#FAFAFA", "clusterBorder": "#000000", "background": "#FFFFFF", "edgeLabelBackground": "#FFFFFF"}, "flowchart": {"curve": "basis", "nodeSpacing": 30, "rankSpacing": 40, "htmlLabels": true, "wrappingWidth": 330}}}%%
 flowchart TB
     A["Pusat-pusat di luar DKI Jakarta<br/>tumbuh secara fisik"] --> B["Apakah pertumbuhan diikuti<br/>relasi dan fungsi lokal?"]
-    B --> C["Integrasi metropolitan<br/>kecamatan: % komuter ke inti<br/>kab/kota: arah dan asimetri arus"]
-    B --> D["Fungsi aktual per domain<br/>layanan berorde tinggi<br/>pekerjaan"]
+    B --> C["Integrasi metropolitan<br/>kecamatan: % komuter ke inti (× status inti)<br/>kab/kota: arah dan relasi antarpinggiran"]
+    B --> D["Fungsi aktual per domain<br/>layanan berorde tinggi<br/>pekerjaan (di luar kawasan industri)"]
     E["Massa dan karakteristik lokal"] --> F["Fungsi yang diharapkan"]
     D --> G["Residu fungsi relatif"]
     F --> G
     C --> H["Kemiringan residu<br/>terhadap integrasi"]
     G --> H
-    Z["Penjelasan alternatif<br/>kawasan industri, kota baru,<br/>status administratif"] --> H
+    Z["Penjelasan alternatif<br/>kota baru, status administratif,<br/>lahan, topografi"] --> H
+    KI["Kawasan industri<br/>moderator jalur produksi"] -.-> H
     H --> J{"Gerbang bukti<br/>dan uji ketahanan"}
-    I["Beban perjalanan<br/>diukur terpisah"] --> J
+    I["Beban jam sibuk atau<br/>ketergantungan (asimetri, masuk/keluar)<br/>diukur terpisah"] --> J
     M["Manfaat akses<br/>diukur terpisah"] --> J
-    J --> K["Tipologi ringkasan (Tabel 2.2)<br/>borrowed size · campuran · agglomeration shadow ·<br/>terintegrasi tetapi tertinggal · relatif independen ·<br/>periferi lemah · tidak terselesaikan"]
+    J --> K["Tipologi ringkasan (Tabel 2.2); shadow hanya dari layanan<br/>borrowed size · campuran · agglomeration shadow ·<br/>terintegrasi tetapi tertinggal · relatif independen ·<br/>periferi lemah · tidak terselesaikan"]
 
     classDef context fill:#F2F2F2,stroke:#000000,color:#000000,stroke-width:1.2px,stroke-dasharray:5 3;
     classDef measure fill:#E6E6E6,stroke:#000000,color:#000000,stroke-width:1.4px;
     classDef decision fill:#D9D9D9,stroke:#000000,color:#000000,stroke-width:1.8px;
     classDef outcome fill:#FFFFFF,stroke:#000000,color:#000000,stroke-width:2px;
-    class A,B,E,Z context;
+    class A,B,E,Z,KI context;
     class C,D,F,G,H,I,M measure;
     class J decision;
     class K outcome;

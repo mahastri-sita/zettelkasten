@@ -1,18 +1,18 @@
 %%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial, Helvetica, sans-serif", "fontSize": "15px", "primaryColor": "#E6E6E6", "primaryTextColor": "#000000", "primaryBorderColor": "#000000", "lineColor": "#000000", "secondaryColor": "#D9D9D9", "tertiaryColor": "#F2F2F2", "clusterBkg": "#FAFAFA", "clusterBorder": "#000000", "background": "#FFFFFF", "edgeLabelBackground": "#FFFFFF"}, "flowchart": {"curve": "basis", "nodeSpacing": 30, "rankSpacing": 30, "htmlLabels": true, "wrappingWidth": 330}}}%%
 flowchart TB
     L1["1. Audit sumber, registri asal-usul,<br/>pembekuan garis dasar"] --> L2["2. Penandaan pusat sekunder<br/>berbasis massa (penduduk, volume hunian)"]
-    L2 --> L3a["3a. Integrasi kecamatan<br/>% komuter ke kawasan inti (WSM 2024)"]
-    L2 --> L3b["3b. Relasi kab/kota<br/>matriks komuter 2014, 2019, 2023"]
+    L2 --> L3a["3a. Integrasi kecamatan<br/>% komuter ke kawasan inti (WSM 2024)<br/>× status inti; kembar I-DKI"]
+    L2 --> L3b["3b. Relasi kab/kota<br/>matriks komuter 2014, 2019, 2023<br/>orientasi, antarpinggiran, ketergantungan"]
     L3a --> L4["4. Fungsi harapan dan residu per domain<br/>layanan: binomial negatif · pekerjaan: log-linear<br/>prediksi leave-one-out"]
-    L4 --> L5["5. Manfaat dan beban<br/>indikator terpisah, dua tingkat"]
+    L4 --> L5["5. Manfaat, beban, ketergantungan<br/>indikator terpisah, dua tingkat"]
     L3b --> L5
-    L5 --> L6["6. Kemiringan residu terhadap integrasi<br/>dengan kontrol penjelasan alternatif"]
+    L5 --> L6["6. Kemiringan residu terhadap integrasi<br/>kontrol Z; label shadow hanya dari layanan"]
     L6 --> G1{{"Gerbang bukti terpenuhi?"}}
     G1 -- ya --> L6b["Tipologi ringkasan<br/>tujuh kategori"]
     G1 -- tidak --> L6c["Klaim diturunkan:<br/>profil, surplus/defisit relatif"]
     L6b --> L7["7. Diagnostik spasial dan uji ketahanan"]
     L6c --> L7
-    L7 --> G2{{"Pemicu cadangan K1–K8?"}}
+    L7 --> G2{{"Pemicu cadangan K1–K9?"}}
     G2 -- ya --> CB["Terapkan cadangan bernama,<br/>laporkan selisih hasil"]
     CB --> L7
     G2 -- tidak --> L8["8. Keluaran: tabel, peta, manifest,<br/>batas klaim, Web GIS dan what-if"]
