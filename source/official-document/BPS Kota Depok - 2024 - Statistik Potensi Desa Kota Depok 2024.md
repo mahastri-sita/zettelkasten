@@ -28,6 +28,13 @@ Record ini mengindeks publikasi Statistik Potensi Desa BPS Kota Depok tahun 2024
 - Bab I memuat jumlah desa/kelurahan menurut sumber penghasilan utama penduduk (Tabel 2.1) dan banyaknya desa/kelurahan yang memiliki fasilitas. Ini ukuran keberadaan, bukan jumlah.
 - Struktur tabel fasilitas sama dengan publikasi kab/kota Bodetabek lain edisi 2024; nomor tabel edisi kabupaten satu bab lebih tinggi (19.5, 20.x, 21.x).
 
+**Total fasilitas layanan utama (3 Oktober 2026, pemeriksaan agen).** Angka total Kota Depok pada tabel Podes 2024 menurut kecamatan:
+- Akademi/perguruan tinggi: negeri 8, swasta 39, **jumlah 47**; Tabel 18.5, PDF hlm. 220.
+- Rumah sakit **27**, rumah sakit bersalin 0; Tabel 19.1, PDF hlm. 226.
+- Lembaga keuangan bank: Bank Umum Pemerintah 113, Bank Umum Swasta 54 (**bank umum 167**), BPR 38; Tabel 20.4, PDF hlm. 237.
+- Catatan tabel PT: jumlah berdasarkan lokasi keberadaan di tingkat kelurahan.
+- Rincian per kecamatan ada di tabel yang sama dan belum ditranskripsi ke catatan ini.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

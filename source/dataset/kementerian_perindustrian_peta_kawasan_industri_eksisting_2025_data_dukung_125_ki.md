@@ -50,6 +50,9 @@ Kolom DBF (hasil baca agen):
 
 - **Ringkasan Jabodetabek (dihitung agen 2 Oktober 2026 dari DBF; Cikembar dikeluarkan):** 30 record dengan 21 nama kawasan unik. Kabupaten Bekasi 19 record (10 nama; jumlah `Luas_IUKI` 6.419,6); Kabupaten Tangerang 6 (6; 1.724,3); Kabupaten Bogor 2 (2; 316,7); Kota Jakarta Timur 1 (433,0); Kota Jakarta Utara 1 (177,0); Kota Tangerang Selatan 1 (160,0). Tidak ada record untuk Kota Bogor, Kota Depok, Kota Bekasi, dan Kota Tangerang. Satuan luas tidak didokumentasikan (kemungkinan hektare), dan record berganda per kawasan dijumlahkan apa adanya.
 
+- **Satuan `Luas_IUKI` (diperiksa 3 Oktober 2026).** Luas poligon dihitung agen dari geometri `.shp` (pendekatan planar lokal pada WGS84) lalu dibandingkan dengan `Luas_IUKI`. Kawasan berpoligon tunggal cocok dalam hektare: KBN Cakung 177 vs 176,4 ha; Cibinong Center 96,68 vs 95,3 ha; EJIP 320 vs 332,0 ha; Taman Industri Busan 29,47 vs 29,4 ha; kawasan di Tangerang Selatan 160 vs 156,5 ha. Jadi `Luas_IUKI` **kemungkinan besar dalam hektare** dan mencerminkan luas izin usaha kawasan industri (IUKI). Untuk kawasan besar, poligon jauh lebih luas daripada izin (Jababeka 1.285,97 vs ±4.463 ha; Lippo Cikarang 390 vs ±2.616 ha; MM2100 BFIE 829 vs ±3.001 ha). Untuk masker volume nonhunian di luar kawasan industri (keputusan D3), yang dipakai adalah **poligon**, bukan `Luas_IUKI`.
+- **Hitungan baku untuk naskah:** 30 record untuk 21 kawasan unik di Jabodetabek; 19 kawasan di luar DKI (Kabupaten Bekasi 10, Kabupaten Tangerang 6, Kabupaten Bogor 2, Kota Tangerang Selatan 1).
+
 ## Collection or Production Method
 
 Tidak didokumentasikan dalam berkas yang diperiksa. Judul dataset menyebut skala 1:50.000.

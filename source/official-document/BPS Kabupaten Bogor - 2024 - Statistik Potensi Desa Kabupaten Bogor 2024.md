@@ -28,6 +28,13 @@ Record ini mengindeks publikasi Statistik Potensi Desa BPS Kabupaten Bogor tahun
 - Bab I memuat jumlah desa/kelurahan menurut sumber penghasilan utama penduduk (Tabel 2.1) dan banyaknya desa/kelurahan yang memiliki fasilitas. Ini ukuran keberadaan, bukan jumlah.
 - Struktur tabel fasilitas sama dengan publikasi kab/kota Bodetabek lain edisi 2024; nomor tabel edisi kota bergeser satu bab (18.5, 19.x, 20.x).
 
+**Total fasilitas layanan utama (3 Oktober 2026, pemeriksaan agen).** Angka total Kabupaten Bogor pada tabel Podes 2024 menurut kecamatan:
+- Akademi/perguruan tinggi: negeri 5, swasta 67, **jumlah 72**; Tabel 19.5, PDF hlm. 234.
+- Rumah sakit **35**, rumah sakit bersalin 10; Tabel 20.1, PDF hlm. 240.
+- Lembaga keuangan bank: Bank Umum Pemerintah 134, Bank Umum Swasta 54 (**bank umum 188**), BPR 58; Tabel 21.4, PDF hlm. 252.
+- Total PT dan RS cocok dengan narasi ringkasan publikasi (5 + 67 PT; 35 RS dan 10 RS bersalin).
+- Rincian per kecamatan ada di tabel yang sama dan belum ditranskripsi ke catatan ini.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

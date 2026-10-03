@@ -28,6 +28,13 @@ Record ini mengindeks publikasi Statistik Potensi Desa BPS Kabupaten Tangerang t
 - Bab I memuat jumlah desa/kelurahan menurut sumber penghasilan utama penduduk (Tabel 2.1) dan banyaknya desa/kelurahan yang memiliki fasilitas. Ini ukuran keberadaan, bukan jumlah.
 - Struktur tabel fasilitas sama dengan publikasi kab/kota Bodetabek lain edisi 2024; nomor tabel edisi kota bergeser satu bab (18.5, 19.x, 20.x).
 
+**Total fasilitas layanan utama (3 Oktober 2026, pemeriksaan agen).** Angka total Kabupaten Tangerang pada tabel Podes 2024 menurut kecamatan:
+- Akademi/perguruan tinggi: negeri 3, swasta 38, **jumlah 41**; Tabel 19.5, PDF hlm. 224.
+- Rumah sakit **28**, rumah sakit bersalin 0; Tabel 20.1, PDF hlm. 230.
+- Lembaga keuangan bank: Bank Umum Pemerintah 102, Bank Umum Swasta 47 (**bank umum 149**), BPR 17; Tabel 21.4, PDF hlm. 241.
+- Total PT dan RS cocok dengan narasi ringkasan publikasi.
+- Rincian per kecamatan ada di tabel yang sama dan belum ditranskripsi ke catatan ini.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

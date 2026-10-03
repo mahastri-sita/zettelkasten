@@ -30,6 +30,13 @@ Record ini mengindeks publikasi Statistik Potensi Desa BPS Kota Tangerang Selata
 
 - Penomoran tidak konsisten di dalam publikasi ini: daftar isi memakai 19.5, 20.x, dan 21.x (dengan judul "menurut Provinsi"), sedangkan halaman tabel memakai 18.5 dan seterusnya. Rujuk tabel dengan judul dan halaman, bukan nomor saja.
 
+**Total fasilitas layanan utama (3 Oktober 2026, pemeriksaan agen).** Angka total Kota Tangerang Selatan pada tabel Podes 2024 menurut kecamatan:
+- Akademi/perguruan tinggi: negeri 5, swasta 23, **jumlah 28**; Tabel 18.5, PDF hlm. 208.
+- Rumah sakit **30**, rumah sakit bersalin 5; Tabel 19.1, PDF hlm. 216.
+- Lembaga keuangan bank: tidak tersedia per kecamatan (lihat catatan).
+- Tabel dibaca visual. Narasi menulis 1 PT negeri dan 28 swasta, sedangkan tabel mencetak 5 negeri, 23 swasta, total 28; angka tabel yang dipakai. **Tabel lembaga keuangan bank menurut kecamatan (20.4) tercantum di daftar isi tetapi tidak ada di badan publikasi** (Bab 20 berakhir pada Tabel 20.3, PDF hlm. 226). Infografis Bab 20 (PDF hlm. 219) hanya memuat total kota: 211 bank, dengan label Bank Umum Pemerintah 104, Bank Perkreditan Rakyat 94, dan Bank Umum Swasta 13. Proporsi BPR ini jauh berbeda dari edisi 2025 (BPR 18), sehingga label infografis diragukan. Rincian per kecamatan tersedia di *Statistik Potensi Desa Kota Tangerang Selatan 2025* (PDF hlm. 151) dan menjadi cadangan K9 di naskah.
+- Rincian per kecamatan ada di tabel yang sama dan belum ditranskripsi ke catatan ini.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

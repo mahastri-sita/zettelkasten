@@ -28,6 +28,13 @@ Record ini mengindeks publikasi Statistik Potensi Desa BPS Kabupaten Bekasi tahu
 - Bab I memuat jumlah desa/kelurahan menurut sumber penghasilan utama penduduk (Tabel 2.1) dan banyaknya desa/kelurahan yang memiliki fasilitas. Ini ukuran keberadaan, bukan jumlah.
 - Struktur tabel fasilitas sama dengan publikasi kab/kota Bodetabek lain edisi 2024; nomor tabel edisi kota bergeser satu bab (18.5, 19.x, 20.x).
 
+**Total fasilitas layanan utama (3 Oktober 2026, pemeriksaan agen).** Angka total Kabupaten Bekasi pada tabel Podes 2024 menurut kecamatan:
+- Akademi/perguruan tinggi: negeri 1, swasta 49, **jumlah 50**; Tabel 19.5, PDF hlm. 219.
+- Rumah sakit **61**, rumah sakit bersalin 14; Tabel 20.1, PDF hlm. 225.
+- Lembaga keuangan bank: Bank Umum Pemerintah 121, Bank Umum Swasta 89 (**bank umum 210**), BPR 52; Tabel 21.4, PDF hlm. 236.
+- Dibaca dari lapisan teks; baris total diperiksa terhadap render halaman bila lapisan teks terpotong.
+- Rincian per kecamatan ada di tabel yang sama dan belum ditranskripsi ke catatan ini.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.

@@ -30,6 +30,13 @@ Record ini mengindeks publikasi Statistik Potensi Desa BPS Kota Tangerang tahun 
 
 - Daftar isi menulis judul tabel "menurut Provinsi", sedangkan halaman tabel berjudul "menurut Kecamatan". Rujuk tabel dengan judul dan halaman.
 
+**Total fasilitas layanan utama (3 Oktober 2026, pemeriksaan agen).** Angka total Kota Tangerang pada tabel Podes 2024 menurut kecamatan:
+- Akademi/perguruan tinggi: negeri 4, swasta 35, **jumlah 39**; Tabel 18.5, PDF hlm. 218.
+- Rumah sakit **37**, rumah sakit bersalin 0; Tabel 19.1, PDF hlm. 224.
+- Lembaga keuangan bank: Bank Umum Pemerintah 110, Bank Umum Swasta 103 (**bank umum 213**), BPR 17; Tabel 20.4, PDF hlm. 235.
+- Baris total tidak ada di lapisan teks; dibaca visual dari render halaman. Total PT cocok dengan narasi (4 + 35).
+- Rincian per kecamatan ada di tabel yang sama dan belum ditranskripsi ke catatan ini.
+
 ### Evidence and Method
 
 Metadata dan halaman awal PDF diperiksa; PDF penuh disimpan sebagai lampiran sumber.
