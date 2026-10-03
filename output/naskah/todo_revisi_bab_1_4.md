@@ -60,8 +60,8 @@ Penanda: 📥 = butuh berkas yang belum diunduh; ❓ = butuh keputusan pengguna;
 
 - [x] UU 2/2024 (Pasal 51–55 dan 73 sudah dicatat), Perpres 60/2020, BPTJ 2024, Kemenperin 2025 (ringkasan Jabodetabek dihitung: 21 KI), GTFS TransJakarta, dan GHSL R2023A.
 - [x] Halaman peta jaringan 2045 JUTPI 3: Gambar 2.1, hlm. 2-6 (PDF hlm. 18), ditemukan lewat OCR tesseract; locator ditambahkan ke caption. Semula: catat halaman peta jaringan 2045 di PDF JUTPI 3 (Gambar 4.7).
-- [ ] 📥 Ekstrak OSM Jawa (Geofabrik) dan rilis Overture bertanggal, untuk perutean dan uji kelengkapan. (Jalan tol dan rel untuk peta G4.6 sudah diambil lewat Overpass, 3 Oktober 2026; ekstrak perutean baru dibutuhkan saat analisis Bab 5.)
-- [ ] 📥 SIRS dan PDDikti (pembobot orde layanan; sensitivitas).
+- [ ] 📥 Ekstrak OSM Jawa (Geofabrik) dan rilis Overture bertanggal, untuk perutean dan uji kelengkapan. (Jalan tol dan rel untuk peta G4.6 sudah diambil lewat Overpass, 3 Oktober 2026; ekstrak perutean baru dibutuhkan saat analisis Bab 5.) **Input analisis Bab 5, bukan syarat naskah Bab 1–4.**
+- [ ] 📥 SIRS dan PDDikti (pembobot orde layanan; sensitivitas). **Input analisis Bab 5, bukan syarat naskah Bab 1–4.**
 - [x] Arsip *Google Maps Platform Service Specific Terms* (HTML, versi 10 Juni 2026, diakses 3 Oktober 2026) di `source/official-document/`. Places §14.2 dan Routes §19.2 melarang pemakaian bersama peta non-Google → lapisan Google tidak masuk Web GIS. Arsip ulang pada tanggal pengambilan data sebenarnya.
 
 ### 0.3 Verifikasi (selesai 2 Oktober 2026; rincian di evaluasi §15.1)
@@ -148,7 +148,12 @@ Penanda: 📥 = butuh berkas yang belum diunduh; ❓ = butuh keputusan pengguna;
 - [x] `bpsjabar2025` kini merujuk *Provinsi Jawa Barat Dalam Angka 2025*; `bpsbanten2024` dihapus.
 - [x] Entri baru: Alonso 1973, Firman 2004, UU 2/2024, Perpres 60/2020, BPTJ 2024, Kemenperin 2025, GHSL, GTFS, COD-AB HDX, syarat Google, Statistik Komuter 2014/2019/2023, WSM 2024, PDRB, Podes 2024 (tujuh entri), *Dalam Angka* kab/kota 2025 (delapan entri), *Dalam Angka* provinsi, dan KAK.
 - [x] Diverifikasi 3 Oktober 2026 (§9 F2.5): `sadewoetal2021`, `volgmannrusche2020`, `andani2021`.
-- [ ] Opsional: Otsuka, *Borrowed Size and Regional Resilience* (Springer); kandidat Meijers dkk. 2018, Cardoso & Meijers 2016, dan van Meeteren dkk. 2016 diverifikasi dulu.
+- [x] Opsional: kandidat literatur diverifikasi lewat Crossref (3 Oktober 2026). **Belum disitir** karena teksnya belum dibaca:
+  - Meijers, Hoogerbrugge & Cardoso (2018), "Beyond Polycentricity: Does Stronger Integration Between Cities in Polycentric Urban Regions Improve Performance?", *TESG* 109(1): 1–21, doi 10.1111/tesg.12292;
+  - Cardoso & Meijers (2016), "Contrasts between first-tier and second-tier cities in Europe: a functional perspective", *European Planning Studies* 24(5): 996–1015, doi 10.1080/09654313.2015.1120708;
+  - van Meeteren, Neal & Derudder (2016), "Disentangling agglomeration and network externalities: A conceptual typology", *Papers in Regional Science* 95(1): 61–81, doi 10.1111/pirs.12214;
+  - Otsuka (2026), *Borrowed Size and Regional Resilience: Lessons from Japan* (Springer), bab "Beyond Agglomeration…", hlm. 221–232, doi 10.1007/978-981-95-7016-4_11.
+  - Paling relevan untuk Bab 2: Meijers dkk. 2018 (integrasi antarkota dan kinerja) dan van Meeteren dkk. 2016 (eksternalitas aglomerasi vs jaringan). Unduh dan baca sebelum disitir.
 
 ## 7. Figure
 
