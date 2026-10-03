@@ -788,3 +788,45 @@ Atas instruksi "kerjakan semuanya", agen mengerjakan sendiri butir yang sebelumn
 - Skrip zonal dan peta disimpan di `latex/figures/scripts/` mengikuti preseden skrip peta lama, bukan sebagai objek `calculation/` (yang butuh izin pengguna).
 - Ekstrak OSM untuk perutean, SIRS/PDDikti, dan data Google belum diambil. Semuanya input analisis Bab 5, bukan syarat naskah Bab 1–4.
 - Sepuluh *Kecamatan Dalam Angka* Kota Bekasi tidak terunduh. Kesimpulan K1 bersandar pada dua publikasi kecamatan dan tabel kota.
+
+## 18. Putaran 8 — revisi pascaaudit (3 Oktober 2026)
+
+Dasar: audit `latex/audit-report-tga_pwk_jakarta_bab_1_4_2026_10_03.md` (model lain) dan penilaian validitasnya. Seluruh butir di `output/naskah/todo_revisi_audit_bab_1_4.md` dikerjakan. Keputusan baru: **D9** (layanan utama RS + PT; bank terpisah; mengubah D7) dan **D10** (kemiringan dari model satu tahap; residu untuk profil kecamatan).
+
+### 18.1 Koreksi kesalahan dan klaim berlebihan
+
+| Butir | Masalah | Perbaikan |
+|---|---|---|
+| I3 | 6 kecamatan bervolume nonhunian tepat 0; $\ln F_P$ tak terdefinisi | Poisson kuasi-*likelihood*; $c_P$ = 1.000 m³ untuk residu |
+| C7 | Residu Google dapat dibalik menjadi jumlah POI | Hanya statistik agregat yang disimpan |
+| I10 | Teks menyebut reproyeksi dan bobot luas sel; skrip memakai pusat sel | Teks diselaraskan; sensitivitas `all_touched` +5,7%; luas HDX vs WSM median 1,7% (Kosambi, Benda ditandai) |
+| C1 | $I^{DKI}$ disebut persentase ke DKI | Diganti nama menjadi indeks WSM berbobot orientasi DKI; perbedaan penyebut dijelaskan |
+| C3 | "Separuh unit pasti negatif" | Dihapus; residu dilaporkan apa adanya |
+| C4 | "Bocor ke inti"; tanda positif dianggap kebal kausalitas terbalik | Ditulis sebagai tafsir tak teramati; tanda positif asosiasional; penyebut WSM memuat pelajar |
+| I10 | Satuan `Luas_IUKI` ditulis sebagai fakta | Ditandai inferensi |
+
+### 18.2 Perubahan desain
+
+- Layanan orde tinggi (RS + PT) pada 129 kecamatan; bank sebagai layanan keuangan; hasil per jenis wajib (D9, I1, I4).
+- Model satu tahap dengan interaksi status inti dan, untuk pekerjaan, kawasan industri; *wild cluster bootstrap* per kab/kota; regresi residu sebagai pemeriksa (D10, C2).
+- Agregasi kab/kota dengan rasio jumlah; tahun pembentukan daerah otonom dikeluarkan; status kota/kabupaten gugur pada efek tetap (I6).
+- Gerbang *shadow* lintas tingkat, definisi selang 90%, kriteria Moran, Spearman, K4, K5 (C5, C6, I8).
+- Peluang potensial dan profil penghasilan menggantikan istilah "manfaat" operasional (I9); P2 dirumuskan sebagai stok nonhunian di sekitar kawasan industri (I2); P3 diuji dengan diagram pencar pada 129 kecamatan (I5); ketahanan, triangulasi, dan perubahan cakupan dipisah (I7).
+- Penjelasan alternatif baru: fasilitas di kecamatan tetangga; tiga tingkat kesimpulan (sistem, tempat, kewenangan).
+- UU 151/2024 ditambahkan (F6).
+
+### 18.3 Format
+
+- Tata letak template: 12 pt, spasi 1,5, margin 25,4 mm; daftar tabel dan gambar; tidak ada teks tabel <10 pt (diperiksa PyMuPDF).
+- Latar belakang ±1,6 halaman.
+- Tabel cadangan, sumber data, kepatuhan Google, dan audit Bab 4 dipindah ke Lampiran A–D.
+- **Tabel 2.1 dipertahankan dalam format semula** atas permintaan pengguna; hanya ukuran hurufnya dinaikkan ke 10 pt.
+- Sitasi kini "dan" dan "dkk." tanpa inisial.
+- Kompilasi lokal: 99 halaman (termasuk lampiran), tanpa galat, tanpa rujukan tak terdefinisi, *overfull* maksimum 2,7 pt.
+
+### 18.4 Hitungan kata dan batas
+
+- Batas Panduan TGA: 20.000 kata untuk seluruh skripsi (tanpa daftar pustaka dan lampiran). Target 14.000 dari audit tidak dipakai.
+- Hitungan dari sumber `.tex`: prosa Bab 1–4 ±13.590; tabel dan keterangan gambar di badan naskah ±4.200 (Tabel 2.1 ±1.900); total ±17.800. Sisa untuk Bab 5–6: ±6.400 kata bila tabel tidak dihitung, ±2.200 bila dihitung.
+- ❓ Apakah isi tabel dihitung perlu ditanyakan ke pembimbing atau prodi.
+- Perintah konversi Tabel 2.1 yang ditolak pengguna sempat tereksekusi; tabel sudah dipulihkan dan diverifikasi identik dengan versi sebelumnya kecuali ukuran huruf.

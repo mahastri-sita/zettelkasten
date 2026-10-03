@@ -44,16 +44,17 @@ Putaran 7 (3 Oktober 2026, lokal) selesai. Rinciannya ada di evaluasi §16 dan T
 
 ## Next concrete action
 
-Naskah Bab 1–4 lengkap untuk pra-TA: tanpa placeholder; 70 halaman (`latex/tga_pwk_jakarta_bab_1_4_2026_10_03.pdf`). Putaran 7b (evaluasi §17) mengerjakan tugas yang semula diserahkan ke pengguna.
+Putaran 8 (revisi pascaaudit) selesai: lihat `output/naskah/todo_revisi_audit_bab_1_4.md` dan evaluasi §18. Naskah 99 halaman termasuk Lampiran A–D.
 
-1. **Pengguna:** baca PDF per halaman, terutama 8 peta Bab 4 dan desain kepatuhan Google yang berubah (Places Aggregate API; beban kecamatan memakai K6).
-2. **Untuk Bab 5 (bukan syarat pra-TA):** ekstrak OSM untuk perutean, SIRS/PDDikti, dan Places Aggregate API (uji satu kab/kota dulu).
-3. **Opsional:** jadikan skrip di `latex/figures/scripts/` objek `calculation/` (perlu izin pengguna).
+1. **Pengguna:** tanyakan ke pembimbing/prodi apakah isi tabel dihitung dalam batas 20.000 kata (sisa untuk Bab 5–6: ±6.400 bila tidak, ±2.200 bila ya).
+2. **Pengguna:** tinjau perubahan desain D9 (RS + PT; bank terpisah) dan D10 (model satu tahap) di Bab 3 Langkah 4–6.
+3. **Untuk Bab 5:** ekstrak OSM untuk perutean, SIRS/PDDikti, Places Aggregate API (uji satu kab/kota).
 
 ## Open questions
 
-- J21/J26 (Henderson dkk.): PDF identik, tahun J26 salah. Dibiarkan.
-- Pembimbing: naskah menulis Rendy Bayu Aditya; konfirmasinya belum tercatat di vault.
+- J21/J26 (Henderson dkk.): dibiarkan.
+- Pembimbing: konfirmasi nama belum tercatat di vault.
+- Penghitungan tabel dalam batas kata (lihat di atas).
 
 ## Decisions made (kumulatif)
 
@@ -66,6 +67,7 @@ Naskah Bab 1–4 lengkap untuk pra-TA: tanpa placeholder; 70 halaman (`latex/tga
 - **Penyebut arus keluar** di Bab 3 dan Bab 4 memasukkan arus ke luar Jabodetabek. Hitungan ulang harus memakai definisi yang sama, sebab pangsa ke DKI berbeda sekitar 1–2 poin bila penyebutnya diganti.
 - **Bank Tangsel** berasal dari edisi 2025 (K9), sedangkan infografis Podes 2024 labelnya diragukan (BPR 94 vs 18 pada 2025).
 - **Kota Bogor:** tabel RS mencetak 22, narasinya 20. **Tangsel:** tabel PT 5+23, narasinya 1+28. Naskah memakai angka tabel.
+- **Tabel 2.1 jangan diubah formatnya** (preferensi pengguna, 3 Okt 2026); cukup ukuran huruf.
 - **Google:** ketentuan umum §3.2.3 melarang *point-in-polygon* dengan titik Places dan menyimpan hasil Routes. Jangan kembali ke desain lama.
 - **Skrip peta/zonal** ada di `latex/figures/scripts/` (lihat README); data antara tidak di-commit.
 - **Font:** preamble jatuh ke Courier New bila Consolas tidak ada. Di Mac ini Consolas tidak terpasang.
