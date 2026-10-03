@@ -706,3 +706,54 @@ Rincian per bab ada di TODO §1–§7. Inti perubahannya:
 - Ambang penduduk P75 (36 kecamatan) bersifat sementara.
 - Kompilasi cloud memakai font pengganti; kompilasi final dilakukan di lokal.
 - Isi publikasi selain tabel yang disebut belum dibaca penuh.
+
+## 16. Putaran 7 — tambal regresi dan kunci substansi (3 Oktober 2026)
+
+Sesi lokal. Bundle cloud (`a488635`) di-*fast-forward* ke `main`, lalu dibandingkan dengan naskah lokal sebelumnya (`8926ba6`). Bundle lebih baik secara arsitektur, tetapi punya enam regresi (R1–R6, TODO §9.1) dan lima masalah substansi tersisa. Pengguna menyetujui seluruh rekomendasi D1–D8 (TODO §9.2) dan meminta semuanya dikerjakan.
+
+### 16.1 Keputusan pengguna (D1–D8)
+
+| Kode | Keputusan |
+|---|---|
+| D1 | Integrasi utama tetap % komuter ke Inti 1 WSM, diberi nama "integrasi dengan inti metropolitan"; interaksi dengan status inti; $I^{DKI}$ spesifikasi kembar wajib |
+| D2 | Label *shadow* hanya dari domain layanan; $\theta_P$ negatif dilaporkan sebagai ketergantungan kerja |
+| D3 | $F_P$ = NRES di luar poligon kawasan industri; kawasan industri sebagai moderator, bukan kontrol |
+| D4 | Beban kecamatan = waktu tempuh jam sibuk Google Routes ke Bundaran HI; OSM arus bebas menjadi K6 |
+| D5 | Gerbang *shadow*: beban **atau** ketergantungan (asimetri dan rasio masuk/keluar tingkat 2) |
+| D6 | Tumpuan pada publikasi BPS terbuka disahkan; OSM dan Google sebagai pelengkap/pemeriksa |
+| D7 | Keputusan agen §15.2 disetujui; uji per jenis fasilitas wajib; P75 bersyarat cek Banten |
+| D8 | Judul dipertahankan; pusat sekunder ditegaskan sebagai subkelompok |
+
+### 16.2 Hasil verifikasi data
+
+| Butir | Hasil | Akibat |
+|---|---|---|
+| Makna % WSM pada kecamatan inti | Komuter MPD = pasangan *home–work* beda kecamatan, berulang ≥2 minggu (hlm. 41–42). Kecamatan DKI (seluruhnya inti) bernilai 23,6–49,7% (Lampiran 13, PDF hlm. 247–248). Jadi pada kecamatan inti, nilainya paling mungkin memuat perjalanan ke kecamatan inti tetangga, termasuk sekota. **Inferensi dari pola nilai; tidak dinyatakan eksplisit oleh BPS** | Interaksi I × status inti masuk spesifikasi utama (D1) |
+| Basis penduduk Banten | Lampiran 3 = Tabel 3.1.1 *Dalam Angka 2025* kab/kota (identik untuk Kab. dan Kota Tangerang; Tangsel = angka ribuan dua desimal × 1.000). Selisih 2–3% berasal dari proyeksi provinsi, bukan galat WSM | P75 dibekukan: **193.899 jiwa, 36 kecamatan** (P66 169.557/48; P80 218.021/29) |
+| Fasilitas layanan Podes 2024 | Total RS, PT, bank umum untuk tujuh kab/kota terekam beserta locator di catatan sumber. Kota Bogor: tabel 22 RS vs narasi 20. Tangsel: tabel PT 5+23 vs narasi 1+28. **Tabel bank Tangsel 2024 tidak tercetak**; edisi 2025 (PDF hlm. 151) memuatnya | Tabel 4.3 baru; cadangan **K9** |
+| Ketergantungan tingkat 2 | Asimetri dengan DKI 2023 positif di semua unit (0,43 Kota Tangerang – 0,87 Kab. Bogor). Rasio masuk/keluar >1 hanya Kota Bogor (1,22) dan Tangsel (1,02) | D5 dapat dijalankan; kolom baru di Tabel 4.4 |
+| Bibliografi | Crossref: `sadewoetal2021` 38(1): 47–71; `volgmannrusche2020` 111(1): 60–79. `andani2021` = bab dalam *Applications of Access* (Levinson & Ermagun, ed.; University of Sydney, 2021), hlm. 239–260 (rekaman UTwente) | Entri dilengkapi |
+| Syarat Google Maps Platform | Versi 10 Juni 2026 diarsipkan. Places §14.2 dan Routes §19.2: konten tidak boleh dipakai bersama peta non-Google; §3 mengizinkan menyimpan `place_id`. Ketentuan umum belum dibaca | Lapisan turunan Google dikeluarkan dari Web GIS; hanya tabel dan analisis. Penyimpanan nilai turunan tetap wilayah abu-abu |
+| Kawasan industri | 30 rekaman = 21 kawasan unik; 19 di luar DKI. `Luas_IUKI` kemungkinan besar hektare luas izin (cocok dengan luas poligon untuk kawasan berpoligon tunggal); poligon kawasan besar jauh lebih luas dari izin | Masker D3 memakai poligon; naskah diseragamkan |
+
+Catatan hitungan: rasio dan asimetri dihitung agen dari matriks yang sudah ditranskripsi di catatan sumber Komuter (arus ke luar Jabodetabek masuk penyebut arus keluar). Tidak dibuat objek `calculation/`.
+
+### 16.3 Yang berubah di naskah
+
+- **Bab 1:** definisi integrasi (inti metropolitan; DKI dan antarpinggiran dibaca terpisah); pusat sekunder sebagai subkelompok; paragraf batasan WSM; proksi pekerjaan di luar kawasan industri; label *shadow* hanya dari layanan; ringkasan metode menyebut beban jam sibuk dan relasi antarpinggiran.
+- **Bab 2:** batas klaim domain pekerjaan; tipologi (baris *shadow* = defisit layanan + beban atau ketergantungan); antisipasi banyak unit "tidak terselesaikan"; P2 ditulis ulang (NRES di luar kawasan industri + profil antarpinggiran tingkat 2); gerbang dengan ketergantungan; tabel penjelasan alternatif (kawasan industri sebagai jalur; tol/rel satu peran).
+- **Bab 3:** spesifikasi utama (interaksi status inti, $I^{DKI}$ kembar, $F_P$ di luar kawasan industri, beban jam sibuk, label *shadow* dari layanan); K3/K6 diubah, **K9 baru**; sumber (Routes API; Kemenperin; Podes Tangsel); operasionalisasi T1 (moderator, status inti, $I^{DKI}$, beban Google) dan T2 (ketergantungan $G$); **Tabel 3.7 bentuk bukti relasi** (mengembalikan profil relasi multidimensi, R1); paragraf metodologi MPD; Langkah 5 menjadi manfaat, beban, dan ketergantungan; Langkah 6 (aturan baca $\theta_P$, interaksi, gerbang); Langkah 7 (NRES total, tanpa bank, beban OSM); keterlacakan P1/P2; pengakuan selisih periode (R5); etika Google Routes.
+- **Bab 4:** subbab **Pusat pelayanan** dan Tabel 4.3 (R3); kolom asimetri di tabel komuter; basis Banten dan P75 dibekukan; kawasan industri 30/21/19 dan satuan luas; audit sumber diperbarui.
+- **Gambar:** keempat `.mmd` diperbarui dan dirender ulang (mermaid-cli 12.0.0, lokal).
+- **Bibliografi:** tiga entri dilengkapi.
+- **Preamble:** font *monospace* jatuh ke Courier New bila Consolas tidak terpasang.
+- **Kompilasi lokal** XeLaTeX + Biber dengan Times New Roman: 66 halaman, tanpa galat, tanpa rujukan/sitasi tak terdefinisi, tiga *overfull box* <5 pt. PDF: `latex/tga_pwk_jakarta_bab_1_4_2026_10_03.pdf`.
+
+### 16.4 Batas putaran ini
+
+- Makna nilai WSM pada kecamatan inti adalah inferensi dari pola nilai DKI; BPS tidak menyatakannya eksplisit.
+- Biaya dan kepatuhan Google Routes belum diuji; K6 tersedia.
+- Rincian fasilitas per kecamatan belum ditranskripsi; hanya total kab/kota dan locator tabel.
+- Kriteria volume hunian untuk penanda pusat dan seluruh hitungan GHSL menunggu batas kecamatan (COD-AB HDX, unduhan pengguna).
+- Enam peta Bab 4 masih placeholder (R6), dan K1 Kota Bekasi menunggu unduhan *Kecamatan Dalam Angka*.
+- Penyuntingan bahasa (humanizer/EYD) belum dijalankan.
