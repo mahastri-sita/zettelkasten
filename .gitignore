@@ -37,6 +37,7 @@ output-studio/**/*.xlsx
 output-studio/**/*.xml
 output-studio/**/*.zip
 output-studio/**/*.qml
+output-studio/**/*.qpt
 
 # Generated studio map assets
 output-studio/**/*.gif
