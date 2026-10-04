@@ -20,3 +20,26 @@ tmp/
 
 # Windows download metadata
 *:Zone.Identifier
+
+# Local GIS datasets and archives
+output-studio/**/*.dbf
+output-studio/**/*.prj
+output-studio/**/*.qix
+output-studio/**/*.qpj
+output-studio/**/*.sbn
+output-studio/**/*.sbx
+output-studio/**/*.shp
+output-studio/**/*.shp.xml
+output-studio/**/*.shx
+output-studio/**/*.tif
+output-studio/**/*.tiff
+output-studio/**/*.xlsx
+output-studio/**/*.xml
+output-studio/**/*.zip
+output-studio/**/*.qml
+
+# Generated studio map assets
+output-studio/**/*.gif
+output-studio/**/*.jpg
+output-studio/**/*.jpeg
+output-studio/**/*.png
